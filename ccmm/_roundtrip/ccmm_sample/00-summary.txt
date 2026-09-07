@@ -1,0 +1,14 @@
+Status: COMPLETED
+Input: _xml/ccmm_sample.xml
+Output directory: _roundtrip/ccmm_sample
+Fail policy: pipeline
+
+Stages:
+- 01 XSD validation: INVALID (12 findings)
+- 02 lifting XSLT: OK
+- 03 RDF conversion: OK (308 triples)
+- 04 SHACL validation: NON-CONFORMANT (76 findings)
+- 05 SPARQL results conversion: OK
+- 06 lowering XSLT: OK
+- 07 XML comparison: DIFFERENT
+- 08 round-trip XSD validation: INVALID (21 findings)
