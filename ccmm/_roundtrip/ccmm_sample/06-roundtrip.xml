@@ -1,0 +1,489 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ccmm:dataset xmlns:c="https://schemas.dataspecer.com/xsd/core/"
+              xmlns:ccmm="https://schema.ccmm.cz/research-data/2.0"
+              xmlns:gml="http://www.opengis.net/gml/3.2"
+              xmlns:gsp="http://www.opengis.net/ont/geosparql#"
+              xmlns:sp="http://www.w3.org/2005/sparql-results#"
+              xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <ccmm:iri>https://organization.cz/dataset_server/dataset_id</ccmm:iri>
+   <ccmm:metadata_identification>
+      <ccmm:iri>https://original-catalogue/dataset_metadata_id</ccmm:iri>
+      <ccmm:language>
+         <ccmm:iri>http://publications.europa.eu/resource/authority/language/CES</ccmm:iri>
+         <ccmm:label xml:lang="cs">čeština</ccmm:label>
+      </ccmm:language>
+      <ccmm:qualified_attribution>
+         <ccmm:attributed_agent>
+            <ccmm:person>
+               <ccmm:identifier>
+                  <ccmm:iri>https://orcid.org/0030-04X2-2030-4X26</ccmm:iri>
+                  <ccmm:value>0030-04X2-2030-4X26</ccmm:value>
+                  <ccmm:scheme>
+                     <ccmm:iri>https://orcid.org/</ccmm:iri>
+                     <ccmm:label>ORCID</ccmm:label>
+                  </ccmm:scheme>
+               </ccmm:identifier>
+               <ccmm:name>Novák</ccmm:name>
+               <ccmm:given_name>Jan</ccmm:given_name>
+               <ccmm:family_name>Novák</ccmm:family_name>
+               <ccmm:contact_point>
+                  <ccmm:email>jan.novak@email.com</ccmm:email>
+                  <ccmm:phone>+0112345678</ccmm:phone>
+                  <ccmm:address>
+                     <ccmm:full_address>Dlouhá 15, 11000, Praha 1</ccmm:full_address>
+                  </ccmm:address>
+               </ccmm:contact_point>
+               <ccmm:affiliation>
+                  <ccmm:identifier>
+                     <ccmm:iri>https://ror.org/024d6js02</ccmm:iri>
+                     <ccmm:value>024d6js02</ccmm:value>
+                     <ccmm:scheme>
+                        <ccmm:iri>https://ror.org/</ccmm:iri>
+                        <ccmm:label>ROR</ccmm:label>
+                     </ccmm:scheme>
+                  </ccmm:identifier>
+                  <ccmm:name>Univerzita Karlova</ccmm:name>
+               </ccmm:affiliation>
+            </ccmm:person>
+         </ccmm:attributed_agent>
+         <ccmm:role>
+            <ccmm:iri>https://vocabs.ccmm.cz/registry/codelist/AgentRole/Contributor/DataManager</ccmm:iri>
+            <ccmm:label xml:lang="en">Data Manager</ccmm:label>
+            <ccmm:label xml:lang="cs">Manažer dat</ccmm:label>
+         </ccmm:role>
+      </ccmm:qualified_attribution>
+      <ccmm:date_updated>2025-07-25</ccmm:date_updated>
+      <ccmm:date_created>2025-04-28</ccmm:date_created>
+      <ccmm:conforms_to_standard>
+         <ccmm:iri>https://model.ccmm.cz/research-data/2.0.0</ccmm:iri>
+         <ccmm:label>CCMM RD 2.0.0</ccmm:label>
+      </ccmm:conforms_to_standard>
+      <ccmm:conforms_to_standard>
+         <ccmm:iri>https://www.iso.org/standard/80275.html</ccmm:iri>
+         <ccmm:label>ISO 19115-1:2014/Amd 2:2020</ccmm:label>
+      </ccmm:conforms_to_standard>
+      <ccmm:original_repository>
+         <ccmm:iri>https://original-repository.cz</ccmm:iri>
+         <ccmm:label xml:lang="cs">Původní repozitář</ccmm:label>
+         <ccmm:qualified_attribution>
+            <ccmm:attributed_agent>
+               <ccmm:organization>
+                  <ccmm:name>Univerzita Karlova</ccmm:name>
+               </ccmm:organization>
+            </ccmm:attributed_agent>
+            <ccmm:role>
+               <ccmm:iri>https://vocabs.ccmm.cz/registry/codelist/AgentRole/Publisher</ccmm:iri>
+               <ccmm:label xml:lang="en">Publisher</ccmm:label>
+               <ccmm:label xml:lang="cs">Vydavatel</ccmm:label>
+            </ccmm:role>
+         </ccmm:qualified_attribution>
+      </ccmm:original_repository>
+   </ccmm:metadata_identification>
+   <ccmm:identifier>
+      <ccmm:iri>https://doi.org/10.45321/as36sl</ccmm:iri>
+      <ccmm:value>10.45321/as36sl</ccmm:value>
+      <ccmm:scheme>
+         <ccmm:iri>https://doi.org/</ccmm:iri>
+         <ccmm:label>DOI</ccmm:label>
+      </ccmm:scheme>
+   </ccmm:identifier>
+   <ccmm:identifier>
+      <ccmm:iri>https://organization.cz/datasets/air-q-cb-25-23</ccmm:iri>
+      <ccmm:value>air-q-cb-25-23</ccmm:value>
+      <ccmm:scheme>
+         <ccmm:iri>https://organization.cz/datasets/</ccmm:iri>
+         <ccmm:label xml:lang="cs">Organizační identifikační schéma</ccmm:label>
+      </ccmm:scheme>
+   </ccmm:identifier>
+   <ccmm:version>1.0.23</ccmm:version>
+   <ccmm:title>Kvalita ovzduší ve středních čechách 2024</ccmm:title>
+   <ccmm:alternate_title>
+      <ccmm:title xml:lang="en">Air quality measurements in Central Bohemian Region in 2024.</ccmm:title>
+      <ccmm:alternate_title_type>
+         <ccmm:iri>https://vocabs.ccmm.cz/registry/codelist/AlternateTitle/TranslatedTitle</ccmm:iri>
+         <ccmm:label xml:lang="cs">Přeložený název</ccmm:label>
+         <ccmm:label xml:lang="en">Translated Title</ccmm:label>
+      </ccmm:alternate_title_type>
+   </ccmm:alternate_title>
+   <ccmm:qualified_attribution>
+      <ccmm:attributed_agent>
+         <ccmm:person>
+            <ccmm:identifier>
+               <ccmm:iri>https://orcid.org/0023-0802-44X6-26X0</ccmm:iri>
+               <ccmm:value>0023-0802-44X6-26X0</ccmm:value>
+               <ccmm:scheme>
+                  <ccmm:iri>https://orcid.org/</ccmm:iri>
+                  <ccmm:label>ORCID</ccmm:label>
+               </ccmm:scheme>
+            </ccmm:identifier>
+            <ccmm:name>Ivan Janouch</ccmm:name>
+            <ccmm:given_name>Ivan</ccmm:given_name>
+            <ccmm:family_name>Janouch</ccmm:family_name>
+            <ccmm:contact_point>
+               <ccmm:email>256384@muni.cz</ccmm:email>
+               <ccmm:phone>+420876543219</ccmm:phone>
+               <ccmm:address>
+                  <ccmm:full_address>Pražská 3, 60200, Brno</ccmm:full_address>
+               </ccmm:address>
+            </ccmm:contact_point>
+            <ccmm:affiliation>
+               <ccmm:identifier>
+                  <ccmm:iri>https://ror.org/02j46qs45</ccmm:iri>
+                  <ccmm:value>02j46qs45</ccmm:value>
+                  <ccmm:scheme>
+                     <ccmm:iri>https://ror.org/</ccmm:iri>
+                     <ccmm:label>ROR</ccmm:label>
+                  </ccmm:scheme>
+               </ccmm:identifier>
+               <ccmm:name>Masarykova Univerzita</ccmm:name>
+            </ccmm:affiliation>
+         </ccmm:person>
+      </ccmm:attributed_agent>
+      <ccmm:role>
+         <ccmm:iri>https://vocabs.ccmm.cz/registry/codelist/AgentRole/Publisher</ccmm:iri>
+         <ccmm:label xml:lang="en">Publisher</ccmm:label>
+         <ccmm:label xml:lang="cs">Vydavatel</ccmm:label>
+      </ccmm:role>
+   </ccmm:qualified_attribution>
+   <ccmm:qualified_attribution>
+      <ccmm:attributed_agent>
+         <ccmm:person>
+            <ccmm:identifier>
+               <ccmm:iri>https://orcid.org/0030-04X2-2030-4X26</ccmm:iri>
+               <ccmm:value>0030-04X2-2030-4X26</ccmm:value>
+               <ccmm:scheme>
+                  <ccmm:iri>https://orcid.org/</ccmm:iri>
+                  <ccmm:label>ORCID</ccmm:label>
+               </ccmm:scheme>
+            </ccmm:identifier>
+            <ccmm:name>Novák</ccmm:name>
+            <ccmm:given_name>Jan</ccmm:given_name>
+            <ccmm:family_name>Novák</ccmm:family_name>
+            <ccmm:contact_point>
+               <ccmm:email>jan.novak@email.com</ccmm:email>
+               <ccmm:phone>+0112345678</ccmm:phone>
+               <ccmm:address>
+                  <ccmm:full_address>Dlouhá 15, 11000, Praha 1</ccmm:full_address>
+               </ccmm:address>
+            </ccmm:contact_point>
+            <ccmm:affiliation>
+               <ccmm:identifier>
+                  <ccmm:iri>https://ror.org/024d6js02</ccmm:iri>
+                  <ccmm:value>024d6js02</ccmm:value>
+                  <ccmm:scheme>
+                     <ccmm:iri>https://ror.org/</ccmm:iri>
+                     <ccmm:label>ROR</ccmm:label>
+                  </ccmm:scheme>
+               </ccmm:identifier>
+               <ccmm:name>Univerzita Karlova</ccmm:name>
+            </ccmm:affiliation>
+         </ccmm:person>
+      </ccmm:attributed_agent>
+      <ccmm:role>
+         <ccmm:iri>https://vocabs.ccmm.cz/registry/codelist/AgentRole/Creator</ccmm:iri>
+         <ccmm:label xml:lang="cs">Autor</ccmm:label>
+         <ccmm:label xml:lang="en">Creator</ccmm:label>
+      </ccmm:role>
+   </ccmm:qualified_attribution>
+   <ccmm:publication_year>2025</ccmm:publication_year>
+   <ccmm:time_reference>
+      <ccmm:temporal_representation>
+         <ccmm:time_instant>
+            <ccmm:date_time>2025-04-27T12:00:01+02:00</ccmm:date_time>
+         </ccmm:time_instant>
+      </ccmm:temporal_representation>
+      <ccmm:date_type>
+         <ccmm:iri>https://vocabs.ccmm.cz/registry/codelist/TimeReference/Collected</ccmm:iri>
+         <ccmm:label xml:lang="en">Date Collected</ccmm:label>
+         <ccmm:label xml:lang="cs">Datum sběru</ccmm:label>
+      </ccmm:date_type>
+   </ccmm:time_reference>
+   <ccmm:time_reference>
+      <ccmm:temporal_representation>
+         <ccmm:time_interval>
+            <ccmm:beginning>
+               <ccmm:date>2024-01-01</ccmm:date>
+            </ccmm:beginning>
+            <ccmm:end>
+               <ccmm:date>2024-12-31</ccmm:date>
+            </ccmm:end>
+         </ccmm:time_interval>
+      </ccmm:temporal_representation>
+      <ccmm:date_type>
+         <ccmm:iri>https://vocabs.ccmm.cz/registry/codelist/TimeReference/Collected</ccmm:iri>
+         <ccmm:label xml:lang="en">Date Collected</ccmm:label>
+         <ccmm:label xml:lang="cs">Datum sběru</ccmm:label>
+      </ccmm:date_type>
+   </ccmm:time_reference>
+   <ccmm:resource_type>
+      <ccmm:iri>http://purl.org/coar/resource_type/c_ddb1</ccmm:iri>
+      <ccmm:label xml:lang="en">dataset</ccmm:label>
+      <ccmm:label xml:lang="cs">datová sada</ccmm:label>
+   </ccmm:resource_type>
+   <ccmm:primary_language>
+      <ccmm:iri>http://publications.europa.eu/resource/authority/language/CES</ccmm:iri>
+      <ccmm:label xml:lang="cs">čeština</ccmm:label>
+   </ccmm:primary_language>
+   <ccmm:other_language>
+      <ccmm:iri>http://publications.europa.eu/resource/authority/language/ENG</ccmm:iri>
+   </ccmm:other_language>
+   <ccmm:access_rights>
+      <ccmm:iri>http://purl.org/coar/access_right/c_abf2</ccmm:iri>
+      <ccmm:label xml:lang="en">open access</ccmm:label>
+      <ccmm:label xml:lang="cs">otevřený přístup</ccmm:label>
+   </ccmm:access_rights>
+   <ccmm:subject>
+      <ccmm:iri>http://inspire.ec.europa.eu/theme/ef</ccmm:iri>
+      <ccmm:title xml:lang="en">Environmental monitoring facilities</ccmm:title>
+      <ccmm:definition xml:lang="en">Location and operation of environmental monitoring facilities
+            includes observation and measurement of emissions, of the state of environmental media
+            and of other ecosystem parameters (biodiversity, ecological conditions of vegetation,
+            etc.) by or on behalf of public authorities.</ccmm:definition>
+      <ccmm:classification_code>EF</ccmm:classification_code>
+      <ccmm:subject_scheme>
+         <ccmm:iri>https://inspire.ec.europa.eu/theme/</ccmm:iri>
+         <ccmm:label xml:lang="en">INSPIRE theme register</ccmm:label>
+      </ccmm:subject_scheme>
+   </ccmm:subject>
+   <ccmm:subject>
+      <ccmm:iri>https://vocabs.ccmm.cz/registry/codelist/SubjectCategory/10000/10500/10509</ccmm:iri>
+      <ccmm:title xml:lang="cs">Meteorologie, vědy o atmosféře</ccmm:title>
+      <ccmm:title xml:lang="en">Meteorology and atmospheric sciences</ccmm:title>
+      <ccmm:classification_code>10509</ccmm:classification_code>
+      <ccmm:subject_scheme>
+         <ccmm:iri>https://vocabs.ccmm.cz/registry/codelist/SubjectCategory/</ccmm:iri>
+         <ccmm:label xml:lang="cs">Oborové třídění OECD FORD (Frascati)</ccmm:label>
+         <ccmm:label xml:lang="en">OECD FORD Subject Category (Frascati)</ccmm:label>
+      </ccmm:subject_scheme>
+   </ccmm:subject>
+   <ccmm:keyword xml:lang="cs">kvalita ovzduší</ccmm:keyword>
+   <ccmm:description>
+      <ccmm:description_text xml:lang="cs">Tato datová sada obsahuje měření kvality ovzduší ve středních Čechách v
+            roce 2024.</ccmm:description_text>
+      <ccmm:description_type>
+         <ccmm:iri>https://vocabs.ccmm.cz/registry/codelist/DescriptionType/Abstract</ccmm:iri>
+         <ccmm:label xml:lang="en">Abstract</ccmm:label>
+         <ccmm:label xml:lang="cs">Abstrakt</ccmm:label>
+      </ccmm:description_type>
+   </ccmm:description>
+   <ccmm:location>
+      <ccmm:bounding_box>
+         <ccmm:gml>
+            <gml:Envelope xmlns="https://schema.ccmm.cz/research-data/2.0">
+               <gml:lowerCorner>13.394972457505816 49.50127042751268</gml:lowerCorner>
+               <gml:upperCorner>15.585575400519133 50.61421606255462</gml:upperCorner>
+            </gml:Envelope>
+         </ccmm:gml>
+      </ccmm:bounding_box>
+      <ccmm:label xml:lang="cs">Středočeský kraj</ccmm:label>
+      <ccmm:geometry>
+         <ccmm:gml>
+            <gml:MultiSurface xmlns="https://schema.ccmm.cz/research-data/2.0"
+                              gml:id="MS.AU.2.27"
+                              srsName="http://www.opengis.net/def/crs/EPSG/0/5514"
+                              srsDimension="2">
+               <gml:surfaceMember>
+                  <gml:Polygon gml:id="S.AU.2.27.1">
+                     <gml:exterior>
+                        <gml:LinearRing>
+                           <gml:posList>-700345.18 -989088.81 -700397.4 -989124.72
+                                        -700413.72 -989135.06 -700460.36 -989161.37 -700464.2
+                                        -989163.4 -700499.66 -989177.78 -700543.38 -989185.44
+                                        -700547.56 -989186.17 -734005.2 -1034221.4 -734000.7
+                                        -1034206.55 -733990.88 -1034174.1 -733982.57 -1034166.93
+                                        -733980.5 -1034165.15 -733970.63 -1034131.76 -733969.44
+                                        -1034127.73 -733973.52 -1034126.34 -733972.62
+                                        -1034123.26</gml:posList>
+                        </gml:LinearRing>
+                     </gml:exterior>
+                  </gml:Polygon>
+               </gml:surfaceMember>
+            </gml:MultiSurface>
+         </ccmm:gml>
+         <ccmm:wkt srsName="http://www.opengis.net/def/crs/EPSG/0/4326">POLYGON ((14.508682697577541
+                50.51144569678917, 14.477983995157558 50.518028235000116, 14.478035479185621
+                50.45555539736816, 14.43880488232486 50.421645176771875, 14.36581743554305
+                50.446719892855725, 14.35739194570175 50.36258757705775, 14.250657864603255
+                50.33210789446332, 14.020371354587127 50.357187064119046, 13.880065240527614
+                50.25844541078942, 13.778984389572202 50.265648633804574, 13.495504438237504
+                50.17943830724704, 13.411503893003527 50.10568117653557, 13.417170120315802
+                50.03544699629592, 13.832381491846519 49.950644934840085, 13.795973119752944
+                49.80605469619334, 13.85777765771411 49.70834633763184, 13.731479412226832
+                49.6646629397591, 13.756733581251808 49.524668139017024, 13.967097422200993
+                49.51543217474966, 14.046896101223354 49.56571182490248, 14.088997534155055
+                49.520140414785175, 14.263020664899983 49.55285796043711, 14.389212294975863
+                49.53296587296373, 14.564954244472574 49.54952076690324, 14.646281469761647
+                49.50408988161226, 14.735996252098658 49.5403919181108, 14.747207923257832
+                49.62756002769342, 14.932262624987828 49.542327845490064, 15.005169791530534
+                49.6041078098593, 15.232274449831607 49.60593619825548, 15.243541844074144
+                49.65489001943007, 15.16792950938833 49.69645491207288, 15.212758939211
+                49.758168304172386, 15.510333591208592 49.853893057205454, 15.5246155982382
+                49.97119836125438, 15.361856320336926 50.046941393360356, 15.41520889434986
+                50.12977066138589, 15.32818568688134 50.15316027875852, 15.401167427630014
+                50.22145049356703, 15.356241063917224 50.293232962277955, 15.207509418150238
+                50.28784932198144, 15.089561576559703 50.37564180390385, 15.15967793985348
+                50.46503338472152, 15.100730871208327 50.548897837519775, 14.915528393428872
+                50.61835182571946, 14.85663081512601 50.57566962715006, 14.820147490564125
+                50.543574383167936, 14.769635500894594 50.56495862568477, 14.741574967586558
+                50.53286099312848, 14.688263940665593 50.48824277888082, 14.604089936049633
+                50.479312687191054, 14.508682697577541 50.51144569678917))</ccmm:wkt>
+      </ccmm:geometry>
+      <ccmm:related_object>
+         <ccmm:iri>https://vdp.cuzk.gov.cz/vdp/ruian/vusc/27</ccmm:iri>
+         <ccmm:title>Středočeský kraj</ccmm:title>
+      </ccmm:related_object>
+      <ccmm:relation_type>
+         <ccmm:iri>https://vocabs.ccmm.cz/registry/codelist/LocationRelation/Collected</ccmm:iri>
+         <ccmm:label xml:lang="en">Collected in</ccmm:label>
+         <ccmm:label xml:lang="cs">Získáno v lokaci</ccmm:label>
+      </ccmm:relation_type>
+   </ccmm:location>
+   <ccmm:funding_reference>
+      <ccmm:iri>https://funder-org.org/grants/123456789</ccmm:iri>
+      <ccmm:local_identifier>https://doi.org/award-identifier</ccmm:local_identifier>
+      <ccmm:award_title>Program for air pollution research</ccmm:award_title>
+      <ccmm:funding_program>https://funder-org.org/program/abcdefgh</ccmm:funding_program>
+      <ccmm:funder>
+         <ccmm:organization>
+            <ccmm:iri>https://ror.org/01pv73b02</ccmm:iri>
+            <ccmm:identifier>
+               <ccmm:value>01pv73b02</ccmm:value>
+               <ccmm:scheme>
+                  <ccmm:iri>https://ror.org/</ccmm:iri>
+                  <ccmm:label>ROR</ccmm:label>
+               </ccmm:scheme>
+            </ccmm:identifier>
+            <ccmm:name>Grantová agentura České republiky</ccmm:name>
+         </ccmm:organization>
+      </ccmm:funder>
+   </ccmm:funding_reference>
+   <ccmm:related_resource>
+      <ccmm:title>ENVI LVS1 Sampler pro odběr prašného aerosolu</ccmm:title>
+      <ccmm:resource_url>https://www.envitech-bohemia.cz/p/264/envi-lvs1-sampler-pro-odber-prasneho-aerosolu</ccmm:resource_url>
+      <ccmm:resource_type>
+         <ccmm:iri>http://purl.org/coar/resource_type/8KJG-QS0Y</ccmm:iri>
+         <ccmm:label xml:lang="en">research instrument</ccmm:label>
+      </ccmm:resource_type>
+      <ccmm:resource_relation_type>
+         <ccmm:iri>https://vocabs.ccmm.cz/registry/codelist/RelationType/IsCollectedBy</ccmm:iri>
+         <ccmm:label xml:lang="en">is collected by</ccmm:label>
+         <ccmm:label xml:lang="cs">je sbírán (čím)</ccmm:label>
+      </ccmm:resource_relation_type>
+   </ccmm:related_resource>
+   <ccmm:related_resource>
+      <ccmm:iri>http://data.europa.eu/eli/dir/2008/50/oj</ccmm:iri>
+      <ccmm:title>Směrnice Evropského parlamentu a Rady 2008/50/ES ze dne 21. května 2008 o kvalitě
+            vnějšího ovzduší a čistším ovzduší pro Evropu</ccmm:title>
+      <ccmm:resource_url>https://eur-lex.europa.eu/legal-content/CS/TXT/HTML/?uri=CELEX:32008L0050&amp;qid=1754039487879</ccmm:resource_url>
+      <ccmm:resource_type>
+         <ccmm:iri>http://purl.org/coar/resource_type/c_18cf/</ccmm:iri>
+         <ccmm:label xml:lang="cs">text</ccmm:label>
+      </ccmm:resource_type>
+      <ccmm:resource_relation_type>
+         <ccmm:iri>https://vocabs.ccmm.cz/registry/codelist/RelationType/IsReferencedBy</ccmm:iri>
+         <ccmm:label xml:lang="cs">je na něj odkazováno z (čeho)</ccmm:label>
+      </ccmm:resource_relation_type>
+   </ccmm:related_resource>
+   <ccmm:related_resource>
+      <ccmm:iri>https://data.gov.cz/zdroj/datové-sady/00020699/c724d055011d82189bbfc3766ffd1eb7</ccmm:iri>
+      <ccmm:title>Metadata datoivé sady INSPIRE – Kvalita ovzduší – přehledy (data) na měřicích
+            stanicích</ccmm:title>
+      <ccmm:resource_url>https://data.gov.cz/zdroj/datové-sady/00020699/c724d055011d82189bbfc3766ffd1eb7</ccmm:resource_url>
+      <ccmm:resource_relation_type>
+         <ccmm:iri>https://vocabs.ccmm.cz/registry/codelist/RelationType/HasMetadata</ccmm:iri>
+         <ccmm:label xml:lang="en">has metadata</ccmm:label>
+         <ccmm:label xml:lang="cs">má metadata</ccmm:label>
+      </ccmm:resource_relation_type>
+   </ccmm:related_resource>
+   <ccmm:related_resource>
+      <ccmm:iri>https://opendata.chmi.cz/air_quality/now/data/</ccmm:iri>
+      <ccmm:title>Kvalita ovzduší – aktuální hodinové údaje</ccmm:title>
+      <ccmm:resource_url>https://opendata.chmi.cz/air_quality/</ccmm:resource_url>
+      <ccmm:resource_type>
+         <ccmm:iri>http://purl.org/coar/resource_type/FF4C-28RK</ccmm:iri>
+         <ccmm:label xml:lang="en">observational data</ccmm:label>
+      </ccmm:resource_type>
+      <ccmm:resource_relation_type>
+         <ccmm:iri>https://vocabs.ccmm.cz/registry/codelist/RelationType/IsDerivedFrom</ccmm:iri>
+         <ccmm:label xml:lang="en">is derived from</ccmm:label>
+         <ccmm:label xml:lang="cs">je odvozen od (čeho)</ccmm:label>
+      </ccmm:resource_relation_type>
+   </ccmm:related_resource>
+   <ccmm:distribution>
+      <ccmm:distribution_data_service access_url="https://gis.cenia.gov.cz/id/service/wms/chmu_ovzdusi">
+         <ccmm:title>Služba WMS pro prohlížení dat o kvalitě ovzduší</ccmm:title>
+         <ccmm:access_service>
+            <ccmm:iri>https://gis.cenia.gov.cz/id/service/wms/chmu_ovzdusi</ccmm:iri>
+            <ccmm:label xml:lang="en">Endpoint of WMS service Air quality</ccmm:label>
+            <ccmm:endpoint_url>
+               <ccmm:title>Endpoint of WMS service Air quality</ccmm:title>
+               <ccmm:resource_url>https://gis.cenia.gov.cz/id/service/wms/chmu_ovzdusi</ccmm:resource_url>
+            </ccmm:endpoint_url>
+         </ccmm:access_service>
+         <ccmm:conforms_to>
+            <ccmm:iri>http://data.europa.eu/eli/reg/2010/1089</ccmm:iri>
+            <ccmm:label xml:lang="cs">NAŘÍZENÍ KOMISE (ES) č. 976/2009 ze dne 19. října 2009, kterým
+                    se provádí směrnice Evropského parlamentu a Rady 2007/2/ES, pokud jde o síťové
+                    služby</ccmm:label>
+         </ccmm:conforms_to>
+         <ccmm:documentation>
+            <ccmm:iri>https://geoportal.gov.cz/web/guest/catalogue-client;jsessionid=F54A364E040A9D2184E42D94D288851C/</ccmm:iri>
+         </ccmm:documentation>
+         <ccmm:rights>
+            <ccmm:iri>https://vocabularies.coar-repositories.org/access_rights/c_abf2/</ccmm:iri>
+            <ccmm:label xml:lang="en">open access</ccmm:label>
+         </ccmm:rights>
+         <ccmm:licence>
+            <ccmm:iri>http://link-to-license-statement.com</ccmm:iri>
+         </ccmm:licence>
+         <ccmm:description xml:lang="cs">Prohlížecí služba (WMS)  byla vytvořena na základě dat ČHMÚ a
+                obsahuje vrstvy: 1) Zóny a aglomerace hodnocení a řízení kvality ovzduší; 2) Státní
+                síť imisního monitoringu; 3) Pole koncentrací látek znečišťující ovzduší v gridu 1x1
+                km (Imisní limity pro ochranu lidského zdraví; Imisní limity pro ochranu ekosystémů
+                a vegetace); 4) Přehledy (data) naměřené na stanicích Státní imisní sítě
+                (Koncentrace látek znečišťujících ovzduší, pro které jsou stanoveny imisní limity
+                pro ochranu lidského zdraví; Koncentrace polutantů, pro které jsou stanoveny imisní
+                limity pro ochranu ekosystémů a vegetace) pro rok 2023.</ccmm:description>
+      </ccmm:distribution_data_service>
+   </ccmm:distribution>
+   <ccmm:distribution>
+      <ccmm:distribution_downloadable_file>
+         <ccmm:iri>http://portal.chmi.cz/AQ_DATA</ccmm:iri>
+         <ccmm:title>Kvalita ovzduší</ccmm:title>
+         <ccmm:access_url>https://www.chmi.cz/o-nas/organizacni-struktura/usek-kvality-ovzdusi/oddeleni-informacniho-systemu-kvality-ovzdusi/odkazy</ccmm:access_url>
+         <ccmm:download_url>
+            <ccmm:iri>https://geoportal.gov.cz/atom/CHMU/chmu_ovzdusi_AQ_data_epsg4258_2023.zip</ccmm:iri>
+            <ccmm:label xml:lang="en">Dataset in Geopackage format</ccmm:label>
+            <ccmm:label xml:lang="cs">Datová sada ve formátu Geopackage</ccmm:label>
+         </ccmm:download_url>
+         <ccmm:conforms_to>
+            <ccmm:iri>https://inspire.ec.europa.eu/schemas/ef/4.0/EnvironmentalMonitoringFacilities.xsd</ccmm:iri>
+            <ccmm:label xml:lang="en">Environmental monitoring facilities</ccmm:label>
+         </ccmm:conforms_to>
+         <ccmm:format>
+            <ccmm:iri>https://op.europa.eu/web/eu-vocabularies/concept/-/resource?uri=http://publications.europa.eu/resource/authority/file-type/GPKG</ccmm:iri>
+            <ccmm:label xml:lang="en">GeoPackage</ccmm:label>
+         </ccmm:format>
+         <ccmm:media_type>
+            <ccmm:iri>https://op.europa.eu/web/eu-vocabularies/concept/-/resource?uri=http://publications.europa.eu/resource/authority/file-type/ZIP</ccmm:iri>
+            <ccmm:label xml:lang="en">ZIP</ccmm:label>
+         </ccmm:media_type>
+         <ccmm:byte_size>256</ccmm:byte_size>
+         <ccmm:checksum>
+            <ccmm:checksum_value>9c56cc51b374d3a94e096e3f5483c05c6e69e221ae5d62a5435c5f3a9fc84938</ccmm:checksum_value>
+            <ccmm:algorithm>
+               <ccmm:iri>https://spdx.org/rdf/terms/#d4e4247</ccmm:iri>
+            </ccmm:algorithm>
+         </ccmm:checksum>
+         <ccmm:rights>
+            <ccmm:iri>https://vocabularies.coar-repositories.org/access_rights/c_abf2/</ccmm:iri>
+            <ccmm:label xml:lang="en">open access</ccmm:label>
+         </ccmm:rights>
+         <ccmm:licence>
+            <ccmm:iri>http://link-to-license-statement.com</ccmm:iri>
+         </ccmm:licence>
+      </ccmm:distribution_downloadable_file>
+   </ccmm:distribution>
+   <ccmm:validation_result/>
+   <ccmm:generated_by ro-crate_json_representation="https://link.to/ro-crate-json"/>
+</ccmm:dataset>

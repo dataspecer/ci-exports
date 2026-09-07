@@ -1,0 +1,1427 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<https://model.ccmm.cz/research-data/> rdfs:member <https://model.ccmm.cz/research-data/dcat%3ADatasetShape>, <https://model.ccmm.cz/research-data/foaf%3AAgentShape>, <https://model.ccmm.cz/research-data/prov%3APersonShape>, <https://model.ccmm.cz/research-data/http://www.w3.org/ns/org#OrganizationShape>, <https://model.ccmm.cz/research-data/https://w3id.org/tib/datacite/class/FundingReferenceShape>, <https://model.ccmm.cz/research-data/dcat%3ADistributionShape>, <https://model.ccmm.cz/research-data/ccmm%3AValidationResultShape>, <https://model.ccmm.cz/research-data/https://w3id.org/tib/datacite/class/SubjectShape>, <https://model.ccmm.cz/research-data/rdfs%3AResourceShape>, <https://model.ccmm.cz/research-data/prov%3AAttributionShape>, <https://model.ccmm.cz/research-data/dcat%3ARoleShape>, <https://model.ccmm.cz/research-data/vcard%3AKindShape>, <https://model.ccmm.cz/research-data/locn%3AAddressShape>, <https://model.ccmm.cz/research-data/dcat%3ACatalogRecordShape>, <https://model.ccmm.cz/research-data/dcterms%3AStandardShape>, <https://model.ccmm.cz/research-data/dcat%3ACatalogShape>, <https://model.ccmm.cz/research-data/ccmm%3ADistribution-DownloadableFileShape>, <https://model.ccmm.cz/research-data/ccmm%3ADistribution-DataServiceShape>, <https://model.ccmm.cz/research-data/dcterms%3AMediaTypeShape>, <https://model.ccmm.cz/research-data/dcat%3ADataServiceShape>, <https://model.ccmm.cz/research-data/foaf%3ADocumentShape>, <https://model.ccmm.cz/research-data/ccmm%3ASubjectSchemeShape>, <https://model.ccmm.cz/research-data/dcterms%3ALocationShape>, <https://model.ccmm.cz/research-data/locn%3AGeometryShape>, <https://model.ccmm.cz/research-data/ccmm%3AAlternateTitleShape>, <https://model.ccmm.cz/research-data/spdx%3AChecksumShape>, <https://model.ccmm.cz/research-data/spdx%3AChecksumAlgorithmShape>, <https://model.ccmm.cz/research-data/dcterms%3ALicenseDocumentShape>, <https://model.ccmm.cz/research-data/skos%3AConceptShape>, <https://model.ccmm.cz/research-data/dcterms%3ALinguisticSystemShape>, <https://model.ccmm.cz/research-data/dcterms%3AMediaTypeOrExtentShape>, <https://model.ccmm.cz/research-data/dcterms%3ARightsStatementShape>, <https://model.ccmm.cz/research-data/time%3ATemporalEntityShape>, <https://model.ccmm.cz/research-data/time%3AInstantShape>, <https://model.ccmm.cz/research-data/time%3AIntervalShape>, <https://model.ccmm.cz/research-data/ccmm%3AIdentifierSchemeShape>, <https://model.ccmm.cz/research-data/https://w3id.org/tib/datacite/class/DescriptionShape>, <https://model.ccmm.cz/research-data/ccmm%3ATimeReferenceShape>, <https://model.ccmm.cz/research-data/adms%3AIdentifierShape>, <https://model.ccmm.cz/research-data/prov%3AActivityShape>, <https://model.ccmm.cz/research-data/ccmm%3ACPMJsonRepresentationShape>, <https://model.ccmm.cz/research-data/ccmm%3ARo-crateJsonRepresentationShape>.
+
+<https://model.ccmm.cz/research-data/dcat%3ADatasetShape> a sh:NodeShape;
+    rdfs:seeAlso <https://model.ccmm.cz/research-data/Dataset>;
+    sh:closed false;
+    sh:targetClass <http://www.w3.org/ns/dcat#Dataset>.
+
+<https://model.ccmm.cz/research-data/dcat%3ADatasetShape/-19e2cf07> a sh:PropertyShape;
+    sh:name "title"@en;
+    sh:nodeKind sh:Literal;
+    sh:path <http://purl.org/dc/terms/title>;
+    sh:maxCount 1;
+    sh:datatype xsd:string.
+
+<https://model.ccmm.cz/research-data/dcat%3ADatasetShape> sh:property <https://model.ccmm.cz/research-data/dcat%3ADatasetShape/-19e2cf07>.
+
+<https://model.ccmm.cz/research-data/dcat%3ADatasetShape/3c2712c8> a sh:PropertyShape;
+    sh:name "version"@en;
+    sh:nodeKind sh:Literal;
+    sh:path <http://www.w3.org/ns/dcat#version>;
+    sh:maxCount 1;
+    sh:datatype xsd:string.
+
+<https://model.ccmm.cz/research-data/dcat%3ADatasetShape> sh:property <https://model.ccmm.cz/research-data/dcat%3ADatasetShape/3c2712c8>.
+
+<https://model.ccmm.cz/research-data/dcat%3ADatasetShape/4d77775c> a sh:PropertyShape;
+    sh:name "publication year"@en;
+    sh:description "If TimeReference with dateType \"Issued\" is present, year in that date and publicationYear must be the same."@en;
+    sh:nodeKind sh:Literal;
+    sh:path <https://w3id.org/tib/datacite/property/publicationYear>;
+    sh:maxCount 1;
+    sh:minCount 1;
+    sh:datatype xsd:gYear.
+
+<https://model.ccmm.cz/research-data/dcat%3ADatasetShape> sh:property <https://model.ccmm.cz/research-data/dcat%3ADatasetShape/4d77775c>.
+
+<https://model.ccmm.cz/research-data/dcat%3ADatasetShape/6ca3a6c0> a sh:PropertyShape;
+    sh:name "keyword"@en, "klíčové slovo"@cs, "mot-clés "@fr, "palabra clave"@es, "parola chiave"@it, "λέξη-κλειδί"@el, "كلمة  مفتاحية "@ar, "キーワード/タグ"@ja, "nøgleord"@da;
+    sh:description "Preferably use subjects as concepts from controlled vocabularies."@en;
+    sh:nodeKind sh:Literal;
+    sh:path <http://www.w3.org/ns/dcat#keyword>;
+    sh:datatype rdf:langString.
+
+<https://model.ccmm.cz/research-data/dcat%3ADatasetShape> sh:property <https://model.ccmm.cz/research-data/dcat%3ADatasetShape/6ca3a6c0>.
+
+<https://model.ccmm.cz/research-data/dcat%3ADatasetShape/63b3b548> a sh:PropertyShape;
+    sh:name "has related resource"@en;
+    sh:nodeKind sh:BlankNodeOrIRI;
+    sh:path <http://purl.org/dc/terms/relation>.
+
+<https://model.ccmm.cz/research-data/dcat%3ADatasetShape> sh:property <https://model.ccmm.cz/research-data/dcat%3ADatasetShape/63b3b548>.
+
+<https://model.ccmm.cz/research-data/dcat%3ADatasetShape/3b0b6cdc> a sh:PropertyShape;
+    sh:name "has funding reference"@en;
+    sh:nodeKind sh:BlankNodeOrIRI;
+    sh:path <https://w3id.org/tib/datacite/property/fundingReference>;
+    sh:class <https://w3id.org/tib/datacite/class/FundingReference>.
+
+<https://model.ccmm.cz/research-data/dcat%3ADatasetShape> sh:property <https://model.ccmm.cz/research-data/dcat%3ADatasetShape/3b0b6cdc>.
+
+<https://model.ccmm.cz/research-data/dcat%3ADatasetShape/3c18bf07> a sh:PropertyShape;
+    sh:name "has distribution"@en;
+    sh:description "For the distribution of data in the form of files use instances of class Distribution – downloadable file. For the distribution of data through service use instance of class Distribution – data service. "@en;
+    sh:nodeKind sh:BlankNodeOrIRI;
+    sh:path <http://www.w3.org/ns/dcat#distribution>;
+    sh:class <http://www.w3.org/ns/dcat#Distribution>.
+
+<https://model.ccmm.cz/research-data/dcat%3ADatasetShape> sh:property <https://model.ccmm.cz/research-data/dcat%3ADatasetShape/3c18bf07>.
+
+<https://model.ccmm.cz/research-data/dcat%3ADatasetShape/7beb1e23> a sh:PropertyShape;
+    sh:name "has validation result"@en;
+    sh:nodeKind sh:BlankNodeOrIRI;
+    sh:path <https://model.ccmm.cz/vocabulary/ccmm#hasValidationResult>;
+    sh:class <https://model.ccmm.cz/vocabulary/ccmm#ValidationResult>.
+
+<https://model.ccmm.cz/research-data/dcat%3ADatasetShape> sh:property <https://model.ccmm.cz/research-data/dcat%3ADatasetShape/7beb1e23>.
+
+<https://model.ccmm.cz/research-data/dcat%3ADatasetShape/e881620> a sh:PropertyShape;
+    sh:name "has subject"@en;
+    sh:description "At least one subject must be a value from FRASCATI FORD vocabulary. For that subject use reference codelist https://vocabs.ccmm.cz/registry/codelist/SubjectCategory/ as the Subject scheme and select at least one value from this codelist as a subject."@en;
+    sh:nodeKind sh:BlankNodeOrIRI;
+    sh:path <https://w3id.org/tib/datacite/property/subject>;
+    sh:minCount 1;
+    sh:class <https://w3id.org/tib/datacite/class/Subject>.
+
+<https://model.ccmm.cz/research-data/dcat%3ADatasetShape> sh:property <https://model.ccmm.cz/research-data/dcat%3ADatasetShape/e881620>.
+
+<https://model.ccmm.cz/research-data/dcat%3ADatasetShape/5cd2bbfb> a sh:PropertyShape;
+    sh:name "has time reference"@en;
+    sh:description "Must contain at least one time reference with date type value \"Created\"  from  https://vocabs.ccmm.cz/registry/codelist/TimeReference/."@en;
+    sh:nodeKind sh:BlankNodeOrIRI;
+    sh:path <https://model.ccmm.cz/vocabulary/ccmm#hasTimeReference>;
+    sh:minCount 1;
+    sh:class <https://model.ccmm.cz/vocabulary/ccmm#TimeReference>.
+
+<https://model.ccmm.cz/research-data/dcat%3ADatasetShape> sh:property <https://model.ccmm.cz/research-data/dcat%3ADatasetShape/5cd2bbfb>.
+
+<https://model.ccmm.cz/research-data/dcat%3ADatasetShape/-53f20bf0> a sh:PropertyShape;
+    sh:name "is described by"@en;
+    sh:nodeKind sh:BlankNodeOrIRI;
+    sh:path <https://model.ccmm.cz/vocabulary/ccmm#isDescribedBy>;
+    sh:minCount 1;
+    sh:class <http://www.w3.org/ns/dcat#CatalogRecord>.
+
+<https://model.ccmm.cz/research-data/dcat%3ADatasetShape> sh:property <https://model.ccmm.cz/research-data/dcat%3ADatasetShape/-53f20bf0>.
+
+<https://model.ccmm.cz/research-data/dcat%3ADatasetShape/-f1ea2cb> a sh:PropertyShape;
+    sh:name "has primary language"@en;
+    sh:description "Use language IRI identifier from the register http://publications.europa.eu/resource/authority/language."@en;
+    sh:nodeKind sh:BlankNodeOrIRI;
+    sh:path <https://model.ccmm.cz/vocabulary/ccmm#hasPrimaryLanguage>;
+    sh:maxCount 1;
+    sh:class <http://purl.org/dc/terms/LinguisticSystem>.
+
+<https://model.ccmm.cz/research-data/dcat%3ADatasetShape> sh:property <https://model.ccmm.cz/research-data/dcat%3ADatasetShape/-f1ea2cb>.
+
+<https://model.ccmm.cz/research-data/dcat%3ADatasetShape/38eba703> a sh:PropertyShape;
+    sh:name "has other language"@en;
+    sh:description "Use language IRI identifier from the register http://publications.europa.eu/resource/authority/language. This property can be repeated if there are multiple other languages in the Dataset."@en;
+    sh:nodeKind sh:BlankNodeOrIRI;
+    sh:path <https://model.ccmm.cz/vocabulary/ccmm#hasOtherLanguage>;
+    sh:class <http://purl.org/dc/terms/LinguisticSystem>.
+
+<https://model.ccmm.cz/research-data/dcat%3ADatasetShape> sh:property <https://model.ccmm.cz/research-data/dcat%3ADatasetShape/38eba703>.
+
+<https://model.ccmm.cz/research-data/dcat%3ADatasetShape/78d1c0c0> a sh:PropertyShape;
+    sh:name "has description"@en;
+    sh:description "Description may have various type from the codelist https://vocabs.ccmm.cz/registry/codelist/DescriptionType/. "@en;
+    sh:nodeKind sh:BlankNodeOrIRI;
+    sh:path <https://w3id.org/tib/datacite/property/description>;
+    sh:minCount 1;
+    sh:class <https://w3id.org/tib/datacite/class/Description>.
+
+<https://model.ccmm.cz/research-data/dcat%3ADatasetShape> sh:property <https://model.ccmm.cz/research-data/dcat%3ADatasetShape/78d1c0c0>.
+
+<https://model.ccmm.cz/research-data/dcat%3ADatasetShape/-55ae1af9> a sh:PropertyShape;
+    sh:name "has identifier"@en;
+    sh:nodeKind sh:BlankNodeOrIRI;
+    sh:path <http://www.w3.org/ns/adms#identifier>;
+    sh:minCount 1;
+    sh:class <http://www.w3.org/ns/adms#Identifier>.
+
+<https://model.ccmm.cz/research-data/dcat%3ADatasetShape> sh:property <https://model.ccmm.cz/research-data/dcat%3ADatasetShape/-55ae1af9>.
+
+<https://model.ccmm.cz/research-data/dcat%3ADatasetShape/21b612ea> a sh:PropertyShape;
+    sh:name "has access rights"@en;
+    sh:description "Use IRI identifier from the register http://purl.org/coar/access_right/. Recommended mapping of values from COAR to https://semiceu.github.io/DCAT-AP/drafts/latest/#properties-with-a-recommended-use-of-controlled-vocabularies is:\nembargoed access, metadata only access - :NON_PUBLIC,\nopen access - :PUBLIC,\nrestricted access - :RESTRICTED."@en;
+    sh:nodeKind sh:BlankNodeOrIRI;
+    sh:path <http://purl.org/dc/terms/accessRights>;
+    sh:maxCount 1;
+    sh:class <http://purl.org/dc/terms/RightsStatement>.
+
+<https://model.ccmm.cz/research-data/dcat%3ADatasetShape> sh:property <https://model.ccmm.cz/research-data/dcat%3ADatasetShape/21b612ea>.
+
+<https://model.ccmm.cz/research-data/dcat%3ADatasetShape/-2327f107> a sh:PropertyShape;
+    sh:nodeKind sh:BlankNodeOrIRI;
+    sh:path <http://www.w3.org/ns/prov#wasGeneratedBy>;
+    sh:class <http://www.w3.org/ns/prov#Activity>.
+
+<https://model.ccmm.cz/research-data/dcat%3ADatasetShape> sh:property <https://model.ccmm.cz/research-data/dcat%3ADatasetShape/-2327f107>.
+
+<https://model.ccmm.cz/research-data/rdfs%3AResourceShape/10bdc621> a sh:PropertyShape;
+    sh:name "title"@en;
+    sh:nodeKind sh:Literal;
+    sh:path <http://purl.org/dc/terms/title>;
+    sh:maxCount 1;
+    sh:datatype xsd:string.
+
+<https://model.ccmm.cz/research-data/dcat%3ADatasetShape> sh:property <https://model.ccmm.cz/research-data/rdfs%3AResourceShape/10bdc621>.
+
+<https://model.ccmm.cz/research-data/rdfs%3AResourceShape/69a57d1a> a sh:PropertyShape;
+    sh:name "has location"@en;
+    sh:description "In the CCMM spatial coverage does not only cover the area of resource, it may be connected to the resource in some other way, e.g., the place from where the data were measured, administrative area to which the resource conforms or other."@en;
+    sh:nodeKind sh:BlankNodeOrIRI;
+    sh:path <http://purl.org/dc/terms/spatial>;
+    sh:class <http://purl.org/dc/terms/Location>.
+
+<https://model.ccmm.cz/research-data/dcat%3ADatasetShape> sh:property <https://model.ccmm.cz/research-data/rdfs%3AResourceShape/69a57d1a>.
+
+<https://model.ccmm.cz/research-data/rdfs%3AResourceShape/678dc9cb> a sh:PropertyShape;
+    sh:name "has alternate title"@en;
+    sh:nodeKind sh:BlankNodeOrIRI;
+    sh:path <https://model.ccmm.cz/vocabulary/ccmm#hasAlternateTitle>;
+    sh:class <https://model.ccmm.cz/vocabulary/ccmm#AlternateTitle>.
+
+<https://model.ccmm.cz/research-data/dcat%3ADatasetShape> sh:property <https://model.ccmm.cz/research-data/rdfs%3AResourceShape/678dc9cb>.
+
+<https://model.ccmm.cz/research-data/rdfs%3AResourceShape/-689b939d> a sh:PropertyShape;
+    sh:name "qualified attribution"@en;
+    sh:description "Link to a description of a relationship between resource and an agent with the specification of the role of agent in this relationship. If the resource is Dataset, it has to have at least two qualified attribution relations, the one with the role Creator, the second one with the role Publisher."@en;
+    sh:nodeKind sh:BlankNodeOrIRI;
+    sh:path <http://www.w3.org/ns/prov#qualifiedAttribution>;
+    sh:class <http://www.w3.org/ns/prov#Attribution>.
+
+<https://model.ccmm.cz/research-data/dcat%3ADatasetShape> sh:property <https://model.ccmm.cz/research-data/rdfs%3AResourceShape/-689b939d>.
+
+<https://model.ccmm.cz/research-data/rdfs%3AResourceShape/77c5dd23> a sh:PropertyShape;
+    sh:name "has time reference"@en;
+    sh:nodeKind sh:BlankNodeOrIRI;
+    sh:path <https://model.ccmm.cz/vocabulary/ccmm#hasTimeReference>;
+    sh:class <https://model.ccmm.cz/vocabulary/ccmm#TimeReference>.
+
+<https://model.ccmm.cz/research-data/dcat%3ADatasetShape> sh:property <https://model.ccmm.cz/research-data/rdfs%3AResourceShape/77c5dd23>.
+
+<https://model.ccmm.cz/research-data/rdfs%3AResourceShape/584ddfb8> a sh:PropertyShape;
+    sh:name "has resource type"@en;
+    sh:description "Use IRI identifier of a value from the register https://vocabularies.coar-repositories.org/resource_types/."@en;
+    sh:nodeKind sh:BlankNodeOrIRI;
+    sh:path <http://purl.org/dc/terms/type>;
+    sh:maxCount 1;
+    sh:class <http://www.w3.org/2004/02/skos/core#Concept>.
+
+<https://model.ccmm.cz/research-data/dcat%3ADatasetShape> sh:property <https://model.ccmm.cz/research-data/rdfs%3AResourceShape/584ddfb8>.
+
+<https://model.ccmm.cz/research-data/rdfs%3AResourceShape/3f7f5edf> a sh:PropertyShape;
+    sh:name "has identifier"@en;
+    sh:description ""@en;
+    sh:nodeKind sh:BlankNodeOrIRI;
+    sh:path <http://www.w3.org/ns/adms#identifier>;
+    sh:class <http://www.w3.org/ns/adms#Identifier>.
+
+<https://model.ccmm.cz/research-data/dcat%3ADatasetShape> sh:property <https://model.ccmm.cz/research-data/rdfs%3AResourceShape/3f7f5edf>.
+
+<https://model.ccmm.cz/research-data/foaf%3AAgentShape> a sh:NodeShape;
+    rdfs:seeAlso <https://model.ccmm.cz/research-data/Agent>;
+    sh:closed false;
+    sh:targetClass <http://xmlns.com/foaf/0.1/Agent>.
+
+<https://model.ccmm.cz/research-data/foaf%3AAgentShape/291051fa> a sh:PropertyShape;
+    sh:name "name"@en;
+    sh:description "It is used for the official name of the agent. For Persons it is combination of first and family names. Recommended format is \"family names, first names\"."@en;
+    sh:nodeKind sh:Literal;
+    sh:path <http://xmlns.com/foaf/0.1/name>;
+    sh:maxCount 1;
+    sh:minCount 1;
+    sh:datatype xsd:string.
+
+<https://model.ccmm.cz/research-data/foaf%3AAgentShape> sh:property <https://model.ccmm.cz/research-data/foaf%3AAgentShape/291051fa>.
+
+<https://model.ccmm.cz/research-data/foaf%3AAgentShape/-63366625> a sh:PropertyShape;
+    sh:name "Punto de contacto"@es, "has contact point"@en, "má kontaktní bod"@cs, "point de contact"@fr, "punto di contatto"@it, "σημείο επικοινωνίας"@el, "عنوان اتصال"@ar, "窓口"@ja, "kontaktpunkt"@da;
+    sh:nodeKind sh:BlankNodeOrIRI;
+    sh:path <http://www.w3.org/ns/dcat#contactPoint>;
+    sh:class <http://www.w3.org/2006/vcard/ns#Kind>.
+
+<https://model.ccmm.cz/research-data/foaf%3AAgentShape> sh:property <https://model.ccmm.cz/research-data/foaf%3AAgentShape/-63366625>.
+
+<https://model.ccmm.cz/research-data/foaf%3AAgentShape/6e02b714> a sh:PropertyShape;
+    sh:name "has identifier"@en;
+    sh:nodeKind sh:BlankNodeOrIRI;
+    sh:path <http://www.w3.org/ns/adms#identifier>;
+    sh:class <http://www.w3.org/ns/adms#Identifier>.
+
+<https://model.ccmm.cz/research-data/foaf%3AAgentShape> sh:property <https://model.ccmm.cz/research-data/foaf%3AAgentShape/6e02b714>.
+
+<https://model.ccmm.cz/research-data/prov%3APersonShape> a sh:NodeShape;
+    rdfs:seeAlso <https://model.ccmm.cz/research-data/Person>;
+    sh:closed false;
+    sh:targetClass <http://www.w3.org/ns/prov#Person>.
+
+<https://model.ccmm.cz/research-data/prov%3APersonShape/-2451bc15> a sh:PropertyShape;
+    sh:name "given name"@en;
+    sh:nodeKind sh:Literal;
+    sh:path <http://www.w3.org/2006/vcard/ns#given-name>;
+    sh:datatype xsd:string.
+
+<https://model.ccmm.cz/research-data/prov%3APersonShape> sh:property <https://model.ccmm.cz/research-data/prov%3APersonShape/-2451bc15>.
+
+<https://model.ccmm.cz/research-data/prov%3APersonShape/-43e35340> a sh:PropertyShape;
+    sh:name "family name"@en;
+    sh:nodeKind sh:Literal;
+    sh:path <http://www.w3.org/2006/vcard/ns#family-name>;
+    sh:datatype xsd:string.
+
+<https://model.ccmm.cz/research-data/prov%3APersonShape> sh:property <https://model.ccmm.cz/research-data/prov%3APersonShape/-43e35340>.
+
+<https://model.ccmm.cz/research-data/prov%3APersonShape/5150a9d0> a sh:PropertyShape;
+    sh:name "has affiliation"@en;
+    sh:nodeKind sh:BlankNodeOrIRI;
+    sh:path <https://model.ccmm.cz/vocabulary/ccmm#hasAffiliation>;
+    sh:class <http://www.w3.org/ns/org#Organization>.
+
+<https://model.ccmm.cz/research-data/prov%3APersonShape> sh:property <https://model.ccmm.cz/research-data/prov%3APersonShape/5150a9d0>, <https://model.ccmm.cz/research-data/foaf%3AAgentShape/291051fa>, <https://model.ccmm.cz/research-data/foaf%3AAgentShape/-63366625>, <https://model.ccmm.cz/research-data/foaf%3AAgentShape/6e02b714>.
+
+<https://model.ccmm.cz/research-data/http://www.w3.org/ns/org#OrganizationShape> a sh:NodeShape;
+    rdfs:seeAlso <https://model.ccmm.cz/research-data/Organization>;
+    sh:closed false;
+    sh:targetClass <http://www.w3.org/ns/org#Organization>.
+
+<https://model.ccmm.cz/research-data/http://www.w3.org/ns/org#OrganizationShape/2fffdd6> a sh:PropertyShape;
+    sh:name "alternate name"@en;
+    sh:nodeKind sh:Literal;
+    sh:path <http://www.w3.org/2006/vcard/ns#organization-name>;
+    sh:datatype rdf:langString.
+
+<https://model.ccmm.cz/research-data/http://www.w3.org/ns/org#OrganizationShape> sh:property <https://model.ccmm.cz/research-data/http://www.w3.org/ns/org#OrganizationShape/2fffdd6>, <https://model.ccmm.cz/research-data/foaf%3AAgentShape/291051fa>, <https://model.ccmm.cz/research-data/foaf%3AAgentShape/-63366625>, <https://model.ccmm.cz/research-data/foaf%3AAgentShape/6e02b714>.
+
+<https://model.ccmm.cz/research-data/https://w3id.org/tib/datacite/class/FundingReferenceShape> a sh:NodeShape;
+    rdfs:seeAlso <https://model.ccmm.cz/research-data/FundingReference>;
+    sh:closed false;
+    sh:targetClass <https://w3id.org/tib/datacite/class/FundingReference>.
+
+<https://model.ccmm.cz/research-data/https://w3id.org/tib/datacite/class/FundingReferenceShape/-5764b622> a sh:PropertyShape;
+    sh:name "local identifier"@en;
+    sh:description "In case the award or grant has an ID or DOI, the full URL shall be included."@en;
+    sh:nodeKind sh:Literal;
+    sh:path <https://w3id.org/tib/datacite/property/awardNumber>;
+    sh:maxCount 1;
+    sh:datatype xsd:string.
+
+<https://model.ccmm.cz/research-data/https://w3id.org/tib/datacite/class/FundingReferenceShape> sh:property <https://model.ccmm.cz/research-data/https://w3id.org/tib/datacite/class/FundingReferenceShape/-5764b622>.
+
+<https://model.ccmm.cz/research-data/https://w3id.org/tib/datacite/class/FundingReferenceShape/-517328e1> a sh:PropertyShape;
+    sh:name "award title"@en;
+    sh:nodeKind sh:Literal;
+    sh:path <https://w3id.org/tib/datacite/property/awardTitle>;
+    sh:maxCount 1;
+    sh:datatype xsd:string.
+
+<https://model.ccmm.cz/research-data/https://w3id.org/tib/datacite/class/FundingReferenceShape> sh:property <https://model.ccmm.cz/research-data/https://w3id.org/tib/datacite/class/FundingReferenceShape/-517328e1>.
+
+<https://model.ccmm.cz/research-data/https://w3id.org/tib/datacite/class/FundingReferenceShape/-286f7ef9> a sh:PropertyShape;
+    sh:name "funding program"@en;
+    sh:nodeKind sh:Literal;
+    sh:path <https://model.ccmm.cz/vocabulary/ccmm#fundingProgram>;
+    sh:maxCount 1;
+    sh:datatype xsd:anyURI.
+
+<https://model.ccmm.cz/research-data/https://w3id.org/tib/datacite/class/FundingReferenceShape> sh:property <https://model.ccmm.cz/research-data/https://w3id.org/tib/datacite/class/FundingReferenceShape/-286f7ef9>.
+
+<https://model.ccmm.cz/research-data/https://w3id.org/tib/datacite/class/FundingReferenceShape/-787bebdf> a sh:PropertyShape;
+    sh:name "has funder"@en;
+    sh:nodeKind sh:BlankNodeOrIRI;
+    sh:path <https://w3id.org/tib/datacite/property/funderIdentifier>;
+    sh:minCount 1;
+    sh:class <http://xmlns.com/foaf/0.1/Agent>.
+
+<https://model.ccmm.cz/research-data/https://w3id.org/tib/datacite/class/FundingReferenceShape> sh:property <https://model.ccmm.cz/research-data/https://w3id.org/tib/datacite/class/FundingReferenceShape/-787bebdf>.
+
+<https://model.ccmm.cz/research-data/dcat%3ADistributionShape> a sh:NodeShape;
+    rdfs:seeAlso <https://model.ccmm.cz/research-data/Distribution>;
+    sh:closed false;
+    sh:targetClass <http://www.w3.org/ns/dcat#Distribution>.
+
+<https://model.ccmm.cz/research-data/dcat%3ADistributionShape/-2219314a> a sh:PropertyShape;
+    sh:name "description"@en;
+    sh:description "This property can be repeated for parallel language versions of the description. "@en;
+    sh:nodeKind sh:Literal;
+    sh:path <http://purl.org/dc/terms/description>;
+    sh:datatype rdf:langString.
+
+<https://model.ccmm.cz/research-data/dcat%3ADistributionShape> sh:property <https://model.ccmm.cz/research-data/dcat%3ADistributionShape/-2219314a>.
+
+<https://model.ccmm.cz/research-data/dcat%3ADistributionShape/-2751d42e> a sh:PropertyShape;
+    sh:name "title"@en;
+    sh:description "This property can be repeated for parallel language versions of the description. The main title of a distribution is the one in the primary language of the dataset."@en;
+    sh:nodeKind sh:Literal;
+    sh:path <http://purl.org/dc/terms/title>;
+    sh:datatype rdf:langString.
+
+<https://model.ccmm.cz/research-data/dcat%3ADistributionShape> sh:property <https://model.ccmm.cz/research-data/dcat%3ADistributionShape/-2751d42e>.
+
+<https://model.ccmm.cz/research-data/dcat%3ADistributionShape/6bd413a6> a sh:PropertyShape;
+    sh:name "conforms to"@en;
+    sh:description "This property should be used to indicate the model, schema, ontology, view or profile that this representation of a dataset conforms to. This is (generally) a complementary concern to the media type, service standard or format."@en;
+    sh:nodeKind sh:BlankNodeOrIRI;
+    sh:path <http://purl.org/dc/terms/conformsTo>;
+    sh:class <http://purl.org/dc/terms/Standard>.
+
+<https://model.ccmm.cz/research-data/dcat%3ADistributionShape> sh:property <https://model.ccmm.cz/research-data/dcat%3ADistributionShape/6bd413a6>.
+
+<https://model.ccmm.cz/research-data/dcat%3ADistributionShape/-13837e7f> a sh:PropertyShape;
+    sh:name "has documentation"@en;
+    sh:nodeKind sh:BlankNodeOrIRI;
+    sh:path <http://xmlns.com/foaf/0.1/page>;
+    sh:class <http://xmlns.com/foaf/0.1/Document>.
+
+<https://model.ccmm.cz/research-data/dcat%3ADistributionShape> sh:property <https://model.ccmm.cz/research-data/dcat%3ADistributionShape/-13837e7f>.
+
+<https://model.ccmm.cz/research-data/dcat%3ADistributionShape/-2b2f766a> a sh:PropertyShape;
+    sh:description "The resource at the access URL may contain information about how to get the Dataset. It shall be the web page (not a document file)."@en;
+    sh:nodeKind sh:BlankNodeOrIRI;
+    sh:path <http://www.w3.org/ns/dcat#accessURL>.
+
+<https://model.ccmm.cz/research-data/dcat%3ADistributionShape> sh:property <https://model.ccmm.cz/research-data/dcat%3ADistributionShape/-2b2f766a>.
+
+<https://model.ccmm.cz/research-data/dcat%3ADistributionShape/-6506d0b0> a sh:PropertyShape;
+    sh:name "has licence"@en;
+    sh:nodeKind sh:BlankNodeOrIRI;
+    sh:path <http://purl.org/dc/terms/license>;
+    sh:maxCount 1;
+    sh:class <http://purl.org/dc/terms/LicenseDocument>.
+
+<https://model.ccmm.cz/research-data/dcat%3ADistributionShape> sh:property <https://model.ccmm.cz/research-data/dcat%3ADistributionShape/-6506d0b0>.
+
+<https://model.ccmm.cz/research-data/dcat%3ADistributionShape/491c4920> a sh:PropertyShape;
+    sh:name "has rights"@en;
+    sh:description "Use IRI identifier from the register http://purl.org/coar/access_right/. Recommended mapping of values from COAR to https://semiceu.github.io/DCAT-AP/drafts/latest/#properties-with-a-recommended-use-of-controlled-vocabularies is:\nembargoed access, metadata only access - :NON_PUBLIC,\nopen access - :PUBLIC,\nrestricted access - :RESTRICTED."@en;
+    sh:nodeKind sh:BlankNodeOrIRI;
+    sh:path <http://purl.org/dc/terms/rights>;
+    sh:class <http://purl.org/dc/terms/RightsStatement>.
+
+<https://model.ccmm.cz/research-data/dcat%3ADistributionShape> sh:property <https://model.ccmm.cz/research-data/dcat%3ADistributionShape/491c4920>.
+
+<https://model.ccmm.cz/research-data/ccmm%3AValidationResultShape> a sh:NodeShape;
+    rdfs:seeAlso <https://model.ccmm.cz/research-data/ValidationResult>;
+    sh:closed false;
+    sh:targetClass <https://model.ccmm.cz/vocabulary/ccmm#ValidationResult>.
+
+<https://model.ccmm.cz/research-data/ccmm%3AValidationResultShape/-1c26cc2c> a sh:PropertyShape;
+    sh:name "label"@en;
+    sh:nodeKind sh:Literal;
+    sh:path rdfs:label;
+    sh:datatype rdf:langString.
+
+<https://model.ccmm.cz/research-data/ccmm%3AValidationResultShape> sh:property <https://model.ccmm.cz/research-data/ccmm%3AValidationResultShape/-1c26cc2c>.
+
+<https://model.ccmm.cz/research-data/https://w3id.org/tib/datacite/class/SubjectShape> a sh:NodeShape;
+    rdfs:seeAlso <https://model.ccmm.cz/research-data/Subject>;
+    sh:closed false;
+    sh:targetClass <https://w3id.org/tib/datacite/class/Subject>.
+
+<https://model.ccmm.cz/research-data/https://w3id.org/tib/datacite/class/SubjectShape/-3c550fcd> a sh:PropertyShape;
+    sh:name "classification code"@en;
+    sh:nodeKind sh:Literal;
+    sh:path <https://w3id.org/tib/datacite/property/classificationCode>;
+    sh:maxCount 1;
+    sh:minCount 1;
+    sh:datatype xsd:string.
+
+<https://model.ccmm.cz/research-data/https://w3id.org/tib/datacite/class/SubjectShape> sh:property <https://model.ccmm.cz/research-data/https://w3id.org/tib/datacite/class/SubjectShape/-3c550fcd>.
+
+<https://model.ccmm.cz/research-data/https://w3id.org/tib/datacite/class/SubjectShape/-21001754> a sh:PropertyShape;
+    sh:name "title"@en;
+    sh:nodeKind sh:Literal;
+    sh:path <http://purl.org/dc/terms/title>;
+    sh:minCount 1;
+    sh:datatype rdf:langString.
+
+<https://model.ccmm.cz/research-data/https://w3id.org/tib/datacite/class/SubjectShape> sh:property <https://model.ccmm.cz/research-data/https://w3id.org/tib/datacite/class/SubjectShape/-21001754>.
+
+<https://model.ccmm.cz/research-data/https://w3id.org/tib/datacite/class/SubjectShape/-6f18364> a sh:PropertyShape;
+    sh:name "definition"@en;
+    sh:description "Context is usually given by the subject scheme representing specific thesauri, vocabulary or simply a context (domain specific group at an university etc.)."@en;
+    sh:nodeKind sh:Literal;
+    sh:path <http://www.w3.org/2004/02/skos/core#definition>;
+    sh:datatype rdf:langString.
+
+<https://model.ccmm.cz/research-data/https://w3id.org/tib/datacite/class/SubjectShape> sh:property <https://model.ccmm.cz/research-data/https://w3id.org/tib/datacite/class/SubjectShape/-6f18364>.
+
+<https://model.ccmm.cz/research-data/https://w3id.org/tib/datacite/class/SubjectShape/636b7534> a sh:PropertyShape;
+    sh:name "in subject scheme"@en;
+    sh:nodeKind sh:BlankNodeOrIRI;
+    sh:path <https://model.ccmm.cz/vocabulary/ccmm#inSubjectScheme>;
+    sh:maxCount 1;
+    sh:minCount 1;
+    sh:class <https://model.ccmm.cz/vocabulary/ccmm#SubjectScheme>.
+
+<https://model.ccmm.cz/research-data/https://w3id.org/tib/datacite/class/SubjectShape> sh:property <https://model.ccmm.cz/research-data/https://w3id.org/tib/datacite/class/SubjectShape/636b7534>.
+
+<https://model.ccmm.cz/research-data/rdfs%3AResourceShape> a sh:NodeShape;
+    rdfs:seeAlso <https://model.ccmm.cz/research-data/RelatedResource>;
+    sh:closed false;
+    sh:targetClass rdfs:Resource.
+
+<https://model.ccmm.cz/research-data/rdfs%3AResourceShape/ee67f04> a sh:PropertyShape;
+    sh:name "resource URL"@en;
+    sh:description "Resource URL represents human readable resolvable representation of the resource. Same url must be aslo in c:iri."@en;
+    sh:nodeKind sh:Literal;
+    sh:path <https://model.ccmm.cz/vocabulary/ccmm#resourceUrl>;
+    sh:maxCount 1;
+    sh:datatype xsd:anyURI.
+
+<https://model.ccmm.cz/research-data/rdfs%3AResourceShape> sh:property <https://model.ccmm.cz/research-data/rdfs%3AResourceShape/ee67f04>.
+
+<https://model.ccmm.cz/research-data/rdfs%3AResourceShape/2d020c93> a sh:PropertyShape;
+    sh:name "has resource relation type"@en;
+    sh:description "Use value from https://vocabs.ccmm.cz/registry/codelist/RelationType/."@en;
+    sh:nodeKind sh:BlankNodeOrIRI;
+    sh:path <https://model.ccmm.cz/vocabulary/ccmm#hasType>;
+    sh:maxCount 1;
+    sh:class <http://www.w3.org/2004/02/skos/core#Concept>.
+
+<https://model.ccmm.cz/research-data/rdfs%3AResourceShape> sh:property <https://model.ccmm.cz/research-data/rdfs%3AResourceShape/2d020c93>, <https://model.ccmm.cz/research-data/rdfs%3AResourceShape/10bdc621>, <https://model.ccmm.cz/research-data/rdfs%3AResourceShape/69a57d1a>, <https://model.ccmm.cz/research-data/rdfs%3AResourceShape/678dc9cb>, <https://model.ccmm.cz/research-data/rdfs%3AResourceShape/-689b939d>, <https://model.ccmm.cz/research-data/rdfs%3AResourceShape/77c5dd23>, <https://model.ccmm.cz/research-data/rdfs%3AResourceShape/584ddfb8>, <https://model.ccmm.cz/research-data/rdfs%3AResourceShape/3f7f5edf>.
+
+<https://model.ccmm.cz/research-data/prov%3AAttributionShape> a sh:NodeShape;
+    rdfs:seeAlso <https://model.ccmm.cz/research-data/ResourceAttribution>;
+    sh:closed false;
+    sh:targetClass <http://www.w3.org/ns/prov#Attribution>.
+
+<https://model.ccmm.cz/research-data/prov%3AAttributionShape/19c32b47> a sh:PropertyShape;
+    sh:name "has attributed agent"@en;
+    sh:nodeKind sh:BlankNodeOrIRI;
+    sh:path <http://www.w3.org/ns/prov#agent>;
+    sh:maxCount 1;
+    sh:minCount 1;
+    sh:class <http://xmlns.com/foaf/0.1/Agent>.
+
+<https://model.ccmm.cz/research-data/prov%3AAttributionShape> sh:property <https://model.ccmm.cz/research-data/prov%3AAttributionShape/19c32b47>.
+
+<https://model.ccmm.cz/research-data/prov%3AAttributionShape/79ec2ddf> a sh:PropertyShape;
+    sh:description "May be used in a qualified-attribution to specify the role of an Agent with respect to an Resource. It is recommended that the value be taken from a controlled vocabulary of agent roles."@en;
+    sh:nodeKind sh:BlankNodeOrIRI;
+    sh:path <http://www.w3.org/ns/dcat#hadRole>;
+    sh:maxCount 1;
+    sh:class <http://www.w3.org/ns/dcat#Role>.
+
+<https://model.ccmm.cz/research-data/prov%3AAttributionShape> sh:property <https://model.ccmm.cz/research-data/prov%3AAttributionShape/79ec2ddf>.
+
+<https://model.ccmm.cz/research-data/dcat%3ARoleShape> a sh:NodeShape;
+    rdfs:seeAlso <https://model.ccmm.cz/research-data/AttributedAgentRoleType>;
+    sh:closed false;
+    sh:targetClass <http://www.w3.org/ns/dcat#Role>.
+
+<https://model.ccmm.cz/research-data/dcat%3ARoleShape/51044033> a sh:PropertyShape;
+    sh:name "label"@en;
+    sh:description "Use the label of the corresponding value from code list https://vocabs.ccmm.cz/registry/codelist/AgentRole/. This property may be repeated for parallel language versions of the label."@en;
+    sh:nodeKind sh:Literal;
+    sh:path <http://www.w3.org/2004/02/skos/core#prefLabel>;
+    sh:maxCount 1;
+    sh:minCount 1;
+    sh:datatype rdf:langString.
+
+<https://model.ccmm.cz/research-data/dcat%3ARoleShape> sh:property <https://model.ccmm.cz/research-data/dcat%3ARoleShape/51044033>.
+
+<https://model.ccmm.cz/research-data/vcard%3AKindShape> a sh:NodeShape;
+    rdfs:seeAlso <https://model.ccmm.cz/research-data/ContactDetails>;
+    sh:closed false;
+    sh:targetClass <http://www.w3.org/2006/vcard/ns#Kind>.
+
+<https://model.ccmm.cz/research-data/vcard%3AKindShape/5dd8d94d> a sh:PropertyShape;
+    sh:name "phone"@en;
+    sh:description "Phone number in international format +xx(x) xxx xxx xxx"@en;
+    sh:nodeKind sh:Literal;
+    sh:path <https://model.ccmm.cz/vocabulary/ccmm#phone>;
+    sh:datatype xsd:string.
+
+<https://model.ccmm.cz/research-data/vcard%3AKindShape> sh:property <https://model.ccmm.cz/research-data/vcard%3AKindShape/5dd8d94d>.
+
+<https://model.ccmm.cz/research-data/vcard%3AKindShape/-4e9e5e85> a sh:PropertyShape;
+    sh:name "email"@en;
+    sh:description "Email address in standard format, e.g., john.doe@domain.com"@en;
+    sh:nodeKind sh:Literal;
+    sh:path <https://model.ccmm.cz/vocabulary/ccmm#email>;
+    sh:datatype xsd:string.
+
+<https://model.ccmm.cz/research-data/vcard%3AKindShape> sh:property <https://model.ccmm.cz/research-data/vcard%3AKindShape/-4e9e5e85>.
+
+<https://model.ccmm.cz/research-data/vcard%3AKindShape/-516081a0> a sh:PropertyShape;
+    sh:name "data box"@en;
+    sh:description ""@en;
+    sh:nodeKind sh:Literal;
+    sh:path <https://model.ccmm.cz/vocabulary/ccmm#dataBox>;
+    sh:datatype xsd:string.
+
+<https://model.ccmm.cz/research-data/vcard%3AKindShape> sh:property <https://model.ccmm.cz/research-data/vcard%3AKindShape/-516081a0>.
+
+<https://model.ccmm.cz/research-data/vcard%3AKindShape/-6d1a5446> a sh:PropertyShape;
+    sh:name "has address"@en;
+    sh:description "Either links to IRI of address in address registry or describes the address using Address class attributes."@en;
+    sh:nodeKind sh:BlankNodeOrIRI;
+    sh:path <http://www.w3.org/2006/vcard/ns#hasAddress>;
+    sh:class <http://www.w3.org/ns/locn#Address>.
+
+<https://model.ccmm.cz/research-data/vcard%3AKindShape> sh:property <https://model.ccmm.cz/research-data/vcard%3AKindShape/-6d1a5446>.
+
+<https://model.ccmm.cz/research-data/locn%3AAddressShape> a sh:NodeShape;
+    rdfs:seeAlso <https://model.ccmm.cz/research-data/Address>;
+    sh:closed false;
+    sh:targetClass <http://www.w3.org/ns/locn#Address>.
+
+<https://model.ccmm.cz/research-data/locn%3AAddressShape/-2f8d4b68> a sh:PropertyShape;
+    sh:name "label"@en;
+    sh:nodeKind sh:Literal;
+    sh:path rdfs:label;
+    sh:datatype rdf:langString.
+
+<https://model.ccmm.cz/research-data/locn%3AAddressShape> sh:property <https://model.ccmm.cz/research-data/locn%3AAddressShape/-2f8d4b68>.
+
+<https://model.ccmm.cz/research-data/locn%3AAddressShape/555cb70d> a sh:PropertyShape;
+    sh:name "full address"@en;
+    sh:description "Use of this property is recommended as it will not suffer any misunderstandings that might arise through the breaking up of an address into its component parts. This property is analogous to vCard's label property but with two important differences: (1) formatting is not assumed so that, unlike vCard label, it may not be suitable to print this on an address label, (2) vCard's label property has a domain of vCard Address; the fullAddress property has no such restriction. An example of a full address is \"Champ de Mars, 5 Avenue Anatole France, 75007 Paris, France\". "@en;
+    sh:nodeKind sh:Literal;
+    sh:path <http://www.w3.org/ns/locn#fullAddress>;
+    sh:datatype xsd:string.
+
+<https://model.ccmm.cz/research-data/locn%3AAddressShape> sh:property <https://model.ccmm.cz/research-data/locn%3AAddressShape/555cb70d>.
+
+<https://model.ccmm.cz/research-data/locn%3AAddressShape/-8ee4b8c> a sh:PropertyShape;
+    sh:name "post office box"@en;
+    sh:nodeKind sh:Literal;
+    sh:path <http://www.w3.org/ns/locn#poBox>;
+    sh:datatype xsd:string.
+
+<https://model.ccmm.cz/research-data/locn%3AAddressShape> sh:property <https://model.ccmm.cz/research-data/locn%3AAddressShape/-8ee4b8c>.
+
+<https://model.ccmm.cz/research-data/locn%3AAddressShape/-1180c6e0> a sh:PropertyShape;
+    sh:name "thoroughfare"@en;
+    sh:description "A thoroughfare is usually a street, but it might be a waterway or some other feature. For example, \"Avenue des Champs-Élysées\"."@en;
+    sh:nodeKind sh:Literal;
+    sh:path <http://www.w3.org/ns/locn#thoroughfare>;
+    sh:datatype xsd:string.
+
+<https://model.ccmm.cz/research-data/locn%3AAddressShape> sh:property <https://model.ccmm.cz/research-data/locn%3AAddressShape/-1180c6e0>.
+
+<https://model.ccmm.cz/research-data/locn%3AAddressShape/afa9d72> a sh:PropertyShape;
+    sh:name "locator designator"@en;
+    sh:description "In simpler terms, this is the building number, apartment number, etc. For an address such as \"Flat 3, 17 Bridge Street\", the locator is \"flat 3, 17\". "@en;
+    sh:nodeKind sh:Literal;
+    sh:path <http://www.w3.org/ns/locn#locatorDesignator>;
+    sh:datatype xsd:string.
+
+<https://model.ccmm.cz/research-data/locn%3AAddressShape> sh:property <https://model.ccmm.cz/research-data/locn%3AAddressShape/afa9d72>.
+
+<https://model.ccmm.cz/research-data/locn%3AAddressShape/-3e08a717> a sh:PropertyShape;
+    sh:name "locator name"@en;
+    sh:description "The locator name could be the name of the property or complex, of the building or part of the building, or it could be the name of a room inside a building.\n\nThe key difference between a locator designator and a locator name is that the latter is a proper name and is unlikely to include digits. For example, \"Shumann, Berlaymont\" is a meeting room within the European Commission headquarters for which locator name is more appropriate than locator. "@en;
+    sh:nodeKind sh:Literal;
+    sh:path <http://www.w3.org/ns/locn#locatorName>;
+    sh:datatype xsd:string.
+
+<https://model.ccmm.cz/research-data/locn%3AAddressShape> sh:property <https://model.ccmm.cz/research-data/locn%3AAddressShape/-3e08a717>.
+
+<https://model.ccmm.cz/research-data/locn%3AAddressShape/-2d4b50b7> a sh:PropertyShape;
+    sh:name "address area"@en;
+    sh:description " This would typically be part of a city, a neighbourhood or village, e.g., Montmartre. Address area is not an administrative unit. "@en;
+    sh:nodeKind sh:Literal;
+    sh:path <http://www.w3.org/ns/locn#addressArea>;
+    sh:datatype xsd:string.
+
+<https://model.ccmm.cz/research-data/locn%3AAddressShape> sh:property <https://model.ccmm.cz/research-data/locn%3AAddressShape/-2d4b50b7>.
+
+<https://model.ccmm.cz/research-data/locn%3AAddressShape/4b8321f> a sh:PropertyShape;
+    sh:name "post name"@en;
+    sh:description "Usually a city, for example \"Paris\". Eventually name of the post itself."@en;
+    sh:nodeKind sh:Literal;
+    sh:path <http://www.w3.org/ns/locn#postName>;
+    sh:datatype xsd:string.
+
+<https://model.ccmm.cz/research-data/locn%3AAddressShape> sh:property <https://model.ccmm.cz/research-data/locn%3AAddressShape/4b8321f>.
+
+<https://model.ccmm.cz/research-data/locn%3AAddressShape/4f196fc0> a sh:PropertyShape;
+    sh:name "administrative unit level 1"@en;
+    sh:description "Best practice is to use the ISO 3166-1 code but if this is inappropriate for the context, country names should be provided in a consistent manner to reduce ambiguity. For example, either write 'France' or 'FRA' consistently throughout the dataset and avoid mixing the two. The Country controlled vocabulary from the Publications Office can be reused for this."@en;
+    sh:nodeKind sh:Literal;
+    sh:path <http://www.w3.org/ns/locn#adminUnitL1>;
+    sh:datatype xsd:string.
+
+<https://model.ccmm.cz/research-data/locn%3AAddressShape> sh:property <https://model.ccmm.cz/research-data/locn%3AAddressShape/4f196fc0>.
+
+<https://model.ccmm.cz/research-data/locn%3AAddressShape/-2446653f> a sh:PropertyShape;
+    sh:name "administrative unit level 2"@en;
+    sh:description "Values could be a region or province, more granular than level 1."@en;
+    sh:nodeKind sh:Literal;
+    sh:path <http://www.w3.org/ns/locn#adminUnitL2>;
+    sh:datatype xsd:string.
+
+<https://model.ccmm.cz/research-data/locn%3AAddressShape> sh:property <https://model.ccmm.cz/research-data/locn%3AAddressShape/-2446653f>.
+
+<https://model.ccmm.cz/research-data/locn%3AAddressShape/-146b247f> a sh:PropertyShape;
+    sh:name "post code"@en;
+    sh:description "Post codes are common elements in many countries' postal address systems. One of the many post codes of Paris is for example \"75000\"."@en;
+    sh:nodeKind sh:Literal;
+    sh:path <http://www.w3.org/ns/locn#postCode>;
+    sh:datatype xsd:string.
+
+<https://model.ccmm.cz/research-data/locn%3AAddressShape> sh:property <https://model.ccmm.cz/research-data/locn%3AAddressShape/-146b247f>.
+
+<https://model.ccmm.cz/research-data/dcat%3ACatalogRecordShape> a sh:NodeShape;
+    rdfs:seeAlso <https://model.ccmm.cz/research-data/MetadataRecord>;
+    sh:closed false;
+    sh:targetClass <http://www.w3.org/ns/dcat#CatalogRecord>.
+
+<https://model.ccmm.cz/research-data/dcat%3ACatalogRecordShape/-35191c44> a sh:PropertyShape;
+    sh:name "date created"@en;
+    sh:nodeKind sh:Literal;
+    sh:path <http://purl.org/dc/terms/created>;
+    sh:maxCount 1;
+    sh:datatype xsd:date.
+
+<https://model.ccmm.cz/research-data/dcat%3ACatalogRecordShape> sh:property <https://model.ccmm.cz/research-data/dcat%3ACatalogRecordShape/-35191c44>.
+
+<https://model.ccmm.cz/research-data/dcat%3ACatalogRecordShape/-1e5112b5> a sh:PropertyShape;
+    sh:name "date updated"@en;
+    sh:description "The date on which the metadata record was changed or modified."@en;
+    sh:nodeKind sh:Literal;
+    sh:path <http://purl.org/dc/terms/modified>;
+    sh:maxCount 1;
+    sh:datatype xsd:date.
+
+<https://model.ccmm.cz/research-data/dcat%3ACatalogRecordShape> sh:property <https://model.ccmm.cz/research-data/dcat%3ACatalogRecordShape/-1e5112b5>.
+
+<https://model.ccmm.cz/research-data/dcat%3ACatalogRecordShape/-8dd604a> a sh:PropertyShape;
+    sh:nodeKind sh:Literal;
+    sh:path <http://purl.org/dc/terms/title>;
+    sh:datatype rdf:langString.
+
+<https://model.ccmm.cz/research-data/dcat%3ACatalogRecordShape> sh:property <https://model.ccmm.cz/research-data/dcat%3ACatalogRecordShape/-8dd604a>.
+
+<https://model.ccmm.cz/research-data/dcat%3ACatalogRecordShape/79ead442> a sh:PropertyShape;
+    sh:name "conforms to"@en;
+    sh:description "This property should be used to indicate the metadata model, schema, ontology or profile that the metadata record conforms to."@en;
+    sh:nodeKind sh:BlankNodeOrIRI;
+    sh:path <http://purl.org/dc/terms/conformsTo>;
+    sh:class <http://purl.org/dc/terms/Standard>.
+
+<https://model.ccmm.cz/research-data/dcat%3ACatalogRecordShape> sh:property <https://model.ccmm.cz/research-data/dcat%3ACatalogRecordShape/79ead442>.
+
+<https://model.ccmm.cz/research-data/dcat%3ACatalogRecordShape/2dc92380> a sh:PropertyShape;
+    sh:name "has original repository"@en;
+    sh:description "Original repository is a repository where the original metadata was harvested from or where it was created and/or published. There is always exactly one original repository. \nIf metadata record is harvested form other repository, make sure to include the first repository from which it was harvested."@en;
+    sh:nodeKind sh:BlankNodeOrIRI;
+    sh:path <https://model.ccmm.cz/vocabulary/ccmm#originalRepository>;
+    sh:maxCount 1;
+    sh:minCount 1;
+    sh:class <http://www.w3.org/ns/dcat#Catalog>.
+
+<https://model.ccmm.cz/research-data/dcat%3ACatalogRecordShape> sh:property <https://model.ccmm.cz/research-data/dcat%3ACatalogRecordShape/2dc92380>.
+
+<https://model.ccmm.cz/research-data/dcat%3ACatalogRecordShape/1f0e2044> a sh:PropertyShape;
+    sh:name "describes"@en;
+    sh:nodeKind sh:BlankNodeOrIRI;
+    sh:path <http://xmlns.com/foaf/0.1/primaryTopic>;
+    sh:maxCount 1;
+    sh:class <http://www.w3.org/ns/dcat#Dataset>.
+
+<https://model.ccmm.cz/research-data/dcat%3ACatalogRecordShape> sh:property <https://model.ccmm.cz/research-data/dcat%3ACatalogRecordShape/1f0e2044>.
+
+<https://model.ccmm.cz/research-data/dcat%3ACatalogRecordShape/50a8ec11> a sh:PropertyShape;
+    sh:name "qualified attribution"@en;
+    sh:description "Relationship shall contain at least one agent with role \"Data Manager\" from codelist https://vocabs.ccmm.cz/registry/codelist/AgentRole/."@en;
+    sh:nodeKind sh:BlankNodeOrIRI;
+    sh:path <http://www.w3.org/ns/prov#qualifiedAttribution>;
+    sh:class <http://www.w3.org/ns/prov#Attribution>.
+
+<https://model.ccmm.cz/research-data/dcat%3ACatalogRecordShape> sh:property <https://model.ccmm.cz/research-data/dcat%3ACatalogRecordShape/50a8ec11>.
+
+<https://model.ccmm.cz/research-data/dcat%3ACatalogRecordShape/3383c829> a sh:PropertyShape;
+    sh:name "language"@en;
+    sh:description "This property can be repeated if the metadata is provided in multiple languages."@en;
+    sh:nodeKind sh:BlankNodeOrIRI;
+    sh:path <http://purl.org/dc/terms/language>;
+    sh:class <http://purl.org/dc/terms/LinguisticSystem>.
+
+<https://model.ccmm.cz/research-data/dcat%3ACatalogRecordShape> sh:property <https://model.ccmm.cz/research-data/dcat%3ACatalogRecordShape/3383c829>.
+
+<https://model.ccmm.cz/research-data/dcterms%3AStandardShape> a sh:NodeShape;
+    rdfs:seeAlso <https://model.ccmm.cz/research-data/ApplicationProfile>;
+    sh:closed false;
+    sh:targetClass <http://purl.org/dc/terms/Standard>.
+
+<https://model.ccmm.cz/research-data/dcterms%3AStandardShape/-627e2bcf> a sh:PropertyShape;
+    sh:name "label"@en;
+    sh:nodeKind sh:Literal;
+    sh:path rdfs:label;
+    sh:datatype rdf:langString.
+
+<https://model.ccmm.cz/research-data/dcterms%3AStandardShape> sh:property <https://model.ccmm.cz/research-data/dcterms%3AStandardShape/-627e2bcf>.
+
+<https://model.ccmm.cz/research-data/dcat%3ACatalogShape> a sh:NodeShape;
+    rdfs:seeAlso <https://model.ccmm.cz/research-data/Repository>;
+    sh:closed false;
+    sh:targetClass <http://www.w3.org/ns/dcat#Catalog>.
+
+<https://model.ccmm.cz/research-data/dcat%3ACatalogShape/5afc5e8c> a sh:PropertyShape;
+    sh:name "label"@en;
+    sh:nodeKind sh:Literal;
+    sh:path <http://purl.org/dc/terms/title>;
+    sh:datatype rdf:langString.
+
+<https://model.ccmm.cz/research-data/dcat%3ACatalogShape> sh:property <https://model.ccmm.cz/research-data/dcat%3ACatalogShape/5afc5e8c>.
+
+<https://model.ccmm.cz/research-data/dcat%3ACatalogShape/-4b7d5519> a sh:PropertyShape;
+    sh:description "Relationship shall contain at least one agent with role \"Publisher\" from codelist https://vocabs.ccmm.cz/registry/codelist/AgentRole/."@en;
+    sh:nodeKind sh:BlankNodeOrIRI;
+    sh:path <http://www.w3.org/ns/prov#qualifiedAttribution>;
+    sh:class <http://www.w3.org/ns/prov#Attribution>.
+
+<https://model.ccmm.cz/research-data/dcat%3ACatalogShape> sh:property <https://model.ccmm.cz/research-data/dcat%3ACatalogShape/-4b7d5519>.
+
+<https://model.ccmm.cz/research-data/ccmm%3ADistribution-DownloadableFileShape> a sh:NodeShape;
+    rdfs:seeAlso <https://model.ccmm.cz/research-data/Distribution-DownloadableFile>;
+    sh:closed false;
+    sh:targetClass <https://model.ccmm.cz/vocabulary/ccmm#Distribution-DownloadableFile>.
+
+<https://model.ccmm.cz/research-data/ccmm%3ADistribution-DownloadableFileShape/56cbe8a9> a sh:PropertyShape;
+    sh:name "byte size"@en;
+    sh:nodeKind sh:Literal;
+    sh:path <http://www.w3.org/ns/dcat#byteSize>;
+    sh:maxCount 1;
+    sh:datatype xsd:integer.
+
+<https://model.ccmm.cz/research-data/ccmm%3ADistribution-DownloadableFileShape> sh:property <https://model.ccmm.cz/research-data/ccmm%3ADistribution-DownloadableFileShape/56cbe8a9>.
+
+<https://model.ccmm.cz/research-data/ccmm%3ADistribution-DownloadableFileShape/-6be48927> a sh:PropertyShape;
+    sh:name "download URL"@en;
+    sh:description "Download URL SHOULD be used for the URL at which this distribution is available directly, typically through a HTTP Get request."@en;
+    sh:nodeKind sh:BlankNodeOrIRI;
+    sh:path <http://www.w3.org/ns/dcat#downloadURL>.
+
+<https://model.ccmm.cz/research-data/ccmm%3ADistribution-DownloadableFileShape> sh:property <https://model.ccmm.cz/research-data/ccmm%3ADistribution-DownloadableFileShape/-6be48927>.
+
+<https://model.ccmm.cz/research-data/ccmm%3ADistribution-DownloadableFileShape/-32d9aab7> a sh:PropertyShape;
+    sh:name "has media type"@en;
+    sh:description "This property SHOULD be used when the media type of the distribution is defined in IANA (using value from https://www.iana.org/assignments/media-types/media-types.xhtml), otherwise Format MAY be used with values from Publication Office of the EU File type codelist http://publications.europa.eu/resource/dataset/file-type."@en;
+    sh:nodeKind sh:BlankNodeOrIRI;
+    sh:path <http://www.w3.org/ns/dcat#mediaType>;
+    sh:maxCount 1;
+    sh:class <http://purl.org/dc/terms/MediaType>.
+
+<https://model.ccmm.cz/research-data/ccmm%3ADistribution-DownloadableFileShape> sh:property <https://model.ccmm.cz/research-data/ccmm%3ADistribution-DownloadableFileShape/-32d9aab7>.
+
+<https://model.ccmm.cz/research-data/ccmm%3ADistribution-DownloadableFileShape/3ec631b6> a sh:PropertyShape;
+    sh:name "has checksum"@en;
+    sh:nodeKind sh:BlankNodeOrIRI;
+    sh:path <http://spdx.org/rdf/terms#checksum>;
+    sh:maxCount 1;
+    sh:class <http://spdx.org/rdf/terms#Checksum>.
+
+<https://model.ccmm.cz/research-data/ccmm%3ADistribution-DownloadableFileShape> sh:property <https://model.ccmm.cz/research-data/ccmm%3ADistribution-DownloadableFileShape/3ec631b6>.
+
+<https://model.ccmm.cz/research-data/ccmm%3ADistribution-DownloadableFileShape/3ce68812> a sh:PropertyShape;
+    sh:name "has format"@en;
+    sh:description "This property refers to the instance of format represented by IRI identifier from the register http://publications.europa.eu/resource/dataset/file-type. Human readable codelist representation is here: https://op.europa.eu/en/web/eu-vocabularies/concept-scheme/-/resource?uri=http://publications.europa.eu/resource/authority/file-type."@en;
+    sh:nodeKind sh:BlankNodeOrIRI;
+    sh:path <http://purl.org/dc/terms/format>;
+    sh:maxCount 1;
+    sh:class <http://purl.org/dc/terms/MediaTypeOrExtent>.
+
+<https://model.ccmm.cz/research-data/ccmm%3ADistribution-DownloadableFileShape> sh:property <https://model.ccmm.cz/research-data/ccmm%3ADistribution-DownloadableFileShape/3ce68812>.
+
+<https://model.ccmm.cz/research-data/ccmm%3ADistribution-DownloadableFileShape/68e4dc10> a sh:PropertyShape;
+    sh:name "has compression format"@en;
+    sh:description "It SHOULD be expressed using a media type as defined in the official register of media types managed by IANA (using value from https://www.iana.org/assignments/media-types/media-types.xhtml)."@en;
+    sh:nodeKind sh:BlankNodeOrIRI;
+    sh:path <http://www.w3.org/ns/dcat#compressFormat>;
+    sh:maxCount 1;
+    sh:class <http://purl.org/dc/terms/MediaType>.
+
+<https://model.ccmm.cz/research-data/ccmm%3ADistribution-DownloadableFileShape> sh:property <https://model.ccmm.cz/research-data/ccmm%3ADistribution-DownloadableFileShape/68e4dc10>.
+
+<https://model.ccmm.cz/research-data/ccmm%3ADistribution-DownloadableFileShape/-592ae936> a sh:PropertyShape;
+    sh:name "has packaging format"@en;
+    sh:description "This property to be used when the files in the distribution are packaged, e.g., in a TAR file, a ZIP file, a Frictionless Data Package or a Bagit file. The format SHOULD be expressed using a media type as defined by IANA (using value from https://www.iana.org/assignments/media-types/media-types.xhtml), if available."@en;
+    sh:nodeKind sh:BlankNodeOrIRI;
+    sh:path <http://www.w3.org/ns/dcat#packageFormat>;
+    sh:maxCount 1;
+    sh:class <http://purl.org/dc/terms/MediaType>.
+
+<https://model.ccmm.cz/research-data/ccmm%3ADistribution-DownloadableFileShape> sh:property <https://model.ccmm.cz/research-data/ccmm%3ADistribution-DownloadableFileShape/-592ae936>, <https://model.ccmm.cz/research-data/dcat%3ADistributionShape/-2219314a>, <https://model.ccmm.cz/research-data/dcat%3ADistributionShape/-2751d42e>, <https://model.ccmm.cz/research-data/dcat%3ADistributionShape/6bd413a6>, <https://model.ccmm.cz/research-data/dcat%3ADistributionShape/-13837e7f>, <https://model.ccmm.cz/research-data/dcat%3ADistributionShape/-2b2f766a>, <https://model.ccmm.cz/research-data/dcat%3ADistributionShape/-6506d0b0>, <https://model.ccmm.cz/research-data/dcat%3ADistributionShape/491c4920>.
+
+<https://model.ccmm.cz/research-data/ccmm%3ADistribution-DataServiceShape> a sh:NodeShape;
+    rdfs:seeAlso <https://model.ccmm.cz/research-data/Distribution-DataService>;
+    sh:closed false;
+    sh:targetClass <https://model.ccmm.cz/vocabulary/ccmm#Distribution-DataService>.
+
+<https://model.ccmm.cz/research-data/ccmm%3ADistribution-DataServiceShape/2dfa4aa5> a sh:PropertyShape;
+    sh:name "has access service"@en, "servicio de acceso de datos"@es, "servizio di accesso ai dati"@it, "služba pro přístup k datům"@cs, "dataadgangstjeneste"@da;
+    sh:description "Access service SHOULD be used to link to a description of Data service that can provide access to this distribution."@en;
+    sh:nodeKind sh:BlankNodeOrIRI;
+    sh:path <http://www.w3.org/ns/dcat#accessService>;
+    sh:class <http://www.w3.org/ns/dcat#DataService>.
+
+<https://model.ccmm.cz/research-data/ccmm%3ADistribution-DataServiceShape> sh:property <https://model.ccmm.cz/research-data/ccmm%3ADistribution-DataServiceShape/2dfa4aa5>, <https://model.ccmm.cz/research-data/dcat%3ADistributionShape/-2219314a>, <https://model.ccmm.cz/research-data/dcat%3ADistributionShape/-2751d42e>, <https://model.ccmm.cz/research-data/dcat%3ADistributionShape/6bd413a6>, <https://model.ccmm.cz/research-data/dcat%3ADistributionShape/-13837e7f>, <https://model.ccmm.cz/research-data/dcat%3ADistributionShape/-2b2f766a>, <https://model.ccmm.cz/research-data/dcat%3ADistributionShape/-6506d0b0>, <https://model.ccmm.cz/research-data/dcat%3ADistributionShape/491c4920>.
+
+<https://model.ccmm.cz/research-data/rdfs%3AResourceShape> rdfs:seeAlso <https://model.ccmm.cz/research-data/File>.
+
+<https://model.ccmm.cz/research-data/rdfs%3AResourceShape/3971538e> a sh:PropertyShape;
+    sh:name "label"@en;
+    sh:nodeKind sh:Literal;
+    sh:path rdfs:label;
+    sh:datatype rdf:langString.
+
+<https://model.ccmm.cz/research-data/rdfs%3AResourceShape> sh:property <https://model.ccmm.cz/research-data/rdfs%3AResourceShape/3971538e>.
+
+<https://model.ccmm.cz/research-data/dcterms%3AMediaTypeShape> a sh:NodeShape;
+    rdfs:seeAlso <https://model.ccmm.cz/research-data/MediaType>;
+    sh:closed false;
+    sh:targetClass <http://purl.org/dc/terms/MediaType>.
+
+<https://model.ccmm.cz/research-data/dcterms%3AMediaTypeShape/-743a4b5c> a sh:PropertyShape;
+    sh:name "label"@en;
+    sh:description "Use the label of the corresponding value from the used code list (usually IANA: https://www.iana.org/assignments/media-types/media-types.xhtml). This property may be repeated for parallel language versions of the label."@en;
+    sh:nodeKind sh:Literal;
+    sh:path <http://www.w3.org/2004/02/skos/core#prefLabel>;
+    sh:maxCount 1;
+    sh:minCount 1;
+    sh:datatype rdf:langString.
+
+<https://model.ccmm.cz/research-data/dcterms%3AMediaTypeShape> sh:property <https://model.ccmm.cz/research-data/dcterms%3AMediaTypeShape/-743a4b5c>.
+
+<https://model.ccmm.cz/research-data/dcat%3ADataServiceShape> a sh:NodeShape;
+    rdfs:seeAlso <https://model.ccmm.cz/research-data/DataService>;
+    sh:closed false;
+    sh:targetClass <http://www.w3.org/ns/dcat#DataService>.
+
+<https://model.ccmm.cz/research-data/dcat%3ADataServiceShape/-5f6400f3> a sh:PropertyShape;
+    sh:name "label"@en;
+    sh:nodeKind sh:Literal;
+    sh:path <http://purl.org/dc/terms/title>;
+    sh:datatype rdf:langString.
+
+<https://model.ccmm.cz/research-data/dcat%3ADataServiceShape> sh:property <https://model.ccmm.cz/research-data/dcat%3ADataServiceShape/-5f6400f3>.
+
+<https://model.ccmm.cz/research-data/dcat%3ADataServiceShape/-4d1bea3e> a sh:PropertyShape;
+    sh:nodeKind sh:BlankNodeOrIRI;
+    sh:path <http://www.w3.org/ns/dcat#endpointURL>.
+
+<https://model.ccmm.cz/research-data/dcat%3ADataServiceShape> sh:property <https://model.ccmm.cz/research-data/dcat%3ADataServiceShape/-4d1bea3e>.
+
+<https://model.ccmm.cz/research-data/dcat%3ADataServiceShape/5f0f12f5> a sh:PropertyShape;
+    sh:name "has licence"@en;
+    sh:nodeKind sh:BlankNodeOrIRI;
+    sh:path <http://purl.org/dc/terms/license>;
+    sh:maxCount 1;
+    sh:class <http://purl.org/dc/terms/LicenseDocument>.
+
+<https://model.ccmm.cz/research-data/dcat%3ADataServiceShape> sh:property <https://model.ccmm.cz/research-data/dcat%3ADataServiceShape/5f0f12f5>.
+
+<https://model.ccmm.cz/research-data/foaf%3ADocumentShape> a sh:NodeShape;
+    rdfs:seeAlso <https://model.ccmm.cz/research-data/Documentation>;
+    sh:closed false;
+    sh:targetClass <http://xmlns.com/foaf/0.1/Document>.
+
+<https://model.ccmm.cz/research-data/foaf%3ADocumentShape/28fe3dd2> a sh:PropertyShape;
+    sh:name "label"@en;
+    sh:nodeKind sh:Literal;
+    sh:path rdfs:label;
+    sh:datatype rdf:langString.
+
+<https://model.ccmm.cz/research-data/foaf%3ADocumentShape> sh:property <https://model.ccmm.cz/research-data/foaf%3ADocumentShape/28fe3dd2>.
+
+<https://model.ccmm.cz/research-data/ccmm%3ASubjectSchemeShape> a sh:NodeShape;
+    rdfs:seeAlso <https://model.ccmm.cz/research-data/SubjectScheme>;
+    sh:closed false;
+    sh:targetClass <https://model.ccmm.cz/vocabulary/ccmm#SubjectScheme>.
+
+<https://model.ccmm.cz/research-data/ccmm%3ASubjectSchemeShape/-36e50a85> a sh:PropertyShape;
+    sh:name "label"@en;
+    sh:nodeKind sh:Literal;
+    sh:path rdfs:label;
+    sh:datatype rdf:langString.
+
+<https://model.ccmm.cz/research-data/ccmm%3ASubjectSchemeShape> sh:property <https://model.ccmm.cz/research-data/ccmm%3ASubjectSchemeShape/-36e50a85>.
+
+<https://model.ccmm.cz/research-data/dcterms%3ALocationShape> a sh:NodeShape;
+    rdfs:seeAlso <https://model.ccmm.cz/research-data/Location>;
+    sh:closed false;
+    sh:targetClass <http://purl.org/dc/terms/Location>.
+
+<https://model.ccmm.cz/research-data/dcterms%3ALocationShape/-71f4030b> a sh:PropertyShape;
+    sh:name "label"@en;
+    sh:nodeKind sh:Literal;
+    sh:path rdfs:label;
+    sh:datatype rdf:langString.
+
+<https://model.ccmm.cz/research-data/dcterms%3ALocationShape> sh:property <https://model.ccmm.cz/research-data/dcterms%3ALocationShape/-71f4030b>.
+
+<https://model.ccmm.cz/research-data/dcterms%3ALocationShape/-4273a50a> a sh:PropertyShape;
+    sh:name "has related object"@en;
+    sh:description "The relation is provided by the identifier of the related object. It shall be identifier of an existing spatial object in a registry, such as Place Named Authority List (http://publications.europa.eu/resource/authority/place), Register of Territorial Identification, Addresses and Real Estates or others."@en;
+    sh:nodeKind sh:BlankNodeOrIRI;
+    sh:path <https://model.ccmm.cz/vocabulary/ccmm#hasRelatedResource>.
+
+<https://model.ccmm.cz/research-data/dcterms%3ALocationShape> sh:property <https://model.ccmm.cz/research-data/dcterms%3ALocationShape/-4273a50a>.
+
+<https://model.ccmm.cz/research-data/dcterms%3ALocationShape/297a0486> a sh:PropertyShape;
+    sh:name "has geometry"@en;
+    sh:description "The range of this property allows for any type of geometry specification. For example, the geometry could be encoded by a literal, as WKT (geosparql:wktLiteral), or represented by a class, as geosparql:Geometry (or any of its subclasses)."@en;
+    sh:nodeKind sh:BlankNodeOrIRI;
+    sh:path <http://www.w3.org/ns/locn#geometry>;
+    sh:maxCount 1;
+    sh:class <http://www.w3.org/ns/locn#Geometry>.
+
+<https://model.ccmm.cz/research-data/dcterms%3ALocationShape> sh:property <https://model.ccmm.cz/research-data/dcterms%3ALocationShape/297a0486>.
+
+<https://model.ccmm.cz/research-data/dcterms%3ALocationShape/-65ca3f4f> a sh:PropertyShape;
+    sh:name "has location relation type"@en;
+    sh:description "Use values from code list https://vocabs.ccmm.cz/registry/codelist/LocationRelation/."@en;
+    sh:nodeKind sh:BlankNodeOrIRI;
+    sh:path <https://model.ccmm.cz/vocabulary/ccmm#hasType>;
+    sh:maxCount 1;
+    sh:minCount 1;
+    sh:class <http://www.w3.org/2004/02/skos/core#Concept>.
+
+<https://model.ccmm.cz/research-data/dcterms%3ALocationShape> sh:property <https://model.ccmm.cz/research-data/dcterms%3ALocationShape/-65ca3f4f>.
+
+<https://model.ccmm.cz/research-data/locn%3AGeometryShape> a sh:NodeShape;
+    rdfs:seeAlso <https://model.ccmm.cz/research-data/Geometry>;
+    sh:closed false;
+    sh:targetClass <http://www.w3.org/ns/locn#Geometry>.
+
+<https://model.ccmm.cz/research-data/locn%3AGeometryShape/d2bc7d8> a sh:PropertyShape;
+    sh:name "label"@en;
+    sh:nodeKind sh:Literal;
+    sh:path rdfs:label;
+    sh:datatype rdf:langString.
+
+<https://model.ccmm.cz/research-data/locn%3AGeometryShape> sh:property <https://model.ccmm.cz/research-data/locn%3AGeometryShape/d2bc7d8>.
+
+<https://model.ccmm.cz/research-data/locn%3AGeometryShape/-4bc38946> a sh:PropertyShape;
+    sh:name "well known text literal"@en;
+    sh:nodeKind sh:Literal;
+    sh:path <http://www.opengis.net/ont/geosparql#asWKT>;
+    sh:maxCount 1;
+    sh:datatype <http://www.opengis.net/ont/geosparql#wktLiteral>.
+
+<https://model.ccmm.cz/research-data/locn%3AGeometryShape> sh:property <https://model.ccmm.cz/research-data/locn%3AGeometryShape/-4bc38946>.
+
+<https://model.ccmm.cz/research-data/locn%3AGeometryShape/7797bfa> a sh:PropertyShape;
+    sh:name "geography markup language literal"@en;
+    sh:nodeKind sh:Literal;
+    sh:path <http://www.opengis.net/ont/geosparql#asGML>;
+    sh:maxCount 1;
+    sh:datatype <http://www.opengis.net/ont/geosparql#gmlLiteral>.
+
+<https://model.ccmm.cz/research-data/locn%3AGeometryShape> sh:property <https://model.ccmm.cz/research-data/locn%3AGeometryShape/7797bfa>.
+
+<https://model.ccmm.cz/research-data/ccmm%3AAlternateTitleShape> a sh:NodeShape;
+    rdfs:seeAlso <https://model.ccmm.cz/research-data/AlternateTitle>;
+    sh:closed false;
+    sh:targetClass <https://model.ccmm.cz/vocabulary/ccmm#AlternateTitle>.
+
+<https://model.ccmm.cz/research-data/ccmm%3AAlternateTitleShape/5555402d> a sh:PropertyShape;
+    sh:name "title"@en;
+    sh:nodeKind sh:Literal;
+    sh:path <http://purl.org/dc/terms/alternative>;
+    sh:minCount 1;
+    sh:datatype rdf:langString.
+
+<https://model.ccmm.cz/research-data/ccmm%3AAlternateTitleShape> sh:property <https://model.ccmm.cz/research-data/ccmm%3AAlternateTitleShape/5555402d>.
+
+<https://model.ccmm.cz/research-data/ccmm%3AAlternateTitleShape/-3d589306> a sh:PropertyShape;
+    sh:name "has alternate title type"@en;
+    sh:description "References to the value from https://vocabs.ccmm.cz/registry/codelist/AlternateTitle/."@en;
+    sh:nodeKind sh:BlankNodeOrIRI;
+    sh:path <https://model.ccmm.cz/vocabulary/ccmm#hasType>;
+    sh:maxCount 1;
+    sh:class <http://www.w3.org/2004/02/skos/core#Concept>.
+
+<https://model.ccmm.cz/research-data/ccmm%3AAlternateTitleShape> sh:property <https://model.ccmm.cz/research-data/ccmm%3AAlternateTitleShape/-3d589306>.
+
+<https://model.ccmm.cz/research-data/spdx%3AChecksumShape> a sh:NodeShape;
+    rdfs:seeAlso <https://model.ccmm.cz/research-data/Checksum>;
+    sh:closed false;
+    sh:targetClass <http://spdx.org/rdf/terms#Checksum>.
+
+<https://model.ccmm.cz/research-data/spdx%3AChecksumShape/3f96d994> a sh:PropertyShape;
+    sh:name "checksum value"@en;
+    sh:description "Value is generated automatically using given algorithm."@en;
+    sh:nodeKind sh:Literal;
+    sh:path <http://spdx.org/rdf/terms#checksumValue>;
+    sh:maxCount 1;
+    sh:datatype xsd:hexBinary.
+
+<https://model.ccmm.cz/research-data/spdx%3AChecksumShape> sh:property <https://model.ccmm.cz/research-data/spdx%3AChecksumShape/3f96d994>.
+
+<https://model.ccmm.cz/research-data/spdx%3AChecksumShape/-78badbbf> a sh:PropertyShape;
+    sh:name "uses algorithm"@en;
+    sh:nodeKind sh:BlankNodeOrIRI;
+    sh:path <http://spdx.org/rdf/terms#algorithm>;
+    sh:maxCount 1;
+    sh:class <http://spdx.org/rdf/terms#ChecksumAlgorithm>.
+
+<https://model.ccmm.cz/research-data/spdx%3AChecksumShape> sh:property <https://model.ccmm.cz/research-data/spdx%3AChecksumShape/-78badbbf>.
+
+<https://model.ccmm.cz/research-data/spdx%3AChecksumAlgorithmShape> a sh:NodeShape;
+    rdfs:seeAlso <https://model.ccmm.cz/research-data/ChecksumAlgorithm>;
+    sh:closed false;
+    sh:targetClass <http://spdx.org/rdf/terms#ChecksumAlgorithm>.
+
+<https://model.ccmm.cz/research-data/spdx%3AChecksumAlgorithmShape/d24eae0> a sh:PropertyShape;
+    sh:name "label"@en;
+    sh:nodeKind sh:Literal;
+    sh:path rdfs:label;
+    sh:datatype rdf:langString.
+
+<https://model.ccmm.cz/research-data/spdx%3AChecksumAlgorithmShape> sh:property <https://model.ccmm.cz/research-data/spdx%3AChecksumAlgorithmShape/d24eae0>.
+
+<https://model.ccmm.cz/research-data/dcterms%3ALicenseDocumentShape> a sh:NodeShape;
+    rdfs:seeAlso <https://model.ccmm.cz/research-data/LicenceDocument>;
+    sh:closed false;
+    sh:targetClass <http://purl.org/dc/terms/LicenseDocument>.
+
+<https://model.ccmm.cz/research-data/dcterms%3ALicenseDocumentShape/-30321db4> a sh:PropertyShape;
+    sh:name "title"@en;
+    sh:nodeKind sh:Literal;
+    sh:path <http://purl.org/dc/terms/title>;
+    sh:datatype rdf:langString.
+
+<https://model.ccmm.cz/research-data/dcterms%3ALicenseDocumentShape> sh:property <https://model.ccmm.cz/research-data/dcterms%3ALicenseDocumentShape/-30321db4>.
+
+<https://model.ccmm.cz/research-data/skos%3AConceptShape> a sh:NodeShape;
+    rdfs:seeAlso <https://model.ccmm.cz/research-data/LocationRelationType>;
+    sh:closed false;
+    sh:targetClass <http://www.w3.org/2004/02/skos/core#Concept>.
+
+<https://model.ccmm.cz/research-data/skos%3AConceptShape/-58c605ed> a sh:PropertyShape;
+    sh:name "label"@en;
+    sh:description "Use label of a corresponding value from code list https://vocabs.ccmm.cz/registry/codelist/LocationRelation/. This property may be repeated for parallel language versions of the label."@en;
+    sh:nodeKind sh:Literal;
+    sh:path <http://www.w3.org/2004/02/skos/core#prefLabel>;
+    sh:maxCount 1;
+    sh:minCount 1;
+    sh:datatype rdf:langString.
+
+<https://model.ccmm.cz/research-data/skos%3AConceptShape> sh:property <https://model.ccmm.cz/research-data/skos%3AConceptShape/-58c605ed>;
+    rdfs:seeAlso <https://model.ccmm.cz/research-data/AlternateTitleType>.
+
+<https://model.ccmm.cz/research-data/skos%3AConceptShape/6ddde680> a sh:PropertyShape;
+    sh:name "label"@en;
+    sh:description "Use label of a corresponding value from code list https://vocabs.ccmm.cz/registry/codelist/AlternateTitle/. This property may be repeated for parallel language versions of the label."@en;
+    sh:nodeKind sh:Literal;
+    sh:path <http://www.w3.org/2004/02/skos/core#prefLabel>;
+    sh:maxCount 1;
+    sh:minCount 1;
+    sh:datatype rdf:langString.
+
+<https://model.ccmm.cz/research-data/skos%3AConceptShape> sh:property <https://model.ccmm.cz/research-data/skos%3AConceptShape/6ddde680>;
+    rdfs:seeAlso <https://model.ccmm.cz/research-data/DateType>.
+
+<https://model.ccmm.cz/research-data/skos%3AConceptShape/-687b8690> a sh:PropertyShape;
+    sh:name "label"@en;
+    sh:description "Use label of a corresponding value from code list https://vocabs.ccmm.cz/registry/codelist/TimeReference/. This property may be repeated for parallel language versions of the label."@en;
+    sh:nodeKind sh:Literal;
+    sh:path <http://www.w3.org/2004/02/skos/core#prefLabel>;
+    sh:maxCount 1;
+    sh:minCount 1;
+    sh:datatype rdf:langString.
+
+<https://model.ccmm.cz/research-data/skos%3AConceptShape> sh:property <https://model.ccmm.cz/research-data/skos%3AConceptShape/-687b8690>;
+    rdfs:seeAlso <https://model.ccmm.cz/research-data/ResourceType>.
+
+<https://model.ccmm.cz/research-data/skos%3AConceptShape/-505842b0> a sh:PropertyShape;
+    sh:name "label"@en;
+    sh:description "Use label of a corresponding value from code list https://vocabularies.coar-repositories.org/resource_types/. This property may be repeated for parallel language versions of the label."@en;
+    sh:nodeKind sh:Literal;
+    sh:path <http://www.w3.org/2004/02/skos/core#prefLabel>;
+    sh:maxCount 1;
+    sh:minCount 1;
+    sh:datatype rdf:langString.
+
+<https://model.ccmm.cz/research-data/skos%3AConceptShape> sh:property <https://model.ccmm.cz/research-data/skos%3AConceptShape/-505842b0>;
+    rdfs:seeAlso <https://model.ccmm.cz/research-data/ResourceRelationType>.
+
+<https://model.ccmm.cz/research-data/skos%3AConceptShape/535606c> a sh:PropertyShape;
+    sh:name "label"@en;
+    sh:description "Use label of corresponding value from code list https://vocabs.ccmm.cz/registry/codelist/RelationType/. This property may be repeated for parallel language versions of the label."@en;
+    sh:nodeKind sh:Literal;
+    sh:path <http://www.w3.org/2004/02/skos/core#prefLabel>;
+    sh:maxCount 1;
+    sh:minCount 1;
+    sh:datatype rdf:langString.
+
+<https://model.ccmm.cz/research-data/skos%3AConceptShape> sh:property <https://model.ccmm.cz/research-data/skos%3AConceptShape/535606c>.
+
+<https://model.ccmm.cz/research-data/dcterms%3ALinguisticSystemShape> a sh:NodeShape;
+    rdfs:seeAlso <https://model.ccmm.cz/research-data/LanguageSystem>;
+    sh:closed false;
+    sh:targetClass <http://purl.org/dc/terms/LinguisticSystem>.
+
+<https://model.ccmm.cz/research-data/dcterms%3ALinguisticSystemShape/-1ffef31> a sh:PropertyShape;
+    sh:name "label"@en;
+    sh:description "Use language label code from http://publications.europa.eu/resource/authority/language/. "@en;
+    sh:nodeKind sh:Literal;
+    sh:path <http://www.w3.org/2004/02/skos/core#prefLabel>;
+    sh:maxCount 1;
+    sh:minCount 1;
+    sh:datatype rdf:langString.
+
+<https://model.ccmm.cz/research-data/dcterms%3ALinguisticSystemShape> sh:property <https://model.ccmm.cz/research-data/dcterms%3ALinguisticSystemShape/-1ffef31>.
+
+<https://model.ccmm.cz/research-data/dcterms%3AMediaTypeOrExtentShape> a sh:NodeShape;
+    rdfs:seeAlso <https://model.ccmm.cz/research-data/Format>;
+    sh:closed false;
+    sh:targetClass <http://purl.org/dc/terms/MediaTypeOrExtent>.
+
+<https://model.ccmm.cz/research-data/dcterms%3AMediaTypeOrExtentShape/-5bd0de1> a sh:PropertyShape;
+    sh:name "label"@en;
+    sh:description "Use a label of a corresponding code list value from http://publications.europa.eu/resource/dataset/file-type. This property may be repeated for parallel language versions of the label."@en;
+    sh:nodeKind sh:Literal;
+    sh:path <http://www.w3.org/2004/02/skos/core#prefLabel>;
+    sh:maxCount 1;
+    sh:minCount 1;
+    sh:datatype rdf:langString.
+
+<https://model.ccmm.cz/research-data/dcterms%3AMediaTypeOrExtentShape> sh:property <https://model.ccmm.cz/research-data/dcterms%3AMediaTypeOrExtentShape/-5bd0de1>.
+
+<https://model.ccmm.cz/research-data/dcterms%3ARightsStatementShape> a sh:NodeShape;
+    rdfs:seeAlso <https://model.ccmm.cz/research-data/AccessRights>;
+    sh:closed false;
+    sh:targetClass <http://purl.org/dc/terms/RightsStatement>.
+
+<https://model.ccmm.cz/research-data/dcterms%3ARightsStatementShape/69825fc3> a sh:PropertyShape;
+    sh:name "label"@en;
+    sh:description "Use the label of the value from register http://purl.org/coar/access_right/. Allowed English values are 'embargoes access', 'metadata only access', 'open access' and 'restricted access'. This property may be repeated for parallel language versions of the label."@en;
+    sh:nodeKind sh:Literal;
+    sh:path <http://www.w3.org/2004/02/skos/core#prefLabel>;
+    sh:maxCount 1;
+    sh:minCount 1;
+    sh:datatype rdf:langString.
+
+<https://model.ccmm.cz/research-data/dcterms%3ARightsStatementShape> sh:property <https://model.ccmm.cz/research-data/dcterms%3ARightsStatementShape/69825fc3>.
+
+<https://model.ccmm.cz/research-data/time%3ATemporalEntityShape> a sh:NodeShape;
+    rdfs:seeAlso <https://model.ccmm.cz/research-data/TimeRepresentation>;
+    sh:closed false;
+    sh:targetClass <http://www.w3.org/2006/time#TemporalEntity>.
+
+<https://model.ccmm.cz/research-data/time%3AInstantShape> a sh:NodeShape;
+    rdfs:seeAlso <https://model.ccmm.cz/research-data/TimeInstant>;
+    sh:closed false;
+    sh:targetClass <http://www.w3.org/2006/time#Instant>.
+
+<https://model.ccmm.cz/research-data/time%3AInstantShape/-4fa1cd29> a sh:PropertyShape;
+    sh:name "date"@en;
+    sh:description "Each time instant SHALL have exactly one date OR date time stamp attribute."@en;
+    sh:nodeKind sh:Literal;
+    sh:path <http://www.w3.org/2006/time#inXSDDate>;
+    sh:maxCount 1;
+    sh:datatype xsd:date.
+
+<https://model.ccmm.cz/research-data/time%3AInstantShape> sh:property <https://model.ccmm.cz/research-data/time%3AInstantShape/-4fa1cd29>.
+
+<https://model.ccmm.cz/research-data/time%3AInstantShape/668f6f1> a sh:PropertyShape;
+    sh:name "date time"@en;
+    sh:description "Each time instant SHALL have exactly one date OR date time attribute.\n\nMaintanance note: In the draft on newest version of Time ontology, in XSD date-time is deprecated and replaced with in XSD date-time-stamp."@en;
+    sh:nodeKind sh:Literal;
+    sh:path <http://www.w3.org/2006/time#inXSDDateTime>;
+    sh:maxCount 1;
+    sh:datatype xsd:dateTime.
+
+<https://model.ccmm.cz/research-data/time%3AInstantShape> sh:property <https://model.ccmm.cz/research-data/time%3AInstantShape/668f6f1>.
+
+<https://model.ccmm.cz/research-data/time%3AIntervalShape> a sh:NodeShape;
+    rdfs:seeAlso <https://model.ccmm.cz/research-data/TimeInterval>;
+    sh:closed false;
+    sh:targetClass <http://www.w3.org/2006/time#Interval>.
+
+<https://model.ccmm.cz/research-data/time%3AIntervalShape/10f29121> a sh:PropertyShape;
+    sh:name "has beginning"@en, "tiene principio"@es;
+    sh:nodeKind sh:BlankNodeOrIRI;
+    sh:path <http://www.w3.org/2006/time#hasBeginning>;
+    sh:maxCount 1;
+    sh:minCount 1;
+    sh:class <http://www.w3.org/2006/time#Instant>.
+
+<https://model.ccmm.cz/research-data/time%3AIntervalShape> sh:property <https://model.ccmm.cz/research-data/time%3AIntervalShape/10f29121>.
+
+<https://model.ccmm.cz/research-data/time%3AIntervalShape/-311014e1> a sh:PropertyShape;
+    sh:name "has end"@en, "tiene fin"@es;
+    sh:nodeKind sh:BlankNodeOrIRI;
+    sh:path <http://www.w3.org/2006/time#hasEnd>;
+    sh:maxCount 1;
+    sh:minCount 1;
+    sh:class <http://www.w3.org/2006/time#Instant>.
+
+<https://model.ccmm.cz/research-data/time%3AIntervalShape> sh:property <https://model.ccmm.cz/research-data/time%3AIntervalShape/-311014e1>.
+
+<https://model.ccmm.cz/research-data/ccmm%3AIdentifierSchemeShape> a sh:NodeShape;
+    rdfs:seeAlso <https://model.ccmm.cz/research-data/IdentifierScheme>;
+    sh:closed false;
+    sh:targetClass <https://model.ccmm.cz/vocabulary/ccmm#IdentifierScheme>.
+
+<https://model.ccmm.cz/research-data/ccmm%3AIdentifierSchemeShape/-717362e4> a sh:PropertyShape;
+    sh:name "label"@en;
+    sh:description "For example, DOI, ORCID etc."@en;
+    sh:nodeKind sh:Literal;
+    sh:path rdfs:label;
+    sh:datatype rdf:langString.
+
+<https://model.ccmm.cz/research-data/ccmm%3AIdentifierSchemeShape> sh:property <https://model.ccmm.cz/research-data/ccmm%3AIdentifierSchemeShape/-717362e4>.
+
+<https://model.ccmm.cz/research-data/https://w3id.org/tib/datacite/class/DescriptionShape> a sh:NodeShape;
+    rdfs:seeAlso <https://model.ccmm.cz/research-data/Description>;
+    sh:closed false;
+    sh:targetClass <https://w3id.org/tib/datacite/class/Description>.
+
+<https://model.ccmm.cz/research-data/https://w3id.org/tib/datacite/class/DescriptionShape/-5a86c140> a sh:PropertyShape;
+    sh:name "description text"@en;
+    sh:description "description [DCAT-AP 3.0.1 based on DCAT 3 DAP] (https://mff-uk.github.io/specifications/dcat-ap#DataService.description)"@en;
+    sh:nodeKind sh:Literal;
+    sh:path <http://purl.org/dc/terms/description>;
+    sh:maxCount 1;
+    sh:datatype rdf:langString.
+
+<https://model.ccmm.cz/research-data/https://w3id.org/tib/datacite/class/DescriptionShape> sh:property <https://model.ccmm.cz/research-data/https://w3id.org/tib/datacite/class/DescriptionShape/-5a86c140>.
+
+<https://model.ccmm.cz/research-data/https://w3id.org/tib/datacite/class/DescriptionShape/4fc7062d> a sh:PropertyShape;
+    sh:name "has description type"@en;
+    sh:description "Type of the description from the code list https://vocabs.ccmm.cz/registry/codelist/DescriptionType/."@en;
+    sh:nodeKind sh:BlankNodeOrIRI;
+    sh:path <https://w3id.org/tib/datacite/property/descriptionType>;
+    sh:maxCount 1;
+    sh:class <http://www.w3.org/2004/02/skos/core#Concept>.
+
+<https://model.ccmm.cz/research-data/https://w3id.org/tib/datacite/class/DescriptionShape> sh:property <https://model.ccmm.cz/research-data/https://w3id.org/tib/datacite/class/DescriptionShape/4fc7062d>.
+
+<https://model.ccmm.cz/research-data/skos%3AConceptShape> rdfs:seeAlso <https://model.ccmm.cz/research-data/DescriptionType>.
+
+<https://model.ccmm.cz/research-data/skos%3AConceptShape/2d4e697c> a sh:PropertyShape;
+    sh:name "label"@en;
+    sh:description "Use the label of the corresponding value from code list https://vocabs.ccmm.cz/registry/codelist/DescriptionType/. This property may be repeated for parallel language versions of the label."@en;
+    sh:nodeKind sh:Literal;
+    sh:path <http://www.w3.org/2004/02/skos/core#prefLabel>;
+    sh:maxCount 1;
+    sh:minCount 1;
+    sh:datatype rdf:langString.
+
+<https://model.ccmm.cz/research-data/skos%3AConceptShape> sh:property <https://model.ccmm.cz/research-data/skos%3AConceptShape/2d4e697c>.
+
+<https://model.ccmm.cz/research-data/ccmm%3ATimeReferenceShape> a sh:NodeShape;
+    rdfs:seeAlso <https://model.ccmm.cz/research-data/TimeReference>;
+    sh:closed false;
+    sh:targetClass <https://model.ccmm.cz/vocabulary/ccmm#TimeReference>.
+
+<https://model.ccmm.cz/research-data/ccmm%3ATimeReferenceShape/-6c98a651> a sh:PropertyShape;
+    sh:name "date information"@en;
+    sh:description "Write any additional information needed to understand the meaning of event that happened in the given time."@en;
+    sh:nodeKind sh:Literal;
+    sh:path <https://w3id.org/tib/datacite/property/dateInformation>;
+    sh:maxCount 1;
+    sh:datatype rdf:langString.
+
+<https://model.ccmm.cz/research-data/ccmm%3ATimeReferenceShape> sh:property <https://model.ccmm.cz/research-data/ccmm%3ATimeReferenceShape/-6c98a651>.
+
+<https://model.ccmm.cz/research-data/ccmm%3ATimeReferenceShape/6c5961b8> a sh:PropertyShape;
+    sh:name "has date type"@en;
+    sh:description "References to the value from https://vocabs.ccmm.cz/registry/codelist/TimeReference/."@en;
+    sh:nodeKind sh:BlankNodeOrIRI;
+    sh:path <https://model.ccmm.cz/vocabulary/ccmm#hasType>;
+    sh:maxCount 1;
+    sh:minCount 1;
+    sh:class <http://www.w3.org/2004/02/skos/core#Concept>.
+
+<https://model.ccmm.cz/research-data/ccmm%3ATimeReferenceShape> sh:property <https://model.ccmm.cz/research-data/ccmm%3ATimeReferenceShape/6c5961b8>.
+
+<https://model.ccmm.cz/research-data/ccmm%3ATimeReferenceShape/-6af7e9d> a sh:PropertyShape;
+    sh:name "has temporal representation"@en;
+    sh:nodeKind sh:BlankNodeOrIRI;
+    sh:path <http://www.w3.org/2006/time#hasTime>;
+    sh:maxCount 1;
+    sh:minCount 1;
+    sh:class <http://www.w3.org/2006/time#TemporalEntity>.
+
+<https://model.ccmm.cz/research-data/ccmm%3ATimeReferenceShape> sh:property <https://model.ccmm.cz/research-data/ccmm%3ATimeReferenceShape/-6af7e9d>.
+
+<https://model.ccmm.cz/research-data/rdfs%3AResourceShape> rdfs:seeAlso <https://model.ccmm.cz/research-data/Resource>.
+
+<https://model.ccmm.cz/research-data/adms%3AIdentifierShape> a sh:NodeShape;
+    rdfs:seeAlso <https://model.ccmm.cz/research-data/Identifier>;
+    sh:closed false;
+    sh:targetClass <http://www.w3.org/ns/adms#Identifier>.
+
+<https://model.ccmm.cz/research-data/adms%3AIdentifierShape/-408ea318> a sh:PropertyShape;
+    sh:name "authorized"@en;
+    sh:description "This attribute shall be filled mainly for ORCiD identifiers of Persons. It serves to determine whether the person in the repository is really the person it is meant to be."@en;
+    sh:nodeKind sh:Literal;
+    sh:path <https://model.ccmm.cz/vocabulary/ccmm#authorized>;
+    sh:maxCount 1;
+    sh:datatype xsd:boolean.
+
+<https://model.ccmm.cz/research-data/adms%3AIdentifierShape> sh:property <https://model.ccmm.cz/research-data/adms%3AIdentifierShape/-408ea318>.
+
+<https://model.ccmm.cz/research-data/adms%3AIdentifierShape/7f314f7a> a sh:PropertyShape;
+    sh:name "value"@en;
+    sh:nodeKind sh:Literal;
+    sh:path <http://www.w3.org/2004/02/skos/core#notation>;
+    sh:maxCount 1;
+    sh:minCount 1.
+
+<https://model.ccmm.cz/research-data/adms%3AIdentifierShape> sh:property <https://model.ccmm.cz/research-data/adms%3AIdentifierShape/7f314f7a>.
+
+<https://model.ccmm.cz/research-data/adms%3AIdentifierShape/1d6c5d1e> a sh:PropertyShape;
+    sh:name "in scheme"@en;
+    sh:nodeKind sh:BlankNodeOrIRI;
+    sh:path <https://model.ccmm.cz/vocabulary/ccmm#inScheme>;
+    sh:maxCount 1;
+    sh:minCount 1;
+    sh:class <https://model.ccmm.cz/vocabulary/ccmm#IdentifierScheme>.
+
+<https://model.ccmm.cz/research-data/adms%3AIdentifierShape> sh:property <https://model.ccmm.cz/research-data/adms%3AIdentifierShape/1d6c5d1e>.
+
+<https://model.ccmm.cz/research-data/prov%3AActivityShape> a sh:NodeShape;
+    rdfs:seeAlso <https://model.ccmm.cz/research-data/ProvenanceActivity>;
+    sh:closed false;
+    sh:targetClass <http://www.w3.org/ns/prov#Activity>.
+
+<https://model.ccmm.cz/research-data/prov%3AActivityShape/4e0744fa> a sh:PropertyShape;
+    sh:name "label"@en;
+    sh:nodeKind sh:Literal;
+    sh:path rdfs:label;
+    sh:datatype rdf:langString.
+
+<https://model.ccmm.cz/research-data/prov%3AActivityShape> sh:property <https://model.ccmm.cz/research-data/prov%3AActivityShape/4e0744fa>.
+
+<https://model.ccmm.cz/research-data/prov%3AActivityShape/-5782f3b7> a sh:PropertyShape;
+    sh:name "has RO-Crate JSON representation"@en;
+    sh:nodeKind sh:BlankNodeOrIRI;
+    sh:path <https://model.ccmm.cz/vocabulary/ccmm#hasRo-crateJsonRepresentation>;
+    sh:class <https://model.ccmm.cz/vocabulary/ccmm#Ro-crateJsonRepresentation>.
+
+<https://model.ccmm.cz/research-data/prov%3AActivityShape> sh:property <https://model.ccmm.cz/research-data/prov%3AActivityShape/-5782f3b7>.
+
+<https://model.ccmm.cz/research-data/prov%3AActivityShape/-3ce9fc71> a sh:PropertyShape;
+    sh:name "has common provenance model json representation"@en;
+    sh:nodeKind sh:BlankNodeOrIRI;
+    sh:path <https://model.ccmm.cz/vocabulary/ccmm#hasCPMJsonRepresentation>;
+    sh:class <https://model.ccmm.cz/vocabulary/ccmm#CPMJsonRepresentation>.
+
+<https://model.ccmm.cz/research-data/prov%3AActivityShape> sh:property <https://model.ccmm.cz/research-data/prov%3AActivityShape/-3ce9fc71>.
+
+<https://model.ccmm.cz/research-data/ccmm%3ACPMJsonRepresentationShape> a sh:NodeShape;
+    rdfs:seeAlso <https://model.ccmm.cz/research-data/CommonProvenanceModelJsonRepresentation>;
+    sh:closed false;
+    sh:targetClass <https://model.ccmm.cz/vocabulary/ccmm#CPMJsonRepresentation>.
+
+<https://model.ccmm.cz/research-data/ccmm%3ARo-crateJsonRepresentationShape> a sh:NodeShape;
+    rdfs:seeAlso <https://model.ccmm.cz/research-data/Ro-crateJsonRepresentation>;
+    sh:closed false;
+    sh:targetClass <https://model.ccmm.cz/vocabulary/ccmm#Ro-crateJsonRepresentation>.
+
