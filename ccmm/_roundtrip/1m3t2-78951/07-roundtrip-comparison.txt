@@ -1,0 +1,83 @@
+Status: DIFFERENT
+Comparison: elements, attributes, text values, and repeated-element order
+Ignored: XML declaration, comments, indentation, attribute order, namespace prefixes
+Missing content entries: 26
+Added content entries: 0
+Sibling-order changes: 18
+
+Missing from round-trip XML:
+- attribute /ccmm:dataset/@xsi:schemaLocation = 'https://schema.ccmm.cz/research-data/2.0 ../dataset/schema.xsd'
+- attribute /ccmm:dataset/ccmm:identifier/ccmm:scheme/ccmm:label/@xml:lang = ''
+- attribute /ccmm:dataset/ccmm:metadata_identification/ccmm:conforms_to_standard/ccmm:label/@xml:lang = ''
+- attribute /ccmm:dataset/ccmm:qualified_attribution/ccmm:attributed_agent/ccmm:organization/ccmm:identifier/ccmm:scheme/ccmm:label/@xml:lang = ''
+- attribute /ccmm:dataset/ccmm:qualified_attribution/ccmm:attributed_agent/ccmm:person/ccmm:affiliation/ccmm:identifier/ccmm:scheme/ccmm:label/@xml:lang = '' (4 occurrences)
+- attribute /ccmm:dataset/ccmm:qualified_attribution/ccmm:attributed_agent/ccmm:person/ccmm:identifier/ccmm:scheme/ccmm:label/@xml:lang = '' (4 occurrences)
+- attribute /ccmm:dataset/ccmm:subject/ccmm:subject_scheme/ccmm:label/@xml:lang = 'cs'
+- attribute /ccmm:dataset/ccmm:subject/ccmm:subject_scheme/ccmm:label/@xml:lang = 'en'
+- element /ccmm:dataset/ccmm:subject
+- element /ccmm:dataset/ccmm:subject/ccmm:classification_code
+- element /ccmm:dataset/ccmm:subject/ccmm:iri
+- element /ccmm:dataset/ccmm:subject/ccmm:subject_scheme
+- element /ccmm:dataset/ccmm:subject/ccmm:subject_scheme/ccmm:iri
+- element /ccmm:dataset/ccmm:subject/ccmm:subject_scheme/ccmm:label (2 occurrences)
+- text /ccmm:dataset/ccmm:subject/ccmm:classification_code = '10606'
+- text /ccmm:dataset/ccmm:subject/ccmm:iri = 'https://vocabs.ccmm.cz/registry/codelist/SubjectCategory/10000/10600/10606'
+- text /ccmm:dataset/ccmm:subject/ccmm:subject_scheme/ccmm:iri = 'https://vocabs.ccmm.cz/registry/codelist/SubjectCategory/'
+- text /ccmm:dataset/ccmm:subject/ccmm:subject_scheme/ccmm:label = 'OECD FORD Subject Category (Frascati)'
+- text /ccmm:dataset/ccmm:subject/ccmm:subject_scheme/ccmm:label = 'Oborové třídění OECD FORD (Frascati)'
+
+Repeated elements with changed order:
+- /ccmm:dataset/ccmm:description
+  original: ccmm:description (ccmm:iri='https://vocabs.ccmm.cz/registry/codelist/D'... [sha256:7f9640669cf6]; ccmm:label='Abstract') | ccmm:description (ccmm:iri='https://vocabs.ccmm.cz/registry/codelist/D'... [sha256:7f9640669cf6]; ccmm:label='Abstract') | ccmm:description (ccmm:iri='https://vocabs.ccmm.cz/registry/codelist/D'... [sha256:c6e4c9a6c58d]; ccmm:label='Technical Info') | ccmm:description (ccmm:iri='https://vocabs.ccmm.cz/registry/codelist/D'... [sha256:c6e4c9a6c58d]; ccmm:label='Technical Info') | ccmm:description (ccmm:iri='https://vocabs.ccmm.cz/registry/codelist/D'... [sha256:7a7573a82060]; ccmm:label='Methods') | ccmm:description (ccmm:iri='https://vocabs.ccmm.cz/registry/codelist/D'... [sha256:7a7573a82060]; ccmm:label='Methods')
+  round-trip: ccmm:description (ccmm:iri='https://vocabs.ccmm.cz/registry/codelist/D'... [sha256:7a7573a82060]; ccmm:label='Metodologie') | ccmm:description (ccmm:iri='https://vocabs.ccmm.cz/registry/codelist/D'... [sha256:7f9640669cf6]; ccmm:label='Abstrakt') | ccmm:description (ccmm:iri='https://vocabs.ccmm.cz/registry/codelist/D'... [sha256:7a7573a82060]; ccmm:label='Metodologie') | ccmm:description (ccmm:iri='https://vocabs.ccmm.cz/registry/codelist/D'... [sha256:c6e4c9a6c58d]; ccmm:label='Technická informace') | ccmm:description (ccmm:iri='https://vocabs.ccmm.cz/registry/codelist/D'... [sha256:7f9640669cf6]; ccmm:label='Abstrakt') | ccmm:description (ccmm:iri='https://vocabs.ccmm.cz/registry/codelist/D'... [sha256:c6e4c9a6c58d]; ccmm:label='Technická informace')
+- /ccmm:dataset/ccmm:description/ccmm:description_type/ccmm:label
+  original: ccmm:label @xml:lang='cs' = 'Abstrakt' | ccmm:label @xml:lang='en' = 'Abstract'
+  round-trip: ccmm:label @xml:lang='en' = 'Abstract' | ccmm:label @xml:lang='cs' = 'Abstrakt'
+- /ccmm:dataset/ccmm:description/ccmm:description_type/ccmm:label
+  original: ccmm:label @xml:lang='cs' = 'Abstrakt' | ccmm:label @xml:lang='en' = 'Abstract'
+  round-trip: ccmm:label @xml:lang='en' = 'Abstract' | ccmm:label @xml:lang='cs' = 'Abstrakt'
+- /ccmm:dataset/ccmm:description/ccmm:description_type/ccmm:label
+  original: ccmm:label @xml:lang='cs' = 'Technická informace' | ccmm:label @xml:lang='en' = 'Technical Info'
+  round-trip: ccmm:label @xml:lang='en' = 'Technical Info' | ccmm:label @xml:lang='cs' = 'Technická informace'
+- /ccmm:dataset/ccmm:description/ccmm:description_type/ccmm:label
+  original: ccmm:label @xml:lang='cs' = 'Technická informace' | ccmm:label @xml:lang='en' = 'Technical Info'
+  round-trip: ccmm:label @xml:lang='en' = 'Technical Info' | ccmm:label @xml:lang='cs' = 'Technická informace'
+- /ccmm:dataset/ccmm:description/ccmm:description_type/ccmm:label
+  original: ccmm:label @xml:lang='cs' = 'Metodologie' | ccmm:label @xml:lang='en' = 'Methods'
+  round-trip: ccmm:label @xml:lang='en' = 'Methods' | ccmm:label @xml:lang='cs' = 'Metodologie'
+- /ccmm:dataset/ccmm:description/ccmm:description_type/ccmm:label
+  original: ccmm:label @xml:lang='cs' = 'Metodologie' | ccmm:label @xml:lang='en' = 'Methods'
+  round-trip: ccmm:label @xml:lang='en' = 'Methods' | ccmm:label @xml:lang='cs' = 'Metodologie'
+- /ccmm:dataset/ccmm:keyword
+  original: ccmm:keyword @xml:lang='cs' = 'mikroskopie' | ccmm:keyword @xml:lang='en' = 'microscopy' | ccmm:keyword @xml:lang='cs' = 'NETóza' | ccmm:keyword @xml:lang='en' = 'NETosis' | ccmm:keyword @xml:lang='cs' = 'NETy' | ccmm:keyword @xml:lang='en' = 'NETs' | ccmm:keyword @xml:lang='cs' = 'lidské neutrofily' | ccmm:keyword @xml:lang='en' = 'human neutrophils'
+  round-trip: ccmm:keyword @xml:lang='en' = 'human neutrophils' | ccmm:keyword @xml:lang='cs' = 'lidské neutrofily' | ccmm:keyword @xml:lang='en' = 'microscopy' | ccmm:keyword @xml:lang='cs' = 'mikroskopie' | ccmm:keyword @xml:lang='en' = 'NETosis' | ccmm:keyword @xml:lang='cs' = 'NETóza' | ccmm:keyword @xml:lang='en' = 'NETs' | ccmm:keyword @xml:lang='cs' = 'NETy'
+- /ccmm:dataset/ccmm:metadata_identification/ccmm:original_repository/ccmm:qualified_attribution/ccmm:role/ccmm:label
+  original: ccmm:label @xml:lang='cs' = 'Vydavatel' | ccmm:label @xml:lang='en' = 'Publisher'
+  round-trip: ccmm:label @xml:lang='en' = 'Publisher' | ccmm:label @xml:lang='cs' = 'Vydavatel'
+- /ccmm:dataset/ccmm:qualified_attribution/ccmm:role/ccmm:label
+  original: ccmm:label @xml:lang='en' = 'Creator' | ccmm:label @xml:lang='cs' = 'Autor'
+  round-trip: ccmm:label @xml:lang='cs' = 'Autor' | ccmm:label @xml:lang='en' = 'Creator'
+- /ccmm:dataset/ccmm:qualified_attribution/ccmm:role/ccmm:label
+  original: ccmm:label @xml:lang='en' = 'Creator' | ccmm:label @xml:lang='cs' = 'Autor'
+  round-trip: ccmm:label @xml:lang='cs' = 'Autor' | ccmm:label @xml:lang='en' = 'Creator'
+- /ccmm:dataset/ccmm:qualified_attribution/ccmm:role/ccmm:label
+  original: ccmm:label @xml:lang='en' = 'Creator' | ccmm:label @xml:lang='cs' = 'Autor'
+  round-trip: ccmm:label @xml:lang='cs' = 'Autor' | ccmm:label @xml:lang='en' = 'Creator'
+- /ccmm:dataset/ccmm:resource_type/ccmm:label
+  original: ccmm:label @xml:lang='cs' = 'datová sada' | ccmm:label @xml:lang='en' = 'dataset'
+  round-trip: ccmm:label @xml:lang='en' = 'dataset' | ccmm:label @xml:lang='cs' = 'datová sada'
+- /ccmm:dataset/ccmm:subject/ccmm:subject_scheme/ccmm:label
+  original: ccmm:label @xml:lang='en' = 'OECD FORD Subject Category (Frascati)' | ccmm:label @xml:lang='cs' = 'Oborové třídění OECD FORD (Frascati)'
+  round-trip: ccmm:label @xml:lang='cs' = 'Oborové třídění OECD FORD (Frascati)' | ccmm:label @xml:lang='en' = 'OECD FORD Subject Category (Frascati)'
+- /ccmm:dataset/ccmm:subject/ccmm:subject_scheme/ccmm:label
+  original: ccmm:label @xml:lang='en' = 'OECD FORD Subject Category (Frascati)' | ccmm:label @xml:lang='cs' = 'Oborové třídění OECD FORD (Frascati)'
+  round-trip: ccmm:label @xml:lang='cs' = 'Oborové třídění OECD FORD (Frascati)' | ccmm:label @xml:lang='en' = 'OECD FORD Subject Category (Frascati)'
+- /ccmm:dataset/ccmm:subject/ccmm:subject_scheme/ccmm:label
+  original: ccmm:label @xml:lang='en' = 'OECD FORD Subject Category (Frascati)' | ccmm:label @xml:lang='cs' = 'Oborové třídění OECD FORD (Frascati)'
+  round-trip: ccmm:label @xml:lang='cs' = 'Oborové třídění OECD FORD (Frascati)' | ccmm:label @xml:lang='en' = 'OECD FORD Subject Category (Frascati)'
+- /ccmm:dataset/ccmm:subject/ccmm:title
+  original: ccmm:title @xml:lang='cs' = 'Imunologie' | ccmm:title @xml:lang='en' = 'Immunology'
+  round-trip: ccmm:title @xml:lang='en' = 'Immunology' | ccmm:title @xml:lang='cs' = 'Imunologie'
+- /ccmm:dataset/ccmm:time_reference
+  original: ccmm:time_reference (ccmm:iri='https://vocabs.ccmm.cz/registry/codelist/T'... [sha256:96f94b674046]; ccmm:label='Datum vydání') | ccmm:time_reference (ccmm:iri='https://vocabs.ccmm.cz/registry/codelist/T'... [sha256:6de79f691f43]; ccmm:label='Datum vytvoření') | ccmm:time_reference (ccmm:iri='https://vocabs.ccmm.cz/registry/codelist/T'... [sha256:079f4fc50429]; ccmm:label='Datum sběru') | ccmm:time_reference (ccmm:iri='https://vocabs.ccmm.cz/registry/codelist/T'... [sha256:db4a1aec8f2a]; ccmm:label='Datum zveřejnění')
+  round-trip: ccmm:time_reference (ccmm:iri='https://vocabs.ccmm.cz/registry/codelist/T'... [sha256:db4a1aec8f2a]; ccmm:label='Datum zveřejnění') | ccmm:time_reference (ccmm:iri='https://vocabs.ccmm.cz/registry/codelist/T'... [sha256:96f94b674046]; ccmm:label='Datum vydání') | ccmm:time_reference (ccmm:iri='https://vocabs.ccmm.cz/registry/codelist/T'... [sha256:6de79f691f43]; ccmm:label='Datum vytvoření') | ccmm:time_reference (ccmm:iri='https://vocabs.ccmm.cz/registry/codelist/T'... [sha256:079f4fc50429]; ccmm:label='Datum sběru')
