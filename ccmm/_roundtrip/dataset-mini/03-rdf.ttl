@@ -1,0 +1,140 @@
+PREFIX adms: <http://www.w3.org/ns/adms#>
+PREFIX ccmm: <https://model.ccmm.cz/vocabulary/ccmm#>
+PREFIX datacite: <https://w3id.org/tib/datacite/property/>
+PREFIX dcat: <http://www.w3.org/ns/dcat#>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX org: <http://www.w3.org/ns/org#>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX time: <http://www.w3.org/2006/time#>
+PREFIX vcard: <http://www.w3.org/2006/vcard/ns#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+<http://purl.org/coar/access_right/c_f1cf>
+    a dcterms:RightsStatement ;
+.
+
+<https://data.narodni-repozitar.cz>
+    a dcat:Catalog ;
+    dcterms:title "Původní repozitář"@cs ;
+    prov:qualifiedAttribution
+        [
+            a prov:Attribution ;
+            dcat:hadRole <https://vocabs.ccmm.cz/registry/codelist/AgentRole/Publisher> ;
+            prov:agent
+                [
+                    a org:Organization ;
+                    foaf:name "Univerzita Karlova" ;
+                ] ;
+        ] ;
+.
+
+<https://doi.org/>
+    a ccmm:IdentifierScheme ;
+.
+
+<https://doi.org/10.48700/datst.xd12h-dfz24>
+    a adms:Identifier ;
+    skos:notation "10.48700/datst.xd12h-dfz24" ;
+    ccmm:inScheme <https://doi.org/> ;
+.
+
+<https://model.ccmm.cz/research-data/2.0.0>
+    a dcterms:Standard ;
+    rdfs:label "CCMM RD 2.0.0" ;
+.
+
+<https://vocabs.ccmm.cz/registry/codelist/AgentRole/Contributor/DataManager>
+    a dcat:Role ;
+.
+
+<https://vocabs.ccmm.cz/registry/codelist/AgentRole/Creator>
+    a dcat:Role ;
+.
+
+<https://vocabs.ccmm.cz/registry/codelist/SubjectCategory/>
+    a ccmm:SubjectScheme ;
+.
+
+<https://vocabs.ccmm.cz/registry/codelist/SubjectCategory/30000/30300/30304>
+    a <https://w3id.org/tib/datacite/class/Subject> ;
+    dcterms:title "Veřejné a environmentální zdraví"@cs ;
+    ccmm:inSubjectScheme <https://vocabs.ccmm.cz/registry/codelist/SubjectCategory/> ;
+    datacite:classificationCode "10509" ;
+.
+
+<https://vocabs.ccmm.cz/registry/codelist/TimeReference/Created>
+    a skos:Concept ;
+.
+
+<https://vocabs.ccmm.cz/registry/codelist/AgentRole/Publisher>
+    a dcat:Role ;
+    skos:prefLabel
+        "Vydavatel"@cs ,
+        "Publisher"@en ;
+.
+
+[]    a dcat:Dataset ;
+    dcterms:accessRights <http://purl.org/coar/access_right/c_f1cf> ;
+    dcterms:title "Datová sada pro Údaje o zdravotní gramotnosti a depresi seniorů ve věku 65 a více let" ;
+    adms:identifier <https://doi.org/10.48700/datst.xd12h-dfz24> ;
+    prov:qualifiedAttribution
+        [
+            a prov:Attribution ;
+            dcat:hadRole <https://vocabs.ccmm.cz/registry/codelist/AgentRole/Creator> ;
+            prov:agent
+                [
+                    a prov:Person ;
+                    vcard:family-name "Bártlová" ;
+                    vcard:given-name "Sylva" ;
+                    foaf:name "Bártlová, Sylva" ;
+                ] ;
+        ] ,
+        [
+            a prov:Attribution ;
+            dcat:hadRole <https://vocabs.ccmm.cz/registry/codelist/AgentRole/Publisher> ;
+            prov:agent
+                [
+                    a org:Organization ;
+                    foaf:name ":unkn" ;
+                ] ;
+        ] ;
+    ccmm:hasTimeReference
+        [
+            a ccmm:TimeReference ;
+            time:hasTime
+                [
+                    a time:Instant ;
+                    time:inXSDDate "2024-05-01"^^xsd:date ;
+                ] ;
+            ccmm:hasType <https://vocabs.ccmm.cz/registry/codelist/TimeReference/Created> ;
+        ] ;
+    ccmm:isDescribedBy
+        [
+            a dcat:CatalogRecord ;
+            dcterms:conformsTo <https://model.ccmm.cz/research-data/2.0.0> ;
+            dcterms:modified "2025-07-25"^^xsd:date ;
+            prov:qualifiedAttribution
+                [
+                    a prov:Attribution ;
+                    dcat:hadRole <https://vocabs.ccmm.cz/registry/codelist/AgentRole/Contributor/DataManager> ;
+                    prov:agent
+                        [
+                            a prov:Person ;
+                            vcard:family-name ":unkn" ;
+                            vcard:given-name ":unkn" ;
+                            foaf:name ":unkn" ;
+                        ] ;
+                ] ;
+            ccmm:originalRepository <https://data.narodni-repozitar.cz> ;
+        ] ;
+    datacite:description
+        [
+            a <https://w3id.org/tib/datacite/class/Description> ;
+            dcterms:description "Toto je jen ukázka metadat pro neexistující datovou sadu."@cs ;
+        ] ;
+    datacite:publicationYear "2026"^^xsd:gYear ;
+    datacite:subject <https://vocabs.ccmm.cz/registry/codelist/SubjectCategory/30000/30300/30304> ;
+.

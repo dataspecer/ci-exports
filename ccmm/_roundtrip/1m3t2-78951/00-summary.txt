@@ -1,0 +1,14 @@
+Status: COMPLETED
+Input: _xml/1m3t2-78951.xml
+Output directory: _roundtrip/1m3t2-78951
+Fail policy: pipeline
+
+Stages:
+- 01 XSD validation: INVALID (11 findings)
+- 02 lifting XSLT: OK
+- 03 RDF conversion: OK (432 triples)
+- 04 SHACL validation: NON-CONFORMANT (97 findings)
+- 05 SPARQL results conversion: OK
+- 06 lowering XSLT: OK
+- 07 XML comparison: DIFFERENT
+- 08 round-trip XSD validation: INVALID (22 findings)
