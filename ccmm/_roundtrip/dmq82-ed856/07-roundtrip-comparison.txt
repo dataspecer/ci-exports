@@ -1,0 +1,78 @@
+Status: DIFFERENT
+Comparison: elements, attributes, text values, and repeated-element order
+Ignored: XML declaration, comments, indentation, attribute order, namespace prefixes
+Missing content entries: 21
+Added content entries: 0
+Sibling-order changes: 19
+
+Missing from round-trip XML:
+- attribute /ccmm:dataset/@xsi:schemaLocation = 'https://schema.ccmm.cz/research-data/2.0 ../dataset/schema.xsd'
+- attribute /ccmm:dataset/ccmm:distribution/ccmm:distribution_downloadable_file/ccmm:download_url/ccmm:label/@xml:lang = 'en'
+- attribute /ccmm:dataset/ccmm:funding_reference/ccmm:funder/ccmm:organization/ccmm:identifier/ccmm:scheme/ccmm:label/@xml:lang = '' (2 occurrences)
+- attribute /ccmm:dataset/ccmm:identifier/ccmm:scheme/ccmm:label/@xml:lang = ''
+- attribute /ccmm:dataset/ccmm:metadata_identification/ccmm:conforms_to_standard/ccmm:label/@xml:lang = ''
+- attribute /ccmm:dataset/ccmm:qualified_attribution/ccmm:attributed_agent/ccmm:organization/ccmm:identifier/ccmm:scheme/ccmm:label/@xml:lang = ''
+- attribute /ccmm:dataset/ccmm:qualified_attribution/ccmm:attributed_agent/ccmm:person/ccmm:affiliation/ccmm:identifier/ccmm:scheme/ccmm:label/@xml:lang = '' (6 occurrences)
+- attribute /ccmm:dataset/ccmm:qualified_attribution/ccmm:attributed_agent/ccmm:person/ccmm:identifier/ccmm:scheme/ccmm:label/@xml:lang = '' (5 occurrences)
+- attribute /ccmm:dataset/ccmm:related_resource/ccmm:identifier/ccmm:scheme/ccmm:label/@xml:lang = ''
+- element /ccmm:dataset/ccmm:distribution/ccmm:distribution_downloadable_file/ccmm:download_url/ccmm:label
+- text /ccmm:dataset/ccmm:distribution/ccmm:distribution_downloadable_file/ccmm:download_url/ccmm:label = 'REPO.tar'
+
+Repeated elements with changed order:
+- /ccmm:dataset/ccmm:keyword
+  original: ccmm:keyword @xml:lang='en' = 'Super duplex stainless steel' | ccmm:keyword @xml:lang='en' = 'Microstructure' | ccmm:keyword @xml:lang='en' = 'Tensile properties' | ccmm:keyword @xml:lang='en' = 'Additive manufacturing' | ccmm:keyword @xml:lang='en' = 'Directed energy deposition' | ccmm:keyword @xml:lang='en' = 'Laser power'
+  round-trip: ccmm:keyword @xml:lang='en' = 'Additive manufacturing' | ccmm:keyword @xml:lang='en' = 'Directed energy deposition' | ccmm:keyword @xml:lang='en' = 'Laser power' | ccmm:keyword @xml:lang='en' = 'Microstructure' | ccmm:keyword @xml:lang='en' = 'Super duplex stainless steel' | ccmm:keyword @xml:lang='en' = 'Tensile properties'
+- /ccmm:dataset/ccmm:metadata_identification/ccmm:original_repository/ccmm:qualified_attribution/ccmm:role/ccmm:label
+  original: ccmm:label @xml:lang='cs' = 'Vydavatel' | ccmm:label @xml:lang='en' = 'Publisher'
+  round-trip: ccmm:label @xml:lang='en' = 'Publisher' | ccmm:label @xml:lang='cs' = 'Vydavatel'
+- /ccmm:dataset/ccmm:qualified_attribution/ccmm:role/ccmm:label
+  original: ccmm:label @xml:lang='en' = 'Creator' | ccmm:label @xml:lang='cs' = 'Autor'
+  round-trip: ccmm:label @xml:lang='cs' = 'Autor' | ccmm:label @xml:lang='en' = 'Creator'
+- /ccmm:dataset/ccmm:qualified_attribution/ccmm:role/ccmm:label
+  original: ccmm:label @xml:lang='en' = 'Creator' | ccmm:label @xml:lang='cs' = 'Autor'
+  round-trip: ccmm:label @xml:lang='cs' = 'Autor' | ccmm:label @xml:lang='en' = 'Creator'
+- /ccmm:dataset/ccmm:qualified_attribution/ccmm:role/ccmm:label
+  original: ccmm:label @xml:lang='en' = 'Creator' | ccmm:label @xml:lang='cs' = 'Autor'
+  round-trip: ccmm:label @xml:lang='cs' = 'Autor' | ccmm:label @xml:lang='en' = 'Creator'
+- /ccmm:dataset/ccmm:qualified_attribution/ccmm:role/ccmm:label
+  original: ccmm:label @xml:lang='en' = 'Creator' | ccmm:label @xml:lang='cs' = 'Autor'
+  round-trip: ccmm:label @xml:lang='cs' = 'Autor' | ccmm:label @xml:lang='en' = 'Creator'
+- /ccmm:dataset/ccmm:qualified_attribution/ccmm:role/ccmm:label
+  original: ccmm:label @xml:lang='en' = 'Creator' | ccmm:label @xml:lang='cs' = 'Autor'
+  round-trip: ccmm:label @xml:lang='cs' = 'Autor' | ccmm:label @xml:lang='en' = 'Creator'
+- /ccmm:dataset/ccmm:qualified_attribution/ccmm:role/ccmm:label
+  original: ccmm:label @xml:lang='en' = 'Creator' | ccmm:label @xml:lang='cs' = 'Autor'
+  round-trip: ccmm:label @xml:lang='cs' = 'Autor' | ccmm:label @xml:lang='en' = 'Creator'
+- /ccmm:dataset/ccmm:related_resource/ccmm:qualified_attribution
+  original: ccmm:qualified_attribution (ccmm:name='Salvetr, Pavel'; ccmm:label='Autor') | ccmm:qualified_attribution (ccmm:name='Hodek, Josef'; ccmm:label='Autor') | ccmm:qualified_attribution (ccmm:name='Uhlík, Matouš'; ccmm:label='Autor') | ccmm:qualified_attribution (ccmm:name='Novák, Pavel'; ccmm:label='Autor') | ccmm:qualified_attribution (ccmm:name='Dlouhý, Jaromír'; ccmm:label='Autor') | ccmm:qualified_attribution (ccmm:name='Brázda, Michal'; ccmm:label='Autor')
+  round-trip: ccmm:qualified_attribution (ccmm:name='Uhlík, Matouš'; ccmm:label='Creator') | ccmm:qualified_attribution (ccmm:name='Hodek, Josef'; ccmm:label='Creator') | ccmm:qualified_attribution (ccmm:name='Salvetr, Pavel'; ccmm:label='Creator') | ccmm:qualified_attribution (ccmm:name='Dlouhý, Jaromír'; ccmm:label='Creator') | ccmm:qualified_attribution (ccmm:name='Brázda, Michal'; ccmm:label='Creator') | ccmm:qualified_attribution (ccmm:name='Novák, Pavel'; ccmm:label='Creator')
+- /ccmm:dataset/ccmm:related_resource/ccmm:qualified_attribution/ccmm:role/ccmm:label
+  original: ccmm:label @xml:lang='en' = 'Creator' | ccmm:label @xml:lang='cs' = 'Autor'
+  round-trip: ccmm:label @xml:lang='cs' = 'Autor' | ccmm:label @xml:lang='en' = 'Creator'
+- /ccmm:dataset/ccmm:related_resource/ccmm:qualified_attribution/ccmm:role/ccmm:label
+  original: ccmm:label @xml:lang='en' = 'Creator' | ccmm:label @xml:lang='cs' = 'Autor'
+  round-trip: ccmm:label @xml:lang='cs' = 'Autor' | ccmm:label @xml:lang='en' = 'Creator'
+- /ccmm:dataset/ccmm:related_resource/ccmm:qualified_attribution/ccmm:role/ccmm:label
+  original: ccmm:label @xml:lang='en' = 'Creator' | ccmm:label @xml:lang='cs' = 'Autor'
+  round-trip: ccmm:label @xml:lang='cs' = 'Autor' | ccmm:label @xml:lang='en' = 'Creator'
+- /ccmm:dataset/ccmm:related_resource/ccmm:qualified_attribution/ccmm:role/ccmm:label
+  original: ccmm:label @xml:lang='en' = 'Creator' | ccmm:label @xml:lang='cs' = 'Autor'
+  round-trip: ccmm:label @xml:lang='cs' = 'Autor' | ccmm:label @xml:lang='en' = 'Creator'
+- /ccmm:dataset/ccmm:related_resource/ccmm:qualified_attribution/ccmm:role/ccmm:label
+  original: ccmm:label @xml:lang='en' = 'Creator' | ccmm:label @xml:lang='cs' = 'Autor'
+  round-trip: ccmm:label @xml:lang='cs' = 'Autor' | ccmm:label @xml:lang='en' = 'Creator'
+- /ccmm:dataset/ccmm:related_resource/ccmm:qualified_attribution/ccmm:role/ccmm:label
+  original: ccmm:label @xml:lang='en' = 'Creator' | ccmm:label @xml:lang='cs' = 'Autor'
+  round-trip: ccmm:label @xml:lang='cs' = 'Autor' | ccmm:label @xml:lang='en' = 'Creator'
+- /ccmm:dataset/ccmm:related_resource/ccmm:resource_type/ccmm:label
+  original: ccmm:label @xml:lang='en' = 'journal article' | ccmm:label @xml:lang='cs' = 'článek v odborném časopisu'
+  round-trip: ccmm:label @xml:lang='cs' = 'článek v odborném časopisu' | ccmm:label @xml:lang='en' = 'journal article'
+- /ccmm:dataset/ccmm:resource_type/ccmm:label
+  original: ccmm:label @xml:lang='cs' = 'datová sada' | ccmm:label @xml:lang='en' = 'dataset'
+  round-trip: ccmm:label @xml:lang='en' = 'dataset' | ccmm:label @xml:lang='cs' = 'datová sada'
+- /ccmm:dataset/ccmm:subject/ccmm:subject_scheme/ccmm:label
+  original: ccmm:label @xml:lang='en' = 'OECD FORD Subject Category (Frascati)' | ccmm:label @xml:lang='cs' = 'Oborové třídění OECD FORD (Frascati)'
+  round-trip: ccmm:label @xml:lang='cs' = 'Oborové třídění OECD FORD (Frascati)' | ccmm:label @xml:lang='en' = 'OECD FORD Subject Category (Frascati)'
+- /ccmm:dataset/ccmm:time_reference
+  original: ccmm:time_reference (ccmm:iri='https://vocabs.ccmm.cz/registry/codelist/T'... [sha256:96f94b674046]; ccmm:label='Datum vydání') | ccmm:time_reference (ccmm:iri='https://vocabs.ccmm.cz/registry/codelist/T'... [sha256:6de79f691f43]; ccmm:label='Datum vytvoření') | ccmm:time_reference (ccmm:iri='https://vocabs.ccmm.cz/registry/codelist/T'... [sha256:db4a1aec8f2a]; ccmm:label='Datum zveřejnění')
+  round-trip: ccmm:time_reference (ccmm:iri='https://vocabs.ccmm.cz/registry/codelist/T'... [sha256:db4a1aec8f2a]; ccmm:label='Datum zveřejnění') | ccmm:time_reference (ccmm:iri='https://vocabs.ccmm.cz/registry/codelist/T'... [sha256:6de79f691f43]; ccmm:label='Datum vytvoření') | ccmm:time_reference (ccmm:iri='https://vocabs.ccmm.cz/registry/codelist/T'... [sha256:96f94b674046]; ccmm:label='Datum vydání')

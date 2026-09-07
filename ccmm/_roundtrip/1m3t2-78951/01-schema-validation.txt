@@ -1,0 +1,54 @@
+Status: INVALID
+Document: _xml/1m3t2-78951.xml
+Schema: dataset/schema.xsd
+Schema language: XSD 1.1
+Validator: xmlschema.XMLSchema11
+Schema build errors: 0
+Document validation errors: 11
+Schema warnings: 0
+
+Findings:
+
+[001] category: document
+path: /dataset/identifier/scheme/label
+reason: '!=' operator at line 1, column 11: [err:FORG0001] invalid value '' for xs:language
+
+[002] category: document
+path: /dataset/metadata_identification/conforms_to_standard[1]/label
+reason: '!=' operator at line 1, column 11: [err:FORG0001] invalid value '' for xs:language
+
+[003] category: document
+path: /dataset/qualified_attribution[1]/attributed_agent/person/affiliation/identifier[1]/scheme/label
+reason: '!=' operator at line 1, column 11: [err:FORG0001] invalid value '' for xs:language
+
+[004] category: document
+path: /dataset/qualified_attribution[1]/attributed_agent/person/identifier/scheme/label
+reason: '!=' operator at line 1, column 11: [err:FORG0001] invalid value '' for xs:language
+
+[005] category: document
+path: /dataset/qualified_attribution[2]/attributed_agent/person/affiliation/identifier[1]/scheme/label
+reason: '!=' operator at line 1, column 11: [err:FORG0001] invalid value '' for xs:language
+
+[006] category: document
+path: /dataset/qualified_attribution[2]/attributed_agent/person/identifier/scheme/label
+reason: '!=' operator at line 1, column 11: [err:FORG0001] invalid value '' for xs:language
+
+[007] category: document
+path: /dataset/qualified_attribution[3]/attributed_agent/person/affiliation/identifier[1]/scheme/label
+reason: '!=' operator at line 1, column 11: [err:FORG0001] invalid value '' for xs:language
+
+[008] category: document
+path: /dataset/qualified_attribution[3]/attributed_agent/person/identifier/scheme/label
+reason: '!=' operator at line 1, column 11: [err:FORG0001] invalid value '' for xs:language
+
+[009] category: document
+path: /dataset/qualified_attribution[4]/attributed_agent/person/affiliation/identifier[1]/scheme/label
+reason: '!=' operator at line 1, column 11: [err:FORG0001] invalid value '' for xs:language
+
+[010] category: document
+path: /dataset/qualified_attribution[4]/attributed_agent/person/identifier/scheme/label
+reason: '!=' operator at line 1, column 11: [err:FORG0001] invalid value '' for xs:language
+
+[011] category: document
+path: /dataset/qualified_attribution[5]/attributed_agent/organization/identifier[1]/scheme/label
+reason: '!=' operator at line 1, column 11: [err:FORG0001] invalid value '' for xs:language
