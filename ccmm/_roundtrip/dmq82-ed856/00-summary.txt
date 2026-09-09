@@ -1,0 +1,14 @@
+Status: COMPLETED
+Input: _xml/dmq82-ed856.xml
+Output directory: _roundtrip/dmq82-ed856
+Fail policy: pipeline
+
+Stages:
+- 01 XSD validation: VALID (0 findings)
+- 02 lifting XSLT: OK
+- 03 RDF conversion: OK (367 triples)
+- 04 SHACL validation: NON-CONFORMANT (85 findings)
+- 05 SPARQL results conversion: OK
+- 06 lowering XSLT: OK
+- 07 XML comparison: DIFFERENT
+- 08 round-trip XSD validation: VALID (0 findings)

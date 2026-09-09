@@ -1,0 +1,367 @@
+<http://dx.doi.org/10.13039/501100001823> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/adms#Identifier> .
+<http://dx.doi.org/10.13039/501100001823> <http://www.w3.org/2004/02/skos/core#notation> "10.13039/501100001823" .
+<http://dx.doi.org/10.13039/501100001823> <https://model.ccmm.cz/vocabulary/ccmm#inScheme> <https://doi.org/> .
+<http://publications.europa.eu/resource/authority/file-type/TAR> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/dc/terms/MediaType> .
+<http://publications.europa.eu/resource/authority/file-type/TAR> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/dc/terms/MediaTypeOrExtent> .
+<http://publications.europa.eu/resource/authority/file-type/TAR> <http://www.w3.org/2004/02/skos/core#prefLabel> "TAR"@en .
+<http://publications.europa.eu/resource/authority/language/ENG> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/dc/terms/LinguisticSystem> .
+<http://publications.europa.eu/resource/authority/language/ENG> <http://www.w3.org/2004/02/skos/core#prefLabel> "English"@en .
+<http://purl.org/coar/access_right/c_abf2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/dc/terms/RightsStatement> .
+<http://purl.org/coar/access_right/c_abf2> <http://www.w3.org/2004/02/skos/core#prefLabel> "open access"@en .
+<http://purl.org/coar/access_right/c_abf2> <http://www.w3.org/2004/02/skos/core#prefLabel> "otevřený přístup"@cs .
+<http://purl.org/coar/resource_type/c_6501> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://purl.org/coar/resource_type/c_6501> <http://www.w3.org/2004/02/skos/core#prefLabel> "journal article"@en .
+<http://purl.org/coar/resource_type/c_6501> <http://www.w3.org/2004/02/skos/core#prefLabel> "článek v odborném časopisu"@cs .
+<http://purl.org/coar/resource_type/c_ddb1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://purl.org/coar/resource_type/c_ddb1> <http://www.w3.org/2004/02/skos/core#prefLabel> "dataset"@en .
+<http://purl.org/coar/resource_type/c_ddb1> <http://www.w3.org/2004/02/skos/core#prefLabel> "datová sada"@cs .
+<https://creativecommons.org/licenses/by/4.0/> <http://purl.org/dc/terms/title> "Creative Commons Attribution 4.0 International License"@en .
+<https://creativecommons.org/licenses/by/4.0/> <http://purl.org/dc/terms/title> "Creative Commons Uveďte původ 4.0 Mezinárodní licence"@cs .
+<https://creativecommons.org/licenses/by/4.0/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/dc/terms/LicenseDocument> .
+<https://data.narodni-repozitar.cz/general/datasets/dmq82-ed856/files/REPO.tar> <http://purl.org/dc/terms/format> <http://publications.europa.eu/resource/authority/file-type/TAR> .
+<https://data.narodni-repozitar.cz/general/datasets/dmq82-ed856/files/REPO.tar> <http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by/4.0/> .
+<https://data.narodni-repozitar.cz/general/datasets/dmq82-ed856/files/REPO.tar> <http://purl.org/dc/terms/rights> <https://vocabularies.coar-repositories.org/access_rights/c_abf2/> .
+<https://data.narodni-repozitar.cz/general/datasets/dmq82-ed856/files/REPO.tar> <http://purl.org/dc/terms/title> "REPO.tar" .
+<https://data.narodni-repozitar.cz/general/datasets/dmq82-ed856/files/REPO.tar> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Resource> .
+<https://data.narodni-repozitar.cz/general/datasets/dmq82-ed856/files/REPO.tar> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://model.ccmm.cz/vocabulary/ccmm#Distribution-DownloadableFile> .
+<https://data.narodni-repozitar.cz/general/datasets/dmq82-ed856/files/REPO.tar> <http://www.w3.org/2000/01/rdf-schema#label> "REPO.tar"@cs .
+<https://data.narodni-repozitar.cz/general/datasets/dmq82-ed856/files/REPO.tar> <http://www.w3.org/2000/01/rdf-schema#label> "REPO.tar"@en .
+<https://data.narodni-repozitar.cz/general/datasets/dmq82-ed856/files/REPO.tar> <http://www.w3.org/ns/dcat#accessURL> <https://data.narodni-repozitar.cz/general/datasets/dmq82-ed856/files/> .
+<https://data.narodni-repozitar.cz/general/datasets/dmq82-ed856/files/REPO.tar> <http://www.w3.org/ns/dcat#byteSize> "294809088"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://data.narodni-repozitar.cz/general/datasets/dmq82-ed856/files/REPO.tar> <http://www.w3.org/ns/dcat#downloadURL> <https://data.narodni-repozitar.cz/general/datasets/dmq82-ed856/files/REPO.tar> .
+<https://data.narodni-repozitar.cz/general/datasets/dmq82-ed856/files/REPO.tar> <http://www.w3.org/ns/dcat#mediaType> <http://publications.europa.eu/resource/authority/file-type/TAR> .
+<https://data.narodni-repozitar.cz/schemas/nr_datasets/nr-datasets-v1.0.0.json> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/dc/terms/Standard> .
+<https://data.narodni-repozitar.cz/schemas/nr_datasets/nr-datasets-v1.0.0.json> <http://www.w3.org/2000/01/rdf-schema#label> "NR Datasets JSON Schema v1.0.0"@en .
+<https://datarepo.eosc.cz/datasets/records/datst.dmq82-ed856> <http://purl.org/dc/terms/conformsTo> <https://data.narodni-repozitar.cz/schemas/nr_datasets/nr-datasets-v1.0.0.json> .
+<https://datarepo.eosc.cz/datasets/records/datst.dmq82-ed856> <http://purl.org/dc/terms/conformsTo> <https://model.ccmm.cz/research-data/2.0.0> .
+<https://datarepo.eosc.cz/datasets/records/datst.dmq82-ed856> <http://purl.org/dc/terms/created> "2025-06-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://datarepo.eosc.cz/datasets/records/datst.dmq82-ed856> <http://purl.org/dc/terms/language> <http://publications.europa.eu/resource/authority/language/ENG> .
+<https://datarepo.eosc.cz/datasets/records/datst.dmq82-ed856> <http://purl.org/dc/terms/modified> "2025-10-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://datarepo.eosc.cz/datasets/records/datst.dmq82-ed856> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#CatalogRecord> .
+<https://datarepo.eosc.cz/datasets/records/datst.dmq82-ed856> <http://www.w3.org/ns/prov#qualifiedAttribution> _:cb277dab7941fa47cf9c9fcb76256b3f2918a74836d6a26838820474e237ba22091 .
+<https://datarepo.eosc.cz/datasets/records/datst.dmq82-ed856> <https://model.ccmm.cz/vocabulary/ccmm#originalRepository> <https://datarepo.eosc.cz> .
+<https://datarepo.eosc.cz> <http://purl.org/dc/terms/description> "The Data Catch-all Repository is a general-purpose repository for research data for which no more suitable disciplinary, institutional, or community repository is available."@en .
+<https://datarepo.eosc.cz> <http://purl.org/dc/terms/title> "Catch-all"@en .
+<https://datarepo.eosc.cz> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Catalog> .
+<https://datarepo.eosc.cz> <http://www.w3.org/ns/prov#qualifiedAttribution> _:cb1c18fdb90422f9d868be6ab0f11734e7b69f20449b372a42c9cb9bc0b496a6f26 .
+<https://doi.org/10.1007/s12540-025-01953-4> <http://purl.org/dc/terms/title> "Influence of Deposition Parameters on the Building rate, In-Situ Formation of Austenite and Tensile Properties of SAF 2507 SDSS Fabricated by Directed Energy Deposition" .
+<https://doi.org/10.1007/s12540-025-01953-4> <http://purl.org/dc/terms/type> <http://purl.org/coar/resource_type/c_6501> .
+<https://doi.org/10.1007/s12540-025-01953-4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Resource> .
+<https://doi.org/10.1007/s12540-025-01953-4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/adms#Identifier> .
+<https://doi.org/10.1007/s12540-025-01953-4> <http://www.w3.org/2004/02/skos/core#notation> "10.1007/s12540-025-01953-4" .
+<https://doi.org/10.1007/s12540-025-01953-4> <http://www.w3.org/ns/adms#identifier> <https://doi.org/10.1007/s12540-025-01953-4> .
+<https://doi.org/10.1007/s12540-025-01953-4> <http://www.w3.org/ns/prov#qualifiedAttribution> _:cb1982e0b6b721e8cdf62f85bb4a0f55d003d42970a60fbfb12c834f0c9004e81ef .
+<https://doi.org/10.1007/s12540-025-01953-4> <http://www.w3.org/ns/prov#qualifiedAttribution> _:cb1b4fb615213150f8d5f58bd3b2bdd6f6d73437857b3e13e5726a90c0353027370 .
+<https://doi.org/10.1007/s12540-025-01953-4> <http://www.w3.org/ns/prov#qualifiedAttribution> _:cb1cefdd0b59b1362eff6c2728babf474800eee97daf39575ebc5b3b31a5d57915c .
+<https://doi.org/10.1007/s12540-025-01953-4> <http://www.w3.org/ns/prov#qualifiedAttribution> _:cb1ed335e3a5640966f743da868b064c79fd2dd5577af128bbbc85f46f8ab9a97f7 .
+<https://doi.org/10.1007/s12540-025-01953-4> <http://www.w3.org/ns/prov#qualifiedAttribution> _:cb1fa2dac5c3f2bf2e5fe8ce416958697de2ba7e49a7156d4c22366024e5a40745f .
+<https://doi.org/10.1007/s12540-025-01953-4> <http://www.w3.org/ns/prov#qualifiedAttribution> _:cb24502e25684d9d3f2d1706d169cecfe1dffe3d783231f47fef695d2858e046a56 .
+<https://doi.org/10.1007/s12540-025-01953-4> <https://model.ccmm.cz/vocabulary/ccmm#hasType> <https://vocabs.ccmm.cz/registry/codelist/RelationType/IsReferencedBy> .
+<https://doi.org/10.1007/s12540-025-01953-4> <https://model.ccmm.cz/vocabulary/ccmm#inScheme> <https://doi.org/> .
+<https://doi.org/10.1007/s12540-025-01953-4> <https://model.ccmm.cz/vocabulary/ccmm#resourceUrl> "https://doi.org/10.1007/s12540-025-01953-4"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+<https://doi.org/10.48700/datst.dmq82-ed856> <http://purl.org/dc/terms/accessRights> <http://purl.org/coar/access_right/c_abf2> .
+<https://doi.org/10.48700/datst.dmq82-ed856> <http://purl.org/dc/terms/relation> <https://doi.org/10.1007/s12540-025-01953-4> .
+<https://doi.org/10.48700/datst.dmq82-ed856> <http://purl.org/dc/terms/title> "Data k rukopisu - Vliv podmínek depozice na rychlost tisku, množství in-situ vzniklého austenitu a mechanické vlastnosti oceli SAF2507 připravené metodou přímé depozice" .
+<https://doi.org/10.48700/datst.dmq82-ed856> <http://purl.org/dc/terms/type> <http://purl.org/coar/resource_type/c_ddb1> .
+<https://doi.org/10.48700/datst.dmq82-ed856> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/adms#Identifier> .
+<https://doi.org/10.48700/datst.dmq82-ed856> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Dataset> .
+<https://doi.org/10.48700/datst.dmq82-ed856> <http://www.w3.org/2004/02/skos/core#notation> "10.48700/datst.dmq82-ed856" .
+<https://doi.org/10.48700/datst.dmq82-ed856> <http://www.w3.org/ns/adms#identifier> <https://doi.org/10.48700/datst.dmq82-ed856> .
+<https://doi.org/10.48700/datst.dmq82-ed856> <http://www.w3.org/ns/dcat#distribution> <https://data.narodni-repozitar.cz/general/datasets/dmq82-ed856/files/REPO.tar> .
+<https://doi.org/10.48700/datst.dmq82-ed856> <http://www.w3.org/ns/dcat#keyword> "Additive manufacturing"@en .
+<https://doi.org/10.48700/datst.dmq82-ed856> <http://www.w3.org/ns/dcat#keyword> "Directed energy deposition"@en .
+<https://doi.org/10.48700/datst.dmq82-ed856> <http://www.w3.org/ns/dcat#keyword> "Laser power"@en .
+<https://doi.org/10.48700/datst.dmq82-ed856> <http://www.w3.org/ns/dcat#keyword> "Microstructure"@en .
+<https://doi.org/10.48700/datst.dmq82-ed856> <http://www.w3.org/ns/dcat#keyword> "Super duplex stainless steel"@en .
+<https://doi.org/10.48700/datst.dmq82-ed856> <http://www.w3.org/ns/dcat#keyword> "Tensile properties"@en .
+<https://doi.org/10.48700/datst.dmq82-ed856> <http://www.w3.org/ns/prov#qualifiedAttribution> _:cb29a106e0b9a2e4ad635a6b177face5641c35c38d73cb66251354b86bd4a31c74f .
+<https://doi.org/10.48700/datst.dmq82-ed856> <http://www.w3.org/ns/prov#qualifiedAttribution> _:cb2cf40e8b808f6602d29be487f5f2cb7dadcb2ef9a80c7a183d784de17b4c44a23 .
+<https://doi.org/10.48700/datst.dmq82-ed856> <http://www.w3.org/ns/prov#qualifiedAttribution> _:cb2e5e151b1fc2e41f46ae898506c2570cdb1169067b79ee3d4beced46c04003daf .
+<https://doi.org/10.48700/datst.dmq82-ed856> <http://www.w3.org/ns/prov#qualifiedAttribution> _:cb2f16d2ce2ad3256c2aa84fd3e9e2ed7cf85c609c5183b96539648f521a33e4aa7 .
+<https://doi.org/10.48700/datst.dmq82-ed856> <http://www.w3.org/ns/prov#qualifiedAttribution> _:cb32c05d1127f35ebd7c4d3d8b9fcceab1701aa47481bb10870fd3858c1c9bdf19a .
+<https://doi.org/10.48700/datst.dmq82-ed856> <http://www.w3.org/ns/prov#qualifiedAttribution> _:cb3353f8a651fbbae8a6dfdd493c17dd2daf70273c867bb3911bb633ae865482a66 .
+<https://doi.org/10.48700/datst.dmq82-ed856> <http://www.w3.org/ns/prov#qualifiedAttribution> _:cb34cee55b43e0d9c8ea480290287ecc399bf238ca1c43a69c370366cc25f0f8d9b .
+<https://doi.org/10.48700/datst.dmq82-ed856> <https://model.ccmm.cz/vocabulary/ccmm#hasAlternateTitle> _:cb2c1b8dcf56457affcfd3ee03174c232dfde28440343bf21383c68585e6a5db3b8 .
+<https://doi.org/10.48700/datst.dmq82-ed856> <https://model.ccmm.cz/vocabulary/ccmm#hasPrimaryLanguage> <http://publications.europa.eu/resource/authority/language/ENG> .
+<https://doi.org/10.48700/datst.dmq82-ed856> <https://model.ccmm.cz/vocabulary/ccmm#hasTimeReference> _:cb23b250a7e56dd491fa69da87ed3442ba182914f75109526f02caf8800f59f290c .
+<https://doi.org/10.48700/datst.dmq82-ed856> <https://model.ccmm.cz/vocabulary/ccmm#hasTimeReference> _:cb291140b69a54449626536ccb627f7dee680be419be616cfbe3f346eafe8a189b7 .
+<https://doi.org/10.48700/datst.dmq82-ed856> <https://model.ccmm.cz/vocabulary/ccmm#hasTimeReference> _:cb2a2dc9ad8b135b728fe7847b37327cad35d0d06897dea473f13d0fc807878064a .
+<https://doi.org/10.48700/datst.dmq82-ed856> <https://model.ccmm.cz/vocabulary/ccmm#hasValidationResult> _:cb120f4d08bd7859ea5b9089de54e37d90243033d93cf541b4806dffee9f1f1070a .
+<https://doi.org/10.48700/datst.dmq82-ed856> <https://model.ccmm.cz/vocabulary/ccmm#inScheme> <https://doi.org/> .
+<https://doi.org/10.48700/datst.dmq82-ed856> <https://model.ccmm.cz/vocabulary/ccmm#isDescribedBy> <https://datarepo.eosc.cz/datasets/records/datst.dmq82-ed856> .
+<https://doi.org/10.48700/datst.dmq82-ed856> <https://w3id.org/tib/datacite/property/description> _:cb124c8b1d0ac8bccd48f0e5669e5e890b745a09af5498b3776961e5b5551ed7648 .
+<https://doi.org/10.48700/datst.dmq82-ed856> <https://w3id.org/tib/datacite/property/description> _:cb15198b8ae5454e41f81d4496533cedfffb25319511c3d1fbfc2a3825d722bb2cc .
+<https://doi.org/10.48700/datst.dmq82-ed856> <https://w3id.org/tib/datacite/property/description> _:cb171f51993e5cb8de0229c7106adc40eff2bae6dd9963143823682a9961a548f9f .
+<https://doi.org/10.48700/datst.dmq82-ed856> <https://w3id.org/tib/datacite/property/fundingReference> _:cb331d4ea3b6aa255a69af4a8336f3d2b1dca11879df494076bcb69e8f23a954f43 .
+<https://doi.org/10.48700/datst.dmq82-ed856> <https://w3id.org/tib/datacite/property/publicationYear> "2025"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+<https://doi.org/10.48700/datst.dmq82-ed856> <https://w3id.org/tib/datacite/property/subject> <https://vocabs.ccmm.cz/registry/codelist/SubjectCategory/20000/20500/20501> .
+<https://doi.org/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://model.ccmm.cz/vocabulary/ccmm#IdentifierScheme> .
+<https://doi.org/> <http://www.w3.org/2000/01/rdf-schema#label> "Digital Object Identifier"@en .
+<https://doi.org/> <http://www.w3.org/2004/02/skos/core#notation> "DOI" .
+<https://model.ccmm.cz/research-data/2.0.0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/dc/terms/Standard> .
+<https://model.ccmm.cz/research-data/2.0.0> <http://www.w3.org/2000/01/rdf-schema#label> "Czech Core Metadata Model for Research Data 2.0.0"@en .
+<https://orcid.org/0000-0001-5717-267X> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/adms#Identifier> .
+<https://orcid.org/0000-0001-5717-267X> <http://www.w3.org/2004/02/skos/core#notation> "0000-0001-5717-267X" .
+<https://orcid.org/0000-0001-5717-267X> <https://model.ccmm.cz/vocabulary/ccmm#inScheme> <https://orcid.org/> .
+<https://orcid.org/0000-0001-9947-2566> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/adms#Identifier> .
+<https://orcid.org/0000-0001-9947-2566> <http://www.w3.org/2004/02/skos/core#notation> "0000-0001-9947-2566" .
+<https://orcid.org/0000-0001-9947-2566> <https://model.ccmm.cz/vocabulary/ccmm#inScheme> <https://orcid.org/> .
+<https://orcid.org/0000-0002-1241-6121> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/adms#Identifier> .
+<https://orcid.org/0000-0002-1241-6121> <http://www.w3.org/2004/02/skos/core#notation> "0000-0002-1241-6121" .
+<https://orcid.org/0000-0002-1241-6121> <https://model.ccmm.cz/vocabulary/ccmm#inScheme> <https://orcid.org/> .
+<https://orcid.org/0000-0002-4982-9114> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/adms#Identifier> .
+<https://orcid.org/0000-0002-4982-9114> <http://www.w3.org/2004/02/skos/core#notation> "0000-0002-4982-9114" .
+<https://orcid.org/0000-0002-4982-9114> <https://model.ccmm.cz/vocabulary/ccmm#inScheme> <https://orcid.org/> .
+<https://orcid.org/0000-0003-4013-9819> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/adms#Identifier> .
+<https://orcid.org/0000-0003-4013-9819> <http://www.w3.org/2004/02/skos/core#notation> "0000-0003-4013-9819" .
+<https://orcid.org/0000-0003-4013-9819> <https://model.ccmm.cz/vocabulary/ccmm#inScheme> <https://orcid.org/> .
+<https://orcid.org/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://model.ccmm.cz/vocabulary/ccmm#IdentifierScheme> .
+<https://orcid.org/> <http://www.w3.org/2000/01/rdf-schema#label> "Open Research and Contributor ID"@en .
+<https://orcid.org/> <http://www.w3.org/2004/02/skos/core#notation> "ORCID" .
+<https://ror.org/00hzjtg80> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/adms#Identifier> .
+<https://ror.org/00hzjtg80> <http://www.w3.org/2004/02/skos/core#notation> "00hzjtg80" .
+<https://ror.org/00hzjtg80> <https://model.ccmm.cz/vocabulary/ccmm#inScheme> <https://ror.org/> .
+<https://ror.org/037n8p820> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/adms#Identifier> .
+<https://ror.org/037n8p820> <http://www.w3.org/2004/02/skos/core#notation> "037n8p820" .
+<https://ror.org/037n8p820> <https://model.ccmm.cz/vocabulary/ccmm#inScheme> <https://ror.org/> .
+<https://ror.org/05ggn0a85> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/adms#Identifier> .
+<https://ror.org/05ggn0a85> <http://www.w3.org/2004/02/skos/core#notation> "05ggn0a85" .
+<https://ror.org/05ggn0a85> <https://model.ccmm.cz/vocabulary/ccmm#inScheme> <https://ror.org/> .
+<https://ror.org/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://model.ccmm.cz/vocabulary/ccmm#IdentifierScheme> .
+<https://ror.org/> <http://www.w3.org/2000/01/rdf-schema#label> "Research Organization Registry"@en .
+<https://ror.org/> <http://www.w3.org/2004/02/skos/core#notation> "ROR" .
+<https://vocabs.ccmm.cz/registry/codelist/AgentRole/Contributor/DataManager> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Role> .
+<https://vocabs.ccmm.cz/registry/codelist/AgentRole/Contributor/DataManager> <http://www.w3.org/2004/02/skos/core#prefLabel> "Data Manager"@en .
+<https://vocabs.ccmm.cz/registry/codelist/AgentRole/Contributor/DataManager> <http://www.w3.org/2004/02/skos/core#prefLabel> "Správce dat"@cs .
+<https://vocabs.ccmm.cz/registry/codelist/AgentRole/Creator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Role> .
+<https://vocabs.ccmm.cz/registry/codelist/AgentRole/Creator> <http://www.w3.org/2004/02/skos/core#prefLabel> "Autor"@cs .
+<https://vocabs.ccmm.cz/registry/codelist/AgentRole/Creator> <http://www.w3.org/2004/02/skos/core#prefLabel> "Creator"@en .
+<https://vocabs.ccmm.cz/registry/codelist/AgentRole/Publisher> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Role> .
+<https://vocabs.ccmm.cz/registry/codelist/AgentRole/Publisher> <http://www.w3.org/2004/02/skos/core#prefLabel> "Publisher"@en .
+<https://vocabs.ccmm.cz/registry/codelist/AgentRole/Publisher> <http://www.w3.org/2004/02/skos/core#prefLabel> "Vydavatel"@cs .
+<https://vocabs.ccmm.cz/registry/codelist/AlternateTitle/TranslatedTitle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://vocabs.ccmm.cz/registry/codelist/AlternateTitle/TranslatedTitle> <http://www.w3.org/2004/02/skos/core#prefLabel> "Přeložený název"@cs .
+<https://vocabs.ccmm.cz/registry/codelist/AlternateTitle/TranslatedTitle> <http://www.w3.org/2004/02/skos/core#prefLabel> "Translated Title"@en .
+<https://vocabs.ccmm.cz/registry/codelist/DescriptionType/Abstract> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://vocabs.ccmm.cz/registry/codelist/DescriptionType/Abstract> <http://www.w3.org/2004/02/skos/core#prefLabel> "Abstract"@en .
+<https://vocabs.ccmm.cz/registry/codelist/DescriptionType/Abstract> <http://www.w3.org/2004/02/skos/core#prefLabel> "Abstrakt"@cs .
+<https://vocabs.ccmm.cz/registry/codelist/DescriptionType/Methods> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://vocabs.ccmm.cz/registry/codelist/DescriptionType/Methods> <http://www.w3.org/2004/02/skos/core#prefLabel> "Methods"@en .
+<https://vocabs.ccmm.cz/registry/codelist/DescriptionType/Methods> <http://www.w3.org/2004/02/skos/core#prefLabel> "Metodologie"@cs .
+<https://vocabs.ccmm.cz/registry/codelist/DescriptionType/TechnicalInfo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://vocabs.ccmm.cz/registry/codelist/DescriptionType/TechnicalInfo> <http://www.w3.org/2004/02/skos/core#prefLabel> "Technical Info"@en .
+<https://vocabs.ccmm.cz/registry/codelist/DescriptionType/TechnicalInfo> <http://www.w3.org/2004/02/skos/core#prefLabel> "Technická informace"@cs .
+<https://vocabs.ccmm.cz/registry/codelist/RelationType/IsReferencedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://vocabs.ccmm.cz/registry/codelist/RelationType/IsReferencedBy> <http://www.w3.org/2004/02/skos/core#prefLabel> "is referenced by"@en .
+<https://vocabs.ccmm.cz/registry/codelist/RelationType/IsReferencedBy> <http://www.w3.org/2004/02/skos/core#prefLabel> "je na něj odkazováno z (čeho)"@cs .
+<https://vocabs.ccmm.cz/registry/codelist/SubjectCategory/20000/20500/20501> <http://purl.org/dc/terms/title> "Materials engineering"@en .
+<https://vocabs.ccmm.cz/registry/codelist/SubjectCategory/20000/20500/20501> <http://purl.org/dc/terms/title> "Materiálové inženýrství"@cs .
+<https://vocabs.ccmm.cz/registry/codelist/SubjectCategory/20000/20500/20501> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/tib/datacite/class/Subject> .
+<https://vocabs.ccmm.cz/registry/codelist/SubjectCategory/20000/20500/20501> <https://model.ccmm.cz/vocabulary/ccmm#inSubjectScheme> <https://vocabs.ccmm.cz/registry/codelist/SubjectCategory/> .
+<https://vocabs.ccmm.cz/registry/codelist/SubjectCategory/20000/20500/20501> <https://w3id.org/tib/datacite/property/classificationCode> "20501" .
+<https://vocabs.ccmm.cz/registry/codelist/SubjectCategory/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://model.ccmm.cz/vocabulary/ccmm#SubjectScheme> .
+<https://vocabs.ccmm.cz/registry/codelist/SubjectCategory/> <http://www.w3.org/2000/01/rdf-schema#label> "OECD FORD Subject Category (Frascati)"@en .
+<https://vocabs.ccmm.cz/registry/codelist/SubjectCategory/> <http://www.w3.org/2000/01/rdf-schema#label> "Oborové třídění OECD FORD (Frascati)"@cs .
+<https://vocabs.ccmm.cz/registry/codelist/TimeReference/Available> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://vocabs.ccmm.cz/registry/codelist/TimeReference/Available> <http://www.w3.org/2004/02/skos/core#prefLabel> "Date Available"@en .
+<https://vocabs.ccmm.cz/registry/codelist/TimeReference/Available> <http://www.w3.org/2004/02/skos/core#prefLabel> "Datum zveřejnění"@cs .
+<https://vocabs.ccmm.cz/registry/codelist/TimeReference/Created> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://vocabs.ccmm.cz/registry/codelist/TimeReference/Created> <http://www.w3.org/2004/02/skos/core#prefLabel> "Date Created"@en .
+<https://vocabs.ccmm.cz/registry/codelist/TimeReference/Created> <http://www.w3.org/2004/02/skos/core#prefLabel> "Datum vytvoření"@cs .
+<https://vocabs.ccmm.cz/registry/codelist/TimeReference/Issued> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://vocabs.ccmm.cz/registry/codelist/TimeReference/Issued> <http://www.w3.org/2004/02/skos/core#prefLabel> "Date Issued"@en .
+<https://vocabs.ccmm.cz/registry/codelist/TimeReference/Issued> <http://www.w3.org/2004/02/skos/core#prefLabel> "Datum vydání"@cs .
+<https://vocabularies.coar-repositories.org/access_rights/c_abf2/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/dc/terms/RightsStatement> .
+<https://vocabularies.coar-repositories.org/access_rights/c_abf2/> <http://www.w3.org/2004/02/skos/core#prefLabel> "open access"@en .
+<https://www.wikidata.org/entity/Q42302581> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://model.ccmm.cz/vocabulary/ccmm#IdentifierScheme> .
+<https://www.wikidata.org/entity/Q42302581> <http://www.w3.org/2000/01/rdf-schema#label> "Identifikační Číslo Osoby"@cs .
+<https://www.wikidata.org/entity/Q42302581> <http://www.w3.org/2000/01/rdf-schema#label> "IČO"@cs .
+<https://www.wikidata.org/entity/Q42302581> <http://www.w3.org/2004/02/skos/core#notation> "IČO" .
+_:cb120f4d08bd7859ea5b9089de54e37d90243033d93cf541b4806dffee9f1f1070a <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://model.ccmm.cz/vocabulary/ccmm#ValidationResult> .
+_:cb124c8b1d0ac8bccd48f0e5669e5e890b745a09af5498b3776961e5b5551ed7648 <http://purl.org/dc/terms/description> "Industry applications of duplex stainless steels require a two-phase microstructure with a nearly balanced austenite-ferrite content to achieve good mechanical properties and good corrosion resistance. The most widespread additive manufacturing method such as laser powder bed fusion provides nearly fully ferritic microstructures due to the very high cooling rate, and the post-processing heat treatment must be performed. In contrast, other additive manufacturing methods, such as directed deposition methods, reach lower cooling rates and enable to obtain an equal ferrite–austenite ratio directly in the microstructure of the as-built state. In this work, the super duplex stainless steel SAF 2507 was deposited by directed energy deposition. The process parameters, namely, the laser power, laser beam spot, and powder feed rate, were varied to investigate the impact of the energy area density on the microstructure and tensile properties. A decrease in the energy area density caused an increase in the austenite content of 48 vol% and a numerical simulation of the sample temperature distribution inside the block during deposition, explaining the relationship between the amount of in situ formed austenite and the deposition parameters, was provided. Simultaneously, the deposition rate increased by more than five times. In contrast, the samples deposited at a higher building rate are characterized by greater porosity and lower elongation values in the vertical direction. The effect of the deposition parameters on the yield strength is low."@en .
+_:cb124c8b1d0ac8bccd48f0e5669e5e890b745a09af5498b3776961e5b5551ed7648 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/tib/datacite/class/Description> .
+_:cb124c8b1d0ac8bccd48f0e5669e5e890b745a09af5498b3776961e5b5551ed7648 <https://w3id.org/tib/datacite/property/descriptionType> <https://vocabs.ccmm.cz/registry/codelist/DescriptionType/Abstract> .
+_:cb13e54021ba9d6fea308d20e42997b24f65c8f306e037d9ca1ccf13a1c14062f4b <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Person> .
+_:cb13e54021ba9d6fea308d20e42997b24f65c8f306e037d9ca1ccf13a1c14062f4b <http://xmlns.com/foaf/0.1/name> "Uhlík, Matouš" .
+_:cb145fe505c4bb725e3976b051559730d460f180fac63aecd9d8b97849a8e5d6cd0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Person> .
+_:cb145fe505c4bb725e3976b051559730d460f180fac63aecd9d8b97849a8e5d6cd0 <http://xmlns.com/foaf/0.1/name> ":unkn" .
+_:cb15198b8ae5454e41f81d4496533cedfffb25319511c3d1fbfc2a3825d722bb2cc <http://purl.org/dc/terms/description> "The data set is related to the investigation of the influence of deposition parameters on the microstructure, austenite formation, and tensile properties of SAF 2507 super duplex stainless steel fabricated using directed energy deposition (DED). The experiments were carried out at COMTES FHT (Czech Republic) using an INSSTEK MX-600 system equipped with a 2 kW Yttrium fiber laser. SAF 2507 powder (particle size 45–150 μm) was deposited under three different parameter sets, varying laser power, beam diameter, layer thickness, hatch distance, and powder feed rate, while maintaining constant scan speed. A zig-zag deposition strategy was applied under a protective argon atmosphere (5.0, 99.999%). For each parameter set, 20×20×20 mm cubes were built and used for analysis. Microstructure and phase composition were characterized using optical microscopy, scanning electron microscopy, EBSD analysis, X-ray diffraction. Tensile properties were evaluated using miniature tensile tests. Thermal simulations of the deposition process were carried out using Simufact Welding 2024.1 with the Advanced Thermal Cycle (ATC) method."@en .
+_:cb15198b8ae5454e41f81d4496533cedfffb25319511c3d1fbfc2a3825d722bb2cc <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/tib/datacite/class/Description> .
+_:cb15198b8ae5454e41f81d4496533cedfffb25319511c3d1fbfc2a3825d722bb2cc <https://w3id.org/tib/datacite/property/descriptionType> <https://vocabs.ccmm.cz/registry/codelist/DescriptionType/Methods> .
+_:cb161b59b728111fe3f1bb7876d697a9dd106dbe7d01b47bfab72783d30f04fc4c0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Person> .
+_:cb161b59b728111fe3f1bb7876d697a9dd106dbe7d01b47bfab72783d30f04fc4c0 <http://xmlns.com/foaf/0.1/name> "Dlouhý, Jaromír" .
+_:cb17050f3e809e87ffa58339ab02b74d1e239df9b9a456bc43bd9d8cb393bf7bd80 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2006/time#Instant> .
+_:cb17050f3e809e87ffa58339ab02b74d1e239df9b9a456bc43bd9d8cb393bf7bd80 <http://www.w3.org/2006/time#inXSDDate> "2025-02-25"^^<http://www.w3.org/2001/XMLSchema#date> .
+_:cb171f51993e5cb8de0229c7106adc40eff2bae6dd9963143823682a9961a548f9f <http://purl.org/dc/terms/description> "The sets of experimental data were recorded on several instruments within COMTES FHT. In cases where possible (XRD, MTT, EBSD), the data are in xlsx format enabling any replotting."@en .
+_:cb171f51993e5cb8de0229c7106adc40eff2bae6dd9963143823682a9961a548f9f <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/tib/datacite/class/Description> .
+_:cb171f51993e5cb8de0229c7106adc40eff2bae6dd9963143823682a9961a548f9f <https://w3id.org/tib/datacite/property/descriptionType> <https://vocabs.ccmm.cz/registry/codelist/DescriptionType/TechnicalInfo> .
+_:cb180bdb553b009972793d44eddfff90eaa534dd3ec217d04860ebcbe5fd4dc5b46 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Person> .
+_:cb180bdb553b009972793d44eddfff90eaa534dd3ec217d04860ebcbe5fd4dc5b46 <http://xmlns.com/foaf/0.1/name> "Brázda, Michal" .
+_:cb1982e0b6b721e8cdf62f85bb4a0f55d003d42970a60fbfb12c834f0c9004e81ef <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Attribution> .
+_:cb1982e0b6b721e8cdf62f85bb4a0f55d003d42970a60fbfb12c834f0c9004e81ef <http://www.w3.org/ns/dcat#hadRole> <https://vocabs.ccmm.cz/registry/codelist/AgentRole/Creator> .
+_:cb1982e0b6b721e8cdf62f85bb4a0f55d003d42970a60fbfb12c834f0c9004e81ef <http://www.w3.org/ns/prov#agent> _:cb13e54021ba9d6fea308d20e42997b24f65c8f306e037d9ca1ccf13a1c14062f4b .
+_:cb19c2de06118e3bfe926ed36baeb0a20b62f554db1dee2055f4be7a7ff857f856d <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2006/time#Instant> .
+_:cb19c2de06118e3bfe926ed36baeb0a20b62f554db1dee2055f4be7a7ff857f856d <http://www.w3.org/2006/time#inXSDDate> "2025-06-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+_:cb1b34e9e845000cddf899a7e692bf2b9f880b14205fec66eeb60205a5d7aa4fdcf <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2006/time#Interval> .
+_:cb1b34e9e845000cddf899a7e692bf2b9f880b14205fec66eeb60205a5d7aa4fdcf <http://www.w3.org/2006/time#hasBeginning> _:cb17050f3e809e87ffa58339ab02b74d1e239df9b9a456bc43bd9d8cb393bf7bd80 .
+_:cb1b34e9e845000cddf899a7e692bf2b9f880b14205fec66eeb60205a5d7aa4fdcf <http://www.w3.org/2006/time#hasEnd> _:cb253fd16e35cd10a7c59e3bc74a3bfb8411adac652c7812f8a855bebbe2414b7b7 .
+_:cb1b4fb615213150f8d5f58bd3b2bdd6f6d73437857b3e13e5726a90c0353027370 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Attribution> .
+_:cb1b4fb615213150f8d5f58bd3b2bdd6f6d73437857b3e13e5726a90c0353027370 <http://www.w3.org/ns/dcat#hadRole> <https://vocabs.ccmm.cz/registry/codelist/AgentRole/Creator> .
+_:cb1b4fb615213150f8d5f58bd3b2bdd6f6d73437857b3e13e5726a90c0353027370 <http://www.w3.org/ns/prov#agent> _:cb1e2affd75361ebcac2e0157ebe737cf6a3896e678e5232c02f3f2c6e54df23811 .
+_:cb1c18fdb90422f9d868be6ab0f11734e7b69f20449b372a42c9cb9bc0b496a6f26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Attribution> .
+_:cb1c18fdb90422f9d868be6ab0f11734e7b69f20449b372a42c9cb9bc0b496a6f26 <http://www.w3.org/ns/dcat#hadRole> <https://vocabs.ccmm.cz/registry/codelist/AgentRole/Publisher> .
+_:cb1c18fdb90422f9d868be6ab0f11734e7b69f20449b372a42c9cb9bc0b496a6f26 <http://www.w3.org/ns/prov#agent> _:cb21dda3d97d9544bdb059eeddc5d85e0a0df7349ff7a9305d007717879ebe44a99 .
+_:cb1c4bfc4fd2bf5c8ace6d3610dcb52181bb040bd13b1bf7686826cb4aab183aec4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Person> .
+_:cb1c4bfc4fd2bf5c8ace6d3610dcb52181bb040bd13b1bf7686826cb4aab183aec4 <http://xmlns.com/foaf/0.1/name> "Novák, Pavel" .
+_:cb1cefdd0b59b1362eff6c2728babf474800eee97daf39575ebc5b3b31a5d57915c <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Attribution> .
+_:cb1cefdd0b59b1362eff6c2728babf474800eee97daf39575ebc5b3b31a5d57915c <http://www.w3.org/ns/dcat#hadRole> <https://vocabs.ccmm.cz/registry/codelist/AgentRole/Creator> .
+_:cb1cefdd0b59b1362eff6c2728babf474800eee97daf39575ebc5b3b31a5d57915c <http://www.w3.org/ns/prov#agent> _:cb1d3e56fefebb9887b66f4a153be73b2e0f2316f3add0e35ffebe8ee9ef552abed .
+_:cb1d3e56fefebb9887b66f4a153be73b2e0f2316f3add0e35ffebe8ee9ef552abed <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Person> .
+_:cb1d3e56fefebb9887b66f4a153be73b2e0f2316f3add0e35ffebe8ee9ef552abed <http://xmlns.com/foaf/0.1/name> "Salvetr, Pavel" .
+_:cb1e2affd75361ebcac2e0157ebe737cf6a3896e678e5232c02f3f2c6e54df23811 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Person> .
+_:cb1e2affd75361ebcac2e0157ebe737cf6a3896e678e5232c02f3f2c6e54df23811 <http://xmlns.com/foaf/0.1/name> "Hodek, Josef" .
+_:cb1ea111e6ea6d06ca845a36f3907c7933b8a8a2f1bdfb3c7cf408d0d4f901b3a5c <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Organization> .
+_:cb1ea111e6ea6d06ca845a36f3907c7933b8a8a2f1bdfb3c7cf408d0d4f901b3a5c <http://www.w3.org/2006/vcard/ns#organization-name> "Ministry of Education, Youth and Sports of the Czech Republic"@en .
+_:cb1ea111e6ea6d06ca845a36f3907c7933b8a8a2f1bdfb3c7cf408d0d4f901b3a5c <http://www.w3.org/ns/adms#identifier> <http://dx.doi.org/10.13039/501100001823> .
+_:cb1ea111e6ea6d06ca845a36f3907c7933b8a8a2f1bdfb3c7cf408d0d4f901b3a5c <http://www.w3.org/ns/adms#identifier> <https://ror.org/037n8p820> .
+_:cb1ea111e6ea6d06ca845a36f3907c7933b8a8a2f1bdfb3c7cf408d0d4f901b3a5c <http://xmlns.com/foaf/0.1/name> "Ministerstvo školství, mládeže a tělovýchovy" .
+_:cb1ed335e3a5640966f743da868b064c79fd2dd5577af128bbbc85f46f8ab9a97f7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Attribution> .
+_:cb1ed335e3a5640966f743da868b064c79fd2dd5577af128bbbc85f46f8ab9a97f7 <http://www.w3.org/ns/dcat#hadRole> <https://vocabs.ccmm.cz/registry/codelist/AgentRole/Creator> .
+_:cb1ed335e3a5640966f743da868b064c79fd2dd5577af128bbbc85f46f8ab9a97f7 <http://www.w3.org/ns/prov#agent> _:cb161b59b728111fe3f1bb7876d697a9dd106dbe7d01b47bfab72783d30f04fc4c0 .
+_:cb1fa2dac5c3f2bf2e5fe8ce416958697de2ba7e49a7156d4c22366024e5a40745f <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Attribution> .
+_:cb1fa2dac5c3f2bf2e5fe8ce416958697de2ba7e49a7156d4c22366024e5a40745f <http://www.w3.org/ns/dcat#hadRole> <https://vocabs.ccmm.cz/registry/codelist/AgentRole/Creator> .
+_:cb1fa2dac5c3f2bf2e5fe8ce416958697de2ba7e49a7156d4c22366024e5a40745f <http://www.w3.org/ns/prov#agent> _:cb180bdb553b009972793d44eddfff90eaa534dd3ec217d04860ebcbe5fd4dc5b46 .
+_:cb20a40e944b49603e76fd7e894c0368fc01350d515d815a14732b0620d3c974b97 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Organization> .
+_:cb20a40e944b49603e76fd7e894c0368fc01350d515d815a14732b0620d3c974b97 <http://www.w3.org/ns/adms#identifier> <https://ror.org/05ggn0a85> .
+_:cb20a40e944b49603e76fd7e894c0368fc01350d515d815a14732b0620d3c974b97 <http://www.w3.org/ns/adms#identifier> _:cb2398a1d1efe01e4471fda227f91b72a8db887f632857986a63ee0e5b85a5c0fde .
+_:cb20a40e944b49603e76fd7e894c0368fc01350d515d815a14732b0620d3c974b97 <http://xmlns.com/foaf/0.1/name> "Vysoká škola chemicko-technologická v Praze" .
+_:cb21dda3d97d9544bdb059eeddc5d85e0a0df7349ff7a9305d007717879ebe44a99 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Organization> .
+_:cb21dda3d97d9544bdb059eeddc5d85e0a0df7349ff7a9305d007717879ebe44a99 <http://xmlns.com/foaf/0.1/name> "COMTES FHT" .
+_:cb22946fc1f09b21d4305f43812896c0adab5457a455a8e250ad9813e69d64bc933 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2006/time#Instant> .
+_:cb22946fc1f09b21d4305f43812896c0adab5457a455a8e250ad9813e69d64bc933 <http://www.w3.org/2006/time#inXSDDate> "2025-06-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+_:cb22b34e913b5137ac6d4e293540387fae654967b77695f89c0531f1edb3945c814 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/adms#Identifier> .
+_:cb22b34e913b5137ac6d4e293540387fae654967b77695f89c0531f1edb3945c814 <http://www.w3.org/2004/02/skos/core#notation> "26316919" .
+_:cb22b34e913b5137ac6d4e293540387fae654967b77695f89c0531f1edb3945c814 <https://model.ccmm.cz/vocabulary/ccmm#inScheme> <https://www.wikidata.org/entity/Q42302581> .
+_:cb2398a1d1efe01e4471fda227f91b72a8db887f632857986a63ee0e5b85a5c0fde <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/adms#Identifier> .
+_:cb2398a1d1efe01e4471fda227f91b72a8db887f632857986a63ee0e5b85a5c0fde <http://www.w3.org/2004/02/skos/core#notation> "60461373" .
+_:cb2398a1d1efe01e4471fda227f91b72a8db887f632857986a63ee0e5b85a5c0fde <https://model.ccmm.cz/vocabulary/ccmm#inScheme> <https://www.wikidata.org/entity/Q42302581> .
+_:cb23b250a7e56dd491fa69da87ed3442ba182914f75109526f02caf8800f59f290c <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://model.ccmm.cz/vocabulary/ccmm#TimeReference> .
+_:cb23b250a7e56dd491fa69da87ed3442ba182914f75109526f02caf8800f59f290c <http://www.w3.org/2006/time#hasTime> _:cb22946fc1f09b21d4305f43812896c0adab5457a455a8e250ad9813e69d64bc933 .
+_:cb23b250a7e56dd491fa69da87ed3442ba182914f75109526f02caf8800f59f290c <https://model.ccmm.cz/vocabulary/ccmm#hasType> <https://vocabs.ccmm.cz/registry/codelist/TimeReference/Available> .
+_:cb23d5c94d1050e7c4e73cda43d19db439803163069414f465f3fc4bb513613e354 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/adms#Identifier> .
+_:cb23d5c94d1050e7c4e73cda43d19db439803163069414f465f3fc4bb513613e354 <http://www.w3.org/2004/02/skos/core#notation> "26316919" .
+_:cb23d5c94d1050e7c4e73cda43d19db439803163069414f465f3fc4bb513613e354 <https://model.ccmm.cz/vocabulary/ccmm#inScheme> <https://www.wikidata.org/entity/Q42302581> .
+_:cb24502e25684d9d3f2d1706d169cecfe1dffe3d783231f47fef695d2858e046a56 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Attribution> .
+_:cb24502e25684d9d3f2d1706d169cecfe1dffe3d783231f47fef695d2858e046a56 <http://www.w3.org/ns/dcat#hadRole> <https://vocabs.ccmm.cz/registry/codelist/AgentRole/Creator> .
+_:cb24502e25684d9d3f2d1706d169cecfe1dffe3d783231f47fef695d2858e046a56 <http://www.w3.org/ns/prov#agent> _:cb1c4bfc4fd2bf5c8ace6d3610dcb52181bb040bd13b1bf7686826cb4aab183aec4 .
+_:cb2514e83f9764664b0dcc8639a1d39139fe9d1a8dc50eed60a1facea41b6c3405b <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/adms#Identifier> .
+_:cb2514e83f9764664b0dcc8639a1d39139fe9d1a8dc50eed60a1facea41b6c3405b <http://www.w3.org/2004/02/skos/core#notation> "26316919" .
+_:cb2514e83f9764664b0dcc8639a1d39139fe9d1a8dc50eed60a1facea41b6c3405b <https://model.ccmm.cz/vocabulary/ccmm#inScheme> <https://www.wikidata.org/entity/Q42302581> .
+_:cb253fd16e35cd10a7c59e3bc74a3bfb8411adac652c7812f8a855bebbe2414b7b7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2006/time#Instant> .
+_:cb253fd16e35cd10a7c59e3bc74a3bfb8411adac652c7812f8a855bebbe2414b7b7 <http://www.w3.org/2006/time#inXSDDate> "2025-06-11"^^<http://www.w3.org/2001/XMLSchema#date> .
+_:cb25e8041fc93869beaaec943172cdc2e7a9bb34c07d8734e0357c9006351bab915 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Organization> .
+_:cb25e8041fc93869beaaec943172cdc2e7a9bb34c07d8734e0357c9006351bab915 <http://www.w3.org/ns/adms#identifier> <https://ror.org/00hzjtg80> .
+_:cb25e8041fc93869beaaec943172cdc2e7a9bb34c07d8734e0357c9006351bab915 <http://www.w3.org/ns/adms#identifier> _:cb22b34e913b5137ac6d4e293540387fae654967b77695f89c0531f1edb3945c814 .
+_:cb25e8041fc93869beaaec943172cdc2e7a9bb34c07d8734e0357c9006351bab915 <http://xmlns.com/foaf/0.1/name> "COMTES FHT" .
+_:cb274c3497e726e5217a5ad93ba9c94fb4ee0327f6d320661d48e23934b3041491b <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Organization> .
+_:cb274c3497e726e5217a5ad93ba9c94fb4ee0327f6d320661d48e23934b3041491b <http://www.w3.org/ns/adms#identifier> <https://ror.org/00hzjtg80> .
+_:cb274c3497e726e5217a5ad93ba9c94fb4ee0327f6d320661d48e23934b3041491b <http://www.w3.org/ns/adms#identifier> _:cb320e05aec60236ef0a4602c299e27c79996d9213d011fbd5d7d8c3dbcbfa6df68 .
+_:cb274c3497e726e5217a5ad93ba9c94fb4ee0327f6d320661d48e23934b3041491b <http://xmlns.com/foaf/0.1/name> "COMTES FHT" .
+_:cb277dab7941fa47cf9c9fcb76256b3f2918a74836d6a26838820474e237ba22091 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Attribution> .
+_:cb277dab7941fa47cf9c9fcb76256b3f2918a74836d6a26838820474e237ba22091 <http://www.w3.org/ns/dcat#hadRole> <https://vocabs.ccmm.cz/registry/codelist/AgentRole/Contributor/DataManager> .
+_:cb277dab7941fa47cf9c9fcb76256b3f2918a74836d6a26838820474e237ba22091 <http://www.w3.org/ns/prov#agent> _:cb145fe505c4bb725e3976b051559730d460f180fac63aecd9d8b97849a8e5d6cd0 .
+_:cb27c19335d9df803398e0f726203d0fcc0f89a4be446472c2dc329dea8500f026a <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Person> .
+_:cb27c19335d9df803398e0f726203d0fcc0f89a4be446472c2dc329dea8500f026a <http://www.w3.org/2006/vcard/ns#family-name> "Brázda" .
+_:cb27c19335d9df803398e0f726203d0fcc0f89a4be446472c2dc329dea8500f026a <http://www.w3.org/2006/vcard/ns#given-name> "Michal" .
+_:cb27c19335d9df803398e0f726203d0fcc0f89a4be446472c2dc329dea8500f026a <http://www.w3.org/ns/adms#identifier> <https://orcid.org/0000-0002-4982-9114> .
+_:cb27c19335d9df803398e0f726203d0fcc0f89a4be446472c2dc329dea8500f026a <http://xmlns.com/foaf/0.1/name> "Brázda, Michal" .
+_:cb27c19335d9df803398e0f726203d0fcc0f89a4be446472c2dc329dea8500f026a <https://model.ccmm.cz/vocabulary/ccmm#hasAffiliation> _:cb32227fd3241e03d51054df4fb66bd153d4574f327acedf2dee6c1520b5a0c06e8 .
+_:cb291140b69a54449626536ccb627f7dee680be419be616cfbe3f346eafe8a189b7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://model.ccmm.cz/vocabulary/ccmm#TimeReference> .
+_:cb291140b69a54449626536ccb627f7dee680be419be616cfbe3f346eafe8a189b7 <http://www.w3.org/2006/time#hasTime> _:cb1b34e9e845000cddf899a7e692bf2b9f880b14205fec66eeb60205a5d7aa4fdcf .
+_:cb291140b69a54449626536ccb627f7dee680be419be616cfbe3f346eafe8a189b7 <https://model.ccmm.cz/vocabulary/ccmm#hasType> <https://vocabs.ccmm.cz/registry/codelist/TimeReference/Created> .
+_:cb297b0029f073485871d3a84d054565e4978e1dbfd9eac533cc3a1947974471760 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Organization> .
+_:cb297b0029f073485871d3a84d054565e4978e1dbfd9eac533cc3a1947974471760 <http://www.w3.org/ns/adms#identifier> <https://ror.org/00hzjtg80> .
+_:cb297b0029f073485871d3a84d054565e4978e1dbfd9eac533cc3a1947974471760 <http://www.w3.org/ns/adms#identifier> _:cb2d10fa4681c678e991a05849071fea5227bfb15943a968f067483a4304f1f8fa8 .
+_:cb297b0029f073485871d3a84d054565e4978e1dbfd9eac533cc3a1947974471760 <http://xmlns.com/foaf/0.1/name> "COMTES FHT" .
+_:cb29a106e0b9a2e4ad635a6b177face5641c35c38d73cb66251354b86bd4a31c74f <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Attribution> .
+_:cb29a106e0b9a2e4ad635a6b177face5641c35c38d73cb66251354b86bd4a31c74f <http://www.w3.org/ns/dcat#hadRole> <https://vocabs.ccmm.cz/registry/codelist/AgentRole/Creator> .
+_:cb29a106e0b9a2e4ad635a6b177face5641c35c38d73cb66251354b86bd4a31c74f <http://www.w3.org/ns/prov#agent> _:cb2fc938d870dbb627bd8238243f394037f3b464ea458f827f04d6907fd44ebff31 .
+_:cb2a2dc9ad8b135b728fe7847b37327cad35d0d06897dea473f13d0fc807878064a <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://model.ccmm.cz/vocabulary/ccmm#TimeReference> .
+_:cb2a2dc9ad8b135b728fe7847b37327cad35d0d06897dea473f13d0fc807878064a <http://www.w3.org/2006/time#hasTime> _:cb19c2de06118e3bfe926ed36baeb0a20b62f554db1dee2055f4be7a7ff857f856d .
+_:cb2a2dc9ad8b135b728fe7847b37327cad35d0d06897dea473f13d0fc807878064a <https://model.ccmm.cz/vocabulary/ccmm#hasType> <https://vocabs.ccmm.cz/registry/codelist/TimeReference/Issued> .
+_:cb2aa8b4f4957b12c715730dd60fb689f5af78c641ebac86bdfccebda6516c2c7b7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Organization> .
+_:cb2aa8b4f4957b12c715730dd60fb689f5af78c641ebac86bdfccebda6516c2c7b7 <http://www.w3.org/ns/adms#identifier> <https://ror.org/00hzjtg80> .
+_:cb2aa8b4f4957b12c715730dd60fb689f5af78c641ebac86bdfccebda6516c2c7b7 <http://www.w3.org/ns/adms#identifier> _:cb2acc07caa2aa50b62a9e850d18b92f0a424bcec78fdbce8ae62c9e5f122e47d2a .
+_:cb2aa8b4f4957b12c715730dd60fb689f5af78c641ebac86bdfccebda6516c2c7b7 <http://xmlns.com/foaf/0.1/name> "COMTES FHT" .
+_:cb2acc07caa2aa50b62a9e850d18b92f0a424bcec78fdbce8ae62c9e5f122e47d2a <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/adms#Identifier> .
+_:cb2acc07caa2aa50b62a9e850d18b92f0a424bcec78fdbce8ae62c9e5f122e47d2a <http://www.w3.org/2004/02/skos/core#notation> "26316919" .
+_:cb2acc07caa2aa50b62a9e850d18b92f0a424bcec78fdbce8ae62c9e5f122e47d2a <https://model.ccmm.cz/vocabulary/ccmm#inScheme> <https://www.wikidata.org/entity/Q42302581> .
+_:cb2c1b8dcf56457affcfd3ee03174c232dfde28440343bf21383c68585e6a5db3b8 <http://purl.org/dc/terms/alternative> "Data to manuscript Influence of Deposition Parameters on the Building rate, In-Situ Formation of Austenite and Tensile Properties of SAF 2507 SDSS Fabricated by Directed Energy Deposition"@en .
+_:cb2c1b8dcf56457affcfd3ee03174c232dfde28440343bf21383c68585e6a5db3b8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://model.ccmm.cz/vocabulary/ccmm#AlternateTitle> .
+_:cb2c1b8dcf56457affcfd3ee03174c232dfde28440343bf21383c68585e6a5db3b8 <https://model.ccmm.cz/vocabulary/ccmm#hasType> <https://vocabs.ccmm.cz/registry/codelist/AlternateTitle/TranslatedTitle> .
+_:cb2cf40e8b808f6602d29be487f5f2cb7dadcb2ef9a80c7a183d784de17b4c44a23 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Attribution> .
+_:cb2cf40e8b808f6602d29be487f5f2cb7dadcb2ef9a80c7a183d784de17b4c44a23 <http://www.w3.org/ns/dcat#hadRole> <https://vocabs.ccmm.cz/registry/codelist/AgentRole/Creator> .
+_:cb2cf40e8b808f6602d29be487f5f2cb7dadcb2ef9a80c7a183d784de17b4c44a23 <http://www.w3.org/ns/prov#agent> _:cb41ed6f87fa58fbd27e076e953b01d341046e6fbd3f5f8565926231683afa3fa87 .
+_:cb2d10fa4681c678e991a05849071fea5227bfb15943a968f067483a4304f1f8fa8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/adms#Identifier> .
+_:cb2d10fa4681c678e991a05849071fea5227bfb15943a968f067483a4304f1f8fa8 <http://www.w3.org/2004/02/skos/core#notation> "26316919" .
+_:cb2d10fa4681c678e991a05849071fea5227bfb15943a968f067483a4304f1f8fa8 <https://model.ccmm.cz/vocabulary/ccmm#inScheme> <https://www.wikidata.org/entity/Q42302581> .
+_:cb2e5e151b1fc2e41f46ae898506c2570cdb1169067b79ee3d4beced46c04003daf <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Attribution> .
+_:cb2e5e151b1fc2e41f46ae898506c2570cdb1169067b79ee3d4beced46c04003daf <http://www.w3.org/ns/dcat#hadRole> <https://vocabs.ccmm.cz/registry/codelist/AgentRole/Creator> .
+_:cb2e5e151b1fc2e41f46ae898506c2570cdb1169067b79ee3d4beced46c04003daf <http://www.w3.org/ns/prov#agent> _:cb3a808e5290a3829de1cc9a643a40b1ecada3d24e0e93d943100460e9891e48c2b .
+_:cb2f16d2ce2ad3256c2aa84fd3e9e2ed7cf85c609c5183b96539648f521a33e4aa7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Attribution> .
+_:cb2f16d2ce2ad3256c2aa84fd3e9e2ed7cf85c609c5183b96539648f521a33e4aa7 <http://www.w3.org/ns/dcat#hadRole> <https://vocabs.ccmm.cz/registry/codelist/AgentRole/Creator> .
+_:cb2f16d2ce2ad3256c2aa84fd3e9e2ed7cf85c609c5183b96539648f521a33e4aa7 <http://www.w3.org/ns/prov#agent> _:cb27c19335d9df803398e0f726203d0fcc0f89a4be446472c2dc329dea8500f026a .
+_:cb2fc938d870dbb627bd8238243f394037f3b464ea458f827f04d6907fd44ebff31 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Person> .
+_:cb2fc938d870dbb627bd8238243f394037f3b464ea458f827f04d6907fd44ebff31 <http://www.w3.org/2006/vcard/ns#family-name> "Salvetr" .
+_:cb2fc938d870dbb627bd8238243f394037f3b464ea458f827f04d6907fd44ebff31 <http://www.w3.org/2006/vcard/ns#given-name> "Pavel" .
+_:cb2fc938d870dbb627bd8238243f394037f3b464ea458f827f04d6907fd44ebff31 <http://www.w3.org/ns/adms#identifier> <https://orcid.org/0000-0001-5717-267X> .
+_:cb2fc938d870dbb627bd8238243f394037f3b464ea458f827f04d6907fd44ebff31 <http://xmlns.com/foaf/0.1/name> "Salvetr, Pavel" .
+_:cb2fc938d870dbb627bd8238243f394037f3b464ea458f827f04d6907fd44ebff31 <https://model.ccmm.cz/vocabulary/ccmm#hasAffiliation> _:cb25e8041fc93869beaaec943172cdc2e7a9bb34c07d8734e0357c9006351bab915 .
+_:cb320e05aec60236ef0a4602c299e27c79996d9213d011fbd5d7d8c3dbcbfa6df68 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/adms#Identifier> .
+_:cb320e05aec60236ef0a4602c299e27c79996d9213d011fbd5d7d8c3dbcbfa6df68 <http://www.w3.org/2004/02/skos/core#notation> "26316919" .
+_:cb320e05aec60236ef0a4602c299e27c79996d9213d011fbd5d7d8c3dbcbfa6df68 <https://model.ccmm.cz/vocabulary/ccmm#inScheme> <https://www.wikidata.org/entity/Q42302581> .
+_:cb32227fd3241e03d51054df4fb66bd153d4574f327acedf2dee6c1520b5a0c06e8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Organization> .
+_:cb32227fd3241e03d51054df4fb66bd153d4574f327acedf2dee6c1520b5a0c06e8 <http://www.w3.org/ns/adms#identifier> <https://ror.org/00hzjtg80> .
+_:cb32227fd3241e03d51054df4fb66bd153d4574f327acedf2dee6c1520b5a0c06e8 <http://www.w3.org/ns/adms#identifier> _:cb23d5c94d1050e7c4e73cda43d19db439803163069414f465f3fc4bb513613e354 .
+_:cb32227fd3241e03d51054df4fb66bd153d4574f327acedf2dee6c1520b5a0c06e8 <http://xmlns.com/foaf/0.1/name> "COMTES FHT" .
+_:cb324ef8f2585dbcb7379d9a696111e310d769525f59c1754c6174b5a6ddb1c2af1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Organization> .
+_:cb324ef8f2585dbcb7379d9a696111e310d769525f59c1754c6174b5a6ddb1c2af1 <http://www.w3.org/ns/adms#identifier> <https://ror.org/00hzjtg80> .
+_:cb324ef8f2585dbcb7379d9a696111e310d769525f59c1754c6174b5a6ddb1c2af1 <http://www.w3.org/ns/adms#identifier> _:cb2514e83f9764664b0dcc8639a1d39139fe9d1a8dc50eed60a1facea41b6c3405b .
+_:cb324ef8f2585dbcb7379d9a696111e310d769525f59c1754c6174b5a6ddb1c2af1 <http://xmlns.com/foaf/0.1/name> "COMTES FHT" .
+_:cb32c05d1127f35ebd7c4d3d8b9fcceab1701aa47481bb10870fd3858c1c9bdf19a <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Attribution> .
+_:cb32c05d1127f35ebd7c4d3d8b9fcceab1701aa47481bb10870fd3858c1c9bdf19a <http://www.w3.org/ns/dcat#hadRole> <https://vocabs.ccmm.cz/registry/codelist/AgentRole/Creator> .
+_:cb32c05d1127f35ebd7c4d3d8b9fcceab1701aa47481bb10870fd3858c1c9bdf19a <http://www.w3.org/ns/prov#agent> _:cb37b74ee02932c2922d6819a6e96829e1b05895fd9e797cbc8b8d417b6a4ece067 .
+_:cb331d4ea3b6aa255a69af4a8336f3d2b1dca11879df494076bcb69e8f23a954f43 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/tib/datacite/class/FundingReference> .
+_:cb331d4ea3b6aa255a69af4a8336f3d2b1dca11879df494076bcb69e8f23a954f43 <https://model.ccmm.cz/vocabulary/ccmm#fundingProgram> "Operační program Jan Amos Komenský"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+_:cb331d4ea3b6aa255a69af4a8336f3d2b1dca11879df494076bcb69e8f23a954f43 <https://w3id.org/tib/datacite/property/awardNumber> "EH23_021/0008433" .
+_:cb331d4ea3b6aa255a69af4a8336f3d2b1dca11879df494076bcb69e8f23a954f43 <https://w3id.org/tib/datacite/property/awardTitle> "Development of special wire semiproducts for welding and 3D printing" .
+_:cb331d4ea3b6aa255a69af4a8336f3d2b1dca11879df494076bcb69e8f23a954f43 <https://w3id.org/tib/datacite/property/funderIdentifier> _:cb1ea111e6ea6d06ca845a36f3907c7933b8a8a2f1bdfb3c7cf408d0d4f901b3a5c .
+_:cb3353f8a651fbbae8a6dfdd493c17dd2daf70273c867bb3911bb633ae865482a66 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Attribution> .
+_:cb3353f8a651fbbae8a6dfdd493c17dd2daf70273c867bb3911bb633ae865482a66 <http://www.w3.org/ns/dcat#hadRole> <https://vocabs.ccmm.cz/registry/codelist/AgentRole/Creator> .
+_:cb3353f8a651fbbae8a6dfdd493c17dd2daf70273c867bb3911bb633ae865482a66 <http://www.w3.org/ns/prov#agent> _:cb3e198ae00b9d3201c8868d79e5e61293f3d4b458085851e5072a1af88396a311c .
+_:cb34cee55b43e0d9c8ea480290287ecc399bf238ca1c43a69c370366cc25f0f8d9b <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Attribution> .
+_:cb34cee55b43e0d9c8ea480290287ecc399bf238ca1c43a69c370366cc25f0f8d9b <http://www.w3.org/ns/dcat#hadRole> <https://vocabs.ccmm.cz/registry/codelist/AgentRole/Publisher> .
+_:cb34cee55b43e0d9c8ea480290287ecc399bf238ca1c43a69c370366cc25f0f8d9b <http://www.w3.org/ns/prov#agent> _:cb324ef8f2585dbcb7379d9a696111e310d769525f59c1754c6174b5a6ddb1c2af1 .
+_:cb37b74ee02932c2922d6819a6e96829e1b05895fd9e797cbc8b8d417b6a4ece067 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Person> .
+_:cb37b74ee02932c2922d6819a6e96829e1b05895fd9e797cbc8b8d417b6a4ece067 <http://www.w3.org/2006/vcard/ns#family-name> "Dlouhý" .
+_:cb37b74ee02932c2922d6819a6e96829e1b05895fd9e797cbc8b8d417b6a4ece067 <http://www.w3.org/2006/vcard/ns#given-name> "Jaromír" .
+_:cb37b74ee02932c2922d6819a6e96829e1b05895fd9e797cbc8b8d417b6a4ece067 <http://www.w3.org/ns/adms#identifier> <https://orcid.org/0000-0002-1241-6121> .
+_:cb37b74ee02932c2922d6819a6e96829e1b05895fd9e797cbc8b8d417b6a4ece067 <http://xmlns.com/foaf/0.1/name> "Dlouhý, Jaromír" .
+_:cb37b74ee02932c2922d6819a6e96829e1b05895fd9e797cbc8b8d417b6a4ece067 <https://model.ccmm.cz/vocabulary/ccmm#hasAffiliation> _:cb274c3497e726e5217a5ad93ba9c94fb4ee0327f6d320661d48e23934b3041491b .
+_:cb3a808e5290a3829de1cc9a643a40b1ecada3d24e0e93d943100460e9891e48c2b <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Person> .
+_:cb3a808e5290a3829de1cc9a643a40b1ecada3d24e0e93d943100460e9891e48c2b <http://www.w3.org/2006/vcard/ns#family-name> "Uhlík" .
+_:cb3a808e5290a3829de1cc9a643a40b1ecada3d24e0e93d943100460e9891e48c2b <http://www.w3.org/2006/vcard/ns#given-name> "Matouš" .
+_:cb3a808e5290a3829de1cc9a643a40b1ecada3d24e0e93d943100460e9891e48c2b <http://xmlns.com/foaf/0.1/name> "Uhlík, Matouš" .
+_:cb3a808e5290a3829de1cc9a643a40b1ecada3d24e0e93d943100460e9891e48c2b <https://model.ccmm.cz/vocabulary/ccmm#hasAffiliation> _:cb297b0029f073485871d3a84d054565e4978e1dbfd9eac533cc3a1947974471760 .
+_:cb3e198ae00b9d3201c8868d79e5e61293f3d4b458085851e5072a1af88396a311c <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Person> .
+_:cb3e198ae00b9d3201c8868d79e5e61293f3d4b458085851e5072a1af88396a311c <http://www.w3.org/2006/vcard/ns#family-name> "Hodek" .
+_:cb3e198ae00b9d3201c8868d79e5e61293f3d4b458085851e5072a1af88396a311c <http://www.w3.org/2006/vcard/ns#given-name> "Josef" .
+_:cb3e198ae00b9d3201c8868d79e5e61293f3d4b458085851e5072a1af88396a311c <http://www.w3.org/ns/adms#identifier> <https://orcid.org/0000-0003-4013-9819> .
+_:cb3e198ae00b9d3201c8868d79e5e61293f3d4b458085851e5072a1af88396a311c <http://xmlns.com/foaf/0.1/name> "Hodek, Josef" .
+_:cb3e198ae00b9d3201c8868d79e5e61293f3d4b458085851e5072a1af88396a311c <https://model.ccmm.cz/vocabulary/ccmm#hasAffiliation> _:cb2aa8b4f4957b12c715730dd60fb689f5af78c641ebac86bdfccebda6516c2c7b7 .
+_:cb41ed6f87fa58fbd27e076e953b01d341046e6fbd3f5f8565926231683afa3fa87 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Person> .
+_:cb41ed6f87fa58fbd27e076e953b01d341046e6fbd3f5f8565926231683afa3fa87 <http://www.w3.org/2006/vcard/ns#family-name> "Novák" .
+_:cb41ed6f87fa58fbd27e076e953b01d341046e6fbd3f5f8565926231683afa3fa87 <http://www.w3.org/2006/vcard/ns#given-name> "Pavel" .
+_:cb41ed6f87fa58fbd27e076e953b01d341046e6fbd3f5f8565926231683afa3fa87 <http://www.w3.org/ns/adms#identifier> <https://orcid.org/0000-0001-9947-2566> .
+_:cb41ed6f87fa58fbd27e076e953b01d341046e6fbd3f5f8565926231683afa3fa87 <http://xmlns.com/foaf/0.1/name> "Novák, Pavel" .
+_:cb41ed6f87fa58fbd27e076e953b01d341046e6fbd3f5f8565926231683afa3fa87 <https://model.ccmm.cz/vocabulary/ccmm#hasAffiliation> _:cb20a40e944b49603e76fd7e894c0368fc01350d515d815a14732b0620d3c974b97 .

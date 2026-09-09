@@ -1,0 +1,19 @@
+Status: DIFFERENT
+Comparison: elements, attributes, text values, and repeated-element order
+Ignored: XML declaration, comments, indentation, attribute order, namespace prefixes
+Missing content entries: 1
+Added content entries: 3
+Sibling-order changes: 1
+
+Missing from round-trip XML:
+- attribute /ccmm:dataset/@xsi:schemaLocation = 'https://schema.ccmm.cz/research-data/2.0 ../dataset/schema.xsd'
+
+Added in round-trip XML:
+- attribute /ccmm:dataset/ccmm:qualified_attribution/ccmm:role/ccmm:label/@xml:lang = 'cs'
+- element /ccmm:dataset/ccmm:qualified_attribution/ccmm:role/ccmm:label
+- text /ccmm:dataset/ccmm:qualified_attribution/ccmm:role/ccmm:label = 'Vydavatel'
+
+Repeated elements with changed order:
+- /ccmm:dataset/ccmm:metadata_identification/ccmm:original_repository/ccmm:qualified_attribution/ccmm:role/ccmm:label
+  original: ccmm:label @xml:lang='cs' = 'Vydavatel' | ccmm:label @xml:lang='en' = 'Publisher'
+  round-trip: ccmm:label @xml:lang='en' = 'Publisher' | ccmm:label @xml:lang='cs' = 'Vydavatel'

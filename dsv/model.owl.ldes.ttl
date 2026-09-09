@@ -1,0 +1,388 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix dsv: <https://w3id.org/dsv#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix cardinality: <https://w3id.org/dsv/cardinality#>.
+@prefix requirement: <https://w3id.org/dsv/requirement-level#>.
+@prefix role: <https://w3id.org/dsv/class-role#>.
+@prefix ldes: <https://w3id.org/ldes#>.
+@prefix tree: <https://w3id.org/tree#>.
+@prefix as: <https://www.w3.org/ns/activitystreams#>.
+@prefix ds-ldes: <https://schemas.dataspecer.com/ldes#>.
+
+
+<> a ldes:EventStream, tree:Collection;
+    ldes:timestampPath dct:issued;
+    ldes:versionTimestampPath dct:created;
+    ldes:sequencePath ds-ldes:sequence;
+    ldes:transactionPath ds-ldes:transaction;
+    ldes:versionOfPath dct:isVersionOf;
+    ldes:versionCreateObject as:Create;
+    ldes:versionUpdateObject as:Update;
+    ldes:versionDeleteObject as:Delete;
+    tree:view <>;
+    ds-ldes:publishedModel <https://w3id.org/dsv#>;
+    tree:member <https://w3id.org/dsv#ApplicationProfile-2026-04-02T07:10:02.811Z-0>.
+
+<https://w3id.org/dsv#ApplicationProfile-2026-04-02T07:10:02.811Z-0> a as:Create;
+    dct:isVersionOf dsv:ApplicationProfile;
+    dct:created "2026-04-02T07:10:02.811Z"^^xsd:dateTime;
+    dct:issued "2026-04-02T07:10:02.811Z"^^xsd:dateTime;
+    ds-ldes:sequence 0;
+    ds-ldes:transaction "fdf18922-e976-415d-914f-a21de722def1";
+    a owl:Class, rdfs:Class;
+    rdfs:label "Application Profile"@en, "Konceptuální model"@cs;
+    rdfs:comment "An Application Profile identifies classes and properties from vocabularies, and class profiles and property profiles from Application profiles that are re-used in a certain usage context. It also allows specification editors to further adjust the description of re-used classes and properties for that usage context without the need to explicitly create subclasses and subproperties."@en, "Konceptuální model obsahující profily tříd a vlastností různých slovníků."@cs;
+    rdfs:isDefinedBy <https://w3id.org/dsv#>.
+
+<> tree:member <https://w3id.org/dsv#TermProfile-2026-04-02T07:10:02.811Z-1>.
+
+<https://w3id.org/dsv#TermProfile-2026-04-02T07:10:02.811Z-1> a as:Create;
+    dct:isVersionOf dsv:TermProfile;
+    dct:created "2026-04-02T07:10:02.811Z"^^xsd:dateTime;
+    dct:issued "2026-04-02T07:10:02.811Z"^^xsd:dateTime;
+    ds-ldes:sequence 1;
+    ds-ldes:transaction "fdf18922-e976-415d-914f-a21de722def1";
+    a owl:Class, rdfs:Class;
+    rdfs:label "Term Profile"@en, "Profil"@cs;
+    rdfs:comment "Term profile. Allows profile editors to specify context dependent information such as label, definition, usage note, cardinalities, etc. for Class profiles and Property profiles."@en, "Profil entity. Umožňuje blíže specifikovat některé její vlastnost v kontextu aplikačního profilu."@cs;
+    rdfs:isDefinedBy <https://w3id.org/dsv#>.
+
+<> tree:member <https://w3id.org/dsv#ClassProfile-2026-04-02T07:10:02.811Z-2>.
+
+<https://w3id.org/dsv#ClassProfile-2026-04-02T07:10:02.811Z-2> a as:Create;
+    dct:isVersionOf dsv:ClassProfile;
+    dct:created "2026-04-02T07:10:02.811Z"^^xsd:dateTime;
+    dct:issued "2026-04-02T07:10:02.811Z"^^xsd:dateTime;
+    ds-ldes:sequence 2;
+    ds-ldes:transaction "fdf18922-e976-415d-914f-a21de722def1";
+    a owl:Class, rdfs:Class;
+    rdfs:label "Class Profile"@en, "Profil třídy"@cs;
+    rdfs:comment "Profile of a class. Allows specification editors to specify profile specific names, definitions and usage notes."@en;
+    rdfs:isDefinedBy <https://w3id.org/dsv#>;
+    rdfs:subClassOf dsv:TermProfile.
+
+<> tree:member <https://w3id.org/dsv#PropertyProfile-2026-04-02T07:10:02.811Z-3>.
+
+<https://w3id.org/dsv#PropertyProfile-2026-04-02T07:10:02.811Z-3> a as:Create;
+    dct:isVersionOf dsv:PropertyProfile;
+    dct:created "2026-04-02T07:10:02.811Z"^^xsd:dateTime;
+    dct:issued "2026-04-02T07:10:02.811Z"^^xsd:dateTime;
+    ds-ldes:sequence 3;
+    ds-ldes:transaction "fdf18922-e976-415d-914f-a21de722def1";
+    a owl:Class, rdfs:Class;
+    rdfs:label "Property Profile"@en, "Profil vlastnosti"@cs;
+    rdfs:comment "Profile of a property allows specification editors to specify profile specific name, definition, usage note, domain, range and cardinality."@en;
+    rdfs:isDefinedBy <https://w3id.org/dsv#>;
+    rdfs:subClassOf dsv:TermProfile.
+
+<> tree:member <https://w3id.org/dsv#InvalidTermProfile-2026-04-02T07:10:02.811Z-4>.
+
+<https://w3id.org/dsv#InvalidTermProfile-2026-04-02T07:10:02.811Z-4> a as:Create;
+    dct:isVersionOf dsv:InvalidTermProfile;
+    dct:created "2026-04-02T07:10:02.811Z"^^xsd:dateTime;
+    dct:issued "2026-04-02T07:10:02.811Z"^^xsd:dateTime;
+    ds-ldes:sequence 4;
+    ds-ldes:transaction "fdf18922-e976-415d-914f-a21de722def1";
+    a owl:Class, rdfs:Class;
+    rdfs:label "Invalid Term Profile"@en, "Nevalidní profil"@cs;
+    rdfs:comment "Invalid Term Profile is a profile, which breaks profile compliance rules. This may be for a good reason such as temporary, to be propagated upstream, inconsistency."@en, "Neplatný profil je profil, který porušuje pravidla pro správné profilování. To může být z dobrého důvodu, jako je dočasná nekonzistence, která se má teprve projevit na profilované entitě."@cs;
+    rdfs:isDefinedBy <https://w3id.org/dsv#>;
+    rdfs:subClassOf dsv:TermProfile.
+
+<> tree:member <https://w3id.org/dsv#ObjectPropertyProfile-2026-04-02T07:10:02.811Z-5>.
+
+<https://w3id.org/dsv#ObjectPropertyProfile-2026-04-02T07:10:02.811Z-5> a as:Create;
+    dct:isVersionOf dsv:ObjectPropertyProfile;
+    dct:created "2026-04-02T07:10:02.811Z"^^xsd:dateTime;
+    dct:issued "2026-04-02T07:10:02.811Z"^^xsd:dateTime;
+    ds-ldes:sequence 5;
+    ds-ldes:transaction "fdf18922-e976-415d-914f-a21de722def1";
+    a owl:Class, rdfs:Class;
+    rdfs:label "Object Property Profile"@en, "Profil objektové vlastnosti"@cs;
+    rdfs:comment "Profile of an object property allows specification editors to specify profile-specific name, definition, usage note, domain, range, and cardinality."@en;
+    rdfs:isDefinedBy <https://w3id.org/dsv#>;
+    rdfs:subClassOf dsv:PropertyProfile.
+
+<> tree:member <https://w3id.org/dsv#DatatypePropertyProfile-2026-04-02T07:10:02.811Z-6>.
+
+<https://w3id.org/dsv#DatatypePropertyProfile-2026-04-02T07:10:02.811Z-6> a as:Create;
+    dct:isVersionOf dsv:DatatypePropertyProfile;
+    dct:created "2026-04-02T07:10:02.811Z"^^xsd:dateTime;
+    dct:issued "2026-04-02T07:10:02.811Z"^^xsd:dateTime;
+    ds-ldes:sequence 6;
+    ds-ldes:transaction "fdf18922-e976-415d-914f-a21de722def1";
+    a owl:Class, rdfs:Class;
+    rdfs:label "Datatype Property Profile"@en, "Profile atributu"@cs;
+    rdfs:comment "Profile of a datatype property allows specification editors to specify profile-specific name, definition, usage note, domain, datatype, and cardinality."@en;
+    rdfs:isDefinedBy <https://w3id.org/dsv#>;
+    rdfs:subClassOf dsv:PropertyProfile.
+
+<> tree:member <https://w3id.org/dsv#PropertyValueReuse-2026-04-02T07:10:02.811Z-7>.
+
+<https://w3id.org/dsv#PropertyValueReuse-2026-04-02T07:10:02.811Z-7> a as:Create;
+    dct:isVersionOf dsv:PropertyValueReuse;
+    dct:created "2026-04-02T07:10:02.811Z"^^xsd:dateTime;
+    dct:issued "2026-04-02T07:10:02.811Z"^^xsd:dateTime;
+    ds-ldes:sequence 7;
+    ds-ldes:transaction "fdf18922-e976-415d-914f-a21de722def1";
+    a owl:Class, rdfs:Class;
+    rdfs:label "Property Value Reuse"@en;
+    rdfs:comment "Specifies, which values of which properties of which resources are reused for the current Profile.\nE.g. reuse of profile name, reuse of class name, reuse of profile definition, reuse of profile usage note, etc."@en;
+    rdfs:isDefinedBy <https://w3id.org/dsv#>.
+
+<> tree:member <https://w3id.org/dsv#ApplicationProfileSpecificationDocument-2026-04-02T07:10:02.811Z-8>.
+
+<https://w3id.org/dsv#ApplicationProfileSpecificationDocument-2026-04-02T07:10:02.811Z-8> a as:Create;
+    dct:isVersionOf dsv:ApplicationProfileSpecificationDocument;
+    dct:created "2026-04-02T07:10:02.811Z"^^xsd:dateTime;
+    dct:issued "2026-04-02T07:10:02.811Z"^^xsd:dateTime;
+    ds-ldes:sequence 8;
+    ds-ldes:transaction "fdf18922-e976-415d-914f-a21de722def1";
+    a owl:Class, rdfs:Class;
+    rdfs:label "Application Profile Specification Document"@en;
+    rdfs:comment "An Application Profile Specification Document contains human-readable version of an Application Profile."@en;
+    rdfs:isDefinedBy <https://w3id.org/dsv#>;
+    rdfs:subClassOf <http://www.w3.org/ns/dx/prof/ResourceDescriptor>.
+
+<> tree:member <https://w3id.org/dsv#VocabularySpecificationDocument-2026-04-02T07:10:02.811Z-9>.
+
+<https://w3id.org/dsv#VocabularySpecificationDocument-2026-04-02T07:10:02.811Z-9> a as:Create;
+    dct:isVersionOf dsv:VocabularySpecificationDocument;
+    dct:created "2026-04-02T07:10:02.811Z"^^xsd:dateTime;
+    dct:issued "2026-04-02T07:10:02.811Z"^^xsd:dateTime;
+    ds-ldes:sequence 9;
+    ds-ldes:transaction "fdf18922-e976-415d-914f-a21de722def1";
+    a owl:Class, rdfs:Class;
+    rdfs:label "Vocabulary Specification Document"@en;
+    rdfs:comment "A Vocabulary Specification Document is a human-readable representation of a Vocabulary."@en;
+    rdfs:isDefinedBy <https://w3id.org/dsv#>;
+    rdfs:subClassOf <http://www.w3.org/ns/dx/prof/ResourceDescriptor>.
+
+<> tree:member <https://w3id.org/dsv#profileOf-2026-04-02T07:10:02.811Z-10>.
+
+<https://w3id.org/dsv#profileOf-2026-04-02T07:10:02.811Z-10> a as:Create;
+    dct:isVersionOf dsv:profileOf;
+    dct:created "2026-04-02T07:10:02.811Z"^^xsd:dateTime;
+    dct:issued "2026-04-02T07:10:02.811Z"^^xsd:dateTime;
+    ds-ldes:sequence 10;
+    ds-ldes:transaction "fdf18922-e976-415d-914f-a21de722def1";
+    a rdf:Property, owl:ObjectProperty;
+    rdfs:label "profile of"@en;
+    rdfs:comment "Specifies a parent profile of the current profile."@en;
+    rdfs:isDefinedBy <https://w3id.org/dsv#>;
+    rdfs:domain dsv:TermProfile;
+    rdfs:range dsv:TermProfile.
+
+<> tree:member <https://w3id.org/dsv#specializes-2026-04-02T07:10:02.811Z-11>.
+
+<https://w3id.org/dsv#specializes-2026-04-02T07:10:02.811Z-11> a as:Create;
+    dct:isVersionOf dsv:specializes;
+    dct:created "2026-04-02T07:10:02.811Z"^^xsd:dateTime;
+    dct:issued "2026-04-02T07:10:02.811Z"^^xsd:dateTime;
+    ds-ldes:sequence 11;
+    ds-ldes:transaction "fdf18922-e976-415d-914f-a21de722def1";
+    a rdf:Property, owl:ObjectProperty;
+    rdfs:label "specializes"@en;
+    rdfs:comment "Specifies a profile specialized by this profile."@en;
+    rdfs:isDefinedBy <https://w3id.org/dsv#>;
+    rdfs:domain dsv:TermProfile;
+    rdfs:range dsv:TermProfile.
+
+<> tree:member <https://w3id.org/dsv#class-2026-04-02T07:10:02.811Z-12>.
+
+<https://w3id.org/dsv#class-2026-04-02T07:10:02.811Z-12> a as:Create;
+    dct:isVersionOf dsv:class;
+    dct:created "2026-04-02T07:10:02.811Z"^^xsd:dateTime;
+    dct:issued "2026-04-02T07:10:02.811Z"^^xsd:dateTime;
+    ds-ldes:sequence 12;
+    ds-ldes:transaction "fdf18922-e976-415d-914f-a21de722def1";
+    a rdf:Property, owl:ObjectProperty;
+    rdfs:label "profiled class"@en;
+    rdfs:comment "The profiled class."@en;
+    rdfs:isDefinedBy <https://w3id.org/dsv#>;
+    rdfs:domain dsv:ClassProfile;
+    rdfs:range rdfs:Class.
+
+<> tree:member <https://w3id.org/dsv#datatype-2026-04-02T07:10:02.811Z-13>.
+
+<https://w3id.org/dsv#datatype-2026-04-02T07:10:02.811Z-13> a as:Create;
+    dct:isVersionOf dsv:datatype;
+    dct:created "2026-04-02T07:10:02.811Z"^^xsd:dateTime;
+    dct:issued "2026-04-02T07:10:02.811Z"^^xsd:dateTime;
+    ds-ldes:sequence 13;
+    ds-ldes:transaction "fdf18922-e976-415d-914f-a21de722def1";
+    a rdf:Property, owl:ObjectProperty;
+    rdfs:label "datatype"@en;
+    rdfs:comment "A datatype of the values of the Datatype Property Profile."@en;
+    rdfs:isDefinedBy <https://w3id.org/dsv#>;
+    rdfs:domain dsv:DatatypePropertyProfile;
+    rdfs:range rdfs:Datatype.
+
+<> tree:member <https://w3id.org/dsv#range-2026-04-02T07:10:02.811Z-14>.
+
+<https://w3id.org/dsv#range-2026-04-02T07:10:02.811Z-14> a as:Create;
+    dct:isVersionOf dsv:range;
+    dct:created "2026-04-02T07:10:02.811Z"^^xsd:dateTime;
+    dct:issued "2026-04-02T07:10:02.811Z"^^xsd:dateTime;
+    ds-ldes:sequence 14;
+    ds-ldes:transaction "fdf18922-e976-415d-914f-a21de722def1";
+    a rdf:Property, owl:ObjectProperty;
+    rdfs:label "range"@en;
+    rdfs:comment "Class profile, which is the range of the object property profile."@en;
+    rdfs:isDefinedBy <https://w3id.org/dsv#>;
+    rdfs:domain dsv:ObjectPropertyProfile;
+    rdfs:range dsv:ClassProfile.
+
+<> tree:member <https://w3id.org/dsv#domain-2026-04-02T07:10:02.811Z-15>.
+
+<https://w3id.org/dsv#domain-2026-04-02T07:10:02.811Z-15> a as:Create;
+    dct:isVersionOf dsv:domain;
+    dct:created "2026-04-02T07:10:02.811Z"^^xsd:dateTime;
+    dct:issued "2026-04-02T07:10:02.811Z"^^xsd:dateTime;
+    ds-ldes:sequence 15;
+    ds-ldes:transaction "fdf18922-e976-415d-914f-a21de722def1";
+    a rdf:Property, owl:ObjectProperty;
+    rdfs:label "domain"@en;
+    rdfs:comment "Class profile, which is the domain of the property profile."@en;
+    rdfs:isDefinedBy <https://w3id.org/dsv#>;
+    rdfs:domain dsv:PropertyProfile;
+    rdfs:range dsv:ClassProfile.
+
+<> tree:member <https://w3id.org/dsv#cardinality-2026-04-02T07:10:02.811Z-16>.
+
+<https://w3id.org/dsv#cardinality-2026-04-02T07:10:02.811Z-16> a as:Create;
+    dct:isVersionOf dsv:cardinality;
+    dct:created "2026-04-02T07:10:02.811Z"^^xsd:dateTime;
+    dct:issued "2026-04-02T07:10:02.811Z"^^xsd:dateTime;
+    ds-ldes:sequence 16;
+    ds-ldes:transaction "fdf18922-e976-415d-914f-a21de722def1";
+    a rdf:Property, owl:ObjectProperty;
+    rdfs:label "cardinality"@en, "kardinalita"@cs;
+    rdfs:comment "Cardinality of the Property Profile."@en;
+    rdfs:isDefinedBy <https://w3id.org/dsv#>;
+    rdfs:domain dsv:PropertyProfile;
+    rdfs:range skos:Concept.
+
+<> tree:member <https://w3id.org/dsv#property-2026-04-02T07:10:02.811Z-17>.
+
+<https://w3id.org/dsv#property-2026-04-02T07:10:02.811Z-17> a as:Create;
+    dct:isVersionOf dsv:property;
+    dct:created "2026-04-02T07:10:02.811Z"^^xsd:dateTime;
+    dct:issued "2026-04-02T07:10:02.811Z"^^xsd:dateTime;
+    ds-ldes:sequence 17;
+    ds-ldes:transaction "fdf18922-e976-415d-914f-a21de722def1";
+    a rdf:Property, owl:ObjectProperty;
+    rdfs:label "profiled property"@en;
+    rdfs:comment "The property profiled by the property profile."@en;
+    rdfs:isDefinedBy <https://w3id.org/dsv#>;
+    rdfs:domain dsv:PropertyProfile;
+    rdfs:range rdf:Property.
+
+<> tree:member <https://w3id.org/dsv#reusesPropertyValue-2026-04-02T07:10:02.811Z-18>.
+
+<https://w3id.org/dsv#reusesPropertyValue-2026-04-02T07:10:02.811Z-18> a as:Create;
+    dct:isVersionOf dsv:reusesPropertyValue;
+    dct:created "2026-04-02T07:10:02.811Z"^^xsd:dateTime;
+    dct:issued "2026-04-02T07:10:02.811Z"^^xsd:dateTime;
+    ds-ldes:sequence 18;
+    ds-ldes:transaction "fdf18922-e976-415d-914f-a21de722def1";
+    a rdf:Property, owl:ObjectProperty;
+    rdfs:label "reuses property value"@en;
+    rdfs:comment "Points to definitions of Property value reuse for this Profile."@en;
+    rdfs:isDefinedBy <https://w3id.org/dsv#>;
+    rdfs:domain dsv:TermProfile;
+    rdfs:range dsv:PropertyValueReuse.
+
+<> tree:member <https://w3id.org/dsv#reusedProperty-2026-04-02T07:10:02.811Z-19>.
+
+<https://w3id.org/dsv#reusedProperty-2026-04-02T07:10:02.811Z-19> a as:Create;
+    dct:isVersionOf dsv:reusedProperty;
+    dct:created "2026-04-02T07:10:02.811Z"^^xsd:dateTime;
+    dct:issued "2026-04-02T07:10:02.811Z"^^xsd:dateTime;
+    ds-ldes:sequence 19;
+    ds-ldes:transaction "fdf18922-e976-415d-914f-a21de722def1";
+    a rdf:Property, owl:ObjectProperty;
+    rdfs:label "reused property"@en;
+    rdfs:comment "The Property from which a value is reused."@en;
+    rdfs:isDefinedBy <https://w3id.org/dsv#>;
+    rdfs:domain dsv:PropertyValueReuse;
+    rdfs:range rdf:Property.
+
+<> tree:member <https://w3id.org/dsv#reusedFromResource-2026-04-02T07:10:02.811Z-20>.
+
+<https://w3id.org/dsv#reusedFromResource-2026-04-02T07:10:02.811Z-20> a as:Create;
+    dct:isVersionOf dsv:reusedFromResource;
+    dct:created "2026-04-02T07:10:02.811Z"^^xsd:dateTime;
+    dct:issued "2026-04-02T07:10:02.811Z"^^xsd:dateTime;
+    ds-ldes:sequence 20;
+    ds-ldes:transaction "fdf18922-e976-415d-914f-a21de722def1";
+    a rdf:Property, owl:ObjectProperty;
+    rdfs:label "reused from resource"@en;
+    rdfs:comment "The Resource on which there is a property with a value for reuse."@en;
+    rdfs:isDefinedBy <https://w3id.org/dsv#>;
+    rdfs:domain dsv:PropertyValueReuse;
+    rdfs:range rdfs:Resource.
+
+<> tree:member <https://w3id.org/dsv#requirementLevel-2026-04-02T07:10:02.811Z-21>.
+
+<https://w3id.org/dsv#requirementLevel-2026-04-02T07:10:02.811Z-21> a as:Create;
+    dct:isVersionOf dsv:requirementLevel;
+    dct:created "2026-04-02T07:10:02.811Z"^^xsd:dateTime;
+    dct:issued "2026-04-02T07:10:02.811Z"^^xsd:dateTime;
+    ds-ldes:sequence 21;
+    ds-ldes:transaction "fdf18922-e976-415d-914f-a21de722def1";
+    a rdf:Property, owl:ObjectProperty;
+    rdfs:label "requirement level"@en;
+    rdfs:comment "Requirement level of the property, typically mandatory, recommended or optional."@en;
+    rdfs:isDefinedBy <https://w3id.org/dsv#>;
+    rdfs:domain dsv:PropertyProfile;
+    rdfs:range skos:Concept.
+
+<> tree:member <https://w3id.org/dsv#classRole-2026-04-02T07:10:02.811Z-22>.
+
+<https://w3id.org/dsv#classRole-2026-04-02T07:10:02.811Z-22> a as:Create;
+    dct:isVersionOf dsv:classRole;
+    dct:created "2026-04-02T07:10:02.811Z"^^xsd:dateTime;
+    dct:issued "2026-04-02T07:10:02.811Z"^^xsd:dateTime;
+    ds-ldes:sequence 22;
+    ds-ldes:transaction "fdf18922-e976-415d-914f-a21de722def1";
+    a rdf:Property, owl:ObjectProperty;
+    rdfs:label "class role"@en;
+    rdfs:comment "Class role, e.g. Mandatory, Supportive, etc."@en;
+    rdfs:isDefinedBy <https://w3id.org/dsv#>;
+    rdfs:domain dsv:ClassProfile;
+    rdfs:range skos:Concept.
+
+<> tree:member <https://w3id.org/dsv#externalDocumentation-2026-04-02T07:10:02.811Z-23>.
+
+<https://w3id.org/dsv#externalDocumentation-2026-04-02T07:10:02.811Z-23> a as:Create;
+    dct:isVersionOf dsv:externalDocumentation;
+    dct:created "2026-04-02T07:10:02.811Z"^^xsd:dateTime;
+    dct:issued "2026-04-02T07:10:02.811Z"^^xsd:dateTime;
+    ds-ldes:sequence 23;
+    ds-ldes:transaction "fdf18922-e976-415d-914f-a21de722def1";
+    a rdf:Property, owl:ObjectProperty;
+    rdfs:label "external documentation"@en;
+    rdfs:comment "Link to an external documentation of this resource. Profiles of this resource should preferably link to this URL for documentation."@en;
+    rdfs:isDefinedBy <https://w3id.org/dsv#>;
+    rdfs:domain rdfs:Resource;
+    rdfs:range rdfs:Resource.
+
+<> tree:member <https://w3id.org/dsv#reusedAsProperty-2026-04-02T07:10:02.811Z-24>.
+
+<https://w3id.org/dsv#reusedAsProperty-2026-04-02T07:10:02.811Z-24> a as:Create;
+    dct:isVersionOf dsv:reusedAsProperty;
+    dct:created "2026-04-02T07:10:02.811Z"^^xsd:dateTime;
+    dct:issued "2026-04-02T07:10:02.811Z"^^xsd:dateTime;
+    ds-ldes:sequence 24;
+    ds-ldes:transaction "fdf18922-e976-415d-914f-a21de722def1";
+    a rdf:Property, owl:ObjectProperty;
+    rdfs:label "reused as property"@en;
+    rdfs:comment "The Property to gain the reused value."@en;
+    rdfs:isDefinedBy <https://w3id.org/dsv#>;
+    rdfs:domain dsv:PropertyValueReuse;
+    rdfs:range rdf:Property.

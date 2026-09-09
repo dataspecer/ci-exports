@@ -1,0 +1,1845 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sparql xmlns="http://www.w3.org/2005/sparql-results#">
+  <head>
+    <variable name="s"/>
+    <variable name="p"/>
+    <variable name="o"/>
+  </head>
+  <results>
+    <result>
+      <binding name="s"><bnode>b0_cb120f4d08bd7859ea5b9089de54e37d90243033d93cf541b4806dffee9f1f1070a</bnode></binding>
+      <binding name="p"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
+      <binding name="o"><uri>https://model.ccmm.cz/vocabulary/ccmm#ValidationResult</uri></binding>
+    </result>
+    <result>
+      <binding name="s"><bnode>b0_cb124c8b1d0ac8bccd48f0e5669e5e890b745a09af5498b3776961e5b5551ed7648</bnode></binding>
+      <binding name="p"><uri>http://purl.org/dc/terms/description</uri></binding>
+      <binding name="o"><literal xml:lang="en">Industry applications of duplex stainless steels require a two-phase microstructure with a nearly balanced austenite-ferrite content to achieve good mechanical properties and good corrosion resistance. The most widespread additive manufacturing method such as laser powder bed fusion provides nearly fully ferritic microstructures due to the very high cooling rate, and the post-processing heat treatment must be performed. In contrast, other additive manufacturing methods, such as directed deposition methods, reach lower cooling rates and enable to obtain an equal ferrite–austenite ratio directly in the microstructure of the as-built state. In this work, the super duplex stainless steel SAF 2507 was deposited by directed energy deposition. The process parameters, namely, the laser power, laser beam spot, and powder feed rate, were varied to investigate the impact of the energy area density on the microstructure and tensile properties. A decrease in the energy area density caused an increase in the austenite content of 48 vol% and a numerical simulation of the sample temperature distribution inside the block during deposition, explaining the relationship between the amount of in situ formed austenite and the deposition parameters, was provided. Simultaneously, the deposition rate increased by more than five times. In contrast, the samples deposited at a higher building rate are characterized by greater porosity and lower elongation values in the vertical direction. The effect of the deposition parameters on the yield strength is low.</literal></binding>
+    </result>
+    <result>
+      <binding name="s"><bnode>b0_cb124c8b1d0ac8bccd48f0e5669e5e890b745a09af5498b3776961e5b5551ed7648</bnode></binding>
+      <binding name="p"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
+      <binding name="o"><uri>https://w3id.org/tib/datacite/class/Description</uri></binding>
+    </result>
+    <result>
+      <binding name="s"><bnode>b0_cb124c8b1d0ac8bccd48f0e5669e5e890b745a09af5498b3776961e5b5551ed7648</bnode></binding>
+      <binding name="p"><uri>https://w3id.org/tib/datacite/property/descriptionType</uri></binding>
+      <binding name="o"><uri>https://vocabs.ccmm.cz/registry/codelist/DescriptionType/Abstract</uri></binding>
+    </result>
+    <result>
+      <binding name="s"><bnode>b0_cb13e54021ba9d6fea308d20e42997b24f65c8f306e037d9ca1ccf13a1c14062f4b</bnode></binding>
+      <binding name="p"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
+      <binding name="o"><uri>http://www.w3.org/ns/prov#Person</uri></binding>
+    </result>
+    <result>
+      <binding name="s"><bnode>b0_cb13e54021ba9d6fea308d20e42997b24f65c8f306e037d9ca1ccf13a1c14062f4b</bnode></binding>
+      <binding name="p"><uri>http://xmlns.com/foaf/0.1/name</uri></binding>
+      <binding name="o"><literal datatype="http://www.w3.org/2001/XMLSchema#string">Uhlík, Matouš</literal></binding>
+    </result>
+    <result>
+      <binding name="s"><bnode>b0_cb145fe505c4bb725e3976b051559730d460f180fac63aecd9d8b97849a8e5d6cd0</bnode></binding>
+      <binding name="p"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
+      <binding name="o"><uri>http://www.w3.org/ns/prov#Person</uri></binding>
+    </result>
+    <result>
+      <binding name="s"><bnode>b0_cb145fe505c4bb725e3976b051559730d460f180fac63aecd9d8b97849a8e5d6cd0</bnode></binding>
+      <binding name="p"><uri>http://xmlns.com/foaf/0.1/name</uri></binding>
+      <binding name="o"><literal datatype="http://www.w3.org/2001/XMLSchema#string">:unkn</literal></binding>
+    </result>
+    <result>
+      <binding name="s"><bnode>b0_cb15198b8ae5454e41f81d4496533cedfffb25319511c3d1fbfc2a3825d722bb2cc</bnode></binding>
+      <binding name="p"><uri>http://purl.org/dc/terms/description</uri></binding>
+      <binding name="o"><literal xml:lang="en">The data set is related to the investigation of the influence of deposition parameters on the microstructure, austenite formation, and tensile properties of SAF 2507 super duplex stainless steel fabricated using directed energy deposition (DED). The experiments were carried out at COMTES FHT (Czech Republic) using an INSSTEK MX-600 system equipped with a 2 kW Yttrium fiber laser. SAF 2507 powder (particle size 45–150 μm) was deposited under three different parameter sets, varying laser power, beam diameter, layer thickness, hatch distance, and powder feed rate, while maintaining constant scan speed. A zig-zag deposition strategy was applied under a protective argon atmosphere (5.0, 99.999%). For each parameter set, 20×20×20 mm cubes were built and used for analysis. Microstructure and phase composition were characterized using optical microscopy, scanning electron microscopy, EBSD analysis, X-ray diffraction. Tensile properties were evaluated using miniature tensile tests. Thermal simulations of the deposition process were carried out using Simufact Welding 2024.1 with the Advanced Thermal Cycle (ATC) method.</literal></binding>
+    </result>
+    <result>
+      <binding name="s"><bnode>b0_cb15198b8ae5454e41f81d4496533cedfffb25319511c3d1fbfc2a3825d722bb2cc</bnode></binding>
+      <binding name="p"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
+      <binding name="o"><uri>https://w3id.org/tib/datacite/class/Description</uri></binding>
+    </result>
+    <result>
+      <binding name="s"><bnode>b0_cb15198b8ae5454e41f81d4496533cedfffb25319511c3d1fbfc2a3825d722bb2cc</bnode></binding>
+      <binding name="p"><uri>https://w3id.org/tib/datacite/property/descriptionType</uri></binding>
+      <binding name="o"><uri>https://vocabs.ccmm.cz/registry/codelist/DescriptionType/Methods</uri></binding>
+    </result>
+    <result>
+      <binding name="s"><bnode>b0_cb161b59b728111fe3f1bb7876d697a9dd106dbe7d01b47bfab72783d30f04fc4c0</bnode></binding>
+      <binding name="p"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
+      <binding name="o"><uri>http://www.w3.org/ns/prov#Person</uri></binding>
+    </result>
+    <result>
+      <binding name="s"><bnode>b0_cb161b59b728111fe3f1bb7876d697a9dd106dbe7d01b47bfab72783d30f04fc4c0</bnode></binding>
+      <binding name="p"><uri>http://xmlns.com/foaf/0.1/name</uri></binding>
+      <binding name="o"><literal datatype="http://www.w3.org/2001/XMLSchema#string">Dlouhý, Jaromír</literal></binding>
+    </result>
+    <result>
+      <binding name="s"><bnode>b0_cb17050f3e809e87ffa58339ab02b74d1e239df9b9a456bc43bd9d8cb393bf7bd80</bnode></binding>
+      <binding name="p"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
+      <binding name="o"><uri>http://www.w3.org/2006/time#Instant</uri></binding>
+    </result>
+    <result>
+      <binding name="s"><bnode>b0_cb17050f3e809e87ffa58339ab02b74d1e239df9b9a456bc43bd9d8cb393bf7bd80</bnode></binding>
+      <binding name="p"><uri>http://www.w3.org/2006/time#inXSDDate</uri></binding>
+      <binding name="o"><literal datatype="http://www.w3.org/2001/XMLSchema#date">2025-02-25</literal></binding>
+    </result>
+    <result>
+      <binding name="s"><bnode>b0_cb171f51993e5cb8de0229c7106adc40eff2bae6dd9963143823682a9961a548f9f</bnode></binding>
+      <binding name="p"><uri>http://purl.org/dc/terms/description</uri></binding>
+      <binding name="o"><literal xml:lang="en">The sets of experimental data were recorded on several instruments within COMTES FHT. In cases where possible (XRD, MTT, EBSD), the data are in xlsx format enabling any replotting.</literal></binding>
+    </result>
+    <result>
+      <binding name="s"><bnode>b0_cb171f51993e5cb8de0229c7106adc40eff2bae6dd9963143823682a9961a548f9f</bnode></binding>
+      <binding name="p"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
+      <binding name="o"><uri>https://w3id.org/tib/datacite/class/Description</uri></binding>
+    </result>
+    <result>
+      <binding name="s"><bnode>b0_cb171f51993e5cb8de0229c7106adc40eff2bae6dd9963143823682a9961a548f9f</bnode></binding>
+      <binding name="p"><uri>https://w3id.org/tib/datacite/property/descriptionType</uri></binding>
+      <binding name="o"><uri>https://vocabs.ccmm.cz/registry/codelist/DescriptionType/TechnicalInfo</uri></binding>
+    </result>
+    <result>
+      <binding name="s"><bnode>b0_cb180bdb553b009972793d44eddfff90eaa534dd3ec217d04860ebcbe5fd4dc5b46</bnode></binding>
+      <binding name="p"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
+      <binding name="o"><uri>http://www.w3.org/ns/prov#Person</uri></binding>
+    </result>
+    <result>
+      <binding name="s"><bnode>b0_cb180bdb553b009972793d44eddfff90eaa534dd3ec217d04860ebcbe5fd4dc5b46</bnode></binding>
+      <binding name="p"><uri>http://xmlns.com/foaf/0.1/name</uri></binding>
+      <binding name="o"><literal datatype="http://www.w3.org/2001/XMLSchema#string">Brázda, Michal</literal></binding>
+    </result>
+    <result>
+      <binding name="s"><bnode>b0_cb1982e0b6b721e8cdf62f85bb4a0f55d003d42970a60fbfb12c834f0c9004e81ef</bnode></binding>
+      <binding name="p"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
+      <binding name="o"><uri>http://www.w3.org/ns/prov#Attribution</uri></binding>
+    </result>
+    <result>
+      <binding name="s"><bnode>b0_cb1982e0b6b721e8cdf62f85bb4a0f55d003d42970a60fbfb12c834f0c9004e81ef</bnode></binding>
+      <binding name="p"><uri>http://www.w3.org/ns/dcat#hadRole</uri></binding>
+      <binding name="o"><uri>https://vocabs.ccmm.cz/registry/codelist/AgentRole/Creator</uri></binding>
+    </result>
+    <result>
+      <binding name="s"><bnode>b0_cb1982e0b6b721e8cdf62f85bb4a0f55d003d42970a60fbfb12c834f0c9004e81ef</bnode></binding>
+      <binding name="p"><uri>http://www.w3.org/ns/prov#agent</uri></binding>
+      <binding name="o"><bnode>b0_cb13e54021ba9d6fea308d20e42997b24f65c8f306e037d9ca1ccf13a1c14062f4b</bnode></binding>
+    </result>
+    <result>
+      <binding name="s"><bnode>b0_cb19c2de06118e3bfe926ed36baeb0a20b62f554db1dee2055f4be7a7ff857f856d</bnode></binding>
+      <binding name="p"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
+      <binding name="o"><uri>http://www.w3.org/2006/time#Instant</uri></binding>
+    </result>
+    <result>
+      <binding name="s"><bnode>b0_cb19c2de06118e3bfe926ed36baeb0a20b62f554db1dee2055f4be7a7ff857f856d</bnode></binding>
+      <binding name="p"><uri>http://www.w3.org/2006/time#inXSDDate</uri></binding>
+      <binding name="o"><literal datatype="http://www.w3.org/2001/XMLSchema#date">2025-06-16</literal></binding>
+    </result>
+    <result>
+      <binding name="s"><bnode>b0_cb1b34e9e845000cddf899a7e692bf2b9f880b14205fec66eeb60205a5d7aa4fdcf</bnode></binding>
+      <binding name="p"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
+      <binding name="o"><uri>http://www.w3.org/2006/time#Interval</uri></binding>
+    </result>
+    <result>
+      <binding name="s"><bnode>b0_cb1b34e9e845000cddf899a7e692bf2b9f880b14205fec66eeb60205a5d7aa4fdcf</bnode></binding>
+      <binding name="p"><uri>http://www.w3.org/2006/time#hasBeginning</uri></binding>
+      <binding name="o"><bnode>b0_cb17050f3e809e87ffa58339ab02b74d1e239df9b9a456bc43bd9d8cb393bf7bd80</bnode></binding>
+    </result>
+    <result>
+      <binding name="s"><bnode>b0_cb1b34e9e845000cddf899a7e692bf2b9f880b14205fec66eeb60205a5d7aa4fdcf</bnode></binding>
+      <binding name="p"><uri>http://www.w3.org/2006/time#hasEnd</uri></binding>
+      <binding name="o"><bnode>b0_cb253fd16e35cd10a7c59e3bc74a3bfb8411adac652c7812f8a855bebbe2414b7b7</bnode></binding>
+    </result>
+    <result>
+      <binding name="s"><bnode>b0_cb1b4fb615213150f8d5f58bd3b2bdd6f6d73437857b3e13e5726a90c0353027370</bnode></binding>
+      <binding name="p"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
+      <binding name="o"><uri>http://www.w3.org/ns/prov#Attribution</uri></binding>
+    </result>
+    <result>
+      <binding name="s"><bnode>b0_cb1b4fb615213150f8d5f58bd3b2bdd6f6d73437857b3e13e5726a90c0353027370</bnode></binding>
+      <binding name="p"><uri>http://www.w3.org/ns/dcat#hadRole</uri></binding>
+      <binding name="o"><uri>https://vocabs.ccmm.cz/registry/codelist/AgentRole/Creator</uri></binding>
+    </result>
+    <result>
+      <binding name="s"><bnode>b0_cb1b4fb615213150f8d5f58bd3b2bdd6f6d73437857b3e13e5726a90c0353027370</bnode></binding>
+      <binding name="p"><uri>http://www.w3.org/ns/prov#agent</uri></binding>
+      <binding name="o"><bnode>b0_cb1e2affd75361ebcac2e0157ebe737cf6a3896e678e5232c02f3f2c6e54df23811</bnode></binding>
+    </result>
+    <result>
+      <binding name="s"><bnode>b0_cb1c18fdb90422f9d868be6ab0f11734e7b69f20449b372a42c9cb9bc0b496a6f26</bnode></binding>
+      <binding name="p"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
+      <binding name="o"><uri>http://www.w3.org/ns/prov#Attribution</uri></binding>
+    </result>
+    <result>
+      <binding name="s"><bnode>b0_cb1c18fdb90422f9d868be6ab0f11734e7b69f20449b372a42c9cb9bc0b496a6f26</bnode></binding>
+      <binding name="p"><uri>http://www.w3.org/ns/dcat#hadRole</uri></binding>
+      <binding name="o"><uri>https://vocabs.ccmm.cz/registry/codelist/AgentRole/Publisher</uri></binding>
+    </result>
+    <result>
+      <binding name="s"><bnode>b0_cb1c18fdb90422f9d868be6ab0f11734e7b69f20449b372a42c9cb9bc0b496a6f26</bnode></binding>
+      <binding name="p"><uri>http://www.w3.org/ns/prov#agent</uri></binding>
+      <binding name="o"><bnode>b0_cb21dda3d97d9544bdb059eeddc5d85e0a0df7349ff7a9305d007717879ebe44a99</bnode></binding>
+    </result>
+    <result>
+      <binding name="s"><bnode>b0_cb1c4bfc4fd2bf5c8ace6d3610dcb52181bb040bd13b1bf7686826cb4aab183aec4</bnode></binding>
+      <binding name="p"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
+      <binding name="o"><uri>http://www.w3.org/ns/prov#Person</uri></binding>
+    </result>
+    <result>
+      <binding name="s"><bnode>b0_cb1c4bfc4fd2bf5c8ace6d3610dcb52181bb040bd13b1bf7686826cb4aab183aec4</bnode></binding>
+      <binding name="p"><uri>http://xmlns.com/foaf/0.1/name</uri></binding>
+      <binding name="o"><literal datatype="http://www.w3.org/2001/XMLSchema#string">Novák, Pavel</literal></binding>
+    </result>
+    <result>
+      <binding name="s"><bnode>b0_cb1cefdd0b59b1362eff6c2728babf474800eee97daf39575ebc5b3b31a5d57915c</bnode></binding>
+      <binding name="p"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
+      <binding name="o"><uri>http://www.w3.org/ns/prov#Attribution</uri></binding>
+    </result>
+    <result>
+      <binding name="s"><bnode>b0_cb1cefdd0b59b1362eff6c2728babf474800eee97daf39575ebc5b3b31a5d57915c</bnode></binding>
+      <binding name="p"><uri>http://www.w3.org/ns/dcat#hadRole</uri></binding>
+      <binding name="o"><uri>https://vocabs.ccmm.cz/registry/codelist/AgentRole/Creator</uri></binding>
+    </result>
+    <result>
+      <binding name="s"><bnode>b0_cb1cefdd0b59b1362eff6c2728babf474800eee97daf39575ebc5b3b31a5d57915c</bnode></binding>
+      <binding name="p"><uri>http://www.w3.org/ns/prov#agent</uri></binding>
+      <binding name="o"><bnode>b0_cb1d3e56fefebb9887b66f4a153be73b2e0f2316f3add0e35ffebe8ee9ef552abed</bnode></binding>
+    </result>
+    <result>
+      <binding name="s"><bnode>b0_cb1d3e56fefebb9887b66f4a153be73b2e0f2316f3add0e35ffebe8ee9ef552abed</bnode></binding>
+      <binding name="p"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
+      <binding name="o"><uri>http://www.w3.org/ns/prov#Person</uri></binding>
+    </result>
+    <result>
+      <binding name="s"><bnode>b0_cb1d3e56fefebb9887b66f4a153be73b2e0f2316f3add0e35ffebe8ee9ef552abed</bnode></binding>
+      <binding name="p"><uri>http://xmlns.com/foaf/0.1/name</uri></binding>
+      <binding name="o"><literal datatype="http://www.w3.org/2001/XMLSchema#string">Salvetr, Pavel</literal></binding>
+    </result>
+    <result>
+      <binding name="s"><bnode>b0_cb1e2affd75361ebcac2e0157ebe737cf6a3896e678e5232c02f3f2c6e54df23811</bnode></binding>
+      <binding name="p"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
+      <binding name="o"><uri>http://www.w3.org/ns/prov#Person</uri></binding>
+    </result>
+    <result>
+      <binding name="s"><bnode>b0_cb1e2affd75361ebcac2e0157ebe737cf6a3896e678e5232c02f3f2c6e54df23811</bnode></binding>
+      <binding name="p"><uri>http://xmlns.com/foaf/0.1/name</uri></binding>
+      <binding name="o"><literal datatype="http://www.w3.org/2001/XMLSchema#string">Hodek, Josef</literal></binding>
+    </result>
+    <result>
+      <binding name="s"><bnode>b0_cb1ea111e6ea6d06ca845a36f3907c7933b8a8a2f1bdfb3c7cf408d0d4f901b3a5c</bnode></binding>
+      <binding name="p"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
+      <binding name="o"><uri>http://www.w3.org/ns/org#Organization</uri></binding>
+    </result>
+    <result>
+      <binding name="s"><bnode>b0_cb1ea111e6ea6d06ca845a36f3907c7933b8a8a2f1bdfb3c7cf408d0d4f901b3a5c</bnode></binding>
+      <binding name="p"><uri>http://www.w3.org/2006/vcard/ns#organization-name</uri></binding>
+      <binding name="o"><literal xml:lang="en">Ministry of Education, Youth and Sports of the Czech Republic</literal></binding>
+    </result>
+    <result>
+      <binding name="s"><bnode>b0_cb1ea111e6ea6d06ca845a36f3907c7933b8a8a2f1bdfb3c7cf408d0d4f901b3a5c</bnode></binding>
+      <binding name="p"><uri>http://www.w3.org/ns/adms#identifier</uri></binding>
+      <binding name="o"><uri>http://dx.doi.org/10.13039/501100001823</uri></binding>
+    </result>
+    <result>
+      <binding name="s"><bnode>b0_cb1ea111e6ea6d06ca845a36f3907c7933b8a8a2f1bdfb3c7cf408d0d4f901b3a5c</bnode></binding>
+      <binding name="p"><uri>http://www.w3.org/ns/adms#identifier</uri></binding>
+      <binding name="o"><uri>https://ror.org/037n8p820</uri></binding>
+    </result>
+    <result>
+      <binding name="s"><bnode>b0_cb1ea111e6ea6d06ca845a36f3907c7933b8a8a2f1bdfb3c7cf408d0d4f901b3a5c</bnode></binding>
+      <binding name="p"><uri>http://xmlns.com/foaf/0.1/name</uri></binding>
+      <binding name="o"><literal datatype="http://www.w3.org/2001/XMLSchema#string">Ministerstvo školství, mládeže a tělovýchovy</literal></binding>
+    </result>
+    <result>
+      <binding name="s"><bnode>b0_cb1ed335e3a5640966f743da868b064c79fd2dd5577af128bbbc85f46f8ab9a97f7</bnode></binding>
+      <binding name="p"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
+      <binding name="o"><uri>http://www.w3.org/ns/prov#Attribution</uri></binding>
+    </result>
+    <result>
+      <binding name="s"><bnode>b0_cb1ed335e3a5640966f743da868b064c79fd2dd5577af128bbbc85f46f8ab9a97f7</bnode></binding>
+      <binding name="p"><uri>http://www.w3.org/ns/dcat#hadRole</uri></binding>
+      <binding name="o"><uri>https://vocabs.ccmm.cz/registry/codelist/AgentRole/Creator</uri></binding>
+    </result>
+    <result>
+      <binding name="s"><bnode>b0_cb1ed335e3a5640966f743da868b064c79fd2dd5577af128bbbc85f46f8ab9a97f7</bnode></binding>
+      <binding name="p"><uri>http://www.w3.org/ns/prov#agent</uri></binding>
+      <binding name="o"><bnode>b0_cb161b59b728111fe3f1bb7876d697a9dd106dbe7d01b47bfab72783d30f04fc4c0</bnode></binding>
+    </result>
+    <result>
+      <binding name="s"><bnode>b0_cb1fa2dac5c3f2bf2e5fe8ce416958697de2ba7e49a7156d4c22366024e5a40745f</bnode></binding>
+      <binding name="p"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
+      <binding name="o"><uri>http://www.w3.org/ns/prov#Attribution</uri></binding>
+    </result>
+    <result>
+      <binding name="s"><bnode>b0_cb1fa2dac5c3f2bf2e5fe8ce416958697de2ba7e49a7156d4c22366024e5a40745f</bnode></binding>
+      <binding name="p"><uri>http://www.w3.org/ns/dcat#hadRole</uri></binding>
+      <binding name="o"><uri>https://vocabs.ccmm.cz/registry/codelist/AgentRole/Creator</uri></binding>
+    </result>
+    <result>
+      <binding name="s"><bnode>b0_cb1fa2dac5c3f2bf2e5fe8ce416958697de2ba7e49a7156d4c22366024e5a40745f</bnode></binding>
+      <binding name="p"><uri>http://www.w3.org/ns/prov#agent</uri></binding>
+      <binding name="o"><bnode>b0_cb180bdb553b009972793d44eddfff90eaa534dd3ec217d04860ebcbe5fd4dc5b46</bnode></binding>
+    </result>
+    <result>
+      <binding name="s"><bnode>b0_cb20a40e944b49603e76fd7e894c0368fc01350d515d815a14732b0620d3c974b97</bnode></binding>
+      <binding name="p"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
+      <binding name="o"><uri>http://www.w3.org/ns/org#Organization</uri></binding>
+    </result>
+    <result>
+      <binding name="s"><bnode>b0_cb20a40e944b49603e76fd7e894c0368fc01350d515d815a14732b0620d3c974b97</bnode></binding>
+      <binding name="p"><uri>http://www.w3.org/ns/adms#identifier</uri></binding>
+      <binding name="o"><bnode>b0_cb2398a1d1efe01e4471fda227f91b72a8db887f632857986a63ee0e5b85a5c0fde</bnode></binding>
+    </result>
+    <result>
+      <binding name="s"><bnode>b0_cb20a40e944b49603e76fd7e894c0368fc01350d515d815a14732b0620d3c974b97</bnode></binding>
+      <binding name="p"><uri>http://www.w3.org/ns/adms#identifier</uri></binding>
+      <binding name="o"><uri>https://ror.org/05ggn0a85</uri></binding>
+    </result>
+    <result>
+      <binding name="s"><bnode>b0_cb20a40e944b49603e76fd7e894c0368fc01350d515d815a14732b0620d3c974b97</bnode></binding>
+      <binding name="p"><uri>http://xmlns.com/foaf/0.1/name</uri></binding>
+      <binding name="o"><literal datatype="http://www.w3.org/2001/XMLSchema#string">Vysoká škola chemicko-technologická v Praze</literal></binding>
+    </result>
+    <result>
+      <binding name="s"><bnode>b0_cb21dda3d97d9544bdb059eeddc5d85e0a0df7349ff7a9305d007717879ebe44a99</bnode></binding>
+      <binding name="p"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
+      <binding name="o"><uri>http://www.w3.org/ns/org#Organization</uri></binding>
+    </result>
+    <result>
+      <binding name="s"><bnode>b0_cb21dda3d97d9544bdb059eeddc5d85e0a0df7349ff7a9305d007717879ebe44a99</bnode></binding>
+      <binding name="p"><uri>http://xmlns.com/foaf/0.1/name</uri></binding>
+      <binding name="o"><literal datatype="http://www.w3.org/2001/XMLSchema#string">COMTES FHT</literal></binding>
+    </result>
+    <result>
+      <binding name="s"><bnode>b0_cb22946fc1f09b21d4305f43812896c0adab5457a455a8e250ad9813e69d64bc933</bnode></binding>
+      <binding name="p"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
+      <binding name="o"><uri>http://www.w3.org/2006/time#Instant</uri></binding>
+    </result>
+    <result>
+      <binding name="s"><bnode>b0_cb22946fc1f09b21d4305f43812896c0adab5457a455a8e250ad9813e69d64bc933</bnode></binding>
+      <binding name="p"><uri>http://www.w3.org/2006/time#inXSDDate</uri></binding>
+      <binding name="o"><literal datatype="http://www.w3.org/2001/XMLSchema#date">2025-06-16</literal></binding>
+    </result>
+    <result>
+      <binding name="s"><bnode>b0_cb22b34e913b5137ac6d4e293540387fae654967b77695f89c0531f1edb3945c814</bnode></binding>
+      <binding name="p"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
+      <binding name="o"><uri>http://www.w3.org/ns/adms#Identifier</uri></binding>
+    </result>
+    <result>
+      <binding name="s"><bnode>b0_cb22b34e913b5137ac6d4e293540387fae654967b77695f89c0531f1edb3945c814</bnode></binding>
+      <binding name="p"><uri>http://www.w3.org/2004/02/skos/core#notation</uri></binding>
+      <binding name="o"><literal datatype="http://www.w3.org/2001/XMLSchema#string">26316919</literal></binding>
+    </result>
+    <result>
+      <binding name="s"><bnode>b0_cb22b34e913b5137ac6d4e293540387fae654967b77695f89c0531f1edb3945c814</bnode></binding>
+      <binding name="p"><uri>https://model.ccmm.cz/vocabulary/ccmm#inScheme</uri></binding>
+      <binding name="o"><uri>https://www.wikidata.org/entity/Q42302581</uri></binding>
+    </result>
+    <result>
+      <binding name="s"><bnode>b0_cb2398a1d1efe01e4471fda227f91b72a8db887f632857986a63ee0e5b85a5c0fde</bnode></binding>
+      <binding name="p"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
+      <binding name="o"><uri>http://www.w3.org/ns/adms#Identifier</uri></binding>
+    </result>
+    <result>
+      <binding name="s"><bnode>b0_cb2398a1d1efe01e4471fda227f91b72a8db887f632857986a63ee0e5b85a5c0fde</bnode></binding>
+      <binding name="p"><uri>http://www.w3.org/2004/02/skos/core#notation</uri></binding>
+      <binding name="o"><literal datatype="http://www.w3.org/2001/XMLSchema#string">60461373</literal></binding>
+    </result>
+    <result>
+      <binding name="s"><bnode>b0_cb2398a1d1efe01e4471fda227f91b72a8db887f632857986a63ee0e5b85a5c0fde</bnode></binding>
+      <binding name="p"><uri>https://model.ccmm.cz/vocabulary/ccmm#inScheme</uri></binding>
+      <binding name="o"><uri>https://www.wikidata.org/entity/Q42302581</uri></binding>
+    </result>
+    <result>
+      <binding name="s"><bnode>b0_cb23b250a7e56dd491fa69da87ed3442ba182914f75109526f02caf8800f59f290c</bnode></binding>
+      <binding name="p"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
+      <binding name="o"><uri>https://model.ccmm.cz/vocabulary/ccmm#TimeReference</uri></binding>
+    </result>
+    <result>
+      <binding name="s"><bnode>b0_cb23b250a7e56dd491fa69da87ed3442ba182914f75109526f02caf8800f59f290c</bnode></binding>
+      <binding name="p"><uri>http://www.w3.org/2006/time#hasTime</uri></binding>
+      <binding name="o"><bnode>b0_cb22946fc1f09b21d4305f43812896c0adab5457a455a8e250ad9813e69d64bc933</bnode></binding>
+    </result>
+    <result>
+      <binding name="s"><bnode>b0_cb23b250a7e56dd491fa69da87ed3442ba182914f75109526f02caf8800f59f290c</bnode></binding>
+      <binding name="p"><uri>https://model.ccmm.cz/vocabulary/ccmm#hasType</uri></binding>
+      <binding name="o"><uri>https://vocabs.ccmm.cz/registry/codelist/TimeReference/Available</uri></binding>
+    </result>
+    <result>
+      <binding name="s"><bnode>b0_cb23d5c94d1050e7c4e73cda43d19db439803163069414f465f3fc4bb513613e354</bnode></binding>
+      <binding name="p"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
+      <binding name="o"><uri>http://www.w3.org/ns/adms#Identifier</uri></binding>
+    </result>
+    <result>
+      <binding name="s"><bnode>b0_cb23d5c94d1050e7c4e73cda43d19db439803163069414f465f3fc4bb513613e354</bnode></binding>
+      <binding name="p"><uri>http://www.w3.org/2004/02/skos/core#notation</uri></binding>
+      <binding name="o"><literal datatype="http://www.w3.org/2001/XMLSchema#string">26316919</literal></binding>
+    </result>
+    <result>
+      <binding name="s"><bnode>b0_cb23d5c94d1050e7c4e73cda43d19db439803163069414f465f3fc4bb513613e354</bnode></binding>
+      <binding name="p"><uri>https://model.ccmm.cz/vocabulary/ccmm#inScheme</uri></binding>
+      <binding name="o"><uri>https://www.wikidata.org/entity/Q42302581</uri></binding>
+    </result>
+    <result>
+      <binding name="s"><bnode>b0_cb24502e25684d9d3f2d1706d169cecfe1dffe3d783231f47fef695d2858e046a56</bnode></binding>
+      <binding name="p"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
+      <binding name="o"><uri>http://www.w3.org/ns/prov#Attribution</uri></binding>
+    </result>
+    <result>
+      <binding name="s"><bnode>b0_cb24502e25684d9d3f2d1706d169cecfe1dffe3d783231f47fef695d2858e046a56</bnode></binding>
+      <binding name="p"><uri>http://www.w3.org/ns/dcat#hadRole</uri></binding>
+      <binding name="o"><uri>https://vocabs.ccmm.cz/registry/codelist/AgentRole/Creator</uri></binding>
+    </result>
+    <result>
+      <binding name="s"><bnode>b0_cb24502e25684d9d3f2d1706d169cecfe1dffe3d783231f47fef695d2858e046a56</bnode></binding>
+      <binding name="p"><uri>http://www.w3.org/ns/prov#agent</uri></binding>
+      <binding name="o"><bnode>b0_cb1c4bfc4fd2bf5c8ace6d3610dcb52181bb040bd13b1bf7686826cb4aab183aec4</bnode></binding>
+    </result>
+    <result>
+      <binding name="s"><bnode>b0_cb2514e83f9764664b0dcc8639a1d39139fe9d1a8dc50eed60a1facea41b6c3405b</bnode></binding>
+      <binding name="p"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
+      <binding name="o"><uri>http://www.w3.org/ns/adms#Identifier</uri></binding>
+    </result>
+    <result>
+      <binding name="s"><bnode>b0_cb2514e83f9764664b0dcc8639a1d39139fe9d1a8dc50eed60a1facea41b6c3405b</bnode></binding>
+      <binding name="p"><uri>http://www.w3.org/2004/02/skos/core#notation</uri></binding>
+      <binding name="o"><literal datatype="http://www.w3.org/2001/XMLSchema#string">26316919</literal></binding>
+    </result>
+    <result>
+      <binding name="s"><bnode>b0_cb2514e83f9764664b0dcc8639a1d39139fe9d1a8dc50eed60a1facea41b6c3405b</bnode></binding>
+      <binding name="p"><uri>https://model.ccmm.cz/vocabulary/ccmm#inScheme</uri></binding>
+      <binding name="o"><uri>https://www.wikidata.org/entity/Q42302581</uri></binding>
+    </result>
+    <result>
+      <binding name="s"><bnode>b0_cb253fd16e35cd10a7c59e3bc74a3bfb8411adac652c7812f8a855bebbe2414b7b7</bnode></binding>
+      <binding name="p"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
+      <binding name="o"><uri>http://www.w3.org/2006/time#Instant</uri></binding>
+    </result>
+    <result>
+      <binding name="s"><bnode>b0_cb253fd16e35cd10a7c59e3bc74a3bfb8411adac652c7812f8a855bebbe2414b7b7</bnode></binding>
+      <binding name="p"><uri>http://www.w3.org/2006/time#inXSDDate</uri></binding>
+      <binding name="o"><literal datatype="http://www.w3.org/2001/XMLSchema#date">2025-06-11</literal></binding>
+    </result>
+    <result>
+      <binding name="s"><bnode>b0_cb25e8041fc93869beaaec943172cdc2e7a9bb34c07d8734e0357c9006351bab915</bnode></binding>
+      <binding name="p"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
+      <binding name="o"><uri>http://www.w3.org/ns/org#Organization</uri></binding>
+    </result>
+    <result>
+      <binding name="s"><bnode>b0_cb25e8041fc93869beaaec943172cdc2e7a9bb34c07d8734e0357c9006351bab915</bnode></binding>
+      <binding name="p"><uri>http://www.w3.org/ns/adms#identifier</uri></binding>
+      <binding name="o"><bnode>b0_cb22b34e913b5137ac6d4e293540387fae654967b77695f89c0531f1edb3945c814</bnode></binding>
+    </result>
+    <result>
+      <binding name="s"><bnode>b0_cb25e8041fc93869beaaec943172cdc2e7a9bb34c07d8734e0357c9006351bab915</bnode></binding>
+      <binding name="p"><uri>http://www.w3.org/ns/adms#identifier</uri></binding>
+      <binding name="o"><uri>https://ror.org/00hzjtg80</uri></binding>
+    </result>
+    <result>
+      <binding name="s"><bnode>b0_cb25e8041fc93869beaaec943172cdc2e7a9bb34c07d8734e0357c9006351bab915</bnode></binding>
+      <binding name="p"><uri>http://xmlns.com/foaf/0.1/name</uri></binding>
+      <binding name="o"><literal datatype="http://www.w3.org/2001/XMLSchema#string">COMTES FHT</literal></binding>
+    </result>
+    <result>
+      <binding name="s"><bnode>b0_cb274c3497e726e5217a5ad93ba9c94fb4ee0327f6d320661d48e23934b3041491b</bnode></binding>
+      <binding name="p"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
+      <binding name="o"><uri>http://www.w3.org/ns/org#Organization</uri></binding>
+    </result>
+    <result>
+      <binding name="s"><bnode>b0_cb274c3497e726e5217a5ad93ba9c94fb4ee0327f6d320661d48e23934b3041491b</bnode></binding>
+      <binding name="p"><uri>http://www.w3.org/ns/adms#identifier</uri></binding>
+      <binding name="o"><bnode>b0_cb320e05aec60236ef0a4602c299e27c79996d9213d011fbd5d7d8c3dbcbfa6df68</bnode></binding>
+    </result>
+    <result>
+      <binding name="s"><bnode>b0_cb274c3497e726e5217a5ad93ba9c94fb4ee0327f6d320661d48e23934b3041491b</bnode></binding>
+      <binding name="p"><uri>http://www.w3.org/ns/adms#identifier</uri></binding>
+      <binding name="o"><uri>https://ror.org/00hzjtg80</uri></binding>
+    </result>
+    <result>
+      <binding name="s"><bnode>b0_cb274c3497e726e5217a5ad93ba9c94fb4ee0327f6d320661d48e23934b3041491b</bnode></binding>
+      <binding name="p"><uri>http://xmlns.com/foaf/0.1/name</uri></binding>
+      <binding name="o"><literal datatype="http://www.w3.org/2001/XMLSchema#string">COMTES FHT</literal></binding>
+    </result>
+    <result>
+      <binding name="s"><bnode>b0_cb277dab7941fa47cf9c9fcb76256b3f2918a74836d6a26838820474e237ba22091</bnode></binding>
+      <binding name="p"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
+      <binding name="o"><uri>http://www.w3.org/ns/prov#Attribution</uri></binding>
+    </result>
+    <result>
+      <binding name="s"><bnode>b0_cb277dab7941fa47cf9c9fcb76256b3f2918a74836d6a26838820474e237ba22091</bnode></binding>
+      <binding name="p"><uri>http://www.w3.org/ns/dcat#hadRole</uri></binding>
+      <binding name="o"><uri>https://vocabs.ccmm.cz/registry/codelist/AgentRole/Contributor/DataManager</uri></binding>
+    </result>
+    <result>
+      <binding name="s"><bnode>b0_cb277dab7941fa47cf9c9fcb76256b3f2918a74836d6a26838820474e237ba22091</bnode></binding>
+      <binding name="p"><uri>http://www.w3.org/ns/prov#agent</uri></binding>
+      <binding name="o"><bnode>b0_cb145fe505c4bb725e3976b051559730d460f180fac63aecd9d8b97849a8e5d6cd0</bnode></binding>
+    </result>
+    <result>
+      <binding name="s"><bnode>b0_cb27c19335d9df803398e0f726203d0fcc0f89a4be446472c2dc329dea8500f026a</bnode></binding>
+      <binding name="p"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
+      <binding name="o"><uri>http://www.w3.org/ns/prov#Person</uri></binding>
+    </result>
+    <result>
+      <binding name="s"><bnode>b0_cb27c19335d9df803398e0f726203d0fcc0f89a4be446472c2dc329dea8500f026a</bnode></binding>
+      <binding name="p"><uri>http://www.w3.org/2006/vcard/ns#family-name</uri></binding>
+      <binding name="o"><literal datatype="http://www.w3.org/2001/XMLSchema#string">Brázda</literal></binding>
+    </result>
+    <result>
+      <binding name="s"><bnode>b0_cb27c19335d9df803398e0f726203d0fcc0f89a4be446472c2dc329dea8500f026a</bnode></binding>
+      <binding name="p"><uri>http://www.w3.org/2006/vcard/ns#given-name</uri></binding>
+      <binding name="o"><literal datatype="http://www.w3.org/2001/XMLSchema#string">Michal</literal></binding>
+    </result>
+    <result>
+      <binding name="s"><bnode>b0_cb27c19335d9df803398e0f726203d0fcc0f89a4be446472c2dc329dea8500f026a</bnode></binding>
+      <binding name="p"><uri>http://www.w3.org/ns/adms#identifier</uri></binding>
+      <binding name="o"><uri>https://orcid.org/0000-0002-4982-9114</uri></binding>
+    </result>
+    <result>
+      <binding name="s"><bnode>b0_cb27c19335d9df803398e0f726203d0fcc0f89a4be446472c2dc329dea8500f026a</bnode></binding>
+      <binding name="p"><uri>http://xmlns.com/foaf/0.1/name</uri></binding>
+      <binding name="o"><literal datatype="http://www.w3.org/2001/XMLSchema#string">Brázda, Michal</literal></binding>
+    </result>
+    <result>
+      <binding name="s"><bnode>b0_cb27c19335d9df803398e0f726203d0fcc0f89a4be446472c2dc329dea8500f026a</bnode></binding>
+      <binding name="p"><uri>https://model.ccmm.cz/vocabulary/ccmm#hasAffiliation</uri></binding>
+      <binding name="o"><bnode>b0_cb32227fd3241e03d51054df4fb66bd153d4574f327acedf2dee6c1520b5a0c06e8</bnode></binding>
+    </result>
+    <result>
+      <binding name="s"><bnode>b0_cb291140b69a54449626536ccb627f7dee680be419be616cfbe3f346eafe8a189b7</bnode></binding>
+      <binding name="p"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
+      <binding name="o"><uri>https://model.ccmm.cz/vocabulary/ccmm#TimeReference</uri></binding>
+    </result>
+    <result>
+      <binding name="s"><bnode>b0_cb291140b69a54449626536ccb627f7dee680be419be616cfbe3f346eafe8a189b7</bnode></binding>
+      <binding name="p"><uri>http://www.w3.org/2006/time#hasTime</uri></binding>
+      <binding name="o"><bnode>b0_cb1b34e9e845000cddf899a7e692bf2b9f880b14205fec66eeb60205a5d7aa4fdcf</bnode></binding>
+    </result>
+    <result>
+      <binding name="s"><bnode>b0_cb291140b69a54449626536ccb627f7dee680be419be616cfbe3f346eafe8a189b7</bnode></binding>
+      <binding name="p"><uri>https://model.ccmm.cz/vocabulary/ccmm#hasType</uri></binding>
+      <binding name="o"><uri>https://vocabs.ccmm.cz/registry/codelist/TimeReference/Created</uri></binding>
+    </result>
+    <result>
+      <binding name="s"><bnode>b0_cb297b0029f073485871d3a84d054565e4978e1dbfd9eac533cc3a1947974471760</bnode></binding>
+      <binding name="p"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
+      <binding name="o"><uri>http://www.w3.org/ns/org#Organization</uri></binding>
+    </result>
+    <result>
+      <binding name="s"><bnode>b0_cb297b0029f073485871d3a84d054565e4978e1dbfd9eac533cc3a1947974471760</bnode></binding>
+      <binding name="p"><uri>http://www.w3.org/ns/adms#identifier</uri></binding>
+      <binding name="o"><bnode>b0_cb2d10fa4681c678e991a05849071fea5227bfb15943a968f067483a4304f1f8fa8</bnode></binding>
+    </result>
+    <result>
+      <binding name="s"><bnode>b0_cb297b0029f073485871d3a84d054565e4978e1dbfd9eac533cc3a1947974471760</bnode></binding>
+      <binding name="p"><uri>http://www.w3.org/ns/adms#identifier</uri></binding>
+      <binding name="o"><uri>https://ror.org/00hzjtg80</uri></binding>
+    </result>
+    <result>
+      <binding name="s"><bnode>b0_cb297b0029f073485871d3a84d054565e4978e1dbfd9eac533cc3a1947974471760</bnode></binding>
+      <binding name="p"><uri>http://xmlns.com/foaf/0.1/name</uri></binding>
+      <binding name="o"><literal datatype="http://www.w3.org/2001/XMLSchema#string">COMTES FHT</literal></binding>
+    </result>
+    <result>
+      <binding name="s"><bnode>b0_cb29a106e0b9a2e4ad635a6b177face5641c35c38d73cb66251354b86bd4a31c74f</bnode></binding>
+      <binding name="p"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
+      <binding name="o"><uri>http://www.w3.org/ns/prov#Attribution</uri></binding>
+    </result>
+    <result>
+      <binding name="s"><bnode>b0_cb29a106e0b9a2e4ad635a6b177face5641c35c38d73cb66251354b86bd4a31c74f</bnode></binding>
+      <binding name="p"><uri>http://www.w3.org/ns/dcat#hadRole</uri></binding>
+      <binding name="o"><uri>https://vocabs.ccmm.cz/registry/codelist/AgentRole/Creator</uri></binding>
+    </result>
+    <result>
+      <binding name="s"><bnode>b0_cb29a106e0b9a2e4ad635a6b177face5641c35c38d73cb66251354b86bd4a31c74f</bnode></binding>
+      <binding name="p"><uri>http://www.w3.org/ns/prov#agent</uri></binding>
+      <binding name="o"><bnode>b0_cb2fc938d870dbb627bd8238243f394037f3b464ea458f827f04d6907fd44ebff31</bnode></binding>
+    </result>
+    <result>
+      <binding name="s"><bnode>b0_cb2a2dc9ad8b135b728fe7847b37327cad35d0d06897dea473f13d0fc807878064a</bnode></binding>
+      <binding name="p"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
+      <binding name="o"><uri>https://model.ccmm.cz/vocabulary/ccmm#TimeReference</uri></binding>
+    </result>
+    <result>
+      <binding name="s"><bnode>b0_cb2a2dc9ad8b135b728fe7847b37327cad35d0d06897dea473f13d0fc807878064a</bnode></binding>
+      <binding name="p"><uri>http://www.w3.org/2006/time#hasTime</uri></binding>
+      <binding name="o"><bnode>b0_cb19c2de06118e3bfe926ed36baeb0a20b62f554db1dee2055f4be7a7ff857f856d</bnode></binding>
+    </result>
+    <result>
+      <binding name="s"><bnode>b0_cb2a2dc9ad8b135b728fe7847b37327cad35d0d06897dea473f13d0fc807878064a</bnode></binding>
+      <binding name="p"><uri>https://model.ccmm.cz/vocabulary/ccmm#hasType</uri></binding>
+      <binding name="o"><uri>https://vocabs.ccmm.cz/registry/codelist/TimeReference/Issued</uri></binding>
+    </result>
+    <result>
+      <binding name="s"><bnode>b0_cb2aa8b4f4957b12c715730dd60fb689f5af78c641ebac86bdfccebda6516c2c7b7</bnode></binding>
+      <binding name="p"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
+      <binding name="o"><uri>http://www.w3.org/ns/org#Organization</uri></binding>
+    </result>
+    <result>
+      <binding name="s"><bnode>b0_cb2aa8b4f4957b12c715730dd60fb689f5af78c641ebac86bdfccebda6516c2c7b7</bnode></binding>
+      <binding name="p"><uri>http://www.w3.org/ns/adms#identifier</uri></binding>
+      <binding name="o"><bnode>b0_cb2acc07caa2aa50b62a9e850d18b92f0a424bcec78fdbce8ae62c9e5f122e47d2a</bnode></binding>
+    </result>
+    <result>
+      <binding name="s"><bnode>b0_cb2aa8b4f4957b12c715730dd60fb689f5af78c641ebac86bdfccebda6516c2c7b7</bnode></binding>
+      <binding name="p"><uri>http://www.w3.org/ns/adms#identifier</uri></binding>
+      <binding name="o"><uri>https://ror.org/00hzjtg80</uri></binding>
+    </result>
+    <result>
+      <binding name="s"><bnode>b0_cb2aa8b4f4957b12c715730dd60fb689f5af78c641ebac86bdfccebda6516c2c7b7</bnode></binding>
+      <binding name="p"><uri>http://xmlns.com/foaf/0.1/name</uri></binding>
+      <binding name="o"><literal datatype="http://www.w3.org/2001/XMLSchema#string">COMTES FHT</literal></binding>
+    </result>
+    <result>
+      <binding name="s"><bnode>b0_cb2acc07caa2aa50b62a9e850d18b92f0a424bcec78fdbce8ae62c9e5f122e47d2a</bnode></binding>
+      <binding name="p"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
+      <binding name="o"><uri>http://www.w3.org/ns/adms#Identifier</uri></binding>
+    </result>
+    <result>
+      <binding name="s"><bnode>b0_cb2acc07caa2aa50b62a9e850d18b92f0a424bcec78fdbce8ae62c9e5f122e47d2a</bnode></binding>
+      <binding name="p"><uri>http://www.w3.org/2004/02/skos/core#notation</uri></binding>
+      <binding name="o"><literal datatype="http://www.w3.org/2001/XMLSchema#string">26316919</literal></binding>
+    </result>
+    <result>
+      <binding name="s"><bnode>b0_cb2acc07caa2aa50b62a9e850d18b92f0a424bcec78fdbce8ae62c9e5f122e47d2a</bnode></binding>
+      <binding name="p"><uri>https://model.ccmm.cz/vocabulary/ccmm#inScheme</uri></binding>
+      <binding name="o"><uri>https://www.wikidata.org/entity/Q42302581</uri></binding>
+    </result>
+    <result>
+      <binding name="s"><bnode>b0_cb2c1b8dcf56457affcfd3ee03174c232dfde28440343bf21383c68585e6a5db3b8</bnode></binding>
+      <binding name="p"><uri>http://purl.org/dc/terms/alternative</uri></binding>
+      <binding name="o"><literal xml:lang="en">Data to manuscript Influence of Deposition Parameters on the Building rate, In-Situ Formation of Austenite and Tensile Properties of SAF 2507 SDSS Fabricated by Directed Energy Deposition</literal></binding>
+    </result>
+    <result>
+      <binding name="s"><bnode>b0_cb2c1b8dcf56457affcfd3ee03174c232dfde28440343bf21383c68585e6a5db3b8</bnode></binding>
+      <binding name="p"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
+      <binding name="o"><uri>https://model.ccmm.cz/vocabulary/ccmm#AlternateTitle</uri></binding>
+    </result>
+    <result>
+      <binding name="s"><bnode>b0_cb2c1b8dcf56457affcfd3ee03174c232dfde28440343bf21383c68585e6a5db3b8</bnode></binding>
+      <binding name="p"><uri>https://model.ccmm.cz/vocabulary/ccmm#hasType</uri></binding>
+      <binding name="o"><uri>https://vocabs.ccmm.cz/registry/codelist/AlternateTitle/TranslatedTitle</uri></binding>
+    </result>
+    <result>
+      <binding name="s"><bnode>b0_cb2cf40e8b808f6602d29be487f5f2cb7dadcb2ef9a80c7a183d784de17b4c44a23</bnode></binding>
+      <binding name="p"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
+      <binding name="o"><uri>http://www.w3.org/ns/prov#Attribution</uri></binding>
+    </result>
+    <result>
+      <binding name="s"><bnode>b0_cb2cf40e8b808f6602d29be487f5f2cb7dadcb2ef9a80c7a183d784de17b4c44a23</bnode></binding>
+      <binding name="p"><uri>http://www.w3.org/ns/dcat#hadRole</uri></binding>
+      <binding name="o"><uri>https://vocabs.ccmm.cz/registry/codelist/AgentRole/Creator</uri></binding>
+    </result>
+    <result>
+      <binding name="s"><bnode>b0_cb2cf40e8b808f6602d29be487f5f2cb7dadcb2ef9a80c7a183d784de17b4c44a23</bnode></binding>
+      <binding name="p"><uri>http://www.w3.org/ns/prov#agent</uri></binding>
+      <binding name="o"><bnode>b0_cb41ed6f87fa58fbd27e076e953b01d341046e6fbd3f5f8565926231683afa3fa87</bnode></binding>
+    </result>
+    <result>
+      <binding name="s"><bnode>b0_cb2d10fa4681c678e991a05849071fea5227bfb15943a968f067483a4304f1f8fa8</bnode></binding>
+      <binding name="p"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
+      <binding name="o"><uri>http://www.w3.org/ns/adms#Identifier</uri></binding>
+    </result>
+    <result>
+      <binding name="s"><bnode>b0_cb2d10fa4681c678e991a05849071fea5227bfb15943a968f067483a4304f1f8fa8</bnode></binding>
+      <binding name="p"><uri>http://www.w3.org/2004/02/skos/core#notation</uri></binding>
+      <binding name="o"><literal datatype="http://www.w3.org/2001/XMLSchema#string">26316919</literal></binding>
+    </result>
+    <result>
+      <binding name="s"><bnode>b0_cb2d10fa4681c678e991a05849071fea5227bfb15943a968f067483a4304f1f8fa8</bnode></binding>
+      <binding name="p"><uri>https://model.ccmm.cz/vocabulary/ccmm#inScheme</uri></binding>
+      <binding name="o"><uri>https://www.wikidata.org/entity/Q42302581</uri></binding>
+    </result>
+    <result>
+      <binding name="s"><bnode>b0_cb2e5e151b1fc2e41f46ae898506c2570cdb1169067b79ee3d4beced46c04003daf</bnode></binding>
+      <binding name="p"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
+      <binding name="o"><uri>http://www.w3.org/ns/prov#Attribution</uri></binding>
+    </result>
+    <result>
+      <binding name="s"><bnode>b0_cb2e5e151b1fc2e41f46ae898506c2570cdb1169067b79ee3d4beced46c04003daf</bnode></binding>
+      <binding name="p"><uri>http://www.w3.org/ns/dcat#hadRole</uri></binding>
+      <binding name="o"><uri>https://vocabs.ccmm.cz/registry/codelist/AgentRole/Creator</uri></binding>
+    </result>
+    <result>
+      <binding name="s"><bnode>b0_cb2e5e151b1fc2e41f46ae898506c2570cdb1169067b79ee3d4beced46c04003daf</bnode></binding>
+      <binding name="p"><uri>http://www.w3.org/ns/prov#agent</uri></binding>
+      <binding name="o"><bnode>b0_cb3a808e5290a3829de1cc9a643a40b1ecada3d24e0e93d943100460e9891e48c2b</bnode></binding>
+    </result>
+    <result>
+      <binding name="s"><bnode>b0_cb2f16d2ce2ad3256c2aa84fd3e9e2ed7cf85c609c5183b96539648f521a33e4aa7</bnode></binding>
+      <binding name="p"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
+      <binding name="o"><uri>http://www.w3.org/ns/prov#Attribution</uri></binding>
+    </result>
+    <result>
+      <binding name="s"><bnode>b0_cb2f16d2ce2ad3256c2aa84fd3e9e2ed7cf85c609c5183b96539648f521a33e4aa7</bnode></binding>
+      <binding name="p"><uri>http://www.w3.org/ns/dcat#hadRole</uri></binding>
+      <binding name="o"><uri>https://vocabs.ccmm.cz/registry/codelist/AgentRole/Creator</uri></binding>
+    </result>
+    <result>
+      <binding name="s"><bnode>b0_cb2f16d2ce2ad3256c2aa84fd3e9e2ed7cf85c609c5183b96539648f521a33e4aa7</bnode></binding>
+      <binding name="p"><uri>http://www.w3.org/ns/prov#agent</uri></binding>
+      <binding name="o"><bnode>b0_cb27c19335d9df803398e0f726203d0fcc0f89a4be446472c2dc329dea8500f026a</bnode></binding>
+    </result>
+    <result>
+      <binding name="s"><bnode>b0_cb2fc938d870dbb627bd8238243f394037f3b464ea458f827f04d6907fd44ebff31</bnode></binding>
+      <binding name="p"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
+      <binding name="o"><uri>http://www.w3.org/ns/prov#Person</uri></binding>
+    </result>
+    <result>
+      <binding name="s"><bnode>b0_cb2fc938d870dbb627bd8238243f394037f3b464ea458f827f04d6907fd44ebff31</bnode></binding>
+      <binding name="p"><uri>http://www.w3.org/2006/vcard/ns#family-name</uri></binding>
+      <binding name="o"><literal datatype="http://www.w3.org/2001/XMLSchema#string">Salvetr</literal></binding>
+    </result>
+    <result>
+      <binding name="s"><bnode>b0_cb2fc938d870dbb627bd8238243f394037f3b464ea458f827f04d6907fd44ebff31</bnode></binding>
+      <binding name="p"><uri>http://www.w3.org/2006/vcard/ns#given-name</uri></binding>
+      <binding name="o"><literal datatype="http://www.w3.org/2001/XMLSchema#string">Pavel</literal></binding>
+    </result>
+    <result>
+      <binding name="s"><bnode>b0_cb2fc938d870dbb627bd8238243f394037f3b464ea458f827f04d6907fd44ebff31</bnode></binding>
+      <binding name="p"><uri>http://www.w3.org/ns/adms#identifier</uri></binding>
+      <binding name="o"><uri>https://orcid.org/0000-0001-5717-267X</uri></binding>
+    </result>
+    <result>
+      <binding name="s"><bnode>b0_cb2fc938d870dbb627bd8238243f394037f3b464ea458f827f04d6907fd44ebff31</bnode></binding>
+      <binding name="p"><uri>http://xmlns.com/foaf/0.1/name</uri></binding>
+      <binding name="o"><literal datatype="http://www.w3.org/2001/XMLSchema#string">Salvetr, Pavel</literal></binding>
+    </result>
+    <result>
+      <binding name="s"><bnode>b0_cb2fc938d870dbb627bd8238243f394037f3b464ea458f827f04d6907fd44ebff31</bnode></binding>
+      <binding name="p"><uri>https://model.ccmm.cz/vocabulary/ccmm#hasAffiliation</uri></binding>
+      <binding name="o"><bnode>b0_cb25e8041fc93869beaaec943172cdc2e7a9bb34c07d8734e0357c9006351bab915</bnode></binding>
+    </result>
+    <result>
+      <binding name="s"><bnode>b0_cb320e05aec60236ef0a4602c299e27c79996d9213d011fbd5d7d8c3dbcbfa6df68</bnode></binding>
+      <binding name="p"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
+      <binding name="o"><uri>http://www.w3.org/ns/adms#Identifier</uri></binding>
+    </result>
+    <result>
+      <binding name="s"><bnode>b0_cb320e05aec60236ef0a4602c299e27c79996d9213d011fbd5d7d8c3dbcbfa6df68</bnode></binding>
+      <binding name="p"><uri>http://www.w3.org/2004/02/skos/core#notation</uri></binding>
+      <binding name="o"><literal datatype="http://www.w3.org/2001/XMLSchema#string">26316919</literal></binding>
+    </result>
+    <result>
+      <binding name="s"><bnode>b0_cb320e05aec60236ef0a4602c299e27c79996d9213d011fbd5d7d8c3dbcbfa6df68</bnode></binding>
+      <binding name="p"><uri>https://model.ccmm.cz/vocabulary/ccmm#inScheme</uri></binding>
+      <binding name="o"><uri>https://www.wikidata.org/entity/Q42302581</uri></binding>
+    </result>
+    <result>
+      <binding name="s"><bnode>b0_cb32227fd3241e03d51054df4fb66bd153d4574f327acedf2dee6c1520b5a0c06e8</bnode></binding>
+      <binding name="p"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
+      <binding name="o"><uri>http://www.w3.org/ns/org#Organization</uri></binding>
+    </result>
+    <result>
+      <binding name="s"><bnode>b0_cb32227fd3241e03d51054df4fb66bd153d4574f327acedf2dee6c1520b5a0c06e8</bnode></binding>
+      <binding name="p"><uri>http://www.w3.org/ns/adms#identifier</uri></binding>
+      <binding name="o"><bnode>b0_cb23d5c94d1050e7c4e73cda43d19db439803163069414f465f3fc4bb513613e354</bnode></binding>
+    </result>
+    <result>
+      <binding name="s"><bnode>b0_cb32227fd3241e03d51054df4fb66bd153d4574f327acedf2dee6c1520b5a0c06e8</bnode></binding>
+      <binding name="p"><uri>http://www.w3.org/ns/adms#identifier</uri></binding>
+      <binding name="o"><uri>https://ror.org/00hzjtg80</uri></binding>
+    </result>
+    <result>
+      <binding name="s"><bnode>b0_cb32227fd3241e03d51054df4fb66bd153d4574f327acedf2dee6c1520b5a0c06e8</bnode></binding>
+      <binding name="p"><uri>http://xmlns.com/foaf/0.1/name</uri></binding>
+      <binding name="o"><literal datatype="http://www.w3.org/2001/XMLSchema#string">COMTES FHT</literal></binding>
+    </result>
+    <result>
+      <binding name="s"><bnode>b0_cb324ef8f2585dbcb7379d9a696111e310d769525f59c1754c6174b5a6ddb1c2af1</bnode></binding>
+      <binding name="p"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
+      <binding name="o"><uri>http://www.w3.org/ns/org#Organization</uri></binding>
+    </result>
+    <result>
+      <binding name="s"><bnode>b0_cb324ef8f2585dbcb7379d9a696111e310d769525f59c1754c6174b5a6ddb1c2af1</bnode></binding>
+      <binding name="p"><uri>http://www.w3.org/ns/adms#identifier</uri></binding>
+      <binding name="o"><bnode>b0_cb2514e83f9764664b0dcc8639a1d39139fe9d1a8dc50eed60a1facea41b6c3405b</bnode></binding>
+    </result>
+    <result>
+      <binding name="s"><bnode>b0_cb324ef8f2585dbcb7379d9a696111e310d769525f59c1754c6174b5a6ddb1c2af1</bnode></binding>
+      <binding name="p"><uri>http://www.w3.org/ns/adms#identifier</uri></binding>
+      <binding name="o"><uri>https://ror.org/00hzjtg80</uri></binding>
+    </result>
+    <result>
+      <binding name="s"><bnode>b0_cb324ef8f2585dbcb7379d9a696111e310d769525f59c1754c6174b5a6ddb1c2af1</bnode></binding>
+      <binding name="p"><uri>http://xmlns.com/foaf/0.1/name</uri></binding>
+      <binding name="o"><literal datatype="http://www.w3.org/2001/XMLSchema#string">COMTES FHT</literal></binding>
+    </result>
+    <result>
+      <binding name="s"><bnode>b0_cb32c05d1127f35ebd7c4d3d8b9fcceab1701aa47481bb10870fd3858c1c9bdf19a</bnode></binding>
+      <binding name="p"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
+      <binding name="o"><uri>http://www.w3.org/ns/prov#Attribution</uri></binding>
+    </result>
+    <result>
+      <binding name="s"><bnode>b0_cb32c05d1127f35ebd7c4d3d8b9fcceab1701aa47481bb10870fd3858c1c9bdf19a</bnode></binding>
+      <binding name="p"><uri>http://www.w3.org/ns/dcat#hadRole</uri></binding>
+      <binding name="o"><uri>https://vocabs.ccmm.cz/registry/codelist/AgentRole/Creator</uri></binding>
+    </result>
+    <result>
+      <binding name="s"><bnode>b0_cb32c05d1127f35ebd7c4d3d8b9fcceab1701aa47481bb10870fd3858c1c9bdf19a</bnode></binding>
+      <binding name="p"><uri>http://www.w3.org/ns/prov#agent</uri></binding>
+      <binding name="o"><bnode>b0_cb37b74ee02932c2922d6819a6e96829e1b05895fd9e797cbc8b8d417b6a4ece067</bnode></binding>
+    </result>
+    <result>
+      <binding name="s"><bnode>b0_cb331d4ea3b6aa255a69af4a8336f3d2b1dca11879df494076bcb69e8f23a954f43</bnode></binding>
+      <binding name="p"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
+      <binding name="o"><uri>https://w3id.org/tib/datacite/class/FundingReference</uri></binding>
+    </result>
+    <result>
+      <binding name="s"><bnode>b0_cb331d4ea3b6aa255a69af4a8336f3d2b1dca11879df494076bcb69e8f23a954f43</bnode></binding>
+      <binding name="p"><uri>https://model.ccmm.cz/vocabulary/ccmm#fundingProgram</uri></binding>
+      <binding name="o"><literal datatype="http://www.w3.org/2001/XMLSchema#anyURI">Operační program Jan Amos Komenský</literal></binding>
+    </result>
+    <result>
+      <binding name="s"><bnode>b0_cb331d4ea3b6aa255a69af4a8336f3d2b1dca11879df494076bcb69e8f23a954f43</bnode></binding>
+      <binding name="p"><uri>https://w3id.org/tib/datacite/property/awardNumber</uri></binding>
+      <binding name="o"><literal datatype="http://www.w3.org/2001/XMLSchema#string">EH23_021/0008433</literal></binding>
+    </result>
+    <result>
+      <binding name="s"><bnode>b0_cb331d4ea3b6aa255a69af4a8336f3d2b1dca11879df494076bcb69e8f23a954f43</bnode></binding>
+      <binding name="p"><uri>https://w3id.org/tib/datacite/property/awardTitle</uri></binding>
+      <binding name="o"><literal datatype="http://www.w3.org/2001/XMLSchema#string">Development of special wire semiproducts for welding and 3D printing</literal></binding>
+    </result>
+    <result>
+      <binding name="s"><bnode>b0_cb331d4ea3b6aa255a69af4a8336f3d2b1dca11879df494076bcb69e8f23a954f43</bnode></binding>
+      <binding name="p"><uri>https://w3id.org/tib/datacite/property/funderIdentifier</uri></binding>
+      <binding name="o"><bnode>b0_cb1ea111e6ea6d06ca845a36f3907c7933b8a8a2f1bdfb3c7cf408d0d4f901b3a5c</bnode></binding>
+    </result>
+    <result>
+      <binding name="s"><bnode>b0_cb3353f8a651fbbae8a6dfdd493c17dd2daf70273c867bb3911bb633ae865482a66</bnode></binding>
+      <binding name="p"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
+      <binding name="o"><uri>http://www.w3.org/ns/prov#Attribution</uri></binding>
+    </result>
+    <result>
+      <binding name="s"><bnode>b0_cb3353f8a651fbbae8a6dfdd493c17dd2daf70273c867bb3911bb633ae865482a66</bnode></binding>
+      <binding name="p"><uri>http://www.w3.org/ns/dcat#hadRole</uri></binding>
+      <binding name="o"><uri>https://vocabs.ccmm.cz/registry/codelist/AgentRole/Creator</uri></binding>
+    </result>
+    <result>
+      <binding name="s"><bnode>b0_cb3353f8a651fbbae8a6dfdd493c17dd2daf70273c867bb3911bb633ae865482a66</bnode></binding>
+      <binding name="p"><uri>http://www.w3.org/ns/prov#agent</uri></binding>
+      <binding name="o"><bnode>b0_cb3e198ae00b9d3201c8868d79e5e61293f3d4b458085851e5072a1af88396a311c</bnode></binding>
+    </result>
+    <result>
+      <binding name="s"><bnode>b0_cb34cee55b43e0d9c8ea480290287ecc399bf238ca1c43a69c370366cc25f0f8d9b</bnode></binding>
+      <binding name="p"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
+      <binding name="o"><uri>http://www.w3.org/ns/prov#Attribution</uri></binding>
+    </result>
+    <result>
+      <binding name="s"><bnode>b0_cb34cee55b43e0d9c8ea480290287ecc399bf238ca1c43a69c370366cc25f0f8d9b</bnode></binding>
+      <binding name="p"><uri>http://www.w3.org/ns/dcat#hadRole</uri></binding>
+      <binding name="o"><uri>https://vocabs.ccmm.cz/registry/codelist/AgentRole/Publisher</uri></binding>
+    </result>
+    <result>
+      <binding name="s"><bnode>b0_cb34cee55b43e0d9c8ea480290287ecc399bf238ca1c43a69c370366cc25f0f8d9b</bnode></binding>
+      <binding name="p"><uri>http://www.w3.org/ns/prov#agent</uri></binding>
+      <binding name="o"><bnode>b0_cb324ef8f2585dbcb7379d9a696111e310d769525f59c1754c6174b5a6ddb1c2af1</bnode></binding>
+    </result>
+    <result>
+      <binding name="s"><bnode>b0_cb37b74ee02932c2922d6819a6e96829e1b05895fd9e797cbc8b8d417b6a4ece067</bnode></binding>
+      <binding name="p"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
+      <binding name="o"><uri>http://www.w3.org/ns/prov#Person</uri></binding>
+    </result>
+    <result>
+      <binding name="s"><bnode>b0_cb37b74ee02932c2922d6819a6e96829e1b05895fd9e797cbc8b8d417b6a4ece067</bnode></binding>
+      <binding name="p"><uri>http://www.w3.org/2006/vcard/ns#family-name</uri></binding>
+      <binding name="o"><literal datatype="http://www.w3.org/2001/XMLSchema#string">Dlouhý</literal></binding>
+    </result>
+    <result>
+      <binding name="s"><bnode>b0_cb37b74ee02932c2922d6819a6e96829e1b05895fd9e797cbc8b8d417b6a4ece067</bnode></binding>
+      <binding name="p"><uri>http://www.w3.org/2006/vcard/ns#given-name</uri></binding>
+      <binding name="o"><literal datatype="http://www.w3.org/2001/XMLSchema#string">Jaromír</literal></binding>
+    </result>
+    <result>
+      <binding name="s"><bnode>b0_cb37b74ee02932c2922d6819a6e96829e1b05895fd9e797cbc8b8d417b6a4ece067</bnode></binding>
+      <binding name="p"><uri>http://www.w3.org/ns/adms#identifier</uri></binding>
+      <binding name="o"><uri>https://orcid.org/0000-0002-1241-6121</uri></binding>
+    </result>
+    <result>
+      <binding name="s"><bnode>b0_cb37b74ee02932c2922d6819a6e96829e1b05895fd9e797cbc8b8d417b6a4ece067</bnode></binding>
+      <binding name="p"><uri>http://xmlns.com/foaf/0.1/name</uri></binding>
+      <binding name="o"><literal datatype="http://www.w3.org/2001/XMLSchema#string">Dlouhý, Jaromír</literal></binding>
+    </result>
+    <result>
+      <binding name="s"><bnode>b0_cb37b74ee02932c2922d6819a6e96829e1b05895fd9e797cbc8b8d417b6a4ece067</bnode></binding>
+      <binding name="p"><uri>https://model.ccmm.cz/vocabulary/ccmm#hasAffiliation</uri></binding>
+      <binding name="o"><bnode>b0_cb274c3497e726e5217a5ad93ba9c94fb4ee0327f6d320661d48e23934b3041491b</bnode></binding>
+    </result>
+    <result>
+      <binding name="s"><bnode>b0_cb3a808e5290a3829de1cc9a643a40b1ecada3d24e0e93d943100460e9891e48c2b</bnode></binding>
+      <binding name="p"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
+      <binding name="o"><uri>http://www.w3.org/ns/prov#Person</uri></binding>
+    </result>
+    <result>
+      <binding name="s"><bnode>b0_cb3a808e5290a3829de1cc9a643a40b1ecada3d24e0e93d943100460e9891e48c2b</bnode></binding>
+      <binding name="p"><uri>http://www.w3.org/2006/vcard/ns#family-name</uri></binding>
+      <binding name="o"><literal datatype="http://www.w3.org/2001/XMLSchema#string">Uhlík</literal></binding>
+    </result>
+    <result>
+      <binding name="s"><bnode>b0_cb3a808e5290a3829de1cc9a643a40b1ecada3d24e0e93d943100460e9891e48c2b</bnode></binding>
+      <binding name="p"><uri>http://www.w3.org/2006/vcard/ns#given-name</uri></binding>
+      <binding name="o"><literal datatype="http://www.w3.org/2001/XMLSchema#string">Matouš</literal></binding>
+    </result>
+    <result>
+      <binding name="s"><bnode>b0_cb3a808e5290a3829de1cc9a643a40b1ecada3d24e0e93d943100460e9891e48c2b</bnode></binding>
+      <binding name="p"><uri>http://xmlns.com/foaf/0.1/name</uri></binding>
+      <binding name="o"><literal datatype="http://www.w3.org/2001/XMLSchema#string">Uhlík, Matouš</literal></binding>
+    </result>
+    <result>
+      <binding name="s"><bnode>b0_cb3a808e5290a3829de1cc9a643a40b1ecada3d24e0e93d943100460e9891e48c2b</bnode></binding>
+      <binding name="p"><uri>https://model.ccmm.cz/vocabulary/ccmm#hasAffiliation</uri></binding>
+      <binding name="o"><bnode>b0_cb297b0029f073485871d3a84d054565e4978e1dbfd9eac533cc3a1947974471760</bnode></binding>
+    </result>
+    <result>
+      <binding name="s"><bnode>b0_cb3e198ae00b9d3201c8868d79e5e61293f3d4b458085851e5072a1af88396a311c</bnode></binding>
+      <binding name="p"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
+      <binding name="o"><uri>http://www.w3.org/ns/prov#Person</uri></binding>
+    </result>
+    <result>
+      <binding name="s"><bnode>b0_cb3e198ae00b9d3201c8868d79e5e61293f3d4b458085851e5072a1af88396a311c</bnode></binding>
+      <binding name="p"><uri>http://www.w3.org/2006/vcard/ns#family-name</uri></binding>
+      <binding name="o"><literal datatype="http://www.w3.org/2001/XMLSchema#string">Hodek</literal></binding>
+    </result>
+    <result>
+      <binding name="s"><bnode>b0_cb3e198ae00b9d3201c8868d79e5e61293f3d4b458085851e5072a1af88396a311c</bnode></binding>
+      <binding name="p"><uri>http://www.w3.org/2006/vcard/ns#given-name</uri></binding>
+      <binding name="o"><literal datatype="http://www.w3.org/2001/XMLSchema#string">Josef</literal></binding>
+    </result>
+    <result>
+      <binding name="s"><bnode>b0_cb3e198ae00b9d3201c8868d79e5e61293f3d4b458085851e5072a1af88396a311c</bnode></binding>
+      <binding name="p"><uri>http://www.w3.org/ns/adms#identifier</uri></binding>
+      <binding name="o"><uri>https://orcid.org/0000-0003-4013-9819</uri></binding>
+    </result>
+    <result>
+      <binding name="s"><bnode>b0_cb3e198ae00b9d3201c8868d79e5e61293f3d4b458085851e5072a1af88396a311c</bnode></binding>
+      <binding name="p"><uri>http://xmlns.com/foaf/0.1/name</uri></binding>
+      <binding name="o"><literal datatype="http://www.w3.org/2001/XMLSchema#string">Hodek, Josef</literal></binding>
+    </result>
+    <result>
+      <binding name="s"><bnode>b0_cb3e198ae00b9d3201c8868d79e5e61293f3d4b458085851e5072a1af88396a311c</bnode></binding>
+      <binding name="p"><uri>https://model.ccmm.cz/vocabulary/ccmm#hasAffiliation</uri></binding>
+      <binding name="o"><bnode>b0_cb2aa8b4f4957b12c715730dd60fb689f5af78c641ebac86bdfccebda6516c2c7b7</bnode></binding>
+    </result>
+    <result>
+      <binding name="s"><bnode>b0_cb41ed6f87fa58fbd27e076e953b01d341046e6fbd3f5f8565926231683afa3fa87</bnode></binding>
+      <binding name="p"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
+      <binding name="o"><uri>http://www.w3.org/ns/prov#Person</uri></binding>
+    </result>
+    <result>
+      <binding name="s"><bnode>b0_cb41ed6f87fa58fbd27e076e953b01d341046e6fbd3f5f8565926231683afa3fa87</bnode></binding>
+      <binding name="p"><uri>http://www.w3.org/2006/vcard/ns#family-name</uri></binding>
+      <binding name="o"><literal datatype="http://www.w3.org/2001/XMLSchema#string">Novák</literal></binding>
+    </result>
+    <result>
+      <binding name="s"><bnode>b0_cb41ed6f87fa58fbd27e076e953b01d341046e6fbd3f5f8565926231683afa3fa87</bnode></binding>
+      <binding name="p"><uri>http://www.w3.org/2006/vcard/ns#given-name</uri></binding>
+      <binding name="o"><literal datatype="http://www.w3.org/2001/XMLSchema#string">Pavel</literal></binding>
+    </result>
+    <result>
+      <binding name="s"><bnode>b0_cb41ed6f87fa58fbd27e076e953b01d341046e6fbd3f5f8565926231683afa3fa87</bnode></binding>
+      <binding name="p"><uri>http://www.w3.org/ns/adms#identifier</uri></binding>
+      <binding name="o"><uri>https://orcid.org/0000-0001-9947-2566</uri></binding>
+    </result>
+    <result>
+      <binding name="s"><bnode>b0_cb41ed6f87fa58fbd27e076e953b01d341046e6fbd3f5f8565926231683afa3fa87</bnode></binding>
+      <binding name="p"><uri>http://xmlns.com/foaf/0.1/name</uri></binding>
+      <binding name="o"><literal datatype="http://www.w3.org/2001/XMLSchema#string">Novák, Pavel</literal></binding>
+    </result>
+    <result>
+      <binding name="s"><bnode>b0_cb41ed6f87fa58fbd27e076e953b01d341046e6fbd3f5f8565926231683afa3fa87</bnode></binding>
+      <binding name="p"><uri>https://model.ccmm.cz/vocabulary/ccmm#hasAffiliation</uri></binding>
+      <binding name="o"><bnode>b0_cb20a40e944b49603e76fd7e894c0368fc01350d515d815a14732b0620d3c974b97</bnode></binding>
+    </result>
+    <result>
+      <binding name="s"><uri>http://dx.doi.org/10.13039/501100001823</uri></binding>
+      <binding name="p"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
+      <binding name="o"><uri>http://www.w3.org/ns/adms#Identifier</uri></binding>
+    </result>
+    <result>
+      <binding name="s"><uri>http://dx.doi.org/10.13039/501100001823</uri></binding>
+      <binding name="p"><uri>http://www.w3.org/2004/02/skos/core#notation</uri></binding>
+      <binding name="o"><literal datatype="http://www.w3.org/2001/XMLSchema#string">10.13039/501100001823</literal></binding>
+    </result>
+    <result>
+      <binding name="s"><uri>http://dx.doi.org/10.13039/501100001823</uri></binding>
+      <binding name="p"><uri>https://model.ccmm.cz/vocabulary/ccmm#inScheme</uri></binding>
+      <binding name="o"><uri>https://doi.org/</uri></binding>
+    </result>
+    <result>
+      <binding name="s"><uri>http://publications.europa.eu/resource/authority/file-type/TAR</uri></binding>
+      <binding name="p"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
+      <binding name="o"><uri>http://purl.org/dc/terms/MediaType</uri></binding>
+    </result>
+    <result>
+      <binding name="s"><uri>http://publications.europa.eu/resource/authority/file-type/TAR</uri></binding>
+      <binding name="p"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
+      <binding name="o"><uri>http://purl.org/dc/terms/MediaTypeOrExtent</uri></binding>
+    </result>
+    <result>
+      <binding name="s"><uri>http://publications.europa.eu/resource/authority/file-type/TAR</uri></binding>
+      <binding name="p"><uri>http://www.w3.org/2004/02/skos/core#prefLabel</uri></binding>
+      <binding name="o"><literal xml:lang="en">TAR</literal></binding>
+    </result>
+    <result>
+      <binding name="s"><uri>http://publications.europa.eu/resource/authority/language/ENG</uri></binding>
+      <binding name="p"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
+      <binding name="o"><uri>http://purl.org/dc/terms/LinguisticSystem</uri></binding>
+    </result>
+    <result>
+      <binding name="s"><uri>http://publications.europa.eu/resource/authority/language/ENG</uri></binding>
+      <binding name="p"><uri>http://www.w3.org/2004/02/skos/core#prefLabel</uri></binding>
+      <binding name="o"><literal xml:lang="en">English</literal></binding>
+    </result>
+    <result>
+      <binding name="s"><uri>http://purl.org/coar/access_right/c_abf2</uri></binding>
+      <binding name="p"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
+      <binding name="o"><uri>http://purl.org/dc/terms/RightsStatement</uri></binding>
+    </result>
+    <result>
+      <binding name="s"><uri>http://purl.org/coar/access_right/c_abf2</uri></binding>
+      <binding name="p"><uri>http://www.w3.org/2004/02/skos/core#prefLabel</uri></binding>
+      <binding name="o"><literal xml:lang="en">open access</literal></binding>
+    </result>
+    <result>
+      <binding name="s"><uri>http://purl.org/coar/access_right/c_abf2</uri></binding>
+      <binding name="p"><uri>http://www.w3.org/2004/02/skos/core#prefLabel</uri></binding>
+      <binding name="o"><literal xml:lang="cs">otevřený přístup</literal></binding>
+    </result>
+    <result>
+      <binding name="s"><uri>http://purl.org/coar/resource_type/c_6501</uri></binding>
+      <binding name="p"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
+      <binding name="o"><uri>http://www.w3.org/2004/02/skos/core#Concept</uri></binding>
+    </result>
+    <result>
+      <binding name="s"><uri>http://purl.org/coar/resource_type/c_6501</uri></binding>
+      <binding name="p"><uri>http://www.w3.org/2004/02/skos/core#prefLabel</uri></binding>
+      <binding name="o"><literal xml:lang="cs">článek v odborném časopisu</literal></binding>
+    </result>
+    <result>
+      <binding name="s"><uri>http://purl.org/coar/resource_type/c_6501</uri></binding>
+      <binding name="p"><uri>http://www.w3.org/2004/02/skos/core#prefLabel</uri></binding>
+      <binding name="o"><literal xml:lang="en">journal article</literal></binding>
+    </result>
+    <result>
+      <binding name="s"><uri>http://purl.org/coar/resource_type/c_ddb1</uri></binding>
+      <binding name="p"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
+      <binding name="o"><uri>http://www.w3.org/2004/02/skos/core#Concept</uri></binding>
+    </result>
+    <result>
+      <binding name="s"><uri>http://purl.org/coar/resource_type/c_ddb1</uri></binding>
+      <binding name="p"><uri>http://www.w3.org/2004/02/skos/core#prefLabel</uri></binding>
+      <binding name="o"><literal xml:lang="en">dataset</literal></binding>
+    </result>
+    <result>
+      <binding name="s"><uri>http://purl.org/coar/resource_type/c_ddb1</uri></binding>
+      <binding name="p"><uri>http://www.w3.org/2004/02/skos/core#prefLabel</uri></binding>
+      <binding name="o"><literal xml:lang="cs">datová sada</literal></binding>
+    </result>
+    <result>
+      <binding name="s"><uri>https://creativecommons.org/licenses/by/4.0/</uri></binding>
+      <binding name="p"><uri>http://purl.org/dc/terms/title</uri></binding>
+      <binding name="o"><literal xml:lang="en">Creative Commons Attribution 4.0 International License</literal></binding>
+    </result>
+    <result>
+      <binding name="s"><uri>https://creativecommons.org/licenses/by/4.0/</uri></binding>
+      <binding name="p"><uri>http://purl.org/dc/terms/title</uri></binding>
+      <binding name="o"><literal xml:lang="cs">Creative Commons Uveďte původ 4.0 Mezinárodní licence</literal></binding>
+    </result>
+    <result>
+      <binding name="s"><uri>https://creativecommons.org/licenses/by/4.0/</uri></binding>
+      <binding name="p"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
+      <binding name="o"><uri>http://purl.org/dc/terms/LicenseDocument</uri></binding>
+    </result>
+    <result>
+      <binding name="s"><uri>https://data.narodni-repozitar.cz/general/datasets/dmq82-ed856/files/REPO.tar</uri></binding>
+      <binding name="p"><uri>http://purl.org/dc/terms/format</uri></binding>
+      <binding name="o"><uri>http://publications.europa.eu/resource/authority/file-type/TAR</uri></binding>
+    </result>
+    <result>
+      <binding name="s"><uri>https://data.narodni-repozitar.cz/general/datasets/dmq82-ed856/files/REPO.tar</uri></binding>
+      <binding name="p"><uri>http://purl.org/dc/terms/license</uri></binding>
+      <binding name="o"><uri>https://creativecommons.org/licenses/by/4.0/</uri></binding>
+    </result>
+    <result>
+      <binding name="s"><uri>https://data.narodni-repozitar.cz/general/datasets/dmq82-ed856/files/REPO.tar</uri></binding>
+      <binding name="p"><uri>http://purl.org/dc/terms/rights</uri></binding>
+      <binding name="o"><uri>https://vocabularies.coar-repositories.org/access_rights/c_abf2/</uri></binding>
+    </result>
+    <result>
+      <binding name="s"><uri>https://data.narodni-repozitar.cz/general/datasets/dmq82-ed856/files/REPO.tar</uri></binding>
+      <binding name="p"><uri>http://purl.org/dc/terms/title</uri></binding>
+      <binding name="o"><literal datatype="http://www.w3.org/2001/XMLSchema#string">REPO.tar</literal></binding>
+    </result>
+    <result>
+      <binding name="s"><uri>https://data.narodni-repozitar.cz/general/datasets/dmq82-ed856/files/REPO.tar</uri></binding>
+      <binding name="p"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
+      <binding name="o"><uri>http://www.w3.org/2000/01/rdf-schema#Resource</uri></binding>
+    </result>
+    <result>
+      <binding name="s"><uri>https://data.narodni-repozitar.cz/general/datasets/dmq82-ed856/files/REPO.tar</uri></binding>
+      <binding name="p"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
+      <binding name="o"><uri>https://model.ccmm.cz/vocabulary/ccmm#Distribution-DownloadableFile</uri></binding>
+    </result>
+    <result>
+      <binding name="s"><uri>https://data.narodni-repozitar.cz/general/datasets/dmq82-ed856/files/REPO.tar</uri></binding>
+      <binding name="p"><uri>http://www.w3.org/2000/01/rdf-schema#label</uri></binding>
+      <binding name="o"><literal xml:lang="cs">REPO.tar</literal></binding>
+    </result>
+    <result>
+      <binding name="s"><uri>https://data.narodni-repozitar.cz/general/datasets/dmq82-ed856/files/REPO.tar</uri></binding>
+      <binding name="p"><uri>http://www.w3.org/2000/01/rdf-schema#label</uri></binding>
+      <binding name="o"><literal xml:lang="en">REPO.tar</literal></binding>
+    </result>
+    <result>
+      <binding name="s"><uri>https://data.narodni-repozitar.cz/general/datasets/dmq82-ed856/files/REPO.tar</uri></binding>
+      <binding name="p"><uri>http://www.w3.org/ns/dcat#accessURL</uri></binding>
+      <binding name="o"><uri>https://data.narodni-repozitar.cz/general/datasets/dmq82-ed856/files/</uri></binding>
+    </result>
+    <result>
+      <binding name="s"><uri>https://data.narodni-repozitar.cz/general/datasets/dmq82-ed856/files/REPO.tar</uri></binding>
+      <binding name="p"><uri>http://www.w3.org/ns/dcat#byteSize</uri></binding>
+      <binding name="o"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">294809088</literal></binding>
+    </result>
+    <result>
+      <binding name="s"><uri>https://data.narodni-repozitar.cz/general/datasets/dmq82-ed856/files/REPO.tar</uri></binding>
+      <binding name="p"><uri>http://www.w3.org/ns/dcat#downloadURL</uri></binding>
+      <binding name="o"><uri>https://data.narodni-repozitar.cz/general/datasets/dmq82-ed856/files/REPO.tar</uri></binding>
+    </result>
+    <result>
+      <binding name="s"><uri>https://data.narodni-repozitar.cz/general/datasets/dmq82-ed856/files/REPO.tar</uri></binding>
+      <binding name="p"><uri>http://www.w3.org/ns/dcat#mediaType</uri></binding>
+      <binding name="o"><uri>http://publications.europa.eu/resource/authority/file-type/TAR</uri></binding>
+    </result>
+    <result>
+      <binding name="s"><uri>https://data.narodni-repozitar.cz/schemas/nr_datasets/nr-datasets-v1.0.0.json</uri></binding>
+      <binding name="p"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
+      <binding name="o"><uri>http://purl.org/dc/terms/Standard</uri></binding>
+    </result>
+    <result>
+      <binding name="s"><uri>https://data.narodni-repozitar.cz/schemas/nr_datasets/nr-datasets-v1.0.0.json</uri></binding>
+      <binding name="p"><uri>http://www.w3.org/2000/01/rdf-schema#label</uri></binding>
+      <binding name="o"><literal xml:lang="en">NR Datasets JSON Schema v1.0.0</literal></binding>
+    </result>
+    <result>
+      <binding name="s"><uri>https://datarepo.eosc.cz/datasets/records/datst.dmq82-ed856</uri></binding>
+      <binding name="p"><uri>http://purl.org/dc/terms/conformsTo</uri></binding>
+      <binding name="o"><uri>https://data.narodni-repozitar.cz/schemas/nr_datasets/nr-datasets-v1.0.0.json</uri></binding>
+    </result>
+    <result>
+      <binding name="s"><uri>https://datarepo.eosc.cz/datasets/records/datst.dmq82-ed856</uri></binding>
+      <binding name="p"><uri>http://purl.org/dc/terms/conformsTo</uri></binding>
+      <binding name="o"><uri>https://model.ccmm.cz/research-data/2.0.0</uri></binding>
+    </result>
+    <result>
+      <binding name="s"><uri>https://datarepo.eosc.cz/datasets/records/datst.dmq82-ed856</uri></binding>
+      <binding name="p"><uri>http://purl.org/dc/terms/created</uri></binding>
+      <binding name="o"><literal datatype="http://www.w3.org/2001/XMLSchema#date">2025-06-16</literal></binding>
+    </result>
+    <result>
+      <binding name="s"><uri>https://datarepo.eosc.cz/datasets/records/datst.dmq82-ed856</uri></binding>
+      <binding name="p"><uri>http://purl.org/dc/terms/language</uri></binding>
+      <binding name="o"><uri>http://publications.europa.eu/resource/authority/language/ENG</uri></binding>
+    </result>
+    <result>
+      <binding name="s"><uri>https://datarepo.eosc.cz/datasets/records/datst.dmq82-ed856</uri></binding>
+      <binding name="p"><uri>http://purl.org/dc/terms/modified</uri></binding>
+      <binding name="o"><literal datatype="http://www.w3.org/2001/XMLSchema#date">2025-10-14</literal></binding>
+    </result>
+    <result>
+      <binding name="s"><uri>https://datarepo.eosc.cz/datasets/records/datst.dmq82-ed856</uri></binding>
+      <binding name="p"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
+      <binding name="o"><uri>http://www.w3.org/ns/dcat#CatalogRecord</uri></binding>
+    </result>
+    <result>
+      <binding name="s"><uri>https://datarepo.eosc.cz/datasets/records/datst.dmq82-ed856</uri></binding>
+      <binding name="p"><uri>http://www.w3.org/ns/prov#qualifiedAttribution</uri></binding>
+      <binding name="o"><bnode>b0_cb277dab7941fa47cf9c9fcb76256b3f2918a74836d6a26838820474e237ba22091</bnode></binding>
+    </result>
+    <result>
+      <binding name="s"><uri>https://datarepo.eosc.cz/datasets/records/datst.dmq82-ed856</uri></binding>
+      <binding name="p"><uri>https://model.ccmm.cz/vocabulary/ccmm#originalRepository</uri></binding>
+      <binding name="o"><uri>https://datarepo.eosc.cz</uri></binding>
+    </result>
+    <result>
+      <binding name="s"><uri>https://datarepo.eosc.cz</uri></binding>
+      <binding name="p"><uri>http://purl.org/dc/terms/description</uri></binding>
+      <binding name="o"><literal xml:lang="en">The Data Catch-all Repository is a general-purpose repository for research data for which no more suitable disciplinary, institutional, or community repository is available.</literal></binding>
+    </result>
+    <result>
+      <binding name="s"><uri>https://datarepo.eosc.cz</uri></binding>
+      <binding name="p"><uri>http://purl.org/dc/terms/title</uri></binding>
+      <binding name="o"><literal xml:lang="en">Catch-all</literal></binding>
+    </result>
+    <result>
+      <binding name="s"><uri>https://datarepo.eosc.cz</uri></binding>
+      <binding name="p"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
+      <binding name="o"><uri>http://www.w3.org/ns/dcat#Catalog</uri></binding>
+    </result>
+    <result>
+      <binding name="s"><uri>https://datarepo.eosc.cz</uri></binding>
+      <binding name="p"><uri>http://www.w3.org/ns/prov#qualifiedAttribution</uri></binding>
+      <binding name="o"><bnode>b0_cb1c18fdb90422f9d868be6ab0f11734e7b69f20449b372a42c9cb9bc0b496a6f26</bnode></binding>
+    </result>
+    <result>
+      <binding name="s"><uri>https://doi.org/10.1007/s12540-025-01953-4</uri></binding>
+      <binding name="p"><uri>http://purl.org/dc/terms/title</uri></binding>
+      <binding name="o"><literal datatype="http://www.w3.org/2001/XMLSchema#string">Influence of Deposition Parameters on the Building rate, In-Situ Formation of Austenite and Tensile Properties of SAF 2507 SDSS Fabricated by Directed Energy Deposition</literal></binding>
+    </result>
+    <result>
+      <binding name="s"><uri>https://doi.org/10.1007/s12540-025-01953-4</uri></binding>
+      <binding name="p"><uri>http://purl.org/dc/terms/type</uri></binding>
+      <binding name="o"><uri>http://purl.org/coar/resource_type/c_6501</uri></binding>
+    </result>
+    <result>
+      <binding name="s"><uri>https://doi.org/10.1007/s12540-025-01953-4</uri></binding>
+      <binding name="p"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
+      <binding name="o"><uri>http://www.w3.org/2000/01/rdf-schema#Resource</uri></binding>
+    </result>
+    <result>
+      <binding name="s"><uri>https://doi.org/10.1007/s12540-025-01953-4</uri></binding>
+      <binding name="p"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
+      <binding name="o"><uri>http://www.w3.org/ns/adms#Identifier</uri></binding>
+    </result>
+    <result>
+      <binding name="s"><uri>https://doi.org/10.1007/s12540-025-01953-4</uri></binding>
+      <binding name="p"><uri>http://www.w3.org/2004/02/skos/core#notation</uri></binding>
+      <binding name="o"><literal datatype="http://www.w3.org/2001/XMLSchema#string">10.1007/s12540-025-01953-4</literal></binding>
+    </result>
+    <result>
+      <binding name="s"><uri>https://doi.org/10.1007/s12540-025-01953-4</uri></binding>
+      <binding name="p"><uri>http://www.w3.org/ns/adms#identifier</uri></binding>
+      <binding name="o"><uri>https://doi.org/10.1007/s12540-025-01953-4</uri></binding>
+    </result>
+    <result>
+      <binding name="s"><uri>https://doi.org/10.1007/s12540-025-01953-4</uri></binding>
+      <binding name="p"><uri>http://www.w3.org/ns/prov#qualifiedAttribution</uri></binding>
+      <binding name="o"><bnode>b0_cb1982e0b6b721e8cdf62f85bb4a0f55d003d42970a60fbfb12c834f0c9004e81ef</bnode></binding>
+    </result>
+    <result>
+      <binding name="s"><uri>https://doi.org/10.1007/s12540-025-01953-4</uri></binding>
+      <binding name="p"><uri>http://www.w3.org/ns/prov#qualifiedAttribution</uri></binding>
+      <binding name="o"><bnode>b0_cb1b4fb615213150f8d5f58bd3b2bdd6f6d73437857b3e13e5726a90c0353027370</bnode></binding>
+    </result>
+    <result>
+      <binding name="s"><uri>https://doi.org/10.1007/s12540-025-01953-4</uri></binding>
+      <binding name="p"><uri>http://www.w3.org/ns/prov#qualifiedAttribution</uri></binding>
+      <binding name="o"><bnode>b0_cb1cefdd0b59b1362eff6c2728babf474800eee97daf39575ebc5b3b31a5d57915c</bnode></binding>
+    </result>
+    <result>
+      <binding name="s"><uri>https://doi.org/10.1007/s12540-025-01953-4</uri></binding>
+      <binding name="p"><uri>http://www.w3.org/ns/prov#qualifiedAttribution</uri></binding>
+      <binding name="o"><bnode>b0_cb1ed335e3a5640966f743da868b064c79fd2dd5577af128bbbc85f46f8ab9a97f7</bnode></binding>
+    </result>
+    <result>
+      <binding name="s"><uri>https://doi.org/10.1007/s12540-025-01953-4</uri></binding>
+      <binding name="p"><uri>http://www.w3.org/ns/prov#qualifiedAttribution</uri></binding>
+      <binding name="o"><bnode>b0_cb1fa2dac5c3f2bf2e5fe8ce416958697de2ba7e49a7156d4c22366024e5a40745f</bnode></binding>
+    </result>
+    <result>
+      <binding name="s"><uri>https://doi.org/10.1007/s12540-025-01953-4</uri></binding>
+      <binding name="p"><uri>http://www.w3.org/ns/prov#qualifiedAttribution</uri></binding>
+      <binding name="o"><bnode>b0_cb24502e25684d9d3f2d1706d169cecfe1dffe3d783231f47fef695d2858e046a56</bnode></binding>
+    </result>
+    <result>
+      <binding name="s"><uri>https://doi.org/10.1007/s12540-025-01953-4</uri></binding>
+      <binding name="p"><uri>https://model.ccmm.cz/vocabulary/ccmm#hasType</uri></binding>
+      <binding name="o"><uri>https://vocabs.ccmm.cz/registry/codelist/RelationType/IsReferencedBy</uri></binding>
+    </result>
+    <result>
+      <binding name="s"><uri>https://doi.org/10.1007/s12540-025-01953-4</uri></binding>
+      <binding name="p"><uri>https://model.ccmm.cz/vocabulary/ccmm#inScheme</uri></binding>
+      <binding name="o"><uri>https://doi.org/</uri></binding>
+    </result>
+    <result>
+      <binding name="s"><uri>https://doi.org/10.1007/s12540-025-01953-4</uri></binding>
+      <binding name="p"><uri>https://model.ccmm.cz/vocabulary/ccmm#resourceUrl</uri></binding>
+      <binding name="o"><literal datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://doi.org/10.1007/s12540-025-01953-4</literal></binding>
+    </result>
+    <result>
+      <binding name="s"><uri>https://doi.org/10.48700/datst.dmq82-ed856</uri></binding>
+      <binding name="p"><uri>http://purl.org/dc/terms/accessRights</uri></binding>
+      <binding name="o"><uri>http://purl.org/coar/access_right/c_abf2</uri></binding>
+    </result>
+    <result>
+      <binding name="s"><uri>https://doi.org/10.48700/datst.dmq82-ed856</uri></binding>
+      <binding name="p"><uri>http://purl.org/dc/terms/relation</uri></binding>
+      <binding name="o"><uri>https://doi.org/10.1007/s12540-025-01953-4</uri></binding>
+    </result>
+    <result>
+      <binding name="s"><uri>https://doi.org/10.48700/datst.dmq82-ed856</uri></binding>
+      <binding name="p"><uri>http://purl.org/dc/terms/title</uri></binding>
+      <binding name="o"><literal datatype="http://www.w3.org/2001/XMLSchema#string">Data k rukopisu - Vliv podmínek depozice na rychlost tisku, množství in-situ vzniklého austenitu a mechanické vlastnosti oceli SAF2507 připravené metodou přímé depozice</literal></binding>
+    </result>
+    <result>
+      <binding name="s"><uri>https://doi.org/10.48700/datst.dmq82-ed856</uri></binding>
+      <binding name="p"><uri>http://purl.org/dc/terms/type</uri></binding>
+      <binding name="o"><uri>http://purl.org/coar/resource_type/c_ddb1</uri></binding>
+    </result>
+    <result>
+      <binding name="s"><uri>https://doi.org/10.48700/datst.dmq82-ed856</uri></binding>
+      <binding name="p"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
+      <binding name="o"><uri>http://www.w3.org/ns/adms#Identifier</uri></binding>
+    </result>
+    <result>
+      <binding name="s"><uri>https://doi.org/10.48700/datst.dmq82-ed856</uri></binding>
+      <binding name="p"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
+      <binding name="o"><uri>http://www.w3.org/ns/dcat#Dataset</uri></binding>
+    </result>
+    <result>
+      <binding name="s"><uri>https://doi.org/10.48700/datst.dmq82-ed856</uri></binding>
+      <binding name="p"><uri>http://www.w3.org/2004/02/skos/core#notation</uri></binding>
+      <binding name="o"><literal datatype="http://www.w3.org/2001/XMLSchema#string">10.48700/datst.dmq82-ed856</literal></binding>
+    </result>
+    <result>
+      <binding name="s"><uri>https://doi.org/10.48700/datst.dmq82-ed856</uri></binding>
+      <binding name="p"><uri>http://www.w3.org/ns/adms#identifier</uri></binding>
+      <binding name="o"><uri>https://doi.org/10.48700/datst.dmq82-ed856</uri></binding>
+    </result>
+    <result>
+      <binding name="s"><uri>https://doi.org/10.48700/datst.dmq82-ed856</uri></binding>
+      <binding name="p"><uri>http://www.w3.org/ns/dcat#distribution</uri></binding>
+      <binding name="o"><uri>https://data.narodni-repozitar.cz/general/datasets/dmq82-ed856/files/REPO.tar</uri></binding>
+    </result>
+    <result>
+      <binding name="s"><uri>https://doi.org/10.48700/datst.dmq82-ed856</uri></binding>
+      <binding name="p"><uri>http://www.w3.org/ns/dcat#keyword</uri></binding>
+      <binding name="o"><literal xml:lang="en">Additive manufacturing</literal></binding>
+    </result>
+    <result>
+      <binding name="s"><uri>https://doi.org/10.48700/datst.dmq82-ed856</uri></binding>
+      <binding name="p"><uri>http://www.w3.org/ns/dcat#keyword</uri></binding>
+      <binding name="o"><literal xml:lang="en">Directed energy deposition</literal></binding>
+    </result>
+    <result>
+      <binding name="s"><uri>https://doi.org/10.48700/datst.dmq82-ed856</uri></binding>
+      <binding name="p"><uri>http://www.w3.org/ns/dcat#keyword</uri></binding>
+      <binding name="o"><literal xml:lang="en">Laser power</literal></binding>
+    </result>
+    <result>
+      <binding name="s"><uri>https://doi.org/10.48700/datst.dmq82-ed856</uri></binding>
+      <binding name="p"><uri>http://www.w3.org/ns/dcat#keyword</uri></binding>
+      <binding name="o"><literal xml:lang="en">Microstructure</literal></binding>
+    </result>
+    <result>
+      <binding name="s"><uri>https://doi.org/10.48700/datst.dmq82-ed856</uri></binding>
+      <binding name="p"><uri>http://www.w3.org/ns/dcat#keyword</uri></binding>
+      <binding name="o"><literal xml:lang="en">Super duplex stainless steel</literal></binding>
+    </result>
+    <result>
+      <binding name="s"><uri>https://doi.org/10.48700/datst.dmq82-ed856</uri></binding>
+      <binding name="p"><uri>http://www.w3.org/ns/dcat#keyword</uri></binding>
+      <binding name="o"><literal xml:lang="en">Tensile properties</literal></binding>
+    </result>
+    <result>
+      <binding name="s"><uri>https://doi.org/10.48700/datst.dmq82-ed856</uri></binding>
+      <binding name="p"><uri>http://www.w3.org/ns/prov#qualifiedAttribution</uri></binding>
+      <binding name="o"><bnode>b0_cb29a106e0b9a2e4ad635a6b177face5641c35c38d73cb66251354b86bd4a31c74f</bnode></binding>
+    </result>
+    <result>
+      <binding name="s"><uri>https://doi.org/10.48700/datst.dmq82-ed856</uri></binding>
+      <binding name="p"><uri>http://www.w3.org/ns/prov#qualifiedAttribution</uri></binding>
+      <binding name="o"><bnode>b0_cb2cf40e8b808f6602d29be487f5f2cb7dadcb2ef9a80c7a183d784de17b4c44a23</bnode></binding>
+    </result>
+    <result>
+      <binding name="s"><uri>https://doi.org/10.48700/datst.dmq82-ed856</uri></binding>
+      <binding name="p"><uri>http://www.w3.org/ns/prov#qualifiedAttribution</uri></binding>
+      <binding name="o"><bnode>b0_cb2e5e151b1fc2e41f46ae898506c2570cdb1169067b79ee3d4beced46c04003daf</bnode></binding>
+    </result>
+    <result>
+      <binding name="s"><uri>https://doi.org/10.48700/datst.dmq82-ed856</uri></binding>
+      <binding name="p"><uri>http://www.w3.org/ns/prov#qualifiedAttribution</uri></binding>
+      <binding name="o"><bnode>b0_cb2f16d2ce2ad3256c2aa84fd3e9e2ed7cf85c609c5183b96539648f521a33e4aa7</bnode></binding>
+    </result>
+    <result>
+      <binding name="s"><uri>https://doi.org/10.48700/datst.dmq82-ed856</uri></binding>
+      <binding name="p"><uri>http://www.w3.org/ns/prov#qualifiedAttribution</uri></binding>
+      <binding name="o"><bnode>b0_cb32c05d1127f35ebd7c4d3d8b9fcceab1701aa47481bb10870fd3858c1c9bdf19a</bnode></binding>
+    </result>
+    <result>
+      <binding name="s"><uri>https://doi.org/10.48700/datst.dmq82-ed856</uri></binding>
+      <binding name="p"><uri>http://www.w3.org/ns/prov#qualifiedAttribution</uri></binding>
+      <binding name="o"><bnode>b0_cb3353f8a651fbbae8a6dfdd493c17dd2daf70273c867bb3911bb633ae865482a66</bnode></binding>
+    </result>
+    <result>
+      <binding name="s"><uri>https://doi.org/10.48700/datst.dmq82-ed856</uri></binding>
+      <binding name="p"><uri>http://www.w3.org/ns/prov#qualifiedAttribution</uri></binding>
+      <binding name="o"><bnode>b0_cb34cee55b43e0d9c8ea480290287ecc399bf238ca1c43a69c370366cc25f0f8d9b</bnode></binding>
+    </result>
+    <result>
+      <binding name="s"><uri>https://doi.org/10.48700/datst.dmq82-ed856</uri></binding>
+      <binding name="p"><uri>https://model.ccmm.cz/vocabulary/ccmm#hasAlternateTitle</uri></binding>
+      <binding name="o"><bnode>b0_cb2c1b8dcf56457affcfd3ee03174c232dfde28440343bf21383c68585e6a5db3b8</bnode></binding>
+    </result>
+    <result>
+      <binding name="s"><uri>https://doi.org/10.48700/datst.dmq82-ed856</uri></binding>
+      <binding name="p"><uri>https://model.ccmm.cz/vocabulary/ccmm#hasPrimaryLanguage</uri></binding>
+      <binding name="o"><uri>http://publications.europa.eu/resource/authority/language/ENG</uri></binding>
+    </result>
+    <result>
+      <binding name="s"><uri>https://doi.org/10.48700/datst.dmq82-ed856</uri></binding>
+      <binding name="p"><uri>https://model.ccmm.cz/vocabulary/ccmm#hasTimeReference</uri></binding>
+      <binding name="o"><bnode>b0_cb23b250a7e56dd491fa69da87ed3442ba182914f75109526f02caf8800f59f290c</bnode></binding>
+    </result>
+    <result>
+      <binding name="s"><uri>https://doi.org/10.48700/datst.dmq82-ed856</uri></binding>
+      <binding name="p"><uri>https://model.ccmm.cz/vocabulary/ccmm#hasTimeReference</uri></binding>
+      <binding name="o"><bnode>b0_cb291140b69a54449626536ccb627f7dee680be419be616cfbe3f346eafe8a189b7</bnode></binding>
+    </result>
+    <result>
+      <binding name="s"><uri>https://doi.org/10.48700/datst.dmq82-ed856</uri></binding>
+      <binding name="p"><uri>https://model.ccmm.cz/vocabulary/ccmm#hasTimeReference</uri></binding>
+      <binding name="o"><bnode>b0_cb2a2dc9ad8b135b728fe7847b37327cad35d0d06897dea473f13d0fc807878064a</bnode></binding>
+    </result>
+    <result>
+      <binding name="s"><uri>https://doi.org/10.48700/datst.dmq82-ed856</uri></binding>
+      <binding name="p"><uri>https://model.ccmm.cz/vocabulary/ccmm#hasValidationResult</uri></binding>
+      <binding name="o"><bnode>b0_cb120f4d08bd7859ea5b9089de54e37d90243033d93cf541b4806dffee9f1f1070a</bnode></binding>
+    </result>
+    <result>
+      <binding name="s"><uri>https://doi.org/10.48700/datst.dmq82-ed856</uri></binding>
+      <binding name="p"><uri>https://model.ccmm.cz/vocabulary/ccmm#inScheme</uri></binding>
+      <binding name="o"><uri>https://doi.org/</uri></binding>
+    </result>
+    <result>
+      <binding name="s"><uri>https://doi.org/10.48700/datst.dmq82-ed856</uri></binding>
+      <binding name="p"><uri>https://model.ccmm.cz/vocabulary/ccmm#isDescribedBy</uri></binding>
+      <binding name="o"><uri>https://datarepo.eosc.cz/datasets/records/datst.dmq82-ed856</uri></binding>
+    </result>
+    <result>
+      <binding name="s"><uri>https://doi.org/10.48700/datst.dmq82-ed856</uri></binding>
+      <binding name="p"><uri>https://w3id.org/tib/datacite/property/description</uri></binding>
+      <binding name="o"><bnode>b0_cb124c8b1d0ac8bccd48f0e5669e5e890b745a09af5498b3776961e5b5551ed7648</bnode></binding>
+    </result>
+    <result>
+      <binding name="s"><uri>https://doi.org/10.48700/datst.dmq82-ed856</uri></binding>
+      <binding name="p"><uri>https://w3id.org/tib/datacite/property/description</uri></binding>
+      <binding name="o"><bnode>b0_cb15198b8ae5454e41f81d4496533cedfffb25319511c3d1fbfc2a3825d722bb2cc</bnode></binding>
+    </result>
+    <result>
+      <binding name="s"><uri>https://doi.org/10.48700/datst.dmq82-ed856</uri></binding>
+      <binding name="p"><uri>https://w3id.org/tib/datacite/property/description</uri></binding>
+      <binding name="o"><bnode>b0_cb171f51993e5cb8de0229c7106adc40eff2bae6dd9963143823682a9961a548f9f</bnode></binding>
+    </result>
+    <result>
+      <binding name="s"><uri>https://doi.org/10.48700/datst.dmq82-ed856</uri></binding>
+      <binding name="p"><uri>https://w3id.org/tib/datacite/property/fundingReference</uri></binding>
+      <binding name="o"><bnode>b0_cb331d4ea3b6aa255a69af4a8336f3d2b1dca11879df494076bcb69e8f23a954f43</bnode></binding>
+    </result>
+    <result>
+      <binding name="s"><uri>https://doi.org/10.48700/datst.dmq82-ed856</uri></binding>
+      <binding name="p"><uri>https://w3id.org/tib/datacite/property/publicationYear</uri></binding>
+      <binding name="o"><literal datatype="http://www.w3.org/2001/XMLSchema#gYear">2025</literal></binding>
+    </result>
+    <result>
+      <binding name="s"><uri>https://doi.org/10.48700/datst.dmq82-ed856</uri></binding>
+      <binding name="p"><uri>https://w3id.org/tib/datacite/property/subject</uri></binding>
+      <binding name="o"><uri>https://vocabs.ccmm.cz/registry/codelist/SubjectCategory/20000/20500/20501</uri></binding>
+    </result>
+    <result>
+      <binding name="s"><uri>https://doi.org/</uri></binding>
+      <binding name="p"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
+      <binding name="o"><uri>https://model.ccmm.cz/vocabulary/ccmm#IdentifierScheme</uri></binding>
+    </result>
+    <result>
+      <binding name="s"><uri>https://doi.org/</uri></binding>
+      <binding name="p"><uri>http://www.w3.org/2000/01/rdf-schema#label</uri></binding>
+      <binding name="o"><literal xml:lang="en">Digital Object Identifier</literal></binding>
+    </result>
+    <result>
+      <binding name="s"><uri>https://doi.org/</uri></binding>
+      <binding name="p"><uri>http://www.w3.org/2004/02/skos/core#notation</uri></binding>
+      <binding name="o"><literal datatype="http://www.w3.org/2001/XMLSchema#string">DOI</literal></binding>
+    </result>
+    <result>
+      <binding name="s"><uri>https://model.ccmm.cz/research-data/2.0.0</uri></binding>
+      <binding name="p"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
+      <binding name="o"><uri>http://purl.org/dc/terms/Standard</uri></binding>
+    </result>
+    <result>
+      <binding name="s"><uri>https://model.ccmm.cz/research-data/2.0.0</uri></binding>
+      <binding name="p"><uri>http://www.w3.org/2000/01/rdf-schema#label</uri></binding>
+      <binding name="o"><literal xml:lang="en">Czech Core Metadata Model for Research Data 2.0.0</literal></binding>
+    </result>
+    <result>
+      <binding name="s"><uri>https://orcid.org/0000-0001-5717-267X</uri></binding>
+      <binding name="p"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
+      <binding name="o"><uri>http://www.w3.org/ns/adms#Identifier</uri></binding>
+    </result>
+    <result>
+      <binding name="s"><uri>https://orcid.org/0000-0001-5717-267X</uri></binding>
+      <binding name="p"><uri>http://www.w3.org/2004/02/skos/core#notation</uri></binding>
+      <binding name="o"><literal datatype="http://www.w3.org/2001/XMLSchema#string">0000-0001-5717-267X</literal></binding>
+    </result>
+    <result>
+      <binding name="s"><uri>https://orcid.org/0000-0001-5717-267X</uri></binding>
+      <binding name="p"><uri>https://model.ccmm.cz/vocabulary/ccmm#inScheme</uri></binding>
+      <binding name="o"><uri>https://orcid.org/</uri></binding>
+    </result>
+    <result>
+      <binding name="s"><uri>https://orcid.org/0000-0001-9947-2566</uri></binding>
+      <binding name="p"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
+      <binding name="o"><uri>http://www.w3.org/ns/adms#Identifier</uri></binding>
+    </result>
+    <result>
+      <binding name="s"><uri>https://orcid.org/0000-0001-9947-2566</uri></binding>
+      <binding name="p"><uri>http://www.w3.org/2004/02/skos/core#notation</uri></binding>
+      <binding name="o"><literal datatype="http://www.w3.org/2001/XMLSchema#string">0000-0001-9947-2566</literal></binding>
+    </result>
+    <result>
+      <binding name="s"><uri>https://orcid.org/0000-0001-9947-2566</uri></binding>
+      <binding name="p"><uri>https://model.ccmm.cz/vocabulary/ccmm#inScheme</uri></binding>
+      <binding name="o"><uri>https://orcid.org/</uri></binding>
+    </result>
+    <result>
+      <binding name="s"><uri>https://orcid.org/0000-0002-1241-6121</uri></binding>
+      <binding name="p"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
+      <binding name="o"><uri>http://www.w3.org/ns/adms#Identifier</uri></binding>
+    </result>
+    <result>
+      <binding name="s"><uri>https://orcid.org/0000-0002-1241-6121</uri></binding>
+      <binding name="p"><uri>http://www.w3.org/2004/02/skos/core#notation</uri></binding>
+      <binding name="o"><literal datatype="http://www.w3.org/2001/XMLSchema#string">0000-0002-1241-6121</literal></binding>
+    </result>
+    <result>
+      <binding name="s"><uri>https://orcid.org/0000-0002-1241-6121</uri></binding>
+      <binding name="p"><uri>https://model.ccmm.cz/vocabulary/ccmm#inScheme</uri></binding>
+      <binding name="o"><uri>https://orcid.org/</uri></binding>
+    </result>
+    <result>
+      <binding name="s"><uri>https://orcid.org/0000-0002-4982-9114</uri></binding>
+      <binding name="p"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
+      <binding name="o"><uri>http://www.w3.org/ns/adms#Identifier</uri></binding>
+    </result>
+    <result>
+      <binding name="s"><uri>https://orcid.org/0000-0002-4982-9114</uri></binding>
+      <binding name="p"><uri>http://www.w3.org/2004/02/skos/core#notation</uri></binding>
+      <binding name="o"><literal datatype="http://www.w3.org/2001/XMLSchema#string">0000-0002-4982-9114</literal></binding>
+    </result>
+    <result>
+      <binding name="s"><uri>https://orcid.org/0000-0002-4982-9114</uri></binding>
+      <binding name="p"><uri>https://model.ccmm.cz/vocabulary/ccmm#inScheme</uri></binding>
+      <binding name="o"><uri>https://orcid.org/</uri></binding>
+    </result>
+    <result>
+      <binding name="s"><uri>https://orcid.org/0000-0003-4013-9819</uri></binding>
+      <binding name="p"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
+      <binding name="o"><uri>http://www.w3.org/ns/adms#Identifier</uri></binding>
+    </result>
+    <result>
+      <binding name="s"><uri>https://orcid.org/0000-0003-4013-9819</uri></binding>
+      <binding name="p"><uri>http://www.w3.org/2004/02/skos/core#notation</uri></binding>
+      <binding name="o"><literal datatype="http://www.w3.org/2001/XMLSchema#string">0000-0003-4013-9819</literal></binding>
+    </result>
+    <result>
+      <binding name="s"><uri>https://orcid.org/0000-0003-4013-9819</uri></binding>
+      <binding name="p"><uri>https://model.ccmm.cz/vocabulary/ccmm#inScheme</uri></binding>
+      <binding name="o"><uri>https://orcid.org/</uri></binding>
+    </result>
+    <result>
+      <binding name="s"><uri>https://orcid.org/</uri></binding>
+      <binding name="p"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
+      <binding name="o"><uri>https://model.ccmm.cz/vocabulary/ccmm#IdentifierScheme</uri></binding>
+    </result>
+    <result>
+      <binding name="s"><uri>https://orcid.org/</uri></binding>
+      <binding name="p"><uri>http://www.w3.org/2000/01/rdf-schema#label</uri></binding>
+      <binding name="o"><literal xml:lang="en">Open Research and Contributor ID</literal></binding>
+    </result>
+    <result>
+      <binding name="s"><uri>https://orcid.org/</uri></binding>
+      <binding name="p"><uri>http://www.w3.org/2004/02/skos/core#notation</uri></binding>
+      <binding name="o"><literal datatype="http://www.w3.org/2001/XMLSchema#string">ORCID</literal></binding>
+    </result>
+    <result>
+      <binding name="s"><uri>https://ror.org/00hzjtg80</uri></binding>
+      <binding name="p"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
+      <binding name="o"><uri>http://www.w3.org/ns/adms#Identifier</uri></binding>
+    </result>
+    <result>
+      <binding name="s"><uri>https://ror.org/00hzjtg80</uri></binding>
+      <binding name="p"><uri>http://www.w3.org/2004/02/skos/core#notation</uri></binding>
+      <binding name="o"><literal datatype="http://www.w3.org/2001/XMLSchema#string">00hzjtg80</literal></binding>
+    </result>
+    <result>
+      <binding name="s"><uri>https://ror.org/00hzjtg80</uri></binding>
+      <binding name="p"><uri>https://model.ccmm.cz/vocabulary/ccmm#inScheme</uri></binding>
+      <binding name="o"><uri>https://ror.org/</uri></binding>
+    </result>
+    <result>
+      <binding name="s"><uri>https://ror.org/037n8p820</uri></binding>
+      <binding name="p"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
+      <binding name="o"><uri>http://www.w3.org/ns/adms#Identifier</uri></binding>
+    </result>
+    <result>
+      <binding name="s"><uri>https://ror.org/037n8p820</uri></binding>
+      <binding name="p"><uri>http://www.w3.org/2004/02/skos/core#notation</uri></binding>
+      <binding name="o"><literal datatype="http://www.w3.org/2001/XMLSchema#string">037n8p820</literal></binding>
+    </result>
+    <result>
+      <binding name="s"><uri>https://ror.org/037n8p820</uri></binding>
+      <binding name="p"><uri>https://model.ccmm.cz/vocabulary/ccmm#inScheme</uri></binding>
+      <binding name="o"><uri>https://ror.org/</uri></binding>
+    </result>
+    <result>
+      <binding name="s"><uri>https://ror.org/05ggn0a85</uri></binding>
+      <binding name="p"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
+      <binding name="o"><uri>http://www.w3.org/ns/adms#Identifier</uri></binding>
+    </result>
+    <result>
+      <binding name="s"><uri>https://ror.org/05ggn0a85</uri></binding>
+      <binding name="p"><uri>http://www.w3.org/2004/02/skos/core#notation</uri></binding>
+      <binding name="o"><literal datatype="http://www.w3.org/2001/XMLSchema#string">05ggn0a85</literal></binding>
+    </result>
+    <result>
+      <binding name="s"><uri>https://ror.org/05ggn0a85</uri></binding>
+      <binding name="p"><uri>https://model.ccmm.cz/vocabulary/ccmm#inScheme</uri></binding>
+      <binding name="o"><uri>https://ror.org/</uri></binding>
+    </result>
+    <result>
+      <binding name="s"><uri>https://ror.org/</uri></binding>
+      <binding name="p"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
+      <binding name="o"><uri>https://model.ccmm.cz/vocabulary/ccmm#IdentifierScheme</uri></binding>
+    </result>
+    <result>
+      <binding name="s"><uri>https://ror.org/</uri></binding>
+      <binding name="p"><uri>http://www.w3.org/2000/01/rdf-schema#label</uri></binding>
+      <binding name="o"><literal xml:lang="en">Research Organization Registry</literal></binding>
+    </result>
+    <result>
+      <binding name="s"><uri>https://ror.org/</uri></binding>
+      <binding name="p"><uri>http://www.w3.org/2004/02/skos/core#notation</uri></binding>
+      <binding name="o"><literal datatype="http://www.w3.org/2001/XMLSchema#string">ROR</literal></binding>
+    </result>
+    <result>
+      <binding name="s"><uri>https://vocabs.ccmm.cz/registry/codelist/AgentRole/Contributor/DataManager</uri></binding>
+      <binding name="p"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
+      <binding name="o"><uri>http://www.w3.org/ns/dcat#Role</uri></binding>
+    </result>
+    <result>
+      <binding name="s"><uri>https://vocabs.ccmm.cz/registry/codelist/AgentRole/Contributor/DataManager</uri></binding>
+      <binding name="p"><uri>http://www.w3.org/2004/02/skos/core#prefLabel</uri></binding>
+      <binding name="o"><literal xml:lang="en">Data Manager</literal></binding>
+    </result>
+    <result>
+      <binding name="s"><uri>https://vocabs.ccmm.cz/registry/codelist/AgentRole/Contributor/DataManager</uri></binding>
+      <binding name="p"><uri>http://www.w3.org/2004/02/skos/core#prefLabel</uri></binding>
+      <binding name="o"><literal xml:lang="cs">Správce dat</literal></binding>
+    </result>
+    <result>
+      <binding name="s"><uri>https://vocabs.ccmm.cz/registry/codelist/AgentRole/Creator</uri></binding>
+      <binding name="p"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
+      <binding name="o"><uri>http://www.w3.org/ns/dcat#Role</uri></binding>
+    </result>
+    <result>
+      <binding name="s"><uri>https://vocabs.ccmm.cz/registry/codelist/AgentRole/Creator</uri></binding>
+      <binding name="p"><uri>http://www.w3.org/2004/02/skos/core#prefLabel</uri></binding>
+      <binding name="o"><literal xml:lang="cs">Autor</literal></binding>
+    </result>
+    <result>
+      <binding name="s"><uri>https://vocabs.ccmm.cz/registry/codelist/AgentRole/Creator</uri></binding>
+      <binding name="p"><uri>http://www.w3.org/2004/02/skos/core#prefLabel</uri></binding>
+      <binding name="o"><literal xml:lang="en">Creator</literal></binding>
+    </result>
+    <result>
+      <binding name="s"><uri>https://vocabs.ccmm.cz/registry/codelist/AgentRole/Publisher</uri></binding>
+      <binding name="p"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
+      <binding name="o"><uri>http://www.w3.org/ns/dcat#Role</uri></binding>
+    </result>
+    <result>
+      <binding name="s"><uri>https://vocabs.ccmm.cz/registry/codelist/AgentRole/Publisher</uri></binding>
+      <binding name="p"><uri>http://www.w3.org/2004/02/skos/core#prefLabel</uri></binding>
+      <binding name="o"><literal xml:lang="en">Publisher</literal></binding>
+    </result>
+    <result>
+      <binding name="s"><uri>https://vocabs.ccmm.cz/registry/codelist/AgentRole/Publisher</uri></binding>
+      <binding name="p"><uri>http://www.w3.org/2004/02/skos/core#prefLabel</uri></binding>
+      <binding name="o"><literal xml:lang="cs">Vydavatel</literal></binding>
+    </result>
+    <result>
+      <binding name="s"><uri>https://vocabs.ccmm.cz/registry/codelist/AlternateTitle/TranslatedTitle</uri></binding>
+      <binding name="p"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
+      <binding name="o"><uri>http://www.w3.org/2004/02/skos/core#Concept</uri></binding>
+    </result>
+    <result>
+      <binding name="s"><uri>https://vocabs.ccmm.cz/registry/codelist/AlternateTitle/TranslatedTitle</uri></binding>
+      <binding name="p"><uri>http://www.w3.org/2004/02/skos/core#prefLabel</uri></binding>
+      <binding name="o"><literal xml:lang="cs">Přeložený název</literal></binding>
+    </result>
+    <result>
+      <binding name="s"><uri>https://vocabs.ccmm.cz/registry/codelist/AlternateTitle/TranslatedTitle</uri></binding>
+      <binding name="p"><uri>http://www.w3.org/2004/02/skos/core#prefLabel</uri></binding>
+      <binding name="o"><literal xml:lang="en">Translated Title</literal></binding>
+    </result>
+    <result>
+      <binding name="s"><uri>https://vocabs.ccmm.cz/registry/codelist/DescriptionType/Abstract</uri></binding>
+      <binding name="p"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
+      <binding name="o"><uri>http://www.w3.org/2004/02/skos/core#Concept</uri></binding>
+    </result>
+    <result>
+      <binding name="s"><uri>https://vocabs.ccmm.cz/registry/codelist/DescriptionType/Abstract</uri></binding>
+      <binding name="p"><uri>http://www.w3.org/2004/02/skos/core#prefLabel</uri></binding>
+      <binding name="o"><literal xml:lang="en">Abstract</literal></binding>
+    </result>
+    <result>
+      <binding name="s"><uri>https://vocabs.ccmm.cz/registry/codelist/DescriptionType/Abstract</uri></binding>
+      <binding name="p"><uri>http://www.w3.org/2004/02/skos/core#prefLabel</uri></binding>
+      <binding name="o"><literal xml:lang="cs">Abstrakt</literal></binding>
+    </result>
+    <result>
+      <binding name="s"><uri>https://vocabs.ccmm.cz/registry/codelist/DescriptionType/Methods</uri></binding>
+      <binding name="p"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
+      <binding name="o"><uri>http://www.w3.org/2004/02/skos/core#Concept</uri></binding>
+    </result>
+    <result>
+      <binding name="s"><uri>https://vocabs.ccmm.cz/registry/codelist/DescriptionType/Methods</uri></binding>
+      <binding name="p"><uri>http://www.w3.org/2004/02/skos/core#prefLabel</uri></binding>
+      <binding name="o"><literal xml:lang="en">Methods</literal></binding>
+    </result>
+    <result>
+      <binding name="s"><uri>https://vocabs.ccmm.cz/registry/codelist/DescriptionType/Methods</uri></binding>
+      <binding name="p"><uri>http://www.w3.org/2004/02/skos/core#prefLabel</uri></binding>
+      <binding name="o"><literal xml:lang="cs">Metodologie</literal></binding>
+    </result>
+    <result>
+      <binding name="s"><uri>https://vocabs.ccmm.cz/registry/codelist/DescriptionType/TechnicalInfo</uri></binding>
+      <binding name="p"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
+      <binding name="o"><uri>http://www.w3.org/2004/02/skos/core#Concept</uri></binding>
+    </result>
+    <result>
+      <binding name="s"><uri>https://vocabs.ccmm.cz/registry/codelist/DescriptionType/TechnicalInfo</uri></binding>
+      <binding name="p"><uri>http://www.w3.org/2004/02/skos/core#prefLabel</uri></binding>
+      <binding name="o"><literal xml:lang="en">Technical Info</literal></binding>
+    </result>
+    <result>
+      <binding name="s"><uri>https://vocabs.ccmm.cz/registry/codelist/DescriptionType/TechnicalInfo</uri></binding>
+      <binding name="p"><uri>http://www.w3.org/2004/02/skos/core#prefLabel</uri></binding>
+      <binding name="o"><literal xml:lang="cs">Technická informace</literal></binding>
+    </result>
+    <result>
+      <binding name="s"><uri>https://vocabs.ccmm.cz/registry/codelist/RelationType/IsReferencedBy</uri></binding>
+      <binding name="p"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
+      <binding name="o"><uri>http://www.w3.org/2004/02/skos/core#Concept</uri></binding>
+    </result>
+    <result>
+      <binding name="s"><uri>https://vocabs.ccmm.cz/registry/codelist/RelationType/IsReferencedBy</uri></binding>
+      <binding name="p"><uri>http://www.w3.org/2004/02/skos/core#prefLabel</uri></binding>
+      <binding name="o"><literal xml:lang="en">is referenced by</literal></binding>
+    </result>
+    <result>
+      <binding name="s"><uri>https://vocabs.ccmm.cz/registry/codelist/RelationType/IsReferencedBy</uri></binding>
+      <binding name="p"><uri>http://www.w3.org/2004/02/skos/core#prefLabel</uri></binding>
+      <binding name="o"><literal xml:lang="cs">je na něj odkazováno z (čeho)</literal></binding>
+    </result>
+    <result>
+      <binding name="s"><uri>https://vocabs.ccmm.cz/registry/codelist/SubjectCategory/20000/20500/20501</uri></binding>
+      <binding name="p"><uri>http://purl.org/dc/terms/title</uri></binding>
+      <binding name="o"><literal xml:lang="cs">Materiálové inženýrství</literal></binding>
+    </result>
+    <result>
+      <binding name="s"><uri>https://vocabs.ccmm.cz/registry/codelist/SubjectCategory/20000/20500/20501</uri></binding>
+      <binding name="p"><uri>http://purl.org/dc/terms/title</uri></binding>
+      <binding name="o"><literal xml:lang="en">Materials engineering</literal></binding>
+    </result>
+    <result>
+      <binding name="s"><uri>https://vocabs.ccmm.cz/registry/codelist/SubjectCategory/20000/20500/20501</uri></binding>
+      <binding name="p"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
+      <binding name="o"><uri>https://w3id.org/tib/datacite/class/Subject</uri></binding>
+    </result>
+    <result>
+      <binding name="s"><uri>https://vocabs.ccmm.cz/registry/codelist/SubjectCategory/20000/20500/20501</uri></binding>
+      <binding name="p"><uri>https://model.ccmm.cz/vocabulary/ccmm#inSubjectScheme</uri></binding>
+      <binding name="o"><uri>https://vocabs.ccmm.cz/registry/codelist/SubjectCategory/</uri></binding>
+    </result>
+    <result>
+      <binding name="s"><uri>https://vocabs.ccmm.cz/registry/codelist/SubjectCategory/20000/20500/20501</uri></binding>
+      <binding name="p"><uri>https://w3id.org/tib/datacite/property/classificationCode</uri></binding>
+      <binding name="o"><literal datatype="http://www.w3.org/2001/XMLSchema#string">20501</literal></binding>
+    </result>
+    <result>
+      <binding name="s"><uri>https://vocabs.ccmm.cz/registry/codelist/SubjectCategory/</uri></binding>
+      <binding name="p"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
+      <binding name="o"><uri>https://model.ccmm.cz/vocabulary/ccmm#SubjectScheme</uri></binding>
+    </result>
+    <result>
+      <binding name="s"><uri>https://vocabs.ccmm.cz/registry/codelist/SubjectCategory/</uri></binding>
+      <binding name="p"><uri>http://www.w3.org/2000/01/rdf-schema#label</uri></binding>
+      <binding name="o"><literal xml:lang="cs">Oborové třídění OECD FORD (Frascati)</literal></binding>
+    </result>
+    <result>
+      <binding name="s"><uri>https://vocabs.ccmm.cz/registry/codelist/SubjectCategory/</uri></binding>
+      <binding name="p"><uri>http://www.w3.org/2000/01/rdf-schema#label</uri></binding>
+      <binding name="o"><literal xml:lang="en">OECD FORD Subject Category (Frascati)</literal></binding>
+    </result>
+    <result>
+      <binding name="s"><uri>https://vocabs.ccmm.cz/registry/codelist/TimeReference/Available</uri></binding>
+      <binding name="p"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
+      <binding name="o"><uri>http://www.w3.org/2004/02/skos/core#Concept</uri></binding>
+    </result>
+    <result>
+      <binding name="s"><uri>https://vocabs.ccmm.cz/registry/codelist/TimeReference/Available</uri></binding>
+      <binding name="p"><uri>http://www.w3.org/2004/02/skos/core#prefLabel</uri></binding>
+      <binding name="o"><literal xml:lang="en">Date Available</literal></binding>
+    </result>
+    <result>
+      <binding name="s"><uri>https://vocabs.ccmm.cz/registry/codelist/TimeReference/Available</uri></binding>
+      <binding name="p"><uri>http://www.w3.org/2004/02/skos/core#prefLabel</uri></binding>
+      <binding name="o"><literal xml:lang="cs">Datum zveřejnění</literal></binding>
+    </result>
+    <result>
+      <binding name="s"><uri>https://vocabs.ccmm.cz/registry/codelist/TimeReference/Created</uri></binding>
+      <binding name="p"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
+      <binding name="o"><uri>http://www.w3.org/2004/02/skos/core#Concept</uri></binding>
+    </result>
+    <result>
+      <binding name="s"><uri>https://vocabs.ccmm.cz/registry/codelist/TimeReference/Created</uri></binding>
+      <binding name="p"><uri>http://www.w3.org/2004/02/skos/core#prefLabel</uri></binding>
+      <binding name="o"><literal xml:lang="en">Date Created</literal></binding>
+    </result>
+    <result>
+      <binding name="s"><uri>https://vocabs.ccmm.cz/registry/codelist/TimeReference/Created</uri></binding>
+      <binding name="p"><uri>http://www.w3.org/2004/02/skos/core#prefLabel</uri></binding>
+      <binding name="o"><literal xml:lang="cs">Datum vytvoření</literal></binding>
+    </result>
+    <result>
+      <binding name="s"><uri>https://vocabs.ccmm.cz/registry/codelist/TimeReference/Issued</uri></binding>
+      <binding name="p"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
+      <binding name="o"><uri>http://www.w3.org/2004/02/skos/core#Concept</uri></binding>
+    </result>
+    <result>
+      <binding name="s"><uri>https://vocabs.ccmm.cz/registry/codelist/TimeReference/Issued</uri></binding>
+      <binding name="p"><uri>http://www.w3.org/2004/02/skos/core#prefLabel</uri></binding>
+      <binding name="o"><literal xml:lang="en">Date Issued</literal></binding>
+    </result>
+    <result>
+      <binding name="s"><uri>https://vocabs.ccmm.cz/registry/codelist/TimeReference/Issued</uri></binding>
+      <binding name="p"><uri>http://www.w3.org/2004/02/skos/core#prefLabel</uri></binding>
+      <binding name="o"><literal xml:lang="cs">Datum vydání</literal></binding>
+    </result>
+    <result>
+      <binding name="s"><uri>https://vocabularies.coar-repositories.org/access_rights/c_abf2/</uri></binding>
+      <binding name="p"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
+      <binding name="o"><uri>http://purl.org/dc/terms/RightsStatement</uri></binding>
+    </result>
+    <result>
+      <binding name="s"><uri>https://vocabularies.coar-repositories.org/access_rights/c_abf2/</uri></binding>
+      <binding name="p"><uri>http://www.w3.org/2004/02/skos/core#prefLabel</uri></binding>
+      <binding name="o"><literal xml:lang="en">open access</literal></binding>
+    </result>
+    <result>
+      <binding name="s"><uri>https://www.wikidata.org/entity/Q42302581</uri></binding>
+      <binding name="p"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
+      <binding name="o"><uri>https://model.ccmm.cz/vocabulary/ccmm#IdentifierScheme</uri></binding>
+    </result>
+    <result>
+      <binding name="s"><uri>https://www.wikidata.org/entity/Q42302581</uri></binding>
+      <binding name="p"><uri>http://www.w3.org/2000/01/rdf-schema#label</uri></binding>
+      <binding name="o"><literal xml:lang="cs">IČO</literal></binding>
+    </result>
+    <result>
+      <binding name="s"><uri>https://www.wikidata.org/entity/Q42302581</uri></binding>
+      <binding name="p"><uri>http://www.w3.org/2000/01/rdf-schema#label</uri></binding>
+      <binding name="o"><literal xml:lang="cs">Identifikační Číslo Osoby</literal></binding>
+    </result>
+    <result>
+      <binding name="s"><uri>https://www.wikidata.org/entity/Q42302581</uri></binding>
+      <binding name="p"><uri>http://www.w3.org/2004/02/skos/core#notation</uri></binding>
+      <binding name="o"><literal datatype="http://www.w3.org/2001/XMLSchema#string">IČO</literal></binding>
+    </result>
+  </results>
+</sparql>

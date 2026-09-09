@@ -1,0 +1,73 @@
+<http://purl.org/coar/access_right/c_f1cf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/dc/terms/RightsStatement> .
+<http://purl.org/coar/access_right/c_f1cf> <http://www.w3.org/2004/02/skos/core#prefLabel> "embargoed access"@en .
+<https://data.narodni-repozitar.cz> <http://purl.org/dc/terms/description> "Popis původního repozitáře,"@cs .
+<https://data.narodni-repozitar.cz> <http://purl.org/dc/terms/title> "Původní repozitář"@cs .
+<https://data.narodni-repozitar.cz> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Catalog> .
+<https://data.narodni-repozitar.cz> <http://www.w3.org/ns/prov#qualifiedAttribution> _:cb163d274ebff2ffb8057902aa6b27aa5c6bba91446219290339bdf1e791aa902e0 .
+<https://doi.org/10.48700/datst.xd12h-dfz24> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/adms#Identifier> .
+<https://doi.org/10.48700/datst.xd12h-dfz24> <http://www.w3.org/2004/02/skos/core#notation> "10.48700/datst.xd12h-dfz24" .
+<https://doi.org/10.48700/datst.xd12h-dfz24> <https://model.ccmm.cz/vocabulary/ccmm#inScheme> <https://doi.org/> .
+<https://doi.org/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://model.ccmm.cz/vocabulary/ccmm#IdentifierScheme> .
+<https://model.ccmm.cz/research-data/2.0.0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/dc/terms/Standard> .
+<https://model.ccmm.cz/research-data/2.0.0> <http://www.w3.org/2000/01/rdf-schema#label> "Czech Core Metadata Model for Research Data 2.0.0"@en .
+<https://vocabs.ccmm.cz/registry/codelist/AgentRole/Contributor/DataManager> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Role> .
+<https://vocabs.ccmm.cz/registry/codelist/AgentRole/Contributor/DataManager> <http://www.w3.org/2004/02/skos/core#prefLabel> "Data Manager"@en .
+<https://vocabs.ccmm.cz/registry/codelist/AgentRole/Creator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Role> .
+<https://vocabs.ccmm.cz/registry/codelist/AgentRole/Creator> <http://www.w3.org/2004/02/skos/core#prefLabel> "Creator"@en .
+<https://vocabs.ccmm.cz/registry/codelist/AgentRole/Publisher> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Role> .
+<https://vocabs.ccmm.cz/registry/codelist/AgentRole/Publisher> <http://www.w3.org/2004/02/skos/core#prefLabel> "Publisher"@en .
+<https://vocabs.ccmm.cz/registry/codelist/AgentRole/Publisher> <http://www.w3.org/2004/02/skos/core#prefLabel> "Vydavatel"@cs .
+<https://vocabs.ccmm.cz/registry/codelist/SubjectCategory/30000/30300/30304> <http://purl.org/dc/terms/title> "Veřejné a environmentální zdraví"@cs .
+<https://vocabs.ccmm.cz/registry/codelist/SubjectCategory/30000/30300/30304> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/tib/datacite/class/Subject> .
+<https://vocabs.ccmm.cz/registry/codelist/SubjectCategory/30000/30300/30304> <https://model.ccmm.cz/vocabulary/ccmm#inSubjectScheme> <https://vocabs.ccmm.cz/registry/codelist/SubjectCategory/> .
+<https://vocabs.ccmm.cz/registry/codelist/SubjectCategory/30000/30300/30304> <https://w3id.org/tib/datacite/property/classificationCode> "10509" .
+<https://vocabs.ccmm.cz/registry/codelist/SubjectCategory/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://model.ccmm.cz/vocabulary/ccmm#SubjectScheme> .
+<https://vocabs.ccmm.cz/registry/codelist/TimeReference/Created> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://vocabs.ccmm.cz/registry/codelist/TimeReference/Created> <http://www.w3.org/2004/02/skos/core#prefLabel> "Created"@en .
+_:cb11b192b87b18caf1388efcec956eee533c28c7faa2ce7628671dafe41a92470a5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Organization> .
+_:cb11b192b87b18caf1388efcec956eee533c28c7faa2ce7628671dafe41a92470a5 <http://xmlns.com/foaf/0.1/name> "Nějaká organizace" .
+_:cb163d274ebff2ffb8057902aa6b27aa5c6bba91446219290339bdf1e791aa902e0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Attribution> .
+_:cb163d274ebff2ffb8057902aa6b27aa5c6bba91446219290339bdf1e791aa902e0 <http://www.w3.org/ns/dcat#hadRole> <https://vocabs.ccmm.cz/registry/codelist/AgentRole/Publisher> .
+_:cb163d274ebff2ffb8057902aa6b27aa5c6bba91446219290339bdf1e791aa902e0 <http://www.w3.org/ns/prov#agent> _:cbf7a155980736d3e74c158bd029df9efb97564ac590233d153e7b02b8af66cfe3 .
+_:cb182c972a14e199794bf4ff5b0d8eb10e53de17f6adf1926a574087c997a82397a <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Attribution> .
+_:cb182c972a14e199794bf4ff5b0d8eb10e53de17f6adf1926a574087c997a82397a <http://www.w3.org/ns/dcat#hadRole> <https://vocabs.ccmm.cz/registry/codelist/AgentRole/Contributor/DataManager> .
+_:cb182c972a14e199794bf4ff5b0d8eb10e53de17f6adf1926a574087c997a82397a <http://www.w3.org/ns/prov#agent> _:cb22b2e14e8701724c42f65acaf8bfb8a9952615d324a23729b709cd74950873678 .
+_:cb188abe086985713db541039e6c8b9ab925ad67567f028775cc52c078dc733c97e <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Attribution> .
+_:cb188abe086985713db541039e6c8b9ab925ad67567f028775cc52c078dc733c97e <http://www.w3.org/ns/dcat#hadRole> <https://vocabs.ccmm.cz/registry/codelist/AgentRole/Creator> .
+_:cb188abe086985713db541039e6c8b9ab925ad67567f028775cc52c078dc733c97e <http://www.w3.org/ns/prov#agent> _:cb2dca6b37a2f6348d0e76fdc9ba9e8b09225a35b0ec57b8dd1eec8aa7954dfecb1 .
+_:cb19395f6283bce2ab5f862c20ec28a094b938596f0530c82ce2439c8822a0c3490 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2006/time#Instant> .
+_:cb19395f6283bce2ab5f862c20ec28a094b938596f0530c82ce2439c8822a0c3490 <http://www.w3.org/2006/time#inXSDDate> "2024-05-01"^^<http://www.w3.org/2001/XMLSchema#date> .
+_:cb1e399835c7dcaf2cec80d03e860304fa90dc5188c62204b46a48f3acb8680be35 <http://purl.org/dc/terms/conformsTo> <https://model.ccmm.cz/research-data/2.0.0> .
+_:cb1e399835c7dcaf2cec80d03e860304fa90dc5188c62204b46a48f3acb8680be35 <http://purl.org/dc/terms/modified> "2025-07-25"^^<http://www.w3.org/2001/XMLSchema#date> .
+_:cb1e399835c7dcaf2cec80d03e860304fa90dc5188c62204b46a48f3acb8680be35 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#CatalogRecord> .
+_:cb1e399835c7dcaf2cec80d03e860304fa90dc5188c62204b46a48f3acb8680be35 <http://www.w3.org/ns/prov#qualifiedAttribution> _:cb182c972a14e199794bf4ff5b0d8eb10e53de17f6adf1926a574087c997a82397a .
+_:cb1e399835c7dcaf2cec80d03e860304fa90dc5188c62204b46a48f3acb8680be35 <https://model.ccmm.cz/vocabulary/ccmm#originalRepository> <https://data.narodni-repozitar.cz> .
+_:cb22b2e14e8701724c42f65acaf8bfb8a9952615d324a23729b709cd74950873678 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Person> .
+_:cb22b2e14e8701724c42f65acaf8bfb8a9952615d324a23729b709cd74950873678 <http://www.w3.org/2006/vcard/ns#family-name> "Staeklý" .
+_:cb22b2e14e8701724c42f65acaf8bfb8a9952615d324a23729b709cd74950873678 <http://www.w3.org/2006/vcard/ns#given-name> "Pavel" .
+_:cb22b2e14e8701724c42f65acaf8bfb8a9952615d324a23729b709cd74950873678 <http://xmlns.com/foaf/0.1/name> "Pavel Steklý" .
+_:cb24c0dd24251026b031e83f7fc6c7c3eedd6382fdf6a280456f65a273b519a44ed <http://purl.org/dc/terms/accessRights> <http://purl.org/coar/access_right/c_f1cf> .
+_:cb24c0dd24251026b031e83f7fc6c7c3eedd6382fdf6a280456f65a273b519a44ed <http://purl.org/dc/terms/title> "Datová sada pro Údaje o zdravotní gramotnosti a depresi seniorů ve věku 65 a více let" .
+_:cb24c0dd24251026b031e83f7fc6c7c3eedd6382fdf6a280456f65a273b519a44ed <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Dataset> .
+_:cb24c0dd24251026b031e83f7fc6c7c3eedd6382fdf6a280456f65a273b519a44ed <http://www.w3.org/ns/adms#identifier> <https://doi.org/10.48700/datst.xd12h-dfz24> .
+_:cb24c0dd24251026b031e83f7fc6c7c3eedd6382fdf6a280456f65a273b519a44ed <http://www.w3.org/ns/prov#qualifiedAttribution> _:cb188abe086985713db541039e6c8b9ab925ad67567f028775cc52c078dc733c97e .
+_:cb24c0dd24251026b031e83f7fc6c7c3eedd6382fdf6a280456f65a273b519a44ed <http://www.w3.org/ns/prov#qualifiedAttribution> _:cbc3df3bad47669afb5ac99207400e7699b5be7f3f9ddd495eb5c99f0d6201e76c .
+_:cb24c0dd24251026b031e83f7fc6c7c3eedd6382fdf6a280456f65a273b519a44ed <https://model.ccmm.cz/vocabulary/ccmm#hasTimeReference> _:cb902cb2223c13da0f7f1d235a28c462c4d28645df1f4e3958916fa6a0b8724657 .
+_:cb24c0dd24251026b031e83f7fc6c7c3eedd6382fdf6a280456f65a273b519a44ed <https://model.ccmm.cz/vocabulary/ccmm#isDescribedBy> _:cb1e399835c7dcaf2cec80d03e860304fa90dc5188c62204b46a48f3acb8680be35 .
+_:cb24c0dd24251026b031e83f7fc6c7c3eedd6382fdf6a280456f65a273b519a44ed <https://w3id.org/tib/datacite/property/description> _:cb335baaed11ecbd0f7b99a38a65271db98d0f192d78acdb3d3321732953b8c7e1 .
+_:cb24c0dd24251026b031e83f7fc6c7c3eedd6382fdf6a280456f65a273b519a44ed <https://w3id.org/tib/datacite/property/publicationYear> "2026"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+_:cb24c0dd24251026b031e83f7fc6c7c3eedd6382fdf6a280456f65a273b519a44ed <https://w3id.org/tib/datacite/property/subject> <https://vocabs.ccmm.cz/registry/codelist/SubjectCategory/30000/30300/30304> .
+_:cb2dca6b37a2f6348d0e76fdc9ba9e8b09225a35b0ec57b8dd1eec8aa7954dfecb1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Person> .
+_:cb2dca6b37a2f6348d0e76fdc9ba9e8b09225a35b0ec57b8dd1eec8aa7954dfecb1 <http://www.w3.org/2006/vcard/ns#family-name> "Bártlová" .
+_:cb2dca6b37a2f6348d0e76fdc9ba9e8b09225a35b0ec57b8dd1eec8aa7954dfecb1 <http://www.w3.org/2006/vcard/ns#given-name> "Sylva" .
+_:cb2dca6b37a2f6348d0e76fdc9ba9e8b09225a35b0ec57b8dd1eec8aa7954dfecb1 <http://xmlns.com/foaf/0.1/name> "Bártlová, Sylva" .
+_:cb335baaed11ecbd0f7b99a38a65271db98d0f192d78acdb3d3321732953b8c7e1 <http://purl.org/dc/terms/description> "Toto je jen ukázka metadat pro neexistující datovou sadu."@cs .
+_:cb335baaed11ecbd0f7b99a38a65271db98d0f192d78acdb3d3321732953b8c7e1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/tib/datacite/class/Description> .
+_:cb902cb2223c13da0f7f1d235a28c462c4d28645df1f4e3958916fa6a0b8724657 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://model.ccmm.cz/vocabulary/ccmm#TimeReference> .
+_:cb902cb2223c13da0f7f1d235a28c462c4d28645df1f4e3958916fa6a0b8724657 <http://www.w3.org/2006/time#hasTime> _:cb19395f6283bce2ab5f862c20ec28a094b938596f0530c82ce2439c8822a0c3490 .
+_:cb902cb2223c13da0f7f1d235a28c462c4d28645df1f4e3958916fa6a0b8724657 <https://model.ccmm.cz/vocabulary/ccmm#hasType> <https://vocabs.ccmm.cz/registry/codelist/TimeReference/Created> .
+_:cbc3df3bad47669afb5ac99207400e7699b5be7f3f9ddd495eb5c99f0d6201e76c <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Attribution> .
+_:cbc3df3bad47669afb5ac99207400e7699b5be7f3f9ddd495eb5c99f0d6201e76c <http://www.w3.org/ns/dcat#hadRole> <https://vocabs.ccmm.cz/registry/codelist/AgentRole/Publisher> .
+_:cbc3df3bad47669afb5ac99207400e7699b5be7f3f9ddd495eb5c99f0d6201e76c <http://www.w3.org/ns/prov#agent> _:cb11b192b87b18caf1388efcec956eee533c28c7faa2ce7628671dafe41a92470a5 .
+_:cbf7a155980736d3e74c158bd029df9efb97564ac590233d153e7b02b8af66cfe3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Organization> .
+_:cbf7a155980736d3e74c158bd029df9efb97564ac590233d153e7b02b8af66cfe3 <http://xmlns.com/foaf/0.1/name> "Univerzita Karlova" .

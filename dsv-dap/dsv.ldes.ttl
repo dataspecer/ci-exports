@@ -1,0 +1,1598 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix dsv: <https://w3id.org/dsv#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix cardinality: <https://w3id.org/dsv/cardinality#>.
+@prefix requirement: <https://w3id.org/dsv/requirement-level#>.
+@prefix role: <https://w3id.org/dsv/class-role#>.
+@prefix ldes: <https://w3id.org/ldes#>.
+@prefix tree: <https://w3id.org/tree#>.
+@prefix as: <https://www.w3.org/ns/activitystreams#>.
+@prefix ds-ldes: <https://schemas.dataspecer.com/ldes#>.
+
+
+<> a ldes:EventStream, tree:Collection;
+    ldes:timestampPath dct:issued;
+    ldes:versionTimestampPath dct:created;
+    ldes:sequencePath ds-ldes:sequence;
+    ldes:transactionPath ds-ldes:transaction;
+    ldes:versionOfPath dct:isVersionOf;
+    ldes:versionCreateObject as:Create;
+    ldes:versionUpdateObject as:Update;
+    ldes:versionDeleteObject as:Delete;
+    tree:view <>;
+    ds-ldes:publishedModel <https://w3id.org/dsv-dap#>.
+
+<https://w3id.org/dsv-dap#> a dsv:ApplicationProfile.
+
+<> tree:member <https://w3id.org/dsv-dap#ResourceDescriptor-2026-04-02T07:23:42.148Z-0>.
+
+<https://w3id.org/dsv-dap#ResourceDescriptor-2026-04-02T07:23:42.148Z-0> a as:Create;
+    dct:isVersionOf <https://w3id.org/dsv-dap#ResourceDescriptor>;
+    dct:created "2026-04-02T07:23:42.148Z"^^xsd:dateTime;
+    dct:issued "2026-04-02T07:23:42.148Z"^^xsd:dateTime;
+    ds-ldes:sequence 0;
+    ds-ldes:transaction "2cc91a3e-daf6-429e-acf5-8298b749786a";
+    dct:isPartOf <https://w3id.org/dsv-dap#>;
+    a dsv:TermProfile;
+    dsv:reusesPropertyValue [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty rdfs:label;
+  dsv:reusedAsProperty skos:prefLabel;
+  dsv:reusedFromResource <http://www.w3.org/ns/dx/prof/ResourceDescriptor>
+], [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty skos:definition;
+  dsv:reusedAsProperty skos:definition;
+  dsv:reusedFromResource <http://www.w3.org/ns/dx/prof/ResourceDescriptor>
+];
+    a dsv:ClassProfile;
+    dsv:class <http://www.w3.org/ns/adms#AssetDistribution>, <http://www.w3.org/ns/dx/prof/ResourceDescriptor>;
+    dsv:classRole role:supportive.
+
+<> tree:member <https://w3id.org/dsv-dap#TermProfile-2026-04-02T07:23:42.148Z-1>.
+
+<https://w3id.org/dsv-dap#TermProfile-2026-04-02T07:23:42.148Z-1> a as:Create;
+    dct:isVersionOf <https://w3id.org/dsv-dap#TermProfile>;
+    dct:created "2026-04-02T07:23:42.148Z"^^xsd:dateTime;
+    dct:issued "2026-04-02T07:23:42.148Z"^^xsd:dateTime;
+    ds-ldes:sequence 1;
+    ds-ldes:transaction "2cc91a3e-daf6-429e-acf5-8298b749786a";
+    dct:isPartOf <https://w3id.org/dsv-dap#>;
+    a dsv:TermProfile;
+    dsv:specializes <https://w3id.org/dsv-dap#Term>;
+    dsv:reusesPropertyValue [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty rdfs:label;
+  dsv:reusedAsProperty skos:prefLabel;
+  dsv:reusedFromResource dsv:TermProfile
+], [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty rdfs:comment;
+  dsv:reusedAsProperty skos:definition;
+  dsv:reusedFromResource dsv:TermProfile
+];
+    a dsv:ClassProfile;
+    dsv:class dsv:TermProfile;
+    dsv:classRole role:main.
+
+<> tree:member <https://w3id.org/dsv-dap#ClassProfile-2026-04-02T07:23:42.148Z-2>.
+
+<https://w3id.org/dsv-dap#ClassProfile-2026-04-02T07:23:42.148Z-2> a as:Create;
+    dct:isVersionOf <https://w3id.org/dsv-dap#ClassProfile>;
+    dct:created "2026-04-02T07:23:42.148Z"^^xsd:dateTime;
+    dct:issued "2026-04-02T07:23:42.148Z"^^xsd:dateTime;
+    ds-ldes:sequence 2;
+    ds-ldes:transaction "2cc91a3e-daf6-429e-acf5-8298b749786a";
+    dct:isPartOf <https://w3id.org/dsv-dap#>;
+    a dsv:TermProfile;
+    dsv:specializes <https://w3id.org/dsv-dap#TermProfile>;
+    dsv:reusesPropertyValue [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty rdfs:label;
+  dsv:reusedAsProperty skos:prefLabel;
+  dsv:reusedFromResource dsv:ClassProfile
+], [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty rdfs:comment;
+  dsv:reusedAsProperty skos:definition;
+  dsv:reusedFromResource dsv:ClassProfile
+];
+    a dsv:ClassProfile;
+    dsv:class dsv:ClassProfile;
+    dsv:classRole role:main.
+
+<> tree:member <https://w3id.org/dsv-dap#PropertyProfile-2026-04-02T07:23:42.148Z-3>.
+
+<https://w3id.org/dsv-dap#PropertyProfile-2026-04-02T07:23:42.148Z-3> a as:Create;
+    dct:isVersionOf <https://w3id.org/dsv-dap#PropertyProfile>;
+    dct:created "2026-04-02T07:23:42.148Z"^^xsd:dateTime;
+    dct:issued "2026-04-02T07:23:42.148Z"^^xsd:dateTime;
+    ds-ldes:sequence 3;
+    ds-ldes:transaction "2cc91a3e-daf6-429e-acf5-8298b749786a";
+    dct:isPartOf <https://w3id.org/dsv-dap#>;
+    a dsv:TermProfile;
+    dsv:specializes <https://w3id.org/dsv-dap#TermProfile>;
+    dsv:reusesPropertyValue [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty rdfs:label;
+  dsv:reusedAsProperty skos:prefLabel;
+  dsv:reusedFromResource dsv:PropertyProfile
+], [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty rdfs:comment;
+  dsv:reusedAsProperty skos:definition;
+  dsv:reusedFromResource dsv:PropertyProfile
+];
+    a dsv:ClassProfile;
+    dsv:class dsv:PropertyProfile;
+    dsv:classRole role:main.
+
+<> tree:member <https://w3id.org/dsv-dap#ObjectPropertyProfile-2026-04-02T07:23:42.148Z-4>.
+
+<https://w3id.org/dsv-dap#ObjectPropertyProfile-2026-04-02T07:23:42.148Z-4> a as:Create;
+    dct:isVersionOf <https://w3id.org/dsv-dap#ObjectPropertyProfile>;
+    dct:created "2026-04-02T07:23:42.148Z"^^xsd:dateTime;
+    dct:issued "2026-04-02T07:23:42.148Z"^^xsd:dateTime;
+    ds-ldes:sequence 4;
+    ds-ldes:transaction "2cc91a3e-daf6-429e-acf5-8298b749786a";
+    dct:isPartOf <https://w3id.org/dsv-dap#>;
+    a dsv:TermProfile;
+    dsv:specializes <https://w3id.org/dsv-dap#PropertyProfile>;
+    dsv:reusesPropertyValue [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty rdfs:label;
+  dsv:reusedAsProperty skos:prefLabel;
+  dsv:reusedFromResource dsv:ObjectPropertyProfile
+], [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty rdfs:comment;
+  dsv:reusedAsProperty skos:definition;
+  dsv:reusedFromResource dsv:ObjectPropertyProfile
+];
+    a dsv:ClassProfile;
+    dsv:class dsv:ObjectPropertyProfile;
+    dsv:classRole role:main.
+
+<> tree:member <https://w3id.org/dsv-dap#DatatypePropertyProfile-2026-04-02T07:23:42.148Z-5>.
+
+<https://w3id.org/dsv-dap#DatatypePropertyProfile-2026-04-02T07:23:42.148Z-5> a as:Create;
+    dct:isVersionOf <https://w3id.org/dsv-dap#DatatypePropertyProfile>;
+    dct:created "2026-04-02T07:23:42.148Z"^^xsd:dateTime;
+    dct:issued "2026-04-02T07:23:42.148Z"^^xsd:dateTime;
+    ds-ldes:sequence 5;
+    ds-ldes:transaction "2cc91a3e-daf6-429e-acf5-8298b749786a";
+    dct:isPartOf <https://w3id.org/dsv-dap#>;
+    a dsv:TermProfile;
+    dsv:specializes <https://w3id.org/dsv-dap#PropertyProfile>;
+    dsv:reusesPropertyValue [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty rdfs:label;
+  dsv:reusedAsProperty skos:prefLabel;
+  dsv:reusedFromResource dsv:DatatypePropertyProfile
+], [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty rdfs:comment;
+  dsv:reusedAsProperty skos:definition;
+  dsv:reusedFromResource dsv:DatatypePropertyProfile
+];
+    a dsv:ClassProfile;
+    dsv:class dsv:DatatypePropertyProfile;
+    dsv:classRole role:main.
+
+<> tree:member <https://w3id.org/dsv-dap#PropertyValueReuse-2026-04-02T07:23:42.148Z-6>.
+
+<https://w3id.org/dsv-dap#PropertyValueReuse-2026-04-02T07:23:42.148Z-6> a as:Create;
+    dct:isVersionOf <https://w3id.org/dsv-dap#PropertyValueReuse>;
+    dct:created "2026-04-02T07:23:42.148Z"^^xsd:dateTime;
+    dct:issued "2026-04-02T07:23:42.148Z"^^xsd:dateTime;
+    ds-ldes:sequence 6;
+    ds-ldes:transaction "2cc91a3e-daf6-429e-acf5-8298b749786a";
+    dct:isPartOf <https://w3id.org/dsv-dap#>;
+    a dsv:TermProfile;
+    dsv:reusesPropertyValue [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty rdfs:label;
+  dsv:reusedAsProperty skos:prefLabel;
+  dsv:reusedFromResource dsv:PropertyValueReuse
+], [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty rdfs:comment;
+  dsv:reusedAsProperty skos:definition;
+  dsv:reusedFromResource dsv:PropertyValueReuse
+];
+    a dsv:ClassProfile;
+    dsv:class dsv:PropertyValueReuse;
+    dsv:classRole role:main.
+
+<> tree:member <https://w3id.org/dsv-dap#Term-2026-04-02T07:23:42.148Z-7>.
+
+<https://w3id.org/dsv-dap#Term-2026-04-02T07:23:42.148Z-7> a as:Create;
+    dct:isVersionOf <https://w3id.org/dsv-dap#Term>;
+    dct:created "2026-04-02T07:23:42.148Z"^^xsd:dateTime;
+    dct:issued "2026-04-02T07:23:42.148Z"^^xsd:dateTime;
+    ds-ldes:sequence 7;
+    ds-ldes:transaction "2cc91a3e-daf6-429e-acf5-8298b749786a";
+    dct:isPartOf <https://w3id.org/dsv-dap#>;
+    a dsv:TermProfile;
+    skos:prefLabel "Term"@en;
+    skos:scopeNote "In the context of DSV, Term is used as a common denominator for Classes, Properties and their profiles."@en;
+    dsv:reusesPropertyValue [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty rdfs:comment;
+  dsv:reusedAsProperty skos:definition;
+  dsv:reusedFromResource rdfs:Resource
+];
+    a dsv:ClassProfile;
+    dsv:class rdfs:Resource;
+    dsv:classRole role:supportive.
+
+<> tree:member <https://w3id.org/dsv-dap#Property-2026-04-02T07:23:42.148Z-8>.
+
+<https://w3id.org/dsv-dap#Property-2026-04-02T07:23:42.148Z-8> a as:Create;
+    dct:isVersionOf <https://w3id.org/dsv-dap#Property>;
+    dct:created "2026-04-02T07:23:42.148Z"^^xsd:dateTime;
+    dct:issued "2026-04-02T07:23:42.148Z"^^xsd:dateTime;
+    ds-ldes:sequence 8;
+    ds-ldes:transaction "2cc91a3e-daf6-429e-acf5-8298b749786a";
+    dct:isPartOf <https://w3id.org/dsv-dap#>;
+    a dsv:TermProfile;
+    dsv:specializes <https://w3id.org/dsv-dap#Term>;
+    dsv:reusesPropertyValue [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty rdfs:label;
+  dsv:reusedAsProperty skos:prefLabel;
+  dsv:reusedFromResource rdf:Property
+], [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty rdfs:comment;
+  dsv:reusedAsProperty skos:definition;
+  dsv:reusedFromResource rdf:Property
+];
+    a dsv:ClassProfile;
+    dsv:class rdf:Property;
+    dsv:classRole role:supportive.
+
+<> tree:member <https://w3id.org/dsv-dap#Class-2026-04-02T07:23:42.148Z-9>.
+
+<https://w3id.org/dsv-dap#Class-2026-04-02T07:23:42.148Z-9> a as:Create;
+    dct:isVersionOf <https://w3id.org/dsv-dap#Class>;
+    dct:created "2026-04-02T07:23:42.148Z"^^xsd:dateTime;
+    dct:issued "2026-04-02T07:23:42.148Z"^^xsd:dateTime;
+    ds-ldes:sequence 9;
+    ds-ldes:transaction "2cc91a3e-daf6-429e-acf5-8298b749786a";
+    dct:isPartOf <https://w3id.org/dsv-dap#>;
+    a dsv:TermProfile;
+    dsv:specializes <https://w3id.org/dsv-dap#Term>;
+    dsv:reusesPropertyValue [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty rdfs:label;
+  dsv:reusedAsProperty skos:prefLabel;
+  dsv:reusedFromResource rdfs:Class
+], [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty rdfs:comment;
+  dsv:reusedAsProperty skos:definition;
+  dsv:reusedFromResource rdfs:Class
+];
+    a dsv:ClassProfile;
+    dsv:class rdfs:Class, owl:Class;
+    dsv:classRole role:supportive.
+
+<> tree:member <https://w3id.org/dsv-dap#InvalidTermProfile-2026-04-02T07:23:42.148Z-10>.
+
+<https://w3id.org/dsv-dap#InvalidTermProfile-2026-04-02T07:23:42.148Z-10> a as:Create;
+    dct:isVersionOf <https://w3id.org/dsv-dap#InvalidTermProfile>;
+    dct:created "2026-04-02T07:23:42.148Z"^^xsd:dateTime;
+    dct:issued "2026-04-02T07:23:42.148Z"^^xsd:dateTime;
+    ds-ldes:sequence 10;
+    ds-ldes:transaction "2cc91a3e-daf6-429e-acf5-8298b749786a";
+    dct:isPartOf <https://w3id.org/dsv-dap#>;
+    a dsv:TermProfile;
+    skos:prefLabel "Nevalidní profil"@cs, "Invalid Term Profile"@en;
+    dsv:specializes <https://w3id.org/dsv-dap#TermProfile>;
+    dsv:reusesPropertyValue [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty rdfs:comment;
+  dsv:reusedAsProperty skos:definition;
+  dsv:reusedFromResource dsv:InvalidTermProfile
+];
+    a dsv:ClassProfile;
+    dsv:class dsv:InvalidTermProfile;
+    dsv:classRole role:main.
+
+<> tree:member <https://w3id.org/dsv-dap#Term.isdefinedby-2026-04-02T07:23:42.148Z-11>.
+
+<https://w3id.org/dsv-dap#Term.isdefinedby-2026-04-02T07:23:42.148Z-11> a as:Create;
+    dct:isVersionOf <https://w3id.org/dsv-dap#Term.isdefinedby>;
+    dct:created "2026-04-02T07:23:42.148Z"^^xsd:dateTime;
+    dct:issued "2026-04-02T07:23:42.148Z"^^xsd:dateTime;
+    ds-ldes:sequence 11;
+    ds-ldes:transaction "2cc91a3e-daf6-429e-acf5-8298b749786a";
+    dct:isPartOf <https://w3id.org/dsv-dap#>;
+    a dsv:TermProfile;
+    skos:prefLabel "is defined by"@en;
+    dsv:reusesPropertyValue [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty rdfs:comment;
+  dsv:reusedAsProperty skos:definition;
+  dsv:reusedFromResource rdfs:isDefinedBy
+];
+    dsv:cardinality cardinality:11;
+    dsv:property rdfs:isDefinedBy;
+    dsv:domain <https://w3id.org/dsv-dap#Term>;
+    a dsv:ObjectPropertyProfile;
+    dsv:objectPropertyRange <https://w3id.org/dsv-dap#Vocabulary>.
+
+<> tree:member <https://w3id.org/dsv-dap#PropertyProfile.profiledProperty-2026-04-02T07:23:42.148Z-12>.
+
+<https://w3id.org/dsv-dap#PropertyProfile.profiledProperty-2026-04-02T07:23:42.148Z-12> a as:Create;
+    dct:isVersionOf <https://w3id.org/dsv-dap#PropertyProfile.profiledProperty>;
+    dct:created "2026-04-02T07:23:42.148Z"^^xsd:dateTime;
+    dct:issued "2026-04-02T07:23:42.148Z"^^xsd:dateTime;
+    ds-ldes:sequence 12;
+    ds-ldes:transaction "2cc91a3e-daf6-429e-acf5-8298b749786a";
+    dct:isPartOf <https://w3id.org/dsv-dap#>;
+    a dsv:TermProfile;
+    dsv:reusesPropertyValue [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty rdfs:label;
+  dsv:reusedAsProperty skos:prefLabel;
+  dsv:reusedFromResource dsv:property
+], [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty rdfs:comment;
+  dsv:reusedAsProperty skos:definition;
+  dsv:reusedFromResource dsv:property
+];
+    dsv:cardinality cardinality:11;
+    dsv:property dsv:property;
+    dsv:domain <https://w3id.org/dsv-dap#PropertyProfile>;
+    a dsv:ObjectPropertyProfile;
+    dsv:objectPropertyRange <https://w3id.org/dsv-dap#Property>.
+
+<> tree:member <https://w3id.org/dsv-dap#Datatype-2026-04-02T07:23:42.148Z-13>.
+
+<https://w3id.org/dsv-dap#Datatype-2026-04-02T07:23:42.148Z-13> a as:Create;
+    dct:isVersionOf <https://w3id.org/dsv-dap#Datatype>;
+    dct:created "2026-04-02T07:23:42.148Z"^^xsd:dateTime;
+    dct:issued "2026-04-02T07:23:42.148Z"^^xsd:dateTime;
+    ds-ldes:sequence 13;
+    ds-ldes:transaction "2cc91a3e-daf6-429e-acf5-8298b749786a";
+    dct:isPartOf <https://w3id.org/dsv-dap#>;
+    a dsv:TermProfile;
+    dsv:reusesPropertyValue [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty rdfs:label;
+  dsv:reusedAsProperty skos:prefLabel;
+  dsv:reusedFromResource rdfs:Datatype
+], [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty rdfs:comment;
+  dsv:reusedAsProperty skos:definition;
+  dsv:reusedFromResource rdfs:Datatype
+];
+    a dsv:ClassProfile;
+    dsv:class rdfs:Datatype;
+    dsv:classRole role:supportive.
+
+<> tree:member <https://w3id.org/dsv-dap#DatatypePropertyProfile.datatype-2026-04-02T07:23:42.148Z-14>.
+
+<https://w3id.org/dsv-dap#DatatypePropertyProfile.datatype-2026-04-02T07:23:42.148Z-14> a as:Create;
+    dct:isVersionOf <https://w3id.org/dsv-dap#DatatypePropertyProfile.datatype>;
+    dct:created "2026-04-02T07:23:42.148Z"^^xsd:dateTime;
+    dct:issued "2026-04-02T07:23:42.148Z"^^xsd:dateTime;
+    ds-ldes:sequence 14;
+    ds-ldes:transaction "2cc91a3e-daf6-429e-acf5-8298b749786a";
+    dct:isPartOf <https://w3id.org/dsv-dap#>;
+    a dsv:TermProfile;
+    skos:definition "Datatype used with this Datatype property profile."@en;
+    dsv:reusesPropertyValue [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty rdfs:label;
+  dsv:reusedAsProperty skos:prefLabel;
+  dsv:reusedFromResource dsv:datatype
+];
+    dsv:cardinality cardinality:11;
+    dsv:property dsv:datatype;
+    dsv:domain <https://w3id.org/dsv-dap#DatatypePropertyProfile>;
+    a dsv:ObjectPropertyProfile;
+    dsv:objectPropertyRange <https://w3id.org/dsv-dap#Datatype>.
+
+<> tree:member <https://w3id.org/dsv-dap#ObjectPropertyProfile.range-2026-04-02T07:23:42.148Z-15>.
+
+<https://w3id.org/dsv-dap#ObjectPropertyProfile.range-2026-04-02T07:23:42.148Z-15> a as:Create;
+    dct:isVersionOf <https://w3id.org/dsv-dap#ObjectPropertyProfile.range>;
+    dct:created "2026-04-02T07:23:42.148Z"^^xsd:dateTime;
+    dct:issued "2026-04-02T07:23:42.148Z"^^xsd:dateTime;
+    ds-ldes:sequence 15;
+    ds-ldes:transaction "2cc91a3e-daf6-429e-acf5-8298b749786a";
+    dct:isPartOf <https://w3id.org/dsv-dap#>;
+    a dsv:TermProfile;
+    dsv:reusesPropertyValue [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty rdfs:label;
+  dsv:reusedAsProperty skos:prefLabel;
+  dsv:reusedFromResource dsv:range
+], [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty rdfs:comment;
+  dsv:reusedAsProperty skos:definition;
+  dsv:reusedFromResource dsv:range
+];
+    dsv:cardinality cardinality:11;
+    dsv:property dsv:range;
+    dsv:domain <https://w3id.org/dsv-dap#ObjectPropertyProfile>;
+    a dsv:ObjectPropertyProfile;
+    dsv:objectPropertyRange <https://w3id.org/dsv-dap#ClassProfile>.
+
+<> tree:member <https://w3id.org/dsv-dap#PropertyProfile.domain-2026-04-02T07:23:42.148Z-16>.
+
+<https://w3id.org/dsv-dap#PropertyProfile.domain-2026-04-02T07:23:42.148Z-16> a as:Create;
+    dct:isVersionOf <https://w3id.org/dsv-dap#PropertyProfile.domain>;
+    dct:created "2026-04-02T07:23:42.148Z"^^xsd:dateTime;
+    dct:issued "2026-04-02T07:23:42.148Z"^^xsd:dateTime;
+    ds-ldes:sequence 16;
+    ds-ldes:transaction "2cc91a3e-daf6-429e-acf5-8298b749786a";
+    dct:isPartOf <https://w3id.org/dsv-dap#>;
+    a dsv:TermProfile;
+    dsv:reusesPropertyValue [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty rdfs:label;
+  dsv:reusedAsProperty skos:prefLabel;
+  dsv:reusedFromResource dsv:domain
+], [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty rdfs:comment;
+  dsv:reusedAsProperty skos:definition;
+  dsv:reusedFromResource dsv:domain
+];
+    dsv:cardinality cardinality:11;
+    dsv:property dsv:domain;
+    dsv:domain <https://w3id.org/dsv-dap#PropertyProfile>;
+    a dsv:ObjectPropertyProfile;
+    dsv:objectPropertyRange <https://w3id.org/dsv-dap#ClassProfile>.
+
+<> tree:member <https://w3id.org/dsv-dap#PropertyValueReuse.reusedFromResource-2026-04-02T07:23:42.148Z-17>.
+
+<https://w3id.org/dsv-dap#PropertyValueReuse.reusedFromResource-2026-04-02T07:23:42.148Z-17> a as:Create;
+    dct:isVersionOf <https://w3id.org/dsv-dap#PropertyValueReuse.reusedFromResource>;
+    dct:created "2026-04-02T07:23:42.148Z"^^xsd:dateTime;
+    dct:issued "2026-04-02T07:23:42.148Z"^^xsd:dateTime;
+    ds-ldes:sequence 17;
+    ds-ldes:transaction "2cc91a3e-daf6-429e-acf5-8298b749786a";
+    dct:isPartOf <https://w3id.org/dsv-dap#>;
+    a dsv:TermProfile;
+    dsv:reusesPropertyValue [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty rdfs:label;
+  dsv:reusedAsProperty skos:prefLabel;
+  dsv:reusedFromResource dsv:reusedFromResource
+], [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty rdfs:comment;
+  dsv:reusedAsProperty skos:definition;
+  dsv:reusedFromResource dsv:reusedFromResource
+];
+    dsv:cardinality cardinality:11;
+    dsv:property dsv:reusedFromResource;
+    dsv:domain <https://w3id.org/dsv-dap#PropertyValueReuse>;
+    a dsv:ObjectPropertyProfile;
+    dsv:objectPropertyRange <https://w3id.org/dsv-dap#Term>.
+
+<> tree:member <https://w3id.org/dsv-dap#PropertyValueReuse.reusedProperty-2026-04-02T07:23:42.148Z-18>.
+
+<https://w3id.org/dsv-dap#PropertyValueReuse.reusedProperty-2026-04-02T07:23:42.148Z-18> a as:Create;
+    dct:isVersionOf <https://w3id.org/dsv-dap#PropertyValueReuse.reusedProperty>;
+    dct:created "2026-04-02T07:23:42.148Z"^^xsd:dateTime;
+    dct:issued "2026-04-02T07:23:42.148Z"^^xsd:dateTime;
+    ds-ldes:sequence 18;
+    ds-ldes:transaction "2cc91a3e-daf6-429e-acf5-8298b749786a";
+    dct:isPartOf <https://w3id.org/dsv-dap#>;
+    a dsv:TermProfile;
+    dsv:reusesPropertyValue [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty rdfs:label;
+  dsv:reusedAsProperty skos:prefLabel;
+  dsv:reusedFromResource dsv:reusedProperty
+], [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty rdfs:comment;
+  dsv:reusedAsProperty skos:definition;
+  dsv:reusedFromResource dsv:reusedProperty
+];
+    dsv:cardinality cardinality:11;
+    dsv:property dsv:reusedProperty;
+    dsv:domain <https://w3id.org/dsv-dap#PropertyValueReuse>;
+    a dsv:ObjectPropertyProfile;
+    dsv:objectPropertyRange <https://w3id.org/dsv-dap#Property>.
+
+<> tree:member <https://w3id.org/dsv-dap#TermProfile.reusesPropertyValue-2026-04-02T07:23:42.148Z-19>.
+
+<https://w3id.org/dsv-dap#TermProfile.reusesPropertyValue-2026-04-02T07:23:42.148Z-19> a as:Create;
+    dct:isVersionOf <https://w3id.org/dsv-dap#TermProfile.reusesPropertyValue>;
+    dct:created "2026-04-02T07:23:42.148Z"^^xsd:dateTime;
+    dct:issued "2026-04-02T07:23:42.148Z"^^xsd:dateTime;
+    ds-ldes:sequence 19;
+    ds-ldes:transaction "2cc91a3e-daf6-429e-acf5-8298b749786a";
+    dct:isPartOf <https://w3id.org/dsv-dap#>;
+    a dsv:TermProfile;
+    dsv:reusesPropertyValue [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty rdfs:label;
+  dsv:reusedAsProperty skos:prefLabel;
+  dsv:reusedFromResource dsv:reusesPropertyValue
+], [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty rdfs:comment;
+  dsv:reusedAsProperty skos:definition;
+  dsv:reusedFromResource dsv:reusesPropertyValue
+];
+    dsv:cardinality cardinality:0n;
+    dsv:property dsv:reusesPropertyValue;
+    dsv:domain <https://w3id.org/dsv-dap#TermProfile>;
+    a dsv:ObjectPropertyProfile;
+    dsv:objectPropertyRange <https://w3id.org/dsv-dap#PropertyValueReuse>.
+
+<> tree:member <https://w3id.org/dsv-dap#TermProfile.isPartOf-2026-04-02T07:23:42.148Z-20>.
+
+<https://w3id.org/dsv-dap#TermProfile.isPartOf-2026-04-02T07:23:42.148Z-20> a as:Create;
+    dct:isVersionOf <https://w3id.org/dsv-dap#TermProfile.isPartOf>;
+    dct:created "2026-04-02T07:23:42.148Z"^^xsd:dateTime;
+    dct:issued "2026-04-02T07:23:42.148Z"^^xsd:dateTime;
+    ds-ldes:sequence 20;
+    ds-ldes:transaction "2cc91a3e-daf6-429e-acf5-8298b749786a";
+    dct:isPartOf <https://w3id.org/dsv-dap#>;
+    a dsv:TermProfile;
+    skos:prefLabel "is part of"@en;
+    dsv:reusesPropertyValue [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty rdfs:comment;
+  dsv:reusedAsProperty skos:definition;
+  dsv:reusedFromResource dct:isPartOf
+];
+    dsv:cardinality cardinality:11;
+    dsv:property dct:isPartOf;
+    dsv:domain <https://w3id.org/dsv-dap#TermProfile>;
+    a dsv:ObjectPropertyProfile;
+    dsv:objectPropertyRange <https://w3id.org/dsv-dap#ApplicationProfile>.
+
+<> tree:member <https://w3id.org/dsv-dap#TermProfile.specializes-2026-04-02T07:23:42.148Z-21>.
+
+<https://w3id.org/dsv-dap#TermProfile.specializes-2026-04-02T07:23:42.148Z-21> a as:Create;
+    dct:isVersionOf <https://w3id.org/dsv-dap#TermProfile.specializes>;
+    dct:created "2026-04-02T07:23:42.148Z"^^xsd:dateTime;
+    dct:issued "2026-04-02T07:23:42.148Z"^^xsd:dateTime;
+    ds-ldes:sequence 21;
+    ds-ldes:transaction "2cc91a3e-daf6-429e-acf5-8298b749786a";
+    dct:isPartOf <https://w3id.org/dsv-dap#>;
+    a dsv:TermProfile;
+    dsv:reusesPropertyValue [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty rdfs:label;
+  dsv:reusedAsProperty skos:prefLabel;
+  dsv:reusedFromResource dsv:specializes
+], [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty rdfs:comment;
+  dsv:reusedAsProperty skos:definition;
+  dsv:reusedFromResource dsv:specializes
+];
+    dsv:cardinality cardinality:0n;
+    dsv:property dsv:specializes;
+    dsv:domain <https://w3id.org/dsv-dap#TermProfile>;
+    a dsv:ObjectPropertyProfile;
+    dsv:objectPropertyRange <https://w3id.org/dsv-dap#TermProfile>.
+
+<> tree:member <https://w3id.org/dsv-dap#ClassProfile.profiledClass-2026-04-02T07:23:42.148Z-22>.
+
+<https://w3id.org/dsv-dap#ClassProfile.profiledClass-2026-04-02T07:23:42.148Z-22> a as:Create;
+    dct:isVersionOf <https://w3id.org/dsv-dap#ClassProfile.profiledClass>;
+    dct:created "2026-04-02T07:23:42.148Z"^^xsd:dateTime;
+    dct:issued "2026-04-02T07:23:42.148Z"^^xsd:dateTime;
+    ds-ldes:sequence 22;
+    ds-ldes:transaction "2cc91a3e-daf6-429e-acf5-8298b749786a";
+    dct:isPartOf <https://w3id.org/dsv-dap#>;
+    a dsv:TermProfile;
+    dsv:reusesPropertyValue [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty rdfs:label;
+  dsv:reusedAsProperty skos:prefLabel;
+  dsv:reusedFromResource dsv:class
+], [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty rdfs:comment;
+  dsv:reusedAsProperty skos:definition;
+  dsv:reusedFromResource dsv:class
+];
+    dsv:cardinality cardinality:11;
+    dsv:property dsv:class;
+    dsv:domain <https://w3id.org/dsv-dap#ClassProfile>;
+    a dsv:ObjectPropertyProfile;
+    dsv:objectPropertyRange <https://w3id.org/dsv-dap#Class>.
+
+<> tree:member <https://w3id.org/dsv-dap#TermProfile.profileOf-2026-04-02T07:23:42.148Z-23>.
+
+<https://w3id.org/dsv-dap#TermProfile.profileOf-2026-04-02T07:23:42.148Z-23> a as:Create;
+    dct:isVersionOf <https://w3id.org/dsv-dap#TermProfile.profileOf>;
+    dct:created "2026-04-02T07:23:42.148Z"^^xsd:dateTime;
+    dct:issued "2026-04-02T07:23:42.148Z"^^xsd:dateTime;
+    ds-ldes:sequence 23;
+    ds-ldes:transaction "2cc91a3e-daf6-429e-acf5-8298b749786a";
+    dct:isPartOf <https://w3id.org/dsv-dap#>;
+    a dsv:TermProfile;
+    dsv:reusesPropertyValue [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty rdfs:label;
+  dsv:reusedAsProperty skos:prefLabel;
+  dsv:reusedFromResource dsv:profileOf
+], [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty rdfs:comment;
+  dsv:reusedAsProperty skos:definition;
+  dsv:reusedFromResource dsv:profileOf
+];
+    dsv:cardinality cardinality:0n;
+    dsv:property dsv:profileOf;
+    dsv:domain <https://w3id.org/dsv-dap#TermProfile>;
+    a dsv:ObjectPropertyProfile;
+    dsv:objectPropertyRange <https://w3id.org/dsv-dap#TermProfile>.
+
+<> tree:member <https://w3id.org/dsv-dap#PropertyProfile.cardinality-2026-04-02T07:23:42.148Z-24>.
+
+<https://w3id.org/dsv-dap#PropertyProfile.cardinality-2026-04-02T07:23:42.148Z-24> a as:Create;
+    dct:isVersionOf <https://w3id.org/dsv-dap#PropertyProfile.cardinality>;
+    dct:created "2026-04-02T07:23:42.148Z"^^xsd:dateTime;
+    dct:issued "2026-04-02T07:23:42.148Z"^^xsd:dateTime;
+    ds-ldes:sequence 24;
+    ds-ldes:transaction "2cc91a3e-daf6-429e-acf5-8298b749786a";
+    dct:isPartOf <https://w3id.org/dsv-dap#>;
+    a dsv:TermProfile;
+    dsv:reusesPropertyValue [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty rdfs:label;
+  dsv:reusedAsProperty skos:prefLabel;
+  dsv:reusedFromResource dsv:cardinality
+], [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty rdfs:comment;
+  dsv:reusedAsProperty skos:definition;
+  dsv:reusedFromResource dsv:cardinality
+];
+    dsv:cardinality cardinality:01;
+    dsv:property dsv:cardinality;
+    dsv:domain <https://w3id.org/dsv-dap#PropertyProfile>;
+    a dsv:ObjectPropertyProfile;
+    dsv:objectPropertyRange <https://w3id.org/dsv-dap#Cardinality>.
+
+<> tree:member <https://w3id.org/dsv-dap#ClassProfile.classRole-2026-04-02T07:23:42.148Z-25>.
+
+<https://w3id.org/dsv-dap#ClassProfile.classRole-2026-04-02T07:23:42.148Z-25> a as:Create;
+    dct:isVersionOf <https://w3id.org/dsv-dap#ClassProfile.classRole>;
+    dct:created "2026-04-02T07:23:42.148Z"^^xsd:dateTime;
+    dct:issued "2026-04-02T07:23:42.148Z"^^xsd:dateTime;
+    ds-ldes:sequence 25;
+    ds-ldes:transaction "2cc91a3e-daf6-429e-acf5-8298b749786a";
+    dct:isPartOf <https://w3id.org/dsv-dap#>;
+    a dsv:TermProfile;
+    dsv:reusesPropertyValue [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty rdfs:label;
+  dsv:reusedAsProperty skos:prefLabel;
+  dsv:reusedFromResource dsv:classRole
+], [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty rdfs:comment;
+  dsv:reusedAsProperty skos:definition;
+  dsv:reusedFromResource dsv:classRole
+];
+    dsv:cardinality cardinality:0n;
+    dsv:property dsv:classRole;
+    dsv:domain <https://w3id.org/dsv-dap#ClassProfile>;
+    a dsv:ObjectPropertyProfile;
+    dsv:objectPropertyRange <https://w3id.org/dsv-dap#ClassRole>.
+
+<> tree:member <https://w3id.org/dsv-dap#PropertyProfile.requirementLevel-2026-04-02T07:23:42.148Z-26>.
+
+<https://w3id.org/dsv-dap#PropertyProfile.requirementLevel-2026-04-02T07:23:42.148Z-26> a as:Create;
+    dct:isVersionOf <https://w3id.org/dsv-dap#PropertyProfile.requirementLevel>;
+    dct:created "2026-04-02T07:23:42.148Z"^^xsd:dateTime;
+    dct:issued "2026-04-02T07:23:42.148Z"^^xsd:dateTime;
+    ds-ldes:sequence 26;
+    ds-ldes:transaction "2cc91a3e-daf6-429e-acf5-8298b749786a";
+    dct:isPartOf <https://w3id.org/dsv-dap#>;
+    a dsv:TermProfile;
+    dsv:reusesPropertyValue [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty rdfs:label;
+  dsv:reusedAsProperty skos:prefLabel;
+  dsv:reusedFromResource dsv:requirementLevel
+], [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty rdfs:comment;
+  dsv:reusedAsProperty skos:definition;
+  dsv:reusedFromResource dsv:requirementLevel
+];
+    dsv:cardinality cardinality:01;
+    dsv:property dsv:requirementLevel;
+    dsv:domain <https://w3id.org/dsv-dap#PropertyProfile>;
+    a dsv:ObjectPropertyProfile;
+    dsv:objectPropertyRange <https://w3id.org/dsv-dap#RequirementLevel>.
+
+<> tree:member <https://w3id.org/dsv-dap#ApplicationProfile.hasSpecification-2026-04-02T07:23:42.148Z-27>.
+
+<https://w3id.org/dsv-dap#ApplicationProfile.hasSpecification-2026-04-02T07:23:42.148Z-27> a as:Create;
+    dct:isVersionOf <https://w3id.org/dsv-dap#ApplicationProfile.hasSpecification>;
+    dct:created "2026-04-02T07:23:42.148Z"^^xsd:dateTime;
+    dct:issued "2026-04-02T07:23:42.148Z"^^xsd:dateTime;
+    ds-ldes:sequence 27;
+    ds-ldes:transaction "2cc91a3e-daf6-429e-acf5-8298b749786a";
+    dct:isPartOf <https://w3id.org/dsv-dap#>;
+    a dsv:TermProfile;
+    skos:prefLabel "has specification"@en;
+    dsv:specializes <https://w3id.org/dsv-dap#SemanticDataSpecification.hasResource>;
+    dsv:reusesPropertyValue [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty skos:definition;
+  dsv:reusedAsProperty skos:definition;
+  dsv:reusedFromResource <http://www.w3.org/ns/dx/prof/hasResource>
+];
+    dsv:cardinality cardinality:1n;
+    dsv:property <http://www.w3.org/ns/dx/prof/hasResource>;
+    dsv:domain <https://w3id.org/dsv-dap#ApplicationProfile>;
+    a dsv:ObjectPropertyProfile;
+    dsv:objectPropertyRange <https://w3id.org/dsv-dap#ApplicationProfileSpecificationDocument>.
+
+<> tree:member <https://w3id.org/dsv-dap#TermProfile.externalDocumentation-2026-04-02T07:23:42.148Z-28>.
+
+<https://w3id.org/dsv-dap#TermProfile.externalDocumentation-2026-04-02T07:23:42.148Z-28> a as:Create;
+    dct:isVersionOf <https://w3id.org/dsv-dap#TermProfile.externalDocumentation>;
+    dct:created "2026-04-02T07:23:42.148Z"^^xsd:dateTime;
+    dct:issued "2026-04-02T07:23:42.148Z"^^xsd:dateTime;
+    ds-ldes:sequence 28;
+    ds-ldes:transaction "2cc91a3e-daf6-429e-acf5-8298b749786a";
+    dct:isPartOf <https://w3id.org/dsv-dap#>;
+    a dsv:TermProfile;
+    dsv:reusesPropertyValue [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty rdfs:label;
+  dsv:reusedAsProperty skos:prefLabel;
+  dsv:reusedFromResource dsv:externalDocumentation
+], [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty rdfs:comment;
+  dsv:reusedAsProperty skos:definition;
+  dsv:reusedFromResource dsv:externalDocumentation
+];
+    dsv:cardinality cardinality:01;
+    dsv:property dsv:externalDocumentation;
+    dsv:domain <https://w3id.org/dsv-dap#TermProfile>;
+    a dsv:ObjectPropertyProfile;
+    dsv:objectPropertyRange <https://w3id.org/dsv-dap#Term>.
+
+<> tree:member <https://w3id.org/dsv-dap#TermProfile.preferredLabel-2026-04-02T07:23:42.148Z-29>.
+
+<https://w3id.org/dsv-dap#TermProfile.preferredLabel-2026-04-02T07:23:42.148Z-29> a as:Create;
+    dct:isVersionOf <https://w3id.org/dsv-dap#TermProfile.preferredLabel>;
+    dct:created "2026-04-02T07:23:42.148Z"^^xsd:dateTime;
+    dct:issued "2026-04-02T07:23:42.148Z"^^xsd:dateTime;
+    ds-ldes:sequence 29;
+    ds-ldes:transaction "2cc91a3e-daf6-429e-acf5-8298b749786a";
+    dct:isPartOf <https://w3id.org/dsv-dap#>;
+    a dsv:TermProfile;
+    skos:definition "Preferred label of this profile."@en;
+    dsv:reusesPropertyValue [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty rdfs:label;
+  dsv:reusedAsProperty skos:prefLabel;
+  dsv:reusedFromResource skos:prefLabel
+];
+    dsv:cardinality cardinality:0n;
+    dsv:property skos:prefLabel;
+    dsv:domain <https://w3id.org/dsv-dap#TermProfile>;
+    a dsv:DatatypePropertyProfile;
+    dsv:datatypePropertyRange rdf:langString.
+
+<> tree:member <https://w3id.org/dsv-dap#TermProfile.definition-2026-04-02T07:23:42.148Z-30>.
+
+<https://w3id.org/dsv-dap#TermProfile.definition-2026-04-02T07:23:42.148Z-30> a as:Create;
+    dct:isVersionOf <https://w3id.org/dsv-dap#TermProfile.definition>;
+    dct:created "2026-04-02T07:23:42.148Z"^^xsd:dateTime;
+    dct:issued "2026-04-02T07:23:42.148Z"^^xsd:dateTime;
+    ds-ldes:sequence 30;
+    ds-ldes:transaction "2cc91a3e-daf6-429e-acf5-8298b749786a";
+    dct:isPartOf <https://w3id.org/dsv-dap#>;
+    a dsv:TermProfile;
+    skos:definition "Definition of this profile."@en;
+    dsv:reusesPropertyValue [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty rdfs:label;
+  dsv:reusedAsProperty skos:prefLabel;
+  dsv:reusedFromResource skos:definition
+];
+    dsv:cardinality cardinality:0n;
+    dsv:property skos:definition;
+    dsv:domain <https://w3id.org/dsv-dap#TermProfile>;
+    a dsv:DatatypePropertyProfile;
+    dsv:datatypePropertyRange rdf:langString.
+
+<> tree:member <https://w3id.org/dsv-dap#TermProfile.usageNote-2026-04-02T07:23:42.148Z-31>.
+
+<https://w3id.org/dsv-dap#TermProfile.usageNote-2026-04-02T07:23:42.148Z-31> a as:Create;
+    dct:isVersionOf <https://w3id.org/dsv-dap#TermProfile.usageNote>;
+    dct:created "2026-04-02T07:23:42.148Z"^^xsd:dateTime;
+    dct:issued "2026-04-02T07:23:42.148Z"^^xsd:dateTime;
+    ds-ldes:sequence 31;
+    ds-ldes:transaction "2cc91a3e-daf6-429e-acf5-8298b749786a";
+    dct:isPartOf <https://w3id.org/dsv-dap#>;
+    a dsv:TermProfile;
+    skos:prefLabel "usage note"@en;
+    skos:definition "Usage note of this profile."@en;
+    dsv:cardinality cardinality:0n;
+    dsv:property skos:scopeNote;
+    dsv:domain <https://w3id.org/dsv-dap#TermProfile>;
+    a dsv:DatatypePropertyProfile;
+    dsv:datatypePropertyRange rdf:langString.
+
+<> tree:member <https://w3id.org/dsv-dap#Vocabulary-2026-04-02T07:23:42.148Z-32>.
+
+<https://w3id.org/dsv-dap#Vocabulary-2026-04-02T07:23:42.148Z-32> a as:Create;
+    dct:isVersionOf <https://w3id.org/dsv-dap#Vocabulary>;
+    dct:created "2026-04-02T07:23:42.148Z"^^xsd:dateTime;
+    dct:issued "2026-04-02T07:23:42.148Z"^^xsd:dateTime;
+    ds-ldes:sequence 32;
+    ds-ldes:transaction "2cc91a3e-daf6-429e-acf5-8298b749786a";
+    dct:isPartOf <https://w3id.org/dsv-dap#>;
+    a dsv:TermProfile;
+    skos:prefLabel "Vocabulary"@en;
+    skos:definition "Vocabulary contains definitions of classes, properties and their relations, possibly to classes and properties from other vocabularies."@en;
+    dsv:specializes <https://w3id.org/dsv-dap#SemanticDataSpecification>;
+    a dsv:ClassProfile;
+    dsv:class <http://www.w3.org/ns/dx/prof/Profile>, owl:Ontology;
+    dsv:classRole role:main.
+
+<> tree:member <https://w3id.org/dsv-dap#ApplicationProfile-2026-04-02T07:23:42.148Z-33>.
+
+<https://w3id.org/dsv-dap#ApplicationProfile-2026-04-02T07:23:42.148Z-33> a as:Create;
+    dct:isVersionOf <https://w3id.org/dsv-dap#ApplicationProfile>;
+    dct:created "2026-04-02T07:23:42.148Z"^^xsd:dateTime;
+    dct:issued "2026-04-02T07:23:42.148Z"^^xsd:dateTime;
+    ds-ldes:sequence 33;
+    ds-ldes:transaction "2cc91a3e-daf6-429e-acf5-8298b749786a";
+    dct:isPartOf <https://w3id.org/dsv-dap#>;
+    a dsv:TermProfile;
+    dsv:specializes <https://w3id.org/dsv-dap#SemanticDataSpecification>;
+    dsv:reusesPropertyValue [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty rdfs:label;
+  dsv:reusedAsProperty skos:prefLabel;
+  dsv:reusedFromResource dsv:ApplicationProfile
+], [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty rdfs:comment;
+  dsv:reusedAsProperty skos:definition;
+  dsv:reusedFromResource dsv:ApplicationProfile
+];
+    a dsv:ClassProfile;
+    dsv:class <http://www.w3.org/ns/dx/prof/Profile>, dsv:ApplicationProfile;
+    dsv:classRole role:main.
+
+<> tree:member <https://w3id.org/dsv-dap#ApplicationProfileSpecificationDocument-2026-04-02T07:23:42.148Z-34>.
+
+<https://w3id.org/dsv-dap#ApplicationProfileSpecificationDocument-2026-04-02T07:23:42.148Z-34> a as:Create;
+    dct:isVersionOf <https://w3id.org/dsv-dap#ApplicationProfileSpecificationDocument>;
+    dct:created "2026-04-02T07:23:42.148Z"^^xsd:dateTime;
+    dct:issued "2026-04-02T07:23:42.148Z"^^xsd:dateTime;
+    ds-ldes:sequence 34;
+    ds-ldes:transaction "2cc91a3e-daf6-429e-acf5-8298b749786a";
+    dct:isPartOf <https://w3id.org/dsv-dap#>;
+    a dsv:TermProfile;
+    dsv:specializes <https://w3id.org/dsv-dap#ResourceDescriptor>, <https://w3id.org/dsv-dap#DataSpecificationDocument>;
+    dsv:reusesPropertyValue [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty rdfs:label;
+  dsv:reusedAsProperty skos:prefLabel;
+  dsv:reusedFromResource dsv:ApplicationProfileSpecificationDocument
+], [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty rdfs:comment;
+  dsv:reusedAsProperty skos:definition;
+  dsv:reusedFromResource dsv:ApplicationProfileSpecificationDocument
+];
+    a dsv:ClassProfile;
+    dsv:class <http://www.w3.org/ns/dx/prof/ResourceDescriptor>, dsv:ApplicationProfileSpecificationDocument, <http://www.w3.org/ns/adms#AssetDistribution>;
+    dsv:classRole role:main.
+
+<> tree:member <https://w3id.org/dsv-dap#VocabularySpecificationDocument-2026-04-02T07:23:42.148Z-35>.
+
+<https://w3id.org/dsv-dap#VocabularySpecificationDocument-2026-04-02T07:23:42.148Z-35> a as:Create;
+    dct:isVersionOf <https://w3id.org/dsv-dap#VocabularySpecificationDocument>;
+    dct:created "2026-04-02T07:23:42.148Z"^^xsd:dateTime;
+    dct:issued "2026-04-02T07:23:42.148Z"^^xsd:dateTime;
+    ds-ldes:sequence 35;
+    ds-ldes:transaction "2cc91a3e-daf6-429e-acf5-8298b749786a";
+    dct:isPartOf <https://w3id.org/dsv-dap#>;
+    a dsv:TermProfile;
+    dsv:specializes <https://w3id.org/dsv-dap#ResourceDescriptor>, <https://w3id.org/dsv-dap#DataSpecificationDocument>;
+    dsv:reusesPropertyValue [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty rdfs:label;
+  dsv:reusedAsProperty skos:prefLabel;
+  dsv:reusedFromResource dsv:VocabularySpecificationDocument
+], [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty rdfs:comment;
+  dsv:reusedAsProperty skos:definition;
+  dsv:reusedFromResource dsv:VocabularySpecificationDocument
+];
+    a dsv:ClassProfile;
+    dsv:class <http://www.w3.org/ns/dx/prof/ResourceDescriptor>, dsv:VocabularySpecificationDocument, <http://www.w3.org/ns/adms#AssetDistribution>;
+    dsv:classRole role:main.
+
+<> tree:member <https://w3id.org/dsv-dap#Vocabulary.hasSpecification-2026-04-02T07:23:42.148Z-36>.
+
+<https://w3id.org/dsv-dap#Vocabulary.hasSpecification-2026-04-02T07:23:42.148Z-36> a as:Create;
+    dct:isVersionOf <https://w3id.org/dsv-dap#Vocabulary.hasSpecification>;
+    dct:created "2026-04-02T07:23:42.148Z"^^xsd:dateTime;
+    dct:issued "2026-04-02T07:23:42.148Z"^^xsd:dateTime;
+    ds-ldes:sequence 36;
+    ds-ldes:transaction "2cc91a3e-daf6-429e-acf5-8298b749786a";
+    dct:isPartOf <https://w3id.org/dsv-dap#>;
+    a dsv:TermProfile;
+    skos:prefLabel "has specification"@en;
+    dsv:specializes <https://w3id.org/dsv-dap#SemanticDataSpecification.hasResource>;
+    dsv:reusesPropertyValue [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty skos:definition;
+  dsv:reusedAsProperty skos:definition;
+  dsv:reusedFromResource <http://www.w3.org/ns/dx/prof/hasResource>
+];
+    dsv:cardinality cardinality:1n;
+    dsv:property <http://www.w3.org/ns/dx/prof/hasResource>;
+    dsv:domain <https://w3id.org/dsv-dap#Vocabulary>;
+    a dsv:ObjectPropertyProfile;
+    dsv:objectPropertyRange <https://w3id.org/dsv-dap#VocabularySpecificationDocument>.
+
+<> tree:member <https://w3id.org/dsv-dap#DataSpecificationDocument-2026-04-02T07:23:42.148Z-37>.
+
+<https://w3id.org/dsv-dap#DataSpecificationDocument-2026-04-02T07:23:42.148Z-37> a as:Create;
+    dct:isVersionOf <https://w3id.org/dsv-dap#DataSpecificationDocument>;
+    dct:created "2026-04-02T07:23:42.148Z"^^xsd:dateTime;
+    dct:issued "2026-04-02T07:23:42.148Z"^^xsd:dateTime;
+    ds-ldes:sequence 37;
+    ds-ldes:transaction "2cc91a3e-daf6-429e-acf5-8298b749786a";
+    dct:isPartOf <https://w3id.org/dsv-dap#>;
+    a dsv:TermProfile;
+    skos:prefLabel "Data Specification Document"@en;
+    skos:definition "A human-readable Data Specification Document."@en;
+    a dsv:ClassProfile;
+    dsv:class <http://www.w3.org/ns/dx/prof/ResourceDescriptor>;
+    dsv:classRole role:main.
+
+<> tree:member <https://w3id.org/dsv-dap#DataSpecificationDocument.title-2026-04-02T07:23:42.148Z-38>.
+
+<https://w3id.org/dsv-dap#DataSpecificationDocument.title-2026-04-02T07:23:42.148Z-38> a as:Create;
+    dct:isVersionOf <https://w3id.org/dsv-dap#DataSpecificationDocument.title>;
+    dct:created "2026-04-02T07:23:42.148Z"^^xsd:dateTime;
+    dct:issued "2026-04-02T07:23:42.148Z"^^xsd:dateTime;
+    ds-ldes:sequence 38;
+    ds-ldes:transaction "2cc91a3e-daf6-429e-acf5-8298b749786a";
+    dct:isPartOf <https://w3id.org/dsv-dap#>;
+    a dsv:TermProfile;
+    skos:prefLabel "title"@en;
+    skos:definition "A name given to the Data Specification Document."@en;
+    dsv:cardinality cardinality:1n;
+    dsv:property dct:title;
+    dsv:domain <https://w3id.org/dsv-dap#DataSpecificationDocument>;
+    a dsv:DatatypePropertyProfile;
+    dsv:datatypePropertyRange rdf:langString.
+
+<> tree:member <https://w3id.org/dsv-dap#DataSpecificationDocument.description-2026-04-02T07:23:42.148Z-39>.
+
+<https://w3id.org/dsv-dap#DataSpecificationDocument.description-2026-04-02T07:23:42.148Z-39> a as:Create;
+    dct:isVersionOf <https://w3id.org/dsv-dap#DataSpecificationDocument.description>;
+    dct:created "2026-04-02T07:23:42.148Z"^^xsd:dateTime;
+    dct:issued "2026-04-02T07:23:42.148Z"^^xsd:dateTime;
+    ds-ldes:sequence 39;
+    ds-ldes:transaction "2cc91a3e-daf6-429e-acf5-8298b749786a";
+    dct:isPartOf <https://w3id.org/dsv-dap#>;
+    a dsv:TermProfile;
+    skos:prefLabel "description"@en;
+    skos:definition "An account of the Data Specification Document."@en;
+    dsv:cardinality cardinality:0n;
+    dsv:property dct:description;
+    dsv:domain <https://w3id.org/dsv-dap#DataSpecificationDocument>;
+    a dsv:DatatypePropertyProfile;
+    dsv:datatypePropertyRange rdf:langString.
+
+<> tree:member <https://w3id.org/dsv-dap#SemanticDataSpecification-2026-04-02T07:23:42.148Z-40>.
+
+<https://w3id.org/dsv-dap#SemanticDataSpecification-2026-04-02T07:23:42.148Z-40> a as:Create;
+    dct:isVersionOf <https://w3id.org/dsv-dap#SemanticDataSpecification>;
+    dct:created "2026-04-02T07:23:42.148Z"^^xsd:dateTime;
+    dct:issued "2026-04-02T07:23:42.148Z"^^xsd:dateTime;
+    ds-ldes:sequence 40;
+    ds-ldes:transaction "2cc91a3e-daf6-429e-acf5-8298b749786a";
+    dct:isPartOf <https://w3id.org/dsv-dap#>;
+    a dsv:TermProfile;
+    skos:prefLabel "Semantic Data Specification"@en;
+    dsv:reusesPropertyValue [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty skos:definition;
+  dsv:reusedAsProperty skos:definition;
+  dsv:reusedFromResource <http://www.w3.org/ns/dx/prof/Profile>
+];
+    a dsv:ClassProfile;
+    dsv:class <http://www.w3.org/ns/dx/prof/Profile>;
+    dsv:classRole role:main.
+
+<> tree:member <https://w3id.org/dsv-dap#SemanticDataSpecification.hasResource-2026-04-02T07:23:42.148Z-41>.
+
+<https://w3id.org/dsv-dap#SemanticDataSpecification.hasResource-2026-04-02T07:23:42.148Z-41> a as:Create;
+    dct:isVersionOf <https://w3id.org/dsv-dap#SemanticDataSpecification.hasResource>;
+    dct:created "2026-04-02T07:23:42.148Z"^^xsd:dateTime;
+    dct:issued "2026-04-02T07:23:42.148Z"^^xsd:dateTime;
+    ds-ldes:sequence 41;
+    ds-ldes:transaction "2cc91a3e-daf6-429e-acf5-8298b749786a";
+    dct:isPartOf <https://w3id.org/dsv-dap#>;
+    a dsv:TermProfile;
+    dsv:reusesPropertyValue [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty rdfs:label;
+  dsv:reusedAsProperty skos:prefLabel;
+  dsv:reusedFromResource <http://www.w3.org/ns/dx/prof/hasResource>
+], [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty skos:definition;
+  dsv:reusedAsProperty skos:definition;
+  dsv:reusedFromResource <http://www.w3.org/ns/dx/prof/hasResource>
+];
+    dsv:cardinality cardinality:0n;
+    dsv:property <http://www.w3.org/ns/dx/prof/hasResource>;
+    dsv:domain <https://w3id.org/dsv-dap#SemanticDataSpecification>;
+    a dsv:ObjectPropertyProfile;
+    dsv:objectPropertyRange <https://w3id.org/dsv-dap#ResourceDescriptor>.
+
+<> tree:member <https://w3id.org/dsv-dap#SemanticDataSpecification.title-2026-04-02T07:23:42.148Z-42>.
+
+<https://w3id.org/dsv-dap#SemanticDataSpecification.title-2026-04-02T07:23:42.148Z-42> a as:Create;
+    dct:isVersionOf <https://w3id.org/dsv-dap#SemanticDataSpecification.title>;
+    dct:created "2026-04-02T07:23:42.148Z"^^xsd:dateTime;
+    dct:issued "2026-04-02T07:23:42.148Z"^^xsd:dateTime;
+    ds-ldes:sequence 42;
+    ds-ldes:transaction "2cc91a3e-daf6-429e-acf5-8298b749786a";
+    dct:isPartOf <https://w3id.org/dsv-dap#>;
+    a dsv:TermProfile;
+    skos:prefLabel "title"@en;
+    skos:definition "A name given to the Semantic Data Specification."@en;
+    dsv:cardinality cardinality:1n;
+    dsv:property dct:title;
+    dsv:domain <https://w3id.org/dsv-dap#SemanticDataSpecification>;
+    a dsv:DatatypePropertyProfile;
+    dsv:datatypePropertyRange rdf:langString.
+
+<> tree:member <https://w3id.org/dsv-dap#SemanticDataSpecification.description-2026-04-02T07:23:42.148Z-43>.
+
+<https://w3id.org/dsv-dap#SemanticDataSpecification.description-2026-04-02T07:23:42.148Z-43> a as:Create;
+    dct:isVersionOf <https://w3id.org/dsv-dap#SemanticDataSpecification.description>;
+    dct:created "2026-04-02T07:23:42.148Z"^^xsd:dateTime;
+    dct:issued "2026-04-02T07:23:42.148Z"^^xsd:dateTime;
+    ds-ldes:sequence 43;
+    ds-ldes:transaction "2cc91a3e-daf6-429e-acf5-8298b749786a";
+    dct:isPartOf <https://w3id.org/dsv-dap#>;
+    a dsv:TermProfile;
+    skos:prefLabel "description"@en;
+    skos:definition "An account of the Semantic Data Specification."@en;
+    dsv:cardinality cardinality:0n;
+    dsv:property dct:description;
+    dsv:domain <https://w3id.org/dsv-dap#SemanticDataSpecification>;
+    a dsv:DatatypePropertyProfile;
+    dsv:datatypePropertyRange rdf:langString.
+
+<> tree:member <https://w3id.org/dsv-dap#ApplicationProfile.isProfileOf-2026-04-02T07:23:42.148Z-44>.
+
+<https://w3id.org/dsv-dap#ApplicationProfile.isProfileOf-2026-04-02T07:23:42.148Z-44> a as:Create;
+    dct:isVersionOf <https://w3id.org/dsv-dap#ApplicationProfile.isProfileOf>;
+    dct:created "2026-04-02T07:23:42.148Z"^^xsd:dateTime;
+    dct:issued "2026-04-02T07:23:42.148Z"^^xsd:dateTime;
+    ds-ldes:sequence 44;
+    ds-ldes:transaction "2cc91a3e-daf6-429e-acf5-8298b749786a";
+    dct:isPartOf <https://w3id.org/dsv-dap#>;
+    a dsv:TermProfile;
+    dsv:reusesPropertyValue [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty rdfs:label;
+  dsv:reusedAsProperty skos:prefLabel;
+  dsv:reusedFromResource <http://www.w3.org/ns/dx/prof/isProfileOf>
+], [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty skos:definition;
+  dsv:reusedAsProperty skos:definition;
+  dsv:reusedFromResource <http://www.w3.org/ns/dx/prof/isProfileOf>
+];
+    dsv:cardinality cardinality:0n;
+    dsv:property <http://www.w3.org/ns/dx/prof/isProfileOf>;
+    dsv:domain <https://w3id.org/dsv-dap#SemanticDataSpecification>;
+    a dsv:ObjectPropertyProfile;
+    dsv:objectPropertyRange <https://w3id.org/dsv-dap#SemanticDataSpecification>.
+
+<> tree:member <https://w3id.org/dsv-dap#ResourceDescriptor.hasArtifact-2026-04-02T07:23:42.148Z-45>.
+
+<https://w3id.org/dsv-dap#ResourceDescriptor.hasArtifact-2026-04-02T07:23:42.148Z-45> a as:Create;
+    dct:isVersionOf <https://w3id.org/dsv-dap#ResourceDescriptor.hasArtifact>;
+    dct:created "2026-04-02T07:23:42.148Z"^^xsd:dateTime;
+    dct:issued "2026-04-02T07:23:42.148Z"^^xsd:dateTime;
+    ds-ldes:sequence 45;
+    ds-ldes:transaction "2cc91a3e-daf6-429e-acf5-8298b749786a";
+    dct:isPartOf <https://w3id.org/dsv-dap#>;
+    a dsv:TermProfile;
+    dsv:reusesPropertyValue [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty rdfs:label;
+  dsv:reusedAsProperty skos:prefLabel;
+  dsv:reusedFromResource <http://www.w3.org/ns/dx/prof/hasArtifact>
+], [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty skos:definition;
+  dsv:reusedAsProperty skos:definition;
+  dsv:reusedFromResource <http://www.w3.org/ns/dx/prof/hasArtifact>
+];
+    dsv:cardinality cardinality:11;
+    dsv:property <http://www.w3.org/ns/dx/prof/hasArtifact>;
+    dsv:domain <https://w3id.org/dsv-dap#ResourceDescriptor>;
+    a dsv:ObjectPropertyProfile;
+    dsv:objectPropertyRange <https://w3id.org/dsv-dap#Term>.
+
+<> tree:member <https://w3id.org/dsv-dap#SemanticDataSpecification.hasToken-2026-04-02T07:23:42.148Z-46>.
+
+<https://w3id.org/dsv-dap#SemanticDataSpecification.hasToken-2026-04-02T07:23:42.148Z-46> a as:Create;
+    dct:isVersionOf <https://w3id.org/dsv-dap#SemanticDataSpecification.hasToken>;
+    dct:created "2026-04-02T07:23:42.148Z"^^xsd:dateTime;
+    dct:issued "2026-04-02T07:23:42.148Z"^^xsd:dateTime;
+    ds-ldes:sequence 46;
+    ds-ldes:transaction "2cc91a3e-daf6-429e-acf5-8298b749786a";
+    dct:isPartOf <https://w3id.org/dsv-dap#>;
+    a dsv:TermProfile;
+    skos:scopeNote "Used to store the preferred prefix, e.g., registered at prefix.cc."@en;
+    dsv:reusesPropertyValue [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty rdfs:label;
+  dsv:reusedAsProperty skos:prefLabel;
+  dsv:reusedFromResource <http://www.w3.org/ns/dx/prof/hasToken>
+], [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty skos:definition;
+  dsv:reusedAsProperty skos:definition;
+  dsv:reusedFromResource <http://www.w3.org/ns/dx/prof/hasToken>
+];
+    dsv:cardinality cardinality:01;
+    dsv:property <http://www.w3.org/ns/dx/prof/hasToken>;
+    dsv:domain <https://w3id.org/dsv-dap#SemanticDataSpecification>;
+    a dsv:DatatypePropertyProfile;
+    dsv:datatypePropertyRange xsd:token.
+
+<> tree:member <https://w3id.org/dsv-dap#ResourceRole-2026-04-02T07:23:42.148Z-47>.
+
+<https://w3id.org/dsv-dap#ResourceRole-2026-04-02T07:23:42.148Z-47> a as:Create;
+    dct:isVersionOf <https://w3id.org/dsv-dap#ResourceRole>;
+    dct:created "2026-04-02T07:23:42.148Z"^^xsd:dateTime;
+    dct:issued "2026-04-02T07:23:42.148Z"^^xsd:dateTime;
+    ds-ldes:sequence 47;
+    ds-ldes:transaction "2cc91a3e-daf6-429e-acf5-8298b749786a";
+    dct:isPartOf <https://w3id.org/dsv-dap#>;
+    a dsv:TermProfile;
+    dsv:reusesPropertyValue [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty rdfs:label;
+  dsv:reusedAsProperty skos:prefLabel;
+  dsv:reusedFromResource <http://www.w3.org/ns/dx/prof/ResourceRole>
+], [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty skos:definition;
+  dsv:reusedAsProperty skos:definition;
+  dsv:reusedFromResource <http://www.w3.org/ns/dx/prof/ResourceRole>
+];
+    a dsv:ClassProfile;
+    dsv:class <http://www.w3.org/ns/dx/prof/ResourceRole>;
+    dsv:classRole role:supportive.
+
+<> tree:member <https://w3id.org/dsv-dap#ResourceDescriptor.hasRole-2026-04-02T07:23:42.148Z-48>.
+
+<https://w3id.org/dsv-dap#ResourceDescriptor.hasRole-2026-04-02T07:23:42.148Z-48> a as:Create;
+    dct:isVersionOf <https://w3id.org/dsv-dap#ResourceDescriptor.hasRole>;
+    dct:created "2026-04-02T07:23:42.148Z"^^xsd:dateTime;
+    dct:issued "2026-04-02T07:23:42.148Z"^^xsd:dateTime;
+    ds-ldes:sequence 48;
+    ds-ldes:transaction "2cc91a3e-daf6-429e-acf5-8298b749786a";
+    dct:isPartOf <https://w3id.org/dsv-dap#>;
+    a dsv:TermProfile;
+    dsv:reusesPropertyValue [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty rdfs:label;
+  dsv:reusedAsProperty skos:prefLabel;
+  dsv:reusedFromResource <http://www.w3.org/ns/dx/prof/hasRole>
+], [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty skos:definition;
+  dsv:reusedAsProperty skos:definition;
+  dsv:reusedFromResource <http://www.w3.org/ns/dx/prof/hasRole>
+];
+    dsv:cardinality cardinality:01;
+    dsv:property <http://www.w3.org/ns/dx/prof/hasRole>;
+    dsv:domain <https://w3id.org/dsv-dap#ResourceDescriptor>;
+    a dsv:ObjectPropertyProfile;
+    dsv:objectPropertyRange <https://w3id.org/dsv-dap#ResourceRole>.
+
+<> tree:member <https://w3id.org/dsv-dap#ClassRole-2026-04-02T07:23:42.148Z-49>.
+
+<https://w3id.org/dsv-dap#ClassRole-2026-04-02T07:23:42.148Z-49> a as:Create;
+    dct:isVersionOf <https://w3id.org/dsv-dap#ClassRole>;
+    dct:created "2026-04-02T07:23:42.148Z"^^xsd:dateTime;
+    dct:issued "2026-04-02T07:23:42.148Z"^^xsd:dateTime;
+    ds-ldes:sequence 49;
+    ds-ldes:transaction "2cc91a3e-daf6-429e-acf5-8298b749786a";
+    dct:isPartOf <https://w3id.org/dsv-dap#>;
+    a dsv:TermProfile;
+    skos:prefLabel "Class Role"@en;
+    skos:definition "Class Role, e.g. Mandatory or Supportive."@en;
+    a dsv:ClassProfile;
+    dsv:class skos:Concept;
+    dsv:classRole role:supportive.
+
+<> tree:member <https://w3id.org/dsv-dap#RequirementLevel-2026-04-02T07:23:42.148Z-50>.
+
+<https://w3id.org/dsv-dap#RequirementLevel-2026-04-02T07:23:42.148Z-50> a as:Create;
+    dct:isVersionOf <https://w3id.org/dsv-dap#RequirementLevel>;
+    dct:created "2026-04-02T07:23:42.148Z"^^xsd:dateTime;
+    dct:issued "2026-04-02T07:23:42.148Z"^^xsd:dateTime;
+    ds-ldes:sequence 50;
+    ds-ldes:transaction "2cc91a3e-daf6-429e-acf5-8298b749786a";
+    dct:isPartOf <https://w3id.org/dsv-dap#>;
+    a dsv:TermProfile;
+    skos:prefLabel "Requirement Level"@en;
+    skos:definition "Requirement Level of a property profile."@en;
+    a dsv:ClassProfile;
+    dsv:class skos:Concept;
+    dsv:classRole role:supportive.
+
+<> tree:member <https://w3id.org/dsv-dap#Cardinality-2026-04-02T07:23:42.148Z-51>.
+
+<https://w3id.org/dsv-dap#Cardinality-2026-04-02T07:23:42.148Z-51> a as:Create;
+    dct:isVersionOf <https://w3id.org/dsv-dap#Cardinality>;
+    dct:created "2026-04-02T07:23:42.148Z"^^xsd:dateTime;
+    dct:issued "2026-04-02T07:23:42.148Z"^^xsd:dateTime;
+    ds-ldes:sequence 51;
+    ds-ldes:transaction "2cc91a3e-daf6-429e-acf5-8298b749786a";
+    dct:isPartOf <https://w3id.org/dsv-dap#>;
+    a dsv:TermProfile;
+    skos:prefLabel "Cardinality"@en;
+    skos:definition "Cardinality, e.g. 0..* or 1..1"@en;
+    a dsv:ClassProfile;
+    dsv:class skos:Concept;
+    dsv:classRole role:supportive.
+
+<> tree:member <https://w3id.org/dsv-dap#Format-2026-04-02T07:23:42.148Z-52>.
+
+<https://w3id.org/dsv-dap#Format-2026-04-02T07:23:42.148Z-52> a as:Create;
+    dct:isVersionOf <https://w3id.org/dsv-dap#Format>;
+    dct:created "2026-04-02T07:23:42.148Z"^^xsd:dateTime;
+    dct:issued "2026-04-02T07:23:42.148Z"^^xsd:dateTime;
+    ds-ldes:sequence 52;
+    ds-ldes:transaction "2cc91a3e-daf6-429e-acf5-8298b749786a";
+    dct:isPartOf <https://w3id.org/dsv-dap#>;
+    a dsv:TermProfile;
+    skos:prefLabel "Format"@en;
+    skos:definition "An idea or notion; a unit of thought."@en;
+    skos:scopeNote "The file format, physical medium, or dimensions of the resource."@en;
+    a dsv:ClassProfile;
+    dsv:class skos:Concept;
+    dsv:classRole role:supportive.
+
+<> tree:member <https://w3id.org/dsv-dap#ResourceDescriptor.format-2026-04-02T07:23:42.148Z-53>.
+
+<https://w3id.org/dsv-dap#ResourceDescriptor.format-2026-04-02T07:23:42.148Z-53> a as:Create;
+    dct:isVersionOf <https://w3id.org/dsv-dap#ResourceDescriptor.format>;
+    dct:created "2026-04-02T07:23:42.148Z"^^xsd:dateTime;
+    dct:issued "2026-04-02T07:23:42.148Z"^^xsd:dateTime;
+    ds-ldes:sequence 53;
+    ds-ldes:transaction "2cc91a3e-daf6-429e-acf5-8298b749786a";
+    dct:isPartOf <https://w3id.org/dsv-dap#>;
+    a dsv:TermProfile;
+    skos:prefLabel "format"@en;
+    dsv:reusesPropertyValue [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty rdfs:comment;
+  dsv:reusedAsProperty skos:definition;
+  dsv:reusedFromResource dct:format
+];
+    dsv:cardinality cardinality:01;
+    dsv:property dct:format;
+    dsv:domain <https://w3id.org/dsv-dap#ResourceDescriptor>;
+    a dsv:ObjectPropertyProfile;
+    dsv:objectPropertyRange <https://w3id.org/dsv-dap#Format>.
+
+<> tree:member <https://w3id.org/dsv-dap#ResourceDescriptor.conformsTo-2026-04-02T07:23:42.148Z-54>.
+
+<https://w3id.org/dsv-dap#ResourceDescriptor.conformsTo-2026-04-02T07:23:42.148Z-54> a as:Create;
+    dct:isVersionOf <https://w3id.org/dsv-dap#ResourceDescriptor.conformsTo>;
+    dct:created "2026-04-02T07:23:42.148Z"^^xsd:dateTime;
+    dct:issued "2026-04-02T07:23:42.148Z"^^xsd:dateTime;
+    ds-ldes:sequence 54;
+    ds-ldes:transaction "2cc91a3e-daf6-429e-acf5-8298b749786a";
+    dct:isPartOf <https://w3id.org/dsv-dap#>;
+    a dsv:TermProfile;
+    skos:prefLabel "conforms To"@en;
+    dsv:reusesPropertyValue [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty rdfs:comment;
+  dsv:reusedAsProperty skos:definition;
+  dsv:reusedFromResource dct:conformsTo
+];
+    dsv:cardinality cardinality:0n;
+    dsv:property dct:conformsTo;
+    dsv:domain <https://w3id.org/dsv-dap#ResourceDescriptor>;
+    a dsv:ObjectPropertyProfile;
+    dsv:objectPropertyRange <https://w3id.org/dsv-dap#ApplicationProfile>.
+
+<> tree:member <https://w3id.org/dsv-dap#ObjectProperty-2026-04-02T07:23:42.148Z-55>.
+
+<https://w3id.org/dsv-dap#ObjectProperty-2026-04-02T07:23:42.148Z-55> a as:Create;
+    dct:isVersionOf <https://w3id.org/dsv-dap#ObjectProperty>;
+    dct:created "2026-04-02T07:23:42.148Z"^^xsd:dateTime;
+    dct:issued "2026-04-02T07:23:42.148Z"^^xsd:dateTime;
+    ds-ldes:sequence 55;
+    ds-ldes:transaction "2cc91a3e-daf6-429e-acf5-8298b749786a";
+    dct:isPartOf <https://w3id.org/dsv-dap#>;
+    a dsv:TermProfile;
+    dsv:specializes <https://w3id.org/dsv-dap#Property>;
+    dsv:reusesPropertyValue [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty skos:prefLabel;
+  dsv:reusedAsProperty skos:prefLabel;
+  dsv:reusedFromResource owl:ObjectProperty
+], [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty skos:definition;
+  dsv:reusedAsProperty skos:definition;
+  dsv:reusedFromResource owl:ObjectProperty
+];
+    a dsv:ClassProfile;
+    dsv:class owl:ObjectProperty;
+    dsv:classRole role:main.
+
+<> tree:member <https://w3id.org/dsv-dap#DatatypeProperty-2026-04-02T07:23:42.148Z-56>.
+
+<https://w3id.org/dsv-dap#DatatypeProperty-2026-04-02T07:23:42.148Z-56> a as:Create;
+    dct:isVersionOf <https://w3id.org/dsv-dap#DatatypeProperty>;
+    dct:created "2026-04-02T07:23:42.148Z"^^xsd:dateTime;
+    dct:issued "2026-04-02T07:23:42.148Z"^^xsd:dateTime;
+    ds-ldes:sequence 56;
+    ds-ldes:transaction "2cc91a3e-daf6-429e-acf5-8298b749786a";
+    dct:isPartOf <https://w3id.org/dsv-dap#>;
+    a dsv:TermProfile;
+    dsv:specializes <https://w3id.org/dsv-dap#Property>;
+    dsv:reusesPropertyValue [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty skos:prefLabel;
+  dsv:reusedAsProperty skos:prefLabel;
+  dsv:reusedFromResource owl:DatatypeProperty
+], [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty skos:definition;
+  dsv:reusedAsProperty skos:definition;
+  dsv:reusedFromResource owl:DatatypeProperty
+];
+    a dsv:ClassProfile;
+    dsv:class owl:DatatypeProperty;
+    dsv:classRole role:main.
+
+<> tree:member <https://w3id.org/dsv-dap#Term.label-2026-04-02T07:23:42.148Z-57>.
+
+<https://w3id.org/dsv-dap#Term.label-2026-04-02T07:23:42.148Z-57> a as:Create;
+    dct:isVersionOf <https://w3id.org/dsv-dap#Term.label>;
+    dct:created "2026-04-02T07:23:42.148Z"^^xsd:dateTime;
+    dct:issued "2026-04-02T07:23:42.148Z"^^xsd:dateTime;
+    ds-ldes:sequence 57;
+    ds-ldes:transaction "2cc91a3e-daf6-429e-acf5-8298b749786a";
+    dct:isPartOf <https://w3id.org/dsv-dap#>;
+    a dsv:TermProfile;
+    dsv:reusesPropertyValue [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty rdfs:label;
+  dsv:reusedAsProperty skos:prefLabel;
+  dsv:reusedFromResource rdfs:label
+], [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty rdfs:comment;
+  dsv:reusedAsProperty skos:definition;
+  dsv:reusedFromResource rdfs:label
+];
+    dsv:cardinality cardinality:1n;
+    dsv:property rdfs:label;
+    dsv:domain <https://w3id.org/dsv-dap#Term>;
+    a dsv:DatatypePropertyProfile;
+    dsv:datatypePropertyRange rdf:langString.
+
+<> tree:member <https://w3id.org/dsv-dap#Term.definition-2026-04-02T07:23:42.148Z-58>.
+
+<https://w3id.org/dsv-dap#Term.definition-2026-04-02T07:23:42.148Z-58> a as:Create;
+    dct:isVersionOf <https://w3id.org/dsv-dap#Term.definition>;
+    dct:created "2026-04-02T07:23:42.148Z"^^xsd:dateTime;
+    dct:issued "2026-04-02T07:23:42.148Z"^^xsd:dateTime;
+    ds-ldes:sequence 58;
+    ds-ldes:transaction "2cc91a3e-daf6-429e-acf5-8298b749786a";
+    dct:isPartOf <https://w3id.org/dsv-dap#>;
+    a dsv:TermProfile;
+    skos:prefLabel "definition"@en;
+    skos:definition "A definition of the subject resource."@en;
+    dsv:cardinality cardinality:0n;
+    dsv:property rdfs:comment;
+    dsv:domain <https://w3id.org/dsv-dap#Term>;
+    a dsv:DatatypePropertyProfile;
+    dsv:datatypePropertyRange rdf:langString.
+
+<> tree:member <https://w3id.org/dsv-dap#Class.subclassof-2026-04-02T07:23:42.148Z-59>.
+
+<https://w3id.org/dsv-dap#Class.subclassof-2026-04-02T07:23:42.148Z-59> a as:Create;
+    dct:isVersionOf <https://w3id.org/dsv-dap#Class.subclassof>;
+    dct:created "2026-04-02T07:23:42.148Z"^^xsd:dateTime;
+    dct:issued "2026-04-02T07:23:42.148Z"^^xsd:dateTime;
+    ds-ldes:sequence 59;
+    ds-ldes:transaction "2cc91a3e-daf6-429e-acf5-8298b749786a";
+    dct:isPartOf <https://w3id.org/dsv-dap#>;
+    a dsv:TermProfile;
+    dsv:reusesPropertyValue [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty rdfs:label;
+  dsv:reusedAsProperty skos:prefLabel;
+  dsv:reusedFromResource rdfs:subClassOf
+], [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty rdfs:comment;
+  dsv:reusedAsProperty skos:definition;
+  dsv:reusedFromResource rdfs:subClassOf
+];
+    dsv:cardinality cardinality:0n;
+    dsv:property rdfs:subClassOf;
+    dsv:domain <https://w3id.org/dsv-dap#Class>;
+    a dsv:ObjectPropertyProfile;
+    dsv:objectPropertyRange <https://w3id.org/dsv-dap#Class>.
+
+<> tree:member <https://w3id.org/dsv-dap#Property.subpropertyof-2026-04-02T07:23:42.148Z-60>.
+
+<https://w3id.org/dsv-dap#Property.subpropertyof-2026-04-02T07:23:42.148Z-60> a as:Create;
+    dct:isVersionOf <https://w3id.org/dsv-dap#Property.subpropertyof>;
+    dct:created "2026-04-02T07:23:42.148Z"^^xsd:dateTime;
+    dct:issued "2026-04-02T07:23:42.148Z"^^xsd:dateTime;
+    ds-ldes:sequence 60;
+    ds-ldes:transaction "2cc91a3e-daf6-429e-acf5-8298b749786a";
+    dct:isPartOf <https://w3id.org/dsv-dap#>;
+    a dsv:TermProfile;
+    dsv:reusesPropertyValue [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty rdfs:label;
+  dsv:reusedAsProperty skos:prefLabel;
+  dsv:reusedFromResource rdfs:subPropertyOf
+], [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty rdfs:comment;
+  dsv:reusedAsProperty skos:definition;
+  dsv:reusedFromResource rdfs:subPropertyOf
+];
+    dsv:cardinality cardinality:0n;
+    dsv:property rdfs:subPropertyOf;
+    dsv:domain <https://w3id.org/dsv-dap#Property>;
+    a dsv:ObjectPropertyProfile;
+    dsv:objectPropertyRange <https://w3id.org/dsv-dap#Property>.
+
+<> tree:member <https://w3id.org/dsv-dap#Property.domain-2026-04-02T07:23:42.148Z-61>.
+
+<https://w3id.org/dsv-dap#Property.domain-2026-04-02T07:23:42.148Z-61> a as:Create;
+    dct:isVersionOf <https://w3id.org/dsv-dap#Property.domain>;
+    dct:created "2026-04-02T07:23:42.148Z"^^xsd:dateTime;
+    dct:issued "2026-04-02T07:23:42.148Z"^^xsd:dateTime;
+    ds-ldes:sequence 61;
+    ds-ldes:transaction "2cc91a3e-daf6-429e-acf5-8298b749786a";
+    dct:isPartOf <https://w3id.org/dsv-dap#>;
+    a dsv:TermProfile;
+    dsv:reusesPropertyValue [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty rdfs:label;
+  dsv:reusedAsProperty skos:prefLabel;
+  dsv:reusedFromResource rdfs:domain
+], [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty rdfs:comment;
+  dsv:reusedAsProperty skos:definition;
+  dsv:reusedFromResource rdfs:domain
+];
+    dsv:cardinality cardinality:01;
+    dsv:property rdfs:domain;
+    dsv:domain <https://w3id.org/dsv-dap#Property>;
+    a dsv:ObjectPropertyProfile;
+    dsv:objectPropertyRange <https://w3id.org/dsv-dap#Class>.
+
+<> tree:member <https://w3id.org/dsv-dap#Objectproperty.range-2026-04-02T07:23:42.148Z-62>.
+
+<https://w3id.org/dsv-dap#Objectproperty.range-2026-04-02T07:23:42.148Z-62> a as:Create;
+    dct:isVersionOf <https://w3id.org/dsv-dap#Objectproperty.range>;
+    dct:created "2026-04-02T07:23:42.148Z"^^xsd:dateTime;
+    dct:issued "2026-04-02T07:23:42.148Z"^^xsd:dateTime;
+    ds-ldes:sequence 62;
+    ds-ldes:transaction "2cc91a3e-daf6-429e-acf5-8298b749786a";
+    dct:isPartOf <https://w3id.org/dsv-dap#>;
+    a dsv:TermProfile;
+    dsv:reusesPropertyValue [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty rdfs:label;
+  dsv:reusedAsProperty skos:prefLabel;
+  dsv:reusedFromResource rdfs:range
+], [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty rdfs:comment;
+  dsv:reusedAsProperty skos:definition;
+  dsv:reusedFromResource rdfs:range
+];
+    dsv:cardinality cardinality:01;
+    dsv:property rdfs:range;
+    dsv:domain <https://w3id.org/dsv-dap#ObjectProperty>;
+    a dsv:ObjectPropertyProfile;
+    dsv:objectPropertyRange <https://w3id.org/dsv-dap#Class>.
+
+<> tree:member <https://w3id.org/dsv-dap#Datatypeproperty.range-2026-04-02T07:23:42.148Z-63>.
+
+<https://w3id.org/dsv-dap#Datatypeproperty.range-2026-04-02T07:23:42.148Z-63> a as:Create;
+    dct:isVersionOf <https://w3id.org/dsv-dap#Datatypeproperty.range>;
+    dct:created "2026-04-02T07:23:42.148Z"^^xsd:dateTime;
+    dct:issued "2026-04-02T07:23:42.148Z"^^xsd:dateTime;
+    ds-ldes:sequence 63;
+    ds-ldes:transaction "2cc91a3e-daf6-429e-acf5-8298b749786a";
+    dct:isPartOf <https://w3id.org/dsv-dap#>;
+    a dsv:TermProfile;
+    dsv:reusesPropertyValue [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty rdfs:label;
+  dsv:reusedAsProperty skos:prefLabel;
+  dsv:reusedFromResource rdfs:range
+], [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty rdfs:comment;
+  dsv:reusedAsProperty skos:definition;
+  dsv:reusedFromResource rdfs:range
+];
+    dsv:cardinality cardinality:01;
+    dsv:property rdfs:range;
+    dsv:domain <https://w3id.org/dsv-dap#DatatypeProperty>;
+    a dsv:ObjectPropertyProfile;
+    dsv:objectPropertyRange <https://w3id.org/dsv-dap#Datatype>.
+
+<> tree:member <https://w3id.org/dsv-dap#PropertyValueReuse.reusedAsProperty-2026-04-02T07:23:42.148Z-64>.
+
+<https://w3id.org/dsv-dap#PropertyValueReuse.reusedAsProperty-2026-04-02T07:23:42.148Z-64> a as:Create;
+    dct:isVersionOf <https://w3id.org/dsv-dap#PropertyValueReuse.reusedAsProperty>;
+    dct:created "2026-04-02T07:23:42.148Z"^^xsd:dateTime;
+    dct:issued "2026-04-02T07:23:42.148Z"^^xsd:dateTime;
+    ds-ldes:sequence 64;
+    ds-ldes:transaction "2cc91a3e-daf6-429e-acf5-8298b749786a";
+    dct:isPartOf <https://w3id.org/dsv-dap#>;
+    a dsv:TermProfile;
+    skos:scopeNote "This is expected to be one of skos:prefLabel for preferred label, skos:definition for definition, or skos:scopeNote for usage note."@en;
+    dsv:reusesPropertyValue [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty rdfs:label;
+  dsv:reusedAsProperty skos:prefLabel;
+  dsv:reusedFromResource dsv:reusedAsProperty
+], [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty rdfs:comment;
+  dsv:reusedAsProperty skos:definition;
+  dsv:reusedFromResource dsv:reusedAsProperty
+];
+    dsv:cardinality cardinality:11;
+    dsv:property dsv:reusedAsProperty;
+    dsv:domain <https://w3id.org/dsv-dap#PropertyValueReuse>;
+    a dsv:ObjectPropertyProfile;
+    dsv:objectPropertyRange <https://w3id.org/dsv-dap#Property>.

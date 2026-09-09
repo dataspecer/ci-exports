@@ -1,0 +1,54 @@
+Status: DIFFERENT
+Comparison: elements, attributes, text values, and repeated-element order
+Ignored: XML declaration, comments, indentation, attribute order, namespace prefixes
+Missing content entries: 4
+Added content entries: 9
+Sibling-order changes: 10
+
+Missing from round-trip XML:
+- attribute /ccmm:dataset/@xsi:schemaLocation = 'https://schema.ccmm.cz/research-data/2.0 ../dataset/schema.xsd'
+- attribute /ccmm:dataset/ccmm:related_resource/ccmm:resource_type/ccmm:label/@xml:lang = 'en'
+- element /ccmm:dataset/ccmm:related_resource/ccmm:resource_type/ccmm:label
+- text /ccmm:dataset/ccmm:related_resource/ccmm:resource_type/ccmm:label = 'text'
+
+Added in round-trip XML:
+- attribute /ccmm:dataset/ccmm:metadata_identification/ccmm:language/ccmm:label/@xml:lang = 'cs'
+- attribute /ccmm:dataset/ccmm:metadata_identification/ccmm:language/ccmm:label/@xml:lang = 'en'
+- attribute /ccmm:dataset/ccmm:primary_language/ccmm:label/@xml:lang = 'cs'
+- element /ccmm:dataset/ccmm:metadata_identification/ccmm:language/ccmm:label (2 occurrences)
+- element /ccmm:dataset/ccmm:primary_language/ccmm:label
+- text /ccmm:dataset/ccmm:metadata_identification/ccmm:language/ccmm:label = 'Czech'
+- text /ccmm:dataset/ccmm:metadata_identification/ccmm:language/ccmm:label = 'Čeština'
+- text /ccmm:dataset/ccmm:primary_language/ccmm:label = 'čeština'
+
+Repeated elements with changed order:
+- /ccmm:dataset/ccmm:distribution/ccmm:distribution_downloadable_file/ccmm:download_url/ccmm:label
+  original: ccmm:label @xml:lang='cs' = 'Datová sada ve formátu Geopackage' | ccmm:label @xml:lang='en' = 'Dataset in Geopackage format'
+  round-trip: ccmm:label @xml:lang='en' = 'Dataset in Geopackage format' | ccmm:label @xml:lang='cs' = 'Datová sada ve formátu Geopackage'
+- /ccmm:dataset/ccmm:location/ccmm:relation_type/ccmm:label
+  original: ccmm:label @xml:lang='cs' = 'Získáno v lokaci' | ccmm:label @xml:lang='en' = 'Collected in'
+  round-trip: ccmm:label @xml:lang='en' = 'Collected in' | ccmm:label @xml:lang='cs' = 'Získáno v lokaci'
+- /ccmm:dataset/ccmm:metadata_identification/ccmm:original_repository/ccmm:qualified_attribution/ccmm:role/ccmm:label
+  original: ccmm:label @xml:lang='cs' = 'Vydavatel' | ccmm:label @xml:lang='en' = 'Publisher'
+  round-trip: ccmm:label @xml:lang='en' = 'Publisher' | ccmm:label @xml:lang='cs' = 'Vydavatel'
+- /ccmm:dataset/ccmm:other_language/ccmm:label
+  original: ccmm:label @xml:lang='en' = 'English' | ccmm:label @xml:lang='cs' = 'Angličtina'
+  round-trip: ccmm:label @xml:lang='cs' = 'Angličtina' | ccmm:label @xml:lang='en' = 'English'
+- /ccmm:dataset/ccmm:qualified_attribution
+  original: ccmm:qualified_attribution (ccmm:iri='https://orcid.org/0030-04X2-2030-4X26'; ccmm:label='Autor') | ccmm:qualified_attribution (ccmm:iri='https://orcid.org/0023-0802-44X6-26X0'; ccmm:label='Vydavatel')
+  round-trip: ccmm:qualified_attribution (ccmm:iri='https://orcid.org/0023-0802-44X6-26X0'; ccmm:label='Vydavatel') | ccmm:qualified_attribution (ccmm:iri='https://orcid.org/0030-04X2-2030-4X26'; ccmm:label='Creator')
+- /ccmm:dataset/ccmm:qualified_attribution/ccmm:role/ccmm:label
+  original: ccmm:label @xml:lang='en' = 'Creator' | ccmm:label @xml:lang='cs' = 'Autor'
+  round-trip: ccmm:label @xml:lang='cs' = 'Autor' | ccmm:label @xml:lang='en' = 'Creator'
+- /ccmm:dataset/ccmm:related_resource/ccmm:resource_relation_type/ccmm:label
+  original: ccmm:label @xml:lang='cs' = 'má metadata' | ccmm:label @xml:lang='en' = 'has metadata'
+  round-trip: ccmm:label @xml:lang='en' = 'has metadata' | ccmm:label @xml:lang='cs' = 'má metadata'
+- /ccmm:dataset/ccmm:resource_type/ccmm:label
+  original: ccmm:label @xml:lang='cs' = 'datová sada' | ccmm:label @xml:lang='en' = 'dataset'
+  round-trip: ccmm:label @xml:lang='en' = 'dataset' | ccmm:label @xml:lang='cs' = 'datová sada'
+- /ccmm:dataset/ccmm:subject
+  original: ccmm:subject (ccmm:iri='https://vocabs.ccmm.cz/registry/codelist/S'... [sha256:57003b26a8dc]; ccmm:label='Oborové třídění OECD FORD (Frascati)') | ccmm:subject (ccmm:iri='http://inspire.ec.europa.eu/theme/ef'; ccmm:label='INSPIRE theme register')
+  round-trip: ccmm:subject (ccmm:iri='http://inspire.ec.europa.eu/theme/ef'; ccmm:label='INSPIRE theme register') | ccmm:subject (ccmm:iri='https://vocabs.ccmm.cz/registry/codelist/S'... [sha256:57003b26a8dc]; ccmm:label='OECD FORD Subject Category (Frascati)')
+- /ccmm:dataset/ccmm:subject/ccmm:subject_scheme/ccmm:label
+  original: ccmm:label @xml:lang='en' = 'OECD FORD Subject Category (Frascati)' | ccmm:label @xml:lang='cs' = 'Oborové třídění OECD FORD (Frascati)'
+  round-trip: ccmm:label @xml:lang='cs' = 'Oborové třídění OECD FORD (Frascati)' | ccmm:label @xml:lang='en' = 'OECD FORD Subject Category (Frascati)'
