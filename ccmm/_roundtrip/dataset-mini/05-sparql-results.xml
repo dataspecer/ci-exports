@@ -7,6 +7,16 @@
   </head>
   <results>
     <result>
+      <binding name="s"><bnode>b0_cb11b192b87b18caf1388efcec956eee533c28c7faa2ce7628671dafe41a92470a5</bnode></binding>
+      <binding name="p"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
+      <binding name="o"><uri>http://www.w3.org/ns/org#Organization</uri></binding>
+    </result>
+    <result>
+      <binding name="s"><bnode>b0_cb11b192b87b18caf1388efcec956eee533c28c7faa2ce7628671dafe41a92470a5</bnode></binding>
+      <binding name="p"><uri>http://xmlns.com/foaf/0.1/name</uri></binding>
+      <binding name="o"><literal datatype="http://www.w3.org/2001/XMLSchema#string">Nějaká organizace</literal></binding>
+    </result>
+    <result>
       <binding name="s"><bnode>b0_cb163d274ebff2ffb8057902aa6b27aa5c6bba91446219290339bdf1e791aa902e0</bnode></binding>
       <binding name="p"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
       <binding name="o"><uri>http://www.w3.org/ns/prov#Attribution</uri></binding>
@@ -34,7 +44,7 @@
     <result>
       <binding name="s"><bnode>b0_cb182c972a14e199794bf4ff5b0d8eb10e53de17f6adf1926a574087c997a82397a</bnode></binding>
       <binding name="p"><uri>http://www.w3.org/ns/prov#agent</uri></binding>
-      <binding name="o"><bnode>b0_cb26a37fb1b91c091710718c178f1bb18df7f5b6d6b85aeedd4ee375e166ad2e8ca</bnode></binding>
+      <binding name="o"><bnode>b0_cb22b2e14e8701724c42f65acaf8bfb8a9952615d324a23729b709cd74950873678</bnode></binding>
     </result>
     <result>
       <binding name="s"><bnode>b0_cb188abe086985713db541039e6c8b9ab925ad67567f028775cc52c078dc733c97e</bnode></binding>
@@ -85,6 +95,26 @@
       <binding name="s"><bnode>b0_cb1e399835c7dcaf2cec80d03e860304fa90dc5188c62204b46a48f3acb8680be35</bnode></binding>
       <binding name="p"><uri>https://model.ccmm.cz/vocabulary/ccmm#originalRepository</uri></binding>
       <binding name="o"><uri>https://data.narodni-repozitar.cz</uri></binding>
+    </result>
+    <result>
+      <binding name="s"><bnode>b0_cb22b2e14e8701724c42f65acaf8bfb8a9952615d324a23729b709cd74950873678</bnode></binding>
+      <binding name="p"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
+      <binding name="o"><uri>http://www.w3.org/ns/prov#Person</uri></binding>
+    </result>
+    <result>
+      <binding name="s"><bnode>b0_cb22b2e14e8701724c42f65acaf8bfb8a9952615d324a23729b709cd74950873678</bnode></binding>
+      <binding name="p"><uri>http://www.w3.org/2006/vcard/ns#family-name</uri></binding>
+      <binding name="o"><literal datatype="http://www.w3.org/2001/XMLSchema#string">Staeklý</literal></binding>
+    </result>
+    <result>
+      <binding name="s"><bnode>b0_cb22b2e14e8701724c42f65acaf8bfb8a9952615d324a23729b709cd74950873678</bnode></binding>
+      <binding name="p"><uri>http://www.w3.org/2006/vcard/ns#given-name</uri></binding>
+      <binding name="o"><literal datatype="http://www.w3.org/2001/XMLSchema#string">Pavel</literal></binding>
+    </result>
+    <result>
+      <binding name="s"><bnode>b0_cb22b2e14e8701724c42f65acaf8bfb8a9952615d324a23729b709cd74950873678</bnode></binding>
+      <binding name="p"><uri>http://xmlns.com/foaf/0.1/name</uri></binding>
+      <binding name="o"><literal datatype="http://www.w3.org/2001/XMLSchema#string">Pavel Steklý</literal></binding>
     </result>
     <result>
       <binding name="s"><bnode>b0_cb24c0dd24251026b031e83f7fc6c7c3eedd6382fdf6a280456f65a273b519a44ed</bnode></binding>
@@ -142,26 +172,6 @@
       <binding name="o"><uri>https://vocabs.ccmm.cz/registry/codelist/SubjectCategory/30000/30300/30304</uri></binding>
     </result>
     <result>
-      <binding name="s"><bnode>b0_cb26a37fb1b91c091710718c178f1bb18df7f5b6d6b85aeedd4ee375e166ad2e8ca</bnode></binding>
-      <binding name="p"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
-      <binding name="o"><uri>http://www.w3.org/ns/prov#Person</uri></binding>
-    </result>
-    <result>
-      <binding name="s"><bnode>b0_cb26a37fb1b91c091710718c178f1bb18df7f5b6d6b85aeedd4ee375e166ad2e8ca</bnode></binding>
-      <binding name="p"><uri>http://www.w3.org/2006/vcard/ns#family-name</uri></binding>
-      <binding name="o"><literal datatype="http://www.w3.org/2001/XMLSchema#string">:unkn</literal></binding>
-    </result>
-    <result>
-      <binding name="s"><bnode>b0_cb26a37fb1b91c091710718c178f1bb18df7f5b6d6b85aeedd4ee375e166ad2e8ca</bnode></binding>
-      <binding name="p"><uri>http://www.w3.org/2006/vcard/ns#given-name</uri></binding>
-      <binding name="o"><literal datatype="http://www.w3.org/2001/XMLSchema#string">:unkn</literal></binding>
-    </result>
-    <result>
-      <binding name="s"><bnode>b0_cb26a37fb1b91c091710718c178f1bb18df7f5b6d6b85aeedd4ee375e166ad2e8ca</bnode></binding>
-      <binding name="p"><uri>http://xmlns.com/foaf/0.1/name</uri></binding>
-      <binding name="o"><literal datatype="http://www.w3.org/2001/XMLSchema#string">:unkn</literal></binding>
-    </result>
-    <result>
       <binding name="s"><bnode>b0_cb2dca6b37a2f6348d0e76fdc9ba9e8b09225a35b0ec57b8dd1eec8aa7954dfecb1</bnode></binding>
       <binding name="p"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
       <binding name="o"><uri>http://www.w3.org/ns/prov#Person</uri></binding>
@@ -192,16 +202,6 @@
       <binding name="o"><uri>https://w3id.org/tib/datacite/class/Description</uri></binding>
     </result>
     <result>
-      <binding name="s"><bnode>b0_cb8e44106cb448d4ee48c2019e9d0bc9fbb1df8f05246e897e3aeefe21def63d0f</bnode></binding>
-      <binding name="p"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
-      <binding name="o"><uri>http://www.w3.org/ns/org#Organization</uri></binding>
-    </result>
-    <result>
-      <binding name="s"><bnode>b0_cb8e44106cb448d4ee48c2019e9d0bc9fbb1df8f05246e897e3aeefe21def63d0f</bnode></binding>
-      <binding name="p"><uri>http://xmlns.com/foaf/0.1/name</uri></binding>
-      <binding name="o"><literal datatype="http://www.w3.org/2001/XMLSchema#string">:unkn</literal></binding>
-    </result>
-    <result>
       <binding name="s"><bnode>b0_cb902cb2223c13da0f7f1d235a28c462c4d28645df1f4e3958916fa6a0b8724657</bnode></binding>
       <binding name="p"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
       <binding name="o"><uri>https://model.ccmm.cz/vocabulary/ccmm#TimeReference</uri></binding>
@@ -229,7 +229,7 @@
     <result>
       <binding name="s"><bnode>b0_cbc3df3bad47669afb5ac99207400e7699b5be7f3f9ddd495eb5c99f0d6201e76c</bnode></binding>
       <binding name="p"><uri>http://www.w3.org/ns/prov#agent</uri></binding>
-      <binding name="o"><bnode>b0_cb8e44106cb448d4ee48c2019e9d0bc9fbb1df8f05246e897e3aeefe21def63d0f</bnode></binding>
+      <binding name="o"><bnode>b0_cb11b192b87b18caf1388efcec956eee533c28c7faa2ce7628671dafe41a92470a5</bnode></binding>
     </result>
     <result>
       <binding name="s"><bnode>b0_cbf7a155980736d3e74c158bd029df9efb97564ac590233d153e7b02b8af66cfe3</bnode></binding>
@@ -245,6 +245,16 @@
       <binding name="s"><uri>http://purl.org/coar/access_right/c_f1cf</uri></binding>
       <binding name="p"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
       <binding name="o"><uri>http://purl.org/dc/terms/RightsStatement</uri></binding>
+    </result>
+    <result>
+      <binding name="s"><uri>http://purl.org/coar/access_right/c_f1cf</uri></binding>
+      <binding name="p"><uri>http://www.w3.org/2004/02/skos/core#prefLabel</uri></binding>
+      <binding name="o"><literal xml:lang="en">embargoed access</literal></binding>
+    </result>
+    <result>
+      <binding name="s"><uri>https://data.narodni-repozitar.cz</uri></binding>
+      <binding name="p"><uri>http://purl.org/dc/terms/description</uri></binding>
+      <binding name="o"><literal xml:lang="cs">Popis původního repozitáře,</literal></binding>
     </result>
     <result>
       <binding name="s"><uri>https://data.narodni-repozitar.cz</uri></binding>
@@ -289,7 +299,7 @@
     <result>
       <binding name="s"><uri>https://model.ccmm.cz/research-data/2.0.0</uri></binding>
       <binding name="p"><uri>http://www.w3.org/2000/01/rdf-schema#label</uri></binding>
-      <binding name="o"><literal datatype="http://www.w3.org/2001/XMLSchema#string">CCMM RD 2.0.0</literal></binding>
+      <binding name="o"><literal xml:lang="en">Czech Core Metadata Model for Research Data 2.0.0</literal></binding>
     </result>
     <result>
       <binding name="s"><uri>https://vocabs.ccmm.cz/registry/codelist/AgentRole/Contributor/DataManager</uri></binding>
@@ -297,9 +307,19 @@
       <binding name="o"><uri>http://www.w3.org/ns/dcat#Role</uri></binding>
     </result>
     <result>
+      <binding name="s"><uri>https://vocabs.ccmm.cz/registry/codelist/AgentRole/Contributor/DataManager</uri></binding>
+      <binding name="p"><uri>http://www.w3.org/2004/02/skos/core#prefLabel</uri></binding>
+      <binding name="o"><literal xml:lang="en">Data Manager</literal></binding>
+    </result>
+    <result>
       <binding name="s"><uri>https://vocabs.ccmm.cz/registry/codelist/AgentRole/Creator</uri></binding>
       <binding name="p"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
       <binding name="o"><uri>http://www.w3.org/ns/dcat#Role</uri></binding>
+    </result>
+    <result>
+      <binding name="s"><uri>https://vocabs.ccmm.cz/registry/codelist/AgentRole/Creator</uri></binding>
+      <binding name="p"><uri>http://www.w3.org/2004/02/skos/core#prefLabel</uri></binding>
+      <binding name="o"><literal xml:lang="en">Creator</literal></binding>
     </result>
     <result>
       <binding name="s"><uri>https://vocabs.ccmm.cz/registry/codelist/AgentRole/Publisher</uri></binding>
@@ -345,6 +365,11 @@
       <binding name="s"><uri>https://vocabs.ccmm.cz/registry/codelist/TimeReference/Created</uri></binding>
       <binding name="p"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
       <binding name="o"><uri>http://www.w3.org/2004/02/skos/core#Concept</uri></binding>
+    </result>
+    <result>
+      <binding name="s"><uri>https://vocabs.ccmm.cz/registry/codelist/TimeReference/Created</uri></binding>
+      <binding name="p"><uri>http://www.w3.org/2004/02/skos/core#prefLabel</uri></binding>
+      <binding name="o"><literal xml:lang="en">Created</literal></binding>
     </result>
   </results>
 </sparql>

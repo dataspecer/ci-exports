@@ -37,6 +37,16 @@
       <binding name="o"><literal datatype="http://www.w3.org/2001/XMLSchema#string">Uhlík, Matouš</literal></binding>
     </result>
     <result>
+      <binding name="s"><bnode>b0_cb145fe505c4bb725e3976b051559730d460f180fac63aecd9d8b97849a8e5d6cd0</bnode></binding>
+      <binding name="p"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
+      <binding name="o"><uri>http://www.w3.org/ns/prov#Person</uri></binding>
+    </result>
+    <result>
+      <binding name="s"><bnode>b0_cb145fe505c4bb725e3976b051559730d460f180fac63aecd9d8b97849a8e5d6cd0</bnode></binding>
+      <binding name="p"><uri>http://xmlns.com/foaf/0.1/name</uri></binding>
+      <binding name="o"><literal datatype="http://www.w3.org/2001/XMLSchema#string">:unkn</literal></binding>
+    </result>
+    <result>
       <binding name="s"><bnode>b0_cb15198b8ae5454e41f81d4496533cedfffb25319511c3d1fbfc2a3825d722bb2cc</bnode></binding>
       <binding name="p"><uri>http://purl.org/dc/terms/description</uri></binding>
       <binding name="o"><literal xml:lang="en">The data set is related to the investigation of the influence of deposition parameters on the microstructure, austenite formation, and tensile properties of SAF 2507 super duplex stainless steel fabricated using directed energy deposition (DED). The experiments were carried out at COMTES FHT (Czech Republic) using an INSSTEK MX-600 system equipped with a 2 kW Yttrium fiber laser. SAF 2507 powder (particle size 45–150 μm) was deposited under three different parameter sets, varying laser power, beam diameter, layer thickness, hatch distance, and powder feed rate, while maintaining constant scan speed. A zig-zag deposition strategy was applied under a protective argon atmosphere (5.0, 99.999%). For each parameter set, 20×20×20 mm cubes were built and used for analysis. Microstructure and phase composition were characterized using optical microscopy, scanning electron microscopy, EBSD analysis, X-ray diffraction. Tensile properties were evaluated using miniature tensile tests. Thermal simulations of the deposition process were carried out using Simufact Welding 2024.1 with the Advanced Thermal Cycle (ATC) method.</literal></binding>
@@ -382,21 +392,6 @@
       <binding name="o"><bnode>b0_cb1c4bfc4fd2bf5c8ace6d3610dcb52181bb040bd13b1bf7686826cb4aab183aec4</bnode></binding>
     </result>
     <result>
-      <binding name="s"><bnode>b0_cb24e8013829463a1a1dda823dcdb6552ea00e61e0eb02fbe69eadcd469551646e8</bnode></binding>
-      <binding name="p"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
-      <binding name="o"><uri>http://www.w3.org/ns/prov#Attribution</uri></binding>
-    </result>
-    <result>
-      <binding name="s"><bnode>b0_cb24e8013829463a1a1dda823dcdb6552ea00e61e0eb02fbe69eadcd469551646e8</bnode></binding>
-      <binding name="p"><uri>http://www.w3.org/ns/dcat#hadRole</uri></binding>
-      <binding name="o"><uri>https://vocabs.ccmm.cz/registry/codelist/AgentRole/Contributor/DataManager</uri></binding>
-    </result>
-    <result>
-      <binding name="s"><bnode>b0_cb24e8013829463a1a1dda823dcdb6552ea00e61e0eb02fbe69eadcd469551646e8</bnode></binding>
-      <binding name="p"><uri>http://www.w3.org/ns/prov#agent</uri></binding>
-      <binding name="o"><bnode>b0_cb298e6380a961a0195b52c0a278642a56bc79d8a0e6f56ca4c001914e7611fe96d</bnode></binding>
-    </result>
-    <result>
       <binding name="s"><bnode>b0_cb2514e83f9764664b0dcc8639a1d39139fe9d1a8dc50eed60a1facea41b6c3405b</bnode></binding>
       <binding name="p"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
       <binding name="o"><uri>http://www.w3.org/ns/adms#Identifier</uri></binding>
@@ -462,6 +457,21 @@
       <binding name="o"><literal datatype="http://www.w3.org/2001/XMLSchema#string">COMTES FHT</literal></binding>
     </result>
     <result>
+      <binding name="s"><bnode>b0_cb277dab7941fa47cf9c9fcb76256b3f2918a74836d6a26838820474e237ba22091</bnode></binding>
+      <binding name="p"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
+      <binding name="o"><uri>http://www.w3.org/ns/prov#Attribution</uri></binding>
+    </result>
+    <result>
+      <binding name="s"><bnode>b0_cb277dab7941fa47cf9c9fcb76256b3f2918a74836d6a26838820474e237ba22091</bnode></binding>
+      <binding name="p"><uri>http://www.w3.org/ns/dcat#hadRole</uri></binding>
+      <binding name="o"><uri>https://vocabs.ccmm.cz/registry/codelist/AgentRole/Contributor/DataManager</uri></binding>
+    </result>
+    <result>
+      <binding name="s"><bnode>b0_cb277dab7941fa47cf9c9fcb76256b3f2918a74836d6a26838820474e237ba22091</bnode></binding>
+      <binding name="p"><uri>http://www.w3.org/ns/prov#agent</uri></binding>
+      <binding name="o"><bnode>b0_cb145fe505c4bb725e3976b051559730d460f180fac63aecd9d8b97849a8e5d6cd0</bnode></binding>
+    </result>
+    <result>
       <binding name="s"><bnode>b0_cb27c19335d9df803398e0f726203d0fcc0f89a4be446472c2dc329dea8500f026a</bnode></binding>
       <binding name="p"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
       <binding name="o"><uri>http://www.w3.org/ns/prov#Person</uri></binding>
@@ -525,26 +535,6 @@
       <binding name="s"><bnode>b0_cb297b0029f073485871d3a84d054565e4978e1dbfd9eac533cc3a1947974471760</bnode></binding>
       <binding name="p"><uri>http://xmlns.com/foaf/0.1/name</uri></binding>
       <binding name="o"><literal datatype="http://www.w3.org/2001/XMLSchema#string">COMTES FHT</literal></binding>
-    </result>
-    <result>
-      <binding name="s"><bnode>b0_cb298e6380a961a0195b52c0a278642a56bc79d8a0e6f56ca4c001914e7611fe96d</bnode></binding>
-      <binding name="p"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
-      <binding name="o"><uri>http://www.w3.org/ns/prov#Person</uri></binding>
-    </result>
-    <result>
-      <binding name="s"><bnode>b0_cb298e6380a961a0195b52c0a278642a56bc79d8a0e6f56ca4c001914e7611fe96d</bnode></binding>
-      <binding name="p"><uri>http://www.w3.org/2006/vcard/ns#family-name</uri></binding>
-      <binding name="o"><literal datatype="http://www.w3.org/2001/XMLSchema#string">:unkn</literal></binding>
-    </result>
-    <result>
-      <binding name="s"><bnode>b0_cb298e6380a961a0195b52c0a278642a56bc79d8a0e6f56ca4c001914e7611fe96d</bnode></binding>
-      <binding name="p"><uri>http://www.w3.org/2006/vcard/ns#given-name</uri></binding>
-      <binding name="o"><literal datatype="http://www.w3.org/2001/XMLSchema#string">:unkn</literal></binding>
-    </result>
-    <result>
-      <binding name="s"><bnode>b0_cb298e6380a961a0195b52c0a278642a56bc79d8a0e6f56ca4c001914e7611fe96d</bnode></binding>
-      <binding name="p"><uri>http://xmlns.com/foaf/0.1/name</uri></binding>
-      <binding name="o"><literal datatype="http://www.w3.org/2001/XMLSchema#string">:unkn</literal></binding>
     </result>
     <result>
       <binding name="s"><bnode>b0_cb29a106e0b9a2e4ad635a6b177face5641c35c38d73cb66251354b86bd4a31c74f</bnode></binding>
@@ -1159,7 +1149,7 @@
     <result>
       <binding name="s"><uri>https://datarepo.eosc.cz/datasets/records/datst.dmq82-ed856</uri></binding>
       <binding name="p"><uri>http://www.w3.org/ns/prov#qualifiedAttribution</uri></binding>
-      <binding name="o"><bnode>b0_cb24e8013829463a1a1dda823dcdb6552ea00e61e0eb02fbe69eadcd469551646e8</bnode></binding>
+      <binding name="o"><bnode>b0_cb277dab7941fa47cf9c9fcb76256b3f2918a74836d6a26838820474e237ba22091</bnode></binding>
     </result>
     <result>
       <binding name="s"><uri>https://datarepo.eosc.cz/datasets/records/datst.dmq82-ed856</uri></binding>
@@ -1168,8 +1158,13 @@
     </result>
     <result>
       <binding name="s"><uri>https://datarepo.eosc.cz</uri></binding>
+      <binding name="p"><uri>http://purl.org/dc/terms/description</uri></binding>
+      <binding name="o"><literal xml:lang="en">The Data Catch-all Repository is a general-purpose repository for research data for which no more suitable disciplinary, institutional, or community repository is available.</literal></binding>
+    </result>
+    <result>
+      <binding name="s"><uri>https://datarepo.eosc.cz</uri></binding>
       <binding name="p"><uri>http://purl.org/dc/terms/title</uri></binding>
-      <binding name="o"><literal xml:lang="cs">Catch-all</literal></binding>
+      <binding name="o"><literal xml:lang="en">Catch-all</literal></binding>
     </result>
     <result>
       <binding name="s"><uri>https://datarepo.eosc.cz</uri></binding>
@@ -1444,6 +1439,11 @@
     <result>
       <binding name="s"><uri>https://doi.org/</uri></binding>
       <binding name="p"><uri>http://www.w3.org/2000/01/rdf-schema#label</uri></binding>
+      <binding name="o"><literal xml:lang="en">Digital Object Identifier</literal></binding>
+    </result>
+    <result>
+      <binding name="s"><uri>https://doi.org/</uri></binding>
+      <binding name="p"><uri>http://www.w3.org/2004/02/skos/core#notation</uri></binding>
       <binding name="o"><literal datatype="http://www.w3.org/2001/XMLSchema#string">DOI</literal></binding>
     </result>
     <result>
@@ -1454,7 +1454,7 @@
     <result>
       <binding name="s"><uri>https://model.ccmm.cz/research-data/2.0.0</uri></binding>
       <binding name="p"><uri>http://www.w3.org/2000/01/rdf-schema#label</uri></binding>
-      <binding name="o"><literal datatype="http://www.w3.org/2001/XMLSchema#string">CCMM RD 2.0.0</literal></binding>
+      <binding name="o"><literal xml:lang="en">Czech Core Metadata Model for Research Data 2.0.0</literal></binding>
     </result>
     <result>
       <binding name="s"><uri>https://orcid.org/0000-0001-5717-267X</uri></binding>
@@ -1539,6 +1539,11 @@
     <result>
       <binding name="s"><uri>https://orcid.org/</uri></binding>
       <binding name="p"><uri>http://www.w3.org/2000/01/rdf-schema#label</uri></binding>
+      <binding name="o"><literal xml:lang="en">Open Research and Contributor ID</literal></binding>
+    </result>
+    <result>
+      <binding name="s"><uri>https://orcid.org/</uri></binding>
+      <binding name="p"><uri>http://www.w3.org/2004/02/skos/core#notation</uri></binding>
       <binding name="o"><literal datatype="http://www.w3.org/2001/XMLSchema#string">ORCID</literal></binding>
     </result>
     <result>
@@ -1594,6 +1599,11 @@
     <result>
       <binding name="s"><uri>https://ror.org/</uri></binding>
       <binding name="p"><uri>http://www.w3.org/2000/01/rdf-schema#label</uri></binding>
+      <binding name="o"><literal xml:lang="en">Research Organization Registry</literal></binding>
+    </result>
+    <result>
+      <binding name="s"><uri>https://ror.org/</uri></binding>
+      <binding name="p"><uri>http://www.w3.org/2004/02/skos/core#notation</uri></binding>
       <binding name="o"><literal datatype="http://www.w3.org/2001/XMLSchema#string">ROR</literal></binding>
     </result>
     <result>
@@ -1609,7 +1619,7 @@
     <result>
       <binding name="s"><uri>https://vocabs.ccmm.cz/registry/codelist/AgentRole/Contributor/DataManager</uri></binding>
       <binding name="p"><uri>http://www.w3.org/2004/02/skos/core#prefLabel</uri></binding>
-      <binding name="o"><literal xml:lang="cs">Manažer dat</literal></binding>
+      <binding name="o"><literal xml:lang="cs">Správce dat</literal></binding>
     </result>
     <result>
       <binding name="s"><uri>https://vocabs.ccmm.cz/registry/codelist/AgentRole/Creator</uri></binding>
@@ -1820,6 +1830,16 @@
       <binding name="s"><uri>https://www.wikidata.org/entity/Q42302581</uri></binding>
       <binding name="p"><uri>http://www.w3.org/2000/01/rdf-schema#label</uri></binding>
       <binding name="o"><literal xml:lang="cs">IČO</literal></binding>
+    </result>
+    <result>
+      <binding name="s"><uri>https://www.wikidata.org/entity/Q42302581</uri></binding>
+      <binding name="p"><uri>http://www.w3.org/2000/01/rdf-schema#label</uri></binding>
+      <binding name="o"><literal xml:lang="cs">Identifikační Číslo Osoby</literal></binding>
+    </result>
+    <result>
+      <binding name="s"><uri>https://www.wikidata.org/entity/Q42302581</uri></binding>
+      <binding name="p"><uri>http://www.w3.org/2004/02/skos/core#notation</uri></binding>
+      <binding name="o"><literal datatype="http://www.w3.org/2001/XMLSchema#string">IČO</literal></binding>
     </result>
   </results>
 </sparql>

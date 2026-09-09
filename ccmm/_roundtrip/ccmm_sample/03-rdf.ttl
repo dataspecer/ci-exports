@@ -291,6 +291,9 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <http://publications.europa.eu/resource/authority/language/ENG>
     a dcterms:LinguisticSystem ;
+    skos:prefLabel
+        "Angličtina"@cs ,
+        "English"@en ;
 .
 
 <http://purl.org/coar/access_right/c_abf2>
@@ -334,7 +337,8 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://doi.org/>
     a ccmm:IdentifierScheme ;
-    rdfs:label "DOI" ;
+    rdfs:label "Digital Object Identifier"@en ;
+    skos:notation "DOI" ;
 .
 
 <https://doi.org/10.45321/as36sl>
@@ -374,7 +378,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://model.ccmm.cz/research-data/2.0.0>
     a dcterms:Standard ;
-    rdfs:label "CCMM RD 2.0.0" ;
+    rdfs:label "Czech Core Metadata Model for Research Data 2.0.0"@en ;
 .
 
 <https://op.europa.eu/web/eu-vocabularies/concept/-/resource?uri=http://publications.europa.eu/resource/authority/file-type/GPKG>
@@ -455,6 +459,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://original-repository.cz>
     a dcat:Catalog ;
+    dcterms:description "Popis repozitáře."@cs ;
     dcterms:title "Původní repozitář"@cs ;
     prov:qualifiedAttribution
         [
@@ -573,7 +578,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://www.iso.org/standard/80275.html>
     a dcterms:Standard ;
-    rdfs:label "ISO 19115-1:2014/Amd 2:2020" ;
+    rdfs:label "ISO 19115-1:2014/Amd 2:2020"@en ;
 .
 
 <http://link-to-license-statement.com>
@@ -582,7 +587,10 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <http://publications.europa.eu/resource/authority/language/CES>
     a dcterms:LinguisticSystem ;
-    skos:prefLabel "čeština"@cs ;
+    skos:prefLabel
+        "Čeština"@cs ,
+        "čeština"@cs ,
+        "Czech"@en ;
 .
 
 <https://gis.cenia.gov.cz/id/service/wms/chmu_ovzdusi>
@@ -598,7 +606,8 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://orcid.org/>
     a ccmm:IdentifierScheme ;
-    rdfs:label "ORCID" ;
+    rdfs:label "Open Research and Contributor ID"@en ;
+    skos:notation "ORCID" ;
 .
 
 <https://orcid.org/0030-04X2-2030-4X26>
@@ -634,5 +643,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://ror.org/>
     a ccmm:IdentifierScheme ;
-    rdfs:label "ROR" ;
+    rdfs:label "Research Organization Registry"@en ;
+    skos:notation "ROR" ;
 .

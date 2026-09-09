@@ -48,7 +48,8 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://datarepo.eosc.cz>
     a dcat:Catalog ;
-    dcterms:title "Catch-all"@cs ;
+    dcterms:description "The Data Catch-all Repository is a general-purpose repository for research data for which no more suitable disciplinary, institutional, or community repository is available."@en ;
+    dcterms:title "Catch-all"@en ;
     prov:qualifiedAttribution
         [
             a prov:Attribution ;
@@ -88,7 +89,8 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://doi.org/>
     a ccmm:IdentifierScheme ;
-    rdfs:label "DOI" ;
+    rdfs:label "Digital Object Identifier"@en ;
+    skos:notation "DOI" ;
 .
 
 <https://doi.org/10.48700/datst.1m3t2-78951>
@@ -335,7 +337,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://model.ccmm.cz/research-data/2.0.0>
     a dcterms:Standard ;
-    rdfs:label "CCMM RD 2.0.0" ;
+    rdfs:label "Czech Core Metadata Model for Research Data 2.0.0"@en ;
 .
 
 <https://orcid.org/0000-0002-4606-1218>
@@ -364,7 +366,8 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://ror.org/>
     a ccmm:IdentifierScheme ;
-    rdfs:label "ROR" ;
+    rdfs:label "Research Organization Registry"@en ;
+    skos:notation "ROR" ;
 .
 
 <https://vocabs.ccmm.cz/registry/codelist/AgentRole/Contributor/DataManager>
@@ -670,7 +673,8 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://orcid.org/>
     a ccmm:IdentifierScheme ;
-    rdfs:label "ORCID" ;
+    rdfs:label "Open Research and Contributor ID"@en ;
+    skos:notation "ORCID" ;
 .
 
 <https://vocabs.ccmm.cz/registry/codelist/AgentRole/Creator>
@@ -688,7 +692,8 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://www.wikidata.org/entity/Q42302581>
     a ccmm:IdentifierScheme ;
-    rdfs:label "IČO"@cs ;
+    rdfs:label "Identifikační Číslo Osoby"@cs ;
+    skos:notation "IČO" ;
 .
 
 <http://publications.europa.eu/resource/authority/file-type/TIFF>

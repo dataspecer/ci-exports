@@ -1498,8 +1498,13 @@
     </result>
     <result>
       <binding name="s"><uri>https://datarepo.eosc.cz</uri></binding>
+      <binding name="p"><uri>http://purl.org/dc/terms/description</uri></binding>
+      <binding name="o"><literal xml:lang="en">The Data Catch-all Repository is a general-purpose repository for research data for which no more suitable disciplinary, institutional, or community repository is available.</literal></binding>
+    </result>
+    <result>
+      <binding name="s"><uri>https://datarepo.eosc.cz</uri></binding>
       <binding name="p"><uri>http://purl.org/dc/terms/title</uri></binding>
-      <binding name="o"><literal xml:lang="cs">Catch-all</literal></binding>
+      <binding name="o"><literal xml:lang="en">Catch-all</literal></binding>
     </result>
     <result>
       <binding name="s"><uri>https://datarepo.eosc.cz</uri></binding>
@@ -1774,6 +1779,11 @@
     <result>
       <binding name="s"><uri>https://doi.org/</uri></binding>
       <binding name="p"><uri>http://www.w3.org/2000/01/rdf-schema#label</uri></binding>
+      <binding name="o"><literal xml:lang="en">Digital Object Identifier</literal></binding>
+    </result>
+    <result>
+      <binding name="s"><uri>https://doi.org/</uri></binding>
+      <binding name="p"><uri>http://www.w3.org/2004/02/skos/core#notation</uri></binding>
       <binding name="o"><literal datatype="http://www.w3.org/2001/XMLSchema#string">DOI</literal></binding>
     </result>
     <result>
@@ -1784,7 +1794,7 @@
     <result>
       <binding name="s"><uri>https://model.ccmm.cz/research-data/2.0.0</uri></binding>
       <binding name="p"><uri>http://www.w3.org/2000/01/rdf-schema#label</uri></binding>
-      <binding name="o"><literal datatype="http://www.w3.org/2001/XMLSchema#string">CCMM RD 2.0.0</literal></binding>
+      <binding name="o"><literal xml:lang="en">Czech Core Metadata Model for Research Data 2.0.0</literal></binding>
     </result>
     <result>
       <binding name="s"><uri>https://orcid.org/0000-0002-4606-1218</uri></binding>
@@ -1854,6 +1864,11 @@
     <result>
       <binding name="s"><uri>https://orcid.org/</uri></binding>
       <binding name="p"><uri>http://www.w3.org/2000/01/rdf-schema#label</uri></binding>
+      <binding name="o"><literal xml:lang="en">Open Research and Contributor ID</literal></binding>
+    </result>
+    <result>
+      <binding name="s"><uri>https://orcid.org/</uri></binding>
+      <binding name="p"><uri>http://www.w3.org/2004/02/skos/core#notation</uri></binding>
       <binding name="o"><literal datatype="http://www.w3.org/2001/XMLSchema#string">ORCID</literal></binding>
     </result>
     <result>
@@ -1879,6 +1894,11 @@
     <result>
       <binding name="s"><uri>https://ror.org/</uri></binding>
       <binding name="p"><uri>http://www.w3.org/2000/01/rdf-schema#label</uri></binding>
+      <binding name="o"><literal xml:lang="en">Research Organization Registry</literal></binding>
+    </result>
+    <result>
+      <binding name="s"><uri>https://ror.org/</uri></binding>
+      <binding name="p"><uri>http://www.w3.org/2004/02/skos/core#notation</uri></binding>
       <binding name="o"><literal datatype="http://www.w3.org/2001/XMLSchema#string">ROR</literal></binding>
     </result>
     <result>
@@ -2164,7 +2184,12 @@
     <result>
       <binding name="s"><uri>https://www.wikidata.org/entity/Q42302581</uri></binding>
       <binding name="p"><uri>http://www.w3.org/2000/01/rdf-schema#label</uri></binding>
-      <binding name="o"><literal xml:lang="cs">IČO</literal></binding>
+      <binding name="o"><literal xml:lang="cs">Identifikační Číslo Osoby</literal></binding>
+    </result>
+    <result>
+      <binding name="s"><uri>https://www.wikidata.org/entity/Q42302581</uri></binding>
+      <binding name="p"><uri>http://www.w3.org/2004/02/skos/core#notation</uri></binding>
+      <binding name="o"><literal datatype="http://www.w3.org/2001/XMLSchema#string">IČO</literal></binding>
     </result>
   </results>
 </sparql>

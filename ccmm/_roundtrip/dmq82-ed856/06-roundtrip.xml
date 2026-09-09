@@ -16,14 +16,12 @@
          <ccmm:attributed_agent>
             <ccmm:person>
                <ccmm:name>:unkn</ccmm:name>
-               <ccmm:given_name>:unkn</ccmm:given_name>
-               <ccmm:family_name>:unkn</ccmm:family_name>
             </ccmm:person>
          </ccmm:attributed_agent>
          <ccmm:role>
             <ccmm:iri>https://vocabs.ccmm.cz/registry/codelist/AgentRole/Contributor/DataManager</ccmm:iri>
             <ccmm:label xml:lang="en">Data Manager</ccmm:label>
-            <ccmm:label xml:lang="cs">Manažer dat</ccmm:label>
+            <ccmm:label xml:lang="cs">Správce dat</ccmm:label>
          </ccmm:role>
       </ccmm:qualified_attribution>
       <ccmm:date_updated>2025-10-14</ccmm:date_updated>
@@ -34,11 +32,12 @@
       </ccmm:conforms_to_standard>
       <ccmm:conforms_to_standard>
          <ccmm:iri>https://model.ccmm.cz/research-data/2.0.0</ccmm:iri>
-         <ccmm:label>CCMM RD 2.0.0</ccmm:label>
+         <ccmm:label xml:lang="en">Czech Core Metadata Model for Research Data 2.0.0</ccmm:label>
       </ccmm:conforms_to_standard>
       <ccmm:original_repository>
          <ccmm:iri>https://datarepo.eosc.cz</ccmm:iri>
-         <ccmm:label xml:lang="cs">Catch-all</ccmm:label>
+         <ccmm:label xml:lang="en">Catch-all</ccmm:label>
+         <ccmm:description xml:lang="en">The Data Catch-all Repository is a general-purpose repository for research data for which no more suitable disciplinary, institutional, or community repository is available.</ccmm:description>
          <ccmm:qualified_attribution>
             <ccmm:attributed_agent>
                <ccmm:organization>
@@ -58,7 +57,8 @@
       <ccmm:value>10.48700/datst.dmq82-ed856</ccmm:value>
       <ccmm:scheme>
          <ccmm:iri>https://doi.org/</ccmm:iri>
-         <ccmm:label>DOI</ccmm:label>
+         <ccmm:label xml:lang="en">Digital Object Identifier</ccmm:label>
+         <ccmm:notation>DOI</ccmm:notation>
       </ccmm:scheme>
    </ccmm:identifier>
    <ccmm:title>Data k rukopisu - Vliv podmínek depozice na rychlost tisku, množství in-situ vzniklého austenitu a mechanické vlastnosti oceli SAF2507 připravené metodou přímé depozice</ccmm:title>
@@ -78,7 +78,8 @@
                <ccmm:value>0000-0001-5717-267X</ccmm:value>
                <ccmm:scheme>
                   <ccmm:iri>https://orcid.org/</ccmm:iri>
-                  <ccmm:label>ORCID</ccmm:label>
+                  <ccmm:label xml:lang="en">Open Research and Contributor ID</ccmm:label>
+                  <ccmm:notation>ORCID</ccmm:notation>
                </ccmm:scheme>
             </ccmm:identifier>
             <ccmm:name>Salvetr, Pavel</ccmm:name>
@@ -90,6 +91,8 @@
                   <ccmm:scheme>
                      <ccmm:iri>https://www.wikidata.org/entity/Q42302581</ccmm:iri>
                      <ccmm:label xml:lang="cs">IČO</ccmm:label>
+                     <ccmm:label xml:lang="cs">Identifikační Číslo Osoby</ccmm:label>
+                     <ccmm:notation>IČO</ccmm:notation>
                   </ccmm:scheme>
                </ccmm:identifier>
                <ccmm:identifier>
@@ -97,7 +100,8 @@
                   <ccmm:value>00hzjtg80</ccmm:value>
                   <ccmm:scheme>
                      <ccmm:iri>https://ror.org/</ccmm:iri>
-                     <ccmm:label>ROR</ccmm:label>
+                     <ccmm:label xml:lang="en">Research Organization Registry</ccmm:label>
+                     <ccmm:notation>ROR</ccmm:notation>
                   </ccmm:scheme>
                </ccmm:identifier>
                <ccmm:name>COMTES FHT</ccmm:name>
@@ -118,7 +122,8 @@
                <ccmm:value>0000-0001-9947-2566</ccmm:value>
                <ccmm:scheme>
                   <ccmm:iri>https://orcid.org/</ccmm:iri>
-                  <ccmm:label>ORCID</ccmm:label>
+                  <ccmm:label xml:lang="en">Open Research and Contributor ID</ccmm:label>
+                  <ccmm:notation>ORCID</ccmm:notation>
                </ccmm:scheme>
             </ccmm:identifier>
             <ccmm:name>Novák, Pavel</ccmm:name>
@@ -130,6 +135,8 @@
                   <ccmm:scheme>
                      <ccmm:iri>https://www.wikidata.org/entity/Q42302581</ccmm:iri>
                      <ccmm:label xml:lang="cs">IČO</ccmm:label>
+                     <ccmm:label xml:lang="cs">Identifikační Číslo Osoby</ccmm:label>
+                     <ccmm:notation>IČO</ccmm:notation>
                   </ccmm:scheme>
                </ccmm:identifier>
                <ccmm:identifier>
@@ -137,7 +144,8 @@
                   <ccmm:value>05ggn0a85</ccmm:value>
                   <ccmm:scheme>
                      <ccmm:iri>https://ror.org/</ccmm:iri>
-                     <ccmm:label>ROR</ccmm:label>
+                     <ccmm:label xml:lang="en">Research Organization Registry</ccmm:label>
+                     <ccmm:notation>ROR</ccmm:notation>
                   </ccmm:scheme>
                </ccmm:identifier>
                <ccmm:name>Vysoká škola chemicko-technologická v Praze</ccmm:name>
@@ -162,6 +170,8 @@
                   <ccmm:scheme>
                      <ccmm:iri>https://www.wikidata.org/entity/Q42302581</ccmm:iri>
                      <ccmm:label xml:lang="cs">IČO</ccmm:label>
+                     <ccmm:label xml:lang="cs">Identifikační Číslo Osoby</ccmm:label>
+                     <ccmm:notation>IČO</ccmm:notation>
                   </ccmm:scheme>
                </ccmm:identifier>
                <ccmm:identifier>
@@ -169,7 +179,8 @@
                   <ccmm:value>00hzjtg80</ccmm:value>
                   <ccmm:scheme>
                      <ccmm:iri>https://ror.org/</ccmm:iri>
-                     <ccmm:label>ROR</ccmm:label>
+                     <ccmm:label xml:lang="en">Research Organization Registry</ccmm:label>
+                     <ccmm:notation>ROR</ccmm:notation>
                   </ccmm:scheme>
                </ccmm:identifier>
                <ccmm:name>COMTES FHT</ccmm:name>
@@ -190,7 +201,8 @@
                <ccmm:value>0000-0002-4982-9114</ccmm:value>
                <ccmm:scheme>
                   <ccmm:iri>https://orcid.org/</ccmm:iri>
-                  <ccmm:label>ORCID</ccmm:label>
+                  <ccmm:label xml:lang="en">Open Research and Contributor ID</ccmm:label>
+                  <ccmm:notation>ORCID</ccmm:notation>
                </ccmm:scheme>
             </ccmm:identifier>
             <ccmm:name>Brázda, Michal</ccmm:name>
@@ -202,6 +214,8 @@
                   <ccmm:scheme>
                      <ccmm:iri>https://www.wikidata.org/entity/Q42302581</ccmm:iri>
                      <ccmm:label xml:lang="cs">IČO</ccmm:label>
+                     <ccmm:label xml:lang="cs">Identifikační Číslo Osoby</ccmm:label>
+                     <ccmm:notation>IČO</ccmm:notation>
                   </ccmm:scheme>
                </ccmm:identifier>
                <ccmm:identifier>
@@ -209,7 +223,8 @@
                   <ccmm:value>00hzjtg80</ccmm:value>
                   <ccmm:scheme>
                      <ccmm:iri>https://ror.org/</ccmm:iri>
-                     <ccmm:label>ROR</ccmm:label>
+                     <ccmm:label xml:lang="en">Research Organization Registry</ccmm:label>
+                     <ccmm:notation>ROR</ccmm:notation>
                   </ccmm:scheme>
                </ccmm:identifier>
                <ccmm:name>COMTES FHT</ccmm:name>
@@ -230,7 +245,8 @@
                <ccmm:value>0000-0002-1241-6121</ccmm:value>
                <ccmm:scheme>
                   <ccmm:iri>https://orcid.org/</ccmm:iri>
-                  <ccmm:label>ORCID</ccmm:label>
+                  <ccmm:label xml:lang="en">Open Research and Contributor ID</ccmm:label>
+                  <ccmm:notation>ORCID</ccmm:notation>
                </ccmm:scheme>
             </ccmm:identifier>
             <ccmm:name>Dlouhý, Jaromír</ccmm:name>
@@ -242,6 +258,8 @@
                   <ccmm:scheme>
                      <ccmm:iri>https://www.wikidata.org/entity/Q42302581</ccmm:iri>
                      <ccmm:label xml:lang="cs">IČO</ccmm:label>
+                     <ccmm:label xml:lang="cs">Identifikační Číslo Osoby</ccmm:label>
+                     <ccmm:notation>IČO</ccmm:notation>
                   </ccmm:scheme>
                </ccmm:identifier>
                <ccmm:identifier>
@@ -249,7 +267,8 @@
                   <ccmm:value>00hzjtg80</ccmm:value>
                   <ccmm:scheme>
                      <ccmm:iri>https://ror.org/</ccmm:iri>
-                     <ccmm:label>ROR</ccmm:label>
+                     <ccmm:label xml:lang="en">Research Organization Registry</ccmm:label>
+                     <ccmm:notation>ROR</ccmm:notation>
                   </ccmm:scheme>
                </ccmm:identifier>
                <ccmm:name>COMTES FHT</ccmm:name>
@@ -270,7 +289,8 @@
                <ccmm:value>0000-0003-4013-9819</ccmm:value>
                <ccmm:scheme>
                   <ccmm:iri>https://orcid.org/</ccmm:iri>
-                  <ccmm:label>ORCID</ccmm:label>
+                  <ccmm:label xml:lang="en">Open Research and Contributor ID</ccmm:label>
+                  <ccmm:notation>ORCID</ccmm:notation>
                </ccmm:scheme>
             </ccmm:identifier>
             <ccmm:name>Hodek, Josef</ccmm:name>
@@ -282,6 +302,8 @@
                   <ccmm:scheme>
                      <ccmm:iri>https://www.wikidata.org/entity/Q42302581</ccmm:iri>
                      <ccmm:label xml:lang="cs">IČO</ccmm:label>
+                     <ccmm:label xml:lang="cs">Identifikační Číslo Osoby</ccmm:label>
+                     <ccmm:notation>IČO</ccmm:notation>
                   </ccmm:scheme>
                </ccmm:identifier>
                <ccmm:identifier>
@@ -289,7 +311,8 @@
                   <ccmm:value>00hzjtg80</ccmm:value>
                   <ccmm:scheme>
                      <ccmm:iri>https://ror.org/</ccmm:iri>
-                     <ccmm:label>ROR</ccmm:label>
+                     <ccmm:label xml:lang="en">Research Organization Registry</ccmm:label>
+                     <ccmm:notation>ROR</ccmm:notation>
                   </ccmm:scheme>
                </ccmm:identifier>
                <ccmm:name>COMTES FHT</ccmm:name>
@@ -310,6 +333,8 @@
                <ccmm:scheme>
                   <ccmm:iri>https://www.wikidata.org/entity/Q42302581</ccmm:iri>
                   <ccmm:label xml:lang="cs">IČO</ccmm:label>
+                  <ccmm:label xml:lang="cs">Identifikační Číslo Osoby</ccmm:label>
+                  <ccmm:notation>IČO</ccmm:notation>
                </ccmm:scheme>
             </ccmm:identifier>
             <ccmm:identifier>
@@ -317,7 +342,8 @@
                <ccmm:value>00hzjtg80</ccmm:value>
                <ccmm:scheme>
                   <ccmm:iri>https://ror.org/</ccmm:iri>
-                  <ccmm:label>ROR</ccmm:label>
+                  <ccmm:label xml:lang="en">Research Organization Registry</ccmm:label>
+                  <ccmm:notation>ROR</ccmm:notation>
                </ccmm:scheme>
             </ccmm:identifier>
             <ccmm:name>COMTES FHT</ccmm:name>
@@ -437,7 +463,8 @@
                <ccmm:value>10.13039/501100001823</ccmm:value>
                <ccmm:scheme>
                   <ccmm:iri>https://doi.org/</ccmm:iri>
-                  <ccmm:label>DOI</ccmm:label>
+                  <ccmm:label xml:lang="en">Digital Object Identifier</ccmm:label>
+                  <ccmm:notation>DOI</ccmm:notation>
                </ccmm:scheme>
             </ccmm:identifier>
             <ccmm:identifier>
@@ -445,7 +472,8 @@
                <ccmm:value>037n8p820</ccmm:value>
                <ccmm:scheme>
                   <ccmm:iri>https://ror.org/</ccmm:iri>
-                  <ccmm:label>ROR</ccmm:label>
+                  <ccmm:label xml:lang="en">Research Organization Registry</ccmm:label>
+                  <ccmm:notation>ROR</ccmm:notation>
                </ccmm:scheme>
             </ccmm:identifier>
             <ccmm:name>Ministerstvo školství, mládeže a tělovýchovy</ccmm:name>
@@ -460,7 +488,8 @@
          <ccmm:value>10.1007/s12540-025-01953-4</ccmm:value>
          <ccmm:scheme>
             <ccmm:iri>https://doi.org/</ccmm:iri>
-            <ccmm:label>DOI</ccmm:label>
+            <ccmm:label xml:lang="en">Digital Object Identifier</ccmm:label>
+            <ccmm:notation>DOI</ccmm:notation>
          </ccmm:scheme>
       </ccmm:identifier>
       <ccmm:title>Influence of Deposition Parameters on the Building rate, In-Situ Formation of Austenite and Tensile Properties of SAF 2507 SDSS Fabricated by Directed Energy Deposition</ccmm:title>
