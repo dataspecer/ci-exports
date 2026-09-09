@@ -25,140 +25,140 @@
     ldes:versionDeleteObject as:Delete;
     tree:view <>;
     ds-ldes:publishedModel <https://w3id.org/dsv#>;
-    tree:member dsv:ApplicationProfile-680937bd-6a24-4ecb-8756-51dade401774-0.
-dsv:ApplicationProfile-680937bd-6a24-4ecb-8756-51dade401774-0 a as:Create;
+    tree:member dsv:ApplicationProfile-78c6b019-5ece-4545-ba36-0b4c191ba5fe-0.
+dsv:ApplicationProfile-78c6b019-5ece-4545-ba36-0b4c191ba5fe-0 a as:Create;
     dct:isVersionOf dsv:ApplicationProfile;
-    dct:created "2026-09-09T07:49:19.116Z"^^xsd:dateTime;
-    dct:issued "2026-09-09T07:49:19.116Z"^^xsd:dateTime;
+    dct:created "2026-09-09T09:19:10.768Z"^^xsd:dateTime;
+    dct:issued "2026-09-09T09:19:10.768Z"^^xsd:dateTime;
     ds-ldes:sequence 0;
-    ds-ldes:transaction "680937bd-6a24-4ecb-8756-51dade401774";
+    ds-ldes:transaction "78c6b019-5ece-4545-ba36-0b4c191ba5fe";
     a owl:Class, rdfs:Class;
     rdfs:label "Application Profile"@en, "Konceptuální model"@cs;
     rdfs:comment "An Application Profile identifies classes and properties from vocabularies, and class profiles and property profiles from Application profiles that are re-used in a certain usage context. It also allows specification editors to further adjust the description of re-used classes and properties for that usage context without the need to explicitly create subclasses and subproperties."@en, "Konceptuální model obsahující profily tříd a vlastností různých slovníků."@cs;
     rdfs:isDefinedBy <https://w3id.org/dsv#>.
 
-<> tree:member dsv:TermProfile-680937bd-6a24-4ecb-8756-51dade401774-1.
-dsv:TermProfile-680937bd-6a24-4ecb-8756-51dade401774-1 a as:Create;
+<> tree:member dsv:TermProfile-78c6b019-5ece-4545-ba36-0b4c191ba5fe-1.
+dsv:TermProfile-78c6b019-5ece-4545-ba36-0b4c191ba5fe-1 a as:Create;
     dct:isVersionOf dsv:TermProfile;
-    dct:created "2026-09-09T07:49:19.116Z"^^xsd:dateTime;
-    dct:issued "2026-09-09T07:49:19.116Z"^^xsd:dateTime;
+    dct:created "2026-09-09T09:19:10.768Z"^^xsd:dateTime;
+    dct:issued "2026-09-09T09:19:10.768Z"^^xsd:dateTime;
     ds-ldes:sequence 1;
-    ds-ldes:transaction "680937bd-6a24-4ecb-8756-51dade401774";
+    ds-ldes:transaction "78c6b019-5ece-4545-ba36-0b4c191ba5fe";
     a owl:Class, rdfs:Class;
     rdfs:label "Term Profile"@en, "Profil"@cs;
     rdfs:comment "Term profile. Allows profile editors to specify context dependent information such as label, definition, usage note, cardinalities, etc. for Class profiles and Property profiles."@en, "Profil entity. Umožňuje blíže specifikovat některé její vlastnost v kontextu aplikačního profilu."@cs;
     rdfs:isDefinedBy <https://w3id.org/dsv#>.
 
-<> tree:member dsv:ClassProfile-680937bd-6a24-4ecb-8756-51dade401774-2.
-dsv:ClassProfile-680937bd-6a24-4ecb-8756-51dade401774-2 a as:Create;
+<> tree:member dsv:ClassProfile-78c6b019-5ece-4545-ba36-0b4c191ba5fe-2.
+dsv:ClassProfile-78c6b019-5ece-4545-ba36-0b4c191ba5fe-2 a as:Create;
     dct:isVersionOf dsv:ClassProfile;
-    dct:created "2026-09-09T07:49:19.116Z"^^xsd:dateTime;
-    dct:issued "2026-09-09T07:49:19.116Z"^^xsd:dateTime;
+    dct:created "2026-09-09T09:19:10.768Z"^^xsd:dateTime;
+    dct:issued "2026-09-09T09:19:10.768Z"^^xsd:dateTime;
     ds-ldes:sequence 2;
-    ds-ldes:transaction "680937bd-6a24-4ecb-8756-51dade401774";
+    ds-ldes:transaction "78c6b019-5ece-4545-ba36-0b4c191ba5fe";
     a owl:Class, rdfs:Class;
     rdfs:label "Class Profile"@en, "Profil třídy"@cs;
     rdfs:comment "Profile of a class. Allows specification editors to specify profile specific names, definitions and usage notes."@en;
     rdfs:isDefinedBy <https://w3id.org/dsv#>;
     rdfs:subClassOf dsv:TermProfile.
 
-<> tree:member dsv:PropertyProfile-680937bd-6a24-4ecb-8756-51dade401774-3.
-dsv:PropertyProfile-680937bd-6a24-4ecb-8756-51dade401774-3 a as:Create;
+<> tree:member dsv:PropertyProfile-78c6b019-5ece-4545-ba36-0b4c191ba5fe-3.
+dsv:PropertyProfile-78c6b019-5ece-4545-ba36-0b4c191ba5fe-3 a as:Create;
     dct:isVersionOf dsv:PropertyProfile;
-    dct:created "2026-09-09T07:49:19.116Z"^^xsd:dateTime;
-    dct:issued "2026-09-09T07:49:19.116Z"^^xsd:dateTime;
+    dct:created "2026-09-09T09:19:10.768Z"^^xsd:dateTime;
+    dct:issued "2026-09-09T09:19:10.768Z"^^xsd:dateTime;
     ds-ldes:sequence 3;
-    ds-ldes:transaction "680937bd-6a24-4ecb-8756-51dade401774";
+    ds-ldes:transaction "78c6b019-5ece-4545-ba36-0b4c191ba5fe";
     a owl:Class, rdfs:Class;
     rdfs:label "Property Profile"@en, "Profil vlastnosti"@cs;
     rdfs:comment "Profile of a property allows specification editors to specify profile specific name, definition, usage note, domain, range and cardinality."@en;
     rdfs:isDefinedBy <https://w3id.org/dsv#>;
     rdfs:subClassOf dsv:TermProfile.
 
-<> tree:member dsv:InvalidTermProfile-680937bd-6a24-4ecb-8756-51dade401774-4.
-dsv:InvalidTermProfile-680937bd-6a24-4ecb-8756-51dade401774-4 a as:Create;
+<> tree:member dsv:InvalidTermProfile-78c6b019-5ece-4545-ba36-0b4c191ba5fe-4.
+dsv:InvalidTermProfile-78c6b019-5ece-4545-ba36-0b4c191ba5fe-4 a as:Create;
     dct:isVersionOf dsv:InvalidTermProfile;
-    dct:created "2026-09-09T07:49:19.116Z"^^xsd:dateTime;
-    dct:issued "2026-09-09T07:49:19.116Z"^^xsd:dateTime;
+    dct:created "2026-09-09T09:19:10.768Z"^^xsd:dateTime;
+    dct:issued "2026-09-09T09:19:10.768Z"^^xsd:dateTime;
     ds-ldes:sequence 4;
-    ds-ldes:transaction "680937bd-6a24-4ecb-8756-51dade401774";
+    ds-ldes:transaction "78c6b019-5ece-4545-ba36-0b4c191ba5fe";
     a owl:Class, rdfs:Class;
     rdfs:label "Invalid Term Profile"@en, "Nevalidní profil"@cs;
     rdfs:comment "Invalid Term Profile is a profile, which breaks profile compliance rules. This may be for a good reason such as temporary, to be propagated upstream, inconsistency."@en, "Neplatný profil je profil, který porušuje pravidla pro správné profilování. To může být z dobrého důvodu, jako je dočasná nekonzistence, která se má teprve projevit na profilované entitě."@cs;
     rdfs:isDefinedBy <https://w3id.org/dsv#>;
     rdfs:subClassOf dsv:TermProfile.
 
-<> tree:member dsv:ObjectPropertyProfile-680937bd-6a24-4ecb-8756-51dade401774-5.
-dsv:ObjectPropertyProfile-680937bd-6a24-4ecb-8756-51dade401774-5 a as:Create;
+<> tree:member dsv:ObjectPropertyProfile-78c6b019-5ece-4545-ba36-0b4c191ba5fe-5.
+dsv:ObjectPropertyProfile-78c6b019-5ece-4545-ba36-0b4c191ba5fe-5 a as:Create;
     dct:isVersionOf dsv:ObjectPropertyProfile;
-    dct:created "2026-09-09T07:49:19.116Z"^^xsd:dateTime;
-    dct:issued "2026-09-09T07:49:19.116Z"^^xsd:dateTime;
+    dct:created "2026-09-09T09:19:10.768Z"^^xsd:dateTime;
+    dct:issued "2026-09-09T09:19:10.768Z"^^xsd:dateTime;
     ds-ldes:sequence 5;
-    ds-ldes:transaction "680937bd-6a24-4ecb-8756-51dade401774";
+    ds-ldes:transaction "78c6b019-5ece-4545-ba36-0b4c191ba5fe";
     a owl:Class, rdfs:Class;
     rdfs:label "Object Property Profile"@en, "Profil objektové vlastnosti"@cs;
     rdfs:comment "Profile of an object property allows specification editors to specify profile-specific name, definition, usage note, domain, range, and cardinality."@en;
     rdfs:isDefinedBy <https://w3id.org/dsv#>;
     rdfs:subClassOf dsv:PropertyProfile.
 
-<> tree:member dsv:DatatypePropertyProfile-680937bd-6a24-4ecb-8756-51dade401774-6.
-dsv:DatatypePropertyProfile-680937bd-6a24-4ecb-8756-51dade401774-6 a as:Create;
+<> tree:member dsv:DatatypePropertyProfile-78c6b019-5ece-4545-ba36-0b4c191ba5fe-6.
+dsv:DatatypePropertyProfile-78c6b019-5ece-4545-ba36-0b4c191ba5fe-6 a as:Create;
     dct:isVersionOf dsv:DatatypePropertyProfile;
-    dct:created "2026-09-09T07:49:19.116Z"^^xsd:dateTime;
-    dct:issued "2026-09-09T07:49:19.116Z"^^xsd:dateTime;
+    dct:created "2026-09-09T09:19:10.768Z"^^xsd:dateTime;
+    dct:issued "2026-09-09T09:19:10.768Z"^^xsd:dateTime;
     ds-ldes:sequence 6;
-    ds-ldes:transaction "680937bd-6a24-4ecb-8756-51dade401774";
+    ds-ldes:transaction "78c6b019-5ece-4545-ba36-0b4c191ba5fe";
     a owl:Class, rdfs:Class;
     rdfs:label "Datatype Property Profile"@en, "Profile atributu"@cs;
     rdfs:comment "Profile of a datatype property allows specification editors to specify profile-specific name, definition, usage note, domain, datatype, and cardinality."@en;
     rdfs:isDefinedBy <https://w3id.org/dsv#>;
     rdfs:subClassOf dsv:PropertyProfile.
 
-<> tree:member dsv:PropertyValueReuse-680937bd-6a24-4ecb-8756-51dade401774-7.
-dsv:PropertyValueReuse-680937bd-6a24-4ecb-8756-51dade401774-7 a as:Create;
+<> tree:member dsv:PropertyValueReuse-78c6b019-5ece-4545-ba36-0b4c191ba5fe-7.
+dsv:PropertyValueReuse-78c6b019-5ece-4545-ba36-0b4c191ba5fe-7 a as:Create;
     dct:isVersionOf dsv:PropertyValueReuse;
-    dct:created "2026-09-09T07:49:19.116Z"^^xsd:dateTime;
-    dct:issued "2026-09-09T07:49:19.116Z"^^xsd:dateTime;
+    dct:created "2026-09-09T09:19:10.768Z"^^xsd:dateTime;
+    dct:issued "2026-09-09T09:19:10.768Z"^^xsd:dateTime;
     ds-ldes:sequence 7;
-    ds-ldes:transaction "680937bd-6a24-4ecb-8756-51dade401774";
+    ds-ldes:transaction "78c6b019-5ece-4545-ba36-0b4c191ba5fe";
     a owl:Class, rdfs:Class;
     rdfs:label "Property Value Reuse"@en;
     rdfs:comment "Specifies, which values of which properties of which resources are reused for the current Profile.\nE.g. reuse of profile name, reuse of class name, reuse of profile definition, reuse of profile usage note, etc."@en;
     rdfs:isDefinedBy <https://w3id.org/dsv#>.
 
-<> tree:member dsv:ApplicationProfileSpecificationDocument-680937bd-6a24-4ecb-8756-51dade401774-8.
-dsv:ApplicationProfileSpecificationDocument-680937bd-6a24-4ecb-8756-51dade401774-8 a as:Create;
+<> tree:member dsv:ApplicationProfileSpecificationDocument-78c6b019-5ece-4545-ba36-0b4c191ba5fe-8.
+dsv:ApplicationProfileSpecificationDocument-78c6b019-5ece-4545-ba36-0b4c191ba5fe-8 a as:Create;
     dct:isVersionOf dsv:ApplicationProfileSpecificationDocument;
-    dct:created "2026-09-09T07:49:19.116Z"^^xsd:dateTime;
-    dct:issued "2026-09-09T07:49:19.116Z"^^xsd:dateTime;
+    dct:created "2026-09-09T09:19:10.768Z"^^xsd:dateTime;
+    dct:issued "2026-09-09T09:19:10.768Z"^^xsd:dateTime;
     ds-ldes:sequence 8;
-    ds-ldes:transaction "680937bd-6a24-4ecb-8756-51dade401774";
+    ds-ldes:transaction "78c6b019-5ece-4545-ba36-0b4c191ba5fe";
     a owl:Class, rdfs:Class;
     rdfs:label "Application Profile Specification Document"@en;
     rdfs:comment "An Application Profile Specification Document contains human-readable version of an Application Profile."@en;
     rdfs:isDefinedBy <https://w3id.org/dsv#>;
     rdfs:subClassOf <http://www.w3.org/ns/dx/prof/ResourceDescriptor>.
 
-<> tree:member dsv:VocabularySpecificationDocument-680937bd-6a24-4ecb-8756-51dade401774-9.
-dsv:VocabularySpecificationDocument-680937bd-6a24-4ecb-8756-51dade401774-9 a as:Create;
+<> tree:member dsv:VocabularySpecificationDocument-78c6b019-5ece-4545-ba36-0b4c191ba5fe-9.
+dsv:VocabularySpecificationDocument-78c6b019-5ece-4545-ba36-0b4c191ba5fe-9 a as:Create;
     dct:isVersionOf dsv:VocabularySpecificationDocument;
-    dct:created "2026-09-09T07:49:19.116Z"^^xsd:dateTime;
-    dct:issued "2026-09-09T07:49:19.116Z"^^xsd:dateTime;
+    dct:created "2026-09-09T09:19:10.768Z"^^xsd:dateTime;
+    dct:issued "2026-09-09T09:19:10.768Z"^^xsd:dateTime;
     ds-ldes:sequence 9;
-    ds-ldes:transaction "680937bd-6a24-4ecb-8756-51dade401774";
+    ds-ldes:transaction "78c6b019-5ece-4545-ba36-0b4c191ba5fe";
     a owl:Class, rdfs:Class;
     rdfs:label "Vocabulary Specification Document"@en;
     rdfs:comment "A Vocabulary Specification Document is a human-readable representation of a Vocabulary."@en;
     rdfs:isDefinedBy <https://w3id.org/dsv#>;
     rdfs:subClassOf <http://www.w3.org/ns/dx/prof/ResourceDescriptor>.
 
-<> tree:member dsv:profileOf-680937bd-6a24-4ecb-8756-51dade401774-10.
-dsv:profileOf-680937bd-6a24-4ecb-8756-51dade401774-10 a as:Create;
+<> tree:member dsv:profileOf-78c6b019-5ece-4545-ba36-0b4c191ba5fe-10.
+dsv:profileOf-78c6b019-5ece-4545-ba36-0b4c191ba5fe-10 a as:Create;
     dct:isVersionOf dsv:profileOf;
-    dct:created "2026-09-09T07:49:19.116Z"^^xsd:dateTime;
-    dct:issued "2026-09-09T07:49:19.116Z"^^xsd:dateTime;
+    dct:created "2026-09-09T09:19:10.768Z"^^xsd:dateTime;
+    dct:issued "2026-09-09T09:19:10.768Z"^^xsd:dateTime;
     ds-ldes:sequence 10;
-    ds-ldes:transaction "680937bd-6a24-4ecb-8756-51dade401774";
+    ds-ldes:transaction "78c6b019-5ece-4545-ba36-0b4c191ba5fe";
     a rdf:Property, owl:ObjectProperty;
     rdfs:label "profile of"@en;
     rdfs:comment "Specifies a parent profile of the current profile."@en;
@@ -166,13 +166,13 @@ dsv:profileOf-680937bd-6a24-4ecb-8756-51dade401774-10 a as:Create;
     rdfs:domain dsv:TermProfile;
     rdfs:range dsv:TermProfile.
 
-<> tree:member dsv:specializes-680937bd-6a24-4ecb-8756-51dade401774-11.
-dsv:specializes-680937bd-6a24-4ecb-8756-51dade401774-11 a as:Create;
+<> tree:member dsv:specializes-78c6b019-5ece-4545-ba36-0b4c191ba5fe-11.
+dsv:specializes-78c6b019-5ece-4545-ba36-0b4c191ba5fe-11 a as:Create;
     dct:isVersionOf dsv:specializes;
-    dct:created "2026-09-09T07:49:19.116Z"^^xsd:dateTime;
-    dct:issued "2026-09-09T07:49:19.116Z"^^xsd:dateTime;
+    dct:created "2026-09-09T09:19:10.768Z"^^xsd:dateTime;
+    dct:issued "2026-09-09T09:19:10.768Z"^^xsd:dateTime;
     ds-ldes:sequence 11;
-    ds-ldes:transaction "680937bd-6a24-4ecb-8756-51dade401774";
+    ds-ldes:transaction "78c6b019-5ece-4545-ba36-0b4c191ba5fe";
     a rdf:Property, owl:ObjectProperty;
     rdfs:label "specializes"@en;
     rdfs:comment "Specifies a profile specialized by this profile."@en;
@@ -180,13 +180,13 @@ dsv:specializes-680937bd-6a24-4ecb-8756-51dade401774-11 a as:Create;
     rdfs:domain dsv:TermProfile;
     rdfs:range dsv:TermProfile.
 
-<> tree:member dsv:class-680937bd-6a24-4ecb-8756-51dade401774-12.
-dsv:class-680937bd-6a24-4ecb-8756-51dade401774-12 a as:Create;
+<> tree:member dsv:class-78c6b019-5ece-4545-ba36-0b4c191ba5fe-12.
+dsv:class-78c6b019-5ece-4545-ba36-0b4c191ba5fe-12 a as:Create;
     dct:isVersionOf dsv:class;
-    dct:created "2026-09-09T07:49:19.116Z"^^xsd:dateTime;
-    dct:issued "2026-09-09T07:49:19.116Z"^^xsd:dateTime;
+    dct:created "2026-09-09T09:19:10.768Z"^^xsd:dateTime;
+    dct:issued "2026-09-09T09:19:10.768Z"^^xsd:dateTime;
     ds-ldes:sequence 12;
-    ds-ldes:transaction "680937bd-6a24-4ecb-8756-51dade401774";
+    ds-ldes:transaction "78c6b019-5ece-4545-ba36-0b4c191ba5fe";
     a rdf:Property, owl:ObjectProperty;
     rdfs:label "profiled class"@en;
     rdfs:comment "The profiled class."@en;
@@ -194,13 +194,13 @@ dsv:class-680937bd-6a24-4ecb-8756-51dade401774-12 a as:Create;
     rdfs:domain dsv:ClassProfile;
     rdfs:range rdfs:Class.
 
-<> tree:member dsv:datatype-680937bd-6a24-4ecb-8756-51dade401774-13.
-dsv:datatype-680937bd-6a24-4ecb-8756-51dade401774-13 a as:Create;
+<> tree:member dsv:datatype-78c6b019-5ece-4545-ba36-0b4c191ba5fe-13.
+dsv:datatype-78c6b019-5ece-4545-ba36-0b4c191ba5fe-13 a as:Create;
     dct:isVersionOf dsv:datatype;
-    dct:created "2026-09-09T07:49:19.116Z"^^xsd:dateTime;
-    dct:issued "2026-09-09T07:49:19.116Z"^^xsd:dateTime;
+    dct:created "2026-09-09T09:19:10.768Z"^^xsd:dateTime;
+    dct:issued "2026-09-09T09:19:10.768Z"^^xsd:dateTime;
     ds-ldes:sequence 13;
-    ds-ldes:transaction "680937bd-6a24-4ecb-8756-51dade401774";
+    ds-ldes:transaction "78c6b019-5ece-4545-ba36-0b4c191ba5fe";
     a rdf:Property, owl:ObjectProperty;
     rdfs:label "datatype"@en;
     rdfs:comment "A datatype of the values of the Datatype Property Profile."@en;
@@ -208,13 +208,13 @@ dsv:datatype-680937bd-6a24-4ecb-8756-51dade401774-13 a as:Create;
     rdfs:domain dsv:DatatypePropertyProfile;
     rdfs:range rdfs:Datatype.
 
-<> tree:member dsv:range-680937bd-6a24-4ecb-8756-51dade401774-14.
-dsv:range-680937bd-6a24-4ecb-8756-51dade401774-14 a as:Create;
+<> tree:member dsv:range-78c6b019-5ece-4545-ba36-0b4c191ba5fe-14.
+dsv:range-78c6b019-5ece-4545-ba36-0b4c191ba5fe-14 a as:Create;
     dct:isVersionOf dsv:range;
-    dct:created "2026-09-09T07:49:19.116Z"^^xsd:dateTime;
-    dct:issued "2026-09-09T07:49:19.116Z"^^xsd:dateTime;
+    dct:created "2026-09-09T09:19:10.768Z"^^xsd:dateTime;
+    dct:issued "2026-09-09T09:19:10.768Z"^^xsd:dateTime;
     ds-ldes:sequence 14;
-    ds-ldes:transaction "680937bd-6a24-4ecb-8756-51dade401774";
+    ds-ldes:transaction "78c6b019-5ece-4545-ba36-0b4c191ba5fe";
     a rdf:Property, owl:ObjectProperty;
     rdfs:label "range"@en;
     rdfs:comment "Class profile, which is the range of the object property profile."@en;
@@ -222,13 +222,13 @@ dsv:range-680937bd-6a24-4ecb-8756-51dade401774-14 a as:Create;
     rdfs:domain dsv:ObjectPropertyProfile;
     rdfs:range dsv:ClassProfile.
 
-<> tree:member dsv:domain-680937bd-6a24-4ecb-8756-51dade401774-15.
-dsv:domain-680937bd-6a24-4ecb-8756-51dade401774-15 a as:Create;
+<> tree:member dsv:domain-78c6b019-5ece-4545-ba36-0b4c191ba5fe-15.
+dsv:domain-78c6b019-5ece-4545-ba36-0b4c191ba5fe-15 a as:Create;
     dct:isVersionOf dsv:domain;
-    dct:created "2026-09-09T07:49:19.116Z"^^xsd:dateTime;
-    dct:issued "2026-09-09T07:49:19.116Z"^^xsd:dateTime;
+    dct:created "2026-09-09T09:19:10.768Z"^^xsd:dateTime;
+    dct:issued "2026-09-09T09:19:10.768Z"^^xsd:dateTime;
     ds-ldes:sequence 15;
-    ds-ldes:transaction "680937bd-6a24-4ecb-8756-51dade401774";
+    ds-ldes:transaction "78c6b019-5ece-4545-ba36-0b4c191ba5fe";
     a rdf:Property, owl:ObjectProperty;
     rdfs:label "domain"@en;
     rdfs:comment "Class profile, which is the domain of the property profile."@en;
@@ -236,13 +236,13 @@ dsv:domain-680937bd-6a24-4ecb-8756-51dade401774-15 a as:Create;
     rdfs:domain dsv:PropertyProfile;
     rdfs:range dsv:ClassProfile.
 
-<> tree:member dsv:cardinality-680937bd-6a24-4ecb-8756-51dade401774-16.
-dsv:cardinality-680937bd-6a24-4ecb-8756-51dade401774-16 a as:Create;
+<> tree:member dsv:cardinality-78c6b019-5ece-4545-ba36-0b4c191ba5fe-16.
+dsv:cardinality-78c6b019-5ece-4545-ba36-0b4c191ba5fe-16 a as:Create;
     dct:isVersionOf dsv:cardinality;
-    dct:created "2026-09-09T07:49:19.116Z"^^xsd:dateTime;
-    dct:issued "2026-09-09T07:49:19.116Z"^^xsd:dateTime;
+    dct:created "2026-09-09T09:19:10.768Z"^^xsd:dateTime;
+    dct:issued "2026-09-09T09:19:10.768Z"^^xsd:dateTime;
     ds-ldes:sequence 16;
-    ds-ldes:transaction "680937bd-6a24-4ecb-8756-51dade401774";
+    ds-ldes:transaction "78c6b019-5ece-4545-ba36-0b4c191ba5fe";
     a rdf:Property, owl:ObjectProperty;
     rdfs:label "cardinality"@en, "kardinalita"@cs;
     rdfs:comment "Cardinality of the Property Profile."@en;
@@ -250,13 +250,13 @@ dsv:cardinality-680937bd-6a24-4ecb-8756-51dade401774-16 a as:Create;
     rdfs:domain dsv:PropertyProfile;
     rdfs:range skos:Concept.
 
-<> tree:member dsv:property-680937bd-6a24-4ecb-8756-51dade401774-17.
-dsv:property-680937bd-6a24-4ecb-8756-51dade401774-17 a as:Create;
+<> tree:member dsv:property-78c6b019-5ece-4545-ba36-0b4c191ba5fe-17.
+dsv:property-78c6b019-5ece-4545-ba36-0b4c191ba5fe-17 a as:Create;
     dct:isVersionOf dsv:property;
-    dct:created "2026-09-09T07:49:19.116Z"^^xsd:dateTime;
-    dct:issued "2026-09-09T07:49:19.116Z"^^xsd:dateTime;
+    dct:created "2026-09-09T09:19:10.768Z"^^xsd:dateTime;
+    dct:issued "2026-09-09T09:19:10.768Z"^^xsd:dateTime;
     ds-ldes:sequence 17;
-    ds-ldes:transaction "680937bd-6a24-4ecb-8756-51dade401774";
+    ds-ldes:transaction "78c6b019-5ece-4545-ba36-0b4c191ba5fe";
     a rdf:Property, owl:ObjectProperty;
     rdfs:label "profiled property"@en;
     rdfs:comment "The property profiled by the property profile."@en;
@@ -264,13 +264,13 @@ dsv:property-680937bd-6a24-4ecb-8756-51dade401774-17 a as:Create;
     rdfs:domain dsv:PropertyProfile;
     rdfs:range rdf:Property.
 
-<> tree:member dsv:reusesPropertyValue-680937bd-6a24-4ecb-8756-51dade401774-18.
-dsv:reusesPropertyValue-680937bd-6a24-4ecb-8756-51dade401774-18 a as:Create;
+<> tree:member dsv:reusesPropertyValue-78c6b019-5ece-4545-ba36-0b4c191ba5fe-18.
+dsv:reusesPropertyValue-78c6b019-5ece-4545-ba36-0b4c191ba5fe-18 a as:Create;
     dct:isVersionOf dsv:reusesPropertyValue;
-    dct:created "2026-09-09T07:49:19.116Z"^^xsd:dateTime;
-    dct:issued "2026-09-09T07:49:19.116Z"^^xsd:dateTime;
+    dct:created "2026-09-09T09:19:10.768Z"^^xsd:dateTime;
+    dct:issued "2026-09-09T09:19:10.768Z"^^xsd:dateTime;
     ds-ldes:sequence 18;
-    ds-ldes:transaction "680937bd-6a24-4ecb-8756-51dade401774";
+    ds-ldes:transaction "78c6b019-5ece-4545-ba36-0b4c191ba5fe";
     a rdf:Property, owl:ObjectProperty;
     rdfs:label "reuses property value"@en;
     rdfs:comment "Points to definitions of Property value reuse for this Profile."@en;
@@ -278,13 +278,13 @@ dsv:reusesPropertyValue-680937bd-6a24-4ecb-8756-51dade401774-18 a as:Create;
     rdfs:domain dsv:TermProfile;
     rdfs:range dsv:PropertyValueReuse.
 
-<> tree:member dsv:reusedProperty-680937bd-6a24-4ecb-8756-51dade401774-19.
-dsv:reusedProperty-680937bd-6a24-4ecb-8756-51dade401774-19 a as:Create;
+<> tree:member dsv:reusedProperty-78c6b019-5ece-4545-ba36-0b4c191ba5fe-19.
+dsv:reusedProperty-78c6b019-5ece-4545-ba36-0b4c191ba5fe-19 a as:Create;
     dct:isVersionOf dsv:reusedProperty;
-    dct:created "2026-09-09T07:49:19.116Z"^^xsd:dateTime;
-    dct:issued "2026-09-09T07:49:19.116Z"^^xsd:dateTime;
+    dct:created "2026-09-09T09:19:10.768Z"^^xsd:dateTime;
+    dct:issued "2026-09-09T09:19:10.768Z"^^xsd:dateTime;
     ds-ldes:sequence 19;
-    ds-ldes:transaction "680937bd-6a24-4ecb-8756-51dade401774";
+    ds-ldes:transaction "78c6b019-5ece-4545-ba36-0b4c191ba5fe";
     a rdf:Property, owl:ObjectProperty;
     rdfs:label "reused property"@en;
     rdfs:comment "The Property from which a value is reused."@en;
@@ -292,13 +292,13 @@ dsv:reusedProperty-680937bd-6a24-4ecb-8756-51dade401774-19 a as:Create;
     rdfs:domain dsv:PropertyValueReuse;
     rdfs:range rdf:Property.
 
-<> tree:member dsv:reusedFromResource-680937bd-6a24-4ecb-8756-51dade401774-20.
-dsv:reusedFromResource-680937bd-6a24-4ecb-8756-51dade401774-20 a as:Create;
+<> tree:member dsv:reusedFromResource-78c6b019-5ece-4545-ba36-0b4c191ba5fe-20.
+dsv:reusedFromResource-78c6b019-5ece-4545-ba36-0b4c191ba5fe-20 a as:Create;
     dct:isVersionOf dsv:reusedFromResource;
-    dct:created "2026-09-09T07:49:19.116Z"^^xsd:dateTime;
-    dct:issued "2026-09-09T07:49:19.116Z"^^xsd:dateTime;
+    dct:created "2026-09-09T09:19:10.768Z"^^xsd:dateTime;
+    dct:issued "2026-09-09T09:19:10.768Z"^^xsd:dateTime;
     ds-ldes:sequence 20;
-    ds-ldes:transaction "680937bd-6a24-4ecb-8756-51dade401774";
+    ds-ldes:transaction "78c6b019-5ece-4545-ba36-0b4c191ba5fe";
     a rdf:Property, owl:ObjectProperty;
     rdfs:label "reused from resource"@en;
     rdfs:comment "The Resource on which there is a property with a value for reuse."@en;
@@ -306,13 +306,13 @@ dsv:reusedFromResource-680937bd-6a24-4ecb-8756-51dade401774-20 a as:Create;
     rdfs:domain dsv:PropertyValueReuse;
     rdfs:range rdfs:Resource.
 
-<> tree:member dsv:requirementLevel-680937bd-6a24-4ecb-8756-51dade401774-21.
-dsv:requirementLevel-680937bd-6a24-4ecb-8756-51dade401774-21 a as:Create;
+<> tree:member dsv:requirementLevel-78c6b019-5ece-4545-ba36-0b4c191ba5fe-21.
+dsv:requirementLevel-78c6b019-5ece-4545-ba36-0b4c191ba5fe-21 a as:Create;
     dct:isVersionOf dsv:requirementLevel;
-    dct:created "2026-09-09T07:49:19.116Z"^^xsd:dateTime;
-    dct:issued "2026-09-09T07:49:19.116Z"^^xsd:dateTime;
+    dct:created "2026-09-09T09:19:10.768Z"^^xsd:dateTime;
+    dct:issued "2026-09-09T09:19:10.768Z"^^xsd:dateTime;
     ds-ldes:sequence 21;
-    ds-ldes:transaction "680937bd-6a24-4ecb-8756-51dade401774";
+    ds-ldes:transaction "78c6b019-5ece-4545-ba36-0b4c191ba5fe";
     a rdf:Property, owl:ObjectProperty;
     rdfs:label "requirement level"@en;
     rdfs:comment "Requirement level of the property, typically mandatory, recommended or optional."@en;
@@ -320,13 +320,13 @@ dsv:requirementLevel-680937bd-6a24-4ecb-8756-51dade401774-21 a as:Create;
     rdfs:domain dsv:PropertyProfile;
     rdfs:range skos:Concept.
 
-<> tree:member dsv:classRole-680937bd-6a24-4ecb-8756-51dade401774-22.
-dsv:classRole-680937bd-6a24-4ecb-8756-51dade401774-22 a as:Create;
+<> tree:member dsv:classRole-78c6b019-5ece-4545-ba36-0b4c191ba5fe-22.
+dsv:classRole-78c6b019-5ece-4545-ba36-0b4c191ba5fe-22 a as:Create;
     dct:isVersionOf dsv:classRole;
-    dct:created "2026-09-09T07:49:19.116Z"^^xsd:dateTime;
-    dct:issued "2026-09-09T07:49:19.116Z"^^xsd:dateTime;
+    dct:created "2026-09-09T09:19:10.768Z"^^xsd:dateTime;
+    dct:issued "2026-09-09T09:19:10.768Z"^^xsd:dateTime;
     ds-ldes:sequence 22;
-    ds-ldes:transaction "680937bd-6a24-4ecb-8756-51dade401774";
+    ds-ldes:transaction "78c6b019-5ece-4545-ba36-0b4c191ba5fe";
     a rdf:Property, owl:ObjectProperty;
     rdfs:label "class role"@en;
     rdfs:comment "Class role, e.g. Mandatory, Supportive, etc."@en;
@@ -334,13 +334,13 @@ dsv:classRole-680937bd-6a24-4ecb-8756-51dade401774-22 a as:Create;
     rdfs:domain dsv:ClassProfile;
     rdfs:range skos:Concept.
 
-<> tree:member dsv:externalDocumentation-680937bd-6a24-4ecb-8756-51dade401774-23.
-dsv:externalDocumentation-680937bd-6a24-4ecb-8756-51dade401774-23 a as:Create;
+<> tree:member dsv:externalDocumentation-78c6b019-5ece-4545-ba36-0b4c191ba5fe-23.
+dsv:externalDocumentation-78c6b019-5ece-4545-ba36-0b4c191ba5fe-23 a as:Create;
     dct:isVersionOf dsv:externalDocumentation;
-    dct:created "2026-09-09T07:49:19.116Z"^^xsd:dateTime;
-    dct:issued "2026-09-09T07:49:19.116Z"^^xsd:dateTime;
+    dct:created "2026-09-09T09:19:10.768Z"^^xsd:dateTime;
+    dct:issued "2026-09-09T09:19:10.768Z"^^xsd:dateTime;
     ds-ldes:sequence 23;
-    ds-ldes:transaction "680937bd-6a24-4ecb-8756-51dade401774";
+    ds-ldes:transaction "78c6b019-5ece-4545-ba36-0b4c191ba5fe";
     a rdf:Property, owl:ObjectProperty;
     rdfs:label "external documentation"@en;
     rdfs:comment "Link to an external documentation of this resource. Profiles of this resource should preferably link to this URL for documentation."@en;
@@ -348,13 +348,13 @@ dsv:externalDocumentation-680937bd-6a24-4ecb-8756-51dade401774-23 a as:Create;
     rdfs:domain rdfs:Resource;
     rdfs:range rdfs:Resource.
 
-<> tree:member dsv:reusedAsProperty-680937bd-6a24-4ecb-8756-51dade401774-24.
-dsv:reusedAsProperty-680937bd-6a24-4ecb-8756-51dade401774-24 a as:Create;
+<> tree:member dsv:reusedAsProperty-78c6b019-5ece-4545-ba36-0b4c191ba5fe-24.
+dsv:reusedAsProperty-78c6b019-5ece-4545-ba36-0b4c191ba5fe-24 a as:Create;
     dct:isVersionOf dsv:reusedAsProperty;
-    dct:created "2026-09-09T07:49:19.116Z"^^xsd:dateTime;
-    dct:issued "2026-09-09T07:49:19.116Z"^^xsd:dateTime;
+    dct:created "2026-09-09T09:19:10.768Z"^^xsd:dateTime;
+    dct:issued "2026-09-09T09:19:10.768Z"^^xsd:dateTime;
     ds-ldes:sequence 24;
-    ds-ldes:transaction "680937bd-6a24-4ecb-8756-51dade401774";
+    ds-ldes:transaction "78c6b019-5ece-4545-ba36-0b4c191ba5fe";
     a rdf:Property, owl:ObjectProperty;
     rdfs:label "reused as property"@en;
     rdfs:comment "The Property to gain the reused value."@en;

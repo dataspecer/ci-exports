@@ -38,9 +38,10 @@
 <https://datarepo.eosc.cz/datasets/records/datst.dmq82-ed856> <http://purl.org/dc/terms/language> <http://publications.europa.eu/resource/authority/language/ENG> .
 <https://datarepo.eosc.cz/datasets/records/datst.dmq82-ed856> <http://purl.org/dc/terms/modified> "2025-10-14"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://datarepo.eosc.cz/datasets/records/datst.dmq82-ed856> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#CatalogRecord> .
-<https://datarepo.eosc.cz/datasets/records/datst.dmq82-ed856> <http://www.w3.org/ns/prov#qualifiedAttribution> _:cb24e8013829463a1a1dda823dcdb6552ea00e61e0eb02fbe69eadcd469551646e8 .
+<https://datarepo.eosc.cz/datasets/records/datst.dmq82-ed856> <http://www.w3.org/ns/prov#qualifiedAttribution> _:cb277dab7941fa47cf9c9fcb76256b3f2918a74836d6a26838820474e237ba22091 .
 <https://datarepo.eosc.cz/datasets/records/datst.dmq82-ed856> <https://model.ccmm.cz/vocabulary/ccmm#originalRepository> <https://datarepo.eosc.cz> .
-<https://datarepo.eosc.cz> <http://purl.org/dc/terms/title> "Catch-all"@cs .
+<https://datarepo.eosc.cz> <http://purl.org/dc/terms/description> "The Data Catch-all Repository is a general-purpose repository for research data for which no more suitable disciplinary, institutional, or community repository is available."@en .
+<https://datarepo.eosc.cz> <http://purl.org/dc/terms/title> "Catch-all"@en .
 <https://datarepo.eosc.cz> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Catalog> .
 <https://datarepo.eosc.cz> <http://www.w3.org/ns/prov#qualifiedAttribution> _:cb1c18fdb90422f9d868be6ab0f11734e7b69f20449b372a42c9cb9bc0b496a6f26 .
 <https://doi.org/10.1007/s12540-025-01953-4> <http://purl.org/dc/terms/title> "Influence of Deposition Parameters on the Building rate, In-Situ Formation of Austenite and Tensile Properties of SAF 2507 SDSS Fabricated by Directed Energy Deposition" .
@@ -95,9 +96,10 @@
 <https://doi.org/10.48700/datst.dmq82-ed856> <https://w3id.org/tib/datacite/property/publicationYear> "2025"^^<http://www.w3.org/2001/XMLSchema#gYear> .
 <https://doi.org/10.48700/datst.dmq82-ed856> <https://w3id.org/tib/datacite/property/subject> <https://vocabs.ccmm.cz/registry/codelist/SubjectCategory/20000/20500/20501> .
 <https://doi.org/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://model.ccmm.cz/vocabulary/ccmm#IdentifierScheme> .
-<https://doi.org/> <http://www.w3.org/2000/01/rdf-schema#label> "DOI" .
+<https://doi.org/> <http://www.w3.org/2000/01/rdf-schema#label> "Digital Object Identifier"@en .
+<https://doi.org/> <http://www.w3.org/2004/02/skos/core#notation> "DOI" .
 <https://model.ccmm.cz/research-data/2.0.0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/dc/terms/Standard> .
-<https://model.ccmm.cz/research-data/2.0.0> <http://www.w3.org/2000/01/rdf-schema#label> "CCMM RD 2.0.0" .
+<https://model.ccmm.cz/research-data/2.0.0> <http://www.w3.org/2000/01/rdf-schema#label> "Czech Core Metadata Model for Research Data 2.0.0"@en .
 <https://orcid.org/0000-0001-5717-267X> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/adms#Identifier> .
 <https://orcid.org/0000-0001-5717-267X> <http://www.w3.org/2004/02/skos/core#notation> "0000-0001-5717-267X" .
 <https://orcid.org/0000-0001-5717-267X> <https://model.ccmm.cz/vocabulary/ccmm#inScheme> <https://orcid.org/> .
@@ -114,7 +116,8 @@
 <https://orcid.org/0000-0003-4013-9819> <http://www.w3.org/2004/02/skos/core#notation> "0000-0003-4013-9819" .
 <https://orcid.org/0000-0003-4013-9819> <https://model.ccmm.cz/vocabulary/ccmm#inScheme> <https://orcid.org/> .
 <https://orcid.org/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://model.ccmm.cz/vocabulary/ccmm#IdentifierScheme> .
-<https://orcid.org/> <http://www.w3.org/2000/01/rdf-schema#label> "ORCID" .
+<https://orcid.org/> <http://www.w3.org/2000/01/rdf-schema#label> "Open Research and Contributor ID"@en .
+<https://orcid.org/> <http://www.w3.org/2004/02/skos/core#notation> "ORCID" .
 <https://ror.org/00hzjtg80> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/adms#Identifier> .
 <https://ror.org/00hzjtg80> <http://www.w3.org/2004/02/skos/core#notation> "00hzjtg80" .
 <https://ror.org/00hzjtg80> <https://model.ccmm.cz/vocabulary/ccmm#inScheme> <https://ror.org/> .
@@ -125,10 +128,11 @@
 <https://ror.org/05ggn0a85> <http://www.w3.org/2004/02/skos/core#notation> "05ggn0a85" .
 <https://ror.org/05ggn0a85> <https://model.ccmm.cz/vocabulary/ccmm#inScheme> <https://ror.org/> .
 <https://ror.org/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://model.ccmm.cz/vocabulary/ccmm#IdentifierScheme> .
-<https://ror.org/> <http://www.w3.org/2000/01/rdf-schema#label> "ROR" .
+<https://ror.org/> <http://www.w3.org/2000/01/rdf-schema#label> "Research Organization Registry"@en .
+<https://ror.org/> <http://www.w3.org/2004/02/skos/core#notation> "ROR" .
 <https://vocabs.ccmm.cz/registry/codelist/AgentRole/Contributor/DataManager> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Role> .
 <https://vocabs.ccmm.cz/registry/codelist/AgentRole/Contributor/DataManager> <http://www.w3.org/2004/02/skos/core#prefLabel> "Data Manager"@en .
-<https://vocabs.ccmm.cz/registry/codelist/AgentRole/Contributor/DataManager> <http://www.w3.org/2004/02/skos/core#prefLabel> "Manažer dat"@cs .
+<https://vocabs.ccmm.cz/registry/codelist/AgentRole/Contributor/DataManager> <http://www.w3.org/2004/02/skos/core#prefLabel> "Správce dat"@cs .
 <https://vocabs.ccmm.cz/registry/codelist/AgentRole/Creator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Role> .
 <https://vocabs.ccmm.cz/registry/codelist/AgentRole/Creator> <http://www.w3.org/2004/02/skos/core#prefLabel> "Autor"@cs .
 <https://vocabs.ccmm.cz/registry/codelist/AgentRole/Creator> <http://www.w3.org/2004/02/skos/core#prefLabel> "Creator"@en .
@@ -170,13 +174,17 @@
 <https://vocabularies.coar-repositories.org/access_rights/c_abf2/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/dc/terms/RightsStatement> .
 <https://vocabularies.coar-repositories.org/access_rights/c_abf2/> <http://www.w3.org/2004/02/skos/core#prefLabel> "open access"@en .
 <https://www.wikidata.org/entity/Q42302581> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://model.ccmm.cz/vocabulary/ccmm#IdentifierScheme> .
+<https://www.wikidata.org/entity/Q42302581> <http://www.w3.org/2000/01/rdf-schema#label> "Identifikační Číslo Osoby"@cs .
 <https://www.wikidata.org/entity/Q42302581> <http://www.w3.org/2000/01/rdf-schema#label> "IČO"@cs .
+<https://www.wikidata.org/entity/Q42302581> <http://www.w3.org/2004/02/skos/core#notation> "IČO" .
 _:cb120f4d08bd7859ea5b9089de54e37d90243033d93cf541b4806dffee9f1f1070a <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://model.ccmm.cz/vocabulary/ccmm#ValidationResult> .
 _:cb124c8b1d0ac8bccd48f0e5669e5e890b745a09af5498b3776961e5b5551ed7648 <http://purl.org/dc/terms/description> "Industry applications of duplex stainless steels require a two-phase microstructure with a nearly balanced austenite-ferrite content to achieve good mechanical properties and good corrosion resistance. The most widespread additive manufacturing method such as laser powder bed fusion provides nearly fully ferritic microstructures due to the very high cooling rate, and the post-processing heat treatment must be performed. In contrast, other additive manufacturing methods, such as directed deposition methods, reach lower cooling rates and enable to obtain an equal ferrite–austenite ratio directly in the microstructure of the as-built state. In this work, the super duplex stainless steel SAF 2507 was deposited by directed energy deposition. The process parameters, namely, the laser power, laser beam spot, and powder feed rate, were varied to investigate the impact of the energy area density on the microstructure and tensile properties. A decrease in the energy area density caused an increase in the austenite content of 48 vol% and a numerical simulation of the sample temperature distribution inside the block during deposition, explaining the relationship between the amount of in situ formed austenite and the deposition parameters, was provided. Simultaneously, the deposition rate increased by more than five times. In contrast, the samples deposited at a higher building rate are characterized by greater porosity and lower elongation values in the vertical direction. The effect of the deposition parameters on the yield strength is low."@en .
 _:cb124c8b1d0ac8bccd48f0e5669e5e890b745a09af5498b3776961e5b5551ed7648 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/tib/datacite/class/Description> .
 _:cb124c8b1d0ac8bccd48f0e5669e5e890b745a09af5498b3776961e5b5551ed7648 <https://w3id.org/tib/datacite/property/descriptionType> <https://vocabs.ccmm.cz/registry/codelist/DescriptionType/Abstract> .
 _:cb13e54021ba9d6fea308d20e42997b24f65c8f306e037d9ca1ccf13a1c14062f4b <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Person> .
 _:cb13e54021ba9d6fea308d20e42997b24f65c8f306e037d9ca1ccf13a1c14062f4b <http://xmlns.com/foaf/0.1/name> "Uhlík, Matouš" .
+_:cb145fe505c4bb725e3976b051559730d460f180fac63aecd9d8b97849a8e5d6cd0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Person> .
+_:cb145fe505c4bb725e3976b051559730d460f180fac63aecd9d8b97849a8e5d6cd0 <http://xmlns.com/foaf/0.1/name> ":unkn" .
 _:cb15198b8ae5454e41f81d4496533cedfffb25319511c3d1fbfc2a3825d722bb2cc <http://purl.org/dc/terms/description> "The data set is related to the investigation of the influence of deposition parameters on the microstructure, austenite formation, and tensile properties of SAF 2507 super duplex stainless steel fabricated using directed energy deposition (DED). The experiments were carried out at COMTES FHT (Czech Republic) using an INSSTEK MX-600 system equipped with a 2 kW Yttrium fiber laser. SAF 2507 powder (particle size 45–150 μm) was deposited under three different parameter sets, varying laser power, beam diameter, layer thickness, hatch distance, and powder feed rate, while maintaining constant scan speed. A zig-zag deposition strategy was applied under a protective argon atmosphere (5.0, 99.999%). For each parameter set, 20×20×20 mm cubes were built and used for analysis. Microstructure and phase composition were characterized using optical microscopy, scanning electron microscopy, EBSD analysis, X-ray diffraction. Tensile properties were evaluated using miniature tensile tests. Thermal simulations of the deposition process were carried out using Simufact Welding 2024.1 with the Advanced Thermal Cycle (ATC) method."@en .
 _:cb15198b8ae5454e41f81d4496533cedfffb25319511c3d1fbfc2a3825d722bb2cc <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/tib/datacite/class/Description> .
 _:cb15198b8ae5454e41f81d4496533cedfffb25319511c3d1fbfc2a3825d722bb2cc <https://w3id.org/tib/datacite/property/descriptionType> <https://vocabs.ccmm.cz/registry/codelist/DescriptionType/Methods> .
@@ -246,9 +254,6 @@ _:cb23d5c94d1050e7c4e73cda43d19db439803163069414f465f3fc4bb513613e354 <https://m
 _:cb24502e25684d9d3f2d1706d169cecfe1dffe3d783231f47fef695d2858e046a56 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Attribution> .
 _:cb24502e25684d9d3f2d1706d169cecfe1dffe3d783231f47fef695d2858e046a56 <http://www.w3.org/ns/dcat#hadRole> <https://vocabs.ccmm.cz/registry/codelist/AgentRole/Creator> .
 _:cb24502e25684d9d3f2d1706d169cecfe1dffe3d783231f47fef695d2858e046a56 <http://www.w3.org/ns/prov#agent> _:cb1c4bfc4fd2bf5c8ace6d3610dcb52181bb040bd13b1bf7686826cb4aab183aec4 .
-_:cb24e8013829463a1a1dda823dcdb6552ea00e61e0eb02fbe69eadcd469551646e8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Attribution> .
-_:cb24e8013829463a1a1dda823dcdb6552ea00e61e0eb02fbe69eadcd469551646e8 <http://www.w3.org/ns/dcat#hadRole> <https://vocabs.ccmm.cz/registry/codelist/AgentRole/Contributor/DataManager> .
-_:cb24e8013829463a1a1dda823dcdb6552ea00e61e0eb02fbe69eadcd469551646e8 <http://www.w3.org/ns/prov#agent> _:cb298e6380a961a0195b52c0a278642a56bc79d8a0e6f56ca4c001914e7611fe96d .
 _:cb2514e83f9764664b0dcc8639a1d39139fe9d1a8dc50eed60a1facea41b6c3405b <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/adms#Identifier> .
 _:cb2514e83f9764664b0dcc8639a1d39139fe9d1a8dc50eed60a1facea41b6c3405b <http://www.w3.org/2004/02/skos/core#notation> "26316919" .
 _:cb2514e83f9764664b0dcc8639a1d39139fe9d1a8dc50eed60a1facea41b6c3405b <https://model.ccmm.cz/vocabulary/ccmm#inScheme> <https://www.wikidata.org/entity/Q42302581> .
@@ -262,6 +267,9 @@ _:cb274c3497e726e5217a5ad93ba9c94fb4ee0327f6d320661d48e23934b3041491b <http://ww
 _:cb274c3497e726e5217a5ad93ba9c94fb4ee0327f6d320661d48e23934b3041491b <http://www.w3.org/ns/adms#identifier> <https://ror.org/00hzjtg80> .
 _:cb274c3497e726e5217a5ad93ba9c94fb4ee0327f6d320661d48e23934b3041491b <http://www.w3.org/ns/adms#identifier> _:cb320e05aec60236ef0a4602c299e27c79996d9213d011fbd5d7d8c3dbcbfa6df68 .
 _:cb274c3497e726e5217a5ad93ba9c94fb4ee0327f6d320661d48e23934b3041491b <http://xmlns.com/foaf/0.1/name> "COMTES FHT" .
+_:cb277dab7941fa47cf9c9fcb76256b3f2918a74836d6a26838820474e237ba22091 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Attribution> .
+_:cb277dab7941fa47cf9c9fcb76256b3f2918a74836d6a26838820474e237ba22091 <http://www.w3.org/ns/dcat#hadRole> <https://vocabs.ccmm.cz/registry/codelist/AgentRole/Contributor/DataManager> .
+_:cb277dab7941fa47cf9c9fcb76256b3f2918a74836d6a26838820474e237ba22091 <http://www.w3.org/ns/prov#agent> _:cb145fe505c4bb725e3976b051559730d460f180fac63aecd9d8b97849a8e5d6cd0 .
 _:cb27c19335d9df803398e0f726203d0fcc0f89a4be446472c2dc329dea8500f026a <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Person> .
 _:cb27c19335d9df803398e0f726203d0fcc0f89a4be446472c2dc329dea8500f026a <http://www.w3.org/2006/vcard/ns#family-name> "Brázda" .
 _:cb27c19335d9df803398e0f726203d0fcc0f89a4be446472c2dc329dea8500f026a <http://www.w3.org/2006/vcard/ns#given-name> "Michal" .
@@ -275,10 +283,6 @@ _:cb297b0029f073485871d3a84d054565e4978e1dbfd9eac533cc3a1947974471760 <http://ww
 _:cb297b0029f073485871d3a84d054565e4978e1dbfd9eac533cc3a1947974471760 <http://www.w3.org/ns/adms#identifier> <https://ror.org/00hzjtg80> .
 _:cb297b0029f073485871d3a84d054565e4978e1dbfd9eac533cc3a1947974471760 <http://www.w3.org/ns/adms#identifier> _:cb2d10fa4681c678e991a05849071fea5227bfb15943a968f067483a4304f1f8fa8 .
 _:cb297b0029f073485871d3a84d054565e4978e1dbfd9eac533cc3a1947974471760 <http://xmlns.com/foaf/0.1/name> "COMTES FHT" .
-_:cb298e6380a961a0195b52c0a278642a56bc79d8a0e6f56ca4c001914e7611fe96d <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Person> .
-_:cb298e6380a961a0195b52c0a278642a56bc79d8a0e6f56ca4c001914e7611fe96d <http://www.w3.org/2006/vcard/ns#family-name> ":unkn" .
-_:cb298e6380a961a0195b52c0a278642a56bc79d8a0e6f56ca4c001914e7611fe96d <http://www.w3.org/2006/vcard/ns#given-name> ":unkn" .
-_:cb298e6380a961a0195b52c0a278642a56bc79d8a0e6f56ca4c001914e7611fe96d <http://xmlns.com/foaf/0.1/name> ":unkn" .
 _:cb29a106e0b9a2e4ad635a6b177face5641c35c38d73cb66251354b86bd4a31c74f <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Attribution> .
 _:cb29a106e0b9a2e4ad635a6b177face5641c35c38d73cb66251354b86bd4a31c74f <http://www.w3.org/ns/dcat#hadRole> <https://vocabs.ccmm.cz/registry/codelist/AgentRole/Creator> .
 _:cb29a106e0b9a2e4ad635a6b177face5641c35c38d73cb66251354b86bd4a31c74f <http://www.w3.org/ns/prov#agent> _:cb2fc938d870dbb627bd8238243f394037f3b464ea458f827f04d6907fd44ebff31 .

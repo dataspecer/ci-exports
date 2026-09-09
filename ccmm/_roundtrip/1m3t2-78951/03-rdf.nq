@@ -166,7 +166,8 @@
 <https://datarepo.eosc.cz/datasets/records/datst.1m3t2-78951> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#CatalogRecord> .
 <https://datarepo.eosc.cz/datasets/records/datst.1m3t2-78951> <http://www.w3.org/ns/prov#qualifiedAttribution> _:cb2b44e0c94ab4600476aabe4197439f2bc6a6a460e028ca3f404002a9ad6066668 .
 <https://datarepo.eosc.cz/datasets/records/datst.1m3t2-78951> <https://model.ccmm.cz/vocabulary/ccmm#originalRepository> <https://datarepo.eosc.cz> .
-<https://datarepo.eosc.cz> <http://purl.org/dc/terms/title> "Catch-all"@cs .
+<https://datarepo.eosc.cz> <http://purl.org/dc/terms/description> "The Data Catch-all Repository is a general-purpose repository for research data for which no more suitable disciplinary, institutional, or community repository is available."@en .
+<https://datarepo.eosc.cz> <http://purl.org/dc/terms/title> "Catch-all"@en .
 <https://datarepo.eosc.cz> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Catalog> .
 <https://datarepo.eosc.cz> <http://www.w3.org/ns/prov#qualifiedAttribution> _:cb1d7a16f97359e2207e84d480fc9e3676382a5da2abf2c947c147edbaea3b28482 .
 <https://doi.org/10.48700/datst.1m3t2-78951> <http://purl.org/dc/terms/accessRights> <http://purl.org/coar/access_right/c_abf2> .
@@ -221,9 +222,10 @@
 <https://doi.org/10.48700/datst.1m3t2-78951> <https://w3id.org/tib/datacite/property/subject> <https://vocabs.ccmm.cz/registry/codelist/SubjectCategory/10000/10600/10606> .
 <https://doi.org/10.48700/datst.1m3t2-78951> <https://w3id.org/tib/datacite/property/subject> <https://vocabs.ccmm.cz/registry/codelist/SubjectCategory/30000/30100/30102> .
 <https://doi.org/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://model.ccmm.cz/vocabulary/ccmm#IdentifierScheme> .
-<https://doi.org/> <http://www.w3.org/2000/01/rdf-schema#label> "DOI" .
+<https://doi.org/> <http://www.w3.org/2000/01/rdf-schema#label> "Digital Object Identifier"@en .
+<https://doi.org/> <http://www.w3.org/2004/02/skos/core#notation> "DOI" .
 <https://model.ccmm.cz/research-data/2.0.0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/dc/terms/Standard> .
-<https://model.ccmm.cz/research-data/2.0.0> <http://www.w3.org/2000/01/rdf-schema#label> "CCMM RD 2.0.0" .
+<https://model.ccmm.cz/research-data/2.0.0> <http://www.w3.org/2000/01/rdf-schema#label> "Czech Core Metadata Model for Research Data 2.0.0"@en .
 <https://orcid.org/0000-0002-4606-1218> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/adms#Identifier> .
 <https://orcid.org/0000-0002-4606-1218> <http://www.w3.org/2004/02/skos/core#notation> "0000-0002-4606-1218" .
 <https://orcid.org/0000-0002-4606-1218> <https://model.ccmm.cz/vocabulary/ccmm#inScheme> <https://orcid.org/> .
@@ -237,12 +239,14 @@
 <https://orcid.org/0009-0008-0140-2075> <http://www.w3.org/2004/02/skos/core#notation> "0009-0008-0140-2075" .
 <https://orcid.org/0009-0008-0140-2075> <https://model.ccmm.cz/vocabulary/ccmm#inScheme> <https://orcid.org/> .
 <https://orcid.org/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://model.ccmm.cz/vocabulary/ccmm#IdentifierScheme> .
-<https://orcid.org/> <http://www.w3.org/2000/01/rdf-schema#label> "ORCID" .
+<https://orcid.org/> <http://www.w3.org/2000/01/rdf-schema#label> "Open Research and Contributor ID"@en .
+<https://orcid.org/> <http://www.w3.org/2004/02/skos/core#notation> "ORCID" .
 <https://ror.org/02sat5y74> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/adms#Identifier> .
 <https://ror.org/02sat5y74> <http://www.w3.org/2004/02/skos/core#notation> "02sat5y74" .
 <https://ror.org/02sat5y74> <https://model.ccmm.cz/vocabulary/ccmm#inScheme> <https://ror.org/> .
 <https://ror.org/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://model.ccmm.cz/vocabulary/ccmm#IdentifierScheme> .
-<https://ror.org/> <http://www.w3.org/2000/01/rdf-schema#label> "ROR" .
+<https://ror.org/> <http://www.w3.org/2000/01/rdf-schema#label> "Research Organization Registry"@en .
+<https://ror.org/> <http://www.w3.org/2004/02/skos/core#notation> "ROR" .
 <https://vocabs.ccmm.cz/registry/codelist/AgentRole/Contributor/DataManager> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Role> .
 <https://vocabs.ccmm.cz/registry/codelist/AgentRole/Contributor/DataManager> <http://www.w3.org/2004/02/skos/core#prefLabel> "Data manager"@en .
 <https://vocabs.ccmm.cz/registry/codelist/AgentRole/Contributor/DataManager> <http://www.w3.org/2004/02/skos/core#prefLabel> "Manažer dat"@cs .
@@ -299,7 +303,8 @@
 <https://vocabularies.coar-repositories.org/access_rights/c_abf2/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/dc/terms/RightsStatement> .
 <https://vocabularies.coar-repositories.org/access_rights/c_abf2/> <http://www.w3.org/2004/02/skos/core#prefLabel> "open access"@en .
 <https://www.wikidata.org/entity/Q42302581> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://model.ccmm.cz/vocabulary/ccmm#IdentifierScheme> .
-<https://www.wikidata.org/entity/Q42302581> <http://www.w3.org/2000/01/rdf-schema#label> "IČO"@cs .
+<https://www.wikidata.org/entity/Q42302581> <http://www.w3.org/2000/01/rdf-schema#label> "Identifikační Číslo Osoby"@cs .
+<https://www.wikidata.org/entity/Q42302581> <http://www.w3.org/2004/02/skos/core#notation> "IČO" .
 _:cb1182e3595a2fa4e47c8e4aeca2a9e937bdcb915fc88a86a92a3dc19b4d3be4a1d <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Organization> .
 _:cb1182e3595a2fa4e47c8e4aeca2a9e937bdcb915fc88a86a92a3dc19b4d3be4a1d <http://xmlns.com/foaf/0.1/name> "Ústav fyzikální chemie J. Heyrovského AV ČR" .
 _:cb11fc1ed56543737249784481c94dce8667cff37b35b3007417a82f25c9d9125e3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2006/time#Instant> .

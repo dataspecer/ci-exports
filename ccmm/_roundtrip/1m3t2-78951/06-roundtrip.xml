@@ -38,11 +38,12 @@
       </ccmm:conforms_to_standard>
       <ccmm:conforms_to_standard>
          <ccmm:iri>https://model.ccmm.cz/research-data/2.0.0</ccmm:iri>
-         <ccmm:label>CCMM RD 2.0.0</ccmm:label>
+         <ccmm:label xml:lang="en">Czech Core Metadata Model for Research Data 2.0.0</ccmm:label>
       </ccmm:conforms_to_standard>
       <ccmm:original_repository>
          <ccmm:iri>https://datarepo.eosc.cz</ccmm:iri>
-         <ccmm:label xml:lang="cs">Catch-all</ccmm:label>
+         <ccmm:label xml:lang="en">Catch-all</ccmm:label>
+         <ccmm:description xml:lang="en">The Data Catch-all Repository is a general-purpose repository for research data for which no more suitable disciplinary, institutional, or community repository is available.</ccmm:description>
          <ccmm:qualified_attribution>
             <ccmm:attributed_agent>
                <ccmm:organization>
@@ -62,7 +63,8 @@
       <ccmm:value>10.48700/datst.1m3t2-78951</ccmm:value>
       <ccmm:scheme>
          <ccmm:iri>https://doi.org/</ccmm:iri>
-         <ccmm:label>DOI</ccmm:label>
+         <ccmm:label xml:lang="en">Digital Object Identifier</ccmm:label>
+         <ccmm:notation>DOI</ccmm:notation>
       </ccmm:scheme>
    </ccmm:identifier>
    <ccmm:title>Data set žádosti o grant Grantové agentury České republiky</ccmm:title>
@@ -81,7 +83,8 @@
                <ccmm:value>61388955</ccmm:value>
                <ccmm:scheme>
                   <ccmm:iri>https://www.wikidata.org/entity/Q42302581</ccmm:iri>
-                  <ccmm:label xml:lang="cs">IČO</ccmm:label>
+                  <ccmm:label xml:lang="cs">Identifikační Číslo Osoby</ccmm:label>
+                  <ccmm:notation>IČO</ccmm:notation>
                </ccmm:scheme>
             </ccmm:identifier>
             <ccmm:identifier>
@@ -89,7 +92,8 @@
                <ccmm:value>02sat5y74</ccmm:value>
                <ccmm:scheme>
                   <ccmm:iri>https://ror.org/</ccmm:iri>
-                  <ccmm:label>ROR</ccmm:label>
+                  <ccmm:label xml:lang="en">Research Organization Registry</ccmm:label>
+                  <ccmm:notation>ROR</ccmm:notation>
                </ccmm:scheme>
             </ccmm:identifier>
             <ccmm:name>Ústav fyzikální chemie J. Heyrovského AV ČR</ccmm:name>
@@ -109,7 +113,8 @@
                <ccmm:value>0009-0008-0140-2075</ccmm:value>
                <ccmm:scheme>
                   <ccmm:iri>https://orcid.org/</ccmm:iri>
-                  <ccmm:label>ORCID</ccmm:label>
+                  <ccmm:label xml:lang="en">Open Research and Contributor ID</ccmm:label>
+                  <ccmm:notation>ORCID</ccmm:notation>
                </ccmm:scheme>
             </ccmm:identifier>
             <ccmm:name>Echezarreta Mendicute, Irene</ccmm:name>
@@ -118,7 +123,8 @@
                   <ccmm:value>61388955</ccmm:value>
                   <ccmm:scheme>
                      <ccmm:iri>https://www.wikidata.org/entity/Q42302581</ccmm:iri>
-                     <ccmm:label xml:lang="cs">IČO</ccmm:label>
+                     <ccmm:label xml:lang="cs">Identifikační Číslo Osoby</ccmm:label>
+                     <ccmm:notation>IČO</ccmm:notation>
                   </ccmm:scheme>
                </ccmm:identifier>
                <ccmm:identifier>
@@ -126,7 +132,8 @@
                   <ccmm:value>02sat5y74</ccmm:value>
                   <ccmm:scheme>
                      <ccmm:iri>https://ror.org/</ccmm:iri>
-                     <ccmm:label>ROR</ccmm:label>
+                     <ccmm:label xml:lang="en">Research Organization Registry</ccmm:label>
+                     <ccmm:notation>ROR</ccmm:notation>
                   </ccmm:scheme>
                </ccmm:identifier>
                <ccmm:name>Ústav fyzikální chemie J. Heyrovského AV ČR</ccmm:name>
@@ -147,7 +154,8 @@
                <ccmm:value>0000-0003-1662-9092</ccmm:value>
                <ccmm:scheme>
                   <ccmm:iri>https://orcid.org/</ccmm:iri>
-                  <ccmm:label>ORCID</ccmm:label>
+                  <ccmm:label xml:lang="en">Open Research and Contributor ID</ccmm:label>
+                  <ccmm:notation>ORCID</ccmm:notation>
                </ccmm:scheme>
             </ccmm:identifier>
             <ccmm:name>González Navarro, José Alfredo</ccmm:name>
@@ -156,7 +164,8 @@
                   <ccmm:value>61388955</ccmm:value>
                   <ccmm:scheme>
                      <ccmm:iri>https://www.wikidata.org/entity/Q42302581</ccmm:iri>
-                     <ccmm:label xml:lang="cs">IČO</ccmm:label>
+                     <ccmm:label xml:lang="cs">Identifikační Číslo Osoby</ccmm:label>
+                     <ccmm:notation>IČO</ccmm:notation>
                   </ccmm:scheme>
                </ccmm:identifier>
                <ccmm:identifier>
@@ -164,7 +173,8 @@
                   <ccmm:value>02sat5y74</ccmm:value>
                   <ccmm:scheme>
                      <ccmm:iri>https://ror.org/</ccmm:iri>
-                     <ccmm:label>ROR</ccmm:label>
+                     <ccmm:label xml:lang="en">Research Organization Registry</ccmm:label>
+                     <ccmm:notation>ROR</ccmm:notation>
                   </ccmm:scheme>
                </ccmm:identifier>
                <ccmm:name>Ústav fyzikální chemie J. Heyrovského AV ČR</ccmm:name>
@@ -185,7 +195,8 @@
                <ccmm:value>0009-0003-1158-1138</ccmm:value>
                <ccmm:scheme>
                   <ccmm:iri>https://orcid.org/</ccmm:iri>
-                  <ccmm:label>ORCID</ccmm:label>
+                  <ccmm:label xml:lang="en">Open Research and Contributor ID</ccmm:label>
+                  <ccmm:notation>ORCID</ccmm:notation>
                </ccmm:scheme>
             </ccmm:identifier>
             <ccmm:name>Paldusová, Kateřina</ccmm:name>
@@ -194,7 +205,8 @@
                   <ccmm:value>61388955</ccmm:value>
                   <ccmm:scheme>
                      <ccmm:iri>https://www.wikidata.org/entity/Q42302581</ccmm:iri>
-                     <ccmm:label xml:lang="cs">IČO</ccmm:label>
+                     <ccmm:label xml:lang="cs">Identifikační Číslo Osoby</ccmm:label>
+                     <ccmm:notation>IČO</ccmm:notation>
                   </ccmm:scheme>
                </ccmm:identifier>
                <ccmm:identifier>
@@ -202,7 +214,8 @@
                   <ccmm:value>02sat5y74</ccmm:value>
                   <ccmm:scheme>
                      <ccmm:iri>https://ror.org/</ccmm:iri>
-                     <ccmm:label>ROR</ccmm:label>
+                     <ccmm:label xml:lang="en">Research Organization Registry</ccmm:label>
+                     <ccmm:notation>ROR</ccmm:notation>
                   </ccmm:scheme>
                </ccmm:identifier>
                <ccmm:name>Ústav fyzikální chemie J. Heyrovského AV ČR</ccmm:name>
@@ -223,7 +236,8 @@
                <ccmm:value>0000-0002-4606-1218</ccmm:value>
                <ccmm:scheme>
                   <ccmm:iri>https://orcid.org/</ccmm:iri>
-                  <ccmm:label>ORCID</ccmm:label>
+                  <ccmm:label xml:lang="en">Open Research and Contributor ID</ccmm:label>
+                  <ccmm:notation>ORCID</ccmm:notation>
                </ccmm:scheme>
             </ccmm:identifier>
             <ccmm:name>Cebecauer, Marek</ccmm:name>
@@ -232,7 +246,8 @@
                   <ccmm:value>61388955</ccmm:value>
                   <ccmm:scheme>
                      <ccmm:iri>https://www.wikidata.org/entity/Q42302581</ccmm:iri>
-                     <ccmm:label xml:lang="cs">IČO</ccmm:label>
+                     <ccmm:label xml:lang="cs">Identifikační Číslo Osoby</ccmm:label>
+                     <ccmm:notation>IČO</ccmm:notation>
                   </ccmm:scheme>
                </ccmm:identifier>
                <ccmm:identifier>
@@ -240,7 +255,8 @@
                   <ccmm:value>02sat5y74</ccmm:value>
                   <ccmm:scheme>
                      <ccmm:iri>https://ror.org/</ccmm:iri>
-                     <ccmm:label>ROR</ccmm:label>
+                     <ccmm:label xml:lang="en">Research Organization Registry</ccmm:label>
+                     <ccmm:notation>ROR</ccmm:notation>
                   </ccmm:scheme>
                </ccmm:identifier>
                <ccmm:name>Ústav fyzikální chemie J. Heyrovského AV ČR</ccmm:name>

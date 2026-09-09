@@ -11,6 +11,8 @@
       <ccmm:language>
          <ccmm:iri>http://publications.europa.eu/resource/authority/language/CES</ccmm:iri>
          <ccmm:label xml:lang="cs">čeština</ccmm:label>
+         <ccmm:label xml:lang="cs">Čeština</ccmm:label>
+         <ccmm:label xml:lang="en">Czech</ccmm:label>
       </ccmm:language>
       <ccmm:qualified_attribution>
          <ccmm:attributed_agent>
@@ -20,7 +22,8 @@
                   <ccmm:value>0030-04X2-2030-4X26</ccmm:value>
                   <ccmm:scheme>
                      <ccmm:iri>https://orcid.org/</ccmm:iri>
-                     <ccmm:label>ORCID</ccmm:label>
+                     <ccmm:label xml:lang="en">Open Research and Contributor ID</ccmm:label>
+                     <ccmm:notation>ORCID</ccmm:notation>
                   </ccmm:scheme>
                </ccmm:identifier>
                <ccmm:name>Novák</ccmm:name>
@@ -39,7 +42,8 @@
                      <ccmm:value>024d6js02</ccmm:value>
                      <ccmm:scheme>
                         <ccmm:iri>https://ror.org/</ccmm:iri>
-                        <ccmm:label>ROR</ccmm:label>
+                        <ccmm:label xml:lang="en">Research Organization Registry</ccmm:label>
+                        <ccmm:notation>ROR</ccmm:notation>
                      </ccmm:scheme>
                   </ccmm:identifier>
                   <ccmm:name>Univerzita Karlova</ccmm:name>
@@ -56,15 +60,16 @@
       <ccmm:date_created>2025-04-28</ccmm:date_created>
       <ccmm:conforms_to_standard>
          <ccmm:iri>https://model.ccmm.cz/research-data/2.0.0</ccmm:iri>
-         <ccmm:label>CCMM RD 2.0.0</ccmm:label>
+         <ccmm:label xml:lang="en">Czech Core Metadata Model for Research Data 2.0.0</ccmm:label>
       </ccmm:conforms_to_standard>
       <ccmm:conforms_to_standard>
          <ccmm:iri>https://www.iso.org/standard/80275.html</ccmm:iri>
-         <ccmm:label>ISO 19115-1:2014/Amd 2:2020</ccmm:label>
+         <ccmm:label xml:lang="en">ISO 19115-1:2014/Amd 2:2020</ccmm:label>
       </ccmm:conforms_to_standard>
       <ccmm:original_repository>
          <ccmm:iri>https://original-repository.cz</ccmm:iri>
          <ccmm:label xml:lang="cs">Původní repozitář</ccmm:label>
+         <ccmm:description xml:lang="cs">Popis repozitáře.</ccmm:description>
          <ccmm:qualified_attribution>
             <ccmm:attributed_agent>
                <ccmm:organization>
@@ -84,7 +89,8 @@
       <ccmm:value>10.45321/as36sl</ccmm:value>
       <ccmm:scheme>
          <ccmm:iri>https://doi.org/</ccmm:iri>
-         <ccmm:label>DOI</ccmm:label>
+         <ccmm:label xml:lang="en">Digital Object Identifier</ccmm:label>
+         <ccmm:notation>DOI</ccmm:notation>
       </ccmm:scheme>
    </ccmm:identifier>
    <ccmm:identifier>
@@ -113,7 +119,8 @@
                <ccmm:value>0023-0802-44X6-26X0</ccmm:value>
                <ccmm:scheme>
                   <ccmm:iri>https://orcid.org/</ccmm:iri>
-                  <ccmm:label>ORCID</ccmm:label>
+                  <ccmm:label xml:lang="en">Open Research and Contributor ID</ccmm:label>
+                  <ccmm:notation>ORCID</ccmm:notation>
                </ccmm:scheme>
             </ccmm:identifier>
             <ccmm:name>Ivan Janouch</ccmm:name>
@@ -132,7 +139,8 @@
                   <ccmm:value>02j46qs45</ccmm:value>
                   <ccmm:scheme>
                      <ccmm:iri>https://ror.org/</ccmm:iri>
-                     <ccmm:label>ROR</ccmm:label>
+                     <ccmm:label xml:lang="en">Research Organization Registry</ccmm:label>
+                     <ccmm:notation>ROR</ccmm:notation>
                   </ccmm:scheme>
                </ccmm:identifier>
                <ccmm:name>Masarykova Univerzita</ccmm:name>
@@ -153,7 +161,8 @@
                <ccmm:value>0030-04X2-2030-4X26</ccmm:value>
                <ccmm:scheme>
                   <ccmm:iri>https://orcid.org/</ccmm:iri>
-                  <ccmm:label>ORCID</ccmm:label>
+                  <ccmm:label xml:lang="en">Open Research and Contributor ID</ccmm:label>
+                  <ccmm:notation>ORCID</ccmm:notation>
                </ccmm:scheme>
             </ccmm:identifier>
             <ccmm:name>Novák</ccmm:name>
@@ -172,7 +181,8 @@
                   <ccmm:value>024d6js02</ccmm:value>
                   <ccmm:scheme>
                      <ccmm:iri>https://ror.org/</ccmm:iri>
-                     <ccmm:label>ROR</ccmm:label>
+                     <ccmm:label xml:lang="en">Research Organization Registry</ccmm:label>
+                     <ccmm:notation>ROR</ccmm:notation>
                   </ccmm:scheme>
                </ccmm:identifier>
                <ccmm:name>Univerzita Karlova</ccmm:name>
@@ -223,9 +233,13 @@
    <ccmm:primary_language>
       <ccmm:iri>http://publications.europa.eu/resource/authority/language/CES</ccmm:iri>
       <ccmm:label xml:lang="cs">čeština</ccmm:label>
+      <ccmm:label xml:lang="cs">Čeština</ccmm:label>
+      <ccmm:label xml:lang="en">Czech</ccmm:label>
    </ccmm:primary_language>
    <ccmm:other_language>
       <ccmm:iri>http://publications.europa.eu/resource/authority/language/ENG</ccmm:iri>
+      <ccmm:label xml:lang="cs">Angličtina</ccmm:label>
+      <ccmm:label xml:lang="en">English</ccmm:label>
    </ccmm:other_language>
    <ccmm:access_rights>
       <ccmm:iri>http://purl.org/coar/access_right/c_abf2</ccmm:iri>
@@ -350,7 +364,8 @@
                <ccmm:value>01pv73b02</ccmm:value>
                <ccmm:scheme>
                   <ccmm:iri>https://ror.org/</ccmm:iri>
-                  <ccmm:label>ROR</ccmm:label>
+                  <ccmm:label xml:lang="en">Research Organization Registry</ccmm:label>
+                  <ccmm:notation>ROR</ccmm:notation>
                </ccmm:scheme>
             </ccmm:identifier>
             <ccmm:name>Grantová agentura České republiky</ccmm:name>

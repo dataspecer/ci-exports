@@ -14,10 +14,12 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <http://purl.org/coar/access_right/c_f1cf>
     a dcterms:RightsStatement ;
+    skos:prefLabel "embargoed access"@en ;
 .
 
 <https://data.narodni-repozitar.cz>
     a dcat:Catalog ;
+    dcterms:description "Popis původního repozitáře,"@cs ;
     dcterms:title "Původní repozitář"@cs ;
     prov:qualifiedAttribution
         [
@@ -43,15 +45,17 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://model.ccmm.cz/research-data/2.0.0>
     a dcterms:Standard ;
-    rdfs:label "CCMM RD 2.0.0" ;
+    rdfs:label "Czech Core Metadata Model for Research Data 2.0.0"@en ;
 .
 
 <https://vocabs.ccmm.cz/registry/codelist/AgentRole/Contributor/DataManager>
     a dcat:Role ;
+    skos:prefLabel "Data Manager"@en ;
 .
 
 <https://vocabs.ccmm.cz/registry/codelist/AgentRole/Creator>
     a dcat:Role ;
+    skos:prefLabel "Creator"@en ;
 .
 
 <https://vocabs.ccmm.cz/registry/codelist/SubjectCategory/>
@@ -67,6 +71,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://vocabs.ccmm.cz/registry/codelist/TimeReference/Created>
     a skos:Concept ;
+    skos:prefLabel "Created"@en ;
 .
 
 <https://vocabs.ccmm.cz/registry/codelist/AgentRole/Publisher>
@@ -98,7 +103,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
             prov:agent
                 [
                     a org:Organization ;
-                    foaf:name ":unkn" ;
+                    foaf:name "Nějaká organizace" ;
                 ] ;
         ] ;
     ccmm:hasTimeReference
@@ -123,9 +128,9 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
                     prov:agent
                         [
                             a prov:Person ;
-                            vcard:family-name ":unkn" ;
-                            vcard:given-name ":unkn" ;
-                            foaf:name ":unkn" ;
+                            vcard:family-name "Staeklý" ;
+                            vcard:given-name "Pavel" ;
+                            foaf:name "Pavel Steklý" ;
                         ] ;
                 ] ;
             ccmm:originalRepository <https://data.narodni-repozitar.cz> ;

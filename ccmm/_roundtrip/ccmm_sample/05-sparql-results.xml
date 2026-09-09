@@ -801,9 +801,29 @@
       <binding name="o"><literal xml:lang="cs">čeština</literal></binding>
     </result>
     <result>
+      <binding name="s"><uri>http://publications.europa.eu/resource/authority/language/CES</uri></binding>
+      <binding name="p"><uri>http://www.w3.org/2004/02/skos/core#prefLabel</uri></binding>
+      <binding name="o"><literal xml:lang="cs">Čeština</literal></binding>
+    </result>
+    <result>
+      <binding name="s"><uri>http://publications.europa.eu/resource/authority/language/CES</uri></binding>
+      <binding name="p"><uri>http://www.w3.org/2004/02/skos/core#prefLabel</uri></binding>
+      <binding name="o"><literal xml:lang="en">Czech</literal></binding>
+    </result>
+    <result>
       <binding name="s"><uri>http://publications.europa.eu/resource/authority/language/ENG</uri></binding>
       <binding name="p"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
       <binding name="o"><uri>http://purl.org/dc/terms/LinguisticSystem</uri></binding>
+    </result>
+    <result>
+      <binding name="s"><uri>http://publications.europa.eu/resource/authority/language/ENG</uri></binding>
+      <binding name="p"><uri>http://www.w3.org/2004/02/skos/core#prefLabel</uri></binding>
+      <binding name="o"><literal xml:lang="cs">Angličtina</literal></binding>
+    </result>
+    <result>
+      <binding name="s"><uri>http://publications.europa.eu/resource/authority/language/ENG</uri></binding>
+      <binding name="p"><uri>http://www.w3.org/2004/02/skos/core#prefLabel</uri></binding>
+      <binding name="o"><literal xml:lang="en">English</literal></binding>
     </result>
     <result>
       <binding name="s"><uri>http://purl.org/coar/access_right/c_abf2</uri></binding>
@@ -914,6 +934,11 @@
     <result>
       <binding name="s"><uri>https://doi.org/</uri></binding>
       <binding name="p"><uri>http://www.w3.org/2000/01/rdf-schema#label</uri></binding>
+      <binding name="o"><literal xml:lang="en">Digital Object Identifier</literal></binding>
+    </result>
+    <result>
+      <binding name="s"><uri>https://doi.org/</uri></binding>
+      <binding name="p"><uri>http://www.w3.org/2004/02/skos/core#notation</uri></binding>
       <binding name="o"><literal datatype="http://www.w3.org/2001/XMLSchema#string">DOI</literal></binding>
     </result>
     <result>
@@ -1004,7 +1029,7 @@
     <result>
       <binding name="s"><uri>https://model.ccmm.cz/research-data/2.0.0</uri></binding>
       <binding name="p"><uri>http://www.w3.org/2000/01/rdf-schema#label</uri></binding>
-      <binding name="o"><literal datatype="http://www.w3.org/2001/XMLSchema#string">CCMM RD 2.0.0</literal></binding>
+      <binding name="o"><literal xml:lang="en">Czech Core Metadata Model for Research Data 2.0.0</literal></binding>
     </result>
     <result>
       <binding name="s"><uri>https://op.europa.eu/web/eu-vocabularies/concept/-/resource?uri=http://publications.europa.eu/resource/authority/file-type/GPKG</uri></binding>
@@ -1089,6 +1114,11 @@
     <result>
       <binding name="s"><uri>https://orcid.org/</uri></binding>
       <binding name="p"><uri>http://www.w3.org/2000/01/rdf-schema#label</uri></binding>
+      <binding name="o"><literal xml:lang="en">Open Research and Contributor ID</literal></binding>
+    </result>
+    <result>
+      <binding name="s"><uri>https://orcid.org/</uri></binding>
+      <binding name="p"><uri>http://www.w3.org/2004/02/skos/core#notation</uri></binding>
       <binding name="o"><literal datatype="http://www.w3.org/2001/XMLSchema#string">ORCID</literal></binding>
     </result>
     <result>
@@ -1308,6 +1338,11 @@
     </result>
     <result>
       <binding name="s"><uri>https://original-repository.cz</uri></binding>
+      <binding name="p"><uri>http://purl.org/dc/terms/description</uri></binding>
+      <binding name="o"><literal xml:lang="cs">Popis repozitáře.</literal></binding>
+    </result>
+    <result>
+      <binding name="s"><uri>https://original-repository.cz</uri></binding>
       <binding name="p"><uri>http://purl.org/dc/terms/title</uri></binding>
       <binding name="o"><literal xml:lang="cs">Původní repozitář</literal></binding>
     </result>
@@ -1374,6 +1409,11 @@
     <result>
       <binding name="s"><uri>https://ror.org/</uri></binding>
       <binding name="p"><uri>http://www.w3.org/2000/01/rdf-schema#label</uri></binding>
+      <binding name="o"><literal xml:lang="en">Research Organization Registry</literal></binding>
+    </result>
+    <result>
+      <binding name="s"><uri>https://ror.org/</uri></binding>
+      <binding name="p"><uri>http://www.w3.org/2004/02/skos/core#notation</uri></binding>
       <binding name="o"><literal datatype="http://www.w3.org/2001/XMLSchema#string">ROR</literal></binding>
     </result>
     <result>
@@ -1609,7 +1649,7 @@
     <result>
       <binding name="s"><uri>https://www.iso.org/standard/80275.html</uri></binding>
       <binding name="p"><uri>http://www.w3.org/2000/01/rdf-schema#label</uri></binding>
-      <binding name="o"><literal datatype="http://www.w3.org/2001/XMLSchema#string">ISO 19115-1:2014/Amd 2:2020</literal></binding>
+      <binding name="o"><literal xml:lang="en">ISO 19115-1:2014/Amd 2:2020</literal></binding>
     </result>
   </results>
 </sparql>

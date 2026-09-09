@@ -1,27 +1,37 @@
 Status: DIFFERENT
 Comparison: elements, attributes, text values, and repeated-element order
 Ignored: XML declaration, comments, indentation, attribute order, namespace prefixes
-Missing content entries: 21
-Added content entries: 0
-Sibling-order changes: 19
+Missing content entries: 4
+Added content entries: 23
+Sibling-order changes: 21
 
 Missing from round-trip XML:
 - attribute /ccmm:dataset/@xsi:schemaLocation = 'https://schema.ccmm.cz/research-data/2.0 ../dataset/schema.xsd'
 - attribute /ccmm:dataset/ccmm:distribution/ccmm:distribution_downloadable_file/ccmm:download_url/ccmm:label/@xml:lang = 'en'
-- attribute /ccmm:dataset/ccmm:funding_reference/ccmm:funder/ccmm:organization/ccmm:identifier/ccmm:scheme/ccmm:label/@xml:lang = '' (2 occurrences)
-- attribute /ccmm:dataset/ccmm:identifier/ccmm:scheme/ccmm:label/@xml:lang = ''
-- attribute /ccmm:dataset/ccmm:metadata_identification/ccmm:conforms_to_standard/ccmm:label/@xml:lang = ''
-- attribute /ccmm:dataset/ccmm:qualified_attribution/ccmm:attributed_agent/ccmm:organization/ccmm:identifier/ccmm:scheme/ccmm:label/@xml:lang = ''
-- attribute /ccmm:dataset/ccmm:qualified_attribution/ccmm:attributed_agent/ccmm:person/ccmm:affiliation/ccmm:identifier/ccmm:scheme/ccmm:label/@xml:lang = '' (6 occurrences)
-- attribute /ccmm:dataset/ccmm:qualified_attribution/ccmm:attributed_agent/ccmm:person/ccmm:identifier/ccmm:scheme/ccmm:label/@xml:lang = '' (5 occurrences)
-- attribute /ccmm:dataset/ccmm:related_resource/ccmm:identifier/ccmm:scheme/ccmm:label/@xml:lang = ''
 - element /ccmm:dataset/ccmm:distribution/ccmm:distribution_downloadable_file/ccmm:download_url/ccmm:label
 - text /ccmm:dataset/ccmm:distribution/ccmm:distribution_downloadable_file/ccmm:download_url/ccmm:label = 'REPO.tar'
 
+Added in round-trip XML:
+- attribute /ccmm:dataset/ccmm:qualified_attribution/ccmm:attributed_agent/ccmm:organization/ccmm:identifier/ccmm:scheme/ccmm:label/@xml:lang = 'cs'
+- attribute /ccmm:dataset/ccmm:qualified_attribution/ccmm:attributed_agent/ccmm:person/ccmm:affiliation/ccmm:identifier/ccmm:scheme/ccmm:label/@xml:lang = 'cs' (6 occurrences)
+- element /ccmm:dataset/ccmm:qualified_attribution/ccmm:attributed_agent/ccmm:organization/ccmm:identifier/ccmm:scheme/ccmm:label
+- element /ccmm:dataset/ccmm:qualified_attribution/ccmm:attributed_agent/ccmm:person/ccmm:affiliation/ccmm:identifier/ccmm:scheme/ccmm:label (6 occurrences)
+- element /ccmm:dataset/ccmm:qualified_attribution/ccmm:attributed_agent/ccmm:person/ccmm:affiliation/ccmm:identifier/ccmm:scheme/ccmm:notation
+- text /ccmm:dataset/ccmm:qualified_attribution/ccmm:attributed_agent/ccmm:organization/ccmm:identifier/ccmm:scheme/ccmm:label = 'IČO'
+- text /ccmm:dataset/ccmm:qualified_attribution/ccmm:attributed_agent/ccmm:person/ccmm:affiliation/ccmm:identifier/ccmm:scheme/ccmm:label = 'Identifikační Číslo Osoby'
+- text /ccmm:dataset/ccmm:qualified_attribution/ccmm:attributed_agent/ccmm:person/ccmm:affiliation/ccmm:identifier/ccmm:scheme/ccmm:label = 'IČO' (5 occurrences)
+- text /ccmm:dataset/ccmm:qualified_attribution/ccmm:attributed_agent/ccmm:person/ccmm:affiliation/ccmm:identifier/ccmm:scheme/ccmm:notation = 'IČO'
+
 Repeated elements with changed order:
+- /ccmm:dataset/ccmm:funding_reference/ccmm:funder/ccmm:organization/ccmm:identifier
+  original: ccmm:identifier (ccmm:iri='https://ror.org/037n8p820'; ccmm:label='Research Organization Registry') | ccmm:identifier (ccmm:iri='http://dx.doi.org/10.13039/501100001823'; ccmm:label='Digital Object Identifier')
+  round-trip: ccmm:identifier (ccmm:iri='http://dx.doi.org/10.13039/501100001823'; ccmm:label='Digital Object Identifier') | ccmm:identifier (ccmm:iri='https://ror.org/037n8p820'; ccmm:label='Research Organization Registry')
 - /ccmm:dataset/ccmm:keyword
   original: ccmm:keyword @xml:lang='en' = 'Super duplex stainless steel' | ccmm:keyword @xml:lang='en' = 'Microstructure' | ccmm:keyword @xml:lang='en' = 'Tensile properties' | ccmm:keyword @xml:lang='en' = 'Additive manufacturing' | ccmm:keyword @xml:lang='en' = 'Directed energy deposition' | ccmm:keyword @xml:lang='en' = 'Laser power'
   round-trip: ccmm:keyword @xml:lang='en' = 'Additive manufacturing' | ccmm:keyword @xml:lang='en' = 'Directed energy deposition' | ccmm:keyword @xml:lang='en' = 'Laser power' | ccmm:keyword @xml:lang='en' = 'Microstructure' | ccmm:keyword @xml:lang='en' = 'Super duplex stainless steel' | ccmm:keyword @xml:lang='en' = 'Tensile properties'
+- /ccmm:dataset/ccmm:metadata_identification/ccmm:conforms_to_standard
+  original: ccmm:conforms_to_standard (ccmm:iri='https://model.ccmm.cz/research-data/2.0.0'; ccmm:label='Czech Core Metadata Model for Research Dat'... [sha256:56c41efd20f8]) | ccmm:conforms_to_standard (ccmm:iri='https://data.narodni-repozitar.cz/schemas/'... [sha256:8bf87db6bead]; ccmm:label='NR Datasets JSON Schema v1.0.0')
+  round-trip: ccmm:conforms_to_standard (ccmm:iri='https://data.narodni-repozitar.cz/schemas/'... [sha256:8bf87db6bead]; ccmm:label='NR Datasets JSON Schema v1.0.0') | ccmm:conforms_to_standard (ccmm:iri='https://model.ccmm.cz/research-data/2.0.0'; ccmm:label='Czech Core Metadata Model for Research Dat'... [sha256:56c41efd20f8])
 - /ccmm:dataset/ccmm:metadata_identification/ccmm:original_repository/ccmm:qualified_attribution/ccmm:role/ccmm:label
   original: ccmm:label @xml:lang='cs' = 'Vydavatel' | ccmm:label @xml:lang='en' = 'Publisher'
   round-trip: ccmm:label @xml:lang='en' = 'Publisher' | ccmm:label @xml:lang='cs' = 'Vydavatel'

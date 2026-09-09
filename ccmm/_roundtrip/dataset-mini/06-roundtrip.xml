@@ -9,23 +9,25 @@
       <ccmm:qualified_attribution>
          <ccmm:attributed_agent>
             <ccmm:person>
-               <ccmm:name>:unkn</ccmm:name>
-               <ccmm:given_name>:unkn</ccmm:given_name>
-               <ccmm:family_name>:unkn</ccmm:family_name>
+               <ccmm:name>Pavel Steklý</ccmm:name>
+               <ccmm:given_name>Pavel</ccmm:given_name>
+               <ccmm:family_name>Staeklý</ccmm:family_name>
             </ccmm:person>
          </ccmm:attributed_agent>
          <ccmm:role>
             <ccmm:iri>https://vocabs.ccmm.cz/registry/codelist/AgentRole/Contributor/DataManager</ccmm:iri>
+            <ccmm:label xml:lang="en">Data Manager</ccmm:label>
          </ccmm:role>
       </ccmm:qualified_attribution>
       <ccmm:date_updated>2025-07-25</ccmm:date_updated>
       <ccmm:conforms_to_standard>
          <ccmm:iri>https://model.ccmm.cz/research-data/2.0.0</ccmm:iri>
-         <ccmm:label>CCMM RD 2.0.0</ccmm:label>
+         <ccmm:label xml:lang="en">Czech Core Metadata Model for Research Data 2.0.0</ccmm:label>
       </ccmm:conforms_to_standard>
       <ccmm:original_repository>
          <ccmm:iri>https://data.narodni-repozitar.cz</ccmm:iri>
          <ccmm:label xml:lang="cs">Původní repozitář</ccmm:label>
+         <ccmm:description xml:lang="cs">Popis původního repozitáře,</ccmm:description>
          <ccmm:qualified_attribution>
             <ccmm:attributed_agent>
                <ccmm:organization>
@@ -58,12 +60,13 @@
       </ccmm:attributed_agent>
       <ccmm:role>
          <ccmm:iri>https://vocabs.ccmm.cz/registry/codelist/AgentRole/Creator</ccmm:iri>
+         <ccmm:label xml:lang="en">Creator</ccmm:label>
       </ccmm:role>
    </ccmm:qualified_attribution>
    <ccmm:qualified_attribution>
       <ccmm:attributed_agent>
          <ccmm:organization>
-            <ccmm:name>:unkn</ccmm:name>
+            <ccmm:name>Nějaká organizace</ccmm:name>
          </ccmm:organization>
       </ccmm:attributed_agent>
       <ccmm:role>
@@ -81,10 +84,12 @@
       </ccmm:temporal_representation>
       <ccmm:date_type>
          <ccmm:iri>https://vocabs.ccmm.cz/registry/codelist/TimeReference/Created</ccmm:iri>
+         <ccmm:label xml:lang="en">Created</ccmm:label>
       </ccmm:date_type>
    </ccmm:time_reference>
    <ccmm:access_rights>
       <ccmm:iri>http://purl.org/coar/access_right/c_f1cf</ccmm:iri>
+      <ccmm:label xml:lang="en">embargoed access</ccmm:label>
    </ccmm:access_rights>
    <ccmm:subject>
       <ccmm:iri>https://vocabs.ccmm.cz/registry/codelist/SubjectCategory/30000/30300/30304</ccmm:iri>

@@ -1,26 +1,24 @@
 Status: DIFFERENT
 Comparison: elements, attributes, text values, and repeated-element order
 Ignored: XML declaration, comments, indentation, attribute order, namespace prefixes
-Missing content entries: 14
-Added content entries: 3
-Sibling-order changes: 7
+Missing content entries: 4
+Added content entries: 9
+Sibling-order changes: 10
 
 Missing from round-trip XML:
 - attribute /ccmm:dataset/@xsi:schemaLocation = 'https://schema.ccmm.cz/research-data/2.0 ../dataset/schema.xsd'
-- attribute /ccmm:dataset/ccmm:funding_reference/ccmm:funder/ccmm:organization/ccmm:identifier/ccmm:scheme/ccmm:label/@xml:lang = ''
-- attribute /ccmm:dataset/ccmm:identifier/ccmm:scheme/ccmm:label/@xml:lang = ''
-- attribute /ccmm:dataset/ccmm:metadata_identification/ccmm:conforms_to_standard/ccmm:label/@xml:lang = '' (2 occurrences)
-- attribute /ccmm:dataset/ccmm:metadata_identification/ccmm:qualified_attribution/ccmm:attributed_agent/ccmm:person/ccmm:affiliation/ccmm:identifier/ccmm:scheme/ccmm:label/@xml:lang = ''
-- attribute /ccmm:dataset/ccmm:metadata_identification/ccmm:qualified_attribution/ccmm:attributed_agent/ccmm:person/ccmm:identifier/ccmm:scheme/ccmm:label/@xml:lang = ''
-- attribute /ccmm:dataset/ccmm:qualified_attribution/ccmm:attributed_agent/ccmm:person/ccmm:affiliation/ccmm:identifier/ccmm:scheme/ccmm:label/@xml:lang = '' (2 occurrences)
-- attribute /ccmm:dataset/ccmm:qualified_attribution/ccmm:attributed_agent/ccmm:person/ccmm:identifier/ccmm:scheme/ccmm:label/@xml:lang = '' (2 occurrences)
 - attribute /ccmm:dataset/ccmm:related_resource/ccmm:resource_type/ccmm:label/@xml:lang = 'en'
 - element /ccmm:dataset/ccmm:related_resource/ccmm:resource_type/ccmm:label
 - text /ccmm:dataset/ccmm:related_resource/ccmm:resource_type/ccmm:label = 'text'
 
 Added in round-trip XML:
+- attribute /ccmm:dataset/ccmm:metadata_identification/ccmm:language/ccmm:label/@xml:lang = 'cs'
+- attribute /ccmm:dataset/ccmm:metadata_identification/ccmm:language/ccmm:label/@xml:lang = 'en'
 - attribute /ccmm:dataset/ccmm:primary_language/ccmm:label/@xml:lang = 'cs'
+- element /ccmm:dataset/ccmm:metadata_identification/ccmm:language/ccmm:label (2 occurrences)
 - element /ccmm:dataset/ccmm:primary_language/ccmm:label
+- text /ccmm:dataset/ccmm:metadata_identification/ccmm:language/ccmm:label = 'Czech'
+- text /ccmm:dataset/ccmm:metadata_identification/ccmm:language/ccmm:label = 'Čeština'
 - text /ccmm:dataset/ccmm:primary_language/ccmm:label = 'čeština'
 
 Repeated elements with changed order:
@@ -33,6 +31,15 @@ Repeated elements with changed order:
 - /ccmm:dataset/ccmm:metadata_identification/ccmm:original_repository/ccmm:qualified_attribution/ccmm:role/ccmm:label
   original: ccmm:label @xml:lang='cs' = 'Vydavatel' | ccmm:label @xml:lang='en' = 'Publisher'
   round-trip: ccmm:label @xml:lang='en' = 'Publisher' | ccmm:label @xml:lang='cs' = 'Vydavatel'
+- /ccmm:dataset/ccmm:other_language/ccmm:label
+  original: ccmm:label @xml:lang='en' = 'English' | ccmm:label @xml:lang='cs' = 'Angličtina'
+  round-trip: ccmm:label @xml:lang='cs' = 'Angličtina' | ccmm:label @xml:lang='en' = 'English'
+- /ccmm:dataset/ccmm:qualified_attribution
+  original: ccmm:qualified_attribution (ccmm:iri='https://orcid.org/0030-04X2-2030-4X26'; ccmm:label='Autor') | ccmm:qualified_attribution (ccmm:iri='https://orcid.org/0023-0802-44X6-26X0'; ccmm:label='Vydavatel')
+  round-trip: ccmm:qualified_attribution (ccmm:iri='https://orcid.org/0023-0802-44X6-26X0'; ccmm:label='Vydavatel') | ccmm:qualified_attribution (ccmm:iri='https://orcid.org/0030-04X2-2030-4X26'; ccmm:label='Creator')
+- /ccmm:dataset/ccmm:qualified_attribution/ccmm:role/ccmm:label
+  original: ccmm:label @xml:lang='en' = 'Creator' | ccmm:label @xml:lang='cs' = 'Autor'
+  round-trip: ccmm:label @xml:lang='cs' = 'Autor' | ccmm:label @xml:lang='en' = 'Creator'
 - /ccmm:dataset/ccmm:related_resource/ccmm:resource_relation_type/ccmm:label
   original: ccmm:label @xml:lang='cs' = 'má metadata' | ccmm:label @xml:lang='en' = 'has metadata'
   round-trip: ccmm:label @xml:lang='en' = 'has metadata' | ccmm:label @xml:lang='cs' = 'má metadata'

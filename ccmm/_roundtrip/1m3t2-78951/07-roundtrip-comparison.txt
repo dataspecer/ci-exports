@@ -1,17 +1,12 @@
 Status: DIFFERENT
 Comparison: elements, attributes, text values, and repeated-element order
 Ignored: XML declaration, comments, indentation, attribute order, namespace prefixes
-Missing content entries: 26
+Missing content entries: 15
 Added content entries: 0
-Sibling-order changes: 18
+Sibling-order changes: 26
 
 Missing from round-trip XML:
 - attribute /ccmm:dataset/@xsi:schemaLocation = 'https://schema.ccmm.cz/research-data/2.0 ../dataset/schema.xsd'
-- attribute /ccmm:dataset/ccmm:identifier/ccmm:scheme/ccmm:label/@xml:lang = ''
-- attribute /ccmm:dataset/ccmm:metadata_identification/ccmm:conforms_to_standard/ccmm:label/@xml:lang = ''
-- attribute /ccmm:dataset/ccmm:qualified_attribution/ccmm:attributed_agent/ccmm:organization/ccmm:identifier/ccmm:scheme/ccmm:label/@xml:lang = ''
-- attribute /ccmm:dataset/ccmm:qualified_attribution/ccmm:attributed_agent/ccmm:person/ccmm:affiliation/ccmm:identifier/ccmm:scheme/ccmm:label/@xml:lang = '' (4 occurrences)
-- attribute /ccmm:dataset/ccmm:qualified_attribution/ccmm:attributed_agent/ccmm:person/ccmm:identifier/ccmm:scheme/ccmm:label/@xml:lang = '' (4 occurrences)
 - attribute /ccmm:dataset/ccmm:subject/ccmm:subject_scheme/ccmm:label/@xml:lang = 'cs'
 - attribute /ccmm:dataset/ccmm:subject/ccmm:subject_scheme/ccmm:label/@xml:lang = 'en'
 - element /ccmm:dataset/ccmm:subject
@@ -51,18 +46,42 @@ Repeated elements with changed order:
 - /ccmm:dataset/ccmm:keyword
   original: ccmm:keyword @xml:lang='cs' = 'mikroskopie' | ccmm:keyword @xml:lang='en' = 'microscopy' | ccmm:keyword @xml:lang='cs' = 'NETóza' | ccmm:keyword @xml:lang='en' = 'NETosis' | ccmm:keyword @xml:lang='cs' = 'NETy' | ccmm:keyword @xml:lang='en' = 'NETs' | ccmm:keyword @xml:lang='cs' = 'lidské neutrofily' | ccmm:keyword @xml:lang='en' = 'human neutrophils'
   round-trip: ccmm:keyword @xml:lang='en' = 'human neutrophils' | ccmm:keyword @xml:lang='cs' = 'lidské neutrofily' | ccmm:keyword @xml:lang='en' = 'microscopy' | ccmm:keyword @xml:lang='cs' = 'mikroskopie' | ccmm:keyword @xml:lang='en' = 'NETosis' | ccmm:keyword @xml:lang='cs' = 'NETóza' | ccmm:keyword @xml:lang='en' = 'NETs' | ccmm:keyword @xml:lang='cs' = 'NETy'
+- /ccmm:dataset/ccmm:metadata_identification/ccmm:conforms_to_standard
+  original: ccmm:conforms_to_standard (ccmm:iri='https://model.ccmm.cz/research-data/2.0.0'; ccmm:label='Czech Core Metadata Model for Research Dat'... [sha256:56c41efd20f8]) | ccmm:conforms_to_standard (ccmm:iri='https://data.narodni-repozitar.cz/schemas/'... [sha256:8bf87db6bead]; ccmm:label='NR Datasets JSON Schema v1.0.0')
+  round-trip: ccmm:conforms_to_standard (ccmm:iri='https://data.narodni-repozitar.cz/schemas/'... [sha256:8bf87db6bead]; ccmm:label='NR Datasets JSON Schema v1.0.0') | ccmm:conforms_to_standard (ccmm:iri='https://model.ccmm.cz/research-data/2.0.0'; ccmm:label='Czech Core Metadata Model for Research Dat'... [sha256:56c41efd20f8])
 - /ccmm:dataset/ccmm:metadata_identification/ccmm:original_repository/ccmm:qualified_attribution/ccmm:role/ccmm:label
   original: ccmm:label @xml:lang='cs' = 'Vydavatel' | ccmm:label @xml:lang='en' = 'Publisher'
   round-trip: ccmm:label @xml:lang='en' = 'Publisher' | ccmm:label @xml:lang='cs' = 'Vydavatel'
+- /ccmm:dataset/ccmm:qualified_attribution
+  original: ccmm:qualified_attribution (ccmm:iri='https://orcid.org/0009-0003-1158-1138'; ccmm:label='Autor') | ccmm:qualified_attribution (ccmm:iri='https://orcid.org/0000-0003-1662-9092'; ccmm:label='Autor') | ccmm:qualified_attribution (ccmm:iri='https://orcid.org/0009-0008-0140-2075'; ccmm:label='Autor') | ccmm:qualified_attribution (ccmm:iri='https://orcid.org/0000-0002-4606-1218'; ccmm:label='Autor') | ccmm:qualified_attribution (ccmm:iri='https://ror.org/02sat5y74'; ccmm:label='Vydavatel')
+  round-trip: ccmm:qualified_attribution (ccmm:value='61388955'; ccmm:label='Vydavatel') | ccmm:qualified_attribution (ccmm:iri='https://orcid.org/0009-0008-0140-2075'; ccmm:label='Creator') | ccmm:qualified_attribution (ccmm:iri='https://orcid.org/0000-0003-1662-9092'; ccmm:label='Creator') | ccmm:qualified_attribution (ccmm:iri='https://orcid.org/0009-0003-1158-1138'; ccmm:label='Creator') | ccmm:qualified_attribution (ccmm:iri='https://orcid.org/0000-0002-4606-1218'; ccmm:label='Creator')
+- /ccmm:dataset/ccmm:qualified_attribution/ccmm:attributed_agent/ccmm:person/ccmm:affiliation/ccmm:identifier
+  original: ccmm:identifier (ccmm:iri='https://ror.org/02sat5y74'; ccmm:label='Research Organization Registry') | ccmm:identifier (ccmm:value='61388955'; ccmm:label='Identifikační Číslo Osoby')
+  round-trip: ccmm:identifier (ccmm:value='61388955'; ccmm:label='Identifikační Číslo Osoby') | ccmm:identifier (ccmm:iri='https://ror.org/02sat5y74'; ccmm:label='Research Organization Registry')
 - /ccmm:dataset/ccmm:qualified_attribution/ccmm:role/ccmm:label
   original: ccmm:label @xml:lang='en' = 'Creator' | ccmm:label @xml:lang='cs' = 'Autor'
   round-trip: ccmm:label @xml:lang='cs' = 'Autor' | ccmm:label @xml:lang='en' = 'Creator'
+- /ccmm:dataset/ccmm:qualified_attribution/ccmm:attributed_agent/ccmm:person/ccmm:affiliation/ccmm:identifier
+  original: ccmm:identifier (ccmm:iri='https://ror.org/02sat5y74'; ccmm:label='Research Organization Registry') | ccmm:identifier (ccmm:value='61388955'; ccmm:label='Identifikační Číslo Osoby')
+  round-trip: ccmm:identifier (ccmm:value='61388955'; ccmm:label='Identifikační Číslo Osoby') | ccmm:identifier (ccmm:iri='https://ror.org/02sat5y74'; ccmm:label='Research Organization Registry')
 - /ccmm:dataset/ccmm:qualified_attribution/ccmm:role/ccmm:label
   original: ccmm:label @xml:lang='en' = 'Creator' | ccmm:label @xml:lang='cs' = 'Autor'
   round-trip: ccmm:label @xml:lang='cs' = 'Autor' | ccmm:label @xml:lang='en' = 'Creator'
+- /ccmm:dataset/ccmm:qualified_attribution/ccmm:attributed_agent/ccmm:person/ccmm:affiliation/ccmm:identifier
+  original: ccmm:identifier (ccmm:iri='https://ror.org/02sat5y74'; ccmm:label='Research Organization Registry') | ccmm:identifier (ccmm:value='61388955'; ccmm:label='Identifikační Číslo Osoby')
+  round-trip: ccmm:identifier (ccmm:value='61388955'; ccmm:label='Identifikační Číslo Osoby') | ccmm:identifier (ccmm:iri='https://ror.org/02sat5y74'; ccmm:label='Research Organization Registry')
 - /ccmm:dataset/ccmm:qualified_attribution/ccmm:role/ccmm:label
   original: ccmm:label @xml:lang='en' = 'Creator' | ccmm:label @xml:lang='cs' = 'Autor'
   round-trip: ccmm:label @xml:lang='cs' = 'Autor' | ccmm:label @xml:lang='en' = 'Creator'
+- /ccmm:dataset/ccmm:qualified_attribution/ccmm:attributed_agent/ccmm:person/ccmm:affiliation/ccmm:identifier
+  original: ccmm:identifier (ccmm:iri='https://ror.org/02sat5y74'; ccmm:label='Research Organization Registry') | ccmm:identifier (ccmm:value='61388955'; ccmm:label='Identifikační Číslo Osoby')
+  round-trip: ccmm:identifier (ccmm:value='61388955'; ccmm:label='Identifikační Číslo Osoby') | ccmm:identifier (ccmm:iri='https://ror.org/02sat5y74'; ccmm:label='Research Organization Registry')
+- /ccmm:dataset/ccmm:qualified_attribution/ccmm:role/ccmm:label
+  original: ccmm:label @xml:lang='en' = 'Creator' | ccmm:label @xml:lang='cs' = 'Autor'
+  round-trip: ccmm:label @xml:lang='cs' = 'Autor' | ccmm:label @xml:lang='en' = 'Creator'
+- /ccmm:dataset/ccmm:qualified_attribution/ccmm:attributed_agent/ccmm:organization/ccmm:identifier
+  original: ccmm:identifier (ccmm:iri='https://ror.org/02sat5y74'; ccmm:label='Research Organization Registry') | ccmm:identifier (ccmm:value='61388955'; ccmm:label='Identifikační Číslo Osoby')
+  round-trip: ccmm:identifier (ccmm:value='61388955'; ccmm:label='Identifikační Číslo Osoby') | ccmm:identifier (ccmm:iri='https://ror.org/02sat5y74'; ccmm:label='Research Organization Registry')
 - /ccmm:dataset/ccmm:resource_type/ccmm:label
   original: ccmm:label @xml:lang='cs' = 'datová sada' | ccmm:label @xml:lang='en' = 'dataset'
   round-trip: ccmm:label @xml:lang='en' = 'dataset' | ccmm:label @xml:lang='cs' = 'datová sada'

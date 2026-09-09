@@ -41,8 +41,6 @@
                                       rdf:nodeID="d43e27">
                         <rdf:type rdf:resource="http://www.w3.org/ns/prov#Person"/>
                         <ns1:name>:unkn</ns1:name>
-                        <ns2:given-name>:unkn</ns2:given-name>
-                        <ns2:family-name>:unkn</ns2:family-name>
                      </rdf:Description>
                   </ns0:agent>
                   <ns1:hadRole>
@@ -50,7 +48,7 @@
                                       rdf:about="https://vocabs.ccmm.cz/registry/codelist/AgentRole/Contributor/DataManager">
                         <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Role"/>
                         <ns0:prefLabel xml:lang="en">Data Manager</ns0:prefLabel>
-                        <ns0:prefLabel xml:lang="cs">Manažer dat</ns0:prefLabel>
+                        <ns0:prefLabel xml:lang="cs">Správce dat</ns0:prefLabel>
                      </rdf:Description>
                   </ns1:hadRole>
                </rdf:Description>
@@ -61,7 +59,7 @@
                <rdf:Description xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#"
                                 rdf:about="https://model.ccmm.cz/research-data/2.0.0">
                   <rdf:type rdf:resource="http://purl.org/dc/terms/Standard"/>
-                  <ns0:label xml:lang="">CCMM RD 2.0.0</ns0:label>
+                  <ns0:label xml:lang="en">Czech Core Metadata Model for Research Data 2.0.0</ns0:label>
                </rdf:Description>
             </ns0:conformsTo>
             <ns0:conformsTo>
@@ -72,20 +70,21 @@
                </rdf:Description>
             </ns0:conformsTo>
             <ns2:originalRepository>
-               <rdf:Description rdf:about="https://datarepo.eosc.cz">
+               <rdf:Description xmlns:ns2="http://www.w3.org/ns/dcat#" rdf:about="https://datarepo.eosc.cz">
                   <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Catalog"/>
-                  <ns0:title xml:lang="cs">Catch-all</ns0:title>
+                  <ns0:title xml:lang="en">Catch-all</ns0:title>
+                  <ns0:description xml:lang="en">The Data Catch-all Repository is a general-purpose repository for research data for which no more suitable disciplinary, institutional, or community repository is available.</ns0:description>
                   <ns1:qualifiedAttribution>
                      <rdf:Description xmlns:ns0="http://www.w3.org/ns/prov#"
                                       xmlns:ns1="http://www.w3.org/ns/dcat#"
-                                      rdf:nodeID="d43e81">
+                                      rdf:nodeID="d43e80">
                         <rdf:type rdf:resource="http://www.w3.org/ns/prov#Attribution"/>
                         <ns0:agent>
                            <rdf:Description xmlns:ns0="http://www.w3.org/ns/adms#"
                                             xmlns:ns1="http://xmlns.com/foaf/0.1/"
                                             xmlns:ns2="http://www.w3.org/2006/vcard/ns#"
                                             xmlns:ns3="http://www.w3.org/ns/dcat#"
-                                            rdf:nodeID="d43e85">
+                                            rdf:nodeID="d43e84">
                               <rdf:type rdf:resource="http://www.w3.org/ns/org#Organization"/>
                               <ns1:name>COMTES FHT</ns1:name>
                            </rdf:Description>
@@ -112,9 +111,11 @@
             <ns0:notation>10.48700/datst.dmq82-ed856</ns0:notation>
             <ns1:inScheme>
                <rdf:Description xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#"
+                                xmlns:ns1="http://www.w3.org/2004/02/skos/core#"
                                 rdf:about="https://doi.org/">
                   <rdf:type rdf:resource="https://model.ccmm.cz/vocabulary/ccmm#IdentifierScheme"/>
-                  <ns0:label xml:lang="">DOI</ns0:label>
+                  <ns0:label xml:lang="en">Digital Object Identifier</ns0:label>
+                  <ns1:notation>DOI</ns1:notation>
                </rdf:Description>
             </ns1:inScheme>
          </rdf:Description>
@@ -123,7 +124,7 @@
       <ns0:hasAlternateTitle>
          <rdf:Description xmlns:ns0="http://purl.org/dc/terms/"
                           xmlns:ns1="https://model.ccmm.cz/vocabulary/ccmm#"
-                          rdf:nodeID="d43e127">
+                          rdf:nodeID="d43e128">
             <rdf:type rdf:resource="https://model.ccmm.cz/vocabulary/ccmm#AlternateTitle"/>
             <ns0:alternative xml:lang="en">Data to manuscript Influence of Deposition Parameters on the Building rate, In-Situ Formation of Austenite and Tensile Properties of SAF 2507 SDSS Fabricated by Directed Energy Deposition</ns0:alternative>
             <ns1:hasType>
@@ -139,7 +140,7 @@
       <ns4:qualifiedAttribution>
          <rdf:Description xmlns:ns0="http://www.w3.org/ns/prov#"
                           xmlns:ns1="http://www.w3.org/ns/dcat#"
-                          rdf:nodeID="d43e146">
+                          rdf:nodeID="d43e147">
             <rdf:type rdf:resource="http://www.w3.org/ns/prov#Attribution"/>
             <ns0:agent>
                <rdf:Description xmlns:ns0="http://www.w3.org/ns/adms#"
@@ -147,7 +148,7 @@
                                 xmlns:ns2="http://www.w3.org/2006/vcard/ns#"
                                 xmlns:ns3="http://www.w3.org/ns/dcat#"
                                 xmlns:ns4="https://model.ccmm.cz/vocabulary/ccmm#"
-                                rdf:nodeID="d43e150">
+                                rdf:nodeID="d43e151">
                   <rdf:type rdf:resource="http://www.w3.org/ns/prov#Person"/>
                   <ns0:identifier>
                      <rdf:Description xmlns:ns0="http://www.w3.org/2004/02/skos/core#"
@@ -157,9 +158,11 @@
                         <ns0:notation>0000-0001-5717-267X</ns0:notation>
                         <ns1:inScheme>
                            <rdf:Description xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#"
+                                            xmlns:ns1="http://www.w3.org/2004/02/skos/core#"
                                             rdf:about="https://orcid.org/">
                               <rdf:type rdf:resource="https://model.ccmm.cz/vocabulary/ccmm#IdentifierScheme"/>
-                              <ns0:label xml:lang="">ORCID</ns0:label>
+                              <ns0:label xml:lang="en">Open Research and Contributor ID</ns0:label>
+                              <ns1:notation>ORCID</ns1:notation>
                            </rdf:Description>
                         </ns1:inScheme>
                      </rdf:Description>
@@ -168,7 +171,7 @@
                   <ns2:given-name>Pavel</ns2:given-name>
                   <ns2:family-name>Salvetr</ns2:family-name>
                   <ns4:hasAffiliation>
-                     <rdf:Description rdf:nodeID="d43e173">
+                     <rdf:Description rdf:nodeID="d43e176">
                         <rdf:type rdf:resource="http://www.w3.org/ns/org#Organization"/>
                         <ns0:identifier>
                            <rdf:Description xmlns:ns0="http://www.w3.org/2004/02/skos/core#"
@@ -178,9 +181,11 @@
                               <ns0:notation>00hzjtg80</ns0:notation>
                               <ns1:inScheme>
                                  <rdf:Description xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#"
+                                                  xmlns:ns1="http://www.w3.org/2004/02/skos/core#"
                                                   rdf:about="https://ror.org/">
                                     <rdf:type rdf:resource="https://model.ccmm.cz/vocabulary/ccmm#IdentifierScheme"/>
-                                    <ns0:label xml:lang="">ROR</ns0:label>
+                                    <ns0:label xml:lang="en">Research Organization Registry</ns0:label>
+                                    <ns1:notation>ROR</ns1:notation>
                                  </rdf:Description>
                               </ns1:inScheme>
                            </rdf:Description>
@@ -188,14 +193,16 @@
                         <ns0:identifier>
                            <rdf:Description xmlns:ns0="http://www.w3.org/2004/02/skos/core#"
                                             xmlns:ns1="https://model.ccmm.cz/vocabulary/ccmm#"
-                                            rdf:nodeID="d43e190">
+                                            rdf:nodeID="d43e195">
                               <rdf:type rdf:resource="http://www.w3.org/ns/adms#Identifier"/>
                               <ns0:notation>26316919</ns0:notation>
                               <ns1:inScheme>
                                  <rdf:Description xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#"
+                                                  xmlns:ns1="http://www.w3.org/2004/02/skos/core#"
                                                   rdf:about="https://www.wikidata.org/entity/Q42302581">
                                     <rdf:type rdf:resource="https://model.ccmm.cz/vocabulary/ccmm#IdentifierScheme"/>
-                                    <ns0:label xml:lang="cs">IČO</ns0:label>
+                                    <ns0:label xml:lang="cs">Identifikační Číslo Osoby</ns0:label>
+                                    <ns1:notation>IČO</ns1:notation>
                                  </rdf:Description>
                               </ns1:inScheme>
                            </rdf:Description>
@@ -218,7 +225,7 @@
       <ns4:qualifiedAttribution>
          <rdf:Description xmlns:ns0="http://www.w3.org/ns/prov#"
                           xmlns:ns1="http://www.w3.org/ns/dcat#"
-                          rdf:nodeID="d43e222">
+                          rdf:nodeID="d43e229">
             <rdf:type rdf:resource="http://www.w3.org/ns/prov#Attribution"/>
             <ns0:agent>
                <rdf:Description xmlns:ns0="http://www.w3.org/ns/adms#"
@@ -226,7 +233,7 @@
                                 xmlns:ns2="http://www.w3.org/2006/vcard/ns#"
                                 xmlns:ns3="http://www.w3.org/ns/dcat#"
                                 xmlns:ns4="https://model.ccmm.cz/vocabulary/ccmm#"
-                                rdf:nodeID="d43e226">
+                                rdf:nodeID="d43e233">
                   <rdf:type rdf:resource="http://www.w3.org/ns/prov#Person"/>
                   <ns0:identifier>
                      <rdf:Description xmlns:ns0="http://www.w3.org/2004/02/skos/core#"
@@ -236,9 +243,11 @@
                         <ns0:notation>0000-0003-4013-9819</ns0:notation>
                         <ns1:inScheme>
                            <rdf:Description xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#"
+                                            xmlns:ns1="http://www.w3.org/2004/02/skos/core#"
                                             rdf:about="https://orcid.org/">
                               <rdf:type rdf:resource="https://model.ccmm.cz/vocabulary/ccmm#IdentifierScheme"/>
-                              <ns0:label xml:lang="">ORCID</ns0:label>
+                              <ns0:label xml:lang="en">Open Research and Contributor ID</ns0:label>
+                              <ns1:notation>ORCID</ns1:notation>
                            </rdf:Description>
                         </ns1:inScheme>
                      </rdf:Description>
@@ -247,7 +256,7 @@
                   <ns2:given-name>Josef</ns2:given-name>
                   <ns2:family-name>Hodek</ns2:family-name>
                   <ns4:hasAffiliation>
-                     <rdf:Description rdf:nodeID="d43e249">
+                     <rdf:Description rdf:nodeID="d43e258">
                         <rdf:type rdf:resource="http://www.w3.org/ns/org#Organization"/>
                         <ns0:identifier>
                            <rdf:Description xmlns:ns0="http://www.w3.org/2004/02/skos/core#"
@@ -257,9 +266,11 @@
                               <ns0:notation>00hzjtg80</ns0:notation>
                               <ns1:inScheme>
                                  <rdf:Description xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#"
+                                                  xmlns:ns1="http://www.w3.org/2004/02/skos/core#"
                                                   rdf:about="https://ror.org/">
                                     <rdf:type rdf:resource="https://model.ccmm.cz/vocabulary/ccmm#IdentifierScheme"/>
-                                    <ns0:label xml:lang="">ROR</ns0:label>
+                                    <ns0:label xml:lang="en">Research Organization Registry</ns0:label>
+                                    <ns1:notation>ROR</ns1:notation>
                                  </rdf:Description>
                               </ns1:inScheme>
                            </rdf:Description>
@@ -267,11 +278,12 @@
                         <ns0:identifier>
                            <rdf:Description xmlns:ns0="http://www.w3.org/2004/02/skos/core#"
                                             xmlns:ns1="https://model.ccmm.cz/vocabulary/ccmm#"
-                                            rdf:nodeID="d43e266">
+                                            rdf:nodeID="d43e277">
                               <rdf:type rdf:resource="http://www.w3.org/ns/adms#Identifier"/>
                               <ns0:notation>26316919</ns0:notation>
                               <ns1:inScheme>
                                  <rdf:Description xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#"
+                                                  xmlns:ns1="http://www.w3.org/2004/02/skos/core#"
                                                   rdf:about="https://www.wikidata.org/entity/Q42302581">
                                     <rdf:type rdf:resource="https://model.ccmm.cz/vocabulary/ccmm#IdentifierScheme"/>
                                     <ns0:label xml:lang="cs">IČO</ns0:label>
@@ -297,7 +309,7 @@
       <ns4:qualifiedAttribution>
          <rdf:Description xmlns:ns0="http://www.w3.org/ns/prov#"
                           xmlns:ns1="http://www.w3.org/ns/dcat#"
-                          rdf:nodeID="d43e299">
+                          rdf:nodeID="d43e310">
             <rdf:type rdf:resource="http://www.w3.org/ns/prov#Attribution"/>
             <ns0:agent>
                <rdf:Description xmlns:ns0="http://www.w3.org/ns/adms#"
@@ -305,13 +317,13 @@
                                 xmlns:ns2="http://www.w3.org/2006/vcard/ns#"
                                 xmlns:ns3="http://www.w3.org/ns/dcat#"
                                 xmlns:ns4="https://model.ccmm.cz/vocabulary/ccmm#"
-                                rdf:nodeID="d43e303">
+                                rdf:nodeID="d43e314">
                   <rdf:type rdf:resource="http://www.w3.org/ns/prov#Person"/>
                   <ns1:name>Uhlík, Matouš</ns1:name>
                   <ns2:given-name>Matouš</ns2:given-name>
                   <ns2:family-name>Uhlík</ns2:family-name>
                   <ns4:hasAffiliation>
-                     <rdf:Description rdf:nodeID="d43e313">
+                     <rdf:Description rdf:nodeID="d43e324">
                         <rdf:type rdf:resource="http://www.w3.org/ns/org#Organization"/>
                         <ns0:identifier>
                            <rdf:Description xmlns:ns0="http://www.w3.org/2004/02/skos/core#"
@@ -321,9 +333,11 @@
                               <ns0:notation>00hzjtg80</ns0:notation>
                               <ns1:inScheme>
                                  <rdf:Description xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#"
+                                                  xmlns:ns1="http://www.w3.org/2004/02/skos/core#"
                                                   rdf:about="https://ror.org/">
                                     <rdf:type rdf:resource="https://model.ccmm.cz/vocabulary/ccmm#IdentifierScheme"/>
-                                    <ns0:label xml:lang="">ROR</ns0:label>
+                                    <ns0:label xml:lang="en">Research Organization Registry</ns0:label>
+                                    <ns1:notation>ROR</ns1:notation>
                                  </rdf:Description>
                               </ns1:inScheme>
                            </rdf:Description>
@@ -331,14 +345,16 @@
                         <ns0:identifier>
                            <rdf:Description xmlns:ns0="http://www.w3.org/2004/02/skos/core#"
                                             xmlns:ns1="https://model.ccmm.cz/vocabulary/ccmm#"
-                                            rdf:nodeID="d43e330">
+                                            rdf:nodeID="d43e343">
                               <rdf:type rdf:resource="http://www.w3.org/ns/adms#Identifier"/>
                               <ns0:notation>26316919</ns0:notation>
                               <ns1:inScheme>
                                  <rdf:Description xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#"
+                                                  xmlns:ns1="http://www.w3.org/2004/02/skos/core#"
                                                   rdf:about="https://www.wikidata.org/entity/Q42302581">
                                     <rdf:type rdf:resource="https://model.ccmm.cz/vocabulary/ccmm#IdentifierScheme"/>
-                                    <ns0:label xml:lang="cs">IČO</ns0:label>
+                                    <ns0:label xml:lang="cs">Identifikační Číslo Osoby</ns0:label>
+                                    <ns1:notation>IČO</ns1:notation>
                                  </rdf:Description>
                               </ns1:inScheme>
                            </rdf:Description>
@@ -361,7 +377,7 @@
       <ns4:qualifiedAttribution>
          <rdf:Description xmlns:ns0="http://www.w3.org/ns/prov#"
                           xmlns:ns1="http://www.w3.org/ns/dcat#"
-                          rdf:nodeID="d43e362">
+                          rdf:nodeID="d43e377">
             <rdf:type rdf:resource="http://www.w3.org/ns/prov#Attribution"/>
             <ns0:agent>
                <rdf:Description xmlns:ns0="http://www.w3.org/ns/adms#"
@@ -369,7 +385,7 @@
                                 xmlns:ns2="http://www.w3.org/2006/vcard/ns#"
                                 xmlns:ns3="http://www.w3.org/ns/dcat#"
                                 xmlns:ns4="https://model.ccmm.cz/vocabulary/ccmm#"
-                                rdf:nodeID="d43e366">
+                                rdf:nodeID="d43e381">
                   <rdf:type rdf:resource="http://www.w3.org/ns/prov#Person"/>
                   <ns0:identifier>
                      <rdf:Description xmlns:ns0="http://www.w3.org/2004/02/skos/core#"
@@ -379,9 +395,11 @@
                         <ns0:notation>0000-0001-9947-2566</ns0:notation>
                         <ns1:inScheme>
                            <rdf:Description xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#"
+                                            xmlns:ns1="http://www.w3.org/2004/02/skos/core#"
                                             rdf:about="https://orcid.org/">
                               <rdf:type rdf:resource="https://model.ccmm.cz/vocabulary/ccmm#IdentifierScheme"/>
-                              <ns0:label xml:lang="">ORCID</ns0:label>
+                              <ns0:label xml:lang="en">Open Research and Contributor ID</ns0:label>
+                              <ns1:notation>ORCID</ns1:notation>
                            </rdf:Description>
                         </ns1:inScheme>
                      </rdf:Description>
@@ -390,7 +408,7 @@
                   <ns2:given-name>Pavel</ns2:given-name>
                   <ns2:family-name>Novák</ns2:family-name>
                   <ns4:hasAffiliation>
-                     <rdf:Description rdf:nodeID="d43e389">
+                     <rdf:Description rdf:nodeID="d43e406">
                         <rdf:type rdf:resource="http://www.w3.org/ns/org#Organization"/>
                         <ns0:identifier>
                            <rdf:Description xmlns:ns0="http://www.w3.org/2004/02/skos/core#"
@@ -400,9 +418,11 @@
                               <ns0:notation>05ggn0a85</ns0:notation>
                               <ns1:inScheme>
                                  <rdf:Description xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#"
+                                                  xmlns:ns1="http://www.w3.org/2004/02/skos/core#"
                                                   rdf:about="https://ror.org/">
                                     <rdf:type rdf:resource="https://model.ccmm.cz/vocabulary/ccmm#IdentifierScheme"/>
-                                    <ns0:label xml:lang="">ROR</ns0:label>
+                                    <ns0:label xml:lang="en">Research Organization Registry</ns0:label>
+                                    <ns1:notation>ROR</ns1:notation>
                                  </rdf:Description>
                               </ns1:inScheme>
                            </rdf:Description>
@@ -410,14 +430,16 @@
                         <ns0:identifier>
                            <rdf:Description xmlns:ns0="http://www.w3.org/2004/02/skos/core#"
                                             xmlns:ns1="https://model.ccmm.cz/vocabulary/ccmm#"
-                                            rdf:nodeID="d43e406">
+                                            rdf:nodeID="d43e425">
                               <rdf:type rdf:resource="http://www.w3.org/ns/adms#Identifier"/>
                               <ns0:notation>60461373</ns0:notation>
                               <ns1:inScheme>
                                  <rdf:Description xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#"
+                                                  xmlns:ns1="http://www.w3.org/2004/02/skos/core#"
                                                   rdf:about="https://www.wikidata.org/entity/Q42302581">
                                     <rdf:type rdf:resource="https://model.ccmm.cz/vocabulary/ccmm#IdentifierScheme"/>
-                                    <ns0:label xml:lang="cs">IČO</ns0:label>
+                                    <ns0:label xml:lang="cs">Identifikační Číslo Osoby</ns0:label>
+                                    <ns1:notation>IČO</ns1:notation>
                                  </rdf:Description>
                               </ns1:inScheme>
                            </rdf:Description>
@@ -440,7 +462,7 @@
       <ns4:qualifiedAttribution>
          <rdf:Description xmlns:ns0="http://www.w3.org/ns/prov#"
                           xmlns:ns1="http://www.w3.org/ns/dcat#"
-                          rdf:nodeID="d43e438">
+                          rdf:nodeID="d43e459">
             <rdf:type rdf:resource="http://www.w3.org/ns/prov#Attribution"/>
             <ns0:agent>
                <rdf:Description xmlns:ns0="http://www.w3.org/ns/adms#"
@@ -448,7 +470,7 @@
                                 xmlns:ns2="http://www.w3.org/2006/vcard/ns#"
                                 xmlns:ns3="http://www.w3.org/ns/dcat#"
                                 xmlns:ns4="https://model.ccmm.cz/vocabulary/ccmm#"
-                                rdf:nodeID="d43e442">
+                                rdf:nodeID="d43e463">
                   <rdf:type rdf:resource="http://www.w3.org/ns/prov#Person"/>
                   <ns0:identifier>
                      <rdf:Description xmlns:ns0="http://www.w3.org/2004/02/skos/core#"
@@ -458,9 +480,11 @@
                         <ns0:notation>0000-0002-1241-6121</ns0:notation>
                         <ns1:inScheme>
                            <rdf:Description xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#"
+                                            xmlns:ns1="http://www.w3.org/2004/02/skos/core#"
                                             rdf:about="https://orcid.org/">
                               <rdf:type rdf:resource="https://model.ccmm.cz/vocabulary/ccmm#IdentifierScheme"/>
-                              <ns0:label xml:lang="">ORCID</ns0:label>
+                              <ns0:label xml:lang="en">Open Research and Contributor ID</ns0:label>
+                              <ns1:notation>ORCID</ns1:notation>
                            </rdf:Description>
                         </ns1:inScheme>
                      </rdf:Description>
@@ -469,7 +493,7 @@
                   <ns2:given-name>Jaromír</ns2:given-name>
                   <ns2:family-name>Dlouhý</ns2:family-name>
                   <ns4:hasAffiliation>
-                     <rdf:Description rdf:nodeID="d43e465">
+                     <rdf:Description rdf:nodeID="d43e488">
                         <rdf:type rdf:resource="http://www.w3.org/ns/org#Organization"/>
                         <ns0:identifier>
                            <rdf:Description xmlns:ns0="http://www.w3.org/2004/02/skos/core#"
@@ -479,9 +503,11 @@
                               <ns0:notation>00hzjtg80</ns0:notation>
                               <ns1:inScheme>
                                  <rdf:Description xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#"
+                                                  xmlns:ns1="http://www.w3.org/2004/02/skos/core#"
                                                   rdf:about="https://ror.org/">
                                     <rdf:type rdf:resource="https://model.ccmm.cz/vocabulary/ccmm#IdentifierScheme"/>
-                                    <ns0:label xml:lang="">ROR</ns0:label>
+                                    <ns0:label xml:lang="en">Research Organization Registry</ns0:label>
+                                    <ns1:notation>ROR</ns1:notation>
                                  </rdf:Description>
                               </ns1:inScheme>
                            </rdf:Description>
@@ -489,14 +515,16 @@
                         <ns0:identifier>
                            <rdf:Description xmlns:ns0="http://www.w3.org/2004/02/skos/core#"
                                             xmlns:ns1="https://model.ccmm.cz/vocabulary/ccmm#"
-                                            rdf:nodeID="d43e482">
+                                            rdf:nodeID="d43e507">
                               <rdf:type rdf:resource="http://www.w3.org/ns/adms#Identifier"/>
                               <ns0:notation>26316919</ns0:notation>
                               <ns1:inScheme>
                                  <rdf:Description xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#"
+                                                  xmlns:ns1="http://www.w3.org/2004/02/skos/core#"
                                                   rdf:about="https://www.wikidata.org/entity/Q42302581">
                                     <rdf:type rdf:resource="https://model.ccmm.cz/vocabulary/ccmm#IdentifierScheme"/>
-                                    <ns0:label xml:lang="cs">IČO</ns0:label>
+                                    <ns0:label xml:lang="cs">Identifikační Číslo Osoby</ns0:label>
+                                    <ns1:notation>IČO</ns1:notation>
                                  </rdf:Description>
                               </ns1:inScheme>
                            </rdf:Description>
@@ -519,7 +547,7 @@
       <ns4:qualifiedAttribution>
          <rdf:Description xmlns:ns0="http://www.w3.org/ns/prov#"
                           xmlns:ns1="http://www.w3.org/ns/dcat#"
-                          rdf:nodeID="d43e515">
+                          rdf:nodeID="d43e542">
             <rdf:type rdf:resource="http://www.w3.org/ns/prov#Attribution"/>
             <ns0:agent>
                <rdf:Description xmlns:ns0="http://www.w3.org/ns/adms#"
@@ -527,7 +555,7 @@
                                 xmlns:ns2="http://www.w3.org/2006/vcard/ns#"
                                 xmlns:ns3="http://www.w3.org/ns/dcat#"
                                 xmlns:ns4="https://model.ccmm.cz/vocabulary/ccmm#"
-                                rdf:nodeID="d43e519">
+                                rdf:nodeID="d43e546">
                   <rdf:type rdf:resource="http://www.w3.org/ns/prov#Person"/>
                   <ns0:identifier>
                      <rdf:Description xmlns:ns0="http://www.w3.org/2004/02/skos/core#"
@@ -537,9 +565,11 @@
                         <ns0:notation>0000-0002-4982-9114</ns0:notation>
                         <ns1:inScheme>
                            <rdf:Description xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#"
+                                            xmlns:ns1="http://www.w3.org/2004/02/skos/core#"
                                             rdf:about="https://orcid.org/">
                               <rdf:type rdf:resource="https://model.ccmm.cz/vocabulary/ccmm#IdentifierScheme"/>
-                              <ns0:label xml:lang="">ORCID</ns0:label>
+                              <ns0:label xml:lang="en">Open Research and Contributor ID</ns0:label>
+                              <ns1:notation>ORCID</ns1:notation>
                            </rdf:Description>
                         </ns1:inScheme>
                      </rdf:Description>
@@ -548,7 +578,7 @@
                   <ns2:given-name>Michal</ns2:given-name>
                   <ns2:family-name>Brázda</ns2:family-name>
                   <ns4:hasAffiliation>
-                     <rdf:Description rdf:nodeID="d43e542">
+                     <rdf:Description rdf:nodeID="d43e571">
                         <rdf:type rdf:resource="http://www.w3.org/ns/org#Organization"/>
                         <ns0:identifier>
                            <rdf:Description xmlns:ns0="http://www.w3.org/2004/02/skos/core#"
@@ -558,9 +588,11 @@
                               <ns0:notation>00hzjtg80</ns0:notation>
                               <ns1:inScheme>
                                  <rdf:Description xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#"
+                                                  xmlns:ns1="http://www.w3.org/2004/02/skos/core#"
                                                   rdf:about="https://ror.org/">
                                     <rdf:type rdf:resource="https://model.ccmm.cz/vocabulary/ccmm#IdentifierScheme"/>
-                                    <ns0:label xml:lang="">ROR</ns0:label>
+                                    <ns0:label xml:lang="en">Research Organization Registry</ns0:label>
+                                    <ns1:notation>ROR</ns1:notation>
                                  </rdf:Description>
                               </ns1:inScheme>
                            </rdf:Description>
@@ -568,14 +600,16 @@
                         <ns0:identifier>
                            <rdf:Description xmlns:ns0="http://www.w3.org/2004/02/skos/core#"
                                             xmlns:ns1="https://model.ccmm.cz/vocabulary/ccmm#"
-                                            rdf:nodeID="d43e559">
+                                            rdf:nodeID="d43e590">
                               <rdf:type rdf:resource="http://www.w3.org/ns/adms#Identifier"/>
                               <ns0:notation>26316919</ns0:notation>
                               <ns1:inScheme>
                                  <rdf:Description xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#"
+                                                  xmlns:ns1="http://www.w3.org/2004/02/skos/core#"
                                                   rdf:about="https://www.wikidata.org/entity/Q42302581">
                                     <rdf:type rdf:resource="https://model.ccmm.cz/vocabulary/ccmm#IdentifierScheme"/>
-                                    <ns0:label xml:lang="cs">IČO</ns0:label>
+                                    <ns0:label xml:lang="cs">Identifikační Číslo Osoby</ns0:label>
+                                    <ns1:notation>IČO</ns1:notation>
                                  </rdf:Description>
                               </ns1:inScheme>
                            </rdf:Description>
@@ -598,14 +632,14 @@
       <ns4:qualifiedAttribution>
          <rdf:Description xmlns:ns0="http://www.w3.org/ns/prov#"
                           xmlns:ns1="http://www.w3.org/ns/dcat#"
-                          rdf:nodeID="d43e591">
+                          rdf:nodeID="d43e624">
             <rdf:type rdf:resource="http://www.w3.org/ns/prov#Attribution"/>
             <ns0:agent>
                <rdf:Description xmlns:ns0="http://www.w3.org/ns/adms#"
                                 xmlns:ns1="http://xmlns.com/foaf/0.1/"
                                 xmlns:ns2="http://www.w3.org/2006/vcard/ns#"
                                 xmlns:ns3="http://www.w3.org/ns/dcat#"
-                                rdf:nodeID="d43e595">
+                                rdf:nodeID="d43e628">
                   <rdf:type rdf:resource="http://www.w3.org/ns/org#Organization"/>
                   <ns0:identifier>
                      <rdf:Description xmlns:ns0="http://www.w3.org/2004/02/skos/core#"
@@ -615,9 +649,11 @@
                         <ns0:notation>00hzjtg80</ns0:notation>
                         <ns1:inScheme>
                            <rdf:Description xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#"
+                                            xmlns:ns1="http://www.w3.org/2004/02/skos/core#"
                                             rdf:about="https://ror.org/">
                               <rdf:type rdf:resource="https://model.ccmm.cz/vocabulary/ccmm#IdentifierScheme"/>
-                              <ns0:label xml:lang="">ROR</ns0:label>
+                              <ns0:label xml:lang="en">Research Organization Registry</ns0:label>
+                              <ns1:notation>ROR</ns1:notation>
                            </rdf:Description>
                         </ns1:inScheme>
                      </rdf:Description>
@@ -625,14 +661,16 @@
                   <ns0:identifier>
                      <rdf:Description xmlns:ns0="http://www.w3.org/2004/02/skos/core#"
                                       xmlns:ns1="https://model.ccmm.cz/vocabulary/ccmm#"
-                                      rdf:nodeID="d43e612">
+                                      rdf:nodeID="d43e647">
                         <rdf:type rdf:resource="http://www.w3.org/ns/adms#Identifier"/>
                         <ns0:notation>26316919</ns0:notation>
                         <ns1:inScheme>
                            <rdf:Description xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#"
+                                            xmlns:ns1="http://www.w3.org/2004/02/skos/core#"
                                             rdf:about="https://www.wikidata.org/entity/Q42302581">
                               <rdf:type rdf:resource="https://model.ccmm.cz/vocabulary/ccmm#IdentifierScheme"/>
-                              <ns0:label xml:lang="cs">IČO</ns0:label>
+                              <ns0:label xml:lang="cs">Identifikační Číslo Osoby</ns0:label>
+                              <ns1:notation>IČO</ns1:notation>
                            </rdf:Description>
                         </ns1:inScheme>
                      </rdf:Description>
@@ -655,10 +693,10 @@
          <rdf:Description xmlns:ns0="http://www.w3.org/2006/time#"
                           xmlns:ns1="https://model.ccmm.cz/vocabulary/ccmm#"
                           xmlns:ns2="https://w3id.org/tib/datacite/property/"
-                          rdf:nodeID="d43e648">
+                          rdf:nodeID="d43e685">
             <rdf:type rdf:resource="https://model.ccmm.cz/vocabulary/ccmm#TimeReference"/>
             <ns0:hasTime>
-               <rdf:Description rdf:nodeID="d43e652">
+               <rdf:Description rdf:nodeID="d43e689">
                   <rdf:type rdf:resource="http://www.w3.org/2006/time#Instant"/>
                   <ns0:inXSDDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-06-16</ns0:inXSDDate>
                </rdf:Description>
@@ -677,19 +715,19 @@
          <rdf:Description xmlns:ns0="http://www.w3.org/2006/time#"
                           xmlns:ns1="https://model.ccmm.cz/vocabulary/ccmm#"
                           xmlns:ns2="https://w3id.org/tib/datacite/property/"
-                          rdf:nodeID="d43e670">
+                          rdf:nodeID="d43e707">
             <rdf:type rdf:resource="https://model.ccmm.cz/vocabulary/ccmm#TimeReference"/>
             <ns0:hasTime>
-               <rdf:Description rdf:nodeID="d43e674">
+               <rdf:Description rdf:nodeID="d43e711">
                   <rdf:type rdf:resource="http://www.w3.org/2006/time#Interval"/>
                   <ns0:hasBeginning>
-                     <rdf:Description rdf:nodeID="d43e676">
+                     <rdf:Description rdf:nodeID="d43e713">
                         <rdf:type rdf:resource="http://www.w3.org/2006/time#Instant"/>
                         <ns0:inXSDDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-02-25</ns0:inXSDDate>
                      </rdf:Description>
                   </ns0:hasBeginning>
                   <ns0:hasEnd>
-                     <rdf:Description rdf:nodeID="d43e681">
+                     <rdf:Description rdf:nodeID="d43e718">
                         <rdf:type rdf:resource="http://www.w3.org/2006/time#Instant"/>
                         <ns0:inXSDDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-06-11</ns0:inXSDDate>
                      </rdf:Description>
@@ -710,10 +748,10 @@
          <rdf:Description xmlns:ns0="http://www.w3.org/2006/time#"
                           xmlns:ns1="https://model.ccmm.cz/vocabulary/ccmm#"
                           xmlns:ns2="https://w3id.org/tib/datacite/property/"
-                          rdf:nodeID="d43e702">
+                          rdf:nodeID="d43e739">
             <rdf:type rdf:resource="https://model.ccmm.cz/vocabulary/ccmm#TimeReference"/>
             <ns0:hasTime>
-               <rdf:Description rdf:nodeID="d43e706">
+               <rdf:Description rdf:nodeID="d43e743">
                   <rdf:type rdf:resource="http://www.w3.org/2006/time#Instant"/>
                   <ns0:inXSDDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-06-16</ns0:inXSDDate>
                </rdf:Description>
@@ -780,7 +818,7 @@
       <ns5:description>
          <rdf:Description xmlns:ns0="http://purl.org/dc/terms/"
                           xmlns:ns1="https://w3id.org/tib/datacite/property/"
-                          rdf:nodeID="d43e811">
+                          rdf:nodeID="d43e848">
             <rdf:type rdf:resource="https://w3id.org/tib/datacite/class/Description"/>
             <ns0:description xml:lang="en">Industry applications of duplex stainless steels require a two-phase microstructure with a nearly balanced austenite-ferrite content to achieve good mechanical properties and good corrosion resistance. The most widespread additive manufacturing method such as laser powder bed fusion provides nearly fully ferritic microstructures due to the very high cooling rate, and the post-processing heat treatment must be performed. In contrast, other additive manufacturing methods, such as directed deposition methods, reach lower cooling rates and enable to obtain an equal ferrite–austenite ratio directly in the microstructure of the as-built state. In this work, the super duplex stainless steel SAF 2507 was deposited by directed energy deposition. The process parameters, namely, the laser power, laser beam spot, and powder feed rate, were varied to investigate the impact of the energy area density on the microstructure and tensile properties. A decrease in the energy area density caused an increase in the austenite content of 48 vol% and a numerical simulation of the sample temperature distribution inside the block during deposition, explaining the relationship between the amount of in situ formed austenite and the deposition parameters, was provided. Simultaneously, the deposition rate increased by more than five times. In contrast, the samples deposited at a higher building rate are characterized by greater porosity and lower elongation values in the vertical direction. The effect of the deposition parameters on the yield strength is low.</ns0:description>
             <ns1:descriptionType>
@@ -796,7 +834,7 @@
       <ns5:description>
          <rdf:Description xmlns:ns0="http://purl.org/dc/terms/"
                           xmlns:ns1="https://w3id.org/tib/datacite/property/"
-                          rdf:nodeID="d43e828">
+                          rdf:nodeID="d43e865">
             <rdf:type rdf:resource="https://w3id.org/tib/datacite/class/Description"/>
             <ns0:description xml:lang="en">The data set is related to the investigation of the influence of deposition parameters on the microstructure, austenite formation, and tensile properties of SAF 2507 super duplex stainless steel fabricated using directed energy deposition (DED). The experiments were carried out at COMTES FHT (Czech Republic) using an INSSTEK MX-600 system equipped with a 2 kW Yttrium fiber laser. SAF 2507 powder (particle size 45–150 μm) was deposited under three different parameter sets, varying laser power, beam diameter, layer thickness, hatch distance, and powder feed rate, while maintaining constant scan speed. A zig-zag deposition strategy was applied under a protective argon atmosphere (5.0, 99.999%). For each parameter set, 20×20×20 mm cubes were built and used for analysis. Microstructure and phase composition were characterized using optical microscopy, scanning electron microscopy, EBSD analysis, X-ray diffraction. Tensile properties were evaluated using miniature tensile tests. Thermal simulations of the deposition process were carried out using Simufact Welding 2024.1 with the Advanced Thermal Cycle (ATC) method.</ns0:description>
             <ns1:descriptionType>
@@ -812,7 +850,7 @@
       <ns5:description>
          <rdf:Description xmlns:ns0="http://purl.org/dc/terms/"
                           xmlns:ns1="https://w3id.org/tib/datacite/property/"
-                          rdf:nodeID="d43e845">
+                          rdf:nodeID="d43e882">
             <rdf:type rdf:resource="https://w3id.org/tib/datacite/class/Description"/>
             <ns0:description xml:lang="en">The sets of experimental data were recorded on several instruments within COMTES FHT. In cases where possible (XRD, MTT, EBSD), the data are in xlsx format enabling any replotting.</ns0:description>
             <ns1:descriptionType>
@@ -828,7 +866,7 @@
       <ns5:fundingReference>
          <rdf:Description xmlns:ns0="https://w3id.org/tib/datacite/property/"
                           xmlns:ns1="https://model.ccmm.cz/vocabulary/ccmm#"
-                          rdf:nodeID="d43e864">
+                          rdf:nodeID="d43e901">
             <rdf:type rdf:resource="https://w3id.org/tib/datacite/class/FundingReference"/>
             <ns0:awardNumber>EH23_021/0008433</ns0:awardNumber>
             <ns0:awardTitle>Development of special wire semiproducts for welding and 3D printing</ns0:awardTitle>
@@ -838,7 +876,7 @@
                                 xmlns:ns1="http://xmlns.com/foaf/0.1/"
                                 xmlns:ns2="http://www.w3.org/2006/vcard/ns#"
                                 xmlns:ns3="http://www.w3.org/ns/dcat#"
-                                rdf:nodeID="d43e874">
+                                rdf:nodeID="d43e911">
                   <rdf:type rdf:resource="http://www.w3.org/ns/org#Organization"/>
                   <ns0:identifier>
                      <rdf:Description xmlns:ns0="http://www.w3.org/2004/02/skos/core#"
@@ -848,9 +886,11 @@
                         <ns0:notation>037n8p820</ns0:notation>
                         <ns1:inScheme>
                            <rdf:Description xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#"
+                                            xmlns:ns1="http://www.w3.org/2004/02/skos/core#"
                                             rdf:about="https://ror.org/">
                               <rdf:type rdf:resource="https://model.ccmm.cz/vocabulary/ccmm#IdentifierScheme"/>
-                              <ns0:label xml:lang="">ROR</ns0:label>
+                              <ns0:label xml:lang="en">Research Organization Registry</ns0:label>
+                              <ns1:notation>ROR</ns1:notation>
                            </rdf:Description>
                         </ns1:inScheme>
                      </rdf:Description>
@@ -863,9 +903,11 @@
                         <ns0:notation>10.13039/501100001823</ns0:notation>
                         <ns1:inScheme>
                            <rdf:Description xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#"
+                                            xmlns:ns1="http://www.w3.org/2004/02/skos/core#"
                                             rdf:about="https://doi.org/">
                               <rdf:type rdf:resource="https://model.ccmm.cz/vocabulary/ccmm#IdentifierScheme"/>
-                              <ns0:label xml:lang="">DOI</ns0:label>
+                              <ns0:label xml:lang="en">Digital Object Identifier</ns0:label>
+                              <ns1:notation>DOI</ns1:notation>
                            </rdf:Description>
                         </ns1:inScheme>
                      </rdf:Description>
@@ -891,9 +933,11 @@
                   <ns0:notation>10.1007/s12540-025-01953-4</ns0:notation>
                   <ns1:inScheme>
                      <rdf:Description xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#"
+                                      xmlns:ns1="http://www.w3.org/2004/02/skos/core#"
                                       rdf:about="https://doi.org/">
                         <rdf:type rdf:resource="https://model.ccmm.cz/vocabulary/ccmm#IdentifierScheme"/>
-                        <ns0:label xml:lang="">DOI</ns0:label>
+                        <ns0:label xml:lang="en">Digital Object Identifier</ns0:label>
+                        <ns1:notation>DOI</ns1:notation>
                      </rdf:Description>
                   </ns1:inScheme>
                </rdf:Description>
@@ -903,7 +947,7 @@
             <ns3:qualifiedAttribution>
                <rdf:Description xmlns:ns0="http://www.w3.org/ns/prov#"
                                 xmlns:ns1="http://www.w3.org/ns/dcat#"
-                                rdf:nodeID="d43e940">
+                                rdf:nodeID="d43e983">
                   <rdf:type rdf:resource="http://www.w3.org/ns/prov#Attribution"/>
                   <ns0:agent>
                      <rdf:Description xmlns:ns0="http://www.w3.org/ns/adms#"
@@ -911,7 +955,7 @@
                                       xmlns:ns2="http://www.w3.org/2006/vcard/ns#"
                                       xmlns:ns3="http://www.w3.org/ns/dcat#"
                                       xmlns:ns4="https://model.ccmm.cz/vocabulary/ccmm#"
-                                      rdf:nodeID="d43e944">
+                                      rdf:nodeID="d43e987">
                         <rdf:type rdf:resource="http://www.w3.org/ns/prov#Person"/>
                         <ns1:name>Salvetr, Pavel</ns1:name>
                      </rdf:Description>
@@ -929,7 +973,7 @@
             <ns3:qualifiedAttribution>
                <rdf:Description xmlns:ns0="http://www.w3.org/ns/prov#"
                                 xmlns:ns1="http://www.w3.org/ns/dcat#"
-                                rdf:nodeID="d43e963">
+                                rdf:nodeID="d43e1006">
                   <rdf:type rdf:resource="http://www.w3.org/ns/prov#Attribution"/>
                   <ns0:agent>
                      <rdf:Description xmlns:ns0="http://www.w3.org/ns/adms#"
@@ -937,7 +981,7 @@
                                       xmlns:ns2="http://www.w3.org/2006/vcard/ns#"
                                       xmlns:ns3="http://www.w3.org/ns/dcat#"
                                       xmlns:ns4="https://model.ccmm.cz/vocabulary/ccmm#"
-                                      rdf:nodeID="d43e967">
+                                      rdf:nodeID="d43e1010">
                         <rdf:type rdf:resource="http://www.w3.org/ns/prov#Person"/>
                         <ns1:name>Hodek, Josef</ns1:name>
                      </rdf:Description>
@@ -955,7 +999,7 @@
             <ns3:qualifiedAttribution>
                <rdf:Description xmlns:ns0="http://www.w3.org/ns/prov#"
                                 xmlns:ns1="http://www.w3.org/ns/dcat#"
-                                rdf:nodeID="d43e985">
+                                rdf:nodeID="d43e1028">
                   <rdf:type rdf:resource="http://www.w3.org/ns/prov#Attribution"/>
                   <ns0:agent>
                      <rdf:Description xmlns:ns0="http://www.w3.org/ns/adms#"
@@ -963,7 +1007,7 @@
                                       xmlns:ns2="http://www.w3.org/2006/vcard/ns#"
                                       xmlns:ns3="http://www.w3.org/ns/dcat#"
                                       xmlns:ns4="https://model.ccmm.cz/vocabulary/ccmm#"
-                                      rdf:nodeID="d43e989">
+                                      rdf:nodeID="d43e1032">
                         <rdf:type rdf:resource="http://www.w3.org/ns/prov#Person"/>
                         <ns1:name>Uhlík, Matouš</ns1:name>
                      </rdf:Description>
@@ -981,7 +1025,7 @@
             <ns3:qualifiedAttribution>
                <rdf:Description xmlns:ns0="http://www.w3.org/ns/prov#"
                                 xmlns:ns1="http://www.w3.org/ns/dcat#"
-                                rdf:nodeID="d43e1007">
+                                rdf:nodeID="d43e1050">
                   <rdf:type rdf:resource="http://www.w3.org/ns/prov#Attribution"/>
                   <ns0:agent>
                      <rdf:Description xmlns:ns0="http://www.w3.org/ns/adms#"
@@ -989,7 +1033,7 @@
                                       xmlns:ns2="http://www.w3.org/2006/vcard/ns#"
                                       xmlns:ns3="http://www.w3.org/ns/dcat#"
                                       xmlns:ns4="https://model.ccmm.cz/vocabulary/ccmm#"
-                                      rdf:nodeID="d43e1011">
+                                      rdf:nodeID="d43e1054">
                         <rdf:type rdf:resource="http://www.w3.org/ns/prov#Person"/>
                         <ns1:name>Novák, Pavel</ns1:name>
                      </rdf:Description>
@@ -1007,7 +1051,7 @@
             <ns3:qualifiedAttribution>
                <rdf:Description xmlns:ns0="http://www.w3.org/ns/prov#"
                                 xmlns:ns1="http://www.w3.org/ns/dcat#"
-                                rdf:nodeID="d43e1029">
+                                rdf:nodeID="d43e1072">
                   <rdf:type rdf:resource="http://www.w3.org/ns/prov#Attribution"/>
                   <ns0:agent>
                      <rdf:Description xmlns:ns0="http://www.w3.org/ns/adms#"
@@ -1015,7 +1059,7 @@
                                       xmlns:ns2="http://www.w3.org/2006/vcard/ns#"
                                       xmlns:ns3="http://www.w3.org/ns/dcat#"
                                       xmlns:ns4="https://model.ccmm.cz/vocabulary/ccmm#"
-                                      rdf:nodeID="d43e1033">
+                                      rdf:nodeID="d43e1076">
                         <rdf:type rdf:resource="http://www.w3.org/ns/prov#Person"/>
                         <ns1:name>Dlouhý, Jaromír</ns1:name>
                      </rdf:Description>
@@ -1033,7 +1077,7 @@
             <ns3:qualifiedAttribution>
                <rdf:Description xmlns:ns0="http://www.w3.org/ns/prov#"
                                 xmlns:ns1="http://www.w3.org/ns/dcat#"
-                                rdf:nodeID="d43e1051">
+                                rdf:nodeID="d43e1094">
                   <rdf:type rdf:resource="http://www.w3.org/ns/prov#Attribution"/>
                   <ns0:agent>
                      <rdf:Description xmlns:ns0="http://www.w3.org/ns/adms#"
@@ -1041,7 +1085,7 @@
                                       xmlns:ns2="http://www.w3.org/2006/vcard/ns#"
                                       xmlns:ns3="http://www.w3.org/ns/dcat#"
                                       xmlns:ns4="https://model.ccmm.cz/vocabulary/ccmm#"
-                                      rdf:nodeID="d43e1055">
+                                      rdf:nodeID="d43e1098">
                         <rdf:type rdf:resource="http://www.w3.org/ns/prov#Person"/>
                         <ns1:name>Brázda, Michal</ns1:name>
                      </rdf:Description>
@@ -1122,7 +1166,7 @@
          </rdf:Description>
       </ns2:distribution>
       <ns0:hasValidationResult>
-         <rdf:Description xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:nodeID="d43e1168">
+         <rdf:Description xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:nodeID="d43e1211">
             <rdf:type rdf:resource="https://model.ccmm.cz/vocabulary/ccmm#ValidationResult"/>
          </rdf:Description>
       </ns0:hasValidationResult>
