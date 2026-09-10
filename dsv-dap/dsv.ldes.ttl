@@ -35,7 +35,7 @@
     dct:created "2026-04-02T07:23:42.148Z"^^xsd:dateTime;
     dct:issued "2026-04-02T07:23:42.148Z"^^xsd:dateTime;
     ds-ldes:sequence 0;
-    ds-ldes:transaction "e4b8cd03-af09-4293-8e07-79db47e23cf7";
+    ds-ldes:transaction "4e03c764-603a-4b40-a27f-15a80d0366cd";
     dct:isPartOf <https://w3id.org/dsv-dap#>;
     a dsv:TermProfile;
     dsv:reusesPropertyValue [
@@ -60,7 +60,7 @@
     dct:created "2026-04-02T07:23:42.148Z"^^xsd:dateTime;
     dct:issued "2026-04-02T07:23:42.148Z"^^xsd:dateTime;
     ds-ldes:sequence 1;
-    ds-ldes:transaction "e4b8cd03-af09-4293-8e07-79db47e23cf7";
+    ds-ldes:transaction "4e03c764-603a-4b40-a27f-15a80d0366cd";
     dct:isPartOf <https://w3id.org/dsv-dap#>;
     a dsv:TermProfile;
     dsv:specializes <https://w3id.org/dsv-dap#Term>;
@@ -86,7 +86,7 @@
     dct:created "2026-04-02T07:23:42.148Z"^^xsd:dateTime;
     dct:issued "2026-04-02T07:23:42.148Z"^^xsd:dateTime;
     ds-ldes:sequence 2;
-    ds-ldes:transaction "e4b8cd03-af09-4293-8e07-79db47e23cf7";
+    ds-ldes:transaction "4e03c764-603a-4b40-a27f-15a80d0366cd";
     dct:isPartOf <https://w3id.org/dsv-dap#>;
     a dsv:TermProfile;
     dsv:specializes <https://w3id.org/dsv-dap#TermProfile>;
@@ -112,7 +112,7 @@
     dct:created "2026-04-02T07:23:42.148Z"^^xsd:dateTime;
     dct:issued "2026-04-02T07:23:42.148Z"^^xsd:dateTime;
     ds-ldes:sequence 3;
-    ds-ldes:transaction "e4b8cd03-af09-4293-8e07-79db47e23cf7";
+    ds-ldes:transaction "4e03c764-603a-4b40-a27f-15a80d0366cd";
     dct:isPartOf <https://w3id.org/dsv-dap#>;
     a dsv:TermProfile;
     dsv:specializes <https://w3id.org/dsv-dap#TermProfile>;
@@ -138,7 +138,7 @@
     dct:created "2026-04-02T07:23:42.148Z"^^xsd:dateTime;
     dct:issued "2026-04-02T07:23:42.148Z"^^xsd:dateTime;
     ds-ldes:sequence 4;
-    ds-ldes:transaction "e4b8cd03-af09-4293-8e07-79db47e23cf7";
+    ds-ldes:transaction "4e03c764-603a-4b40-a27f-15a80d0366cd";
     dct:isPartOf <https://w3id.org/dsv-dap#>;
     a dsv:TermProfile;
     dsv:specializes <https://w3id.org/dsv-dap#PropertyProfile>;
@@ -164,7 +164,7 @@
     dct:created "2026-04-02T07:23:42.148Z"^^xsd:dateTime;
     dct:issued "2026-04-02T07:23:42.148Z"^^xsd:dateTime;
     ds-ldes:sequence 5;
-    ds-ldes:transaction "e4b8cd03-af09-4293-8e07-79db47e23cf7";
+    ds-ldes:transaction "4e03c764-603a-4b40-a27f-15a80d0366cd";
     dct:isPartOf <https://w3id.org/dsv-dap#>;
     a dsv:TermProfile;
     dsv:specializes <https://w3id.org/dsv-dap#PropertyProfile>;
@@ -190,7 +190,7 @@
     dct:created "2026-04-02T07:23:42.148Z"^^xsd:dateTime;
     dct:issued "2026-04-02T07:23:42.148Z"^^xsd:dateTime;
     ds-ldes:sequence 6;
-    ds-ldes:transaction "e4b8cd03-af09-4293-8e07-79db47e23cf7";
+    ds-ldes:transaction "4e03c764-603a-4b40-a27f-15a80d0366cd";
     dct:isPartOf <https://w3id.org/dsv-dap#>;
     a dsv:TermProfile;
     dsv:reusesPropertyValue [
@@ -215,7 +215,7 @@
     dct:created "2026-04-02T07:23:42.148Z"^^xsd:dateTime;
     dct:issued "2026-04-02T07:23:42.148Z"^^xsd:dateTime;
     ds-ldes:sequence 7;
-    ds-ldes:transaction "e4b8cd03-af09-4293-8e07-79db47e23cf7";
+    ds-ldes:transaction "4e03c764-603a-4b40-a27f-15a80d0366cd";
     dct:isPartOf <https://w3id.org/dsv-dap#>;
     a dsv:TermProfile;
     skos:prefLabel "Term"@en;
@@ -237,7 +237,7 @@
     dct:created "2026-04-02T07:23:42.148Z"^^xsd:dateTime;
     dct:issued "2026-04-02T07:23:42.148Z"^^xsd:dateTime;
     ds-ldes:sequence 8;
-    ds-ldes:transaction "e4b8cd03-af09-4293-8e07-79db47e23cf7";
+    ds-ldes:transaction "4e03c764-603a-4b40-a27f-15a80d0366cd";
     dct:isPartOf <https://w3id.org/dsv-dap#>;
     a dsv:TermProfile;
     dsv:specializes <https://w3id.org/dsv-dap#Term>;
@@ -263,7 +263,7 @@
     dct:created "2026-04-02T07:23:42.148Z"^^xsd:dateTime;
     dct:issued "2026-04-02T07:23:42.148Z"^^xsd:dateTime;
     ds-ldes:sequence 9;
-    ds-ldes:transaction "e4b8cd03-af09-4293-8e07-79db47e23cf7";
+    ds-ldes:transaction "4e03c764-603a-4b40-a27f-15a80d0366cd";
     dct:isPartOf <https://w3id.org/dsv-dap#>;
     a dsv:TermProfile;
     dsv:specializes <https://w3id.org/dsv-dap#Term>;
@@ -289,7 +289,7 @@
     dct:created "2026-04-02T07:23:42.148Z"^^xsd:dateTime;
     dct:issued "2026-04-02T07:23:42.148Z"^^xsd:dateTime;
     ds-ldes:sequence 10;
-    ds-ldes:transaction "e4b8cd03-af09-4293-8e07-79db47e23cf7";
+    ds-ldes:transaction "4e03c764-603a-4b40-a27f-15a80d0366cd";
     dct:isPartOf <https://w3id.org/dsv-dap#>;
     a dsv:TermProfile;
     skos:prefLabel "Nevalidní profil"@cs, "Invalid Term Profile"@en;
@@ -311,7 +311,7 @@
     dct:created "2026-04-02T07:23:42.148Z"^^xsd:dateTime;
     dct:issued "2026-04-02T07:23:42.148Z"^^xsd:dateTime;
     ds-ldes:sequence 11;
-    ds-ldes:transaction "e4b8cd03-af09-4293-8e07-79db47e23cf7";
+    ds-ldes:transaction "4e03c764-603a-4b40-a27f-15a80d0366cd";
     dct:isPartOf <https://w3id.org/dsv-dap#>;
     a dsv:TermProfile;
     skos:prefLabel "is defined by"@en;
@@ -334,7 +334,7 @@
     dct:created "2026-04-02T07:23:42.148Z"^^xsd:dateTime;
     dct:issued "2026-04-02T07:23:42.148Z"^^xsd:dateTime;
     ds-ldes:sequence 12;
-    ds-ldes:transaction "e4b8cd03-af09-4293-8e07-79db47e23cf7";
+    ds-ldes:transaction "4e03c764-603a-4b40-a27f-15a80d0366cd";
     dct:isPartOf <https://w3id.org/dsv-dap#>;
     a dsv:TermProfile;
     dsv:reusesPropertyValue [
@@ -361,7 +361,7 @@
     dct:created "2026-04-02T07:23:42.148Z"^^xsd:dateTime;
     dct:issued "2026-04-02T07:23:42.148Z"^^xsd:dateTime;
     ds-ldes:sequence 13;
-    ds-ldes:transaction "e4b8cd03-af09-4293-8e07-79db47e23cf7";
+    ds-ldes:transaction "4e03c764-603a-4b40-a27f-15a80d0366cd";
     dct:isPartOf <https://w3id.org/dsv-dap#>;
     a dsv:TermProfile;
     dsv:reusesPropertyValue [
@@ -386,7 +386,7 @@
     dct:created "2026-04-02T07:23:42.148Z"^^xsd:dateTime;
     dct:issued "2026-04-02T07:23:42.148Z"^^xsd:dateTime;
     ds-ldes:sequence 14;
-    ds-ldes:transaction "e4b8cd03-af09-4293-8e07-79db47e23cf7";
+    ds-ldes:transaction "4e03c764-603a-4b40-a27f-15a80d0366cd";
     dct:isPartOf <https://w3id.org/dsv-dap#>;
     a dsv:TermProfile;
     skos:definition "Datatype used with this Datatype property profile."@en;
@@ -409,7 +409,7 @@
     dct:created "2026-04-02T07:23:42.148Z"^^xsd:dateTime;
     dct:issued "2026-04-02T07:23:42.148Z"^^xsd:dateTime;
     ds-ldes:sequence 15;
-    ds-ldes:transaction "e4b8cd03-af09-4293-8e07-79db47e23cf7";
+    ds-ldes:transaction "4e03c764-603a-4b40-a27f-15a80d0366cd";
     dct:isPartOf <https://w3id.org/dsv-dap#>;
     a dsv:TermProfile;
     dsv:reusesPropertyValue [
@@ -436,7 +436,7 @@
     dct:created "2026-04-02T07:23:42.148Z"^^xsd:dateTime;
     dct:issued "2026-04-02T07:23:42.148Z"^^xsd:dateTime;
     ds-ldes:sequence 16;
-    ds-ldes:transaction "e4b8cd03-af09-4293-8e07-79db47e23cf7";
+    ds-ldes:transaction "4e03c764-603a-4b40-a27f-15a80d0366cd";
     dct:isPartOf <https://w3id.org/dsv-dap#>;
     a dsv:TermProfile;
     dsv:reusesPropertyValue [
@@ -463,7 +463,7 @@
     dct:created "2026-04-02T07:23:42.148Z"^^xsd:dateTime;
     dct:issued "2026-04-02T07:23:42.148Z"^^xsd:dateTime;
     ds-ldes:sequence 17;
-    ds-ldes:transaction "e4b8cd03-af09-4293-8e07-79db47e23cf7";
+    ds-ldes:transaction "4e03c764-603a-4b40-a27f-15a80d0366cd";
     dct:isPartOf <https://w3id.org/dsv-dap#>;
     a dsv:TermProfile;
     dsv:reusesPropertyValue [
@@ -490,7 +490,7 @@
     dct:created "2026-04-02T07:23:42.148Z"^^xsd:dateTime;
     dct:issued "2026-04-02T07:23:42.148Z"^^xsd:dateTime;
     ds-ldes:sequence 18;
-    ds-ldes:transaction "e4b8cd03-af09-4293-8e07-79db47e23cf7";
+    ds-ldes:transaction "4e03c764-603a-4b40-a27f-15a80d0366cd";
     dct:isPartOf <https://w3id.org/dsv-dap#>;
     a dsv:TermProfile;
     dsv:reusesPropertyValue [
@@ -517,7 +517,7 @@
     dct:created "2026-04-02T07:23:42.148Z"^^xsd:dateTime;
     dct:issued "2026-04-02T07:23:42.148Z"^^xsd:dateTime;
     ds-ldes:sequence 19;
-    ds-ldes:transaction "e4b8cd03-af09-4293-8e07-79db47e23cf7";
+    ds-ldes:transaction "4e03c764-603a-4b40-a27f-15a80d0366cd";
     dct:isPartOf <https://w3id.org/dsv-dap#>;
     a dsv:TermProfile;
     dsv:reusesPropertyValue [
@@ -544,7 +544,7 @@
     dct:created "2026-04-02T07:23:42.148Z"^^xsd:dateTime;
     dct:issued "2026-04-02T07:23:42.148Z"^^xsd:dateTime;
     ds-ldes:sequence 20;
-    ds-ldes:transaction "e4b8cd03-af09-4293-8e07-79db47e23cf7";
+    ds-ldes:transaction "4e03c764-603a-4b40-a27f-15a80d0366cd";
     dct:isPartOf <https://w3id.org/dsv-dap#>;
     a dsv:TermProfile;
     skos:prefLabel "is part of"@en;
@@ -567,7 +567,7 @@
     dct:created "2026-04-02T07:23:42.148Z"^^xsd:dateTime;
     dct:issued "2026-04-02T07:23:42.148Z"^^xsd:dateTime;
     ds-ldes:sequence 21;
-    ds-ldes:transaction "e4b8cd03-af09-4293-8e07-79db47e23cf7";
+    ds-ldes:transaction "4e03c764-603a-4b40-a27f-15a80d0366cd";
     dct:isPartOf <https://w3id.org/dsv-dap#>;
     a dsv:TermProfile;
     dsv:reusesPropertyValue [
@@ -594,7 +594,7 @@
     dct:created "2026-04-02T07:23:42.148Z"^^xsd:dateTime;
     dct:issued "2026-04-02T07:23:42.148Z"^^xsd:dateTime;
     ds-ldes:sequence 22;
-    ds-ldes:transaction "e4b8cd03-af09-4293-8e07-79db47e23cf7";
+    ds-ldes:transaction "4e03c764-603a-4b40-a27f-15a80d0366cd";
     dct:isPartOf <https://w3id.org/dsv-dap#>;
     a dsv:TermProfile;
     dsv:reusesPropertyValue [
@@ -621,7 +621,7 @@
     dct:created "2026-04-02T07:23:42.148Z"^^xsd:dateTime;
     dct:issued "2026-04-02T07:23:42.148Z"^^xsd:dateTime;
     ds-ldes:sequence 23;
-    ds-ldes:transaction "e4b8cd03-af09-4293-8e07-79db47e23cf7";
+    ds-ldes:transaction "4e03c764-603a-4b40-a27f-15a80d0366cd";
     dct:isPartOf <https://w3id.org/dsv-dap#>;
     a dsv:TermProfile;
     dsv:reusesPropertyValue [
@@ -648,7 +648,7 @@
     dct:created "2026-04-02T07:23:42.148Z"^^xsd:dateTime;
     dct:issued "2026-04-02T07:23:42.148Z"^^xsd:dateTime;
     ds-ldes:sequence 24;
-    ds-ldes:transaction "e4b8cd03-af09-4293-8e07-79db47e23cf7";
+    ds-ldes:transaction "4e03c764-603a-4b40-a27f-15a80d0366cd";
     dct:isPartOf <https://w3id.org/dsv-dap#>;
     a dsv:TermProfile;
     dsv:reusesPropertyValue [
@@ -675,7 +675,7 @@
     dct:created "2026-04-02T07:23:42.148Z"^^xsd:dateTime;
     dct:issued "2026-04-02T07:23:42.148Z"^^xsd:dateTime;
     ds-ldes:sequence 25;
-    ds-ldes:transaction "e4b8cd03-af09-4293-8e07-79db47e23cf7";
+    ds-ldes:transaction "4e03c764-603a-4b40-a27f-15a80d0366cd";
     dct:isPartOf <https://w3id.org/dsv-dap#>;
     a dsv:TermProfile;
     dsv:reusesPropertyValue [
@@ -702,7 +702,7 @@
     dct:created "2026-04-02T07:23:42.148Z"^^xsd:dateTime;
     dct:issued "2026-04-02T07:23:42.148Z"^^xsd:dateTime;
     ds-ldes:sequence 26;
-    ds-ldes:transaction "e4b8cd03-af09-4293-8e07-79db47e23cf7";
+    ds-ldes:transaction "4e03c764-603a-4b40-a27f-15a80d0366cd";
     dct:isPartOf <https://w3id.org/dsv-dap#>;
     a dsv:TermProfile;
     dsv:reusesPropertyValue [
@@ -729,7 +729,7 @@
     dct:created "2026-04-02T07:23:42.148Z"^^xsd:dateTime;
     dct:issued "2026-04-02T07:23:42.148Z"^^xsd:dateTime;
     ds-ldes:sequence 27;
-    ds-ldes:transaction "e4b8cd03-af09-4293-8e07-79db47e23cf7";
+    ds-ldes:transaction "4e03c764-603a-4b40-a27f-15a80d0366cd";
     dct:isPartOf <https://w3id.org/dsv-dap#>;
     a dsv:TermProfile;
     skos:prefLabel "has specification"@en;
@@ -753,7 +753,7 @@
     dct:created "2026-04-02T07:23:42.148Z"^^xsd:dateTime;
     dct:issued "2026-04-02T07:23:42.148Z"^^xsd:dateTime;
     ds-ldes:sequence 28;
-    ds-ldes:transaction "e4b8cd03-af09-4293-8e07-79db47e23cf7";
+    ds-ldes:transaction "4e03c764-603a-4b40-a27f-15a80d0366cd";
     dct:isPartOf <https://w3id.org/dsv-dap#>;
     a dsv:TermProfile;
     dsv:reusesPropertyValue [
@@ -780,7 +780,7 @@
     dct:created "2026-04-02T07:23:42.148Z"^^xsd:dateTime;
     dct:issued "2026-04-02T07:23:42.148Z"^^xsd:dateTime;
     ds-ldes:sequence 29;
-    ds-ldes:transaction "e4b8cd03-af09-4293-8e07-79db47e23cf7";
+    ds-ldes:transaction "4e03c764-603a-4b40-a27f-15a80d0366cd";
     dct:isPartOf <https://w3id.org/dsv-dap#>;
     a dsv:TermProfile;
     skos:definition "Preferred label of this profile."@en;
@@ -803,7 +803,7 @@
     dct:created "2026-04-02T07:23:42.148Z"^^xsd:dateTime;
     dct:issued "2026-04-02T07:23:42.148Z"^^xsd:dateTime;
     ds-ldes:sequence 30;
-    ds-ldes:transaction "e4b8cd03-af09-4293-8e07-79db47e23cf7";
+    ds-ldes:transaction "4e03c764-603a-4b40-a27f-15a80d0366cd";
     dct:isPartOf <https://w3id.org/dsv-dap#>;
     a dsv:TermProfile;
     skos:definition "Definition of this profile."@en;
@@ -826,7 +826,7 @@
     dct:created "2026-04-02T07:23:42.148Z"^^xsd:dateTime;
     dct:issued "2026-04-02T07:23:42.148Z"^^xsd:dateTime;
     ds-ldes:sequence 31;
-    ds-ldes:transaction "e4b8cd03-af09-4293-8e07-79db47e23cf7";
+    ds-ldes:transaction "4e03c764-603a-4b40-a27f-15a80d0366cd";
     dct:isPartOf <https://w3id.org/dsv-dap#>;
     a dsv:TermProfile;
     skos:prefLabel "usage note"@en;
@@ -844,7 +844,7 @@
     dct:created "2026-04-02T07:23:42.148Z"^^xsd:dateTime;
     dct:issued "2026-04-02T07:23:42.148Z"^^xsd:dateTime;
     ds-ldes:sequence 32;
-    ds-ldes:transaction "e4b8cd03-af09-4293-8e07-79db47e23cf7";
+    ds-ldes:transaction "4e03c764-603a-4b40-a27f-15a80d0366cd";
     dct:isPartOf <https://w3id.org/dsv-dap#>;
     a dsv:TermProfile;
     skos:prefLabel "Vocabulary"@en;
@@ -861,7 +861,7 @@
     dct:created "2026-04-02T07:23:42.148Z"^^xsd:dateTime;
     dct:issued "2026-04-02T07:23:42.148Z"^^xsd:dateTime;
     ds-ldes:sequence 33;
-    ds-ldes:transaction "e4b8cd03-af09-4293-8e07-79db47e23cf7";
+    ds-ldes:transaction "4e03c764-603a-4b40-a27f-15a80d0366cd";
     dct:isPartOf <https://w3id.org/dsv-dap#>;
     a dsv:TermProfile;
     dsv:specializes <https://w3id.org/dsv-dap#SemanticDataSpecification>;
@@ -887,7 +887,7 @@
     dct:created "2026-04-02T07:23:42.148Z"^^xsd:dateTime;
     dct:issued "2026-04-02T07:23:42.148Z"^^xsd:dateTime;
     ds-ldes:sequence 34;
-    ds-ldes:transaction "e4b8cd03-af09-4293-8e07-79db47e23cf7";
+    ds-ldes:transaction "4e03c764-603a-4b40-a27f-15a80d0366cd";
     dct:isPartOf <https://w3id.org/dsv-dap#>;
     a dsv:TermProfile;
     dsv:specializes <https://w3id.org/dsv-dap#ResourceDescriptor>, <https://w3id.org/dsv-dap#DataSpecificationDocument>;
@@ -913,7 +913,7 @@
     dct:created "2026-04-02T07:23:42.148Z"^^xsd:dateTime;
     dct:issued "2026-04-02T07:23:42.148Z"^^xsd:dateTime;
     ds-ldes:sequence 35;
-    ds-ldes:transaction "e4b8cd03-af09-4293-8e07-79db47e23cf7";
+    ds-ldes:transaction "4e03c764-603a-4b40-a27f-15a80d0366cd";
     dct:isPartOf <https://w3id.org/dsv-dap#>;
     a dsv:TermProfile;
     dsv:specializes <https://w3id.org/dsv-dap#ResourceDescriptor>, <https://w3id.org/dsv-dap#DataSpecificationDocument>;
@@ -939,7 +939,7 @@
     dct:created "2026-04-02T07:23:42.148Z"^^xsd:dateTime;
     dct:issued "2026-04-02T07:23:42.148Z"^^xsd:dateTime;
     ds-ldes:sequence 36;
-    ds-ldes:transaction "e4b8cd03-af09-4293-8e07-79db47e23cf7";
+    ds-ldes:transaction "4e03c764-603a-4b40-a27f-15a80d0366cd";
     dct:isPartOf <https://w3id.org/dsv-dap#>;
     a dsv:TermProfile;
     skos:prefLabel "has specification"@en;
@@ -963,7 +963,7 @@
     dct:created "2026-04-02T07:23:42.148Z"^^xsd:dateTime;
     dct:issued "2026-04-02T07:23:42.148Z"^^xsd:dateTime;
     ds-ldes:sequence 37;
-    ds-ldes:transaction "e4b8cd03-af09-4293-8e07-79db47e23cf7";
+    ds-ldes:transaction "4e03c764-603a-4b40-a27f-15a80d0366cd";
     dct:isPartOf <https://w3id.org/dsv-dap#>;
     a dsv:TermProfile;
     skos:prefLabel "Data Specification Document"@en;
@@ -979,7 +979,7 @@
     dct:created "2026-04-02T07:23:42.148Z"^^xsd:dateTime;
     dct:issued "2026-04-02T07:23:42.148Z"^^xsd:dateTime;
     ds-ldes:sequence 38;
-    ds-ldes:transaction "e4b8cd03-af09-4293-8e07-79db47e23cf7";
+    ds-ldes:transaction "4e03c764-603a-4b40-a27f-15a80d0366cd";
     dct:isPartOf <https://w3id.org/dsv-dap#>;
     a dsv:TermProfile;
     skos:prefLabel "title"@en;
@@ -997,7 +997,7 @@
     dct:created "2026-04-02T07:23:42.148Z"^^xsd:dateTime;
     dct:issued "2026-04-02T07:23:42.148Z"^^xsd:dateTime;
     ds-ldes:sequence 39;
-    ds-ldes:transaction "e4b8cd03-af09-4293-8e07-79db47e23cf7";
+    ds-ldes:transaction "4e03c764-603a-4b40-a27f-15a80d0366cd";
     dct:isPartOf <https://w3id.org/dsv-dap#>;
     a dsv:TermProfile;
     skos:prefLabel "description"@en;
@@ -1015,7 +1015,7 @@
     dct:created "2026-04-02T07:23:42.148Z"^^xsd:dateTime;
     dct:issued "2026-04-02T07:23:42.148Z"^^xsd:dateTime;
     ds-ldes:sequence 40;
-    ds-ldes:transaction "e4b8cd03-af09-4293-8e07-79db47e23cf7";
+    ds-ldes:transaction "4e03c764-603a-4b40-a27f-15a80d0366cd";
     dct:isPartOf <https://w3id.org/dsv-dap#>;
     a dsv:TermProfile;
     skos:prefLabel "Semantic Data Specification"@en;
@@ -1036,7 +1036,7 @@
     dct:created "2026-04-02T07:23:42.148Z"^^xsd:dateTime;
     dct:issued "2026-04-02T07:23:42.148Z"^^xsd:dateTime;
     ds-ldes:sequence 41;
-    ds-ldes:transaction "e4b8cd03-af09-4293-8e07-79db47e23cf7";
+    ds-ldes:transaction "4e03c764-603a-4b40-a27f-15a80d0366cd";
     dct:isPartOf <https://w3id.org/dsv-dap#>;
     a dsv:TermProfile;
     dsv:reusesPropertyValue [
@@ -1063,7 +1063,7 @@
     dct:created "2026-04-02T07:23:42.148Z"^^xsd:dateTime;
     dct:issued "2026-04-02T07:23:42.148Z"^^xsd:dateTime;
     ds-ldes:sequence 42;
-    ds-ldes:transaction "e4b8cd03-af09-4293-8e07-79db47e23cf7";
+    ds-ldes:transaction "4e03c764-603a-4b40-a27f-15a80d0366cd";
     dct:isPartOf <https://w3id.org/dsv-dap#>;
     a dsv:TermProfile;
     skos:prefLabel "title"@en;
@@ -1081,7 +1081,7 @@
     dct:created "2026-04-02T07:23:42.148Z"^^xsd:dateTime;
     dct:issued "2026-04-02T07:23:42.148Z"^^xsd:dateTime;
     ds-ldes:sequence 43;
-    ds-ldes:transaction "e4b8cd03-af09-4293-8e07-79db47e23cf7";
+    ds-ldes:transaction "4e03c764-603a-4b40-a27f-15a80d0366cd";
     dct:isPartOf <https://w3id.org/dsv-dap#>;
     a dsv:TermProfile;
     skos:prefLabel "description"@en;
@@ -1099,7 +1099,7 @@
     dct:created "2026-04-02T07:23:42.148Z"^^xsd:dateTime;
     dct:issued "2026-04-02T07:23:42.148Z"^^xsd:dateTime;
     ds-ldes:sequence 44;
-    ds-ldes:transaction "e4b8cd03-af09-4293-8e07-79db47e23cf7";
+    ds-ldes:transaction "4e03c764-603a-4b40-a27f-15a80d0366cd";
     dct:isPartOf <https://w3id.org/dsv-dap#>;
     a dsv:TermProfile;
     dsv:reusesPropertyValue [
@@ -1126,7 +1126,7 @@
     dct:created "2026-04-02T07:23:42.148Z"^^xsd:dateTime;
     dct:issued "2026-04-02T07:23:42.148Z"^^xsd:dateTime;
     ds-ldes:sequence 45;
-    ds-ldes:transaction "e4b8cd03-af09-4293-8e07-79db47e23cf7";
+    ds-ldes:transaction "4e03c764-603a-4b40-a27f-15a80d0366cd";
     dct:isPartOf <https://w3id.org/dsv-dap#>;
     a dsv:TermProfile;
     dsv:reusesPropertyValue [
@@ -1153,7 +1153,7 @@
     dct:created "2026-04-02T07:23:42.148Z"^^xsd:dateTime;
     dct:issued "2026-04-02T07:23:42.148Z"^^xsd:dateTime;
     ds-ldes:sequence 46;
-    ds-ldes:transaction "e4b8cd03-af09-4293-8e07-79db47e23cf7";
+    ds-ldes:transaction "4e03c764-603a-4b40-a27f-15a80d0366cd";
     dct:isPartOf <https://w3id.org/dsv-dap#>;
     a dsv:TermProfile;
     skos:scopeNote "Used to store the preferred prefix, e.g., registered at prefix.cc."@en;
@@ -1181,7 +1181,7 @@
     dct:created "2026-04-02T07:23:42.148Z"^^xsd:dateTime;
     dct:issued "2026-04-02T07:23:42.148Z"^^xsd:dateTime;
     ds-ldes:sequence 47;
-    ds-ldes:transaction "e4b8cd03-af09-4293-8e07-79db47e23cf7";
+    ds-ldes:transaction "4e03c764-603a-4b40-a27f-15a80d0366cd";
     dct:isPartOf <https://w3id.org/dsv-dap#>;
     a dsv:TermProfile;
     dsv:reusesPropertyValue [
@@ -1206,7 +1206,7 @@
     dct:created "2026-04-02T07:23:42.148Z"^^xsd:dateTime;
     dct:issued "2026-04-02T07:23:42.148Z"^^xsd:dateTime;
     ds-ldes:sequence 48;
-    ds-ldes:transaction "e4b8cd03-af09-4293-8e07-79db47e23cf7";
+    ds-ldes:transaction "4e03c764-603a-4b40-a27f-15a80d0366cd";
     dct:isPartOf <https://w3id.org/dsv-dap#>;
     a dsv:TermProfile;
     dsv:reusesPropertyValue [
@@ -1233,7 +1233,7 @@
     dct:created "2026-04-02T07:23:42.148Z"^^xsd:dateTime;
     dct:issued "2026-04-02T07:23:42.148Z"^^xsd:dateTime;
     ds-ldes:sequence 49;
-    ds-ldes:transaction "e4b8cd03-af09-4293-8e07-79db47e23cf7";
+    ds-ldes:transaction "4e03c764-603a-4b40-a27f-15a80d0366cd";
     dct:isPartOf <https://w3id.org/dsv-dap#>;
     a dsv:TermProfile;
     skos:prefLabel "Class Role"@en;
@@ -1249,7 +1249,7 @@
     dct:created "2026-04-02T07:23:42.148Z"^^xsd:dateTime;
     dct:issued "2026-04-02T07:23:42.148Z"^^xsd:dateTime;
     ds-ldes:sequence 50;
-    ds-ldes:transaction "e4b8cd03-af09-4293-8e07-79db47e23cf7";
+    ds-ldes:transaction "4e03c764-603a-4b40-a27f-15a80d0366cd";
     dct:isPartOf <https://w3id.org/dsv-dap#>;
     a dsv:TermProfile;
     skos:prefLabel "Requirement Level"@en;
@@ -1265,7 +1265,7 @@
     dct:created "2026-04-02T07:23:42.148Z"^^xsd:dateTime;
     dct:issued "2026-04-02T07:23:42.148Z"^^xsd:dateTime;
     ds-ldes:sequence 51;
-    ds-ldes:transaction "e4b8cd03-af09-4293-8e07-79db47e23cf7";
+    ds-ldes:transaction "4e03c764-603a-4b40-a27f-15a80d0366cd";
     dct:isPartOf <https://w3id.org/dsv-dap#>;
     a dsv:TermProfile;
     skos:prefLabel "Cardinality"@en;
@@ -1281,7 +1281,7 @@
     dct:created "2026-04-02T07:23:42.148Z"^^xsd:dateTime;
     dct:issued "2026-04-02T07:23:42.148Z"^^xsd:dateTime;
     ds-ldes:sequence 52;
-    ds-ldes:transaction "e4b8cd03-af09-4293-8e07-79db47e23cf7";
+    ds-ldes:transaction "4e03c764-603a-4b40-a27f-15a80d0366cd";
     dct:isPartOf <https://w3id.org/dsv-dap#>;
     a dsv:TermProfile;
     skos:prefLabel "Format"@en;
@@ -1298,7 +1298,7 @@
     dct:created "2026-04-02T07:23:42.148Z"^^xsd:dateTime;
     dct:issued "2026-04-02T07:23:42.148Z"^^xsd:dateTime;
     ds-ldes:sequence 53;
-    ds-ldes:transaction "e4b8cd03-af09-4293-8e07-79db47e23cf7";
+    ds-ldes:transaction "4e03c764-603a-4b40-a27f-15a80d0366cd";
     dct:isPartOf <https://w3id.org/dsv-dap#>;
     a dsv:TermProfile;
     skos:prefLabel "format"@en;
@@ -1321,7 +1321,7 @@
     dct:created "2026-04-02T07:23:42.148Z"^^xsd:dateTime;
     dct:issued "2026-04-02T07:23:42.148Z"^^xsd:dateTime;
     ds-ldes:sequence 54;
-    ds-ldes:transaction "e4b8cd03-af09-4293-8e07-79db47e23cf7";
+    ds-ldes:transaction "4e03c764-603a-4b40-a27f-15a80d0366cd";
     dct:isPartOf <https://w3id.org/dsv-dap#>;
     a dsv:TermProfile;
     skos:prefLabel "conforms To"@en;
@@ -1344,7 +1344,7 @@
     dct:created "2026-04-02T07:23:42.148Z"^^xsd:dateTime;
     dct:issued "2026-04-02T07:23:42.148Z"^^xsd:dateTime;
     ds-ldes:sequence 55;
-    ds-ldes:transaction "e4b8cd03-af09-4293-8e07-79db47e23cf7";
+    ds-ldes:transaction "4e03c764-603a-4b40-a27f-15a80d0366cd";
     dct:isPartOf <https://w3id.org/dsv-dap#>;
     a dsv:TermProfile;
     dsv:specializes <https://w3id.org/dsv-dap#Property>;
@@ -1370,7 +1370,7 @@
     dct:created "2026-04-02T07:23:42.148Z"^^xsd:dateTime;
     dct:issued "2026-04-02T07:23:42.148Z"^^xsd:dateTime;
     ds-ldes:sequence 56;
-    ds-ldes:transaction "e4b8cd03-af09-4293-8e07-79db47e23cf7";
+    ds-ldes:transaction "4e03c764-603a-4b40-a27f-15a80d0366cd";
     dct:isPartOf <https://w3id.org/dsv-dap#>;
     a dsv:TermProfile;
     dsv:specializes <https://w3id.org/dsv-dap#Property>;
@@ -1396,7 +1396,7 @@
     dct:created "2026-04-02T07:23:42.148Z"^^xsd:dateTime;
     dct:issued "2026-04-02T07:23:42.148Z"^^xsd:dateTime;
     ds-ldes:sequence 57;
-    ds-ldes:transaction "e4b8cd03-af09-4293-8e07-79db47e23cf7";
+    ds-ldes:transaction "4e03c764-603a-4b40-a27f-15a80d0366cd";
     dct:isPartOf <https://w3id.org/dsv-dap#>;
     a dsv:TermProfile;
     dsv:reusesPropertyValue [
@@ -1423,7 +1423,7 @@
     dct:created "2026-04-02T07:23:42.148Z"^^xsd:dateTime;
     dct:issued "2026-04-02T07:23:42.148Z"^^xsd:dateTime;
     ds-ldes:sequence 58;
-    ds-ldes:transaction "e4b8cd03-af09-4293-8e07-79db47e23cf7";
+    ds-ldes:transaction "4e03c764-603a-4b40-a27f-15a80d0366cd";
     dct:isPartOf <https://w3id.org/dsv-dap#>;
     a dsv:TermProfile;
     skos:prefLabel "definition"@en;
@@ -1441,7 +1441,7 @@
     dct:created "2026-04-02T07:23:42.148Z"^^xsd:dateTime;
     dct:issued "2026-04-02T07:23:42.148Z"^^xsd:dateTime;
     ds-ldes:sequence 59;
-    ds-ldes:transaction "e4b8cd03-af09-4293-8e07-79db47e23cf7";
+    ds-ldes:transaction "4e03c764-603a-4b40-a27f-15a80d0366cd";
     dct:isPartOf <https://w3id.org/dsv-dap#>;
     a dsv:TermProfile;
     dsv:reusesPropertyValue [
@@ -1468,7 +1468,7 @@
     dct:created "2026-04-02T07:23:42.148Z"^^xsd:dateTime;
     dct:issued "2026-04-02T07:23:42.148Z"^^xsd:dateTime;
     ds-ldes:sequence 60;
-    ds-ldes:transaction "e4b8cd03-af09-4293-8e07-79db47e23cf7";
+    ds-ldes:transaction "4e03c764-603a-4b40-a27f-15a80d0366cd";
     dct:isPartOf <https://w3id.org/dsv-dap#>;
     a dsv:TermProfile;
     dsv:reusesPropertyValue [
@@ -1495,7 +1495,7 @@
     dct:created "2026-04-02T07:23:42.148Z"^^xsd:dateTime;
     dct:issued "2026-04-02T07:23:42.148Z"^^xsd:dateTime;
     ds-ldes:sequence 61;
-    ds-ldes:transaction "e4b8cd03-af09-4293-8e07-79db47e23cf7";
+    ds-ldes:transaction "4e03c764-603a-4b40-a27f-15a80d0366cd";
     dct:isPartOf <https://w3id.org/dsv-dap#>;
     a dsv:TermProfile;
     dsv:reusesPropertyValue [
@@ -1522,7 +1522,7 @@
     dct:created "2026-04-02T07:23:42.148Z"^^xsd:dateTime;
     dct:issued "2026-04-02T07:23:42.148Z"^^xsd:dateTime;
     ds-ldes:sequence 62;
-    ds-ldes:transaction "e4b8cd03-af09-4293-8e07-79db47e23cf7";
+    ds-ldes:transaction "4e03c764-603a-4b40-a27f-15a80d0366cd";
     dct:isPartOf <https://w3id.org/dsv-dap#>;
     a dsv:TermProfile;
     dsv:reusesPropertyValue [
@@ -1549,7 +1549,7 @@
     dct:created "2026-04-02T07:23:42.148Z"^^xsd:dateTime;
     dct:issued "2026-04-02T07:23:42.148Z"^^xsd:dateTime;
     ds-ldes:sequence 63;
-    ds-ldes:transaction "e4b8cd03-af09-4293-8e07-79db47e23cf7";
+    ds-ldes:transaction "4e03c764-603a-4b40-a27f-15a80d0366cd";
     dct:isPartOf <https://w3id.org/dsv-dap#>;
     a dsv:TermProfile;
     dsv:reusesPropertyValue [
@@ -1576,7 +1576,7 @@
     dct:created "2026-04-02T07:23:42.148Z"^^xsd:dateTime;
     dct:issued "2026-04-02T07:23:42.148Z"^^xsd:dateTime;
     ds-ldes:sequence 64;
-    ds-ldes:transaction "e4b8cd03-af09-4293-8e07-79db47e23cf7";
+    ds-ldes:transaction "4e03c764-603a-4b40-a27f-15a80d0366cd";
     dct:isPartOf <https://w3id.org/dsv-dap#>;
     a dsv:TermProfile;
     skos:scopeNote "This is expected to be one of skos:prefLabel for preferred label, skos:definition for definition, or skos:scopeNote for usage note."@en;
