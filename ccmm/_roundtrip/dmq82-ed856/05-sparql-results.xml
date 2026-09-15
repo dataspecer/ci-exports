@@ -1829,7 +1829,7 @@
     <result>
       <binding name="s"><uri>https://www.wikidata.org/entity/Q42302581</uri></binding>
       <binding name="p"><uri>http://www.w3.org/2000/01/rdf-schema#label</uri></binding>
-      <binding name="o"><literal xml:lang="cs">IČO</literal></binding>
+      <binding name="o"><literal xml:lang="en">Identification Number (IČO)</literal></binding>
     </result>
     <result>
       <binding name="s"><uri>https://www.wikidata.org/entity/Q42302581</uri></binding>

@@ -615,7 +615,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     a ccmm:IdentifierScheme ;
     rdfs:label
         "Identifikační Číslo Osoby"@cs ,
-        "IČO"@cs ;
+        "Identification Number (IČO)"@en ;
     skos:notation "IČO" ;
 .
 
