@@ -90,7 +90,7 @@
                   <ccmm:value>26316919</ccmm:value>
                   <ccmm:scheme>
                      <ccmm:iri>https://www.wikidata.org/entity/Q42302581</ccmm:iri>
-                     <ccmm:label xml:lang="cs">IČO</ccmm:label>
+                     <ccmm:label xml:lang="en">Identification Number (IČO)</ccmm:label>
                      <ccmm:label xml:lang="cs">Identifikační Číslo Osoby</ccmm:label>
                      <ccmm:notation>IČO</ccmm:notation>
                   </ccmm:scheme>
@@ -134,7 +134,7 @@
                   <ccmm:value>60461373</ccmm:value>
                   <ccmm:scheme>
                      <ccmm:iri>https://www.wikidata.org/entity/Q42302581</ccmm:iri>
-                     <ccmm:label xml:lang="cs">IČO</ccmm:label>
+                     <ccmm:label xml:lang="en">Identification Number (IČO)</ccmm:label>
                      <ccmm:label xml:lang="cs">Identifikační Číslo Osoby</ccmm:label>
                      <ccmm:notation>IČO</ccmm:notation>
                   </ccmm:scheme>
@@ -169,7 +169,7 @@
                   <ccmm:value>26316919</ccmm:value>
                   <ccmm:scheme>
                      <ccmm:iri>https://www.wikidata.org/entity/Q42302581</ccmm:iri>
-                     <ccmm:label xml:lang="cs">IČO</ccmm:label>
+                     <ccmm:label xml:lang="en">Identification Number (IČO)</ccmm:label>
                      <ccmm:label xml:lang="cs">Identifikační Číslo Osoby</ccmm:label>
                      <ccmm:notation>IČO</ccmm:notation>
                   </ccmm:scheme>
@@ -213,7 +213,7 @@
                   <ccmm:value>26316919</ccmm:value>
                   <ccmm:scheme>
                      <ccmm:iri>https://www.wikidata.org/entity/Q42302581</ccmm:iri>
-                     <ccmm:label xml:lang="cs">IČO</ccmm:label>
+                     <ccmm:label xml:lang="en">Identification Number (IČO)</ccmm:label>
                      <ccmm:label xml:lang="cs">Identifikační Číslo Osoby</ccmm:label>
                      <ccmm:notation>IČO</ccmm:notation>
                   </ccmm:scheme>
@@ -257,7 +257,7 @@
                   <ccmm:value>26316919</ccmm:value>
                   <ccmm:scheme>
                      <ccmm:iri>https://www.wikidata.org/entity/Q42302581</ccmm:iri>
-                     <ccmm:label xml:lang="cs">IČO</ccmm:label>
+                     <ccmm:label xml:lang="en">Identification Number (IČO)</ccmm:label>
                      <ccmm:label xml:lang="cs">Identifikační Číslo Osoby</ccmm:label>
                      <ccmm:notation>IČO</ccmm:notation>
                   </ccmm:scheme>
@@ -301,7 +301,7 @@
                   <ccmm:value>26316919</ccmm:value>
                   <ccmm:scheme>
                      <ccmm:iri>https://www.wikidata.org/entity/Q42302581</ccmm:iri>
-                     <ccmm:label xml:lang="cs">IČO</ccmm:label>
+                     <ccmm:label xml:lang="en">Identification Number (IČO)</ccmm:label>
                      <ccmm:label xml:lang="cs">Identifikační Číslo Osoby</ccmm:label>
                      <ccmm:notation>IČO</ccmm:notation>
                   </ccmm:scheme>
@@ -332,7 +332,7 @@
                <ccmm:value>26316919</ccmm:value>
                <ccmm:scheme>
                   <ccmm:iri>https://www.wikidata.org/entity/Q42302581</ccmm:iri>
-                  <ccmm:label xml:lang="cs">IČO</ccmm:label>
+                  <ccmm:label xml:lang="en">Identification Number (IČO)</ccmm:label>
                   <ccmm:label xml:lang="cs">Identifikační Číslo Osoby</ccmm:label>
                   <ccmm:notation>IČO</ccmm:notation>
                </ccmm:scheme>
