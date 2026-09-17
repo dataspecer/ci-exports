@@ -203,9 +203,9 @@
          </ccmm:time_instant>
       </ccmm:temporal_representation>
       <ccmm:date_type>
-         <ccmm:iri>https://vocabs.ccmm.cz/registry/codelist/TimeReference/Collected</ccmm:iri>
-         <ccmm:label xml:lang="en">Date Collected</ccmm:label>
-         <ccmm:label xml:lang="cs">Datum sběru</ccmm:label>
+         <ccmm:iri>https://vocabs.ccmm.cz/registry/codelist/TimeReference/Created</ccmm:iri>
+         <ccmm:label xml:lang="en">Date Created</ccmm:label>
+         <ccmm:label xml:lang="cs">Datum vytvoření</ccmm:label>
       </ccmm:date_type>
    </ccmm:time_reference>
    <ccmm:time_reference>

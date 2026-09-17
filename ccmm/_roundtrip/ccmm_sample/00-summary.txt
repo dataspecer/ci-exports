@@ -6,8 +6,8 @@ Fail policy: pipeline
 Stages:
 - 01 XSD validation: VALID (0 findings)
 - 02 lifting XSLT: OK
-- 03 RDF conversion: OK (316 triples)
-- 04 SHACL validation: NON-CONFORMANT (72 findings)
+- 03 RDF conversion: OK (319 triples)
+- 04 SHACL validation: NON-CONFORMANT (78 findings)
 - 05 SPARQL results conversion: OK
 - 06 lowering XSLT: OK
 - 07 XML comparison: DIFFERENT

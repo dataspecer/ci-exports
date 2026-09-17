@@ -117,6 +117,16 @@
       <binding name="o"><literal datatype="http://www.w3.org/2001/XMLSchema#date">2024-01-01</literal></binding>
     </result>
     <result>
+      <binding name="s"><bnode>b0_cb182f0715d38bf061a8c5bf939c0b852495e7d33deab1306c9395fabe902cbb000</bnode></binding>
+      <binding name="p"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
+      <binding name="o"><uri>http://www.w3.org/2006/time#Instant</uri></binding>
+    </result>
+    <result>
+      <binding name="s"><bnode>b0_cb182f0715d38bf061a8c5bf939c0b852495e7d33deab1306c9395fabe902cbb000</bnode></binding>
+      <binding name="p"><uri>http://www.w3.org/2006/time#inXSDDateTime</uri></binding>
+      <binding name="o"><literal datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-04-27T12:00:01+02:00</literal></binding>
+    </result>
+    <result>
       <binding name="s"><bnode>b0_cb19f58998fb4cc5fb59ebc9c3c922a89bc73c0bb8c338417781bcb55d222719f3f</bnode></binding>
       <binding name="p"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
       <binding name="o"><uri>http://www.w3.org/ns/org#Organization</uri></binding>
@@ -182,6 +192,21 @@
       <binding name="o"><literal datatype="http://www.w3.org/2001/XMLSchema#string">Univerzita Karlova</literal></binding>
     </result>
     <result>
+      <binding name="s"><bnode>b0_cb1cee3ea930fa49ca64aac09c0ec4962da94459f1a94b0462d91de5794720342b9</bnode></binding>
+      <binding name="p"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
+      <binding name="o"><uri>https://model.ccmm.cz/vocabulary/ccmm#TimeReference</uri></binding>
+    </result>
+    <result>
+      <binding name="s"><bnode>b0_cb1cee3ea930fa49ca64aac09c0ec4962da94459f1a94b0462d91de5794720342b9</bnode></binding>
+      <binding name="p"><uri>http://www.w3.org/2006/time#hasTime</uri></binding>
+      <binding name="o"><bnode>b0_cb182f0715d38bf061a8c5bf939c0b852495e7d33deab1306c9395fabe902cbb000</bnode></binding>
+    </result>
+    <result>
+      <binding name="s"><bnode>b0_cb1cee3ea930fa49ca64aac09c0ec4962da94459f1a94b0462d91de5794720342b9</bnode></binding>
+      <binding name="p"><uri>https://model.ccmm.cz/vocabulary/ccmm#hasType</uri></binding>
+      <binding name="o"><uri>https://vocabs.ccmm.cz/registry/codelist/TimeReference/Created</uri></binding>
+    </result>
+    <result>
       <binding name="s"><bnode>b0_cb1ea03da4a9ec69bc95bcd7677ef0895da132481e6bc47a0c4d20f4992fad5faa8</bnode></binding>
       <binding name="p"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
       <binding name="o"><uri>http://www.w3.org/2006/vcard/ns#Kind</uri></binding>
@@ -200,31 +225,6 @@
       <binding name="s"><bnode>b0_cb1ea03da4a9ec69bc95bcd7677ef0895da132481e6bc47a0c4d20f4992fad5faa8</bnode></binding>
       <binding name="p"><uri>https://model.ccmm.cz/vocabulary/ccmm#phone</uri></binding>
       <binding name="o"><literal datatype="http://www.w3.org/2001/XMLSchema#string">+0112345678</literal></binding>
-    </result>
-    <result>
-      <binding name="s"><bnode>b0_cb1ef31220d393cac68a9a357bbeb124edb42937265967140d5b787bc6e7bb8339b</bnode></binding>
-      <binding name="p"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
-      <binding name="o"><uri>http://www.w3.org/2006/time#Instant</uri></binding>
-    </result>
-    <result>
-      <binding name="s"><bnode>b0_cb1ef31220d393cac68a9a357bbeb124edb42937265967140d5b787bc6e7bb8339b</bnode></binding>
-      <binding name="p"><uri>http://www.w3.org/2006/time#inXSDDateTime</uri></binding>
-      <binding name="o"><literal datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-04-27T12:00:01+02:00</literal></binding>
-    </result>
-    <result>
-      <binding name="s"><bnode>b0_cb1fffd8e808de1cdbfacdd08f5dc710da3ace955625ae22599cc899b0481e6f9ed</bnode></binding>
-      <binding name="p"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
-      <binding name="o"><uri>https://model.ccmm.cz/vocabulary/ccmm#TimeReference</uri></binding>
-    </result>
-    <result>
-      <binding name="s"><bnode>b0_cb1fffd8e808de1cdbfacdd08f5dc710da3ace955625ae22599cc899b0481e6f9ed</bnode></binding>
-      <binding name="p"><uri>http://www.w3.org/2006/time#hasTime</uri></binding>
-      <binding name="o"><bnode>b0_cb1ef31220d393cac68a9a357bbeb124edb42937265967140d5b787bc6e7bb8339b</bnode></binding>
-    </result>
-    <result>
-      <binding name="s"><bnode>b0_cb1fffd8e808de1cdbfacdd08f5dc710da3ace955625ae22599cc899b0481e6f9ed</bnode></binding>
-      <binding name="p"><uri>https://model.ccmm.cz/vocabulary/ccmm#hasType</uri></binding>
-      <binding name="o"><uri>https://vocabs.ccmm.cz/registry/codelist/TimeReference/Collected</uri></binding>
     </result>
     <result>
       <binding name="s"><bnode>b0_cb212ae2e9d9d97c7b338a8c861fa681c5fe4d6536034ce5b5b085f46f0ff98b335</bnode></binding>
@@ -1229,7 +1229,7 @@
     <result>
       <binding name="s"><uri>https://organization.cz/dataset_server/dataset_id</uri></binding>
       <binding name="p"><uri>https://model.ccmm.cz/vocabulary/ccmm#hasTimeReference</uri></binding>
-      <binding name="o"><bnode>b0_cb1fffd8e808de1cdbfacdd08f5dc710da3ace955625ae22599cc899b0481e6f9ed</bnode></binding>
+      <binding name="o"><bnode>b0_cb1cee3ea930fa49ca64aac09c0ec4962da94459f1a94b0462d91de5794720342b9</bnode></binding>
     </result>
     <result>
       <binding name="s"><uri>https://organization.cz/dataset_server/dataset_id</uri></binding>
@@ -1630,6 +1630,21 @@
       <binding name="s"><uri>https://vocabs.ccmm.cz/registry/codelist/TimeReference/Collected</uri></binding>
       <binding name="p"><uri>http://www.w3.org/2004/02/skos/core#prefLabel</uri></binding>
       <binding name="o"><literal xml:lang="cs">Datum sběru</literal></binding>
+    </result>
+    <result>
+      <binding name="s"><uri>https://vocabs.ccmm.cz/registry/codelist/TimeReference/Created</uri></binding>
+      <binding name="p"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
+      <binding name="o"><uri>http://www.w3.org/2004/02/skos/core#Concept</uri></binding>
+    </result>
+    <result>
+      <binding name="s"><uri>https://vocabs.ccmm.cz/registry/codelist/TimeReference/Created</uri></binding>
+      <binding name="p"><uri>http://www.w3.org/2004/02/skos/core#prefLabel</uri></binding>
+      <binding name="o"><literal xml:lang="en">Date Created</literal></binding>
+    </result>
+    <result>
+      <binding name="s"><uri>https://vocabs.ccmm.cz/registry/codelist/TimeReference/Created</uri></binding>
+      <binding name="p"><uri>http://www.w3.org/2004/02/skos/core#prefLabel</uri></binding>
+      <binding name="o"><literal xml:lang="cs">Datum vytvoření</literal></binding>
     </result>
     <result>
       <binding name="s"><uri>https://vocabularies.coar-repositories.org/access_rights/c_abf2/</uri></binding>

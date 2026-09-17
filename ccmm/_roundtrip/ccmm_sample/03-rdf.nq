@@ -109,7 +109,7 @@
 <https://organization.cz/dataset_server/dataset_id> <https://model.ccmm.cz/vocabulary/ccmm#hasAlternateTitle> _:cb2386de176a81c7877f4327fe7ac09e4feade9b92b989e923d0bb2050681bc39de .
 <https://organization.cz/dataset_server/dataset_id> <https://model.ccmm.cz/vocabulary/ccmm#hasOtherLanguage> <http://publications.europa.eu/resource/authority/language/ENG> .
 <https://organization.cz/dataset_server/dataset_id> <https://model.ccmm.cz/vocabulary/ccmm#hasPrimaryLanguage> <http://publications.europa.eu/resource/authority/language/CES> .
-<https://organization.cz/dataset_server/dataset_id> <https://model.ccmm.cz/vocabulary/ccmm#hasTimeReference> _:cb1fffd8e808de1cdbfacdd08f5dc710da3ace955625ae22599cc899b0481e6f9ed .
+<https://organization.cz/dataset_server/dataset_id> <https://model.ccmm.cz/vocabulary/ccmm#hasTimeReference> _:cb1cee3ea930fa49ca64aac09c0ec4962da94459f1a94b0462d91de5794720342b9 .
 <https://organization.cz/dataset_server/dataset_id> <https://model.ccmm.cz/vocabulary/ccmm#hasTimeReference> _:cb28a91c18d886844c043df213c03b58b6a9a55e71924ce34ed649c2501b98140ed .
 <https://organization.cz/dataset_server/dataset_id> <https://model.ccmm.cz/vocabulary/ccmm#hasValidationResult> _:cb56d7600904cfbce9edf94588ccabf89a7afdfaf84978089be632a84dcd6c94a0 .
 <https://organization.cz/dataset_server/dataset_id> <https://model.ccmm.cz/vocabulary/ccmm#isDescribedBy> <https://original-catalogue/dataset_metadata_id> .
@@ -190,6 +190,9 @@
 <https://vocabs.ccmm.cz/registry/codelist/TimeReference/Collected> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://vocabs.ccmm.cz/registry/codelist/TimeReference/Collected> <http://www.w3.org/2004/02/skos/core#prefLabel> "Date Collected"@en .
 <https://vocabs.ccmm.cz/registry/codelist/TimeReference/Collected> <http://www.w3.org/2004/02/skos/core#prefLabel> "Datum sběru"@cs .
+<https://vocabs.ccmm.cz/registry/codelist/TimeReference/Created> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://vocabs.ccmm.cz/registry/codelist/TimeReference/Created> <http://www.w3.org/2004/02/skos/core#prefLabel> "Date Created"@en .
+<https://vocabs.ccmm.cz/registry/codelist/TimeReference/Created> <http://www.w3.org/2004/02/skos/core#prefLabel> "Datum vytvoření"@cs .
 <https://vocabularies.coar-repositories.org/access_rights/c_abf2/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/dc/terms/RightsStatement> .
 <https://vocabularies.coar-repositories.org/access_rights/c_abf2/> <http://www.w3.org/2004/02/skos/core#prefLabel> "open access"@en .
 <https://www.iso.org/standard/80275.html> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/dc/terms/Standard> .
@@ -206,6 +209,8 @@ _:cb149d6cc48e89b9d1bf078809fcdd90f5097ae1787a320b40951b436a6f6963457 <http://ww
 _:cb149d6cc48e89b9d1bf078809fcdd90f5097ae1787a320b40951b436a6f6963457 <http://www.w3.org/ns/locn#fullAddress> "Dlouhá 15, 11000, Praha 1" .
 _:cb15ae5aab0a0d0becb54ded89bc95a922129ccf5ae5dde93cc11ddf3651dc5980f <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2006/time#Instant> .
 _:cb15ae5aab0a0d0becb54ded89bc95a922129ccf5ae5dde93cc11ddf3651dc5980f <http://www.w3.org/2006/time#inXSDDate> "2024-01-01"^^<http://www.w3.org/2001/XMLSchema#date> .
+_:cb182f0715d38bf061a8c5bf939c0b852495e7d33deab1306c9395fabe902cbb000 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2006/time#Instant> .
+_:cb182f0715d38bf061a8c5bf939c0b852495e7d33deab1306c9395fabe902cbb000 <http://www.w3.org/2006/time#inXSDDateTime> "2025-04-27T12:00:01+02:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 _:cb19f58998fb4cc5fb59ebc9c3c922a89bc73c0bb8c338417781bcb55d222719f3f <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Organization> .
 _:cb19f58998fb4cc5fb59ebc9c3c922a89bc73c0bb8c338417781bcb55d222719f3f <http://www.w3.org/ns/adms#identifier> <https://ror.org/024d6js02> .
 _:cb19f58998fb4cc5fb59ebc9c3c922a89bc73c0bb8c338417781bcb55d222719f3f <http://xmlns.com/foaf/0.1/name> "Univerzita Karlova" .
@@ -219,15 +224,13 @@ _:cb1b221c7e956745cfa1ab1b2dfb0314b82cd39a33c50321c448b56c21a09277297 <http://ww
 _:cb1b221c7e956745cfa1ab1b2dfb0314b82cd39a33c50321c448b56c21a09277297 <http://xmlns.com/foaf/0.1/name> "Univerzita Karlova" .
 _:cb1c868cb729ee50c4244db3f858d4d8567a1e2398bf0a6ce54ad5a20190f63a818 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Organization> .
 _:cb1c868cb729ee50c4244db3f858d4d8567a1e2398bf0a6ce54ad5a20190f63a818 <http://xmlns.com/foaf/0.1/name> "Univerzita Karlova" .
+_:cb1cee3ea930fa49ca64aac09c0ec4962da94459f1a94b0462d91de5794720342b9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://model.ccmm.cz/vocabulary/ccmm#TimeReference> .
+_:cb1cee3ea930fa49ca64aac09c0ec4962da94459f1a94b0462d91de5794720342b9 <http://www.w3.org/2006/time#hasTime> _:cb182f0715d38bf061a8c5bf939c0b852495e7d33deab1306c9395fabe902cbb000 .
+_:cb1cee3ea930fa49ca64aac09c0ec4962da94459f1a94b0462d91de5794720342b9 <https://model.ccmm.cz/vocabulary/ccmm#hasType> <https://vocabs.ccmm.cz/registry/codelist/TimeReference/Created> .
 _:cb1ea03da4a9ec69bc95bcd7677ef0895da132481e6bc47a0c4d20f4992fad5faa8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2006/vcard/ns#Kind> .
 _:cb1ea03da4a9ec69bc95bcd7677ef0895da132481e6bc47a0c4d20f4992fad5faa8 <http://www.w3.org/2006/vcard/ns#hasAddress> _:cb22625fdce78ec26f98e436dba2c6117d6f6607592fa654dedfac94f801ac36ea9 .
 _:cb1ea03da4a9ec69bc95bcd7677ef0895da132481e6bc47a0c4d20f4992fad5faa8 <https://model.ccmm.cz/vocabulary/ccmm#email> "jan.novak@email.com" .
 _:cb1ea03da4a9ec69bc95bcd7677ef0895da132481e6bc47a0c4d20f4992fad5faa8 <https://model.ccmm.cz/vocabulary/ccmm#phone> "+0112345678" .
-_:cb1ef31220d393cac68a9a357bbeb124edb42937265967140d5b787bc6e7bb8339b <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2006/time#Instant> .
-_:cb1ef31220d393cac68a9a357bbeb124edb42937265967140d5b787bc6e7bb8339b <http://www.w3.org/2006/time#inXSDDateTime> "2025-04-27T12:00:01+02:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
-_:cb1fffd8e808de1cdbfacdd08f5dc710da3ace955625ae22599cc899b0481e6f9ed <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://model.ccmm.cz/vocabulary/ccmm#TimeReference> .
-_:cb1fffd8e808de1cdbfacdd08f5dc710da3ace955625ae22599cc899b0481e6f9ed <http://www.w3.org/2006/time#hasTime> _:cb1ef31220d393cac68a9a357bbeb124edb42937265967140d5b787bc6e7bb8339b .
-_:cb1fffd8e808de1cdbfacdd08f5dc710da3ace955625ae22599cc899b0481e6f9ed <https://model.ccmm.cz/vocabulary/ccmm#hasType> <https://vocabs.ccmm.cz/registry/codelist/TimeReference/Collected> .
 _:cb212ae2e9d9d97c7b338a8c861fa681c5fe4d6536034ce5b5b085f46f0ff98b335 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/adms#Identifier> .
 _:cb212ae2e9d9d97c7b338a8c861fa681c5fe4d6536034ce5b5b085f46f0ff98b335 <http://www.w3.org/2004/02/skos/core#notation> "01pv73b02" .
 _:cb212ae2e9d9d97c7b338a8c861fa681c5fe4d6536034ce5b5b085f46f0ff98b335 <https://model.ccmm.cz/vocabulary/ccmm#inScheme> <https://ror.org/> .

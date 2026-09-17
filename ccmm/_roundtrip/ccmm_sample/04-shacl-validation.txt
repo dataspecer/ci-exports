@@ -2,9 +2,9 @@ Status: NON-CONFORMANT
 Data: 03-rdf.nq
 Shapes: shacl.ttl
 Validator: pySHACL (SHACL Core, no inference)
-Validation results: 72
+Validation results: 78
 Severity counts:
-- <http://www.w3.org/ns/shacl#Violation>: 72
+- <http://www.w3.org/ns/shacl#Violation>: 78
 
 Findings:
 
@@ -521,6 +521,54 @@ constraint: <http://www.w3.org/ns/shacl#MaxCountConstraintComponent>
 message: "More than 1 values on <https://vocabs.ccmm.cz/registry/codelist/TimeReference/Collected>->skos:prefLabel"
 
 [065] severity: <http://www.w3.org/ns/shacl#Violation>
+focus node: <https://vocabs.ccmm.cz/registry/codelist/TimeReference/Created>
+result path: <http://www.w3.org/2004/02/skos/core#prefLabel>
+value: (none)
+source shape: <https://model.ccmm.cz/research-data/skos%3AConceptShape/-58c605ed>
+constraint: <http://www.w3.org/ns/shacl#MaxCountConstraintComponent>
+message: "More than 1 values on <https://vocabs.ccmm.cz/registry/codelist/TimeReference/Created>->skos:prefLabel"
+
+[066] severity: <http://www.w3.org/ns/shacl#Violation>
+focus node: <https://vocabs.ccmm.cz/registry/codelist/TimeReference/Created>
+result path: <http://www.w3.org/2004/02/skos/core#prefLabel>
+value: (none)
+source shape: <https://model.ccmm.cz/research-data/skos%3AConceptShape/6ddde680>
+constraint: <http://www.w3.org/ns/shacl#MaxCountConstraintComponent>
+message: "More than 1 values on <https://vocabs.ccmm.cz/registry/codelist/TimeReference/Created>->skos:prefLabel"
+
+[067] severity: <http://www.w3.org/ns/shacl#Violation>
+focus node: <https://vocabs.ccmm.cz/registry/codelist/TimeReference/Created>
+result path: <http://www.w3.org/2004/02/skos/core#prefLabel>
+value: (none)
+source shape: <https://model.ccmm.cz/research-data/skos%3AConceptShape/-687b8690>
+constraint: <http://www.w3.org/ns/shacl#MaxCountConstraintComponent>
+message: "More than 1 values on <https://vocabs.ccmm.cz/registry/codelist/TimeReference/Created>->skos:prefLabel"
+
+[068] severity: <http://www.w3.org/ns/shacl#Violation>
+focus node: <https://vocabs.ccmm.cz/registry/codelist/TimeReference/Created>
+result path: <http://www.w3.org/2004/02/skos/core#prefLabel>
+value: (none)
+source shape: <https://model.ccmm.cz/research-data/skos%3AConceptShape/-505842b0>
+constraint: <http://www.w3.org/ns/shacl#MaxCountConstraintComponent>
+message: "More than 1 values on <https://vocabs.ccmm.cz/registry/codelist/TimeReference/Created>->skos:prefLabel"
+
+[069] severity: <http://www.w3.org/ns/shacl#Violation>
+focus node: <https://vocabs.ccmm.cz/registry/codelist/TimeReference/Created>
+result path: <http://www.w3.org/2004/02/skos/core#prefLabel>
+value: (none)
+source shape: <https://model.ccmm.cz/research-data/skos%3AConceptShape/535606c>
+constraint: <http://www.w3.org/ns/shacl#MaxCountConstraintComponent>
+message: "More than 1 values on <https://vocabs.ccmm.cz/registry/codelist/TimeReference/Created>->skos:prefLabel"
+
+[070] severity: <http://www.w3.org/ns/shacl#Violation>
+focus node: <https://vocabs.ccmm.cz/registry/codelist/TimeReference/Created>
+result path: <http://www.w3.org/2004/02/skos/core#prefLabel>
+value: (none)
+source shape: <https://model.ccmm.cz/research-data/skos%3AConceptShape/2d4e697c>
+constraint: <http://www.w3.org/ns/shacl#MaxCountConstraintComponent>
+message: "More than 1 values on <https://vocabs.ccmm.cz/registry/codelist/TimeReference/Created>->skos:prefLabel"
+
+[071] severity: <http://www.w3.org/ns/shacl#Violation>
 focus node: _:cb1a7d270e5216af7de17398c287153791cc9a3b78d626791e6e8368a9f2546a226
 result path: <http://www.w3.org/ns/prov#agent>
 value: _:cb365a3a8f2678f99161bef873662620096df7c9433e35c56b4c427200473034d67
@@ -528,15 +576,15 @@ source shape: <https://model.ccmm.cz/research-data/prov%3AAttributionShape/19c32
 constraint: <http://www.w3.org/ns/shacl#ClassConstraintComponent>
 message: "Value does not have class foaf:Agent"
 
-[066] severity: <http://www.w3.org/ns/shacl#Violation>
-focus node: _:cb1fffd8e808de1cdbfacdd08f5dc710da3ace955625ae22599cc899b0481e6f9ed
+[072] severity: <http://www.w3.org/ns/shacl#Violation>
+focus node: _:cb1cee3ea930fa49ca64aac09c0ec4962da94459f1a94b0462d91de5794720342b9
 result path: <http://www.w3.org/2006/time#hasTime>
-value: _:cb1ef31220d393cac68a9a357bbeb124edb42937265967140d5b787bc6e7bb8339b
+value: _:cb182f0715d38bf061a8c5bf939c0b852495e7d33deab1306c9395fabe902cbb000
 source shape: <https://model.ccmm.cz/research-data/ccmm%3ATimeReferenceShape/-6af7e9d>
 constraint: <http://www.w3.org/ns/shacl#ClassConstraintComponent>
 message: "Value does not have class time:TemporalEntity"
 
-[067] severity: <http://www.w3.org/ns/shacl#Violation>
+[073] severity: <http://www.w3.org/ns/shacl#Violation>
 focus node: _:cb234291d1bbef315982c1ca94df69f3da06a300f60a7da0b37d3573e97164d1139
 result path: <http://www.w3.org/ns/prov#agent>
 value: _:cb74685bf604b5767e3c6d9e70e1d7348c63930e1d1580e1a7604730dccb584c91f
@@ -544,7 +592,7 @@ source shape: <https://model.ccmm.cz/research-data/prov%3AAttributionShape/19c32
 constraint: <http://www.w3.org/ns/shacl#ClassConstraintComponent>
 message: "Value does not have class foaf:Agent"
 
-[068] severity: <http://www.w3.org/ns/shacl#Violation>
+[074] severity: <http://www.w3.org/ns/shacl#Violation>
 focus node: _:cb28a91c18d886844c043df213c03b58b6a9a55e71924ce34ed649c2501b98140ed
 result path: <http://www.w3.org/2006/time#hasTime>
 value: _:cb13ac571751ba09de28862ce00abc64b08db9acbccd9f986ab4c66a17969182be2
@@ -552,7 +600,7 @@ source shape: <https://model.ccmm.cz/research-data/ccmm%3ATimeReferenceShape/-6a
 constraint: <http://www.w3.org/ns/shacl#ClassConstraintComponent>
 message: "Value does not have class time:TemporalEntity"
 
-[069] severity: <http://www.w3.org/ns/shacl#Violation>
+[075] severity: <http://www.w3.org/ns/shacl#Violation>
 focus node: _:cb2df12fb3316df4bafa64864e0e740cd31fc682ad2e6d24a19963bf2427ec76a49
 result path: <http://www.w3.org/ns/prov#agent>
 value: _:cb1c868cb729ee50c4244db3f858d4d8567a1e2398bf0a6ce54ad5a20190f63a818
@@ -560,7 +608,7 @@ source shape: <https://model.ccmm.cz/research-data/prov%3AAttributionShape/19c32
 constraint: <http://www.w3.org/ns/shacl#ClassConstraintComponent>
 message: "Value does not have class foaf:Agent"
 
-[070] severity: <http://www.w3.org/ns/shacl#Violation>
+[076] severity: <http://www.w3.org/ns/shacl#Violation>
 focus node: _:cb36d041efb2226ed73db4220730182490d99663fa5f6ffe7cdf9c1cc58fb86ffbc
 result path: <http://www.w3.org/ns/prov#agent>
 value: _:cb4ff09669f30513997133e88a694dce5e277e0622f14569890117188ff21085d01
@@ -568,7 +616,7 @@ source shape: <https://model.ccmm.cz/research-data/prov%3AAttributionShape/19c32
 constraint: <http://www.w3.org/ns/shacl#ClassConstraintComponent>
 message: "Value does not have class foaf:Agent"
 
-[071] severity: <http://www.w3.org/ns/shacl#Violation>
+[077] severity: <http://www.w3.org/ns/shacl#Violation>
 focus node: _:cb4e76fb4a10062c902af53f7aab1b31c2b55838b85b1b8c03e289b81371be748a1
 result path: <http://purl.org/dc/terms/title>
 value: "Služba WMS pro prohlížení dat o kvalitě ovzduší"
@@ -576,7 +624,7 @@ source shape: <https://model.ccmm.cz/research-data/dcat%3ADistributionShape/-275
 constraint: <http://www.w3.org/ns/shacl#DatatypeConstraintComponent>
 message: "Value is not Literal with datatype rdf:langString"
 
-[072] severity: <http://www.w3.org/ns/shacl#Violation>
+[078] severity: <http://www.w3.org/ns/shacl#Violation>
 focus node: _:cbdc399023b96dec19ba70cb6c4060902729504a31bc1e7d5083cd166be8396017
 result path: <https://model.ccmm.cz/vocabulary/ccmm#hasRo-crateJsonRepresentation>
 value: <https://link.to/ro-crate-json>

@@ -399,10 +399,10 @@
             </ns0:hasTime>
             <ns1:hasType>
                <rdf:Description xmlns:ns0="http://www.w3.org/2004/02/skos/core#"
-                                rdf:about="https://vocabs.ccmm.cz/registry/codelist/TimeReference/Collected">
+                                rdf:about="https://vocabs.ccmm.cz/registry/codelist/TimeReference/Created">
                   <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-                  <ns0:prefLabel xml:lang="en">Date Collected</ns0:prefLabel>
-                  <ns0:prefLabel xml:lang="cs">Datum sběru</ns0:prefLabel>
+                  <ns0:prefLabel xml:lang="en">Date Created</ns0:prefLabel>
+                  <ns0:prefLabel xml:lang="cs">Datum vytvoření</ns0:prefLabel>
                </rdf:Description>
             </ns1:hasType>
          </rdf:Description>
