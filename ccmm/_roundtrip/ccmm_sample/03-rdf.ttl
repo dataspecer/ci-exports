@@ -204,7 +204,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
                     a time:Instant ;
                     time:inXSDDateTime "2025-04-27T12:00:01+02:00"^^xsd:dateTime ;
                 ] ;
-            ccmm:hasType <https://vocabs.ccmm.cz/registry/codelist/TimeReference/Collected> ;
+            ccmm:hasType <https://vocabs.ccmm.cz/registry/codelist/TimeReference/Created> ;
         ] ,
         [
             a ccmm:TimeReference ;
@@ -576,6 +576,20 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     datacite:classificationCode "10509" ;
 .
 
+<https://vocabs.ccmm.cz/registry/codelist/TimeReference/Collected>
+    a skos:Concept ;
+    skos:prefLabel
+        "Datum sběru"@cs ,
+        "Date Collected"@en ;
+.
+
+<https://vocabs.ccmm.cz/registry/codelist/TimeReference/Created>
+    a skos:Concept ;
+    skos:prefLabel
+        "Datum vytvoření"@cs ,
+        "Date Created"@en ;
+.
+
 <https://www.iso.org/standard/80275.html>
     a dcterms:Standard ;
     rdfs:label "ISO 19115-1:2014/Amd 2:2020"@en ;
@@ -627,13 +641,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:prefLabel
         "Vydavatel"@cs ,
         "Publisher"@en ;
-.
-
-<https://vocabs.ccmm.cz/registry/codelist/TimeReference/Collected>
-    a skos:Concept ;
-    skos:prefLabel
-        "Datum sběru"@cs ,
-        "Date Collected"@en ;
 .
 
 <https://vocabularies.coar-repositories.org/access_rights/c_abf2/>
