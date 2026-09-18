@@ -106,7 +106,7 @@
    <ccmm:alternate_title>
       <ccmm:title xml:lang="en">Air quality measurements in Central Bohemian Region in 2024.</ccmm:title>
       <ccmm:alternate_title_type>
-         <ccmm:iri>https://vocabs.ccmm.cz/registry/codelist/AlternateTitle/TranslatedTitle</ccmm:iri>
+         <ccmm:iri>https://w3id.org/tib/datacite/vocab/titleType/TranslatedTitle</ccmm:iri>
          <ccmm:label xml:lang="cs">Přeložený název</ccmm:label>
          <ccmm:label xml:lang="en">Translated Title</ccmm:label>
       </ccmm:alternate_title_type>
@@ -203,7 +203,7 @@
          </ccmm:time_instant>
       </ccmm:temporal_representation>
       <ccmm:date_type>
-         <ccmm:iri>https://vocabs.ccmm.cz/registry/codelist/TimeReference/Created</ccmm:iri>
+         <ccmm:iri>https://w3id.org/tib/datacite/vocab/dateType/Created</ccmm:iri>
          <ccmm:label xml:lang="en">Date Created</ccmm:label>
          <ccmm:label xml:lang="cs">Datum vytvoření</ccmm:label>
       </ccmm:date_type>
@@ -220,7 +220,7 @@
          </ccmm:time_interval>
       </ccmm:temporal_representation>
       <ccmm:date_type>
-         <ccmm:iri>https://vocabs.ccmm.cz/registry/codelist/TimeReference/Collected</ccmm:iri>
+         <ccmm:iri>https://w3id.org/tib/datacite/vocab/dateType/Collected</ccmm:iri>
          <ccmm:label xml:lang="en">Date Collected</ccmm:label>
          <ccmm:label xml:lang="cs">Datum sběru</ccmm:label>
       </ccmm:date_type>
@@ -275,7 +275,7 @@
       <ccmm:description_text xml:lang="cs">Tato datová sada obsahuje měření kvality ovzduší ve středních Čechách v
             roce 2024.</ccmm:description_text>
       <ccmm:description_type>
-         <ccmm:iri>https://vocabs.ccmm.cz/registry/codelist/DescriptionType/Abstract</ccmm:iri>
+         <ccmm:iri>https://w3id.org/tib/datacite/property/descriptionType/Abstract</ccmm:iri>
          <ccmm:label xml:lang="en">Abstract</ccmm:label>
          <ccmm:label xml:lang="cs">Abstrakt</ccmm:label>
       </ccmm:description_type>
@@ -380,7 +380,7 @@
          <ccmm:label xml:lang="en">research instrument</ccmm:label>
       </ccmm:resource_type>
       <ccmm:resource_relation_type>
-         <ccmm:iri>https://vocabs.ccmm.cz/registry/codelist/RelationType/IsCollectedBy</ccmm:iri>
+         <ccmm:iri>https://w3id.org/tib/datacite/vocab/relationType/IsCollectedBy</ccmm:iri>
          <ccmm:label xml:lang="en">is collected by</ccmm:label>
          <ccmm:label xml:lang="cs">je sbírán (čím)</ccmm:label>
       </ccmm:resource_relation_type>
@@ -395,7 +395,7 @@
          <ccmm:label xml:lang="cs">text</ccmm:label>
       </ccmm:resource_type>
       <ccmm:resource_relation_type>
-         <ccmm:iri>https://vocabs.ccmm.cz/registry/codelist/RelationType/IsReferencedBy</ccmm:iri>
+         <ccmm:iri>https://w3id.org/tib/datacite/vocab/relationType/IsReferencedBy</ccmm:iri>
          <ccmm:label xml:lang="cs">je na něj odkazováno z (čeho)</ccmm:label>
       </ccmm:resource_relation_type>
    </ccmm:related_resource>
@@ -405,7 +405,7 @@
             stanicích</ccmm:title>
       <ccmm:resource_url>https://data.gov.cz/zdroj/datové-sady/00020699/c724d055011d82189bbfc3766ffd1eb7</ccmm:resource_url>
       <ccmm:resource_relation_type>
-         <ccmm:iri>https://vocabs.ccmm.cz/registry/codelist/RelationType/HasMetadata</ccmm:iri>
+         <ccmm:iri>https://w3id.org/tib/datacite/vocab/relationType/HasMetadata</ccmm:iri>
          <ccmm:label xml:lang="en">has metadata</ccmm:label>
          <ccmm:label xml:lang="cs">má metadata</ccmm:label>
       </ccmm:resource_relation_type>
@@ -419,7 +419,7 @@
          <ccmm:label xml:lang="en">observational data</ccmm:label>
       </ccmm:resource_type>
       <ccmm:resource_relation_type>
-         <ccmm:iri>https://vocabs.ccmm.cz/registry/codelist/RelationType/IsDerivedFrom</ccmm:iri>
+         <ccmm:iri>https://w3id.org/tib/datacite/vocab/relationType/IsDerivedFrom</ccmm:iri>
          <ccmm:label xml:lang="en">is derived from</ccmm:label>
          <ccmm:label xml:lang="cs">je odvozen od (čeho)</ccmm:label>
       </ccmm:resource_relation_type>

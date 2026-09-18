@@ -83,7 +83,7 @@
          </ccmm:time_instant>
       </ccmm:temporal_representation>
       <ccmm:date_type>
-         <ccmm:iri>https://vocabs.ccmm.cz/registry/codelist/TimeReference/Created</ccmm:iri>
+         <ccmm:iri>https://w3id.org/tib/datacite/vocab/dateType/Created</ccmm:iri>
          <ccmm:label xml:lang="en">Created</ccmm:label>
       </ccmm:date_type>
    </ccmm:time_reference>

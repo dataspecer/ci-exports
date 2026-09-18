@@ -270,7 +270,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         [
             a ccmm:AlternateTitle ;
             dcterms:alternative "Data to manuscript Influence of Deposition Parameters on the Building rate, In-Situ Formation of Austenite and Tensile Properties of SAF 2507 SDSS Fabricated by Directed Energy Deposition"@en ;
-            ccmm:hasType <https://vocabs.ccmm.cz/registry/codelist/AlternateTitle/TranslatedTitle> ;
+            ccmm:hasType <https://w3id.org/tib/datacite/vocab/titleType/TranslatedTitle> ;
         ] ;
     ccmm:hasPrimaryLanguage <http://publications.europa.eu/resource/authority/language/ENG> ;
     ccmm:hasTimeReference
@@ -281,7 +281,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
                     a time:Instant ;
                     time:inXSDDate "2025-06-16"^^xsd:date ;
                 ] ;
-            ccmm:hasType <https://vocabs.ccmm.cz/registry/codelist/TimeReference/Available> ;
+            ccmm:hasType <https://w3id.org/tib/datacite/vocab/dateType/Available> ;
         ] ,
         [
             a ccmm:TimeReference ;
@@ -299,7 +299,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
                             time:inXSDDate "2025-06-11"^^xsd:date ;
                         ] ;
                 ] ;
-            ccmm:hasType <https://vocabs.ccmm.cz/registry/codelist/TimeReference/Created> ;
+            ccmm:hasType <https://w3id.org/tib/datacite/vocab/dateType/Created> ;
         ] ,
         [
             a ccmm:TimeReference ;
@@ -308,7 +308,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
                     a time:Instant ;
                     time:inXSDDate "2025-06-16"^^xsd:date ;
                 ] ;
-            ccmm:hasType <https://vocabs.ccmm.cz/registry/codelist/TimeReference/Issued> ;
+            ccmm:hasType <https://w3id.org/tib/datacite/vocab/dateType/Issued> ;
         ] ;
     ccmm:hasValidationResult
         [
@@ -320,17 +320,17 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         [
             a <https://w3id.org/tib/datacite/class/Description> ;
             dcterms:description "Industry applications of duplex stainless steels require a two-phase microstructure with a nearly balanced austenite-ferrite content to achieve good mechanical properties and good corrosion resistance. The most widespread additive manufacturing method such as laser powder bed fusion provides nearly fully ferritic microstructures due to the very high cooling rate, and the post-processing heat treatment must be performed. In contrast, other additive manufacturing methods, such as directed deposition methods, reach lower cooling rates and enable to obtain an equal ferrite–austenite ratio directly in the microstructure of the as-built state. In this work, the super duplex stainless steel SAF 2507 was deposited by directed energy deposition. The process parameters, namely, the laser power, laser beam spot, and powder feed rate, were varied to investigate the impact of the energy area density on the microstructure and tensile properties. A decrease in the energy area density caused an increase in the austenite content of 48 vol% and a numerical simulation of the sample temperature distribution inside the block during deposition, explaining the relationship between the amount of in situ formed austenite and the deposition parameters, was provided. Simultaneously, the deposition rate increased by more than five times. In contrast, the samples deposited at a higher building rate are characterized by greater porosity and lower elongation values in the vertical direction. The effect of the deposition parameters on the yield strength is low."@en ;
-            datacite:descriptionType <https://vocabs.ccmm.cz/registry/codelist/DescriptionType/Abstract> ;
+            datacite:descriptionType <https://w3id.org/tib/datacite/property/descriptionType/Abstract> ;
         ] ,
         [
             a <https://w3id.org/tib/datacite/class/Description> ;
             dcterms:description "The data set is related to the investigation of the influence of deposition parameters on the microstructure, austenite formation, and tensile properties of SAF 2507 super duplex stainless steel fabricated using directed energy deposition (DED). The experiments were carried out at COMTES FHT (Czech Republic) using an INSSTEK MX-600 system equipped with a 2 kW Yttrium fiber laser. SAF 2507 powder (particle size 45–150 μm) was deposited under three different parameter sets, varying laser power, beam diameter, layer thickness, hatch distance, and powder feed rate, while maintaining constant scan speed. A zig-zag deposition strategy was applied under a protective argon atmosphere (5.0, 99.999%). For each parameter set, 20×20×20 mm cubes were built and used for analysis. Microstructure and phase composition were characterized using optical microscopy, scanning electron microscopy, EBSD analysis, X-ray diffraction. Tensile properties were evaluated using miniature tensile tests. Thermal simulations of the deposition process were carried out using Simufact Welding 2024.1 with the Advanced Thermal Cycle (ATC) method."@en ;
-            datacite:descriptionType <https://vocabs.ccmm.cz/registry/codelist/DescriptionType/Methods> ;
+            datacite:descriptionType <https://w3id.org/tib/datacite/property/descriptionType/Methods> ;
         ] ,
         [
             a <https://w3id.org/tib/datacite/class/Description> ;
             dcterms:description "The sets of experimental data were recorded on several instruments within COMTES FHT. In cases where possible (XRD, MTT, EBSD), the data are in xlsx format enabling any replotting."@en ;
-            datacite:descriptionType <https://vocabs.ccmm.cz/registry/codelist/DescriptionType/TechnicalInfo> ;
+            datacite:descriptionType <https://w3id.org/tib/datacite/property/descriptionType/TechnicalInfo> ;
         ] ;
     datacite:fundingReference
         [
@@ -406,41 +406,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         "Data Manager"@en ;
 .
 
-<https://vocabs.ccmm.cz/registry/codelist/AlternateTitle/TranslatedTitle>
-    a skos:Concept ;
-    skos:prefLabel
-        "Přeložený název"@cs ,
-        "Translated Title"@en ;
-.
-
-<https://vocabs.ccmm.cz/registry/codelist/DescriptionType/Abstract>
-    a skos:Concept ;
-    skos:prefLabel
-        "Abstrakt"@cs ,
-        "Abstract"@en ;
-.
-
-<https://vocabs.ccmm.cz/registry/codelist/DescriptionType/Methods>
-    a skos:Concept ;
-    skos:prefLabel
-        "Metodologie"@cs ,
-        "Methods"@en ;
-.
-
-<https://vocabs.ccmm.cz/registry/codelist/DescriptionType/TechnicalInfo>
-    a skos:Concept ;
-    skos:prefLabel
-        "Technická informace"@cs ,
-        "Technical Info"@en ;
-.
-
-<https://vocabs.ccmm.cz/registry/codelist/RelationType/IsReferencedBy>
-    a skos:Concept ;
-    skos:prefLabel
-        "je na něj odkazováno z (čeho)"@cs ,
-        "is referenced by"@en ;
-.
-
 <https://vocabs.ccmm.cz/registry/codelist/SubjectCategory/>
     a ccmm:SubjectScheme ;
     rdfs:label
@@ -457,30 +422,65 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     datacite:classificationCode "20501" ;
 .
 
-<https://vocabs.ccmm.cz/registry/codelist/TimeReference/Available>
+<https://vocabularies.coar-repositories.org/access_rights/c_abf2/>
+    a dcterms:RightsStatement ;
+    skos:prefLabel "open access"@en ;
+.
+
+<https://w3id.org/tib/datacite/property/descriptionType/Abstract>
+    a skos:Concept ;
+    skos:prefLabel
+        "Abstrakt"@cs ,
+        "Abstract"@en ;
+.
+
+<https://w3id.org/tib/datacite/property/descriptionType/Methods>
+    a skos:Concept ;
+    skos:prefLabel
+        "Metodologie"@cs ,
+        "Methods"@en ;
+.
+
+<https://w3id.org/tib/datacite/property/descriptionType/TechnicalInfo>
+    a skos:Concept ;
+    skos:prefLabel
+        "Technická informace"@cs ,
+        "Technical Info"@en ;
+.
+
+<https://w3id.org/tib/datacite/vocab/dateType/Available>
     a skos:Concept ;
     skos:prefLabel
         "Datum zveřejnění"@cs ,
         "Date Available"@en ;
 .
 
-<https://vocabs.ccmm.cz/registry/codelist/TimeReference/Created>
+<https://w3id.org/tib/datacite/vocab/dateType/Created>
     a skos:Concept ;
     skos:prefLabel
         "Datum vytvoření"@cs ,
         "Date Created"@en ;
 .
 
-<https://vocabs.ccmm.cz/registry/codelist/TimeReference/Issued>
+<https://w3id.org/tib/datacite/vocab/dateType/Issued>
     a skos:Concept ;
     skos:prefLabel
         "Datum vydání"@cs ,
         "Date Issued"@en ;
 .
 
-<https://vocabularies.coar-repositories.org/access_rights/c_abf2/>
-    a dcterms:RightsStatement ;
-    skos:prefLabel "open access"@en ;
+<https://w3id.org/tib/datacite/vocab/relationType/IsReferencedBy>
+    a skos:Concept ;
+    skos:prefLabel
+        "je na něj odkazováno z (čeho)"@cs ,
+        "is referenced by"@en ;
+.
+
+<https://w3id.org/tib/datacite/vocab/titleType/TranslatedTitle>
+    a skos:Concept ;
+    skos:prefLabel
+        "Přeložený název"@cs ,
+        "Translated Title"@en ;
 .
 
 <http://publications.europa.eu/resource/authority/file-type/TAR>
@@ -575,7 +575,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
                     foaf:name "Novák, Pavel" ;
                 ] ;
         ] ;
-    ccmm:hasType <https://vocabs.ccmm.cz/registry/codelist/RelationType/IsReferencedBy> ;
+    ccmm:hasType <https://w3id.org/tib/datacite/vocab/relationType/IsReferencedBy> ;
     ccmm:inScheme <https://doi.org/> ;
     ccmm:resourceUrl "https://doi.org/10.1007/s12540-025-01953-4"^^xsd:anyURI ;
 .

@@ -233,7 +233,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         [
             a ccmm:AlternateTitle ;
             dcterms:alternative "The Czech Science Foundation Grant Application Data Set"@en ;
-            ccmm:hasType <https://vocabs.ccmm.cz/registry/codelist/AlternateTitle/TranslatedTitle> ;
+            ccmm:hasType <https://w3id.org/tib/datacite/vocab/titleType/TranslatedTitle> ;
         ] ;
     ccmm:hasPrimaryLanguage <http://publications.europa.eu/resource/authority/language/ENG> ;
     ccmm:hasTimeReference
@@ -244,16 +244,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
                     a time:Instant ;
                     time:inXSDDate "2025-04-03"^^xsd:date ;
                 ] ;
-            ccmm:hasType <https://vocabs.ccmm.cz/registry/codelist/TimeReference/Available> ;
-        ] ,
-        [
-            a ccmm:TimeReference ;
-            time:hasTime
-                [
-                    a time:Instant ;
-                    time:inXSDDate "2025-04-03"^^xsd:date ;
-                ] ;
-            ccmm:hasType <https://vocabs.ccmm.cz/registry/codelist/TimeReference/Issued> ;
+            ccmm:hasType <https://w3id.org/tib/datacite/vocab/dateType/Available> ;
         ] ,
         [
             a ccmm:TimeReference ;
@@ -271,7 +262,16 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
                             time:inXSDDate "2025-04-03"^^xsd:date ;
                         ] ;
                 ] ;
-            ccmm:hasType <https://vocabs.ccmm.cz/registry/codelist/TimeReference/Created> ;
+            ccmm:hasType <https://w3id.org/tib/datacite/vocab/dateType/Created> ;
+        ] ,
+        [
+            a ccmm:TimeReference ;
+            time:hasTime
+                [
+                    a time:Instant ;
+                    time:inXSDDate "2025-04-03"^^xsd:date ;
+                ] ;
+            ccmm:hasType <https://w3id.org/tib/datacite/vocab/dateType/Issued> ;
         ] ,
         [
             a ccmm:TimeReference ;
@@ -289,7 +289,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
                             time:inXSDDate "2025-04-03"^^xsd:date ;
                         ] ;
                 ] ;
-            ccmm:hasType <https://vocabs.ccmm.cz/registry/codelist/TimeReference/Collected> ;
+            ccmm:hasType <https://w3id.org/tib/datacite/vocab/dateType/Collected> ;
         ] ;
     ccmm:hasValidationResult
         [
@@ -300,33 +300,33 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     datacite:description
         [
             a <https://w3id.org/tib/datacite/class/Description> ;
-            dcterms:description "Isolation of neutrophils from human blood samples, neutrophil stimulation with NETosis-inducing agents, microscopy data acquisition"@en ;
-            datacite:descriptionType <https://vocabs.ccmm.cz/registry/codelist/DescriptionType/Methods> ;
+            dcterms:description "Data podporující strukturu neutrofilových extracelulárních pastí pocházejících z lidských neutrofilů"@cs ;
+            datacite:descriptionType <https://w3id.org/tib/datacite/property/descriptionType/Abstract> ;
         ] ,
         [
             a <https://w3id.org/tib/datacite/class/Description> ;
-            dcterms:description "Data podporující strukturu neutrofilových extracelulárních pastí pocházejících z lidských neutrofilů"@cs ;
-            datacite:descriptionType <https://vocabs.ccmm.cz/registry/codelist/DescriptionType/Abstract> ;
+            dcterms:description "Isolation of neutrophils from human blood samples, neutrophil stimulation with NETosis-inducing agents, microscopy data acquisition"@en ;
+            datacite:descriptionType <https://w3id.org/tib/datacite/property/descriptionType/Methods> ;
         ] ,
         [
             a <https://w3id.org/tib/datacite/class/Description> ;
             dcterms:description "Izolace neutrofilů ze vzorků lidské krve, stimulace neutrofilů pomocí agens indukujících NETózu, akvizice mikroskopických dat"@cs ;
-            datacite:descriptionType <https://vocabs.ccmm.cz/registry/codelist/DescriptionType/Methods> ;
-        ] ,
-        [
-            a <https://w3id.org/tib/datacite/class/Description> ;
-            dcterms:description "Supplementary microscopy data"@en ;
-            datacite:descriptionType <https://vocabs.ccmm.cz/registry/codelist/DescriptionType/TechnicalInfo> ;
+            datacite:descriptionType <https://w3id.org/tib/datacite/property/descriptionType/Methods> ;
         ] ,
         [
             a <https://w3id.org/tib/datacite/class/Description> ;
             dcterms:description "Data supporting the structure of neutrophil extracellular traps generated from human neutrophils"@en ;
-            datacite:descriptionType <https://vocabs.ccmm.cz/registry/codelist/DescriptionType/Abstract> ;
+            datacite:descriptionType <https://w3id.org/tib/datacite/property/descriptionType/Abstract> ;
+        ] ,
+        [
+            a <https://w3id.org/tib/datacite/class/Description> ;
+            dcterms:description "Supplementary microscopy data"@en ;
+            datacite:descriptionType <https://w3id.org/tib/datacite/property/descriptionType/TechnicalInfo> ;
         ] ,
         [
             a <https://w3id.org/tib/datacite/class/Description> ;
             dcterms:description "Doplňující mikroskopická data"@cs ;
-            datacite:descriptionType <https://vocabs.ccmm.cz/registry/codelist/DescriptionType/TechnicalInfo> ;
+            datacite:descriptionType <https://w3id.org/tib/datacite/property/descriptionType/TechnicalInfo> ;
         ] ;
     datacite:publicationYear "2025"^^xsd:gYear ;
     datacite:subject
@@ -377,13 +377,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         "Data manager"@en ;
 .
 
-<https://vocabs.ccmm.cz/registry/codelist/AlternateTitle/TranslatedTitle>
-    a skos:Concept ;
-    skos:prefLabel
-        "Přeložený název"@cs ,
-        "Translated Title"@en ;
-.
-
 <https://vocabs.ccmm.cz/registry/codelist/SubjectCategory/10000/10600/10601>
     a <https://w3id.org/tib/datacite/class/Subject> ;
     dcterms:title
@@ -413,32 +406,39 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     datacite:classificationCode "30102" ;
 .
 
-<https://vocabs.ccmm.cz/registry/codelist/TimeReference/Available>
+<https://w3id.org/tib/datacite/vocab/dateType/Available>
     a skos:Concept ;
     skos:prefLabel
         "Datum zveřejnění"@cs ,
         "Date Available"@en ;
 .
 
-<https://vocabs.ccmm.cz/registry/codelist/TimeReference/Collected>
+<https://w3id.org/tib/datacite/vocab/dateType/Collected>
     a skos:Concept ;
     skos:prefLabel
         "Datum sběru"@cs ,
         "Date Collected"@en ;
 .
 
-<https://vocabs.ccmm.cz/registry/codelist/TimeReference/Created>
+<https://w3id.org/tib/datacite/vocab/dateType/Created>
     a skos:Concept ;
     skos:prefLabel
         "Datum vytvoření"@cs ,
         "Date Created"@en ;
 .
 
-<https://vocabs.ccmm.cz/registry/codelist/TimeReference/Issued>
+<https://w3id.org/tib/datacite/vocab/dateType/Issued>
     a skos:Concept ;
     skos:prefLabel
         "Datum vydání"@cs ,
         "Date Issued"@en ;
+.
+
+<https://w3id.org/tib/datacite/vocab/titleType/TranslatedTitle>
+    a skos:Concept ;
+    skos:prefLabel
+        "Přeložený název"@cs ,
+        "Translated Title"@en ;
 .
 
 <http://publications.europa.eu/resource/authority/file-type/PDF>
@@ -643,21 +643,21 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         "Publisher"@en ;
 .
 
-<https://vocabs.ccmm.cz/registry/codelist/DescriptionType/Abstract>
+<https://w3id.org/tib/datacite/property/descriptionType/Abstract>
     a skos:Concept ;
     skos:prefLabel
         "Abstrakt"@cs ,
         "Abstract"@en ;
 .
 
-<https://vocabs.ccmm.cz/registry/codelist/DescriptionType/Methods>
+<https://w3id.org/tib/datacite/property/descriptionType/Methods>
     a skos:Concept ;
     skos:prefLabel
         "Metodologie"@cs ,
         "Methods"@en ;
 .
 
-<https://vocabs.ccmm.cz/registry/codelist/DescriptionType/TechnicalInfo>
+<https://w3id.org/tib/datacite/property/descriptionType/TechnicalInfo>
     a skos:Concept ;
     skos:prefLabel
         "Technická informace"@cs ,
