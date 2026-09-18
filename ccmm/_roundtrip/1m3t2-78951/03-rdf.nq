@@ -202,21 +202,21 @@
 <https://doi.org/10.48700/datst.1m3t2-78951> <http://www.w3.org/ns/prov#qualifiedAttribution> _:cb2842fc83390f99ffbcb2e248d6e56581ac71931062d41dfedb3056b054c20ee11 .
 <https://doi.org/10.48700/datst.1m3t2-78951> <http://www.w3.org/ns/prov#qualifiedAttribution> _:cb2978a6badc1375d7580d215ba00c8cf038c40fd73c457798227003517ae38bef0 .
 <https://doi.org/10.48700/datst.1m3t2-78951> <http://www.w3.org/ns/prov#qualifiedAttribution> _:cb3001511c1397aba6aad65711c7e8ffaed6cca9679782cc1b85d33a90cf6a7c9dc .
-<https://doi.org/10.48700/datst.1m3t2-78951> <https://model.ccmm.cz/vocabulary/ccmm#hasAlternateTitle> _:cb21060032f9104919c57f0d5bb0d7dad91335ed269230de6ccca7e5593b3e49543 .
+<https://doi.org/10.48700/datst.1m3t2-78951> <https://model.ccmm.cz/vocabulary/ccmm#hasAlternateTitle> _:cb1bb8dc1f8b565b2c6254e2738dfc5f778b4888ff479262f98c030ab5498e04cd5 .
 <https://doi.org/10.48700/datst.1m3t2-78951> <https://model.ccmm.cz/vocabulary/ccmm#hasPrimaryLanguage> <http://publications.europa.eu/resource/authority/language/ENG> .
-<https://doi.org/10.48700/datst.1m3t2-78951> <https://model.ccmm.cz/vocabulary/ccmm#hasTimeReference> _:cb1bd3060bc0ed0bb7ec378a15cfad55d2fe46d20421dad7f9016a22c06c9b6d2ca .
-<https://doi.org/10.48700/datst.1m3t2-78951> <https://model.ccmm.cz/vocabulary/ccmm#hasTimeReference> _:cb224e7f116692929881b5340919ab8fc61bee8d7568b029fdefdc3a0864c8fb008 .
-<https://doi.org/10.48700/datst.1m3t2-78951> <https://model.ccmm.cz/vocabulary/ccmm#hasTimeReference> _:cb236ea6f12cc19fcfc9be36f0fee932188ff167e5eed1ebe2417245bcb5453c10c .
-<https://doi.org/10.48700/datst.1m3t2-78951> <https://model.ccmm.cz/vocabulary/ccmm#hasTimeReference> _:cb2526124a09b3a1ade0f1499bc9b0c69a70bf7ba0d5a81c6df449776ba44f3ae7d .
+<https://doi.org/10.48700/datst.1m3t2-78951> <https://model.ccmm.cz/vocabulary/ccmm#hasTimeReference> _:cb18e85f9c2107a0992a7cd4a757e6636634dae17199ce53f83b690329b8ae02aaa .
+<https://doi.org/10.48700/datst.1m3t2-78951> <https://model.ccmm.cz/vocabulary/ccmm#hasTimeReference> _:cb1b2e6db97ea23f90d76e5fc11ec9c87ed60756eb826b7a9acdd6ea560ffcbde85 .
+<https://doi.org/10.48700/datst.1m3t2-78951> <https://model.ccmm.cz/vocabulary/ccmm#hasTimeReference> _:cb23222143995039548bcf37005815a8765dadf152f9c34e17c40da3f1ebe0b2656 .
+<https://doi.org/10.48700/datst.1m3t2-78951> <https://model.ccmm.cz/vocabulary/ccmm#hasTimeReference> _:cb25139e84daea99fee156d0a033f5765cd288b578e46a2451a09b161e4523850f5 .
 <https://doi.org/10.48700/datst.1m3t2-78951> <https://model.ccmm.cz/vocabulary/ccmm#hasValidationResult> _:cbf0ad091c2f03ee94f3cd5bb9d7febe1590299c4665a9092fd766ad7c66112f9c .
 <https://doi.org/10.48700/datst.1m3t2-78951> <https://model.ccmm.cz/vocabulary/ccmm#inScheme> <https://doi.org/> .
 <https://doi.org/10.48700/datst.1m3t2-78951> <https://model.ccmm.cz/vocabulary/ccmm#isDescribedBy> <https://datarepo.eosc.cz/datasets/records/datst.1m3t2-78951> .
-<https://doi.org/10.48700/datst.1m3t2-78951> <https://w3id.org/tib/datacite/property/description> _:cb1d446c218f5c67a90e7f817d566f29a1352a6c9c16593b519a1fbbd6e3bf010bf .
-<https://doi.org/10.48700/datst.1m3t2-78951> <https://w3id.org/tib/datacite/property/description> _:cb1d4aeff1c094ff4caea3c09f5f3227698f58ce23026b1713683e57ff24f1485d3 .
-<https://doi.org/10.48700/datst.1m3t2-78951> <https://w3id.org/tib/datacite/property/description> _:cb1d5946fe38afa81bef549a2c87eed80ea3359d9c4a996caaa683238928a028864 .
-<https://doi.org/10.48700/datst.1m3t2-78951> <https://w3id.org/tib/datacite/property/description> _:cb21d02cd3f3183df4048583f0bd74184a61db5ba5a9a95e3daae3ad6585c5a3753 .
-<https://doi.org/10.48700/datst.1m3t2-78951> <https://w3id.org/tib/datacite/property/description> _:cb21fa0736d494b8da2865869b358f1867f9d876bb76abaf24de24b8d8d96939c74 .
-<https://doi.org/10.48700/datst.1m3t2-78951> <https://w3id.org/tib/datacite/property/description> _:cb234c5eae88b37bfa1059b425a2d06e04d24470fdcf0fe469168e845c428e20338 .
+<https://doi.org/10.48700/datst.1m3t2-78951> <https://w3id.org/tib/datacite/property/description> _:cb1f9c3f44ecb62de721e2393aac0fe8bc35803ba4145ecf3f97cda09b772ba3681 .
+<https://doi.org/10.48700/datst.1m3t2-78951> <https://w3id.org/tib/datacite/property/description> _:cb233352a64f622ce513a1f6c85b738337b194cc85cdf7f28ce57110605e618df5e .
+<https://doi.org/10.48700/datst.1m3t2-78951> <https://w3id.org/tib/datacite/property/description> _:cb23482d82f8b56d57f4770f778cf331a51f9ffd86023823e5f1d47812a342b5703 .
+<https://doi.org/10.48700/datst.1m3t2-78951> <https://w3id.org/tib/datacite/property/description> _:cb244b568a00b5e7749ba3ff36826cd9ba9fffe43c889f67510db401752ba394d22 .
+<https://doi.org/10.48700/datst.1m3t2-78951> <https://w3id.org/tib/datacite/property/description> _:cb267c89b7719411f23322a1518394281c7223ccb90260e567f6599f54d1027c345 .
+<https://doi.org/10.48700/datst.1m3t2-78951> <https://w3id.org/tib/datacite/property/description> _:cb27f8bb92072f4ff83ef6d18668f07dd6e28ce21127c76b936204764b8dcaf8f2a .
 <https://doi.org/10.48700/datst.1m3t2-78951> <https://w3id.org/tib/datacite/property/publicationYear> "2025"^^<http://www.w3.org/2001/XMLSchema#gYear> .
 <https://doi.org/10.48700/datst.1m3t2-78951> <https://w3id.org/tib/datacite/property/subject> <https://vocabs.ccmm.cz/registry/codelist/SubjectCategory/10000/10600/10601> .
 <https://doi.org/10.48700/datst.1m3t2-78951> <https://w3id.org/tib/datacite/property/subject> <https://vocabs.ccmm.cz/registry/codelist/SubjectCategory/10000/10600/10606> .
@@ -256,18 +256,6 @@
 <https://vocabs.ccmm.cz/registry/codelist/AgentRole/Publisher> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Role> .
 <https://vocabs.ccmm.cz/registry/codelist/AgentRole/Publisher> <http://www.w3.org/2004/02/skos/core#prefLabel> "Publisher"@en .
 <https://vocabs.ccmm.cz/registry/codelist/AgentRole/Publisher> <http://www.w3.org/2004/02/skos/core#prefLabel> "Vydavatel"@cs .
-<https://vocabs.ccmm.cz/registry/codelist/AlternateTitle/TranslatedTitle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
-<https://vocabs.ccmm.cz/registry/codelist/AlternateTitle/TranslatedTitle> <http://www.w3.org/2004/02/skos/core#prefLabel> "Přeložený název"@cs .
-<https://vocabs.ccmm.cz/registry/codelist/AlternateTitle/TranslatedTitle> <http://www.w3.org/2004/02/skos/core#prefLabel> "Translated Title"@en .
-<https://vocabs.ccmm.cz/registry/codelist/DescriptionType/Abstract> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
-<https://vocabs.ccmm.cz/registry/codelist/DescriptionType/Abstract> <http://www.w3.org/2004/02/skos/core#prefLabel> "Abstract"@en .
-<https://vocabs.ccmm.cz/registry/codelist/DescriptionType/Abstract> <http://www.w3.org/2004/02/skos/core#prefLabel> "Abstrakt"@cs .
-<https://vocabs.ccmm.cz/registry/codelist/DescriptionType/Methods> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
-<https://vocabs.ccmm.cz/registry/codelist/DescriptionType/Methods> <http://www.w3.org/2004/02/skos/core#prefLabel> "Methods"@en .
-<https://vocabs.ccmm.cz/registry/codelist/DescriptionType/Methods> <http://www.w3.org/2004/02/skos/core#prefLabel> "Metodologie"@cs .
-<https://vocabs.ccmm.cz/registry/codelist/DescriptionType/TechnicalInfo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
-<https://vocabs.ccmm.cz/registry/codelist/DescriptionType/TechnicalInfo> <http://www.w3.org/2004/02/skos/core#prefLabel> "Technical Info"@en .
-<https://vocabs.ccmm.cz/registry/codelist/DescriptionType/TechnicalInfo> <http://www.w3.org/2004/02/skos/core#prefLabel> "Technická informace"@cs .
 <https://vocabs.ccmm.cz/registry/codelist/SubjectCategory/10000/10600/10601> <http://purl.org/dc/terms/title> "Buněčná biologie"@cs .
 <https://vocabs.ccmm.cz/registry/codelist/SubjectCategory/10000/10600/10601> <http://purl.org/dc/terms/title> "Cell biology"@en .
 <https://vocabs.ccmm.cz/registry/codelist/SubjectCategory/10000/10600/10601> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/tib/datacite/class/Subject> .
@@ -288,20 +276,32 @@
 <https://vocabs.ccmm.cz/registry/codelist/SubjectCategory/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://model.ccmm.cz/vocabulary/ccmm#SubjectScheme> .
 <https://vocabs.ccmm.cz/registry/codelist/SubjectCategory/> <http://www.w3.org/2000/01/rdf-schema#label> "OECD FORD Subject Category (Frascati)"@en .
 <https://vocabs.ccmm.cz/registry/codelist/SubjectCategory/> <http://www.w3.org/2000/01/rdf-schema#label> "Oborové třídění OECD FORD (Frascati)"@cs .
-<https://vocabs.ccmm.cz/registry/codelist/TimeReference/Available> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
-<https://vocabs.ccmm.cz/registry/codelist/TimeReference/Available> <http://www.w3.org/2004/02/skos/core#prefLabel> "Date Available"@en .
-<https://vocabs.ccmm.cz/registry/codelist/TimeReference/Available> <http://www.w3.org/2004/02/skos/core#prefLabel> "Datum zveřejnění"@cs .
-<https://vocabs.ccmm.cz/registry/codelist/TimeReference/Collected> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
-<https://vocabs.ccmm.cz/registry/codelist/TimeReference/Collected> <http://www.w3.org/2004/02/skos/core#prefLabel> "Date Collected"@en .
-<https://vocabs.ccmm.cz/registry/codelist/TimeReference/Collected> <http://www.w3.org/2004/02/skos/core#prefLabel> "Datum sběru"@cs .
-<https://vocabs.ccmm.cz/registry/codelist/TimeReference/Created> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
-<https://vocabs.ccmm.cz/registry/codelist/TimeReference/Created> <http://www.w3.org/2004/02/skos/core#prefLabel> "Date Created"@en .
-<https://vocabs.ccmm.cz/registry/codelist/TimeReference/Created> <http://www.w3.org/2004/02/skos/core#prefLabel> "Datum vytvoření"@cs .
-<https://vocabs.ccmm.cz/registry/codelist/TimeReference/Issued> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
-<https://vocabs.ccmm.cz/registry/codelist/TimeReference/Issued> <http://www.w3.org/2004/02/skos/core#prefLabel> "Date Issued"@en .
-<https://vocabs.ccmm.cz/registry/codelist/TimeReference/Issued> <http://www.w3.org/2004/02/skos/core#prefLabel> "Datum vydání"@cs .
 <https://vocabularies.coar-repositories.org/access_rights/c_abf2/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/dc/terms/RightsStatement> .
 <https://vocabularies.coar-repositories.org/access_rights/c_abf2/> <http://www.w3.org/2004/02/skos/core#prefLabel> "open access"@en .
+<https://w3id.org/tib/datacite/property/descriptionType/Abstract> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://w3id.org/tib/datacite/property/descriptionType/Abstract> <http://www.w3.org/2004/02/skos/core#prefLabel> "Abstract"@en .
+<https://w3id.org/tib/datacite/property/descriptionType/Abstract> <http://www.w3.org/2004/02/skos/core#prefLabel> "Abstrakt"@cs .
+<https://w3id.org/tib/datacite/property/descriptionType/Methods> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://w3id.org/tib/datacite/property/descriptionType/Methods> <http://www.w3.org/2004/02/skos/core#prefLabel> "Methods"@en .
+<https://w3id.org/tib/datacite/property/descriptionType/Methods> <http://www.w3.org/2004/02/skos/core#prefLabel> "Metodologie"@cs .
+<https://w3id.org/tib/datacite/property/descriptionType/TechnicalInfo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://w3id.org/tib/datacite/property/descriptionType/TechnicalInfo> <http://www.w3.org/2004/02/skos/core#prefLabel> "Technical Info"@en .
+<https://w3id.org/tib/datacite/property/descriptionType/TechnicalInfo> <http://www.w3.org/2004/02/skos/core#prefLabel> "Technická informace"@cs .
+<https://w3id.org/tib/datacite/vocab/dateType/Available> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://w3id.org/tib/datacite/vocab/dateType/Available> <http://www.w3.org/2004/02/skos/core#prefLabel> "Date Available"@en .
+<https://w3id.org/tib/datacite/vocab/dateType/Available> <http://www.w3.org/2004/02/skos/core#prefLabel> "Datum zveřejnění"@cs .
+<https://w3id.org/tib/datacite/vocab/dateType/Collected> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://w3id.org/tib/datacite/vocab/dateType/Collected> <http://www.w3.org/2004/02/skos/core#prefLabel> "Date Collected"@en .
+<https://w3id.org/tib/datacite/vocab/dateType/Collected> <http://www.w3.org/2004/02/skos/core#prefLabel> "Datum sběru"@cs .
+<https://w3id.org/tib/datacite/vocab/dateType/Created> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://w3id.org/tib/datacite/vocab/dateType/Created> <http://www.w3.org/2004/02/skos/core#prefLabel> "Date Created"@en .
+<https://w3id.org/tib/datacite/vocab/dateType/Created> <http://www.w3.org/2004/02/skos/core#prefLabel> "Datum vytvoření"@cs .
+<https://w3id.org/tib/datacite/vocab/dateType/Issued> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://w3id.org/tib/datacite/vocab/dateType/Issued> <http://www.w3.org/2004/02/skos/core#prefLabel> "Date Issued"@en .
+<https://w3id.org/tib/datacite/vocab/dateType/Issued> <http://www.w3.org/2004/02/skos/core#prefLabel> "Datum vydání"@cs .
+<https://w3id.org/tib/datacite/vocab/titleType/TranslatedTitle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://w3id.org/tib/datacite/vocab/titleType/TranslatedTitle> <http://www.w3.org/2004/02/skos/core#prefLabel> "Přeložený název"@cs .
+<https://w3id.org/tib/datacite/vocab/titleType/TranslatedTitle> <http://www.w3.org/2004/02/skos/core#prefLabel> "Translated Title"@en .
 <https://www.wikidata.org/entity/Q42302581> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://model.ccmm.cz/vocabulary/ccmm#IdentifierScheme> .
 <https://www.wikidata.org/entity/Q42302581> <http://www.w3.org/2000/01/rdf-schema#label> "Identifikační Číslo Osoby"@cs .
 <https://www.wikidata.org/entity/Q42302581> <http://www.w3.org/2004/02/skos/core#notation> "IČO" .
@@ -312,6 +312,8 @@ _:cb11fc1ed56543737249784481c94dce8667cff37b35b3007417a82f25c9d9125e3 <http://ww
 _:cb11fd5f5865c90b855630a398f1c79c00a28bb7fceb1b3e2a0c3745228083b3c97 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2006/time#Interval> .
 _:cb11fd5f5865c90b855630a398f1c79c00a28bb7fceb1b3e2a0c3745228083b3c97 <http://www.w3.org/2006/time#hasBeginning> _:cb1aebb43159ba264d6c2b6c3d399efb2a8e7af8b1c36c12cb27a925f408e4b8552 .
 _:cb11fd5f5865c90b855630a398f1c79c00a28bb7fceb1b3e2a0c3745228083b3c97 <http://www.w3.org/2006/time#hasEnd> _:cb1f22b38e4a08974633123cfb61a3a0fd24bc2bbaac264ffa02b0d17dff4b3c7fe .
+_:cb134d360ee92070b4acd50660057c73a09c6cc9f1537e5773b4c6302e01e28ec22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2006/time#Instant> .
+_:cb134d360ee92070b4acd50660057c73a09c6cc9f1537e5773b4c6302e01e28ec22 <http://www.w3.org/2006/time#inXSDDate> "2025-04-03"^^<http://www.w3.org/2001/XMLSchema#date> .
 _:cb165ce581e3deb694b923912f75e3720f61674c94041a8a840091a173e075a9844 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2006/time#Interval> .
 _:cb165ce581e3deb694b923912f75e3720f61674c94041a8a840091a173e075a9844 <http://www.w3.org/2006/time#hasBeginning> _:cb17959537d7a9052d6705af5211a540d86714ac4fb2facf5022d3cce8a0de2962b .
 _:cb165ce581e3deb694b923912f75e3720f61674c94041a8a840091a173e075a9844 <http://www.w3.org/2006/time#hasEnd> _:cb1769d7160dc838f38b9ebc0fc9b9d98b3a6d51bfa220a62bac8d1c35508e5f840 .
@@ -319,28 +321,28 @@ _:cb1769d7160dc838f38b9ebc0fc9b9d98b3a6d51bfa220a62bac8d1c35508e5f840 <http://ww
 _:cb1769d7160dc838f38b9ebc0fc9b9d98b3a6d51bfa220a62bac8d1c35508e5f840 <http://www.w3.org/2006/time#inXSDDate> "2025-04-03"^^<http://www.w3.org/2001/XMLSchema#date> .
 _:cb17959537d7a9052d6705af5211a540d86714ac4fb2facf5022d3cce8a0de2962b <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2006/time#Instant> .
 _:cb17959537d7a9052d6705af5211a540d86714ac4fb2facf5022d3cce8a0de2962b <http://www.w3.org/2006/time#inXSDDate> "2025-04-02"^^<http://www.w3.org/2001/XMLSchema#date> .
+_:cb18e85f9c2107a0992a7cd4a757e6636634dae17199ce53f83b690329b8ae02aaa <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://model.ccmm.cz/vocabulary/ccmm#TimeReference> .
+_:cb18e85f9c2107a0992a7cd4a757e6636634dae17199ce53f83b690329b8ae02aaa <http://www.w3.org/2006/time#hasTime> _:cb134d360ee92070b4acd50660057c73a09c6cc9f1537e5773b4c6302e01e28ec22 .
+_:cb18e85f9c2107a0992a7cd4a757e6636634dae17199ce53f83b690329b8ae02aaa <https://model.ccmm.cz/vocabulary/ccmm#hasType> <https://w3id.org/tib/datacite/vocab/dateType/Available> .
 _:cb1a34b697bd0c2dc7a46f75182fcc759f6b857c501690309ea91c6f4e4073486ac <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/adms#Identifier> .
 _:cb1a34b697bd0c2dc7a46f75182fcc759f6b857c501690309ea91c6f4e4073486ac <http://www.w3.org/2004/02/skos/core#notation> "61388955" .
 _:cb1a34b697bd0c2dc7a46f75182fcc759f6b857c501690309ea91c6f4e4073486ac <https://model.ccmm.cz/vocabulary/ccmm#inScheme> <https://www.wikidata.org/entity/Q42302581> .
 _:cb1aebb43159ba264d6c2b6c3d399efb2a8e7af8b1c36c12cb27a925f408e4b8552 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2006/time#Instant> .
 _:cb1aebb43159ba264d6c2b6c3d399efb2a8e7af8b1c36c12cb27a925f408e4b8552 <http://www.w3.org/2006/time#inXSDDate> "2025-01-01"^^<http://www.w3.org/2001/XMLSchema#date> .
-_:cb1bd3060bc0ed0bb7ec378a15cfad55d2fe46d20421dad7f9016a22c06c9b6d2ca <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://model.ccmm.cz/vocabulary/ccmm#TimeReference> .
-_:cb1bd3060bc0ed0bb7ec378a15cfad55d2fe46d20421dad7f9016a22c06c9b6d2ca <http://www.w3.org/2006/time#hasTime> _:cb21384587a9ea180b842f06eafde80e28ec7dd930a44b861d9af74380e5ab12056 .
-_:cb1bd3060bc0ed0bb7ec378a15cfad55d2fe46d20421dad7f9016a22c06c9b6d2ca <https://model.ccmm.cz/vocabulary/ccmm#hasType> <https://vocabs.ccmm.cz/registry/codelist/TimeReference/Available> .
-_:cb1d446c218f5c67a90e7f817d566f29a1352a6c9c16593b519a1fbbd6e3bf010bf <http://purl.org/dc/terms/description> "Isolation of neutrophils from human blood samples, neutrophil stimulation with NETosis-inducing agents, microscopy data acquisition"@en .
-_:cb1d446c218f5c67a90e7f817d566f29a1352a6c9c16593b519a1fbbd6e3bf010bf <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/tib/datacite/class/Description> .
-_:cb1d446c218f5c67a90e7f817d566f29a1352a6c9c16593b519a1fbbd6e3bf010bf <https://w3id.org/tib/datacite/property/descriptionType> <https://vocabs.ccmm.cz/registry/codelist/DescriptionType/Methods> .
-_:cb1d4aeff1c094ff4caea3c09f5f3227698f58ce23026b1713683e57ff24f1485d3 <http://purl.org/dc/terms/description> "Data podporující strukturu neutrofilových extracelulárních pastí pocházejících z lidských neutrofilů"@cs .
-_:cb1d4aeff1c094ff4caea3c09f5f3227698f58ce23026b1713683e57ff24f1485d3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/tib/datacite/class/Description> .
-_:cb1d4aeff1c094ff4caea3c09f5f3227698f58ce23026b1713683e57ff24f1485d3 <https://w3id.org/tib/datacite/property/descriptionType> <https://vocabs.ccmm.cz/registry/codelist/DescriptionType/Abstract> .
-_:cb1d5946fe38afa81bef549a2c87eed80ea3359d9c4a996caaa683238928a028864 <http://purl.org/dc/terms/description> "Izolace neutrofilů ze vzorků lidské krve, stimulace neutrofilů pomocí agens indukujících NETózu, akvizice mikroskopických dat"@cs .
-_:cb1d5946fe38afa81bef549a2c87eed80ea3359d9c4a996caaa683238928a028864 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/tib/datacite/class/Description> .
-_:cb1d5946fe38afa81bef549a2c87eed80ea3359d9c4a996caaa683238928a028864 <https://w3id.org/tib/datacite/property/descriptionType> <https://vocabs.ccmm.cz/registry/codelist/DescriptionType/Methods> .
+_:cb1b2e6db97ea23f90d76e5fc11ec9c87ed60756eb826b7a9acdd6ea560ffcbde85 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://model.ccmm.cz/vocabulary/ccmm#TimeReference> .
+_:cb1b2e6db97ea23f90d76e5fc11ec9c87ed60756eb826b7a9acdd6ea560ffcbde85 <http://www.w3.org/2006/time#hasTime> _:cb165ce581e3deb694b923912f75e3720f61674c94041a8a840091a173e075a9844 .
+_:cb1b2e6db97ea23f90d76e5fc11ec9c87ed60756eb826b7a9acdd6ea560ffcbde85 <https://model.ccmm.cz/vocabulary/ccmm#hasType> <https://w3id.org/tib/datacite/vocab/dateType/Created> .
+_:cb1bb8dc1f8b565b2c6254e2738dfc5f778b4888ff479262f98c030ab5498e04cd5 <http://purl.org/dc/terms/alternative> "The Czech Science Foundation Grant Application Data Set"@en .
+_:cb1bb8dc1f8b565b2c6254e2738dfc5f778b4888ff479262f98c030ab5498e04cd5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://model.ccmm.cz/vocabulary/ccmm#AlternateTitle> .
+_:cb1bb8dc1f8b565b2c6254e2738dfc5f778b4888ff479262f98c030ab5498e04cd5 <https://model.ccmm.cz/vocabulary/ccmm#hasType> <https://w3id.org/tib/datacite/vocab/titleType/TranslatedTitle> .
 _:cb1d7a16f97359e2207e84d480fc9e3676382a5da2abf2c947c147edbaea3b28482 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Attribution> .
 _:cb1d7a16f97359e2207e84d480fc9e3676382a5da2abf2c947c147edbaea3b28482 <http://www.w3.org/ns/dcat#hadRole> <https://vocabs.ccmm.cz/registry/codelist/AgentRole/Publisher> .
 _:cb1d7a16f97359e2207e84d480fc9e3676382a5da2abf2c947c147edbaea3b28482 <http://www.w3.org/ns/prov#agent> _:cb1182e3595a2fa4e47c8e4aeca2a9e937bdcb915fc88a86a92a3dc19b4d3be4a1d .
 _:cb1f22b38e4a08974633123cfb61a3a0fd24bc2bbaac264ffa02b0d17dff4b3c7fe <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2006/time#Instant> .
 _:cb1f22b38e4a08974633123cfb61a3a0fd24bc2bbaac264ffa02b0d17dff4b3c7fe <http://www.w3.org/2006/time#inXSDDate> "2025-04-03"^^<http://www.w3.org/2001/XMLSchema#date> .
+_:cb1f9c3f44ecb62de721e2393aac0fe8bc35803ba4145ecf3f97cda09b772ba3681 <http://purl.org/dc/terms/description> "Data podporující strukturu neutrofilových extracelulárních pastí pocházejících z lidských neutrofilů"@cs .
+_:cb1f9c3f44ecb62de721e2393aac0fe8bc35803ba4145ecf3f97cda09b772ba3681 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/tib/datacite/class/Description> .
+_:cb1f9c3f44ecb62de721e2393aac0fe8bc35803ba4145ecf3f97cda09b772ba3681 <https://w3id.org/tib/datacite/property/descriptionType> <https://w3id.org/tib/datacite/property/descriptionType/Abstract> .
 _:cb204c36d0d77fee7304a9c1dce6caf75bb055c7037b6ea109c5499c62d30ffb830 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Person> .
 _:cb204c36d0d77fee7304a9c1dce6caf75bb055c7037b6ea109c5499c62d30ffb830 <http://www.w3.org/ns/adms#identifier> <https://orcid.org/0009-0008-0140-2075> .
 _:cb204c36d0d77fee7304a9c1dce6caf75bb055c7037b6ea109c5499c62d30ffb830 <http://xmlns.com/foaf/0.1/name> "Echezarreta Mendicute, Irene" .
@@ -349,50 +351,45 @@ _:cb20e22ab8f5318d66544ce6629d148af2e660a0069d9508e12eba01f430adae6c3 <http://ww
 _:cb20e22ab8f5318d66544ce6629d148af2e660a0069d9508e12eba01f430adae6c3 <http://www.w3.org/ns/adms#identifier> <https://ror.org/02sat5y74> .
 _:cb20e22ab8f5318d66544ce6629d148af2e660a0069d9508e12eba01f430adae6c3 <http://www.w3.org/ns/adms#identifier> _:cb1a34b697bd0c2dc7a46f75182fcc759f6b857c501690309ea91c6f4e4073486ac .
 _:cb20e22ab8f5318d66544ce6629d148af2e660a0069d9508e12eba01f430adae6c3 <http://xmlns.com/foaf/0.1/name> "Ústav fyzikální chemie J. Heyrovského AV ČR" .
-_:cb21060032f9104919c57f0d5bb0d7dad91335ed269230de6ccca7e5593b3e49543 <http://purl.org/dc/terms/alternative> "The Czech Science Foundation Grant Application Data Set"@en .
-_:cb21060032f9104919c57f0d5bb0d7dad91335ed269230de6ccca7e5593b3e49543 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://model.ccmm.cz/vocabulary/ccmm#AlternateTitle> .
-_:cb21060032f9104919c57f0d5bb0d7dad91335ed269230de6ccca7e5593b3e49543 <https://model.ccmm.cz/vocabulary/ccmm#hasType> <https://vocabs.ccmm.cz/registry/codelist/AlternateTitle/TranslatedTitle> .
 _:cb211f5974fe382d9af4baf23846a7ba23dbe9c27597a784522aab4f9bb5d970e59 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Attribution> .
 _:cb211f5974fe382d9af4baf23846a7ba23dbe9c27597a784522aab4f9bb5d970e59 <http://www.w3.org/ns/dcat#hadRole> <https://vocabs.ccmm.cz/registry/codelist/AgentRole/Publisher> .
 _:cb211f5974fe382d9af4baf23846a7ba23dbe9c27597a784522aab4f9bb5d970e59 <http://www.w3.org/ns/prov#agent> _:cb20e22ab8f5318d66544ce6629d148af2e660a0069d9508e12eba01f430adae6c3 .
-_:cb21384587a9ea180b842f06eafde80e28ec7dd930a44b861d9af74380e5ab12056 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2006/time#Instant> .
-_:cb21384587a9ea180b842f06eafde80e28ec7dd930a44b861d9af74380e5ab12056 <http://www.w3.org/2006/time#inXSDDate> "2025-04-03"^^<http://www.w3.org/2001/XMLSchema#date> .
 _:cb218abba0756e66d88403f38bc8ce90160d69cfa9f85cff7c1c10135e943fa4284 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Organization> .
 _:cb218abba0756e66d88403f38bc8ce90160d69cfa9f85cff7c1c10135e943fa4284 <http://www.w3.org/ns/adms#identifier> <https://ror.org/02sat5y74> .
 _:cb218abba0756e66d88403f38bc8ce90160d69cfa9f85cff7c1c10135e943fa4284 <http://www.w3.org/ns/adms#identifier> _:cb271a81731fb393088ee774274a6d4c39485382ef1cf39f0212ba0c517a32d2ef3 .
 _:cb218abba0756e66d88403f38bc8ce90160d69cfa9f85cff7c1c10135e943fa4284 <http://xmlns.com/foaf/0.1/name> "Ústav fyzikální chemie J. Heyrovského AV ČR" .
-_:cb21d02cd3f3183df4048583f0bd74184a61db5ba5a9a95e3daae3ad6585c5a3753 <http://purl.org/dc/terms/description> "Supplementary microscopy data"@en .
-_:cb21d02cd3f3183df4048583f0bd74184a61db5ba5a9a95e3daae3ad6585c5a3753 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/tib/datacite/class/Description> .
-_:cb21d02cd3f3183df4048583f0bd74184a61db5ba5a9a95e3daae3ad6585c5a3753 <https://w3id.org/tib/datacite/property/descriptionType> <https://vocabs.ccmm.cz/registry/codelist/DescriptionType/TechnicalInfo> .
-_:cb21fa0736d494b8da2865869b358f1867f9d876bb76abaf24de24b8d8d96939c74 <http://purl.org/dc/terms/description> "Data supporting the structure of neutrophil extracellular traps generated from human neutrophils"@en .
-_:cb21fa0736d494b8da2865869b358f1867f9d876bb76abaf24de24b8d8d96939c74 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/tib/datacite/class/Description> .
-_:cb21fa0736d494b8da2865869b358f1867f9d876bb76abaf24de24b8d8d96939c74 <https://w3id.org/tib/datacite/property/descriptionType> <https://vocabs.ccmm.cz/registry/codelist/DescriptionType/Abstract> .
 _:cb2244375fdb69d4dd808324bd4d2ec09257da2a498350d0303a1859433652a7779 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Person> .
 _:cb2244375fdb69d4dd808324bd4d2ec09257da2a498350d0303a1859433652a7779 <http://www.w3.org/ns/adms#identifier> <https://orcid.org/0000-0002-4606-1218> .
 _:cb2244375fdb69d4dd808324bd4d2ec09257da2a498350d0303a1859433652a7779 <http://xmlns.com/foaf/0.1/name> "Cebecauer, Marek" .
 _:cb2244375fdb69d4dd808324bd4d2ec09257da2a498350d0303a1859433652a7779 <https://model.ccmm.cz/vocabulary/ccmm#hasAffiliation> _:cb2b2ef94d6568d0b7040b805977d76eaabdc058c4a13e62e2cc54c2a8fd6be0dd5 .
-_:cb224e7f116692929881b5340919ab8fc61bee8d7568b029fdefdc3a0864c8fb008 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://model.ccmm.cz/vocabulary/ccmm#TimeReference> .
-_:cb224e7f116692929881b5340919ab8fc61bee8d7568b029fdefdc3a0864c8fb008 <http://www.w3.org/2006/time#hasTime> _:cb11fc1ed56543737249784481c94dce8667cff37b35b3007417a82f25c9d9125e3 .
-_:cb224e7f116692929881b5340919ab8fc61bee8d7568b029fdefdc3a0864c8fb008 <https://model.ccmm.cz/vocabulary/ccmm#hasType> <https://vocabs.ccmm.cz/registry/codelist/TimeReference/Issued> .
-_:cb234c5eae88b37bfa1059b425a2d06e04d24470fdcf0fe469168e845c428e20338 <http://purl.org/dc/terms/description> "Doplňující mikroskopická data"@cs .
-_:cb234c5eae88b37bfa1059b425a2d06e04d24470fdcf0fe469168e845c428e20338 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/tib/datacite/class/Description> .
-_:cb234c5eae88b37bfa1059b425a2d06e04d24470fdcf0fe469168e845c428e20338 <https://w3id.org/tib/datacite/property/descriptionType> <https://vocabs.ccmm.cz/registry/codelist/DescriptionType/TechnicalInfo> .
+_:cb23222143995039548bcf37005815a8765dadf152f9c34e17c40da3f1ebe0b2656 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://model.ccmm.cz/vocabulary/ccmm#TimeReference> .
+_:cb23222143995039548bcf37005815a8765dadf152f9c34e17c40da3f1ebe0b2656 <http://www.w3.org/2006/time#hasTime> _:cb11fc1ed56543737249784481c94dce8667cff37b35b3007417a82f25c9d9125e3 .
+_:cb23222143995039548bcf37005815a8765dadf152f9c34e17c40da3f1ebe0b2656 <https://model.ccmm.cz/vocabulary/ccmm#hasType> <https://w3id.org/tib/datacite/vocab/dateType/Issued> .
+_:cb233352a64f622ce513a1f6c85b738337b194cc85cdf7f28ce57110605e618df5e <http://purl.org/dc/terms/description> "Isolation of neutrophils from human blood samples, neutrophil stimulation with NETosis-inducing agents, microscopy data acquisition"@en .
+_:cb233352a64f622ce513a1f6c85b738337b194cc85cdf7f28ce57110605e618df5e <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/tib/datacite/class/Description> .
+_:cb233352a64f622ce513a1f6c85b738337b194cc85cdf7f28ce57110605e618df5e <https://w3id.org/tib/datacite/property/descriptionType> <https://w3id.org/tib/datacite/property/descriptionType/Methods> .
+_:cb23482d82f8b56d57f4770f778cf331a51f9ffd86023823e5f1d47812a342b5703 <http://purl.org/dc/terms/description> "Izolace neutrofilů ze vzorků lidské krve, stimulace neutrofilů pomocí agens indukujících NETózu, akvizice mikroskopických dat"@cs .
+_:cb23482d82f8b56d57f4770f778cf331a51f9ffd86023823e5f1d47812a342b5703 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/tib/datacite/class/Description> .
+_:cb23482d82f8b56d57f4770f778cf331a51f9ffd86023823e5f1d47812a342b5703 <https://w3id.org/tib/datacite/property/descriptionType> <https://w3id.org/tib/datacite/property/descriptionType/Methods> .
 _:cb234c656a24b898bc7666d288fec7aa0a28a519fbb80a89c93080a6be74a760e91 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Person> .
 _:cb234c656a24b898bc7666d288fec7aa0a28a519fbb80a89c93080a6be74a760e91 <http://www.w3.org/ns/adms#identifier> <https://orcid.org/0000-0003-1662-9092> .
 _:cb234c656a24b898bc7666d288fec7aa0a28a519fbb80a89c93080a6be74a760e91 <http://xmlns.com/foaf/0.1/name> "González Navarro, José Alfredo" .
 _:cb234c656a24b898bc7666d288fec7aa0a28a519fbb80a89c93080a6be74a760e91 <https://model.ccmm.cz/vocabulary/ccmm#hasAffiliation> _:cb218abba0756e66d88403f38bc8ce90160d69cfa9f85cff7c1c10135e943fa4284 .
-_:cb236ea6f12cc19fcfc9be36f0fee932188ff167e5eed1ebe2417245bcb5453c10c <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://model.ccmm.cz/vocabulary/ccmm#TimeReference> .
-_:cb236ea6f12cc19fcfc9be36f0fee932188ff167e5eed1ebe2417245bcb5453c10c <http://www.w3.org/2006/time#hasTime> _:cb165ce581e3deb694b923912f75e3720f61674c94041a8a840091a173e075a9844 .
-_:cb236ea6f12cc19fcfc9be36f0fee932188ff167e5eed1ebe2417245bcb5453c10c <https://model.ccmm.cz/vocabulary/ccmm#hasType> <https://vocabs.ccmm.cz/registry/codelist/TimeReference/Created> .
-_:cb2526124a09b3a1ade0f1499bc9b0c69a70bf7ba0d5a81c6df449776ba44f3ae7d <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://model.ccmm.cz/vocabulary/ccmm#TimeReference> .
-_:cb2526124a09b3a1ade0f1499bc9b0c69a70bf7ba0d5a81c6df449776ba44f3ae7d <http://www.w3.org/2006/time#hasTime> _:cb11fd5f5865c90b855630a398f1c79c00a28bb7fceb1b3e2a0c3745228083b3c97 .
-_:cb2526124a09b3a1ade0f1499bc9b0c69a70bf7ba0d5a81c6df449776ba44f3ae7d <https://model.ccmm.cz/vocabulary/ccmm#hasType> <https://vocabs.ccmm.cz/registry/codelist/TimeReference/Collected> .
+_:cb244b568a00b5e7749ba3ff36826cd9ba9fffe43c889f67510db401752ba394d22 <http://purl.org/dc/terms/description> "Data supporting the structure of neutrophil extracellular traps generated from human neutrophils"@en .
+_:cb244b568a00b5e7749ba3ff36826cd9ba9fffe43c889f67510db401752ba394d22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/tib/datacite/class/Description> .
+_:cb244b568a00b5e7749ba3ff36826cd9ba9fffe43c889f67510db401752ba394d22 <https://w3id.org/tib/datacite/property/descriptionType> <https://w3id.org/tib/datacite/property/descriptionType/Abstract> .
+_:cb25139e84daea99fee156d0a033f5765cd288b578e46a2451a09b161e4523850f5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://model.ccmm.cz/vocabulary/ccmm#TimeReference> .
+_:cb25139e84daea99fee156d0a033f5765cd288b578e46a2451a09b161e4523850f5 <http://www.w3.org/2006/time#hasTime> _:cb11fd5f5865c90b855630a398f1c79c00a28bb7fceb1b3e2a0c3745228083b3c97 .
+_:cb25139e84daea99fee156d0a033f5765cd288b578e46a2451a09b161e4523850f5 <https://model.ccmm.cz/vocabulary/ccmm#hasType> <https://w3id.org/tib/datacite/vocab/dateType/Collected> .
 _:cb256e10d853bf42dd976b424cf682183fa8b479a511801378fecf7d88459aa4815 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/adms#Identifier> .
 _:cb256e10d853bf42dd976b424cf682183fa8b479a511801378fecf7d88459aa4815 <http://www.w3.org/2004/02/skos/core#notation> "61388955" .
 _:cb256e10d853bf42dd976b424cf682183fa8b479a511801378fecf7d88459aa4815 <https://model.ccmm.cz/vocabulary/ccmm#inScheme> <https://www.wikidata.org/entity/Q42302581> .
 _:cb2618d5833d6110b767b1a5c3b74e1071dd8d761b553e8907813a516bedfad7216 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Attribution> .
 _:cb2618d5833d6110b767b1a5c3b74e1071dd8d761b553e8907813a516bedfad7216 <http://www.w3.org/ns/dcat#hadRole> <https://vocabs.ccmm.cz/registry/codelist/AgentRole/Creator> .
 _:cb2618d5833d6110b767b1a5c3b74e1071dd8d761b553e8907813a516bedfad7216 <http://www.w3.org/ns/prov#agent> _:cb204c36d0d77fee7304a9c1dce6caf75bb055c7037b6ea109c5499c62d30ffb830 .
+_:cb267c89b7719411f23322a1518394281c7223ccb90260e567f6599f54d1027c345 <http://purl.org/dc/terms/description> "Supplementary microscopy data"@en .
+_:cb267c89b7719411f23322a1518394281c7223ccb90260e567f6599f54d1027c345 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/tib/datacite/class/Description> .
+_:cb267c89b7719411f23322a1518394281c7223ccb90260e567f6599f54d1027c345 <https://w3id.org/tib/datacite/property/descriptionType> <https://w3id.org/tib/datacite/property/descriptionType/TechnicalInfo> .
 _:cb2693b6b8581f4f78a762348190152518f5d8726b0353cc56fe0e3ae1dda38bd52 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/adms#Identifier> .
 _:cb2693b6b8581f4f78a762348190152518f5d8726b0353cc56fe0e3ae1dda38bd52 <http://www.w3.org/2004/02/skos/core#notation> "61388955" .
 _:cb2693b6b8581f4f78a762348190152518f5d8726b0353cc56fe0e3ae1dda38bd52 <https://model.ccmm.cz/vocabulary/ccmm#inScheme> <https://www.wikidata.org/entity/Q42302581> .
@@ -410,6 +407,9 @@ _:cb279bd243f206ad69b3740d91af84b6ef9c8c1111b9363c136cbc19caac86fc4ae <http://ww
 _:cb279bd243f206ad69b3740d91af84b6ef9c8c1111b9363c136cbc19caac86fc4ae <http://www.w3.org/ns/adms#identifier> <https://ror.org/02sat5y74> .
 _:cb279bd243f206ad69b3740d91af84b6ef9c8c1111b9363c136cbc19caac86fc4ae <http://www.w3.org/ns/adms#identifier> _:cb271e5989593c2e6f696cdfe1165d4024085cf33031b1b271e855a3459377b3f11 .
 _:cb279bd243f206ad69b3740d91af84b6ef9c8c1111b9363c136cbc19caac86fc4ae <http://xmlns.com/foaf/0.1/name> "Ústav fyzikální chemie J. Heyrovského AV ČR" .
+_:cb27f8bb92072f4ff83ef6d18668f07dd6e28ce21127c76b936204764b8dcaf8f2a <http://purl.org/dc/terms/description> "Doplňující mikroskopická data"@cs .
+_:cb27f8bb92072f4ff83ef6d18668f07dd6e28ce21127c76b936204764b8dcaf8f2a <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/tib/datacite/class/Description> .
+_:cb27f8bb92072f4ff83ef6d18668f07dd6e28ce21127c76b936204764b8dcaf8f2a <https://w3id.org/tib/datacite/property/descriptionType> <https://w3id.org/tib/datacite/property/descriptionType/TechnicalInfo> .
 _:cb2842fc83390f99ffbcb2e248d6e56581ac71931062d41dfedb3056b054c20ee11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Attribution> .
 _:cb2842fc83390f99ffbcb2e248d6e56581ac71931062d41dfedb3056b054c20ee11 <http://www.w3.org/ns/dcat#hadRole> <https://vocabs.ccmm.cz/registry/codelist/AgentRole/Creator> .
 _:cb2842fc83390f99ffbcb2e248d6e56581ac71931062d41dfedb3056b054c20ee11 <http://www.w3.org/ns/prov#agent> _:cb234c656a24b898bc7666d288fec7aa0a28a519fbb80a89c93080a6be74a760e91 .

@@ -69,7 +69,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     datacite:classificationCode "10509" ;
 .
 
-<https://vocabs.ccmm.cz/registry/codelist/TimeReference/Created>
+<https://w3id.org/tib/datacite/vocab/dateType/Created>
     a skos:Concept ;
     skos:prefLabel "Created"@en ;
 .
@@ -114,7 +114,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
                     a time:Instant ;
                     time:inXSDDate "2024-05-01"^^xsd:date ;
                 ] ;
-            ccmm:hasType <https://vocabs.ccmm.cz/registry/codelist/TimeReference/Created> ;
+            ccmm:hasType <https://w3id.org/tib/datacite/vocab/dateType/Created> ;
         ] ;
     ccmm:isDescribedBy
         [

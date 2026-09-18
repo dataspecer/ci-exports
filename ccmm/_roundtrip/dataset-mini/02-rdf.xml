@@ -172,7 +172,7 @@
             </ns0:hasTime>
             <ns1:hasType>
                <rdf:Description xmlns:ns0="http://www.w3.org/2004/02/skos/core#"
-                                rdf:about="https://vocabs.ccmm.cz/registry/codelist/TimeReference/Created">
+                                rdf:about="https://w3id.org/tib/datacite/vocab/dateType/Created">
                   <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
                   <ns0:prefLabel xml:lang="en">Created</ns0:prefLabel>
                </rdf:Description>

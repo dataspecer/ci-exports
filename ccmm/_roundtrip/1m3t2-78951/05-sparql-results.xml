@@ -42,6 +42,16 @@
       <binding name="o"><bnode>b0_cb1f22b38e4a08974633123cfb61a3a0fd24bc2bbaac264ffa02b0d17dff4b3c7fe</bnode></binding>
     </result>
     <result>
+      <binding name="s"><bnode>b0_cb134d360ee92070b4acd50660057c73a09c6cc9f1537e5773b4c6302e01e28ec22</bnode></binding>
+      <binding name="p"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
+      <binding name="o"><uri>http://www.w3.org/2006/time#Instant</uri></binding>
+    </result>
+    <result>
+      <binding name="s"><bnode>b0_cb134d360ee92070b4acd50660057c73a09c6cc9f1537e5773b4c6302e01e28ec22</bnode></binding>
+      <binding name="p"><uri>http://www.w3.org/2006/time#inXSDDate</uri></binding>
+      <binding name="o"><literal datatype="http://www.w3.org/2001/XMLSchema#date">2025-04-03</literal></binding>
+    </result>
+    <result>
       <binding name="s"><bnode>b0_cb165ce581e3deb694b923912f75e3720f61674c94041a8a840091a173e075a9844</bnode></binding>
       <binding name="p"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
       <binding name="o"><uri>http://www.w3.org/2006/time#Interval</uri></binding>
@@ -77,6 +87,21 @@
       <binding name="o"><literal datatype="http://www.w3.org/2001/XMLSchema#date">2025-04-02</literal></binding>
     </result>
     <result>
+      <binding name="s"><bnode>b0_cb18e85f9c2107a0992a7cd4a757e6636634dae17199ce53f83b690329b8ae02aaa</bnode></binding>
+      <binding name="p"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
+      <binding name="o"><uri>https://model.ccmm.cz/vocabulary/ccmm#TimeReference</uri></binding>
+    </result>
+    <result>
+      <binding name="s"><bnode>b0_cb18e85f9c2107a0992a7cd4a757e6636634dae17199ce53f83b690329b8ae02aaa</bnode></binding>
+      <binding name="p"><uri>http://www.w3.org/2006/time#hasTime</uri></binding>
+      <binding name="o"><bnode>b0_cb134d360ee92070b4acd50660057c73a09c6cc9f1537e5773b4c6302e01e28ec22</bnode></binding>
+    </result>
+    <result>
+      <binding name="s"><bnode>b0_cb18e85f9c2107a0992a7cd4a757e6636634dae17199ce53f83b690329b8ae02aaa</bnode></binding>
+      <binding name="p"><uri>https://model.ccmm.cz/vocabulary/ccmm#hasType</uri></binding>
+      <binding name="o"><uri>https://w3id.org/tib/datacite/vocab/dateType/Available</uri></binding>
+    </result>
+    <result>
       <binding name="s"><bnode>b0_cb1a34b697bd0c2dc7a46f75182fcc759f6b857c501690309ea91c6f4e4073486ac</bnode></binding>
       <binding name="p"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
       <binding name="o"><uri>http://www.w3.org/ns/adms#Identifier</uri></binding>
@@ -102,64 +127,34 @@
       <binding name="o"><literal datatype="http://www.w3.org/2001/XMLSchema#date">2025-01-01</literal></binding>
     </result>
     <result>
-      <binding name="s"><bnode>b0_cb1bd3060bc0ed0bb7ec378a15cfad55d2fe46d20421dad7f9016a22c06c9b6d2ca</bnode></binding>
+      <binding name="s"><bnode>b0_cb1b2e6db97ea23f90d76e5fc11ec9c87ed60756eb826b7a9acdd6ea560ffcbde85</bnode></binding>
       <binding name="p"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
       <binding name="o"><uri>https://model.ccmm.cz/vocabulary/ccmm#TimeReference</uri></binding>
     </result>
     <result>
-      <binding name="s"><bnode>b0_cb1bd3060bc0ed0bb7ec378a15cfad55d2fe46d20421dad7f9016a22c06c9b6d2ca</bnode></binding>
+      <binding name="s"><bnode>b0_cb1b2e6db97ea23f90d76e5fc11ec9c87ed60756eb826b7a9acdd6ea560ffcbde85</bnode></binding>
       <binding name="p"><uri>http://www.w3.org/2006/time#hasTime</uri></binding>
-      <binding name="o"><bnode>b0_cb21384587a9ea180b842f06eafde80e28ec7dd930a44b861d9af74380e5ab12056</bnode></binding>
+      <binding name="o"><bnode>b0_cb165ce581e3deb694b923912f75e3720f61674c94041a8a840091a173e075a9844</bnode></binding>
     </result>
     <result>
-      <binding name="s"><bnode>b0_cb1bd3060bc0ed0bb7ec378a15cfad55d2fe46d20421dad7f9016a22c06c9b6d2ca</bnode></binding>
+      <binding name="s"><bnode>b0_cb1b2e6db97ea23f90d76e5fc11ec9c87ed60756eb826b7a9acdd6ea560ffcbde85</bnode></binding>
       <binding name="p"><uri>https://model.ccmm.cz/vocabulary/ccmm#hasType</uri></binding>
-      <binding name="o"><uri>https://vocabs.ccmm.cz/registry/codelist/TimeReference/Available</uri></binding>
+      <binding name="o"><uri>https://w3id.org/tib/datacite/vocab/dateType/Created</uri></binding>
     </result>
     <result>
-      <binding name="s"><bnode>b0_cb1d446c218f5c67a90e7f817d566f29a1352a6c9c16593b519a1fbbd6e3bf010bf</bnode></binding>
-      <binding name="p"><uri>http://purl.org/dc/terms/description</uri></binding>
-      <binding name="o"><literal xml:lang="en">Isolation of neutrophils from human blood samples, neutrophil stimulation with NETosis-inducing agents, microscopy data acquisition</literal></binding>
+      <binding name="s"><bnode>b0_cb1bb8dc1f8b565b2c6254e2738dfc5f778b4888ff479262f98c030ab5498e04cd5</bnode></binding>
+      <binding name="p"><uri>http://purl.org/dc/terms/alternative</uri></binding>
+      <binding name="o"><literal xml:lang="en">The Czech Science Foundation Grant Application Data Set</literal></binding>
     </result>
     <result>
-      <binding name="s"><bnode>b0_cb1d446c218f5c67a90e7f817d566f29a1352a6c9c16593b519a1fbbd6e3bf010bf</bnode></binding>
+      <binding name="s"><bnode>b0_cb1bb8dc1f8b565b2c6254e2738dfc5f778b4888ff479262f98c030ab5498e04cd5</bnode></binding>
       <binding name="p"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
-      <binding name="o"><uri>https://w3id.org/tib/datacite/class/Description</uri></binding>
+      <binding name="o"><uri>https://model.ccmm.cz/vocabulary/ccmm#AlternateTitle</uri></binding>
     </result>
     <result>
-      <binding name="s"><bnode>b0_cb1d446c218f5c67a90e7f817d566f29a1352a6c9c16593b519a1fbbd6e3bf010bf</bnode></binding>
-      <binding name="p"><uri>https://w3id.org/tib/datacite/property/descriptionType</uri></binding>
-      <binding name="o"><uri>https://vocabs.ccmm.cz/registry/codelist/DescriptionType/Methods</uri></binding>
-    </result>
-    <result>
-      <binding name="s"><bnode>b0_cb1d4aeff1c094ff4caea3c09f5f3227698f58ce23026b1713683e57ff24f1485d3</bnode></binding>
-      <binding name="p"><uri>http://purl.org/dc/terms/description</uri></binding>
-      <binding name="o"><literal xml:lang="cs">Data podporující strukturu neutrofilových extracelulárních pastí pocházejících z lidských neutrofilů</literal></binding>
-    </result>
-    <result>
-      <binding name="s"><bnode>b0_cb1d4aeff1c094ff4caea3c09f5f3227698f58ce23026b1713683e57ff24f1485d3</bnode></binding>
-      <binding name="p"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
-      <binding name="o"><uri>https://w3id.org/tib/datacite/class/Description</uri></binding>
-    </result>
-    <result>
-      <binding name="s"><bnode>b0_cb1d4aeff1c094ff4caea3c09f5f3227698f58ce23026b1713683e57ff24f1485d3</bnode></binding>
-      <binding name="p"><uri>https://w3id.org/tib/datacite/property/descriptionType</uri></binding>
-      <binding name="o"><uri>https://vocabs.ccmm.cz/registry/codelist/DescriptionType/Abstract</uri></binding>
-    </result>
-    <result>
-      <binding name="s"><bnode>b0_cb1d5946fe38afa81bef549a2c87eed80ea3359d9c4a996caaa683238928a028864</bnode></binding>
-      <binding name="p"><uri>http://purl.org/dc/terms/description</uri></binding>
-      <binding name="o"><literal xml:lang="cs">Izolace neutrofilů ze vzorků lidské krve, stimulace neutrofilů pomocí agens indukujících NETózu, akvizice mikroskopických dat</literal></binding>
-    </result>
-    <result>
-      <binding name="s"><bnode>b0_cb1d5946fe38afa81bef549a2c87eed80ea3359d9c4a996caaa683238928a028864</bnode></binding>
-      <binding name="p"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
-      <binding name="o"><uri>https://w3id.org/tib/datacite/class/Description</uri></binding>
-    </result>
-    <result>
-      <binding name="s"><bnode>b0_cb1d5946fe38afa81bef549a2c87eed80ea3359d9c4a996caaa683238928a028864</bnode></binding>
-      <binding name="p"><uri>https://w3id.org/tib/datacite/property/descriptionType</uri></binding>
-      <binding name="o"><uri>https://vocabs.ccmm.cz/registry/codelist/DescriptionType/Methods</uri></binding>
+      <binding name="s"><bnode>b0_cb1bb8dc1f8b565b2c6254e2738dfc5f778b4888ff479262f98c030ab5498e04cd5</bnode></binding>
+      <binding name="p"><uri>https://model.ccmm.cz/vocabulary/ccmm#hasType</uri></binding>
+      <binding name="o"><uri>https://w3id.org/tib/datacite/vocab/titleType/TranslatedTitle</uri></binding>
     </result>
     <result>
       <binding name="s"><bnode>b0_cb1d7a16f97359e2207e84d480fc9e3676382a5da2abf2c947c147edbaea3b28482</bnode></binding>
@@ -185,6 +180,21 @@
       <binding name="s"><bnode>b0_cb1f22b38e4a08974633123cfb61a3a0fd24bc2bbaac264ffa02b0d17dff4b3c7fe</bnode></binding>
       <binding name="p"><uri>http://www.w3.org/2006/time#inXSDDate</uri></binding>
       <binding name="o"><literal datatype="http://www.w3.org/2001/XMLSchema#date">2025-04-03</literal></binding>
+    </result>
+    <result>
+      <binding name="s"><bnode>b0_cb1f9c3f44ecb62de721e2393aac0fe8bc35803ba4145ecf3f97cda09b772ba3681</bnode></binding>
+      <binding name="p"><uri>http://purl.org/dc/terms/description</uri></binding>
+      <binding name="o"><literal xml:lang="cs">Data podporující strukturu neutrofilových extracelulárních pastí pocházejících z lidských neutrofilů</literal></binding>
+    </result>
+    <result>
+      <binding name="s"><bnode>b0_cb1f9c3f44ecb62de721e2393aac0fe8bc35803ba4145ecf3f97cda09b772ba3681</bnode></binding>
+      <binding name="p"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
+      <binding name="o"><uri>https://w3id.org/tib/datacite/class/Description</uri></binding>
+    </result>
+    <result>
+      <binding name="s"><bnode>b0_cb1f9c3f44ecb62de721e2393aac0fe8bc35803ba4145ecf3f97cda09b772ba3681</bnode></binding>
+      <binding name="p"><uri>https://w3id.org/tib/datacite/property/descriptionType</uri></binding>
+      <binding name="o"><uri>https://w3id.org/tib/datacite/property/descriptionType/Abstract</uri></binding>
     </result>
     <result>
       <binding name="s"><bnode>b0_cb204c36d0d77fee7304a9c1dce6caf75bb055c7037b6ea109c5499c62d30ffb830</bnode></binding>
@@ -227,21 +237,6 @@
       <binding name="o"><literal datatype="http://www.w3.org/2001/XMLSchema#string">Ústav fyzikální chemie J. Heyrovského AV ČR</literal></binding>
     </result>
     <result>
-      <binding name="s"><bnode>b0_cb21060032f9104919c57f0d5bb0d7dad91335ed269230de6ccca7e5593b3e49543</bnode></binding>
-      <binding name="p"><uri>http://purl.org/dc/terms/alternative</uri></binding>
-      <binding name="o"><literal xml:lang="en">The Czech Science Foundation Grant Application Data Set</literal></binding>
-    </result>
-    <result>
-      <binding name="s"><bnode>b0_cb21060032f9104919c57f0d5bb0d7dad91335ed269230de6ccca7e5593b3e49543</bnode></binding>
-      <binding name="p"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
-      <binding name="o"><uri>https://model.ccmm.cz/vocabulary/ccmm#AlternateTitle</uri></binding>
-    </result>
-    <result>
-      <binding name="s"><bnode>b0_cb21060032f9104919c57f0d5bb0d7dad91335ed269230de6ccca7e5593b3e49543</bnode></binding>
-      <binding name="p"><uri>https://model.ccmm.cz/vocabulary/ccmm#hasType</uri></binding>
-      <binding name="o"><uri>https://vocabs.ccmm.cz/registry/codelist/AlternateTitle/TranslatedTitle</uri></binding>
-    </result>
-    <result>
       <binding name="s"><bnode>b0_cb211f5974fe382d9af4baf23846a7ba23dbe9c27597a784522aab4f9bb5d970e59</bnode></binding>
       <binding name="p"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
       <binding name="o"><uri>http://www.w3.org/ns/prov#Attribution</uri></binding>
@@ -255,16 +250,6 @@
       <binding name="s"><bnode>b0_cb211f5974fe382d9af4baf23846a7ba23dbe9c27597a784522aab4f9bb5d970e59</bnode></binding>
       <binding name="p"><uri>http://www.w3.org/ns/prov#agent</uri></binding>
       <binding name="o"><bnode>b0_cb20e22ab8f5318d66544ce6629d148af2e660a0069d9508e12eba01f430adae6c3</bnode></binding>
-    </result>
-    <result>
-      <binding name="s"><bnode>b0_cb21384587a9ea180b842f06eafde80e28ec7dd930a44b861d9af74380e5ab12056</bnode></binding>
-      <binding name="p"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
-      <binding name="o"><uri>http://www.w3.org/2006/time#Instant</uri></binding>
-    </result>
-    <result>
-      <binding name="s"><bnode>b0_cb21384587a9ea180b842f06eafde80e28ec7dd930a44b861d9af74380e5ab12056</bnode></binding>
-      <binding name="p"><uri>http://www.w3.org/2006/time#inXSDDate</uri></binding>
-      <binding name="o"><literal datatype="http://www.w3.org/2001/XMLSchema#date">2025-04-03</literal></binding>
     </result>
     <result>
       <binding name="s"><bnode>b0_cb218abba0756e66d88403f38bc8ce90160d69cfa9f85cff7c1c10135e943fa4284</bnode></binding>
@@ -287,36 +272,6 @@
       <binding name="o"><literal datatype="http://www.w3.org/2001/XMLSchema#string">Ústav fyzikální chemie J. Heyrovského AV ČR</literal></binding>
     </result>
     <result>
-      <binding name="s"><bnode>b0_cb21d02cd3f3183df4048583f0bd74184a61db5ba5a9a95e3daae3ad6585c5a3753</bnode></binding>
-      <binding name="p"><uri>http://purl.org/dc/terms/description</uri></binding>
-      <binding name="o"><literal xml:lang="en">Supplementary microscopy data</literal></binding>
-    </result>
-    <result>
-      <binding name="s"><bnode>b0_cb21d02cd3f3183df4048583f0bd74184a61db5ba5a9a95e3daae3ad6585c5a3753</bnode></binding>
-      <binding name="p"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
-      <binding name="o"><uri>https://w3id.org/tib/datacite/class/Description</uri></binding>
-    </result>
-    <result>
-      <binding name="s"><bnode>b0_cb21d02cd3f3183df4048583f0bd74184a61db5ba5a9a95e3daae3ad6585c5a3753</bnode></binding>
-      <binding name="p"><uri>https://w3id.org/tib/datacite/property/descriptionType</uri></binding>
-      <binding name="o"><uri>https://vocabs.ccmm.cz/registry/codelist/DescriptionType/TechnicalInfo</uri></binding>
-    </result>
-    <result>
-      <binding name="s"><bnode>b0_cb21fa0736d494b8da2865869b358f1867f9d876bb76abaf24de24b8d8d96939c74</bnode></binding>
-      <binding name="p"><uri>http://purl.org/dc/terms/description</uri></binding>
-      <binding name="o"><literal xml:lang="en">Data supporting the structure of neutrophil extracellular traps generated from human neutrophils</literal></binding>
-    </result>
-    <result>
-      <binding name="s"><bnode>b0_cb21fa0736d494b8da2865869b358f1867f9d876bb76abaf24de24b8d8d96939c74</bnode></binding>
-      <binding name="p"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
-      <binding name="o"><uri>https://w3id.org/tib/datacite/class/Description</uri></binding>
-    </result>
-    <result>
-      <binding name="s"><bnode>b0_cb21fa0736d494b8da2865869b358f1867f9d876bb76abaf24de24b8d8d96939c74</bnode></binding>
-      <binding name="p"><uri>https://w3id.org/tib/datacite/property/descriptionType</uri></binding>
-      <binding name="o"><uri>https://vocabs.ccmm.cz/registry/codelist/DescriptionType/Abstract</uri></binding>
-    </result>
-    <result>
       <binding name="s"><bnode>b0_cb2244375fdb69d4dd808324bd4d2ec09257da2a498350d0303a1859433652a7779</bnode></binding>
       <binding name="p"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
       <binding name="o"><uri>http://www.w3.org/ns/prov#Person</uri></binding>
@@ -337,34 +292,49 @@
       <binding name="o"><bnode>b0_cb2b2ef94d6568d0b7040b805977d76eaabdc058c4a13e62e2cc54c2a8fd6be0dd5</bnode></binding>
     </result>
     <result>
-      <binding name="s"><bnode>b0_cb224e7f116692929881b5340919ab8fc61bee8d7568b029fdefdc3a0864c8fb008</bnode></binding>
+      <binding name="s"><bnode>b0_cb23222143995039548bcf37005815a8765dadf152f9c34e17c40da3f1ebe0b2656</bnode></binding>
       <binding name="p"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
       <binding name="o"><uri>https://model.ccmm.cz/vocabulary/ccmm#TimeReference</uri></binding>
     </result>
     <result>
-      <binding name="s"><bnode>b0_cb224e7f116692929881b5340919ab8fc61bee8d7568b029fdefdc3a0864c8fb008</bnode></binding>
+      <binding name="s"><bnode>b0_cb23222143995039548bcf37005815a8765dadf152f9c34e17c40da3f1ebe0b2656</bnode></binding>
       <binding name="p"><uri>http://www.w3.org/2006/time#hasTime</uri></binding>
       <binding name="o"><bnode>b0_cb11fc1ed56543737249784481c94dce8667cff37b35b3007417a82f25c9d9125e3</bnode></binding>
     </result>
     <result>
-      <binding name="s"><bnode>b0_cb224e7f116692929881b5340919ab8fc61bee8d7568b029fdefdc3a0864c8fb008</bnode></binding>
+      <binding name="s"><bnode>b0_cb23222143995039548bcf37005815a8765dadf152f9c34e17c40da3f1ebe0b2656</bnode></binding>
       <binding name="p"><uri>https://model.ccmm.cz/vocabulary/ccmm#hasType</uri></binding>
-      <binding name="o"><uri>https://vocabs.ccmm.cz/registry/codelist/TimeReference/Issued</uri></binding>
+      <binding name="o"><uri>https://w3id.org/tib/datacite/vocab/dateType/Issued</uri></binding>
     </result>
     <result>
-      <binding name="s"><bnode>b0_cb234c5eae88b37bfa1059b425a2d06e04d24470fdcf0fe469168e845c428e20338</bnode></binding>
+      <binding name="s"><bnode>b0_cb233352a64f622ce513a1f6c85b738337b194cc85cdf7f28ce57110605e618df5e</bnode></binding>
       <binding name="p"><uri>http://purl.org/dc/terms/description</uri></binding>
-      <binding name="o"><literal xml:lang="cs">Doplňující mikroskopická data</literal></binding>
+      <binding name="o"><literal xml:lang="en">Isolation of neutrophils from human blood samples, neutrophil stimulation with NETosis-inducing agents, microscopy data acquisition</literal></binding>
     </result>
     <result>
-      <binding name="s"><bnode>b0_cb234c5eae88b37bfa1059b425a2d06e04d24470fdcf0fe469168e845c428e20338</bnode></binding>
+      <binding name="s"><bnode>b0_cb233352a64f622ce513a1f6c85b738337b194cc85cdf7f28ce57110605e618df5e</bnode></binding>
       <binding name="p"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
       <binding name="o"><uri>https://w3id.org/tib/datacite/class/Description</uri></binding>
     </result>
     <result>
-      <binding name="s"><bnode>b0_cb234c5eae88b37bfa1059b425a2d06e04d24470fdcf0fe469168e845c428e20338</bnode></binding>
+      <binding name="s"><bnode>b0_cb233352a64f622ce513a1f6c85b738337b194cc85cdf7f28ce57110605e618df5e</bnode></binding>
       <binding name="p"><uri>https://w3id.org/tib/datacite/property/descriptionType</uri></binding>
-      <binding name="o"><uri>https://vocabs.ccmm.cz/registry/codelist/DescriptionType/TechnicalInfo</uri></binding>
+      <binding name="o"><uri>https://w3id.org/tib/datacite/property/descriptionType/Methods</uri></binding>
+    </result>
+    <result>
+      <binding name="s"><bnode>b0_cb23482d82f8b56d57f4770f778cf331a51f9ffd86023823e5f1d47812a342b5703</bnode></binding>
+      <binding name="p"><uri>http://purl.org/dc/terms/description</uri></binding>
+      <binding name="o"><literal xml:lang="cs">Izolace neutrofilů ze vzorků lidské krve, stimulace neutrofilů pomocí agens indukujících NETózu, akvizice mikroskopických dat</literal></binding>
+    </result>
+    <result>
+      <binding name="s"><bnode>b0_cb23482d82f8b56d57f4770f778cf331a51f9ffd86023823e5f1d47812a342b5703</bnode></binding>
+      <binding name="p"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
+      <binding name="o"><uri>https://w3id.org/tib/datacite/class/Description</uri></binding>
+    </result>
+    <result>
+      <binding name="s"><bnode>b0_cb23482d82f8b56d57f4770f778cf331a51f9ffd86023823e5f1d47812a342b5703</bnode></binding>
+      <binding name="p"><uri>https://w3id.org/tib/datacite/property/descriptionType</uri></binding>
+      <binding name="o"><uri>https://w3id.org/tib/datacite/property/descriptionType/Methods</uri></binding>
     </result>
     <result>
       <binding name="s"><bnode>b0_cb234c656a24b898bc7666d288fec7aa0a28a519fbb80a89c93080a6be74a760e91</bnode></binding>
@@ -387,34 +357,34 @@
       <binding name="o"><bnode>b0_cb218abba0756e66d88403f38bc8ce90160d69cfa9f85cff7c1c10135e943fa4284</bnode></binding>
     </result>
     <result>
-      <binding name="s"><bnode>b0_cb236ea6f12cc19fcfc9be36f0fee932188ff167e5eed1ebe2417245bcb5453c10c</bnode></binding>
+      <binding name="s"><bnode>b0_cb244b568a00b5e7749ba3ff36826cd9ba9fffe43c889f67510db401752ba394d22</bnode></binding>
+      <binding name="p"><uri>http://purl.org/dc/terms/description</uri></binding>
+      <binding name="o"><literal xml:lang="en">Data supporting the structure of neutrophil extracellular traps generated from human neutrophils</literal></binding>
+    </result>
+    <result>
+      <binding name="s"><bnode>b0_cb244b568a00b5e7749ba3ff36826cd9ba9fffe43c889f67510db401752ba394d22</bnode></binding>
+      <binding name="p"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
+      <binding name="o"><uri>https://w3id.org/tib/datacite/class/Description</uri></binding>
+    </result>
+    <result>
+      <binding name="s"><bnode>b0_cb244b568a00b5e7749ba3ff36826cd9ba9fffe43c889f67510db401752ba394d22</bnode></binding>
+      <binding name="p"><uri>https://w3id.org/tib/datacite/property/descriptionType</uri></binding>
+      <binding name="o"><uri>https://w3id.org/tib/datacite/property/descriptionType/Abstract</uri></binding>
+    </result>
+    <result>
+      <binding name="s"><bnode>b0_cb25139e84daea99fee156d0a033f5765cd288b578e46a2451a09b161e4523850f5</bnode></binding>
       <binding name="p"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
       <binding name="o"><uri>https://model.ccmm.cz/vocabulary/ccmm#TimeReference</uri></binding>
     </result>
     <result>
-      <binding name="s"><bnode>b0_cb236ea6f12cc19fcfc9be36f0fee932188ff167e5eed1ebe2417245bcb5453c10c</bnode></binding>
-      <binding name="p"><uri>http://www.w3.org/2006/time#hasTime</uri></binding>
-      <binding name="o"><bnode>b0_cb165ce581e3deb694b923912f75e3720f61674c94041a8a840091a173e075a9844</bnode></binding>
-    </result>
-    <result>
-      <binding name="s"><bnode>b0_cb236ea6f12cc19fcfc9be36f0fee932188ff167e5eed1ebe2417245bcb5453c10c</bnode></binding>
-      <binding name="p"><uri>https://model.ccmm.cz/vocabulary/ccmm#hasType</uri></binding>
-      <binding name="o"><uri>https://vocabs.ccmm.cz/registry/codelist/TimeReference/Created</uri></binding>
-    </result>
-    <result>
-      <binding name="s"><bnode>b0_cb2526124a09b3a1ade0f1499bc9b0c69a70bf7ba0d5a81c6df449776ba44f3ae7d</bnode></binding>
-      <binding name="p"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
-      <binding name="o"><uri>https://model.ccmm.cz/vocabulary/ccmm#TimeReference</uri></binding>
-    </result>
-    <result>
-      <binding name="s"><bnode>b0_cb2526124a09b3a1ade0f1499bc9b0c69a70bf7ba0d5a81c6df449776ba44f3ae7d</bnode></binding>
+      <binding name="s"><bnode>b0_cb25139e84daea99fee156d0a033f5765cd288b578e46a2451a09b161e4523850f5</bnode></binding>
       <binding name="p"><uri>http://www.w3.org/2006/time#hasTime</uri></binding>
       <binding name="o"><bnode>b0_cb11fd5f5865c90b855630a398f1c79c00a28bb7fceb1b3e2a0c3745228083b3c97</bnode></binding>
     </result>
     <result>
-      <binding name="s"><bnode>b0_cb2526124a09b3a1ade0f1499bc9b0c69a70bf7ba0d5a81c6df449776ba44f3ae7d</bnode></binding>
+      <binding name="s"><bnode>b0_cb25139e84daea99fee156d0a033f5765cd288b578e46a2451a09b161e4523850f5</bnode></binding>
       <binding name="p"><uri>https://model.ccmm.cz/vocabulary/ccmm#hasType</uri></binding>
-      <binding name="o"><uri>https://vocabs.ccmm.cz/registry/codelist/TimeReference/Collected</uri></binding>
+      <binding name="o"><uri>https://w3id.org/tib/datacite/vocab/dateType/Collected</uri></binding>
     </result>
     <result>
       <binding name="s"><bnode>b0_cb256e10d853bf42dd976b424cf682183fa8b479a511801378fecf7d88459aa4815</bnode></binding>
@@ -445,6 +415,21 @@
       <binding name="s"><bnode>b0_cb2618d5833d6110b767b1a5c3b74e1071dd8d761b553e8907813a516bedfad7216</bnode></binding>
       <binding name="p"><uri>http://www.w3.org/ns/prov#agent</uri></binding>
       <binding name="o"><bnode>b0_cb204c36d0d77fee7304a9c1dce6caf75bb055c7037b6ea109c5499c62d30ffb830</bnode></binding>
+    </result>
+    <result>
+      <binding name="s"><bnode>b0_cb267c89b7719411f23322a1518394281c7223ccb90260e567f6599f54d1027c345</bnode></binding>
+      <binding name="p"><uri>http://purl.org/dc/terms/description</uri></binding>
+      <binding name="o"><literal xml:lang="en">Supplementary microscopy data</literal></binding>
+    </result>
+    <result>
+      <binding name="s"><bnode>b0_cb267c89b7719411f23322a1518394281c7223ccb90260e567f6599f54d1027c345</bnode></binding>
+      <binding name="p"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
+      <binding name="o"><uri>https://w3id.org/tib/datacite/class/Description</uri></binding>
+    </result>
+    <result>
+      <binding name="s"><bnode>b0_cb267c89b7719411f23322a1518394281c7223ccb90260e567f6599f54d1027c345</bnode></binding>
+      <binding name="p"><uri>https://w3id.org/tib/datacite/property/descriptionType</uri></binding>
+      <binding name="o"><uri>https://w3id.org/tib/datacite/property/descriptionType/TechnicalInfo</uri></binding>
     </result>
     <result>
       <binding name="s"><bnode>b0_cb2693b6b8581f4f78a762348190152518f5d8726b0353cc56fe0e3ae1dda38bd52</bnode></binding>
@@ -530,6 +515,21 @@
       <binding name="s"><bnode>b0_cb279bd243f206ad69b3740d91af84b6ef9c8c1111b9363c136cbc19caac86fc4ae</bnode></binding>
       <binding name="p"><uri>http://xmlns.com/foaf/0.1/name</uri></binding>
       <binding name="o"><literal datatype="http://www.w3.org/2001/XMLSchema#string">Ústav fyzikální chemie J. Heyrovského AV ČR</literal></binding>
+    </result>
+    <result>
+      <binding name="s"><bnode>b0_cb27f8bb92072f4ff83ef6d18668f07dd6e28ce21127c76b936204764b8dcaf8f2a</bnode></binding>
+      <binding name="p"><uri>http://purl.org/dc/terms/description</uri></binding>
+      <binding name="o"><literal xml:lang="cs">Doplňující mikroskopická data</literal></binding>
+    </result>
+    <result>
+      <binding name="s"><bnode>b0_cb27f8bb92072f4ff83ef6d18668f07dd6e28ce21127c76b936204764b8dcaf8f2a</bnode></binding>
+      <binding name="p"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
+      <binding name="o"><uri>https://w3id.org/tib/datacite/class/Description</uri></binding>
+    </result>
+    <result>
+      <binding name="s"><bnode>b0_cb27f8bb92072f4ff83ef6d18668f07dd6e28ce21127c76b936204764b8dcaf8f2a</bnode></binding>
+      <binding name="p"><uri>https://w3id.org/tib/datacite/property/descriptionType</uri></binding>
+      <binding name="o"><uri>https://w3id.org/tib/datacite/property/descriptionType/TechnicalInfo</uri></binding>
     </result>
     <result>
       <binding name="s"><bnode>b0_cb2842fc83390f99ffbcb2e248d6e56581ac71931062d41dfedb3056b054c20ee11</bnode></binding>
@@ -1679,7 +1679,7 @@
     <result>
       <binding name="s"><uri>https://doi.org/10.48700/datst.1m3t2-78951</uri></binding>
       <binding name="p"><uri>https://model.ccmm.cz/vocabulary/ccmm#hasAlternateTitle</uri></binding>
-      <binding name="o"><bnode>b0_cb21060032f9104919c57f0d5bb0d7dad91335ed269230de6ccca7e5593b3e49543</bnode></binding>
+      <binding name="o"><bnode>b0_cb1bb8dc1f8b565b2c6254e2738dfc5f778b4888ff479262f98c030ab5498e04cd5</bnode></binding>
     </result>
     <result>
       <binding name="s"><uri>https://doi.org/10.48700/datst.1m3t2-78951</uri></binding>
@@ -1689,22 +1689,22 @@
     <result>
       <binding name="s"><uri>https://doi.org/10.48700/datst.1m3t2-78951</uri></binding>
       <binding name="p"><uri>https://model.ccmm.cz/vocabulary/ccmm#hasTimeReference</uri></binding>
-      <binding name="o"><bnode>b0_cb1bd3060bc0ed0bb7ec378a15cfad55d2fe46d20421dad7f9016a22c06c9b6d2ca</bnode></binding>
+      <binding name="o"><bnode>b0_cb18e85f9c2107a0992a7cd4a757e6636634dae17199ce53f83b690329b8ae02aaa</bnode></binding>
     </result>
     <result>
       <binding name="s"><uri>https://doi.org/10.48700/datst.1m3t2-78951</uri></binding>
       <binding name="p"><uri>https://model.ccmm.cz/vocabulary/ccmm#hasTimeReference</uri></binding>
-      <binding name="o"><bnode>b0_cb224e7f116692929881b5340919ab8fc61bee8d7568b029fdefdc3a0864c8fb008</bnode></binding>
+      <binding name="o"><bnode>b0_cb1b2e6db97ea23f90d76e5fc11ec9c87ed60756eb826b7a9acdd6ea560ffcbde85</bnode></binding>
     </result>
     <result>
       <binding name="s"><uri>https://doi.org/10.48700/datst.1m3t2-78951</uri></binding>
       <binding name="p"><uri>https://model.ccmm.cz/vocabulary/ccmm#hasTimeReference</uri></binding>
-      <binding name="o"><bnode>b0_cb236ea6f12cc19fcfc9be36f0fee932188ff167e5eed1ebe2417245bcb5453c10c</bnode></binding>
+      <binding name="o"><bnode>b0_cb23222143995039548bcf37005815a8765dadf152f9c34e17c40da3f1ebe0b2656</bnode></binding>
     </result>
     <result>
       <binding name="s"><uri>https://doi.org/10.48700/datst.1m3t2-78951</uri></binding>
       <binding name="p"><uri>https://model.ccmm.cz/vocabulary/ccmm#hasTimeReference</uri></binding>
-      <binding name="o"><bnode>b0_cb2526124a09b3a1ade0f1499bc9b0c69a70bf7ba0d5a81c6df449776ba44f3ae7d</bnode></binding>
+      <binding name="o"><bnode>b0_cb25139e84daea99fee156d0a033f5765cd288b578e46a2451a09b161e4523850f5</bnode></binding>
     </result>
     <result>
       <binding name="s"><uri>https://doi.org/10.48700/datst.1m3t2-78951</uri></binding>
@@ -1724,32 +1724,32 @@
     <result>
       <binding name="s"><uri>https://doi.org/10.48700/datst.1m3t2-78951</uri></binding>
       <binding name="p"><uri>https://w3id.org/tib/datacite/property/description</uri></binding>
-      <binding name="o"><bnode>b0_cb1d446c218f5c67a90e7f817d566f29a1352a6c9c16593b519a1fbbd6e3bf010bf</bnode></binding>
+      <binding name="o"><bnode>b0_cb1f9c3f44ecb62de721e2393aac0fe8bc35803ba4145ecf3f97cda09b772ba3681</bnode></binding>
     </result>
     <result>
       <binding name="s"><uri>https://doi.org/10.48700/datst.1m3t2-78951</uri></binding>
       <binding name="p"><uri>https://w3id.org/tib/datacite/property/description</uri></binding>
-      <binding name="o"><bnode>b0_cb1d4aeff1c094ff4caea3c09f5f3227698f58ce23026b1713683e57ff24f1485d3</bnode></binding>
+      <binding name="o"><bnode>b0_cb233352a64f622ce513a1f6c85b738337b194cc85cdf7f28ce57110605e618df5e</bnode></binding>
     </result>
     <result>
       <binding name="s"><uri>https://doi.org/10.48700/datst.1m3t2-78951</uri></binding>
       <binding name="p"><uri>https://w3id.org/tib/datacite/property/description</uri></binding>
-      <binding name="o"><bnode>b0_cb1d5946fe38afa81bef549a2c87eed80ea3359d9c4a996caaa683238928a028864</bnode></binding>
+      <binding name="o"><bnode>b0_cb23482d82f8b56d57f4770f778cf331a51f9ffd86023823e5f1d47812a342b5703</bnode></binding>
     </result>
     <result>
       <binding name="s"><uri>https://doi.org/10.48700/datst.1m3t2-78951</uri></binding>
       <binding name="p"><uri>https://w3id.org/tib/datacite/property/description</uri></binding>
-      <binding name="o"><bnode>b0_cb21d02cd3f3183df4048583f0bd74184a61db5ba5a9a95e3daae3ad6585c5a3753</bnode></binding>
+      <binding name="o"><bnode>b0_cb244b568a00b5e7749ba3ff36826cd9ba9fffe43c889f67510db401752ba394d22</bnode></binding>
     </result>
     <result>
       <binding name="s"><uri>https://doi.org/10.48700/datst.1m3t2-78951</uri></binding>
       <binding name="p"><uri>https://w3id.org/tib/datacite/property/description</uri></binding>
-      <binding name="o"><bnode>b0_cb21fa0736d494b8da2865869b358f1867f9d876bb76abaf24de24b8d8d96939c74</bnode></binding>
+      <binding name="o"><bnode>b0_cb267c89b7719411f23322a1518394281c7223ccb90260e567f6599f54d1027c345</bnode></binding>
     </result>
     <result>
       <binding name="s"><uri>https://doi.org/10.48700/datst.1m3t2-78951</uri></binding>
       <binding name="p"><uri>https://w3id.org/tib/datacite/property/description</uri></binding>
-      <binding name="o"><bnode>b0_cb234c5eae88b37bfa1059b425a2d06e04d24470fdcf0fe469168e845c428e20338</bnode></binding>
+      <binding name="o"><bnode>b0_cb27f8bb92072f4ff83ef6d18668f07dd6e28ce21127c76b936204764b8dcaf8f2a</bnode></binding>
     </result>
     <result>
       <binding name="s"><uri>https://doi.org/10.48700/datst.1m3t2-78951</uri></binding>
@@ -1947,66 +1947,6 @@
       <binding name="o"><literal xml:lang="cs">Vydavatel</literal></binding>
     </result>
     <result>
-      <binding name="s"><uri>https://vocabs.ccmm.cz/registry/codelist/AlternateTitle/TranslatedTitle</uri></binding>
-      <binding name="p"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
-      <binding name="o"><uri>http://www.w3.org/2004/02/skos/core#Concept</uri></binding>
-    </result>
-    <result>
-      <binding name="s"><uri>https://vocabs.ccmm.cz/registry/codelist/AlternateTitle/TranslatedTitle</uri></binding>
-      <binding name="p"><uri>http://www.w3.org/2004/02/skos/core#prefLabel</uri></binding>
-      <binding name="o"><literal xml:lang="cs">Přeložený název</literal></binding>
-    </result>
-    <result>
-      <binding name="s"><uri>https://vocabs.ccmm.cz/registry/codelist/AlternateTitle/TranslatedTitle</uri></binding>
-      <binding name="p"><uri>http://www.w3.org/2004/02/skos/core#prefLabel</uri></binding>
-      <binding name="o"><literal xml:lang="en">Translated Title</literal></binding>
-    </result>
-    <result>
-      <binding name="s"><uri>https://vocabs.ccmm.cz/registry/codelist/DescriptionType/Abstract</uri></binding>
-      <binding name="p"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
-      <binding name="o"><uri>http://www.w3.org/2004/02/skos/core#Concept</uri></binding>
-    </result>
-    <result>
-      <binding name="s"><uri>https://vocabs.ccmm.cz/registry/codelist/DescriptionType/Abstract</uri></binding>
-      <binding name="p"><uri>http://www.w3.org/2004/02/skos/core#prefLabel</uri></binding>
-      <binding name="o"><literal xml:lang="en">Abstract</literal></binding>
-    </result>
-    <result>
-      <binding name="s"><uri>https://vocabs.ccmm.cz/registry/codelist/DescriptionType/Abstract</uri></binding>
-      <binding name="p"><uri>http://www.w3.org/2004/02/skos/core#prefLabel</uri></binding>
-      <binding name="o"><literal xml:lang="cs">Abstrakt</literal></binding>
-    </result>
-    <result>
-      <binding name="s"><uri>https://vocabs.ccmm.cz/registry/codelist/DescriptionType/Methods</uri></binding>
-      <binding name="p"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
-      <binding name="o"><uri>http://www.w3.org/2004/02/skos/core#Concept</uri></binding>
-    </result>
-    <result>
-      <binding name="s"><uri>https://vocabs.ccmm.cz/registry/codelist/DescriptionType/Methods</uri></binding>
-      <binding name="p"><uri>http://www.w3.org/2004/02/skos/core#prefLabel</uri></binding>
-      <binding name="o"><literal xml:lang="en">Methods</literal></binding>
-    </result>
-    <result>
-      <binding name="s"><uri>https://vocabs.ccmm.cz/registry/codelist/DescriptionType/Methods</uri></binding>
-      <binding name="p"><uri>http://www.w3.org/2004/02/skos/core#prefLabel</uri></binding>
-      <binding name="o"><literal xml:lang="cs">Metodologie</literal></binding>
-    </result>
-    <result>
-      <binding name="s"><uri>https://vocabs.ccmm.cz/registry/codelist/DescriptionType/TechnicalInfo</uri></binding>
-      <binding name="p"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
-      <binding name="o"><uri>http://www.w3.org/2004/02/skos/core#Concept</uri></binding>
-    </result>
-    <result>
-      <binding name="s"><uri>https://vocabs.ccmm.cz/registry/codelist/DescriptionType/TechnicalInfo</uri></binding>
-      <binding name="p"><uri>http://www.w3.org/2004/02/skos/core#prefLabel</uri></binding>
-      <binding name="o"><literal xml:lang="en">Technical Info</literal></binding>
-    </result>
-    <result>
-      <binding name="s"><uri>https://vocabs.ccmm.cz/registry/codelist/DescriptionType/TechnicalInfo</uri></binding>
-      <binding name="p"><uri>http://www.w3.org/2004/02/skos/core#prefLabel</uri></binding>
-      <binding name="o"><literal xml:lang="cs">Technická informace</literal></binding>
-    </result>
-    <result>
       <binding name="s"><uri>https://vocabs.ccmm.cz/registry/codelist/SubjectCategory/10000/10600/10601</uri></binding>
       <binding name="p"><uri>http://purl.org/dc/terms/title</uri></binding>
       <binding name="o"><literal xml:lang="cs">Buněčná biologie</literal></binding>
@@ -2107,66 +2047,6 @@
       <binding name="o"><literal xml:lang="en">OECD FORD Subject Category (Frascati)</literal></binding>
     </result>
     <result>
-      <binding name="s"><uri>https://vocabs.ccmm.cz/registry/codelist/TimeReference/Available</uri></binding>
-      <binding name="p"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
-      <binding name="o"><uri>http://www.w3.org/2004/02/skos/core#Concept</uri></binding>
-    </result>
-    <result>
-      <binding name="s"><uri>https://vocabs.ccmm.cz/registry/codelist/TimeReference/Available</uri></binding>
-      <binding name="p"><uri>http://www.w3.org/2004/02/skos/core#prefLabel</uri></binding>
-      <binding name="o"><literal xml:lang="en">Date Available</literal></binding>
-    </result>
-    <result>
-      <binding name="s"><uri>https://vocabs.ccmm.cz/registry/codelist/TimeReference/Available</uri></binding>
-      <binding name="p"><uri>http://www.w3.org/2004/02/skos/core#prefLabel</uri></binding>
-      <binding name="o"><literal xml:lang="cs">Datum zveřejnění</literal></binding>
-    </result>
-    <result>
-      <binding name="s"><uri>https://vocabs.ccmm.cz/registry/codelist/TimeReference/Collected</uri></binding>
-      <binding name="p"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
-      <binding name="o"><uri>http://www.w3.org/2004/02/skos/core#Concept</uri></binding>
-    </result>
-    <result>
-      <binding name="s"><uri>https://vocabs.ccmm.cz/registry/codelist/TimeReference/Collected</uri></binding>
-      <binding name="p"><uri>http://www.w3.org/2004/02/skos/core#prefLabel</uri></binding>
-      <binding name="o"><literal xml:lang="en">Date Collected</literal></binding>
-    </result>
-    <result>
-      <binding name="s"><uri>https://vocabs.ccmm.cz/registry/codelist/TimeReference/Collected</uri></binding>
-      <binding name="p"><uri>http://www.w3.org/2004/02/skos/core#prefLabel</uri></binding>
-      <binding name="o"><literal xml:lang="cs">Datum sběru</literal></binding>
-    </result>
-    <result>
-      <binding name="s"><uri>https://vocabs.ccmm.cz/registry/codelist/TimeReference/Created</uri></binding>
-      <binding name="p"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
-      <binding name="o"><uri>http://www.w3.org/2004/02/skos/core#Concept</uri></binding>
-    </result>
-    <result>
-      <binding name="s"><uri>https://vocabs.ccmm.cz/registry/codelist/TimeReference/Created</uri></binding>
-      <binding name="p"><uri>http://www.w3.org/2004/02/skos/core#prefLabel</uri></binding>
-      <binding name="o"><literal xml:lang="en">Date Created</literal></binding>
-    </result>
-    <result>
-      <binding name="s"><uri>https://vocabs.ccmm.cz/registry/codelist/TimeReference/Created</uri></binding>
-      <binding name="p"><uri>http://www.w3.org/2004/02/skos/core#prefLabel</uri></binding>
-      <binding name="o"><literal xml:lang="cs">Datum vytvoření</literal></binding>
-    </result>
-    <result>
-      <binding name="s"><uri>https://vocabs.ccmm.cz/registry/codelist/TimeReference/Issued</uri></binding>
-      <binding name="p"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
-      <binding name="o"><uri>http://www.w3.org/2004/02/skos/core#Concept</uri></binding>
-    </result>
-    <result>
-      <binding name="s"><uri>https://vocabs.ccmm.cz/registry/codelist/TimeReference/Issued</uri></binding>
-      <binding name="p"><uri>http://www.w3.org/2004/02/skos/core#prefLabel</uri></binding>
-      <binding name="o"><literal xml:lang="en">Date Issued</literal></binding>
-    </result>
-    <result>
-      <binding name="s"><uri>https://vocabs.ccmm.cz/registry/codelist/TimeReference/Issued</uri></binding>
-      <binding name="p"><uri>http://www.w3.org/2004/02/skos/core#prefLabel</uri></binding>
-      <binding name="o"><literal xml:lang="cs">Datum vydání</literal></binding>
-    </result>
-    <result>
       <binding name="s"><uri>https://vocabularies.coar-repositories.org/access_rights/c_abf2/</uri></binding>
       <binding name="p"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
       <binding name="o"><uri>http://purl.org/dc/terms/RightsStatement</uri></binding>
@@ -2175,6 +2055,126 @@
       <binding name="s"><uri>https://vocabularies.coar-repositories.org/access_rights/c_abf2/</uri></binding>
       <binding name="p"><uri>http://www.w3.org/2004/02/skos/core#prefLabel</uri></binding>
       <binding name="o"><literal xml:lang="en">open access</literal></binding>
+    </result>
+    <result>
+      <binding name="s"><uri>https://w3id.org/tib/datacite/property/descriptionType/Abstract</uri></binding>
+      <binding name="p"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
+      <binding name="o"><uri>http://www.w3.org/2004/02/skos/core#Concept</uri></binding>
+    </result>
+    <result>
+      <binding name="s"><uri>https://w3id.org/tib/datacite/property/descriptionType/Abstract</uri></binding>
+      <binding name="p"><uri>http://www.w3.org/2004/02/skos/core#prefLabel</uri></binding>
+      <binding name="o"><literal xml:lang="en">Abstract</literal></binding>
+    </result>
+    <result>
+      <binding name="s"><uri>https://w3id.org/tib/datacite/property/descriptionType/Abstract</uri></binding>
+      <binding name="p"><uri>http://www.w3.org/2004/02/skos/core#prefLabel</uri></binding>
+      <binding name="o"><literal xml:lang="cs">Abstrakt</literal></binding>
+    </result>
+    <result>
+      <binding name="s"><uri>https://w3id.org/tib/datacite/property/descriptionType/Methods</uri></binding>
+      <binding name="p"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
+      <binding name="o"><uri>http://www.w3.org/2004/02/skos/core#Concept</uri></binding>
+    </result>
+    <result>
+      <binding name="s"><uri>https://w3id.org/tib/datacite/property/descriptionType/Methods</uri></binding>
+      <binding name="p"><uri>http://www.w3.org/2004/02/skos/core#prefLabel</uri></binding>
+      <binding name="o"><literal xml:lang="en">Methods</literal></binding>
+    </result>
+    <result>
+      <binding name="s"><uri>https://w3id.org/tib/datacite/property/descriptionType/Methods</uri></binding>
+      <binding name="p"><uri>http://www.w3.org/2004/02/skos/core#prefLabel</uri></binding>
+      <binding name="o"><literal xml:lang="cs">Metodologie</literal></binding>
+    </result>
+    <result>
+      <binding name="s"><uri>https://w3id.org/tib/datacite/property/descriptionType/TechnicalInfo</uri></binding>
+      <binding name="p"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
+      <binding name="o"><uri>http://www.w3.org/2004/02/skos/core#Concept</uri></binding>
+    </result>
+    <result>
+      <binding name="s"><uri>https://w3id.org/tib/datacite/property/descriptionType/TechnicalInfo</uri></binding>
+      <binding name="p"><uri>http://www.w3.org/2004/02/skos/core#prefLabel</uri></binding>
+      <binding name="o"><literal xml:lang="en">Technical Info</literal></binding>
+    </result>
+    <result>
+      <binding name="s"><uri>https://w3id.org/tib/datacite/property/descriptionType/TechnicalInfo</uri></binding>
+      <binding name="p"><uri>http://www.w3.org/2004/02/skos/core#prefLabel</uri></binding>
+      <binding name="o"><literal xml:lang="cs">Technická informace</literal></binding>
+    </result>
+    <result>
+      <binding name="s"><uri>https://w3id.org/tib/datacite/vocab/dateType/Available</uri></binding>
+      <binding name="p"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
+      <binding name="o"><uri>http://www.w3.org/2004/02/skos/core#Concept</uri></binding>
+    </result>
+    <result>
+      <binding name="s"><uri>https://w3id.org/tib/datacite/vocab/dateType/Available</uri></binding>
+      <binding name="p"><uri>http://www.w3.org/2004/02/skos/core#prefLabel</uri></binding>
+      <binding name="o"><literal xml:lang="en">Date Available</literal></binding>
+    </result>
+    <result>
+      <binding name="s"><uri>https://w3id.org/tib/datacite/vocab/dateType/Available</uri></binding>
+      <binding name="p"><uri>http://www.w3.org/2004/02/skos/core#prefLabel</uri></binding>
+      <binding name="o"><literal xml:lang="cs">Datum zveřejnění</literal></binding>
+    </result>
+    <result>
+      <binding name="s"><uri>https://w3id.org/tib/datacite/vocab/dateType/Collected</uri></binding>
+      <binding name="p"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
+      <binding name="o"><uri>http://www.w3.org/2004/02/skos/core#Concept</uri></binding>
+    </result>
+    <result>
+      <binding name="s"><uri>https://w3id.org/tib/datacite/vocab/dateType/Collected</uri></binding>
+      <binding name="p"><uri>http://www.w3.org/2004/02/skos/core#prefLabel</uri></binding>
+      <binding name="o"><literal xml:lang="en">Date Collected</literal></binding>
+    </result>
+    <result>
+      <binding name="s"><uri>https://w3id.org/tib/datacite/vocab/dateType/Collected</uri></binding>
+      <binding name="p"><uri>http://www.w3.org/2004/02/skos/core#prefLabel</uri></binding>
+      <binding name="o"><literal xml:lang="cs">Datum sběru</literal></binding>
+    </result>
+    <result>
+      <binding name="s"><uri>https://w3id.org/tib/datacite/vocab/dateType/Created</uri></binding>
+      <binding name="p"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
+      <binding name="o"><uri>http://www.w3.org/2004/02/skos/core#Concept</uri></binding>
+    </result>
+    <result>
+      <binding name="s"><uri>https://w3id.org/tib/datacite/vocab/dateType/Created</uri></binding>
+      <binding name="p"><uri>http://www.w3.org/2004/02/skos/core#prefLabel</uri></binding>
+      <binding name="o"><literal xml:lang="en">Date Created</literal></binding>
+    </result>
+    <result>
+      <binding name="s"><uri>https://w3id.org/tib/datacite/vocab/dateType/Created</uri></binding>
+      <binding name="p"><uri>http://www.w3.org/2004/02/skos/core#prefLabel</uri></binding>
+      <binding name="o"><literal xml:lang="cs">Datum vytvoření</literal></binding>
+    </result>
+    <result>
+      <binding name="s"><uri>https://w3id.org/tib/datacite/vocab/dateType/Issued</uri></binding>
+      <binding name="p"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
+      <binding name="o"><uri>http://www.w3.org/2004/02/skos/core#Concept</uri></binding>
+    </result>
+    <result>
+      <binding name="s"><uri>https://w3id.org/tib/datacite/vocab/dateType/Issued</uri></binding>
+      <binding name="p"><uri>http://www.w3.org/2004/02/skos/core#prefLabel</uri></binding>
+      <binding name="o"><literal xml:lang="en">Date Issued</literal></binding>
+    </result>
+    <result>
+      <binding name="s"><uri>https://w3id.org/tib/datacite/vocab/dateType/Issued</uri></binding>
+      <binding name="p"><uri>http://www.w3.org/2004/02/skos/core#prefLabel</uri></binding>
+      <binding name="o"><literal xml:lang="cs">Datum vydání</literal></binding>
+    </result>
+    <result>
+      <binding name="s"><uri>https://w3id.org/tib/datacite/vocab/titleType/TranslatedTitle</uri></binding>
+      <binding name="p"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
+      <binding name="o"><uri>http://www.w3.org/2004/02/skos/core#Concept</uri></binding>
+    </result>
+    <result>
+      <binding name="s"><uri>https://w3id.org/tib/datacite/vocab/titleType/TranslatedTitle</uri></binding>
+      <binding name="p"><uri>http://www.w3.org/2004/02/skos/core#prefLabel</uri></binding>
+      <binding name="o"><literal xml:lang="cs">Přeložený název</literal></binding>
+    </result>
+    <result>
+      <binding name="s"><uri>https://w3id.org/tib/datacite/vocab/titleType/TranslatedTitle</uri></binding>
+      <binding name="p"><uri>http://www.w3.org/2004/02/skos/core#prefLabel</uri></binding>
+      <binding name="o"><literal xml:lang="en">Translated Title</literal></binding>
     </result>
     <result>
       <binding name="s"><uri>https://www.wikidata.org/entity/Q42302581</uri></binding>

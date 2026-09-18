@@ -23,7 +23,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
             a rdfs:Resource ;
             dcterms:title "ENVI LVS1 Sampler pro odběr prašného aerosolu" ;
             dcterms:type <http://purl.org/coar/resource_type/8KJG-QS0Y> ;
-            ccmm:hasType <https://vocabs.ccmm.cz/registry/codelist/RelationType/IsCollectedBy> ;
+            ccmm:hasType <https://w3id.org/tib/datacite/vocab/relationType/IsCollectedBy> ;
             ccmm:resourceUrl "https://www.envitech-bohemia.cz/p/264/envi-lvs1-sampler-pro-odber-prasneho-aerosolu"^^xsd:anyURI ;
         ] ,
         <http://data.europa.eu/eli/dir/2008/50/oj> ,
@@ -192,7 +192,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         [
             a ccmm:AlternateTitle ;
             dcterms:alternative "Air quality measurements in Central Bohemian Region in 2024."@en ;
-            ccmm:hasType <https://vocabs.ccmm.cz/registry/codelist/AlternateTitle/TranslatedTitle> ;
+            ccmm:hasType <https://w3id.org/tib/datacite/vocab/titleType/TranslatedTitle> ;
         ] ;
     ccmm:hasOtherLanguage <http://publications.europa.eu/resource/authority/language/ENG> ;
     ccmm:hasPrimaryLanguage <http://publications.europa.eu/resource/authority/language/CES> ;
@@ -204,7 +204,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
                     a time:Instant ;
                     time:inXSDDateTime "2025-04-27T12:00:01+02:00"^^xsd:dateTime ;
                 ] ;
-            ccmm:hasType <https://vocabs.ccmm.cz/registry/codelist/TimeReference/Created> ;
+            ccmm:hasType <https://w3id.org/tib/datacite/vocab/dateType/Created> ;
         ] ,
         [
             a ccmm:TimeReference ;
@@ -222,7 +222,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
                             time:inXSDDate "2024-12-31"^^xsd:date ;
                         ] ;
                 ] ;
-            ccmm:hasType <https://vocabs.ccmm.cz/registry/codelist/TimeReference/Collected> ;
+            ccmm:hasType <https://w3id.org/tib/datacite/vocab/dateType/Collected> ;
         ] ;
     ccmm:hasValidationResult
         [
@@ -234,7 +234,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
             a <https://w3id.org/tib/datacite/class/Description> ;
             dcterms:description """Tato datová sada obsahuje měření kvality ovzduší ve středních Čechách v
             roce 2024."""@cs ;
-            datacite:descriptionType <https://vocabs.ccmm.cz/registry/codelist/DescriptionType/Abstract> ;
+            datacite:descriptionType <https://w3id.org/tib/datacite/property/descriptionType/Abstract> ;
         ] ;
     datacite:fundingReference <https://funder-org.org/grants/123456789> ;
     datacite:publicationYear "2025"^^xsd:gYear ;
@@ -248,7 +248,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     dcterms:title """Směrnice Evropského parlamentu a Rady 2008/50/ES ze dne 21. května 2008 o kvalitě
             vnějšího ovzduší a čistším ovzduší pro Evropu""" ;
     dcterms:type <http://purl.org/coar/resource_type/c_18cf/> ;
-    ccmm:hasType <https://vocabs.ccmm.cz/registry/codelist/RelationType/IsReferencedBy> ;
+    ccmm:hasType <https://w3id.org/tib/datacite/vocab/relationType/IsReferencedBy> ;
     ccmm:resourceUrl "https://eur-lex.europa.eu/legal-content/CS/TXT/HTML/?uri=CELEX:32008L0050&qid=1754039487879"^^xsd:anyURI ;
 .
 
@@ -331,7 +331,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     a rdfs:Resource ;
     dcterms:title """Metadata datoivé sady INSPIRE – Kvalita ovzduší – přehledy (data) na měřicích
             stanicích""" ;
-    ccmm:hasType <https://vocabs.ccmm.cz/registry/codelist/RelationType/HasMetadata> ;
+    ccmm:hasType <https://w3id.org/tib/datacite/vocab/relationType/HasMetadata> ;
     ccmm:resourceUrl "https://data.gov.cz/zdroj/datové-sady/00020699/c724d055011d82189bbfc3766ffd1eb7"^^xsd:anyURI ;
 .
 
@@ -395,7 +395,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     a rdfs:Resource ;
     dcterms:title "Kvalita ovzduší – aktuální hodinové údaje" ;
     dcterms:type <http://purl.org/coar/resource_type/FF4C-28RK> ;
-    ccmm:hasType <https://vocabs.ccmm.cz/registry/codelist/RelationType/IsDerivedFrom> ;
+    ccmm:hasType <https://w3id.org/tib/datacite/vocab/relationType/IsDerivedFrom> ;
     ccmm:resourceUrl "https://opendata.chmi.cz/air_quality/"^^xsd:anyURI ;
 .
 
@@ -513,51 +513,11 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         "Creator"@en ;
 .
 
-<https://vocabs.ccmm.cz/registry/codelist/AlternateTitle/TranslatedTitle>
-    a skos:Concept ;
-    skos:prefLabel
-        "Přeložený název"@cs ,
-        "Translated Title"@en ;
-.
-
-<https://vocabs.ccmm.cz/registry/codelist/DescriptionType/Abstract>
-    a skos:Concept ;
-    skos:prefLabel
-        "Abstrakt"@cs ,
-        "Abstract"@en ;
-.
-
 <https://vocabs.ccmm.cz/registry/codelist/LocationRelation/Collected>
     a skos:Concept ;
     skos:prefLabel
         "Získáno v lokaci"@cs ,
         "Collected in"@en ;
-.
-
-<https://vocabs.ccmm.cz/registry/codelist/RelationType/HasMetadata>
-    a skos:Concept ;
-    skos:prefLabel
-        "má metadata"@cs ,
-        "has metadata"@en ;
-.
-
-<https://vocabs.ccmm.cz/registry/codelist/RelationType/IsCollectedBy>
-    a skos:Concept ;
-    skos:prefLabel
-        "je sbírán (čím)"@cs ,
-        "is collected by"@en ;
-.
-
-<https://vocabs.ccmm.cz/registry/codelist/RelationType/IsDerivedFrom>
-    a skos:Concept ;
-    skos:prefLabel
-        "je odvozen od (čeho)"@cs ,
-        "is derived from"@en ;
-.
-
-<https://vocabs.ccmm.cz/registry/codelist/RelationType/IsReferencedBy>
-    a skos:Concept ;
-    skos:prefLabel "je na něj odkazováno z (čeho)"@cs ;
 .
 
 <https://vocabs.ccmm.cz/registry/codelist/SubjectCategory/>
@@ -576,18 +536,58 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     datacite:classificationCode "10509" ;
 .
 
-<https://vocabs.ccmm.cz/registry/codelist/TimeReference/Collected>
+<https://w3id.org/tib/datacite/property/descriptionType/Abstract>
+    a skos:Concept ;
+    skos:prefLabel
+        "Abstrakt"@cs ,
+        "Abstract"@en ;
+.
+
+<https://w3id.org/tib/datacite/vocab/dateType/Collected>
     a skos:Concept ;
     skos:prefLabel
         "Datum sběru"@cs ,
         "Date Collected"@en ;
 .
 
-<https://vocabs.ccmm.cz/registry/codelist/TimeReference/Created>
+<https://w3id.org/tib/datacite/vocab/dateType/Created>
     a skos:Concept ;
     skos:prefLabel
         "Datum vytvoření"@cs ,
         "Date Created"@en ;
+.
+
+<https://w3id.org/tib/datacite/vocab/relationType/HasMetadata>
+    a skos:Concept ;
+    skos:prefLabel
+        "má metadata"@cs ,
+        "has metadata"@en ;
+.
+
+<https://w3id.org/tib/datacite/vocab/relationType/IsCollectedBy>
+    a skos:Concept ;
+    skos:prefLabel
+        "je sbírán (čím)"@cs ,
+        "is collected by"@en ;
+.
+
+<https://w3id.org/tib/datacite/vocab/relationType/IsDerivedFrom>
+    a skos:Concept ;
+    skos:prefLabel
+        "je odvozen od (čeho)"@cs ,
+        "is derived from"@en ;
+.
+
+<https://w3id.org/tib/datacite/vocab/relationType/IsReferencedBy>
+    a skos:Concept ;
+    skos:prefLabel "je na něj odkazováno z (čeho)"@cs ;
+.
+
+<https://w3id.org/tib/datacite/vocab/titleType/TranslatedTitle>
+    a skos:Concept ;
+    skos:prefLabel
+        "Přeložený název"@cs ,
+        "Translated Title"@en ;
 .
 
 <https://www.iso.org/standard/80275.html>

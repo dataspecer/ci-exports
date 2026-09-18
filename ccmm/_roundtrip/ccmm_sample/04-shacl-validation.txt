@@ -185,404 +185,404 @@ constraint: <http://www.w3.org/ns/shacl#MaxCountConstraintComponent>
 message: "More than 1 values on <https://vocabs.ccmm.cz/registry/codelist/AgentRole/Publisher>->skos:prefLabel"
 
 [023] severity: <http://www.w3.org/ns/shacl#Violation>
-focus node: <https://vocabs.ccmm.cz/registry/codelist/AlternateTitle/TranslatedTitle>
+focus node: <https://vocabs.ccmm.cz/registry/codelist/LocationRelation/Collected>
 result path: <http://www.w3.org/2004/02/skos/core#prefLabel>
 value: (none)
 source shape: <https://model.ccmm.cz/research-data/skos%3AConceptShape/-58c605ed>
 constraint: <http://www.w3.org/ns/shacl#MaxCountConstraintComponent>
-message: "More than 1 values on <https://vocabs.ccmm.cz/registry/codelist/AlternateTitle/TranslatedTitle>->skos:prefLabel"
+message: "More than 1 values on <https://vocabs.ccmm.cz/registry/codelist/LocationRelation/Collected>->skos:prefLabel"
 
 [024] severity: <http://www.w3.org/ns/shacl#Violation>
-focus node: <https://vocabs.ccmm.cz/registry/codelist/AlternateTitle/TranslatedTitle>
+focus node: <https://vocabs.ccmm.cz/registry/codelist/LocationRelation/Collected>
 result path: <http://www.w3.org/2004/02/skos/core#prefLabel>
 value: (none)
 source shape: <https://model.ccmm.cz/research-data/skos%3AConceptShape/6ddde680>
 constraint: <http://www.w3.org/ns/shacl#MaxCountConstraintComponent>
-message: "More than 1 values on <https://vocabs.ccmm.cz/registry/codelist/AlternateTitle/TranslatedTitle>->skos:prefLabel"
+message: "More than 1 values on <https://vocabs.ccmm.cz/registry/codelist/LocationRelation/Collected>->skos:prefLabel"
 
 [025] severity: <http://www.w3.org/ns/shacl#Violation>
-focus node: <https://vocabs.ccmm.cz/registry/codelist/AlternateTitle/TranslatedTitle>
+focus node: <https://vocabs.ccmm.cz/registry/codelist/LocationRelation/Collected>
 result path: <http://www.w3.org/2004/02/skos/core#prefLabel>
 value: (none)
 source shape: <https://model.ccmm.cz/research-data/skos%3AConceptShape/-687b8690>
 constraint: <http://www.w3.org/ns/shacl#MaxCountConstraintComponent>
-message: "More than 1 values on <https://vocabs.ccmm.cz/registry/codelist/AlternateTitle/TranslatedTitle>->skos:prefLabel"
+message: "More than 1 values on <https://vocabs.ccmm.cz/registry/codelist/LocationRelation/Collected>->skos:prefLabel"
 
 [026] severity: <http://www.w3.org/ns/shacl#Violation>
-focus node: <https://vocabs.ccmm.cz/registry/codelist/AlternateTitle/TranslatedTitle>
+focus node: <https://vocabs.ccmm.cz/registry/codelist/LocationRelation/Collected>
 result path: <http://www.w3.org/2004/02/skos/core#prefLabel>
 value: (none)
 source shape: <https://model.ccmm.cz/research-data/skos%3AConceptShape/-505842b0>
 constraint: <http://www.w3.org/ns/shacl#MaxCountConstraintComponent>
-message: "More than 1 values on <https://vocabs.ccmm.cz/registry/codelist/AlternateTitle/TranslatedTitle>->skos:prefLabel"
+message: "More than 1 values on <https://vocabs.ccmm.cz/registry/codelist/LocationRelation/Collected>->skos:prefLabel"
 
 [027] severity: <http://www.w3.org/ns/shacl#Violation>
-focus node: <https://vocabs.ccmm.cz/registry/codelist/AlternateTitle/TranslatedTitle>
+focus node: <https://vocabs.ccmm.cz/registry/codelist/LocationRelation/Collected>
 result path: <http://www.w3.org/2004/02/skos/core#prefLabel>
 value: (none)
 source shape: <https://model.ccmm.cz/research-data/skos%3AConceptShape/535606c>
 constraint: <http://www.w3.org/ns/shacl#MaxCountConstraintComponent>
-message: "More than 1 values on <https://vocabs.ccmm.cz/registry/codelist/AlternateTitle/TranslatedTitle>->skos:prefLabel"
+message: "More than 1 values on <https://vocabs.ccmm.cz/registry/codelist/LocationRelation/Collected>->skos:prefLabel"
 
 [028] severity: <http://www.w3.org/ns/shacl#Violation>
-focus node: <https://vocabs.ccmm.cz/registry/codelist/AlternateTitle/TranslatedTitle>
+focus node: <https://vocabs.ccmm.cz/registry/codelist/LocationRelation/Collected>
 result path: <http://www.w3.org/2004/02/skos/core#prefLabel>
 value: (none)
 source shape: <https://model.ccmm.cz/research-data/skos%3AConceptShape/2d4e697c>
 constraint: <http://www.w3.org/ns/shacl#MaxCountConstraintComponent>
-message: "More than 1 values on <https://vocabs.ccmm.cz/registry/codelist/AlternateTitle/TranslatedTitle>->skos:prefLabel"
+message: "More than 1 values on <https://vocabs.ccmm.cz/registry/codelist/LocationRelation/Collected>->skos:prefLabel"
 
 [029] severity: <http://www.w3.org/ns/shacl#Violation>
-focus node: <https://vocabs.ccmm.cz/registry/codelist/DescriptionType/Abstract>
+focus node: <https://w3id.org/tib/datacite/property/descriptionType/Abstract>
 result path: <http://www.w3.org/2004/02/skos/core#prefLabel>
 value: (none)
 source shape: <https://model.ccmm.cz/research-data/skos%3AConceptShape/-58c605ed>
 constraint: <http://www.w3.org/ns/shacl#MaxCountConstraintComponent>
-message: "More than 1 values on <https://vocabs.ccmm.cz/registry/codelist/DescriptionType/Abstract>->skos:prefLabel"
+message: "More than 1 values on <https://w3id.org/tib/datacite/property/descriptionType/Abstract>->skos:prefLabel"
 
 [030] severity: <http://www.w3.org/ns/shacl#Violation>
-focus node: <https://vocabs.ccmm.cz/registry/codelist/DescriptionType/Abstract>
+focus node: <https://w3id.org/tib/datacite/property/descriptionType/Abstract>
 result path: <http://www.w3.org/2004/02/skos/core#prefLabel>
 value: (none)
 source shape: <https://model.ccmm.cz/research-data/skos%3AConceptShape/6ddde680>
 constraint: <http://www.w3.org/ns/shacl#MaxCountConstraintComponent>
-message: "More than 1 values on <https://vocabs.ccmm.cz/registry/codelist/DescriptionType/Abstract>->skos:prefLabel"
+message: "More than 1 values on <https://w3id.org/tib/datacite/property/descriptionType/Abstract>->skos:prefLabel"
 
 [031] severity: <http://www.w3.org/ns/shacl#Violation>
-focus node: <https://vocabs.ccmm.cz/registry/codelist/DescriptionType/Abstract>
+focus node: <https://w3id.org/tib/datacite/property/descriptionType/Abstract>
 result path: <http://www.w3.org/2004/02/skos/core#prefLabel>
 value: (none)
 source shape: <https://model.ccmm.cz/research-data/skos%3AConceptShape/-687b8690>
 constraint: <http://www.w3.org/ns/shacl#MaxCountConstraintComponent>
-message: "More than 1 values on <https://vocabs.ccmm.cz/registry/codelist/DescriptionType/Abstract>->skos:prefLabel"
+message: "More than 1 values on <https://w3id.org/tib/datacite/property/descriptionType/Abstract>->skos:prefLabel"
 
 [032] severity: <http://www.w3.org/ns/shacl#Violation>
-focus node: <https://vocabs.ccmm.cz/registry/codelist/DescriptionType/Abstract>
+focus node: <https://w3id.org/tib/datacite/property/descriptionType/Abstract>
 result path: <http://www.w3.org/2004/02/skos/core#prefLabel>
 value: (none)
 source shape: <https://model.ccmm.cz/research-data/skos%3AConceptShape/-505842b0>
 constraint: <http://www.w3.org/ns/shacl#MaxCountConstraintComponent>
-message: "More than 1 values on <https://vocabs.ccmm.cz/registry/codelist/DescriptionType/Abstract>->skos:prefLabel"
+message: "More than 1 values on <https://w3id.org/tib/datacite/property/descriptionType/Abstract>->skos:prefLabel"
 
 [033] severity: <http://www.w3.org/ns/shacl#Violation>
-focus node: <https://vocabs.ccmm.cz/registry/codelist/DescriptionType/Abstract>
+focus node: <https://w3id.org/tib/datacite/property/descriptionType/Abstract>
 result path: <http://www.w3.org/2004/02/skos/core#prefLabel>
 value: (none)
 source shape: <https://model.ccmm.cz/research-data/skos%3AConceptShape/535606c>
 constraint: <http://www.w3.org/ns/shacl#MaxCountConstraintComponent>
-message: "More than 1 values on <https://vocabs.ccmm.cz/registry/codelist/DescriptionType/Abstract>->skos:prefLabel"
+message: "More than 1 values on <https://w3id.org/tib/datacite/property/descriptionType/Abstract>->skos:prefLabel"
 
 [034] severity: <http://www.w3.org/ns/shacl#Violation>
-focus node: <https://vocabs.ccmm.cz/registry/codelist/DescriptionType/Abstract>
+focus node: <https://w3id.org/tib/datacite/property/descriptionType/Abstract>
 result path: <http://www.w3.org/2004/02/skos/core#prefLabel>
 value: (none)
 source shape: <https://model.ccmm.cz/research-data/skos%3AConceptShape/2d4e697c>
 constraint: <http://www.w3.org/ns/shacl#MaxCountConstraintComponent>
-message: "More than 1 values on <https://vocabs.ccmm.cz/registry/codelist/DescriptionType/Abstract>->skos:prefLabel"
+message: "More than 1 values on <https://w3id.org/tib/datacite/property/descriptionType/Abstract>->skos:prefLabel"
 
 [035] severity: <http://www.w3.org/ns/shacl#Violation>
-focus node: <https://vocabs.ccmm.cz/registry/codelist/LocationRelation/Collected>
+focus node: <https://w3id.org/tib/datacite/vocab/dateType/Collected>
 result path: <http://www.w3.org/2004/02/skos/core#prefLabel>
 value: (none)
 source shape: <https://model.ccmm.cz/research-data/skos%3AConceptShape/-58c605ed>
 constraint: <http://www.w3.org/ns/shacl#MaxCountConstraintComponent>
-message: "More than 1 values on <https://vocabs.ccmm.cz/registry/codelist/LocationRelation/Collected>->skos:prefLabel"
+message: "More than 1 values on <https://w3id.org/tib/datacite/vocab/dateType/Collected>->skos:prefLabel"
 
 [036] severity: <http://www.w3.org/ns/shacl#Violation>
-focus node: <https://vocabs.ccmm.cz/registry/codelist/LocationRelation/Collected>
+focus node: <https://w3id.org/tib/datacite/vocab/dateType/Collected>
 result path: <http://www.w3.org/2004/02/skos/core#prefLabel>
 value: (none)
 source shape: <https://model.ccmm.cz/research-data/skos%3AConceptShape/6ddde680>
 constraint: <http://www.w3.org/ns/shacl#MaxCountConstraintComponent>
-message: "More than 1 values on <https://vocabs.ccmm.cz/registry/codelist/LocationRelation/Collected>->skos:prefLabel"
+message: "More than 1 values on <https://w3id.org/tib/datacite/vocab/dateType/Collected>->skos:prefLabel"
 
 [037] severity: <http://www.w3.org/ns/shacl#Violation>
-focus node: <https://vocabs.ccmm.cz/registry/codelist/LocationRelation/Collected>
+focus node: <https://w3id.org/tib/datacite/vocab/dateType/Collected>
 result path: <http://www.w3.org/2004/02/skos/core#prefLabel>
 value: (none)
 source shape: <https://model.ccmm.cz/research-data/skos%3AConceptShape/-687b8690>
 constraint: <http://www.w3.org/ns/shacl#MaxCountConstraintComponent>
-message: "More than 1 values on <https://vocabs.ccmm.cz/registry/codelist/LocationRelation/Collected>->skos:prefLabel"
+message: "More than 1 values on <https://w3id.org/tib/datacite/vocab/dateType/Collected>->skos:prefLabel"
 
 [038] severity: <http://www.w3.org/ns/shacl#Violation>
-focus node: <https://vocabs.ccmm.cz/registry/codelist/LocationRelation/Collected>
+focus node: <https://w3id.org/tib/datacite/vocab/dateType/Collected>
 result path: <http://www.w3.org/2004/02/skos/core#prefLabel>
 value: (none)
 source shape: <https://model.ccmm.cz/research-data/skos%3AConceptShape/-505842b0>
 constraint: <http://www.w3.org/ns/shacl#MaxCountConstraintComponent>
-message: "More than 1 values on <https://vocabs.ccmm.cz/registry/codelist/LocationRelation/Collected>->skos:prefLabel"
+message: "More than 1 values on <https://w3id.org/tib/datacite/vocab/dateType/Collected>->skos:prefLabel"
 
 [039] severity: <http://www.w3.org/ns/shacl#Violation>
-focus node: <https://vocabs.ccmm.cz/registry/codelist/LocationRelation/Collected>
+focus node: <https://w3id.org/tib/datacite/vocab/dateType/Collected>
 result path: <http://www.w3.org/2004/02/skos/core#prefLabel>
 value: (none)
 source shape: <https://model.ccmm.cz/research-data/skos%3AConceptShape/535606c>
 constraint: <http://www.w3.org/ns/shacl#MaxCountConstraintComponent>
-message: "More than 1 values on <https://vocabs.ccmm.cz/registry/codelist/LocationRelation/Collected>->skos:prefLabel"
+message: "More than 1 values on <https://w3id.org/tib/datacite/vocab/dateType/Collected>->skos:prefLabel"
 
 [040] severity: <http://www.w3.org/ns/shacl#Violation>
-focus node: <https://vocabs.ccmm.cz/registry/codelist/LocationRelation/Collected>
+focus node: <https://w3id.org/tib/datacite/vocab/dateType/Collected>
 result path: <http://www.w3.org/2004/02/skos/core#prefLabel>
 value: (none)
 source shape: <https://model.ccmm.cz/research-data/skos%3AConceptShape/2d4e697c>
 constraint: <http://www.w3.org/ns/shacl#MaxCountConstraintComponent>
-message: "More than 1 values on <https://vocabs.ccmm.cz/registry/codelist/LocationRelation/Collected>->skos:prefLabel"
+message: "More than 1 values on <https://w3id.org/tib/datacite/vocab/dateType/Collected>->skos:prefLabel"
 
 [041] severity: <http://www.w3.org/ns/shacl#Violation>
-focus node: <https://vocabs.ccmm.cz/registry/codelist/RelationType/HasMetadata>
+focus node: <https://w3id.org/tib/datacite/vocab/dateType/Created>
 result path: <http://www.w3.org/2004/02/skos/core#prefLabel>
 value: (none)
 source shape: <https://model.ccmm.cz/research-data/skos%3AConceptShape/-58c605ed>
 constraint: <http://www.w3.org/ns/shacl#MaxCountConstraintComponent>
-message: "More than 1 values on <https://vocabs.ccmm.cz/registry/codelist/RelationType/HasMetadata>->skos:prefLabel"
+message: "More than 1 values on <https://w3id.org/tib/datacite/vocab/dateType/Created>->skos:prefLabel"
 
 [042] severity: <http://www.w3.org/ns/shacl#Violation>
-focus node: <https://vocabs.ccmm.cz/registry/codelist/RelationType/HasMetadata>
+focus node: <https://w3id.org/tib/datacite/vocab/dateType/Created>
 result path: <http://www.w3.org/2004/02/skos/core#prefLabel>
 value: (none)
 source shape: <https://model.ccmm.cz/research-data/skos%3AConceptShape/6ddde680>
 constraint: <http://www.w3.org/ns/shacl#MaxCountConstraintComponent>
-message: "More than 1 values on <https://vocabs.ccmm.cz/registry/codelist/RelationType/HasMetadata>->skos:prefLabel"
+message: "More than 1 values on <https://w3id.org/tib/datacite/vocab/dateType/Created>->skos:prefLabel"
 
 [043] severity: <http://www.w3.org/ns/shacl#Violation>
-focus node: <https://vocabs.ccmm.cz/registry/codelist/RelationType/HasMetadata>
+focus node: <https://w3id.org/tib/datacite/vocab/dateType/Created>
 result path: <http://www.w3.org/2004/02/skos/core#prefLabel>
 value: (none)
 source shape: <https://model.ccmm.cz/research-data/skos%3AConceptShape/-687b8690>
 constraint: <http://www.w3.org/ns/shacl#MaxCountConstraintComponent>
-message: "More than 1 values on <https://vocabs.ccmm.cz/registry/codelist/RelationType/HasMetadata>->skos:prefLabel"
+message: "More than 1 values on <https://w3id.org/tib/datacite/vocab/dateType/Created>->skos:prefLabel"
 
 [044] severity: <http://www.w3.org/ns/shacl#Violation>
-focus node: <https://vocabs.ccmm.cz/registry/codelist/RelationType/HasMetadata>
+focus node: <https://w3id.org/tib/datacite/vocab/dateType/Created>
 result path: <http://www.w3.org/2004/02/skos/core#prefLabel>
 value: (none)
 source shape: <https://model.ccmm.cz/research-data/skos%3AConceptShape/-505842b0>
 constraint: <http://www.w3.org/ns/shacl#MaxCountConstraintComponent>
-message: "More than 1 values on <https://vocabs.ccmm.cz/registry/codelist/RelationType/HasMetadata>->skos:prefLabel"
+message: "More than 1 values on <https://w3id.org/tib/datacite/vocab/dateType/Created>->skos:prefLabel"
 
 [045] severity: <http://www.w3.org/ns/shacl#Violation>
-focus node: <https://vocabs.ccmm.cz/registry/codelist/RelationType/HasMetadata>
+focus node: <https://w3id.org/tib/datacite/vocab/dateType/Created>
 result path: <http://www.w3.org/2004/02/skos/core#prefLabel>
 value: (none)
 source shape: <https://model.ccmm.cz/research-data/skos%3AConceptShape/535606c>
 constraint: <http://www.w3.org/ns/shacl#MaxCountConstraintComponent>
-message: "More than 1 values on <https://vocabs.ccmm.cz/registry/codelist/RelationType/HasMetadata>->skos:prefLabel"
+message: "More than 1 values on <https://w3id.org/tib/datacite/vocab/dateType/Created>->skos:prefLabel"
 
 [046] severity: <http://www.w3.org/ns/shacl#Violation>
-focus node: <https://vocabs.ccmm.cz/registry/codelist/RelationType/HasMetadata>
+focus node: <https://w3id.org/tib/datacite/vocab/dateType/Created>
 result path: <http://www.w3.org/2004/02/skos/core#prefLabel>
 value: (none)
 source shape: <https://model.ccmm.cz/research-data/skos%3AConceptShape/2d4e697c>
 constraint: <http://www.w3.org/ns/shacl#MaxCountConstraintComponent>
-message: "More than 1 values on <https://vocabs.ccmm.cz/registry/codelist/RelationType/HasMetadata>->skos:prefLabel"
+message: "More than 1 values on <https://w3id.org/tib/datacite/vocab/dateType/Created>->skos:prefLabel"
 
 [047] severity: <http://www.w3.org/ns/shacl#Violation>
-focus node: <https://vocabs.ccmm.cz/registry/codelist/RelationType/IsCollectedBy>
+focus node: <https://w3id.org/tib/datacite/vocab/relationType/HasMetadata>
 result path: <http://www.w3.org/2004/02/skos/core#prefLabel>
 value: (none)
 source shape: <https://model.ccmm.cz/research-data/skos%3AConceptShape/-58c605ed>
 constraint: <http://www.w3.org/ns/shacl#MaxCountConstraintComponent>
-message: "More than 1 values on <https://vocabs.ccmm.cz/registry/codelist/RelationType/IsCollectedBy>->skos:prefLabel"
+message: "More than 1 values on <https://w3id.org/tib/datacite/vocab/relationType/HasMetadata>->skos:prefLabel"
 
 [048] severity: <http://www.w3.org/ns/shacl#Violation>
-focus node: <https://vocabs.ccmm.cz/registry/codelist/RelationType/IsCollectedBy>
+focus node: <https://w3id.org/tib/datacite/vocab/relationType/HasMetadata>
 result path: <http://www.w3.org/2004/02/skos/core#prefLabel>
 value: (none)
 source shape: <https://model.ccmm.cz/research-data/skos%3AConceptShape/6ddde680>
 constraint: <http://www.w3.org/ns/shacl#MaxCountConstraintComponent>
-message: "More than 1 values on <https://vocabs.ccmm.cz/registry/codelist/RelationType/IsCollectedBy>->skos:prefLabel"
+message: "More than 1 values on <https://w3id.org/tib/datacite/vocab/relationType/HasMetadata>->skos:prefLabel"
 
 [049] severity: <http://www.w3.org/ns/shacl#Violation>
-focus node: <https://vocabs.ccmm.cz/registry/codelist/RelationType/IsCollectedBy>
+focus node: <https://w3id.org/tib/datacite/vocab/relationType/HasMetadata>
 result path: <http://www.w3.org/2004/02/skos/core#prefLabel>
 value: (none)
 source shape: <https://model.ccmm.cz/research-data/skos%3AConceptShape/-687b8690>
 constraint: <http://www.w3.org/ns/shacl#MaxCountConstraintComponent>
-message: "More than 1 values on <https://vocabs.ccmm.cz/registry/codelist/RelationType/IsCollectedBy>->skos:prefLabel"
+message: "More than 1 values on <https://w3id.org/tib/datacite/vocab/relationType/HasMetadata>->skos:prefLabel"
 
 [050] severity: <http://www.w3.org/ns/shacl#Violation>
-focus node: <https://vocabs.ccmm.cz/registry/codelist/RelationType/IsCollectedBy>
+focus node: <https://w3id.org/tib/datacite/vocab/relationType/HasMetadata>
 result path: <http://www.w3.org/2004/02/skos/core#prefLabel>
 value: (none)
 source shape: <https://model.ccmm.cz/research-data/skos%3AConceptShape/-505842b0>
 constraint: <http://www.w3.org/ns/shacl#MaxCountConstraintComponent>
-message: "More than 1 values on <https://vocabs.ccmm.cz/registry/codelist/RelationType/IsCollectedBy>->skos:prefLabel"
+message: "More than 1 values on <https://w3id.org/tib/datacite/vocab/relationType/HasMetadata>->skos:prefLabel"
 
 [051] severity: <http://www.w3.org/ns/shacl#Violation>
-focus node: <https://vocabs.ccmm.cz/registry/codelist/RelationType/IsCollectedBy>
+focus node: <https://w3id.org/tib/datacite/vocab/relationType/HasMetadata>
 result path: <http://www.w3.org/2004/02/skos/core#prefLabel>
 value: (none)
 source shape: <https://model.ccmm.cz/research-data/skos%3AConceptShape/535606c>
 constraint: <http://www.w3.org/ns/shacl#MaxCountConstraintComponent>
-message: "More than 1 values on <https://vocabs.ccmm.cz/registry/codelist/RelationType/IsCollectedBy>->skos:prefLabel"
+message: "More than 1 values on <https://w3id.org/tib/datacite/vocab/relationType/HasMetadata>->skos:prefLabel"
 
 [052] severity: <http://www.w3.org/ns/shacl#Violation>
-focus node: <https://vocabs.ccmm.cz/registry/codelist/RelationType/IsCollectedBy>
+focus node: <https://w3id.org/tib/datacite/vocab/relationType/HasMetadata>
 result path: <http://www.w3.org/2004/02/skos/core#prefLabel>
 value: (none)
 source shape: <https://model.ccmm.cz/research-data/skos%3AConceptShape/2d4e697c>
 constraint: <http://www.w3.org/ns/shacl#MaxCountConstraintComponent>
-message: "More than 1 values on <https://vocabs.ccmm.cz/registry/codelist/RelationType/IsCollectedBy>->skos:prefLabel"
+message: "More than 1 values on <https://w3id.org/tib/datacite/vocab/relationType/HasMetadata>->skos:prefLabel"
 
 [053] severity: <http://www.w3.org/ns/shacl#Violation>
-focus node: <https://vocabs.ccmm.cz/registry/codelist/RelationType/IsDerivedFrom>
+focus node: <https://w3id.org/tib/datacite/vocab/relationType/IsCollectedBy>
 result path: <http://www.w3.org/2004/02/skos/core#prefLabel>
 value: (none)
 source shape: <https://model.ccmm.cz/research-data/skos%3AConceptShape/-58c605ed>
 constraint: <http://www.w3.org/ns/shacl#MaxCountConstraintComponent>
-message: "More than 1 values on <https://vocabs.ccmm.cz/registry/codelist/RelationType/IsDerivedFrom>->skos:prefLabel"
+message: "More than 1 values on <https://w3id.org/tib/datacite/vocab/relationType/IsCollectedBy>->skos:prefLabel"
 
 [054] severity: <http://www.w3.org/ns/shacl#Violation>
-focus node: <https://vocabs.ccmm.cz/registry/codelist/RelationType/IsDerivedFrom>
+focus node: <https://w3id.org/tib/datacite/vocab/relationType/IsCollectedBy>
 result path: <http://www.w3.org/2004/02/skos/core#prefLabel>
 value: (none)
 source shape: <https://model.ccmm.cz/research-data/skos%3AConceptShape/6ddde680>
 constraint: <http://www.w3.org/ns/shacl#MaxCountConstraintComponent>
-message: "More than 1 values on <https://vocabs.ccmm.cz/registry/codelist/RelationType/IsDerivedFrom>->skos:prefLabel"
+message: "More than 1 values on <https://w3id.org/tib/datacite/vocab/relationType/IsCollectedBy>->skos:prefLabel"
 
 [055] severity: <http://www.w3.org/ns/shacl#Violation>
-focus node: <https://vocabs.ccmm.cz/registry/codelist/RelationType/IsDerivedFrom>
+focus node: <https://w3id.org/tib/datacite/vocab/relationType/IsCollectedBy>
 result path: <http://www.w3.org/2004/02/skos/core#prefLabel>
 value: (none)
 source shape: <https://model.ccmm.cz/research-data/skos%3AConceptShape/-687b8690>
 constraint: <http://www.w3.org/ns/shacl#MaxCountConstraintComponent>
-message: "More than 1 values on <https://vocabs.ccmm.cz/registry/codelist/RelationType/IsDerivedFrom>->skos:prefLabel"
+message: "More than 1 values on <https://w3id.org/tib/datacite/vocab/relationType/IsCollectedBy>->skos:prefLabel"
 
 [056] severity: <http://www.w3.org/ns/shacl#Violation>
-focus node: <https://vocabs.ccmm.cz/registry/codelist/RelationType/IsDerivedFrom>
+focus node: <https://w3id.org/tib/datacite/vocab/relationType/IsCollectedBy>
 result path: <http://www.w3.org/2004/02/skos/core#prefLabel>
 value: (none)
 source shape: <https://model.ccmm.cz/research-data/skos%3AConceptShape/-505842b0>
 constraint: <http://www.w3.org/ns/shacl#MaxCountConstraintComponent>
-message: "More than 1 values on <https://vocabs.ccmm.cz/registry/codelist/RelationType/IsDerivedFrom>->skos:prefLabel"
+message: "More than 1 values on <https://w3id.org/tib/datacite/vocab/relationType/IsCollectedBy>->skos:prefLabel"
 
 [057] severity: <http://www.w3.org/ns/shacl#Violation>
-focus node: <https://vocabs.ccmm.cz/registry/codelist/RelationType/IsDerivedFrom>
+focus node: <https://w3id.org/tib/datacite/vocab/relationType/IsCollectedBy>
 result path: <http://www.w3.org/2004/02/skos/core#prefLabel>
 value: (none)
 source shape: <https://model.ccmm.cz/research-data/skos%3AConceptShape/535606c>
 constraint: <http://www.w3.org/ns/shacl#MaxCountConstraintComponent>
-message: "More than 1 values on <https://vocabs.ccmm.cz/registry/codelist/RelationType/IsDerivedFrom>->skos:prefLabel"
+message: "More than 1 values on <https://w3id.org/tib/datacite/vocab/relationType/IsCollectedBy>->skos:prefLabel"
 
 [058] severity: <http://www.w3.org/ns/shacl#Violation>
-focus node: <https://vocabs.ccmm.cz/registry/codelist/RelationType/IsDerivedFrom>
+focus node: <https://w3id.org/tib/datacite/vocab/relationType/IsCollectedBy>
 result path: <http://www.w3.org/2004/02/skos/core#prefLabel>
 value: (none)
 source shape: <https://model.ccmm.cz/research-data/skos%3AConceptShape/2d4e697c>
 constraint: <http://www.w3.org/ns/shacl#MaxCountConstraintComponent>
-message: "More than 1 values on <https://vocabs.ccmm.cz/registry/codelist/RelationType/IsDerivedFrom>->skos:prefLabel"
+message: "More than 1 values on <https://w3id.org/tib/datacite/vocab/relationType/IsCollectedBy>->skos:prefLabel"
 
 [059] severity: <http://www.w3.org/ns/shacl#Violation>
-focus node: <https://vocabs.ccmm.cz/registry/codelist/TimeReference/Collected>
+focus node: <https://w3id.org/tib/datacite/vocab/relationType/IsDerivedFrom>
 result path: <http://www.w3.org/2004/02/skos/core#prefLabel>
 value: (none)
 source shape: <https://model.ccmm.cz/research-data/skos%3AConceptShape/-58c605ed>
 constraint: <http://www.w3.org/ns/shacl#MaxCountConstraintComponent>
-message: "More than 1 values on <https://vocabs.ccmm.cz/registry/codelist/TimeReference/Collected>->skos:prefLabel"
+message: "More than 1 values on <https://w3id.org/tib/datacite/vocab/relationType/IsDerivedFrom>->skos:prefLabel"
 
 [060] severity: <http://www.w3.org/ns/shacl#Violation>
-focus node: <https://vocabs.ccmm.cz/registry/codelist/TimeReference/Collected>
+focus node: <https://w3id.org/tib/datacite/vocab/relationType/IsDerivedFrom>
 result path: <http://www.w3.org/2004/02/skos/core#prefLabel>
 value: (none)
 source shape: <https://model.ccmm.cz/research-data/skos%3AConceptShape/6ddde680>
 constraint: <http://www.w3.org/ns/shacl#MaxCountConstraintComponent>
-message: "More than 1 values on <https://vocabs.ccmm.cz/registry/codelist/TimeReference/Collected>->skos:prefLabel"
+message: "More than 1 values on <https://w3id.org/tib/datacite/vocab/relationType/IsDerivedFrom>->skos:prefLabel"
 
 [061] severity: <http://www.w3.org/ns/shacl#Violation>
-focus node: <https://vocabs.ccmm.cz/registry/codelist/TimeReference/Collected>
+focus node: <https://w3id.org/tib/datacite/vocab/relationType/IsDerivedFrom>
 result path: <http://www.w3.org/2004/02/skos/core#prefLabel>
 value: (none)
 source shape: <https://model.ccmm.cz/research-data/skos%3AConceptShape/-687b8690>
 constraint: <http://www.w3.org/ns/shacl#MaxCountConstraintComponent>
-message: "More than 1 values on <https://vocabs.ccmm.cz/registry/codelist/TimeReference/Collected>->skos:prefLabel"
+message: "More than 1 values on <https://w3id.org/tib/datacite/vocab/relationType/IsDerivedFrom>->skos:prefLabel"
 
 [062] severity: <http://www.w3.org/ns/shacl#Violation>
-focus node: <https://vocabs.ccmm.cz/registry/codelist/TimeReference/Collected>
+focus node: <https://w3id.org/tib/datacite/vocab/relationType/IsDerivedFrom>
 result path: <http://www.w3.org/2004/02/skos/core#prefLabel>
 value: (none)
 source shape: <https://model.ccmm.cz/research-data/skos%3AConceptShape/-505842b0>
 constraint: <http://www.w3.org/ns/shacl#MaxCountConstraintComponent>
-message: "More than 1 values on <https://vocabs.ccmm.cz/registry/codelist/TimeReference/Collected>->skos:prefLabel"
+message: "More than 1 values on <https://w3id.org/tib/datacite/vocab/relationType/IsDerivedFrom>->skos:prefLabel"
 
 [063] severity: <http://www.w3.org/ns/shacl#Violation>
-focus node: <https://vocabs.ccmm.cz/registry/codelist/TimeReference/Collected>
+focus node: <https://w3id.org/tib/datacite/vocab/relationType/IsDerivedFrom>
 result path: <http://www.w3.org/2004/02/skos/core#prefLabel>
 value: (none)
 source shape: <https://model.ccmm.cz/research-data/skos%3AConceptShape/535606c>
 constraint: <http://www.w3.org/ns/shacl#MaxCountConstraintComponent>
-message: "More than 1 values on <https://vocabs.ccmm.cz/registry/codelist/TimeReference/Collected>->skos:prefLabel"
+message: "More than 1 values on <https://w3id.org/tib/datacite/vocab/relationType/IsDerivedFrom>->skos:prefLabel"
 
 [064] severity: <http://www.w3.org/ns/shacl#Violation>
-focus node: <https://vocabs.ccmm.cz/registry/codelist/TimeReference/Collected>
+focus node: <https://w3id.org/tib/datacite/vocab/relationType/IsDerivedFrom>
 result path: <http://www.w3.org/2004/02/skos/core#prefLabel>
 value: (none)
 source shape: <https://model.ccmm.cz/research-data/skos%3AConceptShape/2d4e697c>
 constraint: <http://www.w3.org/ns/shacl#MaxCountConstraintComponent>
-message: "More than 1 values on <https://vocabs.ccmm.cz/registry/codelist/TimeReference/Collected>->skos:prefLabel"
+message: "More than 1 values on <https://w3id.org/tib/datacite/vocab/relationType/IsDerivedFrom>->skos:prefLabel"
 
 [065] severity: <http://www.w3.org/ns/shacl#Violation>
-focus node: <https://vocabs.ccmm.cz/registry/codelist/TimeReference/Created>
+focus node: <https://w3id.org/tib/datacite/vocab/titleType/TranslatedTitle>
 result path: <http://www.w3.org/2004/02/skos/core#prefLabel>
 value: (none)
 source shape: <https://model.ccmm.cz/research-data/skos%3AConceptShape/-58c605ed>
 constraint: <http://www.w3.org/ns/shacl#MaxCountConstraintComponent>
-message: "More than 1 values on <https://vocabs.ccmm.cz/registry/codelist/TimeReference/Created>->skos:prefLabel"
+message: "More than 1 values on <https://w3id.org/tib/datacite/vocab/titleType/TranslatedTitle>->skos:prefLabel"
 
 [066] severity: <http://www.w3.org/ns/shacl#Violation>
-focus node: <https://vocabs.ccmm.cz/registry/codelist/TimeReference/Created>
+focus node: <https://w3id.org/tib/datacite/vocab/titleType/TranslatedTitle>
 result path: <http://www.w3.org/2004/02/skos/core#prefLabel>
 value: (none)
 source shape: <https://model.ccmm.cz/research-data/skos%3AConceptShape/6ddde680>
 constraint: <http://www.w3.org/ns/shacl#MaxCountConstraintComponent>
-message: "More than 1 values on <https://vocabs.ccmm.cz/registry/codelist/TimeReference/Created>->skos:prefLabel"
+message: "More than 1 values on <https://w3id.org/tib/datacite/vocab/titleType/TranslatedTitle>->skos:prefLabel"
 
 [067] severity: <http://www.w3.org/ns/shacl#Violation>
-focus node: <https://vocabs.ccmm.cz/registry/codelist/TimeReference/Created>
+focus node: <https://w3id.org/tib/datacite/vocab/titleType/TranslatedTitle>
 result path: <http://www.w3.org/2004/02/skos/core#prefLabel>
 value: (none)
 source shape: <https://model.ccmm.cz/research-data/skos%3AConceptShape/-687b8690>
 constraint: <http://www.w3.org/ns/shacl#MaxCountConstraintComponent>
-message: "More than 1 values on <https://vocabs.ccmm.cz/registry/codelist/TimeReference/Created>->skos:prefLabel"
+message: "More than 1 values on <https://w3id.org/tib/datacite/vocab/titleType/TranslatedTitle>->skos:prefLabel"
 
 [068] severity: <http://www.w3.org/ns/shacl#Violation>
-focus node: <https://vocabs.ccmm.cz/registry/codelist/TimeReference/Created>
+focus node: <https://w3id.org/tib/datacite/vocab/titleType/TranslatedTitle>
 result path: <http://www.w3.org/2004/02/skos/core#prefLabel>
 value: (none)
 source shape: <https://model.ccmm.cz/research-data/skos%3AConceptShape/-505842b0>
 constraint: <http://www.w3.org/ns/shacl#MaxCountConstraintComponent>
-message: "More than 1 values on <https://vocabs.ccmm.cz/registry/codelist/TimeReference/Created>->skos:prefLabel"
+message: "More than 1 values on <https://w3id.org/tib/datacite/vocab/titleType/TranslatedTitle>->skos:prefLabel"
 
 [069] severity: <http://www.w3.org/ns/shacl#Violation>
-focus node: <https://vocabs.ccmm.cz/registry/codelist/TimeReference/Created>
+focus node: <https://w3id.org/tib/datacite/vocab/titleType/TranslatedTitle>
 result path: <http://www.w3.org/2004/02/skos/core#prefLabel>
 value: (none)
 source shape: <https://model.ccmm.cz/research-data/skos%3AConceptShape/535606c>
 constraint: <http://www.w3.org/ns/shacl#MaxCountConstraintComponent>
-message: "More than 1 values on <https://vocabs.ccmm.cz/registry/codelist/TimeReference/Created>->skos:prefLabel"
+message: "More than 1 values on <https://w3id.org/tib/datacite/vocab/titleType/TranslatedTitle>->skos:prefLabel"
 
 [070] severity: <http://www.w3.org/ns/shacl#Violation>
-focus node: <https://vocabs.ccmm.cz/registry/codelist/TimeReference/Created>
+focus node: <https://w3id.org/tib/datacite/vocab/titleType/TranslatedTitle>
 result path: <http://www.w3.org/2004/02/skos/core#prefLabel>
 value: (none)
 source shape: <https://model.ccmm.cz/research-data/skos%3AConceptShape/2d4e697c>
 constraint: <http://www.w3.org/ns/shacl#MaxCountConstraintComponent>
-message: "More than 1 values on <https://vocabs.ccmm.cz/registry/codelist/TimeReference/Created>->skos:prefLabel"
+message: "More than 1 values on <https://w3id.org/tib/datacite/vocab/titleType/TranslatedTitle>->skos:prefLabel"
 
 [071] severity: <http://www.w3.org/ns/shacl#Violation>
+focus node: _:cb14ae057182dae98b725ae96c2ea52c93ef5a48f73ce4931b65828a12a1d7b6032
+result path: <http://www.w3.org/2006/time#hasTime>
+value: _:cb197e83acc53df618ccbc07d9a6e6cf9bc681cfe6bbdc2c37114f39cf585c3b191
+source shape: <https://model.ccmm.cz/research-data/ccmm%3ATimeReferenceShape/-6af7e9d>
+constraint: <http://www.w3.org/ns/shacl#ClassConstraintComponent>
+message: "Value does not have class time:TemporalEntity"
+
+[072] severity: <http://www.w3.org/ns/shacl#Violation>
 focus node: _:cb1a7d270e5216af7de17398c287153791cc9a3b78d626791e6e8368a9f2546a226
 result path: <http://www.w3.org/ns/prov#agent>
 value: _:cb365a3a8f2678f99161bef873662620096df7c9433e35c56b4c427200473034d67
 source shape: <https://model.ccmm.cz/research-data/prov%3AAttributionShape/19c32b47>
 constraint: <http://www.w3.org/ns/shacl#ClassConstraintComponent>
 message: "Value does not have class foaf:Agent"
-
-[072] severity: <http://www.w3.org/ns/shacl#Violation>
-focus node: _:cb1cee3ea930fa49ca64aac09c0ec4962da94459f1a94b0462d91de5794720342b9
-result path: <http://www.w3.org/2006/time#hasTime>
-value: _:cb182f0715d38bf061a8c5bf939c0b852495e7d33deab1306c9395fabe902cbb000
-source shape: <https://model.ccmm.cz/research-data/ccmm%3ATimeReferenceShape/-6af7e9d>
-constraint: <http://www.w3.org/ns/shacl#ClassConstraintComponent>
-message: "Value does not have class time:TemporalEntity"
 
 [073] severity: <http://www.w3.org/ns/shacl#Violation>
 focus node: _:cb234291d1bbef315982c1ca94df69f3da06a300f60a7da0b37d3573e97164d1139
@@ -593,9 +593,9 @@ constraint: <http://www.w3.org/ns/shacl#ClassConstraintComponent>
 message: "Value does not have class foaf:Agent"
 
 [074] severity: <http://www.w3.org/ns/shacl#Violation>
-focus node: _:cb28a91c18d886844c043df213c03b58b6a9a55e71924ce34ed649c2501b98140ed
+focus node: _:cb2896a853a9bd7c9d04a379182a8008790b6e9849a10eeb32829b6102bc6c5e365
 result path: <http://www.w3.org/2006/time#hasTime>
-value: _:cb13ac571751ba09de28862ce00abc64b08db9acbccd9f986ab4c66a17969182be2
+value: _:cb10854842f13d034931e01f19c9609ae10f63a46880acf1b6b45bb42dece0ee412
 source shape: <https://model.ccmm.cz/research-data/ccmm%3ATimeReferenceShape/-6af7e9d>
 constraint: <http://www.w3.org/ns/shacl#ClassConstraintComponent>
 message: "Value does not have class time:TemporalEntity"

@@ -1,7 +1,7 @@
 <http://data.europa.eu/eli/dir/2008/50/oj> <http://purl.org/dc/terms/title> "Směrnice Evropského parlamentu a Rady 2008/50/ES ze dne 21. května 2008 o kvalitě\n            vnějšího ovzduší a čistším ovzduší pro Evropu" .
 <http://data.europa.eu/eli/dir/2008/50/oj> <http://purl.org/dc/terms/type> <http://purl.org/coar/resource_type/c_18cf/> .
 <http://data.europa.eu/eli/dir/2008/50/oj> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Resource> .
-<http://data.europa.eu/eli/dir/2008/50/oj> <https://model.ccmm.cz/vocabulary/ccmm#hasType> <https://vocabs.ccmm.cz/registry/codelist/RelationType/IsReferencedBy> .
+<http://data.europa.eu/eli/dir/2008/50/oj> <https://model.ccmm.cz/vocabulary/ccmm#hasType> <https://w3id.org/tib/datacite/vocab/relationType/IsReferencedBy> .
 <http://data.europa.eu/eli/dir/2008/50/oj> <https://model.ccmm.cz/vocabulary/ccmm#resourceUrl> "https://eur-lex.europa.eu/legal-content/CS/TXT/HTML/?uri=CELEX:32008L0050&qid=1754039487879"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
 <http://data.europa.eu/eli/reg/2010/1089> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/dc/terms/Standard> .
 <http://data.europa.eu/eli/reg/2010/1089> <http://www.w3.org/2000/01/rdf-schema#label> "NAŘÍZENÍ KOMISE (ES) č. 976/2009 ze dne 19. října 2009, kterým\n                    se provádí směrnice Evropského parlamentu a Rady 2007/2/ES, pokud jde o síťové\n                    služby"@cs .
@@ -44,7 +44,7 @@
 <http://purl.org/coar/resource_type/c_ddb1> <http://www.w3.org/2004/02/skos/core#prefLabel> "datová sada"@cs .
 <https://data.gov.cz/zdroj/datové-sady/00020699/c724d055011d82189bbfc3766ffd1eb7> <http://purl.org/dc/terms/title> "Metadata datoivé sady INSPIRE – Kvalita ovzduší – přehledy (data) na měřicích\n            stanicích" .
 <https://data.gov.cz/zdroj/datové-sady/00020699/c724d055011d82189bbfc3766ffd1eb7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Resource> .
-<https://data.gov.cz/zdroj/datové-sady/00020699/c724d055011d82189bbfc3766ffd1eb7> <https://model.ccmm.cz/vocabulary/ccmm#hasType> <https://vocabs.ccmm.cz/registry/codelist/RelationType/HasMetadata> .
+<https://data.gov.cz/zdroj/datové-sady/00020699/c724d055011d82189bbfc3766ffd1eb7> <https://model.ccmm.cz/vocabulary/ccmm#hasType> <https://w3id.org/tib/datacite/vocab/relationType/HasMetadata> .
 <https://data.gov.cz/zdroj/datové-sady/00020699/c724d055011d82189bbfc3766ffd1eb7> <https://model.ccmm.cz/vocabulary/ccmm#resourceUrl> "https://data.gov.cz/zdroj/datové-sady/00020699/c724d055011d82189bbfc3766ffd1eb7"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
 <https://doi.org/10.45321/as36sl> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/adms#Identifier> .
 <https://doi.org/10.45321/as36sl> <http://www.w3.org/2004/02/skos/core#notation> "10.45321/as36sl" .
@@ -77,7 +77,7 @@
 <https://opendata.chmi.cz/air_quality/now/data/> <http://purl.org/dc/terms/title> "Kvalita ovzduší – aktuální hodinové údaje" .
 <https://opendata.chmi.cz/air_quality/now/data/> <http://purl.org/dc/terms/type> <http://purl.org/coar/resource_type/FF4C-28RK> .
 <https://opendata.chmi.cz/air_quality/now/data/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Resource> .
-<https://opendata.chmi.cz/air_quality/now/data/> <https://model.ccmm.cz/vocabulary/ccmm#hasType> <https://vocabs.ccmm.cz/registry/codelist/RelationType/IsDerivedFrom> .
+<https://opendata.chmi.cz/air_quality/now/data/> <https://model.ccmm.cz/vocabulary/ccmm#hasType> <https://w3id.org/tib/datacite/vocab/relationType/IsDerivedFrom> .
 <https://opendata.chmi.cz/air_quality/now/data/> <https://model.ccmm.cz/vocabulary/ccmm#resourceUrl> "https://opendata.chmi.cz/air_quality/"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
 <https://orcid.org/0023-0802-44X6-26X0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/adms#Identifier> .
 <https://orcid.org/0023-0802-44X6-26X0> <http://www.w3.org/2004/02/skos/core#notation> "0023-0802-44X6-26X0" .
@@ -92,7 +92,7 @@
 <https://organization.cz/dataset_server/dataset_id> <http://purl.org/dc/terms/relation> <http://data.europa.eu/eli/dir/2008/50/oj> .
 <https://organization.cz/dataset_server/dataset_id> <http://purl.org/dc/terms/relation> <https://data.gov.cz/zdroj/datové-sady/00020699/c724d055011d82189bbfc3766ffd1eb7> .
 <https://organization.cz/dataset_server/dataset_id> <http://purl.org/dc/terms/relation> <https://opendata.chmi.cz/air_quality/now/data/> .
-<https://organization.cz/dataset_server/dataset_id> <http://purl.org/dc/terms/relation> _:cb2f7ecbfabe21bc2a891bea00e0d955b203c885bef3e08d8178cb2eb275ec61e5c .
+<https://organization.cz/dataset_server/dataset_id> <http://purl.org/dc/terms/relation> _:cb22236fa3426aadba671719f8a91475f9d729d1895c702ccc121a11564e44de737 .
 <https://organization.cz/dataset_server/dataset_id> <http://purl.org/dc/terms/spatial> _:cb386f14617b439675175d8b146abee5188f2d7d05813c25db57f24d25691df0264 .
 <https://organization.cz/dataset_server/dataset_id> <http://purl.org/dc/terms/title> "Kvalita ovzduší ve středních čechách 2024" .
 <https://organization.cz/dataset_server/dataset_id> <http://purl.org/dc/terms/type> <http://purl.org/coar/resource_type/c_ddb1> .
@@ -106,14 +106,14 @@
 <https://organization.cz/dataset_server/dataset_id> <http://www.w3.org/ns/prov#qualifiedAttribution> _:cb1a7d270e5216af7de17398c287153791cc9a3b78d626791e6e8368a9f2546a226 .
 <https://organization.cz/dataset_server/dataset_id> <http://www.w3.org/ns/prov#qualifiedAttribution> _:cb234291d1bbef315982c1ca94df69f3da06a300f60a7da0b37d3573e97164d1139 .
 <https://organization.cz/dataset_server/dataset_id> <http://www.w3.org/ns/prov#wasGeneratedBy> _:cbdc399023b96dec19ba70cb6c4060902729504a31bc1e7d5083cd166be8396017 .
-<https://organization.cz/dataset_server/dataset_id> <https://model.ccmm.cz/vocabulary/ccmm#hasAlternateTitle> _:cb2386de176a81c7877f4327fe7ac09e4feade9b92b989e923d0bb2050681bc39de .
+<https://organization.cz/dataset_server/dataset_id> <https://model.ccmm.cz/vocabulary/ccmm#hasAlternateTitle> _:cb1e39ba03fcc7d99a1c18fd1657e522ee62f1376b6eeb6db0901645ac766b7f170 .
 <https://organization.cz/dataset_server/dataset_id> <https://model.ccmm.cz/vocabulary/ccmm#hasOtherLanguage> <http://publications.europa.eu/resource/authority/language/ENG> .
 <https://organization.cz/dataset_server/dataset_id> <https://model.ccmm.cz/vocabulary/ccmm#hasPrimaryLanguage> <http://publications.europa.eu/resource/authority/language/CES> .
-<https://organization.cz/dataset_server/dataset_id> <https://model.ccmm.cz/vocabulary/ccmm#hasTimeReference> _:cb1cee3ea930fa49ca64aac09c0ec4962da94459f1a94b0462d91de5794720342b9 .
-<https://organization.cz/dataset_server/dataset_id> <https://model.ccmm.cz/vocabulary/ccmm#hasTimeReference> _:cb28a91c18d886844c043df213c03b58b6a9a55e71924ce34ed649c2501b98140ed .
+<https://organization.cz/dataset_server/dataset_id> <https://model.ccmm.cz/vocabulary/ccmm#hasTimeReference> _:cb14ae057182dae98b725ae96c2ea52c93ef5a48f73ce4931b65828a12a1d7b6032 .
+<https://organization.cz/dataset_server/dataset_id> <https://model.ccmm.cz/vocabulary/ccmm#hasTimeReference> _:cb2896a853a9bd7c9d04a379182a8008790b6e9849a10eeb32829b6102bc6c5e365 .
 <https://organization.cz/dataset_server/dataset_id> <https://model.ccmm.cz/vocabulary/ccmm#hasValidationResult> _:cb56d7600904cfbce9edf94588ccabf89a7afdfaf84978089be632a84dcd6c94a0 .
 <https://organization.cz/dataset_server/dataset_id> <https://model.ccmm.cz/vocabulary/ccmm#isDescribedBy> <https://original-catalogue/dataset_metadata_id> .
-<https://organization.cz/dataset_server/dataset_id> <https://w3id.org/tib/datacite/property/description> _:cb26d0166210662fa37b4d48d571810013fe735cf0c690c1e2fa4b5babda2bf9565 .
+<https://organization.cz/dataset_server/dataset_id> <https://w3id.org/tib/datacite/property/description> _:cb292165b53c875e3dee8bc170be5ec166a49aca71d8847a0f29daa4482c6654613 .
 <https://organization.cz/dataset_server/dataset_id> <https://w3id.org/tib/datacite/property/fundingReference> <https://funder-org.org/grants/123456789> .
 <https://organization.cz/dataset_server/dataset_id> <https://w3id.org/tib/datacite/property/publicationYear> "2025"^^<http://www.w3.org/2001/XMLSchema#gYear> .
 <https://organization.cz/dataset_server/dataset_id> <https://w3id.org/tib/datacite/property/subject> <http://inspire.ec.europa.eu/theme/ef> .
@@ -159,26 +159,9 @@
 <https://vocabs.ccmm.cz/registry/codelist/AgentRole/Publisher> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Role> .
 <https://vocabs.ccmm.cz/registry/codelist/AgentRole/Publisher> <http://www.w3.org/2004/02/skos/core#prefLabel> "Publisher"@en .
 <https://vocabs.ccmm.cz/registry/codelist/AgentRole/Publisher> <http://www.w3.org/2004/02/skos/core#prefLabel> "Vydavatel"@cs .
-<https://vocabs.ccmm.cz/registry/codelist/AlternateTitle/TranslatedTitle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
-<https://vocabs.ccmm.cz/registry/codelist/AlternateTitle/TranslatedTitle> <http://www.w3.org/2004/02/skos/core#prefLabel> "Přeložený název"@cs .
-<https://vocabs.ccmm.cz/registry/codelist/AlternateTitle/TranslatedTitle> <http://www.w3.org/2004/02/skos/core#prefLabel> "Translated Title"@en .
-<https://vocabs.ccmm.cz/registry/codelist/DescriptionType/Abstract> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
-<https://vocabs.ccmm.cz/registry/codelist/DescriptionType/Abstract> <http://www.w3.org/2004/02/skos/core#prefLabel> "Abstract"@en .
-<https://vocabs.ccmm.cz/registry/codelist/DescriptionType/Abstract> <http://www.w3.org/2004/02/skos/core#prefLabel> "Abstrakt"@cs .
 <https://vocabs.ccmm.cz/registry/codelist/LocationRelation/Collected> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://vocabs.ccmm.cz/registry/codelist/LocationRelation/Collected> <http://www.w3.org/2004/02/skos/core#prefLabel> "Collected in"@en .
 <https://vocabs.ccmm.cz/registry/codelist/LocationRelation/Collected> <http://www.w3.org/2004/02/skos/core#prefLabel> "Získáno v lokaci"@cs .
-<https://vocabs.ccmm.cz/registry/codelist/RelationType/HasMetadata> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
-<https://vocabs.ccmm.cz/registry/codelist/RelationType/HasMetadata> <http://www.w3.org/2004/02/skos/core#prefLabel> "has metadata"@en .
-<https://vocabs.ccmm.cz/registry/codelist/RelationType/HasMetadata> <http://www.w3.org/2004/02/skos/core#prefLabel> "má metadata"@cs .
-<https://vocabs.ccmm.cz/registry/codelist/RelationType/IsCollectedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
-<https://vocabs.ccmm.cz/registry/codelist/RelationType/IsCollectedBy> <http://www.w3.org/2004/02/skos/core#prefLabel> "is collected by"@en .
-<https://vocabs.ccmm.cz/registry/codelist/RelationType/IsCollectedBy> <http://www.w3.org/2004/02/skos/core#prefLabel> "je sbírán (čím)"@cs .
-<https://vocabs.ccmm.cz/registry/codelist/RelationType/IsDerivedFrom> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
-<https://vocabs.ccmm.cz/registry/codelist/RelationType/IsDerivedFrom> <http://www.w3.org/2004/02/skos/core#prefLabel> "is derived from"@en .
-<https://vocabs.ccmm.cz/registry/codelist/RelationType/IsDerivedFrom> <http://www.w3.org/2004/02/skos/core#prefLabel> "je odvozen od (čeho)"@cs .
-<https://vocabs.ccmm.cz/registry/codelist/RelationType/IsReferencedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
-<https://vocabs.ccmm.cz/registry/codelist/RelationType/IsReferencedBy> <http://www.w3.org/2004/02/skos/core#prefLabel> "je na něj odkazováno z (čeho)"@cs .
 <https://vocabs.ccmm.cz/registry/codelist/SubjectCategory/10000/10500/10509> <http://purl.org/dc/terms/title> "Meteorologie, vědy o atmosféře"@cs .
 <https://vocabs.ccmm.cz/registry/codelist/SubjectCategory/10000/10500/10509> <http://purl.org/dc/terms/title> "Meteorology and atmospheric sciences"@en .
 <https://vocabs.ccmm.cz/registry/codelist/SubjectCategory/10000/10500/10509> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/tib/datacite/class/Subject> .
@@ -187,30 +170,50 @@
 <https://vocabs.ccmm.cz/registry/codelist/SubjectCategory/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://model.ccmm.cz/vocabulary/ccmm#SubjectScheme> .
 <https://vocabs.ccmm.cz/registry/codelist/SubjectCategory/> <http://www.w3.org/2000/01/rdf-schema#label> "OECD FORD Subject Category (Frascati)"@en .
 <https://vocabs.ccmm.cz/registry/codelist/SubjectCategory/> <http://www.w3.org/2000/01/rdf-schema#label> "Oborové třídění OECD FORD (Frascati)"@cs .
-<https://vocabs.ccmm.cz/registry/codelist/TimeReference/Collected> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
-<https://vocabs.ccmm.cz/registry/codelist/TimeReference/Collected> <http://www.w3.org/2004/02/skos/core#prefLabel> "Date Collected"@en .
-<https://vocabs.ccmm.cz/registry/codelist/TimeReference/Collected> <http://www.w3.org/2004/02/skos/core#prefLabel> "Datum sběru"@cs .
-<https://vocabs.ccmm.cz/registry/codelist/TimeReference/Created> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
-<https://vocabs.ccmm.cz/registry/codelist/TimeReference/Created> <http://www.w3.org/2004/02/skos/core#prefLabel> "Date Created"@en .
-<https://vocabs.ccmm.cz/registry/codelist/TimeReference/Created> <http://www.w3.org/2004/02/skos/core#prefLabel> "Datum vytvoření"@cs .
 <https://vocabularies.coar-repositories.org/access_rights/c_abf2/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/dc/terms/RightsStatement> .
 <https://vocabularies.coar-repositories.org/access_rights/c_abf2/> <http://www.w3.org/2004/02/skos/core#prefLabel> "open access"@en .
+<https://w3id.org/tib/datacite/property/descriptionType/Abstract> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://w3id.org/tib/datacite/property/descriptionType/Abstract> <http://www.w3.org/2004/02/skos/core#prefLabel> "Abstract"@en .
+<https://w3id.org/tib/datacite/property/descriptionType/Abstract> <http://www.w3.org/2004/02/skos/core#prefLabel> "Abstrakt"@cs .
+<https://w3id.org/tib/datacite/vocab/dateType/Collected> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://w3id.org/tib/datacite/vocab/dateType/Collected> <http://www.w3.org/2004/02/skos/core#prefLabel> "Date Collected"@en .
+<https://w3id.org/tib/datacite/vocab/dateType/Collected> <http://www.w3.org/2004/02/skos/core#prefLabel> "Datum sběru"@cs .
+<https://w3id.org/tib/datacite/vocab/dateType/Created> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://w3id.org/tib/datacite/vocab/dateType/Created> <http://www.w3.org/2004/02/skos/core#prefLabel> "Date Created"@en .
+<https://w3id.org/tib/datacite/vocab/dateType/Created> <http://www.w3.org/2004/02/skos/core#prefLabel> "Datum vytvoření"@cs .
+<https://w3id.org/tib/datacite/vocab/relationType/HasMetadata> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://w3id.org/tib/datacite/vocab/relationType/HasMetadata> <http://www.w3.org/2004/02/skos/core#prefLabel> "has metadata"@en .
+<https://w3id.org/tib/datacite/vocab/relationType/HasMetadata> <http://www.w3.org/2004/02/skos/core#prefLabel> "má metadata"@cs .
+<https://w3id.org/tib/datacite/vocab/relationType/IsCollectedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://w3id.org/tib/datacite/vocab/relationType/IsCollectedBy> <http://www.w3.org/2004/02/skos/core#prefLabel> "is collected by"@en .
+<https://w3id.org/tib/datacite/vocab/relationType/IsCollectedBy> <http://www.w3.org/2004/02/skos/core#prefLabel> "je sbírán (čím)"@cs .
+<https://w3id.org/tib/datacite/vocab/relationType/IsDerivedFrom> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://w3id.org/tib/datacite/vocab/relationType/IsDerivedFrom> <http://www.w3.org/2004/02/skos/core#prefLabel> "is derived from"@en .
+<https://w3id.org/tib/datacite/vocab/relationType/IsDerivedFrom> <http://www.w3.org/2004/02/skos/core#prefLabel> "je odvozen od (čeho)"@cs .
+<https://w3id.org/tib/datacite/vocab/relationType/IsReferencedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://w3id.org/tib/datacite/vocab/relationType/IsReferencedBy> <http://www.w3.org/2004/02/skos/core#prefLabel> "je na něj odkazováno z (čeho)"@cs .
+<https://w3id.org/tib/datacite/vocab/titleType/TranslatedTitle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://w3id.org/tib/datacite/vocab/titleType/TranslatedTitle> <http://www.w3.org/2004/02/skos/core#prefLabel> "Přeložený název"@cs .
+<https://w3id.org/tib/datacite/vocab/titleType/TranslatedTitle> <http://www.w3.org/2004/02/skos/core#prefLabel> "Translated Title"@en .
 <https://www.iso.org/standard/80275.html> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/dc/terms/Standard> .
 <https://www.iso.org/standard/80275.html> <http://www.w3.org/2000/01/rdf-schema#label> "ISO 19115-1:2014/Amd 2:2020"@en .
+_:cb10854842f13d034931e01f19c9609ae10f63a46880acf1b6b45bb42dece0ee412 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2006/time#Interval> .
+_:cb10854842f13d034931e01f19c9609ae10f63a46880acf1b6b45bb42dece0ee412 <http://www.w3.org/2006/time#hasBeginning> _:cb15ae5aab0a0d0becb54ded89bc95a922129ccf5ae5dde93cc11ddf3651dc5980f .
+_:cb10854842f13d034931e01f19c9609ae10f63a46880acf1b6b45bb42dece0ee412 <http://www.w3.org/2006/time#hasEnd> _:cb1a3d0da4a18f97a96eeb5e57a7d93e9d05a39f24e86a775fe4c68242877a779c0 .
 _:cb117d5c397b5cb4311c21c917b9e806be70275c88c5a21185c5589b390eafa1238 <http://www.opengis.net/ont/geosparql#asGML> "\n                <gml:Envelope xmlns=\"https://schema.ccmm.cz/research-data/2.0\" xmlns:gml=\"http://www.opengis.net/gml/3.2\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\">\n                    <gml:lowerCorner>13.394972457505816 49.50127042751268</gml:lowerCorner>\n                    <gml:upperCorner>15.585575400519133 50.61421606255462</gml:upperCorner>\n                </gml:Envelope>\n            "^^<http://www.opengis.net/ont/geosparql#gmlLiteral> .
 _:cb117d5c397b5cb4311c21c917b9e806be70275c88c5a21185c5589b390eafa1238 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.opengis.net/ont/sf#Envelope> .
 _:cb132a42d4ab73332a281f2a7148bc4227f8bd26150da56dc41c763c74b45bccd5a <http://www.opengis.net/ont/geosparql#asGML> "\n                <gml:MultiSurface xmlns=\"https://schema.ccmm.cz/research-data/2.0\" xmlns:gml=\"http://www.opengis.net/gml/3.2\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" gml:id=\"MS.AU.2.27\" srsName=\"http://www.opengis.net/def/crs/EPSG/0/5514\" srsDimension=\"2\">\n                    <gml:surfaceMember>\n                        <gml:Polygon gml:id=\"S.AU.2.27.1\">\n                            <gml:exterior>\n                                <gml:LinearRing>\n                                    <gml:posList>-700345.18 -989088.81 -700397.4 -989124.72\n                                        -700413.72 -989135.06 -700460.36 -989161.37 -700464.2\n                                        -989163.4 -700499.66 -989177.78 -700543.38 -989185.44\n                                        -700547.56 -989186.17 -734005.2 -1034221.4 -734000.7\n                                        -1034206.55 -733990.88 -1034174.1 -733982.57 -1034166.93\n                                        -733980.5 -1034165.15 -733970.63 -1034131.76 -733969.44\n                                        -1034127.73 -733973.52 -1034126.34 -733972.62\n                                        -1034123.26</gml:posList>\n                                </gml:LinearRing>\n                            </gml:exterior>\n                        </gml:Polygon>\n                    </gml:surfaceMember>\n                </gml:MultiSurface>\n            "^^<http://www.opengis.net/ont/geosparql#gmlLiteral> .
 _:cb132a42d4ab73332a281f2a7148bc4227f8bd26150da56dc41c763c74b45bccd5a <http://www.opengis.net/ont/geosparql#asWKT> "<http://www.opengis.net/def/crs/EPSG/0/4326> POLYGON ((14.508682697577541\n                50.51144569678917, 14.477983995157558 50.518028235000116, 14.478035479185621\n                50.45555539736816, 14.43880488232486 50.421645176771875, 14.36581743554305\n                50.446719892855725, 14.35739194570175 50.36258757705775, 14.250657864603255\n                50.33210789446332, 14.020371354587127 50.357187064119046, 13.880065240527614\n                50.25844541078942, 13.778984389572202 50.265648633804574, 13.495504438237504\n                50.17943830724704, 13.411503893003527 50.10568117653557, 13.417170120315802\n                50.03544699629592, 13.832381491846519 49.950644934840085, 13.795973119752944\n                49.80605469619334, 13.85777765771411 49.70834633763184, 13.731479412226832\n                49.6646629397591, 13.756733581251808 49.524668139017024, 13.967097422200993\n                49.51543217474966, 14.046896101223354 49.56571182490248, 14.088997534155055\n                49.520140414785175, 14.263020664899983 49.55285796043711, 14.389212294975863\n                49.53296587296373, 14.564954244472574 49.54952076690324, 14.646281469761647\n                49.50408988161226, 14.735996252098658 49.5403919181108, 14.747207923257832\n                49.62756002769342, 14.932262624987828 49.542327845490064, 15.005169791530534\n                49.6041078098593, 15.232274449831607 49.60593619825548, 15.243541844074144\n                49.65489001943007, 15.16792950938833 49.69645491207288, 15.212758939211\n                49.758168304172386, 15.510333591208592 49.853893057205454, 15.5246155982382\n                49.97119836125438, 15.361856320336926 50.046941393360356, 15.41520889434986\n                50.12977066138589, 15.32818568688134 50.15316027875852, 15.401167427630014\n                50.22145049356703, 15.356241063917224 50.293232962277955, 15.207509418150238\n                50.28784932198144, 15.089561576559703 50.37564180390385, 15.15967793985348\n                50.46503338472152, 15.100730871208327 50.548897837519775, 14.915528393428872\n                50.61835182571946, 14.85663081512601 50.57566962715006, 14.820147490564125\n                50.543574383167936, 14.769635500894594 50.56495862568477, 14.741574967586558\n                50.53286099312848, 14.688263940665593 50.48824277888082, 14.604089936049633\n                50.479312687191054, 14.508682697577541 50.51144569678917))"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 _:cb132a42d4ab73332a281f2a7148bc4227f8bd26150da56dc41c763c74b45bccd5a <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/locn#Geometry> .
-_:cb13ac571751ba09de28862ce00abc64b08db9acbccd9f986ab4c66a17969182be2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2006/time#Interval> .
-_:cb13ac571751ba09de28862ce00abc64b08db9acbccd9f986ab4c66a17969182be2 <http://www.w3.org/2006/time#hasBeginning> _:cb15ae5aab0a0d0becb54ded89bc95a922129ccf5ae5dde93cc11ddf3651dc5980f .
-_:cb13ac571751ba09de28862ce00abc64b08db9acbccd9f986ab4c66a17969182be2 <http://www.w3.org/2006/time#hasEnd> _:cb1a3d0da4a18f97a96eeb5e57a7d93e9d05a39f24e86a775fe4c68242877a779c0 .
 _:cb149d6cc48e89b9d1bf078809fcdd90f5097ae1787a320b40951b436a6f6963457 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/locn#Address> .
 _:cb149d6cc48e89b9d1bf078809fcdd90f5097ae1787a320b40951b436a6f6963457 <http://www.w3.org/ns/locn#fullAddress> "Dlouhá 15, 11000, Praha 1" .
+_:cb14ae057182dae98b725ae96c2ea52c93ef5a48f73ce4931b65828a12a1d7b6032 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://model.ccmm.cz/vocabulary/ccmm#TimeReference> .
+_:cb14ae057182dae98b725ae96c2ea52c93ef5a48f73ce4931b65828a12a1d7b6032 <http://www.w3.org/2006/time#hasTime> _:cb197e83acc53df618ccbc07d9a6e6cf9bc681cfe6bbdc2c37114f39cf585c3b191 .
+_:cb14ae057182dae98b725ae96c2ea52c93ef5a48f73ce4931b65828a12a1d7b6032 <https://model.ccmm.cz/vocabulary/ccmm#hasType> <https://w3id.org/tib/datacite/vocab/dateType/Created> .
 _:cb15ae5aab0a0d0becb54ded89bc95a922129ccf5ae5dde93cc11ddf3651dc5980f <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2006/time#Instant> .
 _:cb15ae5aab0a0d0becb54ded89bc95a922129ccf5ae5dde93cc11ddf3651dc5980f <http://www.w3.org/2006/time#inXSDDate> "2024-01-01"^^<http://www.w3.org/2001/XMLSchema#date> .
-_:cb182f0715d38bf061a8c5bf939c0b852495e7d33deab1306c9395fabe902cbb000 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2006/time#Instant> .
-_:cb182f0715d38bf061a8c5bf939c0b852495e7d33deab1306c9395fabe902cbb000 <http://www.w3.org/2006/time#inXSDDateTime> "2025-04-27T12:00:01+02:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+_:cb197e83acc53df618ccbc07d9a6e6cf9bc681cfe6bbdc2c37114f39cf585c3b191 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2006/time#Instant> .
+_:cb197e83acc53df618ccbc07d9a6e6cf9bc681cfe6bbdc2c37114f39cf585c3b191 <http://www.w3.org/2006/time#inXSDDateTime> "2025-04-27T12:00:01+02:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 _:cb19f58998fb4cc5fb59ebc9c3c922a89bc73c0bb8c338417781bcb55d222719f3f <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Organization> .
 _:cb19f58998fb4cc5fb59ebc9c3c922a89bc73c0bb8c338417781bcb55d222719f3f <http://www.w3.org/ns/adms#identifier> <https://ror.org/024d6js02> .
 _:cb19f58998fb4cc5fb59ebc9c3c922a89bc73c0bb8c338417781bcb55d222719f3f <http://xmlns.com/foaf/0.1/name> "Univerzita Karlova" .
@@ -224,9 +227,9 @@ _:cb1b221c7e956745cfa1ab1b2dfb0314b82cd39a33c50321c448b56c21a09277297 <http://ww
 _:cb1b221c7e956745cfa1ab1b2dfb0314b82cd39a33c50321c448b56c21a09277297 <http://xmlns.com/foaf/0.1/name> "Univerzita Karlova" .
 _:cb1c868cb729ee50c4244db3f858d4d8567a1e2398bf0a6ce54ad5a20190f63a818 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Organization> .
 _:cb1c868cb729ee50c4244db3f858d4d8567a1e2398bf0a6ce54ad5a20190f63a818 <http://xmlns.com/foaf/0.1/name> "Univerzita Karlova" .
-_:cb1cee3ea930fa49ca64aac09c0ec4962da94459f1a94b0462d91de5794720342b9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://model.ccmm.cz/vocabulary/ccmm#TimeReference> .
-_:cb1cee3ea930fa49ca64aac09c0ec4962da94459f1a94b0462d91de5794720342b9 <http://www.w3.org/2006/time#hasTime> _:cb182f0715d38bf061a8c5bf939c0b852495e7d33deab1306c9395fabe902cbb000 .
-_:cb1cee3ea930fa49ca64aac09c0ec4962da94459f1a94b0462d91de5794720342b9 <https://model.ccmm.cz/vocabulary/ccmm#hasType> <https://vocabs.ccmm.cz/registry/codelist/TimeReference/Created> .
+_:cb1e39ba03fcc7d99a1c18fd1657e522ee62f1376b6eeb6db0901645ac766b7f170 <http://purl.org/dc/terms/alternative> "Air quality measurements in Central Bohemian Region in 2024."@en .
+_:cb1e39ba03fcc7d99a1c18fd1657e522ee62f1376b6eeb6db0901645ac766b7f170 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://model.ccmm.cz/vocabulary/ccmm#AlternateTitle> .
+_:cb1e39ba03fcc7d99a1c18fd1657e522ee62f1376b6eeb6db0901645ac766b7f170 <https://model.ccmm.cz/vocabulary/ccmm#hasType> <https://w3id.org/tib/datacite/vocab/titleType/TranslatedTitle> .
 _:cb1ea03da4a9ec69bc95bcd7677ef0895da132481e6bc47a0c4d20f4992fad5faa8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2006/vcard/ns#Kind> .
 _:cb1ea03da4a9ec69bc95bcd7677ef0895da132481e6bc47a0c4d20f4992fad5faa8 <http://www.w3.org/2006/vcard/ns#hasAddress> _:cb22625fdce78ec26f98e436dba2c6117d6f6607592fa654dedfac94f801ac36ea9 .
 _:cb1ea03da4a9ec69bc95bcd7677ef0895da132481e6bc47a0c4d20f4992fad5faa8 <https://model.ccmm.cz/vocabulary/ccmm#email> "jan.novak@email.com" .
@@ -234,14 +237,16 @@ _:cb1ea03da4a9ec69bc95bcd7677ef0895da132481e6bc47a0c4d20f4992fad5faa8 <https://m
 _:cb212ae2e9d9d97c7b338a8c861fa681c5fe4d6536034ce5b5b085f46f0ff98b335 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/adms#Identifier> .
 _:cb212ae2e9d9d97c7b338a8c861fa681c5fe4d6536034ce5b5b085f46f0ff98b335 <http://www.w3.org/2004/02/skos/core#notation> "01pv73b02" .
 _:cb212ae2e9d9d97c7b338a8c861fa681c5fe4d6536034ce5b5b085f46f0ff98b335 <https://model.ccmm.cz/vocabulary/ccmm#inScheme> <https://ror.org/> .
+_:cb22236fa3426aadba671719f8a91475f9d729d1895c702ccc121a11564e44de737 <http://purl.org/dc/terms/title> "ENVI LVS1 Sampler pro odběr prašného aerosolu" .
+_:cb22236fa3426aadba671719f8a91475f9d729d1895c702ccc121a11564e44de737 <http://purl.org/dc/terms/type> <http://purl.org/coar/resource_type/8KJG-QS0Y> .
+_:cb22236fa3426aadba671719f8a91475f9d729d1895c702ccc121a11564e44de737 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Resource> .
+_:cb22236fa3426aadba671719f8a91475f9d729d1895c702ccc121a11564e44de737 <https://model.ccmm.cz/vocabulary/ccmm#hasType> <https://w3id.org/tib/datacite/vocab/relationType/IsCollectedBy> .
+_:cb22236fa3426aadba671719f8a91475f9d729d1895c702ccc121a11564e44de737 <https://model.ccmm.cz/vocabulary/ccmm#resourceUrl> "https://www.envitech-bohemia.cz/p/264/envi-lvs1-sampler-pro-odber-prasneho-aerosolu"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
 _:cb22625fdce78ec26f98e436dba2c6117d6f6607592fa654dedfac94f801ac36ea9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/locn#Address> .
 _:cb22625fdce78ec26f98e436dba2c6117d6f6607592fa654dedfac94f801ac36ea9 <http://www.w3.org/ns/locn#fullAddress> "Dlouhá 15, 11000, Praha 1" .
 _:cb234291d1bbef315982c1ca94df69f3da06a300f60a7da0b37d3573e97164d1139 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Attribution> .
 _:cb234291d1bbef315982c1ca94df69f3da06a300f60a7da0b37d3573e97164d1139 <http://www.w3.org/ns/dcat#hadRole> <https://vocabs.ccmm.cz/registry/codelist/AgentRole/Creator> .
 _:cb234291d1bbef315982c1ca94df69f3da06a300f60a7da0b37d3573e97164d1139 <http://www.w3.org/ns/prov#agent> _:cb74685bf604b5767e3c6d9e70e1d7348c63930e1d1580e1a7604730dccb584c91f .
-_:cb2386de176a81c7877f4327fe7ac09e4feade9b92b989e923d0bb2050681bc39de <http://purl.org/dc/terms/alternative> "Air quality measurements in Central Bohemian Region in 2024."@en .
-_:cb2386de176a81c7877f4327fe7ac09e4feade9b92b989e923d0bb2050681bc39de <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://model.ccmm.cz/vocabulary/ccmm#AlternateTitle> .
-_:cb2386de176a81c7877f4327fe7ac09e4feade9b92b989e923d0bb2050681bc39de <https://model.ccmm.cz/vocabulary/ccmm#hasType> <https://vocabs.ccmm.cz/registry/codelist/AlternateTitle/TranslatedTitle> .
 _:cb24a65022d758bf990d90988847d5e687ce07e914e3f08fb492dfb657a391f8c99 <http://purl.org/dc/terms/title> "Endpoint of WMS service Air quality" .
 _:cb24a65022d758bf990d90988847d5e687ce07e914e3f08fb492dfb657a391f8c99 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Resource> .
 _:cb24a65022d758bf990d90988847d5e687ce07e914e3f08fb492dfb657a391f8c99 <https://model.ccmm.cz/vocabulary/ccmm#resourceUrl> "https://gis.cenia.gov.cz/id/service/wms/chmu_ovzdusi"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
@@ -249,23 +254,18 @@ _:cb24d3b2bed8d45f7d0f29f63117937451fea2c9d3c3cc1c3f6167186262574476a <http://ww
 _:cb24d3b2bed8d45f7d0f29f63117937451fea2c9d3c3cc1c3f6167186262574476a <http://www.w3.org/2006/vcard/ns#hasAddress> _:cb149d6cc48e89b9d1bf078809fcdd90f5097ae1787a320b40951b436a6f6963457 .
 _:cb24d3b2bed8d45f7d0f29f63117937451fea2c9d3c3cc1c3f6167186262574476a <https://model.ccmm.cz/vocabulary/ccmm#email> "jan.novak@email.com" .
 _:cb24d3b2bed8d45f7d0f29f63117937451fea2c9d3c3cc1c3f6167186262574476a <https://model.ccmm.cz/vocabulary/ccmm#phone> "+0112345678" .
-_:cb26d0166210662fa37b4d48d571810013fe735cf0c690c1e2fa4b5babda2bf9565 <http://purl.org/dc/terms/description> "Tato datová sada obsahuje měření kvality ovzduší ve středních Čechách v\n            roce 2024."@cs .
-_:cb26d0166210662fa37b4d48d571810013fe735cf0c690c1e2fa4b5babda2bf9565 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/tib/datacite/class/Description> .
-_:cb26d0166210662fa37b4d48d571810013fe735cf0c690c1e2fa4b5babda2bf9565 <https://w3id.org/tib/datacite/property/descriptionType> <https://vocabs.ccmm.cz/registry/codelist/DescriptionType/Abstract> .
-_:cb28a91c18d886844c043df213c03b58b6a9a55e71924ce34ed649c2501b98140ed <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://model.ccmm.cz/vocabulary/ccmm#TimeReference> .
-_:cb28a91c18d886844c043df213c03b58b6a9a55e71924ce34ed649c2501b98140ed <http://www.w3.org/2006/time#hasTime> _:cb13ac571751ba09de28862ce00abc64b08db9acbccd9f986ab4c66a17969182be2 .
-_:cb28a91c18d886844c043df213c03b58b6a9a55e71924ce34ed649c2501b98140ed <https://model.ccmm.cz/vocabulary/ccmm#hasType> <https://vocabs.ccmm.cz/registry/codelist/TimeReference/Collected> .
+_:cb2896a853a9bd7c9d04a379182a8008790b6e9849a10eeb32829b6102bc6c5e365 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://model.ccmm.cz/vocabulary/ccmm#TimeReference> .
+_:cb2896a853a9bd7c9d04a379182a8008790b6e9849a10eeb32829b6102bc6c5e365 <http://www.w3.org/2006/time#hasTime> _:cb10854842f13d034931e01f19c9609ae10f63a46880acf1b6b45bb42dece0ee412 .
+_:cb2896a853a9bd7c9d04a379182a8008790b6e9849a10eeb32829b6102bc6c5e365 <https://model.ccmm.cz/vocabulary/ccmm#hasType> <https://w3id.org/tib/datacite/vocab/dateType/Collected> .
+_:cb292165b53c875e3dee8bc170be5ec166a49aca71d8847a0f29daa4482c6654613 <http://purl.org/dc/terms/description> "Tato datová sada obsahuje měření kvality ovzduší ve středních Čechách v\n            roce 2024."@cs .
+_:cb292165b53c875e3dee8bc170be5ec166a49aca71d8847a0f29daa4482c6654613 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/tib/datacite/class/Description> .
+_:cb292165b53c875e3dee8bc170be5ec166a49aca71d8847a0f29daa4482c6654613 <https://w3id.org/tib/datacite/property/descriptionType> <https://w3id.org/tib/datacite/property/descriptionType/Abstract> .
 _:cb2b48a03aee7dec2e9e3a8def8156adfc1ec4fb9b7b924966a19abbec5fa10213a <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Organization> .
 _:cb2b48a03aee7dec2e9e3a8def8156adfc1ec4fb9b7b924966a19abbec5fa10213a <http://www.w3.org/ns/adms#identifier> <https://ror.org/02j46qs45> .
 _:cb2b48a03aee7dec2e9e3a8def8156adfc1ec4fb9b7b924966a19abbec5fa10213a <http://xmlns.com/foaf/0.1/name> "Masarykova Univerzita" .
 _:cb2df12fb3316df4bafa64864e0e740cd31fc682ad2e6d24a19963bf2427ec76a49 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Attribution> .
 _:cb2df12fb3316df4bafa64864e0e740cd31fc682ad2e6d24a19963bf2427ec76a49 <http://www.w3.org/ns/dcat#hadRole> <https://vocabs.ccmm.cz/registry/codelist/AgentRole/Publisher> .
 _:cb2df12fb3316df4bafa64864e0e740cd31fc682ad2e6d24a19963bf2427ec76a49 <http://www.w3.org/ns/prov#agent> _:cb1c868cb729ee50c4244db3f858d4d8567a1e2398bf0a6ce54ad5a20190f63a818 .
-_:cb2f7ecbfabe21bc2a891bea00e0d955b203c885bef3e08d8178cb2eb275ec61e5c <http://purl.org/dc/terms/title> "ENVI LVS1 Sampler pro odběr prašného aerosolu" .
-_:cb2f7ecbfabe21bc2a891bea00e0d955b203c885bef3e08d8178cb2eb275ec61e5c <http://purl.org/dc/terms/type> <http://purl.org/coar/resource_type/8KJG-QS0Y> .
-_:cb2f7ecbfabe21bc2a891bea00e0d955b203c885bef3e08d8178cb2eb275ec61e5c <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Resource> .
-_:cb2f7ecbfabe21bc2a891bea00e0d955b203c885bef3e08d8178cb2eb275ec61e5c <https://model.ccmm.cz/vocabulary/ccmm#hasType> <https://vocabs.ccmm.cz/registry/codelist/RelationType/IsCollectedBy> .
-_:cb2f7ecbfabe21bc2a891bea00e0d955b203c885bef3e08d8178cb2eb275ec61e5c <https://model.ccmm.cz/vocabulary/ccmm#resourceUrl> "https://www.envitech-bohemia.cz/p/264/envi-lvs1-sampler-pro-odber-prasneho-aerosolu"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
 _:cb365a3a8f2678f99161bef873662620096df7c9433e35c56b4c427200473034d67 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Person> .
 _:cb365a3a8f2678f99161bef873662620096df7c9433e35c56b4c427200473034d67 <http://www.w3.org/2006/vcard/ns#family-name> "Janouch" .
 _:cb365a3a8f2678f99161bef873662620096df7c9433e35c56b4c427200473034d67 <http://www.w3.org/2006/vcard/ns#given-name> "Ivan" .

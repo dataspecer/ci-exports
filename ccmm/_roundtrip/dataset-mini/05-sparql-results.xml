@@ -214,7 +214,7 @@
     <result>
       <binding name="s"><bnode>b0_cb902cb2223c13da0f7f1d235a28c462c4d28645df1f4e3958916fa6a0b8724657</bnode></binding>
       <binding name="p"><uri>https://model.ccmm.cz/vocabulary/ccmm#hasType</uri></binding>
-      <binding name="o"><uri>https://vocabs.ccmm.cz/registry/codelist/TimeReference/Created</uri></binding>
+      <binding name="o"><uri>https://w3id.org/tib/datacite/vocab/dateType/Created</uri></binding>
     </result>
     <result>
       <binding name="s"><bnode>b0_cbc3df3bad47669afb5ac99207400e7699b5be7f3f9ddd495eb5c99f0d6201e76c</bnode></binding>
@@ -362,12 +362,12 @@
       <binding name="o"><uri>https://model.ccmm.cz/vocabulary/ccmm#SubjectScheme</uri></binding>
     </result>
     <result>
-      <binding name="s"><uri>https://vocabs.ccmm.cz/registry/codelist/TimeReference/Created</uri></binding>
+      <binding name="s"><uri>https://w3id.org/tib/datacite/vocab/dateType/Created</uri></binding>
       <binding name="p"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
       <binding name="o"><uri>http://www.w3.org/2004/02/skos/core#Concept</uri></binding>
     </result>
     <result>
-      <binding name="s"><uri>https://vocabs.ccmm.cz/registry/codelist/TimeReference/Created</uri></binding>
+      <binding name="s"><uri>https://w3id.org/tib/datacite/vocab/dateType/Created</uri></binding>
       <binding name="p"><uri>http://www.w3.org/2004/02/skos/core#prefLabel</uri></binding>
       <binding name="o"><literal xml:lang="en">Created</literal></binding>
     </result>

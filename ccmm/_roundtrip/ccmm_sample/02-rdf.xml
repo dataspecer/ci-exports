@@ -206,7 +206,7 @@
             <ns0:alternative xml:lang="en">Air quality measurements in Central Bohemian Region in 2024.</ns0:alternative>
             <ns1:hasType>
                <rdf:Description xmlns:ns0="http://www.w3.org/2004/02/skos/core#"
-                                rdf:about="https://vocabs.ccmm.cz/registry/codelist/AlternateTitle/TranslatedTitle">
+                                rdf:about="https://w3id.org/tib/datacite/vocab/titleType/TranslatedTitle">
                   <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
                   <ns0:prefLabel xml:lang="cs">Přeložený název</ns0:prefLabel>
                   <ns0:prefLabel xml:lang="en">Translated Title</ns0:prefLabel>
@@ -399,7 +399,7 @@
             </ns0:hasTime>
             <ns1:hasType>
                <rdf:Description xmlns:ns0="http://www.w3.org/2004/02/skos/core#"
-                                rdf:about="https://vocabs.ccmm.cz/registry/codelist/TimeReference/Created">
+                                rdf:about="https://w3id.org/tib/datacite/vocab/dateType/Created">
                   <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
                   <ns0:prefLabel xml:lang="en">Date Created</ns0:prefLabel>
                   <ns0:prefLabel xml:lang="cs">Datum vytvoření</ns0:prefLabel>
@@ -432,7 +432,7 @@
             </ns0:hasTime>
             <ns1:hasType>
                <rdf:Description xmlns:ns0="http://www.w3.org/2004/02/skos/core#"
-                                rdf:about="https://vocabs.ccmm.cz/registry/codelist/TimeReference/Collected">
+                                rdf:about="https://w3id.org/tib/datacite/vocab/dateType/Collected">
                   <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
                   <ns0:prefLabel xml:lang="en">Date Collected</ns0:prefLabel>
                   <ns0:prefLabel xml:lang="cs">Datum sběru</ns0:prefLabel>
@@ -524,7 +524,7 @@
             roce 2024.</ns0:description>
             <ns1:descriptionType>
                <rdf:Description xmlns:ns0="http://www.w3.org/2004/02/skos/core#"
-                                rdf:about="https://vocabs.ccmm.cz/registry/codelist/DescriptionType/Abstract">
+                                rdf:about="https://w3id.org/tib/datacite/property/descriptionType/Abstract">
                   <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
                   <ns0:prefLabel xml:lang="en">Abstract</ns0:prefLabel>
                   <ns0:prefLabel xml:lang="cs">Abstrakt</ns0:prefLabel>
@@ -688,7 +688,7 @@
             </ns1:type>
             <ns2:hasType>
                <rdf:Description xmlns:ns0="http://www.w3.org/2004/02/skos/core#"
-                                rdf:about="https://vocabs.ccmm.cz/registry/codelist/RelationType/IsReferencedBy">
+                                rdf:about="https://w3id.org/tib/datacite/vocab/relationType/IsReferencedBy">
                   <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
                   <ns0:prefLabel xml:lang="cs">je na něj odkazováno z (čeho)</ns0:prefLabel>
                </rdf:Description>
@@ -713,7 +713,7 @@
             </ns1:type>
             <ns2:hasType>
                <rdf:Description xmlns:ns0="http://www.w3.org/2004/02/skos/core#"
-                                rdf:about="https://vocabs.ccmm.cz/registry/codelist/RelationType/IsCollectedBy">
+                                rdf:about="https://w3id.org/tib/datacite/vocab/relationType/IsCollectedBy">
                   <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
                   <ns0:prefLabel xml:lang="cs">je sbírán (čím)</ns0:prefLabel>
                   <ns0:prefLabel xml:lang="en">is collected by</ns0:prefLabel>
@@ -739,7 +739,7 @@
             </ns1:type>
             <ns2:hasType>
                <rdf:Description xmlns:ns0="http://www.w3.org/2004/02/skos/core#"
-                                rdf:about="https://vocabs.ccmm.cz/registry/codelist/RelationType/IsDerivedFrom">
+                                rdf:about="https://w3id.org/tib/datacite/vocab/relationType/IsDerivedFrom">
                   <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
                   <ns0:prefLabel xml:lang="en">is derived from</ns0:prefLabel>
                   <ns0:prefLabel xml:lang="cs">je odvozen od (čeho)</ns0:prefLabel>
@@ -759,7 +759,7 @@
             <ns2:resourceUrl rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://data.gov.cz/zdroj/datové-sady/00020699/c724d055011d82189bbfc3766ffd1eb7</ns2:resourceUrl>
             <ns2:hasType>
                <rdf:Description xmlns:ns0="http://www.w3.org/2004/02/skos/core#"
-                                rdf:about="https://vocabs.ccmm.cz/registry/codelist/RelationType/HasMetadata">
+                                rdf:about="https://w3id.org/tib/datacite/vocab/relationType/HasMetadata">
                   <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
                   <ns0:prefLabel xml:lang="cs">má metadata</ns0:prefLabel>
                   <ns0:prefLabel xml:lang="en">has metadata</ns0:prefLabel>

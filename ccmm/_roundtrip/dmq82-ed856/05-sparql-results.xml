@@ -12,21 +12,6 @@
       <binding name="o"><uri>https://model.ccmm.cz/vocabulary/ccmm#ValidationResult</uri></binding>
     </result>
     <result>
-      <binding name="s"><bnode>b0_cb124c8b1d0ac8bccd48f0e5669e5e890b745a09af5498b3776961e5b5551ed7648</bnode></binding>
-      <binding name="p"><uri>http://purl.org/dc/terms/description</uri></binding>
-      <binding name="o"><literal xml:lang="en">Industry applications of duplex stainless steels require a two-phase microstructure with a nearly balanced austenite-ferrite content to achieve good mechanical properties and good corrosion resistance. The most widespread additive manufacturing method such as laser powder bed fusion provides nearly fully ferritic microstructures due to the very high cooling rate, and the post-processing heat treatment must be performed. In contrast, other additive manufacturing methods, such as directed deposition methods, reach lower cooling rates and enable to obtain an equal ferrite–austenite ratio directly in the microstructure of the as-built state. In this work, the super duplex stainless steel SAF 2507 was deposited by directed energy deposition. The process parameters, namely, the laser power, laser beam spot, and powder feed rate, were varied to investigate the impact of the energy area density on the microstructure and tensile properties. A decrease in the energy area density caused an increase in the austenite content of 48 vol% and a numerical simulation of the sample temperature distribution inside the block during deposition, explaining the relationship between the amount of in situ formed austenite and the deposition parameters, was provided. Simultaneously, the deposition rate increased by more than five times. In contrast, the samples deposited at a higher building rate are characterized by greater porosity and lower elongation values in the vertical direction. The effect of the deposition parameters on the yield strength is low.</literal></binding>
-    </result>
-    <result>
-      <binding name="s"><bnode>b0_cb124c8b1d0ac8bccd48f0e5669e5e890b745a09af5498b3776961e5b5551ed7648</bnode></binding>
-      <binding name="p"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
-      <binding name="o"><uri>https://w3id.org/tib/datacite/class/Description</uri></binding>
-    </result>
-    <result>
-      <binding name="s"><bnode>b0_cb124c8b1d0ac8bccd48f0e5669e5e890b745a09af5498b3776961e5b5551ed7648</bnode></binding>
-      <binding name="p"><uri>https://w3id.org/tib/datacite/property/descriptionType</uri></binding>
-      <binding name="o"><uri>https://vocabs.ccmm.cz/registry/codelist/DescriptionType/Abstract</uri></binding>
-    </result>
-    <result>
       <binding name="s"><bnode>b0_cb13e54021ba9d6fea308d20e42997b24f65c8f306e037d9ca1ccf13a1c14062f4b</bnode></binding>
       <binding name="p"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
       <binding name="o"><uri>http://www.w3.org/ns/prov#Person</uri></binding>
@@ -47,19 +32,34 @@
       <binding name="o"><literal datatype="http://www.w3.org/2001/XMLSchema#string">:unkn</literal></binding>
     </result>
     <result>
-      <binding name="s"><bnode>b0_cb15198b8ae5454e41f81d4496533cedfffb25319511c3d1fbfc2a3825d722bb2cc</bnode></binding>
+      <binding name="s"><bnode>b0_cb149dda7036e9eb67bc2f5e01eb3c4a5e1a817730668c6ba398f12e51a759326f6</bnode></binding>
       <binding name="p"><uri>http://purl.org/dc/terms/description</uri></binding>
-      <binding name="o"><literal xml:lang="en">The data set is related to the investigation of the influence of deposition parameters on the microstructure, austenite formation, and tensile properties of SAF 2507 super duplex stainless steel fabricated using directed energy deposition (DED). The experiments were carried out at COMTES FHT (Czech Republic) using an INSSTEK MX-600 system equipped with a 2 kW Yttrium fiber laser. SAF 2507 powder (particle size 45–150 μm) was deposited under three different parameter sets, varying laser power, beam diameter, layer thickness, hatch distance, and powder feed rate, while maintaining constant scan speed. A zig-zag deposition strategy was applied under a protective argon atmosphere (5.0, 99.999%). For each parameter set, 20×20×20 mm cubes were built and used for analysis. Microstructure and phase composition were characterized using optical microscopy, scanning electron microscopy, EBSD analysis, X-ray diffraction. Tensile properties were evaluated using miniature tensile tests. Thermal simulations of the deposition process were carried out using Simufact Welding 2024.1 with the Advanced Thermal Cycle (ATC) method.</literal></binding>
+      <binding name="o"><literal xml:lang="en">Industry applications of duplex stainless steels require a two-phase microstructure with a nearly balanced austenite-ferrite content to achieve good mechanical properties and good corrosion resistance. The most widespread additive manufacturing method such as laser powder bed fusion provides nearly fully ferritic microstructures due to the very high cooling rate, and the post-processing heat treatment must be performed. In contrast, other additive manufacturing methods, such as directed deposition methods, reach lower cooling rates and enable to obtain an equal ferrite–austenite ratio directly in the microstructure of the as-built state. In this work, the super duplex stainless steel SAF 2507 was deposited by directed energy deposition. The process parameters, namely, the laser power, laser beam spot, and powder feed rate, were varied to investigate the impact of the energy area density on the microstructure and tensile properties. A decrease in the energy area density caused an increase in the austenite content of 48 vol% and a numerical simulation of the sample temperature distribution inside the block during deposition, explaining the relationship between the amount of in situ formed austenite and the deposition parameters, was provided. Simultaneously, the deposition rate increased by more than five times. In contrast, the samples deposited at a higher building rate are characterized by greater porosity and lower elongation values in the vertical direction. The effect of the deposition parameters on the yield strength is low.</literal></binding>
     </result>
     <result>
-      <binding name="s"><bnode>b0_cb15198b8ae5454e41f81d4496533cedfffb25319511c3d1fbfc2a3825d722bb2cc</bnode></binding>
+      <binding name="s"><bnode>b0_cb149dda7036e9eb67bc2f5e01eb3c4a5e1a817730668c6ba398f12e51a759326f6</bnode></binding>
       <binding name="p"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
       <binding name="o"><uri>https://w3id.org/tib/datacite/class/Description</uri></binding>
     </result>
     <result>
-      <binding name="s"><bnode>b0_cb15198b8ae5454e41f81d4496533cedfffb25319511c3d1fbfc2a3825d722bb2cc</bnode></binding>
+      <binding name="s"><bnode>b0_cb149dda7036e9eb67bc2f5e01eb3c4a5e1a817730668c6ba398f12e51a759326f6</bnode></binding>
       <binding name="p"><uri>https://w3id.org/tib/datacite/property/descriptionType</uri></binding>
-      <binding name="o"><uri>https://vocabs.ccmm.cz/registry/codelist/DescriptionType/Methods</uri></binding>
+      <binding name="o"><uri>https://w3id.org/tib/datacite/property/descriptionType/Abstract</uri></binding>
+    </result>
+    <result>
+      <binding name="s"><bnode>b0_cb151f1ad3be0e5c713de4ea65688ea48ffc3ac2423876a14bde369db40adc19174</bnode></binding>
+      <binding name="p"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
+      <binding name="o"><uri>http://www.w3.org/2006/time#Interval</uri></binding>
+    </result>
+    <result>
+      <binding name="s"><bnode>b0_cb151f1ad3be0e5c713de4ea65688ea48ffc3ac2423876a14bde369db40adc19174</bnode></binding>
+      <binding name="p"><uri>http://www.w3.org/2006/time#hasBeginning</uri></binding>
+      <binding name="o"><bnode>b0_cb17050f3e809e87ffa58339ab02b74d1e239df9b9a456bc43bd9d8cb393bf7bd80</bnode></binding>
+    </result>
+    <result>
+      <binding name="s"><bnode>b0_cb151f1ad3be0e5c713de4ea65688ea48ffc3ac2423876a14bde369db40adc19174</bnode></binding>
+      <binding name="p"><uri>http://www.w3.org/2006/time#hasEnd</uri></binding>
+      <binding name="o"><bnode>b0_cb253fd16e35cd10a7c59e3bc74a3bfb8411adac652c7812f8a855bebbe2414b7b7</bnode></binding>
     </result>
     <result>
       <binding name="s"><bnode>b0_cb161b59b728111fe3f1bb7876d697a9dd106dbe7d01b47bfab72783d30f04fc4c0</bnode></binding>
@@ -82,21 +82,6 @@
       <binding name="o"><literal datatype="http://www.w3.org/2001/XMLSchema#date">2025-02-25</literal></binding>
     </result>
     <result>
-      <binding name="s"><bnode>b0_cb171f51993e5cb8de0229c7106adc40eff2bae6dd9963143823682a9961a548f9f</bnode></binding>
-      <binding name="p"><uri>http://purl.org/dc/terms/description</uri></binding>
-      <binding name="o"><literal xml:lang="en">The sets of experimental data were recorded on several instruments within COMTES FHT. In cases where possible (XRD, MTT, EBSD), the data are in xlsx format enabling any replotting.</literal></binding>
-    </result>
-    <result>
-      <binding name="s"><bnode>b0_cb171f51993e5cb8de0229c7106adc40eff2bae6dd9963143823682a9961a548f9f</bnode></binding>
-      <binding name="p"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
-      <binding name="o"><uri>https://w3id.org/tib/datacite/class/Description</uri></binding>
-    </result>
-    <result>
-      <binding name="s"><bnode>b0_cb171f51993e5cb8de0229c7106adc40eff2bae6dd9963143823682a9961a548f9f</bnode></binding>
-      <binding name="p"><uri>https://w3id.org/tib/datacite/property/descriptionType</uri></binding>
-      <binding name="o"><uri>https://vocabs.ccmm.cz/registry/codelist/DescriptionType/TechnicalInfo</uri></binding>
-    </result>
-    <result>
       <binding name="s"><bnode>b0_cb180bdb553b009972793d44eddfff90eaa534dd3ec217d04860ebcbe5fd4dc5b46</bnode></binding>
       <binding name="p"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
       <binding name="o"><uri>http://www.w3.org/ns/prov#Person</uri></binding>
@@ -105,6 +90,16 @@
       <binding name="s"><bnode>b0_cb180bdb553b009972793d44eddfff90eaa534dd3ec217d04860ebcbe5fd4dc5b46</bnode></binding>
       <binding name="p"><uri>http://xmlns.com/foaf/0.1/name</uri></binding>
       <binding name="o"><literal datatype="http://www.w3.org/2001/XMLSchema#string">Brázda, Michal</literal></binding>
+    </result>
+    <result>
+      <binding name="s"><bnode>b0_cb182383fed400dcd4a558fbd664ff3ea40d16354f9ac7715230b031279c67832c1</bnode></binding>
+      <binding name="p"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
+      <binding name="o"><uri>http://www.w3.org/2006/time#Instant</uri></binding>
+    </result>
+    <result>
+      <binding name="s"><bnode>b0_cb182383fed400dcd4a558fbd664ff3ea40d16354f9ac7715230b031279c67832c1</bnode></binding>
+      <binding name="p"><uri>http://www.w3.org/2006/time#inXSDDate</uri></binding>
+      <binding name="o"><literal datatype="http://www.w3.org/2001/XMLSchema#date">2025-06-16</literal></binding>
     </result>
     <result>
       <binding name="s"><bnode>b0_cb1982e0b6b721e8cdf62f85bb4a0f55d003d42970a60fbfb12c834f0c9004e81ef</bnode></binding>
@@ -122,29 +117,19 @@
       <binding name="o"><bnode>b0_cb13e54021ba9d6fea308d20e42997b24f65c8f306e037d9ca1ccf13a1c14062f4b</bnode></binding>
     </result>
     <result>
-      <binding name="s"><bnode>b0_cb19c2de06118e3bfe926ed36baeb0a20b62f554db1dee2055f4be7a7ff857f856d</bnode></binding>
+      <binding name="s"><bnode>b0_cb1b08720fa54b137dfd3fb9e158414796778f917ec9628937477b8caf51c54816b</bnode></binding>
+      <binding name="p"><uri>http://purl.org/dc/terms/description</uri></binding>
+      <binding name="o"><literal xml:lang="en">The data set is related to the investigation of the influence of deposition parameters on the microstructure, austenite formation, and tensile properties of SAF 2507 super duplex stainless steel fabricated using directed energy deposition (DED). The experiments were carried out at COMTES FHT (Czech Republic) using an INSSTEK MX-600 system equipped with a 2 kW Yttrium fiber laser. SAF 2507 powder (particle size 45–150 μm) was deposited under three different parameter sets, varying laser power, beam diameter, layer thickness, hatch distance, and powder feed rate, while maintaining constant scan speed. A zig-zag deposition strategy was applied under a protective argon atmosphere (5.0, 99.999%). For each parameter set, 20×20×20 mm cubes were built and used for analysis. Microstructure and phase composition were characterized using optical microscopy, scanning electron microscopy, EBSD analysis, X-ray diffraction. Tensile properties were evaluated using miniature tensile tests. Thermal simulations of the deposition process were carried out using Simufact Welding 2024.1 with the Advanced Thermal Cycle (ATC) method.</literal></binding>
+    </result>
+    <result>
+      <binding name="s"><bnode>b0_cb1b08720fa54b137dfd3fb9e158414796778f917ec9628937477b8caf51c54816b</bnode></binding>
       <binding name="p"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
-      <binding name="o"><uri>http://www.w3.org/2006/time#Instant</uri></binding>
+      <binding name="o"><uri>https://w3id.org/tib/datacite/class/Description</uri></binding>
     </result>
     <result>
-      <binding name="s"><bnode>b0_cb19c2de06118e3bfe926ed36baeb0a20b62f554db1dee2055f4be7a7ff857f856d</bnode></binding>
-      <binding name="p"><uri>http://www.w3.org/2006/time#inXSDDate</uri></binding>
-      <binding name="o"><literal datatype="http://www.w3.org/2001/XMLSchema#date">2025-06-16</literal></binding>
-    </result>
-    <result>
-      <binding name="s"><bnode>b0_cb1b34e9e845000cddf899a7e692bf2b9f880b14205fec66eeb60205a5d7aa4fdcf</bnode></binding>
-      <binding name="p"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
-      <binding name="o"><uri>http://www.w3.org/2006/time#Interval</uri></binding>
-    </result>
-    <result>
-      <binding name="s"><bnode>b0_cb1b34e9e845000cddf899a7e692bf2b9f880b14205fec66eeb60205a5d7aa4fdcf</bnode></binding>
-      <binding name="p"><uri>http://www.w3.org/2006/time#hasBeginning</uri></binding>
-      <binding name="o"><bnode>b0_cb17050f3e809e87ffa58339ab02b74d1e239df9b9a456bc43bd9d8cb393bf7bd80</bnode></binding>
-    </result>
-    <result>
-      <binding name="s"><bnode>b0_cb1b34e9e845000cddf899a7e692bf2b9f880b14205fec66eeb60205a5d7aa4fdcf</bnode></binding>
-      <binding name="p"><uri>http://www.w3.org/2006/time#hasEnd</uri></binding>
-      <binding name="o"><bnode>b0_cb253fd16e35cd10a7c59e3bc74a3bfb8411adac652c7812f8a855bebbe2414b7b7</bnode></binding>
+      <binding name="s"><bnode>b0_cb1b08720fa54b137dfd3fb9e158414796778f917ec9628937477b8caf51c54816b</bnode></binding>
+      <binding name="p"><uri>https://w3id.org/tib/datacite/property/descriptionType</uri></binding>
+      <binding name="o"><uri>https://w3id.org/tib/datacite/property/descriptionType/Methods</uri></binding>
     </result>
     <result>
       <binding name="s"><bnode>b0_cb1b4fb615213150f8d5f58bd3b2bdd6f6d73437857b3e13e5726a90c0353027370</bnode></binding>
@@ -160,6 +145,21 @@
       <binding name="s"><bnode>b0_cb1b4fb615213150f8d5f58bd3b2bdd6f6d73437857b3e13e5726a90c0353027370</bnode></binding>
       <binding name="p"><uri>http://www.w3.org/ns/prov#agent</uri></binding>
       <binding name="o"><bnode>b0_cb1e2affd75361ebcac2e0157ebe737cf6a3896e678e5232c02f3f2c6e54df23811</bnode></binding>
+    </result>
+    <result>
+      <binding name="s"><bnode>b0_cb1bcbae7cbcd88cdc30c6e47130fc50c2030357f0f21a9b626ede1c88ace221b91</bnode></binding>
+      <binding name="p"><uri>http://purl.org/dc/terms/description</uri></binding>
+      <binding name="o"><literal xml:lang="en">The sets of experimental data were recorded on several instruments within COMTES FHT. In cases where possible (XRD, MTT, EBSD), the data are in xlsx format enabling any replotting.</literal></binding>
+    </result>
+    <result>
+      <binding name="s"><bnode>b0_cb1bcbae7cbcd88cdc30c6e47130fc50c2030357f0f21a9b626ede1c88ace221b91</bnode></binding>
+      <binding name="p"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
+      <binding name="o"><uri>https://w3id.org/tib/datacite/class/Description</uri></binding>
+    </result>
+    <result>
+      <binding name="s"><bnode>b0_cb1bcbae7cbcd88cdc30c6e47130fc50c2030357f0f21a9b626ede1c88ace221b91</bnode></binding>
+      <binding name="p"><uri>https://w3id.org/tib/datacite/property/descriptionType</uri></binding>
+      <binding name="o"><uri>https://w3id.org/tib/datacite/property/descriptionType/TechnicalInfo</uri></binding>
     </result>
     <result>
       <binding name="s"><bnode>b0_cb1c18fdb90422f9d868be6ab0f11734e7b69f20449b372a42c9cb9bc0b496a6f26</bnode></binding>
@@ -277,6 +277,16 @@
       <binding name="o"><bnode>b0_cb180bdb553b009972793d44eddfff90eaa534dd3ec217d04860ebcbe5fd4dc5b46</bnode></binding>
     </result>
     <result>
+      <binding name="s"><bnode>b0_cb202132b6c67ce3d3a3c4b4ba1d7c8ac5e7e98dcdd8d95c6beb15df7250046c564</bnode></binding>
+      <binding name="p"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
+      <binding name="o"><uri>http://www.w3.org/2006/time#Instant</uri></binding>
+    </result>
+    <result>
+      <binding name="s"><bnode>b0_cb202132b6c67ce3d3a3c4b4ba1d7c8ac5e7e98dcdd8d95c6beb15df7250046c564</bnode></binding>
+      <binding name="p"><uri>http://www.w3.org/2006/time#inXSDDate</uri></binding>
+      <binding name="o"><literal datatype="http://www.w3.org/2001/XMLSchema#date">2025-06-16</literal></binding>
+    </result>
+    <result>
       <binding name="s"><bnode>b0_cb20a40e944b49603e76fd7e894c0368fc01350d515d815a14732b0620d3c974b97</bnode></binding>
       <binding name="p"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
       <binding name="o"><uri>http://www.w3.org/ns/org#Organization</uri></binding>
@@ -297,6 +307,36 @@
       <binding name="o"><literal datatype="http://www.w3.org/2001/XMLSchema#string">Vysoká škola chemicko-technologická v Praze</literal></binding>
     </result>
     <result>
+      <binding name="s"><bnode>b0_cb20c7aa384588697338af2519756d504d4ebd2464c8fcce6e3cc9d8e95b6c880ec</bnode></binding>
+      <binding name="p"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
+      <binding name="o"><uri>https://model.ccmm.cz/vocabulary/ccmm#TimeReference</uri></binding>
+    </result>
+    <result>
+      <binding name="s"><bnode>b0_cb20c7aa384588697338af2519756d504d4ebd2464c8fcce6e3cc9d8e95b6c880ec</bnode></binding>
+      <binding name="p"><uri>http://www.w3.org/2006/time#hasTime</uri></binding>
+      <binding name="o"><bnode>b0_cb202132b6c67ce3d3a3c4b4ba1d7c8ac5e7e98dcdd8d95c6beb15df7250046c564</bnode></binding>
+    </result>
+    <result>
+      <binding name="s"><bnode>b0_cb20c7aa384588697338af2519756d504d4ebd2464c8fcce6e3cc9d8e95b6c880ec</bnode></binding>
+      <binding name="p"><uri>https://model.ccmm.cz/vocabulary/ccmm#hasType</uri></binding>
+      <binding name="o"><uri>https://w3id.org/tib/datacite/vocab/dateType/Available</uri></binding>
+    </result>
+    <result>
+      <binding name="s"><bnode>b0_cb20d1077eec34e4573403959b82601454ae21d31f51fafbb47057eb8459419a730</bnode></binding>
+      <binding name="p"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
+      <binding name="o"><uri>https://model.ccmm.cz/vocabulary/ccmm#TimeReference</uri></binding>
+    </result>
+    <result>
+      <binding name="s"><bnode>b0_cb20d1077eec34e4573403959b82601454ae21d31f51fafbb47057eb8459419a730</bnode></binding>
+      <binding name="p"><uri>http://www.w3.org/2006/time#hasTime</uri></binding>
+      <binding name="o"><bnode>b0_cb151f1ad3be0e5c713de4ea65688ea48ffc3ac2423876a14bde369db40adc19174</bnode></binding>
+    </result>
+    <result>
+      <binding name="s"><bnode>b0_cb20d1077eec34e4573403959b82601454ae21d31f51fafbb47057eb8459419a730</bnode></binding>
+      <binding name="p"><uri>https://model.ccmm.cz/vocabulary/ccmm#hasType</uri></binding>
+      <binding name="o"><uri>https://w3id.org/tib/datacite/vocab/dateType/Created</uri></binding>
+    </result>
+    <result>
       <binding name="s"><bnode>b0_cb21dda3d97d9544bdb059eeddc5d85e0a0df7349ff7a9305d007717879ebe44a99</bnode></binding>
       <binding name="p"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
       <binding name="o"><uri>http://www.w3.org/ns/org#Organization</uri></binding>
@@ -305,16 +345,6 @@
       <binding name="s"><bnode>b0_cb21dda3d97d9544bdb059eeddc5d85e0a0df7349ff7a9305d007717879ebe44a99</bnode></binding>
       <binding name="p"><uri>http://xmlns.com/foaf/0.1/name</uri></binding>
       <binding name="o"><literal datatype="http://www.w3.org/2001/XMLSchema#string">COMTES FHT</literal></binding>
-    </result>
-    <result>
-      <binding name="s"><bnode>b0_cb22946fc1f09b21d4305f43812896c0adab5457a455a8e250ad9813e69d64bc933</bnode></binding>
-      <binding name="p"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
-      <binding name="o"><uri>http://www.w3.org/2006/time#Instant</uri></binding>
-    </result>
-    <result>
-      <binding name="s"><bnode>b0_cb22946fc1f09b21d4305f43812896c0adab5457a455a8e250ad9813e69d64bc933</bnode></binding>
-      <binding name="p"><uri>http://www.w3.org/2006/time#inXSDDate</uri></binding>
-      <binding name="o"><literal datatype="http://www.w3.org/2001/XMLSchema#date">2025-06-16</literal></binding>
     </result>
     <result>
       <binding name="s"><bnode>b0_cb22b34e913b5137ac6d4e293540387fae654967b77695f89c0531f1edb3945c814</bnode></binding>
@@ -345,21 +375,6 @@
       <binding name="s"><bnode>b0_cb2398a1d1efe01e4471fda227f91b72a8db887f632857986a63ee0e5b85a5c0fde</bnode></binding>
       <binding name="p"><uri>https://model.ccmm.cz/vocabulary/ccmm#inScheme</uri></binding>
       <binding name="o"><uri>https://www.wikidata.org/entity/Q42302581</uri></binding>
-    </result>
-    <result>
-      <binding name="s"><bnode>b0_cb23b250a7e56dd491fa69da87ed3442ba182914f75109526f02caf8800f59f290c</bnode></binding>
-      <binding name="p"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
-      <binding name="o"><uri>https://model.ccmm.cz/vocabulary/ccmm#TimeReference</uri></binding>
-    </result>
-    <result>
-      <binding name="s"><bnode>b0_cb23b250a7e56dd491fa69da87ed3442ba182914f75109526f02caf8800f59f290c</bnode></binding>
-      <binding name="p"><uri>http://www.w3.org/2006/time#hasTime</uri></binding>
-      <binding name="o"><bnode>b0_cb22946fc1f09b21d4305f43812896c0adab5457a455a8e250ad9813e69d64bc933</bnode></binding>
-    </result>
-    <result>
-      <binding name="s"><bnode>b0_cb23b250a7e56dd491fa69da87ed3442ba182914f75109526f02caf8800f59f290c</bnode></binding>
-      <binding name="p"><uri>https://model.ccmm.cz/vocabulary/ccmm#hasType</uri></binding>
-      <binding name="o"><uri>https://vocabs.ccmm.cz/registry/codelist/TimeReference/Available</uri></binding>
     </result>
     <result>
       <binding name="s"><bnode>b0_cb23d5c94d1050e7c4e73cda43d19db439803163069414f465f3fc4bb513613e354</bnode></binding>
@@ -437,6 +452,21 @@
       <binding name="o"><literal datatype="http://www.w3.org/2001/XMLSchema#string">COMTES FHT</literal></binding>
     </result>
     <result>
+      <binding name="s"><bnode>b0_cb26ce69bbe88b8d126ca9c31af470a7cc75f52018e99d76a04321aae1f4f596b4a</bnode></binding>
+      <binding name="p"><uri>http://purl.org/dc/terms/alternative</uri></binding>
+      <binding name="o"><literal xml:lang="en">Data to manuscript Influence of Deposition Parameters on the Building rate, In-Situ Formation of Austenite and Tensile Properties of SAF 2507 SDSS Fabricated by Directed Energy Deposition</literal></binding>
+    </result>
+    <result>
+      <binding name="s"><bnode>b0_cb26ce69bbe88b8d126ca9c31af470a7cc75f52018e99d76a04321aae1f4f596b4a</bnode></binding>
+      <binding name="p"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
+      <binding name="o"><uri>https://model.ccmm.cz/vocabulary/ccmm#AlternateTitle</uri></binding>
+    </result>
+    <result>
+      <binding name="s"><bnode>b0_cb26ce69bbe88b8d126ca9c31af470a7cc75f52018e99d76a04321aae1f4f596b4a</bnode></binding>
+      <binding name="p"><uri>https://model.ccmm.cz/vocabulary/ccmm#hasType</uri></binding>
+      <binding name="o"><uri>https://w3id.org/tib/datacite/vocab/titleType/TranslatedTitle</uri></binding>
+    </result>
+    <result>
       <binding name="s"><bnode>b0_cb274c3497e726e5217a5ad93ba9c94fb4ee0327f6d320661d48e23934b3041491b</bnode></binding>
       <binding name="p"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
       <binding name="o"><uri>http://www.w3.org/ns/org#Organization</uri></binding>
@@ -502,21 +532,6 @@
       <binding name="o"><bnode>b0_cb32227fd3241e03d51054df4fb66bd153d4574f327acedf2dee6c1520b5a0c06e8</bnode></binding>
     </result>
     <result>
-      <binding name="s"><bnode>b0_cb291140b69a54449626536ccb627f7dee680be419be616cfbe3f346eafe8a189b7</bnode></binding>
-      <binding name="p"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
-      <binding name="o"><uri>https://model.ccmm.cz/vocabulary/ccmm#TimeReference</uri></binding>
-    </result>
-    <result>
-      <binding name="s"><bnode>b0_cb291140b69a54449626536ccb627f7dee680be419be616cfbe3f346eafe8a189b7</bnode></binding>
-      <binding name="p"><uri>http://www.w3.org/2006/time#hasTime</uri></binding>
-      <binding name="o"><bnode>b0_cb1b34e9e845000cddf899a7e692bf2b9f880b14205fec66eeb60205a5d7aa4fdcf</bnode></binding>
-    </result>
-    <result>
-      <binding name="s"><bnode>b0_cb291140b69a54449626536ccb627f7dee680be419be616cfbe3f346eafe8a189b7</bnode></binding>
-      <binding name="p"><uri>https://model.ccmm.cz/vocabulary/ccmm#hasType</uri></binding>
-      <binding name="o"><uri>https://vocabs.ccmm.cz/registry/codelist/TimeReference/Created</uri></binding>
-    </result>
-    <result>
       <binding name="s"><bnode>b0_cb297b0029f073485871d3a84d054565e4978e1dbfd9eac533cc3a1947974471760</bnode></binding>
       <binding name="p"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
       <binding name="o"><uri>http://www.w3.org/ns/org#Organization</uri></binding>
@@ -550,21 +565,6 @@
       <binding name="s"><bnode>b0_cb29a106e0b9a2e4ad635a6b177face5641c35c38d73cb66251354b86bd4a31c74f</bnode></binding>
       <binding name="p"><uri>http://www.w3.org/ns/prov#agent</uri></binding>
       <binding name="o"><bnode>b0_cb2fc938d870dbb627bd8238243f394037f3b464ea458f827f04d6907fd44ebff31</bnode></binding>
-    </result>
-    <result>
-      <binding name="s"><bnode>b0_cb2a2dc9ad8b135b728fe7847b37327cad35d0d06897dea473f13d0fc807878064a</bnode></binding>
-      <binding name="p"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
-      <binding name="o"><uri>https://model.ccmm.cz/vocabulary/ccmm#TimeReference</uri></binding>
-    </result>
-    <result>
-      <binding name="s"><bnode>b0_cb2a2dc9ad8b135b728fe7847b37327cad35d0d06897dea473f13d0fc807878064a</bnode></binding>
-      <binding name="p"><uri>http://www.w3.org/2006/time#hasTime</uri></binding>
-      <binding name="o"><bnode>b0_cb19c2de06118e3bfe926ed36baeb0a20b62f554db1dee2055f4be7a7ff857f856d</bnode></binding>
-    </result>
-    <result>
-      <binding name="s"><bnode>b0_cb2a2dc9ad8b135b728fe7847b37327cad35d0d06897dea473f13d0fc807878064a</bnode></binding>
-      <binding name="p"><uri>https://model.ccmm.cz/vocabulary/ccmm#hasType</uri></binding>
-      <binding name="o"><uri>https://vocabs.ccmm.cz/registry/codelist/TimeReference/Issued</uri></binding>
     </result>
     <result>
       <binding name="s"><bnode>b0_cb2aa8b4f4957b12c715730dd60fb689f5af78c641ebac86bdfccebda6516c2c7b7</bnode></binding>
@@ -602,19 +602,19 @@
       <binding name="o"><uri>https://www.wikidata.org/entity/Q42302581</uri></binding>
     </result>
     <result>
-      <binding name="s"><bnode>b0_cb2c1b8dcf56457affcfd3ee03174c232dfde28440343bf21383c68585e6a5db3b8</bnode></binding>
-      <binding name="p"><uri>http://purl.org/dc/terms/alternative</uri></binding>
-      <binding name="o"><literal xml:lang="en">Data to manuscript Influence of Deposition Parameters on the Building rate, In-Situ Formation of Austenite and Tensile Properties of SAF 2507 SDSS Fabricated by Directed Energy Deposition</literal></binding>
-    </result>
-    <result>
-      <binding name="s"><bnode>b0_cb2c1b8dcf56457affcfd3ee03174c232dfde28440343bf21383c68585e6a5db3b8</bnode></binding>
+      <binding name="s"><bnode>b0_cb2b016bdfbdd1022e9a018772759c955d7790344628f1c88dc56e79b18e9f37c98</bnode></binding>
       <binding name="p"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
-      <binding name="o"><uri>https://model.ccmm.cz/vocabulary/ccmm#AlternateTitle</uri></binding>
+      <binding name="o"><uri>https://model.ccmm.cz/vocabulary/ccmm#TimeReference</uri></binding>
     </result>
     <result>
-      <binding name="s"><bnode>b0_cb2c1b8dcf56457affcfd3ee03174c232dfde28440343bf21383c68585e6a5db3b8</bnode></binding>
+      <binding name="s"><bnode>b0_cb2b016bdfbdd1022e9a018772759c955d7790344628f1c88dc56e79b18e9f37c98</bnode></binding>
+      <binding name="p"><uri>http://www.w3.org/2006/time#hasTime</uri></binding>
+      <binding name="o"><bnode>b0_cb182383fed400dcd4a558fbd664ff3ea40d16354f9ac7715230b031279c67832c1</bnode></binding>
+    </result>
+    <result>
+      <binding name="s"><bnode>b0_cb2b016bdfbdd1022e9a018772759c955d7790344628f1c88dc56e79b18e9f37c98</bnode></binding>
       <binding name="p"><uri>https://model.ccmm.cz/vocabulary/ccmm#hasType</uri></binding>
-      <binding name="o"><uri>https://vocabs.ccmm.cz/registry/codelist/AlternateTitle/TranslatedTitle</uri></binding>
+      <binding name="o"><uri>https://w3id.org/tib/datacite/vocab/dateType/Issued</uri></binding>
     </result>
     <result>
       <binding name="s"><bnode>b0_cb2cf40e8b808f6602d29be487f5f2cb7dadcb2ef9a80c7a183d784de17b4c44a23</bnode></binding>
@@ -1239,7 +1239,7 @@
     <result>
       <binding name="s"><uri>https://doi.org/10.1007/s12540-025-01953-4</uri></binding>
       <binding name="p"><uri>https://model.ccmm.cz/vocabulary/ccmm#hasType</uri></binding>
-      <binding name="o"><uri>https://vocabs.ccmm.cz/registry/codelist/RelationType/IsReferencedBy</uri></binding>
+      <binding name="o"><uri>https://w3id.org/tib/datacite/vocab/relationType/IsReferencedBy</uri></binding>
     </result>
     <result>
       <binding name="s"><uri>https://doi.org/10.1007/s12540-025-01953-4</uri></binding>
@@ -1364,7 +1364,7 @@
     <result>
       <binding name="s"><uri>https://doi.org/10.48700/datst.dmq82-ed856</uri></binding>
       <binding name="p"><uri>https://model.ccmm.cz/vocabulary/ccmm#hasAlternateTitle</uri></binding>
-      <binding name="o"><bnode>b0_cb2c1b8dcf56457affcfd3ee03174c232dfde28440343bf21383c68585e6a5db3b8</bnode></binding>
+      <binding name="o"><bnode>b0_cb26ce69bbe88b8d126ca9c31af470a7cc75f52018e99d76a04321aae1f4f596b4a</bnode></binding>
     </result>
     <result>
       <binding name="s"><uri>https://doi.org/10.48700/datst.dmq82-ed856</uri></binding>
@@ -1374,17 +1374,17 @@
     <result>
       <binding name="s"><uri>https://doi.org/10.48700/datst.dmq82-ed856</uri></binding>
       <binding name="p"><uri>https://model.ccmm.cz/vocabulary/ccmm#hasTimeReference</uri></binding>
-      <binding name="o"><bnode>b0_cb23b250a7e56dd491fa69da87ed3442ba182914f75109526f02caf8800f59f290c</bnode></binding>
+      <binding name="o"><bnode>b0_cb20c7aa384588697338af2519756d504d4ebd2464c8fcce6e3cc9d8e95b6c880ec</bnode></binding>
     </result>
     <result>
       <binding name="s"><uri>https://doi.org/10.48700/datst.dmq82-ed856</uri></binding>
       <binding name="p"><uri>https://model.ccmm.cz/vocabulary/ccmm#hasTimeReference</uri></binding>
-      <binding name="o"><bnode>b0_cb291140b69a54449626536ccb627f7dee680be419be616cfbe3f346eafe8a189b7</bnode></binding>
+      <binding name="o"><bnode>b0_cb20d1077eec34e4573403959b82601454ae21d31f51fafbb47057eb8459419a730</bnode></binding>
     </result>
     <result>
       <binding name="s"><uri>https://doi.org/10.48700/datst.dmq82-ed856</uri></binding>
       <binding name="p"><uri>https://model.ccmm.cz/vocabulary/ccmm#hasTimeReference</uri></binding>
-      <binding name="o"><bnode>b0_cb2a2dc9ad8b135b728fe7847b37327cad35d0d06897dea473f13d0fc807878064a</bnode></binding>
+      <binding name="o"><bnode>b0_cb2b016bdfbdd1022e9a018772759c955d7790344628f1c88dc56e79b18e9f37c98</bnode></binding>
     </result>
     <result>
       <binding name="s"><uri>https://doi.org/10.48700/datst.dmq82-ed856</uri></binding>
@@ -1404,17 +1404,17 @@
     <result>
       <binding name="s"><uri>https://doi.org/10.48700/datst.dmq82-ed856</uri></binding>
       <binding name="p"><uri>https://w3id.org/tib/datacite/property/description</uri></binding>
-      <binding name="o"><bnode>b0_cb124c8b1d0ac8bccd48f0e5669e5e890b745a09af5498b3776961e5b5551ed7648</bnode></binding>
+      <binding name="o"><bnode>b0_cb149dda7036e9eb67bc2f5e01eb3c4a5e1a817730668c6ba398f12e51a759326f6</bnode></binding>
     </result>
     <result>
       <binding name="s"><uri>https://doi.org/10.48700/datst.dmq82-ed856</uri></binding>
       <binding name="p"><uri>https://w3id.org/tib/datacite/property/description</uri></binding>
-      <binding name="o"><bnode>b0_cb15198b8ae5454e41f81d4496533cedfffb25319511c3d1fbfc2a3825d722bb2cc</bnode></binding>
+      <binding name="o"><bnode>b0_cb1b08720fa54b137dfd3fb9e158414796778f917ec9628937477b8caf51c54816b</bnode></binding>
     </result>
     <result>
       <binding name="s"><uri>https://doi.org/10.48700/datst.dmq82-ed856</uri></binding>
       <binding name="p"><uri>https://w3id.org/tib/datacite/property/description</uri></binding>
-      <binding name="o"><bnode>b0_cb171f51993e5cb8de0229c7106adc40eff2bae6dd9963143823682a9961a548f9f</bnode></binding>
+      <binding name="o"><bnode>b0_cb1bcbae7cbcd88cdc30c6e47130fc50c2030357f0f21a9b626ede1c88ace221b91</bnode></binding>
     </result>
     <result>
       <binding name="s"><uri>https://doi.org/10.48700/datst.dmq82-ed856</uri></binding>
@@ -1652,81 +1652,6 @@
       <binding name="o"><literal xml:lang="cs">Vydavatel</literal></binding>
     </result>
     <result>
-      <binding name="s"><uri>https://vocabs.ccmm.cz/registry/codelist/AlternateTitle/TranslatedTitle</uri></binding>
-      <binding name="p"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
-      <binding name="o"><uri>http://www.w3.org/2004/02/skos/core#Concept</uri></binding>
-    </result>
-    <result>
-      <binding name="s"><uri>https://vocabs.ccmm.cz/registry/codelist/AlternateTitle/TranslatedTitle</uri></binding>
-      <binding name="p"><uri>http://www.w3.org/2004/02/skos/core#prefLabel</uri></binding>
-      <binding name="o"><literal xml:lang="cs">Přeložený název</literal></binding>
-    </result>
-    <result>
-      <binding name="s"><uri>https://vocabs.ccmm.cz/registry/codelist/AlternateTitle/TranslatedTitle</uri></binding>
-      <binding name="p"><uri>http://www.w3.org/2004/02/skos/core#prefLabel</uri></binding>
-      <binding name="o"><literal xml:lang="en">Translated Title</literal></binding>
-    </result>
-    <result>
-      <binding name="s"><uri>https://vocabs.ccmm.cz/registry/codelist/DescriptionType/Abstract</uri></binding>
-      <binding name="p"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
-      <binding name="o"><uri>http://www.w3.org/2004/02/skos/core#Concept</uri></binding>
-    </result>
-    <result>
-      <binding name="s"><uri>https://vocabs.ccmm.cz/registry/codelist/DescriptionType/Abstract</uri></binding>
-      <binding name="p"><uri>http://www.w3.org/2004/02/skos/core#prefLabel</uri></binding>
-      <binding name="o"><literal xml:lang="en">Abstract</literal></binding>
-    </result>
-    <result>
-      <binding name="s"><uri>https://vocabs.ccmm.cz/registry/codelist/DescriptionType/Abstract</uri></binding>
-      <binding name="p"><uri>http://www.w3.org/2004/02/skos/core#prefLabel</uri></binding>
-      <binding name="o"><literal xml:lang="cs">Abstrakt</literal></binding>
-    </result>
-    <result>
-      <binding name="s"><uri>https://vocabs.ccmm.cz/registry/codelist/DescriptionType/Methods</uri></binding>
-      <binding name="p"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
-      <binding name="o"><uri>http://www.w3.org/2004/02/skos/core#Concept</uri></binding>
-    </result>
-    <result>
-      <binding name="s"><uri>https://vocabs.ccmm.cz/registry/codelist/DescriptionType/Methods</uri></binding>
-      <binding name="p"><uri>http://www.w3.org/2004/02/skos/core#prefLabel</uri></binding>
-      <binding name="o"><literal xml:lang="en">Methods</literal></binding>
-    </result>
-    <result>
-      <binding name="s"><uri>https://vocabs.ccmm.cz/registry/codelist/DescriptionType/Methods</uri></binding>
-      <binding name="p"><uri>http://www.w3.org/2004/02/skos/core#prefLabel</uri></binding>
-      <binding name="o"><literal xml:lang="cs">Metodologie</literal></binding>
-    </result>
-    <result>
-      <binding name="s"><uri>https://vocabs.ccmm.cz/registry/codelist/DescriptionType/TechnicalInfo</uri></binding>
-      <binding name="p"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
-      <binding name="o"><uri>http://www.w3.org/2004/02/skos/core#Concept</uri></binding>
-    </result>
-    <result>
-      <binding name="s"><uri>https://vocabs.ccmm.cz/registry/codelist/DescriptionType/TechnicalInfo</uri></binding>
-      <binding name="p"><uri>http://www.w3.org/2004/02/skos/core#prefLabel</uri></binding>
-      <binding name="o"><literal xml:lang="en">Technical Info</literal></binding>
-    </result>
-    <result>
-      <binding name="s"><uri>https://vocabs.ccmm.cz/registry/codelist/DescriptionType/TechnicalInfo</uri></binding>
-      <binding name="p"><uri>http://www.w3.org/2004/02/skos/core#prefLabel</uri></binding>
-      <binding name="o"><literal xml:lang="cs">Technická informace</literal></binding>
-    </result>
-    <result>
-      <binding name="s"><uri>https://vocabs.ccmm.cz/registry/codelist/RelationType/IsReferencedBy</uri></binding>
-      <binding name="p"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
-      <binding name="o"><uri>http://www.w3.org/2004/02/skos/core#Concept</uri></binding>
-    </result>
-    <result>
-      <binding name="s"><uri>https://vocabs.ccmm.cz/registry/codelist/RelationType/IsReferencedBy</uri></binding>
-      <binding name="p"><uri>http://www.w3.org/2004/02/skos/core#prefLabel</uri></binding>
-      <binding name="o"><literal xml:lang="en">is referenced by</literal></binding>
-    </result>
-    <result>
-      <binding name="s"><uri>https://vocabs.ccmm.cz/registry/codelist/RelationType/IsReferencedBy</uri></binding>
-      <binding name="p"><uri>http://www.w3.org/2004/02/skos/core#prefLabel</uri></binding>
-      <binding name="o"><literal xml:lang="cs">je na něj odkazováno z (čeho)</literal></binding>
-    </result>
-    <result>
       <binding name="s"><uri>https://vocabs.ccmm.cz/registry/codelist/SubjectCategory/20000/20500/20501</uri></binding>
       <binding name="p"><uri>http://purl.org/dc/terms/title</uri></binding>
       <binding name="o"><literal xml:lang="cs">Materiálové inženýrství</literal></binding>
@@ -1767,51 +1692,6 @@
       <binding name="o"><literal xml:lang="en">OECD FORD Subject Category (Frascati)</literal></binding>
     </result>
     <result>
-      <binding name="s"><uri>https://vocabs.ccmm.cz/registry/codelist/TimeReference/Available</uri></binding>
-      <binding name="p"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
-      <binding name="o"><uri>http://www.w3.org/2004/02/skos/core#Concept</uri></binding>
-    </result>
-    <result>
-      <binding name="s"><uri>https://vocabs.ccmm.cz/registry/codelist/TimeReference/Available</uri></binding>
-      <binding name="p"><uri>http://www.w3.org/2004/02/skos/core#prefLabel</uri></binding>
-      <binding name="o"><literal xml:lang="en">Date Available</literal></binding>
-    </result>
-    <result>
-      <binding name="s"><uri>https://vocabs.ccmm.cz/registry/codelist/TimeReference/Available</uri></binding>
-      <binding name="p"><uri>http://www.w3.org/2004/02/skos/core#prefLabel</uri></binding>
-      <binding name="o"><literal xml:lang="cs">Datum zveřejnění</literal></binding>
-    </result>
-    <result>
-      <binding name="s"><uri>https://vocabs.ccmm.cz/registry/codelist/TimeReference/Created</uri></binding>
-      <binding name="p"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
-      <binding name="o"><uri>http://www.w3.org/2004/02/skos/core#Concept</uri></binding>
-    </result>
-    <result>
-      <binding name="s"><uri>https://vocabs.ccmm.cz/registry/codelist/TimeReference/Created</uri></binding>
-      <binding name="p"><uri>http://www.w3.org/2004/02/skos/core#prefLabel</uri></binding>
-      <binding name="o"><literal xml:lang="en">Date Created</literal></binding>
-    </result>
-    <result>
-      <binding name="s"><uri>https://vocabs.ccmm.cz/registry/codelist/TimeReference/Created</uri></binding>
-      <binding name="p"><uri>http://www.w3.org/2004/02/skos/core#prefLabel</uri></binding>
-      <binding name="o"><literal xml:lang="cs">Datum vytvoření</literal></binding>
-    </result>
-    <result>
-      <binding name="s"><uri>https://vocabs.ccmm.cz/registry/codelist/TimeReference/Issued</uri></binding>
-      <binding name="p"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
-      <binding name="o"><uri>http://www.w3.org/2004/02/skos/core#Concept</uri></binding>
-    </result>
-    <result>
-      <binding name="s"><uri>https://vocabs.ccmm.cz/registry/codelist/TimeReference/Issued</uri></binding>
-      <binding name="p"><uri>http://www.w3.org/2004/02/skos/core#prefLabel</uri></binding>
-      <binding name="o"><literal xml:lang="en">Date Issued</literal></binding>
-    </result>
-    <result>
-      <binding name="s"><uri>https://vocabs.ccmm.cz/registry/codelist/TimeReference/Issued</uri></binding>
-      <binding name="p"><uri>http://www.w3.org/2004/02/skos/core#prefLabel</uri></binding>
-      <binding name="o"><literal xml:lang="cs">Datum vydání</literal></binding>
-    </result>
-    <result>
       <binding name="s"><uri>https://vocabularies.coar-repositories.org/access_rights/c_abf2/</uri></binding>
       <binding name="p"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
       <binding name="o"><uri>http://purl.org/dc/terms/RightsStatement</uri></binding>
@@ -1820,6 +1700,126 @@
       <binding name="s"><uri>https://vocabularies.coar-repositories.org/access_rights/c_abf2/</uri></binding>
       <binding name="p"><uri>http://www.w3.org/2004/02/skos/core#prefLabel</uri></binding>
       <binding name="o"><literal xml:lang="en">open access</literal></binding>
+    </result>
+    <result>
+      <binding name="s"><uri>https://w3id.org/tib/datacite/property/descriptionType/Abstract</uri></binding>
+      <binding name="p"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
+      <binding name="o"><uri>http://www.w3.org/2004/02/skos/core#Concept</uri></binding>
+    </result>
+    <result>
+      <binding name="s"><uri>https://w3id.org/tib/datacite/property/descriptionType/Abstract</uri></binding>
+      <binding name="p"><uri>http://www.w3.org/2004/02/skos/core#prefLabel</uri></binding>
+      <binding name="o"><literal xml:lang="en">Abstract</literal></binding>
+    </result>
+    <result>
+      <binding name="s"><uri>https://w3id.org/tib/datacite/property/descriptionType/Abstract</uri></binding>
+      <binding name="p"><uri>http://www.w3.org/2004/02/skos/core#prefLabel</uri></binding>
+      <binding name="o"><literal xml:lang="cs">Abstrakt</literal></binding>
+    </result>
+    <result>
+      <binding name="s"><uri>https://w3id.org/tib/datacite/property/descriptionType/Methods</uri></binding>
+      <binding name="p"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
+      <binding name="o"><uri>http://www.w3.org/2004/02/skos/core#Concept</uri></binding>
+    </result>
+    <result>
+      <binding name="s"><uri>https://w3id.org/tib/datacite/property/descriptionType/Methods</uri></binding>
+      <binding name="p"><uri>http://www.w3.org/2004/02/skos/core#prefLabel</uri></binding>
+      <binding name="o"><literal xml:lang="en">Methods</literal></binding>
+    </result>
+    <result>
+      <binding name="s"><uri>https://w3id.org/tib/datacite/property/descriptionType/Methods</uri></binding>
+      <binding name="p"><uri>http://www.w3.org/2004/02/skos/core#prefLabel</uri></binding>
+      <binding name="o"><literal xml:lang="cs">Metodologie</literal></binding>
+    </result>
+    <result>
+      <binding name="s"><uri>https://w3id.org/tib/datacite/property/descriptionType/TechnicalInfo</uri></binding>
+      <binding name="p"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
+      <binding name="o"><uri>http://www.w3.org/2004/02/skos/core#Concept</uri></binding>
+    </result>
+    <result>
+      <binding name="s"><uri>https://w3id.org/tib/datacite/property/descriptionType/TechnicalInfo</uri></binding>
+      <binding name="p"><uri>http://www.w3.org/2004/02/skos/core#prefLabel</uri></binding>
+      <binding name="o"><literal xml:lang="en">Technical Info</literal></binding>
+    </result>
+    <result>
+      <binding name="s"><uri>https://w3id.org/tib/datacite/property/descriptionType/TechnicalInfo</uri></binding>
+      <binding name="p"><uri>http://www.w3.org/2004/02/skos/core#prefLabel</uri></binding>
+      <binding name="o"><literal xml:lang="cs">Technická informace</literal></binding>
+    </result>
+    <result>
+      <binding name="s"><uri>https://w3id.org/tib/datacite/vocab/dateType/Available</uri></binding>
+      <binding name="p"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
+      <binding name="o"><uri>http://www.w3.org/2004/02/skos/core#Concept</uri></binding>
+    </result>
+    <result>
+      <binding name="s"><uri>https://w3id.org/tib/datacite/vocab/dateType/Available</uri></binding>
+      <binding name="p"><uri>http://www.w3.org/2004/02/skos/core#prefLabel</uri></binding>
+      <binding name="o"><literal xml:lang="en">Date Available</literal></binding>
+    </result>
+    <result>
+      <binding name="s"><uri>https://w3id.org/tib/datacite/vocab/dateType/Available</uri></binding>
+      <binding name="p"><uri>http://www.w3.org/2004/02/skos/core#prefLabel</uri></binding>
+      <binding name="o"><literal xml:lang="cs">Datum zveřejnění</literal></binding>
+    </result>
+    <result>
+      <binding name="s"><uri>https://w3id.org/tib/datacite/vocab/dateType/Created</uri></binding>
+      <binding name="p"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
+      <binding name="o"><uri>http://www.w3.org/2004/02/skos/core#Concept</uri></binding>
+    </result>
+    <result>
+      <binding name="s"><uri>https://w3id.org/tib/datacite/vocab/dateType/Created</uri></binding>
+      <binding name="p"><uri>http://www.w3.org/2004/02/skos/core#prefLabel</uri></binding>
+      <binding name="o"><literal xml:lang="en">Date Created</literal></binding>
+    </result>
+    <result>
+      <binding name="s"><uri>https://w3id.org/tib/datacite/vocab/dateType/Created</uri></binding>
+      <binding name="p"><uri>http://www.w3.org/2004/02/skos/core#prefLabel</uri></binding>
+      <binding name="o"><literal xml:lang="cs">Datum vytvoření</literal></binding>
+    </result>
+    <result>
+      <binding name="s"><uri>https://w3id.org/tib/datacite/vocab/dateType/Issued</uri></binding>
+      <binding name="p"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
+      <binding name="o"><uri>http://www.w3.org/2004/02/skos/core#Concept</uri></binding>
+    </result>
+    <result>
+      <binding name="s"><uri>https://w3id.org/tib/datacite/vocab/dateType/Issued</uri></binding>
+      <binding name="p"><uri>http://www.w3.org/2004/02/skos/core#prefLabel</uri></binding>
+      <binding name="o"><literal xml:lang="en">Date Issued</literal></binding>
+    </result>
+    <result>
+      <binding name="s"><uri>https://w3id.org/tib/datacite/vocab/dateType/Issued</uri></binding>
+      <binding name="p"><uri>http://www.w3.org/2004/02/skos/core#prefLabel</uri></binding>
+      <binding name="o"><literal xml:lang="cs">Datum vydání</literal></binding>
+    </result>
+    <result>
+      <binding name="s"><uri>https://w3id.org/tib/datacite/vocab/relationType/IsReferencedBy</uri></binding>
+      <binding name="p"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
+      <binding name="o"><uri>http://www.w3.org/2004/02/skos/core#Concept</uri></binding>
+    </result>
+    <result>
+      <binding name="s"><uri>https://w3id.org/tib/datacite/vocab/relationType/IsReferencedBy</uri></binding>
+      <binding name="p"><uri>http://www.w3.org/2004/02/skos/core#prefLabel</uri></binding>
+      <binding name="o"><literal xml:lang="en">is referenced by</literal></binding>
+    </result>
+    <result>
+      <binding name="s"><uri>https://w3id.org/tib/datacite/vocab/relationType/IsReferencedBy</uri></binding>
+      <binding name="p"><uri>http://www.w3.org/2004/02/skos/core#prefLabel</uri></binding>
+      <binding name="o"><literal xml:lang="cs">je na něj odkazováno z (čeho)</literal></binding>
+    </result>
+    <result>
+      <binding name="s"><uri>https://w3id.org/tib/datacite/vocab/titleType/TranslatedTitle</uri></binding>
+      <binding name="p"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
+      <binding name="o"><uri>http://www.w3.org/2004/02/skos/core#Concept</uri></binding>
+    </result>
+    <result>
+      <binding name="s"><uri>https://w3id.org/tib/datacite/vocab/titleType/TranslatedTitle</uri></binding>
+      <binding name="p"><uri>http://www.w3.org/2004/02/skos/core#prefLabel</uri></binding>
+      <binding name="o"><literal xml:lang="cs">Přeložený název</literal></binding>
+    </result>
+    <result>
+      <binding name="s"><uri>https://w3id.org/tib/datacite/vocab/titleType/TranslatedTitle</uri></binding>
+      <binding name="p"><uri>http://www.w3.org/2004/02/skos/core#prefLabel</uri></binding>
+      <binding name="o"><literal xml:lang="en">Translated Title</literal></binding>
     </result>
     <result>
       <binding name="s"><uri>https://www.wikidata.org/entity/Q42302581</uri></binding>
