@@ -1,0 +1,12 @@
+[1;35mDataspecer[0m [2mversion number 4055 @ 3db3779 • 2026-09-07 (refs/heads/stable)[0m
+[0;32mThis is a stable build of Dataspecer, suitable for production.[0m
+Prisma schema loaded from dist/schema.prisma
+Datasource "db": SQLite database "database.db" at "file:/usr/src/app/database/database.db?connection_limit=1"
+
+10 migrations found in prisma/migrations
+
+
+No pending migrations to apply.
+Migrating to version 1...
+There is no default root package. Creating one...
+Dataspecer is running! Try opening your browser at http://localhost:port/ where port is the port you mapped to the container's port 80.
