@@ -1,0 +1,28 @@
+[1;35mDataspecer[0m [2mversion number 4372 @ fc3c130 • 2026-09-21 (refs/heads/main)[0m
+[0;33mIt seems that this is not a stable build. To use stable version of Dataspecer suitable for production, use ghcr.io/dataspecer/ws image.[0m
+Prisma schema loaded from dist/schema.prisma
+Datasource "db": SQLite database "database.db" at "file:/usr/src/app/database/database.db?connection_limit=1"
+
+11 migrations found in prisma/migrations
+
+
+No pending migrations to apply.
+Migrating to version 1...
+There is no default root package. Creating one...
+Dataspecer is running! Try opening your browser at http://localhost:port/ where port is the port you mapped to the container's port 80.
+XSD generator does not support text data type with cardinality more than 1. You can use a language string instead.
+XSD generator does not support text data type with cardinality more than 1. You can use a language string instead.
+XSD generator does not support text data type with cardinality more than 1. You can use a language string instead.
+XSD generator does not support text data type with cardinality more than 1. You can use a language string instead.
+Missing entity for identifier "http://www.opengis.net/ont/sf#Envelope".
+Missing entity for identifier "http://www.opengis.net/ont/sf#Envelope".
+Missing entity for identifier "http://www.opengis.net/ont/sf#Envelope".
+Missing entity for identifier "http://www.opengis.net/ont/sf#Envelope".
+XSD generator does not support text data type with cardinality more than 1. You can use a language string instead.
+XSD generator does not support text data type with cardinality more than 1. You can use a language string instead.
+XSD generator does not support text data type with cardinality more than 1. You can use a language string instead.
+XSD generator does not support text data type with cardinality more than 1. You can use a language string instead.
+XSD generator does not support text data type with cardinality more than 1. You can use a language string instead.
+XSD generator does not support text data type with cardinality more than 1. You can use a language string instead.
+XSD generator does not support text data type with cardinality more than 1. You can use a language string instead.
+XSD generator does not support text data type with cardinality more than 1. You can use a language string instead.

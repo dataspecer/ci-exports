@@ -1,0 +1,2710 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix dsv: <https://w3id.org/dsv#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix cardinality: <https://w3id.org/dsv/cardinality#>.
+@prefix requirement: <https://w3id.org/dsv/requirement-level#>.
+@prefix role: <https://w3id.org/dsv/class-role#>.
+@prefix ldes: <https://w3id.org/ldes#>.
+@prefix tree: <https://w3id.org/tree#>.
+@prefix as: <https://www.w3.org/ns/activitystreams#>.
+@prefix ds-ldes: <https://schemas.dataspecer.com/ldes#>.
+
+
+<> a ldes:EventStream, tree:Collection;
+    ldes:timestampPath dct:issued;
+    ldes:versionTimestampPath dct:created;
+    ldes:sequencePath ds-ldes:sequence;
+    ldes:transactionPath ds-ldes:transaction;
+    ldes:versionOfPath dct:isVersionOf;
+    ldes:versionCreateObject as:Create;
+    ldes:versionUpdateObject as:Update;
+    ldes:versionDeleteObject as:Delete;
+    tree:view <>;
+    ds-ldes:publishedModel <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#>.
+
+<https://ofn.gov.cz/dcat-ap-cz-otevřená-data#> a dsv:ApplicationProfile.
+
+<> tree:member <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSada-2026-09-08T13:12:26.853Z-0>.
+
+<https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSada-2026-09-08T13:12:26.853Z-0> a as:Create;
+    dct:isVersionOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSada>;
+    dct:created "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
+    dct:issued "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
+    ds-ldes:sequence 0;
+    dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#>;
+    a dsv:TermProfile;
+    dsv:profileOf <https://ofn.gov.cz/dcat-ap-cz#DatováSada>;
+    dsv:reusesPropertyValue [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty skos:prefLabel;
+  dsv:reusedAsProperty skos:prefLabel;
+  dsv:reusedFromResource <https://ofn.gov.cz/dcat-ap-cz#DatováSada>
+], [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty skos:definition;
+  dsv:reusedAsProperty skos:definition;
+  dsv:reusedFromResource <https://ofn.gov.cz/dcat-ap-cz#DatováSada>
+], [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty skos:scopeNote;
+  dsv:reusedAsProperty skos:scopeNote;
+  dsv:reusedFromResource <https://ofn.gov.cz/dcat-ap-cz#DatováSada>
+];
+    a dsv:ClassProfile;
+    dsv:classRole role:main.
+
+<> tree:member <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSlužba-2026-09-08T13:12:26.853Z-1>.
+
+<https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSlužba-2026-09-08T13:12:26.853Z-1> a as:Create;
+    dct:isVersionOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSlužba>;
+    dct:created "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
+    dct:issued "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
+    ds-ldes:sequence 1;
+    dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#>;
+    a dsv:TermProfile;
+    dsv:profileOf <https://ofn.gov.cz/dcat-ap-cz#DatováSlužba>;
+    dsv:reusesPropertyValue [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty skos:prefLabel;
+  dsv:reusedAsProperty skos:prefLabel;
+  dsv:reusedFromResource <https://ofn.gov.cz/dcat-ap-cz#DatováSlužba>
+], [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty skos:definition;
+  dsv:reusedAsProperty skos:definition;
+  dsv:reusedFromResource <https://ofn.gov.cz/dcat-ap-cz#DatováSlužba>
+], [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty skos:scopeNote;
+  dsv:reusedAsProperty skos:scopeNote;
+  dsv:reusedFromResource <https://ofn.gov.cz/dcat-ap-cz#DatováSlužba>
+];
+    a dsv:ClassProfile;
+    dsv:classRole role:main.
+
+<> tree:member <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#SérieDatovýchSad-2026-09-08T13:12:26.853Z-2>.
+
+<https://ofn.gov.cz/dcat-ap-cz-otevřená-data#SérieDatovýchSad-2026-09-08T13:12:26.853Z-2> a as:Create;
+    dct:isVersionOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#SérieDatovýchSad>;
+    dct:created "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
+    dct:issued "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
+    ds-ldes:sequence 2;
+    dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#>;
+    a dsv:TermProfile;
+    dsv:profileOf <https://ofn.gov.cz/dcat-ap-cz#SérieDatovýchSad>;
+    dsv:reusesPropertyValue [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty skos:prefLabel;
+  dsv:reusedAsProperty skos:prefLabel;
+  dsv:reusedFromResource <https://ofn.gov.cz/dcat-ap-cz#SérieDatovýchSad>
+], [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty skos:definition;
+  dsv:reusedAsProperty skos:definition;
+  dsv:reusedFromResource <https://ofn.gov.cz/dcat-ap-cz#SérieDatovýchSad>
+], [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty skos:scopeNote;
+  dsv:reusedAsProperty skos:scopeNote;
+  dsv:reusedFromResource <https://ofn.gov.cz/dcat-ap-cz#SérieDatovýchSad>
+];
+    a dsv:ClassProfile;
+    dsv:classRole role:main.
+
+<> tree:member <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#Distribuce-2026-09-08T13:12:26.853Z-3>.
+
+<https://ofn.gov.cz/dcat-ap-cz-otevřená-data#Distribuce-2026-09-08T13:12:26.853Z-3> a as:Create;
+    dct:isVersionOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#Distribuce>;
+    dct:created "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
+    dct:issued "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
+    ds-ldes:sequence 3;
+    dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#>;
+    a dsv:TermProfile;
+    dsv:profileOf <https://ofn.gov.cz/dcat-ap-cz#Distribuce>;
+    dsv:reusesPropertyValue [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty skos:prefLabel;
+  dsv:reusedAsProperty skos:prefLabel;
+  dsv:reusedFromResource <https://ofn.gov.cz/dcat-ap-cz#Distribuce>
+], [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty skos:definition;
+  dsv:reusedAsProperty skos:definition;
+  dsv:reusedFromResource <https://ofn.gov.cz/dcat-ap-cz#Distribuce>
+], [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty skos:scopeNote;
+  dsv:reusedAsProperty skos:scopeNote;
+  dsv:reusedFromResource <https://ofn.gov.cz/dcat-ap-cz#Distribuce>
+];
+    a dsv:ClassProfile;
+    dsv:classRole role:main.
+
+<> tree:member <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#KontaktníBod-2026-09-08T13:12:26.853Z-4>.
+
+<https://ofn.gov.cz/dcat-ap-cz-otevřená-data#KontaktníBod-2026-09-08T13:12:26.853Z-4> a as:Create;
+    dct:isVersionOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#KontaktníBod>;
+    dct:created "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
+    dct:issued "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
+    ds-ldes:sequence 4;
+    dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#>;
+    a dsv:TermProfile;
+    dsv:profileOf <https://ofn.gov.cz/dcat-ap-cz#KontaktníBod>;
+    dsv:reusesPropertyValue [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty skos:prefLabel;
+  dsv:reusedAsProperty skos:prefLabel;
+  dsv:reusedFromResource <https://ofn.gov.cz/dcat-ap-cz#KontaktníBod>
+], [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty skos:definition;
+  dsv:reusedAsProperty skos:definition;
+  dsv:reusedFromResource <https://ofn.gov.cz/dcat-ap-cz#KontaktníBod>
+], [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty skos:scopeNote;
+  dsv:reusedAsProperty skos:scopeNote;
+  dsv:reusedFromResource <https://ofn.gov.cz/dcat-ap-cz#KontaktníBod>
+];
+    a dsv:ClassProfile;
+    dsv:classRole role:supportive.
+
+<> tree:member <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#ČasovýInterval-2026-09-08T13:12:26.853Z-5>.
+
+<https://ofn.gov.cz/dcat-ap-cz-otevřená-data#ČasovýInterval-2026-09-08T13:12:26.853Z-5> a as:Create;
+    dct:isVersionOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#ČasovýInterval>;
+    dct:created "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
+    dct:issued "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
+    ds-ldes:sequence 5;
+    dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#>;
+    a dsv:TermProfile;
+    dsv:profileOf <https://ofn.gov.cz/dcat-ap-cz#ČasovýInterval>;
+    dsv:reusesPropertyValue [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty skos:prefLabel;
+  dsv:reusedAsProperty skos:prefLabel;
+  dsv:reusedFromResource <https://ofn.gov.cz/dcat-ap-cz#ČasovýInterval>
+], [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty skos:definition;
+  dsv:reusedAsProperty skos:definition;
+  dsv:reusedFromResource <https://ofn.gov.cz/dcat-ap-cz#ČasovýInterval>
+], [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty skos:scopeNote;
+  dsv:reusedAsProperty skos:scopeNote;
+  dsv:reusedFromResource <https://ofn.gov.cz/dcat-ap-cz#ČasovýInterval>
+];
+    a dsv:ClassProfile;
+    dsv:classRole role:supportive.
+
+<> tree:member <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DistribuceDatováSlužba-2026-09-08T13:12:26.853Z-6>.
+
+<https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DistribuceDatováSlužba-2026-09-08T13:12:26.853Z-6> a as:Create;
+    dct:isVersionOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DistribuceDatováSlužba>;
+    dct:created "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
+    dct:issued "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
+    ds-ldes:sequence 6;
+    dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#>;
+    a dsv:TermProfile;
+    dsv:specializes <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#Distribuce>;
+    dsv:profileOf <https://ofn.gov.cz/dcat-ap-cz#DistribuceDatováSlužba>;
+    dsv:reusesPropertyValue [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty skos:prefLabel;
+  dsv:reusedAsProperty skos:prefLabel;
+  dsv:reusedFromResource <https://ofn.gov.cz/dcat-ap-cz#DistribuceDatováSlužba>
+], [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty skos:definition;
+  dsv:reusedAsProperty skos:definition;
+  dsv:reusedFromResource <https://ofn.gov.cz/dcat-ap-cz#DistribuceDatováSlužba>
+], [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty skos:scopeNote;
+  dsv:reusedAsProperty skos:scopeNote;
+  dsv:reusedFromResource <https://ofn.gov.cz/dcat-ap-cz#DistribuceDatováSlužba>
+];
+    a dsv:ClassProfile;
+    dsv:classRole role:main.
+
+<> tree:member <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DistribuceSoubor-2026-09-08T13:12:26.853Z-7>.
+
+<https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DistribuceSoubor-2026-09-08T13:12:26.853Z-7> a as:Create;
+    dct:isVersionOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DistribuceSoubor>;
+    dct:created "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
+    dct:issued "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
+    ds-ldes:sequence 7;
+    dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#>;
+    a dsv:TermProfile;
+    dsv:specializes <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#Distribuce>;
+    dsv:profileOf <https://ofn.gov.cz/dcat-ap-cz#DistribuceSoubor>;
+    dsv:reusesPropertyValue [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty skos:prefLabel;
+  dsv:reusedAsProperty skos:prefLabel;
+  dsv:reusedFromResource <https://ofn.gov.cz/dcat-ap-cz#DistribuceSoubor>
+], [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty skos:definition;
+  dsv:reusedAsProperty skos:definition;
+  dsv:reusedFromResource <https://ofn.gov.cz/dcat-ap-cz#DistribuceSoubor>
+], [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty skos:scopeNote;
+  dsv:reusedAsProperty skos:scopeNote;
+  dsv:reusedFromResource <https://ofn.gov.cz/dcat-ap-cz#DistribuceSoubor>
+];
+    a dsv:ClassProfile;
+    dsv:classRole role:main.
+
+<> tree:member <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#FormátSouboru-2026-09-08T13:12:26.853Z-8>.
+
+<https://ofn.gov.cz/dcat-ap-cz-otevřená-data#FormátSouboru-2026-09-08T13:12:26.853Z-8> a as:Create;
+    dct:isVersionOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#FormátSouboru>;
+    dct:created "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
+    dct:issued "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
+    ds-ldes:sequence 8;
+    dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#>;
+    a dsv:TermProfile;
+    dsv:profileOf <https://ofn.gov.cz/dcat-ap-cz#FormátSouboru>;
+    dsv:reusesPropertyValue [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty skos:prefLabel;
+  dsv:reusedAsProperty skos:prefLabel;
+  dsv:reusedFromResource <https://ofn.gov.cz/dcat-ap-cz#FormátSouboru>
+], [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty skos:definition;
+  dsv:reusedAsProperty skos:definition;
+  dsv:reusedFromResource <https://ofn.gov.cz/dcat-ap-cz#FormátSouboru>
+], [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty skos:scopeNote;
+  dsv:reusedAsProperty skos:scopeNote;
+  dsv:reusedFromResource <https://ofn.gov.cz/dcat-ap-cz#FormátSouboru>
+];
+    a dsv:ClassProfile;
+    dsv:classRole role:supportive.
+
+<> tree:member <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#TypMédia-2026-09-08T13:12:26.853Z-9>.
+
+<https://ofn.gov.cz/dcat-ap-cz-otevřená-data#TypMédia-2026-09-08T13:12:26.853Z-9> a as:Create;
+    dct:isVersionOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#TypMédia>;
+    dct:created "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
+    dct:issued "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
+    ds-ldes:sequence 9;
+    dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#>;
+    a dsv:TermProfile;
+    dsv:profileOf <https://ofn.gov.cz/dcat-ap-cz#TypMédia>;
+    dsv:reusesPropertyValue [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty skos:prefLabel;
+  dsv:reusedAsProperty skos:prefLabel;
+  dsv:reusedFromResource <https://ofn.gov.cz/dcat-ap-cz#TypMédia>
+], [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty skos:definition;
+  dsv:reusedAsProperty skos:definition;
+  dsv:reusedFromResource <https://ofn.gov.cz/dcat-ap-cz#TypMédia>
+], [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty skos:scopeNote;
+  dsv:reusedAsProperty skos:scopeNote;
+  dsv:reusedFromResource <https://ofn.gov.cz/dcat-ap-cz#TypMédia>
+];
+    a dsv:ClassProfile;
+    dsv:classRole role:supportive.
+
+<> tree:member <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#GeografickéÚzemí-2026-09-08T13:12:26.853Z-10>.
+
+<https://ofn.gov.cz/dcat-ap-cz-otevřená-data#GeografickéÚzemí-2026-09-08T13:12:26.853Z-10> a as:Create;
+    dct:isVersionOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#GeografickéÚzemí>;
+    dct:created "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
+    dct:issued "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
+    ds-ldes:sequence 10;
+    dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#>;
+    a dsv:TermProfile;
+    dsv:profileOf <https://ofn.gov.cz/dcat-ap-cz#GeografickéÚzemí>;
+    dsv:reusesPropertyValue [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty skos:prefLabel;
+  dsv:reusedAsProperty skos:prefLabel;
+  dsv:reusedFromResource <https://ofn.gov.cz/dcat-ap-cz#GeografickéÚzemí>
+], [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty skos:definition;
+  dsv:reusedAsProperty skos:definition;
+  dsv:reusedFromResource <https://ofn.gov.cz/dcat-ap-cz#GeografickéÚzemí>
+], [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty skos:scopeNote;
+  dsv:reusedAsProperty skos:scopeNote;
+  dsv:reusedFromResource <https://ofn.gov.cz/dcat-ap-cz#GeografickéÚzemí>
+];
+    a dsv:ClassProfile;
+    dsv:classRole role:supportive.
+
+<> tree:member <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#Frekvence-2026-09-08T13:12:26.853Z-11>.
+
+<https://ofn.gov.cz/dcat-ap-cz-otevřená-data#Frekvence-2026-09-08T13:12:26.853Z-11> a as:Create;
+    dct:isVersionOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#Frekvence>;
+    dct:created "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
+    dct:issued "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
+    ds-ldes:sequence 11;
+    dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#>;
+    a dsv:TermProfile;
+    dsv:profileOf <https://ofn.gov.cz/dcat-ap-cz#Frekvence>;
+    dsv:reusesPropertyValue [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty skos:prefLabel;
+  dsv:reusedAsProperty skos:prefLabel;
+  dsv:reusedFromResource <https://ofn.gov.cz/dcat-ap-cz#Frekvence>
+], [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty skos:definition;
+  dsv:reusedAsProperty skos:definition;
+  dsv:reusedFromResource <https://ofn.gov.cz/dcat-ap-cz#Frekvence>
+], [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty skos:scopeNote;
+  dsv:reusedAsProperty skos:scopeNote;
+  dsv:reusedFromResource <https://ofn.gov.cz/dcat-ap-cz#Frekvence>
+];
+    a dsv:ClassProfile;
+    dsv:classRole role:supportive.
+
+<> tree:member <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#Koncept-2026-09-08T13:12:26.853Z-12>.
+
+<https://ofn.gov.cz/dcat-ap-cz-otevřená-data#Koncept-2026-09-08T13:12:26.853Z-12> a as:Create;
+    dct:isVersionOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#Koncept>;
+    dct:created "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
+    dct:issued "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
+    ds-ldes:sequence 12;
+    dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#>;
+    a dsv:TermProfile;
+    dsv:profileOf <https://ofn.gov.cz/dcat-ap-cz#Koncept>;
+    dsv:reusesPropertyValue [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty skos:prefLabel;
+  dsv:reusedAsProperty skos:prefLabel;
+  dsv:reusedFromResource <https://ofn.gov.cz/dcat-ap-cz#Koncept>
+], [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty skos:definition;
+  dsv:reusedAsProperty skos:definition;
+  dsv:reusedFromResource <https://ofn.gov.cz/dcat-ap-cz#Koncept>
+], [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty skos:scopeNote;
+  dsv:reusedAsProperty skos:scopeNote;
+  dsv:reusedFromResource <https://ofn.gov.cz/dcat-ap-cz#Koncept>
+];
+    a dsv:ClassProfile;
+    dsv:classRole role:supportive.
+
+<> tree:member <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatovéTéma-2026-09-08T13:12:26.853Z-13>.
+
+<https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatovéTéma-2026-09-08T13:12:26.853Z-13> a as:Create;
+    dct:isVersionOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatovéTéma>;
+    dct:created "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
+    dct:issued "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
+    ds-ldes:sequence 13;
+    dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#>;
+    a dsv:TermProfile;
+    dsv:profileOf <https://ofn.gov.cz/dcat-ap-cz#DatovéTéma>;
+    dsv:reusesPropertyValue [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty skos:prefLabel;
+  dsv:reusedAsProperty skos:prefLabel;
+  dsv:reusedFromResource <https://ofn.gov.cz/dcat-ap-cz#DatovéTéma>
+], [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty skos:definition;
+  dsv:reusedAsProperty skos:definition;
+  dsv:reusedFromResource <https://ofn.gov.cz/dcat-ap-cz#DatovéTéma>
+], [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty skos:scopeNote;
+  dsv:reusedAsProperty skos:scopeNote;
+  dsv:reusedFromResource <https://ofn.gov.cz/dcat-ap-cz#DatovéTéma>
+];
+    a dsv:ClassProfile;
+    dsv:classRole role:supportive.
+
+<> tree:member <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#TémaEuroVoc-2026-09-08T13:12:26.853Z-14>.
+
+<https://ofn.gov.cz/dcat-ap-cz-otevřená-data#TémaEuroVoc-2026-09-08T13:12:26.853Z-14> a as:Create;
+    dct:isVersionOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#TémaEuroVoc>;
+    dct:created "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
+    dct:issued "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
+    ds-ldes:sequence 14;
+    dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#>;
+    a dsv:TermProfile;
+    dsv:profileOf <https://ofn.gov.cz/dcat-ap-cz#TémaEuroVoc>;
+    dsv:reusesPropertyValue [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty skos:prefLabel;
+  dsv:reusedAsProperty skos:prefLabel;
+  dsv:reusedFromResource <https://ofn.gov.cz/dcat-ap-cz#TémaEuroVoc>
+], [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty skos:definition;
+  dsv:reusedAsProperty skos:definition;
+  dsv:reusedFromResource <https://ofn.gov.cz/dcat-ap-cz#TémaEuroVoc>
+], [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty skos:scopeNote;
+  dsv:reusedAsProperty skos:scopeNote;
+  dsv:reusedFromResource <https://ofn.gov.cz/dcat-ap-cz#TémaEuroVoc>
+];
+    a dsv:ClassProfile;
+    dsv:classRole role:supportive.
+
+<> tree:member <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#PrávníPředpis-2026-09-08T13:12:26.853Z-15>.
+
+<https://ofn.gov.cz/dcat-ap-cz-otevřená-data#PrávníPředpis-2026-09-08T13:12:26.853Z-15> a as:Create;
+    dct:isVersionOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#PrávníPředpis>;
+    dct:created "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
+    dct:issued "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
+    ds-ldes:sequence 15;
+    dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#>;
+    a dsv:TermProfile;
+    dsv:profileOf <https://ofn.gov.cz/dcat-ap-cz#PrávníPředpis>;
+    dsv:reusesPropertyValue [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty skos:prefLabel;
+  dsv:reusedAsProperty skos:prefLabel;
+  dsv:reusedFromResource <https://ofn.gov.cz/dcat-ap-cz#PrávníPředpis>
+], [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty skos:definition;
+  dsv:reusedAsProperty skos:definition;
+  dsv:reusedFromResource <https://ofn.gov.cz/dcat-ap-cz#PrávníPředpis>
+], [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty skos:scopeNote;
+  dsv:reusedAsProperty skos:scopeNote;
+  dsv:reusedFromResource <https://ofn.gov.cz/dcat-ap-cz#PrávníPředpis>
+];
+    a dsv:ClassProfile;
+    dsv:classRole role:supportive.
+
+<> tree:member <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#Poskytovatel-2026-09-08T13:12:26.853Z-16>.
+
+<https://ofn.gov.cz/dcat-ap-cz-otevřená-data#Poskytovatel-2026-09-08T13:12:26.853Z-16> a as:Create;
+    dct:isVersionOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#Poskytovatel>;
+    dct:created "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
+    dct:issued "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
+    ds-ldes:sequence 16;
+    dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#>;
+    a dsv:TermProfile;
+    dsv:profileOf <https://ofn.gov.cz/dcat-ap-cz#Poskytovatel>;
+    dsv:reusesPropertyValue [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty skos:prefLabel;
+  dsv:reusedAsProperty skos:prefLabel;
+  dsv:reusedFromResource <https://ofn.gov.cz/dcat-ap-cz#Poskytovatel>
+], [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty skos:definition;
+  dsv:reusedAsProperty skos:definition;
+  dsv:reusedFromResource <https://ofn.gov.cz/dcat-ap-cz#Poskytovatel>
+], [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty skos:scopeNote;
+  dsv:reusedAsProperty skos:scopeNote;
+  dsv:reusedFromResource <https://ofn.gov.cz/dcat-ap-cz#Poskytovatel>
+];
+    a dsv:ClassProfile;
+    dsv:classRole role:supportive.
+
+<> tree:member <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#Zdroj-2026-09-08T13:12:26.853Z-17>.
+
+<https://ofn.gov.cz/dcat-ap-cz-otevřená-data#Zdroj-2026-09-08T13:12:26.853Z-17> a as:Create;
+    dct:isVersionOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#Zdroj>;
+    dct:created "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
+    dct:issued "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
+    ds-ldes:sequence 17;
+    dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#>;
+    a dsv:TermProfile;
+    dsv:profileOf <https://ofn.gov.cz/dcat-ap-cz#Zdroj>;
+    dsv:reusesPropertyValue [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty skos:prefLabel;
+  dsv:reusedAsProperty skos:prefLabel;
+  dsv:reusedFromResource <https://ofn.gov.cz/dcat-ap-cz#Zdroj>
+], [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty skos:definition;
+  dsv:reusedAsProperty skos:definition;
+  dsv:reusedFromResource <https://ofn.gov.cz/dcat-ap-cz#Zdroj>
+], [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty skos:scopeNote;
+  dsv:reusedAsProperty skos:scopeNote;
+  dsv:reusedFromResource <https://ofn.gov.cz/dcat-ap-cz#Zdroj>
+];
+    a dsv:ClassProfile;
+    dsv:classRole role:supportive.
+
+<> tree:member <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#PrvekRÚIAN-2026-09-08T13:12:26.853Z-18>.
+
+<https://ofn.gov.cz/dcat-ap-cz-otevřená-data#PrvekRÚIAN-2026-09-08T13:12:26.853Z-18> a as:Create;
+    dct:isVersionOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#PrvekRÚIAN>;
+    dct:created "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
+    dct:issued "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
+    ds-ldes:sequence 18;
+    dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#>;
+    a dsv:TermProfile;
+    dsv:profileOf <https://ofn.gov.cz/dcat-ap-cz#PrvekRÚIAN>;
+    dsv:reusesPropertyValue [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty skos:prefLabel;
+  dsv:reusedAsProperty skos:prefLabel;
+  dsv:reusedFromResource <https://ofn.gov.cz/dcat-ap-cz#PrvekRÚIAN>
+], [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty skos:definition;
+  dsv:reusedAsProperty skos:definition;
+  dsv:reusedFromResource <https://ofn.gov.cz/dcat-ap-cz#PrvekRÚIAN>
+], [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty skos:scopeNote;
+  dsv:reusedAsProperty skos:scopeNote;
+  dsv:reusedFromResource <https://ofn.gov.cz/dcat-ap-cz#PrvekRÚIAN>
+];
+    a dsv:ClassProfile;
+    dsv:classRole role:supportive.
+
+<> tree:member <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#Standard-2026-09-08T13:12:26.853Z-19>.
+
+<https://ofn.gov.cz/dcat-ap-cz-otevřená-data#Standard-2026-09-08T13:12:26.853Z-19> a as:Create;
+    dct:isVersionOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#Standard>;
+    dct:created "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
+    dct:issued "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
+    ds-ldes:sequence 19;
+    dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#>;
+    a dsv:TermProfile;
+    dsv:profileOf <https://ofn.gov.cz/dcat-ap-cz#Standard>;
+    dsv:reusesPropertyValue [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty skos:prefLabel;
+  dsv:reusedAsProperty skos:prefLabel;
+  dsv:reusedFromResource <https://ofn.gov.cz/dcat-ap-cz#Standard>
+], [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty skos:definition;
+  dsv:reusedAsProperty skos:definition;
+  dsv:reusedFromResource <https://ofn.gov.cz/dcat-ap-cz#Standard>
+], [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty skos:scopeNote;
+  dsv:reusedAsProperty skos:scopeNote;
+  dsv:reusedFromResource <https://ofn.gov.cz/dcat-ap-cz#Standard>
+];
+    a dsv:ClassProfile;
+    dsv:classRole role:supportive.
+
+<> tree:member <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#SpecifikacePodmínekUžití-2026-09-08T13:12:26.853Z-20>.
+
+<https://ofn.gov.cz/dcat-ap-cz-otevřená-data#SpecifikacePodmínekUžití-2026-09-08T13:12:26.853Z-20> a as:Create;
+    dct:isVersionOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#SpecifikacePodmínekUžití>;
+    dct:created "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
+    dct:issued "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
+    ds-ldes:sequence 20;
+    dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#>;
+    a dsv:TermProfile;
+    dsv:profileOf <https://ofn.gov.cz/dcat-ap-cz#SpecifikacePodmínekUžití>;
+    dsv:reusesPropertyValue [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty skos:prefLabel;
+  dsv:reusedAsProperty skos:prefLabel;
+  dsv:reusedFromResource <https://ofn.gov.cz/dcat-ap-cz#SpecifikacePodmínekUžití>
+], [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty skos:definition;
+  dsv:reusedAsProperty skos:definition;
+  dsv:reusedFromResource <https://ofn.gov.cz/dcat-ap-cz#SpecifikacePodmínekUžití>
+], [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty skos:scopeNote;
+  dsv:reusedAsProperty skos:scopeNote;
+  dsv:reusedFromResource <https://ofn.gov.cz/dcat-ap-cz#SpecifikacePodmínekUžití>
+];
+    a dsv:ClassProfile;
+    dsv:classRole role:main.
+
+<> tree:member <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#Licence-2026-09-08T13:12:26.853Z-21>.
+
+<https://ofn.gov.cz/dcat-ap-cz-otevřená-data#Licence-2026-09-08T13:12:26.853Z-21> a as:Create;
+    dct:isVersionOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#Licence>;
+    dct:created "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
+    dct:issued "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
+    ds-ldes:sequence 21;
+    dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#>;
+    a dsv:TermProfile;
+    dsv:profileOf <https://ofn.gov.cz/dcat-ap-cz#Licence>;
+    dsv:reusesPropertyValue [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty skos:prefLabel;
+  dsv:reusedAsProperty skos:prefLabel;
+  dsv:reusedFromResource <https://ofn.gov.cz/dcat-ap-cz#Licence>
+], [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty skos:definition;
+  dsv:reusedAsProperty skos:definition;
+  dsv:reusedFromResource <https://ofn.gov.cz/dcat-ap-cz#Licence>
+], [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty skos:scopeNote;
+  dsv:reusedAsProperty skos:scopeNote;
+  dsv:reusedFromResource <https://ofn.gov.cz/dcat-ap-cz#Licence>
+];
+    a dsv:ClassProfile;
+    dsv:classRole role:supportive.
+
+<> tree:member <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#Dokument-2026-09-08T13:12:26.853Z-22>.
+
+<https://ofn.gov.cz/dcat-ap-cz-otevřená-data#Dokument-2026-09-08T13:12:26.853Z-22> a as:Create;
+    dct:isVersionOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#Dokument>;
+    dct:created "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
+    dct:issued "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
+    ds-ldes:sequence 22;
+    dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#>;
+    a dsv:TermProfile;
+    dsv:profileOf <https://ofn.gov.cz/dcat-ap-cz#Dokument>;
+    dsv:reusesPropertyValue [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty skos:prefLabel;
+  dsv:reusedAsProperty skos:prefLabel;
+  dsv:reusedFromResource <https://ofn.gov.cz/dcat-ap-cz#Dokument>
+], [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty skos:definition;
+  dsv:reusedAsProperty skos:definition;
+  dsv:reusedFromResource <https://ofn.gov.cz/dcat-ap-cz#Dokument>
+], [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty skos:scopeNote;
+  dsv:reusedAsProperty skos:scopeNote;
+  dsv:reusedFromResource <https://ofn.gov.cz/dcat-ap-cz#Dokument>
+];
+    a dsv:ClassProfile;
+    dsv:classRole role:supportive.
+
+<> tree:member <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#Jednotlivec-2026-09-08T13:12:26.853Z-23>.
+
+<https://ofn.gov.cz/dcat-ap-cz-otevřená-data#Jednotlivec-2026-09-08T13:12:26.853Z-23> a as:Create;
+    dct:isVersionOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#Jednotlivec>;
+    dct:created "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
+    dct:issued "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
+    ds-ldes:sequence 23;
+    dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#>;
+    a dsv:TermProfile;
+    dsv:specializes <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#KontaktníBod>;
+    dsv:profileOf <https://ofn.gov.cz/dcat-ap-cz#Jednotlivec>;
+    dsv:reusesPropertyValue [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty skos:prefLabel;
+  dsv:reusedAsProperty skos:prefLabel;
+  dsv:reusedFromResource <https://ofn.gov.cz/dcat-ap-cz#Jednotlivec>
+], [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty skos:definition;
+  dsv:reusedAsProperty skos:definition;
+  dsv:reusedFromResource <https://ofn.gov.cz/dcat-ap-cz#Jednotlivec>
+], [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty skos:scopeNote;
+  dsv:reusedAsProperty skos:scopeNote;
+  dsv:reusedFromResource <https://ofn.gov.cz/dcat-ap-cz#Jednotlivec>
+];
+    a dsv:ClassProfile;
+    dsv:classRole role:supportive.
+
+<> tree:member <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#Organizace-2026-09-08T13:12:26.853Z-24>.
+
+<https://ofn.gov.cz/dcat-ap-cz-otevřená-data#Organizace-2026-09-08T13:12:26.853Z-24> a as:Create;
+    dct:isVersionOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#Organizace>;
+    dct:created "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
+    dct:issued "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
+    ds-ldes:sequence 24;
+    dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#>;
+    a dsv:TermProfile;
+    dsv:specializes <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#KontaktníBod>;
+    dsv:profileOf <https://ofn.gov.cz/dcat-ap-cz#Organizace>;
+    dsv:reusesPropertyValue [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty skos:prefLabel;
+  dsv:reusedAsProperty skos:prefLabel;
+  dsv:reusedFromResource <https://ofn.gov.cz/dcat-ap-cz#Organizace>
+], [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty skos:definition;
+  dsv:reusedAsProperty skos:definition;
+  dsv:reusedFromResource <https://ofn.gov.cz/dcat-ap-cz#Organizace>
+], [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty skos:scopeNote;
+  dsv:reusedAsProperty skos:scopeNote;
+  dsv:reusedFromResource <https://ofn.gov.cz/dcat-ap-cz#Organizace>
+];
+    a dsv:ClassProfile;
+    dsv:classRole role:supportive.
+
+<> tree:member <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#E-mailAddress-2026-09-08T13:12:26.853Z-25>.
+
+<https://ofn.gov.cz/dcat-ap-cz-otevřená-data#E-mailAddress-2026-09-08T13:12:26.853Z-25> a as:Create;
+    dct:isVersionOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#E-mailAddress>;
+    dct:created "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
+    dct:issued "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
+    ds-ldes:sequence 25;
+    dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#>;
+    a dsv:TermProfile;
+    dsv:profileOf <https://ofn.gov.cz/dcat-ap-cz#E-mailAddress>;
+    dsv:reusesPropertyValue [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty skos:prefLabel;
+  dsv:reusedAsProperty skos:prefLabel;
+  dsv:reusedFromResource <https://ofn.gov.cz/dcat-ap-cz#E-mailAddress>
+], [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty skos:definition;
+  dsv:reusedAsProperty skos:definition;
+  dsv:reusedFromResource <https://ofn.gov.cz/dcat-ap-cz#E-mailAddress>
+], [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty skos:scopeNote;
+  dsv:reusedAsProperty skos:scopeNote;
+  dsv:reusedFromResource <https://ofn.gov.cz/dcat-ap-cz#E-mailAddress>
+];
+    a dsv:ClassProfile;
+    dsv:classRole role:supportive.
+
+<> tree:member <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSada.název-2026-09-08T13:12:26.853Z-26>.
+
+<https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSada.název-2026-09-08T13:12:26.853Z-26> a as:Create;
+    dct:isVersionOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSada.název>;
+    dct:created "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
+    dct:issued "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
+    ds-ldes:sequence 26;
+    dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#>;
+    a dsv:TermProfile;
+    dsv:profileOf <https://ofn.gov.cz/dcat-ap-cz#DatováSada.název>;
+    dsv:reusesPropertyValue [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty skos:prefLabel;
+  dsv:reusedAsProperty skos:prefLabel;
+  dsv:reusedFromResource <https://ofn.gov.cz/dcat-ap-cz#DatováSada.název>
+], [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty skos:definition;
+  dsv:reusedAsProperty skos:definition;
+  dsv:reusedFromResource <https://ofn.gov.cz/dcat-ap-cz#DatováSada.název>
+], [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty skos:scopeNote;
+  dsv:reusedAsProperty skos:scopeNote;
+  dsv:reusedFromResource <https://ofn.gov.cz/dcat-ap-cz#DatováSada.název>
+];
+    dsv:cardinality cardinality:11;
+    dsv:domain <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSada>;
+    dsv:requirementLevel requirement:mandatory;
+    a dsv:DatatypePropertyProfile;
+    dsv:datatypePropertyRange <https://ofn.gov.cz/zdroj/základní-datové-typy/2020-07-01/text>.
+
+<> tree:member <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSada.popis-2026-09-08T13:12:26.853Z-27>.
+
+<https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSada.popis-2026-09-08T13:12:26.853Z-27> a as:Create;
+    dct:isVersionOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSada.popis>;
+    dct:created "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
+    dct:issued "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
+    ds-ldes:sequence 27;
+    dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#>;
+    a dsv:TermProfile;
+    dsv:profileOf <https://ofn.gov.cz/dcat-ap-cz#DatováSada.popis>;
+    dsv:reusesPropertyValue [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty skos:prefLabel;
+  dsv:reusedAsProperty skos:prefLabel;
+  dsv:reusedFromResource <https://ofn.gov.cz/dcat-ap-cz#DatováSada.popis>
+], [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty skos:definition;
+  dsv:reusedAsProperty skos:definition;
+  dsv:reusedFromResource <https://ofn.gov.cz/dcat-ap-cz#DatováSada.popis>
+], [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty skos:scopeNote;
+  dsv:reusedAsProperty skos:scopeNote;
+  dsv:reusedFromResource <https://ofn.gov.cz/dcat-ap-cz#DatováSada.popis>
+];
+    dsv:cardinality cardinality:11;
+    dsv:domain <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSada>;
+    dsv:requirementLevel requirement:mandatory;
+    a dsv:DatatypePropertyProfile;
+    dsv:datatypePropertyRange <https://ofn.gov.cz/zdroj/základní-datové-typy/2020-07-01/text>.
+
+<> tree:member <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSada.klíčovéSlovo-2026-09-08T13:12:26.853Z-28>.
+
+<https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSada.klíčovéSlovo-2026-09-08T13:12:26.853Z-28> a as:Create;
+    dct:isVersionOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSada.klíčovéSlovo>;
+    dct:created "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
+    dct:issued "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
+    ds-ldes:sequence 28;
+    dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#>;
+    a dsv:TermProfile;
+    dsv:profileOf <https://ofn.gov.cz/dcat-ap-cz#DatováSada.klíčovéSlovo>;
+    dsv:reusesPropertyValue [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty skos:prefLabel;
+  dsv:reusedAsProperty skos:prefLabel;
+  dsv:reusedFromResource <https://ofn.gov.cz/dcat-ap-cz#DatováSada.klíčovéSlovo>
+], [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty skos:definition;
+  dsv:reusedAsProperty skos:definition;
+  dsv:reusedFromResource <https://ofn.gov.cz/dcat-ap-cz#DatováSada.klíčovéSlovo>
+], [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty skos:scopeNote;
+  dsv:reusedAsProperty skos:scopeNote;
+  dsv:reusedFromResource <https://ofn.gov.cz/dcat-ap-cz#DatováSada.klíčovéSlovo>
+];
+    dsv:cardinality cardinality:1n;
+    dsv:domain <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSada>;
+    dsv:requirementLevel requirement:mandatory;
+    a dsv:DatatypePropertyProfile;
+    dsv:datatypePropertyRange rdf:langString.
+
+<> tree:member <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSada.prostorovéRozlišeníVMetrech-2026-09-08T13:12:26.853Z-29>.
+
+<https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSada.prostorovéRozlišeníVMetrech-2026-09-08T13:12:26.853Z-29> a as:Create;
+    dct:isVersionOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSada.prostorovéRozlišeníVMetrech>;
+    dct:created "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
+    dct:issued "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
+    ds-ldes:sequence 29;
+    dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#>;
+    a dsv:TermProfile;
+    dsv:profileOf <https://ofn.gov.cz/dcat-ap-cz#DatováSada.prostorovéRozlišeníVMetrech>;
+    dsv:reusesPropertyValue [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty skos:prefLabel;
+  dsv:reusedAsProperty skos:prefLabel;
+  dsv:reusedFromResource <https://ofn.gov.cz/dcat-ap-cz#DatováSada.prostorovéRozlišeníVMetrech>
+], [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty skos:definition;
+  dsv:reusedAsProperty skos:definition;
+  dsv:reusedFromResource <https://ofn.gov.cz/dcat-ap-cz#DatováSada.prostorovéRozlišeníVMetrech>
+], [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty skos:scopeNote;
+  dsv:reusedAsProperty skos:scopeNote;
+  dsv:reusedFromResource <https://ofn.gov.cz/dcat-ap-cz#DatováSada.prostorovéRozlišeníVMetrech>
+];
+    dsv:cardinality cardinality:01;
+    dsv:domain <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSada>;
+    dsv:requirementLevel requirement:optional;
+    a dsv:DatatypePropertyProfile;
+    dsv:datatypePropertyRange xsd:decimal.
+
+<> tree:member <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSada.časovéRozlišení-2026-09-08T13:12:26.853Z-30>.
+
+<https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSada.časovéRozlišení-2026-09-08T13:12:26.853Z-30> a as:Create;
+    dct:isVersionOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSada.časovéRozlišení>;
+    dct:created "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
+    dct:issued "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
+    ds-ldes:sequence 30;
+    dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#>;
+    a dsv:TermProfile;
+    dsv:profileOf <https://ofn.gov.cz/dcat-ap-cz#DatováSada.časovéRozlišení>;
+    dsv:reusesPropertyValue [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty skos:prefLabel;
+  dsv:reusedAsProperty skos:prefLabel;
+  dsv:reusedFromResource <https://ofn.gov.cz/dcat-ap-cz#DatováSada.časovéRozlišení>
+], [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty skos:definition;
+  dsv:reusedAsProperty skos:definition;
+  dsv:reusedFromResource <https://ofn.gov.cz/dcat-ap-cz#DatováSada.časovéRozlišení>
+], [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty skos:scopeNote;
+  dsv:reusedAsProperty skos:scopeNote;
+  dsv:reusedFromResource <https://ofn.gov.cz/dcat-ap-cz#DatováSada.časovéRozlišení>
+];
+    dsv:cardinality cardinality:01;
+    dsv:domain <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSada>;
+    dsv:requirementLevel requirement:optional;
+    a dsv:DatatypePropertyProfile;
+    dsv:datatypePropertyRange xsd:duration.
+
+<> tree:member <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#Distribuce.název-2026-09-08T13:12:26.853Z-31>.
+
+<https://ofn.gov.cz/dcat-ap-cz-otevřená-data#Distribuce.název-2026-09-08T13:12:26.853Z-31> a as:Create;
+    dct:isVersionOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#Distribuce.název>;
+    dct:created "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
+    dct:issued "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
+    ds-ldes:sequence 31;
+    dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#>;
+    a dsv:TermProfile;
+    dsv:profileOf <https://ofn.gov.cz/dcat-ap-cz#Distribuce.název>;
+    dsv:reusesPropertyValue [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty skos:prefLabel;
+  dsv:reusedAsProperty skos:prefLabel;
+  dsv:reusedFromResource <https://ofn.gov.cz/dcat-ap-cz#Distribuce.název>
+], [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty skos:definition;
+  dsv:reusedAsProperty skos:definition;
+  dsv:reusedFromResource <https://ofn.gov.cz/dcat-ap-cz#Distribuce.název>
+], [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty skos:scopeNote;
+  dsv:reusedAsProperty skos:scopeNote;
+  dsv:reusedFromResource <https://ofn.gov.cz/dcat-ap-cz#Distribuce.název>
+];
+    dsv:cardinality cardinality:01;
+    dsv:domain <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#Distribuce>;
+    dsv:requirementLevel requirement:optional;
+    a dsv:DatatypePropertyProfile;
+    dsv:datatypePropertyRange <https://ofn.gov.cz/zdroj/základní-datové-typy/2020-07-01/text>.
+
+<> tree:member <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSlužba.název-2026-09-08T13:12:26.853Z-32>.
+
+<https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSlužba.název-2026-09-08T13:12:26.853Z-32> a as:Create;
+    dct:isVersionOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSlužba.název>;
+    dct:created "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
+    dct:issued "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
+    ds-ldes:sequence 32;
+    dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#>;
+    a dsv:TermProfile;
+    dsv:profileOf <https://ofn.gov.cz/dcat-ap-cz#DatováSlužba.název>;
+    dsv:reusesPropertyValue [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty skos:prefLabel;
+  dsv:reusedAsProperty skos:prefLabel;
+  dsv:reusedFromResource <https://ofn.gov.cz/dcat-ap-cz#DatováSlužba.název>
+], [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty skos:definition;
+  dsv:reusedAsProperty skos:definition;
+  dsv:reusedFromResource <https://ofn.gov.cz/dcat-ap-cz#DatováSlužba.název>
+], [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty skos:scopeNote;
+  dsv:reusedAsProperty skos:scopeNote;
+  dsv:reusedFromResource <https://ofn.gov.cz/dcat-ap-cz#DatováSlužba.název>
+];
+    dsv:cardinality cardinality:11;
+    dsv:domain <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSlužba>;
+    dsv:requirementLevel requirement:mandatory;
+    a dsv:DatatypePropertyProfile;
+    dsv:datatypePropertyRange <https://ofn.gov.cz/zdroj/základní-datové-typy/2020-07-01/text>.
+
+<> tree:member <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#SpecifikacePodmínekUžití.jménaAutorůOriginálníDatabáze-2026-09-08T13:12:26.853Z-33>.
+
+<https://ofn.gov.cz/dcat-ap-cz-otevřená-data#SpecifikacePodmínekUžití.jménaAutorůOriginálníDatabáze-2026-09-08T13:12:26.853Z-33> a as:Create;
+    dct:isVersionOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#SpecifikacePodmínekUžití.jménaAutorůOriginálníDatabáze>;
+    dct:created "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
+    dct:issued "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
+    ds-ldes:sequence 33;
+    dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#>;
+    a dsv:TermProfile;
+    dsv:profileOf <https://ofn.gov.cz/dcat-ap-cz#SpecifikacePodmínekUžití.jménaAutorůOriginálníDatabáze>;
+    dsv:reusesPropertyValue [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty skos:prefLabel;
+  dsv:reusedAsProperty skos:prefLabel;
+  dsv:reusedFromResource <https://ofn.gov.cz/dcat-ap-cz#SpecifikacePodmínekUžití.jménaAutorůOriginálníDatabáze>
+], [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty skos:definition;
+  dsv:reusedAsProperty skos:definition;
+  dsv:reusedFromResource <https://ofn.gov.cz/dcat-ap-cz#SpecifikacePodmínekUžití.jménaAutorůOriginálníDatabáze>
+], [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty skos:scopeNote;
+  dsv:reusedAsProperty skos:scopeNote;
+  dsv:reusedFromResource <https://ofn.gov.cz/dcat-ap-cz#SpecifikacePodmínekUžití.jménaAutorůOriginálníDatabáze>
+];
+    dsv:cardinality cardinality:01;
+    dsv:domain <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#SpecifikacePodmínekUžití>;
+    dsv:requirementLevel requirement:optional;
+    a dsv:DatatypePropertyProfile;
+    dsv:datatypePropertyRange <https://ofn.gov.cz/zdroj/základní-datové-typy/2020-07-01/text>.
+
+<> tree:member <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#SpecifikacePodmínekUžití.jménaAutorůDíla-2026-09-08T13:12:26.853Z-34>.
+
+<https://ofn.gov.cz/dcat-ap-cz-otevřená-data#SpecifikacePodmínekUžití.jménaAutorůDíla-2026-09-08T13:12:26.853Z-34> a as:Create;
+    dct:isVersionOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#SpecifikacePodmínekUžití.jménaAutorůDíla>;
+    dct:created "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
+    dct:issued "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
+    ds-ldes:sequence 34;
+    dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#>;
+    a dsv:TermProfile;
+    dsv:profileOf <https://ofn.gov.cz/dcat-ap-cz#SpecifikacePodmínekUžití.jménaAutorůDíla>;
+    dsv:reusesPropertyValue [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty skos:prefLabel;
+  dsv:reusedAsProperty skos:prefLabel;
+  dsv:reusedFromResource <https://ofn.gov.cz/dcat-ap-cz#SpecifikacePodmínekUžití.jménaAutorůDíla>
+], [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty skos:definition;
+  dsv:reusedAsProperty skos:definition;
+  dsv:reusedFromResource <https://ofn.gov.cz/dcat-ap-cz#SpecifikacePodmínekUžití.jménaAutorůDíla>
+], [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty skos:scopeNote;
+  dsv:reusedAsProperty skos:scopeNote;
+  dsv:reusedFromResource <https://ofn.gov.cz/dcat-ap-cz#SpecifikacePodmínekUžití.jménaAutorůDíla>
+];
+    dsv:cardinality cardinality:01;
+    dsv:domain <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#SpecifikacePodmínekUžití>;
+    dsv:requirementLevel requirement:optional;
+    a dsv:DatatypePropertyProfile;
+    dsv:datatypePropertyRange <https://ofn.gov.cz/zdroj/základní-datové-typy/2020-07-01/text>.
+
+<> tree:member <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#ČasovýInterval.datumZačátku-2026-09-08T13:12:26.853Z-35>.
+
+<https://ofn.gov.cz/dcat-ap-cz-otevřená-data#ČasovýInterval.datumZačátku-2026-09-08T13:12:26.853Z-35> a as:Create;
+    dct:isVersionOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#ČasovýInterval.datumZačátku>;
+    dct:created "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
+    dct:issued "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
+    ds-ldes:sequence 35;
+    dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#>;
+    a dsv:TermProfile;
+    dsv:profileOf <https://ofn.gov.cz/dcat-ap-cz#ČasovýInterval.datumZačátku>;
+    dsv:reusesPropertyValue [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty skos:prefLabel;
+  dsv:reusedAsProperty skos:prefLabel;
+  dsv:reusedFromResource <https://ofn.gov.cz/dcat-ap-cz#ČasovýInterval.datumZačátku>
+], [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty skos:definition;
+  dsv:reusedAsProperty skos:definition;
+  dsv:reusedFromResource <https://ofn.gov.cz/dcat-ap-cz#ČasovýInterval.datumZačátku>
+], [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty skos:scopeNote;
+  dsv:reusedAsProperty skos:scopeNote;
+  dsv:reusedFromResource <https://ofn.gov.cz/dcat-ap-cz#ČasovýInterval.datumZačátku>
+];
+    dsv:cardinality cardinality:01;
+    dsv:domain <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#ČasovýInterval>;
+    dsv:requirementLevel requirement:recommended;
+    a dsv:DatatypePropertyProfile;
+    dsv:datatypePropertyRange xsd:date.
+
+<> tree:member <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#ČasovýInterval.datumKonce-2026-09-08T13:12:26.853Z-36>.
+
+<https://ofn.gov.cz/dcat-ap-cz-otevřená-data#ČasovýInterval.datumKonce-2026-09-08T13:12:26.853Z-36> a as:Create;
+    dct:isVersionOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#ČasovýInterval.datumKonce>;
+    dct:created "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
+    dct:issued "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
+    ds-ldes:sequence 36;
+    dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#>;
+    a dsv:TermProfile;
+    dsv:profileOf <https://ofn.gov.cz/dcat-ap-cz#ČasovýInterval.datumKonce>;
+    dsv:reusesPropertyValue [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty skos:prefLabel;
+  dsv:reusedAsProperty skos:prefLabel;
+  dsv:reusedFromResource <https://ofn.gov.cz/dcat-ap-cz#ČasovýInterval.datumKonce>
+], [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty skos:definition;
+  dsv:reusedAsProperty skos:definition;
+  dsv:reusedFromResource <https://ofn.gov.cz/dcat-ap-cz#ČasovýInterval.datumKonce>
+], [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty skos:scopeNote;
+  dsv:reusedAsProperty skos:scopeNote;
+  dsv:reusedFromResource <https://ofn.gov.cz/dcat-ap-cz#ČasovýInterval.datumKonce>
+];
+    dsv:cardinality cardinality:01;
+    dsv:domain <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#ČasovýInterval>;
+    dsv:requirementLevel requirement:recommended;
+    a dsv:DatatypePropertyProfile;
+    dsv:datatypePropertyRange xsd:date.
+
+<> tree:member <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#KontaktníBod.jméno-2026-09-08T13:12:26.853Z-37>.
+
+<https://ofn.gov.cz/dcat-ap-cz-otevřená-data#KontaktníBod.jméno-2026-09-08T13:12:26.853Z-37> a as:Create;
+    dct:isVersionOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#KontaktníBod.jméno>;
+    dct:created "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
+    dct:issued "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
+    ds-ldes:sequence 37;
+    dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#>;
+    a dsv:TermProfile;
+    dsv:profileOf <https://ofn.gov.cz/dcat-ap-cz#KontaktníBod.jméno>;
+    dsv:reusesPropertyValue [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty skos:prefLabel;
+  dsv:reusedAsProperty skos:prefLabel;
+  dsv:reusedFromResource <https://ofn.gov.cz/dcat-ap-cz#KontaktníBod.jméno>
+], [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty skos:definition;
+  dsv:reusedAsProperty skos:definition;
+  dsv:reusedFromResource <https://ofn.gov.cz/dcat-ap-cz#KontaktníBod.jméno>
+], [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty skos:scopeNote;
+  dsv:reusedAsProperty skos:scopeNote;
+  dsv:reusedFromResource <https://ofn.gov.cz/dcat-ap-cz#KontaktníBod.jméno>
+];
+    dsv:cardinality cardinality:01;
+    dsv:domain <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#KontaktníBod>;
+    dsv:requirementLevel requirement:mandatory;
+    a dsv:DatatypePropertyProfile;
+    dsv:datatypePropertyRange <https://ofn.gov.cz/zdroj/základní-datové-typy/2020-07-01/text>.
+
+<> tree:member <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSada.jeSoučástí-2026-09-08T13:12:26.853Z-38>.
+
+<https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSada.jeSoučástí-2026-09-08T13:12:26.853Z-38> a as:Create;
+    dct:isVersionOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSada.jeSoučástí>;
+    dct:created "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
+    dct:issued "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
+    ds-ldes:sequence 38;
+    dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#>;
+    a dsv:TermProfile;
+    dsv:profileOf <https://ofn.gov.cz/dcat-ap-cz#DatováSada.jeSoučástí>;
+    dsv:reusesPropertyValue [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty skos:prefLabel;
+  dsv:reusedAsProperty skos:prefLabel;
+  dsv:reusedFromResource <https://ofn.gov.cz/dcat-ap-cz#DatováSada.jeSoučástí>
+], [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty skos:definition;
+  dsv:reusedAsProperty skos:definition;
+  dsv:reusedFromResource <https://ofn.gov.cz/dcat-ap-cz#DatováSada.jeSoučástí>
+], [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty skos:scopeNote;
+  dsv:reusedAsProperty skos:scopeNote;
+  dsv:reusedFromResource <https://ofn.gov.cz/dcat-ap-cz#DatováSada.jeSoučástí>
+];
+    dsv:cardinality cardinality:01;
+    dsv:domain <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSada>;
+    dsv:requirementLevel requirement:optional;
+    a dsv:ObjectPropertyProfile;
+    dsv:objectPropertyRange <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#SérieDatovýchSad>.
+
+<> tree:member <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSada.poskytovatel-2026-09-08T13:12:26.853Z-39>.
+
+<https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSada.poskytovatel-2026-09-08T13:12:26.853Z-39> a as:Create;
+    dct:isVersionOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSada.poskytovatel>;
+    dct:created "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
+    dct:issued "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
+    ds-ldes:sequence 39;
+    dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#>;
+    a dsv:TermProfile;
+    dsv:profileOf <https://ofn.gov.cz/dcat-ap-cz#DatováSada.poskytovatel>;
+    dsv:reusesPropertyValue [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty skos:prefLabel;
+  dsv:reusedAsProperty skos:prefLabel;
+  dsv:reusedFromResource <https://ofn.gov.cz/dcat-ap-cz#DatováSada.poskytovatel>
+], [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty skos:definition;
+  dsv:reusedAsProperty skos:definition;
+  dsv:reusedFromResource <https://ofn.gov.cz/dcat-ap-cz#DatováSada.poskytovatel>
+], [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty skos:scopeNote;
+  dsv:reusedAsProperty skos:scopeNote;
+  dsv:reusedFromResource <https://ofn.gov.cz/dcat-ap-cz#DatováSada.poskytovatel>
+];
+    dsv:cardinality cardinality:11;
+    dsv:domain <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSada>;
+    dsv:requirementLevel requirement:mandatory;
+    a dsv:ObjectPropertyProfile;
+    dsv:objectPropertyRange <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#Poskytovatel>.
+
+<> tree:member <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSada.téma-2026-09-08T13:12:26.853Z-40>.
+
+<https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSada.téma-2026-09-08T13:12:26.853Z-40> a as:Create;
+    dct:isVersionOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSada.téma>;
+    dct:created "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
+    dct:issued "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
+    ds-ldes:sequence 40;
+    dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#>;
+    a dsv:TermProfile;
+    dsv:profileOf <https://ofn.gov.cz/dcat-ap-cz#DatováSada.téma>;
+    dsv:reusesPropertyValue [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty skos:prefLabel;
+  dsv:reusedAsProperty skos:prefLabel;
+  dsv:reusedFromResource <https://ofn.gov.cz/dcat-ap-cz#DatováSada.téma>
+], [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty skos:definition;
+  dsv:reusedAsProperty skos:definition;
+  dsv:reusedFromResource <https://ofn.gov.cz/dcat-ap-cz#DatováSada.téma>
+], [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty skos:scopeNote;
+  dsv:reusedAsProperty skos:scopeNote;
+  dsv:reusedFromResource <https://ofn.gov.cz/dcat-ap-cz#DatováSada.téma>
+];
+    dsv:cardinality cardinality:1n;
+    dsv:domain <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSada>;
+    dsv:requirementLevel requirement:mandatory;
+    a dsv:ObjectPropertyProfile;
+    dsv:objectPropertyRange <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatovéTéma>.
+
+<> tree:member <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSada.periodicitaAktualizace-2026-09-08T13:12:26.853Z-41>.
+
+<https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSada.periodicitaAktualizace-2026-09-08T13:12:26.853Z-41> a as:Create;
+    dct:isVersionOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSada.periodicitaAktualizace>;
+    dct:created "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
+    dct:issued "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
+    ds-ldes:sequence 41;
+    dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#>;
+    a dsv:TermProfile;
+    dsv:profileOf <https://ofn.gov.cz/dcat-ap-cz#DatováSada.periodicitaAktualizace>;
+    dsv:reusesPropertyValue [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty skos:prefLabel;
+  dsv:reusedAsProperty skos:prefLabel;
+  dsv:reusedFromResource <https://ofn.gov.cz/dcat-ap-cz#DatováSada.periodicitaAktualizace>
+], [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty skos:definition;
+  dsv:reusedAsProperty skos:definition;
+  dsv:reusedFromResource <https://ofn.gov.cz/dcat-ap-cz#DatováSada.periodicitaAktualizace>
+], [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty skos:scopeNote;
+  dsv:reusedAsProperty skos:scopeNote;
+  dsv:reusedFromResource <https://ofn.gov.cz/dcat-ap-cz#DatováSada.periodicitaAktualizace>
+];
+    dsv:cardinality cardinality:11;
+    dsv:domain <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSada>;
+    dsv:requirementLevel requirement:mandatory;
+    a dsv:ObjectPropertyProfile;
+    dsv:objectPropertyRange <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#Frekvence>.
+
+<> tree:member <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSada.souvisejícíGeografickéÚzemí-PrvekZRúian-2026-09-08T13:12:26.853Z-42>.
+
+<https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSada.souvisejícíGeografickéÚzemí-PrvekZRúian-2026-09-08T13:12:26.853Z-42> a as:Create;
+    dct:isVersionOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSada.souvisejícíGeografickéÚzemí-PrvekZRúian>;
+    dct:created "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
+    dct:issued "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
+    ds-ldes:sequence 42;
+    dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#>;
+    a dsv:TermProfile;
+    dsv:profileOf <https://ofn.gov.cz/dcat-ap-cz#DatováSada.souvisejícíGeografickéÚzemí-PrvekZRúian>;
+    dsv:reusesPropertyValue [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty skos:prefLabel;
+  dsv:reusedAsProperty skos:prefLabel;
+  dsv:reusedFromResource <https://ofn.gov.cz/dcat-ap-cz#DatováSada.souvisejícíGeografickéÚzemí-PrvekZRúian>
+], [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty skos:definition;
+  dsv:reusedAsProperty skos:definition;
+  dsv:reusedFromResource <https://ofn.gov.cz/dcat-ap-cz#DatováSada.souvisejícíGeografickéÚzemí-PrvekZRúian>
+], [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty skos:scopeNote;
+  dsv:reusedAsProperty skos:scopeNote;
+  dsv:reusedFromResource <https://ofn.gov.cz/dcat-ap-cz#DatováSada.souvisejícíGeografickéÚzemí-PrvekZRúian>
+];
+    dsv:cardinality cardinality:1n;
+    dsv:domain <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSada>;
+    dsv:requirementLevel requirement:mandatory;
+    a dsv:ObjectPropertyProfile;
+    dsv:objectPropertyRange <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#PrvekRÚIAN>.
+
+<> tree:member <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSada.souvisejícíGeografickéÚzemí-2026-09-08T13:12:26.853Z-43>.
+
+<https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSada.souvisejícíGeografickéÚzemí-2026-09-08T13:12:26.853Z-43> a as:Create;
+    dct:isVersionOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSada.souvisejícíGeografickéÚzemí>;
+    dct:created "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
+    dct:issued "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
+    ds-ldes:sequence 43;
+    dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#>;
+    a dsv:TermProfile;
+    dsv:profileOf <https://ofn.gov.cz/dcat-ap-cz#DatováSada.souvisejícíGeografickéÚzemí>;
+    dsv:reusesPropertyValue [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty skos:prefLabel;
+  dsv:reusedAsProperty skos:prefLabel;
+  dsv:reusedFromResource <https://ofn.gov.cz/dcat-ap-cz#DatováSada.souvisejícíGeografickéÚzemí>
+], [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty skos:definition;
+  dsv:reusedAsProperty skos:definition;
+  dsv:reusedFromResource <https://ofn.gov.cz/dcat-ap-cz#DatováSada.souvisejícíGeografickéÚzemí>
+], [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty skos:scopeNote;
+  dsv:reusedAsProperty skos:scopeNote;
+  dsv:reusedFromResource <https://ofn.gov.cz/dcat-ap-cz#DatováSada.souvisejícíGeografickéÚzemí>
+];
+    dsv:cardinality cardinality:0n;
+    dsv:domain <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSada>;
+    dsv:requirementLevel requirement:recommended;
+    a dsv:ObjectPropertyProfile;
+    dsv:objectPropertyRange <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#GeografickéÚzemí>.
+
+<> tree:member <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSada.časovéPokrytí-2026-09-08T13:12:26.853Z-44>.
+
+<https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSada.časovéPokrytí-2026-09-08T13:12:26.853Z-44> a as:Create;
+    dct:isVersionOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSada.časovéPokrytí>;
+    dct:created "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
+    dct:issued "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
+    ds-ldes:sequence 44;
+    dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#>;
+    a dsv:TermProfile;
+    dsv:profileOf <https://ofn.gov.cz/dcat-ap-cz#DatováSada.časovéPokrytí>;
+    dsv:reusesPropertyValue [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty skos:prefLabel;
+  dsv:reusedAsProperty skos:prefLabel;
+  dsv:reusedFromResource <https://ofn.gov.cz/dcat-ap-cz#DatováSada.časovéPokrytí>
+], [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty skos:definition;
+  dsv:reusedAsProperty skos:definition;
+  dsv:reusedFromResource <https://ofn.gov.cz/dcat-ap-cz#DatováSada.časovéPokrytí>
+], [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty skos:scopeNote;
+  dsv:reusedAsProperty skos:scopeNote;
+  dsv:reusedFromResource <https://ofn.gov.cz/dcat-ap-cz#DatováSada.časovéPokrytí>
+];
+    dsv:cardinality cardinality:01;
+    dsv:domain <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSada>;
+    dsv:requirementLevel requirement:recommended;
+    a dsv:ObjectPropertyProfile;
+    dsv:objectPropertyRange <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#ČasovýInterval>.
+
+<> tree:member <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSada.kontaktníBod-2026-09-08T13:12:26.853Z-45>.
+
+<https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSada.kontaktníBod-2026-09-08T13:12:26.853Z-45> a as:Create;
+    dct:isVersionOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSada.kontaktníBod>;
+    dct:created "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
+    dct:issued "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
+    ds-ldes:sequence 45;
+    dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#>;
+    a dsv:TermProfile;
+    dsv:profileOf <https://ofn.gov.cz/dcat-ap-cz#DatováSada.kontaktníBod>;
+    dsv:reusesPropertyValue [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty skos:prefLabel;
+  dsv:reusedAsProperty skos:prefLabel;
+  dsv:reusedFromResource <https://ofn.gov.cz/dcat-ap-cz#DatováSada.kontaktníBod>
+], [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty skos:definition;
+  dsv:reusedAsProperty skos:definition;
+  dsv:reusedFromResource <https://ofn.gov.cz/dcat-ap-cz#DatováSada.kontaktníBod>
+], [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty skos:scopeNote;
+  dsv:reusedAsProperty skos:scopeNote;
+  dsv:reusedFromResource <https://ofn.gov.cz/dcat-ap-cz#DatováSada.kontaktníBod>
+];
+    dsv:cardinality cardinality:01;
+    dsv:domain <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSada>;
+    dsv:requirementLevel requirement:recommended;
+    a dsv:ObjectPropertyProfile;
+    dsv:objectPropertyRange <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#KontaktníBod>.
+
+<> tree:member <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSada.dokumentace-2026-09-08T13:12:26.853Z-46>.
+
+<https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSada.dokumentace-2026-09-08T13:12:26.853Z-46> a as:Create;
+    dct:isVersionOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSada.dokumentace>;
+    dct:created "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
+    dct:issued "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
+    ds-ldes:sequence 46;
+    dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#>;
+    a dsv:TermProfile;
+    dsv:profileOf <https://ofn.gov.cz/dcat-ap-cz#DatováSada.dokumentace>;
+    dsv:reusesPropertyValue [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty skos:prefLabel;
+  dsv:reusedAsProperty skos:prefLabel;
+  dsv:reusedFromResource <https://ofn.gov.cz/dcat-ap-cz#DatováSada.dokumentace>
+], [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty skos:definition;
+  dsv:reusedAsProperty skos:definition;
+  dsv:reusedFromResource <https://ofn.gov.cz/dcat-ap-cz#DatováSada.dokumentace>
+], [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty skos:scopeNote;
+  dsv:reusedAsProperty skos:scopeNote;
+  dsv:reusedFromResource <https://ofn.gov.cz/dcat-ap-cz#DatováSada.dokumentace>
+];
+    dsv:cardinality cardinality:01;
+    dsv:domain <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSada>;
+    dsv:requirementLevel requirement:recommended;
+    a dsv:ObjectPropertyProfile;
+    dsv:objectPropertyRange <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#Dokument>.
+
+<> tree:member <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSada.specifikace-2026-09-08T13:12:26.853Z-47>.
+
+<https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSada.specifikace-2026-09-08T13:12:26.853Z-47> a as:Create;
+    dct:isVersionOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSada.specifikace>;
+    dct:created "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
+    dct:issued "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
+    ds-ldes:sequence 47;
+    dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#>;
+    a dsv:TermProfile;
+    dsv:profileOf <https://ofn.gov.cz/dcat-ap-cz#DatováSada.specifikace>;
+    dsv:reusesPropertyValue [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty skos:prefLabel;
+  dsv:reusedAsProperty skos:prefLabel;
+  dsv:reusedFromResource <https://ofn.gov.cz/dcat-ap-cz#DatováSada.specifikace>
+], [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty skos:definition;
+  dsv:reusedAsProperty skos:definition;
+  dsv:reusedFromResource <https://ofn.gov.cz/dcat-ap-cz#DatováSada.specifikace>
+], [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty skos:scopeNote;
+  dsv:reusedAsProperty skos:scopeNote;
+  dsv:reusedFromResource <https://ofn.gov.cz/dcat-ap-cz#DatováSada.specifikace>
+];
+    dsv:cardinality cardinality:0n;
+    dsv:domain <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSada>;
+    dsv:requirementLevel requirement:recommended;
+    a dsv:ObjectPropertyProfile;
+    dsv:objectPropertyRange <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#Standard>.
+
+<> tree:member <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSada.klasifikaceDleEurovoc-2026-09-08T13:12:26.853Z-48>.
+
+<https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSada.klasifikaceDleEurovoc-2026-09-08T13:12:26.853Z-48> a as:Create;
+    dct:isVersionOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSada.klasifikaceDleEurovoc>;
+    dct:created "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
+    dct:issued "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
+    ds-ldes:sequence 48;
+    dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#>;
+    a dsv:TermProfile;
+    dsv:profileOf <https://ofn.gov.cz/dcat-ap-cz#DatováSada.klasifikaceDleEurovoc>;
+    dsv:reusesPropertyValue [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty skos:prefLabel;
+  dsv:reusedAsProperty skos:prefLabel;
+  dsv:reusedFromResource <https://ofn.gov.cz/dcat-ap-cz#DatováSada.klasifikaceDleEurovoc>
+], [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty skos:definition;
+  dsv:reusedAsProperty skos:definition;
+  dsv:reusedFromResource <https://ofn.gov.cz/dcat-ap-cz#DatováSada.klasifikaceDleEurovoc>
+], [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty skos:scopeNote;
+  dsv:reusedAsProperty skos:scopeNote;
+  dsv:reusedFromResource <https://ofn.gov.cz/dcat-ap-cz#DatováSada.klasifikaceDleEurovoc>
+];
+    dsv:cardinality cardinality:0n;
+    dsv:domain <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSada>;
+    dsv:requirementLevel requirement:recommended;
+    a dsv:ObjectPropertyProfile;
+    dsv:objectPropertyRange <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#TémaEuroVoc>.
+
+<> tree:member <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSada.příslušnýPrávníPředpis-2026-09-08T13:12:26.853Z-49>.
+
+<https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSada.příslušnýPrávníPředpis-2026-09-08T13:12:26.853Z-49> a as:Create;
+    dct:isVersionOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSada.příslušnýPrávníPředpis>;
+    dct:created "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
+    dct:issued "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
+    ds-ldes:sequence 49;
+    dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#>;
+    a dsv:TermProfile;
+    skos:scopeNote "Pro označení otevřených dat je povinné uvést https://www.e-sbirka.cz/eli/cz/sb/1999/106/2025-08-19"@cs;
+    dsv:profileOf <https://ofn.gov.cz/dcat-ap-cz#DatováSada.příslušnýPrávníPředpis>;
+    dsv:reusesPropertyValue [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty skos:prefLabel;
+  dsv:reusedAsProperty skos:prefLabel;
+  dsv:reusedFromResource <https://ofn.gov.cz/dcat-ap-cz#DatováSada.příslušnýPrávníPředpis>
+], [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty skos:definition;
+  dsv:reusedAsProperty skos:definition;
+  dsv:reusedFromResource <https://ofn.gov.cz/dcat-ap-cz#DatováSada.příslušnýPrávníPředpis>
+];
+    dsv:cardinality cardinality:1n;
+    dsv:domain <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSada>;
+    dsv:requirementLevel requirement:mandatory;
+    a dsv:ObjectPropertyProfile;
+    dsv:objectPropertyRange <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#PrávníPředpis>.
+
+<> tree:member <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSada.distribuce-2026-09-08T13:12:26.853Z-50>.
+
+<https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSada.distribuce-2026-09-08T13:12:26.853Z-50> a as:Create;
+    dct:isVersionOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSada.distribuce>;
+    dct:created "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
+    dct:issued "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
+    ds-ldes:sequence 50;
+    dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#>;
+    a dsv:TermProfile;
+    dsv:profileOf <https://ofn.gov.cz/dcat-ap-cz#DatováSada.distribuce>;
+    dsv:reusesPropertyValue [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty skos:prefLabel;
+  dsv:reusedAsProperty skos:prefLabel;
+  dsv:reusedFromResource <https://ofn.gov.cz/dcat-ap-cz#DatováSada.distribuce>
+], [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty skos:definition;
+  dsv:reusedAsProperty skos:definition;
+  dsv:reusedFromResource <https://ofn.gov.cz/dcat-ap-cz#DatováSada.distribuce>
+], [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty skos:scopeNote;
+  dsv:reusedAsProperty skos:scopeNote;
+  dsv:reusedFromResource <https://ofn.gov.cz/dcat-ap-cz#DatováSada.distribuce>
+];
+    dsv:cardinality cardinality:0n;
+    dsv:domain <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSada>;
+    a dsv:ObjectPropertyProfile;
+    dsv:objectPropertyRange <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#Distribuce>.
+
+<> tree:member <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#Distribuce.přístupovéUrl-2026-09-08T13:12:26.853Z-51>.
+
+<https://ofn.gov.cz/dcat-ap-cz-otevřená-data#Distribuce.přístupovéUrl-2026-09-08T13:12:26.853Z-51> a as:Create;
+    dct:isVersionOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#Distribuce.přístupovéUrl>;
+    dct:created "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
+    dct:issued "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
+    ds-ldes:sequence 51;
+    dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#>;
+    a dsv:TermProfile;
+    dsv:profileOf <https://ofn.gov.cz/dcat-ap-cz#Distribuce.přístupovéUrl>;
+    dsv:reusesPropertyValue [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty skos:prefLabel;
+  dsv:reusedAsProperty skos:prefLabel;
+  dsv:reusedFromResource <https://ofn.gov.cz/dcat-ap-cz#Distribuce.přístupovéUrl>
+], [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty skos:definition;
+  dsv:reusedAsProperty skos:definition;
+  dsv:reusedFromResource <https://ofn.gov.cz/dcat-ap-cz#Distribuce.přístupovéUrl>
+], [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty skos:scopeNote;
+  dsv:reusedAsProperty skos:scopeNote;
+  dsv:reusedFromResource <https://ofn.gov.cz/dcat-ap-cz#Distribuce.přístupovéUrl>
+];
+    dsv:cardinality cardinality:11;
+    dsv:domain <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#Distribuce>;
+    dsv:requirementLevel requirement:mandatory;
+    a dsv:ObjectPropertyProfile;
+    dsv:objectPropertyRange <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#Zdroj>.
+
+<> tree:member <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#Distribuce.příslušnýPrávníPředpis-2026-09-08T13:12:26.853Z-52>.
+
+<https://ofn.gov.cz/dcat-ap-cz-otevřená-data#Distribuce.příslušnýPrávníPředpis-2026-09-08T13:12:26.853Z-52> a as:Create;
+    dct:isVersionOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#Distribuce.příslušnýPrávníPředpis>;
+    dct:created "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
+    dct:issued "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
+    ds-ldes:sequence 52;
+    dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#>;
+    a dsv:TermProfile;
+    skos:scopeNote "Pro označení otevřených dat je povinné uvést https://www.e-sbirka.cz/eli/cz/sb/1999/106/2025-08-19"@cs;
+    dsv:profileOf <https://ofn.gov.cz/dcat-ap-cz#Distribuce.příslušnýPrávníPředpis>;
+    dsv:reusesPropertyValue [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty skos:prefLabel;
+  dsv:reusedAsProperty skos:prefLabel;
+  dsv:reusedFromResource <https://ofn.gov.cz/dcat-ap-cz#Distribuce.příslušnýPrávníPředpis>
+], [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty skos:definition;
+  dsv:reusedAsProperty skos:definition;
+  dsv:reusedFromResource <https://ofn.gov.cz/dcat-ap-cz#Distribuce.příslušnýPrávníPředpis>
+];
+    dsv:cardinality cardinality:1n;
+    dsv:domain <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#Distribuce>;
+    dsv:requirementLevel requirement:mandatory;
+    a dsv:ObjectPropertyProfile;
+    dsv:objectPropertyRange <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#PrávníPředpis>.
+
+<> tree:member <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSlužba.příslušnýPrávníPředpis-2026-09-08T13:12:26.853Z-53>.
+
+<https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSlužba.příslušnýPrávníPředpis-2026-09-08T13:12:26.853Z-53> a as:Create;
+    dct:isVersionOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSlužba.příslušnýPrávníPředpis>;
+    dct:created "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
+    dct:issued "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
+    ds-ldes:sequence 53;
+    dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#>;
+    a dsv:TermProfile;
+    skos:scopeNote "Pro označení otevřených dat je povinné uvést https://www.e-sbirka.cz/eli/cz/sb/1999/106/2025-08-19"@cs;
+    dsv:profileOf <https://ofn.gov.cz/dcat-ap-cz#DatováSlužba.příslušnýPrávníPředpis>;
+    dsv:reusesPropertyValue [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty skos:prefLabel;
+  dsv:reusedAsProperty skos:prefLabel;
+  dsv:reusedFromResource <https://ofn.gov.cz/dcat-ap-cz#DatováSlužba.příslušnýPrávníPředpis>
+], [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty skos:definition;
+  dsv:reusedAsProperty skos:definition;
+  dsv:reusedFromResource <https://ofn.gov.cz/dcat-ap-cz#DatováSlužba.příslušnýPrávníPředpis>
+];
+    dsv:cardinality cardinality:1n;
+    dsv:domain <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSlužba>;
+    dsv:requirementLevel requirement:mandatory;
+    a dsv:ObjectPropertyProfile;
+    dsv:objectPropertyRange <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#PrávníPředpis>.
+
+<> tree:member <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#Distribuce-SouborKeStažení.odkazNaStaženíSouboru-2026-09-08T13:12:26.853Z-54>.
+
+<https://ofn.gov.cz/dcat-ap-cz-otevřená-data#Distribuce-SouborKeStažení.odkazNaStaženíSouboru-2026-09-08T13:12:26.853Z-54> a as:Create;
+    dct:isVersionOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#Distribuce-SouborKeStažení.odkazNaStaženíSouboru>;
+    dct:created "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
+    dct:issued "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
+    ds-ldes:sequence 54;
+    dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#>;
+    a dsv:TermProfile;
+    dsv:profileOf <https://ofn.gov.cz/dcat-ap-cz#Distribuce-SouborKeStažení.odkazNaStaženíSouboru>;
+    dsv:reusesPropertyValue [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty skos:prefLabel;
+  dsv:reusedAsProperty skos:prefLabel;
+  dsv:reusedFromResource <https://ofn.gov.cz/dcat-ap-cz#Distribuce-SouborKeStažení.odkazNaStaženíSouboru>
+], [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty skos:definition;
+  dsv:reusedAsProperty skos:definition;
+  dsv:reusedFromResource <https://ofn.gov.cz/dcat-ap-cz#Distribuce-SouborKeStažení.odkazNaStaženíSouboru>
+], [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty skos:scopeNote;
+  dsv:reusedAsProperty skos:scopeNote;
+  dsv:reusedFromResource <https://ofn.gov.cz/dcat-ap-cz#Distribuce-SouborKeStažení.odkazNaStaženíSouboru>
+];
+    dsv:cardinality cardinality:11;
+    dsv:domain <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DistribuceSoubor>;
+    dsv:requirementLevel requirement:mandatory;
+    a dsv:ObjectPropertyProfile;
+    dsv:objectPropertyRange <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#Zdroj>.
+
+<> tree:member <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#Distribuce-SouborKeStažení.formátSouboruKeStažení-2026-09-08T13:12:26.853Z-55>.
+
+<https://ofn.gov.cz/dcat-ap-cz-otevřená-data#Distribuce-SouborKeStažení.formátSouboruKeStažení-2026-09-08T13:12:26.853Z-55> a as:Create;
+    dct:isVersionOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#Distribuce-SouborKeStažení.formátSouboruKeStažení>;
+    dct:created "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
+    dct:issued "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
+    ds-ldes:sequence 55;
+    dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#>;
+    a dsv:TermProfile;
+    dsv:profileOf <https://ofn.gov.cz/dcat-ap-cz#Distribuce-SouborKeStažení.formátSouboruKeStažení>;
+    dsv:reusesPropertyValue [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty skos:prefLabel;
+  dsv:reusedAsProperty skos:prefLabel;
+  dsv:reusedFromResource <https://ofn.gov.cz/dcat-ap-cz#Distribuce-SouborKeStažení.formátSouboruKeStažení>
+], [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty skos:definition;
+  dsv:reusedAsProperty skos:definition;
+  dsv:reusedFromResource <https://ofn.gov.cz/dcat-ap-cz#Distribuce-SouborKeStažení.formátSouboruKeStažení>
+], [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty skos:scopeNote;
+  dsv:reusedAsProperty skos:scopeNote;
+  dsv:reusedFromResource <https://ofn.gov.cz/dcat-ap-cz#Distribuce-SouborKeStažení.formátSouboruKeStažení>
+];
+    dsv:cardinality cardinality:11;
+    dsv:domain <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DistribuceSoubor>;
+    dsv:requirementLevel requirement:mandatory;
+    a dsv:ObjectPropertyProfile;
+    dsv:objectPropertyRange <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#FormátSouboru>.
+
+<> tree:member <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#Distribuce-SouborKeStažení.typMédia-2026-09-08T13:12:26.853Z-56>.
+
+<https://ofn.gov.cz/dcat-ap-cz-otevřená-data#Distribuce-SouborKeStažení.typMédia-2026-09-08T13:12:26.853Z-56> a as:Create;
+    dct:isVersionOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#Distribuce-SouborKeStažení.typMédia>;
+    dct:created "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
+    dct:issued "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
+    ds-ldes:sequence 56;
+    dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#>;
+    a dsv:TermProfile;
+    dsv:profileOf <https://ofn.gov.cz/dcat-ap-cz#Distribuce-SouborKeStažení.typMédia>;
+    dsv:reusesPropertyValue [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty skos:prefLabel;
+  dsv:reusedAsProperty skos:prefLabel;
+  dsv:reusedFromResource <https://ofn.gov.cz/dcat-ap-cz#Distribuce-SouborKeStažení.typMédia>
+], [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty skos:definition;
+  dsv:reusedAsProperty skos:definition;
+  dsv:reusedFromResource <https://ofn.gov.cz/dcat-ap-cz#Distribuce-SouborKeStažení.typMédia>
+], [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty skos:scopeNote;
+  dsv:reusedAsProperty skos:scopeNote;
+  dsv:reusedFromResource <https://ofn.gov.cz/dcat-ap-cz#Distribuce-SouborKeStažení.typMédia>
+];
+    dsv:cardinality cardinality:11;
+    dsv:domain <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DistribuceSoubor>;
+    dsv:requirementLevel requirement:mandatory;
+    a dsv:ObjectPropertyProfile;
+    dsv:objectPropertyRange <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#TypMédia>.
+
+<> tree:member <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#Distribuce-SouborKeStažení.formátBalíčku-2026-09-08T13:12:26.853Z-57>.
+
+<https://ofn.gov.cz/dcat-ap-cz-otevřená-data#Distribuce-SouborKeStažení.formátBalíčku-2026-09-08T13:12:26.853Z-57> a as:Create;
+    dct:isVersionOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#Distribuce-SouborKeStažení.formátBalíčku>;
+    dct:created "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
+    dct:issued "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
+    ds-ldes:sequence 57;
+    dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#>;
+    a dsv:TermProfile;
+    dsv:profileOf <https://ofn.gov.cz/dcat-ap-cz#Distribuce-SouborKeStažení.formátBalíčku>;
+    dsv:reusesPropertyValue [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty skos:prefLabel;
+  dsv:reusedAsProperty skos:prefLabel;
+  dsv:reusedFromResource <https://ofn.gov.cz/dcat-ap-cz#Distribuce-SouborKeStažení.formátBalíčku>
+], [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty skos:definition;
+  dsv:reusedAsProperty skos:definition;
+  dsv:reusedFromResource <https://ofn.gov.cz/dcat-ap-cz#Distribuce-SouborKeStažení.formátBalíčku>
+], [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty skos:scopeNote;
+  dsv:reusedAsProperty skos:scopeNote;
+  dsv:reusedFromResource <https://ofn.gov.cz/dcat-ap-cz#Distribuce-SouborKeStažení.formátBalíčku>
+];
+    dsv:cardinality cardinality:01;
+    dsv:domain <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DistribuceSoubor>;
+    dsv:requirementLevel requirement:optional;
+    a dsv:ObjectPropertyProfile;
+    dsv:objectPropertyRange <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#TypMédia>.
+
+<> tree:member <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#Distribuce-SouborKeStažení.formátKomprese-2026-09-08T13:12:26.853Z-58>.
+
+<https://ofn.gov.cz/dcat-ap-cz-otevřená-data#Distribuce-SouborKeStažení.formátKomprese-2026-09-08T13:12:26.853Z-58> a as:Create;
+    dct:isVersionOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#Distribuce-SouborKeStažení.formátKomprese>;
+    dct:created "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
+    dct:issued "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
+    ds-ldes:sequence 58;
+    dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#>;
+    a dsv:TermProfile;
+    dsv:profileOf <https://ofn.gov.cz/dcat-ap-cz#Distribuce-SouborKeStažení.formátKomprese>;
+    dsv:reusesPropertyValue [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty skos:prefLabel;
+  dsv:reusedAsProperty skos:prefLabel;
+  dsv:reusedFromResource <https://ofn.gov.cz/dcat-ap-cz#Distribuce-SouborKeStažení.formátKomprese>
+], [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty skos:definition;
+  dsv:reusedAsProperty skos:definition;
+  dsv:reusedFromResource <https://ofn.gov.cz/dcat-ap-cz#Distribuce-SouborKeStažení.formátKomprese>
+], [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty skos:scopeNote;
+  dsv:reusedAsProperty skos:scopeNote;
+  dsv:reusedFromResource <https://ofn.gov.cz/dcat-ap-cz#Distribuce-SouborKeStažení.formátKomprese>
+];
+    dsv:cardinality cardinality:01;
+    dsv:domain <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DistribuceSoubor>;
+    dsv:requirementLevel requirement:optional;
+    a dsv:ObjectPropertyProfile;
+    dsv:objectPropertyRange <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#TypMédia>.
+
+<> tree:member <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#Distribuce-SouborKeStažení.strojověČitelnéSchémaSouboruKeStažení-2026-09-08T13:12:26.853Z-59>.
+
+<https://ofn.gov.cz/dcat-ap-cz-otevřená-data#Distribuce-SouborKeStažení.strojověČitelnéSchémaSouboruKeStažení-2026-09-08T13:12:26.853Z-59> a as:Create;
+    dct:isVersionOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#Distribuce-SouborKeStažení.strojověČitelnéSchémaSouboruKeStažení>;
+    dct:created "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
+    dct:issued "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
+    ds-ldes:sequence 59;
+    dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#>;
+    a dsv:TermProfile;
+    dsv:profileOf <https://ofn.gov.cz/dcat-ap-cz#Distribuce-SouborKeStažení.strojověČitelnéSchémaSouboruKeStažení>;
+    dsv:reusesPropertyValue [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty skos:prefLabel;
+  dsv:reusedAsProperty skos:prefLabel;
+  dsv:reusedFromResource <https://ofn.gov.cz/dcat-ap-cz#Distribuce-SouborKeStažení.strojověČitelnéSchémaSouboruKeStažení>
+], [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty skos:definition;
+  dsv:reusedAsProperty skos:definition;
+  dsv:reusedFromResource <https://ofn.gov.cz/dcat-ap-cz#Distribuce-SouborKeStažení.strojověČitelnéSchémaSouboruKeStažení>
+], [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty skos:scopeNote;
+  dsv:reusedAsProperty skos:scopeNote;
+  dsv:reusedFromResource <https://ofn.gov.cz/dcat-ap-cz#Distribuce-SouborKeStažení.strojověČitelnéSchémaSouboruKeStažení>
+];
+    dsv:cardinality cardinality:01;
+    dsv:domain <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DistribuceSoubor>;
+    dsv:requirementLevel requirement:recommended;
+    a dsv:ObjectPropertyProfile;
+    dsv:objectPropertyRange <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#Zdroj>.
+
+<> tree:member <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#Distribuce-DatováSlužba.přístupováSlužba-2026-09-08T13:12:26.853Z-60>.
+
+<https://ofn.gov.cz/dcat-ap-cz-otevřená-data#Distribuce-DatováSlužba.přístupováSlužba-2026-09-08T13:12:26.853Z-60> a as:Create;
+    dct:isVersionOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#Distribuce-DatováSlužba.přístupováSlužba>;
+    dct:created "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
+    dct:issued "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
+    ds-ldes:sequence 60;
+    dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#>;
+    a dsv:TermProfile;
+    dsv:profileOf <https://ofn.gov.cz/dcat-ap-cz#Distribuce-DatováSlužba.přístupováSlužba>;
+    dsv:reusesPropertyValue [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty skos:prefLabel;
+  dsv:reusedAsProperty skos:prefLabel;
+  dsv:reusedFromResource <https://ofn.gov.cz/dcat-ap-cz#Distribuce-DatováSlužba.přístupováSlužba>
+], [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty skos:definition;
+  dsv:reusedAsProperty skos:definition;
+  dsv:reusedFromResource <https://ofn.gov.cz/dcat-ap-cz#Distribuce-DatováSlužba.přístupováSlužba>
+], [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty skos:scopeNote;
+  dsv:reusedAsProperty skos:scopeNote;
+  dsv:reusedFromResource <https://ofn.gov.cz/dcat-ap-cz#Distribuce-DatováSlužba.přístupováSlužba>
+];
+    dsv:cardinality cardinality:11;
+    dsv:domain <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DistribuceDatováSlužba>;
+    dsv:requirementLevel requirement:mandatory;
+    a dsv:ObjectPropertyProfile;
+    dsv:objectPropertyRange <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSlužba>.
+
+<> tree:member <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSlužba.přístupovýBodSlužby-2026-09-08T13:12:26.853Z-61>.
+
+<https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSlužba.přístupovýBodSlužby-2026-09-08T13:12:26.853Z-61> a as:Create;
+    dct:isVersionOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSlužba.přístupovýBodSlužby>;
+    dct:created "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
+    dct:issued "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
+    ds-ldes:sequence 61;
+    dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#>;
+    a dsv:TermProfile;
+    dsv:profileOf <https://ofn.gov.cz/dcat-ap-cz#DatováSlužba.přístupovýBodSlužby>;
+    dsv:reusesPropertyValue [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty skos:prefLabel;
+  dsv:reusedAsProperty skos:prefLabel;
+  dsv:reusedFromResource <https://ofn.gov.cz/dcat-ap-cz#DatováSlužba.přístupovýBodSlužby>
+], [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty skos:definition;
+  dsv:reusedAsProperty skos:definition;
+  dsv:reusedFromResource <https://ofn.gov.cz/dcat-ap-cz#DatováSlužba.přístupovýBodSlužby>
+], [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty skos:scopeNote;
+  dsv:reusedAsProperty skos:scopeNote;
+  dsv:reusedFromResource <https://ofn.gov.cz/dcat-ap-cz#DatováSlužba.přístupovýBodSlužby>
+];
+    dsv:cardinality cardinality:11;
+    dsv:domain <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSlužba>;
+    dsv:requirementLevel requirement:mandatory;
+    a dsv:ObjectPropertyProfile;
+    dsv:objectPropertyRange <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#Zdroj>.
+
+<> tree:member <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSlužba.popisPřístupovéhoBoduSlužby-2026-09-08T13:12:26.853Z-62>.
+
+<https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSlužba.popisPřístupovéhoBoduSlužby-2026-09-08T13:12:26.853Z-62> a as:Create;
+    dct:isVersionOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSlužba.popisPřístupovéhoBoduSlužby>;
+    dct:created "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
+    dct:issued "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
+    ds-ldes:sequence 62;
+    dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#>;
+    a dsv:TermProfile;
+    dsv:profileOf <https://ofn.gov.cz/dcat-ap-cz#DatováSlužba.popisPřístupovéhoBoduSlužby>;
+    dsv:reusesPropertyValue [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty skos:prefLabel;
+  dsv:reusedAsProperty skos:prefLabel;
+  dsv:reusedFromResource <https://ofn.gov.cz/dcat-ap-cz#DatováSlužba.popisPřístupovéhoBoduSlužby>
+], [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty skos:definition;
+  dsv:reusedAsProperty skos:definition;
+  dsv:reusedFromResource <https://ofn.gov.cz/dcat-ap-cz#DatováSlužba.popisPřístupovéhoBoduSlužby>
+], [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty skos:scopeNote;
+  dsv:reusedAsProperty skos:scopeNote;
+  dsv:reusedFromResource <https://ofn.gov.cz/dcat-ap-cz#DatováSlužba.popisPřístupovéhoBoduSlužby>
+];
+    dsv:cardinality cardinality:11;
+    dsv:domain <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSlužba>;
+    dsv:requirementLevel requirement:mandatory;
+    a dsv:ObjectPropertyProfile;
+    dsv:objectPropertyRange <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#Zdroj>.
+
+<> tree:member <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSlužba.specifikace-2026-09-08T13:12:26.853Z-63>.
+
+<https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSlužba.specifikace-2026-09-08T13:12:26.853Z-63> a as:Create;
+    dct:isVersionOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSlužba.specifikace>;
+    dct:created "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
+    dct:issued "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
+    ds-ldes:sequence 63;
+    dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#>;
+    a dsv:TermProfile;
+    dsv:profileOf <https://ofn.gov.cz/dcat-ap-cz#DatováSlužba.specifikace>;
+    dsv:reusesPropertyValue [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty skos:prefLabel;
+  dsv:reusedAsProperty skos:prefLabel;
+  dsv:reusedFromResource <https://ofn.gov.cz/dcat-ap-cz#DatováSlužba.specifikace>
+], [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty skos:definition;
+  dsv:reusedAsProperty skos:definition;
+  dsv:reusedFromResource <https://ofn.gov.cz/dcat-ap-cz#DatováSlužba.specifikace>
+], [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty skos:scopeNote;
+  dsv:reusedAsProperty skos:scopeNote;
+  dsv:reusedFromResource <https://ofn.gov.cz/dcat-ap-cz#DatováSlužba.specifikace>
+];
+    dsv:cardinality cardinality:0n;
+    dsv:domain <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSlužba>;
+    dsv:requirementLevel requirement:recommended;
+    a dsv:ObjectPropertyProfile;
+    dsv:objectPropertyRange <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#Standard>.
+
+<> tree:member <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSlužba.dokumentace-2026-09-08T13:12:26.853Z-64>.
+
+<https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSlužba.dokumentace-2026-09-08T13:12:26.853Z-64> a as:Create;
+    dct:isVersionOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSlužba.dokumentace>;
+    dct:created "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
+    dct:issued "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
+    ds-ldes:sequence 64;
+    dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#>;
+    a dsv:TermProfile;
+    dsv:profileOf <https://ofn.gov.cz/dcat-ap-cz#DatováSlužba.dokumentace>;
+    dsv:reusesPropertyValue [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty skos:prefLabel;
+  dsv:reusedAsProperty skos:prefLabel;
+  dsv:reusedFromResource <https://ofn.gov.cz/dcat-ap-cz#DatováSlužba.dokumentace>
+], [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty skos:definition;
+  dsv:reusedAsProperty skos:definition;
+  dsv:reusedFromResource <https://ofn.gov.cz/dcat-ap-cz#DatováSlužba.dokumentace>
+], [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty skos:scopeNote;
+  dsv:reusedAsProperty skos:scopeNote;
+  dsv:reusedFromResource <https://ofn.gov.cz/dcat-ap-cz#DatováSlužba.dokumentace>
+];
+    dsv:cardinality cardinality:01;
+    dsv:domain <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSlužba>;
+    dsv:requirementLevel requirement:recommended;
+    a dsv:ObjectPropertyProfile;
+    dsv:objectPropertyRange <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#Dokument>.
+
+<> tree:member <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#Distribuce.specifikacePodmínekUžití-2026-09-08T13:12:26.853Z-65>.
+
+<https://ofn.gov.cz/dcat-ap-cz-otevřená-data#Distribuce.specifikacePodmínekUžití-2026-09-08T13:12:26.853Z-65> a as:Create;
+    dct:isVersionOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#Distribuce.specifikacePodmínekUžití>;
+    dct:created "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
+    dct:issued "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
+    ds-ldes:sequence 65;
+    dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#>;
+    a dsv:TermProfile;
+    skos:prefLabel "specifikace podmínek užití"@cs, "Terms of use specification"@en;
+    dsv:profileOf <https://ofn.gov.cz/dcat-ap-cz#Distribuce.specifikacePodmínekUžití>;
+    dsv:reusesPropertyValue [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty skos:definition;
+  dsv:reusedAsProperty skos:definition;
+  dsv:reusedFromResource <https://ofn.gov.cz/dcat-ap-cz#Distribuce.specifikacePodmínekUžití>
+], [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty skos:scopeNote;
+  dsv:reusedAsProperty skos:scopeNote;
+  dsv:reusedFromResource <https://ofn.gov.cz/dcat-ap-cz#Distribuce.specifikacePodmínekUžití>
+];
+    dsv:cardinality cardinality:11;
+    dsv:domain <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#Distribuce>;
+    dsv:requirementLevel requirement:mandatory;
+    a dsv:ObjectPropertyProfile;
+    dsv:objectPropertyRange <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#SpecifikacePodmínekUžití>.
+
+<> tree:member <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#SpecifikacePodmínekUžití.originálníDatabáze-2026-09-08T13:12:26.853Z-66>.
+
+<https://ofn.gov.cz/dcat-ap-cz-otevřená-data#SpecifikacePodmínekUžití.originálníDatabáze-2026-09-08T13:12:26.853Z-66> a as:Create;
+    dct:isVersionOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#SpecifikacePodmínekUžití.originálníDatabáze>;
+    dct:created "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
+    dct:issued "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
+    ds-ldes:sequence 66;
+    dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#>;
+    a dsv:TermProfile;
+    dsv:profileOf <https://ofn.gov.cz/dcat-ap-cz#SpecifikacePodmínekUžití.originálníDatabáze>;
+    dsv:reusesPropertyValue [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty skos:prefLabel;
+  dsv:reusedAsProperty skos:prefLabel;
+  dsv:reusedFromResource <https://ofn.gov.cz/dcat-ap-cz#SpecifikacePodmínekUžití.originálníDatabáze>
+], [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty skos:definition;
+  dsv:reusedAsProperty skos:definition;
+  dsv:reusedFromResource <https://ofn.gov.cz/dcat-ap-cz#SpecifikacePodmínekUžití.originálníDatabáze>
+], [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty skos:scopeNote;
+  dsv:reusedAsProperty skos:scopeNote;
+  dsv:reusedFromResource <https://ofn.gov.cz/dcat-ap-cz#SpecifikacePodmínekUžití.originálníDatabáze>
+];
+    dsv:cardinality cardinality:11;
+    dsv:domain <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#SpecifikacePodmínekUžití>;
+    dsv:requirementLevel requirement:mandatory;
+    a dsv:ObjectPropertyProfile;
+    dsv:objectPropertyRange <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#Licence>.
+
+<> tree:member <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#SpecifikacePodmínekUžití.autorskéDílo-2026-09-08T13:12:26.853Z-67>.
+
+<https://ofn.gov.cz/dcat-ap-cz-otevřená-data#SpecifikacePodmínekUžití.autorskéDílo-2026-09-08T13:12:26.853Z-67> a as:Create;
+    dct:isVersionOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#SpecifikacePodmínekUžití.autorskéDílo>;
+    dct:created "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
+    dct:issued "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
+    ds-ldes:sequence 67;
+    dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#>;
+    a dsv:TermProfile;
+    dsv:profileOf <https://ofn.gov.cz/dcat-ap-cz#SpecifikacePodmínekUžití.autorskéDílo>;
+    dsv:reusesPropertyValue [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty skos:prefLabel;
+  dsv:reusedAsProperty skos:prefLabel;
+  dsv:reusedFromResource <https://ofn.gov.cz/dcat-ap-cz#SpecifikacePodmínekUžití.autorskéDílo>
+], [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty skos:definition;
+  dsv:reusedAsProperty skos:definition;
+  dsv:reusedFromResource <https://ofn.gov.cz/dcat-ap-cz#SpecifikacePodmínekUžití.autorskéDílo>
+], [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty skos:scopeNote;
+  dsv:reusedAsProperty skos:scopeNote;
+  dsv:reusedFromResource <https://ofn.gov.cz/dcat-ap-cz#SpecifikacePodmínekUžití.autorskéDílo>
+];
+    dsv:cardinality cardinality:11;
+    dsv:domain <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#SpecifikacePodmínekUžití>;
+    dsv:requirementLevel requirement:mandatory;
+    a dsv:ObjectPropertyProfile;
+    dsv:objectPropertyRange <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#Licence>.
+
+<> tree:member <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#SpecifikacePodmínekUžití.zvláštníPrávoPořizovateleDatabáze-2026-09-08T13:12:26.853Z-68>.
+
+<https://ofn.gov.cz/dcat-ap-cz-otevřená-data#SpecifikacePodmínekUžití.zvláštníPrávoPořizovateleDatabáze-2026-09-08T13:12:26.853Z-68> a as:Create;
+    dct:isVersionOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#SpecifikacePodmínekUžití.zvláštníPrávoPořizovateleDatabáze>;
+    dct:created "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
+    dct:issued "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
+    ds-ldes:sequence 68;
+    dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#>;
+    a dsv:TermProfile;
+    dsv:profileOf <https://ofn.gov.cz/dcat-ap-cz#SpecifikacePodmínekUžití.zvláštníPrávoPořizovateleDatabáze>;
+    dsv:reusesPropertyValue [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty skos:prefLabel;
+  dsv:reusedAsProperty skos:prefLabel;
+  dsv:reusedFromResource <https://ofn.gov.cz/dcat-ap-cz#SpecifikacePodmínekUžití.zvláštníPrávoPořizovateleDatabáze>
+], [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty skos:definition;
+  dsv:reusedAsProperty skos:definition;
+  dsv:reusedFromResource <https://ofn.gov.cz/dcat-ap-cz#SpecifikacePodmínekUžití.zvláštníPrávoPořizovateleDatabáze>
+], [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty skos:scopeNote;
+  dsv:reusedAsProperty skos:scopeNote;
+  dsv:reusedFromResource <https://ofn.gov.cz/dcat-ap-cz#SpecifikacePodmínekUžití.zvláštníPrávoPořizovateleDatabáze>
+];
+    dsv:cardinality cardinality:11;
+    dsv:domain <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#SpecifikacePodmínekUžití>;
+    dsv:requirementLevel requirement:mandatory;
+    a dsv:ObjectPropertyProfile;
+    dsv:objectPropertyRange <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#Licence>.
+
+<> tree:member <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#SpecifikacePodmínekUžití.osobníÚdaje-2026-09-08T13:12:26.853Z-69>.
+
+<https://ofn.gov.cz/dcat-ap-cz-otevřená-data#SpecifikacePodmínekUžití.osobníÚdaje-2026-09-08T13:12:26.853Z-69> a as:Create;
+    dct:isVersionOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#SpecifikacePodmínekUžití.osobníÚdaje>;
+    dct:created "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
+    dct:issued "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
+    ds-ldes:sequence 69;
+    dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#>;
+    a dsv:TermProfile;
+    dsv:profileOf <https://ofn.gov.cz/dcat-ap-cz#SpecifikacePodmínekUžití.osobníÚdaje>;
+    dsv:reusesPropertyValue [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty skos:prefLabel;
+  dsv:reusedAsProperty skos:prefLabel;
+  dsv:reusedFromResource <https://ofn.gov.cz/dcat-ap-cz#SpecifikacePodmínekUžití.osobníÚdaje>
+], [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty skos:definition;
+  dsv:reusedAsProperty skos:definition;
+  dsv:reusedFromResource <https://ofn.gov.cz/dcat-ap-cz#SpecifikacePodmínekUžití.osobníÚdaje>
+], [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty skos:scopeNote;
+  dsv:reusedAsProperty skos:scopeNote;
+  dsv:reusedFromResource <https://ofn.gov.cz/dcat-ap-cz#SpecifikacePodmínekUžití.osobníÚdaje>
+];
+    dsv:cardinality cardinality:11;
+    dsv:domain <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#SpecifikacePodmínekUžití>;
+    dsv:requirementLevel requirement:mandatory;
+    a dsv:ObjectPropertyProfile;
+    dsv:objectPropertyRange <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#Licence>.
+
+<> tree:member <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#KontaktníBod.email-2026-09-08T13:12:26.853Z-70>.
+
+<https://ofn.gov.cz/dcat-ap-cz-otevřená-data#KontaktníBod.email-2026-09-08T13:12:26.853Z-70> a as:Create;
+    dct:isVersionOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#KontaktníBod.email>;
+    dct:created "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
+    dct:issued "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
+    ds-ldes:sequence 70;
+    dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#>;
+    a dsv:TermProfile;
+    dsv:profileOf <https://ofn.gov.cz/dcat-ap-cz#KontaktníBod.email>;
+    dsv:reusesPropertyValue [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty skos:prefLabel;
+  dsv:reusedAsProperty skos:prefLabel;
+  dsv:reusedFromResource <https://ofn.gov.cz/dcat-ap-cz#KontaktníBod.email>
+], [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty skos:definition;
+  dsv:reusedAsProperty skos:definition;
+  dsv:reusedFromResource <https://ofn.gov.cz/dcat-ap-cz#KontaktníBod.email>
+], [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty skos:scopeNote;
+  dsv:reusedAsProperty skos:scopeNote;
+  dsv:reusedFromResource <https://ofn.gov.cz/dcat-ap-cz#KontaktníBod.email>
+];
+    dsv:cardinality cardinality:01;
+    dsv:domain <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#KontaktníBod>;
+    dsv:requirementLevel requirement:mandatory;
+    a dsv:ObjectPropertyProfile;
+    dsv:objectPropertyRange <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#E-mailAddress>.
+
+<> tree:member <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#SérieDatovýchSad.časovéPokrytí-2026-09-08T13:12:26.853Z-71>.
+
+<https://ofn.gov.cz/dcat-ap-cz-otevřená-data#SérieDatovýchSad.časovéPokrytí-2026-09-08T13:12:26.853Z-71> a as:Create;
+    dct:isVersionOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#SérieDatovýchSad.časovéPokrytí>;
+    dct:created "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
+    dct:issued "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
+    ds-ldes:sequence 71;
+    dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#>;
+    a dsv:TermProfile;
+    dsv:profileOf <https://ofn.gov.cz/dcat-ap-cz#SérieDatovýchSad.časovéPokrytí>;
+    dsv:reusesPropertyValue [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty skos:prefLabel;
+  dsv:reusedAsProperty skos:prefLabel;
+  dsv:reusedFromResource <https://ofn.gov.cz/dcat-ap-cz#SérieDatovýchSad.časovéPokrytí>
+], [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty skos:definition;
+  dsv:reusedAsProperty skos:definition;
+  dsv:reusedFromResource <https://ofn.gov.cz/dcat-ap-cz#SérieDatovýchSad.časovéPokrytí>
+], [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty skos:scopeNote;
+  dsv:reusedAsProperty skos:scopeNote;
+  dsv:reusedFromResource <https://ofn.gov.cz/dcat-ap-cz#SérieDatovýchSad.časovéPokrytí>
+];
+    dsv:cardinality cardinality:0n;
+    dsv:domain <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#SérieDatovýchSad>;
+    dsv:requirementLevel requirement:recommended;
+    a dsv:ObjectPropertyProfile;
+    dsv:objectPropertyRange <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#ČasovýInterval>.
+
+<> tree:member <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#SérieDatovýchSad.název-2026-09-08T13:12:26.853Z-72>.
+
+<https://ofn.gov.cz/dcat-ap-cz-otevřená-data#SérieDatovýchSad.název-2026-09-08T13:12:26.853Z-72> a as:Create;
+    dct:isVersionOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#SérieDatovýchSad.název>;
+    dct:created "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
+    dct:issued "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
+    ds-ldes:sequence 72;
+    dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#>;
+    a dsv:TermProfile;
+    dsv:profileOf <https://ofn.gov.cz/dcat-ap-cz#SérieDatovýchSad.název>;
+    dsv:reusesPropertyValue [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty skos:prefLabel;
+  dsv:reusedAsProperty skos:prefLabel;
+  dsv:reusedFromResource <https://ofn.gov.cz/dcat-ap-cz#SérieDatovýchSad.název>
+], [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty skos:definition;
+  dsv:reusedAsProperty skos:definition;
+  dsv:reusedFromResource <https://ofn.gov.cz/dcat-ap-cz#SérieDatovýchSad.název>
+], [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty skos:scopeNote;
+  dsv:reusedAsProperty skos:scopeNote;
+  dsv:reusedFromResource <https://ofn.gov.cz/dcat-ap-cz#SérieDatovýchSad.název>
+];
+    dsv:cardinality cardinality:11;
+    dsv:domain <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#SérieDatovýchSad>;
+    dsv:requirementLevel requirement:mandatory;
+    a dsv:DatatypePropertyProfile;
+    dsv:datatypePropertyRange <https://ofn.gov.cz/zdroj/základní-datové-typy/2020-07-01/text>.
+
+<> tree:member <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#SérieDatovýchSad.popis-2026-09-08T13:12:26.853Z-73>.
+
+<https://ofn.gov.cz/dcat-ap-cz-otevřená-data#SérieDatovýchSad.popis-2026-09-08T13:12:26.853Z-73> a as:Create;
+    dct:isVersionOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#SérieDatovýchSad.popis>;
+    dct:created "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
+    dct:issued "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
+    ds-ldes:sequence 73;
+    dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#>;
+    a dsv:TermProfile;
+    dsv:profileOf <https://ofn.gov.cz/dcat-ap-cz#SérieDatovýchSad.popis>;
+    dsv:reusesPropertyValue [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty skos:prefLabel;
+  dsv:reusedAsProperty skos:prefLabel;
+  dsv:reusedFromResource <https://ofn.gov.cz/dcat-ap-cz#SérieDatovýchSad.popis>
+], [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty skos:definition;
+  dsv:reusedAsProperty skos:definition;
+  dsv:reusedFromResource <https://ofn.gov.cz/dcat-ap-cz#SérieDatovýchSad.popis>
+], [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty skos:scopeNote;
+  dsv:reusedAsProperty skos:scopeNote;
+  dsv:reusedFromResource <https://ofn.gov.cz/dcat-ap-cz#SérieDatovýchSad.popis>
+];
+    dsv:cardinality cardinality:11;
+    dsv:domain <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#SérieDatovýchSad>;
+    dsv:requirementLevel requirement:mandatory;
+    a dsv:DatatypePropertyProfile;
+    dsv:datatypePropertyRange <https://ofn.gov.cz/zdroj/základní-datové-typy/2020-07-01/text>.
+
+<> tree:member <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#SérieDatovýchSad.kontaktníBod-2026-09-08T13:12:26.853Z-74>.
+
+<https://ofn.gov.cz/dcat-ap-cz-otevřená-data#SérieDatovýchSad.kontaktníBod-2026-09-08T13:12:26.853Z-74> a as:Create;
+    dct:isVersionOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#SérieDatovýchSad.kontaktníBod>;
+    dct:created "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
+    dct:issued "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
+    ds-ldes:sequence 74;
+    dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#>;
+    a dsv:TermProfile;
+    dsv:profileOf <https://ofn.gov.cz/dcat-ap-cz#SérieDatovýchSad.kontaktníBod>;
+    dsv:reusesPropertyValue [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty skos:prefLabel;
+  dsv:reusedAsProperty skos:prefLabel;
+  dsv:reusedFromResource <https://ofn.gov.cz/dcat-ap-cz#SérieDatovýchSad.kontaktníBod>
+], [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty skos:definition;
+  dsv:reusedAsProperty skos:definition;
+  dsv:reusedFromResource <https://ofn.gov.cz/dcat-ap-cz#SérieDatovýchSad.kontaktníBod>
+], [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty skos:scopeNote;
+  dsv:reusedAsProperty skos:scopeNote;
+  dsv:reusedFromResource <https://ofn.gov.cz/dcat-ap-cz#SérieDatovýchSad.kontaktníBod>
+];
+    dsv:cardinality cardinality:01;
+    dsv:domain <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#SérieDatovýchSad>;
+    dsv:requirementLevel requirement:recommended;
+    a dsv:ObjectPropertyProfile;
+    dsv:objectPropertyRange <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#KontaktníBod>.
+
+<> tree:member <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#SérieDatovýchSad.klíčovéSlovo-2026-09-08T13:12:26.853Z-75>.
+
+<https://ofn.gov.cz/dcat-ap-cz-otevřená-data#SérieDatovýchSad.klíčovéSlovo-2026-09-08T13:12:26.853Z-75> a as:Create;
+    dct:isVersionOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#SérieDatovýchSad.klíčovéSlovo>;
+    dct:created "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
+    dct:issued "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
+    ds-ldes:sequence 75;
+    dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#>;
+    a dsv:TermProfile;
+    dsv:profileOf <https://ofn.gov.cz/dcat-ap-cz#SérieDatovýchSad.klíčovéSlovo>;
+    dsv:reusesPropertyValue [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty skos:prefLabel;
+  dsv:reusedAsProperty skos:prefLabel;
+  dsv:reusedFromResource <https://ofn.gov.cz/dcat-ap-cz#SérieDatovýchSad.klíčovéSlovo>
+], [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty skos:definition;
+  dsv:reusedAsProperty skos:definition;
+  dsv:reusedFromResource <https://ofn.gov.cz/dcat-ap-cz#SérieDatovýchSad.klíčovéSlovo>
+], [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty skos:scopeNote;
+  dsv:reusedAsProperty skos:scopeNote;
+  dsv:reusedFromResource <https://ofn.gov.cz/dcat-ap-cz#SérieDatovýchSad.klíčovéSlovo>
+];
+    dsv:cardinality cardinality:1n;
+    dsv:domain <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#SérieDatovýchSad>;
+    dsv:requirementLevel requirement:mandatory;
+    a dsv:DatatypePropertyProfile;
+    dsv:datatypePropertyRange rdf:langString.
+
+<> tree:member <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#SérieDatovýchSad.téma-2026-09-08T13:12:26.853Z-76>.
+
+<https://ofn.gov.cz/dcat-ap-cz-otevřená-data#SérieDatovýchSad.téma-2026-09-08T13:12:26.853Z-76> a as:Create;
+    dct:isVersionOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#SérieDatovýchSad.téma>;
+    dct:created "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
+    dct:issued "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
+    ds-ldes:sequence 76;
+    dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#>;
+    a dsv:TermProfile;
+    dsv:profileOf <https://ofn.gov.cz/dcat-ap-cz#SérieDatovýchSad.téma>;
+    dsv:reusesPropertyValue [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty skos:prefLabel;
+  dsv:reusedAsProperty skos:prefLabel;
+  dsv:reusedFromResource <https://ofn.gov.cz/dcat-ap-cz#SérieDatovýchSad.téma>
+], [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty skos:definition;
+  dsv:reusedAsProperty skos:definition;
+  dsv:reusedFromResource <https://ofn.gov.cz/dcat-ap-cz#SérieDatovýchSad.téma>
+], [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty skos:scopeNote;
+  dsv:reusedAsProperty skos:scopeNote;
+  dsv:reusedFromResource <https://ofn.gov.cz/dcat-ap-cz#SérieDatovýchSad.téma>
+];
+    dsv:cardinality cardinality:1n;
+    dsv:domain <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#SérieDatovýchSad>;
+    dsv:requirementLevel requirement:mandatory;
+    a dsv:ObjectPropertyProfile;
+    dsv:objectPropertyRange <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatovéTéma>.
+
+<> tree:member <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#SérieDatovýchSad.klasifikaceDleEurovoc-2026-09-08T13:12:26.853Z-77>.
+
+<https://ofn.gov.cz/dcat-ap-cz-otevřená-data#SérieDatovýchSad.klasifikaceDleEurovoc-2026-09-08T13:12:26.853Z-77> a as:Create;
+    dct:isVersionOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#SérieDatovýchSad.klasifikaceDleEurovoc>;
+    dct:created "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
+    dct:issued "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
+    ds-ldes:sequence 77;
+    dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#>;
+    a dsv:TermProfile;
+    dsv:profileOf <https://ofn.gov.cz/dcat-ap-cz#SérieDatovýchSad.klasifikaceDleEurovoc>;
+    dsv:reusesPropertyValue [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty skos:prefLabel;
+  dsv:reusedAsProperty skos:prefLabel;
+  dsv:reusedFromResource <https://ofn.gov.cz/dcat-ap-cz#SérieDatovýchSad.klasifikaceDleEurovoc>
+], [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty skos:definition;
+  dsv:reusedAsProperty skos:definition;
+  dsv:reusedFromResource <https://ofn.gov.cz/dcat-ap-cz#SérieDatovýchSad.klasifikaceDleEurovoc>
+], [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty skos:scopeNote;
+  dsv:reusedAsProperty skos:scopeNote;
+  dsv:reusedFromResource <https://ofn.gov.cz/dcat-ap-cz#SérieDatovýchSad.klasifikaceDleEurovoc>
+];
+    dsv:cardinality cardinality:0n;
+    dsv:domain <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#SérieDatovýchSad>;
+    dsv:requirementLevel requirement:recommended;
+    a dsv:ObjectPropertyProfile;
+    dsv:objectPropertyRange <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#TémaEuroVoc>.
+
+<> tree:member <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#SérieDatovýchSad.periodicitaAktualizace-2026-09-08T13:12:26.853Z-78>.
+
+<https://ofn.gov.cz/dcat-ap-cz-otevřená-data#SérieDatovýchSad.periodicitaAktualizace-2026-09-08T13:12:26.853Z-78> a as:Create;
+    dct:isVersionOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#SérieDatovýchSad.periodicitaAktualizace>;
+    dct:created "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
+    dct:issued "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
+    ds-ldes:sequence 78;
+    dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#>;
+    a dsv:TermProfile;
+    dsv:profileOf <https://ofn.gov.cz/dcat-ap-cz#SérieDatovýchSad.periodicitaAktualizace>;
+    dsv:reusesPropertyValue [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty skos:prefLabel;
+  dsv:reusedAsProperty skos:prefLabel;
+  dsv:reusedFromResource <https://ofn.gov.cz/dcat-ap-cz#SérieDatovýchSad.periodicitaAktualizace>
+], [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty skos:definition;
+  dsv:reusedAsProperty skos:definition;
+  dsv:reusedFromResource <https://ofn.gov.cz/dcat-ap-cz#SérieDatovýchSad.periodicitaAktualizace>
+], [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty skos:scopeNote;
+  dsv:reusedAsProperty skos:scopeNote;
+  dsv:reusedFromResource <https://ofn.gov.cz/dcat-ap-cz#SérieDatovýchSad.periodicitaAktualizace>
+];
+    dsv:cardinality cardinality:11;
+    dsv:domain <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#SérieDatovýchSad>;
+    dsv:requirementLevel requirement:mandatory;
+    a dsv:ObjectPropertyProfile;
+    dsv:objectPropertyRange <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#Frekvence>.
+
+<> tree:member <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#SérieDatovýchSad.jeSoučástí-2026-09-08T13:12:26.853Z-79>.
+
+<https://ofn.gov.cz/dcat-ap-cz-otevřená-data#SérieDatovýchSad.jeSoučástí-2026-09-08T13:12:26.853Z-79> a as:Create;
+    dct:isVersionOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#SérieDatovýchSad.jeSoučástí>;
+    dct:created "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
+    dct:issued "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
+    ds-ldes:sequence 79;
+    dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#>;
+    a dsv:TermProfile;
+    dsv:profileOf <https://ofn.gov.cz/dcat-ap-cz#SérieDatovýchSad.jeSoučástí>;
+    dsv:reusesPropertyValue [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty skos:prefLabel;
+  dsv:reusedAsProperty skos:prefLabel;
+  dsv:reusedFromResource <https://ofn.gov.cz/dcat-ap-cz#SérieDatovýchSad.jeSoučástí>
+], [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty skos:definition;
+  dsv:reusedAsProperty skos:definition;
+  dsv:reusedFromResource <https://ofn.gov.cz/dcat-ap-cz#SérieDatovýchSad.jeSoučástí>
+], [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty skos:scopeNote;
+  dsv:reusedAsProperty skos:scopeNote;
+  dsv:reusedFromResource <https://ofn.gov.cz/dcat-ap-cz#SérieDatovýchSad.jeSoučástí>
+];
+    dsv:cardinality cardinality:0n;
+    dsv:domain <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#SérieDatovýchSad>;
+    dsv:requirementLevel requirement:optional;
+    a dsv:ObjectPropertyProfile;
+    dsv:objectPropertyRange <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#SérieDatovýchSad>.
+
+<> tree:member <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#SérieDatovýchSad.poskytovatel-2026-09-08T13:12:26.853Z-80>.
+
+<https://ofn.gov.cz/dcat-ap-cz-otevřená-data#SérieDatovýchSad.poskytovatel-2026-09-08T13:12:26.853Z-80> a as:Create;
+    dct:isVersionOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#SérieDatovýchSad.poskytovatel>;
+    dct:created "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
+    dct:issued "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
+    ds-ldes:sequence 80;
+    dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#>;
+    a dsv:TermProfile;
+    dsv:profileOf <https://ofn.gov.cz/dcat-ap-cz#SérieDatovýchSad.poskytovatel>;
+    dsv:reusesPropertyValue [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty skos:prefLabel;
+  dsv:reusedAsProperty skos:prefLabel;
+  dsv:reusedFromResource <https://ofn.gov.cz/dcat-ap-cz#SérieDatovýchSad.poskytovatel>
+], [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty skos:definition;
+  dsv:reusedAsProperty skos:definition;
+  dsv:reusedFromResource <https://ofn.gov.cz/dcat-ap-cz#SérieDatovýchSad.poskytovatel>
+], [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty skos:scopeNote;
+  dsv:reusedAsProperty skos:scopeNote;
+  dsv:reusedFromResource <https://ofn.gov.cz/dcat-ap-cz#SérieDatovýchSad.poskytovatel>
+];
+    dsv:cardinality cardinality:11;
+    dsv:domain <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#SérieDatovýchSad>;
+    dsv:requirementLevel requirement:mandatory;
+    a dsv:ObjectPropertyProfile;
+    dsv:objectPropertyRange <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#Poskytovatel>.
+
+<> tree:member <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#SérieDatovýchSad.příslušnýPrávníPředpis-2026-09-08T13:12:26.853Z-81>.
+
+<https://ofn.gov.cz/dcat-ap-cz-otevřená-data#SérieDatovýchSad.příslušnýPrávníPředpis-2026-09-08T13:12:26.853Z-81> a as:Create;
+    dct:isVersionOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#SérieDatovýchSad.příslušnýPrávníPředpis>;
+    dct:created "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
+    dct:issued "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
+    ds-ldes:sequence 81;
+    dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#>;
+    a dsv:TermProfile;
+    skos:scopeNote "Pro označení otevřených dat je povinné uvést https://www.e-sbirka.cz/eli/cz/sb/1999/106/2025-08-19"@cs;
+    dsv:profileOf <https://ofn.gov.cz/dcat-ap-cz#SérieDatovýchSad.příslušnýPrávníPředpis>;
+    dsv:reusesPropertyValue [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty skos:prefLabel;
+  dsv:reusedAsProperty skos:prefLabel;
+  dsv:reusedFromResource <https://ofn.gov.cz/dcat-ap-cz#SérieDatovýchSad.příslušnýPrávníPředpis>
+], [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty skos:definition;
+  dsv:reusedAsProperty skos:definition;
+  dsv:reusedFromResource <https://ofn.gov.cz/dcat-ap-cz#SérieDatovýchSad.příslušnýPrávníPředpis>
+];
+    dsv:cardinality cardinality:1n;
+    dsv:domain <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#SérieDatovýchSad>;
+    dsv:requirementLevel requirement:mandatory;
+    a dsv:ObjectPropertyProfile;
+    dsv:objectPropertyRange <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#PrávníPředpis>.
+
+<> tree:member <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#SérieDatovýchSad.souvisejícíGeografickéÚzemí-2026-09-08T13:12:26.853Z-82>.
+
+<https://ofn.gov.cz/dcat-ap-cz-otevřená-data#SérieDatovýchSad.souvisejícíGeografickéÚzemí-2026-09-08T13:12:26.853Z-82> a as:Create;
+    dct:isVersionOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#SérieDatovýchSad.souvisejícíGeografickéÚzemí>;
+    dct:created "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
+    dct:issued "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
+    ds-ldes:sequence 82;
+    dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#>;
+    a dsv:TermProfile;
+    dsv:profileOf <https://ofn.gov.cz/dcat-ap-cz#SérieDatovýchSad.souvisejícíGeografickéÚzemí>;
+    dsv:reusesPropertyValue [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty skos:prefLabel;
+  dsv:reusedAsProperty skos:prefLabel;
+  dsv:reusedFromResource <https://ofn.gov.cz/dcat-ap-cz#SérieDatovýchSad.souvisejícíGeografickéÚzemí>
+], [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty skos:definition;
+  dsv:reusedAsProperty skos:definition;
+  dsv:reusedFromResource <https://ofn.gov.cz/dcat-ap-cz#SérieDatovýchSad.souvisejícíGeografickéÚzemí>
+], [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty skos:scopeNote;
+  dsv:reusedAsProperty skos:scopeNote;
+  dsv:reusedFromResource <https://ofn.gov.cz/dcat-ap-cz#SérieDatovýchSad.souvisejícíGeografickéÚzemí>
+];
+    dsv:cardinality cardinality:0n;
+    dsv:domain <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#SérieDatovýchSad>;
+    dsv:requirementLevel requirement:recommended;
+    a dsv:ObjectPropertyProfile;
+    dsv:objectPropertyRange <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#GeografickéÚzemí>.
+
+<> tree:member <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#SérieDatovýchSad.souvisejícíGeografickéÚzemí-PrvekZRúian-2026-09-08T13:12:26.853Z-83>.
+
+<https://ofn.gov.cz/dcat-ap-cz-otevřená-data#SérieDatovýchSad.souvisejícíGeografickéÚzemí-PrvekZRúian-2026-09-08T13:12:26.853Z-83> a as:Create;
+    dct:isVersionOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#SérieDatovýchSad.souvisejícíGeografickéÚzemí-PrvekZRúian>;
+    dct:created "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
+    dct:issued "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
+    ds-ldes:sequence 83;
+    dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#>;
+    a dsv:TermProfile;
+    dsv:profileOf <https://ofn.gov.cz/dcat-ap-cz#SérieDatovýchSad.souvisejícíGeografickéÚzemí-PrvekZRúian>;
+    dsv:reusesPropertyValue [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty skos:prefLabel;
+  dsv:reusedAsProperty skos:prefLabel;
+  dsv:reusedFromResource <https://ofn.gov.cz/dcat-ap-cz#SérieDatovýchSad.souvisejícíGeografickéÚzemí-PrvekZRúian>
+], [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty skos:definition;
+  dsv:reusedAsProperty skos:definition;
+  dsv:reusedFromResource <https://ofn.gov.cz/dcat-ap-cz#SérieDatovýchSad.souvisejícíGeografickéÚzemí-PrvekZRúian>
+], [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty skos:scopeNote;
+  dsv:reusedAsProperty skos:scopeNote;
+  dsv:reusedFromResource <https://ofn.gov.cz/dcat-ap-cz#SérieDatovýchSad.souvisejícíGeografickéÚzemí-PrvekZRúian>
+];
+    dsv:cardinality cardinality:1n;
+    dsv:domain <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#SérieDatovýchSad>;
+    dsv:requirementLevel requirement:mandatory;
+    a dsv:ObjectPropertyProfile;
+    dsv:objectPropertyRange <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#PrvekRÚIAN>.
+
+<> tree:member <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#SérieDatovýchSad.dokumentace-2026-09-08T13:12:26.853Z-84>.
+
+<https://ofn.gov.cz/dcat-ap-cz-otevřená-data#SérieDatovýchSad.dokumentace-2026-09-08T13:12:26.853Z-84> a as:Create;
+    dct:isVersionOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#SérieDatovýchSad.dokumentace>;
+    dct:created "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
+    dct:issued "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
+    ds-ldes:sequence 84;
+    dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#>;
+    a dsv:TermProfile;
+    dsv:profileOf <https://ofn.gov.cz/dcat-ap-cz#SérieDatovýchSad.dokumentace>;
+    dsv:reusesPropertyValue [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty skos:prefLabel;
+  dsv:reusedAsProperty skos:prefLabel;
+  dsv:reusedFromResource <https://ofn.gov.cz/dcat-ap-cz#SérieDatovýchSad.dokumentace>
+], [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty skos:definition;
+  dsv:reusedAsProperty skos:definition;
+  dsv:reusedFromResource <https://ofn.gov.cz/dcat-ap-cz#SérieDatovýchSad.dokumentace>
+], [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty skos:scopeNote;
+  dsv:reusedAsProperty skos:scopeNote;
+  dsv:reusedFromResource <https://ofn.gov.cz/dcat-ap-cz#SérieDatovýchSad.dokumentace>
+];
+    dsv:cardinality cardinality:01;
+    dsv:domain <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#SérieDatovýchSad>;
+    dsv:requirementLevel requirement:recommended;
+    a dsv:ObjectPropertyProfile;
+    dsv:objectPropertyRange <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#Dokument>.
+
+<> tree:member <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSada.vstupníStránka-2026-09-08T13:12:26.853Z-85>.
+
+<https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSada.vstupníStránka-2026-09-08T13:12:26.853Z-85> a as:Create;
+    dct:isVersionOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSada.vstupníStránka>;
+    dct:created "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
+    dct:issued "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
+    ds-ldes:sequence 85;
+    dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#>;
+    a dsv:TermProfile;
+    skos:scopeNote "It is intended to point to a landing page at the original data provider, not to a page on a site of a third party, such as an aggregator."@en, "Lze použít pro indikaci stránky datové sady v lokálním katalogu dat."@cs;
+    dsv:profileOf <https://ofn.gov.cz/dcat-ap-cz#DatováSada.vstupníStránka>;
+    dsv:reusesPropertyValue [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty skos:prefLabel;
+  dsv:reusedAsProperty skos:prefLabel;
+  dsv:reusedFromResource <https://ofn.gov.cz/dcat-ap-cz#DatováSada.vstupníStránka>
+], [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty skos:definition;
+  dsv:reusedAsProperty skos:definition;
+  dsv:reusedFromResource <https://ofn.gov.cz/dcat-ap-cz#DatováSada.vstupníStránka>
+];
+    dsv:cardinality cardinality:01;
+    dsv:domain <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSada>;
+    dsv:requirementLevel requirement:optional;
+    a dsv:ObjectPropertyProfile;
+    dsv:objectPropertyRange <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#Dokument>.
+
+<> tree:member <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#SérieDatovýchSad.vstupníStránka-2026-09-08T13:12:26.853Z-86>.
+
+<https://ofn.gov.cz/dcat-ap-cz-otevřená-data#SérieDatovýchSad.vstupníStránka-2026-09-08T13:12:26.853Z-86> a as:Create;
+    dct:isVersionOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#SérieDatovýchSad.vstupníStránka>;
+    dct:created "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
+    dct:issued "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
+    ds-ldes:sequence 86;
+    dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#>;
+    a dsv:TermProfile;
+    skos:scopeNote "Lze použít pro indikaci stránky série datových sad v lokálním katalogu dat."@cs;
+    dsv:profileOf <https://ofn.gov.cz/dcat-ap-cz#SérieDatovýchSad.vstupníStránka>;
+    dsv:reusesPropertyValue [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty skos:prefLabel;
+  dsv:reusedAsProperty skos:prefLabel;
+  dsv:reusedFromResource <https://ofn.gov.cz/dcat-ap-cz#SérieDatovýchSad.vstupníStránka>
+], [
+  a dsv:PropertyValueReuse;
+  dsv:reusedProperty skos:definition;
+  dsv:reusedAsProperty skos:definition;
+  dsv:reusedFromResource <https://ofn.gov.cz/dcat-ap-cz#SérieDatovýchSad.vstupníStránka>
+];
+    dsv:cardinality cardinality:01;
+    dsv:domain <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#SérieDatovýchSad>;
+    dsv:requirementLevel requirement:optional;
+    a dsv:ObjectPropertyProfile;
+    dsv:objectPropertyRange <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#Dokument>.
