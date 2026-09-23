@@ -65,7 +65,7 @@
                 "adms:AssetDistribution",
                 "prof:ResourceDescriptor"
               ],
-              "hasArtifact": "../série-datových-sad/structure.ttl",
+              "hasArtifact": "../datová-sada/structure.ttl",
               "hasRole": "role:schema",
               "format": "filetype:RDF_TURTLE",
               "conformsTo": "dsv:Structure"
@@ -75,7 +75,7 @@
                 "adms:AssetDistribution",
                 "prof:ResourceDescriptor"
               ],
-              "hasArtifact": "../datová-sada/structure.ttl",
+              "hasArtifact": "../série-datových-sad/structure.ttl",
               "hasRole": "role:schema",
               "format": "filetype:RDF_TURTLE",
               "conformsTo": "dsv:Structure"
@@ -112,28 +112,6 @@
               "format": "filetype:HTML"
             },
             {
-              "@id": "460728c2-35f5-40f5-b88d-71dc6e495733#jsonschema",
-              "@type": [
-                "adms:AssetDistribution",
-                "prof:ResourceDescriptor"
-              ],
-              "hasArtifact": "../série-datových-sad/schéma.json",
-              "hasRole": "role:schema",
-              "format": "filetype:JSON",
-              "conformsTo": "https://json-schema.org/draft/2020-12/schema"
-            },
-            {
-              "@id": "460728c2-35f5-40f5-b88d-71dc6e495733#jsonLd",
-              "@type": [
-                "adms:AssetDistribution",
-                "prof:ResourceDescriptor"
-              ],
-              "hasArtifact": "../série-datových-sad/kontext.jsonld",
-              "hasRole": "role:schema",
-              "format": "filetype:JSON_LD",
-              "conformsTo": "http://www.w3.org/ns/json-ld"
-            },
-            {
               "@id": "f7149d33-00bb-4afb-a849-7f95debec201#jsonschema",
               "@type": [
                 "adms:AssetDistribution",
@@ -151,6 +129,28 @@
                 "prof:ResourceDescriptor"
               ],
               "hasArtifact": "../datová-sada/kontext.jsonld",
+              "hasRole": "role:schema",
+              "format": "filetype:JSON_LD",
+              "conformsTo": "http://www.w3.org/ns/json-ld"
+            },
+            {
+              "@id": "460728c2-35f5-40f5-b88d-71dc6e495733#jsonschema",
+              "@type": [
+                "adms:AssetDistribution",
+                "prof:ResourceDescriptor"
+              ],
+              "hasArtifact": "../série-datových-sad/schéma.json",
+              "hasRole": "role:schema",
+              "format": "filetype:JSON",
+              "conformsTo": "https://json-schema.org/draft/2020-12/schema"
+            },
+            {
+              "@id": "460728c2-35f5-40f5-b88d-71dc6e495733#jsonLd",
+              "@type": [
+                "adms:AssetDistribution",
+                "prof:ResourceDescriptor"
+              ],
+              "hasArtifact": "../série-datových-sad/kontext.jsonld",
               "hasRole": "role:schema",
               "format": "filetype:JSON_LD",
               "conformsTo": "http://www.w3.org/ns/json-ld"
@@ -485,1391 +485,6 @@
         </a>
     </section>
 
-      <section>
-      <h2>
-        Specifikace struktury pro
-        Série datových sad
-      </h2>
-      <p>Datová struktura pro Série datových sad. Série datových sad zastřešuje související datové sady a série. Souvislost může být časová (rozpočet v letech), prostorová (seznamy ulic v obcích) či tématická (datové sady z jednoho systému). Datová série je podtřídou Datové sady, ale nemá vlastní distribuce.</p>
-
-      <section id="json-schema--série-datových-sad">
-
-
-
-
-
-
-
-
-
-
-
-
-  <h1>
-      JSON struktura pro    Série datových sad
-  </h1>
-
-    <dl>
-      <dt>IRI</dt>
-      <dd><code>https://ofn.gov.cz/dcat-ap-cz-otevřená-data/2026-09-23/série-datových-sad/schéma.json</code></dd>
-      <dt>Definováno v</dt>
-      <dd><code><a href="../série-datových-sad/schéma.json">../série-datových-sad/schéma.json</a></code></dd>
-        <dt>Verze použitého jazyka</dt>
-        <dd><a href="https://json-schema.org/specification-links.html#2020-12-release" target="_blank">2020-12</a> (metaschema IRI: <code>https://json-schema.org/draft/2020-12/schema</code>)</dd>
-    </dl>
-
-    <h2>Kořen</h2>
-    Kořenem JSON schématu je
-        <a href="#json-object--série-datových-sad--série-datových-sad"></a>
-
-
-    <section id="json-object--série-datových-sad--série-datových-sad">
-      <h2>
-        Objekt <i>Série datových sad</i>
-      </h2>
-
-      <table class="def">
-          <tr>
-            <th>Popis</th>
-            <td>Série datových sad zastřešuje související datové sady a jiné série. Souvislost může být časová (rozpočet v letech), prostorová (seznamy ulic v obcích) či tématická (datové sady z jednoho systému).</td>
-          </tr>
-
-          <tr>
-            <th>Interpretace</th>
-            <td><a href="#SérieDatovýchSad">Série datových sad</a></td>
-          </tr>
-      </table>
-
-          <strong>
-    objekt
-  </strong>
-    s vlastnostmi (<code>properties</code>):
-    <ul>
-        <li style="list-style-type: disclosure-closed;">
-          <code>@context</code>:
-          povinná
-          položka typu
-
-                
-  
-  
-  
-  
-  
-  
-  
-        právě jedno z následujících (<code>oneOf</code>):
-    <ul>
-        <li>      
-    konstantní hodnota
-    <code>&quot;https://ofn.gov.cz/dcat-ap-cz-otevřená-data/2026-09-23/série-datových-sad/kontext.jsonld&quot;</code>
-
-  
-  
-  
-  
-  
-  
-  
-
-</li>
-        <li>      
-  
-      pole hodnot <code>{0..*}</code> typu       
-  
-  
-    řetězec
-  (formát: <code>iri</code>)
-  
-
-
-  
-  
-  
-  
-  
-
-
-     a musí obsahovat: <code>&quot;https://ofn.gov.cz/dcat-ap-cz-otevřená-data/2026-09-23/série-datových-sad/kontext.jsonld&quot;</code>
-  
-  
-  
-  
-  
-  
-  
-
-</li>
-    </ul>
-
-
-
-
-
-
-        </li>
-        <li style="list-style-type: disclosure-closed;">
-          <code>iri</code>:
-          povinná
-          položka typu
-
-                
-  
-  
-    řetězec
-  (formát: <code>iri</code>)
-  
-
-
-  
-  
-  
-  
-  
-
-
-        </li>
-        <li style="list-style-type: disclosure-closed;">
-          <code>typ</code>:
-          povinná
-          položka typu
-
-                
-  
-  
-  
-  
-  
-  
-  
-        právě jedno z následujících (<code>oneOf</code>):
-    <ul>
-        <li>      
-    konstantní hodnota
-    <code>&quot;Série datových sad&quot;</code>
-
-  
-  
-  
-  
-  
-  
-  
-
-</li>
-        <li>      
-  
-      pole hodnot <code>{0..*}</code> typu       
-  
-  
-    řetězec
-  
-  
-
-
-  
-  
-  
-  
-  
-
-
-     a musí obsahovat: <code>&quot;Série datových sad&quot;</code>
-  
-  
-  
-  
-  
-  
-  
-
-</li>
-    </ul>
-
-
-
-
-
-
-        </li>
-        <li style="list-style-type: disclosure-closed;">
-          <code>název</code>:
-            (<a href="#SérieDatovýchSad.název" label="Název série datových sad">název</a>)
-          povinná
-          položka typu
-
-                  <strong>
-    objekt
-  </strong>
-    s vlastnostmi (<code>properties</code>):
-    <ul>
-        <li style="list-style-type: disclosure-closed;">
-          <code>cs</code>:
-          nepovinná
-          položka typu
-
-                
-  
-  
-    řetězec
-  
-  
-
-
-  
-  
-  
-  
-  
-
-
-        </li>
-        <li style="list-style-type: disclosure-closed;">
-          <code>en</code>:
-          nepovinná
-          položka typu
-
-                
-  
-  
-    řetězec
-  
-  
-
-
-  
-  
-  
-  
-  
-
-
-        </li>
-    </ul>
-  
-
-
-
-  
-  
-  
-  
-  
-  
-  
-  
-
-
-        </li>
-        <li style="list-style-type: disclosure-closed;">
-          <code>popis</code>:
-            (<a href="#SérieDatovýchSad.popis" label="Volný text s popisem série datových sad">popis</a>)
-          povinná
-          položka typu
-
-                  <strong>
-    objekt
-  </strong>
-    s vlastnostmi (<code>properties</code>):
-    <ul>
-        <li style="list-style-type: disclosure-closed;">
-          <code>cs</code>:
-          nepovinná
-          položka typu
-
-                
-  
-  
-    řetězec
-  
-  
-
-
-  
-  
-  
-  
-  
-
-
-        </li>
-        <li style="list-style-type: disclosure-closed;">
-          <code>en</code>:
-          nepovinná
-          položka typu
-
-                
-  
-  
-    řetězec
-  
-  
-
-
-  
-  
-  
-  
-  
-
-
-        </li>
-    </ul>
-  
-
-
-
-  
-  
-  
-  
-  
-  
-  
-  
-
-
-        </li>
-        <li style="list-style-type: disclosure-closed;">
-          <code>poskytovatel</code>:
-            (<a href="#SérieDatovýchSad.poskytovatel" label="Poskytovatel série datových sad zajišťující její soudržnost.">poskytovatel</a>)
-          povinná
-          položka typu
-
-                
-  
-  
-    řetězec
-  (formát: <code>iri</code>)
-  
-
-
-  
-  
-  
-  
-  
-
-
-        </li>
-        <li style="list-style-type: disclosure-closed;">
-          <code>je_součástí</code>:
-            (<a href="#SérieDatovýchSad.jeSoučástí" label="Série datových sad, jíž je tato série datových sad součástí.">je součástí</a>)
-          nepovinná
-          položka typu
-
-                
-  
-      pole hodnot <code>{0..*}</code> typu       
-  
-  
-    řetězec
-  (formát: <code>iri</code>)
-  
-
-
-  
-  
-  
-  
-  
-
-
-          
-  
-  
-  
-  
-  
-  
-  
-
-
-        </li>
-        <li style="list-style-type: disclosure-closed;">
-          <code>téma</code>:
-            (<a href="#SérieDatovýchSad.téma" label="Hlavní téma zdroje. Zdroj může mít více témat.">téma</a>)
-          povinná
-          položka typu
-
-                
-  
-      pole hodnot <code>{1..*}</code> typu       
-  
-  
-    řetězec
-  (formát: <code>iri</code>)
-  (dle regulárního výrazu: <code>^http://publications\.europa\.eu/resource/authority/data-theme/.*$</code>)
-
-
-  
-  
-  
-  
-  
-
-
-          
-  
-  
-  
-  
-  
-  
-  
-
-
-        </li>
-        <li style="list-style-type: disclosure-closed;">
-          <code>periodicita_aktualizace</code>:
-            (<a href="#SérieDatovýchSad.periodicitaAktualizace" label="Frekvence, se kterou je série datových sad aktualizována.">periodicita aktualizace</a>)
-          povinná
-          položka typu
-
-                
-  
-  
-    řetězec
-  (formát: <code>iri</code>)
-  (dle regulárního výrazu: <code>^http://publications\.europa\.eu/resource/authority/frequency/.*$</code>)
-
-
-  
-  
-  
-  
-  
-
-
-        </li>
-        <li style="list-style-type: disclosure-closed;">
-          <code>klíčové_slovo</code>:
-            (<a href="#SérieDatovýchSad.klíčovéSlovo" label="Klíčové slovo nebo značka popisující zdroj.">klíčové slovo</a>)
-          povinná
-          položka typu
-
-                  <strong>
-    objekt
-  </strong>
-    s vlastnostmi (<code>properties</code>):
-    <ul>
-        <li style="list-style-type: disclosure-closed;">
-          <code>cs</code>:
-          nepovinná
-          položka typu
-
-                
-  
-      pole hodnot <code>{0..*}</code> typu       
-  
-  
-    řetězec
-  
-  
-
-
-  
-  
-  
-  
-  
-
-
-          
-  
-  
-  
-  
-  
-  
-  
-
-
-        </li>
-        <li style="list-style-type: disclosure-closed;">
-          <code>en</code>:
-          nepovinná
-          položka typu
-
-                
-  
-      pole hodnot <code>{0..*}</code> typu       
-  
-  
-    řetězec
-  
-  
-
-
-  
-  
-  
-  
-  
-
-
-          
-  
-  
-  
-  
-  
-  
-  
-
-
-        </li>
-    </ul>
-  
-
-
-
-  
-  
-  
-  
-  
-  
-  
-  
-
-
-        </li>
-        <li style="list-style-type: disclosure-closed;">
-          <code>geografické_území</code>:
-            (<a href="#SérieDatovýchSad.souvisejícíGeografickéÚzemí" label="Geografické území pokryté sérií datových sad.">související geografické území</a>)
-          nepovinná
-          položka typu
-
-                
-  
-      pole hodnot <code>{0..*}</code> typu       
-  
-  
-    řetězec
-  (formát: <code>iri</code>)
-  
-
-
-  
-  
-  
-  
-  
-
-
-          
-  
-  
-  
-  
-  
-  
-  
-
-
-        </li>
-        <li style="list-style-type: disclosure-closed;">
-          <code>prvek_rúian</code>:
-            (<a href="#SérieDatovýchSad.souvisejícíGeografickéÚzemí-PrvekZRúian" label="Území pokryté datovou sadou, vyjádřené pomocí prvku RÚIAN">související geografické území - prvek z RÚIAN</a>)
-          povinná
-          položka typu
-
-                
-  
-      pole hodnot <code>{1..*}</code> typu       
-  
-  
-    řetězec
-  (formát: <code>iri</code>)
-  (dle regulárního výrazu: <code>^https://linked.cuzk.cz/resource/ruian/.*$</code>)
-
-
-  
-  
-  
-  
-  
-
-
-          
-  
-  
-  
-  
-  
-  
-  
-
-
-        </li>
-        <li style="list-style-type: disclosure-closed;">
-          <code>časové_pokrytí</code>:
-            (<a href="#SérieDatovýchSad.časovéPokrytí" label="Časový úsek pokrytý sérií datových sad">časové pokrytí</a>)
-          nepovinná
-          položka typu
-
-                
-  
-      pole hodnot <code>{0..*}</code> typu     <a href="#json-object--série-datových-sad--časový-interval"></a>
-
-          
-  
-  
-  
-  
-  
-  
-  
-
-
-        </li>
-        <li style="list-style-type: disclosure-closed;">
-          <code>kontaktní_bod</code>:
-            (<a href="#SérieDatovýchSad.kontaktníBod" label="Kontaktní informace, které mohou být využity pro zasílání připomínek k sérii datových sad.">kontaktní bod</a>)
-          nepovinná
-          položka typu
-
-                
-  
-  
-  
-  
-  
-  
-  
-    
-    alespoň jedno z následujících (<code>anyOf</code>):
-    <ul>
-        <li>    <a href="#json-object--série-datových-sad--organizace"></a>
-</li>
-        <li>    <a href="#json-object--série-datových-sad--jednotlivec"></a>
-</li>
-    </ul>
-
-
-
-
-
-        </li>
-        <li style="list-style-type: disclosure-closed;">
-          <code>dokumentace</code>:
-            (<a href="#SérieDatovýchSad.dokumentace" label="Stránka či dokument o sérii datových sad">dokumentace</a>)
-          nepovinná
-          položka typu
-
-                
-  
-  
-    řetězec
-  (formát: <code>iri</code>)
-  (dle regulárního výrazu: <code>^https://.*$</code>)
-
-
-  
-  
-  
-  
-  
-
-
-        </li>
-        <li style="list-style-type: disclosure-closed;">
-          <code>koncept_euroVoc</code>:
-            (<a href="#SérieDatovýchSad.klasifikaceDleEurovoc" label="Kategorie či téma série datových sad dle EuroVoc.">klasifikace dle EuroVoc</a>)
-          nepovinná
-          položka typu
-
-                
-  
-      pole hodnot <code>{0..*}</code> typu       
-  
-  
-    řetězec
-  (formát: <code>iri</code>)
-  (dle regulárního výrazu: <code>^http://eurovoc\.europa\.eu/.*$</code>)
-
-
-  
-  
-  
-  
-  
-
-
-          
-  
-  
-  
-  
-  
-  
-  
-
-
-        </li>
-        <li style="list-style-type: disclosure-closed;">
-          <code>právní_předpis</code>:
-            (<a href="#SérieDatovýchSad.příslušnýPrávníPředpis" label="Indikace příslušného právního předpisu předepisujícího vznik série datových sad.">příslušný právní předpis</a>)
-          povinná
-          položka typu
-
-                
-  
-      pole hodnot <code>{1..*}</code> typu       
-  
-  
-    řetězec
-  (formát: <code>iri</code>)
-  (dle regulárního výrazu: <code>^http</code>)
-
-
-  
-  
-  
-  
-  
-
-
-          
-  
-  
-  
-  
-  
-  
-  
-
-
-        </li>
-        <li style="list-style-type: disclosure-closed;">
-          <code>vstupní_stránka</code>:
-            (<a href="#SérieDatovýchSad.vstupníStránka" label="Webová stránka, na kterou lze pro získání přístupu ke sérii datových sad přistoupit webovým prohlížečem.">vstupní stránka</a>)
-          nepovinná
-          položka typu
-
-                
-  
-  
-    řetězec
-  (formát: <code>iri</code>)
-  (dle regulárního výrazu: <code>^https://.*$</code>)
-
-
-  
-  
-  
-  
-  
-
-
-        </li>
-    </ul>
-  
-
-
-
-  
-  
-  
-  
-  
-  
-  
-  
-
-    </section>
-    <section id="json-object--série-datových-sad--jednotlivec">
-      <h2>
-        Objekt <i>Jednotlivec</i>
-      </h2>
-
-      <table class="def">
-          <tr>
-            <th>Popis</th>
-            <td>Jednotlivá fyzická osoba.</td>
-          </tr>
-
-          <tr>
-            <th>Interpretace</th>
-            <td><a href="#Jednotlivec">Jednotlivec</a></td>
-          </tr>
-      </table>
-
-          <strong>
-    objekt
-  </strong>
-    s vlastnostmi (<code>properties</code>):
-    <ul>
-        <li style="list-style-type: disclosure-closed;">
-          <code>iri</code>:
-          nepovinná
-          položka typu
-
-                
-  
-  
-    řetězec
-  (formát: <code>iri</code>)
-  
-
-
-  
-  
-  
-  
-  
-
-
-        </li>
-        <li style="list-style-type: disclosure-closed;">
-          <code>typ</code>:
-          povinná
-          položka typu
-
-                
-  
-  
-  
-  
-  
-  
-  
-        právě jedno z následujících (<code>oneOf</code>):
-    <ul>
-        <li>      
-    konstantní hodnota
-    <code>&quot;Jednotlivec&quot;</code>
-
-  
-  
-  
-  
-  
-  
-  
-
-</li>
-        <li>      
-  
-      pole hodnot <code>{0..*}</code> typu       
-  
-  
-    řetězec
-  
-  
-
-
-  
-  
-  
-  
-  
-
-
-     a musí obsahovat: <code>&quot;Jednotlivec&quot;</code>
-  
-  
-  
-  
-  
-  
-  
-
-</li>
-    </ul>
-
-
-
-
-
-
-        </li>
-        <li style="list-style-type: disclosure-closed;">
-          <code>jméno</code>:
-            (<a href="#KontaktníBod.jméno" label="Jméno objektu jako formátovaný text.">jméno</a>)
-          nepovinná
-          položka typu
-
-                  <strong>
-    objekt
-  </strong>
-    s vlastnostmi (<code>properties</code>):
-    <ul>
-        <li style="list-style-type: disclosure-closed;">
-          <code>cs</code>:
-          nepovinná
-          položka typu
-
-                
-  
-  
-    řetězec
-  
-  
-
-
-  
-  
-  
-  
-  
-
-
-        </li>
-        <li style="list-style-type: disclosure-closed;">
-          <code>en</code>:
-          nepovinná
-          položka typu
-
-                
-  
-  
-    řetězec
-  
-  
-
-
-  
-  
-  
-  
-  
-
-
-        </li>
-    </ul>
-  
-
-
-
-  
-  
-  
-  
-  
-  
-  
-  
-
-
-        </li>
-        <li style="list-style-type: disclosure-closed;">
-          <code>e-mail</code>:
-            (<a href="#KontaktníBod.email" label="E-mailová adresa pro komunikaci.">email</a>)
-          nepovinná
-          položka typu
-
-                
-  
-  
-    řetězec
-  (formát: <code>iri</code>)
-  (dle regulárního výrazu: <code>^mailto:[^@]+@[^@]+</code>)
-
-
-  
-  
-  
-  
-  
-
-
-        </li>
-    </ul>
-  
-
-
-
-  
-  
-  
-  
-  
-  
-  
-  
-
-    </section>
-    <section id="json-object--série-datových-sad--organizace">
-      <h2>
-        Objekt <i>Organizace</i>
-      </h2>
-
-      <table class="def">
-          <tr>
-            <th>Popis</th>
-            <td>Organizace, právnická osoba nebo její část.</td>
-          </tr>
-
-          <tr>
-            <th>Interpretace</th>
-            <td><a href="#Organizace">Organizace</a></td>
-          </tr>
-      </table>
-
-          <strong>
-    objekt
-  </strong>
-    s vlastnostmi (<code>properties</code>):
-    <ul>
-        <li style="list-style-type: disclosure-closed;">
-          <code>iri</code>:
-          nepovinná
-          položka typu
-
-                
-  
-  
-    řetězec
-  (formát: <code>iri</code>)
-  
-
-
-  
-  
-  
-  
-  
-
-
-        </li>
-        <li style="list-style-type: disclosure-closed;">
-          <code>typ</code>:
-          povinná
-          položka typu
-
-                
-  
-  
-  
-  
-  
-  
-  
-        právě jedno z následujících (<code>oneOf</code>):
-    <ul>
-        <li>      
-    konstantní hodnota
-    <code>&quot;Organizace&quot;</code>
-
-  
-  
-  
-  
-  
-  
-  
-
-</li>
-        <li>      
-  
-      pole hodnot <code>{0..*}</code> typu       
-  
-  
-    řetězec
-  
-  
-
-
-  
-  
-  
-  
-  
-
-
-     a musí obsahovat: <code>&quot;Organizace&quot;</code>
-  
-  
-  
-  
-  
-  
-  
-
-</li>
-    </ul>
-
-
-
-
-
-
-        </li>
-        <li style="list-style-type: disclosure-closed;">
-          <code>jméno</code>:
-            (<a href="#KontaktníBod.jméno" label="Jméno objektu jako formátovaný text.">jméno</a>)
-          nepovinná
-          položka typu
-
-                  <strong>
-    objekt
-  </strong>
-    s vlastnostmi (<code>properties</code>):
-    <ul>
-        <li style="list-style-type: disclosure-closed;">
-          <code>cs</code>:
-          nepovinná
-          položka typu
-
-                
-  
-  
-    řetězec
-  
-  
-
-
-  
-  
-  
-  
-  
-
-
-        </li>
-        <li style="list-style-type: disclosure-closed;">
-          <code>en</code>:
-          nepovinná
-          položka typu
-
-                
-  
-  
-    řetězec
-  
-  
-
-
-  
-  
-  
-  
-  
-
-
-        </li>
-    </ul>
-  
-
-
-
-  
-  
-  
-  
-  
-  
-  
-  
-
-
-        </li>
-        <li style="list-style-type: disclosure-closed;">
-          <code>e-mail</code>:
-            (<a href="#KontaktníBod.email" label="E-mailová adresa pro komunikaci.">email</a>)
-          nepovinná
-          položka typu
-
-                
-  
-  
-    řetězec
-  (formát: <code>iri</code>)
-  (dle regulárního výrazu: <code>^mailto:[^@]+@[^@]+</code>)
-
-
-  
-  
-  
-  
-  
-
-
-        </li>
-    </ul>
-  
-
-
-
-  
-  
-  
-  
-  
-  
-  
-  
-
-    </section>
-    <section id="json-object--série-datových-sad--časový-interval">
-      <h2>
-        Objekt <i>Časový interval</i>
-      </h2>
-
-      <table class="def">
-          <tr>
-            <th>Popis</th>
-            <td>Časový interval definovaný svým začátkem a koncem.</td>
-          </tr>
-
-          <tr>
-            <th>Interpretace</th>
-            <td><a href="#ČasovýInterval">Časový interval</a></td>
-          </tr>
-      </table>
-
-          <strong>
-    objekt
-  </strong>
-    s vlastnostmi (<code>properties</code>):
-    <ul>
-        <li style="list-style-type: disclosure-closed;">
-          <code>iri</code>:
-          povinná
-          položka typu
-
-                
-  
-  
-    řetězec
-  (formát: <code>iri</code>)
-  
-
-
-  
-  
-  
-  
-  
-
-
-        </li>
-        <li style="list-style-type: disclosure-closed;">
-          <code>typ</code>:
-          povinná
-          položka typu
-
-                
-  
-  
-  
-  
-  
-  
-  
-        právě jedno z následujících (<code>oneOf</code>):
-    <ul>
-        <li>      
-    konstantní hodnota
-    <code>&quot;Časový interval&quot;</code>
-
-  
-  
-  
-  
-  
-  
-  
-
-</li>
-        <li>      
-  
-      pole hodnot <code>{0..*}</code> typu       
-  
-  
-    řetězec
-  
-  
-
-
-  
-  
-  
-  
-  
-
-
-     a musí obsahovat: <code>&quot;Časový interval&quot;</code>
-  
-  
-  
-  
-  
-  
-  
-
-</li>
-    </ul>
-
-
-
-
-
-
-        </li>
-        <li style="list-style-type: disclosure-closed;">
-          <code>začátek</code>:
-            (<a href="#ČasovýInterval.datumZačátku" label="Začátek doby trvání.">datum začátku</a>)
-          nepovinná
-          položka typu
-
-                
-  
-  
-    řetězec
-  (formát: <code>date</code>)
-  
-
-
-  
-  
-  
-  
-  
-
-
-        </li>
-        <li style="list-style-type: disclosure-closed;">
-          <code>konec</code>:
-            (<a href="#ČasovýInterval.datumKonce" label="Konec doby trvání.">datum konce</a>)
-          nepovinná
-          položka typu
-
-                
-  
-  
-    řetězec
-  (formát: <code>date</code>)
-  
-
-
-  
-  
-  
-  
-  
-
-
-        </li>
-    </ul>
-  
-
-
-
-  
-  
-  
-  
-  
-  
-  
-  
-
-    </section>
-</section>
-      </section>
       <section>
       <h2>
         Specifikace struktury pro
@@ -4831,6 +3446,1391 @@
   </strong>
     s vlastnostmi (<code>properties</code>):
     <ul>
+        <li style="list-style-type: disclosure-closed;">
+          <code>typ</code>:
+          povinná
+          položka typu
+
+                
+  
+  
+  
+  
+  
+  
+  
+        právě jedno z následujících (<code>oneOf</code>):
+    <ul>
+        <li>      
+    konstantní hodnota
+    <code>&quot;Časový interval&quot;</code>
+
+  
+  
+  
+  
+  
+  
+  
+
+</li>
+        <li>      
+  
+      pole hodnot <code>{0..*}</code> typu       
+  
+  
+    řetězec
+  
+  
+
+
+  
+  
+  
+  
+  
+
+
+     a musí obsahovat: <code>&quot;Časový interval&quot;</code>
+  
+  
+  
+  
+  
+  
+  
+
+</li>
+    </ul>
+
+
+
+
+
+
+        </li>
+        <li style="list-style-type: disclosure-closed;">
+          <code>začátek</code>:
+            (<a href="#ČasovýInterval.datumZačátku" label="Začátek doby trvání.">datum začátku</a>)
+          nepovinná
+          položka typu
+
+                
+  
+  
+    řetězec
+  (formát: <code>date</code>)
+  
+
+
+  
+  
+  
+  
+  
+
+
+        </li>
+        <li style="list-style-type: disclosure-closed;">
+          <code>konec</code>:
+            (<a href="#ČasovýInterval.datumKonce" label="Konec doby trvání.">datum konce</a>)
+          nepovinná
+          položka typu
+
+                
+  
+  
+    řetězec
+  (formát: <code>date</code>)
+  
+
+
+  
+  
+  
+  
+  
+
+
+        </li>
+    </ul>
+  
+
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+    </section>
+</section>
+      </section>
+      <section>
+      <h2>
+        Specifikace struktury pro
+        Série datových sad
+      </h2>
+      <p>Datová struktura pro Série datových sad. Série datových sad zastřešuje související datové sady a série. Souvislost může být časová (rozpočet v letech), prostorová (seznamy ulic v obcích) či tématická (datové sady z jednoho systému). Datová série je podtřídou Datové sady, ale nemá vlastní distribuce.</p>
+
+      <section id="json-schema--série-datových-sad">
+
+
+
+
+
+
+
+
+
+
+
+
+  <h1>
+      JSON struktura pro    Série datových sad
+  </h1>
+
+    <dl>
+      <dt>IRI</dt>
+      <dd><code>https://ofn.gov.cz/dcat-ap-cz-otevřená-data/2026-09-23/série-datových-sad/schéma.json</code></dd>
+      <dt>Definováno v</dt>
+      <dd><code><a href="../série-datových-sad/schéma.json">../série-datových-sad/schéma.json</a></code></dd>
+        <dt>Verze použitého jazyka</dt>
+        <dd><a href="https://json-schema.org/specification-links.html#2020-12-release" target="_blank">2020-12</a> (metaschema IRI: <code>https://json-schema.org/draft/2020-12/schema</code>)</dd>
+    </dl>
+
+    <h2>Kořen</h2>
+    Kořenem JSON schématu je
+        <a href="#json-object--série-datových-sad--série-datových-sad"></a>
+
+
+    <section id="json-object--série-datových-sad--série-datových-sad">
+      <h2>
+        Objekt <i>Série datových sad</i>
+      </h2>
+
+      <table class="def">
+          <tr>
+            <th>Popis</th>
+            <td>Série datových sad zastřešuje související datové sady a jiné série. Souvislost může být časová (rozpočet v letech), prostorová (seznamy ulic v obcích) či tématická (datové sady z jednoho systému).</td>
+          </tr>
+
+          <tr>
+            <th>Interpretace</th>
+            <td><a href="#SérieDatovýchSad">Série datových sad</a></td>
+          </tr>
+      </table>
+
+          <strong>
+    objekt
+  </strong>
+    s vlastnostmi (<code>properties</code>):
+    <ul>
+        <li style="list-style-type: disclosure-closed;">
+          <code>@context</code>:
+          povinná
+          položka typu
+
+                
+  
+  
+  
+  
+  
+  
+  
+        právě jedno z následujících (<code>oneOf</code>):
+    <ul>
+        <li>      
+    konstantní hodnota
+    <code>&quot;https://ofn.gov.cz/dcat-ap-cz-otevřená-data/2026-09-23/série-datových-sad/kontext.jsonld&quot;</code>
+
+  
+  
+  
+  
+  
+  
+  
+
+</li>
+        <li>      
+  
+      pole hodnot <code>{0..*}</code> typu       
+  
+  
+    řetězec
+  (formát: <code>iri</code>)
+  
+
+
+  
+  
+  
+  
+  
+
+
+     a musí obsahovat: <code>&quot;https://ofn.gov.cz/dcat-ap-cz-otevřená-data/2026-09-23/série-datových-sad/kontext.jsonld&quot;</code>
+  
+  
+  
+  
+  
+  
+  
+
+</li>
+    </ul>
+
+
+
+
+
+
+        </li>
+        <li style="list-style-type: disclosure-closed;">
+          <code>iri</code>:
+          povinná
+          položka typu
+
+                
+  
+  
+    řetězec
+  (formát: <code>iri</code>)
+  
+
+
+  
+  
+  
+  
+  
+
+
+        </li>
+        <li style="list-style-type: disclosure-closed;">
+          <code>typ</code>:
+          povinná
+          položka typu
+
+                
+  
+  
+  
+  
+  
+  
+  
+        právě jedno z následujících (<code>oneOf</code>):
+    <ul>
+        <li>      
+    konstantní hodnota
+    <code>&quot;Série datových sad&quot;</code>
+
+  
+  
+  
+  
+  
+  
+  
+
+</li>
+        <li>      
+  
+      pole hodnot <code>{0..*}</code> typu       
+  
+  
+    řetězec
+  
+  
+
+
+  
+  
+  
+  
+  
+
+
+     a musí obsahovat: <code>&quot;Série datových sad&quot;</code>
+  
+  
+  
+  
+  
+  
+  
+
+</li>
+    </ul>
+
+
+
+
+
+
+        </li>
+        <li style="list-style-type: disclosure-closed;">
+          <code>název</code>:
+            (<a href="#SérieDatovýchSad.název" label="Název série datových sad">název</a>)
+          povinná
+          položka typu
+
+                  <strong>
+    objekt
+  </strong>
+    s vlastnostmi (<code>properties</code>):
+    <ul>
+        <li style="list-style-type: disclosure-closed;">
+          <code>cs</code>:
+          nepovinná
+          položka typu
+
+                
+  
+  
+    řetězec
+  
+  
+
+
+  
+  
+  
+  
+  
+
+
+        </li>
+        <li style="list-style-type: disclosure-closed;">
+          <code>en</code>:
+          nepovinná
+          položka typu
+
+                
+  
+  
+    řetězec
+  
+  
+
+
+  
+  
+  
+  
+  
+
+
+        </li>
+    </ul>
+  
+
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+        </li>
+        <li style="list-style-type: disclosure-closed;">
+          <code>popis</code>:
+            (<a href="#SérieDatovýchSad.popis" label="Volný text s popisem série datových sad">popis</a>)
+          povinná
+          položka typu
+
+                  <strong>
+    objekt
+  </strong>
+    s vlastnostmi (<code>properties</code>):
+    <ul>
+        <li style="list-style-type: disclosure-closed;">
+          <code>cs</code>:
+          nepovinná
+          položka typu
+
+                
+  
+  
+    řetězec
+  
+  
+
+
+  
+  
+  
+  
+  
+
+
+        </li>
+        <li style="list-style-type: disclosure-closed;">
+          <code>en</code>:
+          nepovinná
+          položka typu
+
+                
+  
+  
+    řetězec
+  
+  
+
+
+  
+  
+  
+  
+  
+
+
+        </li>
+    </ul>
+  
+
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+        </li>
+        <li style="list-style-type: disclosure-closed;">
+          <code>poskytovatel</code>:
+            (<a href="#SérieDatovýchSad.poskytovatel" label="Poskytovatel série datových sad zajišťující její soudržnost.">poskytovatel</a>)
+          povinná
+          položka typu
+
+                
+  
+  
+    řetězec
+  (formát: <code>iri</code>)
+  
+
+
+  
+  
+  
+  
+  
+
+
+        </li>
+        <li style="list-style-type: disclosure-closed;">
+          <code>je_součástí</code>:
+            (<a href="#SérieDatovýchSad.jeSoučástí" label="Série datových sad, jíž je tato série datových sad součástí.">je součástí</a>)
+          nepovinná
+          položka typu
+
+                
+  
+      pole hodnot <code>{0..*}</code> typu       
+  
+  
+    řetězec
+  (formát: <code>iri</code>)
+  
+
+
+  
+  
+  
+  
+  
+
+
+          
+  
+  
+  
+  
+  
+  
+  
+
+
+        </li>
+        <li style="list-style-type: disclosure-closed;">
+          <code>téma</code>:
+            (<a href="#SérieDatovýchSad.téma" label="Hlavní téma zdroje. Zdroj může mít více témat.">téma</a>)
+          povinná
+          položka typu
+
+                
+  
+      pole hodnot <code>{1..*}</code> typu       
+  
+  
+    řetězec
+  (formát: <code>iri</code>)
+  (dle regulárního výrazu: <code>^http://publications\.europa\.eu/resource/authority/data-theme/.*$</code>)
+
+
+  
+  
+  
+  
+  
+
+
+          
+  
+  
+  
+  
+  
+  
+  
+
+
+        </li>
+        <li style="list-style-type: disclosure-closed;">
+          <code>periodicita_aktualizace</code>:
+            (<a href="#SérieDatovýchSad.periodicitaAktualizace" label="Frekvence, se kterou je série datových sad aktualizována.">periodicita aktualizace</a>)
+          povinná
+          položka typu
+
+                
+  
+  
+    řetězec
+  (formát: <code>iri</code>)
+  (dle regulárního výrazu: <code>^http://publications\.europa\.eu/resource/authority/frequency/.*$</code>)
+
+
+  
+  
+  
+  
+  
+
+
+        </li>
+        <li style="list-style-type: disclosure-closed;">
+          <code>klíčové_slovo</code>:
+            (<a href="#SérieDatovýchSad.klíčovéSlovo" label="Klíčové slovo nebo značka popisující zdroj.">klíčové slovo</a>)
+          povinná
+          položka typu
+
+                  <strong>
+    objekt
+  </strong>
+    s vlastnostmi (<code>properties</code>):
+    <ul>
+        <li style="list-style-type: disclosure-closed;">
+          <code>cs</code>:
+          nepovinná
+          položka typu
+
+                
+  
+      pole hodnot <code>{0..*}</code> typu       
+  
+  
+    řetězec
+  
+  
+
+
+  
+  
+  
+  
+  
+
+
+          
+  
+  
+  
+  
+  
+  
+  
+
+
+        </li>
+        <li style="list-style-type: disclosure-closed;">
+          <code>en</code>:
+          nepovinná
+          položka typu
+
+                
+  
+      pole hodnot <code>{0..*}</code> typu       
+  
+  
+    řetězec
+  
+  
+
+
+  
+  
+  
+  
+  
+
+
+          
+  
+  
+  
+  
+  
+  
+  
+
+
+        </li>
+    </ul>
+  
+
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+        </li>
+        <li style="list-style-type: disclosure-closed;">
+          <code>geografické_území</code>:
+            (<a href="#SérieDatovýchSad.souvisejícíGeografickéÚzemí" label="Geografické území pokryté sérií datových sad.">související geografické území</a>)
+          nepovinná
+          položka typu
+
+                
+  
+      pole hodnot <code>{0..*}</code> typu       
+  
+  
+    řetězec
+  (formát: <code>iri</code>)
+  
+
+
+  
+  
+  
+  
+  
+
+
+          
+  
+  
+  
+  
+  
+  
+  
+
+
+        </li>
+        <li style="list-style-type: disclosure-closed;">
+          <code>prvek_rúian</code>:
+            (<a href="#SérieDatovýchSad.souvisejícíGeografickéÚzemí-PrvekZRúian" label="Území pokryté datovou sadou, vyjádřené pomocí prvku RÚIAN">související geografické území - prvek z RÚIAN</a>)
+          povinná
+          položka typu
+
+                
+  
+      pole hodnot <code>{1..*}</code> typu       
+  
+  
+    řetězec
+  (formát: <code>iri</code>)
+  (dle regulárního výrazu: <code>^https://linked.cuzk.cz/resource/ruian/.*$</code>)
+
+
+  
+  
+  
+  
+  
+
+
+          
+  
+  
+  
+  
+  
+  
+  
+
+
+        </li>
+        <li style="list-style-type: disclosure-closed;">
+          <code>časové_pokrytí</code>:
+            (<a href="#SérieDatovýchSad.časovéPokrytí" label="Časový úsek pokrytý sérií datových sad">časové pokrytí</a>)
+          nepovinná
+          položka typu
+
+                
+  
+      pole hodnot <code>{0..*}</code> typu     <a href="#json-object--série-datových-sad--časový-interval"></a>
+
+          
+  
+  
+  
+  
+  
+  
+  
+
+
+        </li>
+        <li style="list-style-type: disclosure-closed;">
+          <code>kontaktní_bod</code>:
+            (<a href="#SérieDatovýchSad.kontaktníBod" label="Kontaktní informace, které mohou být využity pro zasílání připomínek k sérii datových sad.">kontaktní bod</a>)
+          nepovinná
+          položka typu
+
+                
+  
+  
+  
+  
+  
+  
+  
+    
+    alespoň jedno z následujících (<code>anyOf</code>):
+    <ul>
+        <li>    <a href="#json-object--série-datových-sad--organizace"></a>
+</li>
+        <li>    <a href="#json-object--série-datových-sad--jednotlivec"></a>
+</li>
+    </ul>
+
+
+
+
+
+        </li>
+        <li style="list-style-type: disclosure-closed;">
+          <code>dokumentace</code>:
+            (<a href="#SérieDatovýchSad.dokumentace" label="Stránka či dokument o sérii datových sad">dokumentace</a>)
+          nepovinná
+          položka typu
+
+                
+  
+  
+    řetězec
+  (formát: <code>iri</code>)
+  (dle regulárního výrazu: <code>^https://.*$</code>)
+
+
+  
+  
+  
+  
+  
+
+
+        </li>
+        <li style="list-style-type: disclosure-closed;">
+          <code>koncept_euroVoc</code>:
+            (<a href="#SérieDatovýchSad.klasifikaceDleEurovoc" label="Kategorie či téma série datových sad dle EuroVoc.">klasifikace dle EuroVoc</a>)
+          nepovinná
+          položka typu
+
+                
+  
+      pole hodnot <code>{0..*}</code> typu       
+  
+  
+    řetězec
+  (formát: <code>iri</code>)
+  (dle regulárního výrazu: <code>^http://eurovoc\.europa\.eu/.*$</code>)
+
+
+  
+  
+  
+  
+  
+
+
+          
+  
+  
+  
+  
+  
+  
+  
+
+
+        </li>
+        <li style="list-style-type: disclosure-closed;">
+          <code>právní_předpis</code>:
+            (<a href="#SérieDatovýchSad.příslušnýPrávníPředpis" label="Indikace příslušného právního předpisu předepisujícího vznik série datových sad.">příslušný právní předpis</a>)
+          povinná
+          položka typu
+
+                
+  
+      pole hodnot <code>{1..*}</code> typu       
+  
+  
+    řetězec
+  (formát: <code>iri</code>)
+  (dle regulárního výrazu: <code>^http</code>)
+
+
+  
+  
+  
+  
+  
+
+
+          
+  
+  
+  
+  
+  
+  
+  
+
+
+        </li>
+        <li style="list-style-type: disclosure-closed;">
+          <code>vstupní_stránka</code>:
+            (<a href="#SérieDatovýchSad.vstupníStránka" label="Webová stránka, na kterou lze pro získání přístupu ke sérii datových sad přistoupit webovým prohlížečem.">vstupní stránka</a>)
+          nepovinná
+          položka typu
+
+                
+  
+  
+    řetězec
+  (formát: <code>iri</code>)
+  (dle regulárního výrazu: <code>^https://.*$</code>)
+
+
+  
+  
+  
+  
+  
+
+
+        </li>
+    </ul>
+  
+
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+    </section>
+    <section id="json-object--série-datových-sad--jednotlivec">
+      <h2>
+        Objekt <i>Jednotlivec</i>
+      </h2>
+
+      <table class="def">
+          <tr>
+            <th>Popis</th>
+            <td>Jednotlivá fyzická osoba.</td>
+          </tr>
+
+          <tr>
+            <th>Interpretace</th>
+            <td><a href="#Jednotlivec">Jednotlivec</a></td>
+          </tr>
+      </table>
+
+          <strong>
+    objekt
+  </strong>
+    s vlastnostmi (<code>properties</code>):
+    <ul>
+        <li style="list-style-type: disclosure-closed;">
+          <code>iri</code>:
+          nepovinná
+          položka typu
+
+                
+  
+  
+    řetězec
+  (formát: <code>iri</code>)
+  
+
+
+  
+  
+  
+  
+  
+
+
+        </li>
+        <li style="list-style-type: disclosure-closed;">
+          <code>typ</code>:
+          povinná
+          položka typu
+
+                
+  
+  
+  
+  
+  
+  
+  
+        právě jedno z následujících (<code>oneOf</code>):
+    <ul>
+        <li>      
+    konstantní hodnota
+    <code>&quot;Jednotlivec&quot;</code>
+
+  
+  
+  
+  
+  
+  
+  
+
+</li>
+        <li>      
+  
+      pole hodnot <code>{0..*}</code> typu       
+  
+  
+    řetězec
+  
+  
+
+
+  
+  
+  
+  
+  
+
+
+     a musí obsahovat: <code>&quot;Jednotlivec&quot;</code>
+  
+  
+  
+  
+  
+  
+  
+
+</li>
+    </ul>
+
+
+
+
+
+
+        </li>
+        <li style="list-style-type: disclosure-closed;">
+          <code>jméno</code>:
+            (<a href="#KontaktníBod.jméno" label="Jméno objektu jako formátovaný text.">jméno</a>)
+          nepovinná
+          položka typu
+
+                  <strong>
+    objekt
+  </strong>
+    s vlastnostmi (<code>properties</code>):
+    <ul>
+        <li style="list-style-type: disclosure-closed;">
+          <code>cs</code>:
+          nepovinná
+          položka typu
+
+                
+  
+  
+    řetězec
+  
+  
+
+
+  
+  
+  
+  
+  
+
+
+        </li>
+        <li style="list-style-type: disclosure-closed;">
+          <code>en</code>:
+          nepovinná
+          položka typu
+
+                
+  
+  
+    řetězec
+  
+  
+
+
+  
+  
+  
+  
+  
+
+
+        </li>
+    </ul>
+  
+
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+        </li>
+        <li style="list-style-type: disclosure-closed;">
+          <code>e-mail</code>:
+            (<a href="#KontaktníBod.email" label="E-mailová adresa pro komunikaci.">email</a>)
+          nepovinná
+          položka typu
+
+                
+  
+  
+    řetězec
+  (formát: <code>iri</code>)
+  (dle regulárního výrazu: <code>^mailto:[^@]+@[^@]+</code>)
+
+
+  
+  
+  
+  
+  
+
+
+        </li>
+    </ul>
+  
+
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+    </section>
+    <section id="json-object--série-datových-sad--organizace">
+      <h2>
+        Objekt <i>Organizace</i>
+      </h2>
+
+      <table class="def">
+          <tr>
+            <th>Popis</th>
+            <td>Organizace, právnická osoba nebo její část.</td>
+          </tr>
+
+          <tr>
+            <th>Interpretace</th>
+            <td><a href="#Organizace">Organizace</a></td>
+          </tr>
+      </table>
+
+          <strong>
+    objekt
+  </strong>
+    s vlastnostmi (<code>properties</code>):
+    <ul>
+        <li style="list-style-type: disclosure-closed;">
+          <code>iri</code>:
+          nepovinná
+          položka typu
+
+                
+  
+  
+    řetězec
+  (formát: <code>iri</code>)
+  
+
+
+  
+  
+  
+  
+  
+
+
+        </li>
+        <li style="list-style-type: disclosure-closed;">
+          <code>typ</code>:
+          povinná
+          položka typu
+
+                
+  
+  
+  
+  
+  
+  
+  
+        právě jedno z následujících (<code>oneOf</code>):
+    <ul>
+        <li>      
+    konstantní hodnota
+    <code>&quot;Organizace&quot;</code>
+
+  
+  
+  
+  
+  
+  
+  
+
+</li>
+        <li>      
+  
+      pole hodnot <code>{0..*}</code> typu       
+  
+  
+    řetězec
+  
+  
+
+
+  
+  
+  
+  
+  
+
+
+     a musí obsahovat: <code>&quot;Organizace&quot;</code>
+  
+  
+  
+  
+  
+  
+  
+
+</li>
+    </ul>
+
+
+
+
+
+
+        </li>
+        <li style="list-style-type: disclosure-closed;">
+          <code>jméno</code>:
+            (<a href="#KontaktníBod.jméno" label="Jméno objektu jako formátovaný text.">jméno</a>)
+          nepovinná
+          položka typu
+
+                  <strong>
+    objekt
+  </strong>
+    s vlastnostmi (<code>properties</code>):
+    <ul>
+        <li style="list-style-type: disclosure-closed;">
+          <code>cs</code>:
+          nepovinná
+          položka typu
+
+                
+  
+  
+    řetězec
+  
+  
+
+
+  
+  
+  
+  
+  
+
+
+        </li>
+        <li style="list-style-type: disclosure-closed;">
+          <code>en</code>:
+          nepovinná
+          položka typu
+
+                
+  
+  
+    řetězec
+  
+  
+
+
+  
+  
+  
+  
+  
+
+
+        </li>
+    </ul>
+  
+
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+        </li>
+        <li style="list-style-type: disclosure-closed;">
+          <code>e-mail</code>:
+            (<a href="#KontaktníBod.email" label="E-mailová adresa pro komunikaci.">email</a>)
+          nepovinná
+          položka typu
+
+                
+  
+  
+    řetězec
+  (formát: <code>iri</code>)
+  (dle regulárního výrazu: <code>^mailto:[^@]+@[^@]+</code>)
+
+
+  
+  
+  
+  
+  
+
+
+        </li>
+    </ul>
+  
+
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+    </section>
+    <section id="json-object--série-datových-sad--časový-interval">
+      <h2>
+        Objekt <i>Časový interval</i>
+      </h2>
+
+      <table class="def">
+          <tr>
+            <th>Popis</th>
+            <td>Časový interval definovaný svým začátkem a koncem.</td>
+          </tr>
+
+          <tr>
+            <th>Interpretace</th>
+            <td><a href="#ČasovýInterval">Časový interval</a></td>
+          </tr>
+      </table>
+
+          <strong>
+    objekt
+  </strong>
+    s vlastnostmi (<code>properties</code>):
+    <ul>
+        <li style="list-style-type: disclosure-closed;">
+          <code>iri</code>:
+          povinná
+          položka typu
+
+                
+  
+  
+    řetězec
+  (formát: <code>iri</code>)
+  
+
+
+  
+  
+  
+  
+  
+
+
+        </li>
         <li style="list-style-type: disclosure-closed;">
           <code>typ</code>:
           povinná
@@ -13942,16 +13942,16 @@
             </tr>
             <tr>
               <td>Popis strukturálního modelu</td>
-              <td><a href="../série-datových-sad/structure.ttl">../série-datových-sad/structure.ttl</a></td>
+              <td><a href="../datová-sada/structure.ttl">../datová-sada/structure.ttl</a></td>
             </tr>
             <tr>
               <td>Popis strukturálního modelu</td>
-              <td><a href="../datová-sada/structure.ttl">../datová-sada/structure.ttl</a></td>
+              <td><a href="../série-datových-sad/structure.ttl">../série-datových-sad/structure.ttl</a></td>
             </tr>
-            <tr><td>JSON schéma</td><td><a href="../série-datových-sad/schéma.json">../série-datových-sad/schéma.json</a></td></tr>
-            <tr><td>JSON-LD kontext</td><td><a href="../série-datových-sad/kontext.jsonld">../série-datových-sad/kontext.jsonld</a></td></tr>
             <tr><td>JSON schéma</td><td><a href="../datová-sada/schéma.json">../datová-sada/schéma.json</a></td></tr>
             <tr><td>JSON-LD kontext</td><td><a href="../datová-sada/kontext.jsonld">../datová-sada/kontext.jsonld</a></td></tr>
+            <tr><td>JSON schéma</td><td><a href="../série-datových-sad/schéma.json">../série-datových-sad/schéma.json</a></td></tr>
+            <tr><td>JSON-LD kontext</td><td><a href="../série-datových-sad/kontext.jsonld">../série-datových-sad/kontext.jsonld</a></td></tr>
             <tr><td>Dokumentace</td><td><a href="">#</a></td></tr>
         </tbody>
       </table>
