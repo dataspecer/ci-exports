@@ -34,8 +34,6 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     },
     descriptionFromProfiled: null,
     descriptionProperty: null,
-    order: null,
-    controlledVocabularies: [],
   }, {
     iri: "https://mff-uk.github.io/specifications/dcat-ap#Catalogue",
     tags: [ "https://w3id.org/dsv/class-role#main" ],
@@ -71,6 +69,8 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     },
     descriptionFromProfiled: null,
     descriptionProperty: null,
+    order: null,
+    controlledVocabularies: [],
   }
 ]
 Unable to merge entities with colliding id https://mff-uk.github.io/specifications/dcat-ap#CatalogueRecord because they are of unsupported types. Falling back to the first one. [
@@ -99,8 +99,6 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     description: {},
     descriptionFromProfiled: "https://mff-uk.github.io/specifications/dcat-dap#CatalogRecord",
     descriptionProperty: "http://www.w3.org/2004/02/skos/core#definition",
-    order: null,
-    controlledVocabularies: [],
   }, {
     iri: "https://mff-uk.github.io/specifications/dcat-ap#CatalogueRecord",
     tags: [ "https://w3id.org/dsv/class-role#main" ],
@@ -126,6 +124,8 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     description: {},
     descriptionFromProfiled: "https://mff-uk.github.io/specifications/dcat-dap#CatalogRecord",
     descriptionProperty: "http://www.w3.org/2004/02/skos/core#definition",
+    order: null,
+    controlledVocabularies: [],
   }
 ]
 Unable to merge entities with colliding id https://mff-uk.github.io/specifications/dcat-ap#DataService because they are of unsupported types. Falling back to the first one. [
@@ -144,8 +144,6 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     description: {},
     descriptionFromProfiled: "https://mff-uk.github.io/specifications/dcat-dap#DataService",
     descriptionProperty: "http://www.w3.org/2004/02/skos/core#definition",
-    order: null,
-    controlledVocabularies: [],
   }, {
     iri: "https://mff-uk.github.io/specifications/dcat-ap#DataService",
     tags: [ "https://w3id.org/dsv/class-role#main" ],
@@ -161,6 +159,8 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     description: {},
     descriptionFromProfiled: "https://mff-uk.github.io/specifications/dcat-dap#DataService",
     descriptionProperty: "http://www.w3.org/2004/02/skos/core#definition",
+    order: null,
+    controlledVocabularies: [],
   }
 ]
 Unable to merge entities with colliding id https://mff-uk.github.io/specifications/dcat-ap#Dataset because they are of unsupported types. Falling back to the first one. [
@@ -191,8 +191,6 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     },
     descriptionFromProfiled: null,
     descriptionProperty: null,
-    order: null,
-    controlledVocabularies: [],
   }, {
     iri: "https://mff-uk.github.io/specifications/dcat-ap#Dataset",
     tags: [ "https://w3id.org/dsv/class-role#main" ],
@@ -220,6 +218,8 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     },
     descriptionFromProfiled: null,
     descriptionProperty: null,
+    order: null,
+    controlledVocabularies: [],
   }
 ]
 Unable to merge entities with colliding id https://mff-uk.github.io/specifications/dcat-ap#DatasetSeries because they are of unsupported types. Falling back to the first one. [
@@ -240,8 +240,6 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     description: {},
     descriptionFromProfiled: "https://mff-uk.github.io/specifications/dcat-dap#DatasetSeries",
     descriptionProperty: "http://www.w3.org/2004/02/skos/core#definition",
-    order: null,
-    controlledVocabularies: [],
   }, {
     iri: "https://mff-uk.github.io/specifications/dcat-ap#DatasetSeries",
     tags: [ "https://w3id.org/dsv/class-role#main" ],
@@ -259,6 +257,8 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     description: {},
     descriptionFromProfiled: "https://mff-uk.github.io/specifications/dcat-dap#DatasetSeries",
     descriptionProperty: "http://www.w3.org/2004/02/skos/core#definition",
+    order: null,
+    controlledVocabularies: [],
   }
 ]
 Unable to merge entities with colliding id https://mff-uk.github.io/specifications/dcat-ap#Distribution because they are of unsupported types. Falling back to the first one. [
@@ -277,8 +277,6 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     description: {},
     descriptionFromProfiled: "https://mff-uk.github.io/specifications/dcat-dap#Distribution",
     descriptionProperty: "http://www.w3.org/2004/02/skos/core#definition",
-    order: null,
-    controlledVocabularies: [],
   }, {
     iri: "https://mff-uk.github.io/specifications/dcat-ap#Distribution",
     tags: [ "https://w3id.org/dsv/class-role#main" ],
@@ -294,6 +292,8 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     description: {},
     descriptionFromProfiled: "https://mff-uk.github.io/specifications/dcat-dap#Distribution",
     descriptionProperty: "http://www.w3.org/2004/02/skos/core#definition",
+    order: null,
+    controlledVocabularies: [],
   }
 ]
 Unable to merge entities with colliding id https://mff-uk.github.io/specifications/dcat-ap#Relationship because they are of unsupported types. Falling back to the first one. [
@@ -312,8 +312,6 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     description: {},
     descriptionFromProfiled: "https://mff-uk.github.io/specifications/dcat-dap#Relationship",
     descriptionProperty: "http://www.w3.org/2004/02/skos/core#definition",
-    order: null,
-    controlledVocabularies: [],
   }, {
     iri: "https://mff-uk.github.io/specifications/dcat-ap#Relationship",
     tags: [ "https://w3id.org/dsv/class-role#main" ],
@@ -329,6 +327,8 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     description: {},
     descriptionFromProfiled: "https://mff-uk.github.io/specifications/dcat-dap#Relationship",
     descriptionProperty: "http://www.w3.org/2004/02/skos/core#definition",
+    order: null,
+    controlledVocabularies: [],
   }
 ]
 Unable to merge entities with colliding id https://mff-uk.github.io/specifications/dcat-ap#CataloguedResource because they are of unsupported types. Falling back to the first one. [
@@ -355,8 +355,6 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     description: {},
     descriptionFromProfiled: "https://mff-uk.github.io/specifications/dcat-dap#CatalogedResource",
     descriptionProperty: "http://www.w3.org/2004/02/skos/core#definition",
-    order: null,
-    controlledVocabularies: [],
   }, {
     iri: "https://mff-uk.github.io/specifications/dcat-ap#CataloguedResource",
     tags: [ "https://w3id.org/dsv/class-role#main" ],
@@ -380,6 +378,8 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     description: {},
     descriptionFromProfiled: "https://mff-uk.github.io/specifications/dcat-dap#CatalogedResource",
     descriptionProperty: "http://www.w3.org/2004/02/skos/core#definition",
+    order: null,
+    controlledVocabularies: [],
   }
 ]
 Unable to merge entities with colliding id https://mff-uk.github.io/specifications/dcat-ap#Role because they are of unsupported types. Falling back to the first one. [
@@ -398,8 +398,6 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     description: {},
     descriptionFromProfiled: "https://mff-uk.github.io/specifications/dcat-dap#Role",
     descriptionProperty: "http://www.w3.org/2004/02/skos/core#definition",
-    order: null,
-    controlledVocabularies: [],
   }, {
     iri: "https://mff-uk.github.io/specifications/dcat-ap#Role",
     tags: [ "https://w3id.org/dsv/class-role#supportive" ],
@@ -415,6 +413,8 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     description: {},
     descriptionFromProfiled: "https://mff-uk.github.io/specifications/dcat-dap#Role",
     descriptionProperty: "http://www.w3.org/2004/02/skos/core#definition",
+    order: null,
+    controlledVocabularies: [],
   }
 ]
 Unable to merge entities with colliding id https://mff-uk.github.io/specifications/dcat-ap#Agent because they are of unsupported types. Falling back to the first one. [
@@ -437,8 +437,6 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     },
     descriptionFromProfiled: null,
     descriptionProperty: null,
-    order: null,
-    controlledVocabularies: [],
   }, {
     iri: "https://mff-uk.github.io/specifications/dcat-ap#Agent",
     tags: [ "https://w3id.org/dsv/class-role#main" ],
@@ -458,6 +456,8 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     },
     descriptionFromProfiled: null,
     descriptionProperty: null,
+    order: null,
+    controlledVocabularies: [],
   }
 ]
 Unable to merge entities with colliding id https://mff-uk.github.io/specifications/dcat-ap#Concept because they are of unsupported types. Falling back to the first one. [
@@ -482,8 +482,6 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     },
     descriptionFromProfiled: null,
     descriptionProperty: null,
-    order: null,
-    controlledVocabularies: [],
   }, {
     iri: "https://mff-uk.github.io/specifications/dcat-ap#Concept",
     tags: [ "https://w3id.org/dsv/class-role#supportive" ],
@@ -505,6 +503,8 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     },
     descriptionFromProfiled: null,
     descriptionProperty: null,
+    order: null,
+    controlledVocabularies: [],
   }
 ]
 Unable to merge entities with colliding id https://mff-uk.github.io/specifications/dcat-ap#LegalResource because they are of unsupported types. Falling back to the first one. [
@@ -527,8 +527,6 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     },
     descriptionFromProfiled: null,
     descriptionProperty: null,
-    order: null,
-    controlledVocabularies: [],
   }, {
     iri: "https://mff-uk.github.io/specifications/dcat-ap#LegalResource",
     tags: [ "https://w3id.org/dsv/class-role#supportive" ],
@@ -548,6 +546,8 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     },
     descriptionFromProfiled: null,
     descriptionProperty: null,
+    order: null,
+    controlledVocabularies: [],
   }
 ]
 Unable to merge entities with colliding id https://mff-uk.github.io/specifications/dcat-ap#Location because they are of unsupported types. Falling back to the first one. [
@@ -568,8 +568,6 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     description: {},
     descriptionFromProfiled: "https://mff-uk.github.io/specifications/dcat-dap#Location",
     descriptionProperty: "http://www.w3.org/2004/02/skos/core#definition",
-    order: null,
-    controlledVocabularies: [],
   }, {
     iri: "https://mff-uk.github.io/specifications/dcat-ap#Location",
     tags: [ "https://w3id.org/dsv/class-role#main" ],
@@ -587,6 +585,8 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     description: {},
     descriptionFromProfiled: "https://mff-uk.github.io/specifications/dcat-dap#Location",
     descriptionProperty: "http://www.w3.org/2004/02/skos/core#definition",
+    order: null,
+    controlledVocabularies: [],
   }
 ]
 Unable to merge entities with colliding id https://mff-uk.github.io/specifications/dcat-ap#Document because they are of unsupported types. Falling back to the first one. [
@@ -607,8 +607,6 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     },
     descriptionFromProfiled: null,
     descriptionProperty: null,
-    order: null,
-    controlledVocabularies: [],
   }, {
     iri: "https://mff-uk.github.io/specifications/dcat-ap#Document",
     tags: [ "https://w3id.org/dsv/class-role#supportive" ],
@@ -626,6 +624,8 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     },
     descriptionFromProfiled: null,
     descriptionProperty: null,
+    order: null,
+    controlledVocabularies: [],
   }
 ]
 Unable to merge entities with colliding id https://mff-uk.github.io/specifications/dcat-ap#LinguisticSystem because they are of unsupported types. Falling back to the first one. [
@@ -646,8 +646,6 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     },
     descriptionFromProfiled: null,
     descriptionProperty: null,
-    order: null,
-    controlledVocabularies: [],
   }, {
     iri: "https://mff-uk.github.io/specifications/dcat-ap#LinguisticSystem",
     tags: [ "https://w3id.org/dsv/class-role#supportive" ],
@@ -665,6 +663,8 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     },
     descriptionFromProfiled: null,
     descriptionProperty: null,
+    order: null,
+    controlledVocabularies: [],
   }
 ]
 Unable to merge entities with colliding id https://mff-uk.github.io/specifications/dcat-ap#LicenceDocument because they are of unsupported types. Falling back to the first one. [
@@ -685,8 +685,6 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     description: {},
     descriptionFromProfiled: "https://mff-uk.github.io/specifications/dcat-dap#LicenseDocument",
     descriptionProperty: "http://www.w3.org/2004/02/skos/core#definition",
-    order: null,
-    controlledVocabularies: [],
   }, {
     iri: "https://mff-uk.github.io/specifications/dcat-ap#LicenceDocument",
     tags: [ "https://w3id.org/dsv/class-role#main" ],
@@ -704,6 +702,8 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     description: {},
     descriptionFromProfiled: "https://mff-uk.github.io/specifications/dcat-dap#LicenseDocument",
     descriptionProperty: "http://www.w3.org/2004/02/skos/core#definition",
+    order: null,
+    controlledVocabularies: [],
   }
 ]
 Unable to merge entities with colliding id https://mff-uk.github.io/specifications/dcat-ap#RightsStatement because they are of unsupported types. Falling back to the first one. [
@@ -722,8 +722,6 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     description: {},
     descriptionFromProfiled: "https://mff-uk.github.io/specifications/dcat-dap#RightsStatement",
     descriptionProperty: "http://www.w3.org/2004/02/skos/core#definition",
-    order: null,
-    controlledVocabularies: [],
   }, {
     iri: "https://mff-uk.github.io/specifications/dcat-ap#RightsStatement",
     tags: [ "https://w3id.org/dsv/class-role#supportive" ],
@@ -739,6 +737,8 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     description: {},
     descriptionFromProfiled: "https://mff-uk.github.io/specifications/dcat-dap#RightsStatement",
     descriptionProperty: "http://www.w3.org/2004/02/skos/core#definition",
+    order: null,
+    controlledVocabularies: [],
   }
 ]
 Unable to merge entities with colliding id https://mff-uk.github.io/specifications/dcat-ap#Standard because they are of unsupported types. Falling back to the first one. [
@@ -759,8 +759,6 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     },
     descriptionFromProfiled: null,
     descriptionProperty: null,
-    order: null,
-    controlledVocabularies: [],
   }, {
     iri: "https://mff-uk.github.io/specifications/dcat-ap#Standard",
     tags: [ "https://w3id.org/dsv/class-role#supportive" ],
@@ -778,6 +776,8 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     },
     descriptionFromProfiled: null,
     descriptionProperty: null,
+    order: null,
+    controlledVocabularies: [],
   }
 ]
 Unable to merge entities with colliding id https://mff-uk.github.io/specifications/dcat-ap#rdfs-Resource because they are of unsupported types. Falling back to the first one. [
@@ -798,8 +798,6 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     },
     descriptionFromProfiled: null,
     descriptionProperty: null,
-    order: null,
-    controlledVocabularies: [],
   }, {
     iri: "https://mff-uk.github.io/specifications/dcat-ap#rdfs-Resource",
     tags: [ "https://w3id.org/dsv/class-role#supportive" ],
@@ -817,6 +815,8 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     },
     descriptionFromProfiled: null,
     descriptionProperty: null,
+    order: null,
+    controlledVocabularies: [],
   }
 ]
 Unable to merge entities with colliding id https://mff-uk.github.io/specifications/dcat-ap#ProvenanceStatement because they are of unsupported types. Falling back to the first one. [
@@ -835,8 +835,6 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     description: {},
     descriptionFromProfiled: "http://purl.org/dc/terms/ProvenanceStatement",
     descriptionProperty: "http://www.w3.org/2004/02/skos/core#definition",
-    order: null,
-    controlledVocabularies: [],
   }, {
     iri: "https://mff-uk.github.io/specifications/dcat-ap#ProvenanceStatement",
     tags: [ "https://w3id.org/dsv/class-role#supportive" ],
@@ -852,6 +850,8 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     description: {},
     descriptionFromProfiled: "http://purl.org/dc/terms/ProvenanceStatement",
     descriptionProperty: "http://www.w3.org/2004/02/skos/core#definition",
+    order: null,
+    controlledVocabularies: [],
   }
 ]
 Unable to merge entities with colliding id https://mff-uk.github.io/specifications/dcat-ap#Policy because they are of unsupported types. Falling back to the first one. [
@@ -872,8 +872,6 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     },
     descriptionFromProfiled: null,
     descriptionProperty: null,
-    order: null,
-    controlledVocabularies: [],
   }, {
     iri: "https://mff-uk.github.io/specifications/dcat-ap#Policy",
     tags: [ "https://w3id.org/dsv/class-role#supportive" ],
@@ -891,6 +889,8 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     },
     descriptionFromProfiled: null,
     descriptionProperty: null,
+    order: null,
+    controlledVocabularies: [],
   }
 ]
 Unable to merge entities with colliding id https://mff-uk.github.io/specifications/dcat-ap#PeriodOfTime because they are of unsupported types. Falling back to the first one. [
@@ -909,8 +909,6 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     description: {},
     descriptionFromProfiled: "https://mff-uk.github.io/specifications/dcat-dap#PeriodOfTime",
     descriptionProperty: "http://www.w3.org/2004/02/skos/core#definition",
-    order: null,
-    controlledVocabularies: [],
   }, {
     iri: "https://mff-uk.github.io/specifications/dcat-ap#PeriodOfTime",
     tags: [ "https://w3id.org/dsv/class-role#supportive" ],
@@ -926,6 +924,8 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     description: {},
     descriptionFromProfiled: "https://mff-uk.github.io/specifications/dcat-dap#PeriodOfTime",
     descriptionProperty: "http://www.w3.org/2004/02/skos/core#definition",
+    order: null,
+    controlledVocabularies: [],
   }
 ]
 Unable to merge entities with colliding id https://mff-uk.github.io/specifications/dcat-ap#MediaTypeOrExtent because they are of unsupported types. Falling back to the first one. [
@@ -944,8 +944,6 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     description: {},
     descriptionFromProfiled: "https://mff-uk.github.io/specifications/dcat-dap#MediaTypeOrExtent",
     descriptionProperty: "http://www.w3.org/2004/02/skos/core#definition",
-    order: null,
-    controlledVocabularies: [],
   }, {
     iri: "https://mff-uk.github.io/specifications/dcat-ap#MediaTypeOrExtent",
     tags: [ "https://w3id.org/dsv/class-role#supportive" ],
@@ -961,6 +959,8 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     description: {},
     descriptionFromProfiled: "https://mff-uk.github.io/specifications/dcat-dap#MediaTypeOrExtent",
     descriptionProperty: "http://www.w3.org/2004/02/skos/core#definition",
+    order: null,
+    controlledVocabularies: [],
   }
 ]
 Unable to merge entities with colliding id https://mff-uk.github.io/specifications/dcat-ap#MediaType because they are of unsupported types. Falling back to the first one. [
@@ -979,8 +979,6 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     description: {},
     descriptionFromProfiled: "https://mff-uk.github.io/specifications/dcat-dap#MediaType",
     descriptionProperty: "http://www.w3.org/2004/02/skos/core#definition",
-    order: null,
-    controlledVocabularies: [],
   }, {
     iri: "https://mff-uk.github.io/specifications/dcat-ap#MediaType",
     tags: [ "https://w3id.org/dsv/class-role#supportive" ],
@@ -996,6 +994,8 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     description: {},
     descriptionFromProfiled: "https://mff-uk.github.io/specifications/dcat-dap#MediaType",
     descriptionProperty: "http://www.w3.org/2004/02/skos/core#definition",
+    order: null,
+    controlledVocabularies: [],
   }
 ]
 Unable to merge entities with colliding id https://mff-uk.github.io/specifications/dcat-ap#Identifier because they are of unsupported types. Falling back to the first one. [
@@ -1018,8 +1018,6 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     },
     descriptionFromProfiled: null,
     descriptionProperty: null,
-    order: null,
-    controlledVocabularies: [],
   }, {
     iri: "https://mff-uk.github.io/specifications/dcat-ap#Identifier",
     tags: [ "https://w3id.org/dsv/class-role#supportive" ],
@@ -1039,6 +1037,8 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     },
     descriptionFromProfiled: null,
     descriptionProperty: null,
+    order: null,
+    controlledVocabularies: [],
   }
 ]
 Unable to merge entities with colliding id https://mff-uk.github.io/specifications/dcat-ap#Geometry because they are of unsupported types. Falling back to the first one. [
@@ -1057,8 +1057,6 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     description: {},
     descriptionFromProfiled: "https://mff-uk.github.io/specifications/dcat-dap#Geometry",
     descriptionProperty: "http://www.w3.org/2004/02/skos/core#definition",
-    order: null,
-    controlledVocabularies: [],
   }, {
     iri: "https://mff-uk.github.io/specifications/dcat-ap#Geometry",
     tags: [ "https://w3id.org/dsv/class-role#supportive" ],
@@ -1074,6 +1072,8 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     description: {},
     descriptionFromProfiled: "https://mff-uk.github.io/specifications/dcat-dap#Geometry",
     descriptionProperty: "http://www.w3.org/2004/02/skos/core#definition",
+    order: null,
+    controlledVocabularies: [],
   }
 ]
 Unable to merge entities with colliding id https://mff-uk.github.io/specifications/dcat-ap#Frequency because they are of unsupported types. Falling back to the first one. [
@@ -1094,8 +1094,6 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     },
     descriptionFromProfiled: null,
     descriptionProperty: null,
-    order: null,
-    controlledVocabularies: [],
   }, {
     iri: "https://mff-uk.github.io/specifications/dcat-ap#Frequency",
     tags: [ "https://w3id.org/dsv/class-role#supportive" ],
@@ -1113,6 +1111,8 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     },
     descriptionFromProfiled: null,
     descriptionProperty: null,
+    order: null,
+    controlledVocabularies: [],
   }
 ]
 Unable to merge entities with colliding id https://mff-uk.github.io/specifications/dcat-ap#ConceptScheme because they are of unsupported types. Falling back to the first one. [
@@ -1135,8 +1135,6 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     },
     descriptionFromProfiled: null,
     descriptionProperty: null,
-    order: null,
-    controlledVocabularies: [],
   }, {
     iri: "https://mff-uk.github.io/specifications/dcat-ap#ConceptScheme",
     tags: [ "https://w3id.org/dsv/class-role#supportive" ],
@@ -1156,6 +1154,8 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     },
     descriptionFromProfiled: null,
     descriptionProperty: null,
+    order: null,
+    controlledVocabularies: [],
   }
 ]
 Unable to merge entities with colliding id https://mff-uk.github.io/specifications/dcat-ap#ChecksumAlgorithm because they are of unsupported types. Falling back to the first one. [
@@ -1174,8 +1174,6 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     description: {},
     descriptionFromProfiled: "https://mff-uk.github.io/specifications/dcat-dap#ChecksumAlgorithm",
     descriptionProperty: "http://www.w3.org/2004/02/skos/core#definition",
-    order: null,
-    controlledVocabularies: [],
   }, {
     iri: "https://mff-uk.github.io/specifications/dcat-ap#ChecksumAlgorithm",
     tags: [ "https://w3id.org/dsv/class-role#supportive" ],
@@ -1191,6 +1189,8 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     description: {},
     descriptionFromProfiled: "https://mff-uk.github.io/specifications/dcat-dap#ChecksumAlgorithm",
     descriptionProperty: "http://www.w3.org/2004/02/skos/core#definition",
+    order: null,
+    controlledVocabularies: [],
   }
 ]
 Unable to merge entities with colliding id https://mff-uk.github.io/specifications/dcat-ap#Attribution because they are of unsupported types. Falling back to the first one. [
@@ -1211,8 +1211,6 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     },
     descriptionFromProfiled: null,
     descriptionProperty: null,
-    order: null,
-    controlledVocabularies: [],
   }, {
     iri: "https://mff-uk.github.io/specifications/dcat-ap#Attribution",
     tags: [ "https://w3id.org/dsv/class-role#supportive" ],
@@ -1230,6 +1228,8 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     },
     descriptionFromProfiled: null,
     descriptionProperty: null,
+    order: null,
+    controlledVocabularies: [],
   }
 ]
 Unable to merge entities with colliding id https://mff-uk.github.io/specifications/dcat-ap#Activity because they are of unsupported types. Falling back to the first one. [
@@ -1250,8 +1250,6 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     },
     descriptionFromProfiled: null,
     descriptionProperty: null,
-    order: null,
-    controlledVocabularies: [],
   }, {
     iri: "https://mff-uk.github.io/specifications/dcat-ap#Activity",
     tags: [ "https://w3id.org/dsv/class-role#supportive" ],
@@ -1269,6 +1267,8 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     },
     descriptionFromProfiled: null,
     descriptionProperty: null,
+    order: null,
+    controlledVocabularies: [],
   }
 ]
 Unable to merge entities with colliding id https://mff-uk.github.io/specifications/dcat-ap#Kind because they are of unsupported types. Falling back to the first one. [
@@ -1291,8 +1291,6 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     },
     descriptionFromProfiled: null,
     descriptionProperty: null,
-    order: null,
-    controlledVocabularies: [],
   }, {
     iri: "https://mff-uk.github.io/specifications/dcat-ap#Kind",
     tags: [ "https://w3id.org/dsv/class-role#main" ],
@@ -1312,6 +1310,8 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     },
     descriptionFromProfiled: null,
     descriptionProperty: null,
+    order: null,
+    controlledVocabularies: [],
   }
 ]
 Unable to merge entities with colliding id https://mff-uk.github.io/specifications/dcat-ap#Checksum because they are of unsupported types. Falling back to the first one. [
@@ -1334,8 +1334,6 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     },
     descriptionFromProfiled: null,
     descriptionProperty: null,
-    order: null,
-    controlledVocabularies: [],
   }, {
     iri: "https://mff-uk.github.io/specifications/dcat-ap#Checksum",
     tags: [ "https://w3id.org/dsv/class-role#main" ],
@@ -1355,6 +1353,8 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     },
     descriptionFromProfiled: null,
     descriptionProperty: null,
+    order: null,
+    controlledVocabularies: [],
   }
 ]
 Unable to merge entities with colliding id https://mff-uk.github.io/specifications/dcat-ap#Instant because they are of unsupported types. Falling back to the first one. [
@@ -1373,8 +1373,6 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     description: {},
     descriptionFromProfiled: "https://mff-uk.github.io/specifications/dcat-dap#Instant",
     descriptionProperty: "http://www.w3.org/2004/02/skos/core#definition",
-    order: null,
-    controlledVocabularies: [],
   }, {
     iri: "https://mff-uk.github.io/specifications/dcat-ap#Instant",
     tags: [ "https://w3id.org/dsv/class-role#supportive" ],
@@ -1390,6 +1388,8 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     description: {},
     descriptionFromProfiled: "https://mff-uk.github.io/specifications/dcat-dap#Instant",
     descriptionProperty: "http://www.w3.org/2004/02/skos/core#definition",
+    order: null,
+    controlledVocabularies: [],
   }
 ]
 Unable to merge entities with colliding id https://mff-uk.github.io/specifications/dcat-dap#Catalog because they are of unsupported types. Falling back to the first one. [
@@ -1420,8 +1420,6 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     },
     descriptionFromProfiled: null,
     descriptionProperty: null,
-    order: null,
-    controlledVocabularies: [],
   }, {
     iri: "https://mff-uk.github.io/specifications/dcat-dap#Catalog",
     tags: [ "https://w3id.org/dsv/class-role#main" ],
@@ -1449,6 +1447,8 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     },
     descriptionFromProfiled: null,
     descriptionProperty: null,
+    order: null,
+    controlledVocabularies: [],
   }
 ]
 Unable to merge entities with colliding id https://mff-uk.github.io/specifications/dcat-dap#CatalogRecord because they are of unsupported types. Falling back to the first one. [
@@ -1478,8 +1478,6 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     },
     descriptionFromProfiled: null,
     descriptionProperty: null,
-    order: null,
-    controlledVocabularies: [],
   }, {
     iri: "https://mff-uk.github.io/specifications/dcat-dap#CatalogRecord",
     tags: [ "https://w3id.org/dsv/class-role#main" ],
@@ -1506,6 +1504,8 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     },
     descriptionFromProfiled: null,
     descriptionProperty: null,
+    order: null,
+    controlledVocabularies: [],
   }
 ]
 Unable to merge entities with colliding id https://mff-uk.github.io/specifications/dcat-dap#Dataset because they are of unsupported types. Falling back to the first one. [
@@ -1524,8 +1524,6 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     description: {},
     descriptionFromProfiled: "http://www.w3.org/ns/dcat#Dataset",
     descriptionProperty: "http://www.w3.org/2004/02/skos/core#definition",
-    order: null,
-    controlledVocabularies: [],
   }, {
     iri: "https://mff-uk.github.io/specifications/dcat-dap#Dataset",
     tags: [ "https://w3id.org/dsv/class-role#main" ],
@@ -1541,6 +1539,8 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     description: {},
     descriptionFromProfiled: "http://www.w3.org/ns/dcat#Dataset",
     descriptionProperty: "http://www.w3.org/2004/02/skos/core#definition",
+    order: null,
+    controlledVocabularies: [],
   }
 ]
 Unable to merge entities with colliding id https://mff-uk.github.io/specifications/dcat-dap#CatalogedResource because they are of unsupported types. Falling back to the first one. [
@@ -1567,8 +1567,6 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     description: {},
     descriptionFromProfiled: "http://www.w3.org/ns/dcat#Resource",
     descriptionProperty: "http://www.w3.org/2004/02/skos/core#definition",
-    order: null,
-    controlledVocabularies: [],
   }, {
     iri: "https://mff-uk.github.io/specifications/dcat-dap#CatalogedResource",
     tags: [ "https://w3id.org/dsv/class-role#main" ],
@@ -1592,6 +1590,8 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     description: {},
     descriptionFromProfiled: "http://www.w3.org/ns/dcat#Resource",
     descriptionProperty: "http://www.w3.org/2004/02/skos/core#definition",
+    order: null,
+    controlledVocabularies: [],
   }
 ]
 Unable to merge entities with colliding id https://mff-uk.github.io/specifications/dcat-dap#Document because they are of unsupported types. Falling back to the first one. [
@@ -1610,8 +1610,6 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     description: {},
     descriptionFromProfiled: "http://xmlns.com/foaf/0.1/Document",
     descriptionProperty: "http://www.w3.org/2004/02/skos/core#definition",
-    order: null,
-    controlledVocabularies: [],
   }, {
     iri: "https://mff-uk.github.io/specifications/dcat-dap#Document",
     tags: [ "https://w3id.org/dsv/class-role#supportive" ],
@@ -1627,6 +1625,8 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     description: {},
     descriptionFromProfiled: "http://xmlns.com/foaf/0.1/Document",
     descriptionProperty: "http://www.w3.org/2004/02/skos/core#definition",
+    order: null,
+    controlledVocabularies: [],
   }
 ]
 Unable to merge entities with colliding id https://mff-uk.github.io/specifications/dcat-dap#rdfs-Resource because they are of unsupported types. Falling back to the first one. [
@@ -1645,8 +1645,6 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     description: {},
     descriptionFromProfiled: "http://www.w3.org/2000/01/rdf-schema#Resource",
     descriptionProperty: "http://www.w3.org/2004/02/skos/core#definition",
-    order: null,
-    controlledVocabularies: [],
   }, {
     iri: "https://mff-uk.github.io/specifications/dcat-dap#rdfs-Resource",
     tags: [ "https://w3id.org/dsv/class-role#supportive" ],
@@ -1662,6 +1660,8 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     description: {},
     descriptionFromProfiled: "http://www.w3.org/2000/01/rdf-schema#Resource",
     descriptionProperty: "http://www.w3.org/2004/02/skos/core#definition",
+    order: null,
+    controlledVocabularies: [],
   }
 ]
 Unable to merge entities with colliding id https://mff-uk.github.io/specifications/dcat-dap#DataService because they are of unsupported types. Falling back to the first one. [
@@ -1693,8 +1693,6 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     },
     descriptionFromProfiled: null,
     descriptionProperty: null,
-    order: null,
-    controlledVocabularies: [],
   }, {
     iri: "https://mff-uk.github.io/specifications/dcat-dap#DataService",
     tags: [ "https://w3id.org/dsv/class-role#main" ],
@@ -1723,6 +1721,8 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     },
     descriptionFromProfiled: null,
     descriptionProperty: null,
+    order: null,
+    controlledVocabularies: [],
   }
 ]
 Unable to merge entities with colliding id https://mff-uk.github.io/specifications/dcat-dap#RightsStatement because they are of unsupported types. Falling back to the first one. [
@@ -1741,8 +1741,6 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     description: {},
     descriptionFromProfiled: "http://purl.org/dc/terms/RightsStatement",
     descriptionProperty: "http://www.w3.org/2004/02/skos/core#definition",
-    order: null,
-    controlledVocabularies: [],
   }, {
     iri: "https://mff-uk.github.io/specifications/dcat-dap#RightsStatement",
     tags: [ "https://w3id.org/dsv/class-role#supportive" ],
@@ -1758,6 +1756,8 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     description: {},
     descriptionFromProfiled: "http://purl.org/dc/terms/RightsStatement",
     descriptionProperty: "http://www.w3.org/2004/02/skos/core#definition",
+    order: null,
+    controlledVocabularies: [],
   }
 ]
 Unable to merge entities with colliding id https://mff-uk.github.io/specifications/dcat-dap#Standard because they are of unsupported types. Falling back to the first one. [
@@ -1776,8 +1776,6 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     description: {},
     descriptionFromProfiled: "http://purl.org/dc/terms/Standard",
     descriptionProperty: "http://www.w3.org/2004/02/skos/core#definition",
-    order: null,
-    controlledVocabularies: [],
   }, {
     iri: "https://mff-uk.github.io/specifications/dcat-dap#Standard",
     tags: [ "https://w3id.org/dsv/class-role#supportive" ],
@@ -1793,6 +1791,8 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     description: {},
     descriptionFromProfiled: "http://purl.org/dc/terms/Standard",
     descriptionProperty: "http://www.w3.org/2004/02/skos/core#definition",
+    order: null,
+    controlledVocabularies: [],
   }
 ]
 Unable to merge entities with colliding id https://mff-uk.github.io/specifications/dcat-dap#Kind because they are of unsupported types. Falling back to the first one. [
@@ -1811,8 +1811,6 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     description: {},
     descriptionFromProfiled: "http://www.w3.org/2006/vcard/ns#Kind",
     descriptionProperty: "http://www.w3.org/2004/02/skos/core#definition",
-    order: null,
-    controlledVocabularies: [],
   }, {
     iri: "https://mff-uk.github.io/specifications/dcat-dap#Kind",
     tags: [ "https://w3id.org/dsv/class-role#supportive" ],
@@ -1828,6 +1826,8 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     description: {},
     descriptionFromProfiled: "http://www.w3.org/2006/vcard/ns#Kind",
     descriptionProperty: "http://www.w3.org/2004/02/skos/core#definition",
+    order: null,
+    controlledVocabularies: [],
   }
 ]
 Unable to merge entities with colliding id https://mff-uk.github.io/specifications/dcat-dap#Agent because they are of unsupported types. Falling back to the first one. [
@@ -1846,8 +1846,6 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     description: {},
     descriptionFromProfiled: "http://xmlns.com/foaf/0.1/Agent",
     descriptionProperty: "http://www.w3.org/2004/02/skos/core#definition",
-    order: null,
-    controlledVocabularies: [],
   }, {
     iri: "https://mff-uk.github.io/specifications/dcat-dap#Agent",
     tags: [ "https://w3id.org/dsv/class-role#supportive" ],
@@ -1863,6 +1861,8 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     description: {},
     descriptionFromProfiled: "http://xmlns.com/foaf/0.1/Agent",
     descriptionProperty: "http://www.w3.org/2004/02/skos/core#definition",
+    order: null,
+    controlledVocabularies: [],
   }
 ]
 Unable to merge entities with colliding id https://mff-uk.github.io/specifications/dcat-dap#LinguisticSystem because they are of unsupported types. Falling back to the first one. [
@@ -1881,8 +1881,6 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     description: {},
     descriptionFromProfiled: "http://purl.org/dc/terms/LinguisticSystem",
     descriptionProperty: "http://www.w3.org/2004/02/skos/core#definition",
-    order: null,
-    controlledVocabularies: [],
   }, {
     iri: "https://mff-uk.github.io/specifications/dcat-dap#LinguisticSystem",
     tags: [ "https://w3id.org/dsv/class-role#supportive" ],
@@ -1898,6 +1896,8 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     description: {},
     descriptionFromProfiled: "http://purl.org/dc/terms/LinguisticSystem",
     descriptionProperty: "http://www.w3.org/2004/02/skos/core#definition",
+    order: null,
+    controlledVocabularies: [],
   }
 ]
 Unable to merge entities with colliding id https://mff-uk.github.io/specifications/dcat-dap#Class because they are of unsupported types. Falling back to the first one. [
@@ -1916,8 +1916,6 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     description: {},
     descriptionFromProfiled: "http://www.w3.org/2000/01/rdf-schema#Class",
     descriptionProperty: "http://www.w3.org/2004/02/skos/core#definition",
-    order: null,
-    controlledVocabularies: [],
   }, {
     iri: "https://mff-uk.github.io/specifications/dcat-dap#Class",
     tags: [ "https://w3id.org/dsv/class-role#supportive" ],
@@ -1933,6 +1931,8 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     description: {},
     descriptionFromProfiled: "http://www.w3.org/2000/01/rdf-schema#Class",
     descriptionProperty: "http://www.w3.org/2004/02/skos/core#definition",
+    order: null,
+    controlledVocabularies: [],
   }
 ]
 Unable to merge entities with colliding id https://mff-uk.github.io/specifications/dcat-dap#Relationship because they are of unsupported types. Falling back to the first one. [
@@ -1953,8 +1953,6 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     description: {},
     descriptionFromProfiled: "http://www.w3.org/ns/dcat#Relationship",
     descriptionProperty: "http://www.w3.org/2004/02/skos/core#definition",
-    order: null,
-    controlledVocabularies: [],
   }, {
     iri: "https://mff-uk.github.io/specifications/dcat-dap#Relationship",
     tags: [ "https://w3id.org/dsv/class-role#main" ],
@@ -1972,6 +1970,8 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     description: {},
     descriptionFromProfiled: "http://www.w3.org/ns/dcat#Relationship",
     descriptionProperty: "http://www.w3.org/2004/02/skos/core#definition",
+    order: null,
+    controlledVocabularies: [],
   }
 ]
 Unable to merge entities with colliding id https://mff-uk.github.io/specifications/dcat-dap#Attribution because they are of unsupported types. Falling back to the first one. [
@@ -1990,8 +1990,6 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     description: {},
     descriptionFromProfiled: "http://www.w3.org/ns/prov#Attribution",
     descriptionProperty: "http://www.w3.org/2004/02/skos/core#definition",
-    order: null,
-    controlledVocabularies: [],
   }, {
     iri: "https://mff-uk.github.io/specifications/dcat-dap#Attribution",
     tags: [ "https://w3id.org/dsv/class-role#supportive" ],
@@ -2007,6 +2005,8 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     description: {},
     descriptionFromProfiled: "http://www.w3.org/ns/prov#Attribution",
     descriptionProperty: "http://www.w3.org/2004/02/skos/core#definition",
+    order: null,
+    controlledVocabularies: [],
   }
 ]
 Unable to merge entities with colliding id https://mff-uk.github.io/specifications/dcat-dap#LicenseDocument because they are of unsupported types. Falling back to the first one. [
@@ -2025,8 +2025,6 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     description: {},
     descriptionFromProfiled: "http://purl.org/dc/terms/LicenseDocument",
     descriptionProperty: "http://www.w3.org/2004/02/skos/core#definition",
-    order: null,
-    controlledVocabularies: [],
   }, {
     iri: "https://mff-uk.github.io/specifications/dcat-dap#LicenseDocument",
     tags: [ "https://w3id.org/dsv/class-role#supportive" ],
@@ -2042,6 +2040,8 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     description: {},
     descriptionFromProfiled: "http://purl.org/dc/terms/LicenseDocument",
     descriptionProperty: "http://www.w3.org/2004/02/skos/core#definition",
+    order: null,
+    controlledVocabularies: [],
   }
 ]
 Unable to merge entities with colliding id https://mff-uk.github.io/specifications/dcat-dap#Policy because they are of unsupported types. Falling back to the first one. [
@@ -2060,8 +2060,6 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     description: {},
     descriptionFromProfiled: "http://www.w3.org/ns/odrl/2/Policy",
     descriptionProperty: "http://www.w3.org/2004/02/skos/core#definition",
-    order: null,
-    controlledVocabularies: [],
   }, {
     iri: "https://mff-uk.github.io/specifications/dcat-dap#Policy",
     tags: [ "https://w3id.org/dsv/class-role#supportive" ],
@@ -2077,6 +2075,8 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     description: {},
     descriptionFromProfiled: "http://www.w3.org/ns/odrl/2/Policy",
     descriptionProperty: "http://www.w3.org/2004/02/skos/core#definition",
+    order: null,
+    controlledVocabularies: [],
   }
 ]
 Unable to merge entities with colliding id https://mff-uk.github.io/specifications/dcat-dap#Distribution because they are of unsupported types. Falling back to the first one. [
@@ -2097,8 +2097,6 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     description: {},
     descriptionFromProfiled: "http://www.w3.org/ns/dcat#Distribution",
     descriptionProperty: "http://www.w3.org/2004/02/skos/core#definition",
-    order: null,
-    controlledVocabularies: [],
   }, {
     iri: "https://mff-uk.github.io/specifications/dcat-dap#Distribution",
     tags: [ "https://w3id.org/dsv/class-role#main" ],
@@ -2116,6 +2114,8 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     description: {},
     descriptionFromProfiled: "http://www.w3.org/ns/dcat#Distribution",
     descriptionProperty: "http://www.w3.org/2004/02/skos/core#definition",
+    order: null,
+    controlledVocabularies: [],
   }
 ]
 Unable to merge entities with colliding id https://mff-uk.github.io/specifications/dcat-dap#DatasetSeries because they are of unsupported types. Falling back to the first one. [
@@ -2140,8 +2140,6 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     description: {},
     descriptionFromProfiled: "http://www.w3.org/ns/dcat#DatasetSeries",
     descriptionProperty: "http://www.w3.org/2004/02/skos/core#definition",
-    order: null,
-    controlledVocabularies: [],
   }, {
     iri: "https://mff-uk.github.io/specifications/dcat-dap#DatasetSeries",
     tags: [ "https://w3id.org/dsv/class-role#main" ],
@@ -2163,6 +2161,8 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     description: {},
     descriptionFromProfiled: "http://www.w3.org/ns/dcat#DatasetSeries",
     descriptionProperty: "http://www.w3.org/2004/02/skos/core#definition",
+    order: null,
+    controlledVocabularies: [],
   }
 ]
 Unable to merge entities with colliding id https://mff-uk.github.io/specifications/dcat-dap#Frequency because they are of unsupported types. Falling back to the first one. [
@@ -2181,8 +2181,6 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     description: {},
     descriptionFromProfiled: "http://purl.org/dc/terms/Frequency",
     descriptionProperty: "http://www.w3.org/2004/02/skos/core#definition",
-    order: null,
-    controlledVocabularies: [],
   }, {
     iri: "https://mff-uk.github.io/specifications/dcat-dap#Frequency",
     tags: [ "https://w3id.org/dsv/class-role#supportive" ],
@@ -2198,6 +2196,8 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     description: {},
     descriptionFromProfiled: "http://purl.org/dc/terms/Frequency",
     descriptionProperty: "http://www.w3.org/2004/02/skos/core#definition",
+    order: null,
+    controlledVocabularies: [],
   }
 ]
 Unable to merge entities with colliding id https://mff-uk.github.io/specifications/dcat-dap#Location because they are of unsupported types. Falling back to the first one. [
@@ -2218,8 +2218,6 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     description: {},
     descriptionFromProfiled: "http://purl.org/dc/terms/Location",
     descriptionProperty: "http://www.w3.org/2004/02/skos/core#definition",
-    order: null,
-    controlledVocabularies: [],
   }, {
     iri: "https://mff-uk.github.io/specifications/dcat-dap#Location",
     tags: [ "https://w3id.org/dsv/class-role#main" ],
@@ -2237,6 +2235,8 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     description: {},
     descriptionFromProfiled: "http://purl.org/dc/terms/Location",
     descriptionProperty: "http://www.w3.org/2004/02/skos/core#definition",
+    order: null,
+    controlledVocabularies: [],
   }
 ]
 Unable to merge entities with colliding id https://mff-uk.github.io/specifications/dcat-dap#PeriodOfTime because they are of unsupported types. Falling back to the first one. [
@@ -2259,8 +2259,6 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     },
     descriptionFromProfiled: null,
     descriptionProperty: null,
-    order: null,
-    controlledVocabularies: [],
   }, {
     iri: "https://mff-uk.github.io/specifications/dcat-dap#PeriodOfTime",
     tags: [ "https://w3id.org/dsv/class-role#main" ],
@@ -2280,6 +2278,8 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     },
     descriptionFromProfiled: null,
     descriptionProperty: null,
+    order: null,
+    controlledVocabularies: [],
   }
 ]
 Unable to merge entities with colliding id https://mff-uk.github.io/specifications/dcat-dap#Entity because they are of unsupported types. Falling back to the first one. [
@@ -2298,8 +2298,6 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     description: {},
     descriptionFromProfiled: "http://www.w3.org/ns/prov#Entity",
     descriptionProperty: "http://www.w3.org/2004/02/skos/core#definition",
-    order: null,
-    controlledVocabularies: [],
   }, {
     iri: "https://mff-uk.github.io/specifications/dcat-dap#Entity",
     tags: [ "https://w3id.org/dsv/class-role#supportive" ],
@@ -2315,6 +2313,8 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     description: {},
     descriptionFromProfiled: "http://www.w3.org/ns/prov#Entity",
     descriptionProperty: "http://www.w3.org/2004/02/skos/core#definition",
+    order: null,
+    controlledVocabularies: [],
   }
 ]
 Unable to merge entities with colliding id https://mff-uk.github.io/specifications/dcat-dap#MediaType because they are of unsupported types. Falling back to the first one. [
@@ -2333,8 +2333,6 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     description: {},
     descriptionFromProfiled: "http://purl.org/dc/terms/MediaType",
     descriptionProperty: "http://www.w3.org/2004/02/skos/core#definition",
-    order: null,
-    controlledVocabularies: [],
   }, {
     iri: "https://mff-uk.github.io/specifications/dcat-dap#MediaType",
     tags: [ "https://w3id.org/dsv/class-role#supportive" ],
@@ -2350,6 +2348,8 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     description: {},
     descriptionFromProfiled: "http://purl.org/dc/terms/MediaType",
     descriptionProperty: "http://www.w3.org/2004/02/skos/core#definition",
+    order: null,
+    controlledVocabularies: [],
   }
 ]
 Unable to merge entities with colliding id https://mff-uk.github.io/specifications/dcat-dap#MediaTypeOrExtent because they are of unsupported types. Falling back to the first one. [
@@ -2368,8 +2368,6 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     description: {},
     descriptionFromProfiled: "http://purl.org/dc/terms/MediaTypeOrExtent",
     descriptionProperty: "http://www.w3.org/2004/02/skos/core#definition",
-    order: null,
-    controlledVocabularies: [],
   }, {
     iri: "https://mff-uk.github.io/specifications/dcat-dap#MediaTypeOrExtent",
     tags: [ "https://w3id.org/dsv/class-role#supportive" ],
@@ -2385,6 +2383,8 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     description: {},
     descriptionFromProfiled: "http://purl.org/dc/terms/MediaTypeOrExtent",
     descriptionProperty: "http://www.w3.org/2004/02/skos/core#definition",
+    order: null,
+    controlledVocabularies: [],
   }
 ]
 Unable to merge entities with colliding id https://mff-uk.github.io/specifications/dcat-dap#Concept because they are of unsupported types. Falling back to the first one. [
@@ -2407,8 +2407,6 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     },
     descriptionFromProfiled: null,
     descriptionProperty: null,
-    order: null,
-    controlledVocabularies: [],
   }, {
     iri: "https://mff-uk.github.io/specifications/dcat-dap#Concept",
     tags: [ "https://w3id.org/dsv/class-role#main" ],
@@ -2428,6 +2426,8 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     },
     descriptionFromProfiled: null,
     descriptionProperty: null,
+    order: null,
+    controlledVocabularies: [],
   }
 ]
 Unable to merge entities with colliding id https://mff-uk.github.io/specifications/dcat-dap#ConceptScheme because they are of unsupported types. Falling back to the first one. [
@@ -2448,8 +2448,6 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     },
     descriptionFromProfiled: null,
     descriptionProperty: null,
-    order: null,
-    controlledVocabularies: [],
   }, {
     iri: "https://mff-uk.github.io/specifications/dcat-dap#ConceptScheme",
     tags: [ "https://w3id.org/dsv/class-role#main" ],
@@ -2467,6 +2465,8 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     },
     descriptionFromProfiled: null,
     descriptionProperty: null,
+    order: null,
+    controlledVocabularies: [],
   }
 ]
 Unable to merge entities with colliding id https://mff-uk.github.io/specifications/dcat-dap#Person because they are of unsupported types. Falling back to the first one. [
@@ -2487,8 +2487,6 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     description: {},
     descriptionFromProfiled: "http://xmlns.com/foaf/0.1/Person",
     descriptionProperty: "http://www.w3.org/2004/02/skos/core#definition",
-    order: null,
-    controlledVocabularies: [],
   }, {
     iri: "https://mff-uk.github.io/specifications/dcat-dap#Person",
     tags: [ "https://w3id.org/dsv/class-role#main" ],
@@ -2506,6 +2504,8 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     description: {},
     descriptionFromProfiled: "http://xmlns.com/foaf/0.1/Person",
     descriptionProperty: "http://www.w3.org/2004/02/skos/core#definition",
+    order: null,
+    controlledVocabularies: [],
   }
 ]
 Unable to merge entities with colliding id https://mff-uk.github.io/specifications/dcat-dap#Organization because they are of unsupported types. Falling back to the first one. [
@@ -2526,8 +2526,6 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     description: {},
     descriptionFromProfiled: "http://xmlns.com/foaf/0.1/Organization",
     descriptionProperty: "http://www.w3.org/2004/02/skos/core#definition",
-    order: null,
-    controlledVocabularies: [],
   }, {
     iri: "https://mff-uk.github.io/specifications/dcat-dap#Organization",
     tags: [ "https://w3id.org/dsv/class-role#main" ],
@@ -2545,6 +2543,8 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     description: {},
     descriptionFromProfiled: "http://xmlns.com/foaf/0.1/Organization",
     descriptionProperty: "http://www.w3.org/2004/02/skos/core#definition",
+    order: null,
+    controlledVocabularies: [],
   }
 ]
 Unable to merge entities with colliding id https://mff-uk.github.io/specifications/dcat-dap#Role because they are of unsupported types. Falling back to the first one. [
@@ -2565,8 +2565,6 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     description: {},
     descriptionFromProfiled: "http://www.w3.org/ns/dcat#Role",
     descriptionProperty: "http://www.w3.org/2004/02/skos/core#definition",
-    order: null,
-    controlledVocabularies: [],
   }, {
     iri: "https://mff-uk.github.io/specifications/dcat-dap#Role",
     tags: [ "https://w3id.org/dsv/class-role#main" ],
@@ -2584,6 +2582,8 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     description: {},
     descriptionFromProfiled: "http://www.w3.org/ns/dcat#Role",
     descriptionProperty: "http://www.w3.org/2004/02/skos/core#definition",
+    order: null,
+    controlledVocabularies: [],
   }
 ]
 Unable to merge entities with colliding id https://mff-uk.github.io/specifications/dcat-dap#Instant because they are of unsupported types. Falling back to the first one. [
@@ -2602,8 +2602,6 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     description: {},
     descriptionFromProfiled: "http://www.w3.org/2006/time#Instant",
     descriptionProperty: "http://www.w3.org/2004/02/skos/core#definition",
-    order: null,
-    controlledVocabularies: [],
   }, {
     iri: "https://mff-uk.github.io/specifications/dcat-dap#Instant",
     tags: [ "https://w3id.org/dsv/class-role#supportive" ],
@@ -2619,6 +2617,8 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     description: {},
     descriptionFromProfiled: "http://www.w3.org/2006/time#Instant",
     descriptionProperty: "http://www.w3.org/2004/02/skos/core#definition",
+    order: null,
+    controlledVocabularies: [],
   }
 ]
 Unable to merge entities with colliding id https://mff-uk.github.io/specifications/dcat-dap#Geometry because they are of unsupported types. Falling back to the first one. [
@@ -2637,8 +2637,6 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     description: {},
     descriptionFromProfiled: "http://www.w3.org/ns/locn#Geometry",
     descriptionProperty: "http://www.w3.org/2004/02/skos/core#definition",
-    order: null,
-    controlledVocabularies: [],
   }, {
     iri: "https://mff-uk.github.io/specifications/dcat-dap#Geometry",
     tags: [ "https://w3id.org/dsv/class-role#supportive" ],
@@ -2654,6 +2652,8 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     description: {},
     descriptionFromProfiled: "http://www.w3.org/ns/locn#Geometry",
     descriptionProperty: "http://www.w3.org/2004/02/skos/core#definition",
+    order: null,
+    controlledVocabularies: [],
   }
 ]
 Unable to merge entities with colliding id https://mff-uk.github.io/specifications/dcat-dap#Checksum because they are of unsupported types. Falling back to the first one. [
@@ -2676,8 +2676,6 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     description: {},
     descriptionFromProfiled: "http://spdx.org/rdf/terms#Checksum",
     descriptionProperty: "http://www.w3.org/2004/02/skos/core#definition",
-    order: null,
-    controlledVocabularies: [],
   }, {
     iri: "https://mff-uk.github.io/specifications/dcat-dap#Checksum",
     tags: [ "https://w3id.org/dsv/class-role#main" ],
@@ -2697,6 +2695,8 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     description: {},
     descriptionFromProfiled: "http://spdx.org/rdf/terms#Checksum",
     descriptionProperty: "http://www.w3.org/2004/02/skos/core#definition",
+    order: null,
+    controlledVocabularies: [],
   }
 ]
 Unable to merge entities with colliding id https://mff-uk.github.io/specifications/dcat-dap#ChecksumAlgorithm because they are of unsupported types. Falling back to the first one. [
@@ -2717,8 +2717,6 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     description: {},
     descriptionFromProfiled: "http://spdx.org/rdf/terms#ChecksumAlgorithm",
     descriptionProperty: "http://www.w3.org/2004/02/skos/core#definition",
-    order: null,
-    controlledVocabularies: [],
   }, {
     iri: "https://mff-uk.github.io/specifications/dcat-dap#ChecksumAlgorithm",
     tags: [ "https://w3id.org/dsv/class-role#supportive" ],
@@ -2736,6 +2734,8 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     description: {},
     descriptionFromProfiled: "http://spdx.org/rdf/terms#ChecksumAlgorithm",
     descriptionProperty: "http://www.w3.org/2004/02/skos/core#definition",
+    order: null,
+    controlledVocabularies: [],
   }
 ]
 Unable to merge entities with colliding id https://mff-uk.github.io/specifications/dcat-ap#Catalogue because they are of unsupported types. Falling back to the first one. [
@@ -2774,8 +2774,6 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     },
     descriptionFromProfiled: null,
     descriptionProperty: null,
-    order: null,
-    controlledVocabularies: [],
   }, {
     iri: "https://mff-uk.github.io/specifications/dcat-ap#Catalogue",
     tags: [ "https://w3id.org/dsv/class-role#main" ],
@@ -2811,6 +2809,8 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     },
     descriptionFromProfiled: null,
     descriptionProperty: null,
+    order: null,
+    controlledVocabularies: [],
   }
 ]
 Unable to merge entities with colliding id https://mff-uk.github.io/specifications/dcat-ap#CatalogueRecord because they are of unsupported types. Falling back to the first one. [
@@ -2839,8 +2839,6 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     description: {},
     descriptionFromProfiled: "https://mff-uk.github.io/specifications/dcat-dap#CatalogRecord",
     descriptionProperty: "http://www.w3.org/2004/02/skos/core#definition",
-    order: null,
-    controlledVocabularies: [],
   }, {
     iri: "https://mff-uk.github.io/specifications/dcat-ap#CatalogueRecord",
     tags: [ "https://w3id.org/dsv/class-role#main" ],
@@ -2866,6 +2864,8 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     description: {},
     descriptionFromProfiled: "https://mff-uk.github.io/specifications/dcat-dap#CatalogRecord",
     descriptionProperty: "http://www.w3.org/2004/02/skos/core#definition",
+    order: null,
+    controlledVocabularies: [],
   }
 ]
 Unable to merge entities with colliding id https://mff-uk.github.io/specifications/dcat-ap#DataService because they are of unsupported types. Falling back to the first one. [
@@ -2884,8 +2884,6 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     description: {},
     descriptionFromProfiled: "https://mff-uk.github.io/specifications/dcat-dap#DataService",
     descriptionProperty: "http://www.w3.org/2004/02/skos/core#definition",
-    order: null,
-    controlledVocabularies: [],
   }, {
     iri: "https://mff-uk.github.io/specifications/dcat-ap#DataService",
     tags: [ "https://w3id.org/dsv/class-role#main" ],
@@ -2901,6 +2899,8 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     description: {},
     descriptionFromProfiled: "https://mff-uk.github.io/specifications/dcat-dap#DataService",
     descriptionProperty: "http://www.w3.org/2004/02/skos/core#definition",
+    order: null,
+    controlledVocabularies: [],
   }
 ]
 Unable to merge entities with colliding id https://mff-uk.github.io/specifications/dcat-ap#Dataset because they are of unsupported types. Falling back to the first one. [
@@ -2931,8 +2931,6 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     },
     descriptionFromProfiled: null,
     descriptionProperty: null,
-    order: null,
-    controlledVocabularies: [],
   }, {
     iri: "https://mff-uk.github.io/specifications/dcat-ap#Dataset",
     tags: [ "https://w3id.org/dsv/class-role#main" ],
@@ -2960,6 +2958,8 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     },
     descriptionFromProfiled: null,
     descriptionProperty: null,
+    order: null,
+    controlledVocabularies: [],
   }
 ]
 Unable to merge entities with colliding id https://mff-uk.github.io/specifications/dcat-ap#DatasetSeries because they are of unsupported types. Falling back to the first one. [
@@ -2980,8 +2980,6 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     description: {},
     descriptionFromProfiled: "https://mff-uk.github.io/specifications/dcat-dap#DatasetSeries",
     descriptionProperty: "http://www.w3.org/2004/02/skos/core#definition",
-    order: null,
-    controlledVocabularies: [],
   }, {
     iri: "https://mff-uk.github.io/specifications/dcat-ap#DatasetSeries",
     tags: [ "https://w3id.org/dsv/class-role#main" ],
@@ -2999,6 +2997,8 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     description: {},
     descriptionFromProfiled: "https://mff-uk.github.io/specifications/dcat-dap#DatasetSeries",
     descriptionProperty: "http://www.w3.org/2004/02/skos/core#definition",
+    order: null,
+    controlledVocabularies: [],
   }
 ]
 Unable to merge entities with colliding id https://mff-uk.github.io/specifications/dcat-ap#Distribution because they are of unsupported types. Falling back to the first one. [
@@ -3017,8 +3017,6 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     description: {},
     descriptionFromProfiled: "https://mff-uk.github.io/specifications/dcat-dap#Distribution",
     descriptionProperty: "http://www.w3.org/2004/02/skos/core#definition",
-    order: null,
-    controlledVocabularies: [],
   }, {
     iri: "https://mff-uk.github.io/specifications/dcat-ap#Distribution",
     tags: [ "https://w3id.org/dsv/class-role#main" ],
@@ -3034,6 +3032,8 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     description: {},
     descriptionFromProfiled: "https://mff-uk.github.io/specifications/dcat-dap#Distribution",
     descriptionProperty: "http://www.w3.org/2004/02/skos/core#definition",
+    order: null,
+    controlledVocabularies: [],
   }
 ]
 Unable to merge entities with colliding id https://mff-uk.github.io/specifications/dcat-ap#Relationship because they are of unsupported types. Falling back to the first one. [
@@ -3052,8 +3052,6 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     description: {},
     descriptionFromProfiled: "https://mff-uk.github.io/specifications/dcat-dap#Relationship",
     descriptionProperty: "http://www.w3.org/2004/02/skos/core#definition",
-    order: null,
-    controlledVocabularies: [],
   }, {
     iri: "https://mff-uk.github.io/specifications/dcat-ap#Relationship",
     tags: [ "https://w3id.org/dsv/class-role#main" ],
@@ -3069,6 +3067,8 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     description: {},
     descriptionFromProfiled: "https://mff-uk.github.io/specifications/dcat-dap#Relationship",
     descriptionProperty: "http://www.w3.org/2004/02/skos/core#definition",
+    order: null,
+    controlledVocabularies: [],
   }
 ]
 Unable to merge entities with colliding id https://mff-uk.github.io/specifications/dcat-ap#CataloguedResource because they are of unsupported types. Falling back to the first one. [
@@ -3095,8 +3095,6 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     description: {},
     descriptionFromProfiled: "https://mff-uk.github.io/specifications/dcat-dap#CatalogedResource",
     descriptionProperty: "http://www.w3.org/2004/02/skos/core#definition",
-    order: null,
-    controlledVocabularies: [],
   }, {
     iri: "https://mff-uk.github.io/specifications/dcat-ap#CataloguedResource",
     tags: [ "https://w3id.org/dsv/class-role#main" ],
@@ -3120,6 +3118,8 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     description: {},
     descriptionFromProfiled: "https://mff-uk.github.io/specifications/dcat-dap#CatalogedResource",
     descriptionProperty: "http://www.w3.org/2004/02/skos/core#definition",
+    order: null,
+    controlledVocabularies: [],
   }
 ]
 Unable to merge entities with colliding id https://mff-uk.github.io/specifications/dcat-ap#Role because they are of unsupported types. Falling back to the first one. [
@@ -3138,8 +3138,6 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     description: {},
     descriptionFromProfiled: "https://mff-uk.github.io/specifications/dcat-dap#Role",
     descriptionProperty: "http://www.w3.org/2004/02/skos/core#definition",
-    order: null,
-    controlledVocabularies: [],
   }, {
     iri: "https://mff-uk.github.io/specifications/dcat-ap#Role",
     tags: [ "https://w3id.org/dsv/class-role#supportive" ],
@@ -3155,6 +3153,8 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     description: {},
     descriptionFromProfiled: "https://mff-uk.github.io/specifications/dcat-dap#Role",
     descriptionProperty: "http://www.w3.org/2004/02/skos/core#definition",
+    order: null,
+    controlledVocabularies: [],
   }
 ]
 Unable to merge entities with colliding id https://mff-uk.github.io/specifications/dcat-ap#Agent because they are of unsupported types. Falling back to the first one. [
@@ -3177,8 +3177,6 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     },
     descriptionFromProfiled: null,
     descriptionProperty: null,
-    order: null,
-    controlledVocabularies: [],
   }, {
     iri: "https://mff-uk.github.io/specifications/dcat-ap#Agent",
     tags: [ "https://w3id.org/dsv/class-role#main" ],
@@ -3198,6 +3196,8 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     },
     descriptionFromProfiled: null,
     descriptionProperty: null,
+    order: null,
+    controlledVocabularies: [],
   }
 ]
 Unable to merge entities with colliding id https://mff-uk.github.io/specifications/dcat-ap#Concept because they are of unsupported types. Falling back to the first one. [
@@ -3222,8 +3222,6 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     },
     descriptionFromProfiled: null,
     descriptionProperty: null,
-    order: null,
-    controlledVocabularies: [],
   }, {
     iri: "https://mff-uk.github.io/specifications/dcat-ap#Concept",
     tags: [ "https://w3id.org/dsv/class-role#supportive" ],
@@ -3245,6 +3243,8 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     },
     descriptionFromProfiled: null,
     descriptionProperty: null,
+    order: null,
+    controlledVocabularies: [],
   }
 ]
 Unable to merge entities with colliding id https://mff-uk.github.io/specifications/dcat-ap#LegalResource because they are of unsupported types. Falling back to the first one. [
@@ -3267,8 +3267,6 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     },
     descriptionFromProfiled: null,
     descriptionProperty: null,
-    order: null,
-    controlledVocabularies: [],
   }, {
     iri: "https://mff-uk.github.io/specifications/dcat-ap#LegalResource",
     tags: [ "https://w3id.org/dsv/class-role#supportive" ],
@@ -3288,6 +3286,8 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     },
     descriptionFromProfiled: null,
     descriptionProperty: null,
+    order: null,
+    controlledVocabularies: [],
   }
 ]
 Unable to merge entities with colliding id https://mff-uk.github.io/specifications/dcat-ap#Location because they are of unsupported types. Falling back to the first one. [
@@ -3308,8 +3308,6 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     description: {},
     descriptionFromProfiled: "https://mff-uk.github.io/specifications/dcat-dap#Location",
     descriptionProperty: "http://www.w3.org/2004/02/skos/core#definition",
-    order: null,
-    controlledVocabularies: [],
   }, {
     iri: "https://mff-uk.github.io/specifications/dcat-ap#Location",
     tags: [ "https://w3id.org/dsv/class-role#main" ],
@@ -3327,6 +3325,8 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     description: {},
     descriptionFromProfiled: "https://mff-uk.github.io/specifications/dcat-dap#Location",
     descriptionProperty: "http://www.w3.org/2004/02/skos/core#definition",
+    order: null,
+    controlledVocabularies: [],
   }
 ]
 Unable to merge entities with colliding id https://mff-uk.github.io/specifications/dcat-ap#Document because they are of unsupported types. Falling back to the first one. [
@@ -3347,8 +3347,6 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     },
     descriptionFromProfiled: null,
     descriptionProperty: null,
-    order: null,
-    controlledVocabularies: [],
   }, {
     iri: "https://mff-uk.github.io/specifications/dcat-ap#Document",
     tags: [ "https://w3id.org/dsv/class-role#supportive" ],
@@ -3366,6 +3364,8 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     },
     descriptionFromProfiled: null,
     descriptionProperty: null,
+    order: null,
+    controlledVocabularies: [],
   }
 ]
 Unable to merge entities with colliding id https://mff-uk.github.io/specifications/dcat-ap#LinguisticSystem because they are of unsupported types. Falling back to the first one. [
@@ -3386,8 +3386,6 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     },
     descriptionFromProfiled: null,
     descriptionProperty: null,
-    order: null,
-    controlledVocabularies: [],
   }, {
     iri: "https://mff-uk.github.io/specifications/dcat-ap#LinguisticSystem",
     tags: [ "https://w3id.org/dsv/class-role#supportive" ],
@@ -3405,6 +3403,8 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     },
     descriptionFromProfiled: null,
     descriptionProperty: null,
+    order: null,
+    controlledVocabularies: [],
   }
 ]
 Unable to merge entities with colliding id https://mff-uk.github.io/specifications/dcat-ap#LicenceDocument because they are of unsupported types. Falling back to the first one. [
@@ -3425,8 +3425,6 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     description: {},
     descriptionFromProfiled: "https://mff-uk.github.io/specifications/dcat-dap#LicenseDocument",
     descriptionProperty: "http://www.w3.org/2004/02/skos/core#definition",
-    order: null,
-    controlledVocabularies: [],
   }, {
     iri: "https://mff-uk.github.io/specifications/dcat-ap#LicenceDocument",
     tags: [ "https://w3id.org/dsv/class-role#main" ],
@@ -3444,6 +3442,8 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     description: {},
     descriptionFromProfiled: "https://mff-uk.github.io/specifications/dcat-dap#LicenseDocument",
     descriptionProperty: "http://www.w3.org/2004/02/skos/core#definition",
+    order: null,
+    controlledVocabularies: [],
   }
 ]
 Unable to merge entities with colliding id https://mff-uk.github.io/specifications/dcat-ap#RightsStatement because they are of unsupported types. Falling back to the first one. [
@@ -3462,8 +3462,6 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     description: {},
     descriptionFromProfiled: "https://mff-uk.github.io/specifications/dcat-dap#RightsStatement",
     descriptionProperty: "http://www.w3.org/2004/02/skos/core#definition",
-    order: null,
-    controlledVocabularies: [],
   }, {
     iri: "https://mff-uk.github.io/specifications/dcat-ap#RightsStatement",
     tags: [ "https://w3id.org/dsv/class-role#supportive" ],
@@ -3479,6 +3477,8 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     description: {},
     descriptionFromProfiled: "https://mff-uk.github.io/specifications/dcat-dap#RightsStatement",
     descriptionProperty: "http://www.w3.org/2004/02/skos/core#definition",
+    order: null,
+    controlledVocabularies: [],
   }
 ]
 Unable to merge entities with colliding id https://mff-uk.github.io/specifications/dcat-ap#Standard because they are of unsupported types. Falling back to the first one. [
@@ -3499,8 +3499,6 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     },
     descriptionFromProfiled: null,
     descriptionProperty: null,
-    order: null,
-    controlledVocabularies: [],
   }, {
     iri: "https://mff-uk.github.io/specifications/dcat-ap#Standard",
     tags: [ "https://w3id.org/dsv/class-role#supportive" ],
@@ -3518,6 +3516,8 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     },
     descriptionFromProfiled: null,
     descriptionProperty: null,
+    order: null,
+    controlledVocabularies: [],
   }
 ]
 Unable to merge entities with colliding id https://mff-uk.github.io/specifications/dcat-ap#rdfs-Resource because they are of unsupported types. Falling back to the first one. [
@@ -3538,8 +3538,6 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     },
     descriptionFromProfiled: null,
     descriptionProperty: null,
-    order: null,
-    controlledVocabularies: [],
   }, {
     iri: "https://mff-uk.github.io/specifications/dcat-ap#rdfs-Resource",
     tags: [ "https://w3id.org/dsv/class-role#supportive" ],
@@ -3557,6 +3555,8 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     },
     descriptionFromProfiled: null,
     descriptionProperty: null,
+    order: null,
+    controlledVocabularies: [],
   }
 ]
 Unable to merge entities with colliding id https://mff-uk.github.io/specifications/dcat-ap#ProvenanceStatement because they are of unsupported types. Falling back to the first one. [
@@ -3575,8 +3575,6 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     description: {},
     descriptionFromProfiled: "http://purl.org/dc/terms/ProvenanceStatement",
     descriptionProperty: "http://www.w3.org/2004/02/skos/core#definition",
-    order: null,
-    controlledVocabularies: [],
   }, {
     iri: "https://mff-uk.github.io/specifications/dcat-ap#ProvenanceStatement",
     tags: [ "https://w3id.org/dsv/class-role#supportive" ],
@@ -3592,6 +3590,8 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     description: {},
     descriptionFromProfiled: "http://purl.org/dc/terms/ProvenanceStatement",
     descriptionProperty: "http://www.w3.org/2004/02/skos/core#definition",
+    order: null,
+    controlledVocabularies: [],
   }
 ]
 Unable to merge entities with colliding id https://mff-uk.github.io/specifications/dcat-ap#Policy because they are of unsupported types. Falling back to the first one. [
@@ -3612,8 +3612,6 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     },
     descriptionFromProfiled: null,
     descriptionProperty: null,
-    order: null,
-    controlledVocabularies: [],
   }, {
     iri: "https://mff-uk.github.io/specifications/dcat-ap#Policy",
     tags: [ "https://w3id.org/dsv/class-role#supportive" ],
@@ -3631,6 +3629,8 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     },
     descriptionFromProfiled: null,
     descriptionProperty: null,
+    order: null,
+    controlledVocabularies: [],
   }
 ]
 Unable to merge entities with colliding id https://mff-uk.github.io/specifications/dcat-ap#PeriodOfTime because they are of unsupported types. Falling back to the first one. [
@@ -3649,8 +3649,6 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     description: {},
     descriptionFromProfiled: "https://mff-uk.github.io/specifications/dcat-dap#PeriodOfTime",
     descriptionProperty: "http://www.w3.org/2004/02/skos/core#definition",
-    order: null,
-    controlledVocabularies: [],
   }, {
     iri: "https://mff-uk.github.io/specifications/dcat-ap#PeriodOfTime",
     tags: [ "https://w3id.org/dsv/class-role#supportive" ],
@@ -3666,6 +3664,8 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     description: {},
     descriptionFromProfiled: "https://mff-uk.github.io/specifications/dcat-dap#PeriodOfTime",
     descriptionProperty: "http://www.w3.org/2004/02/skos/core#definition",
+    order: null,
+    controlledVocabularies: [],
   }
 ]
 Unable to merge entities with colliding id https://mff-uk.github.io/specifications/dcat-ap#MediaTypeOrExtent because they are of unsupported types. Falling back to the first one. [
@@ -3684,8 +3684,6 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     description: {},
     descriptionFromProfiled: "https://mff-uk.github.io/specifications/dcat-dap#MediaTypeOrExtent",
     descriptionProperty: "http://www.w3.org/2004/02/skos/core#definition",
-    order: null,
-    controlledVocabularies: [],
   }, {
     iri: "https://mff-uk.github.io/specifications/dcat-ap#MediaTypeOrExtent",
     tags: [ "https://w3id.org/dsv/class-role#supportive" ],
@@ -3701,6 +3699,8 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     description: {},
     descriptionFromProfiled: "https://mff-uk.github.io/specifications/dcat-dap#MediaTypeOrExtent",
     descriptionProperty: "http://www.w3.org/2004/02/skos/core#definition",
+    order: null,
+    controlledVocabularies: [],
   }
 ]
 Unable to merge entities with colliding id https://mff-uk.github.io/specifications/dcat-ap#MediaType because they are of unsupported types. Falling back to the first one. [
@@ -3719,8 +3719,6 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     description: {},
     descriptionFromProfiled: "https://mff-uk.github.io/specifications/dcat-dap#MediaType",
     descriptionProperty: "http://www.w3.org/2004/02/skos/core#definition",
-    order: null,
-    controlledVocabularies: [],
   }, {
     iri: "https://mff-uk.github.io/specifications/dcat-ap#MediaType",
     tags: [ "https://w3id.org/dsv/class-role#supportive" ],
@@ -3736,6 +3734,8 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     description: {},
     descriptionFromProfiled: "https://mff-uk.github.io/specifications/dcat-dap#MediaType",
     descriptionProperty: "http://www.w3.org/2004/02/skos/core#definition",
+    order: null,
+    controlledVocabularies: [],
   }
 ]
 Unable to merge entities with colliding id https://mff-uk.github.io/specifications/dcat-ap#Identifier because they are of unsupported types. Falling back to the first one. [
@@ -3758,8 +3758,6 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     },
     descriptionFromProfiled: null,
     descriptionProperty: null,
-    order: null,
-    controlledVocabularies: [],
   }, {
     iri: "https://mff-uk.github.io/specifications/dcat-ap#Identifier",
     tags: [ "https://w3id.org/dsv/class-role#supportive" ],
@@ -3779,6 +3777,8 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     },
     descriptionFromProfiled: null,
     descriptionProperty: null,
+    order: null,
+    controlledVocabularies: [],
   }
 ]
 Unable to merge entities with colliding id https://mff-uk.github.io/specifications/dcat-ap#Geometry because they are of unsupported types. Falling back to the first one. [
@@ -3797,8 +3797,6 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     description: {},
     descriptionFromProfiled: "https://mff-uk.github.io/specifications/dcat-dap#Geometry",
     descriptionProperty: "http://www.w3.org/2004/02/skos/core#definition",
-    order: null,
-    controlledVocabularies: [],
   }, {
     iri: "https://mff-uk.github.io/specifications/dcat-ap#Geometry",
     tags: [ "https://w3id.org/dsv/class-role#supportive" ],
@@ -3814,6 +3812,8 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     description: {},
     descriptionFromProfiled: "https://mff-uk.github.io/specifications/dcat-dap#Geometry",
     descriptionProperty: "http://www.w3.org/2004/02/skos/core#definition",
+    order: null,
+    controlledVocabularies: [],
   }
 ]
 Unable to merge entities with colliding id https://mff-uk.github.io/specifications/dcat-ap#Frequency because they are of unsupported types. Falling back to the first one. [
@@ -3834,8 +3834,6 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     },
     descriptionFromProfiled: null,
     descriptionProperty: null,
-    order: null,
-    controlledVocabularies: [],
   }, {
     iri: "https://mff-uk.github.io/specifications/dcat-ap#Frequency",
     tags: [ "https://w3id.org/dsv/class-role#supportive" ],
@@ -3853,6 +3851,8 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     },
     descriptionFromProfiled: null,
     descriptionProperty: null,
+    order: null,
+    controlledVocabularies: [],
   }
 ]
 Unable to merge entities with colliding id https://mff-uk.github.io/specifications/dcat-ap#ConceptScheme because they are of unsupported types. Falling back to the first one. [
@@ -3875,8 +3875,6 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     },
     descriptionFromProfiled: null,
     descriptionProperty: null,
-    order: null,
-    controlledVocabularies: [],
   }, {
     iri: "https://mff-uk.github.io/specifications/dcat-ap#ConceptScheme",
     tags: [ "https://w3id.org/dsv/class-role#supportive" ],
@@ -3896,6 +3894,8 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     },
     descriptionFromProfiled: null,
     descriptionProperty: null,
+    order: null,
+    controlledVocabularies: [],
   }
 ]
 Unable to merge entities with colliding id https://mff-uk.github.io/specifications/dcat-ap#ChecksumAlgorithm because they are of unsupported types. Falling back to the first one. [
@@ -3914,8 +3914,6 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     description: {},
     descriptionFromProfiled: "https://mff-uk.github.io/specifications/dcat-dap#ChecksumAlgorithm",
     descriptionProperty: "http://www.w3.org/2004/02/skos/core#definition",
-    order: null,
-    controlledVocabularies: [],
   }, {
     iri: "https://mff-uk.github.io/specifications/dcat-ap#ChecksumAlgorithm",
     tags: [ "https://w3id.org/dsv/class-role#supportive" ],
@@ -3931,6 +3929,8 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     description: {},
     descriptionFromProfiled: "https://mff-uk.github.io/specifications/dcat-dap#ChecksumAlgorithm",
     descriptionProperty: "http://www.w3.org/2004/02/skos/core#definition",
+    order: null,
+    controlledVocabularies: [],
   }
 ]
 Unable to merge entities with colliding id https://mff-uk.github.io/specifications/dcat-ap#Attribution because they are of unsupported types. Falling back to the first one. [
@@ -3951,8 +3951,6 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     },
     descriptionFromProfiled: null,
     descriptionProperty: null,
-    order: null,
-    controlledVocabularies: [],
   }, {
     iri: "https://mff-uk.github.io/specifications/dcat-ap#Attribution",
     tags: [ "https://w3id.org/dsv/class-role#supportive" ],
@@ -3970,6 +3968,8 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     },
     descriptionFromProfiled: null,
     descriptionProperty: null,
+    order: null,
+    controlledVocabularies: [],
   }
 ]
 Unable to merge entities with colliding id https://mff-uk.github.io/specifications/dcat-ap#Activity because they are of unsupported types. Falling back to the first one. [
@@ -3990,8 +3990,6 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     },
     descriptionFromProfiled: null,
     descriptionProperty: null,
-    order: null,
-    controlledVocabularies: [],
   }, {
     iri: "https://mff-uk.github.io/specifications/dcat-ap#Activity",
     tags: [ "https://w3id.org/dsv/class-role#supportive" ],
@@ -4009,6 +4007,8 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     },
     descriptionFromProfiled: null,
     descriptionProperty: null,
+    order: null,
+    controlledVocabularies: [],
   }
 ]
 Unable to merge entities with colliding id https://mff-uk.github.io/specifications/dcat-ap#Kind because they are of unsupported types. Falling back to the first one. [
@@ -4031,8 +4031,6 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     },
     descriptionFromProfiled: null,
     descriptionProperty: null,
-    order: null,
-    controlledVocabularies: [],
   }, {
     iri: "https://mff-uk.github.io/specifications/dcat-ap#Kind",
     tags: [ "https://w3id.org/dsv/class-role#main" ],
@@ -4052,6 +4050,8 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     },
     descriptionFromProfiled: null,
     descriptionProperty: null,
+    order: null,
+    controlledVocabularies: [],
   }
 ]
 Unable to merge entities with colliding id https://mff-uk.github.io/specifications/dcat-ap#Checksum because they are of unsupported types. Falling back to the first one. [
@@ -4074,8 +4074,6 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     },
     descriptionFromProfiled: null,
     descriptionProperty: null,
-    order: null,
-    controlledVocabularies: [],
   }, {
     iri: "https://mff-uk.github.io/specifications/dcat-ap#Checksum",
     tags: [ "https://w3id.org/dsv/class-role#main" ],
@@ -4095,6 +4093,8 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     },
     descriptionFromProfiled: null,
     descriptionProperty: null,
+    order: null,
+    controlledVocabularies: [],
   }
 ]
 Unable to merge entities with colliding id https://mff-uk.github.io/specifications/dcat-ap#Instant because they are of unsupported types. Falling back to the first one. [
@@ -4113,8 +4113,6 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     description: {},
     descriptionFromProfiled: "https://mff-uk.github.io/specifications/dcat-dap#Instant",
     descriptionProperty: "http://www.w3.org/2004/02/skos/core#definition",
-    order: null,
-    controlledVocabularies: [],
   }, {
     iri: "https://mff-uk.github.io/specifications/dcat-ap#Instant",
     tags: [ "https://w3id.org/dsv/class-role#supportive" ],
@@ -4130,6 +4128,8 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     description: {},
     descriptionFromProfiled: "https://mff-uk.github.io/specifications/dcat-dap#Instant",
     descriptionProperty: "http://www.w3.org/2004/02/skos/core#definition",
+    order: null,
+    controlledVocabularies: [],
   }
 ]
 Unable to merge entities with colliding id https://mff-uk.github.io/specifications/dcat-dap#Catalog because they are of unsupported types. Falling back to the first one. [
@@ -4160,8 +4160,6 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     },
     descriptionFromProfiled: null,
     descriptionProperty: null,
-    order: null,
-    controlledVocabularies: [],
   }, {
     iri: "https://mff-uk.github.io/specifications/dcat-dap#Catalog",
     tags: [ "https://w3id.org/dsv/class-role#main" ],
@@ -4189,6 +4187,8 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     },
     descriptionFromProfiled: null,
     descriptionProperty: null,
+    order: null,
+    controlledVocabularies: [],
   }
 ]
 Unable to merge entities with colliding id https://mff-uk.github.io/specifications/dcat-dap#CatalogRecord because they are of unsupported types. Falling back to the first one. [
@@ -4218,8 +4218,6 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     },
     descriptionFromProfiled: null,
     descriptionProperty: null,
-    order: null,
-    controlledVocabularies: [],
   }, {
     iri: "https://mff-uk.github.io/specifications/dcat-dap#CatalogRecord",
     tags: [ "https://w3id.org/dsv/class-role#main" ],
@@ -4246,6 +4244,8 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     },
     descriptionFromProfiled: null,
     descriptionProperty: null,
+    order: null,
+    controlledVocabularies: [],
   }
 ]
 Unable to merge entities with colliding id https://mff-uk.github.io/specifications/dcat-dap#Dataset because they are of unsupported types. Falling back to the first one. [
@@ -4264,8 +4264,6 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     description: {},
     descriptionFromProfiled: "http://www.w3.org/ns/dcat#Dataset",
     descriptionProperty: "http://www.w3.org/2004/02/skos/core#definition",
-    order: null,
-    controlledVocabularies: [],
   }, {
     iri: "https://mff-uk.github.io/specifications/dcat-dap#Dataset",
     tags: [ "https://w3id.org/dsv/class-role#main" ],
@@ -4281,6 +4279,8 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     description: {},
     descriptionFromProfiled: "http://www.w3.org/ns/dcat#Dataset",
     descriptionProperty: "http://www.w3.org/2004/02/skos/core#definition",
+    order: null,
+    controlledVocabularies: [],
   }
 ]
 Unable to merge entities with colliding id https://mff-uk.github.io/specifications/dcat-dap#CatalogedResource because they are of unsupported types. Falling back to the first one. [
@@ -4307,8 +4307,6 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     description: {},
     descriptionFromProfiled: "http://www.w3.org/ns/dcat#Resource",
     descriptionProperty: "http://www.w3.org/2004/02/skos/core#definition",
-    order: null,
-    controlledVocabularies: [],
   }, {
     iri: "https://mff-uk.github.io/specifications/dcat-dap#CatalogedResource",
     tags: [ "https://w3id.org/dsv/class-role#main" ],
@@ -4332,6 +4330,8 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     description: {},
     descriptionFromProfiled: "http://www.w3.org/ns/dcat#Resource",
     descriptionProperty: "http://www.w3.org/2004/02/skos/core#definition",
+    order: null,
+    controlledVocabularies: [],
   }
 ]
 Unable to merge entities with colliding id https://mff-uk.github.io/specifications/dcat-dap#Document because they are of unsupported types. Falling back to the first one. [
@@ -4350,8 +4350,6 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     description: {},
     descriptionFromProfiled: "http://xmlns.com/foaf/0.1/Document",
     descriptionProperty: "http://www.w3.org/2004/02/skos/core#definition",
-    order: null,
-    controlledVocabularies: [],
   }, {
     iri: "https://mff-uk.github.io/specifications/dcat-dap#Document",
     tags: [ "https://w3id.org/dsv/class-role#supportive" ],
@@ -4367,6 +4365,8 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     description: {},
     descriptionFromProfiled: "http://xmlns.com/foaf/0.1/Document",
     descriptionProperty: "http://www.w3.org/2004/02/skos/core#definition",
+    order: null,
+    controlledVocabularies: [],
   }
 ]
 Unable to merge entities with colliding id https://mff-uk.github.io/specifications/dcat-dap#rdfs-Resource because they are of unsupported types. Falling back to the first one. [
@@ -4385,8 +4385,6 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     description: {},
     descriptionFromProfiled: "http://www.w3.org/2000/01/rdf-schema#Resource",
     descriptionProperty: "http://www.w3.org/2004/02/skos/core#definition",
-    order: null,
-    controlledVocabularies: [],
   }, {
     iri: "https://mff-uk.github.io/specifications/dcat-dap#rdfs-Resource",
     tags: [ "https://w3id.org/dsv/class-role#supportive" ],
@@ -4402,6 +4400,8 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     description: {},
     descriptionFromProfiled: "http://www.w3.org/2000/01/rdf-schema#Resource",
     descriptionProperty: "http://www.w3.org/2004/02/skos/core#definition",
+    order: null,
+    controlledVocabularies: [],
   }
 ]
 Unable to merge entities with colliding id https://mff-uk.github.io/specifications/dcat-dap#DataService because they are of unsupported types. Falling back to the first one. [
@@ -4433,8 +4433,6 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     },
     descriptionFromProfiled: null,
     descriptionProperty: null,
-    order: null,
-    controlledVocabularies: [],
   }, {
     iri: "https://mff-uk.github.io/specifications/dcat-dap#DataService",
     tags: [ "https://w3id.org/dsv/class-role#main" ],
@@ -4463,6 +4461,8 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     },
     descriptionFromProfiled: null,
     descriptionProperty: null,
+    order: null,
+    controlledVocabularies: [],
   }
 ]
 Unable to merge entities with colliding id https://mff-uk.github.io/specifications/dcat-dap#RightsStatement because they are of unsupported types. Falling back to the first one. [
@@ -4481,8 +4481,6 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     description: {},
     descriptionFromProfiled: "http://purl.org/dc/terms/RightsStatement",
     descriptionProperty: "http://www.w3.org/2004/02/skos/core#definition",
-    order: null,
-    controlledVocabularies: [],
   }, {
     iri: "https://mff-uk.github.io/specifications/dcat-dap#RightsStatement",
     tags: [ "https://w3id.org/dsv/class-role#supportive" ],
@@ -4498,6 +4496,8 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     description: {},
     descriptionFromProfiled: "http://purl.org/dc/terms/RightsStatement",
     descriptionProperty: "http://www.w3.org/2004/02/skos/core#definition",
+    order: null,
+    controlledVocabularies: [],
   }
 ]
 Unable to merge entities with colliding id https://mff-uk.github.io/specifications/dcat-dap#Standard because they are of unsupported types. Falling back to the first one. [
@@ -4516,8 +4516,6 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     description: {},
     descriptionFromProfiled: "http://purl.org/dc/terms/Standard",
     descriptionProperty: "http://www.w3.org/2004/02/skos/core#definition",
-    order: null,
-    controlledVocabularies: [],
   }, {
     iri: "https://mff-uk.github.io/specifications/dcat-dap#Standard",
     tags: [ "https://w3id.org/dsv/class-role#supportive" ],
@@ -4533,6 +4531,8 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     description: {},
     descriptionFromProfiled: "http://purl.org/dc/terms/Standard",
     descriptionProperty: "http://www.w3.org/2004/02/skos/core#definition",
+    order: null,
+    controlledVocabularies: [],
   }
 ]
 Unable to merge entities with colliding id https://mff-uk.github.io/specifications/dcat-dap#Kind because they are of unsupported types. Falling back to the first one. [
@@ -4551,8 +4551,6 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     description: {},
     descriptionFromProfiled: "http://www.w3.org/2006/vcard/ns#Kind",
     descriptionProperty: "http://www.w3.org/2004/02/skos/core#definition",
-    order: null,
-    controlledVocabularies: [],
   }, {
     iri: "https://mff-uk.github.io/specifications/dcat-dap#Kind",
     tags: [ "https://w3id.org/dsv/class-role#supportive" ],
@@ -4568,6 +4566,8 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     description: {},
     descriptionFromProfiled: "http://www.w3.org/2006/vcard/ns#Kind",
     descriptionProperty: "http://www.w3.org/2004/02/skos/core#definition",
+    order: null,
+    controlledVocabularies: [],
   }
 ]
 Unable to merge entities with colliding id https://mff-uk.github.io/specifications/dcat-dap#Agent because they are of unsupported types. Falling back to the first one. [
@@ -4586,8 +4586,6 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     description: {},
     descriptionFromProfiled: "http://xmlns.com/foaf/0.1/Agent",
     descriptionProperty: "http://www.w3.org/2004/02/skos/core#definition",
-    order: null,
-    controlledVocabularies: [],
   }, {
     iri: "https://mff-uk.github.io/specifications/dcat-dap#Agent",
     tags: [ "https://w3id.org/dsv/class-role#supportive" ],
@@ -4603,6 +4601,8 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     description: {},
     descriptionFromProfiled: "http://xmlns.com/foaf/0.1/Agent",
     descriptionProperty: "http://www.w3.org/2004/02/skos/core#definition",
+    order: null,
+    controlledVocabularies: [],
   }
 ]
 Unable to merge entities with colliding id https://mff-uk.github.io/specifications/dcat-dap#LinguisticSystem because they are of unsupported types. Falling back to the first one. [
@@ -4621,8 +4621,6 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     description: {},
     descriptionFromProfiled: "http://purl.org/dc/terms/LinguisticSystem",
     descriptionProperty: "http://www.w3.org/2004/02/skos/core#definition",
-    order: null,
-    controlledVocabularies: [],
   }, {
     iri: "https://mff-uk.github.io/specifications/dcat-dap#LinguisticSystem",
     tags: [ "https://w3id.org/dsv/class-role#supportive" ],
@@ -4638,6 +4636,8 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     description: {},
     descriptionFromProfiled: "http://purl.org/dc/terms/LinguisticSystem",
     descriptionProperty: "http://www.w3.org/2004/02/skos/core#definition",
+    order: null,
+    controlledVocabularies: [],
   }
 ]
 Unable to merge entities with colliding id https://mff-uk.github.io/specifications/dcat-dap#Class because they are of unsupported types. Falling back to the first one. [
@@ -4656,8 +4656,6 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     description: {},
     descriptionFromProfiled: "http://www.w3.org/2000/01/rdf-schema#Class",
     descriptionProperty: "http://www.w3.org/2004/02/skos/core#definition",
-    order: null,
-    controlledVocabularies: [],
   }, {
     iri: "https://mff-uk.github.io/specifications/dcat-dap#Class",
     tags: [ "https://w3id.org/dsv/class-role#supportive" ],
@@ -4673,6 +4671,8 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     description: {},
     descriptionFromProfiled: "http://www.w3.org/2000/01/rdf-schema#Class",
     descriptionProperty: "http://www.w3.org/2004/02/skos/core#definition",
+    order: null,
+    controlledVocabularies: [],
   }
 ]
 Unable to merge entities with colliding id https://mff-uk.github.io/specifications/dcat-dap#Relationship because they are of unsupported types. Falling back to the first one. [
@@ -4693,8 +4693,6 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     description: {},
     descriptionFromProfiled: "http://www.w3.org/ns/dcat#Relationship",
     descriptionProperty: "http://www.w3.org/2004/02/skos/core#definition",
-    order: null,
-    controlledVocabularies: [],
   }, {
     iri: "https://mff-uk.github.io/specifications/dcat-dap#Relationship",
     tags: [ "https://w3id.org/dsv/class-role#main" ],
@@ -4712,6 +4710,8 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     description: {},
     descriptionFromProfiled: "http://www.w3.org/ns/dcat#Relationship",
     descriptionProperty: "http://www.w3.org/2004/02/skos/core#definition",
+    order: null,
+    controlledVocabularies: [],
   }
 ]
 Unable to merge entities with colliding id https://mff-uk.github.io/specifications/dcat-dap#Attribution because they are of unsupported types. Falling back to the first one. [
@@ -4730,8 +4730,6 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     description: {},
     descriptionFromProfiled: "http://www.w3.org/ns/prov#Attribution",
     descriptionProperty: "http://www.w3.org/2004/02/skos/core#definition",
-    order: null,
-    controlledVocabularies: [],
   }, {
     iri: "https://mff-uk.github.io/specifications/dcat-dap#Attribution",
     tags: [ "https://w3id.org/dsv/class-role#supportive" ],
@@ -4747,6 +4745,8 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     description: {},
     descriptionFromProfiled: "http://www.w3.org/ns/prov#Attribution",
     descriptionProperty: "http://www.w3.org/2004/02/skos/core#definition",
+    order: null,
+    controlledVocabularies: [],
   }
 ]
 Unable to merge entities with colliding id https://mff-uk.github.io/specifications/dcat-dap#LicenseDocument because they are of unsupported types. Falling back to the first one. [
@@ -4765,8 +4765,6 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     description: {},
     descriptionFromProfiled: "http://purl.org/dc/terms/LicenseDocument",
     descriptionProperty: "http://www.w3.org/2004/02/skos/core#definition",
-    order: null,
-    controlledVocabularies: [],
   }, {
     iri: "https://mff-uk.github.io/specifications/dcat-dap#LicenseDocument",
     tags: [ "https://w3id.org/dsv/class-role#supportive" ],
@@ -4782,6 +4780,8 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     description: {},
     descriptionFromProfiled: "http://purl.org/dc/terms/LicenseDocument",
     descriptionProperty: "http://www.w3.org/2004/02/skos/core#definition",
+    order: null,
+    controlledVocabularies: [],
   }
 ]
 Unable to merge entities with colliding id https://mff-uk.github.io/specifications/dcat-dap#Policy because they are of unsupported types. Falling back to the first one. [
@@ -4800,8 +4800,6 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     description: {},
     descriptionFromProfiled: "http://www.w3.org/ns/odrl/2/Policy",
     descriptionProperty: "http://www.w3.org/2004/02/skos/core#definition",
-    order: null,
-    controlledVocabularies: [],
   }, {
     iri: "https://mff-uk.github.io/specifications/dcat-dap#Policy",
     tags: [ "https://w3id.org/dsv/class-role#supportive" ],
@@ -4817,6 +4815,8 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     description: {},
     descriptionFromProfiled: "http://www.w3.org/ns/odrl/2/Policy",
     descriptionProperty: "http://www.w3.org/2004/02/skos/core#definition",
+    order: null,
+    controlledVocabularies: [],
   }
 ]
 Unable to merge entities with colliding id https://mff-uk.github.io/specifications/dcat-dap#Distribution because they are of unsupported types. Falling back to the first one. [
@@ -4837,8 +4837,6 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     description: {},
     descriptionFromProfiled: "http://www.w3.org/ns/dcat#Distribution",
     descriptionProperty: "http://www.w3.org/2004/02/skos/core#definition",
-    order: null,
-    controlledVocabularies: [],
   }, {
     iri: "https://mff-uk.github.io/specifications/dcat-dap#Distribution",
     tags: [ "https://w3id.org/dsv/class-role#main" ],
@@ -4856,6 +4854,8 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     description: {},
     descriptionFromProfiled: "http://www.w3.org/ns/dcat#Distribution",
     descriptionProperty: "http://www.w3.org/2004/02/skos/core#definition",
+    order: null,
+    controlledVocabularies: [],
   }
 ]
 Unable to merge entities with colliding id https://mff-uk.github.io/specifications/dcat-dap#DatasetSeries because they are of unsupported types. Falling back to the first one. [
@@ -4880,8 +4880,6 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     description: {},
     descriptionFromProfiled: "http://www.w3.org/ns/dcat#DatasetSeries",
     descriptionProperty: "http://www.w3.org/2004/02/skos/core#definition",
-    order: null,
-    controlledVocabularies: [],
   }, {
     iri: "https://mff-uk.github.io/specifications/dcat-dap#DatasetSeries",
     tags: [ "https://w3id.org/dsv/class-role#main" ],
@@ -4903,6 +4901,8 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     description: {},
     descriptionFromProfiled: "http://www.w3.org/ns/dcat#DatasetSeries",
     descriptionProperty: "http://www.w3.org/2004/02/skos/core#definition",
+    order: null,
+    controlledVocabularies: [],
   }
 ]
 Unable to merge entities with colliding id https://mff-uk.github.io/specifications/dcat-dap#Frequency because they are of unsupported types. Falling back to the first one. [
@@ -4921,8 +4921,6 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     description: {},
     descriptionFromProfiled: "http://purl.org/dc/terms/Frequency",
     descriptionProperty: "http://www.w3.org/2004/02/skos/core#definition",
-    order: null,
-    controlledVocabularies: [],
   }, {
     iri: "https://mff-uk.github.io/specifications/dcat-dap#Frequency",
     tags: [ "https://w3id.org/dsv/class-role#supportive" ],
@@ -4938,6 +4936,8 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     description: {},
     descriptionFromProfiled: "http://purl.org/dc/terms/Frequency",
     descriptionProperty: "http://www.w3.org/2004/02/skos/core#definition",
+    order: null,
+    controlledVocabularies: [],
   }
 ]
 Unable to merge entities with colliding id https://mff-uk.github.io/specifications/dcat-dap#Location because they are of unsupported types. Falling back to the first one. [
@@ -4958,8 +4958,6 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     description: {},
     descriptionFromProfiled: "http://purl.org/dc/terms/Location",
     descriptionProperty: "http://www.w3.org/2004/02/skos/core#definition",
-    order: null,
-    controlledVocabularies: [],
   }, {
     iri: "https://mff-uk.github.io/specifications/dcat-dap#Location",
     tags: [ "https://w3id.org/dsv/class-role#main" ],
@@ -4977,6 +4975,8 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     description: {},
     descriptionFromProfiled: "http://purl.org/dc/terms/Location",
     descriptionProperty: "http://www.w3.org/2004/02/skos/core#definition",
+    order: null,
+    controlledVocabularies: [],
   }
 ]
 Unable to merge entities with colliding id https://mff-uk.github.io/specifications/dcat-dap#PeriodOfTime because they are of unsupported types. Falling back to the first one. [
@@ -4999,8 +4999,6 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     },
     descriptionFromProfiled: null,
     descriptionProperty: null,
-    order: null,
-    controlledVocabularies: [],
   }, {
     iri: "https://mff-uk.github.io/specifications/dcat-dap#PeriodOfTime",
     tags: [ "https://w3id.org/dsv/class-role#main" ],
@@ -5020,6 +5018,8 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     },
     descriptionFromProfiled: null,
     descriptionProperty: null,
+    order: null,
+    controlledVocabularies: [],
   }
 ]
 Unable to merge entities with colliding id https://mff-uk.github.io/specifications/dcat-dap#Entity because they are of unsupported types. Falling back to the first one. [
@@ -5038,8 +5038,6 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     description: {},
     descriptionFromProfiled: "http://www.w3.org/ns/prov#Entity",
     descriptionProperty: "http://www.w3.org/2004/02/skos/core#definition",
-    order: null,
-    controlledVocabularies: [],
   }, {
     iri: "https://mff-uk.github.io/specifications/dcat-dap#Entity",
     tags: [ "https://w3id.org/dsv/class-role#supportive" ],
@@ -5055,6 +5053,8 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     description: {},
     descriptionFromProfiled: "http://www.w3.org/ns/prov#Entity",
     descriptionProperty: "http://www.w3.org/2004/02/skos/core#definition",
+    order: null,
+    controlledVocabularies: [],
   }
 ]
 Unable to merge entities with colliding id https://mff-uk.github.io/specifications/dcat-dap#MediaType because they are of unsupported types. Falling back to the first one. [
@@ -5073,8 +5073,6 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     description: {},
     descriptionFromProfiled: "http://purl.org/dc/terms/MediaType",
     descriptionProperty: "http://www.w3.org/2004/02/skos/core#definition",
-    order: null,
-    controlledVocabularies: [],
   }, {
     iri: "https://mff-uk.github.io/specifications/dcat-dap#MediaType",
     tags: [ "https://w3id.org/dsv/class-role#supportive" ],
@@ -5090,6 +5088,8 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     description: {},
     descriptionFromProfiled: "http://purl.org/dc/terms/MediaType",
     descriptionProperty: "http://www.w3.org/2004/02/skos/core#definition",
+    order: null,
+    controlledVocabularies: [],
   }
 ]
 Unable to merge entities with colliding id https://mff-uk.github.io/specifications/dcat-dap#MediaTypeOrExtent because they are of unsupported types. Falling back to the first one. [
@@ -5108,8 +5108,6 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     description: {},
     descriptionFromProfiled: "http://purl.org/dc/terms/MediaTypeOrExtent",
     descriptionProperty: "http://www.w3.org/2004/02/skos/core#definition",
-    order: null,
-    controlledVocabularies: [],
   }, {
     iri: "https://mff-uk.github.io/specifications/dcat-dap#MediaTypeOrExtent",
     tags: [ "https://w3id.org/dsv/class-role#supportive" ],
@@ -5125,6 +5123,8 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     description: {},
     descriptionFromProfiled: "http://purl.org/dc/terms/MediaTypeOrExtent",
     descriptionProperty: "http://www.w3.org/2004/02/skos/core#definition",
+    order: null,
+    controlledVocabularies: [],
   }
 ]
 Unable to merge entities with colliding id https://mff-uk.github.io/specifications/dcat-dap#Concept because they are of unsupported types. Falling back to the first one. [
@@ -5147,8 +5147,6 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     },
     descriptionFromProfiled: null,
     descriptionProperty: null,
-    order: null,
-    controlledVocabularies: [],
   }, {
     iri: "https://mff-uk.github.io/specifications/dcat-dap#Concept",
     tags: [ "https://w3id.org/dsv/class-role#main" ],
@@ -5168,6 +5166,8 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     },
     descriptionFromProfiled: null,
     descriptionProperty: null,
+    order: null,
+    controlledVocabularies: [],
   }
 ]
 Unable to merge entities with colliding id https://mff-uk.github.io/specifications/dcat-dap#ConceptScheme because they are of unsupported types. Falling back to the first one. [
@@ -5188,8 +5188,6 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     },
     descriptionFromProfiled: null,
     descriptionProperty: null,
-    order: null,
-    controlledVocabularies: [],
   }, {
     iri: "https://mff-uk.github.io/specifications/dcat-dap#ConceptScheme",
     tags: [ "https://w3id.org/dsv/class-role#main" ],
@@ -5207,6 +5205,8 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     },
     descriptionFromProfiled: null,
     descriptionProperty: null,
+    order: null,
+    controlledVocabularies: [],
   }
 ]
 Unable to merge entities with colliding id https://mff-uk.github.io/specifications/dcat-dap#Person because they are of unsupported types. Falling back to the first one. [
@@ -5227,8 +5227,6 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     description: {},
     descriptionFromProfiled: "http://xmlns.com/foaf/0.1/Person",
     descriptionProperty: "http://www.w3.org/2004/02/skos/core#definition",
-    order: null,
-    controlledVocabularies: [],
   }, {
     iri: "https://mff-uk.github.io/specifications/dcat-dap#Person",
     tags: [ "https://w3id.org/dsv/class-role#main" ],
@@ -5246,6 +5244,8 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     description: {},
     descriptionFromProfiled: "http://xmlns.com/foaf/0.1/Person",
     descriptionProperty: "http://www.w3.org/2004/02/skos/core#definition",
+    order: null,
+    controlledVocabularies: [],
   }
 ]
 Unable to merge entities with colliding id https://mff-uk.github.io/specifications/dcat-dap#Organization because they are of unsupported types. Falling back to the first one. [
@@ -5266,8 +5266,6 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     description: {},
     descriptionFromProfiled: "http://xmlns.com/foaf/0.1/Organization",
     descriptionProperty: "http://www.w3.org/2004/02/skos/core#definition",
-    order: null,
-    controlledVocabularies: [],
   }, {
     iri: "https://mff-uk.github.io/specifications/dcat-dap#Organization",
     tags: [ "https://w3id.org/dsv/class-role#main" ],
@@ -5285,6 +5283,8 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     description: {},
     descriptionFromProfiled: "http://xmlns.com/foaf/0.1/Organization",
     descriptionProperty: "http://www.w3.org/2004/02/skos/core#definition",
+    order: null,
+    controlledVocabularies: [],
   }
 ]
 Unable to merge entities with colliding id https://mff-uk.github.io/specifications/dcat-dap#Role because they are of unsupported types. Falling back to the first one. [
@@ -5305,8 +5305,6 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     description: {},
     descriptionFromProfiled: "http://www.w3.org/ns/dcat#Role",
     descriptionProperty: "http://www.w3.org/2004/02/skos/core#definition",
-    order: null,
-    controlledVocabularies: [],
   }, {
     iri: "https://mff-uk.github.io/specifications/dcat-dap#Role",
     tags: [ "https://w3id.org/dsv/class-role#main" ],
@@ -5324,6 +5322,8 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     description: {},
     descriptionFromProfiled: "http://www.w3.org/ns/dcat#Role",
     descriptionProperty: "http://www.w3.org/2004/02/skos/core#definition",
+    order: null,
+    controlledVocabularies: [],
   }
 ]
 Unable to merge entities with colliding id https://mff-uk.github.io/specifications/dcat-dap#Instant because they are of unsupported types. Falling back to the first one. [
@@ -5342,8 +5342,6 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     description: {},
     descriptionFromProfiled: "http://www.w3.org/2006/time#Instant",
     descriptionProperty: "http://www.w3.org/2004/02/skos/core#definition",
-    order: null,
-    controlledVocabularies: [],
   }, {
     iri: "https://mff-uk.github.io/specifications/dcat-dap#Instant",
     tags: [ "https://w3id.org/dsv/class-role#supportive" ],
@@ -5359,6 +5357,8 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     description: {},
     descriptionFromProfiled: "http://www.w3.org/2006/time#Instant",
     descriptionProperty: "http://www.w3.org/2004/02/skos/core#definition",
+    order: null,
+    controlledVocabularies: [],
   }
 ]
 Unable to merge entities with colliding id https://mff-uk.github.io/specifications/dcat-dap#Geometry because they are of unsupported types. Falling back to the first one. [
@@ -5377,8 +5377,6 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     description: {},
     descriptionFromProfiled: "http://www.w3.org/ns/locn#Geometry",
     descriptionProperty: "http://www.w3.org/2004/02/skos/core#definition",
-    order: null,
-    controlledVocabularies: [],
   }, {
     iri: "https://mff-uk.github.io/specifications/dcat-dap#Geometry",
     tags: [ "https://w3id.org/dsv/class-role#supportive" ],
@@ -5394,6 +5392,8 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     description: {},
     descriptionFromProfiled: "http://www.w3.org/ns/locn#Geometry",
     descriptionProperty: "http://www.w3.org/2004/02/skos/core#definition",
+    order: null,
+    controlledVocabularies: [],
   }
 ]
 Unable to merge entities with colliding id https://mff-uk.github.io/specifications/dcat-dap#Checksum because they are of unsupported types. Falling back to the first one. [
@@ -5416,8 +5416,6 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     description: {},
     descriptionFromProfiled: "http://spdx.org/rdf/terms#Checksum",
     descriptionProperty: "http://www.w3.org/2004/02/skos/core#definition",
-    order: null,
-    controlledVocabularies: [],
   }, {
     iri: "https://mff-uk.github.io/specifications/dcat-dap#Checksum",
     tags: [ "https://w3id.org/dsv/class-role#main" ],
@@ -5437,6 +5435,8 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     description: {},
     descriptionFromProfiled: "http://spdx.org/rdf/terms#Checksum",
     descriptionProperty: "http://www.w3.org/2004/02/skos/core#definition",
+    order: null,
+    controlledVocabularies: [],
   }
 ]
 Unable to merge entities with colliding id https://mff-uk.github.io/specifications/dcat-dap#ChecksumAlgorithm because they are of unsupported types. Falling back to the first one. [
@@ -5457,8 +5457,6 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     description: {},
     descriptionFromProfiled: "http://spdx.org/rdf/terms#ChecksumAlgorithm",
     descriptionProperty: "http://www.w3.org/2004/02/skos/core#definition",
-    order: null,
-    controlledVocabularies: [],
   }, {
     iri: "https://mff-uk.github.io/specifications/dcat-dap#ChecksumAlgorithm",
     tags: [ "https://w3id.org/dsv/class-role#supportive" ],
@@ -5476,5 +5474,7 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     description: {},
     descriptionFromProfiled: "http://spdx.org/rdf/terms#ChecksumAlgorithm",
     descriptionProperty: "http://www.w3.org/2004/02/skos/core#definition",
+    order: null,
+    controlledVocabularies: [],
   }
 ]
