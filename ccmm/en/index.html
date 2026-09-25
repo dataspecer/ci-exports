@@ -1801,17 +1801,32 @@
     // All config options at https://respec.org/docs/
     var respecConfig = {
       specStatus: "base",
-      editors: [{ name: "Dataspecer", url: "https://dataspecer.com" }],
-      //github: "some-org/mySpec",
-      shortName: "todo",
+      editors: [
+        {
+          name: "Michal Med", 
+          orcid: "https://orcid.org/0000-0002-3844-426X", 
+          company: "CESNET", 
+          companyURL: "https://www.cesnet.cz/", 
+        }, {
+          name: "Martina Podsklanová",
+          orcid: "https://orcid.org/0009-0005-7763-4217",
+          company: "National Library of Technology",
+          companyURL: "https://www.techlib.cz/en/",
+        }, {
+          name: "Ondřej Zamazal",
+          orcid: "https://orcid.org/0000-0002-7442-9016",
+          company: "National Library of Technology",
+          companyURL: "https://www.techlib.cz/en/",
+        },
+      ],
+      github: "https://github.com/techlib/CCMM",
+      shortName: "CCMM",
       maxTocLevel: 2,
       historyURI: null,
-      //thisVersion: "https://xx.github.io/yy/",
-      //latestVersion: "https://xx.github.io/yy/",
-      //publishDate: "2025-09-29",
-      //github: "https://github.com/org/repo",
+      thisVersion: "https://odel.ccmm.cz/research-data/2.0.0/",
+      latestVersion: "https://odel.ccmm.cz/research-data/2.0.0/",
+      publishDate: "2026-10-01",
       //xref: "web-platform",
-      //group: "my-working-group",
       //otherLinks: [{
       //    key: "Repository",
       //    data: [{
@@ -2441,7 +2456,8 @@
               
                   <tr>
                     <td>Usage note</td>
-                    <td>Link to a description of a relationship between resource and an agent with the specification of the role of agent in this relationship. If the resource is Dataset, it has to have at least two qualified attribution relations, the one with the role Creator, the second one with the role Publisher.</td>
+                    <td>Link to a description of a relationship between resource and an agent with the specification of the role of agent in this relationship. 
+              If the resource is Dataset, it has to have at least one qualified attribution relation with the role Creator, also, it is recommended to have other qualified relation to the organization with the role Publisher.</td>
                   </tr>
                 </table>
               </section>    <section id="Resource.title">
@@ -10077,10 +10093,6 @@
                       </td>
                     </tr>
               
-                  <tr>
-                    <td>Usage note</td>
-                    <td>Version 2.2 of [[SPDX]] defines individuals for the following algorithms: MD2, MD4, MD5, MD6, SHA-1, SHA-224, SHA-256, SHA-384, SHA-512.</td>
-                  </tr>
                 </table>
               </section>
           </section>          <section id="ChecksumAlgorithm">
@@ -14490,7 +14502,7 @@
             </table>
           
               <p><strong>Properties</strong></p>
-              <p>For this class profile the following properties are defined: <a href="#Subject.classificationCode">classification code</a>, <a href="#Subject.definition">definition</a>, <a href="#Subject.inSubjectScheme">in subject scheme</a>, <a href="#Subject.title">title</a>.</p>
+              <p>For this class profile the following properties are defined: <a href="#Subject.classificationCode">classification code</a>, <a href="#Subject.definition">definition</a>, <a href="#Subject.inSubjectScheme">in subject scheme</a>, <a href="#Subject.label">label</a>.</p>
           
               <p><strong>Backwards associations</strong></p>
               <ul>
@@ -14698,28 +14710,28 @@
                     </tr>
               
                 </table>
-              </section>    <section id="Subject.title">
-                <h4>title</h4>
+              </section>    <section id="Subject.label">
+                <h4>label</h4>
               
                 <table class="def">
                   <tr>
                     <td>Profiled relationship IRI(s)</td>
                     <td>
                         
-                        <a href="http://purl.org/dc/terms/title">dcterms:title</a>
+                        <a href="http://www.w3.org/2004/02/skos/core#prefLabel">skos:prefLabel</a>
                     </td>
                   </tr>
                   <tr>
                     <td>IRI</td>
-                    <td><a href="https://model.ccmm.cz/research-data/Subject.title">https://model.ccmm.cz/research-data/Subject.title</a></td>
+                    <td><a href="https://model.ccmm.cz/research-data/Subject.label">https://model.ccmm.cz/research-data/Subject.label</a></td>
                   </tr>
                   <tr>
                     <td>Label</td>
-                    <td>title</td>
+                    <td>label</td>
                   </tr>
                   <tr>
                     <td>Definition</td>
-                    <td>Title of the subject.</td>
+                    <td>Subject label.</td>
                   </tr>
                   <tr>
                     <td>Domain</td>
@@ -14733,9 +14745,9 @@
                   <tr>
                     <td>Range</td>
                     <td>
-                      <a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString">rdf:langString</a>
+                      <a href="https://ofn.gov.cz/základní-datové-typy/2020-07-01/#text">Text</a>
               
-                          [1..*]
+                          [1..1]
               
                   </td>
                   </tr>
@@ -14750,9 +14762,20 @@
                                         profiles
                     property
                     
-                    <a href="http://purl.org/dc/terms/title">Title</a> (<a href="http://purl.org/dc/terms/title">dcterms:title</a>)
-                      <br />Definition: <i>A name given to the resource.</i>
+                    <a href="http://www.w3.org/2004/02/skos/core#prefLabel">preferred label</a> (<a href="http://www.w3.org/2004/02/skos/core#prefLabel">skos:prefLabel</a>)
+                      <br />Definition: <i>skos:prefLabel, skos:altLabel and skos:hiddenLabel are pairwise
+                    disjoint properties.</i>
                       <ul style="list-style-type: disclosure-closed;">
+                          <li>
+                                      specializes
+                    property
+                    
+                    <a href="http://www.w3.org/2000/01/rdf-schema#label">label</a> (<a href="http://www.w3.org/2000/01/rdf-schema#label">rdfs:label</a>)
+                      <br />Definition: <i>A human-readable name for the subject.</i>
+                      <ul style="list-style-type: disclosure-closed;">
+                      </ul>
+              
+                          </li>
                       </ul>
               
                               </li>
@@ -14760,6 +14783,10 @@
                       </td>
                     </tr>
               
+                  <tr>
+                    <td>Usage note</td>
+                    <td>Use a label of the corresponding value from the used code list. At least one subject must be a value from FRASCATI FORD vocabulary. This property may be repeated for parallel language versions of the label.</td>
+                  </tr>
                 </table>
               </section>
           </section>          <section id="SubjectScheme">
@@ -48635,22 +48662,19 @@
 
         </li>
         <li style="list-style-type: disclosure-closed;">
-          <code>title</code>:
-            (<a href="#Subject.title" label="Title of the subject.">title</a>)
+          <code>label</code>:
+            (<a href="#Subject.label" label="Subject label.">label</a>)
           required
           item of type
 
-                
-  
-  
-    array of values <code>{1..*}</code> of type         <strong>
+                  <strong>
     object
   </strong>
     with properties (<code>properties</code>):
     <ul>
         <li style="list-style-type: disclosure-closed;">
-          <code>@value</code>:
-          required
+          <code>cs</code>:
+          optional
           item of type
 
                 
@@ -48670,8 +48694,8 @@
 
         </li>
         <li style="list-style-type: disclosure-closed;">
-          <code>@language</code>:
-          required
+          <code>en</code>:
+          optional
           item of type
 
                 
@@ -48697,16 +48721,6 @@
 
   
   
-  
-  
-  
-  
-  
-  
-
-
-          
-
   
   
   
@@ -49064,7 +49078,7 @@
           element <a href="#element-ccmm:subject-ccmm:iri"><code>&lt;iri&gt;</code></a> [0..1]
       </li>
       <li>
-          element <a href="#element-ccmm:subject-ccmm:title"><code>&lt;title&gt;</code></a> [1..*]
+          element <a href="#element-ccmm:subject-ccmm:label"><code>&lt;label&gt;</code></a> [1..*]
       </li>
       <li>
           element <a href="#element-ccmm:subject-ccmm:definition"><code>&lt;definition&gt;</code></a> [0..*]
@@ -49111,8 +49125,8 @@
     
   </dl>
 </section>
-<section id="element-ccmm:subject-ccmm:title">
-  <h4>Element <code>&lt;title&gt;</code></h4>
+<section id="element-ccmm:subject-ccmm:label">
+  <h4>Element <code>&lt;label&gt;</code></h4>
 
   <dl>
     <dt>Meaning</dt>
@@ -49124,8 +49138,8 @@
           
         </i>
 
-          <a href="#Subject.title"><strong>title</strong></a>
-          (Title of the subject.)
+          <a href="#Subject.label"><strong>label</strong></a>
+          (Subject label.)
 
     </dd>
 
@@ -60867,7 +60881,7 @@
                 
   
   
-    array of values <code>{2..*}</code> of type     <a href="#json-object--dataset--resource-attribution"></a>
+    array of values <code>{1..*}</code> of type     <a href="#json-object--dataset--resource-attribution"></a>
 
           
 
@@ -82710,22 +82724,19 @@
     with properties (<code>properties</code>):
     <ul>
         <li style="list-style-type: disclosure-closed;">
-          <code>title</code>:
-            (<a href="#Subject.title" label="Title of the subject.">title</a>)
+          <code>label</code>:
+            (<a href="#Subject.label" label="Subject label.">label</a>)
           required
           item of type
 
-                
-  
-  
-    array of values <code>{1..*}</code> of type         <strong>
+                  <strong>
     object
   </strong>
     with properties (<code>properties</code>):
     <ul>
         <li style="list-style-type: disclosure-closed;">
-          <code>@value</code>:
-          required
+          <code>cs</code>:
+          optional
           item of type
 
                 
@@ -82745,8 +82756,8 @@
 
         </li>
         <li style="list-style-type: disclosure-closed;">
-          <code>@language</code>:
-          required
+          <code>en</code>:
+          optional
           item of type
 
                 
@@ -82772,16 +82783,6 @@
 
   
   
-  
-  
-  
-  
-  
-  
-
-
-          
-
   
   
   
@@ -95651,7 +95652,7 @@
           element <a href="#element-ccmm:dataset-ccmm:alternate_title"><code>&lt;alternate_title&gt;</code></a> [0..*]
       </li>
       <li>
-          element <a href="#element-ccmm:dataset-ccmm:qualified_attribution"><code>&lt;qualified_attribution&gt;</code></a> [2..*]
+          element <a href="#element-ccmm:dataset-ccmm:qualified_attribution"><code>&lt;qualified_attribution&gt;</code></a> [1..*]
       </li>
       <li>
           element <a href="#element-ccmm:dataset-ccmm:publication_year"><code>&lt;publication_year&gt;</code></a> [1..1]
@@ -95995,7 +95996,7 @@
     </dd>
 
       <dt>Effective cardinality of the element relative to its parent element</dt>
-      <dd>2..*</dd>
+      <dd>1..*</dd>
       <dt>Parent element</dt>
       <dd><a href="#type-ccmm:dataset"></a></dd>
 

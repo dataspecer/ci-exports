@@ -1948,16 +1948,6 @@
     </result>
     <result>
       <binding name="s"><uri>https://vocabs.ccmm.cz/registry/codelist/SubjectCategory/10000/10600/10601</uri></binding>
-      <binding name="p"><uri>http://purl.org/dc/terms/title</uri></binding>
-      <binding name="o"><literal xml:lang="cs">Buněčná biologie</literal></binding>
-    </result>
-    <result>
-      <binding name="s"><uri>https://vocabs.ccmm.cz/registry/codelist/SubjectCategory/10000/10600/10601</uri></binding>
-      <binding name="p"><uri>http://purl.org/dc/terms/title</uri></binding>
-      <binding name="o"><literal xml:lang="en">Cell biology</literal></binding>
-    </result>
-    <result>
-      <binding name="s"><uri>https://vocabs.ccmm.cz/registry/codelist/SubjectCategory/10000/10600/10601</uri></binding>
       <binding name="p"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
       <binding name="o"><uri>https://w3id.org/tib/datacite/class/Subject</uri></binding>
     </result>
@@ -1973,26 +1963,6 @@
     </result>
     <result>
       <binding name="s"><uri>https://vocabs.ccmm.cz/registry/codelist/SubjectCategory/10000/10600/10606</uri></binding>
-      <binding name="p"><uri>http://purl.org/dc/terms/title</uri></binding>
-      <binding name="o"><literal xml:lang="en">Biological sciences</literal></binding>
-    </result>
-    <result>
-      <binding name="s"><uri>https://vocabs.ccmm.cz/registry/codelist/SubjectCategory/10000/10600/10606</uri></binding>
-      <binding name="p"><uri>http://purl.org/dc/terms/title</uri></binding>
-      <binding name="o"><literal xml:lang="en">Microbiology</literal></binding>
-    </result>
-    <result>
-      <binding name="s"><uri>https://vocabs.ccmm.cz/registry/codelist/SubjectCategory/10000/10600/10606</uri></binding>
-      <binding name="p"><uri>http://purl.org/dc/terms/title</uri></binding>
-      <binding name="o"><literal xml:lang="cs">Mikrobiologie </literal></binding>
-    </result>
-    <result>
-      <binding name="s"><uri>https://vocabs.ccmm.cz/registry/codelist/SubjectCategory/10000/10600/10606</uri></binding>
-      <binding name="p"><uri>http://purl.org/dc/terms/title</uri></binding>
-      <binding name="o"><literal xml:lang="cs">Mikrobiologie</literal></binding>
-    </result>
-    <result>
-      <binding name="s"><uri>https://vocabs.ccmm.cz/registry/codelist/SubjectCategory/10000/10600/10606</uri></binding>
       <binding name="p"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
       <binding name="o"><uri>https://w3id.org/tib/datacite/class/Subject</uri></binding>
     </result>
@@ -2005,16 +1975,6 @@
       <binding name="s"><uri>https://vocabs.ccmm.cz/registry/codelist/SubjectCategory/10000/10600/10606</uri></binding>
       <binding name="p"><uri>https://w3id.org/tib/datacite/property/classificationCode</uri></binding>
       <binding name="o"><literal datatype="http://www.w3.org/2001/XMLSchema#string">10606</literal></binding>
-    </result>
-    <result>
-      <binding name="s"><uri>https://vocabs.ccmm.cz/registry/codelist/SubjectCategory/30000/30100/30102</uri></binding>
-      <binding name="p"><uri>http://purl.org/dc/terms/title</uri></binding>
-      <binding name="o"><literal xml:lang="en">Immunology</literal></binding>
-    </result>
-    <result>
-      <binding name="s"><uri>https://vocabs.ccmm.cz/registry/codelist/SubjectCategory/30000/30100/30102</uri></binding>
-      <binding name="p"><uri>http://purl.org/dc/terms/title</uri></binding>
-      <binding name="o"><literal xml:lang="cs">Imunologie</literal></binding>
     </result>
     <result>
       <binding name="s"><uri>https://vocabs.ccmm.cz/registry/codelist/SubjectCategory/30000/30100/30102</uri></binding>

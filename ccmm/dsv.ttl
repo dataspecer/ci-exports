@@ -899,11 +899,6 @@
   dsv:reusedProperty skos:definition;
   dsv:reusedAsProperty skos:definition;
   dsv:reusedFromResource <https://mff-uk.github.io/specifications/dcat-ap#Checksum.algorithm>
-], [
-  a dsv:PropertyValueReuse;
-  dsv:reusedProperty skos:scopeNote;
-  dsv:reusedAsProperty skos:scopeNote;
-  dsv:reusedFromResource <https://mff-uk.github.io/specifications/dcat-ap#Checksum.algorithm>
 ];
     dsv:cardinality cardinality:11;
     dsv:domain :Checksum;
@@ -1127,7 +1122,7 @@
     a dsv:TermProfile;
     skos:prefLabel "qualified attribution"@en;
     skos:definition "An Agent having some form of responsibility for the resource. "@en;
-    skos:scopeNote "Link to a description of a relationship between resource and an agent with the specification of the role of agent in this relationship. If the resource is Dataset, it has to have at least two qualified attribution relations, the one with the role Creator, the second one with the role Publisher."@en;
+    skos:scopeNote "Link to a description of a relationship between resource and an agent with the specification of the role of agent in this relationship. \nIf the resource is Dataset, it has to have at least one qualified attribution relation with the role Creator, also, it is recommended to have other qualified relation to the organization with the role Publisher."@en;
     dsv:profileOf <https://mff-uk.github.io/specifications/dcat-ap#Dataset.qualifiedAttribution>;
     dsv:cardinality cardinality:0n;
     dsv:domain :Resource;
@@ -1597,15 +1592,16 @@
     a dsv:DatatypePropertyProfile;
     dsv:datatypePropertyRange <http://www.w3.org/2001/XMLSchema#string>.
 
-<https://model.ccmm.cz/research-data/Subject.title> dct:isPartOf <https://model.ccmm.cz/research-data/>;
+<https://model.ccmm.cz/research-data/Subject.label> dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
-    skos:prefLabel "title"@en;
-    skos:definition "Title of the subject."@en;
-    dsv:cardinality cardinality:1n;
-    dsv:property dct:title;
+    skos:prefLabel "label"@en;
+    skos:definition "Subject label."@en;
+    skos:scopeNote "Use a label of the corresponding value from the used code list. At least one subject must be a value from FRASCATI FORD vocabulary. This property may be repeated for parallel language versions of the label."@en;
+    dsv:cardinality cardinality:11;
+    dsv:property skos:prefLabel;
     dsv:domain :Subject;
     a dsv:DatatypePropertyProfile;
-    dsv:datatypePropertyRange rdf:langString.
+    dsv:datatypePropertyRange <https://ofn.gov.cz/zdroj/základní-datové-typy/2020-07-01/text>.
 
 <https://model.ccmm.cz/research-data/Subject.definition> dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;

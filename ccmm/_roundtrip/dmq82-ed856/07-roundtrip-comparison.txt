@@ -1,15 +1,20 @@
 Status: DIFFERENT
 Comparison: elements, attributes, text values, and repeated-element order
 Ignored: XML declaration, comments, indentation, attribute order, namespace prefixes
-Missing content entries: 4
+Missing content entries: 10
 Added content entries: 21
 Sibling-order changes: 21
 
 Missing from round-trip XML:
 - attribute /ccmm:dataset/@xsi:schemaLocation = 'https://schema.ccmm.cz/research-data/2.0 ../dataset/schema.xsd'
 - attribute /ccmm:dataset/ccmm:distribution/ccmm:distribution_downloadable_file/ccmm:download_url/ccmm:label/@xml:lang = 'en'
+- attribute /ccmm:dataset/ccmm:subject/ccmm:title/@xml:lang = 'cs'
+- attribute /ccmm:dataset/ccmm:subject/ccmm:title/@xml:lang = 'en'
 - element /ccmm:dataset/ccmm:distribution/ccmm:distribution_downloadable_file/ccmm:download_url/ccmm:label
+- element /ccmm:dataset/ccmm:subject/ccmm:title (2 occurrences)
 - text /ccmm:dataset/ccmm:distribution/ccmm:distribution_downloadable_file/ccmm:download_url/ccmm:label = 'REPO.tar'
+- text /ccmm:dataset/ccmm:subject/ccmm:title = 'Materials engineering'
+- text /ccmm:dataset/ccmm:subject/ccmm:title = 'Materiálové inženýrství'
 
 Added in round-trip XML:
 - attribute /ccmm:dataset/ccmm:qualified_attribution/ccmm:attributed_agent/ccmm:organization/ccmm:identifier/ccmm:scheme/ccmm:label/@xml:lang = 'en'

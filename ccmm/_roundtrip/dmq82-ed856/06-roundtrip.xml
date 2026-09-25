@@ -413,8 +413,6 @@
    </ccmm:access_rights>
    <ccmm:subject>
       <ccmm:iri>https://vocabs.ccmm.cz/registry/codelist/SubjectCategory/20000/20500/20501</ccmm:iri>
-      <ccmm:title xml:lang="cs">Materiálové inženýrství</ccmm:title>
-      <ccmm:title xml:lang="en">Materials engineering</ccmm:title>
       <ccmm:classification_code>20501</ccmm:classification_code>
       <ccmm:subject_scheme>
          <ccmm:iri>https://vocabs.ccmm.cz/registry/codelist/SubjectCategory/</ccmm:iri>

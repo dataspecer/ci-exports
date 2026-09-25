@@ -4809,12 +4809,12 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     type: [ "relationship-profile" ],
   }
 ]
- [
+Unable to merge entities with colliding id https://mff-uk.github.io/specifications/dcat-dap#CatalogRecord.title because they are of unsupported types. Falling back to the first one. [
   {
     ends: [
       [Object ...], [Object ...]
     ],
-    id: "https://mff-uk.github.io/specifications/,
+    id: "https://mff-uk.github.io/specifications/dcat-dap#CatalogRecord.title",
     type: [ "relationship-profile" ],
   }, {
     ends: [

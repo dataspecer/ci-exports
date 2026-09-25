@@ -93,7 +93,6 @@
    </ccmm:access_rights>
    <ccmm:subject>
       <ccmm:iri>https://vocabs.ccmm.cz/registry/codelist/SubjectCategory/30000/30300/30304</ccmm:iri>
-      <ccmm:title xml:lang="cs">Veřejné a environmentální zdraví</ccmm:title>
       <ccmm:classification_code>10509</ccmm:classification_code>
       <ccmm:subject_scheme>
          <ccmm:iri>https://vocabs.ccmm.cz/registry/codelist/SubjectCategory/</ccmm:iri>

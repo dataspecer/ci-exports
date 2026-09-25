@@ -139,8 +139,6 @@
 <https://vocabs.ccmm.cz/registry/codelist/AgentRole/Publisher> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Role> .
 <https://vocabs.ccmm.cz/registry/codelist/AgentRole/Publisher> <http://www.w3.org/2004/02/skos/core#prefLabel> "Publisher"@en .
 <https://vocabs.ccmm.cz/registry/codelist/AgentRole/Publisher> <http://www.w3.org/2004/02/skos/core#prefLabel> "Vydavatel"@cs .
-<https://vocabs.ccmm.cz/registry/codelist/SubjectCategory/20000/20500/20501> <http://purl.org/dc/terms/title> "Materials engineering"@en .
-<https://vocabs.ccmm.cz/registry/codelist/SubjectCategory/20000/20500/20501> <http://purl.org/dc/terms/title> "Materiálové inženýrství"@cs .
 <https://vocabs.ccmm.cz/registry/codelist/SubjectCategory/20000/20500/20501> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/tib/datacite/class/Subject> .
 <https://vocabs.ccmm.cz/registry/codelist/SubjectCategory/20000/20500/20501> <https://model.ccmm.cz/vocabulary/ccmm#inSubjectScheme> <https://vocabs.ccmm.cz/registry/codelist/SubjectCategory/> .
 <https://vocabs.ccmm.cz/registry/codelist/SubjectCategory/20000/20500/20501> <https://w3id.org/tib/datacite/property/classificationCode> "20501" .

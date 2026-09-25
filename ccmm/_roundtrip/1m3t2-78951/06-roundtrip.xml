@@ -344,8 +344,6 @@
    </ccmm:access_rights>
    <ccmm:subject>
       <ccmm:iri>https://vocabs.ccmm.cz/registry/codelist/SubjectCategory/10000/10600/10601</ccmm:iri>
-      <ccmm:title xml:lang="cs">Buněčná biologie</ccmm:title>
-      <ccmm:title xml:lang="en">Cell biology</ccmm:title>
       <ccmm:classification_code>10601</ccmm:classification_code>
       <ccmm:subject_scheme>
          <ccmm:iri>https://vocabs.ccmm.cz/registry/codelist/SubjectCategory/</ccmm:iri>
@@ -355,10 +353,6 @@
    </ccmm:subject>
    <ccmm:subject>
       <ccmm:iri>https://vocabs.ccmm.cz/registry/codelist/SubjectCategory/10000/10600/10606</ccmm:iri>
-      <ccmm:title xml:lang="en">Biological sciences</ccmm:title>
-      <ccmm:title xml:lang="en">Microbiology</ccmm:title>
-      <ccmm:title xml:lang="cs">Mikrobiologie </ccmm:title>
-      <ccmm:title xml:lang="cs">Mikrobiologie</ccmm:title>
       <ccmm:classification_code>10606</ccmm:classification_code>
       <ccmm:subject_scheme>
          <ccmm:iri>https://vocabs.ccmm.cz/registry/codelist/SubjectCategory/</ccmm:iri>
@@ -368,8 +362,6 @@
    </ccmm:subject>
    <ccmm:subject>
       <ccmm:iri>https://vocabs.ccmm.cz/registry/codelist/SubjectCategory/30000/30100/30102</ccmm:iri>
-      <ccmm:title xml:lang="en">Immunology</ccmm:title>
-      <ccmm:title xml:lang="cs">Imunologie</ccmm:title>
       <ccmm:classification_code>30102</ccmm:classification_code>
       <ccmm:subject_scheme>
          <ccmm:iri>https://vocabs.ccmm.cz/registry/codelist/SubjectCategory/</ccmm:iri>
