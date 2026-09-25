@@ -1,15 +1,21 @@
 Status: DIFFERENT
 Comparison: elements, attributes, text values, and repeated-element order
 Ignored: XML declaration, comments, indentation, attribute order, namespace prefixes
-Missing content entries: 4
+Missing content entries: 13
 Added content entries: 9
-Sibling-order changes: 10
+Sibling-order changes: 8
 
 Missing from round-trip XML:
 - attribute /ccmm:dataset/@xsi:schemaLocation = 'https://schema.ccmm.cz/research-data/2.0 ../dataset/schema.xsd'
 - attribute /ccmm:dataset/ccmm:related_resource/ccmm:resource_type/ccmm:label/@xml:lang = 'en'
+- attribute /ccmm:dataset/ccmm:subject/ccmm:title/@xml:lang = 'cs'
+- attribute /ccmm:dataset/ccmm:subject/ccmm:title/@xml:lang = 'en' (2 occurrences)
 - element /ccmm:dataset/ccmm:related_resource/ccmm:resource_type/ccmm:label
+- element /ccmm:dataset/ccmm:subject/ccmm:title (3 occurrences)
 - text /ccmm:dataset/ccmm:related_resource/ccmm:resource_type/ccmm:label = 'text'
+- text /ccmm:dataset/ccmm:subject/ccmm:title = 'Environmental monitoring facilities'
+- text /ccmm:dataset/ccmm:subject/ccmm:title = 'Meteorologie, vědy o atmosféře'
+- text /ccmm:dataset/ccmm:subject/ccmm:title = 'Meteorology and atmospheric sciences'
 
 Added in round-trip XML:
 - attribute /ccmm:dataset/ccmm:metadata_identification/ccmm:language/ccmm:label/@xml:lang = 'cs'
@@ -46,9 +52,3 @@ Repeated elements with changed order:
 - /ccmm:dataset/ccmm:resource_type/ccmm:label
   original: ccmm:label @xml:lang='cs' = 'datová sada' | ccmm:label @xml:lang='en' = 'dataset'
   round-trip: ccmm:label @xml:lang='en' = 'dataset' | ccmm:label @xml:lang='cs' = 'datová sada'
-- /ccmm:dataset/ccmm:subject
-  original: ccmm:subject (ccmm:iri='https://vocabs.ccmm.cz/registry/codelist/S'... [sha256:57003b26a8dc]; ccmm:label='Oborové třídění OECD FORD (Frascati)') | ccmm:subject (ccmm:iri='http://inspire.ec.europa.eu/theme/ef'; ccmm:label='INSPIRE theme register')
-  round-trip: ccmm:subject (ccmm:iri='http://inspire.ec.europa.eu/theme/ef'; ccmm:label='INSPIRE theme register') | ccmm:subject (ccmm:iri='https://vocabs.ccmm.cz/registry/codelist/S'... [sha256:57003b26a8dc]; ccmm:label='OECD FORD Subject Category (Frascati)')
-- /ccmm:dataset/ccmm:subject/ccmm:subject_scheme/ccmm:label
-  original: ccmm:label @xml:lang='en' = 'OECD FORD Subject Category (Frascati)' | ccmm:label @xml:lang='cs' = 'Oborové třídění OECD FORD (Frascati)'
-  round-trip: ccmm:label @xml:lang='cs' = 'Oborové třídění OECD FORD (Frascati)' | ccmm:label @xml:lang='en' = 'OECD FORD Subject Category (Frascati)'

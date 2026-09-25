@@ -415,9 +415,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://vocabs.ccmm.cz/registry/codelist/SubjectCategory/20000/20500/20501>
     a <https://w3id.org/tib/datacite/class/Subject> ;
-    dcterms:title
-        "Materiálové inženýrství"@cs ,
-        "Materials engineering"@en ;
     ccmm:inSubjectScheme <https://vocabs.ccmm.cz/registry/codelist/SubjectCategory/> ;
     datacite:classificationCode "20501" ;
 .

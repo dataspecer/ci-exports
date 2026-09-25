@@ -248,7 +248,6 @@
    </ccmm:access_rights>
    <ccmm:subject>
       <ccmm:iri>http://inspire.ec.europa.eu/theme/ef</ccmm:iri>
-      <ccmm:title xml:lang="en">Environmental monitoring facilities</ccmm:title>
       <ccmm:definition xml:lang="en">Location and operation of environmental monitoring facilities
             includes observation and measurement of emissions, of the state of environmental media
             and of other ecosystem parameters (biodiversity, ecological conditions of vegetation,
@@ -261,8 +260,6 @@
    </ccmm:subject>
    <ccmm:subject>
       <ccmm:iri>https://vocabs.ccmm.cz/registry/codelist/SubjectCategory/10000/10500/10509</ccmm:iri>
-      <ccmm:title xml:lang="cs">Meteorologie, vědy o atmosféře</ccmm:title>
-      <ccmm:title xml:lang="en">Meteorology and atmospheric sciences</ccmm:title>
       <ccmm:classification_code>10509</ccmm:classification_code>
       <ccmm:subject_scheme>
          <ccmm:iri>https://vocabs.ccmm.cz/registry/codelist/SubjectCategory/</ccmm:iri>

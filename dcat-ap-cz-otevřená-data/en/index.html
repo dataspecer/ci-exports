@@ -75,7 +75,7 @@
                 "adms:AssetDistribution",
                 "prof:ResourceDescriptor"
               ],
-              "hasArtifact": "../série-datových-sad/structure.ttl",
+              "hasArtifact": "../datová-sada/structure.ttl",
               "hasRole": "role:schema",
               "format": "filetype:RDF_TURTLE",
               "conformsTo": "dsv:Structure"
@@ -85,7 +85,7 @@
                 "adms:AssetDistribution",
                 "prof:ResourceDescriptor"
               ],
-              "hasArtifact": "../datová-sada/structure.ttl",
+              "hasArtifact": "../série-datových-sad/structure.ttl",
               "hasRole": "role:schema",
               "format": "filetype:RDF_TURTLE",
               "conformsTo": "dsv:Structure"
@@ -122,28 +122,6 @@
               "format": "filetype:HTML"
             },
             {
-              "@id": "460728c2-35f5-40f5-b88d-71dc6e495733#jsonschema",
-              "@type": [
-                "adms:AssetDistribution",
-                "prof:ResourceDescriptor"
-              ],
-              "hasArtifact": "../série-datových-sad/schéma.json",
-              "hasRole": "role:schema",
-              "format": "filetype:JSON",
-              "conformsTo": "https://json-schema.org/draft/2020-12/schema"
-            },
-            {
-              "@id": "460728c2-35f5-40f5-b88d-71dc6e495733#jsonLd",
-              "@type": [
-                "adms:AssetDistribution",
-                "prof:ResourceDescriptor"
-              ],
-              "hasArtifact": "../série-datových-sad/kontext.jsonld",
-              "hasRole": "role:schema",
-              "format": "filetype:JSON_LD",
-              "conformsTo": "http://www.w3.org/ns/json-ld"
-            },
-            {
               "@id": "f7149d33-00bb-4afb-a849-7f95debec201#jsonschema",
               "@type": [
                 "adms:AssetDistribution",
@@ -161,6 +139,28 @@
                 "prof:ResourceDescriptor"
               ],
               "hasArtifact": "../datová-sada/kontext.jsonld",
+              "hasRole": "role:schema",
+              "format": "filetype:JSON_LD",
+              "conformsTo": "http://www.w3.org/ns/json-ld"
+            },
+            {
+              "@id": "460728c2-35f5-40f5-b88d-71dc6e495733#jsonschema",
+              "@type": [
+                "adms:AssetDistribution",
+                "prof:ResourceDescriptor"
+              ],
+              "hasArtifact": "../série-datových-sad/schéma.json",
+              "hasRole": "role:schema",
+              "format": "filetype:JSON",
+              "conformsTo": "https://json-schema.org/draft/2020-12/schema"
+            },
+            {
+              "@id": "460728c2-35f5-40f5-b88d-71dc6e495733#jsonLd",
+              "@type": [
+                "adms:AssetDistribution",
+                "prof:ResourceDescriptor"
+              ],
+              "hasArtifact": "../série-datových-sad/kontext.jsonld",
               "hasRole": "role:schema",
               "format": "filetype:JSON_LD",
               "conformsTo": "http://www.w3.org/ns/json-ld"
@@ -495,1408 +495,6 @@
         </a>
     </section>
 
-      <section>
-      <h2>
-        Data structure specification for
-        Dataset series
-      </h2>
-      <p>Data structure for Dataset series. A collection of datasets that are published separately, but share some characteristics that group them.</p>
-
-      <section id="json-schema--série-datových-sad">
-
-
-
-
-
-
-
-
-
-
-
-
-  <h1>
-
-      JSON structure for
-    Dataset series
-  </h1>
-
-    <dl>
-      <dt>IRI</dt>
-      <dd><code>https://ofn.gov.cz/dcat-ap-cz-otevřená-data/2026-09-23/série-datových-sad/schéma.json</code></dd>
-      <dt>Defined in</dt>
-      <dd><code><a href="../série-datových-sad/schéma.json">../série-datových-sad/schéma.json</a></code></dd>
-        <dt>Language version used</dt>
-        <dd><a href="https://json-schema.org/specification-links.html#2020-12-release" target="_blank">2020-12</a> (metaschema IRI: <code>https://json-schema.org/draft/2020-12/schema</code>)</dd>
-    </dl>
-
-    <h2>Root</h2>
-    The root of the JSON schema is
-        <a href="#json-object--série-datových-sad--série-datových-sad"></a>
-
-
-    <section id="json-object--série-datových-sad--série-datových-sad">
-      <h2>
-        Object <i>Dataset Series</i>
-      </h2>
-
-      <table class="def">
-          <tr>
-            <th>Description</th>
-            <td>A collection of datasets that are published separately, but share some characteristics that group them.</td>
-          </tr>
-
-          <tr>
-            <th>Interpretation</th>
-            <td><a href="#SérieDatovýchSad">Dataset Series</a></td>
-          </tr>
-      </table>
-
-          <strong>
-    object
-  </strong>
-    with properties (<code>properties</code>):
-    <ul>
-        <li style="list-style-type: disclosure-closed;">
-          <code>@context</code>:
-          required
-          item of type
-
-                
-  
-  
-  
-  
-  
-  
-  
-        exactly one of the following (<code>oneOf</code>):
-    <ul>
-        <li>      
-    constant value
-    <code>&quot;https://ofn.gov.cz/dcat-ap-cz-otevřená-data/2026-09-23/série-datových-sad/kontext.jsonld&quot;</code>
-
-  
-  
-  
-  
-  
-  
-  
-
-</li>
-        <li>      
-  
-  
-    array of values <code>{0..*}</code> of type       
-  
-  
-    string
-  (format: <code>iri</code>)
-  
-
-
-  
-  
-  
-  
-  
-
-
-     and must contain: <code>&quot;https://ofn.gov.cz/dcat-ap-cz-otevřená-data/2026-09-23/série-datových-sad/kontext.jsonld&quot;</code>
-
-  
-  
-  
-  
-  
-  
-
-</li>
-    </ul>
-
-
-
-
-
-
-        </li>
-        <li style="list-style-type: disclosure-closed;">
-          <code>iri</code>:
-          required
-          item of type
-
-                
-  
-  
-    string
-  (format: <code>iri</code>)
-  
-
-
-  
-  
-  
-  
-  
-
-
-        </li>
-        <li style="list-style-type: disclosure-closed;">
-          <code>typ</code>:
-          required
-          item of type
-
-                
-  
-  
-  
-  
-  
-  
-  
-        exactly one of the following (<code>oneOf</code>):
-    <ul>
-        <li>      
-    constant value
-    <code>&quot;Série datových sad&quot;</code>
-
-  
-  
-  
-  
-  
-  
-  
-
-</li>
-        <li>      
-  
-  
-    array of values <code>{0..*}</code> of type       
-  
-  
-    string
-  
-  
-
-
-  
-  
-  
-  
-  
-
-
-     and must contain: <code>&quot;Série datových sad&quot;</code>
-
-  
-  
-  
-  
-  
-  
-
-</li>
-    </ul>
-
-
-
-
-
-
-        </li>
-        <li style="list-style-type: disclosure-closed;">
-          <code>název</code>:
-            (<a href="#SérieDatovýchSad.název" label="A name given to the Dataset Series.">title</a>)
-          required
-          item of type
-
-                  <strong>
-    object
-  </strong>
-    with properties (<code>properties</code>):
-    <ul>
-        <li style="list-style-type: disclosure-closed;">
-          <code>cs</code>:
-          optional
-          item of type
-
-                
-  
-  
-    string
-  
-  
-
-
-  
-  
-  
-  
-  
-
-
-        </li>
-        <li style="list-style-type: disclosure-closed;">
-          <code>en</code>:
-          optional
-          item of type
-
-                
-  
-  
-    string
-  
-  
-
-
-  
-  
-  
-  
-  
-
-
-        </li>
-    </ul>
-  
-
-
-
-  
-  
-  
-  
-  
-  
-  
-  
-
-
-        </li>
-        <li style="list-style-type: disclosure-closed;">
-          <code>popis</code>:
-            (<a href="#SérieDatovýchSad.popis" label="A free-text account of the Dataset Series.">description</a>)
-          required
-          item of type
-
-                  <strong>
-    object
-  </strong>
-    with properties (<code>properties</code>):
-    <ul>
-        <li style="list-style-type: disclosure-closed;">
-          <code>cs</code>:
-          optional
-          item of type
-
-                
-  
-  
-    string
-  
-  
-
-
-  
-  
-  
-  
-  
-
-
-        </li>
-        <li style="list-style-type: disclosure-closed;">
-          <code>en</code>:
-          optional
-          item of type
-
-                
-  
-  
-    string
-  
-  
-
-
-  
-  
-  
-  
-  
-
-
-        </li>
-    </ul>
-  
-
-
-
-  
-  
-  
-  
-  
-  
-  
-  
-
-
-        </li>
-        <li style="list-style-type: disclosure-closed;">
-          <code>poskytovatel</code>:
-            (<a href="#SérieDatovýchSad.poskytovatel" label="An entity (organisation) responsible for ensuring the coherency of the Dataset Series.">publisher</a>)
-          required
-          item of type
-
-                
-  
-  
-    string
-  (format: <code>iri</code>)
-  
-
-
-  
-  
-  
-  
-  
-
-
-        </li>
-        <li style="list-style-type: disclosure-closed;">
-          <code>je_součástí</code>:
-            (<a href="#SérieDatovýchSad.jeSoučástí" label="A dataset series of which the dataset is part.">in series</a>)
-          optional
-          item of type
-
-                
-  
-  
-    array of values <code>{0..*}</code> of type       
-  
-  
-    string
-  (format: <code>iri</code>)
-  
-
-
-  
-  
-  
-  
-  
-
-
-          
-
-  
-  
-  
-  
-  
-  
-
-
-        </li>
-        <li style="list-style-type: disclosure-closed;">
-          <code>téma</code>:
-            (<a href="#SérieDatovýchSad.téma" label="A category of the Dataset.">theme</a>)
-          required
-          item of type
-
-                
-  
-  
-    array of values <code>{1..*}</code> of type       
-  
-  
-    string
-  (format: <code>iri</code>)
-  (by regular expression: <code>^http://publications\.europa\.eu/resource/authority/data-theme/.*$</code>)
-
-
-  
-  
-  
-  
-  
-
-
-          
-
-  
-  
-  
-  
-  
-  
-
-
-        </li>
-        <li style="list-style-type: disclosure-closed;">
-          <code>periodicita_aktualizace</code>:
-            (<a href="#SérieDatovýchSad.periodicitaAktualizace" label="The frequency at which the Dataset Series is updated.">frequency</a>)
-          required
-          item of type
-
-                
-  
-  
-    string
-  (format: <code>iri</code>)
-  (by regular expression: <code>^http://publications\.europa\.eu/resource/authority/frequency/.*$</code>)
-
-
-  
-  
-  
-  
-  
-
-
-        </li>
-        <li style="list-style-type: disclosure-closed;">
-          <code>klíčové_slovo</code>:
-            (<a href="#SérieDatovýchSad.klíčovéSlovo" label="A keyword or tag describing a resource.">keyword</a>)
-          required
-          item of type
-
-                  <strong>
-    object
-  </strong>
-    with properties (<code>properties</code>):
-    <ul>
-        <li style="list-style-type: disclosure-closed;">
-          <code>cs</code>:
-          optional
-          item of type
-
-                
-  
-  
-    array of values <code>{0..*}</code> of type       
-  
-  
-    string
-  
-  
-
-
-  
-  
-  
-  
-  
-
-
-          
-
-  
-  
-  
-  
-  
-  
-
-
-        </li>
-        <li style="list-style-type: disclosure-closed;">
-          <code>en</code>:
-          optional
-          item of type
-
-                
-  
-  
-    array of values <code>{0..*}</code> of type       
-  
-  
-    string
-  
-  
-
-
-  
-  
-  
-  
-  
-
-
-          
-
-  
-  
-  
-  
-  
-  
-
-
-        </li>
-    </ul>
-  
-
-
-
-  
-  
-  
-  
-  
-  
-  
-  
-
-
-        </li>
-        <li style="list-style-type: disclosure-closed;">
-          <code>geografické_území</code>:
-            (<a href="#SérieDatovýchSad.souvisejícíGeografickéÚzemí" label="A geographic region that is covered by the Dataset Series.">geographical coverage</a>)
-          optional
-          item of type
-
-                
-  
-  
-    array of values <code>{0..*}</code> of type       
-  
-  
-    string
-  (format: <code>iri</code>)
-  
-
-
-  
-  
-  
-  
-  
-
-
-          
-
-  
-  
-  
-  
-  
-  
-
-
-        </li>
-        <li style="list-style-type: disclosure-closed;">
-          <code>prvek_rúian</code>:
-            (<a href="#SérieDatovýchSad.souvisejícíGeografickéÚzemí-PrvekZRúian" label="The geographical area covered by the dataset.">geographical coverage</a>)
-          required
-          item of type
-
-                
-  
-  
-    array of values <code>{1..*}</code> of type       
-  
-  
-    string
-  (format: <code>iri</code>)
-  (by regular expression: <code>^https://linked.cuzk.cz/resource/ruian/.*$</code>)
-
-
-  
-  
-  
-  
-  
-
-
-          
-
-  
-  
-  
-  
-  
-  
-
-
-        </li>
-        <li style="list-style-type: disclosure-closed;">
-          <code>časové_pokrytí</code>:
-            (<a href="#SérieDatovýchSad.časovéPokrytí" label="A temporal period that the Dataset Series covers.">temporal coverage</a>)
-          optional
-          item of type
-
-                
-  
-  
-    array of values <code>{0..*}</code> of type     <a href="#json-object--série-datových-sad--časový-interval"></a>
-
-          
-
-  
-  
-  
-  
-  
-  
-
-
-        </li>
-        <li style="list-style-type: disclosure-closed;">
-          <code>kontaktní_bod</code>:
-            (<a href="#SérieDatovýchSad.kontaktníBod" label="Contact information that can be used for sending comments about the Dataset Series.">contact point</a>)
-          optional
-          item of type
-
-                
-  
-  
-  
-  
-  
-  
-  
-    
-    at least one of the following (<code>anyOf</code>):
-    <ul>
-        <li>    <a href="#json-object--série-datových-sad--organizace"></a>
-</li>
-        <li>    <a href="#json-object--série-datových-sad--jednotlivec"></a>
-</li>
-    </ul>
-
-
-
-
-
-        </li>
-        <li style="list-style-type: disclosure-closed;">
-          <code>dokumentace</code>:
-            (<a href="#SérieDatovýchSad.dokumentace" label="A page or document about this Dataset.">documentation</a>)
-          optional
-          item of type
-
-                
-  
-  
-    string
-  (format: <code>iri</code>)
-  (by regular expression: <code>^https://.*$</code>)
-
-
-  
-  
-  
-  
-  
-
-
-        </li>
-        <li style="list-style-type: disclosure-closed;">
-          <code>koncept_euroVoc</code>:
-            (<a href="#SérieDatovýchSad.klasifikaceDleEurovoc" label="A category of the Dataset.">theme</a>)
-          optional
-          item of type
-
-                
-  
-  
-    array of values <code>{0..*}</code> of type       
-  
-  
-    string
-  (format: <code>iri</code>)
-  (by regular expression: <code>^http://eurovoc\.europa\.eu/.*$</code>)
-
-
-  
-  
-  
-  
-  
-
-
-          
-
-  
-  
-  
-  
-  
-  
-
-
-        </li>
-        <li style="list-style-type: disclosure-closed;">
-          <code>právní_předpis</code>:
-            (<a href="#SérieDatovýchSad.příslušnýPrávníPředpis" label="The legislation that mandates the creation or management of the Dataset Series.">applicable legislation</a>)
-          required
-          item of type
-
-                
-  
-  
-    array of values <code>{1..*}</code> of type       
-  
-  
-    string
-  (format: <code>iri</code>)
-  (by regular expression: <code>^http</code>)
-
-
-  
-  
-  
-  
-  
-
-
-          
-
-  
-  
-  
-  
-  
-  
-
-
-        </li>
-        <li style="list-style-type: disclosure-closed;">
-          <code>vstupní_stránka</code>:
-            (<a href="#SérieDatovýchSad.vstupníStránka" label="A Web page that can be navigated to in a Web browser to gain access to the catalog, a dataset, its distributions and/or additional information.">landing page</a>)
-          optional
-          item of type
-
-                
-  
-  
-    string
-  (format: <code>iri</code>)
-  (by regular expression: <code>^https://.*$</code>)
-
-
-  
-  
-  
-  
-  
-
-
-        </li>
-    </ul>
-  
-
-
-
-  
-  
-  
-  
-  
-  
-  
-  
-
-    </section>
-    <section id="json-object--série-datových-sad--jednotlivec">
-      <h2>
-        Object <i>Individual</i>
-      </h2>
-
-      <table class="def">
-          <tr>
-            <th>Description</th>
-            <td>An object representing a single person or entity</td>
-          </tr>
-
-          <tr>
-            <th>Interpretation</th>
-            <td><a href="#Jednotlivec">Individual</a></td>
-          </tr>
-      </table>
-
-          <strong>
-    object
-  </strong>
-    with properties (<code>properties</code>):
-    <ul>
-        <li style="list-style-type: disclosure-closed;">
-          <code>iri</code>:
-          optional
-          item of type
-
-                
-  
-  
-    string
-  (format: <code>iri</code>)
-  
-
-
-  
-  
-  
-  
-  
-
-
-        </li>
-        <li style="list-style-type: disclosure-closed;">
-          <code>typ</code>:
-          required
-          item of type
-
-                
-  
-  
-  
-  
-  
-  
-  
-        exactly one of the following (<code>oneOf</code>):
-    <ul>
-        <li>      
-    constant value
-    <code>&quot;Jednotlivec&quot;</code>
-
-  
-  
-  
-  
-  
-  
-  
-
-</li>
-        <li>      
-  
-  
-    array of values <code>{0..*}</code> of type       
-  
-  
-    string
-  
-  
-
-
-  
-  
-  
-  
-  
-
-
-     and must contain: <code>&quot;Jednotlivec&quot;</code>
-
-  
-  
-  
-  
-  
-  
-
-</li>
-    </ul>
-
-
-
-
-
-
-        </li>
-        <li style="list-style-type: disclosure-closed;">
-          <code>jméno</code>:
-            (<a href="#KontaktníBod.jméno" label="The formatted text corresponding to the name of the object">formatted name</a>)
-          optional
-          item of type
-
-                  <strong>
-    object
-  </strong>
-    with properties (<code>properties</code>):
-    <ul>
-        <li style="list-style-type: disclosure-closed;">
-          <code>cs</code>:
-          optional
-          item of type
-
-                
-  
-  
-    string
-  
-  
-
-
-  
-  
-  
-  
-  
-
-
-        </li>
-        <li style="list-style-type: disclosure-closed;">
-          <code>en</code>:
-          optional
-          item of type
-
-                
-  
-  
-    string
-  
-  
-
-
-  
-  
-  
-  
-  
-
-
-        </li>
-    </ul>
-  
-
-
-
-  
-  
-  
-  
-  
-  
-  
-  
-
-
-        </li>
-        <li style="list-style-type: disclosure-closed;">
-          <code>e-mail</code>:
-            (<a href="#KontaktníBod.email" label="To specify the electronic mail address for communication with the object">has email</a>)
-          optional
-          item of type
-
-                
-  
-  
-    string
-  (format: <code>iri</code>)
-  (by regular expression: <code>^mailto:[^@]+@[^@]+</code>)
-
-
-  
-  
-  
-  
-  
-
-
-        </li>
-    </ul>
-  
-
-
-
-  
-  
-  
-  
-  
-  
-  
-  
-
-    </section>
-    <section id="json-object--série-datových-sad--organizace">
-      <h2>
-        Object <i>Organization</i>
-      </h2>
-
-      <table class="def">
-          <tr>
-            <th>Description</th>
-            <td>An object representing an organization.  An organization is a single entity, and might represent a business or government, a department or division within a business or government, a club, an association, or the like.
-</td>
-          </tr>
-
-          <tr>
-            <th>Interpretation</th>
-            <td><a href="#Organizace">Organization</a></td>
-          </tr>
-      </table>
-
-          <strong>
-    object
-  </strong>
-    with properties (<code>properties</code>):
-    <ul>
-        <li style="list-style-type: disclosure-closed;">
-          <code>iri</code>:
-          optional
-          item of type
-
-                
-  
-  
-    string
-  (format: <code>iri</code>)
-  
-
-
-  
-  
-  
-  
-  
-
-
-        </li>
-        <li style="list-style-type: disclosure-closed;">
-          <code>typ</code>:
-          required
-          item of type
-
-                
-  
-  
-  
-  
-  
-  
-  
-        exactly one of the following (<code>oneOf</code>):
-    <ul>
-        <li>      
-    constant value
-    <code>&quot;Organizace&quot;</code>
-
-  
-  
-  
-  
-  
-  
-  
-
-</li>
-        <li>      
-  
-  
-    array of values <code>{0..*}</code> of type       
-  
-  
-    string
-  
-  
-
-
-  
-  
-  
-  
-  
-
-
-     and must contain: <code>&quot;Organizace&quot;</code>
-
-  
-  
-  
-  
-  
-  
-
-</li>
-    </ul>
-
-
-
-
-
-
-        </li>
-        <li style="list-style-type: disclosure-closed;">
-          <code>jméno</code>:
-            (<a href="#KontaktníBod.jméno" label="The formatted text corresponding to the name of the object">formatted name</a>)
-          optional
-          item of type
-
-                  <strong>
-    object
-  </strong>
-    with properties (<code>properties</code>):
-    <ul>
-        <li style="list-style-type: disclosure-closed;">
-          <code>cs</code>:
-          optional
-          item of type
-
-                
-  
-  
-    string
-  
-  
-
-
-  
-  
-  
-  
-  
-
-
-        </li>
-        <li style="list-style-type: disclosure-closed;">
-          <code>en</code>:
-          optional
-          item of type
-
-                
-  
-  
-    string
-  
-  
-
-
-  
-  
-  
-  
-  
-
-
-        </li>
-    </ul>
-  
-
-
-
-  
-  
-  
-  
-  
-  
-  
-  
-
-
-        </li>
-        <li style="list-style-type: disclosure-closed;">
-          <code>e-mail</code>:
-            (<a href="#KontaktníBod.email" label="To specify the electronic mail address for communication with the object">has email</a>)
-          optional
-          item of type
-
-                
-  
-  
-    string
-  (format: <code>iri</code>)
-  (by regular expression: <code>^mailto:[^@]+@[^@]+</code>)
-
-
-  
-  
-  
-  
-  
-
-
-        </li>
-    </ul>
-  
-
-
-
-  
-  
-  
-  
-  
-  
-  
-  
-
-    </section>
-    <section id="json-object--série-datových-sad--časový-interval">
-      <h2>
-        Object <i>Period of Time</i>
-      </h2>
-
-      <table class="def">
-          <tr>
-            <th>Description</th>
-            <td>An interval of time that is named or defined by its start and end.</td>
-          </tr>
-
-          <tr>
-            <th>Interpretation</th>
-            <td><a href="#ČasovýInterval">Period of Time</a></td>
-          </tr>
-      </table>
-
-          <strong>
-    object
-  </strong>
-    with properties (<code>properties</code>):
-    <ul>
-        <li style="list-style-type: disclosure-closed;">
-          <code>iri</code>:
-          required
-          item of type
-
-                
-  
-  
-    string
-  (format: <code>iri</code>)
-  
-
-
-  
-  
-  
-  
-  
-
-
-        </li>
-        <li style="list-style-type: disclosure-closed;">
-          <code>typ</code>:
-          required
-          item of type
-
-                
-  
-  
-  
-  
-  
-  
-  
-        exactly one of the following (<code>oneOf</code>):
-    <ul>
-        <li>      
-    constant value
-    <code>&quot;Časový interval&quot;</code>
-
-  
-  
-  
-  
-  
-  
-  
-
-</li>
-        <li>      
-  
-  
-    array of values <code>{0..*}</code> of type       
-  
-  
-    string
-  
-  
-
-
-  
-  
-  
-  
-  
-
-
-     and must contain: <code>&quot;Časový interval&quot;</code>
-
-  
-  
-  
-  
-  
-  
-
-</li>
-    </ul>
-
-
-
-
-
-
-        </li>
-        <li style="list-style-type: disclosure-closed;">
-          <code>začátek</code>:
-            (<a href="#ČasovýInterval.datumZačátku" label="The start of the period.">start date</a>)
-          optional
-          item of type
-
-                
-  
-  
-    string
-  (format: <code>date</code>)
-  
-
-
-  
-  
-  
-  
-  
-
-
-        </li>
-        <li style="list-style-type: disclosure-closed;">
-          <code>konec</code>:
-            (<a href="#ČasovýInterval.datumKonce" label="The end of the period.">end date</a>)
-          optional
-          item of type
-
-                
-  
-  
-    string
-  (format: <code>date</code>)
-  
-
-
-  
-  
-  
-  
-  
-
-
-        </li>
-    </ul>
-  
-
-
-
-  
-  
-  
-  
-  
-  
-  
-  
-
-    </section>
-</section>
-      </section>
       <section>
       <h2>
         Data structure specification for
@@ -4883,6 +3481,1408 @@
   </strong>
     with properties (<code>properties</code>):
     <ul>
+        <li style="list-style-type: disclosure-closed;">
+          <code>typ</code>:
+          required
+          item of type
+
+                
+  
+  
+  
+  
+  
+  
+  
+        exactly one of the following (<code>oneOf</code>):
+    <ul>
+        <li>      
+    constant value
+    <code>&quot;Časový interval&quot;</code>
+
+  
+  
+  
+  
+  
+  
+  
+
+</li>
+        <li>      
+  
+  
+    array of values <code>{0..*}</code> of type       
+  
+  
+    string
+  
+  
+
+
+  
+  
+  
+  
+  
+
+
+     and must contain: <code>&quot;Časový interval&quot;</code>
+
+  
+  
+  
+  
+  
+  
+
+</li>
+    </ul>
+
+
+
+
+
+
+        </li>
+        <li style="list-style-type: disclosure-closed;">
+          <code>začátek</code>:
+            (<a href="#ČasovýInterval.datumZačátku" label="The start of the period.">start date</a>)
+          optional
+          item of type
+
+                
+  
+  
+    string
+  (format: <code>date</code>)
+  
+
+
+  
+  
+  
+  
+  
+
+
+        </li>
+        <li style="list-style-type: disclosure-closed;">
+          <code>konec</code>:
+            (<a href="#ČasovýInterval.datumKonce" label="The end of the period.">end date</a>)
+          optional
+          item of type
+
+                
+  
+  
+    string
+  (format: <code>date</code>)
+  
+
+
+  
+  
+  
+  
+  
+
+
+        </li>
+    </ul>
+  
+
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+    </section>
+</section>
+      </section>
+      <section>
+      <h2>
+        Data structure specification for
+        Dataset series
+      </h2>
+      <p>Data structure for Dataset series. A collection of datasets that are published separately, but share some characteristics that group them.</p>
+
+      <section id="json-schema--série-datových-sad">
+
+
+
+
+
+
+
+
+
+
+
+
+  <h1>
+
+      JSON structure for
+    Dataset series
+  </h1>
+
+    <dl>
+      <dt>IRI</dt>
+      <dd><code>https://ofn.gov.cz/dcat-ap-cz-otevřená-data/2026-09-23/série-datových-sad/schéma.json</code></dd>
+      <dt>Defined in</dt>
+      <dd><code><a href="../série-datových-sad/schéma.json">../série-datových-sad/schéma.json</a></code></dd>
+        <dt>Language version used</dt>
+        <dd><a href="https://json-schema.org/specification-links.html#2020-12-release" target="_blank">2020-12</a> (metaschema IRI: <code>https://json-schema.org/draft/2020-12/schema</code>)</dd>
+    </dl>
+
+    <h2>Root</h2>
+    The root of the JSON schema is
+        <a href="#json-object--série-datových-sad--série-datových-sad"></a>
+
+
+    <section id="json-object--série-datových-sad--série-datových-sad">
+      <h2>
+        Object <i>Dataset Series</i>
+      </h2>
+
+      <table class="def">
+          <tr>
+            <th>Description</th>
+            <td>A collection of datasets that are published separately, but share some characteristics that group them.</td>
+          </tr>
+
+          <tr>
+            <th>Interpretation</th>
+            <td><a href="#SérieDatovýchSad">Dataset Series</a></td>
+          </tr>
+      </table>
+
+          <strong>
+    object
+  </strong>
+    with properties (<code>properties</code>):
+    <ul>
+        <li style="list-style-type: disclosure-closed;">
+          <code>@context</code>:
+          required
+          item of type
+
+                
+  
+  
+  
+  
+  
+  
+  
+        exactly one of the following (<code>oneOf</code>):
+    <ul>
+        <li>      
+    constant value
+    <code>&quot;https://ofn.gov.cz/dcat-ap-cz-otevřená-data/2026-09-23/série-datových-sad/kontext.jsonld&quot;</code>
+
+  
+  
+  
+  
+  
+  
+  
+
+</li>
+        <li>      
+  
+  
+    array of values <code>{0..*}</code> of type       
+  
+  
+    string
+  (format: <code>iri</code>)
+  
+
+
+  
+  
+  
+  
+  
+
+
+     and must contain: <code>&quot;https://ofn.gov.cz/dcat-ap-cz-otevřená-data/2026-09-23/série-datových-sad/kontext.jsonld&quot;</code>
+
+  
+  
+  
+  
+  
+  
+
+</li>
+    </ul>
+
+
+
+
+
+
+        </li>
+        <li style="list-style-type: disclosure-closed;">
+          <code>iri</code>:
+          required
+          item of type
+
+                
+  
+  
+    string
+  (format: <code>iri</code>)
+  
+
+
+  
+  
+  
+  
+  
+
+
+        </li>
+        <li style="list-style-type: disclosure-closed;">
+          <code>typ</code>:
+          required
+          item of type
+
+                
+  
+  
+  
+  
+  
+  
+  
+        exactly one of the following (<code>oneOf</code>):
+    <ul>
+        <li>      
+    constant value
+    <code>&quot;Série datových sad&quot;</code>
+
+  
+  
+  
+  
+  
+  
+  
+
+</li>
+        <li>      
+  
+  
+    array of values <code>{0..*}</code> of type       
+  
+  
+    string
+  
+  
+
+
+  
+  
+  
+  
+  
+
+
+     and must contain: <code>&quot;Série datových sad&quot;</code>
+
+  
+  
+  
+  
+  
+  
+
+</li>
+    </ul>
+
+
+
+
+
+
+        </li>
+        <li style="list-style-type: disclosure-closed;">
+          <code>název</code>:
+            (<a href="#SérieDatovýchSad.název" label="A name given to the Dataset Series.">title</a>)
+          required
+          item of type
+
+                  <strong>
+    object
+  </strong>
+    with properties (<code>properties</code>):
+    <ul>
+        <li style="list-style-type: disclosure-closed;">
+          <code>cs</code>:
+          optional
+          item of type
+
+                
+  
+  
+    string
+  
+  
+
+
+  
+  
+  
+  
+  
+
+
+        </li>
+        <li style="list-style-type: disclosure-closed;">
+          <code>en</code>:
+          optional
+          item of type
+
+                
+  
+  
+    string
+  
+  
+
+
+  
+  
+  
+  
+  
+
+
+        </li>
+    </ul>
+  
+
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+        </li>
+        <li style="list-style-type: disclosure-closed;">
+          <code>popis</code>:
+            (<a href="#SérieDatovýchSad.popis" label="A free-text account of the Dataset Series.">description</a>)
+          required
+          item of type
+
+                  <strong>
+    object
+  </strong>
+    with properties (<code>properties</code>):
+    <ul>
+        <li style="list-style-type: disclosure-closed;">
+          <code>cs</code>:
+          optional
+          item of type
+
+                
+  
+  
+    string
+  
+  
+
+
+  
+  
+  
+  
+  
+
+
+        </li>
+        <li style="list-style-type: disclosure-closed;">
+          <code>en</code>:
+          optional
+          item of type
+
+                
+  
+  
+    string
+  
+  
+
+
+  
+  
+  
+  
+  
+
+
+        </li>
+    </ul>
+  
+
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+        </li>
+        <li style="list-style-type: disclosure-closed;">
+          <code>poskytovatel</code>:
+            (<a href="#SérieDatovýchSad.poskytovatel" label="An entity (organisation) responsible for ensuring the coherency of the Dataset Series.">publisher</a>)
+          required
+          item of type
+
+                
+  
+  
+    string
+  (format: <code>iri</code>)
+  
+
+
+  
+  
+  
+  
+  
+
+
+        </li>
+        <li style="list-style-type: disclosure-closed;">
+          <code>je_součástí</code>:
+            (<a href="#SérieDatovýchSad.jeSoučástí" label="A dataset series of which the dataset is part.">in series</a>)
+          optional
+          item of type
+
+                
+  
+  
+    array of values <code>{0..*}</code> of type       
+  
+  
+    string
+  (format: <code>iri</code>)
+  
+
+
+  
+  
+  
+  
+  
+
+
+          
+
+  
+  
+  
+  
+  
+  
+
+
+        </li>
+        <li style="list-style-type: disclosure-closed;">
+          <code>téma</code>:
+            (<a href="#SérieDatovýchSad.téma" label="A category of the Dataset.">theme</a>)
+          required
+          item of type
+
+                
+  
+  
+    array of values <code>{1..*}</code> of type       
+  
+  
+    string
+  (format: <code>iri</code>)
+  (by regular expression: <code>^http://publications\.europa\.eu/resource/authority/data-theme/.*$</code>)
+
+
+  
+  
+  
+  
+  
+
+
+          
+
+  
+  
+  
+  
+  
+  
+
+
+        </li>
+        <li style="list-style-type: disclosure-closed;">
+          <code>periodicita_aktualizace</code>:
+            (<a href="#SérieDatovýchSad.periodicitaAktualizace" label="The frequency at which the Dataset Series is updated.">frequency</a>)
+          required
+          item of type
+
+                
+  
+  
+    string
+  (format: <code>iri</code>)
+  (by regular expression: <code>^http://publications\.europa\.eu/resource/authority/frequency/.*$</code>)
+
+
+  
+  
+  
+  
+  
+
+
+        </li>
+        <li style="list-style-type: disclosure-closed;">
+          <code>klíčové_slovo</code>:
+            (<a href="#SérieDatovýchSad.klíčovéSlovo" label="A keyword or tag describing a resource.">keyword</a>)
+          required
+          item of type
+
+                  <strong>
+    object
+  </strong>
+    with properties (<code>properties</code>):
+    <ul>
+        <li style="list-style-type: disclosure-closed;">
+          <code>cs</code>:
+          optional
+          item of type
+
+                
+  
+  
+    array of values <code>{0..*}</code> of type       
+  
+  
+    string
+  
+  
+
+
+  
+  
+  
+  
+  
+
+
+          
+
+  
+  
+  
+  
+  
+  
+
+
+        </li>
+        <li style="list-style-type: disclosure-closed;">
+          <code>en</code>:
+          optional
+          item of type
+
+                
+  
+  
+    array of values <code>{0..*}</code> of type       
+  
+  
+    string
+  
+  
+
+
+  
+  
+  
+  
+  
+
+
+          
+
+  
+  
+  
+  
+  
+  
+
+
+        </li>
+    </ul>
+  
+
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+        </li>
+        <li style="list-style-type: disclosure-closed;">
+          <code>geografické_území</code>:
+            (<a href="#SérieDatovýchSad.souvisejícíGeografickéÚzemí" label="A geographic region that is covered by the Dataset Series.">geographical coverage</a>)
+          optional
+          item of type
+
+                
+  
+  
+    array of values <code>{0..*}</code> of type       
+  
+  
+    string
+  (format: <code>iri</code>)
+  
+
+
+  
+  
+  
+  
+  
+
+
+          
+
+  
+  
+  
+  
+  
+  
+
+
+        </li>
+        <li style="list-style-type: disclosure-closed;">
+          <code>prvek_rúian</code>:
+            (<a href="#SérieDatovýchSad.souvisejícíGeografickéÚzemí-PrvekZRúian" label="The geographical area covered by the dataset.">geographical coverage</a>)
+          required
+          item of type
+
+                
+  
+  
+    array of values <code>{1..*}</code> of type       
+  
+  
+    string
+  (format: <code>iri</code>)
+  (by regular expression: <code>^https://linked.cuzk.cz/resource/ruian/.*$</code>)
+
+
+  
+  
+  
+  
+  
+
+
+          
+
+  
+  
+  
+  
+  
+  
+
+
+        </li>
+        <li style="list-style-type: disclosure-closed;">
+          <code>časové_pokrytí</code>:
+            (<a href="#SérieDatovýchSad.časovéPokrytí" label="A temporal period that the Dataset Series covers.">temporal coverage</a>)
+          optional
+          item of type
+
+                
+  
+  
+    array of values <code>{0..*}</code> of type     <a href="#json-object--série-datových-sad--časový-interval"></a>
+
+          
+
+  
+  
+  
+  
+  
+  
+
+
+        </li>
+        <li style="list-style-type: disclosure-closed;">
+          <code>kontaktní_bod</code>:
+            (<a href="#SérieDatovýchSad.kontaktníBod" label="Contact information that can be used for sending comments about the Dataset Series.">contact point</a>)
+          optional
+          item of type
+
+                
+  
+  
+  
+  
+  
+  
+  
+    
+    at least one of the following (<code>anyOf</code>):
+    <ul>
+        <li>    <a href="#json-object--série-datových-sad--organizace"></a>
+</li>
+        <li>    <a href="#json-object--série-datových-sad--jednotlivec"></a>
+</li>
+    </ul>
+
+
+
+
+
+        </li>
+        <li style="list-style-type: disclosure-closed;">
+          <code>dokumentace</code>:
+            (<a href="#SérieDatovýchSad.dokumentace" label="A page or document about this Dataset.">documentation</a>)
+          optional
+          item of type
+
+                
+  
+  
+    string
+  (format: <code>iri</code>)
+  (by regular expression: <code>^https://.*$</code>)
+
+
+  
+  
+  
+  
+  
+
+
+        </li>
+        <li style="list-style-type: disclosure-closed;">
+          <code>koncept_euroVoc</code>:
+            (<a href="#SérieDatovýchSad.klasifikaceDleEurovoc" label="A category of the Dataset.">theme</a>)
+          optional
+          item of type
+
+                
+  
+  
+    array of values <code>{0..*}</code> of type       
+  
+  
+    string
+  (format: <code>iri</code>)
+  (by regular expression: <code>^http://eurovoc\.europa\.eu/.*$</code>)
+
+
+  
+  
+  
+  
+  
+
+
+          
+
+  
+  
+  
+  
+  
+  
+
+
+        </li>
+        <li style="list-style-type: disclosure-closed;">
+          <code>právní_předpis</code>:
+            (<a href="#SérieDatovýchSad.příslušnýPrávníPředpis" label="The legislation that mandates the creation or management of the Dataset Series.">applicable legislation</a>)
+          required
+          item of type
+
+                
+  
+  
+    array of values <code>{1..*}</code> of type       
+  
+  
+    string
+  (format: <code>iri</code>)
+  (by regular expression: <code>^http</code>)
+
+
+  
+  
+  
+  
+  
+
+
+          
+
+  
+  
+  
+  
+  
+  
+
+
+        </li>
+        <li style="list-style-type: disclosure-closed;">
+          <code>vstupní_stránka</code>:
+            (<a href="#SérieDatovýchSad.vstupníStránka" label="A Web page that can be navigated to in a Web browser to gain access to the catalog, a dataset, its distributions and/or additional information.">landing page</a>)
+          optional
+          item of type
+
+                
+  
+  
+    string
+  (format: <code>iri</code>)
+  (by regular expression: <code>^https://.*$</code>)
+
+
+  
+  
+  
+  
+  
+
+
+        </li>
+    </ul>
+  
+
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+    </section>
+    <section id="json-object--série-datových-sad--jednotlivec">
+      <h2>
+        Object <i>Individual</i>
+      </h2>
+
+      <table class="def">
+          <tr>
+            <th>Description</th>
+            <td>An object representing a single person or entity</td>
+          </tr>
+
+          <tr>
+            <th>Interpretation</th>
+            <td><a href="#Jednotlivec">Individual</a></td>
+          </tr>
+      </table>
+
+          <strong>
+    object
+  </strong>
+    with properties (<code>properties</code>):
+    <ul>
+        <li style="list-style-type: disclosure-closed;">
+          <code>iri</code>:
+          optional
+          item of type
+
+                
+  
+  
+    string
+  (format: <code>iri</code>)
+  
+
+
+  
+  
+  
+  
+  
+
+
+        </li>
+        <li style="list-style-type: disclosure-closed;">
+          <code>typ</code>:
+          required
+          item of type
+
+                
+  
+  
+  
+  
+  
+  
+  
+        exactly one of the following (<code>oneOf</code>):
+    <ul>
+        <li>      
+    constant value
+    <code>&quot;Jednotlivec&quot;</code>
+
+  
+  
+  
+  
+  
+  
+  
+
+</li>
+        <li>      
+  
+  
+    array of values <code>{0..*}</code> of type       
+  
+  
+    string
+  
+  
+
+
+  
+  
+  
+  
+  
+
+
+     and must contain: <code>&quot;Jednotlivec&quot;</code>
+
+  
+  
+  
+  
+  
+  
+
+</li>
+    </ul>
+
+
+
+
+
+
+        </li>
+        <li style="list-style-type: disclosure-closed;">
+          <code>jméno</code>:
+            (<a href="#KontaktníBod.jméno" label="The formatted text corresponding to the name of the object">formatted name</a>)
+          optional
+          item of type
+
+                  <strong>
+    object
+  </strong>
+    with properties (<code>properties</code>):
+    <ul>
+        <li style="list-style-type: disclosure-closed;">
+          <code>cs</code>:
+          optional
+          item of type
+
+                
+  
+  
+    string
+  
+  
+
+
+  
+  
+  
+  
+  
+
+
+        </li>
+        <li style="list-style-type: disclosure-closed;">
+          <code>en</code>:
+          optional
+          item of type
+
+                
+  
+  
+    string
+  
+  
+
+
+  
+  
+  
+  
+  
+
+
+        </li>
+    </ul>
+  
+
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+        </li>
+        <li style="list-style-type: disclosure-closed;">
+          <code>e-mail</code>:
+            (<a href="#KontaktníBod.email" label="To specify the electronic mail address for communication with the object">has email</a>)
+          optional
+          item of type
+
+                
+  
+  
+    string
+  (format: <code>iri</code>)
+  (by regular expression: <code>^mailto:[^@]+@[^@]+</code>)
+
+
+  
+  
+  
+  
+  
+
+
+        </li>
+    </ul>
+  
+
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+    </section>
+    <section id="json-object--série-datových-sad--organizace">
+      <h2>
+        Object <i>Organization</i>
+      </h2>
+
+      <table class="def">
+          <tr>
+            <th>Description</th>
+            <td>An object representing an organization.  An organization is a single entity, and might represent a business or government, a department or division within a business or government, a club, an association, or the like.
+</td>
+          </tr>
+
+          <tr>
+            <th>Interpretation</th>
+            <td><a href="#Organizace">Organization</a></td>
+          </tr>
+      </table>
+
+          <strong>
+    object
+  </strong>
+    with properties (<code>properties</code>):
+    <ul>
+        <li style="list-style-type: disclosure-closed;">
+          <code>iri</code>:
+          optional
+          item of type
+
+                
+  
+  
+    string
+  (format: <code>iri</code>)
+  
+
+
+  
+  
+  
+  
+  
+
+
+        </li>
+        <li style="list-style-type: disclosure-closed;">
+          <code>typ</code>:
+          required
+          item of type
+
+                
+  
+  
+  
+  
+  
+  
+  
+        exactly one of the following (<code>oneOf</code>):
+    <ul>
+        <li>      
+    constant value
+    <code>&quot;Organizace&quot;</code>
+
+  
+  
+  
+  
+  
+  
+  
+
+</li>
+        <li>      
+  
+  
+    array of values <code>{0..*}</code> of type       
+  
+  
+    string
+  
+  
+
+
+  
+  
+  
+  
+  
+
+
+     and must contain: <code>&quot;Organizace&quot;</code>
+
+  
+  
+  
+  
+  
+  
+
+</li>
+    </ul>
+
+
+
+
+
+
+        </li>
+        <li style="list-style-type: disclosure-closed;">
+          <code>jméno</code>:
+            (<a href="#KontaktníBod.jméno" label="The formatted text corresponding to the name of the object">formatted name</a>)
+          optional
+          item of type
+
+                  <strong>
+    object
+  </strong>
+    with properties (<code>properties</code>):
+    <ul>
+        <li style="list-style-type: disclosure-closed;">
+          <code>cs</code>:
+          optional
+          item of type
+
+                
+  
+  
+    string
+  
+  
+
+
+  
+  
+  
+  
+  
+
+
+        </li>
+        <li style="list-style-type: disclosure-closed;">
+          <code>en</code>:
+          optional
+          item of type
+
+                
+  
+  
+    string
+  
+  
+
+
+  
+  
+  
+  
+  
+
+
+        </li>
+    </ul>
+  
+
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+        </li>
+        <li style="list-style-type: disclosure-closed;">
+          <code>e-mail</code>:
+            (<a href="#KontaktníBod.email" label="To specify the electronic mail address for communication with the object">has email</a>)
+          optional
+          item of type
+
+                
+  
+  
+    string
+  (format: <code>iri</code>)
+  (by regular expression: <code>^mailto:[^@]+@[^@]+</code>)
+
+
+  
+  
+  
+  
+  
+
+
+        </li>
+    </ul>
+  
+
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+    </section>
+    <section id="json-object--série-datových-sad--časový-interval">
+      <h2>
+        Object <i>Period of Time</i>
+      </h2>
+
+      <table class="def">
+          <tr>
+            <th>Description</th>
+            <td>An interval of time that is named or defined by its start and end.</td>
+          </tr>
+
+          <tr>
+            <th>Interpretation</th>
+            <td><a href="#ČasovýInterval">Period of Time</a></td>
+          </tr>
+      </table>
+
+          <strong>
+    object
+  </strong>
+    with properties (<code>properties</code>):
+    <ul>
+        <li style="list-style-type: disclosure-closed;">
+          <code>iri</code>:
+          required
+          item of type
+
+                
+  
+  
+    string
+  (format: <code>iri</code>)
+  
+
+
+  
+  
+  
+  
+  
+
+
+        </li>
         <li style="list-style-type: disclosure-closed;">
           <code>typ</code>:
           required
@@ -13998,20 +13998,20 @@
             </tr>
             <tr>
               <td>Description of structure model</td>
-              <td><a href="../série-datových-sad/structure.ttl">../série-datových-sad/structure.ttl</a></td>
+              <td><a href="../datová-sada/structure.ttl">../datová-sada/structure.ttl</a></td>
             </tr>
             <tr>
               <td>Description of structure model</td>
-              <td><a href="../datová-sada/structure.ttl">../datová-sada/structure.ttl</a></td>
+              <td><a href="../série-datových-sad/structure.ttl">../série-datových-sad/structure.ttl</a></td>
             </tr>
             <tr>
               <td>List of changes in LDES format</td>
               <td><a href="../dsv.ldes.ttl">../dsv.ldes.ttl</a></td>
             </tr>
-            <tr><td>JSON schema</td><td><a href="../série-datových-sad/schéma.json">../série-datových-sad/schéma.json</a></td></tr>
-            <tr><td>JSON-LD context</td><td><a href="../série-datových-sad/kontext.jsonld">../série-datových-sad/kontext.jsonld</a></td></tr>
             <tr><td>JSON schema</td><td><a href="../datová-sada/schéma.json">../datová-sada/schéma.json</a></td></tr>
             <tr><td>JSON-LD context</td><td><a href="../datová-sada/kontext.jsonld">../datová-sada/kontext.jsonld</a></td></tr>
+            <tr><td>JSON schema</td><td><a href="../série-datových-sad/schéma.json">../série-datových-sad/schéma.json</a></td></tr>
+            <tr><td>JSON-LD context</td><td><a href="../série-datových-sad/kontext.jsonld">../série-datových-sad/kontext.jsonld</a></td></tr>
             <tr><td>Documentation</td><td><a href="">#</a></td></tr>
         </tbody>
       </table>

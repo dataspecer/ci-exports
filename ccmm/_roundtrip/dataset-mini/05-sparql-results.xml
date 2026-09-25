@@ -338,11 +338,6 @@
     </result>
     <result>
       <binding name="s"><uri>https://vocabs.ccmm.cz/registry/codelist/SubjectCategory/30000/30300/30304</uri></binding>
-      <binding name="p"><uri>http://purl.org/dc/terms/title</uri></binding>
-      <binding name="o"><literal xml:lang="cs">Veřejné a environmentální zdraví</literal></binding>
-    </result>
-    <result>
-      <binding name="s"><uri>https://vocabs.ccmm.cz/registry/codelist/SubjectCategory/30000/30300/30304</uri></binding>
       <binding name="p"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
       <binding name="o"><uri>https://w3id.org/tib/datacite/class/Subject</uri></binding>
     </result>

@@ -256,20 +256,12 @@
 <https://vocabs.ccmm.cz/registry/codelist/AgentRole/Publisher> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Role> .
 <https://vocabs.ccmm.cz/registry/codelist/AgentRole/Publisher> <http://www.w3.org/2004/02/skos/core#prefLabel> "Publisher"@en .
 <https://vocabs.ccmm.cz/registry/codelist/AgentRole/Publisher> <http://www.w3.org/2004/02/skos/core#prefLabel> "Vydavatel"@cs .
-<https://vocabs.ccmm.cz/registry/codelist/SubjectCategory/10000/10600/10601> <http://purl.org/dc/terms/title> "Buněčná biologie"@cs .
-<https://vocabs.ccmm.cz/registry/codelist/SubjectCategory/10000/10600/10601> <http://purl.org/dc/terms/title> "Cell biology"@en .
 <https://vocabs.ccmm.cz/registry/codelist/SubjectCategory/10000/10600/10601> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/tib/datacite/class/Subject> .
 <https://vocabs.ccmm.cz/registry/codelist/SubjectCategory/10000/10600/10601> <https://model.ccmm.cz/vocabulary/ccmm#inSubjectScheme> <https://vocabs.ccmm.cz/registry/codelist/SubjectCategory/> .
 <https://vocabs.ccmm.cz/registry/codelist/SubjectCategory/10000/10600/10601> <https://w3id.org/tib/datacite/property/classificationCode> "10601" .
-<https://vocabs.ccmm.cz/registry/codelist/SubjectCategory/10000/10600/10606> <http://purl.org/dc/terms/title> "Biological sciences"@en .
-<https://vocabs.ccmm.cz/registry/codelist/SubjectCategory/10000/10600/10606> <http://purl.org/dc/terms/title> "Microbiology"@en .
-<https://vocabs.ccmm.cz/registry/codelist/SubjectCategory/10000/10600/10606> <http://purl.org/dc/terms/title> "Mikrobiologie "@cs .
-<https://vocabs.ccmm.cz/registry/codelist/SubjectCategory/10000/10600/10606> <http://purl.org/dc/terms/title> "Mikrobiologie"@cs .
 <https://vocabs.ccmm.cz/registry/codelist/SubjectCategory/10000/10600/10606> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/tib/datacite/class/Subject> .
 <https://vocabs.ccmm.cz/registry/codelist/SubjectCategory/10000/10600/10606> <https://model.ccmm.cz/vocabulary/ccmm#inSubjectScheme> <https://vocabs.ccmm.cz/registry/codelist/SubjectCategory/> .
 <https://vocabs.ccmm.cz/registry/codelist/SubjectCategory/10000/10600/10606> <https://w3id.org/tib/datacite/property/classificationCode> "10606" .
-<https://vocabs.ccmm.cz/registry/codelist/SubjectCategory/30000/30100/30102> <http://purl.org/dc/terms/title> "Immunology"@en .
-<https://vocabs.ccmm.cz/registry/codelist/SubjectCategory/30000/30100/30102> <http://purl.org/dc/terms/title> "Imunologie"@cs .
 <https://vocabs.ccmm.cz/registry/codelist/SubjectCategory/30000/30100/30102> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/tib/datacite/class/Subject> .
 <https://vocabs.ccmm.cz/registry/codelist/SubjectCategory/30000/30100/30102> <https://model.ccmm.cz/vocabulary/ccmm#inSubjectScheme> <https://vocabs.ccmm.cz/registry/codelist/SubjectCategory/> .
 <https://vocabs.ccmm.cz/registry/codelist/SubjectCategory/30000/30100/30102> <https://w3id.org/tib/datacite/property/classificationCode> "30102" .

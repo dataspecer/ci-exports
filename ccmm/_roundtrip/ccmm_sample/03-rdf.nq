@@ -5,7 +5,6 @@
 <http://data.europa.eu/eli/dir/2008/50/oj> <https://model.ccmm.cz/vocabulary/ccmm#resourceUrl> "https://eur-lex.europa.eu/legal-content/CS/TXT/HTML/?uri=CELEX:32008L0050&qid=1754039487879"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
 <http://data.europa.eu/eli/reg/2010/1089> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/dc/terms/Standard> .
 <http://data.europa.eu/eli/reg/2010/1089> <http://www.w3.org/2000/01/rdf-schema#label> "NAŘÍZENÍ KOMISE (ES) č. 976/2009 ze dne 19. října 2009, kterým\n                    se provádí směrnice Evropského parlamentu a Rady 2007/2/ES, pokud jde o síťové\n                    služby"@cs .
-<http://inspire.ec.europa.eu/theme/ef> <http://purl.org/dc/terms/title> "Environmental monitoring facilities"@en .
 <http://inspire.ec.europa.eu/theme/ef> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/tib/datacite/class/Subject> .
 <http://inspire.ec.europa.eu/theme/ef> <http://www.w3.org/2004/02/skos/core#definition> "Location and operation of environmental monitoring facilities\n            includes observation and measurement of emissions, of the state of environmental media\n            and of other ecosystem parameters (biodiversity, ecological conditions of vegetation,\n            etc.) by or on behalf of public authorities."@en .
 <http://inspire.ec.europa.eu/theme/ef> <https://model.ccmm.cz/vocabulary/ccmm#inSubjectScheme> <https://inspire.ec.europa.eu/theme/> .
@@ -162,8 +161,6 @@
 <https://vocabs.ccmm.cz/registry/codelist/LocationRelation/Collected> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://vocabs.ccmm.cz/registry/codelist/LocationRelation/Collected> <http://www.w3.org/2004/02/skos/core#prefLabel> "Collected in"@en .
 <https://vocabs.ccmm.cz/registry/codelist/LocationRelation/Collected> <http://www.w3.org/2004/02/skos/core#prefLabel> "Získáno v lokaci"@cs .
-<https://vocabs.ccmm.cz/registry/codelist/SubjectCategory/10000/10500/10509> <http://purl.org/dc/terms/title> "Meteorologie, vědy o atmosféře"@cs .
-<https://vocabs.ccmm.cz/registry/codelist/SubjectCategory/10000/10500/10509> <http://purl.org/dc/terms/title> "Meteorology and atmospheric sciences"@en .
 <https://vocabs.ccmm.cz/registry/codelist/SubjectCategory/10000/10500/10509> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/tib/datacite/class/Subject> .
 <https://vocabs.ccmm.cz/registry/codelist/SubjectCategory/10000/10500/10509> <https://model.ccmm.cz/vocabulary/ccmm#inSubjectScheme> <https://vocabs.ccmm.cz/registry/codelist/SubjectCategory/> .
 <https://vocabs.ccmm.cz/registry/codelist/SubjectCategory/10000/10500/10509> <https://w3id.org/tib/datacite/property/classificationCode> "10509" .

@@ -704,11 +704,6 @@
     </result>
     <result>
       <binding name="s"><uri>http://inspire.ec.europa.eu/theme/ef</uri></binding>
-      <binding name="p"><uri>http://purl.org/dc/terms/title</uri></binding>
-      <binding name="o"><literal xml:lang="en">Environmental monitoring facilities</literal></binding>
-    </result>
-    <result>
-      <binding name="s"><uri>http://inspire.ec.europa.eu/theme/ef</uri></binding>
       <binding name="p"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
       <binding name="o"><uri>https://w3id.org/tib/datacite/class/Subject</uri></binding>
     </result>
@@ -1490,16 +1485,6 @@
       <binding name="s"><uri>https://vocabs.ccmm.cz/registry/codelist/LocationRelation/Collected</uri></binding>
       <binding name="p"><uri>http://www.w3.org/2004/02/skos/core#prefLabel</uri></binding>
       <binding name="o"><literal xml:lang="cs">Získáno v lokaci</literal></binding>
-    </result>
-    <result>
-      <binding name="s"><uri>https://vocabs.ccmm.cz/registry/codelist/SubjectCategory/10000/10500/10509</uri></binding>
-      <binding name="p"><uri>http://purl.org/dc/terms/title</uri></binding>
-      <binding name="o"><literal xml:lang="cs">Meteorologie, vědy o atmosféře</literal></binding>
-    </result>
-    <result>
-      <binding name="s"><uri>https://vocabs.ccmm.cz/registry/codelist/SubjectCategory/10000/10500/10509</uri></binding>
-      <binding name="p"><uri>http://purl.org/dc/terms/title</uri></binding>
-      <binding name="o"><literal xml:lang="en">Meteorology and atmospheric sciences</literal></binding>
     </result>
     <result>
       <binding name="s"><uri>https://vocabs.ccmm.cz/registry/codelist/SubjectCategory/10000/10500/10509</uri></binding>

@@ -1171,9 +1171,9 @@
         "@id": "https://w3id.org/tib/datacite/property/subject",
         "@container": "@set",
         "@context": {
-          "title": {
-            "@id": "http://purl.org/dc/terms/title",
-            "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"
+          "label": {
+            "@id": "http://www.w3.org/2004/02/skos/core#prefLabel",
+            "@container": "@language"
           },
           "definition": {
             "@id": "http://www.w3.org/2004/02/skos/core#definition",
@@ -3388,21 +3388,18 @@
       "role": {
         "label": {}
       }
-    },
-    {
-      "attributed_agent": {
-        "name": "GnXp9"
-      },
-      "role": {
-        "label": {}
-      }
     }
   ],
-  "publication_year": "",
+  "publication_year": "hFGnXp9",
   "time_reference": [
     {
       "temporal_representation": {
-        "date_time": "2026-02-08T20:47:47Z"
+        "beginning": {
+          "date": "2005-01-31"
+        },
+        "end": {
+          "date": "2022-11-03"
+        }
       },
       "date_type": {
         "label": {}
@@ -3410,7 +3407,12 @@
     },
     {
       "temporal_representation": {
-        "date_time": "2008-11-10T21:51:37Z"
+        "beginning": {
+          "date": "2002-02-12"
+        },
+        "end": {
+          "date_time": "2008-11-10T21:51:37Z"
+        }
       },
       "date_type": {
         "label": {}
@@ -3430,55 +3432,38 @@
   },
   "subject": [
     {
-      "title": [
-        {
-          "@value": "GAQvpHVXd",
-          "@language": "NO"
-        }
-      ],
-      "classification_code": "A2O",
+      "label": {},
+      "classification_code": "QvpH",
       "subject_scheme": {}
     },
     {
-      "title": [
-        {
-          "@value": "a5HJNh",
-          "@language": ""
-        },
-        {
-          "@value": "iSrNsH5e",
-          "@language": "k"
-        }
-      ],
-      "classification_code": "",
+      "label": {},
+      "classification_code": "ObuA2O",
       "subject_scheme": {}
     },
     {
-      "title": [
-        {
-          "@value": "qf98a1gy",
-          "@language": "GxSir7"
-        },
-        {
-          "@value": "HckMoj",
-          "@language": "LbebyPO"
-        }
-      ],
-      "classification_code": "P7b15bZ",
+      "label": {},
+      "classification_code": "HJNheYiSrN",
       "subject_scheme": {}
     }
   ],
   "description": [
     {
       "description_text": {
-        "@value": "f",
-        "@language": "xaFIQ1E"
+        "@value": "",
+        "@language": "k"
       }
     },
     {
       "description_text": {
         "@value": "",
-        "@language": "Tm2W"
+        "@language": "xWqf9"
+      }
+    },
+    {
+      "description_text": {
+        "@value": "",
+        "@language": "gyLGxSir7"
       }
     }
   ]

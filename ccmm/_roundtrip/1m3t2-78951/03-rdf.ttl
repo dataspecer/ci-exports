@@ -379,29 +379,18 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://vocabs.ccmm.cz/registry/codelist/SubjectCategory/10000/10600/10601>
     a <https://w3id.org/tib/datacite/class/Subject> ;
-    dcterms:title
-        "Buněčná biologie"@cs ,
-        "Cell biology"@en ;
     ccmm:inSubjectScheme <https://vocabs.ccmm.cz/registry/codelist/SubjectCategory/> ;
     datacite:classificationCode "10601" ;
 .
 
 <https://vocabs.ccmm.cz/registry/codelist/SubjectCategory/10000/10600/10606>
     a <https://w3id.org/tib/datacite/class/Subject> ;
-    dcterms:title
-        "Mikrobiologie"@cs ,
-        "Mikrobiologie "@cs ,
-        "Biological sciences"@en ,
-        "Microbiology"@en ;
     ccmm:inSubjectScheme <https://vocabs.ccmm.cz/registry/codelist/SubjectCategory/> ;
     datacite:classificationCode "10606" ;
 .
 
 <https://vocabs.ccmm.cz/registry/codelist/SubjectCategory/30000/30100/30102>
     a <https://w3id.org/tib/datacite/class/Subject> ;
-    dcterms:title
-        "Imunologie"@cs ,
-        "Immunology"@en ;
     ccmm:inSubjectScheme <https://vocabs.ccmm.cz/registry/codelist/SubjectCategory/> ;
     datacite:classificationCode "30102" ;
 .
