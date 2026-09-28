@@ -2085,7 +2085,7 @@
                   </tr>
                   <tr>
                     <td>Definice</td>
-                    <td>A secondary identifier of the Dataset (@en)</td>
+                    <td>A secondary identifier of the Dataset. (@en)</td>
                   </tr>
                   <tr>
                     <td>Definiční obor</td>
@@ -2232,7 +2232,7 @@
               
                   <tr>
                     <td>Popis použití v profilu</td>
-                    <td>In the CCMM spatial coverage does not only cover the area of resource, it may be connected to the resource in some other way, e.g., the place from where the data were measured, administrative area to which the resource conforms or other. (@en)</td>
+                    <td>In CCMM, spatial coverage does not only cover the area of resource, it may be connected to the resource in some other way, e.g., the place from where the data were measured or administrative area to which the resource conforms or other. (@en)</td>
                   </tr>
                 </table>
               </section>    <section id="Resource.hasResourceType">
@@ -3379,7 +3379,7 @@
               
                   <tr>
                     <td>Popis použití v profilu</td>
-                    <td>At least one subject must be a value from FRASCATI FORD vocabulary. For that subject use reference code list https://vocabs.ccmm.cz/registry/codelist/SubjectCategory/ as the Subject scheme and select at least one value from this code list as a subject. (@en)</td>
+                    <td>At least one subject must be a value from the Frascati FORD vocabulary. For that subject use reference code list https://vocabs.ccmm.cz/registry/codelist/SubjectCategory/ as the Subject scheme and select at least one value from this code list as a subject. (@en)</td>
                   </tr>
                 </table>
               </section>    <section id="Dataset.hasTimeReference">
@@ -3651,7 +3651,7 @@
               
                   <tr>
                     <td>Popis použití v profilu</td>
-                    <td>Preferably use subjects as concepts from controlled vocabularies. (@en)</td>
+                    <td>Preferably use terms from controlled vocabularies. (@en)</td>
                   </tr>
                 </table>
               </section>    <section id="Dataset.publicationYear">
@@ -3718,7 +3718,7 @@
               
                   <tr>
                     <td>Popis použití v profilu</td>
-                    <td>If TimeReference with dateType &quot;Issued&quot; is present, year in that date and publicationYear must be the same. (@en)</td>
+                    <td>If TimeReference with dateType &quot;Issued&quot; is present, the year in that date and publicationYear must be the same. (@en)</td>
                   </tr>
                 </table>
               </section>    <section id="Dataset.title">
@@ -3972,9 +3972,7 @@
               
                   <tr>
                     <td>Popis použití v profilu</td>
-                    <td>The activity associated with generation of a dataset will typically be an initiative, project, mission, survey, on-going activity (&quot;business as usual&quot;) etc. Multiple prov:wasGeneratedBy properties can be used to indicate the dataset production context at various levels of granularity.
-              
-              Use prov:qualifiedGeneration to attach additional details about the relationship between the dataset and the activity, e.g., the exact time that the dataset was produced during the lifetime of a project (@en)</td>
+                    <td>The activity associated with generation of a dataset will typically be an initiative, project, mission, survey, or ongoing activity. Multiple prov:wasGeneratedBy properties can be used to indicate the dataset production context at various levels of granularity. Use prov:qualifiedGeneration to attach additional details about the relationship between the dataset and the activity, e.g., the exact time that the dataset was produced during the lifetime of a project. (@en)</td>
                   </tr>
                 </table>
               </section>
@@ -4314,10 +4312,6 @@
                       </td>
                     </tr>
               
-                  <tr>
-                    <td>Popis použití v profilu</td>
-                    <td>The date on which the metadata record was changed or modified. (@en)</td>
-                  </tr>
                 </table>
               </section>    <section id="MetadataRecord.describes">
                 <h4>describes (@en)</h4>
@@ -4465,7 +4459,7 @@
                   <tr>
                     <td>Popis použití v profilu</td>
                     <td>Original repository is a repository where the original metadata was harvested from or where it was created and/or published. There is always exactly one original repository. 
-              If metadata record is harvested form other repository, make sure to include the first repository from which it was harvested. (@en)</td>
+              If metadata record is harvested from other repository, make sure to include the first repository from which it was harvested. (@en)</td>
                   </tr>
                 </table>
               </section>    <section id="MetadataRecord.hasLanguage">
@@ -4637,7 +4631,7 @@
               
                   <tr>
                     <td>Popis použití v profilu</td>
-                    <td>Relationship shall contain at least one agent with role &quot;Data Manager&quot; from codelist https://vocabs.ccmm.cz/registry/codelist/AgentRole/. (@en)</td>
+                    <td>Relationship shall contain at least one agent with role &quot;Data Manager&quot; from code list https://vocabs.ccmm.cz/registry/codelist/AgentRole/. (@en)</td>
                   </tr>
                 </table>
               </section>    <section id="MetadataRecord.title">
@@ -5239,7 +5233,7 @@
               
                   <tr>
                     <td>Popis použití v profilu</td>
-                    <td>Relationship shall contain at least one agent with role &quot;Publisher&quot; from codelist https://vocabs.ccmm.cz/registry/codelist/AgentRole/. (@en)</td>
+                    <td>Relationship shall contain at least one agent with role &quot;Publisher&quot; from code list https://vocabs.ccmm.cz/registry/codelist/AgentRole/. (@en)</td>
                   </tr>
                 </table>
               </section>    <section id="Repository.record">
@@ -5571,7 +5565,7 @@
               
                   <tr>
                     <td>Popis použití v profilu</td>
-                    <td>Resource URL represents human readable resolvable representation of the resource. Same url must be aslo in c:iri. (@en)</td>
+                    <td>Resource URL represents human readable resolvable representation of the resource, i.e. web page. Same url must be aslo in c:iri. (@en)</td>
                   </tr>
                 </table>
               </section>
@@ -6283,7 +6277,7 @@
                   </tr>
                   <tr>
                     <td>Definice</td>
-                    <td>To specify the organizational name associated with the object (@en)</td>
+                    <td>Alternate organizational name associated with the object. (@en)</td>
                   </tr>
                   <tr>
                     <td>Definiční obor</td>
@@ -6345,6 +6339,10 @@
                 <td>Název</td>
                 <td>Distribution (@en)</td>
               </tr>
+              <tr>
+                <td>Definice</td>
+                <td>A physical embodiment of the Dataset in a particular format. (@en)</td>
+              </tr>
           
                 <tr>
                   <td>Hierarchie</td>
@@ -6384,7 +6382,7 @@
           
               <tr>
                 <td>Popis použití v profilu</td>
-                <td>This represents a general availability of a dataset. It implies no information about the actual access method of the data, i.e., whether by direct download, API, or through a Web page. This is an abstract type. Use its subclasses to determine downloadable file or data service. (@en)</td>
+                <td>Distribution represents a general availability of a dataset. It implies no information about the actual access method of the data, i.e., whether by direct download, API, or through a Web page. This is an abstract type. Use its subclasses to determine downloadable file or data service. (@en)</td>
               </tr>
             </table>
           
@@ -6489,7 +6487,7 @@
               
                   <tr>
                     <td>Popis použití v profilu</td>
-                    <td>This property should be used to indicate the model, schema, ontology, view or profile that this representation of a dataset conforms to. This is (generally) a complementary concern to the media type, service standard or format. (@en)</td>
+                    <td>This property should be used to indicate the model, schema, ontology, view, or profile that this representation of a dataset conforms to. This is (generally) a complementary concern to the media type, service standard, or format. (@en)</td>
                   </tr>
                 </table>
               </section>    <section id="Distribution.Description">
@@ -6825,10 +6823,10 @@
               
                   <tr>
                     <td>Popis použití v profilu</td>
-                    <td>Use IRI identifier from the register http://purl.org/coar/access_right/. Recommended mapping of values from COAR to https://semiceu.github.io/DCAT-AP/drafts/latest/#properties-with-a-recommended-use-of-controlled-vocabularies is:
-              embargoed access, metadata only access - :NON_PUBLIC,
-              open access - :PUBLIC,
-              restricted access - :RESTRICTED. (@en)</td>
+                    <td>Use IRI identifier from the register http://purl.org/coar/access_right/. Recommended mapping of values from COAR to https://semiceu.github.io/DCAT-AP/drafts/latest/#properties-with-a-recommended-use-of-controlled-vocabularies:
+              embargoed access, metadata only access (:NON_PUBLIC),
+              open access (:PUBLIC),
+              restricted access (:RESTRICTED). (@en)</td>
                   </tr>
                 </table>
               </section>    <section id="Distribution.accessUrl">
@@ -7056,6 +7054,7 @@
                 
                 profil
                 <a href="#Distribution">Distribution (@en)</a> (<a href="https://model.ccmm.cz/research-data/Distribution">https://model.ccmm.cz/research-data/Distribution</a>)
+                  <br />Definice: <i>A physical embodiment of the Dataset in a particular format.</i>
                   <ul style="list-style-type: disclosure-closed;">
                       <li>
                                   profiluje
@@ -7180,7 +7179,7 @@
               
                   <tr>
                     <td>Popis použití v profilu</td>
-                    <td>Access service SHOULD be used to link to a description of Data service that can provide access to this distribution. (@en)</td>
+                    <td>Access service SHOULD be used to link to a description of Data service that provides access to this distribution. (@en)</td>
                   </tr>
                 </table>
               </section>
@@ -7237,6 +7236,7 @@
                 
                 profil
                 <a href="#Distribution">Distribution (@en)</a> (<a href="https://model.ccmm.cz/research-data/Distribution">https://model.ccmm.cz/research-data/Distribution</a>)
+                  <br />Definice: <i>A physical embodiment of the Dataset in a particular format.</i>
                   <ul style="list-style-type: disclosure-closed;">
                       <li>
                                   profiluje
@@ -7707,7 +7707,7 @@
               
                   <tr>
                     <td>Popis použití v profilu</td>
-                    <td>This property refers to the instance of format represented by IRI identifier from the register http://publications.europa.eu/resource/dataset/file-type. Human readable codelist representation is here: https://op.europa.eu/en/web/eu-vocabularies/concept-scheme/-/resource?uri&#x3D;http://publications.europa.eu/resource/authority/file-type. (@en)</td>
+                    <td>This property refers to the instance of format represented by IRI identifier from the register http://publications.europa.eu/resource/dataset/file-type. Human readable code list representation is here: https://op.europa.eu/en/web/eu-vocabularies/concept-scheme/-/resource?uri&#x3D;http://publications.europa.eu/resource/authority/file-type. (@en)</td>
                   </tr>
                 </table>
               </section>    <section id="Distribution-DownloadableFile.mediaType">
@@ -7801,7 +7801,7 @@
               
                   <tr>
                     <td>Popis použití v profilu</td>
-                    <td>This property SHOULD be used when the media type of the distribution is defined in IANA (using value from https://www.iana.org/assignments/media-types/media-types.xhtml), otherwise Format MAY be used with values from Publication Office of the EU File type codelist http://publications.europa.eu/resource/dataset/file-type. (@en)</td>
+                    <td>This property SHOULD be used when the media type of the distribution is defined in IANA (using value from https://www.iana.org/assignments/media-types/media-types.xhtml), otherwise Format MAY be used with values from Publication Office of the EU File type code list http://publications.europa.eu/resource/dataset/file-type. (@en)</td>
                   </tr>
                 </table>
               </section>    <section id="Distribution-DownloadableFile.hasPackagingFormat">
@@ -7895,7 +7895,7 @@
               
                   <tr>
                     <td>Popis použití v profilu</td>
-                    <td>This property to be used when the files in the distribution are packaged, e.g., in a TAR file, a ZIP file, a Frictionless Data Package or a Bagit file. The format SHOULD be expressed using a media type as defined by IANA (using value from https://www.iana.org/assignments/media-types/media-types.xhtml), if available. (@en)</td>
+                    <td>This property SHOULD be used when the files in the distribution are packaged, e.g., in a TAR file, a ZIP file, a Frictionless Data Package or a Bagit file. The format SHOULD be expressed using a media type as defined by IANA (using value from https://www.iana.org/assignments/media-types/media-types.xhtml), if available. (@en)</td>
                   </tr>
                 </table>
               </section>
@@ -11458,7 +11458,7 @@
           
               <tr>
                 <td>Popis použití v profilu</td>
-                <td>Use IRI identifier from the register http://publications.europa.eu/resource/dataset/file-type. Human readable codelist representation is here: https://op.europa.eu/en/web/eu-vocabularies/concept-scheme/-/resource?uri&#x3D;http://publications.europa.eu/resource/authority/file-type. (@en)</td>
+                <td>Use IRI identifier from the register http://publications.europa.eu/resource/dataset/file-type. Human readable code list representation is here: https://op.europa.eu/en/web/eu-vocabularies/concept-scheme/-/resource?uri&#x3D;http://publications.europa.eu/resource/authority/file-type. (@en)</td>
               </tr>
             </table>
           
@@ -14121,7 +14121,7 @@
               
                   <tr>
                     <td>Popis použití v profilu</td>
-                    <td>May be used in a qualified-attribution to specify the role of an Agent with respect to an Resource. It is recommended that the value be taken from a controlled vocabulary of agent roles. (@en)</td>
+                    <td>May be used in a qualified-attribution to specify the role of an Agent with respect to an Resource. It is recommended that the value be taken from code list https://vocabs.ccmm.cz/registry/codelist/AgentRole/. (@en)</td>
                   </tr>
                 </table>
               </section>
@@ -15498,7 +15498,7 @@
                   </tr>
                   <tr>
                     <td>Definice</td>
-                    <td>Reference to the codelist of date types. (@en)</td>
+                    <td>Reference to the code list of date types. (@en)</td>
                   </tr>
                   <tr>
                     <td>Definiční obor</td>
@@ -17513,7 +17513,7 @@
         </i>
 
           <a href="#Distribution"><strong>Distribution</strong></a>
-          
+          (A physical embodiment of the Dataset in a particular format.)
 
           <span style="margin: 0 1rem">→</span>
         <i>
@@ -17565,7 +17565,7 @@
         </i>
 
           <a href="#Distribution"><strong>Distribution</strong></a>
-          
+          (A physical embodiment of the Dataset in a particular format.)
 
           <span style="margin: 0 1rem">→</span>
         <i>
@@ -17663,7 +17663,7 @@
         </i>
 
           <a href="#Distribution"><strong>Distribution</strong></a>
-          
+          (A physical embodiment of the Dataset in a particular format.)
 
           <span style="margin: 0 1rem">→</span>
         <i>
@@ -17991,7 +17991,7 @@
         </i>
 
           <a href="#Distribution"><strong>Distribution</strong></a>
-          
+          (A physical embodiment of the Dataset in a particular format.)
 
           <span style="margin: 0 1rem">→</span>
         <i>
@@ -18048,7 +18048,7 @@
         </i>
 
           <a href="#Distribution"><strong>Distribution</strong></a>
-          
+          (A physical embodiment of the Dataset in a particular format.)
 
           <span style="margin: 0 1rem">→</span>
         <i>
@@ -18105,7 +18105,7 @@
         </i>
 
           <a href="#Distribution"><strong>Distribution</strong></a>
-          
+          (A physical embodiment of the Dataset in a particular format.)
 
           <span style="margin: 0 1rem">→</span>
         <i>
@@ -18335,7 +18335,7 @@
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>alternate_name</code>:
-            (<a href="#Organization.alternateName" label="To specify the organizational name associated with the object">alternate name</a>)
+            (<a href="#Organization.alternateName" label="Alternate organizational name associated with the object.">alternate name</a>)
           nepovinná
           položka typu
 
@@ -19583,7 +19583,7 @@
         </i>
 
           <a href="#Organization.alternateName"><strong>alternate name</strong></a>
-          (To specify the organizational name associated with the object)
+          (Alternate organizational name associated with the object.)
 
     </dd>
 
@@ -22544,7 +22544,7 @@
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>alternate_name</code>:
-            (<a href="#Organization.alternateName" label="To specify the organizational name associated with the object">alternate name</a>)
+            (<a href="#Organization.alternateName" label="Alternate organizational name associated with the object.">alternate name</a>)
           nepovinná
           položka typu
 
@@ -24438,7 +24438,7 @@
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>alternate_name</code>:
-            (<a href="#Organization.alternateName" label="To specify the organizational name associated with the object">alternate name</a>)
+            (<a href="#Organization.alternateName" label="Alternate organizational name associated with the object.">alternate name</a>)
           nepovinná
           položka typu
 
@@ -27914,7 +27914,7 @@
     <ul>
         <li style="list-style-type: disclosure-closed;">
           <code>identifier</code>:
-            (<a href="#Resource.hasIdentifier" label="A secondary identifier of the Dataset">has identifier</a>)
+            (<a href="#Resource.hasIdentifier" label="A secondary identifier of the Dataset.">has identifier</a>)
           nepovinná
           položka typu
 
@@ -28337,7 +28337,7 @@
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>date_type</code>:
-            (<a href="#TimeReference.hasDateType" label="Reference to the codelist of date types.">has date type</a>)
+            (<a href="#TimeReference.hasDateType" label="Reference to the code list of date types.">has date type</a>)
           povinná
           položka typu
 
@@ -29383,7 +29383,7 @@
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>alternate_name</code>:
-            (<a href="#Organization.alternateName" label="To specify the organizational name associated with the object">alternate name</a>)
+            (<a href="#Organization.alternateName" label="Alternate organizational name associated with the object.">alternate name</a>)
           nepovinná
           položka typu
 
@@ -31277,7 +31277,7 @@
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>alternate_name</code>:
-            (<a href="#Organization.alternateName" label="To specify the organizational name associated with the object">alternate name</a>)
+            (<a href="#Organization.alternateName" label="Alternate organizational name associated with the object.">alternate name</a>)
           nepovinná
           položka typu
 
@@ -34574,7 +34574,7 @@
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>alternate_name</code>:
-            (<a href="#Organization.alternateName" label="To specify the organizational name associated with the object">alternate name</a>)
+            (<a href="#Organization.alternateName" label="Alternate organizational name associated with the object.">alternate name</a>)
           nepovinná
           položka typu
 
@@ -40802,7 +40802,7 @@
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>alternate_name</code>:
-            (<a href="#Organization.alternateName" label="To specify the organizational name associated with the object">alternate name</a>)
+            (<a href="#Organization.alternateName" label="Alternate organizational name associated with the object.">alternate name</a>)
           nepovinná
           položka typu
 
@@ -42696,7 +42696,7 @@
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>alternate_name</code>:
-            (<a href="#Organization.alternateName" label="To specify the organizational name associated with the object">alternate name</a>)
+            (<a href="#Organization.alternateName" label="Alternate organizational name associated with the object.">alternate name</a>)
           nepovinná
           položka typu
 
@@ -44222,7 +44222,7 @@
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>alternate_name</code>:
-            (<a href="#Organization.alternateName" label="To specify the organizational name associated with the object">alternate name</a>)
+            (<a href="#Organization.alternateName" label="Alternate organizational name associated with the object.">alternate name</a>)
           nepovinná
           položka typu
 
@@ -46116,7 +46116,7 @@
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>alternate_name</code>:
-            (<a href="#Organization.alternateName" label="To specify the organizational name associated with the object">alternate name</a>)
+            (<a href="#Organization.alternateName" label="Alternate organizational name associated with the object.">alternate name</a>)
           nepovinná
           položka typu
 
@@ -50512,7 +50512,7 @@
     <ul>
         <li style="list-style-type: disclosure-closed;">
           <code>identifier</code>:
-            (<a href="#Resource.hasIdentifier" label="A secondary identifier of the Dataset">has identifier</a>)
+            (<a href="#Resource.hasIdentifier" label="A secondary identifier of the Dataset.">has identifier</a>)
           nepovinná
           položka typu
 
@@ -50935,7 +50935,7 @@
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>date_type</code>:
-            (<a href="#TimeReference.hasDateType" label="Reference to the codelist of date types.">has date type</a>)
+            (<a href="#TimeReference.hasDateType" label="Reference to the code list of date types.">has date type</a>)
           povinná
           položka typu
 
@@ -51981,7 +51981,7 @@
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>alternate_name</code>:
-            (<a href="#Organization.alternateName" label="To specify the organizational name associated with the object">alternate name</a>)
+            (<a href="#Organization.alternateName" label="Alternate organizational name associated with the object.">alternate name</a>)
           nepovinná
           položka typu
 
@@ -53875,7 +53875,7 @@
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>alternate_name</code>:
-            (<a href="#Organization.alternateName" label="To specify the organizational name associated with the object">alternate name</a>)
+            (<a href="#Organization.alternateName" label="Alternate organizational name associated with the object.">alternate name</a>)
           nepovinná
           položka typu
 
@@ -55778,7 +55778,7 @@
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>date_type</code>:
-            (<a href="#TimeReference.hasDateType" label="Reference to the codelist of date types.">has date type</a>)
+            (<a href="#TimeReference.hasDateType" label="Reference to the code list of date types.">has date type</a>)
           povinná
           položka typu
 
@@ -56593,7 +56593,7 @@
         </i>
 
           <a href="#TimeReference.hasDateType"><strong>has date type</strong></a>
-          (Reference to the codelist of date types.)
+          (Reference to the code list of date types.)
 
     </dd>
 
@@ -56983,7 +56983,7 @@
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>alternate_name</code>:
-            (<a href="#Organization.alternateName" label="To specify the organizational name associated with the object">alternate name</a>)
+            (<a href="#Organization.alternateName" label="Alternate organizational name associated with the object.">alternate name</a>)
           nepovinná
           položka typu
 
@@ -58877,7 +58877,7 @@
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>alternate_name</code>:
-            (<a href="#Organization.alternateName" label="To specify the organizational name associated with the object">alternate name</a>)
+            (<a href="#Organization.alternateName" label="Alternate organizational name associated with the object.">alternate name</a>)
           nepovinná
           položka typu
 
@@ -63397,7 +63397,7 @@
     <ul>
         <li style="list-style-type: disclosure-closed;">
           <code>identifier</code>:
-            (<a href="#Resource.hasIdentifier" label="A secondary identifier of the Dataset">has identifier</a>)
+            (<a href="#Resource.hasIdentifier" label="A secondary identifier of the Dataset.">has identifier</a>)
           nepovinná
           položka typu
 
@@ -63820,7 +63820,7 @@
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>date_type</code>:
-            (<a href="#TimeReference.hasDateType" label="Reference to the codelist of date types.">has date type</a>)
+            (<a href="#TimeReference.hasDateType" label="Reference to the code list of date types.">has date type</a>)
           povinná
           položka typu
 
@@ -64866,7 +64866,7 @@
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>alternate_name</code>:
-            (<a href="#Organization.alternateName" label="To specify the organizational name associated with the object">alternate name</a>)
+            (<a href="#Organization.alternateName" label="Alternate organizational name associated with the object.">alternate name</a>)
           nepovinná
           položka typu
 
@@ -66760,7 +66760,7 @@
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>alternate_name</code>:
-            (<a href="#Organization.alternateName" label="To specify the organizational name associated with the object">alternate name</a>)
+            (<a href="#Organization.alternateName" label="Alternate organizational name associated with the object.">alternate name</a>)
           nepovinná
           položka typu
 
@@ -68226,7 +68226,7 @@
     <ul>
         <li style="list-style-type: disclosure-closed;">
           <code>identifier</code>:
-            (<a href="#Resource.hasIdentifier" label="A secondary identifier of the Dataset">has identifier</a>)
+            (<a href="#Resource.hasIdentifier" label="A secondary identifier of the Dataset.">has identifier</a>)
           nepovinná
           položka typu
 
@@ -68649,7 +68649,7 @@
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>date_type</code>:
-            (<a href="#TimeReference.hasDateType" label="Reference to the codelist of date types.">has date type</a>)
+            (<a href="#TimeReference.hasDateType" label="Reference to the code list of date types.">has date type</a>)
           povinná
           položka typu
 
@@ -69695,7 +69695,7 @@
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>alternate_name</code>:
-            (<a href="#Organization.alternateName" label="To specify the organizational name associated with the object">alternate name</a>)
+            (<a href="#Organization.alternateName" label="Alternate organizational name associated with the object.">alternate name</a>)
           nepovinná
           položka typu
 
@@ -71589,7 +71589,7 @@
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>alternate_name</code>:
-            (<a href="#Organization.alternateName" label="To specify the organizational name associated with the object">alternate name</a>)
+            (<a href="#Organization.alternateName" label="Alternate organizational name associated with the object.">alternate name</a>)
           nepovinná
           položka typu
 
@@ -73431,7 +73431,7 @@
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>alternate_name</code>:
-            (<a href="#Organization.alternateName" label="To specify the organizational name associated with the object">alternate name</a>)
+            (<a href="#Organization.alternateName" label="Alternate organizational name associated with the object.">alternate name</a>)
           nepovinná
           položka typu
 
@@ -75325,7 +75325,7 @@
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>alternate_name</code>:
-            (<a href="#Organization.alternateName" label="To specify the organizational name associated with the object">alternate name</a>)
+            (<a href="#Organization.alternateName" label="Alternate organizational name associated with the object.">alternate name</a>)
           nepovinná
           položka typu
 
@@ -76605,7 +76605,7 @@
     <ul>
         <li style="list-style-type: disclosure-closed;">
           <code>identifier</code>:
-            (<a href="#Resource.hasIdentifier" label="A secondary identifier of the Dataset">has identifier</a>)
+            (<a href="#Resource.hasIdentifier" label="A secondary identifier of the Dataset.">has identifier</a>)
           nepovinná
           položka typu
 
@@ -77028,7 +77028,7 @@
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>date_type</code>:
-            (<a href="#TimeReference.hasDateType" label="Reference to the codelist of date types.">has date type</a>)
+            (<a href="#TimeReference.hasDateType" label="Reference to the code list of date types.">has date type</a>)
           povinná
           položka typu
 
@@ -78074,7 +78074,7 @@
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>alternate_name</code>:
-            (<a href="#Organization.alternateName" label="To specify the organizational name associated with the object">alternate name</a>)
+            (<a href="#Organization.alternateName" label="Alternate organizational name associated with the object.">alternate name</a>)
           nepovinná
           položka typu
 
@@ -79968,7 +79968,7 @@
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>alternate_name</code>:
-            (<a href="#Organization.alternateName" label="To specify the organizational name associated with the object">alternate name</a>)
+            (<a href="#Organization.alternateName" label="Alternate organizational name associated with the object.">alternate name</a>)
           nepovinná
           položka typu
 
@@ -82605,7 +82605,7 @@
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>date_type</code>:
-            (<a href="#TimeReference.hasDateType" label="Reference to the codelist of date types.">has date type</a>)
+            (<a href="#TimeReference.hasDateType" label="Reference to the code list of date types.">has date type</a>)
           povinná
           položka typu
 
@@ -83651,7 +83651,7 @@
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>alternate_name</code>:
-            (<a href="#Organization.alternateName" label="To specify the organizational name associated with the object">alternate name</a>)
+            (<a href="#Organization.alternateName" label="Alternate organizational name associated with the object.">alternate name</a>)
           nepovinná
           položka typu
 
@@ -85545,7 +85545,7 @@
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>alternate_name</code>:
-            (<a href="#Organization.alternateName" label="To specify the organizational name associated with the object">alternate name</a>)
+            (<a href="#Organization.alternateName" label="Alternate organizational name associated with the object.">alternate name</a>)
           nepovinná
           položka typu
 
@@ -87946,7 +87946,7 @@
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>alternate_name</code>:
-            (<a href="#Organization.alternateName" label="To specify the organizational name associated with the object">alternate name</a>)
+            (<a href="#Organization.alternateName" label="Alternate organizational name associated with the object.">alternate name</a>)
           nepovinná
           položka typu
 
@@ -89840,7 +89840,7 @@
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>alternate_name</code>:
-            (<a href="#Organization.alternateName" label="To specify the organizational name associated with the object">alternate name</a>)
+            (<a href="#Organization.alternateName" label="Alternate organizational name associated with the object.">alternate name</a>)
           nepovinná
           položka typu
 
@@ -91366,7 +91366,7 @@
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>alternate_name</code>:
-            (<a href="#Organization.alternateName" label="To specify the organizational name associated with the object">alternate name</a>)
+            (<a href="#Organization.alternateName" label="Alternate organizational name associated with the object.">alternate name</a>)
           nepovinná
           položka typu
 
@@ -93260,7 +93260,7 @@
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>alternate_name</code>:
-            (<a href="#Organization.alternateName" label="To specify the organizational name associated with the object">alternate name</a>)
+            (<a href="#Organization.alternateName" label="Alternate organizational name associated with the object.">alternate name</a>)
           nepovinná
           položka typu
 
@@ -96136,7 +96136,7 @@
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>alternate_name</code>:
-            (<a href="#Organization.alternateName" label="To specify the organizational name associated with the object">alternate name</a>)
+            (<a href="#Organization.alternateName" label="Alternate organizational name associated with the object.">alternate name</a>)
           nepovinná
           položka typu
 
@@ -98030,7 +98030,7 @@
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>alternate_name</code>:
-            (<a href="#Organization.alternateName" label="To specify the organizational name associated with the object">alternate name</a>)
+            (<a href="#Organization.alternateName" label="Alternate organizational name associated with the object.">alternate name</a>)
           nepovinná
           položka typu
 
@@ -102273,7 +102273,7 @@
     <ul>
         <li style="list-style-type: disclosure-closed;">
           <code>identifier</code>:
-            (<a href="#Resource.hasIdentifier" label="A secondary identifier of the Dataset">has identifier</a>)
+            (<a href="#Resource.hasIdentifier" label="A secondary identifier of the Dataset.">has identifier</a>)
           nepovinná
           položka typu
 
@@ -102696,7 +102696,7 @@
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>date_type</code>:
-            (<a href="#TimeReference.hasDateType" label="Reference to the codelist of date types.">has date type</a>)
+            (<a href="#TimeReference.hasDateType" label="Reference to the code list of date types.">has date type</a>)
           povinná
           položka typu
 
@@ -103742,7 +103742,7 @@
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>alternate_name</code>:
-            (<a href="#Organization.alternateName" label="To specify the organizational name associated with the object">alternate name</a>)
+            (<a href="#Organization.alternateName" label="Alternate organizational name associated with the object.">alternate name</a>)
           nepovinná
           položka typu
 
@@ -105636,7 +105636,7 @@
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>alternate_name</code>:
-            (<a href="#Organization.alternateName" label="To specify the organizational name associated with the object">alternate name</a>)
+            (<a href="#Organization.alternateName" label="Alternate organizational name associated with the object.">alternate name</a>)
           nepovinná
           položka typu
 
@@ -109912,7 +109912,7 @@
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>alternate_name</code>:
-            (<a href="#Organization.alternateName" label="To specify the organizational name associated with the object">alternate name</a>)
+            (<a href="#Organization.alternateName" label="Alternate organizational name associated with the object.">alternate name</a>)
           nepovinná
           položka typu
 
@@ -111806,7 +111806,7 @@
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>alternate_name</code>:
-            (<a href="#Organization.alternateName" label="To specify the organizational name associated with the object">alternate name</a>)
+            (<a href="#Organization.alternateName" label="Alternate organizational name associated with the object.">alternate name</a>)
           nepovinná
           položka typu
 
@@ -117615,7 +117615,7 @@
     <ul>
         <li style="list-style-type: disclosure-closed;">
           <code>identifier</code>:
-            (<a href="#Resource.hasIdentifier" label="A secondary identifier of the Dataset">has identifier</a>)
+            (<a href="#Resource.hasIdentifier" label="A secondary identifier of the Dataset.">has identifier</a>)
           nepovinná
           položka typu
 
@@ -118038,7 +118038,7 @@
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>date_type</code>:
-            (<a href="#TimeReference.hasDateType" label="Reference to the codelist of date types.">has date type</a>)
+            (<a href="#TimeReference.hasDateType" label="Reference to the code list of date types.">has date type</a>)
           povinná
           položka typu
 
@@ -119084,7 +119084,7 @@
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>alternate_name</code>:
-            (<a href="#Organization.alternateName" label="To specify the organizational name associated with the object">alternate name</a>)
+            (<a href="#Organization.alternateName" label="Alternate organizational name associated with the object.">alternate name</a>)
           nepovinná
           položka typu
 
@@ -120978,7 +120978,7 @@
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>alternate_name</code>:
-            (<a href="#Organization.alternateName" label="To specify the organizational name associated with the object">alternate name</a>)
+            (<a href="#Organization.alternateName" label="Alternate organizational name associated with the object.">alternate name</a>)
           nepovinná
           položka typu
 
@@ -122615,7 +122615,7 @@
         </i>
 
           <a href="#Distribution"><strong>Distribution</strong></a>
-          
+          (A physical embodiment of the Dataset in a particular format.)
 
           <span style="margin: 0 1rem">→</span>
         <i>
@@ -122713,7 +122713,7 @@
         </i>
 
           <a href="#Distribution"><strong>Distribution</strong></a>
-          
+          (A physical embodiment of the Dataset in a particular format.)
 
           <span style="margin: 0 1rem">→</span>
         <i>
@@ -122770,7 +122770,7 @@
         </i>
 
           <a href="#Distribution"><strong>Distribution</strong></a>
-          
+          (A physical embodiment of the Dataset in a particular format.)
 
           <span style="margin: 0 1rem">→</span>
         <i>
@@ -122827,7 +122827,7 @@
         </i>
 
           <a href="#Distribution"><strong>Distribution</strong></a>
-          
+          (A physical embodiment of the Dataset in a particular format.)
 
           <span style="margin: 0 1rem">→</span>
         <i>
@@ -122884,7 +122884,7 @@
         </i>
 
           <a href="#Distribution"><strong>Distribution</strong></a>
-          
+          (A physical embodiment of the Dataset in a particular format.)
 
           <span style="margin: 0 1rem">→</span>
         <i>
@@ -122941,7 +122941,7 @@
         </i>
 
           <a href="#Distribution"><strong>Distribution</strong></a>
-          
+          (A physical embodiment of the Dataset in a particular format.)
 
           <span style="margin: 0 1rem">→</span>
         <i>
@@ -123128,7 +123128,7 @@
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>identifier</code>:
-            (<a href="#Resource.hasIdentifier" label="A secondary identifier of the Dataset">has identifier</a>)
+            (<a href="#Resource.hasIdentifier" label="A secondary identifier of the Dataset.">has identifier</a>)
           nepovinná
           položka typu
 
@@ -123551,7 +123551,7 @@
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>date_type</code>:
-            (<a href="#TimeReference.hasDateType" label="Reference to the codelist of date types.">has date type</a>)
+            (<a href="#TimeReference.hasDateType" label="Reference to the code list of date types.">has date type</a>)
           povinná
           položka typu
 
@@ -124597,7 +124597,7 @@
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>alternate_name</code>:
-            (<a href="#Organization.alternateName" label="To specify the organizational name associated with the object">alternate name</a>)
+            (<a href="#Organization.alternateName" label="Alternate organizational name associated with the object.">alternate name</a>)
           nepovinná
           položka typu
 
@@ -126491,7 +126491,7 @@
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>alternate_name</code>:
-            (<a href="#Organization.alternateName" label="To specify the organizational name associated with the object">alternate name</a>)
+            (<a href="#Organization.alternateName" label="Alternate organizational name associated with the object.">alternate name</a>)
           nepovinná
           položka typu
 
@@ -128142,7 +128142,7 @@
         </i>
 
           <a href="#Resource.hasIdentifier"><strong>has identifier</strong></a>
-          (A secondary identifier of the Dataset)
+          (A secondary identifier of the Dataset.)
 
     </dd>
 
