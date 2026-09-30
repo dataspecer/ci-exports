@@ -2394,7 +2394,7 @@
                   </tr>
                   <tr>
                     <td>Definition</td>
-                    <td>An Agent having some form of responsibility for the resource. </td>
+                    <td>A link to a description of a relationship between resource and an agent with the specification of the role of agent in this relationship.</td>
                   </tr>
                   <tr>
                     <td>Domain</td>
@@ -2466,8 +2466,7 @@
               
                   <tr>
                     <td>Usage note</td>
-                    <td>Link to a description of a relationship between resource and an agent with the specification of the role of agent in this relationship. 
-              If the resource is Dataset, it has to have at least one qualified attribution relation with the role Creator, also, it is recommended to have other qualified relation to the organization with the role Publisher.</td>
+                    <td>If the resource is Dataset, it has to have at least one qualified attribution relation with the role Creator, also, it is recommended to have other qualified relation to the organization with the role Publisher.</td>
                   </tr>
                 </table>
               </section>    <section id="Resource.title">
@@ -3983,7 +3982,7 @@
               
                   <tr>
                     <td>Usage note</td>
-                    <td>The activity associated with generation of a dataset will typically be an initiative, project, mission, survey, or ongoing activity. Multiple prov:wasGeneratedBy properties can be used to indicate the dataset production context at various levels of granularity. Use prov:qualifiedGeneration to attach additional details about the relationship between the dataset and the activity, e.g., the exact time that the dataset was produced during the lifetime of a project.</td>
+                    <td>The activity associated with generation of a dataset will be typically an initiative, project, mission, survey, or ongoing activity. Multiple prov:wasGeneratedBy properties can be used to indicate the dataset production context at various levels of granularity. Use prov:qualifiedGeneration to attach additional details about the relationship between the dataset and the activity, e.g., the exact time that the dataset was produced during the lifetime of a project.</td>
                   </tr>
                 </table>
               </section>
@@ -4050,7 +4049,7 @@
           
               <tr>
                 <td>Usage note</td>
-                <td>In case metadata is harvested from external catalogue, metadata record IRI shall be the same as IRI of the metadata record in original repository.</td>
+                <td>In case metadata is harvested from an external catalogue, the metadata record IRI shall be the same as IRI of the metadata record in the original repository.</td>
               </tr>
             </table>
           
@@ -4155,7 +4154,7 @@
               
                   <tr>
                     <td>Usage note</td>
-                    <td>This property should be used to indicate the metadata model, schema, ontology or profile that the metadata record conforms to.</td>
+                    <td>This property should be used to indicate the metadata model, schema, ontology, or profile that the metadata record conforms to.</td>
                   </tr>
                 </table>
               </section>    <section id="MetadataRecord.dateCreated">
@@ -4470,7 +4469,7 @@
                   <tr>
                     <td>Usage note</td>
                     <td>Original repository is a repository where the original metadata was harvested from or where it was created and/or published. There is always exactly one original repository. 
-              If metadata record is harvested from other repository, make sure to include the first repository from which it was harvested.</td>
+              If metadata record is harvested from another repository, make sure to include the first repository from which it was harvested.</td>
                   </tr>
                 </table>
               </section>    <section id="MetadataRecord.hasLanguage">
@@ -4570,7 +4569,7 @@
                   </tr>
                   <tr>
                     <td>Definition</td>
-                    <td>Link to a description of a relationship between metadata record and agent with the specification of the role of agent in this relationship.</td>
+                    <td>A link to a description of a relationship between metadata record and agent with the specification of the role of agent in this relationship.</td>
                   </tr>
                   <tr>
                     <td>Domain</td>
@@ -4642,7 +4641,7 @@
               
                   <tr>
                     <td>Usage note</td>
-                    <td>Relationship shall contain at least one agent with role &quot;Data Manager&quot; from code list https://vocabs.ccmm.cz/registry/codelist/AgentRole/.</td>
+                    <td>The relationship shall contain at least one agent with role &quot;Data Manager&quot; from code list https://vocabs.ccmm.cz/registry/codelist/AgentRole/.</td>
                   </tr>
                 </table>
               </section>    <section id="MetadataRecord.title">
@@ -5090,7 +5089,7 @@
                   </tr>
                   <tr>
                     <td>Definition</td>
-                    <td>Human readable name of the repository.</td>
+                    <td>A human-readable name of the repository.</td>
                   </tr>
                   <tr>
                     <td>Domain</td>
@@ -5172,7 +5171,7 @@
                   </tr>
                   <tr>
                     <td>Definition</td>
-                    <td>Link to a description of a relationship between repository and agent with the specification of the role of agent in this relationship.</td>
+                    <td>A link to a description of a relationship between repository and agent with the specification of the role of agent in this relationship.</td>
                   </tr>
                   <tr>
                     <td>Domain</td>
@@ -5244,7 +5243,7 @@
               
                   <tr>
                     <td>Usage note</td>
-                    <td>Relationship shall contain at least one agent with role &quot;Publisher&quot; from code list https://vocabs.ccmm.cz/registry/codelist/AgentRole/.</td>
+                    <td>The relationship shall contain at least one agent with the role &quot;Publisher&quot; from code list https://vocabs.ccmm.cz/registry/codelist/AgentRole/.</td>
                   </tr>
                 </table>
               </section>    <section id="Repository.record">
@@ -5432,7 +5431,7 @@
           
               <tr>
                 <td>Usage note</td>
-                <td>Class is used for description of the resource together with the type of relation, for which is used value from code list https://w3id.org/tib/datacite/vocab/relationType. Distributions of the datasets SHALL NOT be modeled as related resource, but as a distribution. Examples of resources: other related dataset, used methodology, instrument used for measurement, conference or conference paper etc.</td>
+                <td>The class is used for description of the resource together with the type of relation, for which is used value from the code list https://w3id.org/tib/datacite/vocab/relationType. Distributions of the datasets SHALL NOT be modeled as related resource, but as a distribution. Examples of resources: other related dataset, used methodology, instrument used for measurement, conference or conference paper, etc.</td>
               </tr>
             </table>
           
@@ -5576,7 +5575,7 @@
               
                   <tr>
                     <td>Usage note</td>
-                    <td>Resource URL represents human readable resolvable representation of the resource, i.e. web page. Same url must be aslo in c:iri.</td>
+                    <td>The resource URL is a resolvable representation human-readable representation of the resource, i.e. web page. The same url must be also recorded in c:iri.</td>
                   </tr>
                 </table>
               </section>
@@ -5873,7 +5872,7 @@
               
                   <tr>
                     <td>Usage note</td>
-                    <td>It is used for the official name of the agent. For Persons it is combination of first and family names. Recommended format is &quot;family names, first names&quot;.</td>
+                    <td>The official name of an agent. For Person, it is a combination of first and family names. Recommended format is &quot;family names, first names&quot;, e.g., &quot;Smith, John&quot;.</td>
                   </tr>
                 </table>
               </section>
@@ -6288,7 +6287,7 @@
                   </tr>
                   <tr>
                     <td>Definition</td>
-                    <td>Alternate organizational name associated with the object.</td>
+                    <td>An alternate organizational name associated with the object.</td>
                   </tr>
                   <tr>
                     <td>Domain</td>
@@ -6920,10 +6919,10 @@
               
                   <tr>
                     <td>Usage note</td>
-                    <td>Use IRI identifier from the register http://purl.org/coar/access_right/. Recommended mapping of values from COAR to https://semiceu.github.io/DCAT-AP/drafts/latest/#properties-with-a-recommended-use-of-controlled-vocabularies:
-              embargoed access, metadata only access (:NON_PUBLIC),
-              open access (:PUBLIC),
-              restricted access (:RESTRICTED).</td>
+                    <td>Use an IRI identifier from the register http://purl.org/coar/access_right/. Recommended mapping of values from COAR to https://semiceu.github.io/DCAT-AP/drafts/latest/#properties-with-a-recommended-use-of-controlled-vocabularies is: 
+              - embargoed access, metadata only access mapped to :NON_PUBLIC,
+              - open access mapped to :PUBLIC,
+              - restricted access mapped to :RESTRICTED.</td>
                   </tr>
                 </table>
               </section>    <section id="Distribution.title">
@@ -7453,7 +7452,7 @@
               
                   <tr>
                     <td>Usage note</td>
-                    <td>Download URL SHOULD be used for the URL at which this distribution is available directly, typically through a HTTP Get request.</td>
+                    <td>A download URL SHOULD BE used for the URL at which this distribution is available directly, typically through an HTTP Get request.</td>
                   </tr>
                 </table>
               </section>    <section id="Distribution-DataService.hasChecksum">
@@ -7906,7 +7905,7 @@
               
                   <tr>
                     <td>Usage note</td>
-                    <td>This property SHOULD be used when the files in the distribution are packaged, e.g., in a TAR file, a ZIP file, a Frictionless Data Package or a Bagit file. The format SHOULD be expressed using a media type as defined by IANA (using value from https://www.iana.org/assignments/media-types/media-types.xhtml), if available.</td>
+                    <td>This property SHOULD be used when the files in the distribution are packaged, e.g., in a TAR file, a ZIP file, a Frictionless Data Package or a Bagit file. If available, record the media type as a value from the IANA registry (using value from https://www.iana.org/assignments/media-types/media-types.xhtml).</td>
                   </tr>
                 </table>
               </section>
@@ -18364,7 +18363,7 @@
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>alternate_name</code>:
-            (<a href="#Organization.alternateName" label="Alternate organizational name associated with the object.">alternate name</a>)
+            (<a href="#Organization.alternateName" label="An alternate organizational name associated with the object.">alternate name</a>)
           optional
           item of type
 
@@ -19631,7 +19630,7 @@
         </i>
 
           <a href="#Organization.alternateName"><strong>alternate name</strong></a>
-          (Alternate organizational name associated with the object.)
+          (An alternate organizational name associated with the object.)
 
     </dd>
 
@@ -21909,7 +21908,7 @@
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>label</code>:
-            (<a href="#Repository.label" label="Human readable name of the repository.">label</a>)
+            (<a href="#Repository.label" label="A human-readable name of the repository.">label</a>)
           required
           item of type
 
@@ -22073,7 +22072,7 @@
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>qualified_attribution</code>:
-            (<a href="#Repository.qualifiedAttribution" label="Link to a description of a relationship between repository and agent with the specification of the role of agent in this relationship.">qualified attribution</a>)
+            (<a href="#Repository.qualifiedAttribution" label="A link to a description of a relationship between repository and agent with the specification of the role of agent in this relationship.">qualified attribution</a>)
           required
           item of type
 
@@ -22621,7 +22620,7 @@
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>alternate_name</code>:
-            (<a href="#Organization.alternateName" label="Alternate organizational name associated with the object.">alternate name</a>)
+            (<a href="#Organization.alternateName" label="An alternate organizational name associated with the object.">alternate name</a>)
           optional
           item of type
 
@@ -24552,7 +24551,7 @@
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>alternate_name</code>:
-            (<a href="#Organization.alternateName" label="Alternate organizational name associated with the object.">alternate name</a>)
+            (<a href="#Organization.alternateName" label="An alternate organizational name associated with the object.">alternate name</a>)
           optional
           item of type
 
@@ -25707,7 +25706,7 @@
         </i>
 
           <a href="#Repository.label"><strong>label</strong></a>
-          (Human readable name of the repository.)
+          (A human-readable name of the repository.)
 
     </dd>
 
@@ -25789,7 +25788,7 @@
         </i>
 
           <a href="#Repository.qualifiedAttribution"><strong>qualified attribution</strong></a>
-          (Link to a description of a relationship between repository and agent with the specification of the role of agent in this relationship.)
+          (A link to a description of a relationship between repository and agent with the specification of the role of agent in this relationship.)
 
     </dd>
 
@@ -28149,7 +28148,7 @@
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>qualified_attribution</code>:
-            (<a href="#Resource.qualifiedAttribution" label="An Agent having some form of responsibility for the resource. ">qualified attribution</a>)
+            (<a href="#Resource.qualifiedAttribution" label="A link to a description of a relationship between resource and an agent with the specification of the role of agent in this relationship.">qualified attribution</a>)
           optional
           item of type
 
@@ -29540,7 +29539,7 @@
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>alternate_name</code>:
-            (<a href="#Organization.alternateName" label="Alternate organizational name associated with the object.">alternate name</a>)
+            (<a href="#Organization.alternateName" label="An alternate organizational name associated with the object.">alternate name</a>)
           optional
           item of type
 
@@ -31471,7 +31470,7 @@
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>alternate_name</code>:
-            (<a href="#Organization.alternateName" label="Alternate organizational name associated with the object.">alternate name</a>)
+            (<a href="#Organization.alternateName" label="An alternate organizational name associated with the object.">alternate name</a>)
           optional
           item of type
 
@@ -34807,7 +34806,7 @@
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>alternate_name</code>:
-            (<a href="#Organization.alternateName" label="Alternate organizational name associated with the object.">alternate name</a>)
+            (<a href="#Organization.alternateName" label="An alternate organizational name associated with the object.">alternate name</a>)
           optional
           item of type
 
@@ -40275,7 +40274,7 @@
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>qualified_attribution</code>:
-            (<a href="#MetadataRecord.qualifiedAttribution" label="Link to a description of a relationship between metadata record and agent with the specification of the role of agent in this relationship.">qualified attribution</a>)
+            (<a href="#MetadataRecord.qualifiedAttribution" label="A link to a description of a relationship between metadata record and agent with the specification of the role of agent in this relationship.">qualified attribution</a>)
           required
           item of type
 
@@ -40409,7 +40408,7 @@
     <ul>
         <li style="list-style-type: disclosure-closed;">
           <code>label</code>:
-            (<a href="#Repository.label" label="Human readable name of the repository.">label</a>)
+            (<a href="#Repository.label" label="A human-readable name of the repository.">label</a>)
           required
           item of type
 
@@ -40573,7 +40572,7 @@
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>qualified_attribution</code>:
-            (<a href="#Repository.qualifiedAttribution" label="Link to a description of a relationship between repository and agent with the specification of the role of agent in this relationship.">qualified attribution</a>)
+            (<a href="#Repository.qualifiedAttribution" label="A link to a description of a relationship between repository and agent with the specification of the role of agent in this relationship.">qualified attribution</a>)
           required
           item of type
 
@@ -41121,7 +41120,7 @@
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>alternate_name</code>:
-            (<a href="#Organization.alternateName" label="Alternate organizational name associated with the object.">alternate name</a>)
+            (<a href="#Organization.alternateName" label="An alternate organizational name associated with the object.">alternate name</a>)
           optional
           item of type
 
@@ -43052,7 +43051,7 @@
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>alternate_name</code>:
-            (<a href="#Organization.alternateName" label="Alternate organizational name associated with the object.">alternate name</a>)
+            (<a href="#Organization.alternateName" label="An alternate organizational name associated with the object.">alternate name</a>)
           optional
           item of type
 
@@ -44604,7 +44603,7 @@
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>alternate_name</code>:
-            (<a href="#Organization.alternateName" label="Alternate organizational name associated with the object.">alternate name</a>)
+            (<a href="#Organization.alternateName" label="An alternate organizational name associated with the object.">alternate name</a>)
           optional
           item of type
 
@@ -46535,7 +46534,7 @@
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>alternate_name</code>:
-            (<a href="#Organization.alternateName" label="Alternate organizational name associated with the object.">alternate name</a>)
+            (<a href="#Organization.alternateName" label="An alternate organizational name associated with the object.">alternate name</a>)
           optional
           item of type
 
@@ -47907,7 +47906,7 @@
         </i>
 
           <a href="#MetadataRecord.qualifiedAttribution"><strong>qualified attribution</strong></a>
-          (Link to a description of a relationship between metadata record and agent with the specification of the role of agent in this relationship.)
+          (A link to a description of a relationship between metadata record and agent with the specification of the role of agent in this relationship.)
 
     </dd>
 
@@ -51063,7 +51062,7 @@
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>qualified_attribution</code>:
-            (<a href="#Resource.qualifiedAttribution" label="An Agent having some form of responsibility for the resource. ">qualified attribution</a>)
+            (<a href="#Resource.qualifiedAttribution" label="A link to a description of a relationship between resource and an agent with the specification of the role of agent in this relationship.">qualified attribution</a>)
           optional
           item of type
 
@@ -52454,7 +52453,7 @@
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>alternate_name</code>:
-            (<a href="#Organization.alternateName" label="Alternate organizational name associated with the object.">alternate name</a>)
+            (<a href="#Organization.alternateName" label="An alternate organizational name associated with the object.">alternate name</a>)
           optional
           item of type
 
@@ -54385,7 +54384,7 @@
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>alternate_name</code>:
-            (<a href="#Organization.alternateName" label="Alternate organizational name associated with the object.">alternate name</a>)
+            (<a href="#Organization.alternateName" label="An alternate organizational name associated with the object.">alternate name</a>)
           optional
           item of type
 
@@ -57526,7 +57525,7 @@
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>alternate_name</code>:
-            (<a href="#Organization.alternateName" label="Alternate organizational name associated with the object.">alternate name</a>)
+            (<a href="#Organization.alternateName" label="An alternate organizational name associated with the object.">alternate name</a>)
           optional
           item of type
 
@@ -59457,7 +59456,7 @@
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>alternate_name</code>:
-            (<a href="#Organization.alternateName" label="Alternate organizational name associated with the object.">alternate name</a>)
+            (<a href="#Organization.alternateName" label="An alternate organizational name associated with the object.">alternate name</a>)
           optional
           item of type
 
@@ -60884,7 +60883,7 @@
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>qualified_attribution</code>:
-            (<a href="#Resource.qualifiedAttribution" label="An Agent having some form of responsibility for the resource. ">qualified attribution</a>)
+            (<a href="#Resource.qualifiedAttribution" label="A link to a description of a relationship between resource and an agent with the specification of the role of agent in this relationship.">qualified attribution</a>)
           required
           item of type
 
@@ -64130,7 +64129,7 @@
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>qualified_attribution</code>:
-            (<a href="#Resource.qualifiedAttribution" label="An Agent having some form of responsibility for the resource. ">qualified attribution</a>)
+            (<a href="#Resource.qualifiedAttribution" label="A link to a description of a relationship between resource and an agent with the specification of the role of agent in this relationship.">qualified attribution</a>)
           optional
           item of type
 
@@ -65521,7 +65520,7 @@
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>alternate_name</code>:
-            (<a href="#Organization.alternateName" label="Alternate organizational name associated with the object.">alternate name</a>)
+            (<a href="#Organization.alternateName" label="An alternate organizational name associated with the object.">alternate name</a>)
           optional
           item of type
 
@@ -67452,7 +67451,7 @@
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>alternate_name</code>:
-            (<a href="#Organization.alternateName" label="Alternate organizational name associated with the object.">alternate name</a>)
+            (<a href="#Organization.alternateName" label="An alternate organizational name associated with the object.">alternate name</a>)
           optional
           item of type
 
@@ -69028,7 +69027,7 @@
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>qualified_attribution</code>:
-            (<a href="#Resource.qualifiedAttribution" label="An Agent having some form of responsibility for the resource. ">qualified attribution</a>)
+            (<a href="#Resource.qualifiedAttribution" label="A link to a description of a relationship between resource and an agent with the specification of the role of agent in this relationship.">qualified attribution</a>)
           optional
           item of type
 
@@ -70419,7 +70418,7 @@
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>alternate_name</code>:
-            (<a href="#Organization.alternateName" label="Alternate organizational name associated with the object.">alternate name</a>)
+            (<a href="#Organization.alternateName" label="An alternate organizational name associated with the object.">alternate name</a>)
           optional
           item of type
 
@@ -72350,7 +72349,7 @@
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>alternate_name</code>:
-            (<a href="#Organization.alternateName" label="Alternate organizational name associated with the object.">alternate name</a>)
+            (<a href="#Organization.alternateName" label="An alternate organizational name associated with the object.">alternate name</a>)
           optional
           item of type
 
@@ -74221,7 +74220,7 @@
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>alternate_name</code>:
-            (<a href="#Organization.alternateName" label="Alternate organizational name associated with the object.">alternate name</a>)
+            (<a href="#Organization.alternateName" label="An alternate organizational name associated with the object.">alternate name</a>)
           optional
           item of type
 
@@ -76152,7 +76151,7 @@
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>alternate_name</code>:
-            (<a href="#Organization.alternateName" label="Alternate organizational name associated with the object.">alternate name</a>)
+            (<a href="#Organization.alternateName" label="An alternate organizational name associated with the object.">alternate name</a>)
           optional
           item of type
 
@@ -77541,7 +77540,7 @@
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>qualified_attribution</code>:
-            (<a href="#Resource.qualifiedAttribution" label="An Agent having some form of responsibility for the resource. ">qualified attribution</a>)
+            (<a href="#Resource.qualifiedAttribution" label="A link to a description of a relationship between resource and an agent with the specification of the role of agent in this relationship.">qualified attribution</a>)
           optional
           item of type
 
@@ -78932,7 +78931,7 @@
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>alternate_name</code>:
-            (<a href="#Organization.alternateName" label="Alternate organizational name associated with the object.">alternate name</a>)
+            (<a href="#Organization.alternateName" label="An alternate organizational name associated with the object.">alternate name</a>)
           optional
           item of type
 
@@ -80863,7 +80862,7 @@
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>alternate_name</code>:
-            (<a href="#Organization.alternateName" label="Alternate organizational name associated with the object.">alternate name</a>)
+            (<a href="#Organization.alternateName" label="An alternate organizational name associated with the object.">alternate name</a>)
           optional
           item of type
 
@@ -84577,7 +84576,7 @@
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>alternate_name</code>:
-            (<a href="#Organization.alternateName" label="Alternate organizational name associated with the object.">alternate name</a>)
+            (<a href="#Organization.alternateName" label="An alternate organizational name associated with the object.">alternate name</a>)
           optional
           item of type
 
@@ -86508,7 +86507,7 @@
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>alternate_name</code>:
-            (<a href="#Organization.alternateName" label="Alternate organizational name associated with the object.">alternate name</a>)
+            (<a href="#Organization.alternateName" label="An alternate organizational name associated with the object.">alternate name</a>)
           optional
           item of type
 
@@ -88100,7 +88099,7 @@
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>qualified_attribution</code>:
-            (<a href="#MetadataRecord.qualifiedAttribution" label="Link to a description of a relationship between metadata record and agent with the specification of the role of agent in this relationship.">qualified attribution</a>)
+            (<a href="#MetadataRecord.qualifiedAttribution" label="A link to a description of a relationship between metadata record and agent with the specification of the role of agent in this relationship.">qualified attribution</a>)
           required
           item of type
 
@@ -88234,7 +88233,7 @@
     <ul>
         <li style="list-style-type: disclosure-closed;">
           <code>label</code>:
-            (<a href="#Repository.label" label="Human readable name of the repository.">label</a>)
+            (<a href="#Repository.label" label="A human-readable name of the repository.">label</a>)
           required
           item of type
 
@@ -88398,7 +88397,7 @@
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>qualified_attribution</code>:
-            (<a href="#Repository.qualifiedAttribution" label="Link to a description of a relationship between repository and agent with the specification of the role of agent in this relationship.">qualified attribution</a>)
+            (<a href="#Repository.qualifiedAttribution" label="A link to a description of a relationship between repository and agent with the specification of the role of agent in this relationship.">qualified attribution</a>)
           required
           item of type
 
@@ -88946,7 +88945,7 @@
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>alternate_name</code>:
-            (<a href="#Organization.alternateName" label="Alternate organizational name associated with the object.">alternate name</a>)
+            (<a href="#Organization.alternateName" label="An alternate organizational name associated with the object.">alternate name</a>)
           optional
           item of type
 
@@ -90877,7 +90876,7 @@
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>alternate_name</code>:
-            (<a href="#Organization.alternateName" label="Alternate organizational name associated with the object.">alternate name</a>)
+            (<a href="#Organization.alternateName" label="An alternate organizational name associated with the object.">alternate name</a>)
           optional
           item of type
 
@@ -92429,7 +92428,7 @@
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>alternate_name</code>:
-            (<a href="#Organization.alternateName" label="Alternate organizational name associated with the object.">alternate name</a>)
+            (<a href="#Organization.alternateName" label="An alternate organizational name associated with the object.">alternate name</a>)
           optional
           item of type
 
@@ -94360,7 +94359,7 @@
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>alternate_name</code>:
-            (<a href="#Organization.alternateName" label="Alternate organizational name associated with the object.">alternate name</a>)
+            (<a href="#Organization.alternateName" label="An alternate organizational name associated with the object.">alternate name</a>)
           optional
           item of type
 
@@ -96001,7 +96000,7 @@
         </i>
 
           <a href="#Resource.qualifiedAttribution"><strong>qualified attribution</strong></a>
-          (An Agent having some form of responsibility for the resource. )
+          (A link to a description of a relationship between resource and an agent with the specification of the role of agent in this relationship.)
 
     </dd>
 
@@ -97265,7 +97264,7 @@
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>alternate_name</code>:
-            (<a href="#Organization.alternateName" label="Alternate organizational name associated with the object.">alternate name</a>)
+            (<a href="#Organization.alternateName" label="An alternate organizational name associated with the object.">alternate name</a>)
           optional
           item of type
 
@@ -99196,7 +99195,7 @@
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>alternate_name</code>:
-            (<a href="#Organization.alternateName" label="Alternate organizational name associated with the object.">alternate name</a>)
+            (<a href="#Organization.alternateName" label="An alternate organizational name associated with the object.">alternate name</a>)
           optional
           item of type
 
@@ -103578,7 +103577,7 @@
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>qualified_attribution</code>:
-            (<a href="#Resource.qualifiedAttribution" label="An Agent having some form of responsibility for the resource. ">qualified attribution</a>)
+            (<a href="#Resource.qualifiedAttribution" label="A link to a description of a relationship between resource and an agent with the specification of the role of agent in this relationship.">qualified attribution</a>)
           optional
           item of type
 
@@ -104969,7 +104968,7 @@
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>alternate_name</code>:
-            (<a href="#Organization.alternateName" label="Alternate organizational name associated with the object.">alternate name</a>)
+            (<a href="#Organization.alternateName" label="An alternate organizational name associated with the object.">alternate name</a>)
           optional
           item of type
 
@@ -106900,7 +106899,7 @@
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>alternate_name</code>:
-            (<a href="#Organization.alternateName" label="Alternate organizational name associated with the object.">alternate name</a>)
+            (<a href="#Organization.alternateName" label="An alternate organizational name associated with the object.">alternate name</a>)
           optional
           item of type
 
@@ -111229,7 +111228,7 @@
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>alternate_name</code>:
-            (<a href="#Organization.alternateName" label="Alternate organizational name associated with the object.">alternate name</a>)
+            (<a href="#Organization.alternateName" label="An alternate organizational name associated with the object.">alternate name</a>)
           optional
           item of type
 
@@ -113160,7 +113159,7 @@
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>alternate_name</code>:
-            (<a href="#Organization.alternateName" label="Alternate organizational name associated with the object.">alternate name</a>)
+            (<a href="#Organization.alternateName" label="An alternate organizational name associated with the object.">alternate name</a>)
           optional
           item of type
 
@@ -119119,7 +119118,7 @@
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>qualified_attribution</code>:
-            (<a href="#Resource.qualifiedAttribution" label="An Agent having some form of responsibility for the resource. ">qualified attribution</a>)
+            (<a href="#Resource.qualifiedAttribution" label="A link to a description of a relationship between resource and an agent with the specification of the role of agent in this relationship.">qualified attribution</a>)
           optional
           item of type
 
@@ -120510,7 +120509,7 @@
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>alternate_name</code>:
-            (<a href="#Organization.alternateName" label="Alternate organizational name associated with the object.">alternate name</a>)
+            (<a href="#Organization.alternateName" label="An alternate organizational name associated with the object.">alternate name</a>)
           optional
           item of type
 
@@ -122441,7 +122440,7 @@
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>alternate_name</code>:
-            (<a href="#Organization.alternateName" label="Alternate organizational name associated with the object.">alternate name</a>)
+            (<a href="#Organization.alternateName" label="An alternate organizational name associated with the object.">alternate name</a>)
           optional
           item of type
 
@@ -124704,7 +124703,7 @@
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>qualified_attribution</code>:
-            (<a href="#Resource.qualifiedAttribution" label="An Agent having some form of responsibility for the resource. ">qualified attribution</a>)
+            (<a href="#Resource.qualifiedAttribution" label="A link to a description of a relationship between resource and an agent with the specification of the role of agent in this relationship.">qualified attribution</a>)
           optional
           item of type
 
@@ -126095,7 +126094,7 @@
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>alternate_name</code>:
-            (<a href="#Organization.alternateName" label="Alternate organizational name associated with the object.">alternate name</a>)
+            (<a href="#Organization.alternateName" label="An alternate organizational name associated with the object.">alternate name</a>)
           optional
           item of type
 
@@ -128026,7 +128025,7 @@
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>alternate_name</code>:
-            (<a href="#Organization.alternateName" label="Alternate organizational name associated with the object.">alternate name</a>)
+            (<a href="#Organization.alternateName" label="An alternate organizational name associated with the object.">alternate name</a>)
           optional
           item of type
 
@@ -129906,7 +129905,7 @@
         </i>
 
           <a href="#Resource.qualifiedAttribution"><strong>qualified attribution</strong></a>
-          (An Agent having some form of responsibility for the resource. )
+          (A link to a description of a relationship between resource and an agent with the specification of the role of agent in this relationship.)
 
     </dd>
 

@@ -28,12 +28,12 @@
 
 <https://model.ccmm.cz/research-data/> a dsv:ApplicationProfile.
 
-<> tree:member <https://model.ccmm.cz/research-data/Dataset#2026-09-27T10:42:44.387Z-0>.
+<> tree:member <https://model.ccmm.cz/research-data/Dataset#2026-09-29T09:55:31.207Z-0>.
 
-<https://model.ccmm.cz/research-data/Dataset#2026-09-27T10:42:44.387Z-0> a as:Create;
+<https://model.ccmm.cz/research-data/Dataset#2026-09-29T09:55:31.207Z-0> a as:Create;
     dct:isVersionOf <https://model.ccmm.cz/research-data/Dataset>;
-    dct:created "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
-    dct:issued "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
+    dct:created "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
+    dct:issued "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
     ds-ldes:sequence 0;
     dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
@@ -44,12 +44,12 @@
     a dsv:ClassProfile;
     dsv:classRole role:main.
 
-<> tree:member <https://model.ccmm.cz/research-data/Dataset.title#2026-09-27T10:42:44.387Z-1>.
+<> tree:member <https://model.ccmm.cz/research-data/Dataset.title#2026-09-29T09:55:31.207Z-1>.
 
-<https://model.ccmm.cz/research-data/Dataset.title#2026-09-27T10:42:44.387Z-1> a as:Create;
+<https://model.ccmm.cz/research-data/Dataset.title#2026-09-29T09:55:31.207Z-1> a as:Create;
     dct:isVersionOf <https://model.ccmm.cz/research-data/Dataset.title>;
-    dct:created "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
-    dct:issued "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
+    dct:created "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
+    dct:issued "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
     ds-ldes:sequence 1;
     dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
@@ -61,12 +61,12 @@
     a dsv:DatatypePropertyProfile;
     dsv:datatypePropertyRange xsd:string.
 
-<> tree:member <https://model.ccmm.cz/research-data/Dataset.version#2026-09-27T10:42:44.387Z-2>.
+<> tree:member <https://model.ccmm.cz/research-data/Dataset.version#2026-09-29T09:55:31.207Z-2>.
 
-<https://model.ccmm.cz/research-data/Dataset.version#2026-09-27T10:42:44.387Z-2> a as:Create;
+<https://model.ccmm.cz/research-data/Dataset.version#2026-09-29T09:55:31.207Z-2> a as:Create;
     dct:isVersionOf <https://model.ccmm.cz/research-data/Dataset.version>;
-    dct:created "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
-    dct:issued "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
+    dct:created "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
+    dct:issued "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
     ds-ldes:sequence 2;
     dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
@@ -83,12 +83,12 @@
     a dsv:DatatypePropertyProfile;
     dsv:datatypePropertyRange xsd:string.
 
-<> tree:member <https://model.ccmm.cz/research-data/Agent#2026-09-27T10:42:44.387Z-3>.
+<> tree:member <https://model.ccmm.cz/research-data/Agent#2026-09-29T09:55:31.207Z-3>.
 
-<https://model.ccmm.cz/research-data/Agent#2026-09-27T10:42:44.387Z-3> a as:Create;
+<https://model.ccmm.cz/research-data/Agent#2026-09-29T09:55:31.207Z-3> a as:Create;
     dct:isVersionOf <https://model.ccmm.cz/research-data/Agent>;
-    dct:created "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
-    dct:issued "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
+    dct:created "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
+    dct:issued "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
     ds-ldes:sequence 3;
     dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
@@ -112,12 +112,12 @@
     a dsv:ClassProfile;
     dsv:classRole role:main.
 
-<> tree:member <https://model.ccmm.cz/research-data/Person#2026-09-27T10:42:44.387Z-4>.
+<> tree:member <https://model.ccmm.cz/research-data/Person#2026-09-29T09:55:31.207Z-4>.
 
-<https://model.ccmm.cz/research-data/Person#2026-09-27T10:42:44.387Z-4> a as:Create;
+<https://model.ccmm.cz/research-data/Person#2026-09-29T09:55:31.207Z-4> a as:Create;
     dct:isVersionOf <https://model.ccmm.cz/research-data/Person>;
-    dct:created "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
-    dct:issued "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
+    dct:created "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
+    dct:issued "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
     ds-ldes:sequence 4;
     dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
@@ -134,12 +134,12 @@
     dsv:class <http://www.w3.org/ns/prov#Person>;
     dsv:classRole role:main.
 
-<> tree:member <https://model.ccmm.cz/research-data/Organization#2026-09-27T10:42:44.387Z-5>.
+<> tree:member <https://model.ccmm.cz/research-data/Organization#2026-09-29T09:55:31.207Z-5>.
 
-<https://model.ccmm.cz/research-data/Organization#2026-09-27T10:42:44.387Z-5> a as:Create;
+<https://model.ccmm.cz/research-data/Organization#2026-09-29T09:55:31.207Z-5> a as:Create;
     dct:isVersionOf <https://model.ccmm.cz/research-data/Organization>;
-    dct:created "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
-    dct:issued "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
+    dct:created "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
+    dct:issued "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
     ds-ldes:sequence 5;
     dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
@@ -151,12 +151,12 @@
     dsv:class <http://www.w3.org/ns/org#Organization>;
     dsv:classRole role:main.
 
-<> tree:member <https://model.ccmm.cz/research-data/Dataset.publicationYear#2026-09-27T10:42:44.387Z-6>.
+<> tree:member <https://model.ccmm.cz/research-data/Dataset.publicationYear#2026-09-29T09:55:31.207Z-6>.
 
-<https://model.ccmm.cz/research-data/Dataset.publicationYear#2026-09-27T10:42:44.387Z-6> a as:Create;
+<https://model.ccmm.cz/research-data/Dataset.publicationYear#2026-09-29T09:55:31.207Z-6> a as:Create;
     dct:isVersionOf <https://model.ccmm.cz/research-data/Dataset.publicationYear>;
-    dct:created "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
-    dct:issued "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
+    dct:created "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
+    dct:issued "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
     ds-ldes:sequence 6;
     dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
@@ -169,12 +169,12 @@
     a dsv:DatatypePropertyProfile;
     dsv:datatypePropertyRange xsd:gYear.
 
-<> tree:member <https://model.ccmm.cz/research-data/Dataset.hasRelatedResource#2026-09-27T10:42:44.387Z-7>.
+<> tree:member <https://model.ccmm.cz/research-data/Dataset.hasRelatedResource#2026-09-29T09:55:31.207Z-7>.
 
-<https://model.ccmm.cz/research-data/Dataset.hasRelatedResource#2026-09-27T10:42:44.387Z-7> a as:Create;
+<https://model.ccmm.cz/research-data/Dataset.hasRelatedResource#2026-09-29T09:55:31.207Z-7> a as:Create;
     dct:isVersionOf <https://model.ccmm.cz/research-data/Dataset.hasRelatedResource>;
-    dct:created "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
-    dct:issued "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
+    dct:created "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
+    dct:issued "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
     ds-ldes:sequence 7;
     dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
@@ -185,12 +185,12 @@
     a dsv:ObjectPropertyProfile;
     dsv:objectPropertyRange <https://model.ccmm.cz/research-data/RelatedResource>.
 
-<> tree:member <https://model.ccmm.cz/research-data/FundingReference#2026-09-27T10:42:44.387Z-8>.
+<> tree:member <https://model.ccmm.cz/research-data/FundingReference#2026-09-29T09:55:31.207Z-8>.
 
-<https://model.ccmm.cz/research-data/FundingReference#2026-09-27T10:42:44.387Z-8> a as:Create;
+<https://model.ccmm.cz/research-data/FundingReference#2026-09-29T09:55:31.207Z-8> a as:Create;
     dct:isVersionOf <https://model.ccmm.cz/research-data/FundingReference>;
-    dct:created "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
-    dct:issued "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
+    dct:created "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
+    dct:issued "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
     ds-ldes:sequence 8;
     dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
@@ -200,12 +200,12 @@
     dsv:class <https://w3id.org/tib/datacite/class/FundingReference>;
     dsv:classRole role:supportive.
 
-<> tree:member <https://model.ccmm.cz/research-data/Dataset.hasFundingReference#2026-09-27T10:42:44.387Z-9>.
+<> tree:member <https://model.ccmm.cz/research-data/Dataset.hasFundingReference#2026-09-29T09:55:31.207Z-9>.
 
-<https://model.ccmm.cz/research-data/Dataset.hasFundingReference#2026-09-27T10:42:44.387Z-9> a as:Create;
+<https://model.ccmm.cz/research-data/Dataset.hasFundingReference#2026-09-29T09:55:31.207Z-9> a as:Create;
     dct:isVersionOf <https://model.ccmm.cz/research-data/Dataset.hasFundingReference>;
-    dct:created "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
-    dct:issued "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
+    dct:created "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
+    dct:issued "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
     ds-ldes:sequence 9;
     dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
@@ -217,12 +217,12 @@
     a dsv:ObjectPropertyProfile;
     dsv:objectPropertyRange <https://model.ccmm.cz/research-data/FundingReference>.
 
-<> tree:member <https://model.ccmm.cz/research-data/Distribution#2026-09-27T10:42:44.387Z-10>.
+<> tree:member <https://model.ccmm.cz/research-data/Distribution#2026-09-29T09:55:31.207Z-10>.
 
-<https://model.ccmm.cz/research-data/Distribution#2026-09-27T10:42:44.387Z-10> a as:Create;
+<https://model.ccmm.cz/research-data/Distribution#2026-09-29T09:55:31.207Z-10> a as:Create;
     dct:isVersionOf <https://model.ccmm.cz/research-data/Distribution>;
-    dct:created "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
-    dct:issued "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
+    dct:created "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
+    dct:issued "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
     ds-ldes:sequence 10;
     dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
@@ -233,12 +233,12 @@
     a dsv:ClassProfile;
     dsv:classRole role:main.
 
-<> tree:member <https://model.ccmm.cz/research-data/Dataset.hasDistribution#2026-09-27T10:42:44.387Z-11>.
+<> tree:member <https://model.ccmm.cz/research-data/Dataset.hasDistribution#2026-09-29T09:55:31.207Z-11>.
 
-<https://model.ccmm.cz/research-data/Dataset.hasDistribution#2026-09-27T10:42:44.387Z-11> a as:Create;
+<https://model.ccmm.cz/research-data/Dataset.hasDistribution#2026-09-29T09:55:31.207Z-11> a as:Create;
     dct:isVersionOf <https://model.ccmm.cz/research-data/Dataset.hasDistribution>;
-    dct:created "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
-    dct:issued "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
+    dct:created "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
+    dct:issued "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
     ds-ldes:sequence 11;
     dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
@@ -255,12 +255,12 @@
     a dsv:ObjectPropertyProfile;
     dsv:objectPropertyRange <https://model.ccmm.cz/research-data/Distribution>.
 
-<> tree:member <https://model.ccmm.cz/research-data/ValidationResult#2026-09-27T10:42:44.387Z-12>.
+<> tree:member <https://model.ccmm.cz/research-data/ValidationResult#2026-09-29T09:55:31.207Z-12>.
 
-<https://model.ccmm.cz/research-data/ValidationResult#2026-09-27T10:42:44.387Z-12> a as:Create;
+<https://model.ccmm.cz/research-data/ValidationResult#2026-09-29T09:55:31.207Z-12> a as:Create;
     dct:isVersionOf <https://model.ccmm.cz/research-data/ValidationResult>;
-    dct:created "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
-    dct:issued "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
+    dct:created "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
+    dct:issued "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
     ds-ldes:sequence 12;
     dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
@@ -270,12 +270,12 @@
     dsv:class <https://model.ccmm.cz/vocabulary/ccmm#ValidationResult>;
     dsv:classRole role:supportive.
 
-<> tree:member <https://model.ccmm.cz/research-data/Dataset.hasValidationResult#2026-09-27T10:42:44.387Z-13>.
+<> tree:member <https://model.ccmm.cz/research-data/Dataset.hasValidationResult#2026-09-29T09:55:31.207Z-13>.
 
-<https://model.ccmm.cz/research-data/Dataset.hasValidationResult#2026-09-27T10:42:44.387Z-13> a as:Create;
+<https://model.ccmm.cz/research-data/Dataset.hasValidationResult#2026-09-29T09:55:31.207Z-13> a as:Create;
     dct:isVersionOf <https://model.ccmm.cz/research-data/Dataset.hasValidationResult>;
-    dct:created "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
-    dct:issued "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
+    dct:created "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
+    dct:issued "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
     ds-ldes:sequence 13;
     dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
@@ -286,12 +286,12 @@
     a dsv:ObjectPropertyProfile;
     dsv:objectPropertyRange <https://model.ccmm.cz/research-data/ValidationResult>.
 
-<> tree:member <https://model.ccmm.cz/research-data/Subject#2026-09-27T10:42:44.387Z-14>.
+<> tree:member <https://model.ccmm.cz/research-data/Subject#2026-09-29T09:55:31.207Z-14>.
 
-<https://model.ccmm.cz/research-data/Subject#2026-09-27T10:42:44.387Z-14> a as:Create;
+<https://model.ccmm.cz/research-data/Subject#2026-09-29T09:55:31.207Z-14> a as:Create;
     dct:isVersionOf <https://model.ccmm.cz/research-data/Subject>;
-    dct:created "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
-    dct:issued "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
+    dct:created "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
+    dct:issued "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
     ds-ldes:sequence 14;
     dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
@@ -302,12 +302,12 @@
     dsv:class <https://w3id.org/tib/datacite/class/Subject>;
     dsv:classRole role:supportive.
 
-<> tree:member <https://model.ccmm.cz/research-data/Dataset.hasSubject#2026-09-27T10:42:44.387Z-15>.
+<> tree:member <https://model.ccmm.cz/research-data/Dataset.hasSubject#2026-09-29T09:55:31.207Z-15>.
 
-<https://model.ccmm.cz/research-data/Dataset.hasSubject#2026-09-27T10:42:44.387Z-15> a as:Create;
+<https://model.ccmm.cz/research-data/Dataset.hasSubject#2026-09-29T09:55:31.207Z-15> a as:Create;
     dct:isVersionOf <https://model.ccmm.cz/research-data/Dataset.hasSubject>;
-    dct:created "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
-    dct:issued "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
+    dct:created "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
+    dct:issued "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
     ds-ldes:sequence 15;
     dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
@@ -320,29 +320,29 @@
     a dsv:ObjectPropertyProfile;
     dsv:objectPropertyRange <https://model.ccmm.cz/research-data/Subject>.
 
-<> tree:member <https://model.ccmm.cz/research-data/RelatedResource#2026-09-27T10:42:44.387Z-16>.
+<> tree:member <https://model.ccmm.cz/research-data/RelatedResource#2026-09-29T09:55:31.207Z-16>.
 
-<https://model.ccmm.cz/research-data/RelatedResource#2026-09-27T10:42:44.387Z-16> a as:Create;
+<https://model.ccmm.cz/research-data/RelatedResource#2026-09-29T09:55:31.207Z-16> a as:Create;
     dct:isVersionOf <https://model.ccmm.cz/research-data/RelatedResource>;
-    dct:created "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
-    dct:issued "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
+    dct:created "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
+    dct:issued "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
     ds-ldes:sequence 16;
     dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
     skos:prefLabel "Related resource"@en;
     skos:definition "Resource represents any resource, physical or digital, that is related to the described dataset."@en;
-    skos:scopeNote "Class is used for description of the resource together with the type of relation, for which is used value from code list https://w3id.org/tib/datacite/vocab/relationType. Distributions of the datasets SHALL NOT be modeled as related resource, but as a distribution. Examples of resources: other related dataset, used methodology, instrument used for measurement, conference or conference paper etc."@en;
+    skos:scopeNote "The class is used for description of the resource together with the type of relation, for which is used value from the code list https://w3id.org/tib/datacite/vocab/relationType. Distributions of the datasets SHALL NOT be modeled as related resource, but as a distribution. Examples of resources: other related dataset, used methodology, instrument used for measurement, conference or conference paper, etc."@en;
     dsv:specializes <https://model.ccmm.cz/research-data/Resource>;
     dsv:profileOf <https://mff-uk.github.io/specifications/dcat-ap#rdfs-Resource>;
     a dsv:ClassProfile;
     dsv:classRole role:main.
 
-<> tree:member <https://model.ccmm.cz/research-data/Dataset.hasTimeReference#2026-09-27T10:42:44.387Z-17>.
+<> tree:member <https://model.ccmm.cz/research-data/Dataset.hasTimeReference#2026-09-29T09:55:31.207Z-17>.
 
-<https://model.ccmm.cz/research-data/Dataset.hasTimeReference#2026-09-27T10:42:44.387Z-17> a as:Create;
+<https://model.ccmm.cz/research-data/Dataset.hasTimeReference#2026-09-29T09:55:31.207Z-17> a as:Create;
     dct:isVersionOf <https://model.ccmm.cz/research-data/Dataset.hasTimeReference>;
-    dct:created "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
-    dct:issued "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
+    dct:created "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
+    dct:issued "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
     ds-ldes:sequence 17;
     dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
@@ -355,12 +355,12 @@
     a dsv:ObjectPropertyProfile;
     dsv:objectPropertyRange <https://model.ccmm.cz/research-data/TimeReference>.
 
-<> tree:member <https://model.ccmm.cz/research-data/ResourceAttribution#2026-09-27T10:42:44.387Z-18>.
+<> tree:member <https://model.ccmm.cz/research-data/ResourceAttribution#2026-09-29T09:55:31.207Z-18>.
 
-<https://model.ccmm.cz/research-data/ResourceAttribution#2026-09-27T10:42:44.387Z-18> a as:Create;
+<https://model.ccmm.cz/research-data/ResourceAttribution#2026-09-29T09:55:31.207Z-18> a as:Create;
     dct:isVersionOf <https://model.ccmm.cz/research-data/ResourceAttribution>;
-    dct:created "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
-    dct:issued "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
+    dct:created "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
+    dct:issued "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
     ds-ldes:sequence 18;
     dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
@@ -370,12 +370,12 @@
     a dsv:ClassProfile;
     dsv:classRole role:supportive.
 
-<> tree:member <https://model.ccmm.cz/research-data/ResourceAttribution.hasAttributedAgent#2026-09-27T10:42:44.387Z-19>.
+<> tree:member <https://model.ccmm.cz/research-data/ResourceAttribution.hasAttributedAgent#2026-09-29T09:55:31.207Z-19>.
 
-<https://model.ccmm.cz/research-data/ResourceAttribution.hasAttributedAgent#2026-09-27T10:42:44.387Z-19> a as:Create;
+<https://model.ccmm.cz/research-data/ResourceAttribution.hasAttributedAgent#2026-09-29T09:55:31.207Z-19> a as:Create;
     dct:isVersionOf <https://model.ccmm.cz/research-data/ResourceAttribution.hasAttributedAgent>;
-    dct:created "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
-    dct:issued "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
+    dct:created "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
+    dct:issued "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
     ds-ldes:sequence 19;
     dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
@@ -387,12 +387,12 @@
     a dsv:ObjectPropertyProfile;
     dsv:objectPropertyRange <https://model.ccmm.cz/research-data/Agent>.
 
-<> tree:member <https://model.ccmm.cz/research-data/AttributedAgentRoleType#2026-09-27T10:42:44.387Z-20>.
+<> tree:member <https://model.ccmm.cz/research-data/AttributedAgentRoleType#2026-09-29T09:55:31.207Z-20>.
 
-<https://model.ccmm.cz/research-data/AttributedAgentRoleType#2026-09-27T10:42:44.387Z-20> a as:Create;
+<https://model.ccmm.cz/research-data/AttributedAgentRoleType#2026-09-29T09:55:31.207Z-20> a as:Create;
     dct:isVersionOf <https://model.ccmm.cz/research-data/AttributedAgentRoleType>;
-    dct:created "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
-    dct:issued "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
+    dct:created "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
+    dct:issued "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
     ds-ldes:sequence 20;
     dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
@@ -403,12 +403,12 @@
     a dsv:ClassProfile;
     dsv:classRole role:supportive.
 
-<> tree:member <https://model.ccmm.cz/research-data/ResourceAttribution.hadRole#2026-09-27T10:42:44.387Z-21>.
+<> tree:member <https://model.ccmm.cz/research-data/ResourceAttribution.hadRole#2026-09-29T09:55:31.207Z-21>.
 
-<https://model.ccmm.cz/research-data/ResourceAttribution.hadRole#2026-09-27T10:42:44.387Z-21> a as:Create;
+<https://model.ccmm.cz/research-data/ResourceAttribution.hadRole#2026-09-29T09:55:31.207Z-21> a as:Create;
     dct:isVersionOf <https://model.ccmm.cz/research-data/ResourceAttribution.hadRole>;
-    dct:created "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
-    dct:issued "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
+    dct:created "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
+    dct:issued "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
     ds-ldes:sequence 21;
     dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
@@ -430,12 +430,12 @@
     a dsv:ObjectPropertyProfile;
     dsv:objectPropertyRange <https://model.ccmm.cz/research-data/AttributedAgentRoleType>.
 
-<> tree:member <https://model.ccmm.cz/research-data/FundingReference.localIdentifier#2026-09-27T10:42:44.387Z-22>.
+<> tree:member <https://model.ccmm.cz/research-data/FundingReference.localIdentifier#2026-09-29T09:55:31.207Z-22>.
 
-<https://model.ccmm.cz/research-data/FundingReference.localIdentifier#2026-09-27T10:42:44.387Z-22> a as:Create;
+<https://model.ccmm.cz/research-data/FundingReference.localIdentifier#2026-09-29T09:55:31.207Z-22> a as:Create;
     dct:isVersionOf <https://model.ccmm.cz/research-data/FundingReference.localIdentifier>;
-    dct:created "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
-    dct:issued "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
+    dct:created "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
+    dct:issued "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
     ds-ldes:sequence 22;
     dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
@@ -448,12 +448,12 @@
     a dsv:DatatypePropertyProfile;
     dsv:datatypePropertyRange xsd:string.
 
-<> tree:member <https://model.ccmm.cz/research-data/FundingReference.awardTitle#2026-09-27T10:42:44.387Z-23>.
+<> tree:member <https://model.ccmm.cz/research-data/FundingReference.awardTitle#2026-09-29T09:55:31.207Z-23>.
 
-<https://model.ccmm.cz/research-data/FundingReference.awardTitle#2026-09-27T10:42:44.387Z-23> a as:Create;
+<https://model.ccmm.cz/research-data/FundingReference.awardTitle#2026-09-29T09:55:31.207Z-23> a as:Create;
     dct:isVersionOf <https://model.ccmm.cz/research-data/FundingReference.awardTitle>;
-    dct:created "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
-    dct:issued "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
+    dct:created "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
+    dct:issued "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
     ds-ldes:sequence 23;
     dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
@@ -465,12 +465,12 @@
     a dsv:DatatypePropertyProfile;
     dsv:datatypePropertyRange xsd:string.
 
-<> tree:member <https://model.ccmm.cz/research-data/FundingReference.hasFunder#2026-09-27T10:42:44.387Z-24>.
+<> tree:member <https://model.ccmm.cz/research-data/FundingReference.hasFunder#2026-09-29T09:55:31.207Z-24>.
 
-<https://model.ccmm.cz/research-data/FundingReference.hasFunder#2026-09-27T10:42:44.387Z-24> a as:Create;
+<https://model.ccmm.cz/research-data/FundingReference.hasFunder#2026-09-29T09:55:31.207Z-24> a as:Create;
     dct:isVersionOf <https://model.ccmm.cz/research-data/FundingReference.hasFunder>;
-    dct:created "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
-    dct:issued "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
+    dct:created "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
+    dct:issued "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
     ds-ldes:sequence 24;
     dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
@@ -481,12 +481,12 @@
     a dsv:ObjectPropertyProfile;
     dsv:objectPropertyRange <https://model.ccmm.cz/research-data/Agent>.
 
-<> tree:member <https://model.ccmm.cz/research-data/FundingReference.fundingProgram#2026-09-27T10:42:44.387Z-25>.
+<> tree:member <https://model.ccmm.cz/research-data/FundingReference.fundingProgram#2026-09-29T09:55:31.207Z-25>.
 
-<https://model.ccmm.cz/research-data/FundingReference.fundingProgram#2026-09-27T10:42:44.387Z-25> a as:Create;
+<https://model.ccmm.cz/research-data/FundingReference.fundingProgram#2026-09-29T09:55:31.207Z-25> a as:Create;
     dct:isVersionOf <https://model.ccmm.cz/research-data/FundingReference.fundingProgram>;
-    dct:created "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
-    dct:issued "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
+    dct:created "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
+    dct:issued "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
     ds-ldes:sequence 25;
     dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
@@ -498,12 +498,12 @@
     a dsv:DatatypePropertyProfile;
     dsv:datatypePropertyRange xsd:anyURI.
 
-<> tree:member <https://model.ccmm.cz/research-data/ContactDetails#2026-09-27T10:42:44.387Z-26>.
+<> tree:member <https://model.ccmm.cz/research-data/ContactDetails#2026-09-29T09:55:31.207Z-26>.
 
-<https://model.ccmm.cz/research-data/ContactDetails#2026-09-27T10:42:44.387Z-26> a as:Create;
+<https://model.ccmm.cz/research-data/ContactDetails#2026-09-29T09:55:31.207Z-26> a as:Create;
     dct:isVersionOf <https://model.ccmm.cz/research-data/ContactDetails>;
-    dct:created "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
-    dct:issued "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
+    dct:created "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
+    dct:issued "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
     ds-ldes:sequence 26;
     dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
@@ -514,12 +514,12 @@
     a dsv:ClassProfile;
     dsv:classRole role:supportive.
 
-<> tree:member <https://model.ccmm.cz/research-data/Agent.contactPoint#2026-09-27T10:42:44.387Z-27>.
+<> tree:member <https://model.ccmm.cz/research-data/Agent.contactPoint#2026-09-29T09:55:31.207Z-27>.
 
-<https://model.ccmm.cz/research-data/Agent.contactPoint#2026-09-27T10:42:44.387Z-27> a as:Create;
+<https://model.ccmm.cz/research-data/Agent.contactPoint#2026-09-29T09:55:31.207Z-27> a as:Create;
     dct:isVersionOf <https://model.ccmm.cz/research-data/Agent.contactPoint>;
-    dct:created "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
-    dct:issued "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
+    dct:created "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
+    dct:issued "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
     ds-ldes:sequence 27;
     dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
@@ -531,12 +531,12 @@
     a dsv:ObjectPropertyProfile;
     dsv:objectPropertyRange <https://model.ccmm.cz/research-data/ContactDetails>.
 
-<> tree:member <https://model.ccmm.cz/research-data/ContactDetails.phone#2026-09-27T10:42:44.387Z-28>.
+<> tree:member <https://model.ccmm.cz/research-data/ContactDetails.phone#2026-09-29T09:55:31.207Z-28>.
 
-<https://model.ccmm.cz/research-data/ContactDetails.phone#2026-09-27T10:42:44.387Z-28> a as:Create;
+<https://model.ccmm.cz/research-data/ContactDetails.phone#2026-09-29T09:55:31.207Z-28> a as:Create;
     dct:isVersionOf <https://model.ccmm.cz/research-data/ContactDetails.phone>;
-    dct:created "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
-    dct:issued "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
+    dct:created "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
+    dct:issued "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
     ds-ldes:sequence 28;
     dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
@@ -549,12 +549,12 @@
     a dsv:DatatypePropertyProfile;
     dsv:datatypePropertyRange xsd:string.
 
-<> tree:member <https://model.ccmm.cz/research-data/ContactDetails.email#2026-09-27T10:42:44.387Z-29>.
+<> tree:member <https://model.ccmm.cz/research-data/ContactDetails.email#2026-09-29T09:55:31.207Z-29>.
 
-<https://model.ccmm.cz/research-data/ContactDetails.email#2026-09-27T10:42:44.387Z-29> a as:Create;
+<https://model.ccmm.cz/research-data/ContactDetails.email#2026-09-29T09:55:31.207Z-29> a as:Create;
     dct:isVersionOf <https://model.ccmm.cz/research-data/ContactDetails.email>;
-    dct:created "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
-    dct:issued "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
+    dct:created "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
+    dct:issued "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
     ds-ldes:sequence 29;
     dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
@@ -567,12 +567,12 @@
     a dsv:DatatypePropertyProfile;
     dsv:datatypePropertyRange xsd:string.
 
-<> tree:member <https://model.ccmm.cz/research-data/Address#2026-09-27T10:42:44.387Z-30>.
+<> tree:member <https://model.ccmm.cz/research-data/Address#2026-09-29T09:55:31.207Z-30>.
 
-<https://model.ccmm.cz/research-data/Address#2026-09-27T10:42:44.387Z-30> a as:Create;
+<https://model.ccmm.cz/research-data/Address#2026-09-29T09:55:31.207Z-30> a as:Create;
     dct:isVersionOf <https://model.ccmm.cz/research-data/Address>;
-    dct:created "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
-    dct:issued "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
+    dct:created "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
+    dct:issued "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
     ds-ldes:sequence 30;
     dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
@@ -588,12 +588,12 @@
     dsv:class <http://www.w3.org/ns/locn#Address>;
     dsv:classRole role:supportive.
 
-<> tree:member <https://model.ccmm.cz/research-data/ContactDetails.hasAddress#2026-09-27T10:42:44.387Z-31>.
+<> tree:member <https://model.ccmm.cz/research-data/ContactDetails.hasAddress#2026-09-29T09:55:31.207Z-31>.
 
-<https://model.ccmm.cz/research-data/ContactDetails.hasAddress#2026-09-27T10:42:44.387Z-31> a as:Create;
+<https://model.ccmm.cz/research-data/ContactDetails.hasAddress#2026-09-29T09:55:31.207Z-31> a as:Create;
     dct:isVersionOf <https://model.ccmm.cz/research-data/ContactDetails.hasAddress>;
-    dct:created "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
-    dct:issued "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
+    dct:created "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
+    dct:issued "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
     ds-ldes:sequence 31;
     dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
@@ -615,12 +615,12 @@
     a dsv:ObjectPropertyProfile;
     dsv:objectPropertyRange <https://model.ccmm.cz/research-data/Address>.
 
-<> tree:member <https://model.ccmm.cz/research-data/ContactDetails.dataBox#2026-09-27T10:42:44.387Z-32>.
+<> tree:member <https://model.ccmm.cz/research-data/ContactDetails.dataBox#2026-09-29T09:55:31.207Z-32>.
 
-<https://model.ccmm.cz/research-data/ContactDetails.dataBox#2026-09-27T10:42:44.387Z-32> a as:Create;
+<https://model.ccmm.cz/research-data/ContactDetails.dataBox#2026-09-29T09:55:31.207Z-32> a as:Create;
     dct:isVersionOf <https://model.ccmm.cz/research-data/ContactDetails.dataBox>;
-    dct:created "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
-    dct:issued "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
+    dct:created "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
+    dct:issued "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
     ds-ldes:sequence 32;
     dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
@@ -633,12 +633,12 @@
     a dsv:DatatypePropertyProfile;
     dsv:datatypePropertyRange xsd:string.
 
-<> tree:member <https://model.ccmm.cz/research-data/Person.givenName#2026-09-27T10:42:44.387Z-33>.
+<> tree:member <https://model.ccmm.cz/research-data/Person.givenName#2026-09-29T09:55:31.207Z-33>.
 
-<https://model.ccmm.cz/research-data/Person.givenName#2026-09-27T10:42:44.387Z-33> a as:Create;
+<https://model.ccmm.cz/research-data/Person.givenName#2026-09-29T09:55:31.207Z-33> a as:Create;
     dct:isVersionOf <https://model.ccmm.cz/research-data/Person.givenName>;
-    dct:created "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
-    dct:issued "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
+    dct:created "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
+    dct:issued "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
     ds-ldes:sequence 33;
     dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
@@ -650,12 +650,12 @@
     a dsv:DatatypePropertyProfile;
     dsv:datatypePropertyRange xsd:string.
 
-<> tree:member <https://model.ccmm.cz/research-data/Person.familyName#2026-09-27T10:42:44.387Z-34>.
+<> tree:member <https://model.ccmm.cz/research-data/Person.familyName#2026-09-29T09:55:31.207Z-34>.
 
-<https://model.ccmm.cz/research-data/Person.familyName#2026-09-27T10:42:44.387Z-34> a as:Create;
+<https://model.ccmm.cz/research-data/Person.familyName#2026-09-29T09:55:31.207Z-34> a as:Create;
     dct:isVersionOf <https://model.ccmm.cz/research-data/Person.familyName>;
-    dct:created "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
-    dct:issued "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
+    dct:created "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
+    dct:issued "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
     ds-ldes:sequence 34;
     dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
@@ -667,12 +667,12 @@
     a dsv:DatatypePropertyProfile;
     dsv:datatypePropertyRange xsd:string.
 
-<> tree:member <https://model.ccmm.cz/research-data/Person.hasAffiliation#2026-09-27T10:42:44.387Z-35>.
+<> tree:member <https://model.ccmm.cz/research-data/Person.hasAffiliation#2026-09-29T09:55:31.207Z-35>.
 
-<https://model.ccmm.cz/research-data/Person.hasAffiliation#2026-09-27T10:42:44.387Z-35> a as:Create;
+<https://model.ccmm.cz/research-data/Person.hasAffiliation#2026-09-29T09:55:31.207Z-35> a as:Create;
     dct:isVersionOf <https://model.ccmm.cz/research-data/Person.hasAffiliation>;
-    dct:created "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
-    dct:issued "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
+    dct:created "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
+    dct:issued "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
     ds-ldes:sequence 35;
     dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
@@ -683,45 +683,45 @@
     a dsv:ObjectPropertyProfile;
     dsv:objectPropertyRange <https://model.ccmm.cz/research-data/Organization>.
 
-<> tree:member <https://model.ccmm.cz/research-data/Organization.alternateName#2026-09-27T10:42:44.387Z-36>.
+<> tree:member <https://model.ccmm.cz/research-data/Organization.alternateName#2026-09-29T09:55:31.207Z-36>.
 
-<https://model.ccmm.cz/research-data/Organization.alternateName#2026-09-27T10:42:44.387Z-36> a as:Create;
+<https://model.ccmm.cz/research-data/Organization.alternateName#2026-09-29T09:55:31.207Z-36> a as:Create;
     dct:isVersionOf <https://model.ccmm.cz/research-data/Organization.alternateName>;
-    dct:created "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
-    dct:issued "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
+    dct:created "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
+    dct:issued "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
     ds-ldes:sequence 36;
     dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
     skos:prefLabel "alternate name"@en;
-    skos:definition "Alternate organizational name associated with the object."@en;
+    skos:definition "An alternate organizational name associated with the object."@en;
     dsv:cardinality cardinality:0n;
     dsv:property <http://www.w3.org/2006/vcard/ns#organization-name>;
     dsv:domain <https://model.ccmm.cz/research-data/Organization>;
     a dsv:DatatypePropertyProfile;
     dsv:datatypePropertyRange <https://ofn.gov.cz/zdroj/základní-datové-typy/2020-07-01/text>.
 
-<> tree:member <https://model.ccmm.cz/research-data/MetadataRecord#2026-09-27T10:42:44.387Z-37>.
+<> tree:member <https://model.ccmm.cz/research-data/MetadataRecord#2026-09-29T09:55:31.207Z-37>.
 
-<https://model.ccmm.cz/research-data/MetadataRecord#2026-09-27T10:42:44.387Z-37> a as:Create;
+<https://model.ccmm.cz/research-data/MetadataRecord#2026-09-29T09:55:31.207Z-37> a as:Create;
     dct:isVersionOf <https://model.ccmm.cz/research-data/MetadataRecord>;
-    dct:created "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
-    dct:issued "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
+    dct:created "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
+    dct:issued "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
     ds-ldes:sequence 37;
     dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
     skos:prefLabel "Metadata Record"@en, "Katalogizační záznam"@cs, "Record di catalogo"@it, "Registre du catalogue"@fr, "Registro del catálogo"@es, "Καταγραφή καταλόγου"@el, "سجل"@ar, "カタログ・レコード"@ja, "Katalogpost"@da;
     skos:definition "1つのデータセットを記述したデータ・カタログ内のレコード。"@ja, "Description of the metadata record of the dataset. "@en, "Un record in un catalogo di dati che descrive un singolo dataset o servizio di dati."@it, "Un registre du catalogue ou une entrée du catalogue, décrivant un seul jeu de données."@fr, "Un registro en un catálogo de datos que describe un solo conjunto de datos o un servicio de datos."@es, "Záznam v datovém katalogu popisující jednu datovou sadu či datovou službu."@cs, "Μία καταγραφή ενός καταλόγου, η οποία περιγράφει ένα συγκεκριμένο σύνολο δεδομένων."@el, "En post i et datakatalog der beskriver registreringen af et enkelt datasæt eller en datatjeneste."@da;
-    skos:scopeNote "In case metadata is harvested from external catalogue, metadata record IRI shall be the same as IRI of the metadata record in original repository."@en;
+    skos:scopeNote "In case metadata is harvested from an external catalogue, the metadata record IRI shall be the same as IRI of the metadata record in the original repository."@en;
     dsv:profileOf <https://mff-uk.github.io/specifications/dcat-ap#CatalogueRecord>;
     a dsv:ClassProfile;
     dsv:classRole role:main.
 
-<> tree:member <https://model.ccmm.cz/research-data/ApplicationProfile#2026-09-27T10:42:44.387Z-38>.
+<> tree:member <https://model.ccmm.cz/research-data/ApplicationProfile#2026-09-29T09:55:31.207Z-38>.
 
-<https://model.ccmm.cz/research-data/ApplicationProfile#2026-09-27T10:42:44.387Z-38> a as:Create;
+<https://model.ccmm.cz/research-data/ApplicationProfile#2026-09-29T09:55:31.207Z-38> a as:Create;
     dct:isVersionOf <https://model.ccmm.cz/research-data/ApplicationProfile>;
-    dct:created "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
-    dct:issued "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
+    dct:created "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
+    dct:issued "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
     ds-ldes:sequence 38;
     dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
@@ -737,30 +737,30 @@
     a dsv:ClassProfile;
     dsv:classRole role:supportive.
 
-<> tree:member <https://model.ccmm.cz/research-data/MetadataRecord.conformsTo#2026-09-27T10:42:44.387Z-39>.
+<> tree:member <https://model.ccmm.cz/research-data/MetadataRecord.conformsTo#2026-09-29T09:55:31.207Z-39>.
 
-<https://model.ccmm.cz/research-data/MetadataRecord.conformsTo#2026-09-27T10:42:44.387Z-39> a as:Create;
+<https://model.ccmm.cz/research-data/MetadataRecord.conformsTo#2026-09-29T09:55:31.207Z-39> a as:Create;
     dct:isVersionOf <https://model.ccmm.cz/research-data/MetadataRecord.conformsTo>;
-    dct:created "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
-    dct:issued "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
+    dct:created "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
+    dct:issued "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
     ds-ldes:sequence 39;
     dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
     skos:prefLabel "conforms to"@en;
     skos:definition "An established standard to which the metadata record conforms."@en;
-    skos:scopeNote "This property should be used to indicate the metadata model, schema, ontology or profile that the metadata record conforms to."@en;
+    skos:scopeNote "This property should be used to indicate the metadata model, schema, ontology, or profile that the metadata record conforms to."@en;
     dsv:profileOf <https://mff-uk.github.io/specifications/dcat-ap#CatalogueRecord.applicationProfile>;
     dsv:cardinality cardinality:1n;
     dsv:domain <https://model.ccmm.cz/research-data/MetadataRecord>;
     a dsv:ObjectPropertyProfile;
     dsv:objectPropertyRange <https://model.ccmm.cz/research-data/ApplicationProfile>.
 
-<> tree:member <https://model.ccmm.cz/research-data/Repository#2026-09-27T10:42:44.387Z-40>.
+<> tree:member <https://model.ccmm.cz/research-data/Repository#2026-09-29T09:55:31.207Z-40>.
 
-<https://model.ccmm.cz/research-data/Repository#2026-09-27T10:42:44.387Z-40> a as:Create;
+<https://model.ccmm.cz/research-data/Repository#2026-09-29T09:55:31.207Z-40> a as:Create;
     dct:isVersionOf <https://model.ccmm.cz/research-data/Repository>;
-    dct:created "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
-    dct:issued "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
+    dct:created "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
+    dct:issued "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
     ds-ldes:sequence 40;
     dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
@@ -780,30 +780,30 @@
     a dsv:ClassProfile;
     dsv:classRole role:main.
 
-<> tree:member <https://model.ccmm.cz/research-data/MetadataRecord.hasOriginalRepository#2026-09-27T10:42:44.387Z-41>.
+<> tree:member <https://model.ccmm.cz/research-data/MetadataRecord.hasOriginalRepository#2026-09-29T09:55:31.207Z-41>.
 
-<https://model.ccmm.cz/research-data/MetadataRecord.hasOriginalRepository#2026-09-27T10:42:44.387Z-41> a as:Create;
+<https://model.ccmm.cz/research-data/MetadataRecord.hasOriginalRepository#2026-09-29T09:55:31.207Z-41> a as:Create;
     dct:isVersionOf <https://model.ccmm.cz/research-data/MetadataRecord.hasOriginalRepository>;
-    dct:created "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
-    dct:issued "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
+    dct:created "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
+    dct:issued "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
     ds-ldes:sequence 41;
     dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
     skos:prefLabel "has original repository"@en;
     skos:definition "Link to the repository in which the metadata were originally stored and curated."@en;
-    skos:scopeNote "Original repository is a repository where the original metadata was harvested from or where it was created and/or published. There is always exactly one original repository. \nIf metadata record is harvested from other repository, make sure to include the first repository from which it was harvested."@en;
+    skos:scopeNote "Original repository is a repository where the original metadata was harvested from or where it was created and/or published. There is always exactly one original repository. \nIf metadata record is harvested from another repository, make sure to include the first repository from which it was harvested."@en;
     dsv:cardinality cardinality:11;
     dsv:property <https://model.ccmm.cz/vocabulary/ccmm#originalRepository>;
     dsv:domain <https://model.ccmm.cz/research-data/MetadataRecord>;
     a dsv:ObjectPropertyProfile;
     dsv:objectPropertyRange <https://model.ccmm.cz/research-data/Repository>.
 
-<> tree:member <https://model.ccmm.cz/research-data/MetadataRecord.dateCreated#2026-09-27T10:42:44.387Z-42>.
+<> tree:member <https://model.ccmm.cz/research-data/MetadataRecord.dateCreated#2026-09-29T09:55:31.207Z-42>.
 
-<https://model.ccmm.cz/research-data/MetadataRecord.dateCreated#2026-09-27T10:42:44.387Z-42> a as:Create;
+<https://model.ccmm.cz/research-data/MetadataRecord.dateCreated#2026-09-29T09:55:31.207Z-42> a as:Create;
     dct:isVersionOf <https://model.ccmm.cz/research-data/MetadataRecord.dateCreated>;
-    dct:created "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
-    dct:issued "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
+    dct:created "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
+    dct:issued "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
     ds-ldes:sequence 42;
     dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
@@ -815,12 +815,12 @@
     a dsv:DatatypePropertyProfile;
     dsv:datatypePropertyRange xsd:date.
 
-<> tree:member <https://model.ccmm.cz/research-data/MetadataRecord.dateUpdated#2026-09-27T10:42:44.387Z-43>.
+<> tree:member <https://model.ccmm.cz/research-data/MetadataRecord.dateUpdated#2026-09-29T09:55:31.207Z-43>.
 
-<https://model.ccmm.cz/research-data/MetadataRecord.dateUpdated#2026-09-27T10:42:44.387Z-43> a as:Create;
+<https://model.ccmm.cz/research-data/MetadataRecord.dateUpdated#2026-09-29T09:55:31.207Z-43> a as:Create;
     dct:isVersionOf <https://model.ccmm.cz/research-data/MetadataRecord.dateUpdated>;
-    dct:created "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
-    dct:issued "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
+    dct:created "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
+    dct:issued "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
     ds-ldes:sequence 43;
     dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
@@ -832,12 +832,12 @@
     a dsv:DatatypePropertyProfile;
     dsv:datatypePropertyRange xsd:date.
 
-<> tree:member <https://model.ccmm.cz/research-data/MetadataRecord.describes#2026-09-27T10:42:44.387Z-44>.
+<> tree:member <https://model.ccmm.cz/research-data/MetadataRecord.describes#2026-09-29T09:55:31.207Z-44>.
 
-<https://model.ccmm.cz/research-data/MetadataRecord.describes#2026-09-27T10:42:44.387Z-44> a as:Create;
+<https://model.ccmm.cz/research-data/MetadataRecord.describes#2026-09-29T09:55:31.207Z-44> a as:Create;
     dct:isVersionOf <https://model.ccmm.cz/research-data/MetadataRecord.describes>;
-    dct:created "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
-    dct:issued "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
+    dct:created "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
+    dct:issued "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
     ds-ldes:sequence 44;
     dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
@@ -849,12 +849,12 @@
     a dsv:ObjectPropertyProfile;
     dsv:objectPropertyRange <https://model.ccmm.cz/research-data/Dataset>.
 
-<> tree:member <https://model.ccmm.cz/research-data/Distribution-DownloadableFile#2026-09-27T10:42:44.387Z-45>.
+<> tree:member <https://model.ccmm.cz/research-data/Distribution-DownloadableFile#2026-09-29T09:55:31.207Z-45>.
 
-<https://model.ccmm.cz/research-data/Distribution-DownloadableFile#2026-09-27T10:42:44.387Z-45> a as:Create;
+<https://model.ccmm.cz/research-data/Distribution-DownloadableFile#2026-09-29T09:55:31.207Z-45> a as:Create;
     dct:isVersionOf <https://model.ccmm.cz/research-data/Distribution-DownloadableFile>;
-    dct:created "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
-    dct:issued "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
+    dct:created "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
+    dct:issued "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
     ds-ldes:sequence 45;
     dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
@@ -865,12 +865,12 @@
     dsv:class <https://model.ccmm.cz/vocabulary/ccmm#Distribution-DownloadableFile>;
     dsv:classRole role:main.
 
-<> tree:member <https://model.ccmm.cz/research-data/Distribution-DataService#2026-09-27T10:42:44.387Z-46>.
+<> tree:member <https://model.ccmm.cz/research-data/Distribution-DataService#2026-09-29T09:55:31.207Z-46>.
 
-<https://model.ccmm.cz/research-data/Distribution-DataService#2026-09-27T10:42:44.387Z-46> a as:Create;
+<https://model.ccmm.cz/research-data/Distribution-DataService#2026-09-29T09:55:31.207Z-46> a as:Create;
     dct:isVersionOf <https://model.ccmm.cz/research-data/Distribution-DataService>;
-    dct:created "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
-    dct:issued "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
+    dct:created "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
+    dct:issued "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
     ds-ldes:sequence 46;
     dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
@@ -881,12 +881,12 @@
     dsv:class <https://model.ccmm.cz/vocabulary/ccmm#Distribution-DataService>;
     dsv:classRole role:main.
 
-<> tree:member <https://model.ccmm.cz/research-data/File#2026-09-27T10:42:44.387Z-47>.
+<> tree:member <https://model.ccmm.cz/research-data/File#2026-09-29T09:55:31.207Z-47>.
 
-<https://model.ccmm.cz/research-data/File#2026-09-27T10:42:44.387Z-47> a as:Create;
+<https://model.ccmm.cz/research-data/File#2026-09-29T09:55:31.207Z-47> a as:Create;
     dct:isVersionOf <https://model.ccmm.cz/research-data/File>;
-    dct:created "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
-    dct:issued "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
+    dct:created "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
+    dct:issued "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
     ds-ldes:sequence 47;
     dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
@@ -897,17 +897,17 @@
     a dsv:ClassProfile;
     dsv:classRole role:supportive.
 
-<> tree:member <https://model.ccmm.cz/research-data/Distribution-DownloadableFile.downloadUrl#2026-09-27T10:42:44.387Z-48>.
+<> tree:member <https://model.ccmm.cz/research-data/Distribution-DownloadableFile.downloadUrl#2026-09-29T09:55:31.207Z-48>.
 
-<https://model.ccmm.cz/research-data/Distribution-DownloadableFile.downloadUrl#2026-09-27T10:42:44.387Z-48> a as:Create;
+<https://model.ccmm.cz/research-data/Distribution-DownloadableFile.downloadUrl#2026-09-29T09:55:31.207Z-48> a as:Create;
     dct:isVersionOf <https://model.ccmm.cz/research-data/Distribution-DownloadableFile.downloadUrl>;
-    dct:created "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
-    dct:issued "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
+    dct:created "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
+    dct:issued "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
     ds-ldes:sequence 48;
     dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
     skos:prefLabel "download URL"@en;
-    skos:scopeNote "Download URL SHOULD be used for the URL at which this distribution is available directly, typically through a HTTP Get request."@en;
+    skos:scopeNote "A download URL SHOULD BE used for the URL at which this distribution is available directly, typically through an HTTP Get request."@en;
     dsv:profileOf <https://mff-uk.github.io/specifications/dcat-ap#Distribution.downloadUrl>;
     dsv:reusesPropertyValue [
   a dsv:PropertyValueReuse;
@@ -919,12 +919,12 @@
     a dsv:ObjectPropertyProfile;
     dsv:objectPropertyRange <https://model.ccmm.cz/research-data/File>.
 
-<> tree:member <https://model.ccmm.cz/research-data/MediaType#2026-09-27T10:42:44.387Z-49>.
+<> tree:member <https://model.ccmm.cz/research-data/MediaType#2026-09-29T09:55:31.207Z-49>.
 
-<https://model.ccmm.cz/research-data/MediaType#2026-09-27T10:42:44.387Z-49> a as:Create;
+<https://model.ccmm.cz/research-data/MediaType#2026-09-29T09:55:31.207Z-49> a as:Create;
     dct:isVersionOf <https://model.ccmm.cz/research-data/MediaType>;
-    dct:created "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
-    dct:issued "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
+    dct:created "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
+    dct:issued "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
     ds-ldes:sequence 49;
     dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
@@ -935,12 +935,12 @@
     a dsv:ClassProfile;
     dsv:classRole role:supportive.
 
-<> tree:member <https://model.ccmm.cz/research-data/Distribution-DownloadableFile.mediaType#2026-09-27T10:42:44.387Z-50>.
+<> tree:member <https://model.ccmm.cz/research-data/Distribution-DownloadableFile.mediaType#2026-09-29T09:55:31.207Z-50>.
 
-<https://model.ccmm.cz/research-data/Distribution-DownloadableFile.mediaType#2026-09-27T10:42:44.387Z-50> a as:Create;
+<https://model.ccmm.cz/research-data/Distribution-DownloadableFile.mediaType#2026-09-29T09:55:31.207Z-50> a as:Create;
     dct:isVersionOf <https://model.ccmm.cz/research-data/Distribution-DownloadableFile.mediaType>;
-    dct:created "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
-    dct:issued "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
+    dct:created "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
+    dct:issued "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
     ds-ldes:sequence 50;
     dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
@@ -952,12 +952,12 @@
     a dsv:ObjectPropertyProfile;
     dsv:objectPropertyRange <https://model.ccmm.cz/research-data/MediaType>.
 
-<> tree:member <https://model.ccmm.cz/research-data/Distribution-DownloadableFile.byteSize#2026-09-27T10:42:44.387Z-51>.
+<> tree:member <https://model.ccmm.cz/research-data/Distribution-DownloadableFile.byteSize#2026-09-29T09:55:31.207Z-51>.
 
-<https://model.ccmm.cz/research-data/Distribution-DownloadableFile.byteSize#2026-09-27T10:42:44.387Z-51> a as:Create;
+<https://model.ccmm.cz/research-data/Distribution-DownloadableFile.byteSize#2026-09-29T09:55:31.207Z-51> a as:Create;
     dct:isVersionOf <https://model.ccmm.cz/research-data/Distribution-DownloadableFile.byteSize>;
-    dct:created "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
-    dct:issued "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
+    dct:created "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
+    dct:issued "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
     ds-ldes:sequence 51;
     dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
@@ -969,12 +969,12 @@
     a dsv:DatatypePropertyProfile;
     dsv:datatypePropertyRange xsd:integer.
 
-<> tree:member <https://model.ccmm.cz/research-data/Distribution.conformsTo#2026-09-27T10:42:44.387Z-52>.
+<> tree:member <https://model.ccmm.cz/research-data/Distribution.conformsTo#2026-09-29T09:55:31.207Z-52>.
 
-<https://model.ccmm.cz/research-data/Distribution.conformsTo#2026-09-27T10:42:44.387Z-52> a as:Create;
+<https://model.ccmm.cz/research-data/Distribution.conformsTo#2026-09-29T09:55:31.207Z-52> a as:Create;
     dct:isVersionOf <https://model.ccmm.cz/research-data/Distribution.conformsTo>;
-    dct:created "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
-    dct:issued "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
+    dct:created "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
+    dct:issued "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
     ds-ldes:sequence 52;
     dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
@@ -992,12 +992,12 @@
     a dsv:ObjectPropertyProfile;
     dsv:objectPropertyRange <https://model.ccmm.cz/research-data/ApplicationProfile>.
 
-<> tree:member <https://model.ccmm.cz/research-data/DataService#2026-09-27T10:42:44.387Z-53>.
+<> tree:member <https://model.ccmm.cz/research-data/DataService#2026-09-29T09:55:31.207Z-53>.
 
-<https://model.ccmm.cz/research-data/DataService#2026-09-27T10:42:44.387Z-53> a as:Create;
+<https://model.ccmm.cz/research-data/DataService#2026-09-29T09:55:31.207Z-53> a as:Create;
     dct:isVersionOf <https://model.ccmm.cz/research-data/DataService>;
-    dct:created "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
-    dct:issued "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
+    dct:created "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
+    dct:issued "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
     ds-ldes:sequence 53;
     dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
@@ -1016,12 +1016,12 @@
     a dsv:ClassProfile;
     dsv:classRole role:main.
 
-<> tree:member <https://model.ccmm.cz/research-data/Distribution-DataService.hasAccessService#2026-09-27T10:42:44.387Z-54>.
+<> tree:member <https://model.ccmm.cz/research-data/Distribution-DataService.hasAccessService#2026-09-29T09:55:31.207Z-54>.
 
-<https://model.ccmm.cz/research-data/Distribution-DataService.hasAccessService#2026-09-27T10:42:44.387Z-54> a as:Create;
+<https://model.ccmm.cz/research-data/Distribution-DataService.hasAccessService#2026-09-29T09:55:31.207Z-54> a as:Create;
     dct:isVersionOf <https://model.ccmm.cz/research-data/Distribution-DataService.hasAccessService>;
-    dct:created "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
-    dct:issued "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
+    dct:created "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
+    dct:issued "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
     ds-ldes:sequence 54;
     dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
@@ -1038,12 +1038,12 @@
     a dsv:ObjectPropertyProfile;
     dsv:objectPropertyRange <https://model.ccmm.cz/research-data/DataService>.
 
-<> tree:member <https://model.ccmm.cz/research-data/Distribution.Description#2026-09-27T10:42:44.387Z-55>.
+<> tree:member <https://model.ccmm.cz/research-data/Distribution.Description#2026-09-29T09:55:31.207Z-55>.
 
-<https://model.ccmm.cz/research-data/Distribution.Description#2026-09-27T10:42:44.387Z-55> a as:Create;
+<https://model.ccmm.cz/research-data/Distribution.Description#2026-09-29T09:55:31.207Z-55> a as:Create;
     dct:isVersionOf <https://model.ccmm.cz/research-data/Distribution.Description>;
-    dct:created "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
-    dct:issued "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
+    dct:created "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
+    dct:issued "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
     ds-ldes:sequence 55;
     dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
@@ -1056,12 +1056,12 @@
     a dsv:DatatypePropertyProfile;
     dsv:datatypePropertyRange <https://ofn.gov.cz/zdroj/základní-datové-typy/2020-07-01/text>.
 
-<> tree:member <https://model.ccmm.cz/research-data/Documentation#2026-09-27T10:42:44.387Z-56>.
+<> tree:member <https://model.ccmm.cz/research-data/Documentation#2026-09-29T09:55:31.207Z-56>.
 
-<https://model.ccmm.cz/research-data/Documentation#2026-09-27T10:42:44.387Z-56> a as:Create;
+<https://model.ccmm.cz/research-data/Documentation#2026-09-29T09:55:31.207Z-56> a as:Create;
     dct:isVersionOf <https://model.ccmm.cz/research-data/Documentation>;
-    dct:created "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
-    dct:issued "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
+    dct:created "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
+    dct:issued "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
     ds-ldes:sequence 56;
     dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
@@ -1077,12 +1077,12 @@
     a dsv:ClassProfile;
     dsv:classRole role:supportive.
 
-<> tree:member <https://model.ccmm.cz/research-data/Distribution-DataService.hasDocumentation#2026-09-27T10:42:44.387Z-57>.
+<> tree:member <https://model.ccmm.cz/research-data/Distribution-DataService.hasDocumentation#2026-09-29T09:55:31.207Z-57>.
 
-<https://model.ccmm.cz/research-data/Distribution-DataService.hasDocumentation#2026-09-27T10:42:44.387Z-57> a as:Create;
+<https://model.ccmm.cz/research-data/Distribution-DataService.hasDocumentation#2026-09-29T09:55:31.207Z-57> a as:Create;
     dct:isVersionOf <https://model.ccmm.cz/research-data/Distribution-DataService.hasDocumentation>;
-    dct:created "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
-    dct:issued "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
+    dct:created "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
+    dct:issued "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
     ds-ldes:sequence 57;
     dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
@@ -1103,12 +1103,12 @@
     a dsv:ObjectPropertyProfile;
     dsv:objectPropertyRange <https://model.ccmm.cz/research-data/Documentation>.
 
-<> tree:member <https://model.ccmm.cz/research-data/SubjectScheme#2026-09-27T10:42:44.387Z-58>.
+<> tree:member <https://model.ccmm.cz/research-data/SubjectScheme#2026-09-29T09:55:31.207Z-58>.
 
-<https://model.ccmm.cz/research-data/SubjectScheme#2026-09-27T10:42:44.387Z-58> a as:Create;
+<https://model.ccmm.cz/research-data/SubjectScheme#2026-09-29T09:55:31.207Z-58> a as:Create;
     dct:isVersionOf <https://model.ccmm.cz/research-data/SubjectScheme>;
-    dct:created "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
-    dct:issued "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
+    dct:created "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
+    dct:issued "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
     ds-ldes:sequence 58;
     dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
@@ -1119,12 +1119,12 @@
     dsv:class <https://model.ccmm.cz/vocabulary/ccmm#SubjectScheme>;
     dsv:classRole role:supportive.
 
-<> tree:member <https://model.ccmm.cz/research-data/Subject.inSubjectScheme#2026-09-27T10:42:44.387Z-59>.
+<> tree:member <https://model.ccmm.cz/research-data/Subject.inSubjectScheme#2026-09-29T09:55:31.207Z-59>.
 
-<https://model.ccmm.cz/research-data/Subject.inSubjectScheme#2026-09-27T10:42:44.387Z-59> a as:Create;
+<https://model.ccmm.cz/research-data/Subject.inSubjectScheme#2026-09-29T09:55:31.207Z-59> a as:Create;
     dct:isVersionOf <https://model.ccmm.cz/research-data/Subject.inSubjectScheme>;
-    dct:created "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
-    dct:issued "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
+    dct:created "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
+    dct:issued "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
     ds-ldes:sequence 59;
     dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
@@ -1136,12 +1136,12 @@
     a dsv:ObjectPropertyProfile;
     dsv:objectPropertyRange <https://model.ccmm.cz/research-data/SubjectScheme>.
 
-<> tree:member <https://model.ccmm.cz/research-data/Subject.classificationCode#2026-09-27T10:42:44.387Z-60>.
+<> tree:member <https://model.ccmm.cz/research-data/Subject.classificationCode#2026-09-29T09:55:31.207Z-60>.
 
-<https://model.ccmm.cz/research-data/Subject.classificationCode#2026-09-27T10:42:44.387Z-60> a as:Create;
+<https://model.ccmm.cz/research-data/Subject.classificationCode#2026-09-29T09:55:31.207Z-60> a as:Create;
     dct:isVersionOf <https://model.ccmm.cz/research-data/Subject.classificationCode>;
-    dct:created "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
-    dct:issued "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
+    dct:created "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
+    dct:issued "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
     ds-ldes:sequence 60;
     dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
@@ -1153,12 +1153,12 @@
     a dsv:DatatypePropertyProfile;
     dsv:datatypePropertyRange xsd:string.
 
-<> tree:member <https://model.ccmm.cz/research-data/Subject.label#2026-09-27T10:42:44.387Z-61>.
+<> tree:member <https://model.ccmm.cz/research-data/Subject.label#2026-09-29T09:55:31.207Z-61>.
 
-<https://model.ccmm.cz/research-data/Subject.label#2026-09-27T10:42:44.387Z-61> a as:Create;
+<https://model.ccmm.cz/research-data/Subject.label#2026-09-29T09:55:31.207Z-61> a as:Create;
     dct:isVersionOf <https://model.ccmm.cz/research-data/Subject.label>;
-    dct:created "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
-    dct:issued "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
+    dct:created "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
+    dct:issued "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
     ds-ldes:sequence 61;
     dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
@@ -1171,12 +1171,12 @@
     a dsv:DatatypePropertyProfile;
     dsv:datatypePropertyRange <https://ofn.gov.cz/zdroj/základní-datové-typy/2020-07-01/text>.
 
-<> tree:member <https://model.ccmm.cz/research-data/Subject.definition#2026-09-27T10:42:44.387Z-62>.
+<> tree:member <https://model.ccmm.cz/research-data/Subject.definition#2026-09-29T09:55:31.207Z-62>.
 
-<https://model.ccmm.cz/research-data/Subject.definition#2026-09-27T10:42:44.387Z-62> a as:Create;
+<https://model.ccmm.cz/research-data/Subject.definition#2026-09-29T09:55:31.207Z-62> a as:Create;
     dct:isVersionOf <https://model.ccmm.cz/research-data/Subject.definition>;
-    dct:created "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
-    dct:issued "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
+    dct:created "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
+    dct:issued "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
     ds-ldes:sequence 62;
     dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
@@ -1189,12 +1189,12 @@
     a dsv:DatatypePropertyProfile;
     dsv:datatypePropertyRange <https://ofn.gov.cz/zdroj/základní-datové-typy/2020-07-01/text>.
 
-<> tree:member <https://model.ccmm.cz/research-data/Location#2026-09-27T10:42:44.387Z-63>.
+<> tree:member <https://model.ccmm.cz/research-data/Location#2026-09-29T09:55:31.207Z-63>.
 
-<https://model.ccmm.cz/research-data/Location#2026-09-27T10:42:44.387Z-63> a as:Create;
+<https://model.ccmm.cz/research-data/Location#2026-09-29T09:55:31.207Z-63> a as:Create;
     dct:isVersionOf <https://model.ccmm.cz/research-data/Location>;
-    dct:created "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
-    dct:issued "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
+    dct:created "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
+    dct:issued "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
     ds-ldes:sequence 63;
     dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
@@ -1205,12 +1205,12 @@
     a dsv:ClassProfile;
     dsv:classRole role:supportive.
 
-<> tree:member <https://model.ccmm.cz/research-data/Resource.hasLocation#2026-09-27T10:42:44.387Z-64>.
+<> tree:member <https://model.ccmm.cz/research-data/Resource.hasLocation#2026-09-29T09:55:31.207Z-64>.
 
-<https://model.ccmm.cz/research-data/Resource.hasLocation#2026-09-27T10:42:44.387Z-64> a as:Create;
+<https://model.ccmm.cz/research-data/Resource.hasLocation#2026-09-29T09:55:31.207Z-64> a as:Create;
     dct:isVersionOf <https://model.ccmm.cz/research-data/Resource.hasLocation>;
-    dct:created "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
-    dct:issued "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
+    dct:created "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
+    dct:issued "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
     ds-ldes:sequence 64;
     dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
@@ -1227,12 +1227,12 @@
     a dsv:ObjectPropertyProfile;
     dsv:objectPropertyRange <https://model.ccmm.cz/research-data/Location>.
 
-<> tree:member <https://model.ccmm.cz/research-data/Location.hasRelatedObject#2026-09-27T10:42:44.387Z-65>.
+<> tree:member <https://model.ccmm.cz/research-data/Location.hasRelatedObject#2026-09-29T09:55:31.207Z-65>.
 
-<https://model.ccmm.cz/research-data/Location.hasRelatedObject#2026-09-27T10:42:44.387Z-65> a as:Create;
+<https://model.ccmm.cz/research-data/Location.hasRelatedObject#2026-09-29T09:55:31.207Z-65> a as:Create;
     dct:isVersionOf <https://model.ccmm.cz/research-data/Location.hasRelatedObject>;
-    dct:created "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
-    dct:issued "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
+    dct:created "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
+    dct:issued "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
     ds-ldes:sequence 65;
     dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
@@ -1244,12 +1244,12 @@
     a dsv:ObjectPropertyProfile;
     dsv:objectPropertyRange <https://model.ccmm.cz/research-data/RelatedResource>.
 
-<> tree:member <https://model.ccmm.cz/research-data/Location.bbox#2026-09-27T10:42:44.387Z-66>.
+<> tree:member <https://model.ccmm.cz/research-data/Location.bbox#2026-09-29T09:55:31.207Z-66>.
 
-<https://model.ccmm.cz/research-data/Location.bbox#2026-09-27T10:42:44.387Z-66> a as:Create;
+<https://model.ccmm.cz/research-data/Location.bbox#2026-09-29T09:55:31.207Z-66> a as:Create;
     dct:isVersionOf <https://model.ccmm.cz/research-data/Location.bbox>;
-    dct:created "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
-    dct:issued "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
+    dct:created "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
+    dct:issued "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
     ds-ldes:sequence 66;
     dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
@@ -1262,12 +1262,12 @@
     a dsv:ObjectPropertyProfile;
     dsv:objectPropertyRange <http://www.opengis.net/ont/sf#Envelope>.
 
-<> tree:member <https://model.ccmm.cz/research-data/Geometry#2026-09-27T10:42:44.387Z-67>.
+<> tree:member <https://model.ccmm.cz/research-data/Geometry#2026-09-29T09:55:31.207Z-67>.
 
-<https://model.ccmm.cz/research-data/Geometry#2026-09-27T10:42:44.387Z-67> a as:Create;
+<https://model.ccmm.cz/research-data/Geometry#2026-09-29T09:55:31.207Z-67> a as:Create;
     dct:isVersionOf <https://model.ccmm.cz/research-data/Geometry>;
-    dct:created "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
-    dct:issued "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
+    dct:created "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
+    dct:issued "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
     ds-ldes:sequence 67;
     dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
@@ -1283,12 +1283,12 @@
     a dsv:ClassProfile;
     dsv:classRole role:supportive.
 
-<> tree:member <https://model.ccmm.cz/research-data/Location.hasGeometry#2026-09-27T10:42:44.387Z-68>.
+<> tree:member <https://model.ccmm.cz/research-data/Location.hasGeometry#2026-09-29T09:55:31.207Z-68>.
 
-<https://model.ccmm.cz/research-data/Location.hasGeometry#2026-09-27T10:42:44.387Z-68> a as:Create;
+<https://model.ccmm.cz/research-data/Location.hasGeometry#2026-09-29T09:55:31.207Z-68> a as:Create;
     dct:isVersionOf <https://model.ccmm.cz/research-data/Location.hasGeometry>;
-    dct:created "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
-    dct:issued "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
+    dct:created "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
+    dct:issued "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
     ds-ldes:sequence 68;
     dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
@@ -1306,12 +1306,12 @@
     a dsv:ObjectPropertyProfile;
     dsv:objectPropertyRange <https://model.ccmm.cz/research-data/Geometry>.
 
-<> tree:member <https://model.ccmm.cz/research-data/TimeReference.dateInformation#2026-09-27T10:42:44.387Z-69>.
+<> tree:member <https://model.ccmm.cz/research-data/TimeReference.dateInformation#2026-09-29T09:55:31.207Z-69>.
 
-<https://model.ccmm.cz/research-data/TimeReference.dateInformation#2026-09-27T10:42:44.387Z-69> a as:Create;
+<https://model.ccmm.cz/research-data/TimeReference.dateInformation#2026-09-29T09:55:31.207Z-69> a as:Create;
     dct:isVersionOf <https://model.ccmm.cz/research-data/TimeReference.dateInformation>;
-    dct:created "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
-    dct:issued "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
+    dct:created "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
+    dct:issued "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
     ds-ldes:sequence 69;
     dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
@@ -1324,12 +1324,12 @@
     a dsv:DatatypePropertyProfile;
     dsv:datatypePropertyRange <https://ofn.gov.cz/zdroj/základní-datové-typy/2020-07-01/text>.
 
-<> tree:member <https://model.ccmm.cz/research-data/Dataset.isDescribedBy#2026-09-27T10:42:44.387Z-70>.
+<> tree:member <https://model.ccmm.cz/research-data/Dataset.isDescribedBy#2026-09-29T09:55:31.207Z-70>.
 
-<https://model.ccmm.cz/research-data/Dataset.isDescribedBy#2026-09-27T10:42:44.387Z-70> a as:Create;
+<https://model.ccmm.cz/research-data/Dataset.isDescribedBy#2026-09-29T09:55:31.207Z-70> a as:Create;
     dct:isVersionOf <https://model.ccmm.cz/research-data/Dataset.isDescribedBy>;
-    dct:created "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
-    dct:issued "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
+    dct:created "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
+    dct:issued "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
     ds-ldes:sequence 70;
     dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
@@ -1341,12 +1341,12 @@
     a dsv:ObjectPropertyProfile;
     dsv:objectPropertyRange <https://model.ccmm.cz/research-data/MetadataRecord>.
 
-<> tree:member <https://model.ccmm.cz/research-data/AlternateTitle#2026-09-27T10:42:44.387Z-71>.
+<> tree:member <https://model.ccmm.cz/research-data/AlternateTitle#2026-09-29T09:55:31.207Z-71>.
 
-<https://model.ccmm.cz/research-data/AlternateTitle#2026-09-27T10:42:44.387Z-71> a as:Create;
+<https://model.ccmm.cz/research-data/AlternateTitle#2026-09-29T09:55:31.207Z-71> a as:Create;
     dct:isVersionOf <https://model.ccmm.cz/research-data/AlternateTitle>;
-    dct:created "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
-    dct:issued "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
+    dct:created "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
+    dct:issued "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
     ds-ldes:sequence 71;
     dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
@@ -1356,29 +1356,29 @@
     dsv:class <https://model.ccmm.cz/vocabulary/ccmm#AlternateTitle>;
     dsv:classRole role:supportive.
 
-<> tree:member <https://model.ccmm.cz/research-data/Repository.label#2026-09-27T10:42:44.387Z-72>.
+<> tree:member <https://model.ccmm.cz/research-data/Repository.label#2026-09-29T09:55:31.207Z-72>.
 
-<https://model.ccmm.cz/research-data/Repository.label#2026-09-27T10:42:44.387Z-72> a as:Create;
+<https://model.ccmm.cz/research-data/Repository.label#2026-09-29T09:55:31.207Z-72> a as:Create;
     dct:isVersionOf <https://model.ccmm.cz/research-data/Repository.label>;
-    dct:created "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
-    dct:issued "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
+    dct:created "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
+    dct:issued "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
     ds-ldes:sequence 72;
     dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
     skos:prefLabel "label"@en;
-    skos:definition "Human readable name of the repository."@en;
+    skos:definition "A human-readable name of the repository."@en;
     dsv:profileOf <https://mff-uk.github.io/specifications/dcat-ap#Catalogue.title>;
     dsv:cardinality cardinality:1n;
     dsv:domain <https://model.ccmm.cz/research-data/Repository>;
     a dsv:DatatypePropertyProfile;
     dsv:datatypePropertyRange rdf:langString.
 
-<> tree:member <https://model.ccmm.cz/research-data/ApplicationProfile.label#2026-09-27T10:42:44.387Z-73>.
+<> tree:member <https://model.ccmm.cz/research-data/ApplicationProfile.label#2026-09-29T09:55:31.207Z-73>.
 
-<https://model.ccmm.cz/research-data/ApplicationProfile.label#2026-09-27T10:42:44.387Z-73> a as:Create;
+<https://model.ccmm.cz/research-data/ApplicationProfile.label#2026-09-29T09:55:31.207Z-73> a as:Create;
     dct:isVersionOf <https://model.ccmm.cz/research-data/ApplicationProfile.label>;
-    dct:created "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
-    dct:issued "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
+    dct:created "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
+    dct:issued "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
     ds-ldes:sequence 73;
     dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
@@ -1390,12 +1390,12 @@
     a dsv:DatatypePropertyProfile;
     dsv:datatypePropertyRange rdf:langString.
 
-<> tree:member <https://model.ccmm.cz/research-data/SubjectScheme.label#2026-09-27T10:42:44.387Z-74>.
+<> tree:member <https://model.ccmm.cz/research-data/SubjectScheme.label#2026-09-29T09:55:31.207Z-74>.
 
-<https://model.ccmm.cz/research-data/SubjectScheme.label#2026-09-27T10:42:44.387Z-74> a as:Create;
+<https://model.ccmm.cz/research-data/SubjectScheme.label#2026-09-29T09:55:31.207Z-74> a as:Create;
     dct:isVersionOf <https://model.ccmm.cz/research-data/SubjectScheme.label>;
-    dct:created "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
-    dct:issued "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
+    dct:created "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
+    dct:issued "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
     ds-ldes:sequence 74;
     dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
@@ -1407,12 +1407,12 @@
     a dsv:DatatypePropertyProfile;
     dsv:datatypePropertyRange rdf:langString.
 
-<> tree:member <https://model.ccmm.cz/research-data/Documentation.label#2026-09-27T10:42:44.387Z-75>.
+<> tree:member <https://model.ccmm.cz/research-data/Documentation.label#2026-09-29T09:55:31.207Z-75>.
 
-<https://model.ccmm.cz/research-data/Documentation.label#2026-09-27T10:42:44.387Z-75> a as:Create;
+<https://model.ccmm.cz/research-data/Documentation.label#2026-09-29T09:55:31.207Z-75> a as:Create;
     dct:isVersionOf <https://model.ccmm.cz/research-data/Documentation.label>;
-    dct:created "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
-    dct:issued "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
+    dct:created "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
+    dct:issued "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
     ds-ldes:sequence 75;
     dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
@@ -1424,12 +1424,12 @@
     a dsv:DatatypePropertyProfile;
     dsv:datatypePropertyRange rdf:langString.
 
-<> tree:member <https://model.ccmm.cz/research-data/MediaType.label#2026-09-27T10:42:44.387Z-76>.
+<> tree:member <https://model.ccmm.cz/research-data/MediaType.label#2026-09-29T09:55:31.207Z-76>.
 
-<https://model.ccmm.cz/research-data/MediaType.label#2026-09-27T10:42:44.387Z-76> a as:Create;
+<https://model.ccmm.cz/research-data/MediaType.label#2026-09-29T09:55:31.207Z-76> a as:Create;
     dct:isVersionOf <https://model.ccmm.cz/research-data/MediaType.label>;
-    dct:created "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
-    dct:issued "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
+    dct:created "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
+    dct:issued "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
     ds-ldes:sequence 76;
     dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
@@ -1442,12 +1442,12 @@
     a dsv:DatatypePropertyProfile;
     dsv:datatypePropertyRange <https://ofn.gov.cz/zdroj/základní-datové-typy/2020-07-01/text>.
 
-<> tree:member <https://model.ccmm.cz/research-data/File.label#2026-09-27T10:42:44.387Z-77>.
+<> tree:member <https://model.ccmm.cz/research-data/File.label#2026-09-29T09:55:31.207Z-77>.
 
-<https://model.ccmm.cz/research-data/File.label#2026-09-27T10:42:44.387Z-77> a as:Create;
+<https://model.ccmm.cz/research-data/File.label#2026-09-29T09:55:31.207Z-77> a as:Create;
     dct:isVersionOf <https://model.ccmm.cz/research-data/File.label>;
-    dct:created "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
-    dct:issued "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
+    dct:created "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
+    dct:issued "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
     ds-ldes:sequence 77;
     dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
@@ -1459,12 +1459,12 @@
     a dsv:DatatypePropertyProfile;
     dsv:datatypePropertyRange rdf:langString.
 
-<> tree:member <https://model.ccmm.cz/research-data/Geometry.label#2026-09-27T10:42:44.387Z-78>.
+<> tree:member <https://model.ccmm.cz/research-data/Geometry.label#2026-09-29T09:55:31.207Z-78>.
 
-<https://model.ccmm.cz/research-data/Geometry.label#2026-09-27T10:42:44.387Z-78> a as:Create;
+<https://model.ccmm.cz/research-data/Geometry.label#2026-09-29T09:55:31.207Z-78> a as:Create;
     dct:isVersionOf <https://model.ccmm.cz/research-data/Geometry.label>;
-    dct:created "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
-    dct:issued "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
+    dct:created "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
+    dct:issued "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
     ds-ldes:sequence 78;
     dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
@@ -1476,12 +1476,12 @@
     a dsv:DatatypePropertyProfile;
     dsv:datatypePropertyRange rdf:langString.
 
-<> tree:member <https://model.ccmm.cz/research-data/ValidationResult.label#2026-09-27T10:42:44.387Z-79>.
+<> tree:member <https://model.ccmm.cz/research-data/ValidationResult.label#2026-09-29T09:55:31.207Z-79>.
 
-<https://model.ccmm.cz/research-data/ValidationResult.label#2026-09-27T10:42:44.387Z-79> a as:Create;
+<https://model.ccmm.cz/research-data/ValidationResult.label#2026-09-29T09:55:31.207Z-79> a as:Create;
     dct:isVersionOf <https://model.ccmm.cz/research-data/ValidationResult.label>;
-    dct:created "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
-    dct:issued "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
+    dct:created "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
+    dct:issued "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
     ds-ldes:sequence 79;
     dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
@@ -1493,12 +1493,12 @@
     a dsv:DatatypePropertyProfile;
     dsv:datatypePropertyRange rdf:langString.
 
-<> tree:member <https://model.ccmm.cz/research-data/Address.label#2026-09-27T10:42:44.387Z-80>.
+<> tree:member <https://model.ccmm.cz/research-data/Address.label#2026-09-29T09:55:31.207Z-80>.
 
-<https://model.ccmm.cz/research-data/Address.label#2026-09-27T10:42:44.387Z-80> a as:Create;
+<https://model.ccmm.cz/research-data/Address.label#2026-09-29T09:55:31.207Z-80> a as:Create;
     dct:isVersionOf <https://model.ccmm.cz/research-data/Address.label>;
-    dct:created "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
-    dct:issued "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
+    dct:created "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
+    dct:issued "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
     ds-ldes:sequence 80;
     dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
@@ -1510,12 +1510,12 @@
     a dsv:DatatypePropertyProfile;
     dsv:datatypePropertyRange rdf:langString.
 
-<> tree:member <https://model.ccmm.cz/research-data/DataService.endpointUrl#2026-09-27T10:42:44.387Z-81>.
+<> tree:member <https://model.ccmm.cz/research-data/DataService.endpointUrl#2026-09-29T09:55:31.207Z-81>.
 
-<https://model.ccmm.cz/research-data/DataService.endpointUrl#2026-09-27T10:42:44.387Z-81> a as:Create;
+<https://model.ccmm.cz/research-data/DataService.endpointUrl#2026-09-29T09:55:31.207Z-81> a as:Create;
     dct:isVersionOf <https://model.ccmm.cz/research-data/DataService.endpointUrl>;
-    dct:created "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
-    dct:issued "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
+    dct:created "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
+    dct:issued "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
     ds-ldes:sequence 81;
     dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
@@ -1541,12 +1541,12 @@
     a dsv:ObjectPropertyProfile;
     dsv:objectPropertyRange <https://model.ccmm.cz/research-data/RelatedResource>.
 
-<> tree:member <https://model.ccmm.cz/research-data/DataService.label#2026-09-27T10:42:44.387Z-82>.
+<> tree:member <https://model.ccmm.cz/research-data/DataService.label#2026-09-29T09:55:31.207Z-82>.
 
-<https://model.ccmm.cz/research-data/DataService.label#2026-09-27T10:42:44.387Z-82> a as:Create;
+<https://model.ccmm.cz/research-data/DataService.label#2026-09-29T09:55:31.207Z-82> a as:Create;
     dct:isVersionOf <https://model.ccmm.cz/research-data/DataService.label>;
-    dct:created "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
-    dct:issued "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
+    dct:created "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
+    dct:issued "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
     ds-ldes:sequence 82;
     dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
@@ -1558,12 +1558,12 @@
     a dsv:DatatypePropertyProfile;
     dsv:datatypePropertyRange rdf:langString.
 
-<> tree:member <https://model.ccmm.cz/research-data/ResourceAgentRoleType.label#2026-09-27T10:42:44.387Z-83>.
+<> tree:member <https://model.ccmm.cz/research-data/ResourceAgentRoleType.label#2026-09-29T09:55:31.207Z-83>.
 
-<https://model.ccmm.cz/research-data/ResourceAgentRoleType.label#2026-09-27T10:42:44.387Z-83> a as:Create;
+<https://model.ccmm.cz/research-data/ResourceAgentRoleType.label#2026-09-29T09:55:31.207Z-83> a as:Create;
     dct:isVersionOf <https://model.ccmm.cz/research-data/ResourceAgentRoleType.label>;
-    dct:created "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
-    dct:issued "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
+    dct:created "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
+    dct:issued "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
     ds-ldes:sequence 83;
     dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
@@ -1576,12 +1576,12 @@
     a dsv:DatatypePropertyProfile;
     dsv:datatypePropertyRange <https://ofn.gov.cz/zdroj/základní-datové-typy/2020-07-01/text>.
 
-<> tree:member <https://model.ccmm.cz/research-data/Agent.hasIdentifier#2026-09-27T10:42:44.387Z-84>.
+<> tree:member <https://model.ccmm.cz/research-data/Agent.hasIdentifier#2026-09-29T09:55:31.207Z-84>.
 
-<https://model.ccmm.cz/research-data/Agent.hasIdentifier#2026-09-27T10:42:44.387Z-84> a as:Create;
+<https://model.ccmm.cz/research-data/Agent.hasIdentifier#2026-09-29T09:55:31.207Z-84> a as:Create;
     dct:isVersionOf <https://model.ccmm.cz/research-data/Agent.hasIdentifier>;
-    dct:created "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
-    dct:issued "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
+    dct:created "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
+    dct:issued "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
     ds-ldes:sequence 84;
     dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
@@ -1593,48 +1593,48 @@
     a dsv:ObjectPropertyProfile;
     dsv:objectPropertyRange <https://model.ccmm.cz/research-data/Identifier>.
 
-<> tree:member <https://model.ccmm.cz/research-data/Resource.resourceURL#2026-09-27T10:42:44.387Z-85>.
+<> tree:member <https://model.ccmm.cz/research-data/Resource.resourceURL#2026-09-29T09:55:31.207Z-85>.
 
-<https://model.ccmm.cz/research-data/Resource.resourceURL#2026-09-27T10:42:44.387Z-85> a as:Create;
+<https://model.ccmm.cz/research-data/Resource.resourceURL#2026-09-29T09:55:31.207Z-85> a as:Create;
     dct:isVersionOf <https://model.ccmm.cz/research-data/Resource.resourceURL>;
-    dct:created "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
-    dct:issued "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
+    dct:created "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
+    dct:issued "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
     ds-ldes:sequence 85;
     dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
     skos:prefLabel "resource URL"@en;
     skos:definition "Human readable resolvable URL representing the resource."@en;
-    skos:scopeNote "Resource URL represents human readable resolvable representation of the resource, i.e. web page. Same url must be aslo in c:iri."@en;
+    skos:scopeNote "The resource URL is a resolvable representation human-readable representation of the resource, i.e. web page. The same url must be also recorded in c:iri."@en;
     dsv:cardinality cardinality:01;
     dsv:property <https://model.ccmm.cz/vocabulary/ccmm#resourceUrl>;
     dsv:domain <https://model.ccmm.cz/research-data/RelatedResource>;
     a dsv:DatatypePropertyProfile;
     dsv:datatypePropertyRange xsd:anyURI.
 
-<> tree:member <https://model.ccmm.cz/research-data/MetadataRecord.qualifiedAttribution#2026-09-27T10:42:44.387Z-86>.
+<> tree:member <https://model.ccmm.cz/research-data/MetadataRecord.qualifiedAttribution#2026-09-29T09:55:31.207Z-86>.
 
-<https://model.ccmm.cz/research-data/MetadataRecord.qualifiedAttribution#2026-09-27T10:42:44.387Z-86> a as:Create;
+<https://model.ccmm.cz/research-data/MetadataRecord.qualifiedAttribution#2026-09-29T09:55:31.207Z-86> a as:Create;
     dct:isVersionOf <https://model.ccmm.cz/research-data/MetadataRecord.qualifiedAttribution>;
-    dct:created "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
-    dct:issued "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
+    dct:created "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
+    dct:issued "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
     ds-ldes:sequence 86;
     dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
     skos:prefLabel "qualified attribution"@en;
-    skos:definition "Enlace a una descripción de la relación con otro recurso."@es, "Link a una descrizione di una relazione con un'altra risorsa."@it, "Link to a description of a relationship between metadata record and agent with the specification of the role of agent in this relationship."@en, "Odkaz na popis vztahu s jiným zdrojem."@cs, "Reference til en beskrivelse af en relation til en anden ressource."@da;
-    skos:scopeNote "Relationship shall contain at least one agent with role \"Data Manager\" from code list https://vocabs.ccmm.cz/registry/codelist/AgentRole/."@en;
+    skos:definition "Enlace a una descripción de la relación con otro recurso."@es, "Link a una descrizione di una relazione con un'altra risorsa."@it, "A link to a description of a relationship between metadata record and agent with the specification of the role of agent in this relationship."@en, "Odkaz na popis vztahu s jiným zdrojem."@cs, "Reference til en beskrivelse af en relation til en anden ressource."@da;
+    skos:scopeNote "The relationship shall contain at least one agent with role \"Data Manager\" from code list https://vocabs.ccmm.cz/registry/codelist/AgentRole/."@en;
     dsv:profileOf <https://mff-uk.github.io/specifications/dcat-ap#Dataset.qualifiedAttribution>;
     dsv:cardinality cardinality:1n;
     dsv:domain <https://model.ccmm.cz/research-data/MetadataRecord>;
     a dsv:ObjectPropertyProfile;
     dsv:objectPropertyRange <https://model.ccmm.cz/research-data/ResourceAttribution>.
 
-<> tree:member <https://model.ccmm.cz/research-data/Checksum#2026-09-27T10:42:44.387Z-87>.
+<> tree:member <https://model.ccmm.cz/research-data/Checksum#2026-09-29T09:55:31.207Z-87>.
 
-<https://model.ccmm.cz/research-data/Checksum#2026-09-27T10:42:44.387Z-87> a as:Create;
+<https://model.ccmm.cz/research-data/Checksum#2026-09-29T09:55:31.207Z-87> a as:Create;
     dct:isVersionOf <https://model.ccmm.cz/research-data/Checksum>;
-    dct:created "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
-    dct:issued "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
+    dct:created "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
+    dct:issued "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
     ds-ldes:sequence 87;
     dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
@@ -1654,12 +1654,12 @@
     a dsv:ClassProfile;
     dsv:classRole role:supportive.
 
-<> tree:member <https://model.ccmm.cz/research-data/Checksum.checksumValue#2026-09-27T10:42:44.387Z-88>.
+<> tree:member <https://model.ccmm.cz/research-data/Checksum.checksumValue#2026-09-29T09:55:31.207Z-88>.
 
-<https://model.ccmm.cz/research-data/Checksum.checksumValue#2026-09-27T10:42:44.387Z-88> a as:Create;
+<https://model.ccmm.cz/research-data/Checksum.checksumValue#2026-09-29T09:55:31.207Z-88> a as:Create;
     dct:isVersionOf <https://model.ccmm.cz/research-data/Checksum.checksumValue>;
-    dct:created "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
-    dct:issued "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
+    dct:created "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
+    dct:issued "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
     ds-ldes:sequence 88;
     dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
@@ -1672,12 +1672,12 @@
     a dsv:DatatypePropertyProfile;
     dsv:datatypePropertyRange xsd:hexBinary.
 
-<> tree:member <https://model.ccmm.cz/research-data/ChecksumAlgorithm#2026-09-27T10:42:44.387Z-89>.
+<> tree:member <https://model.ccmm.cz/research-data/ChecksumAlgorithm#2026-09-29T09:55:31.207Z-89>.
 
-<https://model.ccmm.cz/research-data/ChecksumAlgorithm#2026-09-27T10:42:44.387Z-89> a as:Create;
+<https://model.ccmm.cz/research-data/ChecksumAlgorithm#2026-09-29T09:55:31.207Z-89> a as:Create;
     dct:isVersionOf <https://model.ccmm.cz/research-data/ChecksumAlgorithm>;
-    dct:created "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
-    dct:issued "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
+    dct:created "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
+    dct:issued "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
     ds-ldes:sequence 89;
     dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
@@ -1688,12 +1688,12 @@
     a dsv:ClassProfile;
     dsv:classRole role:supportive.
 
-<> tree:member <https://model.ccmm.cz/research-data/Checksum.usesAlgorithm#2026-09-27T10:42:44.387Z-90>.
+<> tree:member <https://model.ccmm.cz/research-data/Checksum.usesAlgorithm#2026-09-29T09:55:31.207Z-90>.
 
-<https://model.ccmm.cz/research-data/Checksum.usesAlgorithm#2026-09-27T10:42:44.387Z-90> a as:Create;
+<https://model.ccmm.cz/research-data/Checksum.usesAlgorithm#2026-09-29T09:55:31.207Z-90> a as:Create;
     dct:isVersionOf <https://model.ccmm.cz/research-data/Checksum.usesAlgorithm>;
-    dct:created "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
-    dct:issued "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
+    dct:created "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
+    dct:issued "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
     ds-ldes:sequence 90;
     dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
@@ -1710,12 +1710,12 @@
     a dsv:ObjectPropertyProfile;
     dsv:objectPropertyRange <https://model.ccmm.cz/research-data/ChecksumAlgorithm>.
 
-<> tree:member <https://model.ccmm.cz/research-data/Distribution-DataService.hasChecksum#2026-09-27T10:42:44.387Z-91>.
+<> tree:member <https://model.ccmm.cz/research-data/Distribution-DataService.hasChecksum#2026-09-29T09:55:31.207Z-91>.
 
-<https://model.ccmm.cz/research-data/Distribution-DataService.hasChecksum#2026-09-27T10:42:44.387Z-91> a as:Create;
+<https://model.ccmm.cz/research-data/Distribution-DataService.hasChecksum#2026-09-29T09:55:31.207Z-91> a as:Create;
     dct:isVersionOf <https://model.ccmm.cz/research-data/Distribution-DataService.hasChecksum>;
-    dct:created "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
-    dct:issued "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
+    dct:created "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
+    dct:issued "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
     ds-ldes:sequence 91;
     dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
@@ -1737,30 +1737,30 @@
     a dsv:ObjectPropertyProfile;
     dsv:objectPropertyRange <https://model.ccmm.cz/research-data/Checksum>.
 
-<> tree:member <https://model.ccmm.cz/research-data/Agent.name#2026-09-27T10:42:44.387Z-92>.
+<> tree:member <https://model.ccmm.cz/research-data/Agent.name#2026-09-29T09:55:31.207Z-92>.
 
-<https://model.ccmm.cz/research-data/Agent.name#2026-09-27T10:42:44.387Z-92> a as:Create;
+<https://model.ccmm.cz/research-data/Agent.name#2026-09-29T09:55:31.207Z-92> a as:Create;
     dct:isVersionOf <https://model.ccmm.cz/research-data/Agent.name>;
-    dct:created "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
-    dct:issued "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
+    dct:created "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
+    dct:issued "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
     ds-ldes:sequence 92;
     dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
     skos:prefLabel "name"@en;
     skos:definition "Name of the agent."@en;
-    skos:scopeNote "It is used for the official name of the agent. For Persons it is combination of first and family names. Recommended format is \"family names, first names\"."@en;
+    skos:scopeNote "The official name of an agent. For Person, it is a combination of first and family names. Recommended format is \"family names, first names\", e.g., \"Smith, John\"."@en;
     dsv:profileOf <https://mff-uk.github.io/specifications/dcat-ap#Agent.name>;
     dsv:cardinality cardinality:11;
     dsv:domain <https://model.ccmm.cz/research-data/Agent>;
     a dsv:DatatypePropertyProfile;
     dsv:datatypePropertyRange xsd:string.
 
-<> tree:member <https://model.ccmm.cz/research-data/Address.fullAddress#2026-09-27T10:42:44.387Z-93>.
+<> tree:member <https://model.ccmm.cz/research-data/Address.fullAddress#2026-09-29T09:55:31.207Z-93>.
 
-<https://model.ccmm.cz/research-data/Address.fullAddress#2026-09-27T10:42:44.387Z-93> a as:Create;
+<https://model.ccmm.cz/research-data/Address.fullAddress#2026-09-29T09:55:31.207Z-93> a as:Create;
     dct:isVersionOf <https://model.ccmm.cz/research-data/Address.fullAddress>;
-    dct:created "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
-    dct:issued "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
+    dct:created "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
+    dct:issued "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
     ds-ldes:sequence 93;
     dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
@@ -1772,12 +1772,12 @@
     a dsv:DatatypePropertyProfile;
     dsv:datatypePropertyRange xsd:string.
 
-<> tree:member <https://model.ccmm.cz/research-data/Address.poBox#2026-09-27T10:42:44.387Z-94>.
+<> tree:member <https://model.ccmm.cz/research-data/Address.poBox#2026-09-29T09:55:31.207Z-94>.
 
-<https://model.ccmm.cz/research-data/Address.poBox#2026-09-27T10:42:44.387Z-94> a as:Create;
+<https://model.ccmm.cz/research-data/Address.poBox#2026-09-29T09:55:31.207Z-94> a as:Create;
     dct:isVersionOf <https://model.ccmm.cz/research-data/Address.poBox>;
-    dct:created "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
-    dct:issued "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
+    dct:created "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
+    dct:issued "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
     ds-ldes:sequence 94;
     dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
@@ -1788,12 +1788,12 @@
     a dsv:DatatypePropertyProfile;
     dsv:datatypePropertyRange xsd:string.
 
-<> tree:member <https://model.ccmm.cz/research-data/Address.thoroughfare#2026-09-27T10:42:44.387Z-95>.
+<> tree:member <https://model.ccmm.cz/research-data/Address.thoroughfare#2026-09-29T09:55:31.207Z-95>.
 
-<https://model.ccmm.cz/research-data/Address.thoroughfare#2026-09-27T10:42:44.387Z-95> a as:Create;
+<https://model.ccmm.cz/research-data/Address.thoroughfare#2026-09-29T09:55:31.207Z-95> a as:Create;
     dct:isVersionOf <https://model.ccmm.cz/research-data/Address.thoroughfare>;
-    dct:created "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
-    dct:issued "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
+    dct:created "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
+    dct:issued "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
     ds-ldes:sequence 95;
     dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
@@ -1805,12 +1805,12 @@
     a dsv:DatatypePropertyProfile;
     dsv:datatypePropertyRange xsd:string.
 
-<> tree:member <https://model.ccmm.cz/research-data/Address.locatorDesignator#2026-09-27T10:42:44.387Z-96>.
+<> tree:member <https://model.ccmm.cz/research-data/Address.locatorDesignator#2026-09-29T09:55:31.207Z-96>.
 
-<https://model.ccmm.cz/research-data/Address.locatorDesignator#2026-09-27T10:42:44.387Z-96> a as:Create;
+<https://model.ccmm.cz/research-data/Address.locatorDesignator#2026-09-29T09:55:31.207Z-96> a as:Create;
     dct:isVersionOf <https://model.ccmm.cz/research-data/Address.locatorDesignator>;
-    dct:created "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
-    dct:issued "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
+    dct:created "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
+    dct:issued "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
     ds-ldes:sequence 96;
     dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
@@ -1822,12 +1822,12 @@
     a dsv:DatatypePropertyProfile;
     dsv:datatypePropertyRange xsd:string.
 
-<> tree:member <https://model.ccmm.cz/research-data/Address.locatorName#2026-09-27T10:42:44.387Z-97>.
+<> tree:member <https://model.ccmm.cz/research-data/Address.locatorName#2026-09-29T09:55:31.207Z-97>.
 
-<https://model.ccmm.cz/research-data/Address.locatorName#2026-09-27T10:42:44.387Z-97> a as:Create;
+<https://model.ccmm.cz/research-data/Address.locatorName#2026-09-29T09:55:31.207Z-97> a as:Create;
     dct:isVersionOf <https://model.ccmm.cz/research-data/Address.locatorName>;
-    dct:created "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
-    dct:issued "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
+    dct:created "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
+    dct:issued "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
     ds-ldes:sequence 97;
     dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
@@ -1839,12 +1839,12 @@
     a dsv:DatatypePropertyProfile;
     dsv:datatypePropertyRange xsd:string.
 
-<> tree:member <https://model.ccmm.cz/research-data/Address.addressArea#2026-09-27T10:42:44.387Z-98>.
+<> tree:member <https://model.ccmm.cz/research-data/Address.addressArea#2026-09-29T09:55:31.207Z-98>.
 
-<https://model.ccmm.cz/research-data/Address.addressArea#2026-09-27T10:42:44.387Z-98> a as:Create;
+<https://model.ccmm.cz/research-data/Address.addressArea#2026-09-29T09:55:31.207Z-98> a as:Create;
     dct:isVersionOf <https://model.ccmm.cz/research-data/Address.addressArea>;
-    dct:created "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
-    dct:issued "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
+    dct:created "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
+    dct:issued "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
     ds-ldes:sequence 98;
     dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
@@ -1856,12 +1856,12 @@
     a dsv:DatatypePropertyProfile;
     dsv:datatypePropertyRange xsd:string.
 
-<> tree:member <https://model.ccmm.cz/research-data/Address.postName#2026-09-27T10:42:44.387Z-99>.
+<> tree:member <https://model.ccmm.cz/research-data/Address.postName#2026-09-29T09:55:31.207Z-99>.
 
-<https://model.ccmm.cz/research-data/Address.postName#2026-09-27T10:42:44.387Z-99> a as:Create;
+<https://model.ccmm.cz/research-data/Address.postName#2026-09-29T09:55:31.207Z-99> a as:Create;
     dct:isVersionOf <https://model.ccmm.cz/research-data/Address.postName>;
-    dct:created "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
-    dct:issued "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
+    dct:created "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
+    dct:issued "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
     ds-ldes:sequence 99;
     dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
@@ -1873,12 +1873,12 @@
     a dsv:DatatypePropertyProfile;
     dsv:datatypePropertyRange xsd:string.
 
-<> tree:member <https://model.ccmm.cz/research-data/Address.administrativeUnitLevel1#2026-09-27T10:42:44.387Z-100>.
+<> tree:member <https://model.ccmm.cz/research-data/Address.administrativeUnitLevel1#2026-09-29T09:55:31.207Z-100>.
 
-<https://model.ccmm.cz/research-data/Address.administrativeUnitLevel1#2026-09-27T10:42:44.387Z-100> a as:Create;
+<https://model.ccmm.cz/research-data/Address.administrativeUnitLevel1#2026-09-29T09:55:31.207Z-100> a as:Create;
     dct:isVersionOf <https://model.ccmm.cz/research-data/Address.administrativeUnitLevel1>;
-    dct:created "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
-    dct:issued "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
+    dct:created "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
+    dct:issued "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
     ds-ldes:sequence 100;
     dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
@@ -1890,12 +1890,12 @@
     a dsv:DatatypePropertyProfile;
     dsv:datatypePropertyRange xsd:string.
 
-<> tree:member <https://model.ccmm.cz/research-data/Address.administrativeUnitLevel2#2026-09-27T10:42:44.387Z-101>.
+<> tree:member <https://model.ccmm.cz/research-data/Address.administrativeUnitLevel2#2026-09-29T09:55:31.207Z-101>.
 
-<https://model.ccmm.cz/research-data/Address.administrativeUnitLevel2#2026-09-27T10:42:44.387Z-101> a as:Create;
+<https://model.ccmm.cz/research-data/Address.administrativeUnitLevel2#2026-09-29T09:55:31.207Z-101> a as:Create;
     dct:isVersionOf <https://model.ccmm.cz/research-data/Address.administrativeUnitLevel2>;
-    dct:created "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
-    dct:issued "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
+    dct:created "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
+    dct:issued "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
     ds-ldes:sequence 101;
     dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
@@ -1907,12 +1907,12 @@
     a dsv:DatatypePropertyProfile;
     dsv:datatypePropertyRange xsd:string.
 
-<> tree:member <https://model.ccmm.cz/research-data/Address.postCode#2026-09-27T10:42:44.387Z-102>.
+<> tree:member <https://model.ccmm.cz/research-data/Address.postCode#2026-09-29T09:55:31.207Z-102>.
 
-<https://model.ccmm.cz/research-data/Address.postCode#2026-09-27T10:42:44.387Z-102> a as:Create;
+<https://model.ccmm.cz/research-data/Address.postCode#2026-09-29T09:55:31.207Z-102> a as:Create;
     dct:isVersionOf <https://model.ccmm.cz/research-data/Address.postCode>;
-    dct:created "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
-    dct:issued "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
+    dct:created "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
+    dct:issued "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
     ds-ldes:sequence 102;
     dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
@@ -1924,12 +1924,12 @@
     a dsv:DatatypePropertyProfile;
     dsv:datatypePropertyRange xsd:string.
 
-<> tree:member <https://model.ccmm.cz/research-data/LicenceDocument#2026-09-27T10:42:44.387Z-103>.
+<> tree:member <https://model.ccmm.cz/research-data/LicenceDocument#2026-09-29T09:55:31.207Z-103>.
 
-<https://model.ccmm.cz/research-data/LicenceDocument#2026-09-27T10:42:44.387Z-103> a as:Create;
+<https://model.ccmm.cz/research-data/LicenceDocument#2026-09-29T09:55:31.207Z-103> a as:Create;
     dct:isVersionOf <https://model.ccmm.cz/research-data/LicenceDocument>;
-    dct:created "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
-    dct:issued "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
+    dct:created "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
+    dct:issued "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
     ds-ldes:sequence 103;
     dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
@@ -1940,12 +1940,12 @@
     a dsv:ClassProfile;
     dsv:classRole role:supportive.
 
-<> tree:member <https://model.ccmm.cz/research-data/LicenceDocument.title#2026-09-27T10:42:44.387Z-104>.
+<> tree:member <https://model.ccmm.cz/research-data/LicenceDocument.title#2026-09-29T09:55:31.207Z-104>.
 
-<https://model.ccmm.cz/research-data/LicenceDocument.title#2026-09-27T10:42:44.387Z-104> a as:Create;
+<https://model.ccmm.cz/research-data/LicenceDocument.title#2026-09-29T09:55:31.207Z-104> a as:Create;
     dct:isVersionOf <https://model.ccmm.cz/research-data/LicenceDocument.title>;
-    dct:created "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
-    dct:issued "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
+    dct:created "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
+    dct:issued "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
     ds-ldes:sequence 104;
     dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
@@ -1956,12 +1956,12 @@
     a dsv:DatatypePropertyProfile;
     dsv:datatypePropertyRange rdf:langString.
 
-<> tree:member <https://model.ccmm.cz/research-data/LocationRelationType#2026-09-27T10:42:44.387Z-105>.
+<> tree:member <https://model.ccmm.cz/research-data/LocationRelationType#2026-09-29T09:55:31.207Z-105>.
 
-<https://model.ccmm.cz/research-data/LocationRelationType#2026-09-27T10:42:44.387Z-105> a as:Create;
+<https://model.ccmm.cz/research-data/LocationRelationType#2026-09-29T09:55:31.207Z-105> a as:Create;
     dct:isVersionOf <https://model.ccmm.cz/research-data/LocationRelationType>;
-    dct:created "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
-    dct:issued "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
+    dct:created "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
+    dct:issued "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
     ds-ldes:sequence 105;
     dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
@@ -1972,12 +1972,12 @@
     dsv:class skos:Concept;
     dsv:classRole role:supportive.
 
-<> tree:member <https://model.ccmm.cz/research-data/AlternateTitleType#2026-09-27T10:42:44.387Z-106>.
+<> tree:member <https://model.ccmm.cz/research-data/AlternateTitleType#2026-09-29T09:55:31.207Z-106>.
 
-<https://model.ccmm.cz/research-data/AlternateTitleType#2026-09-27T10:42:44.387Z-106> a as:Create;
+<https://model.ccmm.cz/research-data/AlternateTitleType#2026-09-29T09:55:31.207Z-106> a as:Create;
     dct:isVersionOf <https://model.ccmm.cz/research-data/AlternateTitleType>;
-    dct:created "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
-    dct:issued "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
+    dct:created "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
+    dct:issued "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
     ds-ldes:sequence 106;
     dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
@@ -1988,12 +1988,12 @@
     dsv:class skos:Concept;
     dsv:classRole role:supportive.
 
-<> tree:member <https://model.ccmm.cz/research-data/DateType#2026-09-27T10:42:44.387Z-107>.
+<> tree:member <https://model.ccmm.cz/research-data/DateType#2026-09-29T09:55:31.207Z-107>.
 
-<https://model.ccmm.cz/research-data/DateType#2026-09-27T10:42:44.387Z-107> a as:Create;
+<https://model.ccmm.cz/research-data/DateType#2026-09-29T09:55:31.207Z-107> a as:Create;
     dct:isVersionOf <https://model.ccmm.cz/research-data/DateType>;
-    dct:created "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
-    dct:issued "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
+    dct:created "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
+    dct:issued "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
     ds-ldes:sequence 107;
     dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
@@ -2004,12 +2004,12 @@
     dsv:class skos:Concept;
     dsv:classRole role:supportive.
 
-<> tree:member <https://model.ccmm.cz/research-data/ResourceType#2026-09-27T10:42:44.387Z-108>.
+<> tree:member <https://model.ccmm.cz/research-data/ResourceType#2026-09-29T09:55:31.207Z-108>.
 
-<https://model.ccmm.cz/research-data/ResourceType#2026-09-27T10:42:44.387Z-108> a as:Create;
+<https://model.ccmm.cz/research-data/ResourceType#2026-09-29T09:55:31.207Z-108> a as:Create;
     dct:isVersionOf <https://model.ccmm.cz/research-data/ResourceType>;
-    dct:created "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
-    dct:issued "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
+    dct:created "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
+    dct:issued "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
     ds-ldes:sequence 108;
     dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
@@ -2020,12 +2020,12 @@
     dsv:class skos:Concept;
     dsv:classRole role:supportive.
 
-<> tree:member <https://model.ccmm.cz/research-data/ResourceRelationType#2026-09-27T10:42:44.387Z-109>.
+<> tree:member <https://model.ccmm.cz/research-data/ResourceRelationType#2026-09-29T09:55:31.207Z-109>.
 
-<https://model.ccmm.cz/research-data/ResourceRelationType#2026-09-27T10:42:44.387Z-109> a as:Create;
+<https://model.ccmm.cz/research-data/ResourceRelationType#2026-09-29T09:55:31.207Z-109> a as:Create;
     dct:isVersionOf <https://model.ccmm.cz/research-data/ResourceRelationType>;
-    dct:created "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
-    dct:issued "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
+    dct:created "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
+    dct:issued "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
     ds-ldes:sequence 109;
     dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
@@ -2036,12 +2036,12 @@
     dsv:class skos:Concept;
     dsv:classRole role:supportive.
 
-<> tree:member <https://model.ccmm.cz/research-data/LanguageSystem#2026-09-27T10:42:44.387Z-110>.
+<> tree:member <https://model.ccmm.cz/research-data/LanguageSystem#2026-09-29T09:55:31.207Z-110>.
 
-<https://model.ccmm.cz/research-data/LanguageSystem#2026-09-27T10:42:44.387Z-110> a as:Create;
+<https://model.ccmm.cz/research-data/LanguageSystem#2026-09-29T09:55:31.207Z-110> a as:Create;
     dct:isVersionOf <https://model.ccmm.cz/research-data/LanguageSystem>;
-    dct:created "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
-    dct:issued "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
+    dct:created "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
+    dct:issued "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
     ds-ldes:sequence 110;
     dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
@@ -2057,12 +2057,12 @@
     a dsv:ClassProfile;
     dsv:classRole role:supportive.
 
-<> tree:member <https://model.ccmm.cz/research-data/MetadataRecord.hasLanguage#2026-09-27T10:42:44.387Z-111>.
+<> tree:member <https://model.ccmm.cz/research-data/MetadataRecord.hasLanguage#2026-09-29T09:55:31.207Z-111>.
 
-<https://model.ccmm.cz/research-data/MetadataRecord.hasLanguage#2026-09-27T10:42:44.387Z-111> a as:Create;
+<https://model.ccmm.cz/research-data/MetadataRecord.hasLanguage#2026-09-29T09:55:31.207Z-111> a as:Create;
     dct:isVersionOf <https://model.ccmm.cz/research-data/MetadataRecord.hasLanguage>;
-    dct:created "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
-    dct:issued "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
+    dct:created "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
+    dct:issued "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
     ds-ldes:sequence 111;
     dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
@@ -2080,12 +2080,12 @@
     a dsv:ObjectPropertyProfile;
     dsv:objectPropertyRange <https://model.ccmm.cz/research-data/LanguageSystem>.
 
-<> tree:member <https://model.ccmm.cz/research-data/Dataset.hasPrimaryLanguage#2026-09-27T10:42:44.387Z-112>.
+<> tree:member <https://model.ccmm.cz/research-data/Dataset.hasPrimaryLanguage#2026-09-29T09:55:31.207Z-112>.
 
-<https://model.ccmm.cz/research-data/Dataset.hasPrimaryLanguage#2026-09-27T10:42:44.387Z-112> a as:Create;
+<https://model.ccmm.cz/research-data/Dataset.hasPrimaryLanguage#2026-09-29T09:55:31.207Z-112> a as:Create;
     dct:isVersionOf <https://model.ccmm.cz/research-data/Dataset.hasPrimaryLanguage>;
-    dct:created "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
-    dct:issued "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
+    dct:created "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
+    dct:issued "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
     ds-ldes:sequence 112;
     dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
@@ -2098,12 +2098,12 @@
     a dsv:ObjectPropertyProfile;
     dsv:objectPropertyRange <https://model.ccmm.cz/research-data/LanguageSystem>.
 
-<> tree:member <https://model.ccmm.cz/research-data/Dataset.hasOtherLanguage#2026-09-27T10:42:44.387Z-113>.
+<> tree:member <https://model.ccmm.cz/research-data/Dataset.hasOtherLanguage#2026-09-29T09:55:31.207Z-113>.
 
-<https://model.ccmm.cz/research-data/Dataset.hasOtherLanguage#2026-09-27T10:42:44.387Z-113> a as:Create;
+<https://model.ccmm.cz/research-data/Dataset.hasOtherLanguage#2026-09-29T09:55:31.207Z-113> a as:Create;
     dct:isVersionOf <https://model.ccmm.cz/research-data/Dataset.hasOtherLanguage>;
-    dct:created "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
-    dct:issued "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
+    dct:created "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
+    dct:issued "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
     ds-ldes:sequence 113;
     dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
@@ -2116,12 +2116,12 @@
     a dsv:ObjectPropertyProfile;
     dsv:objectPropertyRange <https://model.ccmm.cz/research-data/LanguageSystem>.
 
-<> tree:member <https://model.ccmm.cz/research-data/Format#2026-09-27T10:42:44.387Z-114>.
+<> tree:member <https://model.ccmm.cz/research-data/Format#2026-09-29T09:55:31.207Z-114>.
 
-<https://model.ccmm.cz/research-data/Format#2026-09-27T10:42:44.387Z-114> a as:Create;
+<https://model.ccmm.cz/research-data/Format#2026-09-29T09:55:31.207Z-114> a as:Create;
     dct:isVersionOf <https://model.ccmm.cz/research-data/Format>;
-    dct:created "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
-    dct:issued "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
+    dct:created "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
+    dct:issued "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
     ds-ldes:sequence 114;
     dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
@@ -2132,12 +2132,12 @@
     a dsv:ClassProfile;
     dsv:classRole role:supportive.
 
-<> tree:member <https://model.ccmm.cz/research-data/Distribution-DownloadableFile.hasFormat#2026-09-27T10:42:44.387Z-115>.
+<> tree:member <https://model.ccmm.cz/research-data/Distribution-DownloadableFile.hasFormat#2026-09-29T09:55:31.207Z-115>.
 
-<https://model.ccmm.cz/research-data/Distribution-DownloadableFile.hasFormat#2026-09-27T10:42:44.387Z-115> a as:Create;
+<https://model.ccmm.cz/research-data/Distribution-DownloadableFile.hasFormat#2026-09-29T09:55:31.207Z-115> a as:Create;
     dct:isVersionOf <https://model.ccmm.cz/research-data/Distribution-DownloadableFile.hasFormat>;
-    dct:created "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
-    dct:issued "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
+    dct:created "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
+    dct:issued "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
     ds-ldes:sequence 115;
     dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
@@ -2155,12 +2155,12 @@
     a dsv:ObjectPropertyProfile;
     dsv:objectPropertyRange <https://model.ccmm.cz/research-data/Format>.
 
-<> tree:member <https://model.ccmm.cz/research-data/AccessRights#2026-09-27T10:42:44.387Z-116>.
+<> tree:member <https://model.ccmm.cz/research-data/AccessRights#2026-09-29T09:55:31.207Z-116>.
 
-<https://model.ccmm.cz/research-data/AccessRights#2026-09-27T10:42:44.387Z-116> a as:Create;
+<https://model.ccmm.cz/research-data/AccessRights#2026-09-29T09:55:31.207Z-116> a as:Create;
     dct:isVersionOf <https://model.ccmm.cz/research-data/AccessRights>;
-    dct:created "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
-    dct:issued "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
+    dct:created "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
+    dct:issued "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
     ds-ldes:sequence 116;
     dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
@@ -2171,12 +2171,12 @@
     a dsv:ClassProfile;
     dsv:classRole role:supportive.
 
-<> tree:member <https://model.ccmm.cz/research-data/Format.label#2026-09-27T10:42:44.387Z-117>.
+<> tree:member <https://model.ccmm.cz/research-data/Format.label#2026-09-29T09:55:31.207Z-117>.
 
-<https://model.ccmm.cz/research-data/Format.label#2026-09-27T10:42:44.387Z-117> a as:Create;
+<https://model.ccmm.cz/research-data/Format.label#2026-09-29T09:55:31.207Z-117> a as:Create;
     dct:isVersionOf <https://model.ccmm.cz/research-data/Format.label>;
-    dct:created "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
-    dct:issued "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
+    dct:created "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
+    dct:issued "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
     ds-ldes:sequence 117;
     dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
@@ -2189,12 +2189,12 @@
     a dsv:DatatypePropertyProfile;
     dsv:datatypePropertyRange <https://ofn.gov.cz/zdroj/základní-datové-typy/2020-07-01/text>.
 
-<> tree:member <https://model.ccmm.cz/research-data/LanguageSystem.label#2026-09-27T10:42:44.387Z-118>.
+<> tree:member <https://model.ccmm.cz/research-data/LanguageSystem.label#2026-09-29T09:55:31.207Z-118>.
 
-<https://model.ccmm.cz/research-data/LanguageSystem.label#2026-09-27T10:42:44.387Z-118> a as:Create;
+<https://model.ccmm.cz/research-data/LanguageSystem.label#2026-09-29T09:55:31.207Z-118> a as:Create;
     dct:isVersionOf <https://model.ccmm.cz/research-data/LanguageSystem.label>;
-    dct:created "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
-    dct:issued "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
+    dct:created "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
+    dct:issued "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
     ds-ldes:sequence 118;
     dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
@@ -2207,12 +2207,12 @@
     a dsv:DatatypePropertyProfile;
     dsv:datatypePropertyRange <https://ofn.gov.cz/zdroj/základní-datové-typy/2020-07-01/text>.
 
-<> tree:member <https://model.ccmm.cz/research-data/AccessRights.label#2026-09-27T10:42:44.387Z-119>.
+<> tree:member <https://model.ccmm.cz/research-data/AccessRights.label#2026-09-29T09:55:31.207Z-119>.
 
-<https://model.ccmm.cz/research-data/AccessRights.label#2026-09-27T10:42:44.387Z-119> a as:Create;
+<https://model.ccmm.cz/research-data/AccessRights.label#2026-09-29T09:55:31.207Z-119> a as:Create;
     dct:isVersionOf <https://model.ccmm.cz/research-data/AccessRights.label>;
-    dct:created "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
-    dct:issued "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
+    dct:created "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
+    dct:issued "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
     ds-ldes:sequence 119;
     dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
@@ -2225,12 +2225,12 @@
     a dsv:DatatypePropertyProfile;
     dsv:datatypePropertyRange <https://ofn.gov.cz/zdroj/základní-datové-typy/2020-07-01/text>.
 
-<> tree:member <https://model.ccmm.cz/research-data/ResourceType.label#2026-09-27T10:42:44.387Z-120>.
+<> tree:member <https://model.ccmm.cz/research-data/ResourceType.label#2026-09-29T09:55:31.207Z-120>.
 
-<https://model.ccmm.cz/research-data/ResourceType.label#2026-09-27T10:42:44.387Z-120> a as:Create;
+<https://model.ccmm.cz/research-data/ResourceType.label#2026-09-29T09:55:31.207Z-120> a as:Create;
     dct:isVersionOf <https://model.ccmm.cz/research-data/ResourceType.label>;
-    dct:created "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
-    dct:issued "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
+    dct:created "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
+    dct:issued "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
     ds-ldes:sequence 120;
     dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
@@ -2243,12 +2243,12 @@
     a dsv:DatatypePropertyProfile;
     dsv:datatypePropertyRange <https://ofn.gov.cz/zdroj/základní-datové-typy/2020-07-01/text>.
 
-<> tree:member <https://model.ccmm.cz/research-data/TimeRepresentation#2026-09-27T10:42:44.387Z-121>.
+<> tree:member <https://model.ccmm.cz/research-data/TimeRepresentation#2026-09-29T09:55:31.207Z-121>.
 
-<https://model.ccmm.cz/research-data/TimeRepresentation#2026-09-27T10:42:44.387Z-121> a as:Create;
+<https://model.ccmm.cz/research-data/TimeRepresentation#2026-09-29T09:55:31.207Z-121> a as:Create;
     dct:isVersionOf <https://model.ccmm.cz/research-data/TimeRepresentation>;
-    dct:created "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
-    dct:issued "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
+    dct:created "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
+    dct:issued "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
     ds-ldes:sequence 121;
     dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
@@ -2258,12 +2258,12 @@
     dsv:class <http://www.w3.org/2006/time#TemporalEntity>;
     dsv:classRole role:supportive.
 
-<> tree:member <https://model.ccmm.cz/research-data/TimeInstant#2026-09-27T10:42:44.387Z-122>.
+<> tree:member <https://model.ccmm.cz/research-data/TimeInstant#2026-09-29T09:55:31.207Z-122>.
 
-<https://model.ccmm.cz/research-data/TimeInstant#2026-09-27T10:42:44.387Z-122> a as:Create;
+<https://model.ccmm.cz/research-data/TimeInstant#2026-09-29T09:55:31.207Z-122> a as:Create;
     dct:isVersionOf <https://model.ccmm.cz/research-data/TimeInstant>;
-    dct:created "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
-    dct:issued "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
+    dct:created "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
+    dct:issued "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
     ds-ldes:sequence 122;
     dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
@@ -2275,12 +2275,12 @@
     dsv:class <http://www.w3.org/2006/time#Instant>;
     dsv:classRole role:supportive.
 
-<> tree:member <https://model.ccmm.cz/research-data/TimeInterval#2026-09-27T10:42:44.387Z-123>.
+<> tree:member <https://model.ccmm.cz/research-data/TimeInterval#2026-09-29T09:55:31.207Z-123>.
 
-<https://model.ccmm.cz/research-data/TimeInterval#2026-09-27T10:42:44.387Z-123> a as:Create;
+<https://model.ccmm.cz/research-data/TimeInterval#2026-09-29T09:55:31.207Z-123> a as:Create;
     dct:isVersionOf <https://model.ccmm.cz/research-data/TimeInterval>;
-    dct:created "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
-    dct:issued "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
+    dct:created "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
+    dct:issued "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
     ds-ldes:sequence 123;
     dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
@@ -2301,12 +2301,12 @@
     dsv:class <http://www.w3.org/2006/time#Interval>;
     dsv:classRole role:supportive.
 
-<> tree:member <https://model.ccmm.cz/research-data/TimeInstant.date#2026-09-27T10:42:44.387Z-124>.
+<> tree:member <https://model.ccmm.cz/research-data/TimeInstant.date#2026-09-29T09:55:31.207Z-124>.
 
-<https://model.ccmm.cz/research-data/TimeInstant.date#2026-09-27T10:42:44.387Z-124> a as:Create;
+<https://model.ccmm.cz/research-data/TimeInstant.date#2026-09-29T09:55:31.207Z-124> a as:Create;
     dct:isVersionOf <https://model.ccmm.cz/research-data/TimeInstant.date>;
-    dct:created "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
-    dct:issued "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
+    dct:created "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
+    dct:issued "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
     ds-ldes:sequence 124;
     dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
@@ -2319,12 +2319,12 @@
     a dsv:DatatypePropertyProfile;
     dsv:datatypePropertyRange xsd:date.
 
-<> tree:member <https://model.ccmm.cz/research-data/TimeInterval.hasBeginning#2026-09-27T10:42:44.387Z-125>.
+<> tree:member <https://model.ccmm.cz/research-data/TimeInterval.hasBeginning#2026-09-29T09:55:31.207Z-125>.
 
-<https://model.ccmm.cz/research-data/TimeInterval.hasBeginning#2026-09-27T10:42:44.387Z-125> a as:Create;
+<https://model.ccmm.cz/research-data/TimeInterval.hasBeginning#2026-09-29T09:55:31.207Z-125> a as:Create;
     dct:isVersionOf <https://model.ccmm.cz/research-data/TimeInterval.hasBeginning>;
-    dct:created "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
-    dct:issued "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
+    dct:created "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
+    dct:issued "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
     ds-ldes:sequence 125;
     dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
@@ -2341,12 +2341,12 @@
     a dsv:ObjectPropertyProfile;
     dsv:objectPropertyRange <https://model.ccmm.cz/research-data/TimeInstant>.
 
-<> tree:member <https://model.ccmm.cz/research-data/TimeInterval.hasEnd#2026-09-27T10:42:44.387Z-126>.
+<> tree:member <https://model.ccmm.cz/research-data/TimeInterval.hasEnd#2026-09-29T09:55:31.207Z-126>.
 
-<https://model.ccmm.cz/research-data/TimeInterval.hasEnd#2026-09-27T10:42:44.387Z-126> a as:Create;
+<https://model.ccmm.cz/research-data/TimeInterval.hasEnd#2026-09-29T09:55:31.207Z-126> a as:Create;
     dct:isVersionOf <https://model.ccmm.cz/research-data/TimeInterval.hasEnd>;
-    dct:created "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
-    dct:issued "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
+    dct:created "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
+    dct:issued "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
     ds-ldes:sequence 126;
     dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
@@ -2363,12 +2363,12 @@
     a dsv:ObjectPropertyProfile;
     dsv:objectPropertyRange <https://model.ccmm.cz/research-data/TimeInstant>.
 
-<> tree:member <https://model.ccmm.cz/research-data/DateType.label#2026-09-27T10:42:44.387Z-127>.
+<> tree:member <https://model.ccmm.cz/research-data/DateType.label#2026-09-29T09:55:31.207Z-127>.
 
-<https://model.ccmm.cz/research-data/DateType.label#2026-09-27T10:42:44.387Z-127> a as:Create;
+<https://model.ccmm.cz/research-data/DateType.label#2026-09-29T09:55:31.207Z-127> a as:Create;
     dct:isVersionOf <https://model.ccmm.cz/research-data/DateType.label>;
-    dct:created "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
-    dct:issued "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
+    dct:created "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
+    dct:issued "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
     ds-ldes:sequence 127;
     dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
@@ -2381,12 +2381,12 @@
     a dsv:DatatypePropertyProfile;
     dsv:datatypePropertyRange <https://ofn.gov.cz/zdroj/základní-datové-typy/2020-07-01/text>.
 
-<> tree:member <https://model.ccmm.cz/research-data/TimeReference.hasDateType#2026-09-27T10:42:44.387Z-128>.
+<> tree:member <https://model.ccmm.cz/research-data/TimeReference.hasDateType#2026-09-29T09:55:31.207Z-128>.
 
-<https://model.ccmm.cz/research-data/TimeReference.hasDateType#2026-09-27T10:42:44.387Z-128> a as:Create;
+<https://model.ccmm.cz/research-data/TimeReference.hasDateType#2026-09-29T09:55:31.207Z-128> a as:Create;
     dct:isVersionOf <https://model.ccmm.cz/research-data/TimeReference.hasDateType>;
-    dct:created "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
-    dct:issued "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
+    dct:created "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
+    dct:issued "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
     ds-ldes:sequence 128;
     dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
@@ -2399,12 +2399,12 @@
     a dsv:ObjectPropertyProfile;
     dsv:objectPropertyRange <https://model.ccmm.cz/research-data/DateType>.
 
-<> tree:member <https://model.ccmm.cz/research-data/Resource.hasResourceRelationType#2026-09-27T10:42:44.387Z-129>.
+<> tree:member <https://model.ccmm.cz/research-data/Resource.hasResourceRelationType#2026-09-29T09:55:31.207Z-129>.
 
-<https://model.ccmm.cz/research-data/Resource.hasResourceRelationType#2026-09-27T10:42:44.387Z-129> a as:Create;
+<https://model.ccmm.cz/research-data/Resource.hasResourceRelationType#2026-09-29T09:55:31.207Z-129> a as:Create;
     dct:isVersionOf <https://model.ccmm.cz/research-data/Resource.hasResourceRelationType>;
-    dct:created "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
-    dct:issued "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
+    dct:created "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
+    dct:issued "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
     ds-ldes:sequence 129;
     dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
@@ -2417,12 +2417,12 @@
     a dsv:ObjectPropertyProfile;
     dsv:objectPropertyRange <https://model.ccmm.cz/research-data/ResourceRelationType>.
 
-<> tree:member <https://model.ccmm.cz/research-data/ResourceRelationType.label#2026-09-27T10:42:44.387Z-130>.
+<> tree:member <https://model.ccmm.cz/research-data/ResourceRelationType.label#2026-09-29T09:55:31.207Z-130>.
 
-<https://model.ccmm.cz/research-data/ResourceRelationType.label#2026-09-27T10:42:44.387Z-130> a as:Create;
+<https://model.ccmm.cz/research-data/ResourceRelationType.label#2026-09-29T09:55:31.207Z-130> a as:Create;
     dct:isVersionOf <https://model.ccmm.cz/research-data/ResourceRelationType.label>;
-    dct:created "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
-    dct:issued "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
+    dct:created "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
+    dct:issued "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
     ds-ldes:sequence 130;
     dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
@@ -2435,12 +2435,12 @@
     a dsv:DatatypePropertyProfile;
     dsv:datatypePropertyRange <https://ofn.gov.cz/zdroj/základní-datové-typy/2020-07-01/text>.
 
-<> tree:member <https://model.ccmm.cz/research-data/Location.hasLocationRelationType#2026-09-27T10:42:44.387Z-131>.
+<> tree:member <https://model.ccmm.cz/research-data/Location.hasLocationRelationType#2026-09-29T09:55:31.207Z-131>.
 
-<https://model.ccmm.cz/research-data/Location.hasLocationRelationType#2026-09-27T10:42:44.387Z-131> a as:Create;
+<https://model.ccmm.cz/research-data/Location.hasLocationRelationType#2026-09-29T09:55:31.207Z-131> a as:Create;
     dct:isVersionOf <https://model.ccmm.cz/research-data/Location.hasLocationRelationType>;
-    dct:created "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
-    dct:issued "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
+    dct:created "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
+    dct:issued "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
     ds-ldes:sequence 131;
     dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
@@ -2453,12 +2453,12 @@
     a dsv:ObjectPropertyProfile;
     dsv:objectPropertyRange <https://model.ccmm.cz/research-data/LocationRelationType>.
 
-<> tree:member <https://model.ccmm.cz/research-data/LocationRelationType.label#2026-09-27T10:42:44.387Z-132>.
+<> tree:member <https://model.ccmm.cz/research-data/LocationRelationType.label#2026-09-29T09:55:31.207Z-132>.
 
-<https://model.ccmm.cz/research-data/LocationRelationType.label#2026-09-27T10:42:44.387Z-132> a as:Create;
+<https://model.ccmm.cz/research-data/LocationRelationType.label#2026-09-29T09:55:31.207Z-132> a as:Create;
     dct:isVersionOf <https://model.ccmm.cz/research-data/LocationRelationType.label>;
-    dct:created "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
-    dct:issued "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
+    dct:created "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
+    dct:issued "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
     ds-ldes:sequence 132;
     dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
@@ -2471,12 +2471,12 @@
     a dsv:DatatypePropertyProfile;
     dsv:datatypePropertyRange <https://ofn.gov.cz/zdroj/základní-datové-typy/2020-07-01/text>.
 
-<> tree:member <https://model.ccmm.cz/research-data/AlternateTitle.hasType#2026-09-27T10:42:44.387Z-133>.
+<> tree:member <https://model.ccmm.cz/research-data/AlternateTitle.hasType#2026-09-29T09:55:31.207Z-133>.
 
-<https://model.ccmm.cz/research-data/AlternateTitle.hasType#2026-09-27T10:42:44.387Z-133> a as:Create;
+<https://model.ccmm.cz/research-data/AlternateTitle.hasType#2026-09-29T09:55:31.207Z-133> a as:Create;
     dct:isVersionOf <https://model.ccmm.cz/research-data/AlternateTitle.hasType>;
-    dct:created "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
-    dct:issued "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
+    dct:created "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
+    dct:issued "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
     ds-ldes:sequence 133;
     dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
@@ -2489,12 +2489,12 @@
     a dsv:ObjectPropertyProfile;
     dsv:objectPropertyRange <https://model.ccmm.cz/research-data/AlternateTitleType>.
 
-<> tree:member <https://model.ccmm.cz/research-data/AlternateTitleType.label#2026-09-27T10:42:44.387Z-134>.
+<> tree:member <https://model.ccmm.cz/research-data/AlternateTitleType.label#2026-09-29T09:55:31.207Z-134>.
 
-<https://model.ccmm.cz/research-data/AlternateTitleType.label#2026-09-27T10:42:44.387Z-134> a as:Create;
+<https://model.ccmm.cz/research-data/AlternateTitleType.label#2026-09-29T09:55:31.207Z-134> a as:Create;
     dct:isVersionOf <https://model.ccmm.cz/research-data/AlternateTitleType.label>;
-    dct:created "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
-    dct:issued "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
+    dct:created "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
+    dct:issued "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
     ds-ldes:sequence 134;
     dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
@@ -2507,12 +2507,12 @@
     a dsv:DatatypePropertyProfile;
     dsv:datatypePropertyRange <https://ofn.gov.cz/zdroj/základní-datové-typy/2020-07-01/text>.
 
-<> tree:member <https://model.ccmm.cz/research-data/IdentifierScheme#2026-09-27T10:42:44.387Z-135>.
+<> tree:member <https://model.ccmm.cz/research-data/IdentifierScheme#2026-09-29T09:55:31.207Z-135>.
 
-<https://model.ccmm.cz/research-data/IdentifierScheme#2026-09-27T10:42:44.387Z-135> a as:Create;
+<https://model.ccmm.cz/research-data/IdentifierScheme#2026-09-29T09:55:31.207Z-135> a as:Create;
     dct:isVersionOf <https://model.ccmm.cz/research-data/IdentifierScheme>;
-    dct:created "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
-    dct:issued "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
+    dct:created "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
+    dct:issued "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
     ds-ldes:sequence 135;
     dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
@@ -2532,12 +2532,12 @@
     dsv:class <https://model.ccmm.cz/vocabulary/ccmm#IdentifierScheme>;
     dsv:classRole role:supportive.
 
-<> tree:member <https://model.ccmm.cz/research-data/IdentifierScheme.label#2026-09-27T10:42:44.387Z-136>.
+<> tree:member <https://model.ccmm.cz/research-data/IdentifierScheme.label#2026-09-29T09:55:31.207Z-136>.
 
-<https://model.ccmm.cz/research-data/IdentifierScheme.label#2026-09-27T10:42:44.387Z-136> a as:Create;
+<https://model.ccmm.cz/research-data/IdentifierScheme.label#2026-09-29T09:55:31.207Z-136> a as:Create;
     dct:isVersionOf <https://model.ccmm.cz/research-data/IdentifierScheme.label>;
-    dct:created "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
-    dct:issued "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
+    dct:created "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
+    dct:issued "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
     ds-ldes:sequence 136;
     dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
@@ -2549,12 +2549,12 @@
     a dsv:DatatypePropertyProfile;
     dsv:datatypePropertyRange rdf:langString.
 
-<> tree:member <https://model.ccmm.cz/research-data/Identifier.inScheme#2026-09-27T10:42:44.387Z-137>.
+<> tree:member <https://model.ccmm.cz/research-data/Identifier.inScheme#2026-09-29T09:55:31.207Z-137>.
 
-<https://model.ccmm.cz/research-data/Identifier.inScheme#2026-09-27T10:42:44.387Z-137> a as:Create;
+<https://model.ccmm.cz/research-data/Identifier.inScheme#2026-09-29T09:55:31.207Z-137> a as:Create;
     dct:isVersionOf <https://model.ccmm.cz/research-data/Identifier.inScheme>;
-    dct:created "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
-    dct:issued "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
+    dct:created "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
+    dct:issued "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
     ds-ldes:sequence 137;
     dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
@@ -2575,12 +2575,12 @@
     a dsv:ObjectPropertyProfile;
     dsv:objectPropertyRange <https://model.ccmm.cz/research-data/IdentifierScheme>.
 
-<> tree:member <https://model.ccmm.cz/research-data/TimeInstant.dateTime#2026-09-27T10:42:44.387Z-138>.
+<> tree:member <https://model.ccmm.cz/research-data/TimeInstant.dateTime#2026-09-29T09:55:31.207Z-138>.
 
-<https://model.ccmm.cz/research-data/TimeInstant.dateTime#2026-09-27T10:42:44.387Z-138> a as:Create;
+<https://model.ccmm.cz/research-data/TimeInstant.dateTime#2026-09-29T09:55:31.207Z-138> a as:Create;
     dct:isVersionOf <https://model.ccmm.cz/research-data/TimeInstant.dateTime>;
-    dct:created "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
-    dct:issued "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
+    dct:created "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
+    dct:issued "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
     ds-ldes:sequence 138;
     dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
@@ -2593,12 +2593,12 @@
     a dsv:DatatypePropertyProfile;
     dsv:datatypePropertyRange xsd:dateTime.
 
-<> tree:member <https://model.ccmm.cz/research-data/Geometry.wellKnownTextLiteral#2026-09-27T10:42:44.387Z-139>.
+<> tree:member <https://model.ccmm.cz/research-data/Geometry.wellKnownTextLiteral#2026-09-29T09:55:31.207Z-139>.
 
-<https://model.ccmm.cz/research-data/Geometry.wellKnownTextLiteral#2026-09-27T10:42:44.387Z-139> a as:Create;
+<https://model.ccmm.cz/research-data/Geometry.wellKnownTextLiteral#2026-09-29T09:55:31.207Z-139> a as:Create;
     dct:isVersionOf <https://model.ccmm.cz/research-data/Geometry.wellKnownTextLiteral>;
-    dct:created "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
-    dct:issued "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
+    dct:created "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
+    dct:issued "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
     ds-ldes:sequence 139;
     dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
@@ -2610,12 +2610,12 @@
     a dsv:DatatypePropertyProfile;
     dsv:datatypePropertyRange <http://www.opengis.net/ont/geosparql#wktLiteral>.
 
-<> tree:member <https://model.ccmm.cz/research-data/Geometry.geographyMarkupLanguageLiteral#2026-09-27T10:42:44.387Z-140>.
+<> tree:member <https://model.ccmm.cz/research-data/Geometry.geographyMarkupLanguageLiteral#2026-09-29T09:55:31.207Z-140>.
 
-<https://model.ccmm.cz/research-data/Geometry.geographyMarkupLanguageLiteral#2026-09-27T10:42:44.387Z-140> a as:Create;
+<https://model.ccmm.cz/research-data/Geometry.geographyMarkupLanguageLiteral#2026-09-29T09:55:31.207Z-140> a as:Create;
     dct:isVersionOf <https://model.ccmm.cz/research-data/Geometry.geographyMarkupLanguageLiteral>;
-    dct:created "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
-    dct:issued "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
+    dct:created "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
+    dct:issued "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
     ds-ldes:sequence 140;
     dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
@@ -2627,12 +2627,12 @@
     a dsv:DatatypePropertyProfile;
     dsv:datatypePropertyRange <http://www.opengis.net/ont/geosparql#gmlLiteral>.
 
-<> tree:member <https://model.ccmm.cz/research-data/Description#2026-09-27T10:42:44.387Z-141>.
+<> tree:member <https://model.ccmm.cz/research-data/Description#2026-09-29T09:55:31.207Z-141>.
 
-<https://model.ccmm.cz/research-data/Description#2026-09-27T10:42:44.387Z-141> a as:Create;
+<https://model.ccmm.cz/research-data/Description#2026-09-29T09:55:31.207Z-141> a as:Create;
     dct:isVersionOf <https://model.ccmm.cz/research-data/Description>;
-    dct:created "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
-    dct:issued "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
+    dct:created "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
+    dct:issued "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
     ds-ldes:sequence 141;
     dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
@@ -2643,12 +2643,12 @@
     dsv:class <https://w3id.org/tib/datacite/class/Description>;
     dsv:classRole role:supportive.
 
-<> tree:member <https://model.ccmm.cz/research-data/Description.descriptionText#2026-09-27T10:42:44.387Z-142>.
+<> tree:member <https://model.ccmm.cz/research-data/Description.descriptionText#2026-09-29T09:55:31.207Z-142>.
 
-<https://model.ccmm.cz/research-data/Description.descriptionText#2026-09-27T10:42:44.387Z-142> a as:Create;
+<https://model.ccmm.cz/research-data/Description.descriptionText#2026-09-29T09:55:31.207Z-142> a as:Create;
     dct:isVersionOf <https://model.ccmm.cz/research-data/Description.descriptionText>;
-    dct:created "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
-    dct:issued "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
+    dct:created "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
+    dct:issued "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
     ds-ldes:sequence 142;
     dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
@@ -2661,12 +2661,12 @@
     a dsv:DatatypePropertyProfile;
     dsv:datatypePropertyRange rdf:langString.
 
-<> tree:member <https://model.ccmm.cz/research-data/Dataset.hasDescription#2026-09-27T10:42:44.387Z-143>.
+<> tree:member <https://model.ccmm.cz/research-data/Dataset.hasDescription#2026-09-29T09:55:31.207Z-143>.
 
-<https://model.ccmm.cz/research-data/Dataset.hasDescription#2026-09-27T10:42:44.387Z-143> a as:Create;
+<https://model.ccmm.cz/research-data/Dataset.hasDescription#2026-09-29T09:55:31.207Z-143> a as:Create;
     dct:isVersionOf <https://model.ccmm.cz/research-data/Dataset.hasDescription>;
-    dct:created "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
-    dct:issued "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
+    dct:created "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
+    dct:issued "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
     ds-ldes:sequence 143;
     dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
@@ -2679,12 +2679,12 @@
     a dsv:ObjectPropertyProfile;
     dsv:objectPropertyRange <https://model.ccmm.cz/research-data/Description>.
 
-<> tree:member <https://model.ccmm.cz/research-data/DescriptionType#2026-09-27T10:42:44.387Z-144>.
+<> tree:member <https://model.ccmm.cz/research-data/DescriptionType#2026-09-29T09:55:31.207Z-144>.
 
-<https://model.ccmm.cz/research-data/DescriptionType#2026-09-27T10:42:44.387Z-144> a as:Create;
+<https://model.ccmm.cz/research-data/DescriptionType#2026-09-29T09:55:31.207Z-144> a as:Create;
     dct:isVersionOf <https://model.ccmm.cz/research-data/DescriptionType>;
-    dct:created "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
-    dct:issued "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
+    dct:created "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
+    dct:issued "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
     ds-ldes:sequence 144;
     dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
@@ -2695,12 +2695,12 @@
     a dsv:ClassProfile;
     dsv:classRole role:supportive.
 
-<> tree:member <https://model.ccmm.cz/research-data/Description.hasDescriptionType#2026-09-27T10:42:44.387Z-145>.
+<> tree:member <https://model.ccmm.cz/research-data/Description.hasDescriptionType#2026-09-29T09:55:31.207Z-145>.
 
-<https://model.ccmm.cz/research-data/Description.hasDescriptionType#2026-09-27T10:42:44.387Z-145> a as:Create;
+<https://model.ccmm.cz/research-data/Description.hasDescriptionType#2026-09-29T09:55:31.207Z-145> a as:Create;
     dct:isVersionOf <https://model.ccmm.cz/research-data/Description.hasDescriptionType>;
-    dct:created "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
-    dct:issued "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
+    dct:created "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
+    dct:issued "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
     ds-ldes:sequence 145;
     dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
@@ -2713,12 +2713,12 @@
     a dsv:ObjectPropertyProfile;
     dsv:objectPropertyRange <https://model.ccmm.cz/research-data/DescriptionType>.
 
-<> tree:member <https://model.ccmm.cz/research-data/DescriptionType.label#2026-09-27T10:42:44.387Z-146>.
+<> tree:member <https://model.ccmm.cz/research-data/DescriptionType.label#2026-09-29T09:55:31.207Z-146>.
 
-<https://model.ccmm.cz/research-data/DescriptionType.label#2026-09-27T10:42:44.387Z-146> a as:Create;
+<https://model.ccmm.cz/research-data/DescriptionType.label#2026-09-29T09:55:31.207Z-146> a as:Create;
     dct:isVersionOf <https://model.ccmm.cz/research-data/DescriptionType.label>;
-    dct:created "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
-    dct:issued "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
+    dct:created "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
+    dct:issued "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
     ds-ldes:sequence 146;
     dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
@@ -2731,12 +2731,12 @@
     a dsv:DatatypePropertyProfile;
     dsv:datatypePropertyRange <https://ofn.gov.cz/zdroj/základní-datové-typy/2020-07-01/text>.
 
-<> tree:member <https://model.ccmm.cz/research-data/ChecksumAlgorithm.label#2026-09-27T10:42:44.387Z-147>.
+<> tree:member <https://model.ccmm.cz/research-data/ChecksumAlgorithm.label#2026-09-29T09:55:31.207Z-147>.
 
-<https://model.ccmm.cz/research-data/ChecksumAlgorithm.label#2026-09-27T10:42:44.387Z-147> a as:Create;
+<https://model.ccmm.cz/research-data/ChecksumAlgorithm.label#2026-09-29T09:55:31.207Z-147> a as:Create;
     dct:isVersionOf <https://model.ccmm.cz/research-data/ChecksumAlgorithm.label>;
-    dct:created "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
-    dct:issued "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
+    dct:created "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
+    dct:issued "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
     ds-ldes:sequence 147;
     dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
@@ -2756,12 +2756,12 @@
     a dsv:DatatypePropertyProfile;
     dsv:datatypePropertyRange rdf:langString.
 
-<> tree:member <https://model.ccmm.cz/research-data/TimeReference#2026-09-27T10:42:44.387Z-148>.
+<> tree:member <https://model.ccmm.cz/research-data/TimeReference#2026-09-29T09:55:31.207Z-148>.
 
-<https://model.ccmm.cz/research-data/TimeReference#2026-09-27T10:42:44.387Z-148> a as:Create;
+<https://model.ccmm.cz/research-data/TimeReference#2026-09-29T09:55:31.207Z-148> a as:Create;
     dct:isVersionOf <https://model.ccmm.cz/research-data/TimeReference>;
-    dct:created "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
-    dct:issued "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
+    dct:created "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
+    dct:issued "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
     ds-ldes:sequence 148;
     dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
@@ -2776,12 +2776,12 @@
     dsv:class <https://model.ccmm.cz/vocabulary/ccmm#TimeReference>;
     dsv:classRole role:supportive.
 
-<> tree:member <https://model.ccmm.cz/research-data/TimeReference.hasTemporalRepresentation#2026-09-27T10:42:44.387Z-149>.
+<> tree:member <https://model.ccmm.cz/research-data/TimeReference.hasTemporalRepresentation#2026-09-29T09:55:31.207Z-149>.
 
-<https://model.ccmm.cz/research-data/TimeReference.hasTemporalRepresentation#2026-09-27T10:42:44.387Z-149> a as:Create;
+<https://model.ccmm.cz/research-data/TimeReference.hasTemporalRepresentation#2026-09-29T09:55:31.207Z-149> a as:Create;
     dct:isVersionOf <https://model.ccmm.cz/research-data/TimeReference.hasTemporalRepresentation>;
-    dct:created "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
-    dct:issued "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
+    dct:created "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
+    dct:issued "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
     ds-ldes:sequence 149;
     dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
@@ -2792,12 +2792,12 @@
     a dsv:ObjectPropertyProfile;
     dsv:objectPropertyRange <https://model.ccmm.cz/research-data/TimeRepresentation>.
 
-<> tree:member <https://model.ccmm.cz/research-data/Identifier.authorized#2026-09-27T10:42:44.387Z-150>.
+<> tree:member <https://model.ccmm.cz/research-data/Identifier.authorized#2026-09-29T09:55:31.207Z-150>.
 
-<https://model.ccmm.cz/research-data/Identifier.authorized#2026-09-27T10:42:44.387Z-150> a as:Create;
+<https://model.ccmm.cz/research-data/Identifier.authorized#2026-09-29T09:55:31.207Z-150> a as:Create;
     dct:isVersionOf <https://model.ccmm.cz/research-data/Identifier.authorized>;
-    dct:created "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
-    dct:issued "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
+    dct:created "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
+    dct:issued "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
     ds-ldes:sequence 150;
     dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
@@ -2815,12 +2815,12 @@
     a dsv:DatatypePropertyProfile;
     dsv:datatypePropertyRange xsd:boolean.
 
-<> tree:member <https://model.ccmm.cz/research-data/Resource#2026-09-27T10:42:44.387Z-151>.
+<> tree:member <https://model.ccmm.cz/research-data/Resource#2026-09-29T09:55:31.207Z-151>.
 
-<https://model.ccmm.cz/research-data/Resource#2026-09-27T10:42:44.387Z-151> a as:Create;
+<https://model.ccmm.cz/research-data/Resource#2026-09-29T09:55:31.207Z-151> a as:Create;
     dct:isVersionOf <https://model.ccmm.cz/research-data/Resource>;
-    dct:created "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
-    dct:issued "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
+    dct:created "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
+    dct:issued "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
     ds-ldes:sequence 151;
     dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
@@ -2831,12 +2831,12 @@
     a dsv:ClassProfile;
     dsv:classRole role:main.
 
-<> tree:member <https://model.ccmm.cz/research-data/Resource.title#2026-09-27T10:42:44.387Z-152>.
+<> tree:member <https://model.ccmm.cz/research-data/Resource.title#2026-09-29T09:55:31.207Z-152>.
 
-<https://model.ccmm.cz/research-data/Resource.title#2026-09-27T10:42:44.387Z-152> a as:Create;
+<https://model.ccmm.cz/research-data/Resource.title#2026-09-29T09:55:31.207Z-152> a as:Create;
     dct:isVersionOf <https://model.ccmm.cz/research-data/Resource.title>;
-    dct:created "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
-    dct:issued "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
+    dct:created "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
+    dct:issued "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
     ds-ldes:sequence 152;
     dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
@@ -2853,12 +2853,12 @@
     a dsv:DatatypePropertyProfile;
     dsv:datatypePropertyRange xsd:string.
 
-<> tree:member <https://model.ccmm.cz/research-data/Resource.hasAlternateTitle#2026-09-27T10:42:44.387Z-153>.
+<> tree:member <https://model.ccmm.cz/research-data/Resource.hasAlternateTitle#2026-09-29T09:55:31.207Z-153>.
 
-<https://model.ccmm.cz/research-data/Resource.hasAlternateTitle#2026-09-27T10:42:44.387Z-153> a as:Create;
+<https://model.ccmm.cz/research-data/Resource.hasAlternateTitle#2026-09-29T09:55:31.207Z-153> a as:Create;
     dct:isVersionOf <https://model.ccmm.cz/research-data/Resource.hasAlternateTitle>;
-    dct:created "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
-    dct:issued "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
+    dct:created "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
+    dct:issued "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
     ds-ldes:sequence 153;
     dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
@@ -2875,30 +2875,30 @@
     a dsv:ObjectPropertyProfile;
     dsv:objectPropertyRange <https://model.ccmm.cz/research-data/AlternateTitle>.
 
-<> tree:member <https://model.ccmm.cz/research-data/Resource.qualifiedAttribution#2026-09-27T10:42:44.387Z-154>.
+<> tree:member <https://model.ccmm.cz/research-data/Resource.qualifiedAttribution#2026-09-29T09:55:31.207Z-154>.
 
-<https://model.ccmm.cz/research-data/Resource.qualifiedAttribution#2026-09-27T10:42:44.387Z-154> a as:Create;
+<https://model.ccmm.cz/research-data/Resource.qualifiedAttribution#2026-09-29T09:55:31.207Z-154> a as:Create;
     dct:isVersionOf <https://model.ccmm.cz/research-data/Resource.qualifiedAttribution>;
-    dct:created "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
-    dct:issued "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
+    dct:created "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
+    dct:issued "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
     ds-ldes:sequence 154;
     dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
     skos:prefLabel "qualified attribution"@en;
-    skos:definition "An Agent having some form of responsibility for the resource. "@en;
-    skos:scopeNote "Link to a description of a relationship between resource and an agent with the specification of the role of agent in this relationship. \nIf the resource is Dataset, it has to have at least one qualified attribution relation with the role Creator, also, it is recommended to have other qualified relation to the organization with the role Publisher."@en;
+    skos:definition "A link to a description of a relationship between resource and an agent with the specification of the role of agent in this relationship."@en;
+    skos:scopeNote "If the resource is Dataset, it has to have at least one qualified attribution relation with the role Creator, also, it is recommended to have other qualified relation to the organization with the role Publisher."@en;
     dsv:profileOf <https://mff-uk.github.io/specifications/dcat-ap#Dataset.qualifiedAttribution>;
     dsv:cardinality cardinality:0n;
     dsv:domain <https://model.ccmm.cz/research-data/Resource>;
     a dsv:ObjectPropertyProfile;
     dsv:objectPropertyRange <https://model.ccmm.cz/research-data/ResourceAttribution>.
 
-<> tree:member <https://model.ccmm.cz/research-data/Resource.hasTimeReference#2026-09-27T10:42:44.387Z-155>.
+<> tree:member <https://model.ccmm.cz/research-data/Resource.hasTimeReference#2026-09-29T09:55:31.207Z-155>.
 
-<https://model.ccmm.cz/research-data/Resource.hasTimeReference#2026-09-27T10:42:44.387Z-155> a as:Create;
+<https://model.ccmm.cz/research-data/Resource.hasTimeReference#2026-09-29T09:55:31.207Z-155> a as:Create;
     dct:isVersionOf <https://model.ccmm.cz/research-data/Resource.hasTimeReference>;
-    dct:created "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
-    dct:issued "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
+    dct:created "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
+    dct:issued "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
     ds-ldes:sequence 155;
     dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
@@ -2915,12 +2915,12 @@
     a dsv:ObjectPropertyProfile;
     dsv:objectPropertyRange <https://model.ccmm.cz/research-data/TimeReference>.
 
-<> tree:member <https://model.ccmm.cz/research-data/Resource.hasResourceType#2026-09-27T10:42:44.387Z-156>.
+<> tree:member <https://model.ccmm.cz/research-data/Resource.hasResourceType#2026-09-29T09:55:31.207Z-156>.
 
-<https://model.ccmm.cz/research-data/Resource.hasResourceType#2026-09-27T10:42:44.387Z-156> a as:Create;
+<https://model.ccmm.cz/research-data/Resource.hasResourceType#2026-09-29T09:55:31.207Z-156> a as:Create;
     dct:isVersionOf <https://model.ccmm.cz/research-data/Resource.hasResourceType>;
-    dct:created "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
-    dct:issued "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
+    dct:created "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
+    dct:issued "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
     ds-ldes:sequence 156;
     dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
@@ -2933,12 +2933,12 @@
     a dsv:ObjectPropertyProfile;
     dsv:objectPropertyRange <https://model.ccmm.cz/research-data/ResourceType>.
 
-<> tree:member <https://model.ccmm.cz/research-data/Identifier#2026-09-27T10:42:44.387Z-157>.
+<> tree:member <https://model.ccmm.cz/research-data/Identifier#2026-09-29T09:55:31.207Z-157>.
 
-<https://model.ccmm.cz/research-data/Identifier#2026-09-27T10:42:44.387Z-157> a as:Create;
+<https://model.ccmm.cz/research-data/Identifier#2026-09-29T09:55:31.207Z-157> a as:Create;
     dct:isVersionOf <https://model.ccmm.cz/research-data/Identifier>;
-    dct:created "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
-    dct:issued "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
+    dct:created "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
+    dct:issued "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
     ds-ldes:sequence 157;
     dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
@@ -2949,12 +2949,12 @@
     a dsv:ClassProfile;
     dsv:classRole role:supportive.
 
-<> tree:member <https://model.ccmm.cz/research-data/Dataset.hasIdentifier#2026-09-27T10:42:44.387Z-158>.
+<> tree:member <https://model.ccmm.cz/research-data/Dataset.hasIdentifier#2026-09-29T09:55:31.207Z-158>.
 
-<https://model.ccmm.cz/research-data/Dataset.hasIdentifier#2026-09-27T10:42:44.387Z-158> a as:Create;
+<https://model.ccmm.cz/research-data/Dataset.hasIdentifier#2026-09-29T09:55:31.207Z-158> a as:Create;
     dct:isVersionOf <https://model.ccmm.cz/research-data/Dataset.hasIdentifier>;
-    dct:created "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
-    dct:issued "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
+    dct:created "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
+    dct:issued "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
     ds-ldes:sequence 158;
     dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
@@ -2966,12 +2966,12 @@
     a dsv:ObjectPropertyProfile;
     dsv:objectPropertyRange <https://model.ccmm.cz/research-data/Identifier>.
 
-<> tree:member <https://model.ccmm.cz/research-data/Identifier.value#2026-09-27T10:42:44.387Z-159>.
+<> tree:member <https://model.ccmm.cz/research-data/Identifier.value#2026-09-29T09:55:31.207Z-159>.
 
-<https://model.ccmm.cz/research-data/Identifier.value#2026-09-27T10:42:44.387Z-159> a as:Create;
+<https://model.ccmm.cz/research-data/Identifier.value#2026-09-29T09:55:31.207Z-159> a as:Create;
     dct:isVersionOf <https://model.ccmm.cz/research-data/Identifier.value>;
-    dct:created "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
-    dct:issued "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
+    dct:created "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
+    dct:issued "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
     ds-ldes:sequence 159;
     dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
@@ -2989,12 +2989,12 @@
     a dsv:DatatypePropertyProfile;
     dsv:datatypePropertyRange rdfs:Literal.
 
-<> tree:member <https://model.ccmm.cz/research-data/Resource.hasIdentifier#2026-09-27T10:42:44.387Z-160>.
+<> tree:member <https://model.ccmm.cz/research-data/Resource.hasIdentifier#2026-09-29T09:55:31.207Z-160>.
 
-<https://model.ccmm.cz/research-data/Resource.hasIdentifier#2026-09-27T10:42:44.387Z-160> a as:Create;
+<https://model.ccmm.cz/research-data/Resource.hasIdentifier#2026-09-29T09:55:31.207Z-160> a as:Create;
     dct:isVersionOf <https://model.ccmm.cz/research-data/Resource.hasIdentifier>;
-    dct:created "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
-    dct:issued "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
+    dct:created "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
+    dct:issued "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
     ds-ldes:sequence 160;
     dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
@@ -3006,12 +3006,12 @@
     a dsv:ObjectPropertyProfile;
     dsv:objectPropertyRange <https://model.ccmm.cz/research-data/Identifier>.
 
-<> tree:member <https://model.ccmm.cz/research-data/Dataset.keyword#2026-09-27T10:42:44.387Z-161>.
+<> tree:member <https://model.ccmm.cz/research-data/Dataset.keyword#2026-09-29T09:55:31.207Z-161>.
 
-<https://model.ccmm.cz/research-data/Dataset.keyword#2026-09-27T10:42:44.387Z-161> a as:Create;
+<https://model.ccmm.cz/research-data/Dataset.keyword#2026-09-29T09:55:31.207Z-161> a as:Create;
     dct:isVersionOf <https://model.ccmm.cz/research-data/Dataset.keyword>;
-    dct:created "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
-    dct:issued "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
+    dct:created "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
+    dct:issued "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
     ds-ldes:sequence 161;
     dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
@@ -3029,12 +3029,12 @@
     a dsv:DatatypePropertyProfile;
     dsv:datatypePropertyRange rdf:langString.
 
-<> tree:member <https://model.ccmm.cz/research-data/MetadataRecord.title#2026-09-27T10:42:44.387Z-162>.
+<> tree:member <https://model.ccmm.cz/research-data/MetadataRecord.title#2026-09-29T09:55:31.207Z-162>.
 
-<https://model.ccmm.cz/research-data/MetadataRecord.title#2026-09-27T10:42:44.387Z-162> a as:Create;
+<https://model.ccmm.cz/research-data/MetadataRecord.title#2026-09-29T09:55:31.207Z-162> a as:Create;
     dct:isVersionOf <https://model.ccmm.cz/research-data/MetadataRecord.title>;
-    dct:created "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
-    dct:issued "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
+    dct:created "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
+    dct:issued "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
     ds-ldes:sequence 162;
     dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
@@ -3056,12 +3056,12 @@
     a dsv:DatatypePropertyProfile;
     dsv:datatypePropertyRange rdf:langString.
 
-<> tree:member <https://model.ccmm.cz/research-data/Location.label#2026-09-27T10:42:44.387Z-163>.
+<> tree:member <https://model.ccmm.cz/research-data/Location.label#2026-09-29T09:55:31.207Z-163>.
 
-<https://model.ccmm.cz/research-data/Location.label#2026-09-27T10:42:44.387Z-163> a as:Create;
+<https://model.ccmm.cz/research-data/Location.label#2026-09-29T09:55:31.207Z-163> a as:Create;
     dct:isVersionOf <https://model.ccmm.cz/research-data/Location.label>;
-    dct:created "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
-    dct:issued "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
+    dct:created "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
+    dct:issued "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
     ds-ldes:sequence 163;
     dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
@@ -3078,12 +3078,12 @@
     a dsv:DatatypePropertyProfile;
     dsv:datatypePropertyRange rdf:langString.
 
-<> tree:member <https://model.ccmm.cz/research-data/Distribution.title#2026-09-27T10:42:44.387Z-164>.
+<> tree:member <https://model.ccmm.cz/research-data/Distribution.title#2026-09-29T09:55:31.207Z-164>.
 
-<https://model.ccmm.cz/research-data/Distribution.title#2026-09-27T10:42:44.387Z-164> a as:Create;
+<https://model.ccmm.cz/research-data/Distribution.title#2026-09-29T09:55:31.207Z-164> a as:Create;
     dct:isVersionOf <https://model.ccmm.cz/research-data/Distribution.title>;
-    dct:created "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
-    dct:issued "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
+    dct:created "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
+    dct:issued "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
     ds-ldes:sequence 164;
     dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
@@ -3101,12 +3101,12 @@
     a dsv:DatatypePropertyProfile;
     dsv:datatypePropertyRange rdf:langString.
 
-<> tree:member <https://model.ccmm.cz/research-data/AlternateTitle.title#2026-09-27T10:42:44.387Z-165>.
+<> tree:member <https://model.ccmm.cz/research-data/AlternateTitle.title#2026-09-29T09:55:31.207Z-165>.
 
-<https://model.ccmm.cz/research-data/AlternateTitle.title#2026-09-27T10:42:44.387Z-165> a as:Create;
+<https://model.ccmm.cz/research-data/AlternateTitle.title#2026-09-29T09:55:31.207Z-165> a as:Create;
     dct:isVersionOf <https://model.ccmm.cz/research-data/AlternateTitle.title>;
-    dct:created "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
-    dct:issued "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
+    dct:created "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
+    dct:issued "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
     ds-ldes:sequence 165;
     dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
@@ -3123,12 +3123,12 @@
     a dsv:DatatypePropertyProfile;
     dsv:datatypePropertyRange rdf:langString.
 
-<> tree:member <https://model.ccmm.cz/research-data/Distribution.accessUrl#2026-09-27T10:42:44.387Z-166>.
+<> tree:member <https://model.ccmm.cz/research-data/Distribution.accessUrl#2026-09-29T09:55:31.207Z-166>.
 
-<https://model.ccmm.cz/research-data/Distribution.accessUrl#2026-09-27T10:42:44.387Z-166> a as:Create;
+<https://model.ccmm.cz/research-data/Distribution.accessUrl#2026-09-29T09:55:31.207Z-166> a as:Create;
     dct:isVersionOf <https://model.ccmm.cz/research-data/Distribution.accessUrl>;
-    dct:created "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
-    dct:issued "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
+    dct:created "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
+    dct:issued "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
     ds-ldes:sequence 166;
     dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
@@ -3150,12 +3150,12 @@
     a dsv:ObjectPropertyProfile;
     dsv:objectPropertyRange <https://model.ccmm.cz/research-data/Resource>.
 
-<> tree:member <https://model.ccmm.cz/research-data/Distribution-DownloadableFile.hasCompressionFormat#2026-09-27T10:42:44.387Z-167>.
+<> tree:member <https://model.ccmm.cz/research-data/Distribution-DownloadableFile.hasCompressionFormat#2026-09-29T09:55:31.207Z-167>.
 
-<https://model.ccmm.cz/research-data/Distribution-DownloadableFile.hasCompressionFormat#2026-09-27T10:42:44.387Z-167> a as:Create;
+<https://model.ccmm.cz/research-data/Distribution-DownloadableFile.hasCompressionFormat#2026-09-29T09:55:31.207Z-167> a as:Create;
     dct:isVersionOf <https://model.ccmm.cz/research-data/Distribution-DownloadableFile.hasCompressionFormat>;
-    dct:created "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
-    dct:issued "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
+    dct:created "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
+    dct:issued "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
     ds-ldes:sequence 167;
     dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
@@ -3168,30 +3168,30 @@
     a dsv:ObjectPropertyProfile;
     dsv:objectPropertyRange <https://model.ccmm.cz/research-data/MediaType>.
 
-<> tree:member <https://model.ccmm.cz/research-data/Distribution-DownloadableFile.hasPackagingFormat#2026-09-27T10:42:44.387Z-168>.
+<> tree:member <https://model.ccmm.cz/research-data/Distribution-DownloadableFile.hasPackagingFormat#2026-09-29T09:55:31.207Z-168>.
 
-<https://model.ccmm.cz/research-data/Distribution-DownloadableFile.hasPackagingFormat#2026-09-27T10:42:44.387Z-168> a as:Create;
+<https://model.ccmm.cz/research-data/Distribution-DownloadableFile.hasPackagingFormat#2026-09-29T09:55:31.207Z-168> a as:Create;
     dct:isVersionOf <https://model.ccmm.cz/research-data/Distribution-DownloadableFile.hasPackagingFormat>;
-    dct:created "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
-    dct:issued "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
+    dct:created "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
+    dct:issued "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
     ds-ldes:sequence 168;
     dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
     skos:prefLabel "has packaging format"@en;
     skos:definition "The format of the file in which one or more data files are grouped together, e.g., to enable a set of related files to be downloaded together."@en;
-    skos:scopeNote "This property SHOULD be used when the files in the distribution are packaged, e.g., in a TAR file, a ZIP file, a Frictionless Data Package or a Bagit file. The format SHOULD be expressed using a media type as defined by IANA (using value from https://www.iana.org/assignments/media-types/media-types.xhtml), if available."@en;
+    skos:scopeNote "This property SHOULD be used when the files in the distribution are packaged, e.g., in a TAR file, a ZIP file, a Frictionless Data Package or a Bagit file. If available, record the media type as a value from the IANA registry (using value from https://www.iana.org/assignments/media-types/media-types.xhtml)."@en;
     dsv:profileOf <https://mff-uk.github.io/specifications/dcat-ap#Distribution.packagingFormat>;
     dsv:cardinality cardinality:01;
     dsv:domain <https://model.ccmm.cz/research-data/Distribution-DownloadableFile>;
     a dsv:ObjectPropertyProfile;
     dsv:objectPropertyRange <https://model.ccmm.cz/research-data/MediaType>.
 
-<> tree:member <https://model.ccmm.cz/research-data/Distribution.hasLicence#2026-09-27T10:42:44.387Z-169>.
+<> tree:member <https://model.ccmm.cz/research-data/Distribution.hasLicence#2026-09-29T09:55:31.207Z-169>.
 
-<https://model.ccmm.cz/research-data/Distribution.hasLicence#2026-09-27T10:42:44.387Z-169> a as:Create;
+<https://model.ccmm.cz/research-data/Distribution.hasLicence#2026-09-29T09:55:31.207Z-169> a as:Create;
     dct:isVersionOf <https://model.ccmm.cz/research-data/Distribution.hasLicence>;
-    dct:created "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
-    dct:issued "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
+    dct:created "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
+    dct:issued "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
     ds-ldes:sequence 169;
     dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
@@ -3208,12 +3208,12 @@
     a dsv:ObjectPropertyProfile;
     dsv:objectPropertyRange <https://model.ccmm.cz/research-data/LicenceDocument>.
 
-<> tree:member <https://model.ccmm.cz/research-data/DataService.hasLicence#2026-09-27T10:42:44.387Z-170>.
+<> tree:member <https://model.ccmm.cz/research-data/DataService.hasLicence#2026-09-29T09:55:31.207Z-170>.
 
-<https://model.ccmm.cz/research-data/DataService.hasLicence#2026-09-27T10:42:44.387Z-170> a as:Create;
+<https://model.ccmm.cz/research-data/DataService.hasLicence#2026-09-29T09:55:31.207Z-170> a as:Create;
     dct:isVersionOf <https://model.ccmm.cz/research-data/DataService.hasLicence>;
-    dct:created "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
-    dct:issued "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
+    dct:created "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
+    dct:issued "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
     ds-ldes:sequence 170;
     dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
@@ -3234,12 +3234,12 @@
     a dsv:ObjectPropertyProfile;
     dsv:objectPropertyRange <https://model.ccmm.cz/research-data/LicenceDocument>.
 
-<> tree:member <https://model.ccmm.cz/research-data/Dataset.accessRights#2026-09-27T10:42:44.387Z-171>.
+<> tree:member <https://model.ccmm.cz/research-data/Dataset.accessRights#2026-09-29T09:55:31.207Z-171>.
 
-<https://model.ccmm.cz/research-data/Dataset.accessRights#2026-09-27T10:42:44.387Z-171> a as:Create;
+<https://model.ccmm.cz/research-data/Dataset.accessRights#2026-09-29T09:55:31.207Z-171> a as:Create;
     dct:isVersionOf <https://model.ccmm.cz/research-data/Dataset.accessRights>;
-    dct:created "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
-    dct:issued "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
+    dct:created "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
+    dct:issued "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
     ds-ldes:sequence 171;
     dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
@@ -3252,17 +3252,17 @@
     a dsv:ObjectPropertyProfile;
     dsv:objectPropertyRange <https://model.ccmm.cz/research-data/AccessRights>.
 
-<> tree:member <https://model.ccmm.cz/research-data/Distribution.rights#2026-09-27T10:42:44.387Z-172>.
+<> tree:member <https://model.ccmm.cz/research-data/Distribution.rights#2026-09-29T09:55:31.207Z-172>.
 
-<https://model.ccmm.cz/research-data/Distribution.rights#2026-09-27T10:42:44.387Z-172> a as:Create;
+<https://model.ccmm.cz/research-data/Distribution.rights#2026-09-29T09:55:31.207Z-172> a as:Create;
     dct:isVersionOf <https://model.ccmm.cz/research-data/Distribution.rights>;
-    dct:created "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
-    dct:issued "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
+    dct:created "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
+    dct:issued "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
     ds-ldes:sequence 172;
     dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
     skos:prefLabel "has rights"@en;
-    skos:scopeNote "Use IRI identifier from the register http://purl.org/coar/access_right/. Recommended mapping of values from COAR to https://semiceu.github.io/DCAT-AP/drafts/latest/#properties-with-a-recommended-use-of-controlled-vocabularies:\nembargoed access, metadata only access (:NON_PUBLIC),\nopen access (:PUBLIC),\nrestricted access (:RESTRICTED)."@en;
+    skos:scopeNote "Use an IRI identifier from the register http://purl.org/coar/access_right/. Recommended mapping of values from COAR to https://semiceu.github.io/DCAT-AP/drafts/latest/#properties-with-a-recommended-use-of-controlled-vocabularies is: \n- embargoed access, metadata only access mapped to :NON_PUBLIC,\n- open access mapped to :PUBLIC,\n- restricted access mapped to :RESTRICTED."@en;
     dsv:profileOf <https://mff-uk.github.io/specifications/dcat-ap#Distribution.rights>;
     dsv:reusesPropertyValue [
   a dsv:PropertyValueReuse;
@@ -3275,17 +3275,17 @@
     a dsv:ObjectPropertyProfile;
     dsv:objectPropertyRange <https://model.ccmm.cz/research-data/AccessRights>.
 
-<> tree:member <https://model.ccmm.cz/research-data/Repository.qualifiedAttribution#2026-09-27T10:42:44.387Z-173>.
+<> tree:member <https://model.ccmm.cz/research-data/Repository.qualifiedAttribution#2026-09-29T09:55:31.207Z-173>.
 
-<https://model.ccmm.cz/research-data/Repository.qualifiedAttribution#2026-09-27T10:42:44.387Z-173> a as:Create;
+<https://model.ccmm.cz/research-data/Repository.qualifiedAttribution#2026-09-29T09:55:31.207Z-173> a as:Create;
     dct:isVersionOf <https://model.ccmm.cz/research-data/Repository.qualifiedAttribution>;
-    dct:created "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
-    dct:issued "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
+    dct:created "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
+    dct:issued "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
     ds-ldes:sequence 173;
     dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
-    skos:definition "Link to a description of a relationship between repository and agent with the specification of the role of agent in this relationship."@en;
-    skos:scopeNote "Relationship shall contain at least one agent with role \"Publisher\" from code list https://vocabs.ccmm.cz/registry/codelist/AgentRole/."@en;
+    skos:definition "A link to a description of a relationship between repository and agent with the specification of the role of agent in this relationship."@en;
+    skos:scopeNote "The relationship shall contain at least one agent with the role \"Publisher\" from code list https://vocabs.ccmm.cz/registry/codelist/AgentRole/."@en;
     dsv:profileOf <https://mff-uk.github.io/specifications/dcat-ap#Dataset.qualifiedAttribution>;
     dsv:reusesPropertyValue [
   a dsv:PropertyValueReuse;
@@ -3298,12 +3298,12 @@
     a dsv:ObjectPropertyProfile;
     dsv:objectPropertyRange <https://model.ccmm.cz/research-data/ResourceAttribution>.
 
-<> tree:member <https://model.ccmm.cz/research-data/ProvenanceActivity#2026-09-27T10:42:44.387Z-174>.
+<> tree:member <https://model.ccmm.cz/research-data/ProvenanceActivity#2026-09-29T09:55:31.207Z-174>.
 
-<https://model.ccmm.cz/research-data/ProvenanceActivity#2026-09-27T10:42:44.387Z-174> a as:Create;
+<https://model.ccmm.cz/research-data/ProvenanceActivity#2026-09-29T09:55:31.207Z-174> a as:Create;
     dct:isVersionOf <https://model.ccmm.cz/research-data/ProvenanceActivity>;
-    dct:created "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
-    dct:issued "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
+    dct:created "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
+    dct:issued "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
     ds-ldes:sequence 174;
     dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
@@ -3319,17 +3319,17 @@
     a dsv:ClassProfile;
     dsv:classRole role:supportive.
 
-<> tree:member <https://model.ccmm.cz/research-data/Dataset.wasGeneratedBy#2026-09-27T10:42:44.387Z-175>.
+<> tree:member <https://model.ccmm.cz/research-data/Dataset.wasGeneratedBy#2026-09-29T09:55:31.207Z-175>.
 
-<https://model.ccmm.cz/research-data/Dataset.wasGeneratedBy#2026-09-27T10:42:44.387Z-175> a as:Create;
+<https://model.ccmm.cz/research-data/Dataset.wasGeneratedBy#2026-09-29T09:55:31.207Z-175> a as:Create;
     dct:isVersionOf <https://model.ccmm.cz/research-data/Dataset.wasGeneratedBy>;
-    dct:created "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
-    dct:issued "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
+    dct:created "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
+    dct:issued "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
     ds-ldes:sequence 175;
     dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
     skos:definition " An activity that generated, or provides the business context for, the creation of the dataset. "@en;
-    skos:scopeNote "The activity associated with generation of a dataset will typically be an initiative, project, mission, survey, or ongoing activity. Multiple prov:wasGeneratedBy properties can be used to indicate the dataset production context at various levels of granularity. Use prov:qualifiedGeneration to attach additional details about the relationship between the dataset and the activity, e.g., the exact time that the dataset was produced during the lifetime of a project."@en;
+    skos:scopeNote "The activity associated with generation of a dataset will be typically an initiative, project, mission, survey, or ongoing activity. Multiple prov:wasGeneratedBy properties can be used to indicate the dataset production context at various levels of granularity. Use prov:qualifiedGeneration to attach additional details about the relationship between the dataset and the activity, e.g., the exact time that the dataset was produced during the lifetime of a project."@en;
     dsv:profileOf <https://mff-uk.github.io/specifications/dcat-ap#Dataset.wasGeneratedBy>;
     dsv:reusesPropertyValue [
   a dsv:PropertyValueReuse;
@@ -3342,12 +3342,12 @@
     a dsv:ObjectPropertyProfile;
     dsv:objectPropertyRange <https://model.ccmm.cz/research-data/ProvenanceActivity>.
 
-<> tree:member <https://model.ccmm.cz/research-data/ProvenanceActivity.label#2026-09-27T10:42:44.387Z-176>.
+<> tree:member <https://model.ccmm.cz/research-data/ProvenanceActivity.label#2026-09-29T09:55:31.207Z-176>.
 
-<https://model.ccmm.cz/research-data/ProvenanceActivity.label#2026-09-27T10:42:44.387Z-176> a as:Create;
+<https://model.ccmm.cz/research-data/ProvenanceActivity.label#2026-09-29T09:55:31.207Z-176> a as:Create;
     dct:isVersionOf <https://model.ccmm.cz/research-data/ProvenanceActivity.label>;
-    dct:created "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
-    dct:issued "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
+    dct:created "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
+    dct:issued "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
     ds-ldes:sequence 176;
     dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
@@ -3364,12 +3364,12 @@
     a dsv:DatatypePropertyProfile;
     dsv:datatypePropertyRange rdf:langString.
 
-<> tree:member <https://model.ccmm.cz/research-data/CommonProvenanceModelJsonRepresentation#2026-09-27T10:42:44.387Z-177>.
+<> tree:member <https://model.ccmm.cz/research-data/CommonProvenanceModelJsonRepresentation#2026-09-29T09:55:31.207Z-177>.
 
-<https://model.ccmm.cz/research-data/CommonProvenanceModelJsonRepresentation#2026-09-27T10:42:44.387Z-177> a as:Create;
+<https://model.ccmm.cz/research-data/CommonProvenanceModelJsonRepresentation#2026-09-29T09:55:31.207Z-177> a as:Create;
     dct:isVersionOf <https://model.ccmm.cz/research-data/CommonProvenanceModelJsonRepresentation>;
-    dct:created "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
-    dct:issued "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
+    dct:created "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
+    dct:issued "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
     ds-ldes:sequence 177;
     dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
@@ -3388,12 +3388,12 @@
     dsv:class <https://model.ccmm.cz/vocabulary/ccmm#CPMJsonRepresentation>;
     dsv:classRole role:supportive.
 
-<> tree:member <https://model.ccmm.cz/research-data/Ro-crateJsonRepresentation#2026-09-27T10:42:44.387Z-178>.
+<> tree:member <https://model.ccmm.cz/research-data/Ro-crateJsonRepresentation#2026-09-29T09:55:31.207Z-178>.
 
-<https://model.ccmm.cz/research-data/Ro-crateJsonRepresentation#2026-09-27T10:42:44.387Z-178> a as:Create;
+<https://model.ccmm.cz/research-data/Ro-crateJsonRepresentation#2026-09-29T09:55:31.207Z-178> a as:Create;
     dct:isVersionOf <https://model.ccmm.cz/research-data/Ro-crateJsonRepresentation>;
-    dct:created "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
-    dct:issued "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
+    dct:created "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
+    dct:issued "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
     ds-ldes:sequence 178;
     dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
@@ -3412,12 +3412,12 @@
     dsv:class <https://model.ccmm.cz/vocabulary/ccmm#Ro-crateJsonRepresentation>;
     dsv:classRole role:supportive.
 
-<> tree:member <https://model.ccmm.cz/research-data/ProvenanceActivity.hasRo-crateJsonRepresentation#2026-09-27T10:42:44.387Z-179>.
+<> tree:member <https://model.ccmm.cz/research-data/ProvenanceActivity.hasRo-crateJsonRepresentation#2026-09-29T09:55:31.207Z-179>.
 
-<https://model.ccmm.cz/research-data/ProvenanceActivity.hasRo-crateJsonRepresentation#2026-09-27T10:42:44.387Z-179> a as:Create;
+<https://model.ccmm.cz/research-data/ProvenanceActivity.hasRo-crateJsonRepresentation#2026-09-29T09:55:31.207Z-179> a as:Create;
     dct:isVersionOf <https://model.ccmm.cz/research-data/ProvenanceActivity.hasRo-crateJsonRepresentation>;
-    dct:created "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
-    dct:issued "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
+    dct:created "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
+    dct:issued "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
     ds-ldes:sequence 179;
     dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
@@ -3438,12 +3438,12 @@
     a dsv:ObjectPropertyProfile;
     dsv:objectPropertyRange <https://model.ccmm.cz/research-data/Ro-crateJsonRepresentation>.
 
-<> tree:member <https://model.ccmm.cz/research-data/ProvenanceActivity.hasCommonProvenanceModelJsonRepresentation#2026-09-27T10:42:44.387Z-180>.
+<> tree:member <https://model.ccmm.cz/research-data/ProvenanceActivity.hasCommonProvenanceModelJsonRepresentation#2026-09-29T09:55:31.207Z-180>.
 
-<https://model.ccmm.cz/research-data/ProvenanceActivity.hasCommonProvenanceModelJsonRepresentation#2026-09-27T10:42:44.387Z-180> a as:Create;
+<https://model.ccmm.cz/research-data/ProvenanceActivity.hasCommonProvenanceModelJsonRepresentation#2026-09-29T09:55:31.207Z-180> a as:Create;
     dct:isVersionOf <https://model.ccmm.cz/research-data/ProvenanceActivity.hasCommonProvenanceModelJsonRepresentation>;
-    dct:created "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
-    dct:issued "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
+    dct:created "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
+    dct:issued "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
     ds-ldes:sequence 180;
     dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
@@ -3464,12 +3464,12 @@
     a dsv:ObjectPropertyProfile;
     dsv:objectPropertyRange <https://model.ccmm.cz/research-data/CommonProvenanceModelJsonRepresentation>.
 
-<> tree:member <https://model.ccmm.cz/research-data/IdentifierScheme.notation#2026-09-27T10:42:44.387Z-181>.
+<> tree:member <https://model.ccmm.cz/research-data/IdentifierScheme.notation#2026-09-29T09:55:31.207Z-181>.
 
-<https://model.ccmm.cz/research-data/IdentifierScheme.notation#2026-09-27T10:42:44.387Z-181> a as:Create;
+<https://model.ccmm.cz/research-data/IdentifierScheme.notation#2026-09-29T09:55:31.207Z-181> a as:Create;
     dct:isVersionOf <https://model.ccmm.cz/research-data/IdentifierScheme.notation>;
-    dct:created "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
-    dct:issued "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
+    dct:created "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
+    dct:issued "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
     ds-ldes:sequence 181;
     dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
@@ -3481,12 +3481,12 @@
     a dsv:DatatypePropertyProfile;
     dsv:datatypePropertyRange xsd:string.
 
-<> tree:member <https://model.ccmm.cz/research-data/Repository.dataset#2026-09-27T10:42:44.387Z-182>.
+<> tree:member <https://model.ccmm.cz/research-data/Repository.dataset#2026-09-29T09:55:31.207Z-182>.
 
-<https://model.ccmm.cz/research-data/Repository.dataset#2026-09-27T10:42:44.387Z-182> a as:Create;
+<https://model.ccmm.cz/research-data/Repository.dataset#2026-09-29T09:55:31.207Z-182> a as:Create;
     dct:isVersionOf <https://model.ccmm.cz/research-data/Repository.dataset>;
-    dct:created "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
-    dct:issued "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
+    dct:created "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
+    dct:issued "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
     ds-ldes:sequence 182;
     dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
@@ -3512,12 +3512,12 @@
     a dsv:ObjectPropertyProfile;
     dsv:objectPropertyRange <https://model.ccmm.cz/research-data/Dataset>.
 
-<> tree:member <https://model.ccmm.cz/research-data/Repository.record#2026-09-27T10:42:44.387Z-183>.
+<> tree:member <https://model.ccmm.cz/research-data/Repository.record#2026-09-29T09:55:31.207Z-183>.
 
-<https://model.ccmm.cz/research-data/Repository.record#2026-09-27T10:42:44.387Z-183> a as:Create;
+<https://model.ccmm.cz/research-data/Repository.record#2026-09-29T09:55:31.207Z-183> a as:Create;
     dct:isVersionOf <https://model.ccmm.cz/research-data/Repository.record>;
-    dct:created "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
-    dct:issued "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
+    dct:created "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
+    dct:issued "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
     ds-ldes:sequence 183;
     dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
@@ -3543,12 +3543,12 @@
     a dsv:ObjectPropertyProfile;
     dsv:objectPropertyRange <https://model.ccmm.cz/research-data/MetadataRecord>.
 
-<> tree:member <https://model.ccmm.cz/research-data/Repository.description#2026-09-27T10:42:44.387Z-184>.
+<> tree:member <https://model.ccmm.cz/research-data/Repository.description#2026-09-29T09:55:31.207Z-184>.
 
-<https://model.ccmm.cz/research-data/Repository.description#2026-09-27T10:42:44.387Z-184> a as:Create;
+<https://model.ccmm.cz/research-data/Repository.description#2026-09-29T09:55:31.207Z-184> a as:Create;
     dct:isVersionOf <https://model.ccmm.cz/research-data/Repository.description>;
-    dct:created "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
-    dct:issued "2026-09-27T10:42:44.387Z"^^xsd:dateTime;
+    dct:created "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
+    dct:issued "2026-09-29T09:55:31.207Z"^^xsd:dateTime;
     ds-ldes:sequence 184;
     dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
