@@ -111,7 +111,7 @@
           },
           "qualified_attribution": {
             "title": "qualified attribution",
-            "description": "Link to a description of a relationship between metadata record and agent with the specification of the role of agent in this relationship.",
+            "description": "A link to a description of a relationship between metadata record and agent with the specification of the role of agent in this relationship.",
             "type": "array",
             "minItems": 1,
             "items": {
@@ -207,7 +207,7 @@
                         },
                         "alternate_name": {
                           "title": "alternate name",
-                          "description": "To specify the organizational name associated with the object",
+                          "description": "An alternate organizational name associated with the object.",
                           "type": "array",
                           "items": {
                             "title": "Text",
@@ -738,7 +738,7 @@
                               },
                               "alternate_name": {
                                 "title": "alternate name",
-                                "description": "To specify the organizational name associated with the object",
+                                "description": "An alternate organizational name associated with the object.",
                                 "type": "array",
                                 "items": {
                                   "title": "Text",
@@ -1022,7 +1022,7 @@
             "properties": {
               "label": {
                 "title": "label",
-                "description": "Human readable name of the repository.",
+                "description": "A human-readable name of the repository.",
                 "type": "array",
                 "minItems": 1,
                 "items": {
@@ -1070,7 +1070,7 @@
               },
               "qualified_attribution": {
                 "title": "qualified attribution",
-                "description": "Link to a description of a relationship between repository and agent with the specification of the role of agent in this relationship.",
+                "description": "A link to a description of a relationship between repository and agent with the specification of the role of agent in this relationship.",
                 "type": "array",
                 "minItems": 1,
                 "items": {
@@ -1166,7 +1166,7 @@
                             },
                             "alternate_name": {
                               "title": "alternate name",
-                              "description": "To specify the organizational name associated with the object",
+                              "description": "An alternate organizational name associated with the object.",
                               "type": "array",
                               "items": {
                                 "title": "Text",
@@ -1697,7 +1697,7 @@
                                   },
                                   "alternate_name": {
                                     "title": "alternate name",
-                                    "description": "To specify the organizational name associated with the object",
+                                    "description": "An alternate organizational name associated with the object.",
                                     "type": "array",
                                     "items": {
                                       "title": "Text",
@@ -2021,6 +2021,7 @@
     },
     "alternate_title": {
       "title": "has alternate title",
+      "description": "References to the alternate title of the resource.",
       "type": "array",
       "items": {
         "title": "Alternate title",
@@ -2088,9 +2089,9 @@
     },
     "qualified_attribution": {
       "title": "qualified attribution",
-      "description": "An Agent having some form of responsibility for the resource. ",
+      "description": "A link to a description of a relationship between resource and an agent with the specification of the role of agent in this relationship.",
       "type": "array",
-      "minItems": 2,
+      "minItems": 1,
       "items": {
         "title": "Resource attribution",
         "description": "Attribution is the ascribing of a Resource to an agent. It defines the responsibility of an agent to the resource in a given role.",
@@ -2184,7 +2185,7 @@
                   },
                   "alternate_name": {
                     "title": "alternate name",
-                    "description": "To specify the organizational name associated with the object",
+                    "description": "An alternate organizational name associated with the object.",
                     "type": "array",
                     "items": {
                       "title": "Text",
@@ -2715,7 +2716,7 @@
                         },
                         "alternate_name": {
                           "title": "alternate name",
-                          "description": "To specify the organizational name associated with the object",
+                          "description": "An alternate organizational name associated with the object.",
                           "type": "array",
                           "items": {
                             "title": "Text",
@@ -3075,7 +3076,7 @@
           },
           "date_type": {
             "title": "has date type",
-            "description": "Reference to the codelist of date types.",
+            "description": "Reference to the code list of date types.",
             "type": "object",
             "required": [
               "label"
@@ -3255,32 +3256,27 @@
         "description": "Subject, classification code, or key phrase describing the resource.",
         "type": "object",
         "required": [
-          "title",
+          "label",
           "classification_code",
           "subject_scheme"
         ],
         "properties": {
-          "title": {
-            "title": "title",
-            "description": "Title of the subject.",
-            "type": "array",
-            "minItems": 1,
-            "items": {
-              "title": "Language tagged string",
-              "type": "object",
-              "required": [
-                "@value",
-                "@language"
-              ],
-              "properties": {
-                "@value": {
-                  "title": "Text v daném jazyce",
-                  "type": "string"
-                },
-                "@language": {
-                  "title": "Jazyk textu",
-                  "type": "string"
-                }
+          "label": {
+            "title": "label",
+            "description": "Subject label.",
+            "type": "object",
+            "additionalProperties": {
+              "title": "Hodnota v jiném jazyce",
+              "type": "string"
+            },
+            "properties": {
+              "cs": {
+                "title": "Hodnota v českém jazyce",
+                "type": "string"
+              },
+              "en": {
+                "title": "Hodnota v anglickém jazyce",
+                "type": "string"
               }
             }
           },
@@ -3523,7 +3519,7 @@
               "properties": {
                 "identifier": {
                   "title": "has identifier",
-                  "description": "A secondary identifier of the Dataset",
+                  "description": "A secondary identifier of the Dataset.",
                   "type": "array",
                   "items": {
                     "title": "Identifier",
@@ -3593,6 +3589,7 @@
                 },
                 "alternate_title": {
                   "title": "has alternate title",
+                  "description": "References to the alternate title of the resource.",
                   "type": "array",
                   "items": {
                     "title": "Alternate title",
@@ -3666,7 +3663,7 @@
                 },
                 "qualified_attribution": {
                   "title": "qualified attribution",
-                  "description": "An Agent having some form of responsibility for the resource. ",
+                  "description": "A link to a description of a relationship between resource and an agent with the specification of the role of agent in this relationship.",
                   "type": "array",
                   "items": {
                     "title": "Resource attribution",
@@ -3761,7 +3758,7 @@
                               },
                               "alternate_name": {
                                 "title": "alternate name",
-                                "description": "To specify the organizational name associated with the object",
+                                "description": "An alternate organizational name associated with the object.",
                                 "type": "array",
                                 "items": {
                                   "title": "Text",
@@ -4292,7 +4289,7 @@
                                     },
                                     "alternate_name": {
                                       "title": "alternate name",
-                                      "description": "To specify the organizational name associated with the object",
+                                      "description": "An alternate organizational name associated with the object.",
                                       "type": "array",
                                       "items": {
                                         "title": "Text",
@@ -4646,7 +4643,7 @@
                       },
                       "date_type": {
                         "title": "has date type",
-                        "description": "Reference to the codelist of date types.",
+                        "description": "Reference to the code list of date types.",
                         "type": "object",
                         "required": [
                           "label"
@@ -4902,7 +4899,7 @@
                     },
                     "alternate_name": {
                       "title": "alternate name",
-                      "description": "To specify the organizational name associated with the object",
+                      "description": "An alternate organizational name associated with the object.",
                       "type": "array",
                       "items": {
                         "title": "Text",
@@ -5433,7 +5430,7 @@
                           },
                           "alternate_name": {
                             "title": "alternate name",
-                            "description": "To specify the organizational name associated with the object",
+                            "description": "An alternate organizational name associated with the object.",
                             "type": "array",
                             "items": {
                               "title": "Text",
@@ -5640,7 +5637,7 @@
         "properties": {
           "identifier": {
             "title": "has identifier",
-            "description": "A secondary identifier of the Dataset",
+            "description": "A secondary identifier of the Dataset.",
             "type": "array",
             "items": {
               "title": "Identifier",
@@ -5710,6 +5707,7 @@
           },
           "alternate_title": {
             "title": "has alternate title",
+            "description": "References to the alternate title of the resource.",
             "type": "array",
             "items": {
               "title": "Alternate title",
@@ -5783,7 +5781,7 @@
           },
           "qualified_attribution": {
             "title": "qualified attribution",
-            "description": "An Agent having some form of responsibility for the resource. ",
+            "description": "A link to a description of a relationship between resource and an agent with the specification of the role of agent in this relationship.",
             "type": "array",
             "items": {
               "title": "Resource attribution",
@@ -5878,7 +5876,7 @@
                         },
                         "alternate_name": {
                           "title": "alternate name",
-                          "description": "To specify the organizational name associated with the object",
+                          "description": "An alternate organizational name associated with the object.",
                           "type": "array",
                           "items": {
                             "title": "Text",
@@ -6409,7 +6407,7 @@
                               },
                               "alternate_name": {
                                 "title": "alternate name",
-                                "description": "To specify the organizational name associated with the object",
+                                "description": "An alternate organizational name associated with the object.",
                                 "type": "array",
                                 "items": {
                                   "title": "Text",
@@ -6763,7 +6761,7 @@
                 },
                 "date_type": {
                   "title": "has date type",
-                  "description": "Reference to the codelist of date types.",
+                  "description": "Reference to the code list of date types.",
                   "type": "object",
                   "required": [
                     "label"
@@ -6958,7 +6956,7 @@
                         "properties": {
                           "identifier": {
                             "title": "has identifier",
-                            "description": "A secondary identifier of the Dataset",
+                            "description": "A secondary identifier of the Dataset.",
                             "type": "array",
                             "items": {
                               "title": "Identifier",
@@ -7028,6 +7026,7 @@
                           },
                           "alternate_title": {
                             "title": "has alternate title",
+                            "description": "References to the alternate title of the resource.",
                             "type": "array",
                             "items": {
                               "title": "Alternate title",
@@ -7101,7 +7100,7 @@
                           },
                           "qualified_attribution": {
                             "title": "qualified attribution",
-                            "description": "An Agent having some form of responsibility for the resource. ",
+                            "description": "A link to a description of a relationship between resource and an agent with the specification of the role of agent in this relationship.",
                             "type": "array",
                             "items": {
                               "title": "Resource attribution",
@@ -7196,7 +7195,7 @@
                                         },
                                         "alternate_name": {
                                           "title": "alternate name",
-                                          "description": "To specify the organizational name associated with the object",
+                                          "description": "An alternate organizational name associated with the object.",
                                           "type": "array",
                                           "items": {
                                             "title": "Text",
@@ -7727,7 +7726,7 @@
                                               },
                                               "alternate_name": {
                                                 "title": "alternate name",
-                                                "description": "To specify the organizational name associated with the object",
+                                                "description": "An alternate organizational name associated with the object.",
                                                 "type": "array",
                                                 "items": {
                                                   "title": "Text",
@@ -8081,7 +8080,7 @@
                                 },
                                 "date_type": {
                                   "title": "has date type",
-                                  "description": "Reference to the codelist of date types.",
+                                  "description": "Reference to the code list of date types.",
                                   "type": "object",
                                   "required": [
                                     "label"

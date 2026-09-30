@@ -49,7 +49,7 @@
     dsv:specializes :Agent;
     dsv:reusesPropertyValue [
   a dsv:PropertyValueReuse;
-  dsv:reusedProperty skos:prefLabel;
+  dsv:reusedProperty rdfs:label;
   dsv:reusedAsProperty skos:prefLabel;
   dsv:reusedFromResource <http://www.w3.org/ns/prov#Person>
 ];
@@ -75,14 +75,9 @@
 :Distribution dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
     skos:prefLabel "Distribution"@en;
-    skos:scopeNote "This represents a general availability of a dataset. It implies no information about the actual access method of the data, i.e., whether by direct download, API, or through a Web page. This is an abstract type. Use its subclasses to determine downloadable file or data service."@en;
+    skos:definition "A physical embodiment of the Dataset in a particular format."@en;
+    skos:scopeNote "Distribution represents a general availability of a dataset. It implies no information about the actual access method of the data, i.e., whether by direct download, API, or through a Web page. This is an abstract type. Use its subclasses to determine downloadable file or data service."@en;
     dsv:profileOf <https://mff-uk.github.io/specifications/dcat-ap#Distribution>;
-    dsv:reusesPropertyValue [
-  a dsv:PropertyValueReuse;
-  dsv:reusedProperty skos:definition;
-  dsv:reusedAsProperty skos:definition;
-  dsv:reusedFromResource <https://mff-uk.github.io/specifications/dcat-ap#Distribution>
-];
     a dsv:ClassProfile;
     dsv:classRole role:main.
 :ValidationResult dct:isPartOf <https://model.ccmm.cz/research-data/>;
@@ -104,7 +99,7 @@
     a dsv:TermProfile;
     skos:prefLabel "Related resource"@en;
     skos:definition "Resource represents any resource, physical or digital, that is related to the described dataset."@en;
-    skos:scopeNote "Class is used for description of the resource together with the type of relation, for which is used value from codelist https://vocabs.ccmm.cz/registry/codelist/RelationType/. Distributions of the datasets SHALL NOT be modeled as related resource, but as a distribution. Use qualified resource property to link to the dataset class. Examples of resources: other related dataset, used methodology, instrument used for measurement, conference or conference paper etc."@en;
+    skos:scopeNote "The class is used for description of the resource together with the type of relation, for which is used value from the code list https://w3id.org/tib/datacite/vocab/relationType. Distributions of the datasets SHALL NOT be modeled as related resource, but as a distribution. Examples of resources: other related dataset, used methodology, instrument used for measurement, conference or conference paper, etc."@en;
     dsv:specializes :Resource;
     dsv:profileOf <https://mff-uk.github.io/specifications/dcat-ap#rdfs-Resource>;
     a dsv:ClassProfile;
@@ -149,7 +144,7 @@
     a dsv:TermProfile;
     skos:prefLabel "Metadata Record"@en, "Katalogizační záznam"@cs, "Record di catalogo"@it, "Registre du catalogue"@fr, "Registro del catálogo"@es, "Καταγραφή καταλόγου"@el, "سجل"@ar, "カタログ・レコード"@ja, "Katalogpost"@da;
     skos:definition "1つのデータセットを記述したデータ・カタログ内のレコード。"@ja, "Description of the metadata record of the dataset. "@en, "Un record in un catalogo di dati che descrive un singolo dataset o servizio di dati."@it, "Un registre du catalogue ou une entrée du catalogue, décrivant un seul jeu de données."@fr, "Un registro en un catálogo de datos que describe un solo conjunto de datos o un servicio de datos."@es, "Záznam v datovém katalogu popisující jednu datovou sadu či datovou službu."@cs, "Μία καταγραφή ενός καταλόγου, η οποία περιγράφει ένα συγκεκριμένο σύνολο δεδομένων."@el, "En post i et datakatalog der beskriver registreringen af et enkelt datasæt eller en datatjeneste."@da;
-    skos:scopeNote "In case metadata is harvested from external catalogue, metadata record IRI shall be the same as IRI of the metadata record in original repository."@en;
+    skos:scopeNote "In case metadata is harvested from an external catalogue, the metadata record IRI shall be the same as IRI of the metadata record in the original repository."@en;
     dsv:profileOf <https://mff-uk.github.io/specifications/dcat-ap#CatalogueRecord>;
     a dsv:ClassProfile;
     dsv:classRole role:main.
@@ -317,7 +312,7 @@
     a dsv:TermProfile;
     skos:prefLabel "Location relation type"@en;
     skos:definition "Relation of the dataset to the resource."@en;
-    skos:scopeNote "Use value from codelist https://vocabs.ccmm.cz/registry/codelist/LocationRelation/."@en;
+    skos:scopeNote "Use value from the code list https://vocabs.ccmm.cz/registry/codelist/LocationRelation/."@en;
     a dsv:ClassProfile;
     dsv:class skos:Concept;
     dsv:classRole role:supportive.
@@ -325,7 +320,7 @@
     a dsv:TermProfile;
     skos:prefLabel "Alternate title type"@en;
     skos:definition "Type of alternate title."@en;
-    skos:scopeNote "Use value from codelist https://vocabs.ccmm.cz/registry/codelist/AlternateTitle/."@en;
+    skos:scopeNote "Use value from the code list https://w3id.org/tib/datacite/vocab/titleType."@en;
     a dsv:ClassProfile;
     dsv:class skos:Concept;
     dsv:classRole role:supportive.
@@ -333,7 +328,7 @@
     a dsv:TermProfile;
     skos:prefLabel "Date type"@en;
     skos:definition "Type of a date in relation to the resource."@en;
-    skos:scopeNote "Use value from codelist https://vocabs.ccmm.cz/registry/codelist/TimeReference/."@en;
+    skos:scopeNote "Use value from the code list https://w3id.org/tib/datacite/vocab/dateType."@en;
     a dsv:ClassProfile;
     dsv:class skos:Concept;
     dsv:classRole role:supportive.
@@ -341,7 +336,7 @@
     a dsv:TermProfile;
     skos:prefLabel "Resource type"@en;
     skos:definition "Type of the resource."@en;
-    skos:scopeNote "Use IRI identifier of the resource type from the codelist https://vocabularies.coar-repositories.org/resource_types/."@en;
+    skos:scopeNote "Use IRI identifier of the resource type from the register https://vocabularies.coar-repositories.org/resource_types/."@en;
     a dsv:ClassProfile;
     dsv:class skos:Concept;
     dsv:classRole role:supportive.
@@ -349,7 +344,7 @@
     a dsv:TermProfile;
     skos:prefLabel "Resource relation type"@en;
     skos:definition "Type of the relation between the dataset and given resource."@en;
-    skos:scopeNote "Use value from the codelist https://vocabs.ccmm.cz/registry/codelist/RelationType/."@en;
+    skos:scopeNote "Use value from the code list https://w3id.org/tib/datacite/vocab/relationType."@en;
     a dsv:ClassProfile;
     dsv:class skos:Concept;
     dsv:classRole role:supportive.
@@ -370,7 +365,7 @@
     a dsv:TermProfile;
     skos:prefLabel "Format"@en;
     skos:definition "Format of downloadable file."@en;
-    skos:scopeNote "Use IRI identifier from the register http://publications.europa.eu/resource/dataset/file-type. Human readable codelist representation is here: https://op.europa.eu/en/web/eu-vocabularies/concept-scheme/-/resource?uri=http://publications.europa.eu/resource/authority/file-type."@en;
+    skos:scopeNote "Use IRI identifier from the register http://publications.europa.eu/resource/dataset/file-type. Human readable code list representation is here: https://op.europa.eu/en/web/eu-vocabularies/concept-scheme/-/resource?uri=http://publications.europa.eu/resource/authority/file-type."@en;
     dsv:profileOf <https://mff-uk.github.io/specifications/dcat-ap#MediaTypeOrExtent>;
     a dsv:ClassProfile;
     dsv:classRole role:supportive.
@@ -445,7 +440,7 @@
     a dsv:TermProfile;
     skos:prefLabel "Description type"@en;
     skos:definition "The type of the description."@en;
-    skos:scopeNote "Use value from codelist https://vocabs.ccmm.cz/registry/codelist/DescriptionType/."@en;
+    skos:scopeNote "Use value from the code list https://w3id.org/tib/datacite/vocab/descriptionType."@en;
     dsv:profileOf <https://mff-uk.github.io/specifications/dcat-ap#Concept>;
     a dsv:ClassProfile;
     dsv:classRole role:supportive.
@@ -570,7 +565,7 @@
     a dsv:TermProfile;
     skos:prefLabel "has subject"@en;
     skos:definition "Dataset described using a subject."@en;
-    skos:scopeNote "At least one subject must be a value from FRASCATI FORD vocabulary. For that subject use reference codelist https://vocabs.ccmm.cz/registry/codelist/SubjectCategory/ as the Subject scheme and select at least one value from this codelist as a subject."@en;
+    skos:scopeNote "At least one subject must be a value from the Frascati FORD vocabulary. For that subject use reference code list https://vocabs.ccmm.cz/registry/codelist/SubjectCategory/ as the Subject scheme and select at least one value from this code list as a subject."@en;
     dsv:cardinality cardinality:1n;
     dsv:property <https://w3id.org/tib/datacite/property/subject>;
     dsv:domain :Dataset;
@@ -581,7 +576,7 @@
     a dsv:TermProfile;
     skos:prefLabel "has time reference"@en;
     skos:definition "Reference to events related to the dataset."@en;
-    skos:scopeNote "Must contain at least one time reference with date type value \"Created\"  from  https://vocabs.ccmm.cz/registry/codelist/TimeReference/."@en;
+    skos:scopeNote "Must contain at least one time reference with date type value \"Created\"  represented by https://w3id.org/tib/datacite/vocab/dateType/Created."@en;
     dsv:cardinality cardinality:1n;
     dsv:property <https://model.ccmm.cz/vocabulary/ccmm#hasTimeReference>;
     dsv:domain :Dataset;
@@ -600,7 +595,7 @@
 
 <https://model.ccmm.cz/research-data/ResourceAttribution.hadRole> dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
-    skos:scopeNote "May be used in a qualified-attribution to specify the role of an Agent with respect to an Resource. It is recommended that the value be taken from a controlled vocabulary of agent roles."@en;
+    skos:scopeNote "May be used in a qualified-attribution to specify the role of an Agent with respect to an Resource. It is recommended that the value be taken from code list https://vocabs.ccmm.cz/registry/codelist/AgentRole/."@en;
     dsv:profileOf <https://mff-uk.github.io/specifications/dcat-ap#Relationship.hadRole>;
     dsv:reusesPropertyValue [
   a dsv:PropertyValueReuse;
@@ -642,12 +637,12 @@
     skos:scopeNote "Either links to IRI of address in address registry or describes the address using Address class attributes."@en;
     dsv:reusesPropertyValue [
   a dsv:PropertyValueReuse;
-  dsv:reusedProperty skos:prefLabel;
+  dsv:reusedProperty rdfs:label;
   dsv:reusedAsProperty skos:prefLabel;
   dsv:reusedFromResource <http://www.w3.org/2006/vcard/ns#hasAddress>
 ], [
   a dsv:PropertyValueReuse;
-  dsv:reusedProperty skos:definition;
+  dsv:reusedProperty rdfs:comment;
   dsv:reusedAsProperty skos:definition;
   dsv:reusedFromResource <http://www.w3.org/2006/vcard/ns#hasAddress>
 ];
@@ -670,7 +665,7 @@
     a dsv:TermProfile;
     skos:prefLabel "conforms to"@en;
     skos:definition "An established standard to which the metadata record conforms."@en;
-    skos:scopeNote "This property should be used to indicate the metadata model, schema, ontology or profile that the metadata record conforms to."@en;
+    skos:scopeNote "This property should be used to indicate the metadata model, schema, ontology, or profile that the metadata record conforms to."@en;
     dsv:profileOf <https://mff-uk.github.io/specifications/dcat-ap#CatalogueRecord.applicationProfile>;
     dsv:cardinality cardinality:1n;
     dsv:domain :MetadataRecord;
@@ -681,7 +676,7 @@
     a dsv:TermProfile;
     skos:prefLabel "has original repository"@en;
     skos:definition "Link to the repository in which the metadata were originally stored and curated."@en;
-    skos:scopeNote "Original repository is a repository where the original metadata was harvested from or where it was created and/or published. There is always exactly one original repository. \nIf metadata record is harvested form other repository, make sure to include the first repository from which it was harvested."@en;
+    skos:scopeNote "Original repository is a repository where the original metadata was harvested from or where it was created and/or published. There is always exactly one original repository. \nIf metadata record is harvested from another repository, make sure to include the first repository from which it was harvested."@en;
     dsv:cardinality cardinality:11;
     dsv:property <https://model.ccmm.cz/vocabulary/ccmm#originalRepository>;
     dsv:domain :MetadataRecord;
@@ -701,7 +696,7 @@
 <https://model.ccmm.cz/research-data/Distribution-DownloadableFile.downloadUrl> dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
     skos:prefLabel "download URL"@en;
-    skos:scopeNote "Download URL SHOULD be used for the URL at which this distribution is available directly, typically through a HTTP Get request."@en;
+    skos:scopeNote "A download URL SHOULD BE used for the URL at which this distribution is available directly, typically through an HTTP Get request."@en;
     dsv:profileOf <https://mff-uk.github.io/specifications/dcat-ap#Distribution.downloadUrl>;
     dsv:reusesPropertyValue [
   a dsv:PropertyValueReuse;
@@ -717,7 +712,7 @@
     a dsv:TermProfile;
     skos:prefLabel "has media type"@en;
     skos:definition "The media type of the Distribution as defined in the official register of media types managed by IANA."@en;
-    skos:scopeNote "This property SHOULD be used when the media type of the distribution is defined in IANA (using value from https://www.iana.org/assignments/media-types/media-types.xhtml), otherwise Format MAY be used with values from Publication Office of the EU File type codelist http://publications.europa.eu/resource/dataset/file-type."@en;
+    skos:scopeNote "This property SHOULD be used when the media type of the distribution is defined in IANA (using value from https://www.iana.org/assignments/media-types/media-types.xhtml), otherwise Format MAY be used with values from Publication Office of the EU File type code list http://publications.europa.eu/resource/dataset/file-type."@en;
     dsv:profileOf <https://mff-uk.github.io/specifications/dcat-ap#Distribution.mediaType>;
     dsv:domain :Distribution-DownloadableFile;
     a dsv:ObjectPropertyProfile;
@@ -726,7 +721,7 @@
 <https://model.ccmm.cz/research-data/Distribution.conformsTo> dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
     skos:prefLabel "conforms to"@en;
-    skos:scopeNote "This property should be used to indicate the model, schema, ontology, view or profile that this representation of a dataset conforms to. This is (generally) a complementary concern to the media type, service standard or format."@en;
+    skos:scopeNote "This property should be used to indicate the model, schema, ontology, view, or profile that this representation of a dataset conforms to. This is (generally) a complementary concern to the media type, service standard, or format."@en;
     dsv:profileOf <https://mff-uk.github.io/specifications/dcat-ap#Distribution.linkedSchemas>;
     dsv:reusesPropertyValue [
   a dsv:PropertyValueReuse;
@@ -742,7 +737,7 @@
 <https://model.ccmm.cz/research-data/Distribution-DataService.hasAccessService> dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
     skos:prefLabel "has access service"@en, "servicio de acceso de datos"@es, "servizio di accesso ai dati"@it, "služba pro přístup k datům"@cs, "dataadgangstjeneste"@da;
-    skos:scopeNote "Access service SHOULD be used to link to a description of Data service that can provide access to this distribution."@en;
+    skos:scopeNote "Access service SHOULD be used to link to a description of Data service that provides access to this distribution."@en;
     dsv:profileOf <https://mff-uk.github.io/specifications/dcat-ap#Distribution.accessService>;
     dsv:reusesPropertyValue [
   a dsv:PropertyValueReuse;
@@ -786,7 +781,7 @@
 <https://model.ccmm.cz/research-data/Resource.hasLocation> dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
     skos:prefLabel "has location"@en;
-    skos:scopeNote "In the CCMM spatial coverage does not only cover the area of resource, it may be connected to the resource in some other way, e.g., the place from where the data were measured, administrative area to which the resource conforms or other."@en;
+    skos:scopeNote "In CCMM, spatial coverage does not only cover the area of resource, it may be connected to the resource in some other way, e.g., the place from where the data were measured or administrative area to which the resource conforms or other."@en;
     dsv:profileOf <https://mff-uk.github.io/specifications/dcat-ap#Dataset.geographicalCoverage>;
     dsv:reusesPropertyValue [
   a dsv:PropertyValueReuse;
@@ -882,8 +877,8 @@
 <https://model.ccmm.cz/research-data/MetadataRecord.qualifiedAttribution> dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
     skos:prefLabel "qualified attribution"@en;
-    skos:definition "Enlace a una descripción de la relación con otro recurso."@es, "Link a una descrizione di una relazione con un'altra risorsa."@it, "Link to a description of a relationship between metadata record and agent with the specification of the role of agent in this relationship."@en, "Odkaz na popis vztahu s jiným zdrojem."@cs, "Reference til en beskrivelse af en relation til en anden ressource."@da;
-    skos:scopeNote "Relationship shall contain at least one agent with role \"Data Manager\" from codelist https://vocabs.ccmm.cz/registry/codelist/AgentRole/."@en;
+    skos:definition "Enlace a una descripción de la relación con otro recurso."@es, "Link a una descrizione di una relazione con un'altra risorsa."@it, "A link to a description of a relationship between metadata record and agent with the specification of the role of agent in this relationship."@en, "Odkaz na popis vztahu s jiným zdrojem."@cs, "Reference til en beskrivelse af en relation til en anden ressource."@da;
+    skos:scopeNote "The relationship shall contain at least one agent with role \"Data Manager\" from code list https://vocabs.ccmm.cz/registry/codelist/AgentRole/."@en;
     dsv:profileOf <https://mff-uk.github.io/specifications/dcat-ap#Dataset.qualifiedAttribution>;
     dsv:cardinality cardinality:1n;
     dsv:domain :MetadataRecord;
@@ -898,11 +893,6 @@
   a dsv:PropertyValueReuse;
   dsv:reusedProperty skos:definition;
   dsv:reusedAsProperty skos:definition;
-  dsv:reusedFromResource <https://mff-uk.github.io/specifications/dcat-ap#Checksum.algorithm>
-], [
-  a dsv:PropertyValueReuse;
-  dsv:reusedProperty skos:scopeNote;
-  dsv:reusedAsProperty skos:scopeNote;
   dsv:reusedFromResource <https://mff-uk.github.io/specifications/dcat-ap#Checksum.algorithm>
 ];
     dsv:cardinality cardinality:11;
@@ -971,7 +961,7 @@
 <https://model.ccmm.cz/research-data/Distribution-DownloadableFile.hasFormat> dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
     skos:prefLabel "has format"@en;
-    skos:scopeNote "This property refers to the instance of format represented by IRI identifier from the register http://publications.europa.eu/resource/dataset/file-type. Human readable codelist representation is here: https://op.europa.eu/en/web/eu-vocabularies/concept-scheme/-/resource?uri=http://publications.europa.eu/resource/authority/file-type."@en;
+    skos:scopeNote "This property refers to the instance of format represented by IRI identifier from the register http://publications.europa.eu/resource/dataset/file-type. Human readable code list representation is here: https://op.europa.eu/en/web/eu-vocabularies/concept-scheme/-/resource?uri=http://publications.europa.eu/resource/authority/file-type."@en;
     dsv:profileOf <https://mff-uk.github.io/specifications/dcat-ap#Distribution.format>;
     dsv:reusesPropertyValue [
   a dsv:PropertyValueReuse;
@@ -1017,8 +1007,8 @@
 <https://model.ccmm.cz/research-data/TimeReference.hasDateType> dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
     skos:prefLabel "has date type"@en;
-    skos:definition "Reference to the codelist of date types."@en;
-    skos:scopeNote "References to the value from https://vocabs.ccmm.cz/registry/codelist/TimeReference/."@en;
+    skos:definition "Reference to the code list of date types."@en;
+    skos:scopeNote "References to the value from the code list https://w3id.org/tib/datacite/vocab/dateType."@en;
     dsv:cardinality cardinality:11;
     dsv:property <https://model.ccmm.cz/vocabulary/ccmm#hasType>;
     dsv:domain :TimeReference;
@@ -1029,7 +1019,7 @@
     a dsv:TermProfile;
     skos:prefLabel "has resource relation type"@en;
     skos:definition "Relation to the relation type between dataset and resource."@en;
-    skos:scopeNote "Use value from https://vocabs.ccmm.cz/registry/codelist/RelationType/."@en;
+    skos:scopeNote "Use value from the code list https://w3id.org/tib/datacite/vocab/relationType."@en;
     dsv:cardinality cardinality:01;
     dsv:property <https://model.ccmm.cz/vocabulary/ccmm#hasType>;
     dsv:domain :RelatedResource;
@@ -1040,7 +1030,7 @@
     a dsv:TermProfile;
     skos:prefLabel "has location relation type"@en;
     skos:definition "Relation of the location to the dataset."@en;
-    skos:scopeNote "Use values from code list https://vocabs.ccmm.cz/registry/codelist/LocationRelation/."@en;
+    skos:scopeNote "Use values from the code list https://vocabs.ccmm.cz/registry/codelist/LocationRelation/."@en;
     dsv:cardinality cardinality:11;
     dsv:property <https://model.ccmm.cz/vocabulary/ccmm#hasType>;
     dsv:domain :Location;
@@ -1051,7 +1041,7 @@
     a dsv:TermProfile;
     skos:prefLabel "has alternate title type"@en;
     skos:definition "Type of the alternate name relation."@en;
-    skos:scopeNote "References to the value from https://vocabs.ccmm.cz/registry/codelist/AlternateTitle/."@en;
+    skos:scopeNote "References to the value from the code list https://w3id.org/tib/datacite/vocab/titleType."@en;
     dsv:cardinality cardinality:01;
     dsv:property <https://model.ccmm.cz/vocabulary/ccmm#hasType>;
     dsv:domain :AlternateTitle;
@@ -1081,7 +1071,7 @@
     a dsv:TermProfile;
     skos:prefLabel "has description"@en;
     skos:definition "Relation to the description of a dataset."@en;
-    skos:scopeNote "Description may have various type from the codelist https://vocabs.ccmm.cz/registry/codelist/DescriptionType/. "@en;
+    skos:scopeNote "Description may have various type from the code list https://w3id.org/tib/datacite/vocab/descriptionType."@en;
     dsv:cardinality cardinality:1n;
     dsv:property <https://w3id.org/tib/datacite/property/description>;
     dsv:domain :Dataset;
@@ -1092,7 +1082,7 @@
     a dsv:TermProfile;
     skos:prefLabel "has description type"@en;
     skos:definition "Relation to the type of the description."@en;
-    skos:scopeNote "Type of the description from the code list https://vocabs.ccmm.cz/registry/codelist/DescriptionType/."@en;
+    skos:scopeNote "Type of the description from the code list https://w3id.org/tib/datacite/vocab/descriptionType."@en;
     dsv:cardinality cardinality:01;
     dsv:property <https://w3id.org/tib/datacite/property/descriptionType>;
     dsv:domain :Description;
@@ -1110,15 +1100,11 @@
 
 <https://model.ccmm.cz/research-data/Resource.hasAlternateTitle> dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
+    skos:definition "References to the alternate title of the resource."@en;
     dsv:reusesPropertyValue [
   a dsv:PropertyValueReuse;
   dsv:reusedProperty rdfs:label;
   dsv:reusedAsProperty skos:prefLabel;
-  dsv:reusedFromResource <https://model.ccmm.cz/vocabulary/ccmm#hasAlternateTitle>
-], [
-  a dsv:PropertyValueReuse;
-  dsv:reusedProperty skos:definition;
-  dsv:reusedAsProperty skos:definition;
   dsv:reusedFromResource <https://model.ccmm.cz/vocabulary/ccmm#hasAlternateTitle>
 ];
     dsv:cardinality cardinality:0n;
@@ -1130,8 +1116,8 @@
 <https://model.ccmm.cz/research-data/Resource.qualifiedAttribution> dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
     skos:prefLabel "qualified attribution"@en;
-    skos:definition "An Agent having some form of responsibility for the resource. "@en;
-    skos:scopeNote "Link to a description of a relationship between resource and an agent with the specification of the role of agent in this relationship. If the resource is Dataset, it has to have at least two qualified attribution relations, the one with the role Creator, the second one with the role Publisher."@en;
+    skos:definition "A link to a description of a relationship between resource and an agent with the specification of the role of agent in this relationship."@en;
+    skos:scopeNote "If the resource is Dataset, it has to have at least one qualified attribution relation with the role Creator, also, it is recommended to have other qualified relation to the organization with the role Publisher."@en;
     dsv:profileOf <https://mff-uk.github.io/specifications/dcat-ap#Dataset.qualifiedAttribution>;
     dsv:cardinality cardinality:0n;
     dsv:domain :Resource;
@@ -1177,14 +1163,9 @@
 <https://model.ccmm.cz/research-data/Resource.hasIdentifier> dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
     skos:prefLabel "has identifier"@en;
+    skos:definition "A secondary identifier of the Dataset."@en;
     skos:scopeNote ""@en;
     dsv:profileOf <https://mff-uk.github.io/specifications/dcat-ap#Dataset.otherIdentifier>;
-    dsv:reusesPropertyValue [
-  a dsv:PropertyValueReuse;
-  dsv:reusedProperty skos:definition;
-  dsv:reusedAsProperty skos:definition;
-  dsv:reusedFromResource <https://mff-uk.github.io/specifications/dcat-ap#Dataset.otherIdentifier>
-];
     dsv:domain :Resource;
     a dsv:ObjectPropertyProfile;
     dsv:objectPropertyRange :Identifier.
@@ -1224,7 +1205,7 @@
     a dsv:TermProfile;
     skos:prefLabel "has packaging format"@en;
     skos:definition "The format of the file in which one or more data files are grouped together, e.g., to enable a set of related files to be downloaded together."@en;
-    skos:scopeNote "This property to be used when the files in the distribution are packaged, e.g., in a TAR file, a ZIP file, a Frictionless Data Package or a Bagit file. The format SHOULD be expressed using a media type as defined by IANA (using value from https://www.iana.org/assignments/media-types/media-types.xhtml), if available."@en;
+    skos:scopeNote "This property SHOULD be used when the files in the distribution are packaged, e.g., in a TAR file, a ZIP file, a Frictionless Data Package or a Bagit file. If available, record the media type as a value from the IANA registry (using value from https://www.iana.org/assignments/media-types/media-types.xhtml)."@en;
     dsv:profileOf <https://mff-uk.github.io/specifications/dcat-ap#Distribution.packagingFormat>;
     dsv:cardinality cardinality:01;
     dsv:domain :Distribution-DownloadableFile;
@@ -1279,7 +1260,7 @@
 <https://model.ccmm.cz/research-data/Distribution.rights> dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
     skos:prefLabel "has rights"@en;
-    skos:scopeNote "Use IRI identifier from the register http://purl.org/coar/access_right/. Recommended mapping of values from COAR to https://semiceu.github.io/DCAT-AP/drafts/latest/#properties-with-a-recommended-use-of-controlled-vocabularies is:\nembargoed access, metadata only access - :NON_PUBLIC,\nopen access - :PUBLIC,\nrestricted access - :RESTRICTED."@en;
+    skos:scopeNote "Use an IRI identifier from the register http://purl.org/coar/access_right/. Recommended mapping of values from COAR to https://semiceu.github.io/DCAT-AP/drafts/latest/#properties-with-a-recommended-use-of-controlled-vocabularies is: \n- embargoed access, metadata only access mapped to :NON_PUBLIC,\n- open access mapped to :PUBLIC,\n- restricted access mapped to :RESTRICTED."@en;
     dsv:profileOf <https://mff-uk.github.io/specifications/dcat-ap#Distribution.rights>;
     dsv:reusesPropertyValue [
   a dsv:PropertyValueReuse;
@@ -1294,8 +1275,8 @@
 
 <https://model.ccmm.cz/research-data/Repository.qualifiedAttribution> dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
-    skos:definition "Link to a description of a relationship between repository and agent with the specification of the role of agent in this relationship."@en;
-    skos:scopeNote "Relationship shall contain at least one agent with role \"Publisher\" from codelist https://vocabs.ccmm.cz/registry/codelist/AgentRole/."@en;
+    skos:definition "A link to a description of a relationship between repository and agent with the specification of the role of agent in this relationship."@en;
+    skos:scopeNote "The relationship shall contain at least one agent with the role \"Publisher\" from code list https://vocabs.ccmm.cz/registry/codelist/AgentRole/."@en;
     dsv:profileOf <https://mff-uk.github.io/specifications/dcat-ap#Dataset.qualifiedAttribution>;
     dsv:reusesPropertyValue [
   a dsv:PropertyValueReuse;
@@ -1311,16 +1292,12 @@
 <https://model.ccmm.cz/research-data/Dataset.wasGeneratedBy> dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
     skos:definition " An activity that generated, or provides the business context for, the creation of the dataset. "@en;
+    skos:scopeNote "The activity associated with generation of a dataset will be typically an initiative, project, mission, survey, or ongoing activity. Multiple prov:wasGeneratedBy properties can be used to indicate the dataset production context at various levels of granularity. Use prov:qualifiedGeneration to attach additional details about the relationship between the dataset and the activity, e.g., the exact time that the dataset was produced during the lifetime of a project."@en;
     dsv:profileOf <https://mff-uk.github.io/specifications/dcat-ap#Dataset.wasGeneratedBy>;
     dsv:reusesPropertyValue [
   a dsv:PropertyValueReuse;
   dsv:reusedProperty skos:prefLabel;
   dsv:reusedAsProperty skos:prefLabel;
-  dsv:reusedFromResource <https://mff-uk.github.io/specifications/dcat-ap#Dataset.wasGeneratedBy>
-], [
-  a dsv:PropertyValueReuse;
-  dsv:reusedProperty skos:scopeNote;
-  dsv:reusedAsProperty skos:scopeNote;
   dsv:reusedFromResource <https://mff-uk.github.io/specifications/dcat-ap#Dataset.wasGeneratedBy>
 ];
     dsv:cardinality cardinality:0n;
@@ -1443,7 +1420,7 @@
     a dsv:TermProfile;
     skos:prefLabel "publication year"@en;
     skos:definition "The year when the item was or will be made publicly available."@en;
-    skos:scopeNote "If TimeReference with dateType \"Issued\" is present, year in that date and publicationYear must be the same."@en;
+    skos:scopeNote "If TimeReference with dateType \"Issued\" is present, the year in that date and publicationYear must be the same."@en;
     dsv:cardinality cardinality:11;
     dsv:property <https://w3id.org/tib/datacite/property/publicationYear>;
     dsv:domain :Dataset;
@@ -1537,12 +1514,7 @@
 <https://model.ccmm.cz/research-data/Organization.alternateName> dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
     skos:prefLabel "alternate name"@en;
-    dsv:reusesPropertyValue [
-  a dsv:PropertyValueReuse;
-  dsv:reusedProperty skos:definition;
-  dsv:reusedAsProperty skos:definition;
-  dsv:reusedFromResource <http://www.w3.org/2006/vcard/ns#organization-name>
-];
+    skos:definition "An alternate organizational name associated with the object."@en;
     dsv:cardinality cardinality:0n;
     dsv:property <http://www.w3.org/2006/vcard/ns#organization-name>;
     dsv:domain :Organization;
@@ -1563,7 +1535,6 @@
     a dsv:TermProfile;
     skos:prefLabel "date updated"@en;
     skos:definition "The most recent date on which the resource was changed."@en;
-    skos:scopeNote "The date on which the metadata record was changed or modified."@en;
     dsv:profileOf <https://mff-uk.github.io/specifications/dcat-ap#Catalogue.modificationDate>;
     dsv:cardinality cardinality:11;
     dsv:domain :MetadataRecord;
@@ -1601,15 +1572,16 @@
     a dsv:DatatypePropertyProfile;
     dsv:datatypePropertyRange <http://www.w3.org/2001/XMLSchema#string>.
 
-<https://model.ccmm.cz/research-data/Subject.title> dct:isPartOf <https://model.ccmm.cz/research-data/>;
+<https://model.ccmm.cz/research-data/Subject.label> dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
-    skos:prefLabel "title"@en;
-    skos:definition "Title of the subject."@en;
-    dsv:cardinality cardinality:1n;
-    dsv:property dct:title;
+    skos:prefLabel "label"@en;
+    skos:definition "Subject label."@en;
+    skos:scopeNote "Use a label of the corresponding value from the used code list. At least one subject must be a value from FRASCATI FORD vocabulary. This property may be repeated for parallel language versions of the label."@en;
+    dsv:cardinality cardinality:11;
+    dsv:property skos:prefLabel;
     dsv:domain :Subject;
     a dsv:DatatypePropertyProfile;
-    dsv:datatypePropertyRange rdf:langString.
+    dsv:datatypePropertyRange <https://ofn.gov.cz/zdroj/základní-datové-typy/2020-07-01/text>.
 
 <https://model.ccmm.cz/research-data/Subject.definition> dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
@@ -1636,7 +1608,7 @@
 <https://model.ccmm.cz/research-data/Repository.label> dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
     skos:prefLabel "label"@en;
-    skos:definition "Human readable name of the repository."@en;
+    skos:definition "A human-readable name of the repository."@en;
     dsv:profileOf <https://mff-uk.github.io/specifications/dcat-ap#Catalogue.title>;
     dsv:cardinality cardinality:1n;
     dsv:domain :Repository;
@@ -1677,7 +1649,7 @@
     a dsv:TermProfile;
     skos:prefLabel "label"@en;
     skos:definition "Media type label."@en;
-    skos:scopeNote "Use the label of the corresponding value from the used code list (usually IANA: https://www.iana.org/assignments/media-types/media-types.xhtml). This property may be repeated for parallel language versions of the label."@en;
+    skos:scopeNote "Use a label of the corresponding value from the used code list (usually IANA: https://www.iana.org/assignments/media-types/media-types.xhtml). This property may be repeated for parallel language versions of the label."@en;
     dsv:cardinality cardinality:11;
     dsv:property skos:prefLabel;
     dsv:domain :MediaType;
@@ -1738,7 +1710,7 @@
     a dsv:TermProfile;
     skos:prefLabel "label"@en;
     skos:definition "Resource agent role type label."@en;
-    skos:scopeNote "Use the label of the corresponding value from code list https://vocabs.ccmm.cz/registry/codelist/AgentRole/. This property may be repeated for parallel language versions of the label."@en;
+    skos:scopeNote "Use a label of the corresponding value from the code list https://vocabs.ccmm.cz/registry/codelist/AgentRole/. This property may be repeated for parallel language versions of the label."@en;
     dsv:cardinality cardinality:11;
     dsv:property skos:prefLabel;
     dsv:domain :AttributedAgentRoleType;
@@ -1749,7 +1721,7 @@
     a dsv:TermProfile;
     skos:prefLabel "resource URL"@en;
     skos:definition "Human readable resolvable URL representing the resource."@en;
-    skos:scopeNote "Resource URL represents human readable resolvable representation of the resource. Same url must be aslo in c:iri."@en;
+    skos:scopeNote "The resource URL is a resolvable representation human-readable representation of the resource, i.e. web page. The same url must be also recorded in c:iri."@en;
     dsv:cardinality cardinality:01;
     dsv:property <https://model.ccmm.cz/vocabulary/ccmm#resourceUrl>;
     dsv:domain :RelatedResource;
@@ -1771,7 +1743,7 @@
     a dsv:TermProfile;
     skos:prefLabel "name"@en;
     skos:definition "Name of the agent."@en;
-    skos:scopeNote "It is used for the official name of the agent. For Persons it is combination of first and family names. Recommended format is \"family names, first names\"."@en;
+    skos:scopeNote "The official name of an agent. For Person, it is a combination of first and family names. Recommended format is \"family names, first names\", e.g., \"Smith, John\"."@en;
     dsv:profileOf <https://mff-uk.github.io/specifications/dcat-ap#Agent.name>;
     dsv:cardinality cardinality:11;
     dsv:domain :Agent;
@@ -1890,7 +1862,7 @@
     a dsv:TermProfile;
     skos:prefLabel "label"@en;
     skos:definition "Label of format value."@en;
-    skos:scopeNote "Use a label of a corresponding code list value from http://publications.europa.eu/resource/dataset/file-type. This property may be repeated for parallel language versions of the label."@en;
+    skos:scopeNote "Use a label of the corresponding value from the code list http://publications.europa.eu/resource/dataset/file-type. This property may be repeated for parallel language versions of the label."@en;
     dsv:cardinality cardinality:11;
     dsv:property skos:prefLabel;
     dsv:domain :Format;
@@ -1901,7 +1873,7 @@
     a dsv:TermProfile;
     skos:prefLabel "label"@en;
     skos:definition "Language label"@en;
-    skos:scopeNote "Use language label code from http://publications.europa.eu/resource/authority/language/. "@en;
+    skos:scopeNote "Use a language label code from the code list http://publications.europa.eu/resource/authority/language/. "@en;
     dsv:cardinality cardinality:11;
     dsv:property skos:prefLabel;
     dsv:domain :LanguageSystem;
@@ -1923,7 +1895,7 @@
     a dsv:TermProfile;
     skos:prefLabel "label"@en;
     skos:definition "Label of the resource type."@en;
-    skos:scopeNote "Use label of a corresponding value from code list https://vocabularies.coar-repositories.org/resource_types/. This property may be repeated for parallel language versions of the label."@en;
+    skos:scopeNote "Use a label of the corresponding value from the register https://vocabularies.coar-repositories.org/resource_types/. This property may be repeated for parallel language versions of the label."@en;
     dsv:cardinality cardinality:11;
     dsv:property skos:prefLabel;
     dsv:domain :ResourceType;
@@ -1945,7 +1917,7 @@
     a dsv:TermProfile;
     skos:prefLabel "label"@en;
     skos:definition "Date type label."@en;
-    skos:scopeNote "Use label of a corresponding value from code list https://vocabs.ccmm.cz/registry/codelist/TimeReference/. This property may be repeated for parallel language versions of the label."@en;
+    skos:scopeNote "Use label of a corresponding value from the code list https://w3id.org/tib/datacite/vocab/dateType. This property may be repeated for parallel language versions of the label."@en;
     dsv:profileOf <https://mff-uk.github.io/specifications/dcat-ap#Concept.preferredLabel>;
     dsv:cardinality cardinality:11;
     dsv:domain :DateType;
@@ -1956,7 +1928,7 @@
     a dsv:TermProfile;
     skos:prefLabel "label"@en;
     skos:definition "Label of the relation type."@en;
-    skos:scopeNote "Use label of corresponding value from code list https://vocabs.ccmm.cz/registry/codelist/RelationType/. This property may be repeated for parallel language versions of the label."@en;
+    skos:scopeNote "Use a label of the corresponding value from the code list https://w3id.org/tib/datacite/vocab/relationType. This property may be repeated for parallel language versions of the label."@en;
     dsv:cardinality cardinality:11;
     dsv:property skos:prefLabel;
     dsv:domain :ResourceRelationType;
@@ -1967,7 +1939,7 @@
     a dsv:TermProfile;
     skos:prefLabel "label"@en;
     skos:definition "Location relation type label."@en;
-    skos:scopeNote "Use label of a corresponding value from code list https://vocabs.ccmm.cz/registry/codelist/LocationRelation/. This property may be repeated for parallel language versions of the label."@en;
+    skos:scopeNote "Use label of a corresponding value from the code list https://vocabs.ccmm.cz/registry/codelist/LocationRelation/. This property may be repeated for parallel language versions of the label."@en;
     dsv:cardinality cardinality:11;
     dsv:property skos:prefLabel;
     dsv:domain :LocationRelationType;
@@ -1978,7 +1950,7 @@
     a dsv:TermProfile;
     skos:prefLabel "label"@en;
     skos:definition "Alternate title type label."@en;
-    skos:scopeNote "Use label of a corresponding value from code list https://vocabs.ccmm.cz/registry/codelist/AlternateTitle/. This property may be repeated for parallel language versions of the label."@en;
+    skos:scopeNote "Use a label of the corresponding value from the code list https://w3id.org/tib/datacite/vocab/titleType. This property may be repeated for parallel language versions of the label."@en;
     dsv:cardinality cardinality:11;
     dsv:property skos:prefLabel;
     dsv:domain :AlternateTitleType;
@@ -2041,7 +2013,7 @@
     a dsv:TermProfile;
     skos:prefLabel "label"@en;
     skos:definition "Label of the description type."@en;
-    skos:scopeNote "Use the label of the corresponding value from code list https://vocabs.ccmm.cz/registry/codelist/DescriptionType/. This property may be repeated for parallel language versions of the label."@en;
+    skos:scopeNote "Use the label of the corresponding value from the code list https://w3id.org/tib/datacite/vocab/descriptionType. This property may be repeated for parallel language versions of the label."@en;
     dsv:cardinality cardinality:11;
     dsv:property skos:prefLabel;
     dsv:domain :DescriptionType;
@@ -2052,12 +2024,12 @@
     a dsv:TermProfile;
     dsv:reusesPropertyValue [
   a dsv:PropertyValueReuse;
-  dsv:reusedProperty skos:prefLabel;
+  dsv:reusedProperty rdfs:label;
   dsv:reusedAsProperty skos:prefLabel;
   dsv:reusedFromResource rdfs:label
 ], [
   a dsv:PropertyValueReuse;
-  dsv:reusedProperty skos:definition;
+  dsv:reusedProperty rdfs:comment;
   dsv:reusedAsProperty skos:definition;
   dsv:reusedFromResource rdfs:label
 ];
@@ -2087,7 +2059,7 @@
     skos:prefLabel "title"@en;
     dsv:reusesPropertyValue [
   a dsv:PropertyValueReuse;
-  dsv:reusedProperty skos:definition;
+  dsv:reusedProperty rdfs:comment;
   dsv:reusedAsProperty skos:definition;
   dsv:reusedFromResource dct:title
 ];
@@ -2116,7 +2088,7 @@
 <https://model.ccmm.cz/research-data/Dataset.keyword> dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
     skos:definition "Keyword or tag describing the dataset."@en;
-    skos:scopeNote "Preferably use subjects as concepts from controlled vocabularies."@en;
+    skos:scopeNote "Preferably use terms from controlled vocabularies."@en;
     dsv:profileOf <https://mff-uk.github.io/specifications/dcat-ap#Dataset.keyword>;
     dsv:reusesPropertyValue [
   a dsv:PropertyValueReuse;
@@ -2154,7 +2126,7 @@
     skos:definition "A human-readable name for the location object."@en;
     dsv:reusesPropertyValue [
   a dsv:PropertyValueReuse;
-  dsv:reusedProperty skos:prefLabel;
+  dsv:reusedProperty rdfs:label;
   dsv:reusedAsProperty skos:prefLabel;
   dsv:reusedFromResource rdfs:label
 ];
@@ -2185,7 +2157,7 @@
     skos:prefLabel "title"@en;
     dsv:reusesPropertyValue [
   a dsv:PropertyValueReuse;
-  dsv:reusedProperty skos:definition;
+  dsv:reusedProperty rdfs:comment;
   dsv:reusedAsProperty skos:definition;
   dsv:reusedFromResource dct:alternative
 ];
@@ -2200,7 +2172,7 @@
     skos:definition "A human-readable name for the activity."@en;
     dsv:reusesPropertyValue [
   a dsv:PropertyValueReuse;
-  dsv:reusedProperty skos:prefLabel;
+  dsv:reusedProperty rdfs:label;
   dsv:reusedAsProperty skos:prefLabel;
   dsv:reusedFromResource rdfs:label
 ];

@@ -1,8 +1,22 @@
-Status: VALID
+Status: INVALID
 Document: _roundtrip/1m3t2-78951/06-roundtrip.xml
 Schema: dataset/schema.xsd
 Schema language: XSD 1.1
 Validator: xmlschema.XMLSchema11
 Schema build errors: 0
-Document validation errors: 0
+Document validation errors: 3
 Schema warnings: 0
+
+Findings:
+
+[001] category: document
+path: /ccmm:dataset/ccmm:subject[1]
+reason: Unexpected child with tag 'ccmm:classification_code' at position 2. Tag 'ccmm:label' expected.
+
+[002] category: document
+path: /ccmm:dataset/ccmm:subject[2]
+reason: Unexpected child with tag 'ccmm:classification_code' at position 2. Tag 'ccmm:label' expected.
+
+[003] category: document
+path: /ccmm:dataset/ccmm:subject[3]
+reason: Unexpected child with tag 'ccmm:classification_code' at position 2. Tag 'ccmm:label' expected.
