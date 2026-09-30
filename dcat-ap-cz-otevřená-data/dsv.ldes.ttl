@@ -35,7 +35,6 @@
     dct:created "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
     dct:issued "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
     ds-ldes:sequence 0;
-    ds-ldes:transaction "4601dcf7-3b2b-4110-a449-c79701f33336";
     dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#>;
     a dsv:TermProfile;
     dsv:profileOf <https://ofn.gov.cz/dcat-ap-cz#DatováSada>;
@@ -65,7 +64,6 @@
     dct:created "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
     dct:issued "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
     ds-ldes:sequence 1;
-    ds-ldes:transaction "4601dcf7-3b2b-4110-a449-c79701f33336";
     dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#>;
     a dsv:TermProfile;
     dsv:profileOf <https://ofn.gov.cz/dcat-ap-cz#DatováSlužba>;
@@ -95,7 +93,6 @@
     dct:created "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
     dct:issued "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
     ds-ldes:sequence 2;
-    ds-ldes:transaction "4601dcf7-3b2b-4110-a449-c79701f33336";
     dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#>;
     a dsv:TermProfile;
     dsv:profileOf <https://ofn.gov.cz/dcat-ap-cz#SérieDatovýchSad>;
@@ -125,7 +122,6 @@
     dct:created "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
     dct:issued "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
     ds-ldes:sequence 3;
-    ds-ldes:transaction "4601dcf7-3b2b-4110-a449-c79701f33336";
     dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#>;
     a dsv:TermProfile;
     dsv:profileOf <https://ofn.gov.cz/dcat-ap-cz#Distribuce>;
@@ -155,7 +151,6 @@
     dct:created "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
     dct:issued "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
     ds-ldes:sequence 4;
-    ds-ldes:transaction "4601dcf7-3b2b-4110-a449-c79701f33336";
     dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#>;
     a dsv:TermProfile;
     dsv:profileOf <https://ofn.gov.cz/dcat-ap-cz#KontaktníBod>;
@@ -185,7 +180,6 @@
     dct:created "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
     dct:issued "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
     ds-ldes:sequence 5;
-    ds-ldes:transaction "4601dcf7-3b2b-4110-a449-c79701f33336";
     dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#>;
     a dsv:TermProfile;
     dsv:profileOf <https://ofn.gov.cz/dcat-ap-cz#ČasovýInterval>;
@@ -215,7 +209,6 @@
     dct:created "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
     dct:issued "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
     ds-ldes:sequence 6;
-    ds-ldes:transaction "4601dcf7-3b2b-4110-a449-c79701f33336";
     dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#>;
     a dsv:TermProfile;
     dsv:specializes <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#Distribuce>;
@@ -246,7 +239,6 @@
     dct:created "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
     dct:issued "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
     ds-ldes:sequence 7;
-    ds-ldes:transaction "4601dcf7-3b2b-4110-a449-c79701f33336";
     dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#>;
     a dsv:TermProfile;
     dsv:specializes <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#Distribuce>;
@@ -277,7 +269,6 @@
     dct:created "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
     dct:issued "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
     ds-ldes:sequence 8;
-    ds-ldes:transaction "4601dcf7-3b2b-4110-a449-c79701f33336";
     dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#>;
     a dsv:TermProfile;
     dsv:profileOf <https://ofn.gov.cz/dcat-ap-cz#FormátSouboru>;
@@ -307,7 +298,6 @@
     dct:created "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
     dct:issued "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
     ds-ldes:sequence 9;
-    ds-ldes:transaction "4601dcf7-3b2b-4110-a449-c79701f33336";
     dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#>;
     a dsv:TermProfile;
     dsv:profileOf <https://ofn.gov.cz/dcat-ap-cz#TypMédia>;
@@ -337,7 +327,6 @@
     dct:created "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
     dct:issued "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
     ds-ldes:sequence 10;
-    ds-ldes:transaction "4601dcf7-3b2b-4110-a449-c79701f33336";
     dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#>;
     a dsv:TermProfile;
     dsv:profileOf <https://ofn.gov.cz/dcat-ap-cz#GeografickéÚzemí>;
@@ -367,7 +356,6 @@
     dct:created "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
     dct:issued "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
     ds-ldes:sequence 11;
-    ds-ldes:transaction "4601dcf7-3b2b-4110-a449-c79701f33336";
     dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#>;
     a dsv:TermProfile;
     dsv:profileOf <https://ofn.gov.cz/dcat-ap-cz#Frekvence>;
@@ -397,7 +385,6 @@
     dct:created "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
     dct:issued "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
     ds-ldes:sequence 12;
-    ds-ldes:transaction "4601dcf7-3b2b-4110-a449-c79701f33336";
     dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#>;
     a dsv:TermProfile;
     dsv:profileOf <https://ofn.gov.cz/dcat-ap-cz#Koncept>;
@@ -427,7 +414,6 @@
     dct:created "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
     dct:issued "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
     ds-ldes:sequence 13;
-    ds-ldes:transaction "4601dcf7-3b2b-4110-a449-c79701f33336";
     dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#>;
     a dsv:TermProfile;
     dsv:profileOf <https://ofn.gov.cz/dcat-ap-cz#DatovéTéma>;
@@ -457,7 +443,6 @@
     dct:created "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
     dct:issued "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
     ds-ldes:sequence 14;
-    ds-ldes:transaction "4601dcf7-3b2b-4110-a449-c79701f33336";
     dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#>;
     a dsv:TermProfile;
     dsv:profileOf <https://ofn.gov.cz/dcat-ap-cz#TémaEuroVoc>;
@@ -487,7 +472,6 @@
     dct:created "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
     dct:issued "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
     ds-ldes:sequence 15;
-    ds-ldes:transaction "4601dcf7-3b2b-4110-a449-c79701f33336";
     dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#>;
     a dsv:TermProfile;
     dsv:profileOf <https://ofn.gov.cz/dcat-ap-cz#PrávníPředpis>;
@@ -517,7 +501,6 @@
     dct:created "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
     dct:issued "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
     ds-ldes:sequence 16;
-    ds-ldes:transaction "4601dcf7-3b2b-4110-a449-c79701f33336";
     dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#>;
     a dsv:TermProfile;
     dsv:profileOf <https://ofn.gov.cz/dcat-ap-cz#Poskytovatel>;
@@ -547,7 +530,6 @@
     dct:created "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
     dct:issued "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
     ds-ldes:sequence 17;
-    ds-ldes:transaction "4601dcf7-3b2b-4110-a449-c79701f33336";
     dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#>;
     a dsv:TermProfile;
     dsv:profileOf <https://ofn.gov.cz/dcat-ap-cz#Zdroj>;
@@ -577,7 +559,6 @@
     dct:created "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
     dct:issued "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
     ds-ldes:sequence 18;
-    ds-ldes:transaction "4601dcf7-3b2b-4110-a449-c79701f33336";
     dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#>;
     a dsv:TermProfile;
     dsv:profileOf <https://ofn.gov.cz/dcat-ap-cz#PrvekRÚIAN>;
@@ -607,7 +588,6 @@
     dct:created "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
     dct:issued "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
     ds-ldes:sequence 19;
-    ds-ldes:transaction "4601dcf7-3b2b-4110-a449-c79701f33336";
     dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#>;
     a dsv:TermProfile;
     dsv:profileOf <https://ofn.gov.cz/dcat-ap-cz#Standard>;
@@ -637,7 +617,6 @@
     dct:created "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
     dct:issued "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
     ds-ldes:sequence 20;
-    ds-ldes:transaction "4601dcf7-3b2b-4110-a449-c79701f33336";
     dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#>;
     a dsv:TermProfile;
     dsv:profileOf <https://ofn.gov.cz/dcat-ap-cz#SpecifikacePodmínekUžití>;
@@ -667,7 +646,6 @@
     dct:created "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
     dct:issued "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
     ds-ldes:sequence 21;
-    ds-ldes:transaction "4601dcf7-3b2b-4110-a449-c79701f33336";
     dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#>;
     a dsv:TermProfile;
     dsv:profileOf <https://ofn.gov.cz/dcat-ap-cz#Licence>;
@@ -697,7 +675,6 @@
     dct:created "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
     dct:issued "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
     ds-ldes:sequence 22;
-    ds-ldes:transaction "4601dcf7-3b2b-4110-a449-c79701f33336";
     dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#>;
     a dsv:TermProfile;
     dsv:profileOf <https://ofn.gov.cz/dcat-ap-cz#Dokument>;
@@ -727,7 +704,6 @@
     dct:created "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
     dct:issued "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
     ds-ldes:sequence 23;
-    ds-ldes:transaction "4601dcf7-3b2b-4110-a449-c79701f33336";
     dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#>;
     a dsv:TermProfile;
     dsv:specializes <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#KontaktníBod>;
@@ -758,7 +734,6 @@
     dct:created "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
     dct:issued "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
     ds-ldes:sequence 24;
-    ds-ldes:transaction "4601dcf7-3b2b-4110-a449-c79701f33336";
     dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#>;
     a dsv:TermProfile;
     dsv:specializes <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#KontaktníBod>;
@@ -789,7 +764,6 @@
     dct:created "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
     dct:issued "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
     ds-ldes:sequence 25;
-    ds-ldes:transaction "4601dcf7-3b2b-4110-a449-c79701f33336";
     dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#>;
     a dsv:TermProfile;
     dsv:profileOf <https://ofn.gov.cz/dcat-ap-cz#E-mailAddress>;
@@ -819,7 +793,6 @@
     dct:created "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
     dct:issued "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
     ds-ldes:sequence 26;
-    ds-ldes:transaction "4601dcf7-3b2b-4110-a449-c79701f33336";
     dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#>;
     a dsv:TermProfile;
     dsv:profileOf <https://ofn.gov.cz/dcat-ap-cz#DatováSada.název>;
@@ -852,7 +825,6 @@
     dct:created "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
     dct:issued "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
     ds-ldes:sequence 27;
-    ds-ldes:transaction "4601dcf7-3b2b-4110-a449-c79701f33336";
     dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#>;
     a dsv:TermProfile;
     dsv:profileOf <https://ofn.gov.cz/dcat-ap-cz#DatováSada.popis>;
@@ -885,7 +857,6 @@
     dct:created "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
     dct:issued "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
     ds-ldes:sequence 28;
-    ds-ldes:transaction "4601dcf7-3b2b-4110-a449-c79701f33336";
     dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#>;
     a dsv:TermProfile;
     dsv:profileOf <https://ofn.gov.cz/dcat-ap-cz#DatováSada.klíčovéSlovo>;
@@ -918,7 +889,6 @@
     dct:created "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
     dct:issued "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
     ds-ldes:sequence 29;
-    ds-ldes:transaction "4601dcf7-3b2b-4110-a449-c79701f33336";
     dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#>;
     a dsv:TermProfile;
     dsv:profileOf <https://ofn.gov.cz/dcat-ap-cz#DatováSada.prostorovéRozlišeníVMetrech>;
@@ -951,7 +921,6 @@
     dct:created "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
     dct:issued "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
     ds-ldes:sequence 30;
-    ds-ldes:transaction "4601dcf7-3b2b-4110-a449-c79701f33336";
     dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#>;
     a dsv:TermProfile;
     dsv:profileOf <https://ofn.gov.cz/dcat-ap-cz#DatováSada.časovéRozlišení>;
@@ -984,7 +953,6 @@
     dct:created "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
     dct:issued "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
     ds-ldes:sequence 31;
-    ds-ldes:transaction "4601dcf7-3b2b-4110-a449-c79701f33336";
     dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#>;
     a dsv:TermProfile;
     dsv:profileOf <https://ofn.gov.cz/dcat-ap-cz#Distribuce.název>;
@@ -1017,7 +985,6 @@
     dct:created "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
     dct:issued "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
     ds-ldes:sequence 32;
-    ds-ldes:transaction "4601dcf7-3b2b-4110-a449-c79701f33336";
     dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#>;
     a dsv:TermProfile;
     dsv:profileOf <https://ofn.gov.cz/dcat-ap-cz#DatováSlužba.název>;
@@ -1050,7 +1017,6 @@
     dct:created "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
     dct:issued "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
     ds-ldes:sequence 33;
-    ds-ldes:transaction "4601dcf7-3b2b-4110-a449-c79701f33336";
     dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#>;
     a dsv:TermProfile;
     dsv:profileOf <https://ofn.gov.cz/dcat-ap-cz#SpecifikacePodmínekUžití.jménaAutorůOriginálníDatabáze>;
@@ -1083,7 +1049,6 @@
     dct:created "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
     dct:issued "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
     ds-ldes:sequence 34;
-    ds-ldes:transaction "4601dcf7-3b2b-4110-a449-c79701f33336";
     dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#>;
     a dsv:TermProfile;
     dsv:profileOf <https://ofn.gov.cz/dcat-ap-cz#SpecifikacePodmínekUžití.jménaAutorůDíla>;
@@ -1116,7 +1081,6 @@
     dct:created "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
     dct:issued "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
     ds-ldes:sequence 35;
-    ds-ldes:transaction "4601dcf7-3b2b-4110-a449-c79701f33336";
     dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#>;
     a dsv:TermProfile;
     dsv:profileOf <https://ofn.gov.cz/dcat-ap-cz#ČasovýInterval.datumZačátku>;
@@ -1149,7 +1113,6 @@
     dct:created "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
     dct:issued "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
     ds-ldes:sequence 36;
-    ds-ldes:transaction "4601dcf7-3b2b-4110-a449-c79701f33336";
     dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#>;
     a dsv:TermProfile;
     dsv:profileOf <https://ofn.gov.cz/dcat-ap-cz#ČasovýInterval.datumKonce>;
@@ -1182,7 +1145,6 @@
     dct:created "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
     dct:issued "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
     ds-ldes:sequence 37;
-    ds-ldes:transaction "4601dcf7-3b2b-4110-a449-c79701f33336";
     dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#>;
     a dsv:TermProfile;
     dsv:profileOf <https://ofn.gov.cz/dcat-ap-cz#KontaktníBod.jméno>;
@@ -1215,7 +1177,6 @@
     dct:created "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
     dct:issued "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
     ds-ldes:sequence 38;
-    ds-ldes:transaction "4601dcf7-3b2b-4110-a449-c79701f33336";
     dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#>;
     a dsv:TermProfile;
     dsv:profileOf <https://ofn.gov.cz/dcat-ap-cz#DatováSada.jeSoučástí>;
@@ -1248,7 +1209,6 @@
     dct:created "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
     dct:issued "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
     ds-ldes:sequence 39;
-    ds-ldes:transaction "4601dcf7-3b2b-4110-a449-c79701f33336";
     dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#>;
     a dsv:TermProfile;
     dsv:profileOf <https://ofn.gov.cz/dcat-ap-cz#DatováSada.poskytovatel>;
@@ -1281,7 +1241,6 @@
     dct:created "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
     dct:issued "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
     ds-ldes:sequence 40;
-    ds-ldes:transaction "4601dcf7-3b2b-4110-a449-c79701f33336";
     dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#>;
     a dsv:TermProfile;
     dsv:profileOf <https://ofn.gov.cz/dcat-ap-cz#DatováSada.téma>;
@@ -1314,7 +1273,6 @@
     dct:created "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
     dct:issued "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
     ds-ldes:sequence 41;
-    ds-ldes:transaction "4601dcf7-3b2b-4110-a449-c79701f33336";
     dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#>;
     a dsv:TermProfile;
     dsv:profileOf <https://ofn.gov.cz/dcat-ap-cz#DatováSada.periodicitaAktualizace>;
@@ -1347,7 +1305,6 @@
     dct:created "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
     dct:issued "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
     ds-ldes:sequence 42;
-    ds-ldes:transaction "4601dcf7-3b2b-4110-a449-c79701f33336";
     dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#>;
     a dsv:TermProfile;
     dsv:profileOf <https://ofn.gov.cz/dcat-ap-cz#DatováSada.souvisejícíGeografickéÚzemí-PrvekZRúian>;
@@ -1380,7 +1337,6 @@
     dct:created "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
     dct:issued "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
     ds-ldes:sequence 43;
-    ds-ldes:transaction "4601dcf7-3b2b-4110-a449-c79701f33336";
     dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#>;
     a dsv:TermProfile;
     dsv:profileOf <https://ofn.gov.cz/dcat-ap-cz#DatováSada.souvisejícíGeografickéÚzemí>;
@@ -1413,7 +1369,6 @@
     dct:created "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
     dct:issued "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
     ds-ldes:sequence 44;
-    ds-ldes:transaction "4601dcf7-3b2b-4110-a449-c79701f33336";
     dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#>;
     a dsv:TermProfile;
     dsv:profileOf <https://ofn.gov.cz/dcat-ap-cz#DatováSada.časovéPokrytí>;
@@ -1446,7 +1401,6 @@
     dct:created "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
     dct:issued "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
     ds-ldes:sequence 45;
-    ds-ldes:transaction "4601dcf7-3b2b-4110-a449-c79701f33336";
     dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#>;
     a dsv:TermProfile;
     dsv:profileOf <https://ofn.gov.cz/dcat-ap-cz#DatováSada.kontaktníBod>;
@@ -1479,7 +1433,6 @@
     dct:created "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
     dct:issued "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
     ds-ldes:sequence 46;
-    ds-ldes:transaction "4601dcf7-3b2b-4110-a449-c79701f33336";
     dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#>;
     a dsv:TermProfile;
     dsv:profileOf <https://ofn.gov.cz/dcat-ap-cz#DatováSada.dokumentace>;
@@ -1512,7 +1465,6 @@
     dct:created "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
     dct:issued "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
     ds-ldes:sequence 47;
-    ds-ldes:transaction "4601dcf7-3b2b-4110-a449-c79701f33336";
     dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#>;
     a dsv:TermProfile;
     dsv:profileOf <https://ofn.gov.cz/dcat-ap-cz#DatováSada.specifikace>;
@@ -1545,7 +1497,6 @@
     dct:created "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
     dct:issued "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
     ds-ldes:sequence 48;
-    ds-ldes:transaction "4601dcf7-3b2b-4110-a449-c79701f33336";
     dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#>;
     a dsv:TermProfile;
     dsv:profileOf <https://ofn.gov.cz/dcat-ap-cz#DatováSada.klasifikaceDleEurovoc>;
@@ -1578,7 +1529,6 @@
     dct:created "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
     dct:issued "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
     ds-ldes:sequence 49;
-    ds-ldes:transaction "4601dcf7-3b2b-4110-a449-c79701f33336";
     dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#>;
     a dsv:TermProfile;
     skos:scopeNote "Pro označení otevřených dat je povinné uvést https://www.e-sbirka.cz/eli/cz/sb/1999/106/2025-08-19"@cs;
@@ -1607,7 +1557,6 @@
     dct:created "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
     dct:issued "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
     ds-ldes:sequence 50;
-    ds-ldes:transaction "4601dcf7-3b2b-4110-a449-c79701f33336";
     dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#>;
     a dsv:TermProfile;
     dsv:profileOf <https://ofn.gov.cz/dcat-ap-cz#DatováSada.distribuce>;
@@ -1639,7 +1588,6 @@
     dct:created "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
     dct:issued "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
     ds-ldes:sequence 51;
-    ds-ldes:transaction "4601dcf7-3b2b-4110-a449-c79701f33336";
     dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#>;
     a dsv:TermProfile;
     dsv:profileOf <https://ofn.gov.cz/dcat-ap-cz#Distribuce.přístupovéUrl>;
@@ -1672,7 +1620,6 @@
     dct:created "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
     dct:issued "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
     ds-ldes:sequence 52;
-    ds-ldes:transaction "4601dcf7-3b2b-4110-a449-c79701f33336";
     dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#>;
     a dsv:TermProfile;
     skos:scopeNote "Pro označení otevřených dat je povinné uvést https://www.e-sbirka.cz/eli/cz/sb/1999/106/2025-08-19"@cs;
@@ -1701,7 +1648,6 @@
     dct:created "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
     dct:issued "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
     ds-ldes:sequence 53;
-    ds-ldes:transaction "4601dcf7-3b2b-4110-a449-c79701f33336";
     dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#>;
     a dsv:TermProfile;
     skos:scopeNote "Pro označení otevřených dat je povinné uvést https://www.e-sbirka.cz/eli/cz/sb/1999/106/2025-08-19"@cs;
@@ -1730,7 +1676,6 @@
     dct:created "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
     dct:issued "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
     ds-ldes:sequence 54;
-    ds-ldes:transaction "4601dcf7-3b2b-4110-a449-c79701f33336";
     dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#>;
     a dsv:TermProfile;
     dsv:profileOf <https://ofn.gov.cz/dcat-ap-cz#Distribuce-SouborKeStažení.odkazNaStaženíSouboru>;
@@ -1763,7 +1708,6 @@
     dct:created "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
     dct:issued "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
     ds-ldes:sequence 55;
-    ds-ldes:transaction "4601dcf7-3b2b-4110-a449-c79701f33336";
     dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#>;
     a dsv:TermProfile;
     dsv:profileOf <https://ofn.gov.cz/dcat-ap-cz#Distribuce-SouborKeStažení.formátSouboruKeStažení>;
@@ -1796,7 +1740,6 @@
     dct:created "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
     dct:issued "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
     ds-ldes:sequence 56;
-    ds-ldes:transaction "4601dcf7-3b2b-4110-a449-c79701f33336";
     dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#>;
     a dsv:TermProfile;
     dsv:profileOf <https://ofn.gov.cz/dcat-ap-cz#Distribuce-SouborKeStažení.typMédia>;
@@ -1829,7 +1772,6 @@
     dct:created "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
     dct:issued "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
     ds-ldes:sequence 57;
-    ds-ldes:transaction "4601dcf7-3b2b-4110-a449-c79701f33336";
     dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#>;
     a dsv:TermProfile;
     dsv:profileOf <https://ofn.gov.cz/dcat-ap-cz#Distribuce-SouborKeStažení.formátBalíčku>;
@@ -1862,7 +1804,6 @@
     dct:created "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
     dct:issued "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
     ds-ldes:sequence 58;
-    ds-ldes:transaction "4601dcf7-3b2b-4110-a449-c79701f33336";
     dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#>;
     a dsv:TermProfile;
     dsv:profileOf <https://ofn.gov.cz/dcat-ap-cz#Distribuce-SouborKeStažení.formátKomprese>;
@@ -1895,7 +1836,6 @@
     dct:created "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
     dct:issued "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
     ds-ldes:sequence 59;
-    ds-ldes:transaction "4601dcf7-3b2b-4110-a449-c79701f33336";
     dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#>;
     a dsv:TermProfile;
     dsv:profileOf <https://ofn.gov.cz/dcat-ap-cz#Distribuce-SouborKeStažení.strojověČitelnéSchémaSouboruKeStažení>;
@@ -1928,7 +1868,6 @@
     dct:created "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
     dct:issued "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
     ds-ldes:sequence 60;
-    ds-ldes:transaction "4601dcf7-3b2b-4110-a449-c79701f33336";
     dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#>;
     a dsv:TermProfile;
     dsv:profileOf <https://ofn.gov.cz/dcat-ap-cz#Distribuce-DatováSlužba.přístupováSlužba>;
@@ -1961,7 +1900,6 @@
     dct:created "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
     dct:issued "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
     ds-ldes:sequence 61;
-    ds-ldes:transaction "4601dcf7-3b2b-4110-a449-c79701f33336";
     dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#>;
     a dsv:TermProfile;
     dsv:profileOf <https://ofn.gov.cz/dcat-ap-cz#DatováSlužba.přístupovýBodSlužby>;
@@ -1994,7 +1932,6 @@
     dct:created "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
     dct:issued "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
     ds-ldes:sequence 62;
-    ds-ldes:transaction "4601dcf7-3b2b-4110-a449-c79701f33336";
     dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#>;
     a dsv:TermProfile;
     dsv:profileOf <https://ofn.gov.cz/dcat-ap-cz#DatováSlužba.popisPřístupovéhoBoduSlužby>;
@@ -2027,7 +1964,6 @@
     dct:created "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
     dct:issued "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
     ds-ldes:sequence 63;
-    ds-ldes:transaction "4601dcf7-3b2b-4110-a449-c79701f33336";
     dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#>;
     a dsv:TermProfile;
     dsv:profileOf <https://ofn.gov.cz/dcat-ap-cz#DatováSlužba.specifikace>;
@@ -2060,7 +1996,6 @@
     dct:created "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
     dct:issued "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
     ds-ldes:sequence 64;
-    ds-ldes:transaction "4601dcf7-3b2b-4110-a449-c79701f33336";
     dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#>;
     a dsv:TermProfile;
     dsv:profileOf <https://ofn.gov.cz/dcat-ap-cz#DatováSlužba.dokumentace>;
@@ -2093,7 +2028,6 @@
     dct:created "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
     dct:issued "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
     ds-ldes:sequence 65;
-    ds-ldes:transaction "4601dcf7-3b2b-4110-a449-c79701f33336";
     dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#>;
     a dsv:TermProfile;
     skos:prefLabel "specifikace podmínek užití"@cs, "Terms of use specification"@en;
@@ -2122,7 +2056,6 @@
     dct:created "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
     dct:issued "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
     ds-ldes:sequence 66;
-    ds-ldes:transaction "4601dcf7-3b2b-4110-a449-c79701f33336";
     dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#>;
     a dsv:TermProfile;
     dsv:profileOf <https://ofn.gov.cz/dcat-ap-cz#SpecifikacePodmínekUžití.originálníDatabáze>;
@@ -2155,7 +2088,6 @@
     dct:created "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
     dct:issued "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
     ds-ldes:sequence 67;
-    ds-ldes:transaction "4601dcf7-3b2b-4110-a449-c79701f33336";
     dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#>;
     a dsv:TermProfile;
     dsv:profileOf <https://ofn.gov.cz/dcat-ap-cz#SpecifikacePodmínekUžití.autorskéDílo>;
@@ -2188,7 +2120,6 @@
     dct:created "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
     dct:issued "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
     ds-ldes:sequence 68;
-    ds-ldes:transaction "4601dcf7-3b2b-4110-a449-c79701f33336";
     dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#>;
     a dsv:TermProfile;
     dsv:profileOf <https://ofn.gov.cz/dcat-ap-cz#SpecifikacePodmínekUžití.zvláštníPrávoPořizovateleDatabáze>;
@@ -2221,7 +2152,6 @@
     dct:created "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
     dct:issued "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
     ds-ldes:sequence 69;
-    ds-ldes:transaction "4601dcf7-3b2b-4110-a449-c79701f33336";
     dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#>;
     a dsv:TermProfile;
     dsv:profileOf <https://ofn.gov.cz/dcat-ap-cz#SpecifikacePodmínekUžití.osobníÚdaje>;
@@ -2254,7 +2184,6 @@
     dct:created "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
     dct:issued "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
     ds-ldes:sequence 70;
-    ds-ldes:transaction "4601dcf7-3b2b-4110-a449-c79701f33336";
     dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#>;
     a dsv:TermProfile;
     dsv:profileOf <https://ofn.gov.cz/dcat-ap-cz#KontaktníBod.email>;
@@ -2287,7 +2216,6 @@
     dct:created "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
     dct:issued "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
     ds-ldes:sequence 71;
-    ds-ldes:transaction "4601dcf7-3b2b-4110-a449-c79701f33336";
     dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#>;
     a dsv:TermProfile;
     dsv:profileOf <https://ofn.gov.cz/dcat-ap-cz#SérieDatovýchSad.časovéPokrytí>;
@@ -2320,7 +2248,6 @@
     dct:created "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
     dct:issued "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
     ds-ldes:sequence 72;
-    ds-ldes:transaction "4601dcf7-3b2b-4110-a449-c79701f33336";
     dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#>;
     a dsv:TermProfile;
     dsv:profileOf <https://ofn.gov.cz/dcat-ap-cz#SérieDatovýchSad.název>;
@@ -2353,7 +2280,6 @@
     dct:created "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
     dct:issued "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
     ds-ldes:sequence 73;
-    ds-ldes:transaction "4601dcf7-3b2b-4110-a449-c79701f33336";
     dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#>;
     a dsv:TermProfile;
     dsv:profileOf <https://ofn.gov.cz/dcat-ap-cz#SérieDatovýchSad.popis>;
@@ -2386,7 +2312,6 @@
     dct:created "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
     dct:issued "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
     ds-ldes:sequence 74;
-    ds-ldes:transaction "4601dcf7-3b2b-4110-a449-c79701f33336";
     dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#>;
     a dsv:TermProfile;
     dsv:profileOf <https://ofn.gov.cz/dcat-ap-cz#SérieDatovýchSad.kontaktníBod>;
@@ -2419,7 +2344,6 @@
     dct:created "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
     dct:issued "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
     ds-ldes:sequence 75;
-    ds-ldes:transaction "4601dcf7-3b2b-4110-a449-c79701f33336";
     dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#>;
     a dsv:TermProfile;
     dsv:profileOf <https://ofn.gov.cz/dcat-ap-cz#SérieDatovýchSad.klíčovéSlovo>;
@@ -2452,7 +2376,6 @@
     dct:created "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
     dct:issued "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
     ds-ldes:sequence 76;
-    ds-ldes:transaction "4601dcf7-3b2b-4110-a449-c79701f33336";
     dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#>;
     a dsv:TermProfile;
     dsv:profileOf <https://ofn.gov.cz/dcat-ap-cz#SérieDatovýchSad.téma>;
@@ -2485,7 +2408,6 @@
     dct:created "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
     dct:issued "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
     ds-ldes:sequence 77;
-    ds-ldes:transaction "4601dcf7-3b2b-4110-a449-c79701f33336";
     dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#>;
     a dsv:TermProfile;
     dsv:profileOf <https://ofn.gov.cz/dcat-ap-cz#SérieDatovýchSad.klasifikaceDleEurovoc>;
@@ -2518,7 +2440,6 @@
     dct:created "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
     dct:issued "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
     ds-ldes:sequence 78;
-    ds-ldes:transaction "4601dcf7-3b2b-4110-a449-c79701f33336";
     dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#>;
     a dsv:TermProfile;
     dsv:profileOf <https://ofn.gov.cz/dcat-ap-cz#SérieDatovýchSad.periodicitaAktualizace>;
@@ -2551,7 +2472,6 @@
     dct:created "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
     dct:issued "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
     ds-ldes:sequence 79;
-    ds-ldes:transaction "4601dcf7-3b2b-4110-a449-c79701f33336";
     dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#>;
     a dsv:TermProfile;
     dsv:profileOf <https://ofn.gov.cz/dcat-ap-cz#SérieDatovýchSad.jeSoučástí>;
@@ -2584,7 +2504,6 @@
     dct:created "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
     dct:issued "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
     ds-ldes:sequence 80;
-    ds-ldes:transaction "4601dcf7-3b2b-4110-a449-c79701f33336";
     dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#>;
     a dsv:TermProfile;
     dsv:profileOf <https://ofn.gov.cz/dcat-ap-cz#SérieDatovýchSad.poskytovatel>;
@@ -2617,7 +2536,6 @@
     dct:created "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
     dct:issued "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
     ds-ldes:sequence 81;
-    ds-ldes:transaction "4601dcf7-3b2b-4110-a449-c79701f33336";
     dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#>;
     a dsv:TermProfile;
     skos:scopeNote "Pro označení otevřených dat je povinné uvést https://www.e-sbirka.cz/eli/cz/sb/1999/106/2025-08-19"@cs;
@@ -2646,7 +2564,6 @@
     dct:created "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
     dct:issued "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
     ds-ldes:sequence 82;
-    ds-ldes:transaction "4601dcf7-3b2b-4110-a449-c79701f33336";
     dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#>;
     a dsv:TermProfile;
     dsv:profileOf <https://ofn.gov.cz/dcat-ap-cz#SérieDatovýchSad.souvisejícíGeografickéÚzemí>;
@@ -2679,7 +2596,6 @@
     dct:created "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
     dct:issued "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
     ds-ldes:sequence 83;
-    ds-ldes:transaction "4601dcf7-3b2b-4110-a449-c79701f33336";
     dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#>;
     a dsv:TermProfile;
     dsv:profileOf <https://ofn.gov.cz/dcat-ap-cz#SérieDatovýchSad.souvisejícíGeografickéÚzemí-PrvekZRúian>;
@@ -2712,7 +2628,6 @@
     dct:created "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
     dct:issued "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
     ds-ldes:sequence 84;
-    ds-ldes:transaction "4601dcf7-3b2b-4110-a449-c79701f33336";
     dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#>;
     a dsv:TermProfile;
     dsv:profileOf <https://ofn.gov.cz/dcat-ap-cz#SérieDatovýchSad.dokumentace>;
@@ -2745,7 +2660,6 @@
     dct:created "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
     dct:issued "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
     ds-ldes:sequence 85;
-    ds-ldes:transaction "4601dcf7-3b2b-4110-a449-c79701f33336";
     dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#>;
     a dsv:TermProfile;
     skos:scopeNote "It is intended to point to a landing page at the original data provider, not to a page on a site of a third party, such as an aggregator."@en, "Lze použít pro indikaci stránky datové sady v lokálním katalogu dat."@cs;
@@ -2774,7 +2688,6 @@
     dct:created "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
     dct:issued "2026-09-08T13:12:26.853Z"^^xsd:dateTime;
     ds-ldes:sequence 86;
-    ds-ldes:transaction "4601dcf7-3b2b-4110-a449-c79701f33336";
     dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#>;
     a dsv:TermProfile;
     skos:scopeNote "Lze použít pro indikaci stránky série datových sad v lokálním katalogu dat."@cs;
