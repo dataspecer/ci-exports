@@ -1833,8 +1833,8 @@
       shortName: "CCMM",
       maxTocLevel: 2,
       historyURI: null,
-      thisVersion: "https://odel.ccmm.cz/research-data/2.0.0/",
-      latestVersion: "https://odel.ccmm.cz/research-data/2.0.0/",
+      thisVersion: "https://model.ccmm.cz/research-data/2.0.0/",
+      latestVersion: "https://model.ccmm.cz/research-data/2.0.0/",
       publishDate: "2026-10-01",
       //xref: "web-platform",
       //otherLinks: [{
@@ -2148,7 +2148,7 @@
               
                   <tr>
                     <td>Usage note</td>
-                    <td></td>
+                    <td>List all available identifiers referring to the same resource (e.g., DOI, Handle, etc.).</td>
                   </tr>
                 </table>
               </section>    <section id="Resource.hasLocation">
@@ -4049,7 +4049,7 @@
           
               <tr>
                 <td>Usage note</td>
-                <td>In case metadata is harvested from an external catalogue, the metadata record IRI shall be the same as IRI of the metadata record in the original repository.</td>
+                <td>In case metadata is harvested from an external catalogue, the metadata record IRI shall be the same as the IRI of the metadata record in the original repository.</td>
               </tr>
             </table>
           
@@ -4469,7 +4469,7 @@
                   <tr>
                     <td>Usage note</td>
                     <td>Original repository is a repository where the original metadata was harvested from or where it was created and/or published. There is always exactly one original repository. 
-              If metadata record is harvested from another repository, make sure to include the first repository from which it was harvested.</td>
+              If a metadata record is harvested from another repository, make sure to include the first repository from which it was harvested.</td>
                   </tr>
                 </table>
               </section>    <section id="MetadataRecord.hasLanguage">
@@ -4641,7 +4641,7 @@
               
                   <tr>
                     <td>Usage note</td>
-                    <td>The relationship shall contain at least one agent with role &quot;Data Manager&quot; from code list https://vocabs.ccmm.cz/registry/codelist/AgentRole/.</td>
+                    <td>The relationship shall contain at least one agent with the role &quot;Data Manager&quot; from the code list https://vocabs.ccmm.cz/registry/codelist/AgentRole/.</td>
                   </tr>
                 </table>
               </section>    <section id="MetadataRecord.title">
@@ -5575,7 +5575,7 @@
               
                   <tr>
                     <td>Usage note</td>
-                    <td>The resource URL is a resolvable representation human-readable representation of the resource, i.e. web page. The same url must be also recorded in c:iri.</td>
+                    <td>The resource URL is a resolvable and human-readable representation of the resource, i.e. web page. The same URL must be also recorded as c:iri.</td>
                   </tr>
                 </table>
               </section>
@@ -5738,7 +5738,7 @@
                   </tr>
                   <tr>
                     <td>Definition</td>
-                    <td>has identifier</td>
+                    <td>Identifier of an Agent.</td>
                   </tr>
                   <tr>
                     <td>Domain</td>
@@ -5788,6 +5788,10 @@
                       </td>
                     </tr>
               
+                  <tr>
+                    <td>Usage note</td>
+                    <td>Recommended identifier scheme for Organization is ROR; recommended identifier scheme for Person is ORCID.</td>
+                  </tr>
                 </table>
               </section>    <section id="Agent.name">
                 <h4>name</h4>
@@ -5872,7 +5876,7 @@
               
                   <tr>
                     <td>Usage note</td>
-                    <td>The official name of an agent. For Person, it is a combination of first and family names. Recommended format is &quot;family names, first names&quot;, e.g., &quot;Smith, John&quot;.</td>
+                    <td>The official name of an agent. For Person, it is a combination of the first and family names. The recommended format is &quot;family names, first names&quot;, e.g., &quot;Smith, John&quot;.</td>
                   </tr>
                 </table>
               </section>
@@ -5964,10 +5968,6 @@
                   </td>
                 </tr>
           
-              <tr>
-                <td>Usage note</td>
-                <td></td>
-              </tr>
             </table>
           
               <p><strong>Properties</strong></p>
@@ -6872,7 +6872,7 @@
                     <td>
                       <a href="#AccessRights">Access rights</a>
               
-                          [0..*]
+                          [0..1]
               
                   </td>
                   </tr>
@@ -10439,10 +10439,6 @@
                       </td>
                     </tr>
               
-                  <tr>
-                    <td>Usage note</td>
-                    <td></td>
-                  </tr>
                 </table>
               </section>    <section id="ContactDetails.email">
                 <h4>email</h4>
@@ -10809,7 +10805,7 @@
               </tr>
               <tr>
                 <td>Definition</td>
-                <td>All additional information that does not fit in any of the other categories. May be used for technical information or detailed information associated with a scientific instrument.</td>
+                <td>All additional information to the resource. </td>
               </tr>
           
                 <tr>
@@ -10832,7 +10828,7 @@
           
               <tr>
                 <td>Usage note</td>
-                <td>Description of the resource may have also a description type.</td>
+                <td>May be used for technical information or detailed information associated with a scientific instrument. Description of the resource may have also a description type. At least one description with a free-text account of the Dataset is mandatory.</td>
               </tr>
             </table>
           
@@ -10928,7 +10924,7 @@
               
                   <tr>
                     <td>Usage note</td>
-                    <td>description [DCAT-AP 3.0.1 based on DCAT 3 DAP] (https://mff-uk.github.io/specifications/dcat-ap#DataService.description)</td>
+                    <td> This property can be repeated for parallel language versions of the description.</td>
                   </tr>
                 </table>
               </section>    <section id="Description.hasDescriptionType">
@@ -12509,7 +12505,7 @@
               
                   <tr>
                     <td>Usage note</td>
-                    <td>For example, Digital Object Identifier, Open Research and Contributor ID etc. Shorts like DOI or ORCID melongs to the notation.</td>
+                    <td>For example, Digital Object Identifier, Open Research and Contributor ID etc. Shorts like DOI or ORCID belongs to the notation.</td>
                   </tr>
                 </table>
               </section>    <section id="IdentifierScheme.notation">
@@ -15573,6 +15569,10 @@
                     <td>has temporal representation</td>
                   </tr>
                   <tr>
+                    <td>Definition</td>
+                    <td>Represents the representation of a temporal entity (instant or interval).</td>
+                  </tr>
+                  <tr>
                     <td>Domain</td>
                     <td>
                       <a href="#TimeReference">Time reference</a>
@@ -16116,20 +16116,7 @@
           optional
           item of type
 
-                
-  
-  
-    array of values <code>{0..*}</code> of type     <a href="#json-object--distribution-downloadable-file--access-rights"></a>
-
-          
-
-  
-  
-  
-  
-  
-  
-
+              <a href="#json-object--distribution-downloadable-file--access-rights"></a>
 
         </li>
         <li style="list-style-type: disclosure-closed;">
@@ -17479,7 +17466,7 @@
           element <a href="#element-ccmm:distribution_downloadable_file-ccmm:checksum"><code>&lt;checksum&gt;</code></a> [0..1]
       </li>
       <li>
-          element <a href="#element-ccmm:distribution_downloadable_file-ccmm:rights"><code>&lt;rights&gt;</code></a> [0..*]
+          element <a href="#element-ccmm:distribution_downloadable_file-ccmm:rights"><code>&lt;rights&gt;</code></a> [0..1]
       </li>
       <li>
           element <a href="#element-ccmm:distribution_downloadable_file-ccmm:licence"><code>&lt;licence&gt;</code></a> [1..1]
@@ -18031,7 +18018,7 @@
     </dd>
 
       <dt>Effective cardinality of the element relative to its parent element</dt>
-      <dd>0..*</dd>
+      <dd>0..1</dd>
       <dt>Parent element</dt>
       <dd><a href="#type-ccmm:distribution_downloadable_file"></a></dd>
 
@@ -18319,7 +18306,7 @@
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>identifier</code>:
-            (<a href="#Agent.hasIdentifier" label="has identifier">has identifier</a>)
+            (<a href="#Agent.hasIdentifier" label="Identifier of an Agent.">has identifier</a>)
           optional
           item of type
 
@@ -19532,7 +19519,7 @@
         </i>
 
           <a href="#Agent.hasIdentifier"><strong>has identifier</strong></a>
-          (has identifier)
+          (Identifier of an Agent.)
 
     </dd>
 
@@ -22381,7 +22368,7 @@
     <ul>
         <li style="list-style-type: disclosure-closed;">
           <code>identifier</code>:
-            (<a href="#Agent.hasIdentifier" label="has identifier">has identifier</a>)
+            (<a href="#Agent.hasIdentifier" label="Identifier of an Agent.">has identifier</a>)
           optional
           item of type
 
@@ -22576,7 +22563,7 @@
     <ul>
         <li style="list-style-type: disclosure-closed;">
           <code>identifier</code>:
-            (<a href="#Agent.hasIdentifier" label="has identifier">has identifier</a>)
+            (<a href="#Agent.hasIdentifier" label="Identifier of an Agent.">has identifier</a>)
           optional
           item of type
 
@@ -24507,7 +24494,7 @@
     <ul>
         <li style="list-style-type: disclosure-closed;">
           <code>identifier</code>:
-            (<a href="#Agent.hasIdentifier" label="has identifier">has identifier</a>)
+            (<a href="#Agent.hasIdentifier" label="Identifier of an Agent.">has identifier</a>)
           optional
           item of type
 
@@ -28459,7 +28446,7 @@
     <ul>
         <li style="list-style-type: disclosure-closed;">
           <code>temporal_representation</code>:
-            (<a href="#TimeReference.hasTemporalRepresentation" label="">has temporal representation</a>)
+            (<a href="#TimeReference.hasTemporalRepresentation" label="Represents the representation of a temporal entity (instant or interval).">has temporal representation</a>)
           required
           item of type
 
@@ -29300,7 +29287,7 @@
     <ul>
         <li style="list-style-type: disclosure-closed;">
           <code>identifier</code>:
-            (<a href="#Agent.hasIdentifier" label="has identifier">has identifier</a>)
+            (<a href="#Agent.hasIdentifier" label="Identifier of an Agent.">has identifier</a>)
           optional
           item of type
 
@@ -29495,7 +29482,7 @@
     <ul>
         <li style="list-style-type: disclosure-closed;">
           <code>identifier</code>:
-            (<a href="#Agent.hasIdentifier" label="has identifier">has identifier</a>)
+            (<a href="#Agent.hasIdentifier" label="Identifier of an Agent.">has identifier</a>)
           optional
           item of type
 
@@ -31426,7 +31413,7 @@
     <ul>
         <li style="list-style-type: disclosure-closed;">
           <code>identifier</code>:
-            (<a href="#Agent.hasIdentifier" label="has identifier">has identifier</a>)
+            (<a href="#Agent.hasIdentifier" label="Identifier of an Agent.">has identifier</a>)
           optional
           item of type
 
@@ -34567,7 +34554,7 @@
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>identifier</code>:
-            (<a href="#Agent.hasIdentifier" label="has identifier">has identifier</a>)
+            (<a href="#Agent.hasIdentifier" label="Identifier of an Agent.">has identifier</a>)
           optional
           item of type
 
@@ -34762,7 +34749,7 @@
     <ul>
         <li style="list-style-type: disclosure-closed;">
           <code>identifier</code>:
-            (<a href="#Agent.hasIdentifier" label="has identifier">has identifier</a>)
+            (<a href="#Agent.hasIdentifier" label="Identifier of an Agent.">has identifier</a>)
           optional
           item of type
 
@@ -36854,7 +36841,7 @@
         </i>
 
           <a href="#Agent.hasIdentifier"><strong>has identifier</strong></a>
-          (has identifier)
+          (Identifier of an Agent.)
 
     </dd>
 
@@ -40881,7 +40868,7 @@
     <ul>
         <li style="list-style-type: disclosure-closed;">
           <code>identifier</code>:
-            (<a href="#Agent.hasIdentifier" label="has identifier">has identifier</a>)
+            (<a href="#Agent.hasIdentifier" label="Identifier of an Agent.">has identifier</a>)
           optional
           item of type
 
@@ -41076,7 +41063,7 @@
     <ul>
         <li style="list-style-type: disclosure-closed;">
           <code>identifier</code>:
-            (<a href="#Agent.hasIdentifier" label="has identifier">has identifier</a>)
+            (<a href="#Agent.hasIdentifier" label="Identifier of an Agent.">has identifier</a>)
           optional
           item of type
 
@@ -43007,7 +42994,7 @@
     <ul>
         <li style="list-style-type: disclosure-closed;">
           <code>identifier</code>:
-            (<a href="#Agent.hasIdentifier" label="has identifier">has identifier</a>)
+            (<a href="#Agent.hasIdentifier" label="Identifier of an Agent.">has identifier</a>)
           optional
           item of type
 
@@ -44364,7 +44351,7 @@
     <ul>
         <li style="list-style-type: disclosure-closed;">
           <code>identifier</code>:
-            (<a href="#Agent.hasIdentifier" label="has identifier">has identifier</a>)
+            (<a href="#Agent.hasIdentifier" label="Identifier of an Agent.">has identifier</a>)
           optional
           item of type
 
@@ -44559,7 +44546,7 @@
     <ul>
         <li style="list-style-type: disclosure-closed;">
           <code>identifier</code>:
-            (<a href="#Agent.hasIdentifier" label="has identifier">has identifier</a>)
+            (<a href="#Agent.hasIdentifier" label="Identifier of an Agent.">has identifier</a>)
           optional
           item of type
 
@@ -46490,7 +46477,7 @@
     <ul>
         <li style="list-style-type: disclosure-closed;">
           <code>identifier</code>:
-            (<a href="#Agent.hasIdentifier" label="has identifier">has identifier</a>)
+            (<a href="#Agent.hasIdentifier" label="Identifier of an Agent.">has identifier</a>)
           optional
           item of type
 
@@ -51373,7 +51360,7 @@
     <ul>
         <li style="list-style-type: disclosure-closed;">
           <code>temporal_representation</code>:
-            (<a href="#TimeReference.hasTemporalRepresentation" label="">has temporal representation</a>)
+            (<a href="#TimeReference.hasTemporalRepresentation" label="Represents the representation of a temporal entity (instant or interval).">has temporal representation</a>)
           required
           item of type
 
@@ -52214,7 +52201,7 @@
     <ul>
         <li style="list-style-type: disclosure-closed;">
           <code>identifier</code>:
-            (<a href="#Agent.hasIdentifier" label="has identifier">has identifier</a>)
+            (<a href="#Agent.hasIdentifier" label="Identifier of an Agent.">has identifier</a>)
           optional
           item of type
 
@@ -52409,7 +52396,7 @@
     <ul>
         <li style="list-style-type: disclosure-closed;">
           <code>identifier</code>:
-            (<a href="#Agent.hasIdentifier" label="has identifier">has identifier</a>)
+            (<a href="#Agent.hasIdentifier" label="Identifier of an Agent.">has identifier</a>)
           optional
           item of type
 
@@ -54340,7 +54327,7 @@
     <ul>
         <li style="list-style-type: disclosure-closed;">
           <code>identifier</code>:
-            (<a href="#Agent.hasIdentifier" label="has identifier">has identifier</a>)
+            (<a href="#Agent.hasIdentifier" label="Identifier of an Agent.">has identifier</a>)
           optional
           item of type
 
@@ -56284,7 +56271,7 @@
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>temporal_representation</code>:
-            (<a href="#TimeReference.hasTemporalRepresentation" label="">has temporal representation</a>)
+            (<a href="#TimeReference.hasTemporalRepresentation" label="Represents the representation of a temporal entity (instant or interval).">has temporal representation</a>)
           required
           item of type
 
@@ -57086,7 +57073,7 @@
         </i>
 
           <a href="#TimeReference.hasTemporalRepresentation"><strong>has temporal representation</strong></a>
-          
+          (Represents the representation of a temporal entity (instant or interval).)
 
     </dd>
 
@@ -57286,7 +57273,7 @@
     <ul>
         <li style="list-style-type: disclosure-closed;">
           <code>identifier</code>:
-            (<a href="#Agent.hasIdentifier" label="has identifier">has identifier</a>)
+            (<a href="#Agent.hasIdentifier" label="Identifier of an Agent.">has identifier</a>)
           optional
           item of type
 
@@ -57481,7 +57468,7 @@
     <ul>
         <li style="list-style-type: disclosure-closed;">
           <code>identifier</code>:
-            (<a href="#Agent.hasIdentifier" label="has identifier">has identifier</a>)
+            (<a href="#Agent.hasIdentifier" label="Identifier of an Agent.">has identifier</a>)
           optional
           item of type
 
@@ -59412,7 +59399,7 @@
     <ul>
         <li style="list-style-type: disclosure-closed;">
           <code>identifier</code>:
-            (<a href="#Agent.hasIdentifier" label="has identifier">has identifier</a>)
+            (<a href="#Agent.hasIdentifier" label="Identifier of an Agent.">has identifier</a>)
           optional
           item of type
 
@@ -61803,20 +61790,7 @@
           optional
           item of type
 
-                
-  
-  
-    array of values <code>{0..*}</code> of type     <a href="#json-object--dataset--access-rights"></a>
-
-          
-
-  
-  
-  
-  
-  
-  
-
+              <a href="#json-object--dataset--access-rights"></a>
 
         </li>
         <li style="list-style-type: disclosure-closed;">
@@ -63163,20 +63137,7 @@
           optional
           item of type
 
-                
-  
-  
-    array of values <code>{0..*}</code> of type     <a href="#json-object--dataset--access-rights"></a>
-
-          
-
-  
-  
-  
-  
-  
-  
-
+              <a href="#json-object--dataset--access-rights"></a>
 
         </li>
         <li style="list-style-type: disclosure-closed;">
@@ -64440,7 +64401,7 @@
     <ul>
         <li style="list-style-type: disclosure-closed;">
           <code>temporal_representation</code>:
-            (<a href="#TimeReference.hasTemporalRepresentation" label="">has temporal representation</a>)
+            (<a href="#TimeReference.hasTemporalRepresentation" label="Represents the representation of a temporal entity (instant or interval).">has temporal representation</a>)
           required
           item of type
 
@@ -65281,7 +65242,7 @@
     <ul>
         <li style="list-style-type: disclosure-closed;">
           <code>identifier</code>:
-            (<a href="#Agent.hasIdentifier" label="has identifier">has identifier</a>)
+            (<a href="#Agent.hasIdentifier" label="Identifier of an Agent.">has identifier</a>)
           optional
           item of type
 
@@ -65476,7 +65437,7 @@
     <ul>
         <li style="list-style-type: disclosure-closed;">
           <code>identifier</code>:
-            (<a href="#Agent.hasIdentifier" label="has identifier">has identifier</a>)
+            (<a href="#Agent.hasIdentifier" label="Identifier of an Agent.">has identifier</a>)
           optional
           item of type
 
@@ -67407,7 +67368,7 @@
     <ul>
         <li style="list-style-type: disclosure-closed;">
           <code>identifier</code>:
-            (<a href="#Agent.hasIdentifier" label="has identifier">has identifier</a>)
+            (<a href="#Agent.hasIdentifier" label="Identifier of an Agent.">has identifier</a>)
           optional
           item of type
 
@@ -69338,7 +69299,7 @@
     <ul>
         <li style="list-style-type: disclosure-closed;">
           <code>temporal_representation</code>:
-            (<a href="#TimeReference.hasTemporalRepresentation" label="">has temporal representation</a>)
+            (<a href="#TimeReference.hasTemporalRepresentation" label="Represents the representation of a temporal entity (instant or interval).">has temporal representation</a>)
           required
           item of type
 
@@ -70179,7 +70140,7 @@
     <ul>
         <li style="list-style-type: disclosure-closed;">
           <code>identifier</code>:
-            (<a href="#Agent.hasIdentifier" label="has identifier">has identifier</a>)
+            (<a href="#Agent.hasIdentifier" label="Identifier of an Agent.">has identifier</a>)
           optional
           item of type
 
@@ -70374,7 +70335,7 @@
     <ul>
         <li style="list-style-type: disclosure-closed;">
           <code>identifier</code>:
-            (<a href="#Agent.hasIdentifier" label="has identifier">has identifier</a>)
+            (<a href="#Agent.hasIdentifier" label="Identifier of an Agent.">has identifier</a>)
           optional
           item of type
 
@@ -72305,7 +72266,7 @@
     <ul>
         <li style="list-style-type: disclosure-closed;">
           <code>identifier</code>:
-            (<a href="#Agent.hasIdentifier" label="has identifier">has identifier</a>)
+            (<a href="#Agent.hasIdentifier" label="Identifier of an Agent.">has identifier</a>)
           optional
           item of type
 
@@ -73981,7 +73942,7 @@
     <ul>
         <li style="list-style-type: disclosure-closed;">
           <code>identifier</code>:
-            (<a href="#Agent.hasIdentifier" label="has identifier">has identifier</a>)
+            (<a href="#Agent.hasIdentifier" label="Identifier of an Agent.">has identifier</a>)
           optional
           item of type
 
@@ -74176,7 +74137,7 @@
     <ul>
         <li style="list-style-type: disclosure-closed;">
           <code>identifier</code>:
-            (<a href="#Agent.hasIdentifier" label="has identifier">has identifier</a>)
+            (<a href="#Agent.hasIdentifier" label="Identifier of an Agent.">has identifier</a>)
           optional
           item of type
 
@@ -76107,7 +76068,7 @@
     <ul>
         <li style="list-style-type: disclosure-closed;">
           <code>identifier</code>:
-            (<a href="#Agent.hasIdentifier" label="has identifier">has identifier</a>)
+            (<a href="#Agent.hasIdentifier" label="Identifier of an Agent.">has identifier</a>)
           optional
           item of type
 
@@ -77851,7 +77812,7 @@
     <ul>
         <li style="list-style-type: disclosure-closed;">
           <code>temporal_representation</code>:
-            (<a href="#TimeReference.hasTemporalRepresentation" label="">has temporal representation</a>)
+            (<a href="#TimeReference.hasTemporalRepresentation" label="Represents the representation of a temporal entity (instant or interval).">has temporal representation</a>)
           required
           item of type
 
@@ -78692,7 +78653,7 @@
     <ul>
         <li style="list-style-type: disclosure-closed;">
           <code>identifier</code>:
-            (<a href="#Agent.hasIdentifier" label="has identifier">has identifier</a>)
+            (<a href="#Agent.hasIdentifier" label="Identifier of an Agent.">has identifier</a>)
           optional
           item of type
 
@@ -78887,7 +78848,7 @@
     <ul>
         <li style="list-style-type: disclosure-closed;">
           <code>identifier</code>:
-            (<a href="#Agent.hasIdentifier" label="has identifier">has identifier</a>)
+            (<a href="#Agent.hasIdentifier" label="Identifier of an Agent.">has identifier</a>)
           optional
           item of type
 
@@ -80818,7 +80779,7 @@
     <ul>
         <li style="list-style-type: disclosure-closed;">
           <code>identifier</code>:
-            (<a href="#Agent.hasIdentifier" label="has identifier">has identifier</a>)
+            (<a href="#Agent.hasIdentifier" label="Identifier of an Agent.">has identifier</a>)
           optional
           item of type
 
@@ -82497,7 +82458,7 @@
       <table class="def">
           <tr>
             <th>Description</th>
-            <td>All additional information that does not fit in any of the other categories. May be used for technical information or detailed information associated with a scientific instrument.</td>
+            <td>All additional information to the resource. </td>
           </tr>
 
           <tr>
@@ -83496,7 +83457,7 @@
     <ul>
         <li style="list-style-type: disclosure-closed;">
           <code>temporal_representation</code>:
-            (<a href="#TimeReference.hasTemporalRepresentation" label="">has temporal representation</a>)
+            (<a href="#TimeReference.hasTemporalRepresentation" label="Represents the representation of a temporal entity (instant or interval).">has temporal representation</a>)
           required
           item of type
 
@@ -84337,7 +84298,7 @@
     <ul>
         <li style="list-style-type: disclosure-closed;">
           <code>identifier</code>:
-            (<a href="#Agent.hasIdentifier" label="has identifier">has identifier</a>)
+            (<a href="#Agent.hasIdentifier" label="Identifier of an Agent.">has identifier</a>)
           optional
           item of type
 
@@ -84532,7 +84493,7 @@
     <ul>
         <li style="list-style-type: disclosure-closed;">
           <code>identifier</code>:
-            (<a href="#Agent.hasIdentifier" label="has identifier">has identifier</a>)
+            (<a href="#Agent.hasIdentifier" label="Identifier of an Agent.">has identifier</a>)
           optional
           item of type
 
@@ -86463,7 +86424,7 @@
     <ul>
         <li style="list-style-type: disclosure-closed;">
           <code>identifier</code>:
-            (<a href="#Agent.hasIdentifier" label="has identifier">has identifier</a>)
+            (<a href="#Agent.hasIdentifier" label="Identifier of an Agent.">has identifier</a>)
           optional
           item of type
 
@@ -88706,7 +88667,7 @@
     <ul>
         <li style="list-style-type: disclosure-closed;">
           <code>identifier</code>:
-            (<a href="#Agent.hasIdentifier" label="has identifier">has identifier</a>)
+            (<a href="#Agent.hasIdentifier" label="Identifier of an Agent.">has identifier</a>)
           optional
           item of type
 
@@ -88901,7 +88862,7 @@
     <ul>
         <li style="list-style-type: disclosure-closed;">
           <code>identifier</code>:
-            (<a href="#Agent.hasIdentifier" label="has identifier">has identifier</a>)
+            (<a href="#Agent.hasIdentifier" label="Identifier of an Agent.">has identifier</a>)
           optional
           item of type
 
@@ -90832,7 +90793,7 @@
     <ul>
         <li style="list-style-type: disclosure-closed;">
           <code>identifier</code>:
-            (<a href="#Agent.hasIdentifier" label="has identifier">has identifier</a>)
+            (<a href="#Agent.hasIdentifier" label="Identifier of an Agent.">has identifier</a>)
           optional
           item of type
 
@@ -92189,7 +92150,7 @@
     <ul>
         <li style="list-style-type: disclosure-closed;">
           <code>identifier</code>:
-            (<a href="#Agent.hasIdentifier" label="has identifier">has identifier</a>)
+            (<a href="#Agent.hasIdentifier" label="Identifier of an Agent.">has identifier</a>)
           optional
           item of type
 
@@ -92384,7 +92345,7 @@
     <ul>
         <li style="list-style-type: disclosure-closed;">
           <code>identifier</code>:
-            (<a href="#Agent.hasIdentifier" label="has identifier">has identifier</a>)
+            (<a href="#Agent.hasIdentifier" label="Identifier of an Agent.">has identifier</a>)
           optional
           item of type
 
@@ -94315,7 +94276,7 @@
     <ul>
         <li style="list-style-type: disclosure-closed;">
           <code>identifier</code>:
-            (<a href="#Agent.hasIdentifier" label="has identifier">has identifier</a>)
+            (<a href="#Agent.hasIdentifier" label="Identifier of an Agent.">has identifier</a>)
           optional
           item of type
 
@@ -96436,7 +96397,7 @@
         <dt>Meaning</dt>
       <dd>
         <a href="#Description">Description</a>
-        (All additional information that does not fit in any of the other categories. May be used for technical information or detailed information associated with a scientific instrument.)
+        (All additional information to the resource. )
       </dd>
 
 
@@ -97025,7 +96986,7 @@
     <ul>
         <li style="list-style-type: disclosure-closed;">
           <code>identifier</code>:
-            (<a href="#Agent.hasIdentifier" label="has identifier">has identifier</a>)
+            (<a href="#Agent.hasIdentifier" label="Identifier of an Agent.">has identifier</a>)
           optional
           item of type
 
@@ -97220,7 +97181,7 @@
     <ul>
         <li style="list-style-type: disclosure-closed;">
           <code>identifier</code>:
-            (<a href="#Agent.hasIdentifier" label="has identifier">has identifier</a>)
+            (<a href="#Agent.hasIdentifier" label="Identifier of an Agent.">has identifier</a>)
           optional
           item of type
 
@@ -99151,7 +99112,7 @@
     <ul>
         <li style="list-style-type: disclosure-closed;">
           <code>identifier</code>:
-            (<a href="#Agent.hasIdentifier" label="has identifier">has identifier</a>)
+            (<a href="#Agent.hasIdentifier" label="Identifier of an Agent.">has identifier</a>)
           optional
           item of type
 
@@ -101251,20 +101212,7 @@
           optional
           item of type
 
-                
-  
-  
-    array of values <code>{0..*}</code> of type     <a href="#json-object--distribution--access-rights"></a>
-
-          
-
-  
-  
-  
-  
-  
-  
-
+              <a href="#json-object--distribution--access-rights"></a>
 
         </li>
         <li style="list-style-type: disclosure-closed;">
@@ -102611,20 +102559,7 @@
           optional
           item of type
 
-                
-  
-  
-    array of values <code>{0..*}</code> of type     <a href="#json-object--distribution--access-rights"></a>
-
-          
-
-  
-  
-  
-  
-  
-  
-
+              <a href="#json-object--distribution--access-rights"></a>
 
         </li>
         <li style="list-style-type: disclosure-closed;">
@@ -103888,7 +103823,7 @@
     <ul>
         <li style="list-style-type: disclosure-closed;">
           <code>temporal_representation</code>:
-            (<a href="#TimeReference.hasTemporalRepresentation" label="">has temporal representation</a>)
+            (<a href="#TimeReference.hasTemporalRepresentation" label="Represents the representation of a temporal entity (instant or interval).">has temporal representation</a>)
           required
           item of type
 
@@ -104729,7 +104664,7 @@
     <ul>
         <li style="list-style-type: disclosure-closed;">
           <code>identifier</code>:
-            (<a href="#Agent.hasIdentifier" label="has identifier">has identifier</a>)
+            (<a href="#Agent.hasIdentifier" label="Identifier of an Agent.">has identifier</a>)
           optional
           item of type
 
@@ -104924,7 +104859,7 @@
     <ul>
         <li style="list-style-type: disclosure-closed;">
           <code>identifier</code>:
-            (<a href="#Agent.hasIdentifier" label="has identifier">has identifier</a>)
+            (<a href="#Agent.hasIdentifier" label="Identifier of an Agent.">has identifier</a>)
           optional
           item of type
 
@@ -106855,7 +106790,7 @@
     <ul>
         <li style="list-style-type: disclosure-closed;">
           <code>identifier</code>:
-            (<a href="#Agent.hasIdentifier" label="has identifier">has identifier</a>)
+            (<a href="#Agent.hasIdentifier" label="Identifier of an Agent.">has identifier</a>)
           optional
           item of type
 
@@ -110989,7 +110924,7 @@
     <ul>
         <li style="list-style-type: disclosure-closed;">
           <code>identifier</code>:
-            (<a href="#Agent.hasIdentifier" label="has identifier">has identifier</a>)
+            (<a href="#Agent.hasIdentifier" label="Identifier of an Agent.">has identifier</a>)
           optional
           item of type
 
@@ -111184,7 +111119,7 @@
     <ul>
         <li style="list-style-type: disclosure-closed;">
           <code>identifier</code>:
-            (<a href="#Agent.hasIdentifier" label="has identifier">has identifier</a>)
+            (<a href="#Agent.hasIdentifier" label="Identifier of an Agent.">has identifier</a>)
           optional
           item of type
 
@@ -113115,7 +113050,7 @@
     <ul>
         <li style="list-style-type: disclosure-closed;">
           <code>identifier</code>:
-            (<a href="#Agent.hasIdentifier" label="has identifier">has identifier</a>)
+            (<a href="#Agent.hasIdentifier" label="Identifier of an Agent.">has identifier</a>)
           optional
           item of type
 
@@ -116351,7 +116286,7 @@
     <ul>
         <li style="list-style-type: disclosure-closed;">
           <code>id</code>:
-          optional
+          required
           item of type
 
                 
@@ -116610,7 +116545,7 @@
 </dt>
       <ul style="margin-top: 0;">
       <li>
-          element <a href="#element-ccmm:media_type-ccmm:iri"><code>&lt;iri&gt;</code></a> [0..1]
+          element <a href="#element-ccmm:media_type-ccmm:iri"><code>&lt;iri&gt;</code></a> [1..1]
       </li>
       <li>
           element <a href="#element-ccmm:media_type-ccmm:label"><code>&lt;label&gt;</code></a> [1..*]
@@ -116629,7 +116564,7 @@
     </dd>
 
       <dt>Effective cardinality of the element relative to its parent element</dt>
-      <dd>0..1</dd>
+      <dd>1..1</dd>
       <dt>Parent element</dt>
       <dd><a href="#type-ccmm:media_type"></a></dd>
 
@@ -117164,7 +117099,7 @@
       <table class="def">
           <tr>
             <th>Description</th>
-            <td>All additional information that does not fit in any of the other categories. May be used for technical information or detailed information associated with a scientific instrument.</td>
+            <td>All additional information to the resource. </td>
           </tr>
 
           <tr>
@@ -117551,7 +117486,7 @@
         <dt>Meaning</dt>
       <dd>
         <a href="#Description">Description</a>
-        (All additional information that does not fit in any of the other categories. May be used for technical information or detailed information associated with a scientific instrument.)
+        (All additional information to the resource. )
       </dd>
 
 
@@ -118152,20 +118087,7 @@
           optional
           item of type
 
-                
-  
-  
-    array of values <code>{0..*}</code> of type     <a href="#json-object--distribution-data-service--access-rights"></a>
-
-          
-
-  
-  
-  
-  
-  
-  
-
+              <a href="#json-object--distribution-data-service--access-rights"></a>
 
         </li>
         <li style="list-style-type: disclosure-closed;">
@@ -119429,7 +119351,7 @@
     <ul>
         <li style="list-style-type: disclosure-closed;">
           <code>temporal_representation</code>:
-            (<a href="#TimeReference.hasTemporalRepresentation" label="">has temporal representation</a>)
+            (<a href="#TimeReference.hasTemporalRepresentation" label="Represents the representation of a temporal entity (instant or interval).">has temporal representation</a>)
           required
           item of type
 
@@ -120270,7 +120192,7 @@
     <ul>
         <li style="list-style-type: disclosure-closed;">
           <code>identifier</code>:
-            (<a href="#Agent.hasIdentifier" label="has identifier">has identifier</a>)
+            (<a href="#Agent.hasIdentifier" label="Identifier of an Agent.">has identifier</a>)
           optional
           item of type
 
@@ -120465,7 +120387,7 @@
     <ul>
         <li style="list-style-type: disclosure-closed;">
           <code>identifier</code>:
-            (<a href="#Agent.hasIdentifier" label="has identifier">has identifier</a>)
+            (<a href="#Agent.hasIdentifier" label="Identifier of an Agent.">has identifier</a>)
           optional
           item of type
 
@@ -122396,7 +122318,7 @@
     <ul>
         <li style="list-style-type: disclosure-closed;">
           <code>identifier</code>:
-            (<a href="#Agent.hasIdentifier" label="has identifier">has identifier</a>)
+            (<a href="#Agent.hasIdentifier" label="Identifier of an Agent.">has identifier</a>)
           optional
           item of type
 
@@ -124041,7 +123963,7 @@
           element <a href="#element-ccmm:distribution_data_service-ccmm:documentation"><code>&lt;documentation&gt;</code></a> [0..*]
       </li>
       <li>
-          element <a href="#element-ccmm:distribution_data_service-ccmm:rights"><code>&lt;rights&gt;</code></a> [0..*]
+          element <a href="#element-ccmm:distribution_data_service-ccmm:rights"><code>&lt;rights&gt;</code></a> [0..1]
       </li>
       <li>
           element <a href="#element-ccmm:distribution_data_service-ccmm:licence"><code>&lt;licence&gt;</code></a> [1..1]
@@ -124327,7 +124249,7 @@
     </dd>
 
       <dt>Effective cardinality of the element relative to its parent element</dt>
-      <dd>0..*</dd>
+      <dd>0..1</dd>
       <dt>Parent element</dt>
       <dd><a href="#type-ccmm:distribution_data_service"></a></dd>
 
@@ -125014,7 +124936,7 @@
     <ul>
         <li style="list-style-type: disclosure-closed;">
           <code>temporal_representation</code>:
-            (<a href="#TimeReference.hasTemporalRepresentation" label="">has temporal representation</a>)
+            (<a href="#TimeReference.hasTemporalRepresentation" label="Represents the representation of a temporal entity (instant or interval).">has temporal representation</a>)
           required
           item of type
 
@@ -125855,7 +125777,7 @@
     <ul>
         <li style="list-style-type: disclosure-closed;">
           <code>identifier</code>:
-            (<a href="#Agent.hasIdentifier" label="has identifier">has identifier</a>)
+            (<a href="#Agent.hasIdentifier" label="Identifier of an Agent.">has identifier</a>)
           optional
           item of type
 
@@ -126050,7 +125972,7 @@
     <ul>
         <li style="list-style-type: disclosure-closed;">
           <code>identifier</code>:
-            (<a href="#Agent.hasIdentifier" label="has identifier">has identifier</a>)
+            (<a href="#Agent.hasIdentifier" label="Identifier of an Agent.">has identifier</a>)
           optional
           item of type
 
@@ -127981,7 +127903,7 @@
     <ul>
         <li style="list-style-type: disclosure-closed;">
           <code>identifier</code>:
-            (<a href="#Agent.hasIdentifier" label="has identifier">has identifier</a>)
+            (<a href="#Agent.hasIdentifier" label="Identifier of an Agent.">has identifier</a>)
           optional
           item of type
 
