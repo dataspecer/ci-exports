@@ -1350,48 +1350,7 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     nameProperty: "http://www.w3.org/2004/02/skos/core#prefLabel",
     description: {
       en: "A value that allows the contents of a file to be authenticated.",
-    },
-    descriptionFromProfiled: null,
-    descriptionProperty: null,
-    order: null,
-    controlledVocabularies: [],
-  }
-]
-Unable to merge entities with colliding id https://mff-uk.github.io/specifications/dcat-ap#Instant because they are of unsupported types. Falling back to the first one. [
-  {
-    iri: "https://mff-uk.github.io/specifications/dcat-ap#Instant",
-    tags: [ "https://w3id.org/dsv/class-role#supportive" ],
-    id: "https://mff-uk.github.io/specifications/dcat-ap#Instant",
-    type: [ "class-profile" ],
-    profiling: [ "https://mff-uk.github.io/specifications/dcat-dap#Instant" ],
-    usageNote: {},
-    usageNoteFromProfiled: "https://mff-uk.github.io/specifications/dcat-dap#Instant",
-    externalDocumentationUrl: "https://semiceu.github.io/DCAT-AP/releases/3.0.1/#Timeinstant",
-    name: {},
-    nameFromProfiled: "https://mff-uk.github.io/specifications/dcat-dap#Instant",
-    nameProperty: "http://www.w3.org/2004/02/skos/core#prefLabel",
-    description: {},
-    descriptionFromProfiled: "https://mff-uk.github.io/specifications/dcat-dap#Instant",
-    descriptionProperty: "http://www.w3.org/2004/02/skos/core#definition",
-  }, {
-    iri: "https://mff-uk.github.io/specifications/dcat-ap#Instant",
-    tags: [ "https://w3id.org/dsv/class-role#supportive" ],
-    id: "https://mff-uk.github.io/specifications/dcat-ap#Instant",
-    type: [ "class-profile" ],
-    profiling: [ "https://mff-uk.github.io/specifications/dcat-dap#Instant" ],
-    usageNote: {},
-    usageNoteFromProfiled: "https://mff-uk.github.io/specifications/dcat-dap#Instant",
-    externalDocumentationUrl: "https://semiceu.github.io/DCAT-AP/releases/3.0.1/#Timeinstant",
-    name: {},
-    nameFromProfiled: "https://mff-uk.github.io/specifications/dcat-dap#Instant",
-    nameProperty: "http://www.w3.org/2004/02/skos/core#prefLabel",
-    description: {},
-    descriptionFromProfiled: "https://mff-uk.github.io/specifications/dcat-dap#Instant",
-    descriptionProperty: "http://www.w3.org/2004/02/skos/core#definition",
-    order: null,
-    controlledVocabularies: [],
-  }
-]
+    
 Unable to merge entities with colliding id https://mff-uk.github.io/specifications/dcat-dap#Catalog because they are of unsupported types. Falling back to the first one. [
   {
     iri: "https://mff-uk.github.io/specifications/dcat-dap#Catalog",
