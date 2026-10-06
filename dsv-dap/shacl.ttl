@@ -1,7 +1,6 @@
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
 @prefix sh: <http://www.w3.org/ns/shacl#>.
-@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
 
 <https://w3id.org/dsv-dap#> rdfs:member <https://w3id.org/dsv-dap#adms:AssetDistributionShape>, <https://w3id.org/dsv-dap#http://www.w3.org/ns/dx/prof/ResourceDescriptorShape>, <https://w3id.org/dsv-dap#dsv:TermProfileShape>, <https://w3id.org/dsv-dap#dsv:ClassProfileShape>, <https://w3id.org/dsv-dap#dsv:PropertyProfileShape>, <https://w3id.org/dsv-dap#dsv:ObjectPropertyProfileShape>, <https://w3id.org/dsv-dap#dsv:DatatypePropertyProfileShape>, <https://w3id.org/dsv-dap#dsv:PropertyValueReuseShape>, <https://w3id.org/dsv-dap#rdfs:ResourceShape>, <https://w3id.org/dsv-dap#http://www.w3.org/1999/02/22-rdf-syntax-ns%23PropertyShape>, <https://w3id.org/dsv-dap#rdfs:ClassShape>, <https://w3id.org/dsv-dap#http://www.w3.org/2002/07/owl%23ClassShape>, <https://w3id.org/dsv-dap#dsv:InvalidTermProfileShape>, <https://w3id.org/dsv-dap#rdfs:DatatypeShape>, <https://w3id.org/dsv-dap#http://www.w3.org/ns/dx/prof/ProfileShape>, <https://w3id.org/dsv-dap#http://www.w3.org/2002/07/owl%23OntologyShape>, <https://w3id.org/dsv-dap#dsv:ApplicationProfileShape>, <https://w3id.org/dsv-dap#dsv:ApplicationProfileSpecificationDocumentShape>, <https://w3id.org/dsv-dap#dsv:VocabularySpecificationDocumentShape>, <https://w3id.org/dsv-dap#http://www.w3.org/ns/dx/prof/ResourceRoleShape>, <https://w3id.org/dsv-dap#skos:ConceptShape>, <https://w3id.org/dsv-dap#http://www.w3.org/2002/07/owl%23ObjectPropertyShape>, <https://w3id.org/dsv-dap#http://www.w3.org/2002/07/owl%23DatatypePropertyShape>.
@@ -34,7 +33,7 @@
     sh:nodeKind sh:BlankNodeOrIRI;
     sh:path <http://purl.org/dc/terms/format>;
     sh:maxCount 1;
-    sh:class skos:Concept.
+    sh:class <http://www.w3.org/2004/02/skos/core#Concept>.
 
 <https://w3id.org/dsv-dap#adms:AssetDistributionShape> sh:property <https://w3id.org/dsv-dap#adms:AssetDistributionShape/-6798cb04>.
 
@@ -82,7 +81,7 @@
     sh:nodeKind sh:BlankNodeOrIRI;
     sh:path <http://purl.org/dc/terms/format>;
     sh:maxCount 1;
-    sh:class skos:Concept.
+    sh:class <http://www.w3.org/2004/02/skos/core#Concept>.
 
 <https://w3id.org/dsv-dap#http://www.w3.org/ns/dx/prof/ResourceDescriptorShape> sh:property <https://w3id.org/dsv-dap#http://www.w3.org/ns/dx/prof/ResourceDescriptorShape/-6798cb04>.
 
@@ -110,7 +109,7 @@
 <https://w3id.org/dsv-dap#dsv:TermProfileShape/-5a58d435> a sh:PropertyShape;
     sh:name "preferred label"@en;
     sh:nodeKind sh:Literal;
-    sh:path skos:prefLabel;
+    sh:path <http://www.w3.org/2004/02/skos/core#prefLabel>;
     sh:datatype rdf:langString.
 
 <https://w3id.org/dsv-dap#dsv:TermProfileShape> sh:property <https://w3id.org/dsv-dap#dsv:TermProfileShape/-5a58d435>.
@@ -118,7 +117,7 @@
 <https://w3id.org/dsv-dap#dsv:TermProfileShape/-421d6ebd> a sh:PropertyShape;
     sh:name "definition"@en;
     sh:nodeKind sh:Literal;
-    sh:path skos:definition;
+    sh:path <http://www.w3.org/2004/02/skos/core#definition>;
     sh:datatype rdf:langString.
 
 <https://w3id.org/dsv-dap#dsv:TermProfileShape> sh:property <https://w3id.org/dsv-dap#dsv:TermProfileShape/-421d6ebd>.
@@ -126,7 +125,7 @@
 <https://w3id.org/dsv-dap#dsv:TermProfileShape/5af8a7e0> a sh:PropertyShape;
     sh:name "usage note"@en;
     sh:nodeKind sh:Literal;
-    sh:path skos:scopeNote;
+    sh:path <http://www.w3.org/2004/02/skos/core#scopeNote>;
     sh:datatype rdf:langString.
 
 <https://w3id.org/dsv-dap#dsv:TermProfileShape> sh:property <https://w3id.org/dsv-dap#dsv:TermProfileShape/5af8a7e0>.
@@ -249,7 +248,7 @@
     sh:name "class role"@en;
     sh:nodeKind sh:BlankNodeOrIRI;
     sh:path <https://w3id.org/dsv#classRole>;
-    sh:class skos:Concept.
+    sh:class <http://www.w3.org/2004/02/skos/core#Concept>.
 
 <https://w3id.org/dsv-dap#dsv:ClassProfileShape> sh:property <https://w3id.org/dsv-dap#dsv:ClassProfileShape/75559a68>, <https://w3id.org/dsv-dap#dsv:TermProfileShape/-5a58d435>, <https://w3id.org/dsv-dap#dsv:TermProfileShape/-421d6ebd>, <https://w3id.org/dsv-dap#dsv:TermProfileShape/5af8a7e0>, <https://w3id.org/dsv-dap#dsv:TermProfileShape/574145e1>, <https://w3id.org/dsv-dap#dsv:TermProfileShape/-136b2e2c>, <https://w3id.org/dsv-dap#dsv:TermProfileShape/7e0bca0c>, <https://w3id.org/dsv-dap#dsv:TermProfileShape/24d4df9>, <https://w3id.org/dsv-dap#dsv:TermProfileShape/5d3085b1>, <https://w3id.org/dsv-dap#dsv:TermProfileShape/4017229b>, <https://w3id.org/dsv-dap#rdfs:ResourceShape/-7feac35a>, <https://w3id.org/dsv-dap#rdfs:ResourceShape/-3878396f>, <https://w3id.org/dsv-dap#rdfs:ResourceShape/23a6a54f>, <https://w3id.org/dsv-dap#rdfs:ResourceShape/-3cc6a84e>.
 
@@ -283,7 +282,7 @@
     sh:nodeKind sh:BlankNodeOrIRI;
     sh:path <https://w3id.org/dsv#cardinality>;
     sh:maxCount 1;
-    sh:class skos:Concept.
+    sh:class <http://www.w3.org/2004/02/skos/core#Concept>.
 
 <https://w3id.org/dsv-dap#dsv:PropertyProfileShape> sh:property <https://w3id.org/dsv-dap#dsv:PropertyProfileShape/d1753f7>.
 
@@ -292,7 +291,7 @@
     sh:nodeKind sh:BlankNodeOrIRI;
     sh:path <https://w3id.org/dsv#requirementLevel>;
     sh:maxCount 1;
-    sh:class skos:Concept.
+    sh:class <http://www.w3.org/2004/02/skos/core#Concept>.
 
 <https://w3id.org/dsv-dap#dsv:PropertyProfileShape> sh:property <https://w3id.org/dsv-dap#dsv:PropertyProfileShape/-b7728d6>, <https://w3id.org/dsv-dap#dsv:TermProfileShape/-5a58d435>, <https://w3id.org/dsv-dap#dsv:TermProfileShape/-421d6ebd>, <https://w3id.org/dsv-dap#dsv:TermProfileShape/5af8a7e0>, <https://w3id.org/dsv-dap#dsv:TermProfileShape/574145e1>, <https://w3id.org/dsv-dap#dsv:TermProfileShape/-136b2e2c>, <https://w3id.org/dsv-dap#dsv:TermProfileShape/7e0bca0c>, <https://w3id.org/dsv-dap#dsv:TermProfileShape/24d4df9>, <https://w3id.org/dsv-dap#dsv:TermProfileShape/5d3085b1>, <https://w3id.org/dsv-dap#dsv:TermProfileShape/4017229b>, <https://w3id.org/dsv-dap#rdfs:ResourceShape/-7feac35a>, <https://w3id.org/dsv-dap#rdfs:ResourceShape/-3878396f>, <https://w3id.org/dsv-dap#rdfs:ResourceShape/23a6a54f>, <https://w3id.org/dsv-dap#rdfs:ResourceShape/-3cc6a84e>.
 
@@ -677,7 +676,7 @@
 <https://w3id.org/dsv-dap#skos:ConceptShape> a sh:NodeShape;
     rdfs:seeAlso <https://w3id.org/dsv-dap#ClassRole>;
     sh:closed false;
-    sh:targetClass skos:Concept;
+    sh:targetClass <http://www.w3.org/2004/02/skos/core#Concept>;
     rdfs:seeAlso <https://w3id.org/dsv-dap#RequirementLevel>, <https://w3id.org/dsv-dap#Cardinality>, <https://w3id.org/dsv-dap#Format>.
 
 <https://w3id.org/dsv-dap#http://www.w3.org/2002/07/owl%23ObjectPropertyShape> a sh:NodeShape;

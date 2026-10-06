@@ -1,7 +1,6 @@
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
 @prefix sh: <http://www.w3.org/ns/shacl#>.
-@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
 
 <https://ofn.gov.cz/dcat-ap-cz#> rdfs:member <https://ofn.gov.cz/dcat-ap-cz#dcat:DatasetShape>, <https://ofn.gov.cz/dcat-ap-cz#dcat:CatalogShape>, <https://ofn.gov.cz/dcat-ap-cz#dcat:DataServiceShape>, <https://ofn.gov.cz/dcat-ap-cz#dcat:DatasetSeriesShape>, <https://ofn.gov.cz/dcat-ap-cz#dcat:DistributionShape>, <https://ofn.gov.cz/dcat-ap-cz#vcard:KindShape>, <https://ofn.gov.cz/dcat-ap-cz#dcterms:PeriodOfTimeShape>, <https://ofn.gov.cz/dcat-ap-cz#dcterms:MediaTypeOrExtentShape>, <https://ofn.gov.cz/dcat-ap-cz#dcterms:MediaTypeShape>, <https://ofn.gov.cz/dcat-ap-cz#dcterms:LocationShape>, <https://ofn.gov.cz/dcat-ap-cz#dcterms:FrequencyShape>, <https://ofn.gov.cz/dcat-ap-cz#skos:ConceptShape>, <https://ofn.gov.cz/dcat-ap-cz#eli:LegalResourceShape>, <https://ofn.gov.cz/dcat-ap-cz#foaf:AgentShape>, <https://ofn.gov.cz/dcat-ap-cz#rdfs:ResourceShape>, <https://ofn.gov.cz/dcat-ap-cz#dcterms:StandardShape>, <https://ofn.gov.cz/dcat-ap-cz#podmínky-užití:SpecifikaceShape>, <https://ofn.gov.cz/dcat-ap-cz#dcterms:LicenseDocumentShape>, <https://ofn.gov.cz/dcat-ap-cz#foaf:DocumentShape>, <https://ofn.gov.cz/dcat-ap-cz#vcard:IndividualShape>, <https://ofn.gov.cz/dcat-ap-cz#vcard:OrganizationShape>.
@@ -79,7 +78,7 @@
     sh:description "A Dataset may be associated with multiple themes."@en;
     sh:nodeKind sh:BlankNodeOrIRI;
     sh:path <http://www.w3.org/ns/dcat#theme>;
-    sh:class skos:Concept.
+    sh:class <http://www.w3.org/2004/02/skos/core#Concept>.
 
 <https://ofn.gov.cz/dcat-ap-cz#dcat:DatasetShape> sh:property <https://ofn.gov.cz/dcat-ap-cz#dcat:DatasetShape/74ba69e2>.
 
@@ -393,7 +392,7 @@
     sh:description "A Dataset may be associated with multiple themes."@en;
     sh:nodeKind sh:BlankNodeOrIRI;
     sh:path <http://www.w3.org/ns/dcat#theme>;
-    sh:class skos:Concept.
+    sh:class <http://www.w3.org/2004/02/skos/core#Concept>.
 
 <https://ofn.gov.cz/dcat-ap-cz#dcat:DatasetSeriesShape> sh:property <https://ofn.gov.cz/dcat-ap-cz#dcat:DatasetSeriesShape/-2ce42632>.
 
@@ -572,7 +571,7 @@
 <https://ofn.gov.cz/dcat-ap-cz#skos:ConceptShape> a sh:NodeShape;
     rdfs:seeAlso <https://ofn.gov.cz/dcat-ap-cz#Koncept>;
     sh:closed false;
-    sh:targetClass skos:Concept;
+    sh:targetClass <http://www.w3.org/2004/02/skos/core#Concept>;
     rdfs:seeAlso <https://ofn.gov.cz/dcat-ap-cz#DatovéTéma>, <https://ofn.gov.cz/dcat-ap-cz#TémaEuroVoc>.
 
 <https://ofn.gov.cz/dcat-ap-cz#eli:LegalResourceShape> a sh:NodeShape;
