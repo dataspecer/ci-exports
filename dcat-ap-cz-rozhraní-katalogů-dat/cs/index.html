@@ -1070,6 +1070,25 @@
                 Katalog a datové sady musí být identifikovány svými IRI, nesmí se jednat o <a href="https://www.w3.org/TR/rdf11-concepts/#section-blank-nodes">RDF blank nody</a>.
             </p>
     
+            <aside class="note" title="IRI katalogu, datové sady či série datových sad a URL souboru obsahujícího data o nich">
+              <p>
+                Požadavek na shodu identifikátorů:
+              </p>
+              
+              <ul>
+                <li>IRI datového katalogu uvnitř souboru katalogu musí být totožné s URL LKD API registrovaným v NKD.</li>
+                <li>IRI datové sady (nebo série datových sad) v jejím souboru musí odpovídat příslušnému IRI uvedenému v souboru katalogu.</li>
+              </ul>
+              
+              <p>
+                HTTP přesměrování:
+              </p>
+    
+              <ul>
+                <li>Přesměrování na jinou URL adresu ze strany serveru je povolené. Cílový soubor stažený z přesměrované URL však musí v definici dat stále obsahovat původní IRI.</li>
+              </ul>
+            </aside>
+            
             <p>
                 Příklady obsahují i příslušná JSON schémata pro validaci souborů ve variantě JSON-LD.
             </p>
@@ -1080,7 +1099,7 @@
                 <p>
                     Soubor katalogu je soubor v RDF serializaci <a href="../../propojená-data/#serializace-RDF-Turtle">Turtle</a> či <a href="../../propojená-data/#serializace-JSON-LD">JSON-LD</a>, který obsahuje instanci třídy <code>dcat:Catalog</code> a odkazy na jednotlivé katalogizované datové sady.
                 </p>
-                
+    
                 <aside class="example" title="Vzorový soubor katalogu se třemi datovými sadami ve formátu RDF Turtle">
                     <p>
                         <a href="../příklady/katalog.ttl">Stáhnout RDF Turtle</a>.
