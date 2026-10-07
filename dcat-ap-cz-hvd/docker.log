@@ -1232,9 +1232,9 @@ Unable to merge entities with colliding id https://mff-uk.github.io/specificatio
     controlledVocabularies: [],
   }
 ]
- [
+Unable to merge entities with colliding id https://mff-uk.github.io/specifications/dcat-ap#Activity because they are of unsupported types. Falling back to the first one. [
   {
-    iri: "https://mff-uk.github.io/specifications/dcat-ap#Activ,
+    iri: "https://mff-uk.github.io/specifications/dcat-ap#Activity",
     tags: [ "https://w3id.org/dsv/class-role#supportive" ],
     id: "https://mff-uk.github.io/specifications/dcat-ap#Activity",
     type: [ "class-profile" ],
