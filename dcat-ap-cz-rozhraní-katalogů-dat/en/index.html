@@ -780,6 +780,28 @@
 
         </li>
         <li style="list-style-type: disclosure-closed;">
+          <code>přístupový_bod</code>:
+            (<a href="#Katalog.přístupovýBodSlužby" label="The root location or primary endpoint of the service (an IRI).">endpoint URL</a>)
+          required
+          item of type
+
+                
+  
+  
+    string
+  (format: <code>iri</code>)
+  
+
+
+  
+  
+  
+  
+  
+
+
+        </li>
+        <li style="list-style-type: disclosure-closed;">
           <code>datová_sada</code>:
             (<a href="#Katalog.datováSada" label="A Dataset that is part of the Catalogue.">dataset</a>)
           optional
@@ -1371,7 +1393,7 @@
             </table>
           
               <p><strong>Properties</strong></p>
-              <p>For this class profile the following properties are defined: <a href="#Katalog.název">title</a>, <a href="#Katalog.popis">description</a>, <a href="#Katalog.kontaktníBod">contact point</a>, <a href="#Katalog.poskytovatel">publisher</a>, <a href="#Katalog.domovskáStránka">homepage</a>, <a href="#Katalog.datováSada">dataset</a>.</p>
+              <p>For this class profile the following properties are defined: <a href="#Katalog.název">title</a>, <a href="#Katalog.popis">description</a>, <a href="#Katalog.kontaktníBod">contact point</a>, <a href="#Katalog.poskytovatel">publisher</a>, <a href="#Katalog.domovskáStránka">homepage</a>, <a href="#Katalog.datováSada">dataset</a>, <a href="#Katalog.přístupovýBodSlužby">endpoint URL</a>.</p>
           
           
               <section id="Katalog.název">
@@ -1976,6 +1998,101 @@
                   <tr>
                     <td>Usage note</td>
                     <td>As empty Catalogues are usually indications of problems, this property should be combined with the property service to implement an empty Catalogue check.</td>
+                  </tr>
+                </table>
+              </section>    <section id="Katalog.přístupovýBodSlužby">
+                <h4>endpoint URL</h4>
+              
+                <table class="def">
+                  <tr>
+                    <td>Profiled relationship IRI(s)</td>
+                    <td>
+                        
+                        <a href="http://www.w3.org/ns/dcat#endpointURL">dcat:endpointURL</a>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>IRI</td>
+                    <td><a href="https://ofn.gov.cz/dcat-ap-cz-rozhraní-katalogů-dat#Katalog.přístupovýBodSlužby">https://ofn.gov.cz/dcat-ap-cz-rozhraní-katalogů-dat#Katalog.přístupovýBodSlužby</a></td>
+                  </tr>
+                  <tr>
+                    <td>Label</td>
+                    <td>endpoint URL</td>
+                  </tr>
+                  <tr>
+                    <td>Definition</td>
+                    <td>The root location or primary endpoint of the service (an IRI).</td>
+                  </tr>
+                  <tr>
+                    <td>Domain</td>
+                    <td>
+                      <a href="#Katalog">Catalogue</a>
+              
+                      
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Range</td>
+                    <td>
+                      <a href="#Zdroj">Resource</a>
+              
+                          [1..1]
+              
+                  </td>
+                  </tr>
+              
+              
+              
+                    <tr>
+                      <td>Hierarchy</td>
+                      <td>
+                        <ul style="list-style-type: disclosure-closed; padding-left: 0; margin: 0;">
+                              <li>
+                                        profiles
+                    
+                    property profile
+                    <a href="https://ofn.gov.cz/dcat-ap-cz/2026-09-23/cs/#DatováSlužba.přístupovýBodSlužby">endpoint URL</a> (<a href="https://ofn.gov.cz/dcat-ap-cz#DatováSlužba.přístupovýBodSlužby">dcat-ap-cz:DatováSlužba.přístupovýBodSlužby</a>)
+                      <ul style="list-style-type: disclosure-closed;">
+                          <li>
+                                      profiles
+                    
+                    property profile
+                    <a href="https://semiceu.github.io/DCAT-AP/releases/3.0.1/#DataService.endpointURL">endpoint URL</a> (<a href="https://mff-uk.github.io/specifications/dcat-ap#DataService.endpointUrl">dcat-ap:DataService.endpointUrl</a>)
+                      <br />Definition: <i>The root location or primary endpoint of the service (an IRI).</i>
+                      <ul style="list-style-type: disclosure-closed;">
+                          <li>
+                                      profiles
+                    
+                    property profile
+                    <a href="https://www.w3.org/TR/vocab-dcat-3/#Property:data_service_endpoint_url">endpoint URL</a> (<a href="https://mff-uk.github.io/specifications/dcat-dap#DataService.endpointUrl">dcat-dap:DataService.endpointUrl</a>)
+                      <ul style="list-style-type: disclosure-closed;">
+                          <li>
+                                      profiles
+                    property
+                    
+                    <a href="http://www.w3.org/ns/dcat#endpointURL">service end-point</a> (<a href="http://www.w3.org/ns/dcat#endpointURL">dcat:endpointURL</a>)
+                      <br />Definition: <i>The root location or primary endpoint of the service (a web-resolvable IRI).</i>
+                      <ul style="list-style-type: disclosure-closed;">
+                      </ul>
+              
+                          </li>
+                      </ul>
+              
+                          </li>
+                      </ul>
+              
+                          </li>
+                      </ul>
+              
+                              </li>
+                        </ul>
+                      </td>
+                    </tr>
+              
+                  <tr>
+                    <td>Usage note</td>
+                    <td>Pro DCAT-AP Dokumenty je to URL souboru katalogu a zároveň IRI katalogu uvnitř souboru.
+              Pro SPARQL endpoint je to URL SPARQL endpointu. (@cs)</td>
                   </tr>
                 </table>
               </section>
@@ -2907,6 +3024,86 @@
               
                 </table>
               </section>
+          </section>          <section id="Zdroj">
+            <h4>Resource</h4>
+          
+            <table class="def">
+              <tr>
+                <td>Profiled class IRI(s)</td>
+                <td>
+                    
+                    <a href="http://www.w3.org/2000/01/rdf-schema#Resource">rdfs:Resource</a>
+                </td>
+              </tr>
+              <tr>
+                <td>IRI</td>
+                <td><a href="https://ofn.gov.cz/dcat-ap-cz-rozhraní-katalogů-dat#Zdroj">https://ofn.gov.cz/dcat-ap-cz-rozhraní-katalogů-dat#Zdroj</a></td>
+              </tr>
+              <tr>
+                <td>Label</td>
+                <td>Resource</td>
+              </tr>
+              <tr>
+                <td>Definition</td>
+                <td>Anything described by RDF.</td>
+              </tr>
+          
+                <tr>
+                  <td>Hierarchy</td>
+                  <td>
+                    <ul style="list-style-type: disclosure-closed; padding-left: 0; margin: 0;">
+                          <li>
+                                    profiles
+                
+                class profile
+                <a href="https://ofn.gov.cz/dcat-ap-cz/2026-09-23/cs/#Zdroj">Resource</a> (<a href="https://ofn.gov.cz/dcat-ap-cz#Zdroj">dcat-ap-cz:Zdroj</a>)
+                  <br />Definition: <i>Anything described by RDF.</i>
+                  <ul style="list-style-type: disclosure-closed;">
+                      <li>
+                                  profiles
+                
+                class profile
+                <a href="https://semiceu.github.io/DCAT-AP/releases/3.0.1/#Resource">Resource</a> (<a href="https://mff-uk.github.io/specifications/dcat-ap#rdfs-Resource">dcat-ap:rdfs-Resource</a>)
+                  <br />Definition: <i>Anything described by RDF.</i>
+                  <ul style="list-style-type: disclosure-closed;">
+                      <li>
+                                  profiles
+                
+                class profile
+                <a href="https://mff-uk.github.io/specifications/dcat-dap/#rdfs-Resource">Resource</a> (<a href="https://mff-uk.github.io/specifications/dcat-dap#rdfs-Resource">dcat-dap:rdfs-Resource</a>)
+                  <ul style="list-style-type: disclosure-closed;">
+                      <li>
+                                  profiles
+                class
+                
+                <a href="http://www.w3.org/2000/01/rdf-schema#Resource">Resource</a> (<a href="http://www.w3.org/2000/01/rdf-schema#Resource">rdfs:Resource</a>)
+                  <br />Definition: <i>The class resource, everything.</i>
+                  <ul style="list-style-type: disclosure-closed;">
+                  </ul>
+          
+                      </li>
+                  </ul>
+          
+                      </li>
+                  </ul>
+          
+                      </li>
+                  </ul>
+          
+                          </li>
+                    </ul>
+                  </td>
+                </tr>
+          
+            </table>
+          
+          
+              <p><strong>Backwards associations</strong></p>
+              <ul>
+                  <li>from domain <a href="#Katalog"></a> → <a href="#Katalog.přístupovýBodSlužby"></a></li>
+              </ul>
+          
+          
           </section>      </section>
 
 
