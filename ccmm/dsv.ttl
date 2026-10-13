@@ -516,8 +516,7 @@
     a dsv:ClassProfile;
     dsv:class <https://model.ccmm.cz/vocabulary/ccmm#Ro-crateJsonRepresentation>;
     dsv:classRole role:supportive.
-
-<https://model.ccmm.cz/research-data/Dataset.hasRelatedResource> dct:isPartOf <https://model.ccmm.cz/research-data/>;
+:Dataset.hasRelatedResource dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
     skos:prefLabel "has related resource"@en;
     skos:definition "Reference to the resource in any way related to the described dataset."@en;
@@ -525,8 +524,7 @@
     dsv:domain :Dataset;
     a dsv:ObjectPropertyProfile;
     dsv:objectPropertyRange :RelatedResource.
-
-<https://model.ccmm.cz/research-data/Dataset.hasFundingReference> dct:isPartOf <https://model.ccmm.cz/research-data/>;
+:Dataset.hasFundingReference dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
     skos:prefLabel "has funding reference"@en;
     skos:definition "Has reference for funding of a dataset acquisition."@en;
@@ -535,8 +533,7 @@
     dsv:domain :Dataset;
     a dsv:ObjectPropertyProfile;
     dsv:objectPropertyRange :FundingReference.
-
-<https://model.ccmm.cz/research-data/Dataset.hasDistribution> dct:isPartOf <https://model.ccmm.cz/research-data/>;
+:Dataset.hasDistribution dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
     skos:prefLabel "has distribution"@en;
     skos:scopeNote "For the distribution of data in the form of files use instances of class Distribution – downloadable file. For the distribution of data through service use instance of class Distribution – data service. "@en;
@@ -550,8 +547,7 @@
     dsv:domain :Dataset;
     a dsv:ObjectPropertyProfile;
     dsv:objectPropertyRange :Distribution.
-
-<https://model.ccmm.cz/research-data/Dataset.hasValidationResult> dct:isPartOf <https://model.ccmm.cz/research-data/>;
+:Dataset.hasValidationResult dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
     skos:prefLabel "has validation result"@en;
     skos:definition "Reference to the report about the dataset validation."@en;
@@ -559,8 +555,7 @@
     dsv:domain :Dataset;
     a dsv:ObjectPropertyProfile;
     dsv:objectPropertyRange :ValidationResult.
-
-<https://model.ccmm.cz/research-data/Dataset.hasSubject> dct:isPartOf <https://model.ccmm.cz/research-data/>;
+:Dataset.hasSubject dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
     skos:prefLabel "has subject"@en;
     skos:definition "Dataset described using a subject."@en;
@@ -570,8 +565,7 @@
     dsv:domain :Dataset;
     a dsv:ObjectPropertyProfile;
     dsv:objectPropertyRange :Subject.
-
-<https://model.ccmm.cz/research-data/Dataset.hasTimeReference> dct:isPartOf <https://model.ccmm.cz/research-data/>;
+:Dataset.hasTimeReference dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
     skos:prefLabel "has time reference"@en;
     skos:definition "Reference to events related to the dataset."@en;
@@ -581,8 +575,7 @@
     dsv:domain :Dataset;
     a dsv:ObjectPropertyProfile;
     dsv:objectPropertyRange :TimeReference.
-
-<https://model.ccmm.cz/research-data/ResourceAttribution.hasAttributedAgent> dct:isPartOf <https://model.ccmm.cz/research-data/>;
+:ResourceAttribution.hasAttributedAgent dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
     skos:prefLabel "has attributed agent"@en;
     skos:definition "The agent attributed to the resource."@en;
@@ -591,8 +584,7 @@
     dsv:domain :ResourceAttribution;
     a dsv:ObjectPropertyProfile;
     dsv:objectPropertyRange :Agent.
-
-<https://model.ccmm.cz/research-data/ResourceAttribution.hadRole> dct:isPartOf <https://model.ccmm.cz/research-data/>;
+:ResourceAttribution.hadRole dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
     skos:scopeNote "May be used in a qualified-attribution to specify the role of an Agent with respect to an Resource. It is recommended that the value be taken from code list https://vocabs.ccmm.cz/registry/codelist/AgentRole/."@en;
     dsv:profileOf <https://mff-uk.github.io/specifications/dcat-ap#Relationship.hadRole>;
@@ -611,8 +603,7 @@
     dsv:domain :ResourceAttribution;
     a dsv:ObjectPropertyProfile;
     dsv:objectPropertyRange :AttributedAgentRoleType.
-
-<https://model.ccmm.cz/research-data/FundingReference.hasFunder> dct:isPartOf <https://model.ccmm.cz/research-data/>;
+:FundingReference.hasFunder dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
     skos:prefLabel "has funder"@en;
     dsv:cardinality cardinality:1n;
@@ -620,8 +611,7 @@
     dsv:domain :FundingReference;
     a dsv:ObjectPropertyProfile;
     dsv:objectPropertyRange :Agent.
-
-<https://model.ccmm.cz/research-data/Agent.contactPoint> dct:isPartOf <https://model.ccmm.cz/research-data/>;
+:Agent.contactPoint dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
     skos:prefLabel "Punto de contacto"@es, "has contact point"@en, "má kontaktní bod"@cs, "point de contact"@fr, "punto di contatto"@it, "σημείο επικοινωνίας"@el, "عنوان اتصال"@ar, "窓口"@ja, "kontaktpunkt"@da;
     skos:definition "Información relevante de contacto para el recurso catalogado. Se recomienda el uso de vCard."@es, "Informazioni di contatto rilevanti per la risorsa catalogata. Si raccomanda l'uso di vCard."@it, "Relevant contact information for the catalogued resource. "@en, "Relevantní kontaktní informace pro katalogizovaný zdroj. Doporučuje se použít slovník VCard."@cs, "Relie un jeu de données à une information de contact utile en utilisant VCard."@fr, "Συνδέει ένα σύνολο δεδομένων με ένα σχετικό σημείο επικοινωνίας, μέσω VCard."@el, "تربط قائمة البيانات بعنوان اتصال موصف  باستخدام VCard"@ar, "データセットを、VCardを用いて提供されている適切な連絡先情報にリンクします。"@ja, "Relevante kontaktoplysninger for den katalogiserede ressource. Anvendelse af vCard anbefales."@da;
@@ -630,8 +620,7 @@
     dsv:domain :Agent;
     a dsv:ObjectPropertyProfile;
     dsv:objectPropertyRange :ContactDetails.
-
-<https://model.ccmm.cz/research-data/ContactDetails.hasAddress> dct:isPartOf <https://model.ccmm.cz/research-data/>;
+:ContactDetails.hasAddress dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
     skos:scopeNote "Either links to IRI of address in address registry or describes the address using Address class attributes."@en;
     dsv:reusesPropertyValue [
@@ -650,8 +639,7 @@
     dsv:domain :ContactDetails;
     a dsv:ObjectPropertyProfile;
     dsv:objectPropertyRange :Address.
-
-<https://model.ccmm.cz/research-data/Person.hasAffiliation> dct:isPartOf <https://model.ccmm.cz/research-data/>;
+:Person.hasAffiliation dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
     skos:prefLabel "has affiliation"@en;
     skos:definition "Affiliation of the person to an organization."@en;
@@ -659,8 +647,7 @@
     dsv:domain :Person;
     a dsv:ObjectPropertyProfile;
     dsv:objectPropertyRange :Organization.
-
-<https://model.ccmm.cz/research-data/MetadataRecord.conformsTo> dct:isPartOf <https://model.ccmm.cz/research-data/>;
+:MetadataRecord.conformsTo dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
     skos:prefLabel "conforms to"@en;
     skos:definition "An established standard to which the metadata record conforms."@en;
@@ -670,8 +657,7 @@
     dsv:domain :MetadataRecord;
     a dsv:ObjectPropertyProfile;
     dsv:objectPropertyRange :ApplicationProfile.
-
-<https://model.ccmm.cz/research-data/MetadataRecord.hasOriginalRepository> dct:isPartOf <https://model.ccmm.cz/research-data/>;
+:MetadataRecord.hasOriginalRepository dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
     skos:prefLabel "has original repository"@en;
     skos:definition "Link to the repository in which the metadata were originally stored and curated."@en;
@@ -681,8 +667,7 @@
     dsv:domain :MetadataRecord;
     a dsv:ObjectPropertyProfile;
     dsv:objectPropertyRange :Repository.
-
-<https://model.ccmm.cz/research-data/MetadataRecord.describes> dct:isPartOf <https://model.ccmm.cz/research-data/>;
+:MetadataRecord.describes dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
     skos:prefLabel "describes"@en;
     skos:definition "Dataset described by the metadata record."@en;
@@ -691,8 +676,7 @@
     dsv:domain :MetadataRecord;
     a dsv:ObjectPropertyProfile;
     dsv:objectPropertyRange :Dataset.
-
-<https://model.ccmm.cz/research-data/Distribution-DownloadableFile.downloadUrl> dct:isPartOf <https://model.ccmm.cz/research-data/>;
+:Distribution-DownloadableFile.downloadUrl dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
     skos:prefLabel "download URL"@en;
     skos:scopeNote "A download URL SHOULD BE used for the URL at which this distribution is available directly, typically through an HTTP Get request."@en;
@@ -706,8 +690,7 @@
     dsv:domain :Distribution-DownloadableFile;
     a dsv:ObjectPropertyProfile;
     dsv:objectPropertyRange :File.
-
-<https://model.ccmm.cz/research-data/Distribution-DownloadableFile.mediaType> dct:isPartOf <https://model.ccmm.cz/research-data/>;
+:Distribution-DownloadableFile.mediaType dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
     skos:prefLabel "has media type"@en;
     skos:definition "The media type of the Distribution as defined in the official register of media types managed by IANA."@en;
@@ -716,8 +699,7 @@
     dsv:domain :Distribution-DownloadableFile;
     a dsv:ObjectPropertyProfile;
     dsv:objectPropertyRange :MediaType.
-
-<https://model.ccmm.cz/research-data/Distribution.conformsTo> dct:isPartOf <https://model.ccmm.cz/research-data/>;
+:Distribution.conformsTo dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
     skos:prefLabel "conforms to"@en;
     skos:scopeNote "This property should be used to indicate the model, schema, ontology, view, or profile that this representation of a dataset conforms to. This is (generally) a complementary concern to the media type, service standard, or format."@en;
@@ -732,8 +714,7 @@
     dsv:domain :Distribution;
     a dsv:ObjectPropertyProfile;
     dsv:objectPropertyRange :ApplicationProfile.
-
-<https://model.ccmm.cz/research-data/Distribution-DataService.hasAccessService> dct:isPartOf <https://model.ccmm.cz/research-data/>;
+:Distribution-DataService.hasAccessService dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
     skos:prefLabel "has access service"@en, "servicio de acceso de datos"@es, "servizio di accesso ai dati"@it, "služba pro přístup k datům"@cs, "dataadgangstjeneste"@da;
     skos:scopeNote "Access service SHOULD be used to link to a description of Data service that provides access to this distribution."@en;
@@ -747,8 +728,7 @@
     dsv:domain :Distribution-DataService;
     a dsv:ObjectPropertyProfile;
     dsv:objectPropertyRange :DataService.
-
-<https://model.ccmm.cz/research-data/Distribution-DataService.hasDocumentation> dct:isPartOf <https://model.ccmm.cz/research-data/>;
+:Distribution-DataService.hasDocumentation dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
     skos:prefLabel "has documentation"@en;
     dsv:profileOf <https://mff-uk.github.io/specifications/dcat-ap#Distribution.documentation>;
@@ -766,8 +746,7 @@
     dsv:domain :Distribution;
     a dsv:ObjectPropertyProfile;
     dsv:objectPropertyRange :Documentation.
-
-<https://model.ccmm.cz/research-data/Subject.inSubjectScheme> dct:isPartOf <https://model.ccmm.cz/research-data/>;
+:Subject.inSubjectScheme dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
     skos:prefLabel "in subject scheme"@en;
     skos:definition "Belonging of the subject to the subject scheme."@en;
@@ -776,8 +755,7 @@
     dsv:domain :Subject;
     a dsv:ObjectPropertyProfile;
     dsv:objectPropertyRange :SubjectScheme.
-
-<https://model.ccmm.cz/research-data/Resource.hasLocation> dct:isPartOf <https://model.ccmm.cz/research-data/>;
+:Resource.hasLocation dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
     skos:prefLabel "has location"@en;
     skos:scopeNote "In CCMM, spatial coverage does not only cover the area of resource, it may be connected to the resource in some other way, e.g., the place from where the data were measured or administrative area to which the resource conforms or other."@en;
@@ -791,8 +769,7 @@
     dsv:domain :Resource;
     a dsv:ObjectPropertyProfile;
     dsv:objectPropertyRange :Location.
-
-<https://model.ccmm.cz/research-data/Location.hasRelatedObject> dct:isPartOf <https://model.ccmm.cz/research-data/>;
+:Location.hasRelatedObject dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
     skos:prefLabel "has related object"@en;
     skos:definition "Relation to the spatial object."@en;
@@ -801,8 +778,7 @@
     dsv:domain :Location;
     a dsv:ObjectPropertyProfile;
     dsv:objectPropertyRange :RelatedResource.
-
-<https://model.ccmm.cz/research-data/Location.bbox> dct:isPartOf <https://model.ccmm.cz/research-data/>;
+:Location.bbox dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
     skos:prefLabel "bounding box"@en;
     skos:definition "Bounding box of the location geometry."@en;
@@ -812,8 +788,7 @@
     dsv:domain :Location;
     a dsv:ObjectPropertyProfile;
     dsv:objectPropertyRange <http://www.opengis.net/ont/sf#Envelope>.
-
-<https://model.ccmm.cz/research-data/Location.hasGeometry> dct:isPartOf <https://model.ccmm.cz/research-data/>;
+:Location.hasGeometry dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
     skos:prefLabel "has geometry"@en;
     skos:scopeNote "The range of this property allows for any type of geometry specification. For example, the geometry could be encoded by a literal, as WKT (geosparql:wktLiteral), or represented by a class, as geosparql:Geometry (or any of its subclasses)."@en;
@@ -828,8 +803,7 @@
     dsv:domain :Location;
     a dsv:ObjectPropertyProfile;
     dsv:objectPropertyRange :Geometry.
-
-<https://model.ccmm.cz/research-data/Dataset.isDescribedBy> dct:isPartOf <https://model.ccmm.cz/research-data/>;
+:Dataset.isDescribedBy dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
     skos:prefLabel "is described by"@en;
     skos:definition "Inverse relation between dataset and metadata record."@en;
@@ -838,8 +812,7 @@
     dsv:domain :Dataset;
     a dsv:ObjectPropertyProfile;
     dsv:objectPropertyRange :MetadataRecord.
-
-<https://model.ccmm.cz/research-data/DataService.endpointUrl> dct:isPartOf <https://model.ccmm.cz/research-data/>;
+:DataService.endpointUrl dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
     dsv:profileOf <https://mff-uk.github.io/specifications/dcat-ap#DataService.endpointUrl>;
     dsv:reusesPropertyValue [
@@ -862,8 +835,7 @@
     dsv:domain :DataService;
     a dsv:ObjectPropertyProfile;
     dsv:objectPropertyRange :RelatedResource.
-
-<https://model.ccmm.cz/research-data/Agent.hasIdentifier> dct:isPartOf <https://model.ccmm.cz/research-data/>;
+:Agent.hasIdentifier dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
     skos:prefLabel "has identifier"@en;
     skos:definition "Identifier of an Agent."@en;
@@ -873,8 +845,7 @@
     dsv:domain :Agent;
     a dsv:ObjectPropertyProfile;
     dsv:objectPropertyRange :Identifier.
-
-<https://model.ccmm.cz/research-data/MetadataRecord.qualifiedAttribution> dct:isPartOf <https://model.ccmm.cz/research-data/>;
+:MetadataRecord.qualifiedAttribution dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
     skos:prefLabel "qualified attribution"@en;
     skos:definition "Enlace a una descripción de la relación con otro recurso."@es, "Link a una descrizione di una relazione con un'altra risorsa."@it, "A link to a description of a relationship between metadata record and agent with the specification of the role of agent in this relationship."@en, "Odkaz na popis vztahu s jiným zdrojem."@cs, "Reference til en beskrivelse af en relation til en anden ressource."@da;
@@ -884,8 +855,7 @@
     dsv:domain :MetadataRecord;
     a dsv:ObjectPropertyProfile;
     dsv:objectPropertyRange :ResourceAttribution.
-
-<https://model.ccmm.cz/research-data/Checksum.usesAlgorithm> dct:isPartOf <https://model.ccmm.cz/research-data/>;
+:Checksum.usesAlgorithm dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
     skos:prefLabel "uses algorithm"@en;
     dsv:profileOf <https://mff-uk.github.io/specifications/dcat-ap#Checksum.algorithm>;
@@ -899,8 +869,7 @@
     dsv:domain :Checksum;
     a dsv:ObjectPropertyProfile;
     dsv:objectPropertyRange :ChecksumAlgorithm.
-
-<https://model.ccmm.cz/research-data/Distribution-DataService.hasChecksum> dct:isPartOf <https://model.ccmm.cz/research-data/>;
+:Distribution-DataService.hasChecksum dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
     skos:prefLabel "has checksum"@en;
     dsv:profileOf <https://mff-uk.github.io/specifications/dcat-ap#Distribution.checksum>;
@@ -919,8 +888,7 @@
     dsv:domain :Distribution-DownloadableFile;
     a dsv:ObjectPropertyProfile;
     dsv:objectPropertyRange :Checksum.
-
-<https://model.ccmm.cz/research-data/MetadataRecord.hasLanguage> dct:isPartOf <https://model.ccmm.cz/research-data/>;
+:MetadataRecord.hasLanguage dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
     skos:prefLabel "language"@en;
     skos:definition "A language used in the textual metadata describing titles, descriptions of the metadata record."@en;
@@ -935,8 +903,7 @@
     dsv:domain :MetadataRecord;
     a dsv:ObjectPropertyProfile;
     dsv:objectPropertyRange :LanguageSystem.
-
-<https://model.ccmm.cz/research-data/Dataset.hasPrimaryLanguage> dct:isPartOf <https://model.ccmm.cz/research-data/>;
+:Dataset.hasPrimaryLanguage dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
     skos:prefLabel "has primary language"@en;
     skos:definition "A primary language of the Dataset."@en;
@@ -946,8 +913,7 @@
     dsv:domain :Dataset;
     a dsv:ObjectPropertyProfile;
     dsv:objectPropertyRange :LanguageSystem.
-
-<https://model.ccmm.cz/research-data/Dataset.hasOtherLanguage> dct:isPartOf <https://model.ccmm.cz/research-data/>;
+:Dataset.hasOtherLanguage dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
     skos:prefLabel "has other language"@en;
     skos:definition "Any other languages of the Dataset."@en;
@@ -957,8 +923,7 @@
     dsv:domain :Dataset;
     a dsv:ObjectPropertyProfile;
     dsv:objectPropertyRange :LanguageSystem.
-
-<https://model.ccmm.cz/research-data/Distribution-DownloadableFile.hasFormat> dct:isPartOf <https://model.ccmm.cz/research-data/>;
+:Distribution-DownloadableFile.hasFormat dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
     skos:prefLabel "has format"@en;
     skos:scopeNote "This property refers to the instance of format represented by IRI identifier from the register http://publications.europa.eu/resource/dataset/file-type. Human readable code list representation is here: https://op.europa.eu/en/web/eu-vocabularies/concept-scheme/-/resource?uri=http://publications.europa.eu/resource/authority/file-type."@en;
@@ -973,8 +938,7 @@
     dsv:domain :Distribution-DownloadableFile;
     a dsv:ObjectPropertyProfile;
     dsv:objectPropertyRange :Format.
-
-<https://model.ccmm.cz/research-data/TimeInterval.hasBeginning> dct:isPartOf <https://model.ccmm.cz/research-data/>;
+:TimeInterval.hasBeginning dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
     skos:definition "Time instant representing the beginning of a temporal interval."@en, "Comienzo de una entidad temporal."@es;
     dsv:reusesPropertyValue [
@@ -988,8 +952,7 @@
     dsv:domain :TimeInterval;
     a dsv:ObjectPropertyProfile;
     dsv:objectPropertyRange :TimeInstant.
-
-<https://model.ccmm.cz/research-data/TimeInterval.hasEnd> dct:isPartOf <https://model.ccmm.cz/research-data/>;
+:TimeInterval.hasEnd dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
     skos:definition "Time instant representing the end of a temporal interval."@en, "Final de una entidad temporal."@es;
     dsv:reusesPropertyValue [
@@ -1003,8 +966,7 @@
     dsv:domain :TimeInterval;
     a dsv:ObjectPropertyProfile;
     dsv:objectPropertyRange :TimeInstant.
-
-<https://model.ccmm.cz/research-data/TimeReference.hasDateType> dct:isPartOf <https://model.ccmm.cz/research-data/>;
+:TimeReference.hasDateType dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
     skos:prefLabel "has date type"@en;
     skos:definition "Reference to the code list of date types."@en;
@@ -1014,8 +976,7 @@
     dsv:domain :TimeReference;
     a dsv:ObjectPropertyProfile;
     dsv:objectPropertyRange :DateType.
-
-<https://model.ccmm.cz/research-data/Resource.hasResourceRelationType> dct:isPartOf <https://model.ccmm.cz/research-data/>;
+:Resource.hasResourceRelationType dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
     skos:prefLabel "has resource relation type"@en;
     skos:definition "Relation to the relation type between dataset and resource."@en;
@@ -1025,8 +986,7 @@
     dsv:domain :RelatedResource;
     a dsv:ObjectPropertyProfile;
     dsv:objectPropertyRange :ResourceRelationType.
-
-<https://model.ccmm.cz/research-data/Location.hasLocationRelationType> dct:isPartOf <https://model.ccmm.cz/research-data/>;
+:Location.hasLocationRelationType dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
     skos:prefLabel "has location relation type"@en;
     skos:definition "Relation of the location to the dataset."@en;
@@ -1036,8 +996,7 @@
     dsv:domain :Location;
     a dsv:ObjectPropertyProfile;
     dsv:objectPropertyRange :LocationRelationType.
-
-<https://model.ccmm.cz/research-data/AlternateTitle.hasType> dct:isPartOf <https://model.ccmm.cz/research-data/>;
+:AlternateTitle.hasType dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
     skos:prefLabel "has alternate title type"@en;
     skos:definition "Type of the alternate name relation."@en;
@@ -1047,8 +1006,7 @@
     dsv:domain :AlternateTitle;
     a dsv:ObjectPropertyProfile;
     dsv:objectPropertyRange :AlternateTitleType.
-
-<https://model.ccmm.cz/research-data/Identifier.inScheme> dct:isPartOf <https://model.ccmm.cz/research-data/>;
+:Identifier.inScheme dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
     dsv:reusesPropertyValue [
   a dsv:PropertyValueReuse;
@@ -1066,8 +1024,7 @@
     dsv:domain :Identifier;
     a dsv:ObjectPropertyProfile;
     dsv:objectPropertyRange :IdentifierScheme.
-
-<https://model.ccmm.cz/research-data/Dataset.hasDescription> dct:isPartOf <https://model.ccmm.cz/research-data/>;
+:Dataset.hasDescription dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
     skos:prefLabel "has description"@en;
     skos:definition "Relation to the description of a dataset."@en;
@@ -1077,8 +1034,7 @@
     dsv:domain :Dataset;
     a dsv:ObjectPropertyProfile;
     dsv:objectPropertyRange :Description.
-
-<https://model.ccmm.cz/research-data/Description.hasDescriptionType> dct:isPartOf <https://model.ccmm.cz/research-data/>;
+:Description.hasDescriptionType dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
     skos:prefLabel "has description type"@en;
     skos:definition "Relation to the type of the description."@en;
@@ -1088,8 +1044,7 @@
     dsv:domain :Description;
     a dsv:ObjectPropertyProfile;
     dsv:objectPropertyRange :DescriptionType.
-
-<https://model.ccmm.cz/research-data/TimeReference.hasTemporalRepresentation> dct:isPartOf <https://model.ccmm.cz/research-data/>;
+:TimeReference.hasTemporalRepresentation dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
     skos:prefLabel "has temporal representation"@en;
     skos:definition "Represents the representation of a temporal entity (instant or interval)."@en;
@@ -1098,8 +1053,7 @@
     dsv:domain :TimeReference;
     a dsv:ObjectPropertyProfile;
     dsv:objectPropertyRange :TimeRepresentation.
-
-<https://model.ccmm.cz/research-data/Resource.hasAlternateTitle> dct:isPartOf <https://model.ccmm.cz/research-data/>;
+:Resource.hasAlternateTitle dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
     skos:definition "References to the alternate title of the resource."@en;
     dsv:reusesPropertyValue [
@@ -1113,8 +1067,7 @@
     dsv:domain :Resource;
     a dsv:ObjectPropertyProfile;
     dsv:objectPropertyRange :AlternateTitle.
-
-<https://model.ccmm.cz/research-data/Resource.qualifiedAttribution> dct:isPartOf <https://model.ccmm.cz/research-data/>;
+:Resource.qualifiedAttribution dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
     skos:prefLabel "qualified attribution"@en;
     skos:definition "A link to a description of a relationship between resource and an agent with the specification of the role of agent in this relationship."@en;
@@ -1124,8 +1077,7 @@
     dsv:domain :Resource;
     a dsv:ObjectPropertyProfile;
     dsv:objectPropertyRange :ResourceAttribution.
-
-<https://model.ccmm.cz/research-data/Resource.hasTimeReference> dct:isPartOf <https://model.ccmm.cz/research-data/>;
+:Resource.hasTimeReference dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
     skos:definition "Reference to events related to the resource."@en;
     dsv:reusesPropertyValue [
@@ -1139,8 +1091,7 @@
     dsv:domain :Resource;
     a dsv:ObjectPropertyProfile;
     dsv:objectPropertyRange :TimeReference.
-
-<https://model.ccmm.cz/research-data/Resource.hasResourceType> dct:isPartOf <https://model.ccmm.cz/research-data/>;
+:Resource.hasResourceType dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
     skos:prefLabel "has resource type"@en;
     skos:definition "The resource type of the resource."@en;
@@ -1150,8 +1101,7 @@
     dsv:domain :Resource;
     a dsv:ObjectPropertyProfile;
     dsv:objectPropertyRange :ResourceType.
-
-<https://model.ccmm.cz/research-data/Dataset.hasIdentifier> dct:isPartOf <https://model.ccmm.cz/research-data/>;
+:Dataset.hasIdentifier dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
     skos:prefLabel "has identifier"@en;
     skos:definition "The identifier for the Dataset, e.g., the URI or other unique identifier in the context of the Catalogue."@en;
@@ -1160,8 +1110,7 @@
     dsv:domain :Dataset;
     a dsv:ObjectPropertyProfile;
     dsv:objectPropertyRange :Identifier.
-
-<https://model.ccmm.cz/research-data/Resource.hasIdentifier> dct:isPartOf <https://model.ccmm.cz/research-data/>;
+:Resource.hasIdentifier dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
     skos:prefLabel "has identifier"@en;
     skos:definition "A secondary identifier of the Dataset."@en;
@@ -1170,8 +1119,7 @@
     dsv:domain :Resource;
     a dsv:ObjectPropertyProfile;
     dsv:objectPropertyRange :Identifier.
-
-<https://model.ccmm.cz/research-data/Distribution.accessUrl> dct:isPartOf <https://model.ccmm.cz/research-data/>;
+:Distribution.accessUrl dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
     skos:scopeNote "The resource at the access URL may contain information about how to get the Dataset. It shall be the web page (not a document file)."@en;
     dsv:profileOf <https://mff-uk.github.io/specifications/dcat-ap#Distribution.accessUrl>;
@@ -1190,8 +1138,7 @@
     dsv:domain :Distribution;
     a dsv:ObjectPropertyProfile;
     dsv:objectPropertyRange :Resource.
-
-<https://model.ccmm.cz/research-data/Distribution-DownloadableFile.hasCompressionFormat> dct:isPartOf <https://model.ccmm.cz/research-data/>;
+:Distribution-DownloadableFile.hasCompressionFormat dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
     skos:prefLabel "has compression format"@en;
     skos:definition "El formato de la distribución en el que los datos están en forma comprimida, e.g. para reducir el tamaño del archivo a bajar."@es, "Formát komprese souboru, ve kterém jsou data poskytována v komprimované podobě, např. ke snížení velikosti souboru ke stažení."@cs, "Il formato di compressione della distribuzione nel quale i dati sono in forma compressa, ad es. per ridurre le dimensioni del file da scaricare."@it, "The format of the file in which the data is contained in a compressed form, e.g., to reduce the size of the downloadable file."@en, "Kompressionsformatet for distributionen som indeholder data i et komprimeret format, fx for at reducere størrelsen af downloadfilen."@da;
@@ -1201,8 +1148,7 @@
     dsv:domain :Distribution-DownloadableFile;
     a dsv:ObjectPropertyProfile;
     dsv:objectPropertyRange :MediaType.
-
-<https://model.ccmm.cz/research-data/Distribution-DownloadableFile.hasPackagingFormat> dct:isPartOf <https://model.ccmm.cz/research-data/>;
+:Distribution-DownloadableFile.hasPackagingFormat dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
     skos:prefLabel "has packaging format"@en;
     skos:definition "The format of the file in which one or more data files are grouped together, e.g., to enable a set of related files to be downloaded together."@en;
@@ -1212,8 +1158,7 @@
     dsv:domain :Distribution-DownloadableFile;
     a dsv:ObjectPropertyProfile;
     dsv:objectPropertyRange :MediaType.
-
-<https://model.ccmm.cz/research-data/Distribution.hasLicence> dct:isPartOf <https://model.ccmm.cz/research-data/>;
+:Distribution.hasLicence dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
     skos:prefLabel "has licence"@en;
     dsv:profileOf <https://mff-uk.github.io/specifications/dcat-ap#Distribution.licence>;
@@ -1227,8 +1172,7 @@
     dsv:domain :Distribution;
     a dsv:ObjectPropertyProfile;
     dsv:objectPropertyRange :LicenceDocument.
-
-<https://model.ccmm.cz/research-data/DataService.hasLicence> dct:isPartOf <https://model.ccmm.cz/research-data/>;
+:DataService.hasLicence dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
     skos:prefLabel "has licence"@en;
     dsv:profileOf <https://mff-uk.github.io/specifications/dcat-ap#DataService.licence>;
@@ -1246,8 +1190,7 @@
     dsv:domain :DataService;
     a dsv:ObjectPropertyProfile;
     dsv:objectPropertyRange :LicenceDocument.
-
-<https://model.ccmm.cz/research-data/Dataset.accessRights> dct:isPartOf <https://model.ccmm.cz/research-data/>;
+:Dataset.accessRights dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
     skos:prefLabel "has access rights"@en;
     skos:definition "Information that declares the access status of a Dataset."@en;
@@ -1257,8 +1200,7 @@
     dsv:domain :Dataset;
     a dsv:ObjectPropertyProfile;
     dsv:objectPropertyRange :AccessRights.
-
-<https://model.ccmm.cz/research-data/Distribution.rights> dct:isPartOf <https://model.ccmm.cz/research-data/>;
+:Distribution.rights dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
     skos:prefLabel "has rights"@en;
     skos:scopeNote "Use IRI identifier from the register http://purl.org/coar/access_right/. Recommended mapping of values from COAR to https://semiceu.github.io/DCAT-AP/drafts/latest/#properties-with-a-recommended-use-of-controlled-vocabularies is:\n- embargoed access, metadata only access mapped to :NON_PUBLIC,\n- open access mapped to :PUBLIC,\n- restricted access mapped to :RESTRICTED."@en;
@@ -1273,8 +1215,7 @@
     dsv:domain :Distribution;
     a dsv:ObjectPropertyProfile;
     dsv:objectPropertyRange :AccessRights.
-
-<https://model.ccmm.cz/research-data/Repository.qualifiedAttribution> dct:isPartOf <https://model.ccmm.cz/research-data/>;
+:Repository.qualifiedAttribution dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
     skos:definition "A link to a description of a relationship between repository and agent with the specification of the role of agent in this relationship."@en;
     skos:scopeNote "The relationship shall contain at least one agent with the role \"Publisher\" from code list https://vocabs.ccmm.cz/registry/codelist/AgentRole/."@en;
@@ -1289,8 +1230,7 @@
     dsv:domain :Repository;
     a dsv:ObjectPropertyProfile;
     dsv:objectPropertyRange :ResourceAttribution.
-
-<https://model.ccmm.cz/research-data/Dataset.wasGeneratedBy> dct:isPartOf <https://model.ccmm.cz/research-data/>;
+:Dataset.wasGeneratedBy dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
     skos:definition " An activity that generated, or provides the business context for, the creation of the dataset. "@en;
     skos:scopeNote "The activity associated with generation of a dataset will be typically an initiative, project, mission, survey, or ongoing activity. Multiple prov:wasGeneratedBy properties can be used to indicate the dataset production context at various levels of granularity. Use prov:qualifiedGeneration to attach additional details about the relationship between the dataset and the activity, e.g., the exact time that the dataset was produced during the lifetime of a project."@en;
@@ -1305,8 +1245,7 @@
     dsv:domain :Dataset;
     a dsv:ObjectPropertyProfile;
     dsv:objectPropertyRange :ProvenanceActivity.
-
-<https://model.ccmm.cz/research-data/ProvenanceActivity.hasRo-crateJsonRepresentation> dct:isPartOf <https://model.ccmm.cz/research-data/>;
+:ProvenanceActivity.hasRo-crateJsonRepresentation dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
     dsv:reusesPropertyValue [
   a dsv:PropertyValueReuse;
@@ -1324,8 +1263,7 @@
     dsv:domain :ProvenanceActivity;
     a dsv:ObjectPropertyProfile;
     dsv:objectPropertyRange :Ro-crateJsonRepresentation.
-
-<https://model.ccmm.cz/research-data/ProvenanceActivity.hasCommonProvenanceModelJsonRepresentation> dct:isPartOf <https://model.ccmm.cz/research-data/>;
+:ProvenanceActivity.hasCommonProvenanceModelJsonRepresentation dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
     dsv:reusesPropertyValue [
   a dsv:PropertyValueReuse;
@@ -1343,8 +1281,7 @@
     dsv:domain :ProvenanceActivity;
     a dsv:ObjectPropertyProfile;
     dsv:objectPropertyRange :CommonProvenanceModelJsonRepresentation.
-
-<https://model.ccmm.cz/research-data/Repository.dataset> dct:isPartOf <https://model.ccmm.cz/research-data/>;
+:Repository.dataset dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
     dsv:profileOf <https://mff-uk.github.io/specifications/dcat-ap#Catalogue.dataset>;
     dsv:reusesPropertyValue [
@@ -1367,8 +1304,7 @@
     dsv:domain :Repository;
     a dsv:ObjectPropertyProfile;
     dsv:objectPropertyRange :Dataset.
-
-<https://model.ccmm.cz/research-data/Repository.record> dct:isPartOf <https://model.ccmm.cz/research-data/>;
+:Repository.record dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
     dsv:profileOf <https://mff-uk.github.io/specifications/dcat-ap#Catalogue.record>;
     dsv:reusesPropertyValue [
@@ -1391,8 +1327,7 @@
     dsv:domain :Repository;
     a dsv:ObjectPropertyProfile;
     dsv:objectPropertyRange :MetadataRecord.
-
-<https://model.ccmm.cz/research-data/Dataset.title> dct:isPartOf <https://model.ccmm.cz/research-data/>;
+:Dataset.title dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
     skos:prefLabel "title"@en;
     skos:definition "A name given to the resource."@en;
@@ -1401,8 +1336,7 @@
     dsv:domain :Dataset;
     a dsv:DatatypePropertyProfile;
     dsv:datatypePropertyRange <http://www.w3.org/2001/XMLSchema#string>.
-
-<https://model.ccmm.cz/research-data/Dataset.version> dct:isPartOf <https://model.ccmm.cz/research-data/>;
+:Dataset.version dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
     skos:prefLabel "version"@en;
     dsv:profileOf <https://mff-uk.github.io/specifications/dcat-ap#Dataset.version>;
@@ -1416,8 +1350,7 @@
     dsv:domain :Dataset;
     a dsv:DatatypePropertyProfile;
     dsv:datatypePropertyRange <http://www.w3.org/2001/XMLSchema#string>.
-
-<https://model.ccmm.cz/research-data/Dataset.publicationYear> dct:isPartOf <https://model.ccmm.cz/research-data/>;
+:Dataset.publicationYear dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
     skos:prefLabel "publication year"@en;
     skos:definition "The year when the item was or will be made publicly available."@en;
@@ -1427,8 +1360,7 @@
     dsv:domain :Dataset;
     a dsv:DatatypePropertyProfile;
     dsv:datatypePropertyRange <http://www.w3.org/2001/XMLSchema#gYear>.
-
-<https://model.ccmm.cz/research-data/FundingReference.localIdentifier> dct:isPartOf <https://model.ccmm.cz/research-data/>;
+:FundingReference.localIdentifier dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
     skos:prefLabel "local identifier"@en;
     skos:definition "The code assigned by the funder to a sponsored award (grant)."@en;
@@ -1438,8 +1370,7 @@
     dsv:domain :FundingReference;
     a dsv:DatatypePropertyProfile;
     dsv:datatypePropertyRange <http://www.w3.org/2001/XMLSchema#string>.
-
-<https://model.ccmm.cz/research-data/FundingReference.awardTitle> dct:isPartOf <https://model.ccmm.cz/research-data/>;
+:FundingReference.awardTitle dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
     skos:prefLabel "award title"@en;
     skos:definition "The human readable title or name of the award (grant)."@en;
@@ -1448,8 +1379,7 @@
     dsv:domain :FundingReference;
     a dsv:DatatypePropertyProfile;
     dsv:datatypePropertyRange <http://www.w3.org/2001/XMLSchema#string>.
-
-<https://model.ccmm.cz/research-data/FundingReference.fundingProgram> dct:isPartOf <https://model.ccmm.cz/research-data/>;
+:FundingReference.fundingProgram dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
     skos:prefLabel "funding program"@en;
     skos:definition "Reference to the specific funding program."@en;
@@ -1458,8 +1388,7 @@
     dsv:domain :FundingReference;
     a dsv:DatatypePropertyProfile;
     dsv:datatypePropertyRange <http://www.w3.org/2001/XMLSchema#anyURI>.
-
-<https://model.ccmm.cz/research-data/ContactDetails.phone> dct:isPartOf <https://model.ccmm.cz/research-data/>;
+:ContactDetails.phone dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
     skos:prefLabel "phone"@en;
     skos:definition "Phone number"@en;
@@ -1469,8 +1398,7 @@
     dsv:domain :ContactDetails;
     a dsv:DatatypePropertyProfile;
     dsv:datatypePropertyRange <http://www.w3.org/2001/XMLSchema#string>.
-
-<https://model.ccmm.cz/research-data/ContactDetails.email> dct:isPartOf <https://model.ccmm.cz/research-data/>;
+:ContactDetails.email dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
     skos:prefLabel "email"@en;
     skos:definition "Email address."@en;
@@ -1480,8 +1408,7 @@
     dsv:domain :ContactDetails;
     a dsv:DatatypePropertyProfile;
     dsv:datatypePropertyRange <http://www.w3.org/2001/XMLSchema#string>.
-
-<https://model.ccmm.cz/research-data/ContactDetails.dataBox> dct:isPartOf <https://model.ccmm.cz/research-data/>;
+:ContactDetails.dataBox dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
     skos:prefLabel "data box"@en;
     skos:definition "Code of the data box."@en;
@@ -1490,8 +1417,7 @@
     dsv:domain :ContactDetails;
     a dsv:DatatypePropertyProfile;
     dsv:datatypePropertyRange <http://www.w3.org/2001/XMLSchema#string>.
-
-<https://model.ccmm.cz/research-data/Person.givenName> dct:isPartOf <https://model.ccmm.cz/research-data/>;
+:Person.givenName dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
     skos:prefLabel "given name"@en;
     skos:definition "The given name associated with the person."@en;
@@ -1500,8 +1426,7 @@
     dsv:domain :Person;
     a dsv:DatatypePropertyProfile;
     dsv:datatypePropertyRange <http://www.w3.org/2001/XMLSchema#string>.
-
-<https://model.ccmm.cz/research-data/Person.familyName> dct:isPartOf <https://model.ccmm.cz/research-data/>;
+:Person.familyName dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
     skos:prefLabel "family name"@en;
     skos:definition "The family name associated with the person."@en;
@@ -1510,8 +1435,7 @@
     dsv:domain :Person;
     a dsv:DatatypePropertyProfile;
     dsv:datatypePropertyRange <http://www.w3.org/2001/XMLSchema#string>.
-
-<https://model.ccmm.cz/research-data/Organization.alternateName> dct:isPartOf <https://model.ccmm.cz/research-data/>;
+:Organization.alternateName dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
     skos:prefLabel "alternate name"@en;
     skos:definition "An alternate organizational name associated with the object."@en;
@@ -1520,8 +1444,7 @@
     dsv:domain :Organization;
     a dsv:DatatypePropertyProfile;
     dsv:datatypePropertyRange <https://ofn.gov.cz/zdroj/základní-datové-typy/2020-07-01/text>.
-
-<https://model.ccmm.cz/research-data/MetadataRecord.dateCreated> dct:isPartOf <https://model.ccmm.cz/research-data/>;
+:MetadataRecord.dateCreated dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
     skos:prefLabel "date created"@en;
     skos:definition "The date on which the metadata record was created."@en;
@@ -1530,8 +1453,7 @@
     dsv:domain :MetadataRecord;
     a dsv:DatatypePropertyProfile;
     dsv:datatypePropertyRange <http://www.w3.org/2001/XMLSchema#date>.
-
-<https://model.ccmm.cz/research-data/MetadataRecord.dateUpdated> dct:isPartOf <https://model.ccmm.cz/research-data/>;
+:MetadataRecord.dateUpdated dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
     skos:prefLabel "date updated"@en;
     skos:definition "The most recent date on which the resource was changed."@en;
@@ -1540,8 +1462,7 @@
     dsv:domain :MetadataRecord;
     a dsv:DatatypePropertyProfile;
     dsv:datatypePropertyRange <http://www.w3.org/2001/XMLSchema#date>.
-
-<https://model.ccmm.cz/research-data/Distribution-DownloadableFile.byteSize> dct:isPartOf <https://model.ccmm.cz/research-data/>;
+:Distribution-DownloadableFile.byteSize dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
     skos:prefLabel "byte size"@en;
     skos:definition "The size of a Distribution in bytes. "@en;
@@ -1550,8 +1471,7 @@
     dsv:domain :Distribution-DownloadableFile;
     a dsv:DatatypePropertyProfile;
     dsv:datatypePropertyRange <http://www.w3.org/2001/XMLSchema#integer>.
-
-<https://model.ccmm.cz/research-data/Distribution.Description> dct:isPartOf <https://model.ccmm.cz/research-data/>;
+:Distribution.Description dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
     skos:prefLabel "description"@en;
     skos:definition "A free-text account of the Distribution."@en;
@@ -1561,8 +1481,7 @@
     dsv:domain :Distribution;
     a dsv:DatatypePropertyProfile;
     dsv:datatypePropertyRange <https://ofn.gov.cz/zdroj/základní-datové-typy/2020-07-01/text>.
-
-<https://model.ccmm.cz/research-data/Subject.classificationCode> dct:isPartOf <https://model.ccmm.cz/research-data/>;
+:Subject.classificationCode dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
     skos:prefLabel "classification code"@en;
     skos:definition "The classification code used for notation of the subject term in the subject scheme."@en;
@@ -1571,8 +1490,7 @@
     dsv:domain :Subject;
     a dsv:DatatypePropertyProfile;
     dsv:datatypePropertyRange <http://www.w3.org/2001/XMLSchema#string>.
-
-<https://model.ccmm.cz/research-data/Subject.label> dct:isPartOf <https://model.ccmm.cz/research-data/>;
+:Subject.label dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
     skos:prefLabel "label"@en;
     skos:definition "Subject label."@en;
@@ -1582,8 +1500,7 @@
     dsv:domain :Subject;
     a dsv:DatatypePropertyProfile;
     dsv:datatypePropertyRange <https://ofn.gov.cz/zdroj/základní-datové-typy/2020-07-01/text>.
-
-<https://model.ccmm.cz/research-data/Subject.definition> dct:isPartOf <https://model.ccmm.cz/research-data/>;
+:Subject.definition dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
     skos:prefLabel "definition"@en;
     skos:definition "Definition of the subject in the given context."@en;
@@ -1593,8 +1510,7 @@
     dsv:domain :Subject;
     a dsv:DatatypePropertyProfile;
     dsv:datatypePropertyRange <https://ofn.gov.cz/zdroj/základní-datové-typy/2020-07-01/text>.
-
-<https://model.ccmm.cz/research-data/TimeReference.dateInformation> dct:isPartOf <https://model.ccmm.cz/research-data/>;
+:TimeReference.dateInformation dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
     skos:prefLabel "date information"@en;
     skos:definition "Additional information to the date in text form."@en;
@@ -1604,8 +1520,7 @@
     dsv:domain :TimeReference;
     a dsv:DatatypePropertyProfile;
     dsv:datatypePropertyRange <https://ofn.gov.cz/zdroj/základní-datové-typy/2020-07-01/text>.
-
-<https://model.ccmm.cz/research-data/Repository.label> dct:isPartOf <https://model.ccmm.cz/research-data/>;
+:Repository.label dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
     skos:prefLabel "label"@en;
     skos:definition "A human-readable name of the repository."@en;
@@ -1614,8 +1529,7 @@
     dsv:domain :Repository;
     a dsv:DatatypePropertyProfile;
     dsv:datatypePropertyRange rdf:langString.
-
-<https://model.ccmm.cz/research-data/ApplicationProfile.label> dct:isPartOf <https://model.ccmm.cz/research-data/>;
+:ApplicationProfile.label dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
     skos:prefLabel "label"@en;
     skos:definition "Label of application profile"@en;
@@ -1624,8 +1538,7 @@
     dsv:domain :ApplicationProfile;
     a dsv:DatatypePropertyProfile;
     dsv:datatypePropertyRange rdf:langString.
-
-<https://model.ccmm.cz/research-data/SubjectScheme.label> dct:isPartOf <https://model.ccmm.cz/research-data/>;
+:SubjectScheme.label dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
     skos:prefLabel "label"@en;
     skos:definition "Label of the subject scheme."@en;
@@ -1634,8 +1547,7 @@
     dsv:domain :SubjectScheme;
     a dsv:DatatypePropertyProfile;
     dsv:datatypePropertyRange rdf:langString.
-
-<https://model.ccmm.cz/research-data/Documentation.label> dct:isPartOf <https://model.ccmm.cz/research-data/>;
+:Documentation.label dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
     skos:prefLabel "label"@en;
     skos:definition "Documentation label"@en;
@@ -1644,8 +1556,7 @@
     dsv:domain :Documentation;
     a dsv:DatatypePropertyProfile;
     dsv:datatypePropertyRange rdf:langString.
-
-<https://model.ccmm.cz/research-data/MediaType.label> dct:isPartOf <https://model.ccmm.cz/research-data/>;
+:MediaType.label dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
     skos:prefLabel "label"@en;
     skos:definition "Media type label."@en;
@@ -1655,8 +1566,7 @@
     dsv:domain :MediaType;
     a dsv:DatatypePropertyProfile;
     dsv:datatypePropertyRange <https://ofn.gov.cz/zdroj/základní-datové-typy/2020-07-01/text>.
-
-<https://model.ccmm.cz/research-data/File.label> dct:isPartOf <https://model.ccmm.cz/research-data/>;
+:File.label dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
     skos:prefLabel "label"@en;
     skos:definition "File label"@en;
@@ -1665,8 +1575,7 @@
     dsv:domain :File;
     a dsv:DatatypePropertyProfile;
     dsv:datatypePropertyRange rdf:langString.
-
-<https://model.ccmm.cz/research-data/Geometry.label> dct:isPartOf <https://model.ccmm.cz/research-data/>;
+:Geometry.label dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
     skos:prefLabel "label"@en;
     skos:definition "Label of geometry object."@en;
@@ -1675,8 +1584,7 @@
     dsv:domain :Geometry;
     a dsv:DatatypePropertyProfile;
     dsv:datatypePropertyRange rdf:langString.
-
-<https://model.ccmm.cz/research-data/ValidationResult.label> dct:isPartOf <https://model.ccmm.cz/research-data/>;
+:ValidationResult.label dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
     skos:prefLabel "label"@en;
     skos:definition "Label of the validation result."@en;
@@ -1685,8 +1593,7 @@
     dsv:domain :ValidationResult;
     a dsv:DatatypePropertyProfile;
     dsv:datatypePropertyRange rdf:langString.
-
-<https://model.ccmm.cz/research-data/Address.label> dct:isPartOf <https://model.ccmm.cz/research-data/>;
+:Address.label dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
     skos:prefLabel "label"@en;
     skos:definition "Address label"@en;
@@ -1695,8 +1602,7 @@
     dsv:domain :Address;
     a dsv:DatatypePropertyProfile;
     dsv:datatypePropertyRange rdf:langString.
-
-<https://model.ccmm.cz/research-data/DataService.label> dct:isPartOf <https://model.ccmm.cz/research-data/>;
+:DataService.label dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
     skos:prefLabel "label"@en;
     skos:definition "Data service label"@en;
@@ -1705,8 +1611,7 @@
     dsv:domain :DataService;
     a dsv:DatatypePropertyProfile;
     dsv:datatypePropertyRange rdf:langString.
-
-<https://model.ccmm.cz/research-data/ResourceAgentRoleType.label> dct:isPartOf <https://model.ccmm.cz/research-data/>;
+:ResourceAgentRoleType.label dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
     skos:prefLabel "label"@en;
     skos:definition "Resource agent role type label."@en;
@@ -1716,8 +1621,7 @@
     dsv:domain :AttributedAgentRoleType;
     a dsv:DatatypePropertyProfile;
     dsv:datatypePropertyRange <https://ofn.gov.cz/zdroj/základní-datové-typy/2020-07-01/text>.
-
-<https://model.ccmm.cz/research-data/Resource.resourceURL> dct:isPartOf <https://model.ccmm.cz/research-data/>;
+:Resource.resourceURL dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
     skos:prefLabel "resource URL"@en;
     skos:definition "Human readable resolvable URL representing the resource."@en;
@@ -1727,8 +1631,7 @@
     dsv:domain :RelatedResource;
     a dsv:DatatypePropertyProfile;
     dsv:datatypePropertyRange <http://www.w3.org/2001/XMLSchema#anyURI>.
-
-<https://model.ccmm.cz/research-data/Checksum.checksumValue> dct:isPartOf <https://model.ccmm.cz/research-data/>;
+:Checksum.checksumValue dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
     skos:prefLabel "checksum value"@en;
     skos:definition "A lower case hexadecimal encoded digest value produced using a specific algorithm. "@en;
@@ -1738,8 +1641,7 @@
     dsv:domain :Checksum;
     a dsv:DatatypePropertyProfile;
     dsv:datatypePropertyRange <http://www.w3.org/2001/XMLSchema#hexBinary>.
-
-<https://model.ccmm.cz/research-data/Agent.name> dct:isPartOf <https://model.ccmm.cz/research-data/>;
+:Agent.name dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
     skos:prefLabel "name"@en;
     skos:definition "Name of the agent."@en;
@@ -1749,8 +1651,7 @@
     dsv:domain :Agent;
     a dsv:DatatypePropertyProfile;
     dsv:datatypePropertyRange <http://www.w3.org/2001/XMLSchema#string>.
-
-<https://model.ccmm.cz/research-data/Address.fullAddress> dct:isPartOf <https://model.ccmm.cz/research-data/>;
+:Address.fullAddress dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
     skos:prefLabel "full address"@en;
     skos:definition "The complete address written as a string."@en;
@@ -1759,8 +1660,7 @@
     dsv:domain :Address;
     a dsv:DatatypePropertyProfile;
     dsv:datatypePropertyRange <http://www.w3.org/2001/XMLSchema#string>.
-
-<https://model.ccmm.cz/research-data/Address.poBox> dct:isPartOf <https://model.ccmm.cz/research-data/>;
+:Address.poBox dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
     skos:prefLabel "post office box"@en;
     skos:definition "A location designator for a postal delivery point at a post office, usually a number."@en;
@@ -1768,8 +1668,7 @@
     dsv:domain :Address;
     a dsv:DatatypePropertyProfile;
     dsv:datatypePropertyRange <http://www.w3.org/2001/XMLSchema#string>.
-
-<https://model.ccmm.cz/research-data/Address.thoroughfare> dct:isPartOf <https://model.ccmm.cz/research-data/>;
+:Address.thoroughfare dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
     skos:prefLabel "thoroughfare"@en;
     skos:definition "The name of a passage or way through from one location to another."@en;
@@ -1778,8 +1677,7 @@
     dsv:domain :Address;
     a dsv:DatatypePropertyProfile;
     dsv:datatypePropertyRange <http://www.w3.org/2001/XMLSchema#string>.
-
-<https://model.ccmm.cz/research-data/Address.locatorDesignator> dct:isPartOf <https://model.ccmm.cz/research-data/>;
+:Address.locatorDesignator dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
     skos:prefLabel "locator designator"@en;
     skos:definition "A number or sequence of characters that uniquely identifies the locator within the relevant scope."@en;
@@ -1788,8 +1686,7 @@
     dsv:domain :Address;
     a dsv:DatatypePropertyProfile;
     dsv:datatypePropertyRange <http://www.w3.org/2001/XMLSchema#string>.
-
-<https://model.ccmm.cz/research-data/Address.locatorName> dct:isPartOf <https://model.ccmm.cz/research-data/>;
+:Address.locatorName dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
     skos:prefLabel "locator name"@en;
     skos:definition "Proper noun(s) applied to the real world entity identified by the locator. The locator name could be the name of the property or complex, of the building or part of the building, or it could be the name of a room inside a building."@en;
@@ -1798,8 +1695,7 @@
     dsv:domain :Address;
     a dsv:DatatypePropertyProfile;
     dsv:datatypePropertyRange <http://www.w3.org/2001/XMLSchema#string>.
-
-<https://model.ccmm.cz/research-data/Address.addressArea> dct:isPartOf <https://model.ccmm.cz/research-data/>;
+:Address.addressArea dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
     skos:prefLabel "address area"@en;
     skos:definition "The name of a geographic area that groups Addresses."@en;
@@ -1808,8 +1704,7 @@
     dsv:domain :Address;
     a dsv:DatatypePropertyProfile;
     dsv:datatypePropertyRange <http://www.w3.org/2001/XMLSchema#string>.
-
-<https://model.ccmm.cz/research-data/Address.postName> dct:isPartOf <https://model.ccmm.cz/research-data/>;
+:Address.postName dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
     skos:prefLabel "post name"@en;
     skos:definition "A name created and maintained for postal purposes to identify a subdivision of addresses and postal delivery points. "@en;
@@ -1818,8 +1713,7 @@
     dsv:domain :Address;
     a dsv:DatatypePropertyProfile;
     dsv:datatypePropertyRange <http://www.w3.org/2001/XMLSchema#string>.
-
-<https://model.ccmm.cz/research-data/Address.administrativeUnitLevel1> dct:isPartOf <https://model.ccmm.cz/research-data/>;
+:Address.administrativeUnitLevel1 dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
     skos:prefLabel "administrative unit level 1"@en;
     skos:definition "The name of the uppermost level of the address, almost always a country."@en;
@@ -1828,8 +1722,7 @@
     dsv:domain :Address;
     a dsv:DatatypePropertyProfile;
     dsv:datatypePropertyRange <http://www.w3.org/2001/XMLSchema#string>.
-
-<https://model.ccmm.cz/research-data/Address.administrativeUnitLevel2> dct:isPartOf <https://model.ccmm.cz/research-data/>;
+:Address.administrativeUnitLevel2 dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
     skos:prefLabel "administrative unit level 2"@en;
     skos:definition "The name of a secondary level/region of the address, usually a county, state or other such area that typically encompasses several localities."@en;
@@ -1838,8 +1731,7 @@
     dsv:domain :Address;
     a dsv:DatatypePropertyProfile;
     dsv:datatypePropertyRange <http://www.w3.org/2001/XMLSchema#string>.
-
-<https://model.ccmm.cz/research-data/Address.postCode> dct:isPartOf <https://model.ccmm.cz/research-data/>;
+:Address.postCode dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
     skos:prefLabel "post code"@en;
     skos:definition "The code created and maintained for postal purposes to identify a subdivision of addresses and postal delivery points."@en;
@@ -1848,8 +1740,7 @@
     dsv:domain :Address;
     a dsv:DatatypePropertyProfile;
     dsv:datatypePropertyRange <http://www.w3.org/2001/XMLSchema#string>.
-
-<https://model.ccmm.cz/research-data/LicenceDocument.title> dct:isPartOf <https://model.ccmm.cz/research-data/>;
+:LicenceDocument.title dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
     skos:prefLabel "title"@en;
     skos:definition "Title of the licence document."@en;
@@ -1857,8 +1748,7 @@
     dsv:domain :LicenceDocument;
     a dsv:DatatypePropertyProfile;
     dsv:datatypePropertyRange rdf:langString.
-
-<https://model.ccmm.cz/research-data/Format.label> dct:isPartOf <https://model.ccmm.cz/research-data/>;
+:Format.label dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
     skos:prefLabel "label"@en;
     skos:definition "Label of format value."@en;
@@ -1868,8 +1758,7 @@
     dsv:domain :Format;
     a dsv:DatatypePropertyProfile;
     dsv:datatypePropertyRange <https://ofn.gov.cz/zdroj/základní-datové-typy/2020-07-01/text>.
-
-<https://model.ccmm.cz/research-data/LanguageSystem.label> dct:isPartOf <https://model.ccmm.cz/research-data/>;
+:LanguageSystem.label dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
     skos:prefLabel "label"@en;
     skos:definition "Language label"@en;
@@ -1879,8 +1768,7 @@
     dsv:domain :LanguageSystem;
     a dsv:DatatypePropertyProfile;
     dsv:datatypePropertyRange <https://ofn.gov.cz/zdroj/základní-datové-typy/2020-07-01/text>.
-
-<https://model.ccmm.cz/research-data/AccessRights.label> dct:isPartOf <https://model.ccmm.cz/research-data/>;
+:AccessRights.label dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
     skos:prefLabel "label"@en;
     skos:definition "A human-readable name for the subject."@en;
@@ -1890,8 +1778,7 @@
     dsv:domain :AccessRights;
     a dsv:DatatypePropertyProfile;
     dsv:datatypePropertyRange <https://ofn.gov.cz/zdroj/základní-datové-typy/2020-07-01/text>.
-
-<https://model.ccmm.cz/research-data/ResourceType.label> dct:isPartOf <https://model.ccmm.cz/research-data/>;
+:ResourceType.label dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
     skos:prefLabel "label"@en;
     skos:definition "Label of the resource type."@en;
@@ -1901,8 +1788,7 @@
     dsv:domain :ResourceType;
     a dsv:DatatypePropertyProfile;
     dsv:datatypePropertyRange <https://ofn.gov.cz/zdroj/základní-datové-typy/2020-07-01/text>.
-
-<https://model.ccmm.cz/research-data/TimeInstant.date> dct:isPartOf <https://model.ccmm.cz/research-data/>;
+:TimeInstant.date dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
     skos:prefLabel "date"@en;
     skos:definition "Position of an instant, expressed using xsd:date."@en;
@@ -1912,8 +1798,7 @@
     dsv:domain :TimeInstant;
     a dsv:DatatypePropertyProfile;
     dsv:datatypePropertyRange <http://www.w3.org/2001/XMLSchema#date>.
-
-<https://model.ccmm.cz/research-data/DateType.label> dct:isPartOf <https://model.ccmm.cz/research-data/>;
+:DateType.label dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
     skos:prefLabel "label"@en;
     skos:definition "Date type label."@en;
@@ -1923,8 +1808,7 @@
     dsv:domain :DateType;
     a dsv:DatatypePropertyProfile;
     dsv:datatypePropertyRange <https://ofn.gov.cz/zdroj/základní-datové-typy/2020-07-01/text>.
-
-<https://model.ccmm.cz/research-data/ResourceRelationType.label> dct:isPartOf <https://model.ccmm.cz/research-data/>;
+:ResourceRelationType.label dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
     skos:prefLabel "label"@en;
     skos:definition "Label of the relation type."@en;
@@ -1934,8 +1818,7 @@
     dsv:domain :ResourceRelationType;
     a dsv:DatatypePropertyProfile;
     dsv:datatypePropertyRange <https://ofn.gov.cz/zdroj/základní-datové-typy/2020-07-01/text>.
-
-<https://model.ccmm.cz/research-data/LocationRelationType.label> dct:isPartOf <https://model.ccmm.cz/research-data/>;
+:LocationRelationType.label dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
     skos:prefLabel "label"@en;
     skos:definition "Location relation type label."@en;
@@ -1945,8 +1828,7 @@
     dsv:domain :LocationRelationType;
     a dsv:DatatypePropertyProfile;
     dsv:datatypePropertyRange <https://ofn.gov.cz/zdroj/základní-datové-typy/2020-07-01/text>.
-
-<https://model.ccmm.cz/research-data/AlternateTitleType.label> dct:isPartOf <https://model.ccmm.cz/research-data/>;
+:AlternateTitleType.label dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
     skos:prefLabel "label"@en;
     skos:definition "Alternate title type label."@en;
@@ -1956,8 +1838,7 @@
     dsv:domain :AlternateTitleType;
     a dsv:DatatypePropertyProfile;
     dsv:datatypePropertyRange <https://ofn.gov.cz/zdroj/základní-datové-typy/2020-07-01/text>.
-
-<https://model.ccmm.cz/research-data/IdentifierScheme.label> dct:isPartOf <https://model.ccmm.cz/research-data/>;
+:IdentifierScheme.label dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
     skos:prefLabel "label"@en;
     skos:definition "Identifier scheme label."@en;
@@ -1966,8 +1847,7 @@
     dsv:domain :IdentifierScheme;
     a dsv:DatatypePropertyProfile;
     dsv:datatypePropertyRange rdf:langString.
-
-<https://model.ccmm.cz/research-data/TimeInstant.dateTime> dct:isPartOf <https://model.ccmm.cz/research-data/>;
+:TimeInstant.dateTime dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
     skos:prefLabel "date time"@en;
     skos:definition "Date with timestamp represented as xsd:dateTime."@en;
@@ -1977,8 +1857,7 @@
     dsv:domain :TimeInstant;
     a dsv:DatatypePropertyProfile;
     dsv:datatypePropertyRange <http://www.w3.org/2001/XMLSchema#dateTime>.
-
-<https://model.ccmm.cz/research-data/Geometry.wellKnownTextLiteral> dct:isPartOf <https://model.ccmm.cz/research-data/>;
+:Geometry.wellKnownTextLiteral dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
     skos:prefLabel "well known text literal"@en;
     skos:definition "Representation of geometry object as WKT Literal."@en;
@@ -1987,8 +1866,7 @@
     dsv:domain :Geometry;
     a dsv:DatatypePropertyProfile;
     dsv:datatypePropertyRange <http://www.opengis.net/ont/geosparql#wktLiteral>.
-
-<https://model.ccmm.cz/research-data/Geometry.geographyMarkupLanguageLiteral> dct:isPartOf <https://model.ccmm.cz/research-data/>;
+:Geometry.geographyMarkupLanguageLiteral dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
     skos:prefLabel "geography markup language literal"@en;
     skos:definition "Representation of geometry object as GML Literal."@en;
@@ -1997,8 +1875,7 @@
     dsv:domain :Geometry;
     a dsv:DatatypePropertyProfile;
     dsv:datatypePropertyRange <http://www.opengis.net/ont/geosparql#gmlLiteral>.
-
-<https://model.ccmm.cz/research-data/Description.descriptionText> dct:isPartOf <https://model.ccmm.cz/research-data/>;
+:Description.descriptionText dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
     skos:prefLabel "description text"@en;
     skos:definition "A free-text account of the Data Service."@en;
@@ -2008,8 +1885,7 @@
     dsv:domain :Description;
     a dsv:DatatypePropertyProfile;
     dsv:datatypePropertyRange rdf:langString.
-
-<https://model.ccmm.cz/research-data/DescriptionType.label> dct:isPartOf <https://model.ccmm.cz/research-data/>;
+:DescriptionType.label dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
     skos:prefLabel "label"@en;
     skos:definition "Label of the description type."@en;
@@ -2019,8 +1895,7 @@
     dsv:domain :DescriptionType;
     a dsv:DatatypePropertyProfile;
     dsv:datatypePropertyRange <https://ofn.gov.cz/zdroj/základní-datové-typy/2020-07-01/text>.
-
-<https://model.ccmm.cz/research-data/ChecksumAlgorithm.label> dct:isPartOf <https://model.ccmm.cz/research-data/>;
+:ChecksumAlgorithm.label dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
     dsv:reusesPropertyValue [
   a dsv:PropertyValueReuse;
@@ -2037,8 +1912,7 @@
     dsv:domain :ChecksumAlgorithm;
     a dsv:DatatypePropertyProfile;
     dsv:datatypePropertyRange rdf:langString.
-
-<https://model.ccmm.cz/research-data/Identifier.authorized> dct:isPartOf <https://model.ccmm.cz/research-data/>;
+:Identifier.authorized dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
     skos:prefLabel "authorized"@en;
     skos:scopeNote "This attribute shall be filled mainly for ORCiD identifiers of Persons. It serves to determine whether the person in the repository is really the person it is meant to be."@en;
@@ -2053,8 +1927,7 @@
     dsv:domain :Identifier;
     a dsv:DatatypePropertyProfile;
     dsv:datatypePropertyRange <http://www.w3.org/2001/XMLSchema#boolean>.
-
-<https://model.ccmm.cz/research-data/Resource.title> dct:isPartOf <https://model.ccmm.cz/research-data/>;
+:Resource.title dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
     skos:prefLabel "title"@en;
     dsv:reusesPropertyValue [
@@ -2068,8 +1941,7 @@
     dsv:domain :Resource;
     a dsv:DatatypePropertyProfile;
     dsv:datatypePropertyRange <http://www.w3.org/2001/XMLSchema#string>.
-
-<https://model.ccmm.cz/research-data/Identifier.value> dct:isPartOf <https://model.ccmm.cz/research-data/>;
+:Identifier.value dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
     skos:prefLabel "value"@en;
     skos:definition "Value of the identifier within the given identifier scheme."@en;
@@ -2084,8 +1956,7 @@
     dsv:domain :Identifier;
     a dsv:DatatypePropertyProfile;
     dsv:datatypePropertyRange rdfs:Literal.
-
-<https://model.ccmm.cz/research-data/Dataset.keyword> dct:isPartOf <https://model.ccmm.cz/research-data/>;
+:Dataset.keyword dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
     skos:definition "Keyword or tag describing the dataset."@en;
     skos:scopeNote "Preferably use terms from controlled vocabularies."@en;
@@ -2100,8 +1971,7 @@
     dsv:domain :Dataset;
     a dsv:DatatypePropertyProfile;
     dsv:datatypePropertyRange rdf:langString.
-
-<https://model.ccmm.cz/research-data/MetadataRecord.title> dct:isPartOf <https://model.ccmm.cz/research-data/>;
+:MetadataRecord.title dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
     skos:definition "A name given to the metadata record."@en;
     dsv:profileOf <https://mff-uk.github.io/specifications/dcat-ap#CatalogueRecord.title>;
@@ -2120,8 +1990,7 @@
     dsv:domain :MetadataRecord;
     a dsv:DatatypePropertyProfile;
     dsv:datatypePropertyRange rdf:langString.
-
-<https://model.ccmm.cz/research-data/Location.label> dct:isPartOf <https://model.ccmm.cz/research-data/>;
+:Location.label dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
     skos:definition "A human-readable name for the location object."@en;
     dsv:reusesPropertyValue [
@@ -2135,8 +2004,7 @@
     dsv:domain :Location;
     a dsv:DatatypePropertyProfile;
     dsv:datatypePropertyRange rdf:langString.
-
-<https://model.ccmm.cz/research-data/Distribution.title> dct:isPartOf <https://model.ccmm.cz/research-data/>;
+:Distribution.title dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
     skos:prefLabel "title"@en;
     skos:scopeNote "This property can be repeated for parallel language versions of the description. The main title of a distribution is the one in the primary language of the dataset."@en;
@@ -2151,8 +2019,7 @@
     dsv:domain :Distribution;
     a dsv:DatatypePropertyProfile;
     dsv:datatypePropertyRange rdf:langString.
-
-<https://model.ccmm.cz/research-data/AlternateTitle.title> dct:isPartOf <https://model.ccmm.cz/research-data/>;
+:AlternateTitle.title dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
     skos:prefLabel "title"@en;
     dsv:reusesPropertyValue [
@@ -2166,8 +2033,7 @@
     dsv:domain :AlternateTitle;
     a dsv:DatatypePropertyProfile;
     dsv:datatypePropertyRange rdf:langString.
-
-<https://model.ccmm.cz/research-data/ProvenanceActivity.label> dct:isPartOf <https://model.ccmm.cz/research-data/>;
+:ProvenanceActivity.label dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
     skos:definition "A human-readable name for the activity."@en;
     dsv:reusesPropertyValue [
@@ -2181,8 +2047,7 @@
     dsv:domain :ProvenanceActivity;
     a dsv:DatatypePropertyProfile;
     dsv:datatypePropertyRange rdf:langString.
-
-<https://model.ccmm.cz/research-data/IdentifierScheme.notation> dct:isPartOf <https://model.ccmm.cz/research-data/>;
+:IdentifierScheme.notation dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
     skos:prefLabel "notation"@en;
     skos:definition "Notation of the identifier scheme."@en;
@@ -2191,8 +2056,7 @@
     dsv:domain :IdentifierScheme;
     a dsv:DatatypePropertyProfile;
     dsv:datatypePropertyRange <http://www.w3.org/2001/XMLSchema#string>.
-
-<https://model.ccmm.cz/research-data/Repository.description> dct:isPartOf <https://model.ccmm.cz/research-data/>;
+:Repository.description dct:isPartOf <https://model.ccmm.cz/research-data/>;
     a dsv:TermProfile;
     dsv:profileOf <https://mff-uk.github.io/specifications/dcat-ap#Catalogue.description>;
     dsv:reusesPropertyValue [

@@ -366,8 +366,7 @@
     dsv:domain <https://ofn.gov.cz/dcat-ap-cz#DatováSada>;
     a dsv:ObjectPropertyProfile;
     dsv:objectPropertyRange <https://ofn.gov.cz/dcat-ap-cz#SérieDatovýchSad>.
-
-<https://ofn.gov.cz/dcat-ap-cz#Katalog.poskytovatel> dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz#>;
+:Katalog.poskytovatel dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz#>;
     a dsv:TermProfile;
     skos:prefLabel "publisher"@en, "poskytovatel"@cs;
     skos:definition "An entity (organisation) responsible for making the Catalogue available."@en, "Poskytovatel datového katalogu."@cs;
@@ -1272,8 +1271,7 @@
     dsv:domain <https://ofn.gov.cz/dcat-ap-cz#SérieDatovýchSad>;
     a dsv:ObjectPropertyProfile;
     dsv:objectPropertyRange :Dokument.
-
-<https://ofn.gov.cz/dcat-ap-cz#Katalog.popis> dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz#>;
+:Katalog.popis dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz#>;
     a dsv:TermProfile;
     skos:prefLabel "description"@en, "popis"@cs;
     skos:definition "A free-text account of the Catalogue."@en, "Tato vlastnost obsahuje volný text s popisem datového katalogu."@cs;

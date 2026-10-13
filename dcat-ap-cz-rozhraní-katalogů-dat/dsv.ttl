@@ -184,8 +184,7 @@
 ];
     a dsv:ClassProfile;
     dsv:classRole role:supportive.
-
-<https://ofn.gov.cz/dcat-ap-cz-rozhraní-katalogů-dat#Katalog.poskytovatel> dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-rozhraní-katalogů-dat#>;
+:Katalog.poskytovatel dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-rozhraní-katalogů-dat#>;
     a dsv:TermProfile;
     dsv:profileOf <https://ofn.gov.cz/dcat-ap-cz#Katalog.poskytovatel>;
     dsv:reusesPropertyValue [
@@ -284,8 +283,7 @@
     dsv:requirementLevel requirement:recommended;
     a dsv:ObjectPropertyProfile;
     dsv:objectPropertyRange :Dokument.
-
-<https://ofn.gov.cz/dcat-ap-cz-rozhraní-katalogů-dat#Organizace.email> dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-rozhraní-katalogů-dat#>;
+:Organizace.email dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-rozhraní-katalogů-dat#>;
     a dsv:TermProfile;
     dsv:profileOf <https://ofn.gov.cz/dcat-ap-cz#KontaktníBod.email>;
     dsv:reusesPropertyValue [
@@ -355,8 +353,7 @@
     dsv:requirementLevel requirement:mandatory;
     a dsv:DatatypePropertyProfile;
     dsv:datatypePropertyRange <https://ofn.gov.cz/zdroj/základní-datové-typy/2020-07-01/text>.
-
-<https://ofn.gov.cz/dcat-ap-cz-rozhraní-katalogů-dat#Katalog.popis> dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-rozhraní-katalogů-dat#>;
+:Katalog.popis dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-rozhraní-katalogů-dat#>;
     a dsv:TermProfile;
     dsv:profileOf <https://ofn.gov.cz/dcat-ap-cz#Katalog.popis>;
     dsv:reusesPropertyValue [
