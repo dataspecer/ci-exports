@@ -270,6 +270,31 @@
         border-top: 1px solid #ddd;
         padding: 3px 10px;
       }
+    
+      /* An IRI has no spaces to break at, so it may wrap anywhere instead of widening the table. */
+      table.def.cv-list .cv-iri {
+        overflow-wrap: anywhere;
+      }
+    
+      /* ReSpec shows the header row of a definition table as an italic body row, so it is marked out as a header. */
+      table.def.cv-table thead th {
+        font-style: normal;
+        font-weight: bold;
+        background: color-mix(in srgb, currentColor 8%, transparent);
+        border-bottom: 2px solid color-mix(in srgb, currentColor 35%, transparent);
+      }
+    
+      table.def.cv-list .cv-center {
+        text-align: center;
+      }
+    
+      a.cv-link + a.cv-link {
+        margin-left: 0.5em;
+      }
+    
+      .cv-icon {
+        vertical-align: -0.2em;
+      }
     </style>  </head>
   <body>
     <p class="copyright"></p>
