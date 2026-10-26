@@ -167,21 +167,6 @@
       <binding name="o"><literal datatype="http://www.w3.org/2001/XMLSchema#date">2024-12-31</literal></binding>
     </result>
     <result>
-      <binding name="s"><bnode>b0_cb1a7d270e5216af7de17398c287153791cc9a3b78d626791e6e8368a9f2546a226</bnode></binding>
-      <binding name="p"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
-      <binding name="o"><uri>http://www.w3.org/ns/prov#Attribution</uri></binding>
-    </result>
-    <result>
-      <binding name="s"><bnode>b0_cb1a7d270e5216af7de17398c287153791cc9a3b78d626791e6e8368a9f2546a226</bnode></binding>
-      <binding name="p"><uri>http://www.w3.org/ns/dcat#hadRole</uri></binding>
-      <binding name="o"><uri>https://vocabs.ccmm.cz/registry/codelist/AgentRole/Publisher</uri></binding>
-    </result>
-    <result>
-      <binding name="s"><bnode>b0_cb1a7d270e5216af7de17398c287153791cc9a3b78d626791e6e8368a9f2546a226</bnode></binding>
-      <binding name="p"><uri>http://www.w3.org/ns/prov#agent</uri></binding>
-      <binding name="o"><bnode>b0_cb365a3a8f2678f99161bef873662620096df7c9433e35c56b4c427200473034d67</bnode></binding>
-    </result>
-    <result>
       <binding name="s"><bnode>b0_cb1b221c7e956745cfa1ab1b2dfb0314b82cd39a33c50321c448b56c21a09277297</bnode></binding>
       <binding name="p"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
       <binding name="o"><uri>http://www.w3.org/ns/org#Organization</uri></binding>
@@ -240,6 +225,22 @@
       <binding name="s"><bnode>b0_cb1ea03da4a9ec69bc95bcd7677ef0895da132481e6bc47a0c4d20f4992fad5faa8</bnode></binding>
       <binding name="p"><uri>https://model.ccmm.cz/vocabulary/ccmm#phone</uri></binding>
       <binding name="o"><literal datatype="http://www.w3.org/2001/XMLSchema#string">+0112345678</literal></binding>
+    </result>
+    <result>
+      <binding name="s"><bnode>b0_cb20d6ef268b0aa6d1cdf926b5b52d76b53bde415304522d24196f9a0eb1ca1e474</bnode></binding>
+      <binding name="p"><uri>http://purl.org/dc/terms/description</uri></binding>
+      <binding name="o"><literal xml:lang="cs">Tato datová sada obsahuje měření kvality ovzduší ve středních Čechách v
+            roce 2024.</literal></binding>
+    </result>
+    <result>
+      <binding name="s"><bnode>b0_cb20d6ef268b0aa6d1cdf926b5b52d76b53bde415304522d24196f9a0eb1ca1e474</bnode></binding>
+      <binding name="p"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
+      <binding name="o"><uri>https://w3id.org/tib/datacite/class/Description</uri></binding>
+    </result>
+    <result>
+      <binding name="s"><bnode>b0_cb20d6ef268b0aa6d1cdf926b5b52d76b53bde415304522d24196f9a0eb1ca1e474</bnode></binding>
+      <binding name="p"><uri>https://w3id.org/tib/datacite/property/descriptionType</uri></binding>
+      <binding name="o"><uri>https://w3id.org/tib/datacite/vocab/descriptionType/Abstract</uri></binding>
     </result>
     <result>
       <binding name="s"><bnode>b0_cb212ae2e9d9d97c7b338a8c861fa681c5fe4d6536034ce5b5b085f46f0ff98b335</bnode></binding>
@@ -307,6 +308,21 @@
       <binding name="o"><bnode>b0_cb74685bf604b5767e3c6d9e70e1d7348c63930e1d1580e1a7604730dccb584c91f</bnode></binding>
     </result>
     <result>
+      <binding name="s"><bnode>b0_cb246be14b23ef6d308106b6b22a1ea4963224ab3fe18977abc66ddb3612bae3173</bnode></binding>
+      <binding name="p"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
+      <binding name="o"><uri>http://www.w3.org/ns/prov#Attribution</uri></binding>
+    </result>
+    <result>
+      <binding name="s"><bnode>b0_cb246be14b23ef6d308106b6b22a1ea4963224ab3fe18977abc66ddb3612bae3173</bnode></binding>
+      <binding name="p"><uri>http://www.w3.org/ns/dcat#hadRole</uri></binding>
+      <binding name="o"><uri>https://vocabs.ccmm.cz/registry/codelist/AgentRole/Publisher</uri></binding>
+    </result>
+    <result>
+      <binding name="s"><bnode>b0_cb246be14b23ef6d308106b6b22a1ea4963224ab3fe18977abc66ddb3612bae3173</bnode></binding>
+      <binding name="p"><uri>http://www.w3.org/ns/prov#agent</uri></binding>
+      <binding name="o"><bnode>b0_cb31f8d51bd7b71127250e7016d8419fbf517ad4c27625b41deaa243fde3817d46a</bnode></binding>
+    </result>
+    <result>
       <binding name="s"><bnode>b0_cb24a65022d758bf990d90988847d5e687ce07e914e3f08fb492dfb657a391f8c99</bnode></binding>
       <binding name="p"><uri>http://purl.org/dc/terms/title</uri></binding>
       <binding name="o"><literal datatype="http://www.w3.org/2001/XMLSchema#string">Endpoint of WMS service Air quality</literal></binding>
@@ -357,37 +373,6 @@
       <binding name="o"><uri>https://w3id.org/tib/datacite/vocab/dateType/Collected</uri></binding>
     </result>
     <result>
-      <binding name="s"><bnode>b0_cb292165b53c875e3dee8bc170be5ec166a49aca71d8847a0f29daa4482c6654613</bnode></binding>
-      <binding name="p"><uri>http://purl.org/dc/terms/description</uri></binding>
-      <binding name="o"><literal xml:lang="cs">Tato datová sada obsahuje měření kvality ovzduší ve středních Čechách v
-            roce 2024.</literal></binding>
-    </result>
-    <result>
-      <binding name="s"><bnode>b0_cb292165b53c875e3dee8bc170be5ec166a49aca71d8847a0f29daa4482c6654613</bnode></binding>
-      <binding name="p"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
-      <binding name="o"><uri>https://w3id.org/tib/datacite/class/Description</uri></binding>
-    </result>
-    <result>
-      <binding name="s"><bnode>b0_cb292165b53c875e3dee8bc170be5ec166a49aca71d8847a0f29daa4482c6654613</bnode></binding>
-      <binding name="p"><uri>https://w3id.org/tib/datacite/property/descriptionType</uri></binding>
-      <binding name="o"><uri>https://w3id.org/tib/datacite/property/descriptionType/Abstract</uri></binding>
-    </result>
-    <result>
-      <binding name="s"><bnode>b0_cb2b48a03aee7dec2e9e3a8def8156adfc1ec4fb9b7b924966a19abbec5fa10213a</bnode></binding>
-      <binding name="p"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
-      <binding name="o"><uri>http://www.w3.org/ns/org#Organization</uri></binding>
-    </result>
-    <result>
-      <binding name="s"><bnode>b0_cb2b48a03aee7dec2e9e3a8def8156adfc1ec4fb9b7b924966a19abbec5fa10213a</bnode></binding>
-      <binding name="p"><uri>http://www.w3.org/ns/adms#identifier</uri></binding>
-      <binding name="o"><uri>https://ror.org/02j46qs45</uri></binding>
-    </result>
-    <result>
-      <binding name="s"><bnode>b0_cb2b48a03aee7dec2e9e3a8def8156adfc1ec4fb9b7b924966a19abbec5fa10213a</bnode></binding>
-      <binding name="p"><uri>http://xmlns.com/foaf/0.1/name</uri></binding>
-      <binding name="o"><literal datatype="http://www.w3.org/2001/XMLSchema#string">Masarykova Univerzita</literal></binding>
-    </result>
-    <result>
       <binding name="s"><bnode>b0_cb2df12fb3316df4bafa64864e0e740cd31fc682ad2e6d24a19963bf2427ec76a49</bnode></binding>
       <binding name="p"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
       <binding name="o"><uri>http://www.w3.org/ns/prov#Attribution</uri></binding>
@@ -403,39 +388,44 @@
       <binding name="o"><bnode>b0_cb1c868cb729ee50c4244db3f858d4d8567a1e2398bf0a6ce54ad5a20190f63a818</bnode></binding>
     </result>
     <result>
-      <binding name="s"><bnode>b0_cb365a3a8f2678f99161bef873662620096df7c9433e35c56b4c427200473034d67</bnode></binding>
+      <binding name="s"><bnode>b0_cb305c441070f6e3072bc0feafa16d6e7b9b0051aa71c8fa1684f4fc8242d0e702b</bnode></binding>
       <binding name="p"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
-      <binding name="o"><uri>http://www.w3.org/ns/prov#Person</uri></binding>
+      <binding name="o"><uri>http://www.w3.org/2006/vcard/ns#Kind</uri></binding>
     </result>
     <result>
-      <binding name="s"><bnode>b0_cb365a3a8f2678f99161bef873662620096df7c9433e35c56b4c427200473034d67</bnode></binding>
-      <binding name="p"><uri>http://www.w3.org/2006/vcard/ns#family-name</uri></binding>
-      <binding name="o"><literal datatype="http://www.w3.org/2001/XMLSchema#string">Janouch</literal></binding>
+      <binding name="s"><bnode>b0_cb305c441070f6e3072bc0feafa16d6e7b9b0051aa71c8fa1684f4fc8242d0e702b</bnode></binding>
+      <binding name="p"><uri>http://www.w3.org/2006/vcard/ns#hasAddress</uri></binding>
+      <binding name="o"><bnode>b0_cbe5329050e98eda96a04ff3355fcd05a43a9ea4e489c206c2ef70cd75c2553f86</bnode></binding>
     </result>
     <result>
-      <binding name="s"><bnode>b0_cb365a3a8f2678f99161bef873662620096df7c9433e35c56b4c427200473034d67</bnode></binding>
-      <binding name="p"><uri>http://www.w3.org/2006/vcard/ns#given-name</uri></binding>
-      <binding name="o"><literal datatype="http://www.w3.org/2001/XMLSchema#string">Ivan</literal></binding>
+      <binding name="s"><bnode>b0_cb305c441070f6e3072bc0feafa16d6e7b9b0051aa71c8fa1684f4fc8242d0e702b</bnode></binding>
+      <binding name="p"><uri>https://model.ccmm.cz/vocabulary/ccmm#email</uri></binding>
+      <binding name="o"><literal datatype="http://www.w3.org/2001/XMLSchema#string">256384@muni.cz</literal></binding>
     </result>
     <result>
-      <binding name="s"><bnode>b0_cb365a3a8f2678f99161bef873662620096df7c9433e35c56b4c427200473034d67</bnode></binding>
+      <binding name="s"><bnode>b0_cb305c441070f6e3072bc0feafa16d6e7b9b0051aa71c8fa1684f4fc8242d0e702b</bnode></binding>
+      <binding name="p"><uri>https://model.ccmm.cz/vocabulary/ccmm#phone</uri></binding>
+      <binding name="o"><literal datatype="http://www.w3.org/2001/XMLSchema#string">+420876543219</literal></binding>
+    </result>
+    <result>
+      <binding name="s"><bnode>b0_cb31f8d51bd7b71127250e7016d8419fbf517ad4c27625b41deaa243fde3817d46a</bnode></binding>
+      <binding name="p"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
+      <binding name="o"><uri>http://www.w3.org/ns/org#Organization</uri></binding>
+    </result>
+    <result>
+      <binding name="s"><bnode>b0_cb31f8d51bd7b71127250e7016d8419fbf517ad4c27625b41deaa243fde3817d46a</bnode></binding>
       <binding name="p"><uri>http://www.w3.org/ns/adms#identifier</uri></binding>
-      <binding name="o"><uri>https://orcid.org/0023-0802-44X6-26X0</uri></binding>
+      <binding name="o"><uri>https://ror.org/02j46qs45</uri></binding>
     </result>
     <result>
-      <binding name="s"><bnode>b0_cb365a3a8f2678f99161bef873662620096df7c9433e35c56b4c427200473034d67</bnode></binding>
+      <binding name="s"><bnode>b0_cb31f8d51bd7b71127250e7016d8419fbf517ad4c27625b41deaa243fde3817d46a</bnode></binding>
       <binding name="p"><uri>http://www.w3.org/ns/dcat#contactPoint</uri></binding>
-      <binding name="o"><bnode>b0_cb39241a6fa1020b052f6a47b7289a2f01e1edb687bbee721df44bff05beaa1d0f4</bnode></binding>
+      <binding name="o"><bnode>b0_cb305c441070f6e3072bc0feafa16d6e7b9b0051aa71c8fa1684f4fc8242d0e702b</bnode></binding>
     </result>
     <result>
-      <binding name="s"><bnode>b0_cb365a3a8f2678f99161bef873662620096df7c9433e35c56b4c427200473034d67</bnode></binding>
+      <binding name="s"><bnode>b0_cb31f8d51bd7b71127250e7016d8419fbf517ad4c27625b41deaa243fde3817d46a</bnode></binding>
       <binding name="p"><uri>http://xmlns.com/foaf/0.1/name</uri></binding>
-      <binding name="o"><literal datatype="http://www.w3.org/2001/XMLSchema#string">Ivan Janouch</literal></binding>
-    </result>
-    <result>
-      <binding name="s"><bnode>b0_cb365a3a8f2678f99161bef873662620096df7c9433e35c56b4c427200473034d67</bnode></binding>
-      <binding name="p"><uri>https://model.ccmm.cz/vocabulary/ccmm#hasAffiliation</uri></binding>
-      <binding name="o"><bnode>b0_cb2b48a03aee7dec2e9e3a8def8156adfc1ec4fb9b7b924966a19abbec5fa10213a</bnode></binding>
+      <binding name="o"><literal datatype="http://www.w3.org/2001/XMLSchema#string">Masarykova Univerzita</literal></binding>
     </result>
     <result>
       <binding name="s"><bnode>b0_cb36d041efb2226ed73db4220730182490d99663fa5f6ffe7cdf9c1cc58fb86ffbc</bnode></binding>
@@ -481,26 +471,6 @@
       <binding name="s"><bnode>b0_cb386f14617b439675175d8b146abee5188f2d7d05813c25db57f24d25691df0264</bnode></binding>
       <binding name="p"><uri>https://model.ccmm.cz/vocabulary/ccmm#hasType</uri></binding>
       <binding name="o"><uri>https://vocabs.ccmm.cz/registry/codelist/LocationRelation/Collected</uri></binding>
-    </result>
-    <result>
-      <binding name="s"><bnode>b0_cb39241a6fa1020b052f6a47b7289a2f01e1edb687bbee721df44bff05beaa1d0f4</bnode></binding>
-      <binding name="p"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
-      <binding name="o"><uri>http://www.w3.org/2006/vcard/ns#Kind</uri></binding>
-    </result>
-    <result>
-      <binding name="s"><bnode>b0_cb39241a6fa1020b052f6a47b7289a2f01e1edb687bbee721df44bff05beaa1d0f4</bnode></binding>
-      <binding name="p"><uri>http://www.w3.org/2006/vcard/ns#hasAddress</uri></binding>
-      <binding name="o"><bnode>b0_cbe5329050e98eda96a04ff3355fcd05a43a9ea4e489c206c2ef70cd75c2553f86</bnode></binding>
-    </result>
-    <result>
-      <binding name="s"><bnode>b0_cb39241a6fa1020b052f6a47b7289a2f01e1edb687bbee721df44bff05beaa1d0f4</bnode></binding>
-      <binding name="p"><uri>https://model.ccmm.cz/vocabulary/ccmm#email</uri></binding>
-      <binding name="o"><literal datatype="http://www.w3.org/2001/XMLSchema#string">256384@muni.cz</literal></binding>
-    </result>
-    <result>
-      <binding name="s"><bnode>b0_cb39241a6fa1020b052f6a47b7289a2f01e1edb687bbee721df44bff05beaa1d0f4</bnode></binding>
-      <binding name="p"><uri>https://model.ccmm.cz/vocabulary/ccmm#phone</uri></binding>
-      <binding name="o"><literal datatype="http://www.w3.org/2001/XMLSchema#string">+420876543219</literal></binding>
     </result>
     <result>
       <binding name="s"><bnode>b0_cb4e76fb4a10062c902af53f7aab1b31c2b55838b85b1b8c03e289b81371be748a1</bnode></binding>
@@ -714,6 +684,11 @@
             includes observation and measurement of emissions, of the state of environmental media
             and of other ecosystem parameters (biodiversity, ecological conditions of vegetation,
             etc.) by or on behalf of public authorities.</literal></binding>
+    </result>
+    <result>
+      <binding name="s"><uri>http://inspire.ec.europa.eu/theme/ef</uri></binding>
+      <binding name="p"><uri>http://www.w3.org/2004/02/skos/core#prefLabel</uri></binding>
+      <binding name="o"><literal xml:lang="en">Environmental monitoring facilities</literal></binding>
     </result>
     <result>
       <binding name="s"><uri>http://inspire.ec.europa.eu/theme/ef</uri></binding>
@@ -1072,21 +1047,6 @@
       <binding name="o"><literal datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://opendata.chmi.cz/air_quality/</literal></binding>
     </result>
     <result>
-      <binding name="s"><uri>https://orcid.org/0023-0802-44X6-26X0</uri></binding>
-      <binding name="p"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
-      <binding name="o"><uri>http://www.w3.org/ns/adms#Identifier</uri></binding>
-    </result>
-    <result>
-      <binding name="s"><uri>https://orcid.org/0023-0802-44X6-26X0</uri></binding>
-      <binding name="p"><uri>http://www.w3.org/2004/02/skos/core#notation</uri></binding>
-      <binding name="o"><literal datatype="http://www.w3.org/2001/XMLSchema#string">0023-0802-44X6-26X0</literal></binding>
-    </result>
-    <result>
-      <binding name="s"><uri>https://orcid.org/0023-0802-44X6-26X0</uri></binding>
-      <binding name="p"><uri>https://model.ccmm.cz/vocabulary/ccmm#inScheme</uri></binding>
-      <binding name="o"><uri>https://orcid.org/</uri></binding>
-    </result>
-    <result>
       <binding name="s"><uri>https://orcid.org/0030-04X2-2030-4X26</uri></binding>
       <binding name="p"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
       <binding name="o"><uri>http://www.w3.org/ns/adms#Identifier</uri></binding>
@@ -1194,12 +1154,12 @@
     <result>
       <binding name="s"><uri>https://organization.cz/dataset_server/dataset_id</uri></binding>
       <binding name="p"><uri>http://www.w3.org/ns/prov#qualifiedAttribution</uri></binding>
-      <binding name="o"><bnode>b0_cb1a7d270e5216af7de17398c287153791cc9a3b78d626791e6e8368a9f2546a226</bnode></binding>
+      <binding name="o"><bnode>b0_cb234291d1bbef315982c1ca94df69f3da06a300f60a7da0b37d3573e97164d1139</bnode></binding>
     </result>
     <result>
       <binding name="s"><uri>https://organization.cz/dataset_server/dataset_id</uri></binding>
       <binding name="p"><uri>http://www.w3.org/ns/prov#qualifiedAttribution</uri></binding>
-      <binding name="o"><bnode>b0_cb234291d1bbef315982c1ca94df69f3da06a300f60a7da0b37d3573e97164d1139</bnode></binding>
+      <binding name="o"><bnode>b0_cb246be14b23ef6d308106b6b22a1ea4963224ab3fe18977abc66ddb3612bae3173</bnode></binding>
     </result>
     <result>
       <binding name="s"><uri>https://organization.cz/dataset_server/dataset_id</uri></binding>
@@ -1244,7 +1204,7 @@
     <result>
       <binding name="s"><uri>https://organization.cz/dataset_server/dataset_id</uri></binding>
       <binding name="p"><uri>https://w3id.org/tib/datacite/property/description</uri></binding>
-      <binding name="o"><bnode>b0_cb292165b53c875e3dee8bc170be5ec166a49aca71d8847a0f29daa4482c6654613</bnode></binding>
+      <binding name="o"><bnode>b0_cb20d6ef268b0aa6d1cdf926b5b52d76b53bde415304522d24196f9a0eb1ca1e474</bnode></binding>
     </result>
     <result>
       <binding name="s"><uri>https://organization.cz/dataset_server/dataset_id</uri></binding>
@@ -1493,6 +1453,16 @@
     </result>
     <result>
       <binding name="s"><uri>https://vocabs.ccmm.cz/registry/codelist/SubjectCategory/10000/10500/10509</uri></binding>
+      <binding name="p"><uri>http://www.w3.org/2004/02/skos/core#prefLabel</uri></binding>
+      <binding name="o"><literal xml:lang="cs">Meteorologie, vědy o atmosféře</literal></binding>
+    </result>
+    <result>
+      <binding name="s"><uri>https://vocabs.ccmm.cz/registry/codelist/SubjectCategory/10000/10500/10509</uri></binding>
+      <binding name="p"><uri>http://www.w3.org/2004/02/skos/core#prefLabel</uri></binding>
+      <binding name="o"><literal xml:lang="en">Meteorology and atmospheric sciences</literal></binding>
+    </result>
+    <result>
+      <binding name="s"><uri>https://vocabs.ccmm.cz/registry/codelist/SubjectCategory/10000/10500/10509</uri></binding>
       <binding name="p"><uri>https://model.ccmm.cz/vocabulary/ccmm#inSubjectScheme</uri></binding>
       <binding name="o"><uri>https://vocabs.ccmm.cz/registry/codelist/SubjectCategory/</uri></binding>
     </result>
@@ -1527,21 +1497,6 @@
       <binding name="o"><literal xml:lang="en">open access</literal></binding>
     </result>
     <result>
-      <binding name="s"><uri>https://w3id.org/tib/datacite/property/descriptionType/Abstract</uri></binding>
-      <binding name="p"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
-      <binding name="o"><uri>http://www.w3.org/2004/02/skos/core#Concept</uri></binding>
-    </result>
-    <result>
-      <binding name="s"><uri>https://w3id.org/tib/datacite/property/descriptionType/Abstract</uri></binding>
-      <binding name="p"><uri>http://www.w3.org/2004/02/skos/core#prefLabel</uri></binding>
-      <binding name="o"><literal xml:lang="en">Abstract</literal></binding>
-    </result>
-    <result>
-      <binding name="s"><uri>https://w3id.org/tib/datacite/property/descriptionType/Abstract</uri></binding>
-      <binding name="p"><uri>http://www.w3.org/2004/02/skos/core#prefLabel</uri></binding>
-      <binding name="o"><literal xml:lang="cs">Abstrakt</literal></binding>
-    </result>
-    <result>
       <binding name="s"><uri>https://w3id.org/tib/datacite/vocab/dateType/Collected</uri></binding>
       <binding name="p"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
       <binding name="o"><uri>http://www.w3.org/2004/02/skos/core#Concept</uri></binding>
@@ -1549,7 +1504,7 @@
     <result>
       <binding name="s"><uri>https://w3id.org/tib/datacite/vocab/dateType/Collected</uri></binding>
       <binding name="p"><uri>http://www.w3.org/2004/02/skos/core#prefLabel</uri></binding>
-      <binding name="o"><literal xml:lang="en">Date Collected</literal></binding>
+      <binding name="o"><literal xml:lang="en">Collected</literal></binding>
     </result>
     <result>
       <binding name="s"><uri>https://w3id.org/tib/datacite/vocab/dateType/Collected</uri></binding>
@@ -1564,12 +1519,27 @@
     <result>
       <binding name="s"><uri>https://w3id.org/tib/datacite/vocab/dateType/Created</uri></binding>
       <binding name="p"><uri>http://www.w3.org/2004/02/skos/core#prefLabel</uri></binding>
-      <binding name="o"><literal xml:lang="en">Date Created</literal></binding>
+      <binding name="o"><literal xml:lang="en">Created</literal></binding>
     </result>
     <result>
       <binding name="s"><uri>https://w3id.org/tib/datacite/vocab/dateType/Created</uri></binding>
       <binding name="p"><uri>http://www.w3.org/2004/02/skos/core#prefLabel</uri></binding>
       <binding name="o"><literal xml:lang="cs">Datum vytvoření</literal></binding>
+    </result>
+    <result>
+      <binding name="s"><uri>https://w3id.org/tib/datacite/vocab/descriptionType/Abstract</uri></binding>
+      <binding name="p"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
+      <binding name="o"><uri>http://www.w3.org/2004/02/skos/core#Concept</uri></binding>
+    </result>
+    <result>
+      <binding name="s"><uri>https://w3id.org/tib/datacite/vocab/descriptionType/Abstract</uri></binding>
+      <binding name="p"><uri>http://www.w3.org/2004/02/skos/core#prefLabel</uri></binding>
+      <binding name="o"><literal xml:lang="en">Abstract</literal></binding>
+    </result>
+    <result>
+      <binding name="s"><uri>https://w3id.org/tib/datacite/vocab/descriptionType/Abstract</uri></binding>
+      <binding name="p"><uri>http://www.w3.org/2004/02/skos/core#prefLabel</uri></binding>
+      <binding name="o"><literal xml:lang="cs">Abstrakt</literal></binding>
     </result>
     <result>
       <binding name="s"><uri>https://w3id.org/tib/datacite/vocab/relationType/HasMetadata</uri></binding>
@@ -1579,7 +1549,7 @@
     <result>
       <binding name="s"><uri>https://w3id.org/tib/datacite/vocab/relationType/HasMetadata</uri></binding>
       <binding name="p"><uri>http://www.w3.org/2004/02/skos/core#prefLabel</uri></binding>
-      <binding name="o"><literal xml:lang="en">has metadata</literal></binding>
+      <binding name="o"><literal xml:lang="en">hasMetadata</literal></binding>
     </result>
     <result>
       <binding name="s"><uri>https://w3id.org/tib/datacite/vocab/relationType/HasMetadata</uri></binding>
@@ -1594,7 +1564,7 @@
     <result>
       <binding name="s"><uri>https://w3id.org/tib/datacite/vocab/relationType/IsCollectedBy</uri></binding>
       <binding name="p"><uri>http://www.w3.org/2004/02/skos/core#prefLabel</uri></binding>
-      <binding name="o"><literal xml:lang="en">is collected by</literal></binding>
+      <binding name="o"><literal xml:lang="en">isCollectedBy</literal></binding>
     </result>
     <result>
       <binding name="s"><uri>https://w3id.org/tib/datacite/vocab/relationType/IsCollectedBy</uri></binding>
@@ -1609,7 +1579,7 @@
     <result>
       <binding name="s"><uri>https://w3id.org/tib/datacite/vocab/relationType/IsDerivedFrom</uri></binding>
       <binding name="p"><uri>http://www.w3.org/2004/02/skos/core#prefLabel</uri></binding>
-      <binding name="o"><literal xml:lang="en">is derived from</literal></binding>
+      <binding name="o"><literal xml:lang="en">isDerivedFrom</literal></binding>
     </result>
     <result>
       <binding name="s"><uri>https://w3id.org/tib/datacite/vocab/relationType/IsDerivedFrom</uri></binding>
@@ -1620,6 +1590,11 @@
       <binding name="s"><uri>https://w3id.org/tib/datacite/vocab/relationType/IsReferencedBy</uri></binding>
       <binding name="p"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
       <binding name="o"><uri>http://www.w3.org/2004/02/skos/core#Concept</uri></binding>
+    </result>
+    <result>
+      <binding name="s"><uri>https://w3id.org/tib/datacite/vocab/relationType/IsReferencedBy</uri></binding>
+      <binding name="p"><uri>http://www.w3.org/2004/02/skos/core#prefLabel</uri></binding>
+      <binding name="o"><literal xml:lang="en">IsReferencedBy</literal></binding>
     </result>
     <result>
       <binding name="s"><uri>https://w3id.org/tib/datacite/vocab/relationType/IsReferencedBy</uri></binding>
@@ -1639,7 +1614,7 @@
     <result>
       <binding name="s"><uri>https://w3id.org/tib/datacite/vocab/titleType/TranslatedTitle</uri></binding>
       <binding name="p"><uri>http://www.w3.org/2004/02/skos/core#prefLabel</uri></binding>
-      <binding name="o"><literal xml:lang="en">Translated Title</literal></binding>
+      <binding name="o"><literal xml:lang="en">TranslatedTitle</literal></binding>
     </result>
     <result>
       <binding name="s"><uri>https://www.iso.org/standard/80275.html</uri></binding>
