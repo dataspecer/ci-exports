@@ -127,35 +127,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     prov:qualifiedAttribution
         [
             a prov:Attribution ;
-            dcat:hadRole <https://vocabs.ccmm.cz/registry/codelist/AgentRole/Publisher> ;
-            prov:agent
-                [
-                    a prov:Person ;
-                    vcard:family-name "Janouch" ;
-                    vcard:given-name "Ivan" ;
-                    adms:identifier <https://orcid.org/0023-0802-44X6-26X0> ;
-                    dcat:contactPoint
-                        [
-                            a vcard:Kind ;
-                            vcard:hasAddress
-                                [
-                                    a locn:Address ;
-                                    locn:fullAddress "Pražská 3, 60200, Brno" ;
-                                ] ;
-                            ccmm:email "256384@muni.cz" ;
-                            ccmm:phone "+420876543219" ;
-                        ] ;
-                    foaf:name "Ivan Janouch" ;
-                    ccmm:hasAffiliation
-                        [
-                            a org:Organization ;
-                            adms:identifier <https://ror.org/02j46qs45> ;
-                            foaf:name "Masarykova Univerzita" ;
-                        ] ;
-                ] ;
-        ] ,
-        [
-            a prov:Attribution ;
             dcat:hadRole <https://vocabs.ccmm.cz/registry/codelist/AgentRole/Creator> ;
             prov:agent
                 [
@@ -181,6 +152,27 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
                             adms:identifier <https://ror.org/024d6js02> ;
                             foaf:name "Univerzita Karlova" ;
                         ] ;
+                ] ;
+        ] ,
+        [
+            a prov:Attribution ;
+            dcat:hadRole <https://vocabs.ccmm.cz/registry/codelist/AgentRole/Publisher> ;
+            prov:agent
+                [
+                    a org:Organization ;
+                    adms:identifier <https://ror.org/02j46qs45> ;
+                    dcat:contactPoint
+                        [
+                            a vcard:Kind ;
+                            vcard:hasAddress
+                                [
+                                    a locn:Address ;
+                                    locn:fullAddress "Pražská 3, 60200, Brno" ;
+                                ] ;
+                            ccmm:email "256384@muni.cz" ;
+                            ccmm:phone "+420876543219" ;
+                        ] ;
+                    foaf:name "Masarykova Univerzita" ;
                 ] ;
         ] ;
     prov:wasGeneratedBy
@@ -234,7 +226,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
             a <https://w3id.org/tib/datacite/class/Description> ;
             dcterms:description """Tato datová sada obsahuje měření kvality ovzduší ve středních Čechách v
             roce 2024."""@cs ;
-            datacite:descriptionType <https://w3id.org/tib/datacite/property/descriptionType/Abstract> ;
+            datacite:descriptionType <https://w3id.org/tib/datacite/vocab/descriptionType/Abstract> ;
         ] ;
     datacite:fundingReference <https://funder-org.org/grants/123456789> ;
     datacite:publicationYear "2025"^^xsd:gYear ;
@@ -265,6 +257,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
             includes observation and measurement of emissions, of the state of environmental media
             and of other ecosystem parameters (biodiversity, ecological conditions of vegetation,
             etc.) by or on behalf of public authorities."""@en ;
+    skos:prefLabel "Environmental monitoring facilities"@en ;
     ccmm:inSubjectScheme <https://inspire.ec.europa.eu/theme/> ;
     datacite:classificationCode "EF" ;
 .
@@ -398,10 +391,10 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     ccmm:resourceUrl "https://opendata.chmi.cz/air_quality/"^^xsd:anyURI ;
 .
 
-<https://orcid.org/0023-0802-44X6-26X0>
-    a adms:Identifier ;
-    skos:notation "0023-0802-44X6-26X0" ;
-    ccmm:inScheme <https://orcid.org/> ;
+<https://orcid.org/>
+    a ccmm:IdentifierScheme ;
+    rdfs:label "Open Research and Contributor ID"@en ;
+    skos:notation "ORCID" ;
 .
 
 <https://organization.cz/datasets/>
@@ -528,62 +521,67 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://vocabs.ccmm.cz/registry/codelist/SubjectCategory/10000/10500/10509>
     a <https://w3id.org/tib/datacite/class/Subject> ;
+    skos:prefLabel
+        "Meteorologie, vědy o atmosféře"@cs ,
+        "Meteorology and atmospheric sciences"@en ;
     ccmm:inSubjectScheme <https://vocabs.ccmm.cz/registry/codelist/SubjectCategory/> ;
     datacite:classificationCode "10509" ;
-.
-
-<https://w3id.org/tib/datacite/property/descriptionType/Abstract>
-    a skos:Concept ;
-    skos:prefLabel
-        "Abstrakt"@cs ,
-        "Abstract"@en ;
 .
 
 <https://w3id.org/tib/datacite/vocab/dateType/Collected>
     a skos:Concept ;
     skos:prefLabel
         "Datum sběru"@cs ,
-        "Date Collected"@en ;
+        "Collected"@en ;
 .
 
 <https://w3id.org/tib/datacite/vocab/dateType/Created>
     a skos:Concept ;
     skos:prefLabel
         "Datum vytvoření"@cs ,
-        "Date Created"@en ;
+        "Created"@en ;
+.
+
+<https://w3id.org/tib/datacite/vocab/descriptionType/Abstract>
+    a skos:Concept ;
+    skos:prefLabel
+        "Abstrakt"@cs ,
+        "Abstract"@en ;
 .
 
 <https://w3id.org/tib/datacite/vocab/relationType/HasMetadata>
     a skos:Concept ;
     skos:prefLabel
         "má metadata"@cs ,
-        "has metadata"@en ;
+        "hasMetadata"@en ;
 .
 
 <https://w3id.org/tib/datacite/vocab/relationType/IsCollectedBy>
     a skos:Concept ;
     skos:prefLabel
         "je sbírán (čím)"@cs ,
-        "is collected by"@en ;
+        "isCollectedBy"@en ;
 .
 
 <https://w3id.org/tib/datacite/vocab/relationType/IsDerivedFrom>
     a skos:Concept ;
     skos:prefLabel
         "je odvozen od (čeho)"@cs ,
-        "is derived from"@en ;
+        "isDerivedFrom"@en ;
 .
 
 <https://w3id.org/tib/datacite/vocab/relationType/IsReferencedBy>
     a skos:Concept ;
-    skos:prefLabel "je na něj odkazováno z (čeho)"@cs ;
+    skos:prefLabel
+        "je na něj odkazováno z (čeho)"@cs ,
+        "IsReferencedBy"@en ;
 .
 
 <https://w3id.org/tib/datacite/vocab/titleType/TranslatedTitle>
     a skos:Concept ;
     skos:prefLabel
         "Přeložený název"@cs ,
-        "Translated Title"@en ;
+        "TranslatedTitle"@en ;
 .
 
 <https://www.iso.org/standard/80275.html>
@@ -612,12 +610,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
             dcterms:title "Endpoint of WMS service Air quality" ;
             ccmm:resourceUrl "https://gis.cenia.gov.cz/id/service/wms/chmu_ovzdusi"^^xsd:anyURI ;
         ] ;
-.
-
-<https://orcid.org/>
-    a ccmm:IdentifierScheme ;
-    rdfs:label "Open Research and Contributor ID"@en ;
-    skos:notation "ORCID" ;
 .
 
 <https://orcid.org/0030-04X2-2030-4X26>

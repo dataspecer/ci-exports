@@ -1,41 +1,30 @@
 Status: DIFFERENT
 Comparison: elements, attributes, text values, and repeated-element order
 Ignored: XML declaration, comments, indentation, attribute order, namespace prefixes
-Missing content entries: 39
+Missing content entries: 15
 Added content entries: 0
-Sibling-order changes: 25
+Sibling-order changes: 27
 
 Missing from round-trip XML:
-- attribute /ccmm:dataset/@xsi:schemaLocation = 'https://schema.ccmm.cz/research-data/2.0 ../dataset/schema.xsd'
+- attribute /ccmm:dataset/@xsi:schemaLocation = 'https://schema.ccmm.cz/research-data/2.0 https://model.ccmm.cz/research-data/dataset/schema.xsd'
 - attribute /ccmm:dataset/ccmm:subject/ccmm:subject_scheme/ccmm:label/@xml:lang = 'cs'
 - attribute /ccmm:dataset/ccmm:subject/ccmm:subject_scheme/ccmm:label/@xml:lang = 'en'
-- attribute /ccmm:dataset/ccmm:subject/ccmm:title/@xml:lang = 'cs' (4 occurrences)
-- attribute /ccmm:dataset/ccmm:subject/ccmm:title/@xml:lang = 'en' (4 occurrences)
 - element /ccmm:dataset/ccmm:subject
 - element /ccmm:dataset/ccmm:subject/ccmm:classification_code
 - element /ccmm:dataset/ccmm:subject/ccmm:iri
 - element /ccmm:dataset/ccmm:subject/ccmm:subject_scheme
 - element /ccmm:dataset/ccmm:subject/ccmm:subject_scheme/ccmm:iri
 - element /ccmm:dataset/ccmm:subject/ccmm:subject_scheme/ccmm:label (2 occurrences)
-- element /ccmm:dataset/ccmm:subject/ccmm:title (8 occurrences)
 - text /ccmm:dataset/ccmm:subject/ccmm:classification_code = '10606'
 - text /ccmm:dataset/ccmm:subject/ccmm:iri = 'https://vocabs.ccmm.cz/registry/codelist/SubjectCategory/10000/10600/10606'
 - text /ccmm:dataset/ccmm:subject/ccmm:subject_scheme/ccmm:iri = 'https://vocabs.ccmm.cz/registry/codelist/SubjectCategory/'
 - text /ccmm:dataset/ccmm:subject/ccmm:subject_scheme/ccmm:label = 'OECD FORD Subject Category (Frascati)'
 - text /ccmm:dataset/ccmm:subject/ccmm:subject_scheme/ccmm:label = 'Oborové třídění OECD FORD (Frascati)'
-- text /ccmm:dataset/ccmm:subject/ccmm:title = 'Biological sciences'
-- text /ccmm:dataset/ccmm:subject/ccmm:title = 'Buněčná biologie'
-- text /ccmm:dataset/ccmm:subject/ccmm:title = 'Cell biology'
-- text /ccmm:dataset/ccmm:subject/ccmm:title = 'Immunology'
-- text /ccmm:dataset/ccmm:subject/ccmm:title = 'Imunologie'
-- text /ccmm:dataset/ccmm:subject/ccmm:title = 'Microbiology'
-- text /ccmm:dataset/ccmm:subject/ccmm:title = 'Mikrobiologie'
-- text /ccmm:dataset/ccmm:subject/ccmm:title = 'Mikrobiologie'
 
 Repeated elements with changed order:
 - /ccmm:dataset/ccmm:description
-  original: ccmm:description (ccmm:iri='https://w3id.org/tib/datacite/property/des'... [sha256:daf9694a4959]; ccmm:label='Abstract') | ccmm:description (ccmm:iri='https://w3id.org/tib/datacite/property/des'... [sha256:daf9694a4959]; ccmm:label='Abstract') | ccmm:description (ccmm:iri='https://w3id.org/tib/datacite/property/des'... [sha256:aab519bcd0f3]; ccmm:label='Technical Info') | ccmm:description (ccmm:iri='https://w3id.org/tib/datacite/property/des'... [sha256:aab519bcd0f3]; ccmm:label='Technical Info') | ccmm:description (ccmm:iri='https://w3id.org/tib/datacite/property/des'... [sha256:68cd721b3284]; ccmm:label='Methods') | ccmm:description (ccmm:iri='https://w3id.org/tib/datacite/property/des'... [sha256:68cd721b3284]; ccmm:label='Methods')
-  round-trip: ccmm:description (ccmm:iri='https://w3id.org/tib/datacite/property/des'... [sha256:daf9694a4959]; ccmm:label='Abstrakt') | ccmm:description (ccmm:iri='https://w3id.org/tib/datacite/property/des'... [sha256:68cd721b3284]; ccmm:label='Metodologie') | ccmm:description (ccmm:iri='https://w3id.org/tib/datacite/property/des'... [sha256:68cd721b3284]; ccmm:label='Metodologie') | ccmm:description (ccmm:iri='https://w3id.org/tib/datacite/property/des'... [sha256:daf9694a4959]; ccmm:label='Abstrakt') | ccmm:description (ccmm:iri='https://w3id.org/tib/datacite/property/des'... [sha256:aab519bcd0f3]; ccmm:label='Technická informace') | ccmm:description (ccmm:iri='https://w3id.org/tib/datacite/property/des'... [sha256:aab519bcd0f3]; ccmm:label='Technická informace')
+  original: ccmm:description (ccmm:iri='https://w3id.org/tib/datacite/vocab/descri'... [sha256:8e9cd9775acf]; ccmm:label='Abstract') | ccmm:description (ccmm:iri='https://w3id.org/tib/datacite/vocab/descri'... [sha256:8e9cd9775acf]; ccmm:label='Abstract') | ccmm:description (ccmm:iri='https://w3id.org/tib/datacite/vocab/descri'... [sha256:b38df3f2b2ac]; ccmm:label='TechnicalInfo') | ccmm:description (ccmm:iri='https://w3id.org/tib/datacite/vocab/descri'... [sha256:b38df3f2b2ac]; ccmm:label='TechnicalInfo') | ccmm:description (ccmm:iri='https://w3id.org/tib/datacite/vocab/descri'... [sha256:d1f790653af6]; ccmm:label='Methods') | ccmm:description (ccmm:iri='https://w3id.org/tib/datacite/vocab/descri'... [sha256:d1f790653af6]; ccmm:label='Methods')
+  round-trip: ccmm:description (ccmm:iri='https://w3id.org/tib/datacite/vocab/descri'... [sha256:8e9cd9775acf]; ccmm:label='Abstrakt') | ccmm:description (ccmm:iri='https://w3id.org/tib/datacite/vocab/descri'... [sha256:b38df3f2b2ac]; ccmm:label='Technická informace') | ccmm:description (ccmm:iri='https://w3id.org/tib/datacite/vocab/descri'... [sha256:b38df3f2b2ac]; ccmm:label='Technická informace') | ccmm:description (ccmm:iri='https://w3id.org/tib/datacite/vocab/descri'... [sha256:d1f790653af6]; ccmm:label='Metodologie') | ccmm:description (ccmm:iri='https://w3id.org/tib/datacite/vocab/descri'... [sha256:d1f790653af6]; ccmm:label='Metodologie') | ccmm:description (ccmm:iri='https://w3id.org/tib/datacite/vocab/descri'... [sha256:8e9cd9775acf]; ccmm:label='Abstrakt')
 - /ccmm:dataset/ccmm:description/ccmm:description_type/ccmm:label
   original: ccmm:label @xml:lang='cs' = 'Abstrakt' | ccmm:label @xml:lang='en' = 'Abstract'
   round-trip: ccmm:label @xml:lang='en' = 'Abstract' | ccmm:label @xml:lang='cs' = 'Abstrakt'
@@ -43,11 +32,11 @@ Repeated elements with changed order:
   original: ccmm:label @xml:lang='cs' = 'Abstrakt' | ccmm:label @xml:lang='en' = 'Abstract'
   round-trip: ccmm:label @xml:lang='en' = 'Abstract' | ccmm:label @xml:lang='cs' = 'Abstrakt'
 - /ccmm:dataset/ccmm:description/ccmm:description_type/ccmm:label
-  original: ccmm:label @xml:lang='cs' = 'Technická informace' | ccmm:label @xml:lang='en' = 'Technical Info'
-  round-trip: ccmm:label @xml:lang='en' = 'Technical Info' | ccmm:label @xml:lang='cs' = 'Technická informace'
+  original: ccmm:label @xml:lang='cs' = 'Technická informace' | ccmm:label @xml:lang='en' = 'TechnicalInfo'
+  round-trip: ccmm:label @xml:lang='en' = 'TechnicalInfo' | ccmm:label @xml:lang='cs' = 'Technická informace'
 - /ccmm:dataset/ccmm:description/ccmm:description_type/ccmm:label
-  original: ccmm:label @xml:lang='cs' = 'Technická informace' | ccmm:label @xml:lang='en' = 'Technical Info'
-  round-trip: ccmm:label @xml:lang='en' = 'Technical Info' | ccmm:label @xml:lang='cs' = 'Technická informace'
+  original: ccmm:label @xml:lang='cs' = 'Technická informace' | ccmm:label @xml:lang='en' = 'TechnicalInfo'
+  round-trip: ccmm:label @xml:lang='en' = 'TechnicalInfo' | ccmm:label @xml:lang='cs' = 'Technická informace'
 - /ccmm:dataset/ccmm:description/ccmm:description_type/ccmm:label
   original: ccmm:label @xml:lang='cs' = 'Metodologie' | ccmm:label @xml:lang='en' = 'Methods'
   round-trip: ccmm:label @xml:lang='en' = 'Methods' | ccmm:label @xml:lang='cs' = 'Metodologie'
@@ -102,9 +91,15 @@ Repeated elements with changed order:
 - /ccmm:dataset/ccmm:subject/ccmm:subject_scheme/ccmm:label
   original: ccmm:label @xml:lang='en' = 'OECD FORD Subject Category (Frascati)' | ccmm:label @xml:lang='cs' = 'Oborové třídění OECD FORD (Frascati)'
   round-trip: ccmm:label @xml:lang='cs' = 'Oborové třídění OECD FORD (Frascati)' | ccmm:label @xml:lang='en' = 'OECD FORD Subject Category (Frascati)'
+- /ccmm:dataset/ccmm:subject/ccmm:label
+  original: ccmm:label @xml:lang='cs' = 'Imunologie' | ccmm:label @xml:lang='en' = 'Immunology'
+  round-trip: ccmm:label @xml:lang='en' = 'Immunology' | ccmm:label @xml:lang='cs' = 'Imunologie'
 - /ccmm:dataset/ccmm:subject/ccmm:subject_scheme/ccmm:label
   original: ccmm:label @xml:lang='en' = 'OECD FORD Subject Category (Frascati)' | ccmm:label @xml:lang='cs' = 'Oborové třídění OECD FORD (Frascati)'
   round-trip: ccmm:label @xml:lang='cs' = 'Oborové třídění OECD FORD (Frascati)' | ccmm:label @xml:lang='en' = 'OECD FORD Subject Category (Frascati)'
 - /ccmm:dataset/ccmm:time_reference
   original: ccmm:time_reference (ccmm:iri='https://w3id.org/tib/datacite/vocab/dateTy'... [sha256:b22c60f2c3e7]; ccmm:label='Datum vydání') | ccmm:time_reference (ccmm:iri='https://w3id.org/tib/datacite/vocab/dateTy'... [sha256:3dc50db763d7]; ccmm:label='Datum vytvoření') | ccmm:time_reference (ccmm:iri='https://w3id.org/tib/datacite/vocab/dateTy'... [sha256:20119cafa4d8]; ccmm:label='Datum sběru') | ccmm:time_reference (ccmm:iri='https://w3id.org/tib/datacite/vocab/dateTy'... [sha256:0783c86cb890]; ccmm:label='Datum zveřejnění')
-  round-trip: ccmm:time_reference (ccmm:iri='https://w3id.org/tib/datacite/vocab/dateTy'... [sha256:0783c86cb890]; ccmm:label='Datum zveřejnění') | ccmm:time_reference (ccmm:iri='https://w3id.org/tib/datacite/vocab/dateTy'... [sha256:3dc50db763d7]; ccmm:label='Datum vytvoření') | ccmm:time_reference (ccmm:iri='https://w3id.org/tib/datacite/vocab/dateTy'... [sha256:b22c60f2c3e7]; ccmm:label='Datum vydání') | ccmm:time_reference (ccmm:iri='https://w3id.org/tib/datacite/vocab/dateTy'... [sha256:20119cafa4d8]; ccmm:label='Datum sběru')
+  round-trip: ccmm:time_reference (ccmm:iri='https://w3id.org/tib/datacite/vocab/dateTy'... [sha256:0783c86cb890]; ccmm:label='Datum zveřejnění') | ccmm:time_reference (ccmm:iri='https://w3id.org/tib/datacite/vocab/dateTy'... [sha256:3dc50db763d7]; ccmm:label='Datum vytvoření') | ccmm:time_reference (ccmm:iri='https://w3id.org/tib/datacite/vocab/dateTy'... [sha256:b22c60f2c3e7]; ccmm:label='Issued') | ccmm:time_reference (ccmm:iri='https://w3id.org/tib/datacite/vocab/dateTy'... [sha256:20119cafa4d8]; ccmm:label='Datum sběru')
+- /ccmm:dataset/ccmm:time_reference/ccmm:date_type/ccmm:label
+  original: ccmm:label @xml:lang='en' = 'Issued' | ccmm:label @xml:lang='cs' = 'Datum vydání'
+  round-trip: ccmm:label @xml:lang='cs' = 'Datum vydání' | ccmm:label @xml:lang='en' = 'Issued'
