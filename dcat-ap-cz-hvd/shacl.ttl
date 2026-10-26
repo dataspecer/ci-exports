@@ -1,6 +1,7 @@
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
 @prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
 
 <https://ofn.gov.cz/dcat-ap-cz-hvd#> rdfs:member <https://ofn.gov.cz/dcat-ap-cz-hvd#dcat:DatasetShape>, <https://ofn.gov.cz/dcat-ap-cz-hvd#dcat:DataServiceShape>, <https://ofn.gov.cz/dcat-ap-cz-hvd#dcat:DatasetSeriesShape>, <https://ofn.gov.cz/dcat-ap-cz-hvd#dcat:DistributionShape>, <https://ofn.gov.cz/dcat-ap-cz-hvd#vcard:KindShape>, <https://ofn.gov.cz/dcat-ap-cz-hvd#dcterms:PeriodOfTimeShape>, <https://ofn.gov.cz/dcat-ap-cz-hvd#dcterms:MediaTypeOrExtentShape>, <https://ofn.gov.cz/dcat-ap-cz-hvd#dcterms:MediaTypeShape>, <https://ofn.gov.cz/dcat-ap-cz-hvd#dcterms:LocationShape>, <https://ofn.gov.cz/dcat-ap-cz-hvd#dcterms:FrequencyShape>, <https://ofn.gov.cz/dcat-ap-cz-hvd#skos:ConceptShape>, <https://ofn.gov.cz/dcat-ap-cz-hvd#eli:LegalResourceShape>, <https://ofn.gov.cz/dcat-ap-cz-hvd#foaf:AgentShape>, <https://ofn.gov.cz/dcat-ap-cz-hvd#rdfs:ResourceShape>, <https://ofn.gov.cz/dcat-ap-cz-hvd#dcterms:StandardShape>, <https://ofn.gov.cz/dcat-ap-cz-hvd#podmínky-užití:SpecifikaceShape>, <https://ofn.gov.cz/dcat-ap-cz-hvd#dcterms:LicenseDocumentShape>, <https://ofn.gov.cz/dcat-ap-cz-hvd#foaf:DocumentShape>, <https://ofn.gov.cz/dcat-ap-cz-hvd#vcard:IndividualShape>, <https://ofn.gov.cz/dcat-ap-cz-hvd#vcard:OrganizationShape>.
@@ -47,7 +48,7 @@
     sh:nodeKind sh:BlankNodeOrIRI;
     sh:path <http://data.europa.eu/r5r/hvdCategory>;
     sh:minCount 1;
-    sh:class <http://www.w3.org/2004/02/skos/core#Concept>.
+    sh:class skos:Concept.
 
 <https://ofn.gov.cz/dcat-ap-cz-hvd#dcat:DatasetShape> sh:property <https://ofn.gov.cz/dcat-ap-cz-hvd#dcat:DatasetShape/-6eb4e6a2>.
 
@@ -94,7 +95,7 @@
     sh:nodeKind sh:BlankNodeOrIRI;
     sh:path <http://data.europa.eu/r5r/hvdCategory>;
     sh:minCount 1;
-    sh:class <http://www.w3.org/2004/02/skos/core#Concept>.
+    sh:class skos:Concept.
 
 <https://ofn.gov.cz/dcat-ap-cz-hvd#dcat:DataServiceShape> sh:property <https://ofn.gov.cz/dcat-ap-cz-hvd#dcat:DataServiceShape/a3e37d4>.
 
@@ -125,7 +126,7 @@
     sh:nodeKind sh:BlankNodeOrIRI;
     sh:path <http://data.europa.eu/r5r/hvdCategory>;
     sh:minCount 1;
-    sh:class <http://www.w3.org/2004/02/skos/core#Concept>.
+    sh:class skos:Concept.
 
 <https://ofn.gov.cz/dcat-ap-cz-hvd#dcat:DatasetSeriesShape> sh:property <https://ofn.gov.cz/dcat-ap-cz-hvd#dcat:DatasetSeriesShape/-540354f6>.
 
@@ -211,7 +212,7 @@
 <https://ofn.gov.cz/dcat-ap-cz-hvd#skos:ConceptShape> a sh:NodeShape;
     rdfs:seeAlso <https://ofn.gov.cz/dcat-ap-cz-hvd#Koncept>;
     sh:closed false;
-    sh:targetClass <http://www.w3.org/2004/02/skos/core#Concept>;
+    sh:targetClass skos:Concept;
     rdfs:seeAlso <https://ofn.gov.cz/dcat-ap-cz-hvd#DatovéTéma>, <https://ofn.gov.cz/dcat-ap-cz-hvd#TémaEuroVoc>.
 
 <https://ofn.gov.cz/dcat-ap-cz-hvd#eli:LegalResourceShape> a sh:NodeShape;

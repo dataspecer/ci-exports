@@ -3,7 +3,7 @@ XSD generator does not support text data type with cardinality more than 1. You 
 XSD generator does not support text data type with cardinality more than 1. You can use a language string instead.
 XSD generator does not support text data type with cardinality more than 1. You can use a language string instead.
 Missing entity for identifier "http://www.opengis.net/ont/sf#Envelope".
-The top profile should be among all profiles.
+Missing entity for identifier "http://www.opengis.net/ont/sf#Envelope".
 Missing entity for identifier "http://www.opengis.net/ont/sf#Envelope".
 Missing entity for identifier "http://www.opengis.net/ont/sf#Envelope".
 XSD generator does not support text data type with cardinality more than 1. You can use a language string instead.

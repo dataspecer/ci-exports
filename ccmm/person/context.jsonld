@@ -14,7 +14,6 @@
         },
         "scheme": {
           "@id": "https://model.ccmm.cz/vocabulary/ccmm#inScheme",
-          "@type": "@id",
           "@context": {
             "label": {
               "@id": "http://www.w3.org/2000/01/rdf-schema#label",
@@ -142,7 +141,6 @@
             },
             "scheme": {
               "@id": "https://model.ccmm.cz/vocabulary/ccmm#inScheme",
-              "@type": "@id",
               "@context": {
                 "label": {
                   "@id": "http://www.w3.org/2000/01/rdf-schema#label",

@@ -19,7 +19,6 @@
       },
       "subject_scheme": {
         "@id": "https://model.ccmm.cz/vocabulary/ccmm#inSubjectScheme",
-        "@type": "@id",
         "@context": {
           "label": {
             "@id": "http://www.w3.org/2000/01/rdf-schema#label",

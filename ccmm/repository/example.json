@@ -19,7 +19,6 @@
         "@context": {
           "attributed_agent": {
             "@id": "http://www.w3.org/ns/prov#agent",
-            "@type": "@id",
             "@context": {
               "identifier": {
                 "@id": "http://www.w3.org/ns/adms#identifier",
@@ -31,7 +30,6 @@
                   },
                   "scheme": {
                     "@id": "https://model.ccmm.cz/vocabulary/ccmm#inScheme",
-                    "@type": "@id",
                     "@context": {
                       "label": {
                         "@id": "http://www.w3.org/2000/01/rdf-schema#label",
@@ -163,7 +161,6 @@
                       },
                       "scheme": {
                         "@id": "https://model.ccmm.cz/vocabulary/ccmm#inScheme",
-                        "@type": "@id",
                         "@context": {
                           "label": {
                             "@id": "http://www.w3.org/2000/01/rdf-schema#label",
@@ -291,7 +288,6 @@
           },
           "role": {
             "@id": "http://www.w3.org/ns/dcat#hadRole",
-            "@type": "@id",
             "@context": {
               "label": {
                 "@id": "http://www.w3.org/2004/02/skos/core#prefLabel",

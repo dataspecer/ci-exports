@@ -4,47 +4,7 @@
 @prefix kv: <https://dataspecer.com/work-in-progress/generator-configuration/key-value/>.
 
 <https://ofn.gov.cz/dcat-ap-cz-rozhraní-katalogů-dat/generator-configuration#> a dsvgc:configuration;
-    dsvgc:has-configurations :id, :type, :data-specification, :json, :shacl-v2.
-:id a <https://dataspecer.com/work-in-progress/generator-configuration/configuration-entry/>;
-    dsvgc:has-configuration-type ce:id;
-    kv:0 "\"3\"";
-    kv:1 "\"8\"";
-    kv:10 "\"5\"";
-    kv:11 "\"c\"";
-    kv:12 "\"2\"";
-    kv:13 "\"-\"";
-    kv:14 "\"4\"";
-    kv:15 "\"7\"";
-    kv:16 "\"6\"";
-    kv:17 "\"1\"";
-    kv:18 "\"-\"";
-    kv:19 "\"b\"";
-    kv:2 "\"a\"";
-    kv:20 "\"8\"";
-    kv:21 "\"e\"";
-    kv:22 "\"e\"";
-    kv:23 "\"-\"";
-    kv:24 "\"5\"";
-    kv:25 "\"6\"";
-    kv:26 "\"a\"";
-    kv:27 "\"3\"";
-    kv:28 "\"8\"";
-    kv:29 "\"2\"";
-    kv:3 "\"1\"";
-    kv:30 "\"f\"";
-    kv:31 "\"d\"";
-    kv:32 "\"e\"";
-    kv:33 "\"3\"";
-    kv:34 "\"9\"";
-    kv:35 "\"e\"";
-    kv:4 "\"d\"";
-    kv:5 "\"1\"";
-    kv:6 "\"4\"";
-    kv:7 "\"4\"";
-    kv:8 "\"-\"";
-    kv:9 "\"1\"".
-:type a <https://dataspecer.com/work-in-progress/generator-configuration/configuration-entry/>;
-    dsvgc:has-configuration-type ce:type.
+    dsvgc:has-configurations :data-specification, :json, :shacl-v2.
 :data-specification a <https://dataspecer.com/work-in-progress/generator-configuration/configuration-entry/>;
     dsvgc:has-configuration-type ce:data-specification;
     kv:publicBaseUrl "\"https://ofn.gov.cz/dcat-ap-cz-rozhraní-katalogů-dat/2026-09-23/\"";

@@ -1,6 +1,7 @@
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
 @prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
 
 <https://ofn.gov.cz/dcat-ap-cz-rozhraní-katalogů-dat#> rdfs:member <https://ofn.gov.cz/dcat-ap-cz-rozhraní-katalogů-dat#dcat:CatalogShape>, <https://ofn.gov.cz/dcat-ap-cz-rozhraní-katalogů-dat#dcat:DatasetShape>, <https://ofn.gov.cz/dcat-ap-cz-rozhraní-katalogů-dat#foaf:AgentShape>, <https://ofn.gov.cz/dcat-ap-cz-rozhraní-katalogů-dat#foaf:DocumentShape>, <https://ofn.gov.cz/dcat-ap-cz-rozhraní-katalogů-dat#rdfs:ResourceShape>, <https://ofn.gov.cz/dcat-ap-cz-rozhraní-katalogů-dat#vcard:OrganizationShape>, <https://ofn.gov.cz/dcat-ap-cz-rozhraní-katalogů-dat#dcat:DatasetSeriesShape>.

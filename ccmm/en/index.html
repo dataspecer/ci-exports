@@ -48,13 +48,6 @@
               }
             },
             {
-              "@id": "https://mff-uk.github.io/specifications/dcat-ap#",
-              "title": {},
-              "hasResource": {
-                "hasArtifact": "https://mff-uk.github.io/specifications/dcat-ap/"
-              }
-            },
-            {
               "title": {
                 "en": "Core Location Vocabulary 2.1.0"
               },
@@ -71,20 +64,6 @@
               }
             },
             {
-              "@id": "https://model.ccmm.cz/vocabulary/ccmm#",
-              "title": {},
-              "hasResource": {
-                "hasArtifact": "https://techlib.github.io/CCMM-V/en/"
-              }
-            },
-            {
-              "@id": "https://model.ccmm.cz/vocabulary/datacite#",
-              "title": {},
-              "hasResource": {
-                "hasArtifact": "https://michalmed.github.io/DataCite/en/"
-              }
-            },
-            {
               "title": {
                 "en": "vCard Ontology"
               },
@@ -98,6 +77,27 @@
               },
               "hasResource": {
                 "hasArtifact": "https://www.w3.org/ns/org.ttl"
+              }
+            },
+            {
+              "@id": "https://mff-uk.github.io/specifications/dcat-ap#",
+              "title": {},
+              "hasResource": {
+                "hasArtifact": "https://mff-uk.github.io/specifications/dcat-ap/"
+              }
+            },
+            {
+              "@id": "https://model.ccmm.cz/vocabulary/ccmm#",
+              "title": {},
+              "hasResource": {
+                "hasArtifact": "https://techlib.github.io/CCMM-V/en/"
+              }
+            },
+            {
+              "@id": "https://model.ccmm.cz/vocabulary/datacite#",
+              "title": {},
+              "hasResource": {
+                "hasArtifact": "https://michalmed.github.io/DataCite/en/"
               }
             }
           ],
@@ -124,6 +124,16 @@
               "hasRole": "role:constraints",
               "format": "filetype:RDF_TURTLE",
               "conformsTo": "https://www.w3.org/TR/shacl/"
+            },
+            {
+              "@type": [
+                "adms:AssetDistribution",
+                "prof:ResourceDescriptor"
+              ],
+              "hasArtifact": "../dsv.ldes.ttl",
+              "hasRole": "role:specification",
+              "format": "filetype:RDF_TURTLE",
+              "conformsTo": "https://w3id.org/ldes/specification"
             },
             {
               "@type": [
@@ -1873,6 +1883,31 @@
       table.simple td {
         border-top: 1px solid #ddd;
         padding: 3px 10px;
+      }
+    
+      /* An IRI has no spaces to break at, so it may wrap anywhere instead of widening the table. */
+      table.def.cv-list .cv-iri {
+        overflow-wrap: anywhere;
+      }
+    
+      /* ReSpec shows the header row of a definition table as an italic body row, so it is marked out as a header. */
+      table.def.cv-table thead th {
+        font-style: normal;
+        font-weight: bold;
+        background: color-mix(in srgb, currentColor 8%, transparent);
+        border-bottom: 2px solid color-mix(in srgb, currentColor 35%, transparent);
+      }
+    
+      table.def.cv-list .cv-center {
+        text-align: center;
+      }
+    
+      a.cv-link + a.cv-link {
+        margin-left: 0.5em;
+      }
+    
+      .cv-icon {
+        vertical-align: -0.2em;
       }
     </style>  </head>
   <body>
@@ -130786,6 +130821,10 @@ ones. The main entities describe repository, dataset, its metadata and distribut
             <tr>
               <td>Description of structure model</td>
               <td><a href="../checksum/structure.ttl">../checksum/structure.ttl</a></td>
+            </tr>
+            <tr>
+              <td>List of changes in LDES format</td>
+              <td><a href="../dsv.ldes.ttl">../dsv.ldes.ttl</a></td>
             </tr>
             <tr><td>JSON schema</td><td><a href="../distribution-downloadable-file/schema.json">../distribution-downloadable-file/schema.json</a></td></tr>
             <tr><td>JSON example</td><td><a href="../distribution-downloadable-file/example.json">../distribution-downloadable-file/example.json</a></td></tr>

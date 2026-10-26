@@ -37,7 +37,6 @@
     },
     "inSpecificationOf": {
       "@reverse": "prof:hasResource",
-      "@type": "@id",
       "@context": {
         "title": {
           "@id": "http://purl.org/dc/terms/title",

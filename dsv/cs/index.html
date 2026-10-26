@@ -32,49 +32,37 @@
           },
           "isProfileOf": [
             {
-              "title": {
-                "en": "prof"
-              },
+              "title": {},
               "hasResource": {
                 "hasArtifact": "https://www.w3.org/TR/dx-prof/rdf/prof.ttl"
               }
             },
             {
-              "title": {
-                "en": "skos"
-              },
+              "title": {},
               "hasResource": {
                 "hasArtifact": "https://datagov-cz.github.io/cache-slovniku/skos.rdf"
               }
             },
             {
-              "title": {
-                "en": "rdf"
-              },
+              "title": {},
               "hasResource": {
                 "hasArtifact": "https://datagov-cz.github.io/cache-slovniku/rdf.ttl"
               }
             },
             {
-              "title": {
-                "en": "owl"
-              },
+              "title": {},
               "hasResource": {
                 "hasArtifact": "https://www.w3.org/2002/07/owl#"
               }
             },
             {
-              "title": {
-                "en": "rdfs"
-              },
+              "title": {},
               "hasResource": {
                 "hasArtifact": "https://datagov-cz.github.io/cache-slovniku/rdfs.ttl"
               }
             },
             {
-              "title": {
-                "en": "dcterms"
-              },
+              "title": {},
               "hasResource": {
                 "hasArtifact": "https://datagov-cz.github.io/cache-slovniku/dublin_core_terms.ttl"
               }
@@ -93,6 +81,16 @@
                 "http://www.w3.org/2000/01/rdf-schema#",
                 "http://www.w3.org/2002/07/owl"
               ]
+            },
+            {
+              "@type": [
+                "adms:AssetDistribution",
+                "prof:ResourceDescriptor"
+              ],
+              "hasArtifact": "../model.owl.ldes.ttl",
+              "hasRole": "role:specification",
+              "format": "filetype:RDF_TURTLE",
+              "conformsTo": "https://w3id.org/ldes/specification"
             },
             {
               "@type": [
@@ -271,6 +269,31 @@
       table.simple td {
         border-top: 1px solid #ddd;
         padding: 3px 10px;
+      }
+    
+      /* An IRI has no spaces to break at, so it may wrap anywhere instead of widening the table. */
+      table.def.cv-list .cv-iri {
+        overflow-wrap: anywhere;
+      }
+    
+      /* ReSpec shows the header row of a definition table as an italic body row, so it is marked out as a header. */
+      table.def.cv-table thead th {
+        font-style: normal;
+        font-weight: bold;
+        background: color-mix(in srgb, currentColor 8%, transparent);
+        border-bottom: 2px solid color-mix(in srgb, currentColor 35%, transparent);
+      }
+    
+      table.def.cv-list .cv-center {
+        text-align: center;
+      }
+    
+      a.cv-link + a.cv-link {
+        margin-left: 0.5em;
+      }
+    
+      .cv-icon {
+        vertical-align: -0.2em;
       }
     </style>  </head>
   <body>
@@ -1061,6 +1084,7 @@
         </tbody>
       </table>
     </section>
+
     <section id="přílohy">
       <h2>Přílohy</h2>
         <p>Součástí této specifikace jsou následující přílohy.</p>
@@ -1075,6 +1099,10 @@
             <tr>
               <td>Slovník</td>
               <td><a href="../model.owl.ttl">../model.owl.ttl</a></td>
+            </tr>
+            <tr>
+              <td>Serializace změn v LDES formátu</td>
+              <td><a href="../model.owl.ldes.ttl">../model.owl.ldes.ttl</a></td>
             </tr>
             <tr><td>Dokumentace</td><td><a href="">#</a></td></tr>
         </tbody>
