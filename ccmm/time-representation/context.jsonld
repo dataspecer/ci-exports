@@ -6,7 +6,6 @@
     "type": "@type",
     "beginning": {
       "@id": "http://www.w3.org/2006/time#hasBeginning",
-      "@type": "@id",
       "@context": {
         "date_time": {
           "@id": "http://www.w3.org/2006/time#inXSDDateTime",
@@ -24,7 +23,6 @@
     },
     "end": {
       "@id": "http://www.w3.org/2006/time#hasEnd",
-      "@type": "@id",
       "@context": {
         "date_time": {
           "@id": "http://www.w3.org/2006/time#inXSDDateTime",

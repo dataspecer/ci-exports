@@ -81,7 +81,7 @@
                   "properties": {
                     "identifier": {
                       "title": "has identifier",
-                      "description": "A secondary identifier of the Dataset",
+                      "description": "A secondary identifier of the Dataset.",
                       "type": "array",
                       "items": {
                         "title": "Identifier",
@@ -104,7 +104,7 @@
                             "properties": {
                               "label": {
                                 "title": "label",
-                                "description": "Identifier scheme label",
+                                "description": "Identifier scheme label.",
                                 "type": "array",
                                 "items": {
                                   "title": "Language tagged string",
@@ -124,6 +124,15 @@
                                     }
                                   }
                                 }
+                              },
+                              "notation": {
+                                "title": "notation",
+                                "description": "Notation of the identifier scheme.",
+                                "type": "array",
+                                "items": {
+                                  "title": "String",
+                                  "type": "string"
+                                }
                               }
                             }
                           },
@@ -142,6 +151,7 @@
                     },
                     "alternate_title": {
                       "title": "has alternate title",
+                      "description": "References to the alternate title of the resource.",
                       "type": "array",
                       "items": {
                         "title": "Alternate title",
@@ -215,7 +225,7 @@
                     },
                     "qualified_attribution": {
                       "title": "qualified attribution",
-                      "description": "An Agent having some form of responsibility for the resource. ",
+                      "description": "A link to a description of a relationship between resource and an agent with the specification of the role of agent in this relationship.",
                       "type": "array",
                       "items": {
                         "title": "Resource attribution",
@@ -240,7 +250,7 @@
                                 "properties": {
                                   "identifier": {
                                     "title": "has identifier",
-                                    "description": "has identifier",
+                                    "description": "Identifier of an Agent.",
                                     "type": "array",
                                     "items": {
                                       "title": "Identifier",
@@ -263,7 +273,7 @@
                                           "properties": {
                                             "label": {
                                               "title": "label",
-                                              "description": "Identifier scheme label",
+                                              "description": "Identifier scheme label.",
                                               "type": "array",
                                               "items": {
                                                 "title": "Language tagged string",
@@ -283,6 +293,15 @@
                                                   }
                                                 }
                                               }
+                                            },
+                                            "notation": {
+                                              "title": "notation",
+                                              "description": "Notation of the identifier scheme.",
+                                              "type": "array",
+                                              "items": {
+                                                "title": "String",
+                                                "type": "string"
+                                              }
                                             }
                                           }
                                         },
@@ -301,7 +320,7 @@
                                   },
                                   "alternate_name": {
                                     "title": "alternate name",
-                                    "description": "To specify the organizational name associated with the object",
+                                    "description": "An alternate organizational name associated with the object.",
                                     "type": "array",
                                     "items": {
                                       "title": "Text",
@@ -498,7 +517,7 @@
                                 "properties": {
                                   "identifier": {
                                     "title": "has identifier",
-                                    "description": "has identifier",
+                                    "description": "Identifier of an Agent.",
                                     "type": "array",
                                     "items": {
                                       "title": "Identifier",
@@ -521,7 +540,7 @@
                                           "properties": {
                                             "label": {
                                               "title": "label",
-                                              "description": "Identifier scheme label",
+                                              "description": "Identifier scheme label.",
                                               "type": "array",
                                               "items": {
                                                 "title": "Language tagged string",
@@ -540,6 +559,15 @@
                                                     "type": "string"
                                                   }
                                                 }
+                                              }
+                                            },
+                                            "notation": {
+                                              "title": "notation",
+                                              "description": "Notation of the identifier scheme.",
+                                              "type": "array",
+                                              "items": {
+                                                "title": "String",
+                                                "type": "string"
                                               }
                                             }
                                           }
@@ -753,7 +781,7 @@
                                       "properties": {
                                         "identifier": {
                                           "title": "has identifier",
-                                          "description": "has identifier",
+                                          "description": "Identifier of an Agent.",
                                           "type": "array",
                                           "items": {
                                             "title": "Identifier",
@@ -776,7 +804,7 @@
                                                 "properties": {
                                                   "label": {
                                                     "title": "label",
-                                                    "description": "Identifier scheme label",
+                                                    "description": "Identifier scheme label.",
                                                     "type": "array",
                                                     "items": {
                                                       "title": "Language tagged string",
@@ -796,6 +824,15 @@
                                                         }
                                                       }
                                                     }
+                                                  },
+                                                  "notation": {
+                                                    "title": "notation",
+                                                    "description": "Notation of the identifier scheme.",
+                                                    "type": "array",
+                                                    "items": {
+                                                      "title": "String",
+                                                      "type": "string"
+                                                    }
                                                   }
                                                 }
                                               },
@@ -814,7 +851,7 @@
                                         },
                                         "alternate_name": {
                                           "title": "alternate name",
-                                          "description": "To specify the organizational name associated with the object",
+                                          "description": "An alternate organizational name associated with the object.",
                                           "type": "array",
                                           "items": {
                                             "title": "Text",
@@ -1053,6 +1090,7 @@
                         "properties": {
                           "temporal_representation": {
                             "title": "has temporal representation",
+                            "description": "Represents the representation of a temporal entity (instant or interval).",
                             "anyOf": [
                               {
                                 "title": "Time interval",
@@ -1168,7 +1206,7 @@
                           },
                           "date_type": {
                             "title": "has date type",
-                            "description": "Reference to the codelist of date types.",
+                            "description": "Reference to the code list of date types.",
                             "type": "object",
                             "required": [
                               "label"
@@ -1384,32 +1422,27 @@
         "rights": {
           "title": "has rights",
           "description": "A statement that specifies rights associated with the Distribution.",
-          "type": "array",
-          "items": {
-            "title": "Access rights",
-            "description": "A statement about the access rights to the resource.",
-            "type": "object",
-            "required": [
-              "label"
-            ],
-            "properties": {
-              "label": {
-                "title": "label",
-                "description": "A human-readable name for the subject.",
-                "type": "object",
-                "additionalProperties": {
-                  "title": "Hodnota v jiném jazyce",
+          "type": "object",
+          "required": [
+            "label"
+          ],
+          "properties": {
+            "label": {
+              "title": "label",
+              "description": "A human-readable name for the subject.",
+              "type": "object",
+              "additionalProperties": {
+                "title": "Hodnota v jiném jazyce",
+                "type": "string"
+              },
+              "properties": {
+                "cs": {
+                  "title": "Hodnota v českém jazyce",
                   "type": "string"
                 },
-                "properties": {
-                  "cs": {
-                    "title": "Hodnota v českém jazyce",
-                    "type": "string"
-                  },
-                  "en": {
-                    "title": "Hodnota v anglickém jazyce",
-                    "type": "string"
-                  }
+                "en": {
+                  "title": "Hodnota v anglickém jazyce",
+                  "type": "string"
                 }
               }
             }
@@ -1742,32 +1775,27 @@
         "rights": {
           "title": "has rights",
           "description": "A statement that specifies rights associated with the Distribution.",
-          "type": "array",
-          "items": {
-            "title": "Access rights",
-            "description": "A statement about the access rights to the resource.",
-            "type": "object",
-            "required": [
-              "label"
-            ],
-            "properties": {
-              "label": {
-                "title": "label",
-                "description": "A human-readable name for the subject.",
-                "type": "object",
-                "additionalProperties": {
-                  "title": "Hodnota v jiném jazyce",
+          "type": "object",
+          "required": [
+            "label"
+          ],
+          "properties": {
+            "label": {
+              "title": "label",
+              "description": "A human-readable name for the subject.",
+              "type": "object",
+              "additionalProperties": {
+                "title": "Hodnota v jiném jazyce",
+                "type": "string"
+              },
+              "properties": {
+                "cs": {
+                  "title": "Hodnota v českém jazyce",
                   "type": "string"
                 },
-                "properties": {
-                  "cs": {
-                    "title": "Hodnota v českém jazyce",
-                    "type": "string"
-                  },
-                  "en": {
-                    "title": "Hodnota v anglickém jazyce",
-                    "type": "string"
-                  }
+                "en": {
+                  "title": "Hodnota v anglickém jazyce",
+                  "type": "string"
                 }
               }
             }

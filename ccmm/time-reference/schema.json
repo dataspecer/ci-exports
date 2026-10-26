@@ -31,6 +31,7 @@
     },
     "temporal_representation": {
       "title": "has temporal representation",
+      "description": "Represents the representation of a temporal entity (instant or interval).",
       "anyOf": [
         {
           "title": "Time interval",
@@ -146,7 +147,7 @@
     },
     "date_type": {
       "title": "has date type",
-      "description": "Reference to the codelist of date types.",
+      "description": "Reference to the code list of date types.",
       "type": "object",
       "required": [
         "label"

@@ -7,11 +7,9 @@
       "type": "@type",
       "temporal_representation": {
         "@id": "http://www.w3.org/2006/time#hasTime",
-        "@type": "@id",
         "@context": {
           "beginning": {
             "@id": "http://www.w3.org/2006/time#hasBeginning",
-            "@type": "@id",
             "@context": {
               "date_time": {
                 "@id": "http://www.w3.org/2006/time#inXSDDateTime",
@@ -29,7 +27,6 @@
           },
           "end": {
             "@id": "http://www.w3.org/2006/time#hasEnd",
-            "@type": "@id",
             "@context": {
               "date_time": {
                 "@id": "http://www.w3.org/2006/time#inXSDDateTime",
@@ -65,7 +62,6 @@
       },
       "date_type": {
         "@id": "https://model.ccmm.cz/vocabulary/ccmm#hasType",
-        "@type": "@id",
         "@context": {
           "label": {
             "@id": "http://www.w3.org/2004/02/skos/core#prefLabel",

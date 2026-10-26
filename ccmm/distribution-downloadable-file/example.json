@@ -44,7 +44,6 @@
       },
       "format": {
         "@id": "http://purl.org/dc/terms/format",
-        "@type": "@id",
         "@context": {
           "label": {
             "@id": "http://www.w3.org/2004/02/skos/core#prefLabel",
@@ -58,7 +57,6 @@
       },
       "media_type": {
         "@id": "http://www.w3.org/ns/dcat#mediaType",
-        "@type": "@id",
         "@context": {
           "label": {
             "@id": "http://www.w3.org/2004/02/skos/core#prefLabel",
@@ -72,7 +70,6 @@
       },
       "packaging_format": {
         "@id": "http://www.w3.org/ns/dcat#packageFormat",
-        "@type": "@id",
         "@context": {
           "label": {
             "@id": "http://www.w3.org/2004/02/skos/core#prefLabel",
@@ -86,7 +83,6 @@
       },
       "compression_format": {
         "@id": "http://www.w3.org/ns/dcat#compressFormat",
-        "@type": "@id",
         "@context": {
           "label": {
             "@id": "http://www.w3.org/2004/02/skos/core#prefLabel",
@@ -104,7 +100,6 @@
       },
       "checksum": {
         "@id": "http://spdx.org/rdf/terms#checksum",
-        "@type": "@id",
         "@context": {
           "checksum_value": {
             "@id": "http://spdx.org/rdf/terms#checksumValue",
@@ -112,7 +107,6 @@
           },
           "algorithm": {
             "@id": "http://spdx.org/rdf/terms#algorithm",
-            "@type": "@id",
             "@context": {
               "label": {
                 "@id": "http://www.w3.org/2000/01/rdf-schema#label",
@@ -132,7 +126,6 @@
       },
       "rights": {
         "@id": "http://purl.org/dc/terms/rights",
-        "@container": "@set",
         "@context": {
           "label": {
             "@id": "http://www.w3.org/2004/02/skos/core#prefLabel",
@@ -146,7 +139,6 @@
       },
       "licence": {
         "@id": "http://purl.org/dc/terms/license",
-        "@type": "@id",
         "@context": {
           "title": {
             "@id": "http://purl.org/dc/terms/title",

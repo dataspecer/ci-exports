@@ -7,7 +7,6 @@
       "type": "@type",
       "attributed_agent": {
         "@id": "http://www.w3.org/ns/prov#agent",
-        "@type": "@id",
         "@context": {
           "identifier": {
             "@id": "http://www.w3.org/ns/adms#identifier",
@@ -19,11 +18,14 @@
               },
               "scheme": {
                 "@id": "https://model.ccmm.cz/vocabulary/ccmm#inScheme",
-                "@type": "@id",
                 "@context": {
                   "label": {
                     "@id": "http://www.w3.org/2000/01/rdf-schema#label",
                     "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"
+                  },
+                  "notation": {
+                    "@id": "http://www.w3.org/2004/02/skos/core#notation",
+                    "@type": "xsd:string"
                   },
                   "identifier_scheme": {
                     "@id": "https://model.ccmm.cz/vocabulary/ccmm#IdentifierScheme",
@@ -147,11 +149,14 @@
                   },
                   "scheme": {
                     "@id": "https://model.ccmm.cz/vocabulary/ccmm#inScheme",
-                    "@type": "@id",
                     "@context": {
                       "label": {
                         "@id": "http://www.w3.org/2000/01/rdf-schema#label",
                         "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"
+                      },
+                      "notation": {
+                        "@id": "http://www.w3.org/2004/02/skos/core#notation",
+                        "@type": "xsd:string"
                       },
                       "identifier_scheme": {
                         "@id": "https://model.ccmm.cz/vocabulary/ccmm#IdentifierScheme",
@@ -271,7 +276,6 @@
       },
       "role": {
         "@id": "http://www.w3.org/ns/dcat#hadRole",
-        "@type": "@id",
         "@context": {
           "label": {
             "@id": "http://www.w3.org/2004/02/skos/core#prefLabel",

@@ -11,7 +11,6 @@
       },
       "description_type": {
         "@id": "https://w3id.org/tib/datacite/property/descriptionType",
-        "@type": "@id",
         "@context": {
           "label": {
             "@id": "http://www.w3.org/2004/02/skos/core#prefLabel",

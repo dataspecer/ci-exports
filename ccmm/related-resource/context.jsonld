@@ -14,11 +14,14 @@
         },
         "scheme": {
           "@id": "https://model.ccmm.cz/vocabulary/ccmm#inScheme",
-          "@type": "@id",
           "@context": {
             "label": {
               "@id": "http://www.w3.org/2000/01/rdf-schema#label",
               "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"
+            },
+            "notation": {
+              "@id": "http://www.w3.org/2004/02/skos/core#notation",
+              "@type": "xsd:string"
             },
             "identifier_scheme": {
               "@id": "https://model.ccmm.cz/vocabulary/ccmm#IdentifierScheme",
@@ -50,7 +53,6 @@
         },
         "alternate_title_type": {
           "@id": "https://model.ccmm.cz/vocabulary/ccmm#hasType",
-          "@type": "@id",
           "@context": {
             "label": {
               "@id": "http://www.w3.org/2004/02/skos/core#prefLabel",
@@ -78,7 +80,6 @@
       "@context": {
         "attributed_agent": {
           "@id": "http://www.w3.org/ns/prov#agent",
-          "@type": "@id",
           "@context": {
             "identifier": {
               "@id": "http://www.w3.org/ns/adms#identifier",
@@ -90,11 +91,14 @@
                 },
                 "scheme": {
                   "@id": "https://model.ccmm.cz/vocabulary/ccmm#inScheme",
-                  "@type": "@id",
                   "@context": {
                     "label": {
                       "@id": "http://www.w3.org/2000/01/rdf-schema#label",
                       "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"
+                    },
+                    "notation": {
+                      "@id": "http://www.w3.org/2004/02/skos/core#notation",
+                      "@type": "xsd:string"
                     },
                     "identifier_scheme": {
                       "@id": "https://model.ccmm.cz/vocabulary/ccmm#IdentifierScheme",
@@ -218,11 +222,14 @@
                     },
                     "scheme": {
                       "@id": "https://model.ccmm.cz/vocabulary/ccmm#inScheme",
-                      "@type": "@id",
                       "@context": {
                         "label": {
                           "@id": "http://www.w3.org/2000/01/rdf-schema#label",
                           "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"
+                        },
+                        "notation": {
+                          "@id": "http://www.w3.org/2004/02/skos/core#notation",
+                          "@type": "xsd:string"
                         },
                         "identifier_scheme": {
                           "@id": "https://model.ccmm.cz/vocabulary/ccmm#IdentifierScheme",
@@ -342,7 +349,6 @@
         },
         "role": {
           "@id": "http://www.w3.org/ns/dcat#hadRole",
-          "@type": "@id",
           "@context": {
             "label": {
               "@id": "http://www.w3.org/2004/02/skos/core#prefLabel",
@@ -366,11 +372,9 @@
       "@context": {
         "temporal_representation": {
           "@id": "http://www.w3.org/2006/time#hasTime",
-          "@type": "@id",
           "@context": {
             "beginning": {
               "@id": "http://www.w3.org/2006/time#hasBeginning",
-              "@type": "@id",
               "@context": {
                 "date_time": {
                   "@id": "http://www.w3.org/2006/time#inXSDDateTime",
@@ -388,7 +392,6 @@
             },
             "end": {
               "@id": "http://www.w3.org/2006/time#hasEnd",
-              "@type": "@id",
               "@context": {
                 "date_time": {
                   "@id": "http://www.w3.org/2006/time#inXSDDateTime",
@@ -424,7 +427,6 @@
         },
         "date_type": {
           "@id": "https://model.ccmm.cz/vocabulary/ccmm#hasType",
-          "@type": "@id",
           "@context": {
             "label": {
               "@id": "http://www.w3.org/2004/02/skos/core#prefLabel",
@@ -448,7 +450,6 @@
     },
     "resource_type": {
       "@id": "http://purl.org/dc/terms/type",
-      "@type": "@id",
       "@context": {
         "label": {
           "@id": "http://www.w3.org/2004/02/skos/core#prefLabel",
@@ -462,7 +463,6 @@
     },
     "resource_relation_type": {
       "@id": "https://model.ccmm.cz/vocabulary/ccmm#hasType",
-      "@type": "@id",
       "@context": {
         "label": {
           "@id": "http://www.w3.org/2004/02/skos/core#prefLabel",

@@ -12,7 +12,7 @@
       "properties": {
         "identifier": {
           "title": "has identifier",
-          "description": "has identifier",
+          "description": "Identifier of an Agent.",
           "type": "array",
           "items": {
             "title": "Identifier",
@@ -35,7 +35,7 @@
                 "properties": {
                   "label": {
                     "title": "label",
-                    "description": "Identifier scheme label",
+                    "description": "Identifier scheme label.",
                     "type": "array",
                     "items": {
                       "title": "Language tagged string",
@@ -55,6 +55,15 @@
                         }
                       }
                     }
+                  },
+                  "notation": {
+                    "title": "notation",
+                    "description": "Notation of the identifier scheme.",
+                    "type": "array",
+                    "items": {
+                      "title": "String",
+                      "type": "string"
+                    }
                   }
                 }
               },
@@ -73,7 +82,7 @@
         },
         "alternate_name": {
           "title": "alternate name",
-          "description": "To specify the organizational name associated with the object",
+          "description": "An alternate organizational name associated with the object.",
           "type": "array",
           "items": {
             "title": "Text",
@@ -270,7 +279,7 @@
       "properties": {
         "identifier": {
           "title": "has identifier",
-          "description": "has identifier",
+          "description": "Identifier of an Agent.",
           "type": "array",
           "items": {
             "title": "Identifier",
@@ -293,7 +302,7 @@
                 "properties": {
                   "label": {
                     "title": "label",
-                    "description": "Identifier scheme label",
+                    "description": "Identifier scheme label.",
                     "type": "array",
                     "items": {
                       "title": "Language tagged string",
@@ -312,6 +321,15 @@
                           "type": "string"
                         }
                       }
+                    }
+                  },
+                  "notation": {
+                    "title": "notation",
+                    "description": "Notation of the identifier scheme.",
+                    "type": "array",
+                    "items": {
+                      "title": "String",
+                      "type": "string"
                     }
                   }
                 }
@@ -525,7 +543,7 @@
             "properties": {
               "identifier": {
                 "title": "has identifier",
-                "description": "has identifier",
+                "description": "Identifier of an Agent.",
                 "type": "array",
                 "items": {
                   "title": "Identifier",
@@ -548,7 +566,7 @@
                       "properties": {
                         "label": {
                           "title": "label",
-                          "description": "Identifier scheme label",
+                          "description": "Identifier scheme label.",
                           "type": "array",
                           "items": {
                             "title": "Language tagged string",
@@ -568,6 +586,15 @@
                               }
                             }
                           }
+                        },
+                        "notation": {
+                          "title": "notation",
+                          "description": "Notation of the identifier scheme.",
+                          "type": "array",
+                          "items": {
+                            "title": "String",
+                            "type": "string"
+                          }
                         }
                       }
                     },
@@ -586,7 +613,7 @@
               },
               "alternate_name": {
                 "title": "alternate name",
-                "description": "To specify the organizational name associated with the object",
+                "description": "An alternate organizational name associated with the object.",
                 "type": "array",
                 "items": {
                   "title": "Text",
