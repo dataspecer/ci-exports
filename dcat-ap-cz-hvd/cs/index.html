@@ -33,17 +33,17 @@
           },
           "isProfileOf": [
             {
+              "@id": "https://mff-uk.github.io/specifications/dcat-ap-hvd#",
+              "title": {},
+              "hasResource": {
+                "hasArtifact": "https://mff-uk.github.io/specifications/dcat-ap-hvd/"
+              }
+            },
+            {
               "@id": "https://ofn.gov.cz/dcat-ap-cz-otevřená-data#",
               "title": {},
               "hasResource": {
                 "hasArtifact": "https://ofn.gov.cz/dcat-ap-cz-otevřená-data/2026-09-23/cs/"
-              }
-            },
-            {
-              "@id": "",
-              "title": {},
-              "hasResource": {
-                "hasArtifact": "https://mff-uk.github.io/specifications/dcat-ap-hvd/"
               }
             }
           ],
@@ -86,7 +86,7 @@
                 "adms:AssetDistribution",
                 "prof:ResourceDescriptor"
               ],
-              "hasArtifact": "../série-datových-sad/structure.ttl",
+              "hasArtifact": "../datová-sada/structure.ttl",
               "hasRole": "role:schema",
               "format": "filetype:RDF_TURTLE",
               "conformsTo": "dsv:Structure"
@@ -96,7 +96,7 @@
                 "adms:AssetDistribution",
                 "prof:ResourceDescriptor"
               ],
-              "hasArtifact": "../datová-sada/structure.ttl",
+              "hasArtifact": "../série-datových-sad/structure.ttl",
               "hasRole": "role:schema",
               "format": "filetype:RDF_TURTLE",
               "conformsTo": "dsv:Structure"
@@ -133,28 +133,6 @@
               "format": "filetype:HTML"
             },
             {
-              "@id": "4ae7ce68-51aa-4169-a724-586a6a40a125#jsonschema",
-              "@type": [
-                "adms:AssetDistribution",
-                "prof:ResourceDescriptor"
-              ],
-              "hasArtifact": "../série-datových-sad/schéma.json",
-              "hasRole": "role:schema",
-              "format": "filetype:JSON",
-              "conformsTo": "https://json-schema.org/draft/2020-12/schema"
-            },
-            {
-              "@id": "4ae7ce68-51aa-4169-a724-586a6a40a125#jsonLd",
-              "@type": [
-                "adms:AssetDistribution",
-                "prof:ResourceDescriptor"
-              ],
-              "hasArtifact": "../série-datových-sad/kontext.jsonld",
-              "hasRole": "role:schema",
-              "format": "filetype:JSON_LD",
-              "conformsTo": "http://www.w3.org/ns/json-ld"
-            },
-            {
               "@id": "af2cdc60-d801-4acd-b05f-c92dadca9c90#jsonschema",
               "@type": [
                 "adms:AssetDistribution",
@@ -172,6 +150,28 @@
                 "prof:ResourceDescriptor"
               ],
               "hasArtifact": "../datová-sada/kontext.jsonld",
+              "hasRole": "role:schema",
+              "format": "filetype:JSON_LD",
+              "conformsTo": "http://www.w3.org/ns/json-ld"
+            },
+            {
+              "@id": "4ae7ce68-51aa-4169-a724-586a6a40a125#jsonschema",
+              "@type": [
+                "adms:AssetDistribution",
+                "prof:ResourceDescriptor"
+              ],
+              "hasArtifact": "../série-datových-sad/schéma.json",
+              "hasRole": "role:schema",
+              "format": "filetype:JSON",
+              "conformsTo": "https://json-schema.org/draft/2020-12/schema"
+            },
+            {
+              "@id": "4ae7ce68-51aa-4169-a724-586a6a40a125#jsonLd",
+              "@type": [
+                "adms:AssetDistribution",
+                "prof:ResourceDescriptor"
+              ],
+              "hasArtifact": "../série-datových-sad/kontext.jsonld",
               "hasRole": "role:schema",
               "format": "filetype:JSON_LD",
               "conformsTo": "http://www.w3.org/ns/json-ld"
@@ -499,1469 +499,6 @@
         </a>
     </section>
 
-      <section>
-      <h2>
-        Specifikace struktury pro
-        Série datových sad
-      </h2>
-      <p>Datová struktura pro Série datových sad. Série datových sad zastřešuje související datové sady a jiné série. Souvislost může být časová (rozpočet v letech), prostorová (seznamy ulic v obcích) či tématická (datové sady z jednoho systému).</p>
-
-      <section id="json-schema--série-datových-sad">
-
-
-
-
-
-
-
-
-
-
-
-
-  <h1>
-      JSON struktura pro    Série datových sad
-  </h1>
-
-    <dl>
-      <dt>IRI</dt>
-      <dd><code>https://ofn.gov.cz/dcat-ap-cz-hvd/2026-09-23/série-datových-sad/schéma.json</code></dd>
-      <dt>Definováno v</dt>
-      <dd><code><a href="../série-datových-sad/schéma.json">../série-datových-sad/schéma.json</a></code></dd>
-        <dt>Verze použitého jazyka</dt>
-        <dd><a href="https://json-schema.org/specification-links.html#2020-12-release" target="_blank">2020-12</a> (metaschema IRI: <code>https://json-schema.org/draft/2020-12/schema</code>)</dd>
-    </dl>
-
-    <h2>Kořen</h2>
-    Kořenem JSON schématu je
-        <a href="#json-object--série-datových-sad--série-datových-sad"></a>
-
-
-    <section id="json-object--série-datových-sad--série-datových-sad">
-      <h2>
-        Objekt <i>Série datových sad</i>
-      </h2>
-
-      <table class="def">
-          <tr>
-            <th>Popis</th>
-            <td>Série datových sad zastřešuje související datové sady a jiné série. Souvislost může být časová (rozpočet v letech), prostorová (seznamy ulic v obcích) či tématická (datové sady z jednoho systému).</td>
-          </tr>
-
-          <tr>
-            <th>Interpretace</th>
-            <td><a href="#SérieDatovýchSad">Série datových sad</a></td>
-          </tr>
-      </table>
-
-          <strong>
-    objekt
-  </strong>
-    s vlastnostmi (<code>properties</code>):
-    <ul>
-        <li style="list-style-type: disclosure-closed;">
-          <code>@context</code>:
-          povinná
-          položka typu
-
-                
-  
-  
-  
-  
-  
-  
-  
-        právě jedno z následujících (<code>oneOf</code>):
-    <ul>
-        <li>      
-    konstantní hodnota
-    <code>&quot;https://ofn.gov.cz/dcat-ap-cz-hvd/2026-09-23/série-datových-sad/kontext.jsonld&quot;</code>
-
-  
-  
-  
-  
-  
-  
-  
-
-</li>
-        <li>      
-  
-      pole hodnot <code>{0..*}</code> typu       
-  
-  
-    řetězec
-  (formát: <code>iri</code>)
-  
-
-
-  
-  
-  
-  
-  
-
-
-     a musí obsahovat: <code>&quot;https://ofn.gov.cz/dcat-ap-cz-hvd/2026-09-23/série-datových-sad/kontext.jsonld&quot;</code>
-  
-  
-  
-  
-  
-  
-  
-
-</li>
-    </ul>
-
-
-
-
-
-
-        </li>
-        <li style="list-style-type: disclosure-closed;">
-          <code>iri</code>:
-          povinná
-          položka typu
-
-                
-  
-  
-    řetězec
-  (formát: <code>iri</code>)
-  (dle regulárního výrazu: <code>^https://.*$</code>)
-
-
-  
-  
-  
-  
-  
-
-
-        </li>
-        <li style="list-style-type: disclosure-closed;">
-          <code>typ</code>:
-          povinná
-          položka typu
-
-                
-  
-  
-  
-  
-  
-  
-  
-        právě jedno z následujících (<code>oneOf</code>):
-    <ul>
-        <li>      
-    konstantní hodnota
-    <code>&quot;Série datových sad&quot;</code>
-
-  
-  
-  
-  
-  
-  
-  
-
-</li>
-        <li>      
-  
-      pole hodnot <code>{0..*}</code> typu       
-  
-  
-    řetězec
-  
-  
-
-
-  
-  
-  
-  
-  
-
-
-     a musí obsahovat: <code>&quot;Série datových sad&quot;</code>
-  
-  
-  
-  
-  
-  
-  
-
-</li>
-    </ul>
-
-
-
-
-
-
-        </li>
-        <li style="list-style-type: disclosure-closed;">
-          <code>název</code>:
-            (<a href="#SérieDatovýchSad.název" label="Název série datových sad">název</a>)
-          povinná
-          položka typu
-
-                  <strong>
-    objekt
-  </strong>
-    s vlastnostmi (<code>properties</code>):
-    <ul>
-        <li style="list-style-type: disclosure-closed;">
-          <code>cs</code>:
-          nepovinná
-          položka typu
-
-                
-  
-  
-    řetězec
-  
-  
-
-
-  
-  
-  
-  
-  
-
-
-        </li>
-        <li style="list-style-type: disclosure-closed;">
-          <code>en</code>:
-          nepovinná
-          položka typu
-
-                
-  
-  
-    řetězec
-  
-  
-
-
-  
-  
-  
-  
-  
-
-
-        </li>
-    </ul>
-  
-
-
-
-  
-  
-  
-  
-  
-  
-  
-  
-
-
-        </li>
-        <li style="list-style-type: disclosure-closed;">
-          <code>popis</code>:
-            (<a href="#SérieDatovýchSad.popis" label="Volný text s popisem série datových sad">popis</a>)
-          povinná
-          položka typu
-
-                  <strong>
-    objekt
-  </strong>
-    s vlastnostmi (<code>properties</code>):
-    <ul>
-        <li style="list-style-type: disclosure-closed;">
-          <code>cs</code>:
-          nepovinná
-          položka typu
-
-                
-  
-  
-    řetězec
-  
-  
-
-
-  
-  
-  
-  
-  
-
-
-        </li>
-        <li style="list-style-type: disclosure-closed;">
-          <code>en</code>:
-          nepovinná
-          položka typu
-
-                
-  
-  
-    řetězec
-  
-  
-
-
-  
-  
-  
-  
-  
-
-
-        </li>
-    </ul>
-  
-
-
-
-  
-  
-  
-  
-  
-  
-  
-  
-
-
-        </li>
-        <li style="list-style-type: disclosure-closed;">
-          <code>poskytovatel</code>:
-            (<a href="#SérieDatovýchSad.poskytovatel" label="Poskytovatel série datových sad zajišťující její soudržnost.">poskytovatel</a>)
-          povinná
-          položka typu
-
-                
-  
-  
-    řetězec
-  (formát: <code>iri</code>)
-  
-
-
-  
-  
-  
-  
-  
-
-
-        </li>
-        <li style="list-style-type: disclosure-closed;">
-          <code>je_součástí</code>:
-            (<a href="#SérieDatovýchSad.jeSoučástí" label="Série datových sad, jíž je tato série datových sad součástí.">je součástí</a>)
-          nepovinná
-          položka typu
-
-                
-  
-      pole hodnot <code>{0..*}</code> typu       
-  
-  
-    řetězec
-  (formát: <code>iri</code>)
-  (dle regulárního výrazu: <code>^https://.*$</code>)
-
-
-  
-  
-  
-  
-  
-
-
-          
-  
-  
-  
-  
-  
-  
-  
-
-
-        </li>
-        <li style="list-style-type: disclosure-closed;">
-          <code>téma</code>:
-            (<a href="#SérieDatovýchSad.téma" label="Hlavní téma zdroje. Zdroj může mít více témat.">téma</a>)
-          povinná
-          položka typu
-
-                
-  
-      pole hodnot <code>{1..*}</code> typu       
-  
-  
-    řetězec
-  (formát: <code>iri</code>)
-  (dle regulárního výrazu: <code>^http://publications\.europa\.eu/resource/authority/data-theme/.*$</code>)
-
-
-  
-  
-  
-  
-  
-
-
-          
-  
-  
-  
-  
-  
-  
-  
-
-
-        </li>
-        <li style="list-style-type: disclosure-closed;">
-          <code>kategorie_hvd</code>:
-            (<a href="#SérieDatovýchSad.kategorieHvd" label="Kategorie HVD do které série datových sad patří.">kategorie HVD</a>)
-          povinná
-          položka typu
-
-                
-  
-      pole hodnot <code>{1..*}</code> typu       
-  
-  
-    řetězec
-  (formát: <code>iri</code>)
-  (dle regulárního výrazu: <code>^http://data\.europa\.eu/bna/.*$</code>)
-
-
-  
-  
-  
-  
-  
-
-
-          
-  
-  
-  
-  
-  
-  
-  
-
-
-        </li>
-        <li style="list-style-type: disclosure-closed;">
-          <code>periodicita_aktualizace</code>:
-            (<a href="#SérieDatovýchSad.periodicitaAktualizace" label="Frekvence, se kterou je série datových sad aktualizována.">periodicita aktualizace</a>)
-          povinná
-          položka typu
-
-                
-  
-  
-    řetězec
-  (formát: <code>iri</code>)
-  (dle regulárního výrazu: <code>^http://publications\.europa\.eu/resource/authority/frequency/.*$</code>)
-
-
-  
-  
-  
-  
-  
-
-
-        </li>
-        <li style="list-style-type: disclosure-closed;">
-          <code>klíčové_slovo</code>:
-            (<a href="#SérieDatovýchSad.klíčovéSlovo" label="Klíčové slovo nebo značka popisující zdroj.">klíčové slovo</a>)
-          povinná
-          položka typu
-
-                  <strong>
-    objekt
-  </strong>
-    s vlastnostmi (<code>properties</code>):
-    <ul>
-        <li style="list-style-type: disclosure-closed;">
-          <code>cs</code>:
-          nepovinná
-          položka typu
-
-                
-  
-      pole hodnot <code>{0..*}</code> typu       
-  
-  
-    řetězec
-  
-  
-
-
-  
-  
-  
-  
-  
-
-
-          
-  
-  
-  
-  
-  
-  
-  
-
-
-        </li>
-        <li style="list-style-type: disclosure-closed;">
-          <code>en</code>:
-          nepovinná
-          položka typu
-
-                
-  
-      pole hodnot <code>{0..*}</code> typu       
-  
-  
-    řetězec
-  
-  
-
-
-  
-  
-  
-  
-  
-
-
-          
-  
-  
-  
-  
-  
-  
-  
-
-
-        </li>
-    </ul>
-  
-
-
-
-  
-  
-  
-  
-  
-  
-  
-  
-
-
-        </li>
-        <li style="list-style-type: disclosure-closed;">
-          <code>geografické_území</code>:
-            (<a href="#SérieDatovýchSad.souvisejícíGeografickéÚzemí" label="Geografické území pokryté sérií datových sad.">související geografické území</a>)
-          nepovinná
-          položka typu
-
-                
-  
-      pole hodnot <code>{0..*}</code> typu       
-  
-  
-    řetězec
-  (formát: <code>iri</code>)
-  
-
-
-  
-  
-  
-  
-  
-
-
-          
-  
-  
-  
-  
-  
-  
-  
-
-
-        </li>
-        <li style="list-style-type: disclosure-closed;">
-          <code>prvek_rúian</code>:
-            (<a href="#SérieDatovýchSad.souvisejícíGeografickéÚzemí-PrvekZRúian" label="Území pokryté datovou sadou, vyjádřené pomocí prvku RÚIAN">související geografické území - prvek z RÚIAN</a>)
-          povinná
-          položka typu
-
-                
-  
-      pole hodnot <code>{1..*}</code> typu       
-  
-  
-    řetězec
-  (formát: <code>iri</code>)
-  (dle regulárního výrazu: <code>^https://linked.cuzk.cz/resource/ruian/.*$</code>)
-
-
-  
-  
-  
-  
-  
-
-
-          
-  
-  
-  
-  
-  
-  
-  
-
-
-        </li>
-        <li style="list-style-type: disclosure-closed;">
-          <code>časové_pokrytí</code>:
-            (<a href="#SérieDatovýchSad.časovéPokrytí" label="Časový úsek pokrytý sérií datových sad">časové pokrytí</a>)
-          nepovinná
-          položka typu
-
-                
-  
-      pole hodnot <code>{0..*}</code> typu     <a href="#json-object--série-datových-sad--časový-interval"></a>
-
-          
-  
-  
-  
-  
-  
-  
-  
-
-
-        </li>
-        <li style="list-style-type: disclosure-closed;">
-          <code>kontaktní_bod</code>:
-            (<a href="#SérieDatovýchSad.kontaktníBod" label="Kontaktní informace, které mohou být využity pro zasílání připomínek k sérii datových sad.">kontaktní bod</a>)
-          povinná
-          položka typu
-
-                
-  
-  
-  
-  
-  
-  
-  
-    
-    alespoň jedno z následujících (<code>anyOf</code>):
-    <ul>
-        <li>    <a href="#json-object--série-datových-sad--organizace"></a>
-</li>
-        <li>    <a href="#json-object--série-datových-sad--jednotlivec"></a>
-</li>
-    </ul>
-
-
-
-
-
-        </li>
-        <li style="list-style-type: disclosure-closed;">
-          <code>dokumentace</code>:
-            (<a href="#SérieDatovýchSad.dokumentace" label="Stránka či dokument o sérii datových sad">dokumentace</a>)
-          nepovinná
-          položka typu
-
-                
-  
-  
-    řetězec
-  (formát: <code>iri</code>)
-  (dle regulárního výrazu: <code>^https://.*$</code>)
-
-
-  
-  
-  
-  
-  
-
-
-        </li>
-        <li style="list-style-type: disclosure-closed;">
-          <code>koncept_euroVoc</code>:
-            (<a href="#SérieDatovýchSad.klasifikaceDleEurovoc" label="Kategorie či téma série datových sad dle EuroVoc.">klasifikace dle EuroVoc</a>)
-          nepovinná
-          položka typu
-
-                
-  
-      pole hodnot <code>{0..*}</code> typu       
-  
-  
-    řetězec
-  (formát: <code>iri</code>)
-  (dle regulárního výrazu: <code>^http://eurovoc\.europa\.eu/.*$</code>)
-
-
-  
-  
-  
-  
-  
-
-
-          
-  
-  
-  
-  
-  
-  
-  
-
-
-        </li>
-        <li style="list-style-type: disclosure-closed;">
-          <code>právní_předpis</code>:
-            (<a href="#SérieDatovýchSad.příslušnýPrávníPředpis" label="Indikace příslušného právního předpisu předepisujícího vznik série datových sad.">příslušný právní předpis</a>)
-          povinná
-          položka typu
-
-                
-  
-      pole hodnot <code>{1..*}</code> typu       
-  
-  
-    řetězec
-  (formát: <code>iri</code>)
-  (dle regulárního výrazu: <code>^http</code>)
-
-
-  
-  
-  
-  
-  
-
-
-          
-  
-  
-  
-  
-  
-  
-  
-
-
-        </li>
-        <li style="list-style-type: disclosure-closed;">
-          <code>vstupní_stránka</code>:
-            (<a href="#SérieDatovýchSad.vstupníStránka" label="Webová stránka, na kterou lze pro získání přístupu ke sérii datových sad přistoupit webovým prohlížečem.">vstupní stránka</a>)
-          nepovinná
-          položka typu
-
-                
-  
-  
-    řetězec
-  (formát: <code>iri</code>)
-  (dle regulárního výrazu: <code>^https://.*$</code>)
-
-
-  
-  
-  
-  
-  
-
-
-        </li>
-    </ul>
-  
-
-
-
-  
-  
-  
-  
-  
-  
-  
-  
-
-    </section>
-    <section id="json-object--série-datových-sad--jednotlivec">
-      <h2>
-        Objekt <i>Jednotlivec</i>
-      </h2>
-
-      <table class="def">
-          <tr>
-            <th>Popis</th>
-            <td>Jednotlivá fyzická osoba.</td>
-          </tr>
-
-          <tr>
-            <th>Interpretace</th>
-            <td><a href="#Jednotlivec">Jednotlivec</a></td>
-          </tr>
-      </table>
-
-          <strong>
-    objekt
-  </strong>
-    s vlastnostmi (<code>properties</code>):
-    <ul>
-        <li style="list-style-type: disclosure-closed;">
-          <code>iri</code>:
-          nepovinná
-          položka typu
-
-                
-  
-  
-    řetězec
-  (formát: <code>iri</code>)
-  
-
-
-  
-  
-  
-  
-  
-
-
-        </li>
-        <li style="list-style-type: disclosure-closed;">
-          <code>typ</code>:
-          povinná
-          položka typu
-
-                
-  
-  
-  
-  
-  
-  
-  
-        právě jedno z následujících (<code>oneOf</code>):
-    <ul>
-        <li>      
-    konstantní hodnota
-    <code>&quot;Jednotlivec&quot;</code>
-
-  
-  
-  
-  
-  
-  
-  
-
-</li>
-        <li>      
-  
-      pole hodnot <code>{0..*}</code> typu       
-  
-  
-    řetězec
-  
-  
-
-
-  
-  
-  
-  
-  
-
-
-     a musí obsahovat: <code>&quot;Jednotlivec&quot;</code>
-  
-  
-  
-  
-  
-  
-  
-
-</li>
-    </ul>
-
-
-
-
-
-
-        </li>
-        <li style="list-style-type: disclosure-closed;">
-          <code>jméno</code>:
-            (<a href="#KontaktníBod.jméno" label="Jméno objektu jako formátovaný text.">jméno</a>)
-          nepovinná
-          položka typu
-
-                  <strong>
-    objekt
-  </strong>
-    s vlastnostmi (<code>properties</code>):
-    <ul>
-        <li style="list-style-type: disclosure-closed;">
-          <code>cs</code>:
-          nepovinná
-          položka typu
-
-                
-  
-  
-    řetězec
-  
-  
-
-
-  
-  
-  
-  
-  
-
-
-        </li>
-        <li style="list-style-type: disclosure-closed;">
-          <code>en</code>:
-          nepovinná
-          položka typu
-
-                
-  
-  
-    řetězec
-  
-  
-
-
-  
-  
-  
-  
-  
-
-
-        </li>
-    </ul>
-  
-
-
-
-  
-  
-  
-  
-  
-  
-  
-  
-
-
-        </li>
-        <li style="list-style-type: disclosure-closed;">
-          <code>e-mail</code>:
-            (<a href="#KontaktníBod.email" label="E-mailová adresa, na které lze navázat kontakt.">email</a>)
-          nepovinná
-          položka typu
-
-                
-  
-  
-    řetězec
-  (formát: <code>iri</code>)
-  (dle regulárního výrazu: <code>^mailto:[^@]+@[^@]+</code>)
-
-
-  
-  
-  
-  
-  
-
-
-        </li>
-        <li style="list-style-type: disclosure-closed;">
-          <code>kontaktní_stránka</code>:
-            (<a href="#KontaktníBod.kontaktníStránka" label="Webová stránka, která buďto přímo umožňuje navázat kontakt, nebo obsahuje informace o tom, jak navázat kontakt.">kontaktní stránka</a>)
-          nepovinná
-          položka typu
-
-                
-  
-  
-    řetězec
-  (formát: <code>iri</code>)
-  (dle regulárního výrazu: <code>^https://.*$</code>)
-
-
-  
-  
-  
-  
-  
-
-
-        </li>
-    </ul>
-  
-
-
-
-  
-  
-  
-  
-  
-  
-  
-  
-
-    </section>
-    <section id="json-object--série-datových-sad--organizace">
-      <h2>
-        Objekt <i>Organizace</i>
-      </h2>
-
-      <table class="def">
-          <tr>
-            <th>Popis</th>
-            <td>Organizace, právnická osoba nebo její část.</td>
-          </tr>
-
-          <tr>
-            <th>Interpretace</th>
-            <td><a href="#Organizace">Organizace</a></td>
-          </tr>
-      </table>
-
-          <strong>
-    objekt
-  </strong>
-    s vlastnostmi (<code>properties</code>):
-    <ul>
-        <li style="list-style-type: disclosure-closed;">
-          <code>iri</code>:
-          nepovinná
-          položka typu
-
-                
-  
-  
-    řetězec
-  (formát: <code>iri</code>)
-  
-
-
-  
-  
-  
-  
-  
-
-
-        </li>
-        <li style="list-style-type: disclosure-closed;">
-          <code>typ</code>:
-          povinná
-          položka typu
-
-                
-  
-  
-  
-  
-  
-  
-  
-        právě jedno z následujících (<code>oneOf</code>):
-    <ul>
-        <li>      
-    konstantní hodnota
-    <code>&quot;Organizace&quot;</code>
-
-  
-  
-  
-  
-  
-  
-  
-
-</li>
-        <li>      
-  
-      pole hodnot <code>{0..*}</code> typu       
-  
-  
-    řetězec
-  
-  
-
-
-  
-  
-  
-  
-  
-
-
-     a musí obsahovat: <code>&quot;Organizace&quot;</code>
-  
-  
-  
-  
-  
-  
-  
-
-</li>
-    </ul>
-
-
-
-
-
-
-        </li>
-        <li style="list-style-type: disclosure-closed;">
-          <code>jméno</code>:
-            (<a href="#KontaktníBod.jméno" label="Jméno objektu jako formátovaný text.">jméno</a>)
-          nepovinná
-          položka typu
-
-                  <strong>
-    objekt
-  </strong>
-    s vlastnostmi (<code>properties</code>):
-    <ul>
-        <li style="list-style-type: disclosure-closed;">
-          <code>cs</code>:
-          nepovinná
-          položka typu
-
-                
-  
-  
-    řetězec
-  
-  
-
-
-  
-  
-  
-  
-  
-
-
-        </li>
-        <li style="list-style-type: disclosure-closed;">
-          <code>en</code>:
-          nepovinná
-          položka typu
-
-                
-  
-  
-    řetězec
-  
-  
-
-
-  
-  
-  
-  
-  
-
-
-        </li>
-    </ul>
-  
-
-
-
-  
-  
-  
-  
-  
-  
-  
-  
-
-
-        </li>
-        <li style="list-style-type: disclosure-closed;">
-          <code>e-mail</code>:
-            (<a href="#KontaktníBod.email" label="E-mailová adresa, na které lze navázat kontakt.">email</a>)
-          nepovinná
-          položka typu
-
-                
-  
-  
-    řetězec
-  (formát: <code>iri</code>)
-  (dle regulárního výrazu: <code>^mailto:[^@]+@[^@]+</code>)
-
-
-  
-  
-  
-  
-  
-
-
-        </li>
-        <li style="list-style-type: disclosure-closed;">
-          <code>kontaktní_stránka</code>:
-            (<a href="#KontaktníBod.kontaktníStránka" label="Webová stránka, která buďto přímo umožňuje navázat kontakt, nebo obsahuje informace o tom, jak navázat kontakt.">kontaktní stránka</a>)
-          nepovinná
-          položka typu
-
-                
-  
-  
-    řetězec
-  (formát: <code>iri</code>)
-  (dle regulárního výrazu: <code>^https://.*$</code>)
-
-
-  
-  
-  
-  
-  
-
-
-        </li>
-    </ul>
-  
-
-
-
-  
-  
-  
-  
-  
-  
-  
-  
-
-    </section>
-    <section id="json-object--série-datových-sad--časový-interval">
-      <h2>
-        Objekt <i>Časový interval</i>
-      </h2>
-
-      <table class="def">
-          <tr>
-            <th>Popis</th>
-            <td>Časový interval definovaný svým začátkem a koncem.</td>
-          </tr>
-
-          <tr>
-            <th>Interpretace</th>
-            <td><a href="#ČasovýInterval">Časový interval</a></td>
-          </tr>
-      </table>
-
-          <strong>
-    objekt
-  </strong>
-    s vlastnostmi (<code>properties</code>):
-    <ul>
-        <li style="list-style-type: disclosure-closed;">
-          <code>iri</code>:
-          povinná
-          položka typu
-
-                
-  
-  
-    řetězec
-  (formát: <code>iri</code>)
-  
-
-
-  
-  
-  
-  
-  
-
-
-        </li>
-        <li style="list-style-type: disclosure-closed;">
-          <code>typ</code>:
-          povinná
-          položka typu
-
-                
-  
-  
-  
-  
-  
-  
-  
-        právě jedno z následujících (<code>oneOf</code>):
-    <ul>
-        <li>      
-    konstantní hodnota
-    <code>&quot;Časový interval&quot;</code>
-
-  
-  
-  
-  
-  
-  
-  
-
-</li>
-        <li>      
-  
-      pole hodnot <code>{0..*}</code> typu       
-  
-  
-    řetězec
-  
-  
-
-
-  
-  
-  
-  
-  
-
-
-     a musí obsahovat: <code>&quot;Časový interval&quot;</code>
-  
-  
-  
-  
-  
-  
-  
-
-</li>
-    </ul>
-
-
-
-
-
-
-        </li>
-        <li style="list-style-type: disclosure-closed;">
-          <code>začátek</code>:
-            (<a href="#ČasovýInterval.datumZačátku" label="Začátek doby trvání.">datum začátku</a>)
-          nepovinná
-          položka typu
-
-                
-  
-  
-    řetězec
-  (formát: <code>date</code>)
-  
-
-
-  
-  
-  
-  
-  
-
-
-        </li>
-        <li style="list-style-type: disclosure-closed;">
-          <code>konec</code>:
-            (<a href="#ČasovýInterval.datumKonce" label="Konec doby trvání.">datum konce</a>)
-          nepovinná
-          položka typu
-
-                
-  
-  
-    řetězec
-  (formát: <code>date</code>)
-  
-
-
-  
-  
-  
-  
-  
-
-
-        </li>
-    </ul>
-  
-
-
-
-  
-  
-  
-  
-  
-  
-  
-  
-
-    </section>
-</section>
-      </section>
       <section>
       <h2>
         Specifikace struktury pro
@@ -5718,6 +4255,1469 @@
     </section>
 </section>
       </section>
+      <section>
+      <h2>
+        Specifikace struktury pro
+        Série datových sad
+      </h2>
+      <p>Datová struktura pro Série datových sad. Série datových sad zastřešuje související datové sady a jiné série. Souvislost může být časová (rozpočet v letech), prostorová (seznamy ulic v obcích) či tématická (datové sady z jednoho systému).</p>
+
+      <section id="json-schema--série-datových-sad">
+
+
+
+
+
+
+
+
+
+
+
+
+  <h1>
+      JSON struktura pro    Série datových sad
+  </h1>
+
+    <dl>
+      <dt>IRI</dt>
+      <dd><code>https://ofn.gov.cz/dcat-ap-cz-hvd/2026-09-23/série-datových-sad/schéma.json</code></dd>
+      <dt>Definováno v</dt>
+      <dd><code><a href="../série-datových-sad/schéma.json">../série-datových-sad/schéma.json</a></code></dd>
+        <dt>Verze použitého jazyka</dt>
+        <dd><a href="https://json-schema.org/specification-links.html#2020-12-release" target="_blank">2020-12</a> (metaschema IRI: <code>https://json-schema.org/draft/2020-12/schema</code>)</dd>
+    </dl>
+
+    <h2>Kořen</h2>
+    Kořenem JSON schématu je
+        <a href="#json-object--série-datových-sad--série-datových-sad"></a>
+
+
+    <section id="json-object--série-datových-sad--série-datových-sad">
+      <h2>
+        Objekt <i>Série datových sad</i>
+      </h2>
+
+      <table class="def">
+          <tr>
+            <th>Popis</th>
+            <td>Série datových sad zastřešuje související datové sady a jiné série. Souvislost může být časová (rozpočet v letech), prostorová (seznamy ulic v obcích) či tématická (datové sady z jednoho systému).</td>
+          </tr>
+
+          <tr>
+            <th>Interpretace</th>
+            <td><a href="#SérieDatovýchSad">Série datových sad</a></td>
+          </tr>
+      </table>
+
+          <strong>
+    objekt
+  </strong>
+    s vlastnostmi (<code>properties</code>):
+    <ul>
+        <li style="list-style-type: disclosure-closed;">
+          <code>@context</code>:
+          povinná
+          položka typu
+
+                
+  
+  
+  
+  
+  
+  
+  
+        právě jedno z následujících (<code>oneOf</code>):
+    <ul>
+        <li>      
+    konstantní hodnota
+    <code>&quot;https://ofn.gov.cz/dcat-ap-cz-hvd/2026-09-23/série-datových-sad/kontext.jsonld&quot;</code>
+
+  
+  
+  
+  
+  
+  
+  
+
+</li>
+        <li>      
+  
+      pole hodnot <code>{0..*}</code> typu       
+  
+  
+    řetězec
+  (formát: <code>iri</code>)
+  
+
+
+  
+  
+  
+  
+  
+
+
+     a musí obsahovat: <code>&quot;https://ofn.gov.cz/dcat-ap-cz-hvd/2026-09-23/série-datových-sad/kontext.jsonld&quot;</code>
+  
+  
+  
+  
+  
+  
+  
+
+</li>
+    </ul>
+
+
+
+
+
+
+        </li>
+        <li style="list-style-type: disclosure-closed;">
+          <code>iri</code>:
+          povinná
+          položka typu
+
+                
+  
+  
+    řetězec
+  (formát: <code>iri</code>)
+  (dle regulárního výrazu: <code>^https://.*$</code>)
+
+
+  
+  
+  
+  
+  
+
+
+        </li>
+        <li style="list-style-type: disclosure-closed;">
+          <code>typ</code>:
+          povinná
+          položka typu
+
+                
+  
+  
+  
+  
+  
+  
+  
+        právě jedno z následujících (<code>oneOf</code>):
+    <ul>
+        <li>      
+    konstantní hodnota
+    <code>&quot;Série datových sad&quot;</code>
+
+  
+  
+  
+  
+  
+  
+  
+
+</li>
+        <li>      
+  
+      pole hodnot <code>{0..*}</code> typu       
+  
+  
+    řetězec
+  
+  
+
+
+  
+  
+  
+  
+  
+
+
+     a musí obsahovat: <code>&quot;Série datových sad&quot;</code>
+  
+  
+  
+  
+  
+  
+  
+
+</li>
+    </ul>
+
+
+
+
+
+
+        </li>
+        <li style="list-style-type: disclosure-closed;">
+          <code>název</code>:
+            (<a href="#SérieDatovýchSad.název" label="Název série datových sad">název</a>)
+          povinná
+          položka typu
+
+                  <strong>
+    objekt
+  </strong>
+    s vlastnostmi (<code>properties</code>):
+    <ul>
+        <li style="list-style-type: disclosure-closed;">
+          <code>cs</code>:
+          nepovinná
+          položka typu
+
+                
+  
+  
+    řetězec
+  
+  
+
+
+  
+  
+  
+  
+  
+
+
+        </li>
+        <li style="list-style-type: disclosure-closed;">
+          <code>en</code>:
+          nepovinná
+          položka typu
+
+                
+  
+  
+    řetězec
+  
+  
+
+
+  
+  
+  
+  
+  
+
+
+        </li>
+    </ul>
+  
+
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+        </li>
+        <li style="list-style-type: disclosure-closed;">
+          <code>popis</code>:
+            (<a href="#SérieDatovýchSad.popis" label="Volný text s popisem série datových sad">popis</a>)
+          povinná
+          položka typu
+
+                  <strong>
+    objekt
+  </strong>
+    s vlastnostmi (<code>properties</code>):
+    <ul>
+        <li style="list-style-type: disclosure-closed;">
+          <code>cs</code>:
+          nepovinná
+          položka typu
+
+                
+  
+  
+    řetězec
+  
+  
+
+
+  
+  
+  
+  
+  
+
+
+        </li>
+        <li style="list-style-type: disclosure-closed;">
+          <code>en</code>:
+          nepovinná
+          položka typu
+
+                
+  
+  
+    řetězec
+  
+  
+
+
+  
+  
+  
+  
+  
+
+
+        </li>
+    </ul>
+  
+
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+        </li>
+        <li style="list-style-type: disclosure-closed;">
+          <code>poskytovatel</code>:
+            (<a href="#SérieDatovýchSad.poskytovatel" label="Poskytovatel série datových sad zajišťující její soudržnost.">poskytovatel</a>)
+          povinná
+          položka typu
+
+                
+  
+  
+    řetězec
+  (formát: <code>iri</code>)
+  
+
+
+  
+  
+  
+  
+  
+
+
+        </li>
+        <li style="list-style-type: disclosure-closed;">
+          <code>je_součástí</code>:
+            (<a href="#SérieDatovýchSad.jeSoučástí" label="Série datových sad, jíž je tato série datových sad součástí.">je součástí</a>)
+          nepovinná
+          položka typu
+
+                
+  
+      pole hodnot <code>{0..*}</code> typu       
+  
+  
+    řetězec
+  (formát: <code>iri</code>)
+  (dle regulárního výrazu: <code>^https://.*$</code>)
+
+
+  
+  
+  
+  
+  
+
+
+          
+  
+  
+  
+  
+  
+  
+  
+
+
+        </li>
+        <li style="list-style-type: disclosure-closed;">
+          <code>téma</code>:
+            (<a href="#SérieDatovýchSad.téma" label="Hlavní téma zdroje. Zdroj může mít více témat.">téma</a>)
+          povinná
+          položka typu
+
+                
+  
+      pole hodnot <code>{1..*}</code> typu       
+  
+  
+    řetězec
+  (formát: <code>iri</code>)
+  (dle regulárního výrazu: <code>^http://publications\.europa\.eu/resource/authority/data-theme/.*$</code>)
+
+
+  
+  
+  
+  
+  
+
+
+          
+  
+  
+  
+  
+  
+  
+  
+
+
+        </li>
+        <li style="list-style-type: disclosure-closed;">
+          <code>kategorie_hvd</code>:
+            (<a href="#SérieDatovýchSad.kategorieHvd" label="Kategorie HVD do které série datových sad patří.">kategorie HVD</a>)
+          povinná
+          položka typu
+
+                
+  
+      pole hodnot <code>{1..*}</code> typu       
+  
+  
+    řetězec
+  (formát: <code>iri</code>)
+  (dle regulárního výrazu: <code>^http://data\.europa\.eu/bna/.*$</code>)
+
+
+  
+  
+  
+  
+  
+
+
+          
+  
+  
+  
+  
+  
+  
+  
+
+
+        </li>
+        <li style="list-style-type: disclosure-closed;">
+          <code>periodicita_aktualizace</code>:
+            (<a href="#SérieDatovýchSad.periodicitaAktualizace" label="Frekvence, se kterou je série datových sad aktualizována.">periodicita aktualizace</a>)
+          povinná
+          položka typu
+
+                
+  
+  
+    řetězec
+  (formát: <code>iri</code>)
+  (dle regulárního výrazu: <code>^http://publications\.europa\.eu/resource/authority/frequency/.*$</code>)
+
+
+  
+  
+  
+  
+  
+
+
+        </li>
+        <li style="list-style-type: disclosure-closed;">
+          <code>klíčové_slovo</code>:
+            (<a href="#SérieDatovýchSad.klíčovéSlovo" label="Klíčové slovo nebo značka popisující zdroj.">klíčové slovo</a>)
+          povinná
+          položka typu
+
+                  <strong>
+    objekt
+  </strong>
+    s vlastnostmi (<code>properties</code>):
+    <ul>
+        <li style="list-style-type: disclosure-closed;">
+          <code>cs</code>:
+          nepovinná
+          položka typu
+
+                
+  
+      pole hodnot <code>{0..*}</code> typu       
+  
+  
+    řetězec
+  
+  
+
+
+  
+  
+  
+  
+  
+
+
+          
+  
+  
+  
+  
+  
+  
+  
+
+
+        </li>
+        <li style="list-style-type: disclosure-closed;">
+          <code>en</code>:
+          nepovinná
+          položka typu
+
+                
+  
+      pole hodnot <code>{0..*}</code> typu       
+  
+  
+    řetězec
+  
+  
+
+
+  
+  
+  
+  
+  
+
+
+          
+  
+  
+  
+  
+  
+  
+  
+
+
+        </li>
+    </ul>
+  
+
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+        </li>
+        <li style="list-style-type: disclosure-closed;">
+          <code>geografické_území</code>:
+            (<a href="#SérieDatovýchSad.souvisejícíGeografickéÚzemí" label="Geografické území pokryté sérií datových sad.">související geografické území</a>)
+          nepovinná
+          položka typu
+
+                
+  
+      pole hodnot <code>{0..*}</code> typu       
+  
+  
+    řetězec
+  (formát: <code>iri</code>)
+  
+
+
+  
+  
+  
+  
+  
+
+
+          
+  
+  
+  
+  
+  
+  
+  
+
+
+        </li>
+        <li style="list-style-type: disclosure-closed;">
+          <code>prvek_rúian</code>:
+            (<a href="#SérieDatovýchSad.souvisejícíGeografickéÚzemí-PrvekZRúian" label="Území pokryté datovou sadou, vyjádřené pomocí prvku RÚIAN">související geografické území - prvek z RÚIAN</a>)
+          povinná
+          položka typu
+
+                
+  
+      pole hodnot <code>{1..*}</code> typu       
+  
+  
+    řetězec
+  (formát: <code>iri</code>)
+  (dle regulárního výrazu: <code>^https://linked.cuzk.cz/resource/ruian/.*$</code>)
+
+
+  
+  
+  
+  
+  
+
+
+          
+  
+  
+  
+  
+  
+  
+  
+
+
+        </li>
+        <li style="list-style-type: disclosure-closed;">
+          <code>časové_pokrytí</code>:
+            (<a href="#SérieDatovýchSad.časovéPokrytí" label="Časový úsek pokrytý sérií datových sad">časové pokrytí</a>)
+          nepovinná
+          položka typu
+
+                
+  
+      pole hodnot <code>{0..*}</code> typu     <a href="#json-object--série-datových-sad--časový-interval"></a>
+
+          
+  
+  
+  
+  
+  
+  
+  
+
+
+        </li>
+        <li style="list-style-type: disclosure-closed;">
+          <code>kontaktní_bod</code>:
+            (<a href="#SérieDatovýchSad.kontaktníBod" label="Kontaktní informace, které mohou být využity pro zasílání připomínek k sérii datových sad.">kontaktní bod</a>)
+          povinná
+          položka typu
+
+                
+  
+  
+  
+  
+  
+  
+  
+    
+    alespoň jedno z následujících (<code>anyOf</code>):
+    <ul>
+        <li>    <a href="#json-object--série-datových-sad--organizace"></a>
+</li>
+        <li>    <a href="#json-object--série-datových-sad--jednotlivec"></a>
+</li>
+    </ul>
+
+
+
+
+
+        </li>
+        <li style="list-style-type: disclosure-closed;">
+          <code>dokumentace</code>:
+            (<a href="#SérieDatovýchSad.dokumentace" label="Stránka či dokument o sérii datových sad">dokumentace</a>)
+          nepovinná
+          položka typu
+
+                
+  
+  
+    řetězec
+  (formát: <code>iri</code>)
+  (dle regulárního výrazu: <code>^https://.*$</code>)
+
+
+  
+  
+  
+  
+  
+
+
+        </li>
+        <li style="list-style-type: disclosure-closed;">
+          <code>koncept_euroVoc</code>:
+            (<a href="#SérieDatovýchSad.klasifikaceDleEurovoc" label="Kategorie či téma série datových sad dle EuroVoc.">klasifikace dle EuroVoc</a>)
+          nepovinná
+          položka typu
+
+                
+  
+      pole hodnot <code>{0..*}</code> typu       
+  
+  
+    řetězec
+  (formát: <code>iri</code>)
+  (dle regulárního výrazu: <code>^http://eurovoc\.europa\.eu/.*$</code>)
+
+
+  
+  
+  
+  
+  
+
+
+          
+  
+  
+  
+  
+  
+  
+  
+
+
+        </li>
+        <li style="list-style-type: disclosure-closed;">
+          <code>právní_předpis</code>:
+            (<a href="#SérieDatovýchSad.příslušnýPrávníPředpis" label="Indikace příslušného právního předpisu předepisujícího vznik série datových sad.">příslušný právní předpis</a>)
+          povinná
+          položka typu
+
+                
+  
+      pole hodnot <code>{1..*}</code> typu       
+  
+  
+    řetězec
+  (formát: <code>iri</code>)
+  (dle regulárního výrazu: <code>^http</code>)
+
+
+  
+  
+  
+  
+  
+
+
+          
+  
+  
+  
+  
+  
+  
+  
+
+
+        </li>
+        <li style="list-style-type: disclosure-closed;">
+          <code>vstupní_stránka</code>:
+            (<a href="#SérieDatovýchSad.vstupníStránka" label="Webová stránka, na kterou lze pro získání přístupu ke sérii datových sad přistoupit webovým prohlížečem.">vstupní stránka</a>)
+          nepovinná
+          položka typu
+
+                
+  
+  
+    řetězec
+  (formát: <code>iri</code>)
+  (dle regulárního výrazu: <code>^https://.*$</code>)
+
+
+  
+  
+  
+  
+  
+
+
+        </li>
+    </ul>
+  
+
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+    </section>
+    <section id="json-object--série-datových-sad--jednotlivec">
+      <h2>
+        Objekt <i>Jednotlivec</i>
+      </h2>
+
+      <table class="def">
+          <tr>
+            <th>Popis</th>
+            <td>Jednotlivá fyzická osoba.</td>
+          </tr>
+
+          <tr>
+            <th>Interpretace</th>
+            <td><a href="#Jednotlivec">Jednotlivec</a></td>
+          </tr>
+      </table>
+
+          <strong>
+    objekt
+  </strong>
+    s vlastnostmi (<code>properties</code>):
+    <ul>
+        <li style="list-style-type: disclosure-closed;">
+          <code>iri</code>:
+          nepovinná
+          položka typu
+
+                
+  
+  
+    řetězec
+  (formát: <code>iri</code>)
+  
+
+
+  
+  
+  
+  
+  
+
+
+        </li>
+        <li style="list-style-type: disclosure-closed;">
+          <code>typ</code>:
+          povinná
+          položka typu
+
+                
+  
+  
+  
+  
+  
+  
+  
+        právě jedno z následujících (<code>oneOf</code>):
+    <ul>
+        <li>      
+    konstantní hodnota
+    <code>&quot;Jednotlivec&quot;</code>
+
+  
+  
+  
+  
+  
+  
+  
+
+</li>
+        <li>      
+  
+      pole hodnot <code>{0..*}</code> typu       
+  
+  
+    řetězec
+  
+  
+
+
+  
+  
+  
+  
+  
+
+
+     a musí obsahovat: <code>&quot;Jednotlivec&quot;</code>
+  
+  
+  
+  
+  
+  
+  
+
+</li>
+    </ul>
+
+
+
+
+
+
+        </li>
+        <li style="list-style-type: disclosure-closed;">
+          <code>jméno</code>:
+            (<a href="#KontaktníBod.jméno" label="Jméno objektu jako formátovaný text.">jméno</a>)
+          nepovinná
+          položka typu
+
+                  <strong>
+    objekt
+  </strong>
+    s vlastnostmi (<code>properties</code>):
+    <ul>
+        <li style="list-style-type: disclosure-closed;">
+          <code>cs</code>:
+          nepovinná
+          položka typu
+
+                
+  
+  
+    řetězec
+  
+  
+
+
+  
+  
+  
+  
+  
+
+
+        </li>
+        <li style="list-style-type: disclosure-closed;">
+          <code>en</code>:
+          nepovinná
+          položka typu
+
+                
+  
+  
+    řetězec
+  
+  
+
+
+  
+  
+  
+  
+  
+
+
+        </li>
+    </ul>
+  
+
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+        </li>
+        <li style="list-style-type: disclosure-closed;">
+          <code>e-mail</code>:
+            (<a href="#KontaktníBod.email" label="E-mailová adresa, na které lze navázat kontakt.">email</a>)
+          nepovinná
+          položka typu
+
+                
+  
+  
+    řetězec
+  (formát: <code>iri</code>)
+  (dle regulárního výrazu: <code>^mailto:[^@]+@[^@]+</code>)
+
+
+  
+  
+  
+  
+  
+
+
+        </li>
+        <li style="list-style-type: disclosure-closed;">
+          <code>kontaktní_stránka</code>:
+            (<a href="#KontaktníBod.kontaktníStránka" label="Webová stránka, která buďto přímo umožňuje navázat kontakt, nebo obsahuje informace o tom, jak navázat kontakt.">kontaktní stránka</a>)
+          nepovinná
+          položka typu
+
+                
+  
+  
+    řetězec
+  (formát: <code>iri</code>)
+  (dle regulárního výrazu: <code>^https://.*$</code>)
+
+
+  
+  
+  
+  
+  
+
+
+        </li>
+    </ul>
+  
+
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+    </section>
+    <section id="json-object--série-datových-sad--organizace">
+      <h2>
+        Objekt <i>Organizace</i>
+      </h2>
+
+      <table class="def">
+          <tr>
+            <th>Popis</th>
+            <td>Organizace, právnická osoba nebo její část.</td>
+          </tr>
+
+          <tr>
+            <th>Interpretace</th>
+            <td><a href="#Organizace">Organizace</a></td>
+          </tr>
+      </table>
+
+          <strong>
+    objekt
+  </strong>
+    s vlastnostmi (<code>properties</code>):
+    <ul>
+        <li style="list-style-type: disclosure-closed;">
+          <code>iri</code>:
+          nepovinná
+          položka typu
+
+                
+  
+  
+    řetězec
+  (formát: <code>iri</code>)
+  
+
+
+  
+  
+  
+  
+  
+
+
+        </li>
+        <li style="list-style-type: disclosure-closed;">
+          <code>typ</code>:
+          povinná
+          položka typu
+
+                
+  
+  
+  
+  
+  
+  
+  
+        právě jedno z následujících (<code>oneOf</code>):
+    <ul>
+        <li>      
+    konstantní hodnota
+    <code>&quot;Organizace&quot;</code>
+
+  
+  
+  
+  
+  
+  
+  
+
+</li>
+        <li>      
+  
+      pole hodnot <code>{0..*}</code> typu       
+  
+  
+    řetězec
+  
+  
+
+
+  
+  
+  
+  
+  
+
+
+     a musí obsahovat: <code>&quot;Organizace&quot;</code>
+  
+  
+  
+  
+  
+  
+  
+
+</li>
+    </ul>
+
+
+
+
+
+
+        </li>
+        <li style="list-style-type: disclosure-closed;">
+          <code>jméno</code>:
+            (<a href="#KontaktníBod.jméno" label="Jméno objektu jako formátovaný text.">jméno</a>)
+          nepovinná
+          položka typu
+
+                  <strong>
+    objekt
+  </strong>
+    s vlastnostmi (<code>properties</code>):
+    <ul>
+        <li style="list-style-type: disclosure-closed;">
+          <code>cs</code>:
+          nepovinná
+          položka typu
+
+                
+  
+  
+    řetězec
+  
+  
+
+
+  
+  
+  
+  
+  
+
+
+        </li>
+        <li style="list-style-type: disclosure-closed;">
+          <code>en</code>:
+          nepovinná
+          položka typu
+
+                
+  
+  
+    řetězec
+  
+  
+
+
+  
+  
+  
+  
+  
+
+
+        </li>
+    </ul>
+  
+
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+        </li>
+        <li style="list-style-type: disclosure-closed;">
+          <code>e-mail</code>:
+            (<a href="#KontaktníBod.email" label="E-mailová adresa, na které lze navázat kontakt.">email</a>)
+          nepovinná
+          položka typu
+
+                
+  
+  
+    řetězec
+  (formát: <code>iri</code>)
+  (dle regulárního výrazu: <code>^mailto:[^@]+@[^@]+</code>)
+
+
+  
+  
+  
+  
+  
+
+
+        </li>
+        <li style="list-style-type: disclosure-closed;">
+          <code>kontaktní_stránka</code>:
+            (<a href="#KontaktníBod.kontaktníStránka" label="Webová stránka, která buďto přímo umožňuje navázat kontakt, nebo obsahuje informace o tom, jak navázat kontakt.">kontaktní stránka</a>)
+          nepovinná
+          položka typu
+
+                
+  
+  
+    řetězec
+  (formát: <code>iri</code>)
+  (dle regulárního výrazu: <code>^https://.*$</code>)
+
+
+  
+  
+  
+  
+  
+
+
+        </li>
+    </ul>
+  
+
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+    </section>
+    <section id="json-object--série-datových-sad--časový-interval">
+      <h2>
+        Objekt <i>Časový interval</i>
+      </h2>
+
+      <table class="def">
+          <tr>
+            <th>Popis</th>
+            <td>Časový interval definovaný svým začátkem a koncem.</td>
+          </tr>
+
+          <tr>
+            <th>Interpretace</th>
+            <td><a href="#ČasovýInterval">Časový interval</a></td>
+          </tr>
+      </table>
+
+          <strong>
+    objekt
+  </strong>
+    s vlastnostmi (<code>properties</code>):
+    <ul>
+        <li style="list-style-type: disclosure-closed;">
+          <code>iri</code>:
+          povinná
+          položka typu
+
+                
+  
+  
+    řetězec
+  (formát: <code>iri</code>)
+  
+
+
+  
+  
+  
+  
+  
+
+
+        </li>
+        <li style="list-style-type: disclosure-closed;">
+          <code>typ</code>:
+          povinná
+          položka typu
+
+                
+  
+  
+  
+  
+  
+  
+  
+        právě jedno z následujících (<code>oneOf</code>):
+    <ul>
+        <li>      
+    konstantní hodnota
+    <code>&quot;Časový interval&quot;</code>
+
+  
+  
+  
+  
+  
+  
+  
+
+</li>
+        <li>      
+  
+      pole hodnot <code>{0..*}</code> typu       
+  
+  
+    řetězec
+  
+  
+
+
+  
+  
+  
+  
+  
+
+
+     a musí obsahovat: <code>&quot;Časový interval&quot;</code>
+  
+  
+  
+  
+  
+  
+  
+
+</li>
+    </ul>
+
+
+
+
+
+
+        </li>
+        <li style="list-style-type: disclosure-closed;">
+          <code>začátek</code>:
+            (<a href="#ČasovýInterval.datumZačátku" label="Začátek doby trvání.">datum začátku</a>)
+          nepovinná
+          položka typu
+
+                
+  
+  
+    řetězec
+  (formát: <code>date</code>)
+  
+
+
+  
+  
+  
+  
+  
+
+
+        </li>
+        <li style="list-style-type: disclosure-closed;">
+          <code>konec</code>:
+            (<a href="#ČasovýInterval.datumKonce" label="Konec doby trvání.">datum konce</a>)
+          nepovinná
+          položka typu
+
+                
+  
+  
+    řetězec
+  (formát: <code>date</code>)
+  
+
+
+  
+  
+  
+  
+  
+
+
+        </li>
+    </ul>
+  
+
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+    </section>
+</section>
+      </section>
 
     <section id="příslušné-právní-předpisy">
       <h2>Příslušné právní předpisy</h2>
@@ -6228,14 +6228,14 @@
                                   profiluje
                 třídu
                 
-                <a href="https://ofn.gov.cz/dcat-ap-cz-podmínky-užití/2025-08-12/#Dataset">Datová sada</a> (<a href="http://www.w3.org/ns/dcat#Dataset">dcat:Dataset</a>)
+                <a href="http://www.w3.org/ns/dcat#Dataset">Datová sada</a> (<a href="http://www.w3.org/ns/dcat#Dataset">dcat:Dataset</a>)
                   <br />Definice: <i>Kolekce dat poskytovaná či řízená jedním zdrojem, která je k dispozici pro přístup či stažení v jednom či více formátech.</i>
                   <ul style="list-style-type: disclosure-closed;">
                       <li>
                                   specializuje
                 třídu
                 
-                <a href="https://ofn.gov.cz/dcat-ap-cz-podmínky-užití/2025-08-12/#Resource">Katalogizovaný zdroj</a> (<a href="http://www.w3.org/ns/dcat#Resource">dcat:Resource</a>)
+                <a href="http://www.w3.org/ns/dcat#Resource">Katalogizovaný zdroj</a> (<a href="http://www.w3.org/ns/dcat#Resource">dcat:Resource</a>)
                   <br />Definice: <i>Zdroj publikovaný či řízený jediným činitelem.</i>
                   <ul style="list-style-type: disclosure-closed;">
                   </ul>
@@ -6254,7 +6254,7 @@
                                   profiluje
                 třídu
                 
-                <a href="https://ofn.gov.cz/dcat-ap-cz-podmínky-užití/2025-08-12/#Resource">Katalogizovaný zdroj</a> (<a href="http://www.w3.org/ns/dcat#Resource">dcat:Resource</a>)
+                <a href="http://www.w3.org/ns/dcat#Resource">Katalogizovaný zdroj</a> (<a href="http://www.w3.org/ns/dcat#Resource">dcat:Resource</a>)
                   <br />Definice: <i>Zdroj publikovaný či řízený jediným činitelem.</i>
                   <ul style="list-style-type: disclosure-closed;">
                   </ul>
@@ -6282,7 +6282,7 @@
                                   profiluje
                 třídu
                 
-                <a href="https://ofn.gov.cz/dcat-ap-cz-podmínky-užití/2025-08-12/#Resource">Katalogizovaný zdroj</a> (<a href="http://www.w3.org/ns/dcat#Resource">dcat:Resource</a>)
+                <a href="http://www.w3.org/ns/dcat#Resource">Katalogizovaný zdroj</a> (<a href="http://www.w3.org/ns/dcat#Resource">dcat:Resource</a>)
                   <br />Definice: <i>Zdroj publikovaný či řízený jediným činitelem.</i>
                   <ul style="list-style-type: disclosure-closed;">
                   </ul>
@@ -6326,14 +6326,14 @@
                                   profiluje
                 třídu
                 
-                <a href="https://ofn.gov.cz/dcat-ap-cz-podmínky-užití/2025-08-12/#Dataset">Datová sada</a> (<a href="http://www.w3.org/ns/dcat#Dataset">dcat:Dataset</a>)
+                <a href="http://www.w3.org/ns/dcat#Dataset">Datová sada</a> (<a href="http://www.w3.org/ns/dcat#Dataset">dcat:Dataset</a>)
                   <br />Definice: <i>Kolekce dat poskytovaná či řízená jedním zdrojem, která je k dispozici pro přístup či stažení v jednom či více formátech.</i>
                   <ul style="list-style-type: disclosure-closed;">
                       <li>
                                   specializuje
                 třídu
                 
-                <a href="https://ofn.gov.cz/dcat-ap-cz-podmínky-užití/2025-08-12/#Resource">Katalogizovaný zdroj</a> (<a href="http://www.w3.org/ns/dcat#Resource">dcat:Resource</a>)
+                <a href="http://www.w3.org/ns/dcat#Resource">Katalogizovaný zdroj</a> (<a href="http://www.w3.org/ns/dcat#Resource">dcat:Resource</a>)
                   <br />Definice: <i>Zdroj publikovaný či řízený jediným činitelem.</i>
                   <ul style="list-style-type: disclosure-closed;">
                   </ul>
@@ -6352,7 +6352,7 @@
                                   profiluje
                 třídu
                 
-                <a href="https://ofn.gov.cz/dcat-ap-cz-podmínky-užití/2025-08-12/#Resource">Katalogizovaný zdroj</a> (<a href="http://www.w3.org/ns/dcat#Resource">dcat:Resource</a>)
+                <a href="http://www.w3.org/ns/dcat#Resource">Katalogizovaný zdroj</a> (<a href="http://www.w3.org/ns/dcat#Resource">dcat:Resource</a>)
                   <br />Definice: <i>Zdroj publikovaný či řízený jediným činitelem.</i>
                   <ul style="list-style-type: disclosure-closed;">
                   </ul>
@@ -6380,7 +6380,7 @@
                                   profiluje
                 třídu
                 
-                <a href="https://ofn.gov.cz/dcat-ap-cz-podmínky-užití/2025-08-12/#Resource">Katalogizovaný zdroj</a> (<a href="http://www.w3.org/ns/dcat#Resource">dcat:Resource</a>)
+                <a href="http://www.w3.org/ns/dcat#Resource">Katalogizovaný zdroj</a> (<a href="http://www.w3.org/ns/dcat#Resource">dcat:Resource</a>)
                   <br />Definice: <i>Zdroj publikovaný či řízený jediným činitelem.</i>
                   <ul style="list-style-type: disclosure-closed;">
                   </ul>
@@ -6417,7 +6417,7 @@
                                   profiluje
                 třídu
                 
-                <a href="https://ofn.gov.cz/dcat-ap-cz-podmínky-užití/2025-08-12/#Resource">Katalogizovaný zdroj</a> (<a href="http://www.w3.org/ns/dcat#Resource">dcat:Resource</a>)
+                <a href="http://www.w3.org/ns/dcat#Resource">Katalogizovaný zdroj</a> (<a href="http://www.w3.org/ns/dcat#Resource">dcat:Resource</a>)
                   <br />Definice: <i>Zdroj publikovaný či řízený jediným činitelem.</i>
                   <ul style="list-style-type: disclosure-closed;">
                   </ul>
@@ -6522,7 +6522,7 @@
                                       profiluje
                     vlastnost
                     
-                    <a href="https://ofn.gov.cz/dcat-ap-cz-podmínky-užití/2025-08-12/#title">Title (@en)</a> (<a href="http://purl.org/dc/terms/title">dcterms:title</a>)
+                    <a href="http://purl.org/dc/terms/title">Title (@en)</a> (<a href="http://purl.org/dc/terms/title">dcterms:title</a>)
                       <br />Definice: <i>A name given to the resource.</i>
                       <ul style="list-style-type: disclosure-closed;">
                       </ul>
@@ -6627,7 +6627,7 @@
                                       profiluje
                     vlastnost
                     
-                    <a href="https://ofn.gov.cz/dcat-ap-cz-podmínky-užití/2025-08-12/#description">Description (@en)</a> (<a href="http://purl.org/dc/terms/description">dcterms:description</a>)
+                    <a href="http://purl.org/dc/terms/description">Description (@en)</a> (<a href="http://purl.org/dc/terms/description">dcterms:description</a>)
                       <br />Definice: <i>An account of the resource.</i>
                       <ul style="list-style-type: disclosure-closed;">
                       </ul>
@@ -6729,7 +6729,7 @@
                                       profiluje
                     vlastnost
                     
-                    <a href="https://ofn.gov.cz/dcat-ap-cz-podmínky-užití/2025-08-12/#keyword">klíčové slovo</a> (<a href="http://www.w3.org/ns/dcat#keyword">dcat:keyword</a>)
+                    <a href="http://www.w3.org/ns/dcat#keyword">klíčové slovo</a> (<a href="http://www.w3.org/ns/dcat#keyword">dcat:keyword</a>)
                       <br />Definice: <i>Klíčové slovo nebo značka popisující zdroj.</i>
                       <ul style="list-style-type: disclosure-closed;">
                       </ul>
@@ -6829,14 +6829,14 @@
                                       profiluje
                     vlastnost
                     
-                    <a href="https://ofn.gov.cz/dcat-ap-cz-podmínky-užití/2025-08-12/#theme">téma</a> (<a href="http://www.w3.org/ns/dcat#theme">dcat:theme</a>)
+                    <a href="http://www.w3.org/ns/dcat#theme">téma</a> (<a href="http://www.w3.org/ns/dcat#theme">dcat:theme</a>)
                       <br />Definice: <i>Hlavní téma zdroje. Zdroj může mít více témat.</i>
                       <ul style="list-style-type: disclosure-closed;">
                           <li>
                                       specializuje
                     vlastnost
                     
-                    <a href="https://ofn.gov.cz/dcat-ap-cz-podmínky-užití/2025-08-12/#subject">Subject (@en)</a> (<a href="http://purl.org/dc/terms/subject">dcterms:subject</a>)
+                    <a href="http://purl.org/dc/terms/subject">Subject (@en)</a> (<a href="http://purl.org/dc/terms/subject">dcterms:subject</a>)
                       <br />Definice: <i>A topic of the resource.</i>
                       <ul style="list-style-type: disclosure-closed;">
                       </ul>
@@ -6944,7 +6944,7 @@
                                       profiluje
                     vlastnost
                     
-                    <a href="https://ofn.gov.cz/dcat-ap-cz-podmínky-užití/2025-08-12/#accrualPeriodicity">Accrual Periodicity (@en)</a> (<a href="http://purl.org/dc/terms/accrualPeriodicity">dcterms:accrualPeriodicity</a>)
+                    <a href="http://purl.org/dc/terms/accrualPeriodicity">Accrual Periodicity (@en)</a> (<a href="http://purl.org/dc/terms/accrualPeriodicity">dcterms:accrualPeriodicity</a>)
                       <br />Definice: <i>The frequency with which items are added to a collection.</i>
                       <ul style="list-style-type: disclosure-closed;">
                       </ul>
@@ -7048,7 +7048,7 @@
                                       profiluje
                     vlastnost
                     
-                    <a href="https://ofn.gov.cz/dcat-ap-cz-podmínky-užití/2025-08-12/#publisher">Publisher (@en)</a> (<a href="http://purl.org/dc/terms/publisher">dcterms:publisher</a>)
+                    <a href="http://purl.org/dc/terms/publisher">Publisher (@en)</a> (<a href="http://purl.org/dc/terms/publisher">dcterms:publisher</a>)
                       <br />Definice: <i>An entity responsible for making the resource available.</i>
                       <ul style="list-style-type: disclosure-closed;">
                       </ul>
@@ -7148,14 +7148,14 @@
                                       profiluje
                     vlastnost
                     
-                    <a href="https://ofn.gov.cz/dcat-ap-cz-podmínky-užití/2025-08-12/#spatial">Spatial Coverage (@en)</a> (<a href="http://purl.org/dc/terms/spatial">dcterms:spatial</a>)
+                    <a href="http://purl.org/dc/terms/spatial">Spatial Coverage (@en)</a> (<a href="http://purl.org/dc/terms/spatial">dcterms:spatial</a>)
                       <br />Definice: <i>Spatial characteristics of the resource.</i>
                       <ul style="list-style-type: disclosure-closed;">
                           <li>
                                       specializuje
                     vlastnost
                     
-                    <a href="https://ofn.gov.cz/dcat-ap-cz-podmínky-užití/2025-08-12/#coverage">Coverage (@en)</a> (<a href="http://purl.org/dc/terms/coverage">dcterms:coverage</a>)
+                    <a href="http://purl.org/dc/terms/coverage">Coverage (@en)</a> (<a href="http://purl.org/dc/terms/coverage">dcterms:coverage</a>)
                       <br />Definice: <i>The spatial or temporal topic of the resource, spatial applicability of the resource, or jurisdiction under which the resource is relevant.</i>
                       <ul style="list-style-type: disclosure-closed;">
                       </ul>
@@ -7249,7 +7249,7 @@
                                       profiluje
                     vlastnost
                     
-                    <a href="https://mff-uk.github.io/specifications/dcat-ap/#applicableLegislation">applicable legislation (@en)</a> (<a href="http://data.europa.eu/r5r/applicableLegislation">dcatap:applicableLegislation</a>)
+                    <a href="http://data.europa.eu/r5r/applicableLegislation">applicable legislation (@en)</a> (<a href="http://data.europa.eu/r5r/applicableLegislation">dcatap:applicableLegislation</a>)
                       <br />Definice: <i>the legislation that is applicable to this resource.</i>
                       <ul style="list-style-type: disclosure-closed;">
                       </ul>
@@ -7285,7 +7285,7 @@
                                       profiluje
                     vlastnost
                     
-                    <a href="https://mff-uk.github.io/specifications/dcat-ap/#applicableLegislation">applicable legislation (@en)</a> (<a href="http://data.europa.eu/r5r/applicableLegislation">dcatap:applicableLegislation</a>)
+                    <a href="http://data.europa.eu/r5r/applicableLegislation">applicable legislation (@en)</a> (<a href="http://data.europa.eu/r5r/applicableLegislation">dcatap:applicableLegislation</a>)
                       <br />Definice: <i>the legislation that is applicable to this resource.</i>
                       <ul style="list-style-type: disclosure-closed;">
                       </ul>
@@ -7386,14 +7386,14 @@
                                       profiluje
                     vlastnost
                     
-                    <a href="https://ofn.gov.cz/dcat-ap-cz-podmínky-užití/2025-08-12/#spatial">Spatial Coverage (@en)</a> (<a href="http://purl.org/dc/terms/spatial">dcterms:spatial</a>)
+                    <a href="http://purl.org/dc/terms/spatial">Spatial Coverage (@en)</a> (<a href="http://purl.org/dc/terms/spatial">dcterms:spatial</a>)
                       <br />Definice: <i>Spatial characteristics of the resource.</i>
                       <ul style="list-style-type: disclosure-closed;">
                           <li>
                                       specializuje
                     vlastnost
                     
-                    <a href="https://ofn.gov.cz/dcat-ap-cz-podmínky-užití/2025-08-12/#coverage">Coverage (@en)</a> (<a href="http://purl.org/dc/terms/coverage">dcterms:coverage</a>)
+                    <a href="http://purl.org/dc/terms/coverage">Coverage (@en)</a> (<a href="http://purl.org/dc/terms/coverage">dcterms:coverage</a>)
                       <br />Definice: <i>The spatial or temporal topic of the resource, spatial applicability of the resource, or jurisdiction under which the resource is relevant.</i>
                       <ul style="list-style-type: disclosure-closed;">
                       </ul>
@@ -7500,14 +7500,14 @@
                                       profiluje
                     vlastnost
                     
-                    <a href="https://ofn.gov.cz/dcat-ap-cz-podmínky-užití/2025-08-12/#temporal">Temporal Coverage (@en)</a> (<a href="http://purl.org/dc/terms/temporal">dcterms:temporal</a>)
+                    <a href="http://purl.org/dc/terms/temporal">Temporal Coverage (@en)</a> (<a href="http://purl.org/dc/terms/temporal">dcterms:temporal</a>)
                       <br />Definice: <i>Temporal characteristics of the resource.</i>
                       <ul style="list-style-type: disclosure-closed;">
                           <li>
                                       specializuje
                     vlastnost
                     
-                    <a href="https://ofn.gov.cz/dcat-ap-cz-podmínky-užití/2025-08-12/#coverage">Coverage (@en)</a> (<a href="http://purl.org/dc/terms/coverage">dcterms:coverage</a>)
+                    <a href="http://purl.org/dc/terms/coverage">Coverage (@en)</a> (<a href="http://purl.org/dc/terms/coverage">dcterms:coverage</a>)
                       <br />Definice: <i>The spatial or temporal topic of the resource, spatial applicability of the resource, or jurisdiction under which the resource is relevant.</i>
                       <ul style="list-style-type: disclosure-closed;">
                       </ul>
@@ -7614,7 +7614,7 @@
                                       profiluje
                     vlastnost
                     
-                    <a href="https://ofn.gov.cz/dcat-ap-cz-podmínky-užití/2025-08-12/#temporalResolution">časové rozlišení</a> (<a href="http://www.w3.org/ns/dcat#temporalResolution">dcat:temporalResolution</a>)
+                    <a href="http://www.w3.org/ns/dcat#temporalResolution">časové rozlišení</a> (<a href="http://www.w3.org/ns/dcat#temporalResolution">dcat:temporalResolution</a>)
                       <br />Definice: <i>minimální doba trvání rozlišitelná v datové sadě.</i>
                       <ul style="list-style-type: disclosure-closed;">
                       </ul>
@@ -7718,7 +7718,7 @@
                                       profiluje
                     vlastnost
                     
-                    <a href="https://ofn.gov.cz/dcat-ap-cz-podmínky-užití/2025-08-12/#spatialResolutionInMeters">prostorové rozlišení (metry)</a> (<a href="http://www.w3.org/ns/dcat#spatialResolutionInMeters">dcat:spatialResolutionInMeters</a>)
+                    <a href="http://www.w3.org/ns/dcat#spatialResolutionInMeters">prostorové rozlišení (metry)</a> (<a href="http://www.w3.org/ns/dcat#spatialResolutionInMeters">dcat:spatialResolutionInMeters</a>)
                       <br />Definice: <i>minimální prostorový rozestup rozeznatelný v datové sadě, měřeno v metrech.</i>
                       <ul style="list-style-type: disclosure-closed;">
                       </ul>
@@ -7812,7 +7812,7 @@
                                       profiluje
                     vlastnost
                     
-                    <a href="https://mff-uk.github.io/specifications/dcat-dap/#page">page (@en)</a> (<a href="http://xmlns.com/foaf/0.1/page">foaf:page</a>)
+                    <a href="http://xmlns.com/foaf/0.1/page">page (@en)</a> (<a href="http://xmlns.com/foaf/0.1/page">foaf:page</a>)
                       <br />Definice: <i>A page or document about this thing.</i>
                       <ul style="list-style-type: disclosure-closed;">
                       </ul>
@@ -7902,14 +7902,14 @@
                                       profiluje
                     vlastnost
                     
-                    <a href="https://ofn.gov.cz/dcat-ap-cz-podmínky-užití/2025-08-12/#conformsTo">Conforms To (@en)</a> (<a href="http://purl.org/dc/terms/conformsTo">dcterms:conformsTo</a>)
+                    <a href="http://purl.org/dc/terms/conformsTo">Conforms To (@en)</a> (<a href="http://purl.org/dc/terms/conformsTo">dcterms:conformsTo</a>)
                       <br />Definice: <i>An established standard to which the described resource conforms.</i>
                       <ul style="list-style-type: disclosure-closed;">
                           <li>
                                       specializuje
                     vlastnost
                     
-                    <a href="https://ofn.gov.cz/dcat-ap-cz-podmínky-užití/2025-08-12/#relation">Relation (@en)</a> (<a href="http://purl.org/dc/terms/relation">dcterms:relation</a>)
+                    <a href="http://purl.org/dc/terms/relation">Relation (@en)</a> (<a href="http://purl.org/dc/terms/relation">dcterms:relation</a>)
                       <br />Definice: <i>A related resource.</i>
                       <ul style="list-style-type: disclosure-closed;">
                       </ul>
@@ -7957,14 +7957,14 @@
                                       profiluje
                     vlastnost
                     
-                    <a href="https://ofn.gov.cz/dcat-ap-cz-podmínky-užití/2025-08-12/#conformsTo">Conforms To (@en)</a> (<a href="http://purl.org/dc/terms/conformsTo">dcterms:conformsTo</a>)
+                    <a href="http://purl.org/dc/terms/conformsTo">Conforms To (@en)</a> (<a href="http://purl.org/dc/terms/conformsTo">dcterms:conformsTo</a>)
                       <br />Definice: <i>An established standard to which the described resource conforms.</i>
                       <ul style="list-style-type: disclosure-closed;">
                           <li>
                                       specializuje
                     vlastnost
                     
-                    <a href="https://ofn.gov.cz/dcat-ap-cz-podmínky-užití/2025-08-12/#relation">Relation (@en)</a> (<a href="http://purl.org/dc/terms/relation">dcterms:relation</a>)
+                    <a href="http://purl.org/dc/terms/relation">Relation (@en)</a> (<a href="http://purl.org/dc/terms/relation">dcterms:relation</a>)
                       <br />Definice: <i>A related resource.</i>
                       <ul style="list-style-type: disclosure-closed;">
                       </ul>
@@ -8071,14 +8071,14 @@
                                       profiluje
                     vlastnost
                     
-                    <a href="https://ofn.gov.cz/dcat-ap-cz-podmínky-užití/2025-08-12/#landingPage">vstupní stránka</a> (<a href="http://www.w3.org/ns/dcat#landingPage">dcat:landingPage</a>)
+                    <a href="http://www.w3.org/ns/dcat#landingPage">vstupní stránka</a> (<a href="http://www.w3.org/ns/dcat#landingPage">dcat:landingPage</a>)
                       <br />Definice: <i>Webová stránka, na kterou lze pro získání přístupu ke katalogu, datové sadě, jejím distribucím a/nebo dalším informacím přistoupit webovým prohlížečem.</i>
                       <ul style="list-style-type: disclosure-closed;">
                           <li>
                                       specializuje
                     vlastnost
                     
-                    <a href="https://mff-uk.github.io/specifications/dcat-dap/#page">page (@en)</a> (<a href="http://xmlns.com/foaf/0.1/page">foaf:page</a>)
+                    <a href="http://xmlns.com/foaf/0.1/page">page (@en)</a> (<a href="http://xmlns.com/foaf/0.1/page">foaf:page</a>)
                       <br />Definice: <i>A page or document about this thing.</i>
                       <ul style="list-style-type: disclosure-closed;">
                       </ul>
@@ -8185,14 +8185,14 @@
                                       profiluje
                     vlastnost
                     
-                    <a href="https://ofn.gov.cz/dcat-ap-cz-podmínky-užití/2025-08-12/#theme">téma</a> (<a href="http://www.w3.org/ns/dcat#theme">dcat:theme</a>)
+                    <a href="http://www.w3.org/ns/dcat#theme">téma</a> (<a href="http://www.w3.org/ns/dcat#theme">dcat:theme</a>)
                       <br />Definice: <i>Hlavní téma zdroje. Zdroj může mít více témat.</i>
                       <ul style="list-style-type: disclosure-closed;">
                           <li>
                                       specializuje
                     vlastnost
                     
-                    <a href="https://ofn.gov.cz/dcat-ap-cz-podmínky-užití/2025-08-12/#subject">Subject (@en)</a> (<a href="http://purl.org/dc/terms/subject">dcterms:subject</a>)
+                    <a href="http://purl.org/dc/terms/subject">Subject (@en)</a> (<a href="http://purl.org/dc/terms/subject">dcterms:subject</a>)
                       <br />Definice: <i>A topic of the resource.</i>
                       <ul style="list-style-type: disclosure-closed;">
                       </ul>
@@ -8299,7 +8299,7 @@
                                       profiluje
                     vlastnost
                     
-                    <a href="https://ofn.gov.cz/dcat-ap-cz-podmínky-užití/2025-08-12/#contactPoint">kontaktní bod</a> (<a href="http://www.w3.org/ns/dcat#contactPoint">dcat:contactPoint</a>)
+                    <a href="http://www.w3.org/ns/dcat#contactPoint">kontaktní bod</a> (<a href="http://www.w3.org/ns/dcat#contactPoint">dcat:contactPoint</a>)
                       <br />Definice: <i>Relevantní kontaktní informace pro katalogizovaný zdroj. Doporučuje se použít slovník VCard.</i>
                       <ul style="list-style-type: disclosure-closed;">
                       </ul>
@@ -8340,7 +8340,7 @@
                                       profiluje
                     vlastnost
                     
-                    <a href="https://ofn.gov.cz/dcat-ap-cz-podmínky-užití/2025-08-12/#contactPoint">kontaktní bod</a> (<a href="http://www.w3.org/ns/dcat#contactPoint">dcat:contactPoint</a>)
+                    <a href="http://www.w3.org/ns/dcat#contactPoint">kontaktní bod</a> (<a href="http://www.w3.org/ns/dcat#contactPoint">dcat:contactPoint</a>)
                       <br />Definice: <i>Relevantní kontaktní informace pro katalogizovaný zdroj. Doporučuje se použít slovník VCard.</i>
                       <ul style="list-style-type: disclosure-closed;">
                       </ul>
@@ -8436,21 +8436,21 @@
                                       profiluje
                     vlastnost
                     
-                    <a href="https://ofn.gov.cz/dcat-ap-cz-podmínky-užití/2025-08-12/#inSeries">in series (@en)</a> (<a href="http://www.w3.org/ns/dcat#inSeries">dcat:inSeries</a>)
+                    <a href="http://www.w3.org/ns/dcat#inSeries">in series (@en)</a> (<a href="http://www.w3.org/ns/dcat#inSeries">dcat:inSeries</a>)
                       <br />Definice: <i>A dataset series of which the dataset is part.</i>
                       <ul style="list-style-type: disclosure-closed;">
                           <li>
                                       specializuje
                     vlastnost
                     
-                    <a href="https://ofn.gov.cz/dcat-ap-cz-podmínky-užití/2025-08-12/#isPartOf">Is Part Of (@en)</a> (<a href="http://purl.org/dc/terms/isPartOf">dcterms:isPartOf</a>)
+                    <a href="http://purl.org/dc/terms/isPartOf">Is Part Of (@en)</a> (<a href="http://purl.org/dc/terms/isPartOf">dcterms:isPartOf</a>)
                       <br />Definice: <i>A related resource in which the described resource is physically or logically included.</i>
                       <ul style="list-style-type: disclosure-closed;">
                           <li>
                                       specializuje
                     vlastnost
                     
-                    <a href="https://ofn.gov.cz/dcat-ap-cz-podmínky-užití/2025-08-12/#relation">Relation (@en)</a> (<a href="http://purl.org/dc/terms/relation">dcterms:relation</a>)
+                    <a href="http://purl.org/dc/terms/relation">Relation (@en)</a> (<a href="http://purl.org/dc/terms/relation">dcterms:relation</a>)
                       <br />Definice: <i>A related resource.</i>
                       <ul style="list-style-type: disclosure-closed;">
                       </ul>
@@ -8555,14 +8555,14 @@
                                       profiluje
                     vlastnost
                     
-                    <a href="https://ofn.gov.cz/dcat-ap-cz-podmínky-užití/2025-08-12/#distribution">distribuce</a> (<a href="http://www.w3.org/ns/dcat#distribution">dcat:distribution</a>)
+                    <a href="http://www.w3.org/ns/dcat#distribution">distribuce</a> (<a href="http://www.w3.org/ns/dcat#distribution">dcat:distribution</a>)
                       <br />Definice: <i>Dostupná distribuce datové sady.</i>
                       <ul style="list-style-type: disclosure-closed;">
                           <li>
                                       specializuje
                     vlastnost
                     
-                    <a href="https://ofn.gov.cz/dcat-ap-cz-podmínky-užití/2025-08-12/#relation">Relation (@en)</a> (<a href="http://purl.org/dc/terms/relation">dcterms:relation</a>)
+                    <a href="http://purl.org/dc/terms/relation">Relation (@en)</a> (<a href="http://purl.org/dc/terms/relation">dcterms:relation</a>)
                       <br />Definice: <i>A related resource.</i>
                       <ul style="list-style-type: disclosure-closed;">
                       </ul>
@@ -8606,14 +8606,14 @@
                                       profiluje
                     vlastnost
                     
-                    <a href="https://ofn.gov.cz/dcat-ap-cz-podmínky-užití/2025-08-12/#distribution">distribuce</a> (<a href="http://www.w3.org/ns/dcat#distribution">dcat:distribution</a>)
+                    <a href="http://www.w3.org/ns/dcat#distribution">distribuce</a> (<a href="http://www.w3.org/ns/dcat#distribution">dcat:distribution</a>)
                       <br />Definice: <i>Dostupná distribuce datové sady.</i>
                       <ul style="list-style-type: disclosure-closed;">
                           <li>
                                       specializuje
                     vlastnost
                     
-                    <a href="https://ofn.gov.cz/dcat-ap-cz-podmínky-užití/2025-08-12/#relation">Relation (@en)</a> (<a href="http://purl.org/dc/terms/relation">dcterms:relation</a>)
+                    <a href="http://purl.org/dc/terms/relation">Relation (@en)</a> (<a href="http://purl.org/dc/terms/relation">dcterms:relation</a>)
                       <br />Definice: <i>A related resource.</i>
                       <ul style="list-style-type: disclosure-closed;">
                       </ul>
@@ -8698,7 +8698,7 @@
                                       profiluje
                     vlastnost
                     
-                    <a href="https://mff-uk.github.io/specifications/dcat-ap/#hvdCategory">HVD category (@en)</a> (<a href="http://data.europa.eu/r5r/hvdCategory">dcatap:hvdCategory</a>)
+                    <a href="http://data.europa.eu/r5r/hvdCategory">HVD category (@en)</a> (<a href="http://data.europa.eu/r5r/hvdCategory">dcatap:hvdCategory</a>)
                       <br />Definice: <i>A data category defined in the High Value Dataset Implementing Regulation.</i>
                       <ul style="list-style-type: disclosure-closed;">
                       </ul>
@@ -8769,7 +8769,7 @@
                                   profiluje
                 třídu
                 
-                <a href="https://ofn.gov.cz/dcat-ap-cz-podmínky-užití/2025-08-12/#Distribution">Distribuce</a> (<a href="http://www.w3.org/ns/dcat#Distribution">dcat:Distribution</a>)
+                <a href="http://www.w3.org/ns/dcat#Distribution">Distribuce</a> (<a href="http://www.w3.org/ns/dcat#Distribution">dcat:Distribution</a>)
                   <br />Definice: <i>Konkrétní reprezentace datové sady. Datová sada může být dostupná v různých serializacích, které se mohou navzájem lišit různými způsoby, mimo jiné přirozeným jazykem, media-typem či formátem, schematickou organizací, časovým a prostorovým rozlišením, úrovní detailu či profily (které mohou specifikovat některé či všechny tyto rozdíly).</i>
                   <ul style="list-style-type: disclosure-closed;">
                   </ul>
@@ -8809,7 +8809,7 @@
                                   profiluje
                 třídu
                 
-                <a href="https://ofn.gov.cz/dcat-ap-cz-podmínky-užití/2025-08-12/#Distribution">Distribuce</a> (<a href="http://www.w3.org/ns/dcat#Distribution">dcat:Distribution</a>)
+                <a href="http://www.w3.org/ns/dcat#Distribution">Distribuce</a> (<a href="http://www.w3.org/ns/dcat#Distribution">dcat:Distribution</a>)
                   <br />Definice: <i>Konkrétní reprezentace datové sady. Datová sada může být dostupná v různých serializacích, které se mohou navzájem lišit různými způsoby, mimo jiné přirozeným jazykem, media-typem či formátem, schematickou organizací, časovým a prostorovým rozlišením, úrovní detailu či profily (které mohou specifikovat některé či všechny tyto rozdíly).</i>
                   <ul style="list-style-type: disclosure-closed;">
                   </ul>
@@ -8909,7 +8909,7 @@
                                       profiluje
                     vlastnost
                     
-                    <a href="https://ofn.gov.cz/dcat-ap-cz-podmínky-užití/2025-08-12/#accessURL">přístupová adresa</a> (<a href="http://www.w3.org/ns/dcat#accessURL">dcat:accessURL</a>)
+                    <a href="http://www.w3.org/ns/dcat#accessURL">přístupová adresa</a> (<a href="http://www.w3.org/ns/dcat#accessURL">dcat:accessURL</a>)
                       <br />Definice: <i>URL zdroje, přes které je přístupná distribuce datové sady. Příkladem může být vstupní stránka, RSS kanál či SPARQL endpoint. Použijte ve všech případech kromě URL souboru ke stažení, pro které je lepší použít dcat:downloadURL.</i>
                       <ul style="list-style-type: disclosure-closed;">
                       </ul>
@@ -8954,7 +8954,7 @@
                                       profiluje
                     vlastnost
                     
-                    <a href="https://ofn.gov.cz/dcat-ap-cz-podmínky-užití/2025-08-12/#accessURL">přístupová adresa</a> (<a href="http://www.w3.org/ns/dcat#accessURL">dcat:accessURL</a>)
+                    <a href="http://www.w3.org/ns/dcat#accessURL">přístupová adresa</a> (<a href="http://www.w3.org/ns/dcat#accessURL">dcat:accessURL</a>)
                       <br />Definice: <i>URL zdroje, přes které je přístupná distribuce datové sady. Příkladem může být vstupní stránka, RSS kanál či SPARQL endpoint. Použijte ve všech případech kromě URL souboru ke stažení, pro které je lepší použít dcat:downloadURL.</i>
                       <ul style="list-style-type: disclosure-closed;">
                       </ul>
@@ -9051,14 +9051,14 @@
                                       specializuje
                     vlastnost
                     
-                    <a href="https://ofn.gov.cz/dcat-ap-cz-podmínky-užití/2025-08-12/#license">License (@en)</a> (<a href="http://purl.org/dc/terms/license">dcterms:license</a>)
+                    <a href="http://purl.org/dc/terms/license">License (@en)</a> (<a href="http://purl.org/dc/terms/license">dcterms:license</a>)
                       <br />Definice: <i>A legal document giving official permission to do something with the resource.</i>
                       <ul style="list-style-type: disclosure-closed;">
                           <li>
                                       specializuje
                     vlastnost
                     
-                    <a href="https://ofn.gov.cz/dcat-ap-cz-podmínky-užití/2025-08-12/#rights">Rights (@en)</a> (<a href="http://purl.org/dc/terms/rights">dcterms:rights</a>)
+                    <a href="http://purl.org/dc/terms/rights">Rights (@en)</a> (<a href="http://purl.org/dc/terms/rights">dcterms:rights</a>)
                       <br />Definice: <i>Information about rights held in and over the resource.</i>
                       <ul style="list-style-type: disclosure-closed;">
                       </ul>
@@ -9145,7 +9145,7 @@
                                       profiluje
                     vlastnost
                     
-                    <a href="https://mff-uk.github.io/specifications/dcat-ap/#applicableLegislation">applicable legislation (@en)</a> (<a href="http://data.europa.eu/r5r/applicableLegislation">dcatap:applicableLegislation</a>)
+                    <a href="http://data.europa.eu/r5r/applicableLegislation">applicable legislation (@en)</a> (<a href="http://data.europa.eu/r5r/applicableLegislation">dcatap:applicableLegislation</a>)
                       <br />Definice: <i>the legislation that is applicable to this resource.</i>
                       <ul style="list-style-type: disclosure-closed;">
                       </ul>
@@ -9181,7 +9181,7 @@
                                       profiluje
                     vlastnost
                     
-                    <a href="https://mff-uk.github.io/specifications/dcat-ap/#applicableLegislation">applicable legislation (@en)</a> (<a href="http://data.europa.eu/r5r/applicableLegislation">dcatap:applicableLegislation</a>)
+                    <a href="http://data.europa.eu/r5r/applicableLegislation">applicable legislation (@en)</a> (<a href="http://data.europa.eu/r5r/applicableLegislation">dcatap:applicableLegislation</a>)
                       <br />Definice: <i>the legislation that is applicable to this resource.</i>
                       <ul style="list-style-type: disclosure-closed;">
                       </ul>
@@ -9282,7 +9282,7 @@
                                       profiluje
                     vlastnost
                     
-                    <a href="https://ofn.gov.cz/dcat-ap-cz-podmínky-užití/2025-08-12/#title">Title (@en)</a> (<a href="http://purl.org/dc/terms/title">dcterms:title</a>)
+                    <a href="http://purl.org/dc/terms/title">Title (@en)</a> (<a href="http://purl.org/dc/terms/title">dcterms:title</a>)
                       <br />Definice: <i>A name given to the resource.</i>
                       <ul style="list-style-type: disclosure-closed;">
                       </ul>
@@ -9367,7 +9367,7 @@
                                   profiluje
                 třídu
                 
-                <a href="https://ofn.gov.cz/dcat-ap-cz-podmínky-užití/2025-08-12/#Distribution">Distribuce</a> (<a href="http://www.w3.org/ns/dcat#Distribution">dcat:Distribution</a>)
+                <a href="http://www.w3.org/ns/dcat#Distribution">Distribuce</a> (<a href="http://www.w3.org/ns/dcat#Distribution">dcat:Distribution</a>)
                   <br />Definice: <i>Konkrétní reprezentace datové sady. Datová sada může být dostupná v různých serializacích, které se mohou navzájem lišit různými způsoby, mimo jiné přirozeným jazykem, media-typem či formátem, schematickou organizací, časovým a prostorovým rozlišením, úrovní detailu či profily (které mohou specifikovat některé či všechny tyto rozdíly).</i>
                   <ul style="list-style-type: disclosure-closed;">
                   </ul>
@@ -9401,7 +9401,7 @@
                                   profiluje
                 třídu
                 
-                <a href="https://ofn.gov.cz/dcat-ap-cz-podmínky-užití/2025-08-12/#Distribution">Distribuce</a> (<a href="http://www.w3.org/ns/dcat#Distribution">dcat:Distribution</a>)
+                <a href="http://www.w3.org/ns/dcat#Distribution">Distribuce</a> (<a href="http://www.w3.org/ns/dcat#Distribution">dcat:Distribution</a>)
                   <br />Definice: <i>Konkrétní reprezentace datové sady. Datová sada může být dostupná v různých serializacích, které se mohou navzájem lišit různými způsoby, mimo jiné přirozeným jazykem, media-typem či formátem, schematickou organizací, časovým a prostorovým rozlišením, úrovní detailu či profily (které mohou specifikovat některé či všechny tyto rozdíly).</i>
                   <ul style="list-style-type: disclosure-closed;">
                   </ul>
@@ -9447,7 +9447,7 @@
                                   profiluje
                 třídu
                 
-                <a href="https://ofn.gov.cz/dcat-ap-cz-podmínky-užití/2025-08-12/#Distribution">Distribuce</a> (<a href="http://www.w3.org/ns/dcat#Distribution">dcat:Distribution</a>)
+                <a href="http://www.w3.org/ns/dcat#Distribution">Distribuce</a> (<a href="http://www.w3.org/ns/dcat#Distribution">dcat:Distribution</a>)
                   <br />Definice: <i>Konkrétní reprezentace datové sady. Datová sada může být dostupná v různých serializacích, které se mohou navzájem lišit různými způsoby, mimo jiné přirozeným jazykem, media-typem či formátem, schematickou organizací, časovým a prostorovým rozlišením, úrovní detailu či profily (které mohou specifikovat některé či všechny tyto rozdíly).</i>
                   <ul style="list-style-type: disclosure-closed;">
                   </ul>
@@ -9502,7 +9502,7 @@
                                   profiluje
                 třídu
                 
-                <a href="https://ofn.gov.cz/dcat-ap-cz-podmínky-užití/2025-08-12/#Distribution">Distribuce</a> (<a href="http://www.w3.org/ns/dcat#Distribution">dcat:Distribution</a>)
+                <a href="http://www.w3.org/ns/dcat#Distribution">Distribuce</a> (<a href="http://www.w3.org/ns/dcat#Distribution">dcat:Distribution</a>)
                   <br />Definice: <i>Konkrétní reprezentace datové sady. Datová sada může být dostupná v různých serializacích, které se mohou navzájem lišit různými způsoby, mimo jiné přirozeným jazykem, media-typem či formátem, schematickou organizací, časovým a prostorovým rozlišením, úrovní detailu či profily (které mohou specifikovat některé či všechny tyto rozdíly).</i>
                   <ul style="list-style-type: disclosure-closed;">
                   </ul>
@@ -9542,7 +9542,7 @@
                                   profiluje
                 třídu
                 
-                <a href="https://ofn.gov.cz/dcat-ap-cz-podmínky-užití/2025-08-12/#Distribution">Distribuce</a> (<a href="http://www.w3.org/ns/dcat#Distribution">dcat:Distribution</a>)
+                <a href="http://www.w3.org/ns/dcat#Distribution">Distribuce</a> (<a href="http://www.w3.org/ns/dcat#Distribution">dcat:Distribution</a>)
                   <br />Definice: <i>Konkrétní reprezentace datové sady. Datová sada může být dostupná v různých serializacích, které se mohou navzájem lišit různými způsoby, mimo jiné přirozeným jazykem, media-typem či formátem, schematickou organizací, časovým a prostorovým rozlišením, úrovní detailu či profily (které mohou specifikovat některé či všechny tyto rozdíly).</i>
                   <ul style="list-style-type: disclosure-closed;">
                   </ul>
@@ -9647,7 +9647,7 @@
                                       profiluje
                     vlastnost
                     
-                    <a href="https://ofn.gov.cz/dcat-ap-cz-podmínky-užití/2025-08-12/#downloadURL">URL souboru ke stažení</a> (<a href="http://www.w3.org/ns/dcat#downloadURL">dcat:downloadURL</a>)
+                    <a href="http://www.w3.org/ns/dcat#downloadURL">URL souboru ke stažení</a> (<a href="http://www.w3.org/ns/dcat#downloadURL">dcat:downloadURL</a>)
                       <br />Definice: <i>URL souboru ke stažení v daném formátu, například CSV nebo RDF soubor. Formát je popsán vlastností distribuce dcterms:format a/nebo dcat:mediaType.</i>
                       <ul style="list-style-type: disclosure-closed;">
                       </ul>
@@ -9749,14 +9749,14 @@
                                       profiluje
                     vlastnost
                     
-                    <a href="https://ofn.gov.cz/dcat-ap-cz-podmínky-užití/2025-08-12/#mediaType">typ média</a> (<a href="http://www.w3.org/ns/dcat#mediaType">dcat:mediaType</a>)
+                    <a href="http://www.w3.org/ns/dcat#mediaType">typ média</a> (<a href="http://www.w3.org/ns/dcat#mediaType">dcat:mediaType</a>)
                       <br />Definice: <i>Typ média distribuce definovaný v IANA.</i>
                       <ul style="list-style-type: disclosure-closed;">
                           <li>
                                       specializuje
                     vlastnost
                     
-                    <a href="https://ofn.gov.cz/dcat-ap-cz-podmínky-užití/2025-08-12/#format">Format (@en)</a> (<a href="http://purl.org/dc/terms/format">dcterms:format</a>)
+                    <a href="http://purl.org/dc/terms/format">Format (@en)</a> (<a href="http://purl.org/dc/terms/format">dcterms:format</a>)
                       <br />Definice: <i>The file format, physical medium, or dimensions of the resource.</i>
                       <ul style="list-style-type: disclosure-closed;">
                       </ul>
@@ -9863,7 +9863,7 @@
                                       profiluje
                     vlastnost
                     
-                    <a href="https://ofn.gov.cz/dcat-ap-cz-podmínky-užití/2025-08-12/#format">Format (@en)</a> (<a href="http://purl.org/dc/terms/format">dcterms:format</a>)
+                    <a href="http://purl.org/dc/terms/format">Format (@en)</a> (<a href="http://purl.org/dc/terms/format">dcterms:format</a>)
                       <br />Definice: <i>The file format, physical medium, or dimensions of the resource.</i>
                       <ul style="list-style-type: disclosure-closed;">
                       </ul>
@@ -9968,14 +9968,14 @@
                                       profiluje
                     vlastnost
                     
-                    <a href="https://ofn.gov.cz/dcat-ap-cz-podmínky-užití/2025-08-12/#conformsTo">Conforms To (@en)</a> (<a href="http://purl.org/dc/terms/conformsTo">dcterms:conformsTo</a>)
+                    <a href="http://purl.org/dc/terms/conformsTo">Conforms To (@en)</a> (<a href="http://purl.org/dc/terms/conformsTo">dcterms:conformsTo</a>)
                       <br />Definice: <i>An established standard to which the described resource conforms.</i>
                       <ul style="list-style-type: disclosure-closed;">
                           <li>
                                       specializuje
                     vlastnost
                     
-                    <a href="https://ofn.gov.cz/dcat-ap-cz-podmínky-užití/2025-08-12/#relation">Relation (@en)</a> (<a href="http://purl.org/dc/terms/relation">dcterms:relation</a>)
+                    <a href="http://purl.org/dc/terms/relation">Relation (@en)</a> (<a href="http://purl.org/dc/terms/relation">dcterms:relation</a>)
                       <br />Definice: <i>A related resource.</i>
                       <ul style="list-style-type: disclosure-closed;">
                       </ul>
@@ -10080,14 +10080,14 @@
                                       profiluje
                     vlastnost
                     
-                    <a href="https://ofn.gov.cz/dcat-ap-cz-podmínky-užití/2025-08-12/#packageFormat">formát balíčku</a> (<a href="http://www.w3.org/ns/dcat#packageFormat">dcat:packageFormat</a>)
+                    <a href="http://www.w3.org/ns/dcat#packageFormat">formát balíčku</a> (<a href="http://www.w3.org/ns/dcat#packageFormat">dcat:packageFormat</a>)
                       <br />Definice: <i>Balíčkový formát souboru, ve kterém je jeden či více souborů seskupeno dohromady, např. aby bylo možné stáhnout sadu souvisejících souborů naráz.</i>
                       <ul style="list-style-type: disclosure-closed;">
                           <li>
                                       specializuje
                     vlastnost
                     
-                    <a href="https://ofn.gov.cz/dcat-ap-cz-podmínky-užití/2025-08-12/#format">Format (@en)</a> (<a href="http://purl.org/dc/terms/format">dcterms:format</a>)
+                    <a href="http://purl.org/dc/terms/format">Format (@en)</a> (<a href="http://purl.org/dc/terms/format">dcterms:format</a>)
                       <br />Definice: <i>The file format, physical medium, or dimensions of the resource.</i>
                       <ul style="list-style-type: disclosure-closed;">
                       </ul>
@@ -10193,14 +10193,14 @@
                                       profiluje
                     vlastnost
                     
-                    <a href="https://ofn.gov.cz/dcat-ap-cz-podmínky-užití/2025-08-12/#compressFormat">formát komprese</a> (<a href="http://www.w3.org/ns/dcat#compressFormat">dcat:compressFormat</a>)
+                    <a href="http://www.w3.org/ns/dcat#compressFormat">formát komprese</a> (<a href="http://www.w3.org/ns/dcat#compressFormat">dcat:compressFormat</a>)
                       <br />Definice: <i>Formát komprese souboru, ve kterém jsou data poskytována v komprimované podobě, např. ke snížení velikosti souboru ke stažení.</i>
                       <ul style="list-style-type: disclosure-closed;">
                           <li>
                                       specializuje
                     vlastnost
                     
-                    <a href="https://ofn.gov.cz/dcat-ap-cz-podmínky-užití/2025-08-12/#format">Format (@en)</a> (<a href="http://purl.org/dc/terms/format">dcterms:format</a>)
+                    <a href="http://purl.org/dc/terms/format">Format (@en)</a> (<a href="http://purl.org/dc/terms/format">dcterms:format</a>)
                       <br />Definice: <i>The file format, physical medium, or dimensions of the resource.</i>
                       <ul style="list-style-type: disclosure-closed;">
                       </ul>
@@ -10288,7 +10288,7 @@
                                   profiluje
                 třídu
                 
-                <a href="https://ofn.gov.cz/dcat-ap-cz-podmínky-užití/2025-08-12/#Distribution">Distribuce</a> (<a href="http://www.w3.org/ns/dcat#Distribution">dcat:Distribution</a>)
+                <a href="http://www.w3.org/ns/dcat#Distribution">Distribuce</a> (<a href="http://www.w3.org/ns/dcat#Distribution">dcat:Distribution</a>)
                   <br />Definice: <i>Konkrétní reprezentace datové sady. Datová sada může být dostupná v různých serializacích, které se mohou navzájem lišit různými způsoby, mimo jiné přirozeným jazykem, media-typem či formátem, schematickou organizací, časovým a prostorovým rozlišením, úrovní detailu či profily (které mohou specifikovat některé či všechny tyto rozdíly).</i>
                   <ul style="list-style-type: disclosure-closed;">
                   </ul>
@@ -10322,7 +10322,7 @@
                                   profiluje
                 třídu
                 
-                <a href="https://ofn.gov.cz/dcat-ap-cz-podmínky-užití/2025-08-12/#Distribution">Distribuce</a> (<a href="http://www.w3.org/ns/dcat#Distribution">dcat:Distribution</a>)
+                <a href="http://www.w3.org/ns/dcat#Distribution">Distribuce</a> (<a href="http://www.w3.org/ns/dcat#Distribution">dcat:Distribution</a>)
                   <br />Definice: <i>Konkrétní reprezentace datové sady. Datová sada může být dostupná v různých serializacích, které se mohou navzájem lišit různými způsoby, mimo jiné přirozeným jazykem, media-typem či formátem, schematickou organizací, časovým a prostorovým rozlišením, úrovní detailu či profily (které mohou specifikovat některé či všechny tyto rozdíly).</i>
                   <ul style="list-style-type: disclosure-closed;">
                   </ul>
@@ -10368,7 +10368,7 @@
                                   profiluje
                 třídu
                 
-                <a href="https://ofn.gov.cz/dcat-ap-cz-podmínky-užití/2025-08-12/#Distribution">Distribuce</a> (<a href="http://www.w3.org/ns/dcat#Distribution">dcat:Distribution</a>)
+                <a href="http://www.w3.org/ns/dcat#Distribution">Distribuce</a> (<a href="http://www.w3.org/ns/dcat#Distribution">dcat:Distribution</a>)
                   <br />Definice: <i>Konkrétní reprezentace datové sady. Datová sada může být dostupná v různých serializacích, které se mohou navzájem lišit různými způsoby, mimo jiné přirozeným jazykem, media-typem či formátem, schematickou organizací, časovým a prostorovým rozlišením, úrovní detailu či profily (které mohou specifikovat některé či všechny tyto rozdíly).</i>
                   <ul style="list-style-type: disclosure-closed;">
                   </ul>
@@ -10423,7 +10423,7 @@
                                   profiluje
                 třídu
                 
-                <a href="https://ofn.gov.cz/dcat-ap-cz-podmínky-užití/2025-08-12/#Distribution">Distribuce</a> (<a href="http://www.w3.org/ns/dcat#Distribution">dcat:Distribution</a>)
+                <a href="http://www.w3.org/ns/dcat#Distribution">Distribuce</a> (<a href="http://www.w3.org/ns/dcat#Distribution">dcat:Distribution</a>)
                   <br />Definice: <i>Konkrétní reprezentace datové sady. Datová sada může být dostupná v různých serializacích, které se mohou navzájem lišit různými způsoby, mimo jiné přirozeným jazykem, media-typem či formátem, schematickou organizací, časovým a prostorovým rozlišením, úrovní detailu či profily (které mohou specifikovat některé či všechny tyto rozdíly).</i>
                   <ul style="list-style-type: disclosure-closed;">
                   </ul>
@@ -10463,7 +10463,7 @@
                                   profiluje
                 třídu
                 
-                <a href="https://ofn.gov.cz/dcat-ap-cz-podmínky-užití/2025-08-12/#Distribution">Distribuce</a> (<a href="http://www.w3.org/ns/dcat#Distribution">dcat:Distribution</a>)
+                <a href="http://www.w3.org/ns/dcat#Distribution">Distribuce</a> (<a href="http://www.w3.org/ns/dcat#Distribution">dcat:Distribution</a>)
                   <br />Definice: <i>Konkrétní reprezentace datové sady. Datová sada může být dostupná v různých serializacích, které se mohou navzájem lišit různými způsoby, mimo jiné přirozeným jazykem, media-typem či formátem, schematickou organizací, časovým a prostorovým rozlišením, úrovní detailu či profily (které mohou specifikovat některé či všechny tyto rozdíly).</i>
                   <ul style="list-style-type: disclosure-closed;">
                   </ul>
@@ -10567,7 +10567,7 @@
                                       profiluje
                     vlastnost
                     
-                    <a href="https://ofn.gov.cz/dcat-ap-cz-podmínky-užití/2025-08-12/#accessService">služba pro přístup k datům</a> (<a href="http://www.w3.org/ns/dcat#accessService">dcat:accessService</a>)
+                    <a href="http://www.w3.org/ns/dcat#accessService">služba pro přístup k datům</a> (<a href="http://www.w3.org/ns/dcat#accessService">dcat:accessService</a>)
                       <br />Definice: <i>Umístění či přístupový bod zpřístupňující distribuci datové sady.</i>
                       <ul style="list-style-type: disclosure-closed;">
                       </ul>
@@ -10608,7 +10608,7 @@
                                       profiluje
                     vlastnost
                     
-                    <a href="https://ofn.gov.cz/dcat-ap-cz-podmínky-užití/2025-08-12/#accessService">služba pro přístup k datům</a> (<a href="http://www.w3.org/ns/dcat#accessService">dcat:accessService</a>)
+                    <a href="http://www.w3.org/ns/dcat#accessService">služba pro přístup k datům</a> (<a href="http://www.w3.org/ns/dcat#accessService">dcat:accessService</a>)
                       <br />Definice: <i>Umístění či přístupový bod zpřístupňující distribuci datové sady.</i>
                       <ul style="list-style-type: disclosure-closed;">
                       </ul>
@@ -10691,14 +10691,14 @@
                                   profiluje
                 třídu
                 
-                <a href="https://ofn.gov.cz/dcat-ap-cz-podmínky-užití/2025-08-12/#DataService">Data service (@en)</a> (<a href="http://www.w3.org/ns/dcat#DataService">dcat:DataService</a>)
+                <a href="http://www.w3.org/ns/dcat#DataService">Data service (@en)</a> (<a href="http://www.w3.org/ns/dcat#DataService">dcat:DataService</a>)
                   <br />Definice: <i>Umístění či přístupový bod poskytující operace související s hledáním, přistupem k, či výkonem funkcí na datech či souvisejících zdrojích.</i>
                   <ul style="list-style-type: disclosure-closed;">
                       <li>
                                   specializuje
                 třídu
                 
-                <a href="https://ofn.gov.cz/dcat-ap-cz-podmínky-užití/2025-08-12/#Resource">Katalogizovaný zdroj</a> (<a href="http://www.w3.org/ns/dcat#Resource">dcat:Resource</a>)
+                <a href="http://www.w3.org/ns/dcat#Resource">Katalogizovaný zdroj</a> (<a href="http://www.w3.org/ns/dcat#Resource">dcat:Resource</a>)
                   <br />Definice: <i>Zdroj publikovaný či řízený jediným činitelem.</i>
                   <ul style="list-style-type: disclosure-closed;">
                   </ul>
@@ -10717,7 +10717,7 @@
                                   profiluje
                 třídu
                 
-                <a href="https://ofn.gov.cz/dcat-ap-cz-podmínky-užití/2025-08-12/#Resource">Katalogizovaný zdroj</a> (<a href="http://www.w3.org/ns/dcat#Resource">dcat:Resource</a>)
+                <a href="http://www.w3.org/ns/dcat#Resource">Katalogizovaný zdroj</a> (<a href="http://www.w3.org/ns/dcat#Resource">dcat:Resource</a>)
                   <br />Definice: <i>Zdroj publikovaný či řízený jediným činitelem.</i>
                   <ul style="list-style-type: disclosure-closed;">
                   </ul>
@@ -10745,7 +10745,7 @@
                                   profiluje
                 třídu
                 
-                <a href="https://ofn.gov.cz/dcat-ap-cz-podmínky-užití/2025-08-12/#Resource">Katalogizovaný zdroj</a> (<a href="http://www.w3.org/ns/dcat#Resource">dcat:Resource</a>)
+                <a href="http://www.w3.org/ns/dcat#Resource">Katalogizovaný zdroj</a> (<a href="http://www.w3.org/ns/dcat#Resource">dcat:Resource</a>)
                   <br />Definice: <i>Zdroj publikovaný či řízený jediným činitelem.</i>
                   <ul style="list-style-type: disclosure-closed;">
                   </ul>
@@ -10789,14 +10789,14 @@
                                   profiluje
                 třídu
                 
-                <a href="https://ofn.gov.cz/dcat-ap-cz-podmínky-užití/2025-08-12/#DataService">Data service (@en)</a> (<a href="http://www.w3.org/ns/dcat#DataService">dcat:DataService</a>)
+                <a href="http://www.w3.org/ns/dcat#DataService">Data service (@en)</a> (<a href="http://www.w3.org/ns/dcat#DataService">dcat:DataService</a>)
                   <br />Definice: <i>Umístění či přístupový bod poskytující operace související s hledáním, přistupem k, či výkonem funkcí na datech či souvisejících zdrojích.</i>
                   <ul style="list-style-type: disclosure-closed;">
                       <li>
                                   specializuje
                 třídu
                 
-                <a href="https://ofn.gov.cz/dcat-ap-cz-podmínky-užití/2025-08-12/#Resource">Katalogizovaný zdroj</a> (<a href="http://www.w3.org/ns/dcat#Resource">dcat:Resource</a>)
+                <a href="http://www.w3.org/ns/dcat#Resource">Katalogizovaný zdroj</a> (<a href="http://www.w3.org/ns/dcat#Resource">dcat:Resource</a>)
                   <br />Definice: <i>Zdroj publikovaný či řízený jediným činitelem.</i>
                   <ul style="list-style-type: disclosure-closed;">
                   </ul>
@@ -10815,7 +10815,7 @@
                                   profiluje
                 třídu
                 
-                <a href="https://ofn.gov.cz/dcat-ap-cz-podmínky-užití/2025-08-12/#Resource">Katalogizovaný zdroj</a> (<a href="http://www.w3.org/ns/dcat#Resource">dcat:Resource</a>)
+                <a href="http://www.w3.org/ns/dcat#Resource">Katalogizovaný zdroj</a> (<a href="http://www.w3.org/ns/dcat#Resource">dcat:Resource</a>)
                   <br />Definice: <i>Zdroj publikovaný či řízený jediným činitelem.</i>
                   <ul style="list-style-type: disclosure-closed;">
                   </ul>
@@ -10843,7 +10843,7 @@
                                   profiluje
                 třídu
                 
-                <a href="https://ofn.gov.cz/dcat-ap-cz-podmínky-užití/2025-08-12/#Resource">Katalogizovaný zdroj</a> (<a href="http://www.w3.org/ns/dcat#Resource">dcat:Resource</a>)
+                <a href="http://www.w3.org/ns/dcat#Resource">Katalogizovaný zdroj</a> (<a href="http://www.w3.org/ns/dcat#Resource">dcat:Resource</a>)
                   <br />Definice: <i>Zdroj publikovaný či řízený jediným činitelem.</i>
                   <ul style="list-style-type: disclosure-closed;">
                   </ul>
@@ -10880,7 +10880,7 @@
                                   profiluje
                 třídu
                 
-                <a href="https://ofn.gov.cz/dcat-ap-cz-podmínky-užití/2025-08-12/#Resource">Katalogizovaný zdroj</a> (<a href="http://www.w3.org/ns/dcat#Resource">dcat:Resource</a>)
+                <a href="http://www.w3.org/ns/dcat#Resource">Katalogizovaný zdroj</a> (<a href="http://www.w3.org/ns/dcat#Resource">dcat:Resource</a>)
                   <br />Definice: <i>Zdroj publikovaný či řízený jediným činitelem.</i>
                   <ul style="list-style-type: disclosure-closed;">
                   </ul>
@@ -10988,7 +10988,7 @@
                                       profiluje
                     vlastnost
                     
-                    <a href="https://ofn.gov.cz/dcat-ap-cz-podmínky-užití/2025-08-12/#endpointURL">přístupový bod služby</a> (<a href="http://www.w3.org/ns/dcat#endpointURL">dcat:endpointURL</a>)
+                    <a href="http://www.w3.org/ns/dcat#endpointURL">přístupový bod služby</a> (<a href="http://www.w3.org/ns/dcat#endpointURL">dcat:endpointURL</a>)
                       <br />Definice: <i>Kořenové umístění nebo hlavní přístupový bod služby (IRI přístupné přes Web).</i>
                       <ul style="list-style-type: disclosure-closed;">
                       </ul>
@@ -11029,7 +11029,7 @@
                                       profiluje
                     vlastnost
                     
-                    <a href="https://ofn.gov.cz/dcat-ap-cz-podmínky-užití/2025-08-12/#endpointURL">přístupový bod služby</a> (<a href="http://www.w3.org/ns/dcat#endpointURL">dcat:endpointURL</a>)
+                    <a href="http://www.w3.org/ns/dcat#endpointURL">přístupový bod služby</a> (<a href="http://www.w3.org/ns/dcat#endpointURL">dcat:endpointURL</a>)
                       <br />Definice: <i>Kořenové umístění nebo hlavní přístupový bod služby (IRI přístupné přes Web).</i>
                       <ul style="list-style-type: disclosure-closed;">
                       </ul>
@@ -11129,7 +11129,7 @@
                                       profiluje
                     vlastnost
                     
-                    <a href="https://ofn.gov.cz/dcat-ap-cz-podmínky-užití/2025-08-12/#endpointDescription">popis přístupového bodu služby</a> (<a href="http://www.w3.org/ns/dcat#endpointDescription">dcat:endpointDescription</a>)
+                    <a href="http://www.w3.org/ns/dcat#endpointDescription">popis přístupového bodu služby</a> (<a href="http://www.w3.org/ns/dcat#endpointDescription">dcat:endpointDescription</a>)
                       <br />Definice: <i>Popis přístupového bodu služby včetně operací, parametrů apod.</i>
                       <ul style="list-style-type: disclosure-closed;">
                       </ul>
@@ -11170,7 +11170,7 @@
                                       profiluje
                     vlastnost
                     
-                    <a href="https://ofn.gov.cz/dcat-ap-cz-podmínky-užití/2025-08-12/#endpointDescription">popis přístupového bodu služby</a> (<a href="http://www.w3.org/ns/dcat#endpointDescription">dcat:endpointDescription</a>)
+                    <a href="http://www.w3.org/ns/dcat#endpointDescription">popis přístupového bodu služby</a> (<a href="http://www.w3.org/ns/dcat#endpointDescription">dcat:endpointDescription</a>)
                       <br />Definice: <i>Popis přístupového bodu služby včetně operací, parametrů apod.</i>
                       <ul style="list-style-type: disclosure-closed;">
                       </ul>
@@ -11259,7 +11259,7 @@
                                       profiluje
                     vlastnost
                     
-                    <a href="https://mff-uk.github.io/specifications/dcat-ap/#applicableLegislation">applicable legislation (@en)</a> (<a href="http://data.europa.eu/r5r/applicableLegislation">dcatap:applicableLegislation</a>)
+                    <a href="http://data.europa.eu/r5r/applicableLegislation">applicable legislation (@en)</a> (<a href="http://data.europa.eu/r5r/applicableLegislation">dcatap:applicableLegislation</a>)
                       <br />Definice: <i>the legislation that is applicable to this resource.</i>
                       <ul style="list-style-type: disclosure-closed;">
                       </ul>
@@ -11295,7 +11295,7 @@
                                       profiluje
                     vlastnost
                     
-                    <a href="https://mff-uk.github.io/specifications/dcat-ap/#applicableLegislation">applicable legislation (@en)</a> (<a href="http://data.europa.eu/r5r/applicableLegislation">dcatap:applicableLegislation</a>)
+                    <a href="http://data.europa.eu/r5r/applicableLegislation">applicable legislation (@en)</a> (<a href="http://data.europa.eu/r5r/applicableLegislation">dcatap:applicableLegislation</a>)
                       <br />Definice: <i>the legislation that is applicable to this resource.</i>
                       <ul style="list-style-type: disclosure-closed;">
                       </ul>
@@ -11396,7 +11396,7 @@
                                       profiluje
                     vlastnost
                     
-                    <a href="https://ofn.gov.cz/dcat-ap-cz-podmínky-užití/2025-08-12/#title">Title (@en)</a> (<a href="http://purl.org/dc/terms/title">dcterms:title</a>)
+                    <a href="http://purl.org/dc/terms/title">Title (@en)</a> (<a href="http://purl.org/dc/terms/title">dcterms:title</a>)
                       <br />Definice: <i>A name given to the resource.</i>
                       <ul style="list-style-type: disclosure-closed;">
                       </ul>
@@ -11488,7 +11488,7 @@
                                       profiluje
                     vlastnost
                     
-                    <a href="https://mff-uk.github.io/specifications/dcat-dap/#page">page (@en)</a> (<a href="http://xmlns.com/foaf/0.1/page">foaf:page</a>)
+                    <a href="http://xmlns.com/foaf/0.1/page">page (@en)</a> (<a href="http://xmlns.com/foaf/0.1/page">foaf:page</a>)
                       <br />Definice: <i>A page or document about this thing.</i>
                       <ul style="list-style-type: disclosure-closed;">
                       </ul>
@@ -11524,7 +11524,7 @@
                                       profiluje
                     vlastnost
                     
-                    <a href="https://mff-uk.github.io/specifications/dcat-dap/#page">page (@en)</a> (<a href="http://xmlns.com/foaf/0.1/page">foaf:page</a>)
+                    <a href="http://xmlns.com/foaf/0.1/page">page (@en)</a> (<a href="http://xmlns.com/foaf/0.1/page">foaf:page</a>)
                       <br />Definice: <i>A page or document about this thing.</i>
                       <ul style="list-style-type: disclosure-closed;">
                       </ul>
@@ -11625,14 +11625,14 @@
                                       profiluje
                     vlastnost
                     
-                    <a href="https://ofn.gov.cz/dcat-ap-cz-podmínky-užití/2025-08-12/#conformsTo">Conforms To (@en)</a> (<a href="http://purl.org/dc/terms/conformsTo">dcterms:conformsTo</a>)
+                    <a href="http://purl.org/dc/terms/conformsTo">Conforms To (@en)</a> (<a href="http://purl.org/dc/terms/conformsTo">dcterms:conformsTo</a>)
                       <br />Definice: <i>An established standard to which the described resource conforms.</i>
                       <ul style="list-style-type: disclosure-closed;">
                           <li>
                                       specializuje
                     vlastnost
                     
-                    <a href="https://ofn.gov.cz/dcat-ap-cz-podmínky-užití/2025-08-12/#relation">Relation (@en)</a> (<a href="http://purl.org/dc/terms/relation">dcterms:relation</a>)
+                    <a href="http://purl.org/dc/terms/relation">Relation (@en)</a> (<a href="http://purl.org/dc/terms/relation">dcterms:relation</a>)
                       <br />Definice: <i>A related resource.</i>
                       <ul style="list-style-type: disclosure-closed;">
                       </ul>
@@ -11720,7 +11720,7 @@
                                       profiluje
                     vlastnost
                     
-                    <a href="https://mff-uk.github.io/specifications/dcat-ap/#hvdCategory">HVD category (@en)</a> (<a href="http://data.europa.eu/r5r/hvdCategory">dcatap:hvdCategory</a>)
+                    <a href="http://data.europa.eu/r5r/hvdCategory">HVD category (@en)</a> (<a href="http://data.europa.eu/r5r/hvdCategory">dcatap:hvdCategory</a>)
                       <br />Definice: <i>A data category defined in the High Value Dataset Implementing Regulation.</i>
                       <ul style="list-style-type: disclosure-closed;">
                       </ul>
@@ -11804,7 +11804,7 @@
                                       profiluje
                     vlastnost
                     
-                    <a href="https://ofn.gov.cz/dcat-ap-cz-podmínky-užití/2025-08-12/#contactPoint">kontaktní bod</a> (<a href="http://www.w3.org/ns/dcat#contactPoint">dcat:contactPoint</a>)
+                    <a href="http://www.w3.org/ns/dcat#contactPoint">kontaktní bod</a> (<a href="http://www.w3.org/ns/dcat#contactPoint">dcat:contactPoint</a>)
                       <br />Definice: <i>Relevantní kontaktní informace pro katalogizovaný zdroj. Doporučuje se použít slovník VCard.</i>
                       <ul style="list-style-type: disclosure-closed;">
                       </ul>
@@ -11842,7 +11842,7 @@
                                       profiluje
                     vlastnost
                     
-                    <a href="https://ofn.gov.cz/dcat-ap-cz-podmínky-užití/2025-08-12/#contactPoint">kontaktní bod</a> (<a href="http://www.w3.org/ns/dcat#contactPoint">dcat:contactPoint</a>)
+                    <a href="http://www.w3.org/ns/dcat#contactPoint">kontaktní bod</a> (<a href="http://www.w3.org/ns/dcat#contactPoint">dcat:contactPoint</a>)
                       <br />Definice: <i>Relevantní kontaktní informace pro katalogizovaný zdroj. Doporučuje se použít slovník VCard.</i>
                       <ul style="list-style-type: disclosure-closed;">
                       </ul>
@@ -11918,14 +11918,14 @@
                                   specializuje
                 třídu
                 
-                <a href="https://ofn.gov.cz/dcat-ap-cz-podmínky-užití/2025-08-12/#LicenseDocument">License Document (@en)</a> (<a href="http://purl.org/dc/terms/LicenseDocument">dcterms:LicenseDocument</a>)
+                <a href="http://purl.org/dc/terms/LicenseDocument">License Document (@en)</a> (<a href="http://purl.org/dc/terms/LicenseDocument">dcterms:LicenseDocument</a>)
                   <br />Definice: <i>A legal document giving official permission to do something with a resource.</i>
                   <ul style="list-style-type: disclosure-closed;">
                       <li>
                                   specializuje
                 třídu
                 
-                <a href="https://ofn.gov.cz/dcat-ap-cz-podmínky-užití/2025-08-12/#RightsStatement">Rights Statement (@en)</a> (<a href="http://purl.org/dc/terms/RightsStatement">dcterms:RightsStatement</a>)
+                <a href="http://purl.org/dc/terms/RightsStatement">Rights Statement (@en)</a> (<a href="http://purl.org/dc/terms/RightsStatement">dcterms:RightsStatement</a>)
                   <br />Definice: <i>A statement about the intellectual property rights (IPR) held in or over a resource, a legal document giving official permission to do something with a resource, or a statement about access rights.</i>
                   <ul style="list-style-type: disclosure-closed;">
                   </ul>
@@ -12495,21 +12495,21 @@
                                   profiluje
                 třídu
                 
-                <a href="https://ofn.gov.cz/dcat-ap-cz-podmínky-užití/2025-08-12/#DatasetSeries">Dataset series (@en)</a> (<a href="http://www.w3.org/ns/dcat#DatasetSeries">dcat:DatasetSeries</a>)
+                <a href="http://www.w3.org/ns/dcat#DatasetSeries">Dataset series (@en)</a> (<a href="http://www.w3.org/ns/dcat#DatasetSeries">dcat:DatasetSeries</a>)
                   <br />Definice: <i>A collection of datasets that are published separately, but share some characteristics that group them.</i>
                   <ul style="list-style-type: disclosure-closed;">
                       <li>
                                   specializuje
                 třídu
                 
-                <a href="https://ofn.gov.cz/dcat-ap-cz-podmínky-užití/2025-08-12/#Dataset">Datová sada</a> (<a href="http://www.w3.org/ns/dcat#Dataset">dcat:Dataset</a>)
+                <a href="http://www.w3.org/ns/dcat#Dataset">Datová sada</a> (<a href="http://www.w3.org/ns/dcat#Dataset">dcat:Dataset</a>)
                   <br />Definice: <i>Kolekce dat poskytovaná či řízená jedním zdrojem, která je k dispozici pro přístup či stažení v jednom či více formátech.</i>
                   <ul style="list-style-type: disclosure-closed;">
                       <li>
                                   specializuje
                 třídu
                 
-                <a href="https://ofn.gov.cz/dcat-ap-cz-podmínky-užití/2025-08-12/#Resource">Katalogizovaný zdroj</a> (<a href="http://www.w3.org/ns/dcat#Resource">dcat:Resource</a>)
+                <a href="http://www.w3.org/ns/dcat#Resource">Katalogizovaný zdroj</a> (<a href="http://www.w3.org/ns/dcat#Resource">dcat:Resource</a>)
                   <br />Definice: <i>Zdroj publikovaný či řízený jediným činitelem.</i>
                   <ul style="list-style-type: disclosure-closed;">
                   </ul>
@@ -12531,14 +12531,14 @@
                                   profiluje
                 třídu
                 
-                <a href="https://ofn.gov.cz/dcat-ap-cz-podmínky-užití/2025-08-12/#Dataset">Datová sada</a> (<a href="http://www.w3.org/ns/dcat#Dataset">dcat:Dataset</a>)
+                <a href="http://www.w3.org/ns/dcat#Dataset">Datová sada</a> (<a href="http://www.w3.org/ns/dcat#Dataset">dcat:Dataset</a>)
                   <br />Definice: <i>Kolekce dat poskytovaná či řízená jedním zdrojem, která je k dispozici pro přístup či stažení v jednom či více formátech.</i>
                   <ul style="list-style-type: disclosure-closed;">
                       <li>
                                   specializuje
                 třídu
                 
-                <a href="https://ofn.gov.cz/dcat-ap-cz-podmínky-užití/2025-08-12/#Resource">Katalogizovaný zdroj</a> (<a href="http://www.w3.org/ns/dcat#Resource">dcat:Resource</a>)
+                <a href="http://www.w3.org/ns/dcat#Resource">Katalogizovaný zdroj</a> (<a href="http://www.w3.org/ns/dcat#Resource">dcat:Resource</a>)
                   <br />Definice: <i>Zdroj publikovaný či řízený jediným činitelem.</i>
                   <ul style="list-style-type: disclosure-closed;">
                   </ul>
@@ -12557,7 +12557,7 @@
                                   profiluje
                 třídu
                 
-                <a href="https://ofn.gov.cz/dcat-ap-cz-podmínky-užití/2025-08-12/#Resource">Katalogizovaný zdroj</a> (<a href="http://www.w3.org/ns/dcat#Resource">dcat:Resource</a>)
+                <a href="http://www.w3.org/ns/dcat#Resource">Katalogizovaný zdroj</a> (<a href="http://www.w3.org/ns/dcat#Resource">dcat:Resource</a>)
                   <br />Definice: <i>Zdroj publikovaný či řízený jediným činitelem.</i>
                   <ul style="list-style-type: disclosure-closed;">
                   </ul>
@@ -12588,7 +12588,7 @@
                                   profiluje
                 třídu
                 
-                <a href="https://ofn.gov.cz/dcat-ap-cz-podmínky-užití/2025-08-12/#Resource">Katalogizovaný zdroj</a> (<a href="http://www.w3.org/ns/dcat#Resource">dcat:Resource</a>)
+                <a href="http://www.w3.org/ns/dcat#Resource">Katalogizovaný zdroj</a> (<a href="http://www.w3.org/ns/dcat#Resource">dcat:Resource</a>)
                   <br />Definice: <i>Zdroj publikovaný či řízený jediným činitelem.</i>
                   <ul style="list-style-type: disclosure-closed;">
                   </ul>
@@ -12631,21 +12631,21 @@
                                   profiluje
                 třídu
                 
-                <a href="https://ofn.gov.cz/dcat-ap-cz-podmínky-užití/2025-08-12/#DatasetSeries">Dataset series (@en)</a> (<a href="http://www.w3.org/ns/dcat#DatasetSeries">dcat:DatasetSeries</a>)
+                <a href="http://www.w3.org/ns/dcat#DatasetSeries">Dataset series (@en)</a> (<a href="http://www.w3.org/ns/dcat#DatasetSeries">dcat:DatasetSeries</a>)
                   <br />Definice: <i>A collection of datasets that are published separately, but share some characteristics that group them.</i>
                   <ul style="list-style-type: disclosure-closed;">
                       <li>
                                   specializuje
                 třídu
                 
-                <a href="https://ofn.gov.cz/dcat-ap-cz-podmínky-užití/2025-08-12/#Dataset">Datová sada</a> (<a href="http://www.w3.org/ns/dcat#Dataset">dcat:Dataset</a>)
+                <a href="http://www.w3.org/ns/dcat#Dataset">Datová sada</a> (<a href="http://www.w3.org/ns/dcat#Dataset">dcat:Dataset</a>)
                   <br />Definice: <i>Kolekce dat poskytovaná či řízená jedním zdrojem, která je k dispozici pro přístup či stažení v jednom či více formátech.</i>
                   <ul style="list-style-type: disclosure-closed;">
                       <li>
                                   specializuje
                 třídu
                 
-                <a href="https://ofn.gov.cz/dcat-ap-cz-podmínky-užití/2025-08-12/#Resource">Katalogizovaný zdroj</a> (<a href="http://www.w3.org/ns/dcat#Resource">dcat:Resource</a>)
+                <a href="http://www.w3.org/ns/dcat#Resource">Katalogizovaný zdroj</a> (<a href="http://www.w3.org/ns/dcat#Resource">dcat:Resource</a>)
                   <br />Definice: <i>Zdroj publikovaný či řízený jediným činitelem.</i>
                   <ul style="list-style-type: disclosure-closed;">
                   </ul>
@@ -12667,14 +12667,14 @@
                                   profiluje
                 třídu
                 
-                <a href="https://ofn.gov.cz/dcat-ap-cz-podmínky-užití/2025-08-12/#Dataset">Datová sada</a> (<a href="http://www.w3.org/ns/dcat#Dataset">dcat:Dataset</a>)
+                <a href="http://www.w3.org/ns/dcat#Dataset">Datová sada</a> (<a href="http://www.w3.org/ns/dcat#Dataset">dcat:Dataset</a>)
                   <br />Definice: <i>Kolekce dat poskytovaná či řízená jedním zdrojem, která je k dispozici pro přístup či stažení v jednom či více formátech.</i>
                   <ul style="list-style-type: disclosure-closed;">
                       <li>
                                   specializuje
                 třídu
                 
-                <a href="https://ofn.gov.cz/dcat-ap-cz-podmínky-užití/2025-08-12/#Resource">Katalogizovaný zdroj</a> (<a href="http://www.w3.org/ns/dcat#Resource">dcat:Resource</a>)
+                <a href="http://www.w3.org/ns/dcat#Resource">Katalogizovaný zdroj</a> (<a href="http://www.w3.org/ns/dcat#Resource">dcat:Resource</a>)
                   <br />Definice: <i>Zdroj publikovaný či řízený jediným činitelem.</i>
                   <ul style="list-style-type: disclosure-closed;">
                   </ul>
@@ -12693,7 +12693,7 @@
                                   profiluje
                 třídu
                 
-                <a href="https://ofn.gov.cz/dcat-ap-cz-podmínky-užití/2025-08-12/#Resource">Katalogizovaný zdroj</a> (<a href="http://www.w3.org/ns/dcat#Resource">dcat:Resource</a>)
+                <a href="http://www.w3.org/ns/dcat#Resource">Katalogizovaný zdroj</a> (<a href="http://www.w3.org/ns/dcat#Resource">dcat:Resource</a>)
                   <br />Definice: <i>Zdroj publikovaný či řízený jediným činitelem.</i>
                   <ul style="list-style-type: disclosure-closed;">
                   </ul>
@@ -12724,7 +12724,7 @@
                                   profiluje
                 třídu
                 
-                <a href="https://ofn.gov.cz/dcat-ap-cz-podmínky-užití/2025-08-12/#Resource">Katalogizovaný zdroj</a> (<a href="http://www.w3.org/ns/dcat#Resource">dcat:Resource</a>)
+                <a href="http://www.w3.org/ns/dcat#Resource">Katalogizovaný zdroj</a> (<a href="http://www.w3.org/ns/dcat#Resource">dcat:Resource</a>)
                   <br />Definice: <i>Zdroj publikovaný či řízený jediným činitelem.</i>
                   <ul style="list-style-type: disclosure-closed;">
                   </ul>
@@ -12761,7 +12761,7 @@
                                   profiluje
                 třídu
                 
-                <a href="https://ofn.gov.cz/dcat-ap-cz-podmínky-užití/2025-08-12/#Resource">Katalogizovaný zdroj</a> (<a href="http://www.w3.org/ns/dcat#Resource">dcat:Resource</a>)
+                <a href="http://www.w3.org/ns/dcat#Resource">Katalogizovaný zdroj</a> (<a href="http://www.w3.org/ns/dcat#Resource">dcat:Resource</a>)
                   <br />Definice: <i>Zdroj publikovaný či řízený jediným činitelem.</i>
                   <ul style="list-style-type: disclosure-closed;">
                   </ul>
@@ -12871,7 +12871,7 @@
                                       profiluje
                     vlastnost
                     
-                    <a href="https://ofn.gov.cz/dcat-ap-cz-podmínky-užití/2025-08-12/#title">Title (@en)</a> (<a href="http://purl.org/dc/terms/title">dcterms:title</a>)
+                    <a href="http://purl.org/dc/terms/title">Title (@en)</a> (<a href="http://purl.org/dc/terms/title">dcterms:title</a>)
                       <br />Definice: <i>A name given to the resource.</i>
                       <ul style="list-style-type: disclosure-closed;">
                       </ul>
@@ -12976,7 +12976,7 @@
                                       profiluje
                     vlastnost
                     
-                    <a href="https://ofn.gov.cz/dcat-ap-cz-podmínky-užití/2025-08-12/#description">Description (@en)</a> (<a href="http://purl.org/dc/terms/description">dcterms:description</a>)
+                    <a href="http://purl.org/dc/terms/description">Description (@en)</a> (<a href="http://purl.org/dc/terms/description">dcterms:description</a>)
                       <br />Definice: <i>An account of the resource.</i>
                       <ul style="list-style-type: disclosure-closed;">
                       </ul>
@@ -13078,7 +13078,7 @@
                                       profiluje
                     vlastnost
                     
-                    <a href="https://ofn.gov.cz/dcat-ap-cz-podmínky-užití/2025-08-12/#keyword">klíčové slovo</a> (<a href="http://www.w3.org/ns/dcat#keyword">dcat:keyword</a>)
+                    <a href="http://www.w3.org/ns/dcat#keyword">klíčové slovo</a> (<a href="http://www.w3.org/ns/dcat#keyword">dcat:keyword</a>)
                       <br />Definice: <i>Klíčové slovo nebo značka popisující zdroj.</i>
                       <ul style="list-style-type: disclosure-closed;">
                       </ul>
@@ -13177,14 +13177,14 @@
                                       profiluje
                     vlastnost
                     
-                    <a href="https://ofn.gov.cz/dcat-ap-cz-podmínky-užití/2025-08-12/#theme">téma</a> (<a href="http://www.w3.org/ns/dcat#theme">dcat:theme</a>)
+                    <a href="http://www.w3.org/ns/dcat#theme">téma</a> (<a href="http://www.w3.org/ns/dcat#theme">dcat:theme</a>)
                       <br />Definice: <i>Hlavní téma zdroje. Zdroj může mít více témat.</i>
                       <ul style="list-style-type: disclosure-closed;">
                           <li>
                                       specializuje
                     vlastnost
                     
-                    <a href="https://ofn.gov.cz/dcat-ap-cz-podmínky-užití/2025-08-12/#subject">Subject (@en)</a> (<a href="http://purl.org/dc/terms/subject">dcterms:subject</a>)
+                    <a href="http://purl.org/dc/terms/subject">Subject (@en)</a> (<a href="http://purl.org/dc/terms/subject">dcterms:subject</a>)
                       <br />Definice: <i>A topic of the resource.</i>
                       <ul style="list-style-type: disclosure-closed;">
                       </ul>
@@ -13292,7 +13292,7 @@
                                       profiluje
                     vlastnost
                     
-                    <a href="https://ofn.gov.cz/dcat-ap-cz-podmínky-užití/2025-08-12/#accrualPeriodicity">Accrual Periodicity (@en)</a> (<a href="http://purl.org/dc/terms/accrualPeriodicity">dcterms:accrualPeriodicity</a>)
+                    <a href="http://purl.org/dc/terms/accrualPeriodicity">Accrual Periodicity (@en)</a> (<a href="http://purl.org/dc/terms/accrualPeriodicity">dcterms:accrualPeriodicity</a>)
                       <br />Definice: <i>The frequency with which items are added to a collection.</i>
                       <ul style="list-style-type: disclosure-closed;">
                       </ul>
@@ -13396,7 +13396,7 @@
                                       profiluje
                     vlastnost
                     
-                    <a href="https://ofn.gov.cz/dcat-ap-cz-podmínky-užití/2025-08-12/#publisher">Publisher (@en)</a> (<a href="http://purl.org/dc/terms/publisher">dcterms:publisher</a>)
+                    <a href="http://purl.org/dc/terms/publisher">Publisher (@en)</a> (<a href="http://purl.org/dc/terms/publisher">dcterms:publisher</a>)
                       <br />Definice: <i>An entity responsible for making the resource available.</i>
                       <ul style="list-style-type: disclosure-closed;">
                       </ul>
@@ -13500,14 +13500,14 @@
                                       profiluje
                     vlastnost
                     
-                    <a href="https://ofn.gov.cz/dcat-ap-cz-podmínky-užití/2025-08-12/#spatial">Spatial Coverage (@en)</a> (<a href="http://purl.org/dc/terms/spatial">dcterms:spatial</a>)
+                    <a href="http://purl.org/dc/terms/spatial">Spatial Coverage (@en)</a> (<a href="http://purl.org/dc/terms/spatial">dcterms:spatial</a>)
                       <br />Definice: <i>Spatial characteristics of the resource.</i>
                       <ul style="list-style-type: disclosure-closed;">
                           <li>
                                       specializuje
                     vlastnost
                     
-                    <a href="https://ofn.gov.cz/dcat-ap-cz-podmínky-užití/2025-08-12/#coverage">Coverage (@en)</a> (<a href="http://purl.org/dc/terms/coverage">dcterms:coverage</a>)
+                    <a href="http://purl.org/dc/terms/coverage">Coverage (@en)</a> (<a href="http://purl.org/dc/terms/coverage">dcterms:coverage</a>)
                       <br />Definice: <i>The spatial or temporal topic of the resource, spatial applicability of the resource, or jurisdiction under which the resource is relevant.</i>
                       <ul style="list-style-type: disclosure-closed;">
                       </ul>
@@ -13601,7 +13601,7 @@
                                       profiluje
                     vlastnost
                     
-                    <a href="https://mff-uk.github.io/specifications/dcat-ap/#applicableLegislation">applicable legislation (@en)</a> (<a href="http://data.europa.eu/r5r/applicableLegislation">dcatap:applicableLegislation</a>)
+                    <a href="http://data.europa.eu/r5r/applicableLegislation">applicable legislation (@en)</a> (<a href="http://data.europa.eu/r5r/applicableLegislation">dcatap:applicableLegislation</a>)
                       <br />Definice: <i>the legislation that is applicable to this resource.</i>
                       <ul style="list-style-type: disclosure-closed;">
                       </ul>
@@ -13637,7 +13637,7 @@
                                       profiluje
                     vlastnost
                     
-                    <a href="https://mff-uk.github.io/specifications/dcat-ap/#applicableLegislation">applicable legislation (@en)</a> (<a href="http://data.europa.eu/r5r/applicableLegislation">dcatap:applicableLegislation</a>)
+                    <a href="http://data.europa.eu/r5r/applicableLegislation">applicable legislation (@en)</a> (<a href="http://data.europa.eu/r5r/applicableLegislation">dcatap:applicableLegislation</a>)
                       <br />Definice: <i>the legislation that is applicable to this resource.</i>
                       <ul style="list-style-type: disclosure-closed;">
                       </ul>
@@ -13719,7 +13719,7 @@
                                       profiluje
                     vlastnost
                     
-                    <a href="https://mff-uk.github.io/specifications/dcat-ap/#hvdCategory">HVD category (@en)</a> (<a href="http://data.europa.eu/r5r/hvdCategory">dcatap:hvdCategory</a>)
+                    <a href="http://data.europa.eu/r5r/hvdCategory">HVD category (@en)</a> (<a href="http://data.europa.eu/r5r/hvdCategory">dcatap:hvdCategory</a>)
                       <br />Definice: <i>A data category defined in the High Value Dataset Implementing Regulation.</i>
                       <ul style="list-style-type: disclosure-closed;">
                       </ul>
@@ -13810,7 +13810,7 @@
                                       profiluje
                     vlastnost
                     
-                    <a href="https://ofn.gov.cz/dcat-ap-cz-podmínky-užití/2025-08-12/#contactPoint">kontaktní bod</a> (<a href="http://www.w3.org/ns/dcat#contactPoint">dcat:contactPoint</a>)
+                    <a href="http://www.w3.org/ns/dcat#contactPoint">kontaktní bod</a> (<a href="http://www.w3.org/ns/dcat#contactPoint">dcat:contactPoint</a>)
                       <br />Definice: <i>Relevantní kontaktní informace pro katalogizovaný zdroj. Doporučuje se použít slovník VCard.</i>
                       <ul style="list-style-type: disclosure-closed;">
                       </ul>
@@ -13911,14 +13911,14 @@
                                       profiluje
                     vlastnost
                     
-                    <a href="https://ofn.gov.cz/dcat-ap-cz-podmínky-užití/2025-08-12/#spatial">Spatial Coverage (@en)</a> (<a href="http://purl.org/dc/terms/spatial">dcterms:spatial</a>)
+                    <a href="http://purl.org/dc/terms/spatial">Spatial Coverage (@en)</a> (<a href="http://purl.org/dc/terms/spatial">dcterms:spatial</a>)
                       <br />Definice: <i>Spatial characteristics of the resource.</i>
                       <ul style="list-style-type: disclosure-closed;">
                           <li>
                                       specializuje
                     vlastnost
                     
-                    <a href="https://ofn.gov.cz/dcat-ap-cz-podmínky-užití/2025-08-12/#coverage">Coverage (@en)</a> (<a href="http://purl.org/dc/terms/coverage">dcterms:coverage</a>)
+                    <a href="http://purl.org/dc/terms/coverage">Coverage (@en)</a> (<a href="http://purl.org/dc/terms/coverage">dcterms:coverage</a>)
                       <br />Definice: <i>The spatial or temporal topic of the resource, spatial applicability of the resource, or jurisdiction under which the resource is relevant.</i>
                       <ul style="list-style-type: disclosure-closed;">
                       </ul>
@@ -14026,14 +14026,14 @@
                                       profiluje
                     vlastnost
                     
-                    <a href="https://ofn.gov.cz/dcat-ap-cz-podmínky-užití/2025-08-12/#temporal">Temporal Coverage (@en)</a> (<a href="http://purl.org/dc/terms/temporal">dcterms:temporal</a>)
+                    <a href="http://purl.org/dc/terms/temporal">Temporal Coverage (@en)</a> (<a href="http://purl.org/dc/terms/temporal">dcterms:temporal</a>)
                       <br />Definice: <i>Temporal characteristics of the resource.</i>
                       <ul style="list-style-type: disclosure-closed;">
                           <li>
                                       specializuje
                     vlastnost
                     
-                    <a href="https://ofn.gov.cz/dcat-ap-cz-podmínky-užití/2025-08-12/#coverage">Coverage (@en)</a> (<a href="http://purl.org/dc/terms/coverage">dcterms:coverage</a>)
+                    <a href="http://purl.org/dc/terms/coverage">Coverage (@en)</a> (<a href="http://purl.org/dc/terms/coverage">dcterms:coverage</a>)
                       <br />Definice: <i>The spatial or temporal topic of the resource, spatial applicability of the resource, or jurisdiction under which the resource is relevant.</i>
                       <ul style="list-style-type: disclosure-closed;">
                       </ul>
@@ -14134,7 +14134,7 @@
                                       profiluje
                     vlastnost
                     
-                    <a href="https://mff-uk.github.io/specifications/dcat-dap/#page">page (@en)</a> (<a href="http://xmlns.com/foaf/0.1/page">foaf:page</a>)
+                    <a href="http://xmlns.com/foaf/0.1/page">page (@en)</a> (<a href="http://xmlns.com/foaf/0.1/page">foaf:page</a>)
                       <br />Definice: <i>A page or document about this thing.</i>
                       <ul style="list-style-type: disclosure-closed;">
                       </ul>
@@ -14224,14 +14224,14 @@
                                       profiluje
                     vlastnost
                     
-                    <a href="https://ofn.gov.cz/dcat-ap-cz-podmínky-užití/2025-08-12/#landingPage">vstupní stránka</a> (<a href="http://www.w3.org/ns/dcat#landingPage">dcat:landingPage</a>)
+                    <a href="http://www.w3.org/ns/dcat#landingPage">vstupní stránka</a> (<a href="http://www.w3.org/ns/dcat#landingPage">dcat:landingPage</a>)
                       <br />Definice: <i>Webová stránka, na kterou lze pro získání přístupu ke katalogu, datové sadě, jejím distribucím a/nebo dalším informacím přistoupit webovým prohlížečem.</i>
                       <ul style="list-style-type: disclosure-closed;">
                           <li>
                                       specializuje
                     vlastnost
                     
-                    <a href="https://mff-uk.github.io/specifications/dcat-dap/#page">page (@en)</a> (<a href="http://xmlns.com/foaf/0.1/page">foaf:page</a>)
+                    <a href="http://xmlns.com/foaf/0.1/page">page (@en)</a> (<a href="http://xmlns.com/foaf/0.1/page">foaf:page</a>)
                       <br />Definice: <i>A page or document about this thing.</i>
                       <ul style="list-style-type: disclosure-closed;">
                       </ul>
@@ -14335,14 +14335,14 @@
                                       profiluje
                     vlastnost
                     
-                    <a href="https://ofn.gov.cz/dcat-ap-cz-podmínky-užití/2025-08-12/#theme">téma</a> (<a href="http://www.w3.org/ns/dcat#theme">dcat:theme</a>)
+                    <a href="http://www.w3.org/ns/dcat#theme">téma</a> (<a href="http://www.w3.org/ns/dcat#theme">dcat:theme</a>)
                       <br />Definice: <i>Hlavní téma zdroje. Zdroj může mít více témat.</i>
                       <ul style="list-style-type: disclosure-closed;">
                           <li>
                                       specializuje
                     vlastnost
                     
-                    <a href="https://ofn.gov.cz/dcat-ap-cz-podmínky-užití/2025-08-12/#subject">Subject (@en)</a> (<a href="http://purl.org/dc/terms/subject">dcterms:subject</a>)
+                    <a href="http://purl.org/dc/terms/subject">Subject (@en)</a> (<a href="http://purl.org/dc/terms/subject">dcterms:subject</a>)
                       <br />Definice: <i>A topic of the resource.</i>
                       <ul style="list-style-type: disclosure-closed;">
                       </ul>
@@ -14448,21 +14448,21 @@
                                       profiluje
                     vlastnost
                     
-                    <a href="https://ofn.gov.cz/dcat-ap-cz-podmínky-užití/2025-08-12/#inSeries">in series (@en)</a> (<a href="http://www.w3.org/ns/dcat#inSeries">dcat:inSeries</a>)
+                    <a href="http://www.w3.org/ns/dcat#inSeries">in series (@en)</a> (<a href="http://www.w3.org/ns/dcat#inSeries">dcat:inSeries</a>)
                       <br />Definice: <i>A dataset series of which the dataset is part.</i>
                       <ul style="list-style-type: disclosure-closed;">
                           <li>
                                       specializuje
                     vlastnost
                     
-                    <a href="https://ofn.gov.cz/dcat-ap-cz-podmínky-užití/2025-08-12/#isPartOf">Is Part Of (@en)</a> (<a href="http://purl.org/dc/terms/isPartOf">dcterms:isPartOf</a>)
+                    <a href="http://purl.org/dc/terms/isPartOf">Is Part Of (@en)</a> (<a href="http://purl.org/dc/terms/isPartOf">dcterms:isPartOf</a>)
                       <br />Definice: <i>A related resource in which the described resource is physically or logically included.</i>
                       <ul style="list-style-type: disclosure-closed;">
                           <li>
                                       specializuje
                     vlastnost
                     
-                    <a href="https://ofn.gov.cz/dcat-ap-cz-podmínky-užití/2025-08-12/#relation">Relation (@en)</a> (<a href="http://purl.org/dc/terms/relation">dcterms:relation</a>)
+                    <a href="http://purl.org/dc/terms/relation">Relation (@en)</a> (<a href="http://purl.org/dc/terms/relation">dcterms:relation</a>)
                       <br />Definice: <i>A related resource.</i>
                       <ul style="list-style-type: disclosure-closed;">
                       </ul>
@@ -14550,7 +14550,7 @@
                                   profiluje
                 třídu
                 
-                <a href="https://mff-uk.github.io/specifications/dcat-dap/#Concept">Concept (@en)</a> (<a href="http://www.w3.org/2004/02/skos/core#Concept">skos:Concept</a>)
+                <a href="http://www.w3.org/2004/02/skos/core#Concept">Concept (@en)</a> (<a href="http://www.w3.org/2004/02/skos/core#Concept">skos:Concept</a>)
                   <br />Definice: <i>An idea or notion; a unit of thought.</i>
                   <ul style="list-style-type: disclosure-closed;">
                   </ul>
@@ -14650,14 +14650,14 @@
                                   profiluje
                 třídu
                 
-                <a href="https://ofn.gov.cz/dcat-ap-cz-podmínky-užití/2025-08-12/#PeriodOfTime">Period of Time (@en)</a> (<a href="http://purl.org/dc/terms/PeriodOfTime">dcterms:PeriodOfTime</a>)
+                <a href="http://purl.org/dc/terms/PeriodOfTime">Period of Time (@en)</a> (<a href="http://purl.org/dc/terms/PeriodOfTime">dcterms:PeriodOfTime</a>)
                   <br />Definice: <i>An interval of time that is named or defined by its start and end dates.</i>
                   <ul style="list-style-type: disclosure-closed;">
                       <li>
                                   specializuje
                 třídu
                 
-                <a href="https://ofn.gov.cz/dcat-ap-cz-podmínky-užití/2025-08-12/#LocationPeriodOrJurisdiction">Location, Period, or Jurisdiction (@en)</a> (<a href="http://purl.org/dc/terms/LocationPeriodOrJurisdiction">dcterms:LocationPeriodOrJurisdiction</a>)
+                <a href="http://purl.org/dc/terms/LocationPeriodOrJurisdiction">Location, Period, or Jurisdiction (@en)</a> (<a href="http://purl.org/dc/terms/LocationPeriodOrJurisdiction">dcterms:LocationPeriodOrJurisdiction</a>)
                   <br />Definice: <i>A location, period of time, or jurisdiction.</i>
                   <ul style="list-style-type: disclosure-closed;">
                   </ul>
@@ -14768,7 +14768,7 @@
                                       profiluje
                     vlastnost
                     
-                    <a href="https://ofn.gov.cz/dcat-ap-cz-podmínky-užití/2025-08-12/#endDate">datum konce</a> (<a href="http://www.w3.org/ns/dcat#endDate">dcat:endDate</a>)
+                    <a href="http://www.w3.org/ns/dcat#endDate">datum konce</a> (<a href="http://www.w3.org/ns/dcat#endDate">dcat:endDate</a>)
                       <br />Definice: <i>Konec doby trvání.</i>
                       <ul style="list-style-type: disclosure-closed;">
                       </ul>
@@ -14872,7 +14872,7 @@
                                       profiluje
                     vlastnost
                     
-                    <a href="https://ofn.gov.cz/dcat-ap-cz-podmínky-užití/2025-08-12/#startDate">datum začátku</a> (<a href="http://www.w3.org/ns/dcat#startDate">dcat:startDate</a>)
+                    <a href="http://www.w3.org/ns/dcat#startDate">datum začátku</a> (<a href="http://www.w3.org/ns/dcat#startDate">dcat:startDate</a>)
                       <br />Definice: <i>Začátek doby trvání</i>
                       <ul style="list-style-type: disclosure-closed;">
                       </ul>
@@ -14959,7 +14959,7 @@
                                   profiluje
                 třídu
                 
-                <a href="https://mff-uk.github.io/specifications/dcat-dap/#Concept">Concept (@en)</a> (<a href="http://www.w3.org/2004/02/skos/core#Concept">skos:Concept</a>)
+                <a href="http://www.w3.org/2004/02/skos/core#Concept">Concept (@en)</a> (<a href="http://www.w3.org/2004/02/skos/core#Concept">skos:Concept</a>)
                   <br />Definice: <i>An idea or notion; a unit of thought.</i>
                   <ul style="list-style-type: disclosure-closed;">
                   </ul>
@@ -15043,7 +15043,7 @@
                                   profiluje
                 třídu
                 
-                <a href="https://mff-uk.github.io/specifications/dcat-dap/#Document">Document (@en)</a> (<a href="http://xmlns.com/foaf/0.1/Document">foaf:Document</a>)
+                <a href="http://xmlns.com/foaf/0.1/Document">Document (@en)</a> (<a href="http://xmlns.com/foaf/0.1/Document">foaf:Document</a>)
                   <br />Definice: <i>A document.</i>
                   <ul style="list-style-type: disclosure-closed;">
                   </ul>
@@ -15141,7 +15141,7 @@
                                   profiluje
                 třídu
                 
-                <a href="https://mff-uk.github.io/specifications/dcat-dap/#Resource">Resource (@en)</a> (<a href="http://www.w3.org/2000/01/rdf-schema#Resource">rdfs:Resource</a>)
+                <a href="http://www.w3.org/2000/01/rdf-schema#Resource">Resource (@en)</a> (<a href="http://www.w3.org/2000/01/rdf-schema#Resource">rdfs:Resource</a>)
                   <br />Definice: <i>The class resource, everything.</i>
                   <ul style="list-style-type: disclosure-closed;">
                   </ul>
@@ -15232,7 +15232,7 @@
                                   profiluje
                 třídu
                 
-                <a href="https://ofn.gov.cz/dcat-ap-cz-podmínky-užití/2025-08-12/#MediaTypeOrExtent">Media Type or Extent (@en)</a> (<a href="http://purl.org/dc/terms/MediaTypeOrExtent">dcterms:MediaTypeOrExtent</a>)
+                <a href="http://purl.org/dc/terms/MediaTypeOrExtent">Media Type or Extent (@en)</a> (<a href="http://purl.org/dc/terms/MediaTypeOrExtent">dcterms:MediaTypeOrExtent</a>)
                   <br />Definice: <i>A media type or extent.</i>
                   <ul style="list-style-type: disclosure-closed;">
                   </ul>
@@ -15321,7 +15321,7 @@
                                   profiluje
                 třídu
                 
-                <a href="https://ofn.gov.cz/dcat-ap-cz-podmínky-užití/2025-08-12/#Frequency">Frequency (@en)</a> (<a href="http://purl.org/dc/terms/Frequency">dcterms:Frequency</a>)
+                <a href="http://purl.org/dc/terms/Frequency">Frequency (@en)</a> (<a href="http://purl.org/dc/terms/Frequency">dcterms:Frequency</a>)
                   <br />Definice: <i>A rate at which something recurs.</i>
                   <ul style="list-style-type: disclosure-closed;">
                   </ul>
@@ -15410,14 +15410,14 @@
                                   profiluje
                 třídu
                 
-                <a href="https://ofn.gov.cz/dcat-ap-cz-podmínky-užití/2025-08-12/#Location">Location (@en)</a> (<a href="http://purl.org/dc/terms/Location">dcterms:Location</a>)
+                <a href="http://purl.org/dc/terms/Location">Location (@en)</a> (<a href="http://purl.org/dc/terms/Location">dcterms:Location</a>)
                   <br />Definice: <i>A spatial region or named place.</i>
                   <ul style="list-style-type: disclosure-closed;">
                       <li>
                                   specializuje
                 třídu
                 
-                <a href="https://ofn.gov.cz/dcat-ap-cz-podmínky-užití/2025-08-12/#LocationPeriodOrJurisdiction">Location, Period, or Jurisdiction (@en)</a> (<a href="http://purl.org/dc/terms/LocationPeriodOrJurisdiction">dcterms:LocationPeriodOrJurisdiction</a>)
+                <a href="http://purl.org/dc/terms/LocationPeriodOrJurisdiction">Location, Period, or Jurisdiction (@en)</a> (<a href="http://purl.org/dc/terms/LocationPeriodOrJurisdiction">dcterms:LocationPeriodOrJurisdiction</a>)
                   <br />Definice: <i>A location, period of time, or jurisdiction.</i>
                   <ul style="list-style-type: disclosure-closed;">
                   </ul>
@@ -15497,14 +15497,14 @@
                                   profiluje
                 třídu
                 
-                <a href="https://mff-uk.github.io/specifications/dcat-dap/#Individual">Individual (@en)</a> (<a href="http://www.w3.org/2006/vcard/ns#Individual">vcard:Individual</a>)
+                <a href="http://www.w3.org/2006/vcard/ns#Individual">Individual (@en)</a> (<a href="http://www.w3.org/2006/vcard/ns#Individual">vcard:Individual</a>)
                   <br />Definice: <i>An object representing a single person or entity</i>
                   <ul style="list-style-type: disclosure-closed;">
                       <li>
                                   specializuje
                 třídu
                 
-                <a href="https://mff-uk.github.io/specifications/dcat-dap/#Kind">Kind (@en)</a> (<a href="http://www.w3.org/2006/vcard/ns#Kind">vcard:Kind</a>)
+                <a href="http://www.w3.org/2006/vcard/ns#Kind">Kind (@en)</a> (<a href="http://www.w3.org/2006/vcard/ns#Kind">vcard:Kind</a>)
                   <br />Definice: <i>The parent class for all objects</i>
                   <ul style="list-style-type: disclosure-closed;">
                   </ul>
@@ -15537,7 +15537,7 @@
                                   profiluje
                 třídu
                 
-                <a href="https://mff-uk.github.io/specifications/dcat-dap/#Kind">Kind (@en)</a> (<a href="http://www.w3.org/2006/vcard/ns#Kind">vcard:Kind</a>)
+                <a href="http://www.w3.org/2006/vcard/ns#Kind">Kind (@en)</a> (<a href="http://www.w3.org/2006/vcard/ns#Kind">vcard:Kind</a>)
                   <br />Definice: <i>The parent class for all objects</i>
                   <ul style="list-style-type: disclosure-closed;">
                   </ul>
@@ -15585,7 +15585,7 @@
                                   profiluje
                 třídu
                 
-                <a href="https://mff-uk.github.io/specifications/dcat-dap/#Kind">Kind (@en)</a> (<a href="http://www.w3.org/2006/vcard/ns#Kind">vcard:Kind</a>)
+                <a href="http://www.w3.org/2006/vcard/ns#Kind">Kind (@en)</a> (<a href="http://www.w3.org/2006/vcard/ns#Kind">vcard:Kind</a>)
                   <br />Definice: <i>The parent class for all objects</i>
                   <ul style="list-style-type: disclosure-closed;">
                   </ul>
@@ -15642,7 +15642,7 @@
                                   profiluje
                 třídu
                 
-                <a href="https://mff-uk.github.io/specifications/dcat-dap/#Kind">Kind (@en)</a> (<a href="http://www.w3.org/2006/vcard/ns#Kind">vcard:Kind</a>)
+                <a href="http://www.w3.org/2006/vcard/ns#Kind">Kind (@en)</a> (<a href="http://www.w3.org/2006/vcard/ns#Kind">vcard:Kind</a>)
                   <br />Definice: <i>The parent class for all objects</i>
                   <ul style="list-style-type: disclosure-closed;">
                   </ul>
@@ -15683,7 +15683,7 @@
                                   profiluje
                 třídu
                 
-                <a href="https://mff-uk.github.io/specifications/dcat-dap/#Kind">Kind (@en)</a> (<a href="http://www.w3.org/2006/vcard/ns#Kind">vcard:Kind</a>)
+                <a href="http://www.w3.org/2006/vcard/ns#Kind">Kind (@en)</a> (<a href="http://www.w3.org/2006/vcard/ns#Kind">vcard:Kind</a>)
                   <br />Definice: <i>The parent class for all objects</i>
                   <ul style="list-style-type: disclosure-closed;">
                   </ul>
@@ -15762,7 +15762,7 @@
                                   profiluje
                 třídu
                 
-                <a href="https://mff-uk.github.io/specifications/dcat-dap/#Concept">Concept (@en)</a> (<a href="http://www.w3.org/2004/02/skos/core#Concept">skos:Concept</a>)
+                <a href="http://www.w3.org/2004/02/skos/core#Concept">Concept (@en)</a> (<a href="http://www.w3.org/2004/02/skos/core#Concept">skos:Concept</a>)
                   <br />Definice: <i>An idea or notion; a unit of thought.</i>
                   <ul style="list-style-type: disclosure-closed;">
                   </ul>
@@ -15844,7 +15844,7 @@
                                   profiluje
                 třídu
                 
-                <a href="https://mff-uk.github.io/specifications/dcat-dap/#Kind">Kind (@en)</a> (<a href="http://www.w3.org/2006/vcard/ns#Kind">vcard:Kind</a>)
+                <a href="http://www.w3.org/2006/vcard/ns#Kind">Kind (@en)</a> (<a href="http://www.w3.org/2006/vcard/ns#Kind">vcard:Kind</a>)
                   <br />Definice: <i>The parent class for all objects</i>
                   <ul style="list-style-type: disclosure-closed;">
                   </ul>
@@ -15885,7 +15885,7 @@
                                   profiluje
                 třídu
                 
-                <a href="https://mff-uk.github.io/specifications/dcat-dap/#Kind">Kind (@en)</a> (<a href="http://www.w3.org/2006/vcard/ns#Kind">vcard:Kind</a>)
+                <a href="http://www.w3.org/2006/vcard/ns#Kind">Kind (@en)</a> (<a href="http://www.w3.org/2006/vcard/ns#Kind">vcard:Kind</a>)
                   <br />Definice: <i>The parent class for all objects</i>
                   <ul style="list-style-type: disclosure-closed;">
                   </ul>
@@ -15984,7 +15984,7 @@
                                       profiluje
                     vlastnost
                     
-                    <a href="https://mff-uk.github.io/specifications/dcat-dap/#hasEmail">has email (@en)</a> (<a href="http://www.w3.org/2006/vcard/ns#hasEmail">vcard:hasEmail</a>)
+                    <a href="http://www.w3.org/2006/vcard/ns#hasEmail">has email (@en)</a> (<a href="http://www.w3.org/2006/vcard/ns#hasEmail">vcard:hasEmail</a>)
                       <br />Definice: <i>To specify the electronic mail address for communication with the object</i>
                       <ul style="list-style-type: disclosure-closed;">
                       </ul>
@@ -16007,7 +16007,7 @@
                                       profiluje
                     vlastnost
                     
-                    <a href="https://mff-uk.github.io/specifications/dcat-dap/#hasEmail">has email (@en)</a> (<a href="http://www.w3.org/2006/vcard/ns#hasEmail">vcard:hasEmail</a>)
+                    <a href="http://www.w3.org/2006/vcard/ns#hasEmail">has email (@en)</a> (<a href="http://www.w3.org/2006/vcard/ns#hasEmail">vcard:hasEmail</a>)
                       <br />Definice: <i>To specify the electronic mail address for communication with the object</i>
                       <ul style="list-style-type: disclosure-closed;">
                       </ul>
@@ -16085,7 +16085,7 @@
                                       profiluje
                     vlastnost
                     
-                    <a href="https://mff-uk.github.io/specifications/dcat-dap/#fn">formatted name (@en)</a> (<a href="http://www.w3.org/2006/vcard/ns#fn">vcard:fn</a>)
+                    <a href="http://www.w3.org/2006/vcard/ns#fn">formatted name (@en)</a> (<a href="http://www.w3.org/2006/vcard/ns#fn">vcard:fn</a>)
                       <br />Definice: <i>The formatted text corresponding to the name of the object</i>
                       <ul style="list-style-type: disclosure-closed;">
                       </ul>
@@ -16160,7 +16160,7 @@
                                       profiluje
                     vlastnost
                     
-                    <a href="https://mff-uk.github.io/specifications/dcat-dap/#hasURL">has url (@en)</a> (<a href="http://www.w3.org/2006/vcard/ns#hasURL">vcard:hasURL</a>)
+                    <a href="http://www.w3.org/2006/vcard/ns#hasURL">has url (@en)</a> (<a href="http://www.w3.org/2006/vcard/ns#hasURL">vcard:hasURL</a>)
                       <br />Definice: <i>To specify a uniform resource locator associated with the object</i>
                       <ul style="list-style-type: disclosure-closed;">
                       </ul>
@@ -16220,14 +16220,14 @@
                                   profiluje
                 třídu
                 
-                <a href="https://ofn.gov.cz/dcat-ap-cz-podmínky-užití/2025-08-12/#LicenseDocument">License Document (@en)</a> (<a href="http://purl.org/dc/terms/LicenseDocument">dcterms:LicenseDocument</a>)
+                <a href="http://purl.org/dc/terms/LicenseDocument">License Document (@en)</a> (<a href="http://purl.org/dc/terms/LicenseDocument">dcterms:LicenseDocument</a>)
                   <br />Definice: <i>A legal document giving official permission to do something with a resource.</i>
                   <ul style="list-style-type: disclosure-closed;">
                       <li>
                                   specializuje
                 třídu
                 
-                <a href="https://ofn.gov.cz/dcat-ap-cz-podmínky-užití/2025-08-12/#RightsStatement">Rights Statement (@en)</a> (<a href="http://purl.org/dc/terms/RightsStatement">dcterms:RightsStatement</a>)
+                <a href="http://purl.org/dc/terms/RightsStatement">Rights Statement (@en)</a> (<a href="http://purl.org/dc/terms/RightsStatement">dcterms:RightsStatement</a>)
                   <br />Definice: <i>A statement about the intellectual property rights (IPR) held in or over a resource, a legal document giving official permission to do something with a resource, or a statement about access rights.</i>
                   <ul style="list-style-type: disclosure-closed;">
                   </ul>
@@ -16303,7 +16303,7 @@
                                   profiluje
                 třídu
                 
-                <a href="https://mff-uk.github.io/specifications/dcat-dap/#Organization">Organization (@en)</a> (<a href="http://www.w3.org/2006/vcard/ns#Organization">vcard:Organization</a>)
+                <a href="http://www.w3.org/2006/vcard/ns#Organization">Organization (@en)</a> (<a href="http://www.w3.org/2006/vcard/ns#Organization">vcard:Organization</a>)
                   <br />Definice: <i>An object representing an organization.  An organization is a single entity, and might represent a business or government, a department or division within a business or government, a club, an association, or the like.
           </i>
                   <ul style="list-style-type: disclosure-closed;">
@@ -16311,7 +16311,7 @@
                                   specializuje
                 třídu
                 
-                <a href="https://mff-uk.github.io/specifications/dcat-dap/#Kind">Kind (@en)</a> (<a href="http://www.w3.org/2006/vcard/ns#Kind">vcard:Kind</a>)
+                <a href="http://www.w3.org/2006/vcard/ns#Kind">Kind (@en)</a> (<a href="http://www.w3.org/2006/vcard/ns#Kind">vcard:Kind</a>)
                   <br />Definice: <i>The parent class for all objects</i>
                   <ul style="list-style-type: disclosure-closed;">
                   </ul>
@@ -16344,7 +16344,7 @@
                                   profiluje
                 třídu
                 
-                <a href="https://mff-uk.github.io/specifications/dcat-dap/#Kind">Kind (@en)</a> (<a href="http://www.w3.org/2006/vcard/ns#Kind">vcard:Kind</a>)
+                <a href="http://www.w3.org/2006/vcard/ns#Kind">Kind (@en)</a> (<a href="http://www.w3.org/2006/vcard/ns#Kind">vcard:Kind</a>)
                   <br />Definice: <i>The parent class for all objects</i>
                   <ul style="list-style-type: disclosure-closed;">
                   </ul>
@@ -16392,7 +16392,7 @@
                                   profiluje
                 třídu
                 
-                <a href="https://mff-uk.github.io/specifications/dcat-dap/#Kind">Kind (@en)</a> (<a href="http://www.w3.org/2006/vcard/ns#Kind">vcard:Kind</a>)
+                <a href="http://www.w3.org/2006/vcard/ns#Kind">Kind (@en)</a> (<a href="http://www.w3.org/2006/vcard/ns#Kind">vcard:Kind</a>)
                   <br />Definice: <i>The parent class for all objects</i>
                   <ul style="list-style-type: disclosure-closed;">
                   </ul>
@@ -16449,7 +16449,7 @@
                                   profiluje
                 třídu
                 
-                <a href="https://mff-uk.github.io/specifications/dcat-dap/#Kind">Kind (@en)</a> (<a href="http://www.w3.org/2006/vcard/ns#Kind">vcard:Kind</a>)
+                <a href="http://www.w3.org/2006/vcard/ns#Kind">Kind (@en)</a> (<a href="http://www.w3.org/2006/vcard/ns#Kind">vcard:Kind</a>)
                   <br />Definice: <i>The parent class for all objects</i>
                   <ul style="list-style-type: disclosure-closed;">
                   </ul>
@@ -16490,7 +16490,7 @@
                                   profiluje
                 třídu
                 
-                <a href="https://mff-uk.github.io/specifications/dcat-dap/#Kind">Kind (@en)</a> (<a href="http://www.w3.org/2006/vcard/ns#Kind">vcard:Kind</a>)
+                <a href="http://www.w3.org/2006/vcard/ns#Kind">Kind (@en)</a> (<a href="http://www.w3.org/2006/vcard/ns#Kind">vcard:Kind</a>)
                   <br />Definice: <i>The parent class for all objects</i>
                   <ul style="list-style-type: disclosure-closed;">
                   </ul>
@@ -16575,7 +16575,7 @@
                                   profiluje
                 třídu
                 
-                <a href="https://mff-uk.github.io/specifications/dcat-dap/#Agent">Agent (@en)</a> (<a href="http://xmlns.com/foaf/0.1/Agent">foaf:Agent</a>)
+                <a href="http://xmlns.com/foaf/0.1/Agent">Agent (@en)</a> (<a href="http://xmlns.com/foaf/0.1/Agent">foaf:Agent</a>)
                   <br />Definice: <i>An agent (eg. person, group, software or physical artifact).</i>
                   <ul style="list-style-type: disclosure-closed;">
                   </ul>
@@ -16659,7 +16659,7 @@
                                   profiluje
                 třídu
                 
-                <a href="https://mff-uk.github.io/specifications/dcat-ap/#LegalResource">Legal Resource (@en)</a> (<a href="http://data.europa.eu/eli/ontology#LegalResource">http://data.europa.eu/eli/ontology#LegalResource</a>)
+                <a href="http://data.europa.eu/eli/ontology#LegalResource">Legal Resource (@en)</a> (<a href="http://data.europa.eu/eli/ontology#LegalResource">http://data.europa.eu/eli/ontology#LegalResource</a>)
                   <br />Definice: <i>A work in a legislative corpus. This applies to acts that have been legally enacted (whether or not they are still in force).
           For example, the abstract concept of the legal resource; e.g. &quot;act 3 of 2005&quot; (adapted from Akoma Ntoso)
           
@@ -16671,7 +16671,7 @@
                                   specializuje
                 třídu
                 
-                <a href="https://mff-uk.github.io/specifications/dcat-ap/#Work">Work (@en)</a> (<a href="http://data.europa.eu/eli/ontology#Work">http://data.europa.eu/eli/ontology#Work</a>)
+                <a href="http://data.europa.eu/eli/ontology#Work">Work (@en)</a> (<a href="http://data.europa.eu/eli/ontology#Work">http://data.europa.eu/eli/ontology#Work</a>)
                   <br />Definice: <i>Any distinct intellectual creation (i.e., the intellectual content), in the context of ELI.
           
           The substance of Work is ideas.</i>
@@ -16680,7 +16680,7 @@
                                   specializuje
                 třídu
                 
-                <a href="https://mff-uk.github.io/specifications/dcat-ap/#F1_Work"><i>beze jména</i></a> (<a href="http://iflastandards.info/ns/fr/frbr/frbroo/F1_Work">http://iflastandards.info/ns/fr/frbr/frbroo/F1_Work</a>)
+                <a href="http://iflastandards.info/ns/fr/frbr/frbroo/F1_Work"><i>beze jména</i></a> (<a href="http://iflastandards.info/ns/fr/frbr/frbroo/F1_Work">http://iflastandards.info/ns/fr/frbr/frbroo/F1_Work</a>)
                   <ul style="list-style-type: disclosure-closed;">
                   </ul>
           
@@ -16773,14 +16773,14 @@
                                   profiluje
                 třídu
                 
-                <a href="https://ofn.gov.cz/dcat-ap-cz-podmínky-užití/2025-08-12/#Location">Location (@en)</a> (<a href="http://purl.org/dc/terms/Location">dcterms:Location</a>)
+                <a href="http://purl.org/dc/terms/Location">Location (@en)</a> (<a href="http://purl.org/dc/terms/Location">dcterms:Location</a>)
                   <br />Definice: <i>A spatial region or named place.</i>
                   <ul style="list-style-type: disclosure-closed;">
                       <li>
                                   specializuje
                 třídu
                 
-                <a href="https://ofn.gov.cz/dcat-ap-cz-podmínky-užití/2025-08-12/#LocationPeriodOrJurisdiction">Location, Period, or Jurisdiction (@en)</a> (<a href="http://purl.org/dc/terms/LocationPeriodOrJurisdiction">dcterms:LocationPeriodOrJurisdiction</a>)
+                <a href="http://purl.org/dc/terms/LocationPeriodOrJurisdiction">Location, Period, or Jurisdiction (@en)</a> (<a href="http://purl.org/dc/terms/LocationPeriodOrJurisdiction">dcterms:LocationPeriodOrJurisdiction</a>)
                   <br />Definice: <i>A location, period of time, or jurisdiction.</i>
                   <ul style="list-style-type: disclosure-closed;">
                   </ul>
@@ -16873,7 +16873,7 @@
                                   profiluje
                 třídu
                 
-                <a href="https://ofn.gov.cz/dcat-ap-cz-podmínky-užití/2025-08-12/#Standard">Standard (@en)</a> (<a href="http://purl.org/dc/terms/Standard">dcterms:Standard</a>)
+                <a href="http://purl.org/dc/terms/Standard">Standard (@en)</a> (<a href="http://purl.org/dc/terms/Standard">dcterms:Standard</a>)
                   <br />Definice: <i>A reference point against which other things can be evaluated or compared.</i>
                   <ul style="list-style-type: disclosure-closed;">
                   </ul>
@@ -16964,7 +16964,7 @@
                                   profiluje
                 třídu
                 
-                <a href="https://mff-uk.github.io/specifications/dcat-dap/#Concept">Concept (@en)</a> (<a href="http://www.w3.org/2004/02/skos/core#Concept">skos:Concept</a>)
+                <a href="http://www.w3.org/2004/02/skos/core#Concept">Concept (@en)</a> (<a href="http://www.w3.org/2004/02/skos/core#Concept">skos:Concept</a>)
                   <br />Definice: <i>An idea or notion; a unit of thought.</i>
                   <ul style="list-style-type: disclosure-closed;">
                   </ul>
@@ -17053,14 +17053,14 @@
                                   profiluje
                 třídu
                 
-                <a href="https://ofn.gov.cz/dcat-ap-cz-podmínky-užití/2025-08-12/#MediaType">Media Type (@en)</a> (<a href="http://purl.org/dc/terms/MediaType">dcterms:MediaType</a>)
+                <a href="http://purl.org/dc/terms/MediaType">Media Type (@en)</a> (<a href="http://purl.org/dc/terms/MediaType">dcterms:MediaType</a>)
                   <br />Definice: <i>A file format or physical medium.</i>
                   <ul style="list-style-type: disclosure-closed;">
                       <li>
                                   specializuje
                 třídu
                 
-                <a href="https://ofn.gov.cz/dcat-ap-cz-podmínky-užití/2025-08-12/#MediaTypeOrExtent">Media Type or Extent (@en)</a> (<a href="http://purl.org/dc/terms/MediaTypeOrExtent">dcterms:MediaTypeOrExtent</a>)
+                <a href="http://purl.org/dc/terms/MediaTypeOrExtent">Media Type or Extent (@en)</a> (<a href="http://purl.org/dc/terms/MediaTypeOrExtent">dcterms:MediaTypeOrExtent</a>)
                   <br />Definice: <i>A media type or extent.</i>
                   <ul style="list-style-type: disclosure-closed;">
                   </ul>
@@ -17154,7 +17154,7 @@
                                   profiluje
                 třídu
                 
-                <a href="https://mff-uk.github.io/specifications/dcat-dap/#Resource">Resource (@en)</a> (<a href="http://www.w3.org/2000/01/rdf-schema#Resource">rdfs:Resource</a>)
+                <a href="http://www.w3.org/2000/01/rdf-schema#Resource">Resource (@en)</a> (<a href="http://www.w3.org/2000/01/rdf-schema#Resource">rdfs:Resource</a>)
                   <br />Definice: <i>The class resource, everything.</i>
                   <ul style="list-style-type: disclosure-closed;">
                   </ul>
@@ -17215,20 +17215,20 @@
             </tr>
             <tr>
               <td>Popis strukturálního modelu</td>
-              <td><a href="../série-datových-sad/structure.ttl">../série-datových-sad/structure.ttl</a></td>
+              <td><a href="../datová-sada/structure.ttl">../datová-sada/structure.ttl</a></td>
             </tr>
             <tr>
               <td>Popis strukturálního modelu</td>
-              <td><a href="../datová-sada/structure.ttl">../datová-sada/structure.ttl</a></td>
+              <td><a href="../série-datových-sad/structure.ttl">../série-datových-sad/structure.ttl</a></td>
             </tr>
             <tr>
               <td>Serializace změn v LDES formátu</td>
               <td><a href="../dsv.ldes.ttl">../dsv.ldes.ttl</a></td>
             </tr>
-            <tr><td>JSON schéma</td><td><a href="../série-datových-sad/schéma.json">../série-datových-sad/schéma.json</a></td></tr>
-            <tr><td>JSON-LD kontext</td><td><a href="../série-datových-sad/kontext.jsonld">../série-datových-sad/kontext.jsonld</a></td></tr>
             <tr><td>JSON schéma</td><td><a href="../datová-sada/schéma.json">../datová-sada/schéma.json</a></td></tr>
             <tr><td>JSON-LD kontext</td><td><a href="../datová-sada/kontext.jsonld">../datová-sada/kontext.jsonld</a></td></tr>
+            <tr><td>JSON schéma</td><td><a href="../série-datových-sad/schéma.json">../série-datových-sad/schéma.json</a></td></tr>
+            <tr><td>JSON-LD kontext</td><td><a href="../série-datových-sad/kontext.jsonld">../série-datových-sad/kontext.jsonld</a></td></tr>
             <tr><td>Dokumentace</td><td><a href="">#</a></td></tr>
         </tbody>
       </table>
