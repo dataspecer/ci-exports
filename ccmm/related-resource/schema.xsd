@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:vc="http://www.w3.org/2007/XMLSchema-versioning" vc:minVersion="1.1" elementFormDefault="qualified" targetNamespace="https://schema.ccmm.cz/research-data/2.0" xmlns:ccmm="https://schema.ccmm.cz/research-data/2.0" xmlns:sawsdl="http://www.w3.org/ns/sawsdl">
+  <xs:include schemaLocation="../identifier/schema.xsd"/>
+  <xs:include schemaLocation="../alternate-title/schema.xsd"/>
+  <xs:include schemaLocation="../resource-attribution/schema.xsd"/>
+  <xs:include schemaLocation="../time-reference/schema.xsd"/>
+  <xs:include schemaLocation="../resource-type/schema.xsd"/>
+  <xs:include schemaLocation="../resource-relation-type/schema.xsd"/>
+  <xs:complexType name="related_resource" sawsdl:modelReference="http://www.w3.org/2000/01/rdf-schema#Resource">
+    <xs:annotation>
+      <xs:documentation xml:lang="en">
+        Related resource - Resource represents any resource, physical or digital, that is related to the described dataset.
+        The class is used for description of the resource together with the type of relation, for which is used value from the code list https://w3id.org/tib/datacite/vocab/relationType. Distributions of the datasets SHALL NOT be modeled as related resource, but as a distribution. Examples of resources: other related dataset, used methodology, instrument used for measurement, conference or conference paper, etc.
+      </xs:documentation>
+    </xs:annotation>
+    <xs:sequence>
+      <xs:element minOccurs="0" name="iri" type="xs:anyURI"/>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="identifier" type="ccmm:identifier" sawsdl:modelReference="http://www.w3.org/ns/adms#identifier">
+        <xs:annotation>
+          <xs:documentation xml:lang="en">
+            has identifier - A secondary identifier of the Dataset.
+            List all available identifiers referring to the same resource (e.g., DOI, Handle, etc.).
+          </xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element minOccurs="0" name="title" type="xs:string" sawsdl:modelReference="http://purl.org/dc/terms/title">
+        <xs:annotation>
+          <xs:documentation xml:lang="en">
+            title - A name given to the resource.
+          </xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="alternate_title" type="ccmm:alternate_title" sawsdl:modelReference="https://model.ccmm.cz/vocabulary/ccmm#hasAlternateTitle">
+        <xs:annotation>
+          <xs:documentation xml:lang="en">
+            has alternate title - References to the alternate title of the resource.
+          </xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element minOccurs="0" name="resource_url" type="xs:anyURI" sawsdl:modelReference="https://model.ccmm.cz/vocabulary/ccmm#resourceUrl">
+        <xs:annotation>
+          <xs:documentation xml:lang="en">
+            resource URL - Human readable resolvable URL representing the resource.
+            The resource URL is a resolvable and human-readable representation of the resource, i.e. web page. The same URL must be also recorded as c:iri.
+          </xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="qualified_attribution" type="ccmm:resource_attribution" sawsdl:modelReference="http://www.w3.org/ns/prov#qualifiedAttribution">
+        <xs:annotation>
+          <xs:documentation xml:lang="en">
+            qualified attribution - A link to a description of a relationship between resource and an agent with the specification of the role of agent in this relationship.
+            If the resource is Dataset, it has to have at least one qualified attribution relation with the role Creator, also, it is recommended to have other qualified relation to the organization with the role Publisher.
+          </xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="time_reference" type="ccmm:time_reference" sawsdl:modelReference="https://model.ccmm.cz/vocabulary/ccmm#hasTimeReference">
+        <xs:annotation>
+          <xs:documentation xml:lang="en">
+            has time reference - Reference to events related to the resource.
+          </xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element minOccurs="0" name="resource_type" type="ccmm:resource_type" sawsdl:modelReference="http://purl.org/dc/terms/type">
+        <xs:annotation>
+          <xs:documentation xml:lang="en">
+            has resource type - The resource type of the resource.
+            Use IRI identifier of a value from the register https://vocabularies.coar-repositories.org/resource_types/.
+          </xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element minOccurs="0" name="resource_relation_type" type="ccmm:resource_relation_type" sawsdl:modelReference="https://model.ccmm.cz/vocabulary/ccmm#hasType">
+        <xs:annotation>
+          <xs:documentation xml:lang="en">
+            has resource relation type - Relation to the relation type between dataset and resource.
+            Use value from the code list https://w3id.org/tib/datacite/vocab/relationType.
+          </xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:any minOccurs="0" maxOccurs="unbounded" processContents="lax" namespace="##other"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="related_resource" type="ccmm:related_resource"/>
+</xs:schema>
