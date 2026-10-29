@@ -93,7 +93,7 @@
                 "adms:AssetDistribution",
                 "prof:ResourceDescriptor"
               ],
-              "hasArtifact": "../a9aad48a-7018-43ea-975b-55bd8137e36d.svg",
+              "hasArtifact": "../au2t3.svg",
               "hasRole": "role:guidance",
               "format": "filetype:SVG",
               "conformsTo": "https://www.w3.org/TR/SVG/"
@@ -103,7 +103,7 @@
                 "adms:AssetDistribution",
                 "prof:ResourceDescriptor"
               ],
-              "hasArtifact": "../au2t3.svg",
+              "hasArtifact": "../a9aad48a-7018-43ea-975b-55bd8137e36d.svg",
               "hasRole": "role:guidance",
               "format": "filetype:SVG",
               "conformsTo": "https://www.w3.org/TR/SVG/"
@@ -380,16 +380,16 @@
     <section>
       <h2>Overview</h2>
 
-        <a href="../a9aad48a-7018-43ea-975b-55bd8137e36d.svg">
-          <figure>
-            <img src="../a9aad48a-7018-43ea-975b-55bd8137e36d.svg" alt="Dataset" />
-            <figcaption>Dataset</figcaption>
-          </figure>
-        </a>
         <a href="../au2t3.svg">
           <figure>
             <img src="../au2t3.svg" alt="Dataset series" />
             <figcaption>Dataset series</figcaption>
+          </figure>
+        </a>
+        <a href="../a9aad48a-7018-43ea-975b-55bd8137e36d.svg">
+          <figure>
+            <img src="../a9aad48a-7018-43ea-975b-55bd8137e36d.svg" alt="Dataset" />
+            <figcaption>Dataset</figcaption>
           </figure>
         </a>
     </section>
@@ -546,6 +546,11 @@
                   </td>
                 </tr>
           
+              <tr>
+                <td>Usage note</td>
+                <td>A Web-based data catalog is typically represented as a single instance of this class.
+          Datasets and data services are examples of resources in the context of a data catalog.</td>
+              </tr>
             </table>
           
               <p><strong>Properties</strong></p>
@@ -881,7 +886,7 @@
                     property
                     
                     <a href="http://xmlns.com/foaf/0.1/homepage">homepage</a> (<a href="http://xmlns.com/foaf/0.1/homepage">foaf:homepage</a>)
-                      <br />Definition: <i>A homepage for some thing.</i>
+                      <br />Definition: <i>This axiom needed so that Protege loads DCAT 3 without errors.</i>
                       <ul style="list-style-type: disclosure-closed;">
                           <li>
                                       specializes
@@ -2003,6 +2008,10 @@
                   </td>
                 </tr>
           
+              <tr>
+                <td>Usage note</td>
+                <td>If a Dataset is used as part of a Dataset Series, the usage of the properties listed below must be coherent with the associated Dataset Series. For this usage, consult the guidelines in section 14. General usage guidelines.</td>
+              </tr>
             </table>
           
               <p><strong>Properties</strong></p>
@@ -5213,6 +5222,10 @@
                   </td>
                 </tr>
           
+              <tr>
+                <td>Usage note</td>
+                <td>This represents a general availability of a dataset. It implies no information about the actual access method of the data, i.e., whether by direct download, API, or through a Web page. The use of dcat:downloadURL property indicates directly downloadable distributions.</td>
+              </tr>
             </table>
           
               <p><strong>Properties</strong></p>
@@ -6912,6 +6925,10 @@
                   </td>
                 </tr>
           
+              <tr>
+                <td>Usage note</td>
+                <td>If the Agent is an organisation, the use of the Organization Ontology is recommended.</td>
+              </tr>
             </table>
           
           
@@ -7511,6 +7528,10 @@
                   </td>
                 </tr>
           
+              <tr>
+                <td>Usage note</td>
+                <td>Note that the class Kind is the parent class for the four explicit types of vCard (Individual, Organization, Location, Group).</td>
+              </tr>
             </table>
           
               <p><strong>Properties</strong></p>
@@ -8303,6 +8324,10 @@
                   </td>
                 </tr>
           
+              <tr>
+                <td>Usage note</td>
+                <td>The start and end of the interval SHOULD be given by using properties dcat:startDate or time:hasBeginning, and dcat:endDate or time:hasEnd, respectively. The interval can also be open - i.e., it can have just a start or just an end.</td>
+              </tr>
             </table>
           
               <p><strong>Properties</strong></p>
