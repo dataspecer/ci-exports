@@ -113,7 +113,7 @@
                 "adms:AssetDistribution",
                 "prof:ResourceDescriptor"
               ],
-              "hasArtifact": "../626cb.svg",
+              "hasArtifact": "../80bb66a5-4182-4250-90c2-90b7f0b05a7b.svg",
               "hasRole": "role:guidance",
               "format": "filetype:SVG",
               "conformsTo": "https://www.w3.org/TR/SVG/"
@@ -123,7 +123,7 @@
                 "adms:AssetDistribution",
                 "prof:ResourceDescriptor"
               ],
-              "hasArtifact": "../80bb66a5-4182-4250-90c2-90b7f0b05a7b.svg",
+              "hasArtifact": "../626cb.svg",
               "hasRole": "role:guidance",
               "format": "filetype:SVG",
               "conformsTo": "https://www.w3.org/TR/SVG/"
@@ -408,16 +408,16 @@
             <figcaption>Application profile view</figcaption>
           </figure>
         </a>
-        <a href="../626cb.svg">
-          <figure>
-            <img src="../626cb.svg" alt="Specification view" />
-            <figcaption>Specification view</figcaption>
-          </figure>
-        </a>
         <a href="../80bb66a5-4182-4250-90c2-90b7f0b05a7b.svg">
           <figure>
             <img src="../80bb66a5-4182-4250-90c2-90b7f0b05a7b.svg" alt="Overview" />
             <figcaption>Overview</figcaption>
+          </figure>
+        </a>
+        <a href="../626cb.svg">
+          <figure>
+            <img src="../626cb.svg" alt="Specification view" />
+            <figcaption>Specification view</figcaption>
           </figure>
         </a>
         <a href="../n4roi.svg">
@@ -480,6 +480,16 @@
                 <a href="https://mff-uk.github.io/data-specification-vocabulary/dsv/#ApplicationProfileSpecificationDocument">Application Profile Specification Document (@en)</a> (<a href="https://w3id.org/dsv#ApplicationProfileSpecificationDocument">dsv:ApplicationProfileSpecificationDocument</a>)
                   <br />Definice: <i>An Application Profile Specification Document contains human-readable version of an Application Profile.</i>
                   <ul style="list-style-type: disclosure-closed;">
+                      <li>
+                                  specializuje
+                třídu
+                
+                <a href="http://www.w3.org/ns/dx/prof/ResourceDescriptor">Resource Descriptor (@en)</a> (<a href="http://www.w3.org/ns/dx/prof/ResourceDescriptor">prof:ResourceDescriptor</a>)
+                  <br />Definice: <i>A description of a resource that defines an aspect - a particular part, feature or role - of a Profile</i>
+                  <ul style="list-style-type: disclosure-closed;">
+                  </ul>
+          
+                      </li>
                   </ul>
           
                           </li>
@@ -497,9 +507,18 @@
                                   specializuje
                 
                 profil
-                <a href="#DataSpecificationDocument">Data Specification Document (@en)</a> (<a href="https://w3id.org/dsv-dap#DataSpecificationDocument">dsv-dap:DataSpecificationDocument</a>)
-                  <br />Definice: <i>A human-readable Data Specification Document.</i>
+                <a href="#ResourceDescriptor">Resource Descriptor (@en)</a> (<a href="https://w3id.org/dsv-dap#ResourceDescriptor">dsv-dap:ResourceDescriptor</a>)
                   <ul style="list-style-type: disclosure-closed;">
+                      <li>
+                                  profiluje
+                třídu
+                
+                <a href="http://www.w3.org/ns/adms#AssetDistribution">Asset Distribution (@en)</a> (<a href="http://www.w3.org/ns/adms#AssetDistribution">adms:AssetDistribution</a>)
+                  <br />Definice: <i>An Asset Distribution represents a particular physical embodiment of an Asset, which is an example of the FRBR entity manifestation (the physical embodiment of an expression of a work). An Asset Distribution is typically a downloadable computer file (but in principle it could also be a paper document) that implements the intellectual content of an Asset. A particular Asset Distribution is associated with one and only one Asset, while all Distributions of an Asset share the same intellectual content in different physical formats. Asset Distributions themselves are not versioned.</i>
+                  <ul style="list-style-type: disclosure-closed;">
+                  </ul>
+          
+                      </li>
                       <li>
                                   profiluje
                 třídu
@@ -517,18 +536,9 @@
                                   specializuje
                 
                 profil
-                <a href="#ResourceDescriptor">Resource Descriptor (@en)</a> (<a href="https://w3id.org/dsv-dap#ResourceDescriptor">dsv-dap:ResourceDescriptor</a>)
+                <a href="#DataSpecificationDocument">Data Specification Document (@en)</a> (<a href="https://w3id.org/dsv-dap#DataSpecificationDocument">dsv-dap:DataSpecificationDocument</a>)
+                  <br />Definice: <i>A human-readable Data Specification Document.</i>
                   <ul style="list-style-type: disclosure-closed;">
-                      <li>
-                                  profiluje
-                třídu
-                
-                <a href="http://www.w3.org/ns/adms#AssetDistribution">Asset Distribution (@en)</a> (<a href="http://www.w3.org/ns/adms#AssetDistribution">adms:AssetDistribution</a>)
-                  <br />Definice: <i>An Asset Distribution represents a particular physical embodiment of an Asset, which is an example of the FRBR entity manifestation (the physical embodiment of an expression of a work). An Asset Distribution is typically a downloadable computer file (but in principle it could also be a paper document) that implements the intellectual content of an Asset. A particular Asset Distribution is associated with one and only one Asset, while all Distributions of an Asset share the same intellectual content in different physical formats. Asset Distributions themselves are not versioned.</i>
-                  <ul style="list-style-type: disclosure-closed;">
-                  </ul>
-          
-                      </li>
                       <li>
                                   profiluje
                 třídu
@@ -765,6 +775,26 @@
                 <a href="http://www.w3.org/2002/07/owl#DatatypeProperty">DatatypeProperty (@en)</a> (<a href="http://www.w3.org/2002/07/owl#DatatypeProperty">owl:DatatypeProperty</a>)
                   <br />Definice: <i>The class of data properties.</i>
                   <ul style="list-style-type: disclosure-closed;">
+                      <li>
+                                  specializuje
+                třídu
+                
+                <a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property">Property (@en)</a> (<a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property">rdf:Property</a>)
+                  <br />Definice: <i>The class of RDF properties.</i>
+                  <ul style="list-style-type: disclosure-closed;">
+                      <li>
+                                  specializuje
+                třídu
+                
+                <a href="http://www.w3.org/2000/01/rdf-schema#Resource">Resource (@en)</a> (<a href="http://www.w3.org/2000/01/rdf-schema#Resource">rdfs:Resource</a>)
+                  <br />Definice: <i>The class resource, everything.</i>
+                  <ul style="list-style-type: disclosure-closed;">
+                  </ul>
+          
+                      </li>
+                  </ul>
+          
+                      </li>
                   </ul>
           
                           </li>
@@ -781,6 +811,16 @@
                 <a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property">Property (@en)</a> (<a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property">rdf:Property</a>)
                   <br />Definice: <i>The class of RDF properties.</i>
                   <ul style="list-style-type: disclosure-closed;">
+                      <li>
+                                  specializuje
+                třídu
+                
+                <a href="http://www.w3.org/2000/01/rdf-schema#Resource">Resource (@en)</a> (<a href="http://www.w3.org/2000/01/rdf-schema#Resource">rdfs:Resource</a>)
+                  <br />Definice: <i>The class resource, everything.</i>
+                  <ul style="list-style-type: disclosure-closed;">
+                  </ul>
+          
+                      </li>
                   </ul>
           
                       </li>
@@ -918,6 +958,16 @@
           
           This definition includes what are often called &quot;application profiles&quot;, &quot;metadata application profiles&quot;, or &quot;metadata profiles&quot;.</i>
                   <ul style="list-style-type: disclosure-closed;">
+                      <li>
+                                  specializuje
+                třídu
+                
+                <a href="http://purl.org/dc/terms/Standard">Standard (@en)</a> (<a href="http://purl.org/dc/terms/Standard">dcterms:Standard</a>)
+                  <br />Definice: <i>A reference point against which other things can be evaluated or compared.</i>
+                  <ul style="list-style-type: disclosure-closed;">
+                  </ul>
+          
+                      </li>
                   </ul>
           
                           </li>
@@ -946,6 +996,16 @@
           
           This definition includes what are often called &quot;application profiles&quot;, &quot;metadata application profiles&quot;, or &quot;metadata profiles&quot;.</i>
                   <ul style="list-style-type: disclosure-closed;">
+                      <li>
+                                  specializuje
+                třídu
+                
+                <a href="http://purl.org/dc/terms/Standard">Standard (@en)</a> (<a href="http://purl.org/dc/terms/Standard">dcterms:Standard</a>)
+                  <br />Definice: <i>A reference point against which other things can be evaluated or compared.</i>
+                  <ul style="list-style-type: disclosure-closed;">
+                  </ul>
+          
+                      </li>
                   </ul>
           
                       </li>
@@ -1180,6 +1240,26 @@
                 <a href="http://www.w3.org/2002/07/owl#ObjectProperty">ObjectProperty (@en)</a> (<a href="http://www.w3.org/2002/07/owl#ObjectProperty">owl:ObjectProperty</a>)
                   <br />Definice: <i>The class of object properties.</i>
                   <ul style="list-style-type: disclosure-closed;">
+                      <li>
+                                  specializuje
+                třídu
+                
+                <a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property">Property (@en)</a> (<a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property">rdf:Property</a>)
+                  <br />Definice: <i>The class of RDF properties.</i>
+                  <ul style="list-style-type: disclosure-closed;">
+                      <li>
+                                  specializuje
+                třídu
+                
+                <a href="http://www.w3.org/2000/01/rdf-schema#Resource">Resource (@en)</a> (<a href="http://www.w3.org/2000/01/rdf-schema#Resource">rdfs:Resource</a>)
+                  <br />Definice: <i>The class resource, everything.</i>
+                  <ul style="list-style-type: disclosure-closed;">
+                  </ul>
+          
+                      </li>
+                  </ul>
+          
+                      </li>
                   </ul>
           
                           </li>
@@ -1196,6 +1276,16 @@
                 <a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property">Property (@en)</a> (<a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property">rdf:Property</a>)
                   <br />Definice: <i>The class of RDF properties.</i>
                   <ul style="list-style-type: disclosure-closed;">
+                      <li>
+                                  specializuje
+                třídu
+                
+                <a href="http://www.w3.org/2000/01/rdf-schema#Resource">Resource (@en)</a> (<a href="http://www.w3.org/2000/01/rdf-schema#Resource">rdfs:Resource</a>)
+                  <br />Definice: <i>The class resource, everything.</i>
+                  <ul style="list-style-type: disclosure-closed;">
+                  </ul>
+          
+                      </li>
                   </ul>
           
                       </li>
@@ -1628,6 +1718,16 @@
                       <br />Definice: <i>skos:prefLabel, skos:altLabel and skos:hiddenLabel are pairwise
                     disjoint properties.</i>
                       <ul style="list-style-type: disclosure-closed;">
+                          <li>
+                                      specializuje
+                    vlastnost
+                    
+                    <a href="http://www.w3.org/2000/01/rdf-schema#label">label (@en)</a> (<a href="http://www.w3.org/2000/01/rdf-schema#label">rdfs:label</a>)
+                      <br />Definice: <i>A human-readable name for the subject.</i>
+                      <ul style="list-style-type: disclosure-closed;">
+                      </ul>
+              
+                          </li>
                       </ul>
               
                               </li>
@@ -3147,6 +3247,16 @@
           
           This definition includes what are often called &quot;application profiles&quot;, &quot;metadata application profiles&quot;, or &quot;metadata profiles&quot;.</i>
                   <ul style="list-style-type: disclosure-closed;">
+                      <li>
+                                  specializuje
+                třídu
+                
+                <a href="http://purl.org/dc/terms/Standard">Standard (@en)</a> (<a href="http://purl.org/dc/terms/Standard">dcterms:Standard</a>)
+                  <br />Definice: <i>A reference point against which other things can be evaluated or compared.</i>
+                  <ul style="list-style-type: disclosure-closed;">
+                  </ul>
+          
+                      </li>
                   </ul>
           
                           </li>
@@ -3532,6 +3642,16 @@
           
           This definition includes what are often called &quot;application profiles&quot;, &quot;metadata application profiles&quot;, or &quot;metadata profiles&quot;.</i>
                   <ul style="list-style-type: disclosure-closed;">
+                      <li>
+                                  specializuje
+                třídu
+                
+                <a href="http://purl.org/dc/terms/Standard">Standard (@en)</a> (<a href="http://purl.org/dc/terms/Standard">dcterms:Standard</a>)
+                  <br />Definice: <i>A reference point against which other things can be evaluated or compared.</i>
+                  <ul style="list-style-type: disclosure-closed;">
+                  </ul>
+          
+                      </li>
                   </ul>
           
                           </li>
@@ -3542,6 +3662,16 @@
                 <a href="http://www.w3.org/2002/07/owl#Ontology">Ontology (@en)</a> (<a href="http://www.w3.org/2002/07/owl#Ontology">owl:Ontology</a>)
                   <br />Definice: <i>The class of ontologies.</i>
                   <ul style="list-style-type: disclosure-closed;">
+                      <li>
+                                  specializuje
+                třídu
+                
+                <a href="http://www.w3.org/2000/01/rdf-schema#Resource">Resource (@en)</a> (<a href="http://www.w3.org/2000/01/rdf-schema#Resource">rdfs:Resource</a>)
+                  <br />Definice: <i>The class resource, everything.</i>
+                  <ul style="list-style-type: disclosure-closed;">
+                  </ul>
+          
+                      </li>
                   </ul>
           
                           </li>
@@ -3560,6 +3690,16 @@
           
           This definition includes what are often called &quot;application profiles&quot;, &quot;metadata application profiles&quot;, or &quot;metadata profiles&quot;.</i>
                   <ul style="list-style-type: disclosure-closed;">
+                      <li>
+                                  specializuje
+                třídu
+                
+                <a href="http://purl.org/dc/terms/Standard">Standard (@en)</a> (<a href="http://purl.org/dc/terms/Standard">dcterms:Standard</a>)
+                  <br />Definice: <i>A reference point against which other things can be evaluated or compared.</i>
+                  <ul style="list-style-type: disclosure-closed;">
+                  </ul>
+          
+                      </li>
                   </ul>
           
                       </li>
@@ -3712,6 +3852,16 @@
                 <a href="https://mff-uk.github.io/data-specification-vocabulary/dsv/#VocabularySpecificationDocument">Vocabulary Specification Document (@en)</a> (<a href="https://w3id.org/dsv#VocabularySpecificationDocument">dsv:VocabularySpecificationDocument</a>)
                   <br />Definice: <i>A Vocabulary Specification Document is a human-readable representation of a Vocabulary.</i>
                   <ul style="list-style-type: disclosure-closed;">
+                      <li>
+                                  specializuje
+                třídu
+                
+                <a href="http://www.w3.org/ns/dx/prof/ResourceDescriptor">Resource Descriptor (@en)</a> (<a href="http://www.w3.org/ns/dx/prof/ResourceDescriptor">prof:ResourceDescriptor</a>)
+                  <br />Definice: <i>A description of a resource that defines an aspect - a particular part, feature or role - of a Profile</i>
+                  <ul style="list-style-type: disclosure-closed;">
+                  </ul>
+          
+                      </li>
                   </ul>
           
                           </li>
@@ -3729,9 +3879,18 @@
                                   specializuje
                 
                 profil
-                <a href="#DataSpecificationDocument">Data Specification Document (@en)</a> (<a href="https://w3id.org/dsv-dap#DataSpecificationDocument">dsv-dap:DataSpecificationDocument</a>)
-                  <br />Definice: <i>A human-readable Data Specification Document.</i>
+                <a href="#ResourceDescriptor">Resource Descriptor (@en)</a> (<a href="https://w3id.org/dsv-dap#ResourceDescriptor">dsv-dap:ResourceDescriptor</a>)
                   <ul style="list-style-type: disclosure-closed;">
+                      <li>
+                                  profiluje
+                třídu
+                
+                <a href="http://www.w3.org/ns/adms#AssetDistribution">Asset Distribution (@en)</a> (<a href="http://www.w3.org/ns/adms#AssetDistribution">adms:AssetDistribution</a>)
+                  <br />Definice: <i>An Asset Distribution represents a particular physical embodiment of an Asset, which is an example of the FRBR entity manifestation (the physical embodiment of an expression of a work). An Asset Distribution is typically a downloadable computer file (but in principle it could also be a paper document) that implements the intellectual content of an Asset. A particular Asset Distribution is associated with one and only one Asset, while all Distributions of an Asset share the same intellectual content in different physical formats. Asset Distributions themselves are not versioned.</i>
+                  <ul style="list-style-type: disclosure-closed;">
+                  </ul>
+          
+                      </li>
                       <li>
                                   profiluje
                 třídu
@@ -3749,18 +3908,9 @@
                                   specializuje
                 
                 profil
-                <a href="#ResourceDescriptor">Resource Descriptor (@en)</a> (<a href="https://w3id.org/dsv-dap#ResourceDescriptor">dsv-dap:ResourceDescriptor</a>)
+                <a href="#DataSpecificationDocument">Data Specification Document (@en)</a> (<a href="https://w3id.org/dsv-dap#DataSpecificationDocument">dsv-dap:DataSpecificationDocument</a>)
+                  <br />Definice: <i>A human-readable Data Specification Document.</i>
                   <ul style="list-style-type: disclosure-closed;">
-                      <li>
-                                  profiluje
-                třídu
-                
-                <a href="http://www.w3.org/ns/adms#AssetDistribution">Asset Distribution (@en)</a> (<a href="http://www.w3.org/ns/adms#AssetDistribution">adms:AssetDistribution</a>)
-                  <br />Definice: <i>An Asset Distribution represents a particular physical embodiment of an Asset, which is an example of the FRBR entity manifestation (the physical embodiment of an expression of a work). An Asset Distribution is typically a downloadable computer file (but in principle it could also be a paper document) that implements the intellectual content of an Asset. A particular Asset Distribution is associated with one and only one Asset, while all Distributions of an Asset share the same intellectual content in different physical formats. Asset Distributions themselves are not versioned.</i>
-                  <ul style="list-style-type: disclosure-closed;">
-                  </ul>
-          
-                      </li>
                       <li>
                                   profiluje
                 třídu
@@ -3900,6 +4050,26 @@
                 <a href="http://www.w3.org/2002/07/owl#Class">Class (@en)</a> (<a href="http://www.w3.org/2002/07/owl#Class">owl:Class</a>)
                   <br />Definice: <i>The class of OWL classes.</i>
                   <ul style="list-style-type: disclosure-closed;">
+                      <li>
+                                  specializuje
+                třídu
+                
+                <a href="http://www.w3.org/2000/01/rdf-schema#Class">Class (@en)</a> (<a href="http://www.w3.org/2000/01/rdf-schema#Class">rdfs:Class</a>)
+                  <br />Definice: <i>The class of classes.</i>
+                  <ul style="list-style-type: disclosure-closed;">
+                      <li>
+                                  specializuje
+                třídu
+                
+                <a href="http://www.w3.org/2000/01/rdf-schema#Resource">Resource (@en)</a> (<a href="http://www.w3.org/2000/01/rdf-schema#Resource">rdfs:Resource</a>)
+                  <br />Definice: <i>The class resource, everything.</i>
+                  <ul style="list-style-type: disclosure-closed;">
+                  </ul>
+          
+                      </li>
+                  </ul>
+          
+                      </li>
                   </ul>
           
                           </li>
@@ -4215,6 +4385,16 @@
                 <a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property">Property (@en)</a> (<a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property">rdf:Property</a>)
                   <br />Definice: <i>The class of RDF properties.</i>
                   <ul style="list-style-type: disclosure-closed;">
+                      <li>
+                                  specializuje
+                třídu
+                
+                <a href="http://www.w3.org/2000/01/rdf-schema#Resource">Resource (@en)</a> (<a href="http://www.w3.org/2000/01/rdf-schema#Resource">rdfs:Resource</a>)
+                  <br />Definice: <i>The class resource, everything.</i>
+                  <ul style="list-style-type: disclosure-closed;">
+                  </ul>
+          
+                      </li>
                   </ul>
           
                           </li>
@@ -4788,6 +4968,16 @@
                 <a href="http://www.w3.org/ns/dx/prof/ResourceRole">Resource Role (@en)</a> (<a href="http://www.w3.org/ns/dx/prof/ResourceRole">prof:ResourceRole</a>)
                   <br />Definice: <i>A role that an profile resource, described by a Resource Descriptor, plays</i>
                   <ul style="list-style-type: disclosure-closed;">
+                      <li>
+                                  specializuje
+                třídu
+                
+                <a href="http://www.w3.org/2004/02/skos/core#Concept">Concept (@en)</a> (<a href="http://www.w3.org/2004/02/skos/core#Concept">skos:Concept</a>)
+                  <br />Definice: <i>An idea or notion; a unit of thought.</i>
+                  <ul style="list-style-type: disclosure-closed;">
+                  </ul>
+          
+                      </li>
                   </ul>
           
                           </li>

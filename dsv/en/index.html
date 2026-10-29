@@ -33,22 +33,6 @@
           "isProfileOf": [
             {
               "title": {
-                "en": "prof"
-              },
-              "hasResource": {
-                "hasArtifact": "https://www.w3.org/TR/dx-prof/rdf/prof.ttl"
-              }
-            },
-            {
-              "title": {
-                "en": "skos"
-              },
-              "hasResource": {
-                "hasArtifact": "https://datagov-cz.github.io/cache-slovniku/skos.rdf"
-              }
-            },
-            {
-              "title": {
                 "en": "rdf"
               },
               "hasResource": {
@@ -57,10 +41,10 @@
             },
             {
               "title": {
-                "en": "owl"
+                "en": "dcterms"
               },
               "hasResource": {
-                "hasArtifact": "https://www.w3.org/2002/07/owl#"
+                "hasArtifact": "https://datagov-cz.github.io/cache-slovniku/dublin_core_terms.ttl"
               }
             },
             {
@@ -73,10 +57,26 @@
             },
             {
               "title": {
-                "en": "dcterms"
+                "en": "owl"
               },
               "hasResource": {
-                "hasArtifact": "https://datagov-cz.github.io/cache-slovniku/dublin_core_terms.ttl"
+                "hasArtifact": "https://www.w3.org/2002/07/owl#"
+              }
+            },
+            {
+              "title": {
+                "en": "skos"
+              },
+              "hasResource": {
+                "hasArtifact": "https://datagov-cz.github.io/cache-slovniku/skos.rdf"
+              }
+            },
+            {
+              "title": {
+                "en": "prof"
+              },
+              "hasResource": {
+                "hasArtifact": "https://www.w3.org/TR/dx-prof/rdf/prof.ttl"
               }
             }
           ],
@@ -375,6 +375,10 @@
                   <td>Definition</td>
                   <td>An Application Profile Specification Document contains human-readable version of an Application Profile.</td>
                 </tr>
+                <tr>
+                  <td>Subclass of</td>
+                  <td><a href="http://www.w3.org/ns/dx/prof/ResourceDescriptor">Resource Descriptor</a></td>
+                </tr>
               </table>
             
             </section>            <section id="ClassProfile">
@@ -560,6 +564,10 @@
                   <td>Definition</td>
                   <td>A Vocabulary Specification Document is a human-readable representation of a Vocabulary.</td>
                 </tr>
+                <tr>
+                  <td>Subclass of</td>
+                  <td><a href="http://www.w3.org/ns/dx/prof/ResourceDescriptor">Resource Descriptor</a></td>
+                </tr>
               </table>
             
             </section>      </section>
@@ -593,7 +601,7 @@
                 <tr>
                   <td>Range</td>
                   <td>
-                    <a href="http://www.w3.org/2004/02/skos/core#Concept">skos:Concept</a>
+                    <a href="http://www.w3.org/2004/02/skos/core#Concept">Concept</a>
             
                     
                   </td>
@@ -627,7 +635,7 @@
                 <tr>
                   <td>Range</td>
                   <td>
-                    <a href="http://www.w3.org/2004/02/skos/core#Concept">skos:Concept</a>
+                    <a href="http://www.w3.org/2004/02/skos/core#Concept">Concept</a>
             
                     
                   </td>
@@ -661,7 +669,7 @@
                 <tr>
                   <td>Range</td>
                   <td>
-                    <a href="http://www.w3.org/2000/01/rdf-schema#Datatype">rdfs:Datatype</a>
+                    <a href="http://www.w3.org/2000/01/rdf-schema#Datatype">Datatype</a>
             
                     
                   </td>
@@ -721,7 +729,7 @@
                 <tr>
                   <td>Domain</td>
                   <td>
-                    <a href="http://www.w3.org/2000/01/rdf-schema#Resource"></a>
+                    <a href="http://www.w3.org/2000/01/rdf-schema#Resource">Resource</a>
             
                     
                   </td>
@@ -729,7 +737,7 @@
                 <tr>
                   <td>Range</td>
                   <td>
-                    <a href="http://www.w3.org/2000/01/rdf-schema#Resource">rdfs:Resource</a>
+                    <a href="http://www.w3.org/2000/01/rdf-schema#Resource">Resource</a>
             
                     
                   </td>
@@ -797,7 +805,7 @@
                 <tr>
                   <td>Range</td>
                   <td>
-                    <a href="http://www.w3.org/2000/01/rdf-schema#Class">rdfs:Class</a>
+                    <a href="http://www.w3.org/2000/01/rdf-schema#Class">Class</a>
             
                     
                   </td>
@@ -831,7 +839,7 @@
                 <tr>
                   <td>Range</td>
                   <td>
-                    <a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property">rdf:Property</a>
+                    <a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property">Property</a>
             
                     
                   </td>
@@ -899,7 +907,7 @@
                 <tr>
                   <td>Range</td>
                   <td>
-                    <a href="http://www.w3.org/2004/02/skos/core#Concept">skos:Concept</a>
+                    <a href="http://www.w3.org/2004/02/skos/core#Concept">Concept</a>
             
                     
                   </td>
@@ -933,7 +941,7 @@
                 <tr>
                   <td>Range</td>
                   <td>
-                    <a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property">rdf:Property</a>
+                    <a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property">Property</a>
             
                     
                   </td>
@@ -967,7 +975,7 @@
                 <tr>
                   <td>Range</td>
                   <td>
-                    <a href="http://www.w3.org/2000/01/rdf-schema#Resource">rdfs:Resource</a>
+                    <a href="http://www.w3.org/2000/01/rdf-schema#Resource">Resource</a>
             
                     
                   </td>
@@ -1001,7 +1009,7 @@
                 <tr>
                   <td>Range</td>
                   <td>
-                    <a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property">rdf:Property</a>
+                    <a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property">Property</a>
             
                     
                   </td>
@@ -1085,9 +1093,6 @@
         <thead><tr><th>Prefix</th><th>Namespace IRI</th></tr></thead>
         <tbody>
             <tr><td><code>dsv</code></td><td><a href="https://w3id.org/dsv#"><code>https://w3id.org/dsv#</code></a></td></tr>
-            <tr><td><code>skos</code></td><td><a href="http://www.w3.org/2004/02/skos/core#"><code>http://www.w3.org/2004/02/skos/core#</code></a></td></tr>
-            <tr><td><code>rdfs</code></td><td><a href="http://www.w3.org/2000/01/rdf-schema#"><code>http://www.w3.org/2000/01/rdf-schema#</code></a></td></tr>
-            <tr><td><code>rdf</code></td><td><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#"><code>http://www.w3.org/1999/02/22-rdf-syntax-ns#</code></a></td></tr>
         </tbody>
       </table>
     </section>

@@ -2957,6 +2957,16 @@ ones. The main entities describe repository, dataset, its metadata and distribut
                     <a href="http://www.w3.org/ns/dcat#distribution">distribution</a> (<a href="http://www.w3.org/ns/dcat#distribution">dcat:distribution</a>)
                       <br />Definition: <i>An available distribution of the dataset.</i>
                       <ul style="list-style-type: disclosure-closed;">
+                          <li>
+                                      specializes
+                    property
+                    
+                    <a href="http://purl.org/dc/terms/relation">Relation</a> (<a href="http://purl.org/dc/terms/relation">dcterms:relation</a>)
+                      <br />Definition: <i>A related resource.</i>
+                      <ul style="list-style-type: disclosure-closed;">
+                      </ul>
+              
+                          </li>
                       </ul>
               
                           </li>
@@ -3163,6 +3173,16 @@ ones. The main entities describe repository, dataset, its metadata and distribut
                     <a href="https://techlib.github.io/CCMM-V/en/#hasOtherLanguage">has other language</a> (<a href="https://model.ccmm.cz/vocabulary/ccmm#hasOtherLanguage">https://model.ccmm.cz/vocabulary/ccmm#hasOtherLanguage</a>)
                       <br />Definition: <i>Any other languages of the Dataset.</i>
                       <ul style="list-style-type: disclosure-closed;">
+                          <li>
+                                      specializes
+                    property
+                    
+                    <a href="http://purl.org/dc/terms/language">Language</a> (<a href="http://purl.org/dc/terms/language">dcterms:language</a>)
+                      <br />Definition: <i>A language of the resource.</i>
+                      <ul style="list-style-type: disclosure-closed;">
+                      </ul>
+              
+                          </li>
                       </ul>
               
                               </li>
@@ -3229,6 +3249,16 @@ ones. The main entities describe repository, dataset, its metadata and distribut
                     <a href="https://techlib.github.io/CCMM-V/en/#hasPrimaryLanguage">has primary language</a> (<a href="https://model.ccmm.cz/vocabulary/ccmm#hasPrimaryLanguage">https://model.ccmm.cz/vocabulary/ccmm#hasPrimaryLanguage</a>)
                       <br />Definition: <i>A primary language of the Dataset.</i>
                       <ul style="list-style-type: disclosure-closed;">
+                          <li>
+                                      specializes
+                    property
+                    
+                    <a href="http://purl.org/dc/terms/language">Language</a> (<a href="http://purl.org/dc/terms/language">dcterms:language</a>)
+                      <br />Definition: <i>A language of the resource.</i>
+                      <ul style="list-style-type: disclosure-closed;">
+                      </ul>
+              
+                          </li>
                       </ul>
               
                               </li>
@@ -4385,7 +4415,7 @@ ones. The main entities describe repository, dataset, its metadata and distribut
                     property
                     
                     <a href="http://xmlns.com/foaf/0.1/primaryTopic">primary topic</a> (<a href="http://xmlns.com/foaf/0.1/primaryTopic">foaf:primaryTopic</a>)
-                      <br />Definition: <i>The primary topic of some page or document.</i>
+                      <br />Definition: <i>This axiom needed so that Protege loads DCAT 3 without errors.</i>
                       <ul style="list-style-type: disclosure-closed;">
                       </ul>
               
@@ -4937,6 +4967,26 @@ ones. The main entities describe repository, dataset, its metadata and distribut
                     <a href="http://www.w3.org/ns/dcat#resource">resource</a> (<a href="http://www.w3.org/ns/dcat#resource">dcat:resource</a>)
                       <br />Definition: <i>A resource that is listed in the catalog.</i>
                       <ul style="list-style-type: disclosure-closed;">
+                          <li>
+                                      specializes
+                    property
+                    
+                    <a href="http://purl.org/dc/terms/hasPart">Has Part</a> (<a href="http://purl.org/dc/terms/hasPart">dcterms:hasPart</a>)
+                      <br />Definition: <i>A related resource that is included either physically or logically in the described resource.</i>
+                      <ul style="list-style-type: disclosure-closed;">
+                          <li>
+                                      specializes
+                    property
+                    
+                    <a href="http://purl.org/dc/terms/relation">Relation</a> (<a href="http://purl.org/dc/terms/relation">dcterms:relation</a>)
+                      <br />Definition: <i>A related resource.</i>
+                      <ul style="list-style-type: disclosure-closed;">
+                      </ul>
+              
+                          </li>
+                      </ul>
+              
+                          </li>
                       </ul>
               
                           </li>
@@ -5830,6 +5880,16 @@ ones. The main entities describe repository, dataset, its metadata and distribut
                     <a href="http://xmlns.com/foaf/0.1/name">name</a> (<a href="http://xmlns.com/foaf/0.1/name">foaf:name</a>)
                       <br />Definition: <i>A name for some thing.</i>
                       <ul style="list-style-type: disclosure-closed;">
+                          <li>
+                                      specializes
+                    property
+                    
+                    <a href="http://www.w3.org/2000/01/rdf-schema#label">label</a> (<a href="http://www.w3.org/2000/01/rdf-schema#label">rdfs:label</a>)
+                      <br />Definition: <i>A human-readable name for the subject.</i>
+                      <ul style="list-style-type: disclosure-closed;">
+                      </ul>
+              
+                          </li>
                       </ul>
               
                           </li>
@@ -6163,6 +6223,16 @@ ones. The main entities describe repository, dataset, its metadata and distribut
                 <a href="http://www.w3.org/ns/org#Organization">Organization</a> (<a href="http://www.w3.org/ns/org#Organization">http://www.w3.org/ns/org#Organization</a>)
                   <br />Definition: <i>Represents a collection of people organized together into a community or other social, commercial or political structure. The group has some common purpose or reason for existence which goes beyond the set of people belonging to it and can act as an Agent. Organizations are often decomposable into hierarchical structures.  It is recommended that SKOS lexical labels should be used to label the Organization. In particular &#x60;skos:prefLabel&#x60; for the primary (possibly legally recognized name), &#x60;skos:altLabel&#x60; for alternative names (trading names, colloquial names) and &#x60;skos:notation&#x60; to denote a code from a code list. Alternative names: _Collective_ _Body_ _Org_ _Group_</i>
                   <ul style="list-style-type: disclosure-closed;">
+                      <li>
+                                  specializes
+                class
+                
+                <a href="http://xmlns.com/foaf/0.1/Agent">Agent</a> (<a href="http://xmlns.com/foaf/0.1/Agent">foaf:Agent</a>)
+                  <br />Definition: <i>An agent (eg. person, group, software or physical artifact).</i>
+                  <ul style="list-style-type: disclosure-closed;">
+                  </ul>
+          
+                      </li>
                   </ul>
           
                           </li>
@@ -6257,7 +6327,7 @@ ones. The main entities describe repository, dataset, its metadata and distribut
                   <tr>
                     <td>Range</td>
                     <td>
-                      <a href="https://ofn.gov.cz/základní-datové-typy/2020-07-01/#text">https://ofn.gov.cz/zdroj/základní-datové-typy/2020-07-01/text</a>
+                      <a href="https://ofn.gov.cz/základní-datové-typy/2020-07-01/#text">Text</a>
               
                           [0..*]
               
@@ -6577,7 +6647,7 @@ ones. The main entities describe repository, dataset, its metadata and distribut
                   <tr>
                     <td>Range</td>
                     <td>
-                      <a href="https://ofn.gov.cz/základní-datové-typy/2020-07-01/#text">https://ofn.gov.cz/zdroj/základní-datové-typy/2020-07-01/text</a>
+                      <a href="https://ofn.gov.cz/základní-datové-typy/2020-07-01/#text">Text</a>
               
                           [0..*]
               
@@ -7002,6 +7072,16 @@ ones. The main entities describe repository, dataset, its metadata and distribut
                 <a href="https://techlib.github.io/CCMM-V/en/#Distribution-DataService">Distribution - data service</a> (<a href="https://model.ccmm.cz/vocabulary/ccmm#Distribution-DataService">https://model.ccmm.cz/vocabulary/ccmm#Distribution-DataService</a>)
                   <br />Definition: <i>Physical embodiment of the dataset as a particular data service. </i>
                   <ul style="list-style-type: disclosure-closed;">
+                      <li>
+                                  specializes
+                class
+                
+                <a href="http://www.w3.org/ns/dcat#Distribution">Distribution</a> (<a href="http://www.w3.org/ns/dcat#Distribution">dcat:Distribution</a>)
+                  <br />Definition: <i>A specific representation of a dataset. A dataset might be available in multiple serializations that may differ in various ways, including natural language, media-type or format, schematic organization, temporal and spatial resolution, level of detail or profiles (which might specify any or all of the above).</i>
+                  <ul style="list-style-type: disclosure-closed;">
+                  </ul>
+          
+                      </li>
                   </ul>
           
                           </li>
@@ -7174,6 +7254,16 @@ ones. The main entities describe repository, dataset, its metadata and distribut
                 <a href="https://techlib.github.io/CCMM-V/en/#Distribution-DownloadableFile">Distribution - downloadable file</a> (<a href="https://model.ccmm.cz/vocabulary/ccmm#Distribution-DownloadableFile">https://model.ccmm.cz/vocabulary/ccmm#Distribution-DownloadableFile</a>)
                   <br />Definition: <i>Physical embodiment of the dataset in a particular format. </i>
                   <ul style="list-style-type: disclosure-closed;">
+                      <li>
+                                  specializes
+                class
+                
+                <a href="http://www.w3.org/ns/dcat#Distribution">Distribution</a> (<a href="http://www.w3.org/ns/dcat#Distribution">dcat:Distribution</a>)
+                  <br />Definition: <i>A specific representation of a dataset. A dataset might be available in multiple serializations that may differ in various ways, including natural language, media-type or format, schematic organization, temporal and spatial resolution, level of detail or profiles (which might specify any or all of the above).</i>
+                  <ul style="list-style-type: disclosure-closed;">
+                  </ul>
+          
+                      </li>
                   </ul>
           
                           </li>
@@ -7543,6 +7633,16 @@ ones. The main entities describe repository, dataset, its metadata and distribut
                     <a href="http://www.w3.org/ns/dcat#compressFormat">compression format</a> (<a href="http://www.w3.org/ns/dcat#compressFormat">dcat:compressFormat</a>)
                       <br />Definition: <i>The compression format of the distribution in which the data is contained in a compressed form, e.g. to reduce the size of the downloadable file.</i>
                       <ul style="list-style-type: disclosure-closed;">
+                          <li>
+                                      specializes
+                    property
+                    
+                    <a href="http://purl.org/dc/terms/format">Format</a> (<a href="http://purl.org/dc/terms/format">dcterms:format</a>)
+                      <br />Definition: <i>The file format, physical medium, or dimensions of the resource.</i>
+                      <ul style="list-style-type: disclosure-closed;">
+                      </ul>
+              
+                          </li>
                       </ul>
               
                           </li>
@@ -7712,6 +7812,16 @@ ones. The main entities describe repository, dataset, its metadata and distribut
                     <a href="http://www.w3.org/ns/dcat#mediaType">media type</a> (<a href="http://www.w3.org/ns/dcat#mediaType">dcat:mediaType</a>)
                       <br />Definition: <i>The media type of the distribution as defined by IANA</i>
                       <ul style="list-style-type: disclosure-closed;">
+                          <li>
+                                      specializes
+                    property
+                    
+                    <a href="http://purl.org/dc/terms/format">Format</a> (<a href="http://purl.org/dc/terms/format">dcterms:format</a>)
+                      <br />Definition: <i>The file format, physical medium, or dimensions of the resource.</i>
+                      <ul style="list-style-type: disclosure-closed;">
+                      </ul>
+              
+                          </li>
                       </ul>
               
                           </li>
@@ -7796,6 +7906,16 @@ ones. The main entities describe repository, dataset, its metadata and distribut
                     <a href="http://www.w3.org/ns/dcat#packageFormat">packaging format</a> (<a href="http://www.w3.org/ns/dcat#packageFormat">dcat:packageFormat</a>)
                       <br />Definition: <i>The package format of the distribution in which one or more data files are grouped together, e.g. to enable a set of related files to be downloaded together.</i>
                       <ul style="list-style-type: disclosure-closed;">
+                          <li>
+                                      specializes
+                    property
+                    
+                    <a href="http://purl.org/dc/terms/format">Format</a> (<a href="http://purl.org/dc/terms/format">dcterms:format</a>)
+                      <br />Definition: <i>The file format, physical medium, or dimensions of the resource.</i>
+                      <ul style="list-style-type: disclosure-closed;">
+                      </ul>
+              
+                          </li>
                       </ul>
               
                           </li>
@@ -8319,7 +8439,7 @@ ones. The main entities describe repository, dataset, its metadata and distribut
                   <tr>
                     <td>Range</td>
                     <td>
-                      <a href="https://ofn.gov.cz/základní-datové-typy/2020-07-01/#text">https://ofn.gov.cz/zdroj/základní-datové-typy/2020-07-01/text</a>
+                      <a href="https://ofn.gov.cz/základní-datové-typy/2020-07-01/#text">Text</a>
               
                           [1..1]
               
@@ -8340,6 +8460,16 @@ ones. The main entities describe repository, dataset, its metadata and distribut
                       <br />Definition: <i>skos:prefLabel, skos:altLabel and skos:hiddenLabel are pairwise
                     disjoint properties.</i>
                       <ul style="list-style-type: disclosure-closed;">
+                          <li>
+                                      specializes
+                    property
+                    
+                    <a href="http://www.w3.org/2000/01/rdf-schema#label">label</a> (<a href="http://www.w3.org/2000/01/rdf-schema#label">rdfs:label</a>)
+                      <br />Definition: <i>A human-readable name for the subject.</i>
+                      <ul style="list-style-type: disclosure-closed;">
+                      </ul>
+              
+                          </li>
                       </ul>
               
                               </li>
@@ -8386,7 +8516,6 @@ ones. The main entities describe repository, dataset, its metadata and distribut
                 class
                 
                 <a href="http://www.w3.org/ns/locn#Address">Address</a> (<a href="http://www.w3.org/ns/locn#Address">locn:Address</a>)
-                  <br />Definition: <i>An &quot;address representation&quot; as conceptually defined by the INSPIRE Address Representation data type. The locn:addressId property may be used to link this locn:Address to other representations.</i>
                   <ul style="list-style-type: disclosure-closed;">
                   </ul>
           
@@ -8461,7 +8590,6 @@ ones. The main entities describe repository, dataset, its metadata and distribut
                     property
                     
                     <a href="http://www.w3.org/ns/locn#addressArea">address area</a> (<a href="http://www.w3.org/ns/locn#addressArea">locn:addressArea</a>)
-                      <br />Definition: <i>The name or names of a geographic area or locality that groups a number of addressable objects for addressing purposes, without being an administrative unit. This would typically be part of a city, a neighbourhood or village. The domain of locn:addressArea is locn:Address.</i>
                       <ul style="list-style-type: disclosure-closed;">
                       </ul>
               
@@ -8527,7 +8655,6 @@ ones. The main entities describe repository, dataset, its metadata and distribut
                     property
                     
                     <a href="http://www.w3.org/ns/locn#adminUnitL1">admin unit level 1</a> (<a href="http://www.w3.org/ns/locn#adminUnitL1">locn:adminUnitL1</a>)
-                      <br />Definition: <i>The uppermost administrative unit for the address, almost always a country. The domain of locn:adminUnitL1 is locn:Address and the range is a literal, conceptually defined by the INSPIRE Geographical Name data type.</i>
                       <ul style="list-style-type: disclosure-closed;">
                       </ul>
               
@@ -8593,7 +8720,6 @@ ones. The main entities describe repository, dataset, its metadata and distribut
                     property
                     
                     <a href="http://www.w3.org/ns/locn#adminUnitL2">admin unit level 2</a> (<a href="http://www.w3.org/ns/locn#adminUnitL2">locn:adminUnitL2</a>)
-                      <br />Definition: <i>The region of the address, usually a county, state or other such area that typically encompasses several localities. The domain of  locn:adminUnitL2 is locn:Address and the range is a literal, conceptually defined by the INSPIRE Geographical Name data type.</i>
                       <ul style="list-style-type: disclosure-closed;">
                       </ul>
               
@@ -8659,7 +8785,6 @@ ones. The main entities describe repository, dataset, its metadata and distribut
                     property
                     
                     <a href="http://www.w3.org/ns/locn#fullAddress">full address</a> (<a href="http://www.w3.org/ns/locn#fullAddress">locn:fullAddress</a>)
-                      <br />Definition: <i>The complete address written as a string, with or without formatting. The domain of locn:fullAddress is locn:Address.</i>
                       <ul style="list-style-type: disclosure-closed;">
                       </ul>
               
@@ -8788,8 +8913,6 @@ ones. The main entities describe repository, dataset, its metadata and distribut
                     property
                     
                     <a href="http://www.w3.org/ns/locn#locatorDesignator">locator designator</a> (<a href="http://www.w3.org/ns/locn#locatorDesignator">locn:locatorDesignator</a>)
-                      <br />Definition: <i>A number or a sequence of characters that uniquely identifies the locator within the relevant scope(s). The full identification of the locator could include one or more locator designators.
-                  </i>
                       <ul style="list-style-type: disclosure-closed;">
                       </ul>
               
@@ -8855,8 +8978,6 @@ ones. The main entities describe repository, dataset, its metadata and distribut
                     property
                     
                     <a href="http://www.w3.org/ns/locn#locatorName">locator name</a> (<a href="http://www.w3.org/ns/locn#locatorName">locn:locatorName</a>)
-                      <br />Definition: <i>Proper noun(s) applied to the real world entity identified by the locator. The locator name could be the name of the property or complex, of the building or part of the building, or it could be the name of a room inside a building. 
-                  </i>
                       <ul style="list-style-type: disclosure-closed;">
                       </ul>
               
@@ -8924,7 +9045,6 @@ ones. The main entities describe repository, dataset, its metadata and distribut
                     property
                     
                     <a href="http://www.w3.org/ns/locn#postCode">post code</a> (<a href="http://www.w3.org/ns/locn#postCode">locn:postCode</a>)
-                      <br />Definition: <i>The post code (a.k.a postal code, zip code etc.). Post codes are common elements in many countries&#x27; postal address systems. The domain of locn:postCode is locn:Address.</i>
                       <ul style="list-style-type: disclosure-closed;">
                       </ul>
               
@@ -8990,7 +9110,6 @@ ones. The main entities describe repository, dataset, its metadata and distribut
                     property
                     
                     <a href="http://www.w3.org/ns/locn#postName">post name</a> (<a href="http://www.w3.org/ns/locn#postName">locn:postName</a>)
-                      <br />Definition: <i>The key postal division of the address, usually the city. (INSPIRE&#x27;s definition is &quot;One or more names created and maintained for postal purposes to identify a subdivision of addresses and postal delivery points.&quot;). The domain of locn:postName is locn:Address.</i>
                       <ul style="list-style-type: disclosure-closed;">
                       </ul>
               
@@ -9056,7 +9175,6 @@ ones. The main entities describe repository, dataset, its metadata and distribut
                     property
                     
                     <a href="http://www.w3.org/ns/locn#poBox">PO box</a> (<a href="http://www.w3.org/ns/locn#poBox">locn:poBox</a>)
-                      <br />Definition: <i>The Post Office Box number. The domain of locn:poBox is locn:Address.</i>
                       <ul style="list-style-type: disclosure-closed;">
                       </ul>
               
@@ -9118,7 +9236,6 @@ ones. The main entities describe repository, dataset, its metadata and distribut
                     property
                     
                     <a href="http://www.w3.org/ns/locn#thoroughfare">thoroughfare</a> (<a href="http://www.w3.org/ns/locn#thoroughfare">locn:thoroughfare</a>)
-                      <br />Definition: <i>An address component that represents the name of a passage or way through from one location to another. A thoroughfare is not necessarily a road, it might be a waterway or some other feature. The domain of locn:thoroughfare is locn:Address.</i>
                       <ul style="list-style-type: disclosure-closed;">
                       </ul>
               
@@ -9358,7 +9475,6 @@ ones. The main entities describe repository, dataset, its metadata and distribut
                 class
                 
                 <a href="http://www.w3.org/2004/02/skos/core#Concept">Concept</a> (<a href="http://www.w3.org/2004/02/skos/core#Concept">skos:Concept</a>)
-                  <br />Definition: <i>An idea or notion; a unit of thought.</i>
                   <ul style="list-style-type: disclosure-closed;">
                   </ul>
           
@@ -9415,7 +9531,7 @@ ones. The main entities describe repository, dataset, its metadata and distribut
                   <tr>
                     <td>Range</td>
                     <td>
-                      <a href="https://ofn.gov.cz/základní-datové-typy/2020-07-01/#text">https://ofn.gov.cz/zdroj/základní-datové-typy/2020-07-01/text</a>
+                      <a href="https://ofn.gov.cz/základní-datové-typy/2020-07-01/#text">Text</a>
               
                           [1..1]
               
@@ -9436,6 +9552,16 @@ ones. The main entities describe repository, dataset, its metadata and distribut
                       <br />Definition: <i>skos:prefLabel, skos:altLabel and skos:hiddenLabel are pairwise
                     disjoint properties.</i>
                       <ul style="list-style-type: disclosure-closed;">
+                          <li>
+                                      specializes
+                    property
+                    
+                    <a href="http://www.w3.org/2000/01/rdf-schema#label">label</a> (<a href="http://www.w3.org/2000/01/rdf-schema#label">rdfs:label</a>)
+                      <br />Definition: <i>A human-readable name for the subject.</i>
+                      <ul style="list-style-type: disclosure-closed;">
+                      </ul>
+              
+                          </li>
                       </ul>
               
                               </li>
@@ -9632,6 +9758,15 @@ ones. The main entities describe repository, dataset, its metadata and distribut
                 <a href="http://www.w3.org/ns/dcat#Role">Role</a> (<a href="http://www.w3.org/ns/dcat#Role">dcat:Role</a>)
                   <br />Definition: <i>A role is the function of a resource or agent with respect to another resource, in the context of resource attribution or resource relationships.</i>
                   <ul style="list-style-type: disclosure-closed;">
+                      <li>
+                                  specializes
+                class
+                
+                <a href="http://www.w3.org/2004/02/skos/core#Concept">Concept</a> (<a href="http://www.w3.org/2004/02/skos/core#Concept">skos:Concept</a>)
+                  <ul style="list-style-type: disclosure-closed;">
+                  </ul>
+          
+                      </li>
                   </ul>
           
                       </li>
@@ -9694,7 +9829,7 @@ ones. The main entities describe repository, dataset, its metadata and distribut
                   <tr>
                     <td>Range</td>
                     <td>
-                      <a href="https://ofn.gov.cz/základní-datové-typy/2020-07-01/#text">https://ofn.gov.cz/zdroj/základní-datové-typy/2020-07-01/text</a>
+                      <a href="https://ofn.gov.cz/základní-datové-typy/2020-07-01/#text">Text</a>
               
                           [1..1]
               
@@ -9715,6 +9850,16 @@ ones. The main entities describe repository, dataset, its metadata and distribut
                       <br />Definition: <i>skos:prefLabel, skos:altLabel and skos:hiddenLabel are pairwise
                     disjoint properties.</i>
                       <ul style="list-style-type: disclosure-closed;">
+                          <li>
+                                      specializes
+                    property
+                    
+                    <a href="http://www.w3.org/2000/01/rdf-schema#label">label</a> (<a href="http://www.w3.org/2000/01/rdf-schema#label">rdfs:label</a>)
+                      <br />Definition: <i>A human-readable name for the subject.</i>
+                      <ul style="list-style-type: disclosure-closed;">
+                      </ul>
+              
+                          </li>
                       </ul>
               
                               </li>
@@ -10144,6 +10289,16 @@ ones. The main entities describe repository, dataset, its metadata and distribut
                 <a href="https://techlib.github.io/CCMM-V/en/#CPMJsonRepresentation">Common provenance model JSON representation</a> (<a href="https://model.ccmm.cz/vocabulary/ccmm#CPMJsonRepresentation">https://model.ccmm.cz/vocabulary/ccmm#CPMJsonRepresentation</a>)
                   <br />Definition: <i>Provides link to  the representation of provenance activity information in JSON format according to the Common provenance model specified in  ISO 23494-2 standard.</i>
                   <ul style="list-style-type: disclosure-closed;">
+                      <li>
+                                  specializes
+                class
+                
+                <a href="http://www.w3.org/2000/01/rdf-schema#Resource">Resource</a> (<a href="http://www.w3.org/2000/01/rdf-schema#Resource">rdfs:Resource</a>)
+                  <br />Definition: <i>The class resource, everything.</i>
+                  <ul style="list-style-type: disclosure-closed;">
+                  </ul>
+          
+                      </li>
                   </ul>
           
                           </li>
@@ -10532,7 +10687,6 @@ ones. The main entities describe repository, dataset, its metadata and distribut
                 class
                 
                 <a href="http://www.w3.org/2004/02/skos/core#Concept">Concept</a> (<a href="http://www.w3.org/2004/02/skos/core#Concept">skos:Concept</a>)
-                  <br />Definition: <i>An idea or notion; a unit of thought.</i>
                   <ul style="list-style-type: disclosure-closed;">
                   </ul>
           
@@ -10589,7 +10743,7 @@ ones. The main entities describe repository, dataset, its metadata and distribut
                   <tr>
                     <td>Range</td>
                     <td>
-                      <a href="https://ofn.gov.cz/základní-datové-typy/2020-07-01/#text">https://ofn.gov.cz/zdroj/základní-datové-typy/2020-07-01/text</a>
+                      <a href="https://ofn.gov.cz/základní-datové-typy/2020-07-01/#text">Text</a>
               
                           [1..1]
               
@@ -10617,6 +10771,16 @@ ones. The main entities describe repository, dataset, its metadata and distribut
                       <br />Definition: <i>skos:prefLabel, skos:altLabel and skos:hiddenLabel are pairwise
                     disjoint properties.</i>
                       <ul style="list-style-type: disclosure-closed;">
+                          <li>
+                                      specializes
+                    property
+                    
+                    <a href="http://www.w3.org/2000/01/rdf-schema#label">label</a> (<a href="http://www.w3.org/2000/01/rdf-schema#label">rdfs:label</a>)
+                      <br />Definition: <i>A human-readable name for the subject.</i>
+                      <ul style="list-style-type: disclosure-closed;">
+                      </ul>
+              
+                          </li>
                       </ul>
               
                           </li>
@@ -10883,7 +11047,6 @@ ones. The main entities describe repository, dataset, its metadata and distribut
                 class
                 
                 <a href="http://www.w3.org/2004/02/skos/core#Concept">Concept</a> (<a href="http://www.w3.org/2004/02/skos/core#Concept">skos:Concept</a>)
-                  <br />Definition: <i>An idea or notion; a unit of thought.</i>
                   <ul style="list-style-type: disclosure-closed;">
                   </ul>
           
@@ -10943,7 +11106,7 @@ ones. The main entities describe repository, dataset, its metadata and distribut
                   <tr>
                     <td>Range</td>
                     <td>
-                      <a href="https://ofn.gov.cz/základní-datové-typy/2020-07-01/#text">https://ofn.gov.cz/zdroj/základní-datové-typy/2020-07-01/text</a>
+                      <a href="https://ofn.gov.cz/základní-datové-typy/2020-07-01/#text">Text</a>
               
                           [1..1]
               
@@ -10964,6 +11127,16 @@ ones. The main entities describe repository, dataset, its metadata and distribut
                       <br />Definition: <i>skos:prefLabel, skos:altLabel and skos:hiddenLabel are pairwise
                     disjoint properties.</i>
                       <ul style="list-style-type: disclosure-closed;">
+                          <li>
+                                      specializes
+                    property
+                    
+                    <a href="http://www.w3.org/2000/01/rdf-schema#label">label</a> (<a href="http://www.w3.org/2000/01/rdf-schema#label">rdfs:label</a>)
+                      <br />Definition: <i>A human-readable name for the subject.</i>
+                      <ul style="list-style-type: disclosure-closed;">
+                      </ul>
+              
+                          </li>
                       </ul>
               
                               </li>
@@ -11350,7 +11523,7 @@ ones. The main entities describe repository, dataset, its metadata and distribut
                   <tr>
                     <td>Range</td>
                     <td>
-                      <a href="https://ofn.gov.cz/základní-datové-typy/2020-07-01/#text">https://ofn.gov.cz/zdroj/základní-datové-typy/2020-07-01/text</a>
+                      <a href="https://ofn.gov.cz/základní-datové-typy/2020-07-01/#text">Text</a>
               
                           [1..1]
               
@@ -11371,6 +11544,16 @@ ones. The main entities describe repository, dataset, its metadata and distribut
                       <br />Definition: <i>skos:prefLabel, skos:altLabel and skos:hiddenLabel are pairwise
                     disjoint properties.</i>
                       <ul style="list-style-type: disclosure-closed;">
+                          <li>
+                                      specializes
+                    property
+                    
+                    <a href="http://www.w3.org/2000/01/rdf-schema#label">label</a> (<a href="http://www.w3.org/2000/01/rdf-schema#label">rdfs:label</a>)
+                      <br />Definition: <i>A human-readable name for the subject.</i>
+                      <ul style="list-style-type: disclosure-closed;">
+                      </ul>
+              
+                          </li>
                       </ul>
               
                               </li>
@@ -11733,7 +11916,6 @@ ones. The main entities describe repository, dataset, its metadata and distribut
                 class
                 
                 <a href="http://www.w3.org/ns/locn#Geometry">Geometry</a> (<a href="http://www.w3.org/ns/locn#Geometry">locn:Geometry</a>)
-                  <br />Definition: <i>The locn:Geometry class provides the means to identify a location as a point, line, polygon, etc. expressed using coordinates in some coordinate reference system.</i>
                   <ul style="list-style-type: disclosure-closed;">
                   </ul>
           
@@ -12516,7 +12698,7 @@ ones. The main entities describe repository, dataset, its metadata and distribut
                   <tr>
                     <td>Range</td>
                     <td>
-                      <a href="https://ofn.gov.cz/základní-datové-typy/2020-07-01/#text">https://ofn.gov.cz/zdroj/základní-datové-typy/2020-07-01/text</a>
+                      <a href="https://ofn.gov.cz/základní-datové-typy/2020-07-01/#text">Text</a>
               
                           [1..1]
               
@@ -12537,6 +12719,16 @@ ones. The main entities describe repository, dataset, its metadata and distribut
                       <br />Definition: <i>skos:prefLabel, skos:altLabel and skos:hiddenLabel are pairwise
                     disjoint properties.</i>
                       <ul style="list-style-type: disclosure-closed;">
+                          <li>
+                                      specializes
+                    property
+                    
+                    <a href="http://www.w3.org/2000/01/rdf-schema#label">label</a> (<a href="http://www.w3.org/2000/01/rdf-schema#label">rdfs:label</a>)
+                      <br />Definition: <i>A human-readable name for the subject.</i>
+                      <ul style="list-style-type: disclosure-closed;">
+                      </ul>
+              
+                          </li>
                       </ul>
               
                               </li>
@@ -13183,7 +13375,6 @@ ones. The main entities describe repository, dataset, its metadata and distribut
                 class
                 
                 <a href="http://www.w3.org/2004/02/skos/core#Concept">Concept</a> (<a href="http://www.w3.org/2004/02/skos/core#Concept">skos:Concept</a>)
-                  <br />Definition: <i>An idea or notion; a unit of thought.</i>
                   <ul style="list-style-type: disclosure-closed;">
                   </ul>
           
@@ -13240,7 +13431,7 @@ ones. The main entities describe repository, dataset, its metadata and distribut
                   <tr>
                     <td>Range</td>
                     <td>
-                      <a href="https://ofn.gov.cz/základní-datové-typy/2020-07-01/#text">https://ofn.gov.cz/zdroj/základní-datové-typy/2020-07-01/text</a>
+                      <a href="https://ofn.gov.cz/základní-datové-typy/2020-07-01/#text">Text</a>
               
                           [1..1]
               
@@ -13261,6 +13452,16 @@ ones. The main entities describe repository, dataset, its metadata and distribut
                       <br />Definition: <i>skos:prefLabel, skos:altLabel and skos:hiddenLabel are pairwise
                     disjoint properties.</i>
                       <ul style="list-style-type: disclosure-closed;">
+                          <li>
+                                      specializes
+                    property
+                    
+                    <a href="http://www.w3.org/2000/01/rdf-schema#label">label</a> (<a href="http://www.w3.org/2000/01/rdf-schema#label">rdfs:label</a>)
+                      <br />Definition: <i>A human-readable name for the subject.</i>
+                      <ul style="list-style-type: disclosure-closed;">
+                      </ul>
+              
+                          </li>
                       </ul>
               
                               </li>
@@ -13395,7 +13596,7 @@ ones. The main entities describe repository, dataset, its metadata and distribut
                   <tr>
                     <td>Range</td>
                     <td>
-                      <a href="https://ofn.gov.cz/základní-datové-typy/2020-07-01/#text">https://ofn.gov.cz/zdroj/základní-datové-typy/2020-07-01/text</a>
+                      <a href="https://ofn.gov.cz/základní-datové-typy/2020-07-01/#text">Text</a>
               
                           [1..1]
               
@@ -13416,6 +13617,16 @@ ones. The main entities describe repository, dataset, its metadata and distribut
                       <br />Definition: <i>skos:prefLabel, skos:altLabel and skos:hiddenLabel are pairwise
                     disjoint properties.</i>
                       <ul style="list-style-type: disclosure-closed;">
+                          <li>
+                                      specializes
+                    property
+                    
+                    <a href="http://www.w3.org/2000/01/rdf-schema#label">label</a> (<a href="http://www.w3.org/2000/01/rdf-schema#label">rdfs:label</a>)
+                      <br />Definition: <i>A human-readable name for the subject.</i>
+                      <ul style="list-style-type: disclosure-closed;">
+                      </ul>
+              
+                          </li>
                       </ul>
               
                               </li>
@@ -13606,6 +13817,15 @@ ones. The main entities describe repository, dataset, its metadata and distribut
                     <a href="https://techlib.github.io/CCMM-V/en/#hasRo-crateJsonRepresentation">has RO-Crate JSON representation</a> (<a href="https://model.ccmm.cz/vocabulary/ccmm#hasRo-crateJsonRepresentation">https://model.ccmm.cz/vocabulary/ccmm#hasRo-crateJsonRepresentation</a>)
                       <br />Definition: <i>Link to the JSON-LD representation of provenance activity according to the RO-Crate specification.</i>
                       <ul style="list-style-type: disclosure-closed;">
+                          <li>
+                                      specializes
+                    property
+                    
+                    <a href="http://www.w3.org/2000/01/rdf-schema#seeAlso">seeAlso</a> (<a href="http://www.w3.org/2000/01/rdf-schema#seeAlso">rdfs:seeAlso</a>)
+                      <ul style="list-style-type: disclosure-closed;">
+                      </ul>
+              
+                          </li>
                       </ul>
               
                               </li>
@@ -13956,7 +14176,6 @@ ones. The main entities describe repository, dataset, its metadata and distribut
                 class
                 
                 <a href="http://www.w3.org/2004/02/skos/core#Concept">Concept</a> (<a href="http://www.w3.org/2004/02/skos/core#Concept">skos:Concept</a>)
-                  <br />Definition: <i>An idea or notion; a unit of thought.</i>
                   <ul style="list-style-type: disclosure-closed;">
                   </ul>
           
@@ -14013,7 +14232,7 @@ ones. The main entities describe repository, dataset, its metadata and distribut
                   <tr>
                     <td>Range</td>
                     <td>
-                      <a href="https://ofn.gov.cz/základní-datové-typy/2020-07-01/#text">https://ofn.gov.cz/zdroj/základní-datové-typy/2020-07-01/text</a>
+                      <a href="https://ofn.gov.cz/základní-datové-typy/2020-07-01/#text">Text</a>
               
                           [1..1]
               
@@ -14034,6 +14253,16 @@ ones. The main entities describe repository, dataset, its metadata and distribut
                       <br />Definition: <i>skos:prefLabel, skos:altLabel and skos:hiddenLabel are pairwise
                     disjoint properties.</i>
                       <ul style="list-style-type: disclosure-closed;">
+                          <li>
+                                      specializes
+                    property
+                    
+                    <a href="http://www.w3.org/2000/01/rdf-schema#label">label</a> (<a href="http://www.w3.org/2000/01/rdf-schema#label">rdfs:label</a>)
+                      <br />Definition: <i>A human-readable name for the subject.</i>
+                      <ul style="list-style-type: disclosure-closed;">
+                      </ul>
+              
+                          </li>
                       </ul>
               
                               </li>
@@ -14080,7 +14309,6 @@ ones. The main entities describe repository, dataset, its metadata and distribut
                 class
                 
                 <a href="http://www.w3.org/2004/02/skos/core#Concept">Concept</a> (<a href="http://www.w3.org/2004/02/skos/core#Concept">skos:Concept</a>)
-                  <br />Definition: <i>An idea or notion; a unit of thought.</i>
                   <ul style="list-style-type: disclosure-closed;">
                   </ul>
           
@@ -14137,7 +14365,7 @@ ones. The main entities describe repository, dataset, its metadata and distribut
                   <tr>
                     <td>Range</td>
                     <td>
-                      <a href="https://ofn.gov.cz/základní-datové-typy/2020-07-01/#text">https://ofn.gov.cz/zdroj/základní-datové-typy/2020-07-01/text</a>
+                      <a href="https://ofn.gov.cz/základní-datové-typy/2020-07-01/#text">Text</a>
               
                           [1..1]
               
@@ -14158,6 +14386,16 @@ ones. The main entities describe repository, dataset, its metadata and distribut
                       <br />Definition: <i>skos:prefLabel, skos:altLabel and skos:hiddenLabel are pairwise
                     disjoint properties.</i>
                       <ul style="list-style-type: disclosure-closed;">
+                          <li>
+                                      specializes
+                    property
+                    
+                    <a href="http://www.w3.org/2000/01/rdf-schema#label">label</a> (<a href="http://www.w3.org/2000/01/rdf-schema#label">rdfs:label</a>)
+                      <br />Definition: <i>A human-readable name for the subject.</i>
+                      <ul style="list-style-type: disclosure-closed;">
+                      </ul>
+              
+                          </li>
                       </ul>
               
                               </li>
@@ -14206,6 +14444,16 @@ ones. The main entities describe repository, dataset, its metadata and distribut
                 <a href="https://techlib.github.io/CCMM-V/en/#Ro-crateJsonRepresentation">RO-Crate JSON representation</a> (<a href="https://model.ccmm.cz/vocabulary/ccmm#Ro-crateJsonRepresentation">https://model.ccmm.cz/vocabulary/ccmm#Ro-crateJsonRepresentation</a>)
                   <br />Definition: <i>Representation of provenance activity in JSON-LD format corresponding to the RO-Crate specification.</i>
                   <ul style="list-style-type: disclosure-closed;">
+                      <li>
+                                  specializes
+                class
+                
+                <a href="http://www.w3.org/2000/01/rdf-schema#Resource">Resource</a> (<a href="http://www.w3.org/2000/01/rdf-schema#Resource">rdfs:Resource</a>)
+                  <br />Definition: <i>The class resource, everything.</i>
+                  <ul style="list-style-type: disclosure-closed;">
+                  </ul>
+          
+                      </li>
                   </ul>
           
                           </li>
@@ -14376,7 +14624,7 @@ ones. The main entities describe repository, dataset, its metadata and distribut
                   <tr>
                     <td>Range</td>
                     <td>
-                      <a href="https://ofn.gov.cz/základní-datové-typy/2020-07-01/#text">https://ofn.gov.cz/zdroj/základní-datové-typy/2020-07-01/text</a>
+                      <a href="https://ofn.gov.cz/základní-datové-typy/2020-07-01/#text">Text</a>
               
                           [0..*]
               
@@ -14514,7 +14762,7 @@ ones. The main entities describe repository, dataset, its metadata and distribut
                   <tr>
                     <td>Range</td>
                     <td>
-                      <a href="https://ofn.gov.cz/základní-datové-typy/2020-07-01/#text">https://ofn.gov.cz/zdroj/základní-datové-typy/2020-07-01/text</a>
+                      <a href="https://ofn.gov.cz/základní-datové-typy/2020-07-01/#text">Text</a>
               
                           [1..1]
               
@@ -14535,6 +14783,16 @@ ones. The main entities describe repository, dataset, its metadata and distribut
                       <br />Definition: <i>skos:prefLabel, skos:altLabel and skos:hiddenLabel are pairwise
                     disjoint properties.</i>
                       <ul style="list-style-type: disclosure-closed;">
+                          <li>
+                                      specializes
+                    property
+                    
+                    <a href="http://www.w3.org/2000/01/rdf-schema#label">label</a> (<a href="http://www.w3.org/2000/01/rdf-schema#label">rdfs:label</a>)
+                      <br />Definition: <i>A human-readable name for the subject.</i>
+                      <ul style="list-style-type: disclosure-closed;">
+                      </ul>
+              
+                          </li>
                       </ul>
               
                               </li>
@@ -15205,7 +15463,7 @@ ones. The main entities describe repository, dataset, its metadata and distribut
                   <tr>
                     <td>Range</td>
                     <td>
-                      <a href="https://ofn.gov.cz/základní-datové-typy/2020-07-01/#text">https://ofn.gov.cz/zdroj/základní-datové-typy/2020-07-01/text</a>
+                      <a href="https://ofn.gov.cz/základní-datové-typy/2020-07-01/#text">Text</a>
               
                           [0..1]
               
