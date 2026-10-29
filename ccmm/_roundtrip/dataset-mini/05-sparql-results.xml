@@ -44,7 +44,7 @@
     <result>
       <binding name="s"><bnode>b0_cb182c972a14e199794bf4ff5b0d8eb10e53de17f6adf1926a574087c997a82397a</bnode></binding>
       <binding name="p"><uri>http://www.w3.org/ns/prov#agent</uri></binding>
-      <binding name="o"><bnode>b0_cb22b2e14e8701724c42f65acaf8bfb8a9952615d324a23729b709cd74950873678</bnode></binding>
+      <binding name="o"><bnode>b0_cb1e3e118a3bed1d122afa951ea5ef360fe05214ea8d985d395c19d8b698cdd1117</bnode></binding>
     </result>
     <result>
       <binding name="s"><bnode>b0_cb188abe086985713db541039e6c8b9ab925ad67567f028775cc52c078dc733c97e</bnode></binding>
@@ -97,22 +97,22 @@
       <binding name="o"><uri>https://data.narodni-repozitar.cz</uri></binding>
     </result>
     <result>
-      <binding name="s"><bnode>b0_cb22b2e14e8701724c42f65acaf8bfb8a9952615d324a23729b709cd74950873678</bnode></binding>
+      <binding name="s"><bnode>b0_cb1e3e118a3bed1d122afa951ea5ef360fe05214ea8d985d395c19d8b698cdd1117</bnode></binding>
       <binding name="p"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
       <binding name="o"><uri>http://www.w3.org/ns/prov#Person</uri></binding>
     </result>
     <result>
-      <binding name="s"><bnode>b0_cb22b2e14e8701724c42f65acaf8bfb8a9952615d324a23729b709cd74950873678</bnode></binding>
+      <binding name="s"><bnode>b0_cb1e3e118a3bed1d122afa951ea5ef360fe05214ea8d985d395c19d8b698cdd1117</bnode></binding>
       <binding name="p"><uri>http://www.w3.org/2006/vcard/ns#family-name</uri></binding>
-      <binding name="o"><literal datatype="http://www.w3.org/2001/XMLSchema#string">Staeklý</literal></binding>
+      <binding name="o"><literal datatype="http://www.w3.org/2001/XMLSchema#string">Steklý</literal></binding>
     </result>
     <result>
-      <binding name="s"><bnode>b0_cb22b2e14e8701724c42f65acaf8bfb8a9952615d324a23729b709cd74950873678</bnode></binding>
+      <binding name="s"><bnode>b0_cb1e3e118a3bed1d122afa951ea5ef360fe05214ea8d985d395c19d8b698cdd1117</bnode></binding>
       <binding name="p"><uri>http://www.w3.org/2006/vcard/ns#given-name</uri></binding>
       <binding name="o"><literal datatype="http://www.w3.org/2001/XMLSchema#string">Pavel</literal></binding>
     </result>
     <result>
-      <binding name="s"><bnode>b0_cb22b2e14e8701724c42f65acaf8bfb8a9952615d324a23729b709cd74950873678</bnode></binding>
+      <binding name="s"><bnode>b0_cb1e3e118a3bed1d122afa951ea5ef360fe05214ea8d985d395c19d8b698cdd1117</bnode></binding>
       <binding name="p"><uri>http://xmlns.com/foaf/0.1/name</uri></binding>
       <binding name="o"><literal datatype="http://www.w3.org/2001/XMLSchema#string">Pavel Steklý</literal></binding>
     </result>
@@ -340,6 +340,11 @@
       <binding name="s"><uri>https://vocabs.ccmm.cz/registry/codelist/SubjectCategory/30000/30300/30304</uri></binding>
       <binding name="p"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
       <binding name="o"><uri>https://w3id.org/tib/datacite/class/Subject</uri></binding>
+    </result>
+    <result>
+      <binding name="s"><uri>https://vocabs.ccmm.cz/registry/codelist/SubjectCategory/30000/30300/30304</uri></binding>
+      <binding name="p"><uri>http://www.w3.org/2004/02/skos/core#prefLabel</uri></binding>
+      <binding name="o"><literal xml:lang="cs">Veřejné a environmentální zdraví</literal></binding>
     </result>
     <result>
       <binding name="s"><uri>https://vocabs.ccmm.cz/registry/codelist/SubjectCategory/30000/30300/30304</uri></binding>

@@ -67,7 +67,7 @@
       <ccmm:alternate_title_type>
          <ccmm:iri>https://w3id.org/tib/datacite/vocab/titleType/TranslatedTitle</ccmm:iri>
          <ccmm:label xml:lang="cs">Přeložený název</ccmm:label>
-         <ccmm:label xml:lang="en">Translated Title</ccmm:label>
+         <ccmm:label xml:lang="en">TranslatedTitle</ccmm:label>
       </ccmm:alternate_title_type>
    </ccmm:alternate_title>
    <ccmm:qualified_attribution>
@@ -364,7 +364,7 @@
       </ccmm:temporal_representation>
       <ccmm:date_type>
          <ccmm:iri>https://w3id.org/tib/datacite/vocab/dateType/Available</ccmm:iri>
-         <ccmm:label xml:lang="en">Date Available</ccmm:label>
+         <ccmm:label xml:lang="en">Available</ccmm:label>
          <ccmm:label xml:lang="cs">Datum zveřejnění</ccmm:label>
       </ccmm:date_type>
    </ccmm:time_reference>
@@ -381,7 +381,7 @@
       </ccmm:temporal_representation>
       <ccmm:date_type>
          <ccmm:iri>https://w3id.org/tib/datacite/vocab/dateType/Created</ccmm:iri>
-         <ccmm:label xml:lang="en">Date Created</ccmm:label>
+         <ccmm:label xml:lang="en">Created</ccmm:label>
          <ccmm:label xml:lang="cs">Datum vytvoření</ccmm:label>
       </ccmm:date_type>
    </ccmm:time_reference>
@@ -393,8 +393,8 @@
       </ccmm:temporal_representation>
       <ccmm:date_type>
          <ccmm:iri>https://w3id.org/tib/datacite/vocab/dateType/Issued</ccmm:iri>
-         <ccmm:label xml:lang="en">Date Issued</ccmm:label>
          <ccmm:label xml:lang="cs">Datum vydání</ccmm:label>
+         <ccmm:label xml:lang="en">Issued</ccmm:label>
       </ccmm:date_type>
    </ccmm:time_reference>
    <ccmm:resource_type>
@@ -413,6 +413,8 @@
    </ccmm:access_rights>
    <ccmm:subject>
       <ccmm:iri>https://vocabs.ccmm.cz/registry/codelist/SubjectCategory/20000/20500/20501</ccmm:iri>
+      <ccmm:label xml:lang="cs">Materiálové inženýrství</ccmm:label>
+      <ccmm:label xml:lang="en">Materials engineering</ccmm:label>
       <ccmm:classification_code>20501</ccmm:classification_code>
       <ccmm:subject_scheme>
          <ccmm:iri>https://vocabs.ccmm.cz/registry/codelist/SubjectCategory/</ccmm:iri>
@@ -427,26 +429,26 @@
    <ccmm:keyword xml:lang="en">Super duplex stainless steel</ccmm:keyword>
    <ccmm:keyword xml:lang="en">Tensile properties</ccmm:keyword>
    <ccmm:description>
-      <ccmm:description_text xml:lang="en">Industry applications of duplex stainless steels require a two-phase microstructure with a nearly balanced austenite-ferrite content to achieve good mechanical properties and good corrosion resistance. The most widespread additive manufacturing method such as laser powder bed fusion provides nearly fully ferritic microstructures due to the very high cooling rate, and the post-processing heat treatment must be performed. In contrast, other additive manufacturing methods, such as directed deposition methods, reach lower cooling rates and enable to obtain an equal ferrite–austenite ratio directly in the microstructure of the as-built state. In this work, the super duplex stainless steel SAF 2507 was deposited by directed energy deposition. The process parameters, namely, the laser power, laser beam spot, and powder feed rate, were varied to investigate the impact of the energy area density on the microstructure and tensile properties. A decrease in the energy area density caused an increase in the austenite content of 48 vol% and a numerical simulation of the sample temperature distribution inside the block during deposition, explaining the relationship between the amount of in situ formed austenite and the deposition parameters, was provided. Simultaneously, the deposition rate increased by more than five times. In contrast, the samples deposited at a higher building rate are characterized by greater porosity and lower elongation values in the vertical direction. The effect of the deposition parameters on the yield strength is low.</ccmm:description_text>
-      <ccmm:description_type>
-         <ccmm:iri>https://w3id.org/tib/datacite/property/descriptionType/Abstract</ccmm:iri>
-         <ccmm:label xml:lang="en">Abstract</ccmm:label>
-         <ccmm:label xml:lang="cs">Abstrakt</ccmm:label>
-      </ccmm:description_type>
-   </ccmm:description>
-   <ccmm:description>
       <ccmm:description_text xml:lang="en">The data set is related to the investigation of the influence of deposition parameters on the microstructure, austenite formation, and tensile properties of SAF 2507 super duplex stainless steel fabricated using directed energy deposition (DED). The experiments were carried out at COMTES FHT (Czech Republic) using an INSSTEK MX-600 system equipped with a 2 kW Yttrium fiber laser. SAF 2507 powder (particle size 45–150 μm) was deposited under three different parameter sets, varying laser power, beam diameter, layer thickness, hatch distance, and powder feed rate, while maintaining constant scan speed. A zig-zag deposition strategy was applied under a protective argon atmosphere (5.0, 99.999%). For each parameter set, 20×20×20 mm cubes were built and used for analysis. Microstructure and phase composition were characterized using optical microscopy, scanning electron microscopy, EBSD analysis, X-ray diffraction. Tensile properties were evaluated using miniature tensile tests. Thermal simulations of the deposition process were carried out using Simufact Welding 2024.1 with the Advanced Thermal Cycle (ATC) method.</ccmm:description_text>
       <ccmm:description_type>
-         <ccmm:iri>https://w3id.org/tib/datacite/property/descriptionType/Methods</ccmm:iri>
+         <ccmm:iri>https://w3id.org/tib/datacite/vocab/descriptionType/Methods</ccmm:iri>
          <ccmm:label xml:lang="en">Methods</ccmm:label>
          <ccmm:label xml:lang="cs">Metodologie</ccmm:label>
       </ccmm:description_type>
    </ccmm:description>
    <ccmm:description>
+      <ccmm:description_text xml:lang="en">Industry applications of duplex stainless steels require a two-phase microstructure with a nearly balanced austenite-ferrite content to achieve good mechanical properties and good corrosion resistance. The most widespread additive manufacturing method such as laser powder bed fusion provides nearly fully ferritic microstructures due to the very high cooling rate, and the post-processing heat treatment must be performed. In contrast, other additive manufacturing methods, such as directed deposition methods, reach lower cooling rates and enable to obtain an equal ferrite–austenite ratio directly in the microstructure of the as-built state. In this work, the super duplex stainless steel SAF 2507 was deposited by directed energy deposition. The process parameters, namely, the laser power, laser beam spot, and powder feed rate, were varied to investigate the impact of the energy area density on the microstructure and tensile properties. A decrease in the energy area density caused an increase in the austenite content of 48 vol% and a numerical simulation of the sample temperature distribution inside the block during deposition, explaining the relationship between the amount of in situ formed austenite and the deposition parameters, was provided. Simultaneously, the deposition rate increased by more than five times. In contrast, the samples deposited at a higher building rate are characterized by greater porosity and lower elongation values in the vertical direction. The effect of the deposition parameters on the yield strength is low.</ccmm:description_text>
+      <ccmm:description_type>
+         <ccmm:iri>https://w3id.org/tib/datacite/vocab/descriptionType/Abstract</ccmm:iri>
+         <ccmm:label xml:lang="en">Abstract</ccmm:label>
+         <ccmm:label xml:lang="cs">Abstrakt</ccmm:label>
+      </ccmm:description_type>
+   </ccmm:description>
+   <ccmm:description>
       <ccmm:description_text xml:lang="en">The sets of experimental data were recorded on several instruments within COMTES FHT. In cases where possible (XRD, MTT, EBSD), the data are in xlsx format enabling any replotting.</ccmm:description_text>
       <ccmm:description_type>
-         <ccmm:iri>https://w3id.org/tib/datacite/property/descriptionType/TechnicalInfo</ccmm:iri>
-         <ccmm:label xml:lang="en">Technical Info</ccmm:label>
+         <ccmm:iri>https://w3id.org/tib/datacite/vocab/descriptionType/TechnicalInfo</ccmm:iri>
+         <ccmm:label xml:lang="en">TechnicalInfo</ccmm:label>
          <ccmm:label xml:lang="cs">Technická informace</ccmm:label>
       </ccmm:description_type>
    </ccmm:description>
@@ -571,7 +573,7 @@
       </ccmm:resource_type>
       <ccmm:resource_relation_type>
          <ccmm:iri>https://w3id.org/tib/datacite/vocab/relationType/IsReferencedBy</ccmm:iri>
-         <ccmm:label xml:lang="en">is referenced by</ccmm:label>
+         <ccmm:label xml:lang="en">IsReferencedBy</ccmm:label>
          <ccmm:label xml:lang="cs">je na něj odkazováno z (čeho)</ccmm:label>
       </ccmm:resource_relation_type>
    </ccmm:related_resource>

@@ -301,32 +301,32 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         [
             a <https://w3id.org/tib/datacite/class/Description> ;
             dcterms:description "Data podporující strukturu neutrofilových extracelulárních pastí pocházejících z lidských neutrofilů"@cs ;
-            datacite:descriptionType <https://w3id.org/tib/datacite/property/descriptionType/Abstract> ;
-        ] ,
-        [
-            a <https://w3id.org/tib/datacite/class/Description> ;
-            dcterms:description "Isolation of neutrophils from human blood samples, neutrophil stimulation with NETosis-inducing agents, microscopy data acquisition"@en ;
-            datacite:descriptionType <https://w3id.org/tib/datacite/property/descriptionType/Methods> ;
-        ] ,
-        [
-            a <https://w3id.org/tib/datacite/class/Description> ;
-            dcterms:description "Izolace neutrofilů ze vzorků lidské krve, stimulace neutrofilů pomocí agens indukujících NETózu, akvizice mikroskopických dat"@cs ;
-            datacite:descriptionType <https://w3id.org/tib/datacite/property/descriptionType/Methods> ;
-        ] ,
-        [
-            a <https://w3id.org/tib/datacite/class/Description> ;
-            dcterms:description "Data supporting the structure of neutrophil extracellular traps generated from human neutrophils"@en ;
-            datacite:descriptionType <https://w3id.org/tib/datacite/property/descriptionType/Abstract> ;
+            datacite:descriptionType <https://w3id.org/tib/datacite/vocab/descriptionType/Abstract> ;
         ] ,
         [
             a <https://w3id.org/tib/datacite/class/Description> ;
             dcterms:description "Supplementary microscopy data"@en ;
-            datacite:descriptionType <https://w3id.org/tib/datacite/property/descriptionType/TechnicalInfo> ;
+            datacite:descriptionType <https://w3id.org/tib/datacite/vocab/descriptionType/TechnicalInfo> ;
         ] ,
         [
             a <https://w3id.org/tib/datacite/class/Description> ;
             dcterms:description "Doplňující mikroskopická data"@cs ;
-            datacite:descriptionType <https://w3id.org/tib/datacite/property/descriptionType/TechnicalInfo> ;
+            datacite:descriptionType <https://w3id.org/tib/datacite/vocab/descriptionType/TechnicalInfo> ;
+        ] ,
+        [
+            a <https://w3id.org/tib/datacite/class/Description> ;
+            dcterms:description "Isolation of neutrophils from human blood samples, neutrophil stimulation with NETosis-inducing agents, microscopy data acquisition"@en ;
+            datacite:descriptionType <https://w3id.org/tib/datacite/vocab/descriptionType/Methods> ;
+        ] ,
+        [
+            a <https://w3id.org/tib/datacite/class/Description> ;
+            dcterms:description "Izolace neutrofilů ze vzorků lidské krve, stimulace neutrofilů pomocí agens indukujících NETózu, akvizice mikroskopických dat"@cs ;
+            datacite:descriptionType <https://w3id.org/tib/datacite/vocab/descriptionType/Methods> ;
+        ] ,
+        [
+            a <https://w3id.org/tib/datacite/class/Description> ;
+            dcterms:description "Data supporting the structure of neutrophil extracellular traps generated from human neutrophils"@en ;
+            datacite:descriptionType <https://w3id.org/tib/datacite/vocab/descriptionType/Abstract> ;
         ] ;
     datacite:publicationYear "2025"^^xsd:gYear ;
     datacite:subject
@@ -379,18 +379,29 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://vocabs.ccmm.cz/registry/codelist/SubjectCategory/10000/10600/10601>
     a <https://w3id.org/tib/datacite/class/Subject> ;
+    skos:prefLabel
+        "Buněčná biologie"@cs ,
+        "Cell biology"@en ;
     ccmm:inSubjectScheme <https://vocabs.ccmm.cz/registry/codelist/SubjectCategory/> ;
     datacite:classificationCode "10601" ;
 .
 
 <https://vocabs.ccmm.cz/registry/codelist/SubjectCategory/10000/10600/10606>
     a <https://w3id.org/tib/datacite/class/Subject> ;
+    skos:prefLabel
+        "Mikrobiologie"@cs ,
+        "Mikrobiologie "@cs ,
+        "Biological sciences"@en ,
+        "Microbiology"@en ;
     ccmm:inSubjectScheme <https://vocabs.ccmm.cz/registry/codelist/SubjectCategory/> ;
     datacite:classificationCode "10606" ;
 .
 
 <https://vocabs.ccmm.cz/registry/codelist/SubjectCategory/30000/30100/30102>
     a <https://w3id.org/tib/datacite/class/Subject> ;
+    skos:prefLabel
+        "Imunologie"@cs ,
+        "Immunology"@en ;
     ccmm:inSubjectScheme <https://vocabs.ccmm.cz/registry/codelist/SubjectCategory/> ;
     datacite:classificationCode "30102" ;
 .
@@ -399,35 +410,35 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     a skos:Concept ;
     skos:prefLabel
         "Datum zveřejnění"@cs ,
-        "Date Available"@en ;
+        "Available"@en ;
 .
 
 <https://w3id.org/tib/datacite/vocab/dateType/Collected>
     a skos:Concept ;
     skos:prefLabel
         "Datum sběru"@cs ,
-        "Date Collected"@en ;
+        "Collected"@en ;
 .
 
 <https://w3id.org/tib/datacite/vocab/dateType/Created>
     a skos:Concept ;
     skos:prefLabel
         "Datum vytvoření"@cs ,
-        "Date Created"@en ;
+        "Created"@en ;
 .
 
 <https://w3id.org/tib/datacite/vocab/dateType/Issued>
     a skos:Concept ;
     skos:prefLabel
         "Datum vydání"@cs ,
-        "Date Issued"@en ;
+        "Issued"@en ;
 .
 
 <https://w3id.org/tib/datacite/vocab/titleType/TranslatedTitle>
     a skos:Concept ;
     skos:prefLabel
         "Přeložený název"@cs ,
-        "Translated Title"@en ;
+        "TranslatedTitle"@en ;
 .
 
 <http://publications.europa.eu/resource/authority/file-type/PDF>
@@ -632,25 +643,25 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         "Publisher"@en ;
 .
 
-<https://w3id.org/tib/datacite/property/descriptionType/Abstract>
+<https://w3id.org/tib/datacite/vocab/descriptionType/Abstract>
     a skos:Concept ;
     skos:prefLabel
         "Abstrakt"@cs ,
         "Abstract"@en ;
 .
 
-<https://w3id.org/tib/datacite/property/descriptionType/Methods>
+<https://w3id.org/tib/datacite/vocab/descriptionType/Methods>
     a skos:Concept ;
     skos:prefLabel
         "Metodologie"@cs ,
         "Methods"@en ;
 .
 
-<https://w3id.org/tib/datacite/property/descriptionType/TechnicalInfo>
+<https://w3id.org/tib/datacite/vocab/descriptionType/TechnicalInfo>
     a skos:Concept ;
     skos:prefLabel
         "Technická informace"@cs ,
-        "Technical Info"@en ;
+        "TechnicalInfo"@en ;
 .
 
 <https://vocabs.ccmm.cz/registry/codelist/SubjectCategory/>
