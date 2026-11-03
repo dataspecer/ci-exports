@@ -28,12 +28,12 @@
 
 <https://ofn.gov.cz/dcat-ap-cz-hvd#> a dsv:ApplicationProfile.
 
-<> tree:member <https://ofn.gov.cz/dcat-ap-cz-hvd#DatováSada-2026-09-08T13:07:06.320Z-0>.
+<> tree:member <https://ofn.gov.cz/dcat-ap-cz-hvd#DatováSada-2026-10-12T07:15:19.928Z-0>.
 
-<https://ofn.gov.cz/dcat-ap-cz-hvd#DatováSada-2026-09-08T13:07:06.320Z-0> a as:Create;
+<https://ofn.gov.cz/dcat-ap-cz-hvd#DatováSada-2026-10-12T07:15:19.928Z-0> a as:Create;
     dct:isVersionOf <https://ofn.gov.cz/dcat-ap-cz-hvd#DatováSada>;
-    dct:created "2026-09-08T13:07:06.320Z"^^xsd:dateTime;
-    dct:issued "2026-09-08T13:07:06.320Z"^^xsd:dateTime;
+    dct:created "2026-10-12T07:15:19.928Z"^^xsd:dateTime;
+    dct:issued "2026-10-12T07:15:19.928Z"^^xsd:dateTime;
     ds-ldes:sequence 0;
     dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-hvd#>;
     a dsv:TermProfile;
@@ -57,12 +57,12 @@
     a dsv:ClassProfile;
     dsv:classRole role:main.
 
-<> tree:member <https://ofn.gov.cz/dcat-ap-cz-hvd#DatováSlužba-2026-09-08T13:07:06.320Z-1>.
+<> tree:member <https://ofn.gov.cz/dcat-ap-cz-hvd#DatováSlužba-2026-10-12T07:15:19.928Z-1>.
 
-<https://ofn.gov.cz/dcat-ap-cz-hvd#DatováSlužba-2026-09-08T13:07:06.320Z-1> a as:Create;
+<https://ofn.gov.cz/dcat-ap-cz-hvd#DatováSlužba-2026-10-12T07:15:19.928Z-1> a as:Create;
     dct:isVersionOf <https://ofn.gov.cz/dcat-ap-cz-hvd#DatováSlužba>;
-    dct:created "2026-09-08T13:07:06.320Z"^^xsd:dateTime;
-    dct:issued "2026-09-08T13:07:06.320Z"^^xsd:dateTime;
+    dct:created "2026-10-12T07:15:19.928Z"^^xsd:dateTime;
+    dct:issued "2026-10-12T07:15:19.928Z"^^xsd:dateTime;
     ds-ldes:sequence 1;
     dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-hvd#>;
     a dsv:TermProfile;
@@ -86,12 +86,12 @@
     a dsv:ClassProfile;
     dsv:classRole role:main.
 
-<> tree:member <https://ofn.gov.cz/dcat-ap-cz-hvd#SérieDatovýchSad-2026-09-08T13:07:06.320Z-2>.
+<> tree:member <https://ofn.gov.cz/dcat-ap-cz-hvd#SérieDatovýchSad-2026-10-12T07:15:19.928Z-2>.
 
-<https://ofn.gov.cz/dcat-ap-cz-hvd#SérieDatovýchSad-2026-09-08T13:07:06.320Z-2> a as:Create;
+<https://ofn.gov.cz/dcat-ap-cz-hvd#SérieDatovýchSad-2026-10-12T07:15:19.928Z-2> a as:Create;
     dct:isVersionOf <https://ofn.gov.cz/dcat-ap-cz-hvd#SérieDatovýchSad>;
-    dct:created "2026-09-08T13:07:06.320Z"^^xsd:dateTime;
-    dct:issued "2026-09-08T13:07:06.320Z"^^xsd:dateTime;
+    dct:created "2026-10-12T07:15:19.928Z"^^xsd:dateTime;
+    dct:issued "2026-10-12T07:15:19.928Z"^^xsd:dateTime;
     ds-ldes:sequence 2;
     dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-hvd#>;
     a dsv:TermProfile;
@@ -115,12 +115,12 @@
     a dsv:ClassProfile;
     dsv:classRole role:main.
 
-<> tree:member <https://ofn.gov.cz/dcat-ap-cz-hvd#Distribuce-2026-09-08T13:07:06.320Z-3>.
+<> tree:member <https://ofn.gov.cz/dcat-ap-cz-hvd#Distribuce-2026-10-12T07:15:19.928Z-3>.
 
-<https://ofn.gov.cz/dcat-ap-cz-hvd#Distribuce-2026-09-08T13:07:06.320Z-3> a as:Create;
+<https://ofn.gov.cz/dcat-ap-cz-hvd#Distribuce-2026-10-12T07:15:19.928Z-3> a as:Create;
     dct:isVersionOf <https://ofn.gov.cz/dcat-ap-cz-hvd#Distribuce>;
-    dct:created "2026-09-08T13:07:06.320Z"^^xsd:dateTime;
-    dct:issued "2026-09-08T13:07:06.320Z"^^xsd:dateTime;
+    dct:created "2026-10-12T07:15:19.928Z"^^xsd:dateTime;
+    dct:issued "2026-10-12T07:15:19.928Z"^^xsd:dateTime;
     ds-ldes:sequence 3;
     dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-hvd#>;
     a dsv:TermProfile;
@@ -144,12 +144,12 @@
     a dsv:ClassProfile;
     dsv:classRole role:main.
 
-<> tree:member <https://ofn.gov.cz/dcat-ap-cz-hvd#KontaktníBod-2026-09-08T13:07:06.320Z-4>.
+<> tree:member <https://ofn.gov.cz/dcat-ap-cz-hvd#KontaktníBod-2026-10-12T07:15:19.928Z-4>.
 
-<https://ofn.gov.cz/dcat-ap-cz-hvd#KontaktníBod-2026-09-08T13:07:06.320Z-4> a as:Create;
+<https://ofn.gov.cz/dcat-ap-cz-hvd#KontaktníBod-2026-10-12T07:15:19.928Z-4> a as:Create;
     dct:isVersionOf <https://ofn.gov.cz/dcat-ap-cz-hvd#KontaktníBod>;
-    dct:created "2026-09-08T13:07:06.320Z"^^xsd:dateTime;
-    dct:issued "2026-09-08T13:07:06.320Z"^^xsd:dateTime;
+    dct:created "2026-10-12T07:15:19.928Z"^^xsd:dateTime;
+    dct:issued "2026-10-12T07:15:19.928Z"^^xsd:dateTime;
     ds-ldes:sequence 4;
     dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-hvd#>;
     a dsv:TermProfile;
@@ -173,12 +173,12 @@
     a dsv:ClassProfile;
     dsv:classRole role:supportive.
 
-<> tree:member <https://ofn.gov.cz/dcat-ap-cz-hvd#ČasovýInterval-2026-09-08T13:07:06.320Z-5>.
+<> tree:member <https://ofn.gov.cz/dcat-ap-cz-hvd#ČasovýInterval-2026-10-12T07:15:19.928Z-5>.
 
-<https://ofn.gov.cz/dcat-ap-cz-hvd#ČasovýInterval-2026-09-08T13:07:06.320Z-5> a as:Create;
+<https://ofn.gov.cz/dcat-ap-cz-hvd#ČasovýInterval-2026-10-12T07:15:19.928Z-5> a as:Create;
     dct:isVersionOf <https://ofn.gov.cz/dcat-ap-cz-hvd#ČasovýInterval>;
-    dct:created "2026-09-08T13:07:06.320Z"^^xsd:dateTime;
-    dct:issued "2026-09-08T13:07:06.320Z"^^xsd:dateTime;
+    dct:created "2026-10-12T07:15:19.928Z"^^xsd:dateTime;
+    dct:issued "2026-10-12T07:15:19.928Z"^^xsd:dateTime;
     ds-ldes:sequence 5;
     dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-hvd#>;
     a dsv:TermProfile;
@@ -202,12 +202,12 @@
     a dsv:ClassProfile;
     dsv:classRole role:supportive.
 
-<> tree:member <https://ofn.gov.cz/dcat-ap-cz-hvd#DistribuceDatováSlužba-2026-09-08T13:07:06.320Z-6>.
+<> tree:member <https://ofn.gov.cz/dcat-ap-cz-hvd#DistribuceDatováSlužba-2026-10-12T07:15:19.928Z-6>.
 
-<https://ofn.gov.cz/dcat-ap-cz-hvd#DistribuceDatováSlužba-2026-09-08T13:07:06.320Z-6> a as:Create;
+<https://ofn.gov.cz/dcat-ap-cz-hvd#DistribuceDatováSlužba-2026-10-12T07:15:19.928Z-6> a as:Create;
     dct:isVersionOf <https://ofn.gov.cz/dcat-ap-cz-hvd#DistribuceDatováSlužba>;
-    dct:created "2026-09-08T13:07:06.320Z"^^xsd:dateTime;
-    dct:issued "2026-09-08T13:07:06.320Z"^^xsd:dateTime;
+    dct:created "2026-10-12T07:15:19.928Z"^^xsd:dateTime;
+    dct:issued "2026-10-12T07:15:19.928Z"^^xsd:dateTime;
     ds-ldes:sequence 6;
     dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-hvd#>;
     a dsv:TermProfile;
@@ -232,12 +232,12 @@
     a dsv:ClassProfile;
     dsv:classRole role:main.
 
-<> tree:member <https://ofn.gov.cz/dcat-ap-cz-hvd#DistribuceSoubor-2026-09-08T13:07:06.320Z-7>.
+<> tree:member <https://ofn.gov.cz/dcat-ap-cz-hvd#DistribuceSoubor-2026-10-12T07:15:19.928Z-7>.
 
-<https://ofn.gov.cz/dcat-ap-cz-hvd#DistribuceSoubor-2026-09-08T13:07:06.320Z-7> a as:Create;
+<https://ofn.gov.cz/dcat-ap-cz-hvd#DistribuceSoubor-2026-10-12T07:15:19.928Z-7> a as:Create;
     dct:isVersionOf <https://ofn.gov.cz/dcat-ap-cz-hvd#DistribuceSoubor>;
-    dct:created "2026-09-08T13:07:06.320Z"^^xsd:dateTime;
-    dct:issued "2026-09-08T13:07:06.320Z"^^xsd:dateTime;
+    dct:created "2026-10-12T07:15:19.928Z"^^xsd:dateTime;
+    dct:issued "2026-10-12T07:15:19.928Z"^^xsd:dateTime;
     ds-ldes:sequence 7;
     dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-hvd#>;
     a dsv:TermProfile;
@@ -262,12 +262,12 @@
     a dsv:ClassProfile;
     dsv:classRole role:main.
 
-<> tree:member <https://ofn.gov.cz/dcat-ap-cz-hvd#FormátSouboru-2026-09-08T13:07:06.320Z-8>.
+<> tree:member <https://ofn.gov.cz/dcat-ap-cz-hvd#FormátSouboru-2026-10-12T07:15:19.928Z-8>.
 
-<https://ofn.gov.cz/dcat-ap-cz-hvd#FormátSouboru-2026-09-08T13:07:06.320Z-8> a as:Create;
+<https://ofn.gov.cz/dcat-ap-cz-hvd#FormátSouboru-2026-10-12T07:15:19.928Z-8> a as:Create;
     dct:isVersionOf <https://ofn.gov.cz/dcat-ap-cz-hvd#FormátSouboru>;
-    dct:created "2026-09-08T13:07:06.320Z"^^xsd:dateTime;
-    dct:issued "2026-09-08T13:07:06.320Z"^^xsd:dateTime;
+    dct:created "2026-10-12T07:15:19.928Z"^^xsd:dateTime;
+    dct:issued "2026-10-12T07:15:19.928Z"^^xsd:dateTime;
     ds-ldes:sequence 8;
     dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-hvd#>;
     a dsv:TermProfile;
@@ -291,12 +291,12 @@
     a dsv:ClassProfile;
     dsv:classRole role:supportive.
 
-<> tree:member <https://ofn.gov.cz/dcat-ap-cz-hvd#TypMédia-2026-09-08T13:07:06.320Z-9>.
+<> tree:member <https://ofn.gov.cz/dcat-ap-cz-hvd#TypMédia-2026-10-12T07:15:19.928Z-9>.
 
-<https://ofn.gov.cz/dcat-ap-cz-hvd#TypMédia-2026-09-08T13:07:06.320Z-9> a as:Create;
+<https://ofn.gov.cz/dcat-ap-cz-hvd#TypMédia-2026-10-12T07:15:19.928Z-9> a as:Create;
     dct:isVersionOf <https://ofn.gov.cz/dcat-ap-cz-hvd#TypMédia>;
-    dct:created "2026-09-08T13:07:06.320Z"^^xsd:dateTime;
-    dct:issued "2026-09-08T13:07:06.320Z"^^xsd:dateTime;
+    dct:created "2026-10-12T07:15:19.928Z"^^xsd:dateTime;
+    dct:issued "2026-10-12T07:15:19.928Z"^^xsd:dateTime;
     ds-ldes:sequence 9;
     dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-hvd#>;
     a dsv:TermProfile;
@@ -320,12 +320,12 @@
     a dsv:ClassProfile;
     dsv:classRole role:supportive.
 
-<> tree:member <https://ofn.gov.cz/dcat-ap-cz-hvd#GeografickéÚzemí-2026-09-08T13:07:06.320Z-10>.
+<> tree:member <https://ofn.gov.cz/dcat-ap-cz-hvd#GeografickéÚzemí-2026-10-12T07:15:19.928Z-10>.
 
-<https://ofn.gov.cz/dcat-ap-cz-hvd#GeografickéÚzemí-2026-09-08T13:07:06.320Z-10> a as:Create;
+<https://ofn.gov.cz/dcat-ap-cz-hvd#GeografickéÚzemí-2026-10-12T07:15:19.928Z-10> a as:Create;
     dct:isVersionOf <https://ofn.gov.cz/dcat-ap-cz-hvd#GeografickéÚzemí>;
-    dct:created "2026-09-08T13:07:06.320Z"^^xsd:dateTime;
-    dct:issued "2026-09-08T13:07:06.320Z"^^xsd:dateTime;
+    dct:created "2026-10-12T07:15:19.928Z"^^xsd:dateTime;
+    dct:issued "2026-10-12T07:15:19.928Z"^^xsd:dateTime;
     ds-ldes:sequence 10;
     dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-hvd#>;
     a dsv:TermProfile;
@@ -349,12 +349,12 @@
     a dsv:ClassProfile;
     dsv:classRole role:supportive.
 
-<> tree:member <https://ofn.gov.cz/dcat-ap-cz-hvd#Frekvence-2026-09-08T13:07:06.320Z-11>.
+<> tree:member <https://ofn.gov.cz/dcat-ap-cz-hvd#Frekvence-2026-10-12T07:15:19.928Z-11>.
 
-<https://ofn.gov.cz/dcat-ap-cz-hvd#Frekvence-2026-09-08T13:07:06.320Z-11> a as:Create;
+<https://ofn.gov.cz/dcat-ap-cz-hvd#Frekvence-2026-10-12T07:15:19.928Z-11> a as:Create;
     dct:isVersionOf <https://ofn.gov.cz/dcat-ap-cz-hvd#Frekvence>;
-    dct:created "2026-09-08T13:07:06.320Z"^^xsd:dateTime;
-    dct:issued "2026-09-08T13:07:06.320Z"^^xsd:dateTime;
+    dct:created "2026-10-12T07:15:19.928Z"^^xsd:dateTime;
+    dct:issued "2026-10-12T07:15:19.928Z"^^xsd:dateTime;
     ds-ldes:sequence 11;
     dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-hvd#>;
     a dsv:TermProfile;
@@ -378,12 +378,12 @@
     a dsv:ClassProfile;
     dsv:classRole role:supportive.
 
-<> tree:member <https://ofn.gov.cz/dcat-ap-cz-hvd#Koncept-2026-09-08T13:07:06.320Z-12>.
+<> tree:member <https://ofn.gov.cz/dcat-ap-cz-hvd#Koncept-2026-10-12T07:15:19.928Z-12>.
 
-<https://ofn.gov.cz/dcat-ap-cz-hvd#Koncept-2026-09-08T13:07:06.320Z-12> a as:Create;
+<https://ofn.gov.cz/dcat-ap-cz-hvd#Koncept-2026-10-12T07:15:19.928Z-12> a as:Create;
     dct:isVersionOf <https://ofn.gov.cz/dcat-ap-cz-hvd#Koncept>;
-    dct:created "2026-09-08T13:07:06.320Z"^^xsd:dateTime;
-    dct:issued "2026-09-08T13:07:06.320Z"^^xsd:dateTime;
+    dct:created "2026-10-12T07:15:19.928Z"^^xsd:dateTime;
+    dct:issued "2026-10-12T07:15:19.928Z"^^xsd:dateTime;
     ds-ldes:sequence 12;
     dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-hvd#>;
     a dsv:TermProfile;
@@ -407,12 +407,12 @@
     a dsv:ClassProfile;
     dsv:classRole role:supportive.
 
-<> tree:member <https://ofn.gov.cz/dcat-ap-cz-hvd#DatovéTéma-2026-09-08T13:07:06.320Z-13>.
+<> tree:member <https://ofn.gov.cz/dcat-ap-cz-hvd#DatovéTéma-2026-10-12T07:15:19.928Z-13>.
 
-<https://ofn.gov.cz/dcat-ap-cz-hvd#DatovéTéma-2026-09-08T13:07:06.320Z-13> a as:Create;
+<https://ofn.gov.cz/dcat-ap-cz-hvd#DatovéTéma-2026-10-12T07:15:19.928Z-13> a as:Create;
     dct:isVersionOf <https://ofn.gov.cz/dcat-ap-cz-hvd#DatovéTéma>;
-    dct:created "2026-09-08T13:07:06.320Z"^^xsd:dateTime;
-    dct:issued "2026-09-08T13:07:06.320Z"^^xsd:dateTime;
+    dct:created "2026-10-12T07:15:19.928Z"^^xsd:dateTime;
+    dct:issued "2026-10-12T07:15:19.928Z"^^xsd:dateTime;
     ds-ldes:sequence 13;
     dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-hvd#>;
     a dsv:TermProfile;
@@ -436,12 +436,12 @@
     a dsv:ClassProfile;
     dsv:classRole role:supportive.
 
-<> tree:member <https://ofn.gov.cz/dcat-ap-cz-hvd#TémaEuroVoc-2026-09-08T13:07:06.320Z-14>.
+<> tree:member <https://ofn.gov.cz/dcat-ap-cz-hvd#TémaEuroVoc-2026-10-12T07:15:19.928Z-14>.
 
-<https://ofn.gov.cz/dcat-ap-cz-hvd#TémaEuroVoc-2026-09-08T13:07:06.320Z-14> a as:Create;
+<https://ofn.gov.cz/dcat-ap-cz-hvd#TémaEuroVoc-2026-10-12T07:15:19.928Z-14> a as:Create;
     dct:isVersionOf <https://ofn.gov.cz/dcat-ap-cz-hvd#TémaEuroVoc>;
-    dct:created "2026-09-08T13:07:06.320Z"^^xsd:dateTime;
-    dct:issued "2026-09-08T13:07:06.320Z"^^xsd:dateTime;
+    dct:created "2026-10-12T07:15:19.928Z"^^xsd:dateTime;
+    dct:issued "2026-10-12T07:15:19.928Z"^^xsd:dateTime;
     ds-ldes:sequence 14;
     dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-hvd#>;
     a dsv:TermProfile;
@@ -465,12 +465,12 @@
     a dsv:ClassProfile;
     dsv:classRole role:supportive.
 
-<> tree:member <https://ofn.gov.cz/dcat-ap-cz-hvd#PrávníPředpis-2026-09-08T13:07:06.320Z-15>.
+<> tree:member <https://ofn.gov.cz/dcat-ap-cz-hvd#PrávníPředpis-2026-10-12T07:15:19.928Z-15>.
 
-<https://ofn.gov.cz/dcat-ap-cz-hvd#PrávníPředpis-2026-09-08T13:07:06.320Z-15> a as:Create;
+<https://ofn.gov.cz/dcat-ap-cz-hvd#PrávníPředpis-2026-10-12T07:15:19.928Z-15> a as:Create;
     dct:isVersionOf <https://ofn.gov.cz/dcat-ap-cz-hvd#PrávníPředpis>;
-    dct:created "2026-09-08T13:07:06.320Z"^^xsd:dateTime;
-    dct:issued "2026-09-08T13:07:06.320Z"^^xsd:dateTime;
+    dct:created "2026-10-12T07:15:19.928Z"^^xsd:dateTime;
+    dct:issued "2026-10-12T07:15:19.928Z"^^xsd:dateTime;
     ds-ldes:sequence 15;
     dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-hvd#>;
     a dsv:TermProfile;
@@ -494,12 +494,12 @@
     a dsv:ClassProfile;
     dsv:classRole role:supportive.
 
-<> tree:member <https://ofn.gov.cz/dcat-ap-cz-hvd#Poskytovatel-2026-09-08T13:07:06.320Z-16>.
+<> tree:member <https://ofn.gov.cz/dcat-ap-cz-hvd#Poskytovatel-2026-10-12T07:15:19.928Z-16>.
 
-<https://ofn.gov.cz/dcat-ap-cz-hvd#Poskytovatel-2026-09-08T13:07:06.320Z-16> a as:Create;
+<https://ofn.gov.cz/dcat-ap-cz-hvd#Poskytovatel-2026-10-12T07:15:19.928Z-16> a as:Create;
     dct:isVersionOf <https://ofn.gov.cz/dcat-ap-cz-hvd#Poskytovatel>;
-    dct:created "2026-09-08T13:07:06.320Z"^^xsd:dateTime;
-    dct:issued "2026-09-08T13:07:06.320Z"^^xsd:dateTime;
+    dct:created "2026-10-12T07:15:19.928Z"^^xsd:dateTime;
+    dct:issued "2026-10-12T07:15:19.928Z"^^xsd:dateTime;
     ds-ldes:sequence 16;
     dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-hvd#>;
     a dsv:TermProfile;
@@ -523,12 +523,12 @@
     a dsv:ClassProfile;
     dsv:classRole role:supportive.
 
-<> tree:member <https://ofn.gov.cz/dcat-ap-cz-hvd#Zdroj-2026-09-08T13:07:06.320Z-17>.
+<> tree:member <https://ofn.gov.cz/dcat-ap-cz-hvd#Zdroj-2026-10-12T07:15:19.928Z-17>.
 
-<https://ofn.gov.cz/dcat-ap-cz-hvd#Zdroj-2026-09-08T13:07:06.320Z-17> a as:Create;
+<https://ofn.gov.cz/dcat-ap-cz-hvd#Zdroj-2026-10-12T07:15:19.928Z-17> a as:Create;
     dct:isVersionOf <https://ofn.gov.cz/dcat-ap-cz-hvd#Zdroj>;
-    dct:created "2026-09-08T13:07:06.320Z"^^xsd:dateTime;
-    dct:issued "2026-09-08T13:07:06.320Z"^^xsd:dateTime;
+    dct:created "2026-10-12T07:15:19.928Z"^^xsd:dateTime;
+    dct:issued "2026-10-12T07:15:19.928Z"^^xsd:dateTime;
     ds-ldes:sequence 17;
     dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-hvd#>;
     a dsv:TermProfile;
@@ -552,12 +552,12 @@
     a dsv:ClassProfile;
     dsv:classRole role:supportive.
 
-<> tree:member <https://ofn.gov.cz/dcat-ap-cz-hvd#PrvekRÚIAN-2026-09-08T13:07:06.320Z-18>.
+<> tree:member <https://ofn.gov.cz/dcat-ap-cz-hvd#PrvekRÚIAN-2026-10-12T07:15:19.928Z-18>.
 
-<https://ofn.gov.cz/dcat-ap-cz-hvd#PrvekRÚIAN-2026-09-08T13:07:06.320Z-18> a as:Create;
+<https://ofn.gov.cz/dcat-ap-cz-hvd#PrvekRÚIAN-2026-10-12T07:15:19.928Z-18> a as:Create;
     dct:isVersionOf <https://ofn.gov.cz/dcat-ap-cz-hvd#PrvekRÚIAN>;
-    dct:created "2026-09-08T13:07:06.320Z"^^xsd:dateTime;
-    dct:issued "2026-09-08T13:07:06.320Z"^^xsd:dateTime;
+    dct:created "2026-10-12T07:15:19.928Z"^^xsd:dateTime;
+    dct:issued "2026-10-12T07:15:19.928Z"^^xsd:dateTime;
     ds-ldes:sequence 18;
     dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-hvd#>;
     a dsv:TermProfile;
@@ -581,12 +581,12 @@
     a dsv:ClassProfile;
     dsv:classRole role:supportive.
 
-<> tree:member <https://ofn.gov.cz/dcat-ap-cz-hvd#Standard-2026-09-08T13:07:06.320Z-19>.
+<> tree:member <https://ofn.gov.cz/dcat-ap-cz-hvd#Standard-2026-10-12T07:15:19.928Z-19>.
 
-<https://ofn.gov.cz/dcat-ap-cz-hvd#Standard-2026-09-08T13:07:06.320Z-19> a as:Create;
+<https://ofn.gov.cz/dcat-ap-cz-hvd#Standard-2026-10-12T07:15:19.928Z-19> a as:Create;
     dct:isVersionOf <https://ofn.gov.cz/dcat-ap-cz-hvd#Standard>;
-    dct:created "2026-09-08T13:07:06.320Z"^^xsd:dateTime;
-    dct:issued "2026-09-08T13:07:06.320Z"^^xsd:dateTime;
+    dct:created "2026-10-12T07:15:19.928Z"^^xsd:dateTime;
+    dct:issued "2026-10-12T07:15:19.928Z"^^xsd:dateTime;
     ds-ldes:sequence 19;
     dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-hvd#>;
     a dsv:TermProfile;
@@ -610,12 +610,12 @@
     a dsv:ClassProfile;
     dsv:classRole role:supportive.
 
-<> tree:member <https://ofn.gov.cz/dcat-ap-cz-hvd#SpecifikacePodmínekUžití-2026-09-08T13:07:06.320Z-20>.
+<> tree:member <https://ofn.gov.cz/dcat-ap-cz-hvd#SpecifikacePodmínekUžití-2026-10-12T07:15:19.928Z-20>.
 
-<https://ofn.gov.cz/dcat-ap-cz-hvd#SpecifikacePodmínekUžití-2026-09-08T13:07:06.320Z-20> a as:Create;
+<https://ofn.gov.cz/dcat-ap-cz-hvd#SpecifikacePodmínekUžití-2026-10-12T07:15:19.928Z-20> a as:Create;
     dct:isVersionOf <https://ofn.gov.cz/dcat-ap-cz-hvd#SpecifikacePodmínekUžití>;
-    dct:created "2026-09-08T13:07:06.320Z"^^xsd:dateTime;
-    dct:issued "2026-09-08T13:07:06.320Z"^^xsd:dateTime;
+    dct:created "2026-10-12T07:15:19.928Z"^^xsd:dateTime;
+    dct:issued "2026-10-12T07:15:19.928Z"^^xsd:dateTime;
     ds-ldes:sequence 20;
     dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-hvd#>;
     a dsv:TermProfile;
@@ -639,12 +639,12 @@
     a dsv:ClassProfile;
     dsv:classRole role:main.
 
-<> tree:member <https://ofn.gov.cz/dcat-ap-cz-hvd#Licence-2026-09-08T13:07:06.320Z-21>.
+<> tree:member <https://ofn.gov.cz/dcat-ap-cz-hvd#Licence-2026-10-12T07:15:19.928Z-21>.
 
-<https://ofn.gov.cz/dcat-ap-cz-hvd#Licence-2026-09-08T13:07:06.320Z-21> a as:Create;
+<https://ofn.gov.cz/dcat-ap-cz-hvd#Licence-2026-10-12T07:15:19.928Z-21> a as:Create;
     dct:isVersionOf <https://ofn.gov.cz/dcat-ap-cz-hvd#Licence>;
-    dct:created "2026-09-08T13:07:06.320Z"^^xsd:dateTime;
-    dct:issued "2026-09-08T13:07:06.320Z"^^xsd:dateTime;
+    dct:created "2026-10-12T07:15:19.928Z"^^xsd:dateTime;
+    dct:issued "2026-10-12T07:15:19.928Z"^^xsd:dateTime;
     ds-ldes:sequence 21;
     dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-hvd#>;
     a dsv:TermProfile;
@@ -668,12 +668,12 @@
     a dsv:ClassProfile;
     dsv:classRole role:supportive.
 
-<> tree:member <https://ofn.gov.cz/dcat-ap-cz-hvd#Dokument-2026-09-08T13:07:06.320Z-22>.
+<> tree:member <https://ofn.gov.cz/dcat-ap-cz-hvd#Dokument-2026-10-12T07:15:19.928Z-22>.
 
-<https://ofn.gov.cz/dcat-ap-cz-hvd#Dokument-2026-09-08T13:07:06.320Z-22> a as:Create;
+<https://ofn.gov.cz/dcat-ap-cz-hvd#Dokument-2026-10-12T07:15:19.928Z-22> a as:Create;
     dct:isVersionOf <https://ofn.gov.cz/dcat-ap-cz-hvd#Dokument>;
-    dct:created "2026-09-08T13:07:06.320Z"^^xsd:dateTime;
-    dct:issued "2026-09-08T13:07:06.320Z"^^xsd:dateTime;
+    dct:created "2026-10-12T07:15:19.928Z"^^xsd:dateTime;
+    dct:issued "2026-10-12T07:15:19.928Z"^^xsd:dateTime;
     ds-ldes:sequence 22;
     dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-hvd#>;
     a dsv:TermProfile;
@@ -697,12 +697,12 @@
     a dsv:ClassProfile;
     dsv:classRole role:supportive.
 
-<> tree:member <https://ofn.gov.cz/dcat-ap-cz-hvd#Jednotlivec-2026-09-08T13:07:06.320Z-23>.
+<> tree:member <https://ofn.gov.cz/dcat-ap-cz-hvd#Jednotlivec-2026-10-12T07:15:19.928Z-23>.
 
-<https://ofn.gov.cz/dcat-ap-cz-hvd#Jednotlivec-2026-09-08T13:07:06.320Z-23> a as:Create;
+<https://ofn.gov.cz/dcat-ap-cz-hvd#Jednotlivec-2026-10-12T07:15:19.928Z-23> a as:Create;
     dct:isVersionOf <https://ofn.gov.cz/dcat-ap-cz-hvd#Jednotlivec>;
-    dct:created "2026-09-08T13:07:06.320Z"^^xsd:dateTime;
-    dct:issued "2026-09-08T13:07:06.320Z"^^xsd:dateTime;
+    dct:created "2026-10-12T07:15:19.928Z"^^xsd:dateTime;
+    dct:issued "2026-10-12T07:15:19.928Z"^^xsd:dateTime;
     ds-ldes:sequence 23;
     dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-hvd#>;
     a dsv:TermProfile;
@@ -727,12 +727,12 @@
     a dsv:ClassProfile;
     dsv:classRole role:supportive.
 
-<> tree:member <https://ofn.gov.cz/dcat-ap-cz-hvd#Organizace-2026-09-08T13:07:06.320Z-24>.
+<> tree:member <https://ofn.gov.cz/dcat-ap-cz-hvd#Organizace-2026-10-12T07:15:19.928Z-24>.
 
-<https://ofn.gov.cz/dcat-ap-cz-hvd#Organizace-2026-09-08T13:07:06.320Z-24> a as:Create;
+<https://ofn.gov.cz/dcat-ap-cz-hvd#Organizace-2026-10-12T07:15:19.928Z-24> a as:Create;
     dct:isVersionOf <https://ofn.gov.cz/dcat-ap-cz-hvd#Organizace>;
-    dct:created "2026-09-08T13:07:06.320Z"^^xsd:dateTime;
-    dct:issued "2026-09-08T13:07:06.320Z"^^xsd:dateTime;
+    dct:created "2026-10-12T07:15:19.928Z"^^xsd:dateTime;
+    dct:issued "2026-10-12T07:15:19.928Z"^^xsd:dateTime;
     ds-ldes:sequence 24;
     dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-hvd#>;
     a dsv:TermProfile;
@@ -757,12 +757,12 @@
     a dsv:ClassProfile;
     dsv:classRole role:supportive.
 
-<> tree:member <https://ofn.gov.cz/dcat-ap-cz-hvd#E-mailAddress-2026-09-08T13:07:06.320Z-25>.
+<> tree:member <https://ofn.gov.cz/dcat-ap-cz-hvd#E-mailAddress-2026-10-12T07:15:19.928Z-25>.
 
-<https://ofn.gov.cz/dcat-ap-cz-hvd#E-mailAddress-2026-09-08T13:07:06.320Z-25> a as:Create;
+<https://ofn.gov.cz/dcat-ap-cz-hvd#E-mailAddress-2026-10-12T07:15:19.928Z-25> a as:Create;
     dct:isVersionOf <https://ofn.gov.cz/dcat-ap-cz-hvd#E-mailAddress>;
-    dct:created "2026-09-08T13:07:06.320Z"^^xsd:dateTime;
-    dct:issued "2026-09-08T13:07:06.320Z"^^xsd:dateTime;
+    dct:created "2026-10-12T07:15:19.928Z"^^xsd:dateTime;
+    dct:issued "2026-10-12T07:15:19.928Z"^^xsd:dateTime;
     ds-ldes:sequence 25;
     dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-hvd#>;
     a dsv:TermProfile;
@@ -786,12 +786,12 @@
     a dsv:ClassProfile;
     dsv:classRole role:supportive.
 
-<> tree:member <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSada.název-2026-09-08T13:07:06.320Z-26>.
+<> tree:member <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSada.název-2026-10-12T07:15:19.928Z-26>.
 
-<https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSada.název-2026-09-08T13:07:06.320Z-26> a as:Create;
+<https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSada.název-2026-10-12T07:15:19.928Z-26> a as:Create;
     dct:isVersionOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSada.název>;
-    dct:created "2026-09-08T13:07:06.320Z"^^xsd:dateTime;
-    dct:issued "2026-09-08T13:07:06.320Z"^^xsd:dateTime;
+    dct:created "2026-10-12T07:15:19.928Z"^^xsd:dateTime;
+    dct:issued "2026-10-12T07:15:19.928Z"^^xsd:dateTime;
     ds-ldes:sequence 26;
     dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-hvd#>;
     a dsv:TermProfile;
@@ -818,12 +818,12 @@
     a dsv:DatatypePropertyProfile;
     dsv:datatypePropertyRange <https://ofn.gov.cz/zdroj/základní-datové-typy/2020-07-01/text>.
 
-<> tree:member <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSada.popis-2026-09-08T13:07:06.320Z-27>.
+<> tree:member <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSada.popis-2026-10-12T07:15:19.928Z-27>.
 
-<https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSada.popis-2026-09-08T13:07:06.320Z-27> a as:Create;
+<https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSada.popis-2026-10-12T07:15:19.928Z-27> a as:Create;
     dct:isVersionOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSada.popis>;
-    dct:created "2026-09-08T13:07:06.320Z"^^xsd:dateTime;
-    dct:issued "2026-09-08T13:07:06.320Z"^^xsd:dateTime;
+    dct:created "2026-10-12T07:15:19.928Z"^^xsd:dateTime;
+    dct:issued "2026-10-12T07:15:19.928Z"^^xsd:dateTime;
     ds-ldes:sequence 27;
     dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-hvd#>;
     a dsv:TermProfile;
@@ -850,12 +850,12 @@
     a dsv:DatatypePropertyProfile;
     dsv:datatypePropertyRange <https://ofn.gov.cz/zdroj/základní-datové-typy/2020-07-01/text>.
 
-<> tree:member <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSada.klíčovéSlovo-2026-09-08T13:07:06.320Z-28>.
+<> tree:member <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSada.klíčovéSlovo-2026-10-12T07:15:19.928Z-28>.
 
-<https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSada.klíčovéSlovo-2026-09-08T13:07:06.320Z-28> a as:Create;
+<https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSada.klíčovéSlovo-2026-10-12T07:15:19.928Z-28> a as:Create;
     dct:isVersionOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSada.klíčovéSlovo>;
-    dct:created "2026-09-08T13:07:06.320Z"^^xsd:dateTime;
-    dct:issued "2026-09-08T13:07:06.320Z"^^xsd:dateTime;
+    dct:created "2026-10-12T07:15:19.928Z"^^xsd:dateTime;
+    dct:issued "2026-10-12T07:15:19.928Z"^^xsd:dateTime;
     ds-ldes:sequence 28;
     dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-hvd#>;
     a dsv:TermProfile;
@@ -881,12 +881,12 @@
     a dsv:DatatypePropertyProfile;
     dsv:datatypePropertyRange rdf:langString.
 
-<> tree:member <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSada.prostorovéRozlišeníVMetrech-2026-09-08T13:07:06.320Z-29>.
+<> tree:member <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSada.prostorovéRozlišeníVMetrech-2026-10-12T07:15:19.928Z-29>.
 
-<https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSada.prostorovéRozlišeníVMetrech-2026-09-08T13:07:06.320Z-29> a as:Create;
+<https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSada.prostorovéRozlišeníVMetrech-2026-10-12T07:15:19.928Z-29> a as:Create;
     dct:isVersionOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSada.prostorovéRozlišeníVMetrech>;
-    dct:created "2026-09-08T13:07:06.320Z"^^xsd:dateTime;
-    dct:issued "2026-09-08T13:07:06.320Z"^^xsd:dateTime;
+    dct:created "2026-10-12T07:15:19.928Z"^^xsd:dateTime;
+    dct:issued "2026-10-12T07:15:19.928Z"^^xsd:dateTime;
     ds-ldes:sequence 29;
     dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-hvd#>;
     a dsv:TermProfile;
@@ -912,12 +912,12 @@
     a dsv:DatatypePropertyProfile;
     dsv:datatypePropertyRange xsd:decimal.
 
-<> tree:member <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSada.časovéRozlišení-2026-09-08T13:07:06.320Z-30>.
+<> tree:member <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSada.časovéRozlišení-2026-10-12T07:15:19.928Z-30>.
 
-<https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSada.časovéRozlišení-2026-09-08T13:07:06.320Z-30> a as:Create;
+<https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSada.časovéRozlišení-2026-10-12T07:15:19.928Z-30> a as:Create;
     dct:isVersionOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSada.časovéRozlišení>;
-    dct:created "2026-09-08T13:07:06.320Z"^^xsd:dateTime;
-    dct:issued "2026-09-08T13:07:06.320Z"^^xsd:dateTime;
+    dct:created "2026-10-12T07:15:19.928Z"^^xsd:dateTime;
+    dct:issued "2026-10-12T07:15:19.928Z"^^xsd:dateTime;
     ds-ldes:sequence 30;
     dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-hvd#>;
     a dsv:TermProfile;
@@ -943,12 +943,12 @@
     a dsv:DatatypePropertyProfile;
     dsv:datatypePropertyRange xsd:duration.
 
-<> tree:member <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#Distribuce.název-2026-09-08T13:07:06.320Z-31>.
+<> tree:member <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#Distribuce.název-2026-10-12T07:15:19.928Z-31>.
 
-<https://ofn.gov.cz/dcat-ap-cz-otevřená-data#Distribuce.název-2026-09-08T13:07:06.320Z-31> a as:Create;
+<https://ofn.gov.cz/dcat-ap-cz-otevřená-data#Distribuce.název-2026-10-12T07:15:19.928Z-31> a as:Create;
     dct:isVersionOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#Distribuce.název>;
-    dct:created "2026-09-08T13:07:06.320Z"^^xsd:dateTime;
-    dct:issued "2026-09-08T13:07:06.320Z"^^xsd:dateTime;
+    dct:created "2026-10-12T07:15:19.928Z"^^xsd:dateTime;
+    dct:issued "2026-10-12T07:15:19.928Z"^^xsd:dateTime;
     ds-ldes:sequence 31;
     dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-hvd#>;
     a dsv:TermProfile;
@@ -975,12 +975,12 @@
     a dsv:DatatypePropertyProfile;
     dsv:datatypePropertyRange <https://ofn.gov.cz/zdroj/základní-datové-typy/2020-07-01/text>.
 
-<> tree:member <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSlužba.název-2026-09-08T13:07:06.320Z-32>.
+<> tree:member <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSlužba.název-2026-10-12T07:15:19.928Z-32>.
 
-<https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSlužba.název-2026-09-08T13:07:06.320Z-32> a as:Create;
+<https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSlužba.název-2026-10-12T07:15:19.928Z-32> a as:Create;
     dct:isVersionOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSlužba.název>;
-    dct:created "2026-09-08T13:07:06.320Z"^^xsd:dateTime;
-    dct:issued "2026-09-08T13:07:06.320Z"^^xsd:dateTime;
+    dct:created "2026-10-12T07:15:19.928Z"^^xsd:dateTime;
+    dct:issued "2026-10-12T07:15:19.928Z"^^xsd:dateTime;
     ds-ldes:sequence 32;
     dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-hvd#>;
     a dsv:TermProfile;
@@ -1007,12 +1007,12 @@
     a dsv:DatatypePropertyProfile;
     dsv:datatypePropertyRange <https://ofn.gov.cz/zdroj/základní-datové-typy/2020-07-01/text>.
 
-<> tree:member <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#SpecifikacePodmínekUžití.jménaAutorůOriginálníDatabáze-2026-09-08T13:07:06.320Z-33>.
+<> tree:member <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#SpecifikacePodmínekUžití.jménaAutorůOriginálníDatabáze-2026-10-12T07:15:19.928Z-33>.
 
-<https://ofn.gov.cz/dcat-ap-cz-otevřená-data#SpecifikacePodmínekUžití.jménaAutorůOriginálníDatabáze-2026-09-08T13:07:06.320Z-33> a as:Create;
+<https://ofn.gov.cz/dcat-ap-cz-otevřená-data#SpecifikacePodmínekUžití.jménaAutorůOriginálníDatabáze-2026-10-12T07:15:19.928Z-33> a as:Create;
     dct:isVersionOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#SpecifikacePodmínekUžití.jménaAutorůOriginálníDatabáze>;
-    dct:created "2026-09-08T13:07:06.320Z"^^xsd:dateTime;
-    dct:issued "2026-09-08T13:07:06.320Z"^^xsd:dateTime;
+    dct:created "2026-10-12T07:15:19.928Z"^^xsd:dateTime;
+    dct:issued "2026-10-12T07:15:19.928Z"^^xsd:dateTime;
     ds-ldes:sequence 33;
     dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-hvd#>;
     a dsv:TermProfile;
@@ -1038,12 +1038,12 @@
     a dsv:DatatypePropertyProfile;
     dsv:datatypePropertyRange <https://ofn.gov.cz/zdroj/základní-datové-typy/2020-07-01/text>.
 
-<> tree:member <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#SpecifikacePodmínekUžití.jménaAutorůDíla-2026-09-08T13:07:06.320Z-34>.
+<> tree:member <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#SpecifikacePodmínekUžití.jménaAutorůDíla-2026-10-12T07:15:19.928Z-34>.
 
-<https://ofn.gov.cz/dcat-ap-cz-otevřená-data#SpecifikacePodmínekUžití.jménaAutorůDíla-2026-09-08T13:07:06.320Z-34> a as:Create;
+<https://ofn.gov.cz/dcat-ap-cz-otevřená-data#SpecifikacePodmínekUžití.jménaAutorůDíla-2026-10-12T07:15:19.928Z-34> a as:Create;
     dct:isVersionOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#SpecifikacePodmínekUžití.jménaAutorůDíla>;
-    dct:created "2026-09-08T13:07:06.320Z"^^xsd:dateTime;
-    dct:issued "2026-09-08T13:07:06.320Z"^^xsd:dateTime;
+    dct:created "2026-10-12T07:15:19.928Z"^^xsd:dateTime;
+    dct:issued "2026-10-12T07:15:19.928Z"^^xsd:dateTime;
     ds-ldes:sequence 34;
     dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-hvd#>;
     a dsv:TermProfile;
@@ -1069,12 +1069,12 @@
     a dsv:DatatypePropertyProfile;
     dsv:datatypePropertyRange <https://ofn.gov.cz/zdroj/základní-datové-typy/2020-07-01/text>.
 
-<> tree:member <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#ČasovýInterval.datumZačátku-2026-09-08T13:07:06.320Z-35>.
+<> tree:member <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#ČasovýInterval.datumZačátku-2026-10-12T07:15:19.928Z-35>.
 
-<https://ofn.gov.cz/dcat-ap-cz-otevřená-data#ČasovýInterval.datumZačátku-2026-09-08T13:07:06.320Z-35> a as:Create;
+<https://ofn.gov.cz/dcat-ap-cz-otevřená-data#ČasovýInterval.datumZačátku-2026-10-12T07:15:19.928Z-35> a as:Create;
     dct:isVersionOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#ČasovýInterval.datumZačátku>;
-    dct:created "2026-09-08T13:07:06.320Z"^^xsd:dateTime;
-    dct:issued "2026-09-08T13:07:06.320Z"^^xsd:dateTime;
+    dct:created "2026-10-12T07:15:19.928Z"^^xsd:dateTime;
+    dct:issued "2026-10-12T07:15:19.928Z"^^xsd:dateTime;
     ds-ldes:sequence 35;
     dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-hvd#>;
     a dsv:TermProfile;
@@ -1100,12 +1100,12 @@
     a dsv:DatatypePropertyProfile;
     dsv:datatypePropertyRange xsd:date.
 
-<> tree:member <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#ČasovýInterval.datumKonce-2026-09-08T13:07:06.320Z-36>.
+<> tree:member <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#ČasovýInterval.datumKonce-2026-10-12T07:15:19.928Z-36>.
 
-<https://ofn.gov.cz/dcat-ap-cz-otevřená-data#ČasovýInterval.datumKonce-2026-09-08T13:07:06.320Z-36> a as:Create;
+<https://ofn.gov.cz/dcat-ap-cz-otevřená-data#ČasovýInterval.datumKonce-2026-10-12T07:15:19.928Z-36> a as:Create;
     dct:isVersionOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#ČasovýInterval.datumKonce>;
-    dct:created "2026-09-08T13:07:06.320Z"^^xsd:dateTime;
-    dct:issued "2026-09-08T13:07:06.320Z"^^xsd:dateTime;
+    dct:created "2026-10-12T07:15:19.928Z"^^xsd:dateTime;
+    dct:issued "2026-10-12T07:15:19.928Z"^^xsd:dateTime;
     ds-ldes:sequence 36;
     dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-hvd#>;
     a dsv:TermProfile;
@@ -1131,12 +1131,12 @@
     a dsv:DatatypePropertyProfile;
     dsv:datatypePropertyRange xsd:date.
 
-<> tree:member <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#KontaktníBod.jméno-2026-09-08T13:07:06.320Z-37>.
+<> tree:member <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#KontaktníBod.jméno-2026-10-12T07:15:19.928Z-37>.
 
-<https://ofn.gov.cz/dcat-ap-cz-otevřená-data#KontaktníBod.jméno-2026-09-08T13:07:06.320Z-37> a as:Create;
+<https://ofn.gov.cz/dcat-ap-cz-otevřená-data#KontaktníBod.jméno-2026-10-12T07:15:19.928Z-37> a as:Create;
     dct:isVersionOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#KontaktníBod.jméno>;
-    dct:created "2026-09-08T13:07:06.320Z"^^xsd:dateTime;
-    dct:issued "2026-09-08T13:07:06.320Z"^^xsd:dateTime;
+    dct:created "2026-10-12T07:15:19.928Z"^^xsd:dateTime;
+    dct:issued "2026-10-12T07:15:19.928Z"^^xsd:dateTime;
     ds-ldes:sequence 37;
     dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-hvd#>;
     a dsv:TermProfile;
@@ -1163,12 +1163,12 @@
     a dsv:DatatypePropertyProfile;
     dsv:datatypePropertyRange <https://ofn.gov.cz/zdroj/základní-datové-typy/2020-07-01/text>.
 
-<> tree:member <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#SérieDatovýchSad.název-2026-09-08T13:07:06.320Z-38>.
+<> tree:member <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#SérieDatovýchSad.název-2026-10-12T07:15:19.928Z-38>.
 
-<https://ofn.gov.cz/dcat-ap-cz-otevřená-data#SérieDatovýchSad.název-2026-09-08T13:07:06.320Z-38> a as:Create;
+<https://ofn.gov.cz/dcat-ap-cz-otevřená-data#SérieDatovýchSad.název-2026-10-12T07:15:19.928Z-38> a as:Create;
     dct:isVersionOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#SérieDatovýchSad.název>;
-    dct:created "2026-09-08T13:07:06.320Z"^^xsd:dateTime;
-    dct:issued "2026-09-08T13:07:06.320Z"^^xsd:dateTime;
+    dct:created "2026-10-12T07:15:19.928Z"^^xsd:dateTime;
+    dct:issued "2026-10-12T07:15:19.928Z"^^xsd:dateTime;
     ds-ldes:sequence 38;
     dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-hvd#>;
     a dsv:TermProfile;
@@ -1195,12 +1195,12 @@
     a dsv:DatatypePropertyProfile;
     dsv:datatypePropertyRange <https://ofn.gov.cz/zdroj/základní-datové-typy/2020-07-01/text>.
 
-<> tree:member <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#SérieDatovýchSad.popis-2026-09-08T13:07:06.320Z-39>.
+<> tree:member <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#SérieDatovýchSad.popis-2026-10-12T07:15:19.928Z-39>.
 
-<https://ofn.gov.cz/dcat-ap-cz-otevřená-data#SérieDatovýchSad.popis-2026-09-08T13:07:06.320Z-39> a as:Create;
+<https://ofn.gov.cz/dcat-ap-cz-otevřená-data#SérieDatovýchSad.popis-2026-10-12T07:15:19.928Z-39> a as:Create;
     dct:isVersionOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#SérieDatovýchSad.popis>;
-    dct:created "2026-09-08T13:07:06.320Z"^^xsd:dateTime;
-    dct:issued "2026-09-08T13:07:06.320Z"^^xsd:dateTime;
+    dct:created "2026-10-12T07:15:19.928Z"^^xsd:dateTime;
+    dct:issued "2026-10-12T07:15:19.928Z"^^xsd:dateTime;
     ds-ldes:sequence 39;
     dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-hvd#>;
     a dsv:TermProfile;
@@ -1227,12 +1227,12 @@
     a dsv:DatatypePropertyProfile;
     dsv:datatypePropertyRange <https://ofn.gov.cz/zdroj/základní-datové-typy/2020-07-01/text>.
 
-<> tree:member <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#SérieDatovýchSad.klíčovéSlovo-2026-09-08T13:07:06.320Z-40>.
+<> tree:member <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#SérieDatovýchSad.klíčovéSlovo-2026-10-12T07:15:19.928Z-40>.
 
-<https://ofn.gov.cz/dcat-ap-cz-otevřená-data#SérieDatovýchSad.klíčovéSlovo-2026-09-08T13:07:06.320Z-40> a as:Create;
+<https://ofn.gov.cz/dcat-ap-cz-otevřená-data#SérieDatovýchSad.klíčovéSlovo-2026-10-12T07:15:19.928Z-40> a as:Create;
     dct:isVersionOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#SérieDatovýchSad.klíčovéSlovo>;
-    dct:created "2026-09-08T13:07:06.320Z"^^xsd:dateTime;
-    dct:issued "2026-09-08T13:07:06.320Z"^^xsd:dateTime;
+    dct:created "2026-10-12T07:15:19.928Z"^^xsd:dateTime;
+    dct:issued "2026-10-12T07:15:19.928Z"^^xsd:dateTime;
     ds-ldes:sequence 40;
     dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-hvd#>;
     a dsv:TermProfile;
@@ -1259,12 +1259,12 @@
     a dsv:DatatypePropertyProfile;
     dsv:datatypePropertyRange rdf:langString.
 
-<> tree:member <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSada.jeSoučástí-2026-09-08T13:07:06.320Z-41>.
+<> tree:member <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSada.jeSoučástí-2026-10-12T07:15:19.928Z-41>.
 
-<https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSada.jeSoučástí-2026-09-08T13:07:06.320Z-41> a as:Create;
+<https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSada.jeSoučástí-2026-10-12T07:15:19.928Z-41> a as:Create;
     dct:isVersionOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSada.jeSoučástí>;
-    dct:created "2026-09-08T13:07:06.320Z"^^xsd:dateTime;
-    dct:issued "2026-09-08T13:07:06.320Z"^^xsd:dateTime;
+    dct:created "2026-10-12T07:15:19.928Z"^^xsd:dateTime;
+    dct:issued "2026-10-12T07:15:19.928Z"^^xsd:dateTime;
     ds-ldes:sequence 41;
     dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-hvd#>;
     a dsv:TermProfile;
@@ -1290,12 +1290,12 @@
     a dsv:ObjectPropertyProfile;
     dsv:objectPropertyRange <https://ofn.gov.cz/dcat-ap-cz-hvd#SérieDatovýchSad>.
 
-<> tree:member <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSada.poskytovatel-2026-09-08T13:07:06.320Z-42>.
+<> tree:member <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSada.poskytovatel-2026-10-12T07:15:19.928Z-42>.
 
-<https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSada.poskytovatel-2026-09-08T13:07:06.320Z-42> a as:Create;
+<https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSada.poskytovatel-2026-10-12T07:15:19.928Z-42> a as:Create;
     dct:isVersionOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSada.poskytovatel>;
-    dct:created "2026-09-08T13:07:06.320Z"^^xsd:dateTime;
-    dct:issued "2026-09-08T13:07:06.320Z"^^xsd:dateTime;
+    dct:created "2026-10-12T07:15:19.928Z"^^xsd:dateTime;
+    dct:issued "2026-10-12T07:15:19.928Z"^^xsd:dateTime;
     ds-ldes:sequence 42;
     dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-hvd#>;
     a dsv:TermProfile;
@@ -1321,12 +1321,12 @@
     a dsv:ObjectPropertyProfile;
     dsv:objectPropertyRange <https://ofn.gov.cz/dcat-ap-cz-hvd#Poskytovatel>.
 
-<> tree:member <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSada.téma-2026-09-08T13:07:06.320Z-43>.
+<> tree:member <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSada.téma-2026-10-12T07:15:19.928Z-43>.
 
-<https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSada.téma-2026-09-08T13:07:06.320Z-43> a as:Create;
+<https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSada.téma-2026-10-12T07:15:19.928Z-43> a as:Create;
     dct:isVersionOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSada.téma>;
-    dct:created "2026-09-08T13:07:06.320Z"^^xsd:dateTime;
-    dct:issued "2026-09-08T13:07:06.320Z"^^xsd:dateTime;
+    dct:created "2026-10-12T07:15:19.928Z"^^xsd:dateTime;
+    dct:issued "2026-10-12T07:15:19.928Z"^^xsd:dateTime;
     ds-ldes:sequence 43;
     dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-hvd#>;
     a dsv:TermProfile;
@@ -1352,12 +1352,12 @@
     a dsv:ObjectPropertyProfile;
     dsv:objectPropertyRange <https://ofn.gov.cz/dcat-ap-cz-hvd#DatovéTéma>.
 
-<> tree:member <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSada.periodicitaAktualizace-2026-09-08T13:07:06.320Z-44>.
+<> tree:member <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSada.periodicitaAktualizace-2026-10-12T07:15:19.928Z-44>.
 
-<https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSada.periodicitaAktualizace-2026-09-08T13:07:06.320Z-44> a as:Create;
+<https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSada.periodicitaAktualizace-2026-10-12T07:15:19.928Z-44> a as:Create;
     dct:isVersionOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSada.periodicitaAktualizace>;
-    dct:created "2026-09-08T13:07:06.320Z"^^xsd:dateTime;
-    dct:issued "2026-09-08T13:07:06.320Z"^^xsd:dateTime;
+    dct:created "2026-10-12T07:15:19.928Z"^^xsd:dateTime;
+    dct:issued "2026-10-12T07:15:19.928Z"^^xsd:dateTime;
     ds-ldes:sequence 44;
     dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-hvd#>;
     a dsv:TermProfile;
@@ -1383,12 +1383,12 @@
     a dsv:ObjectPropertyProfile;
     dsv:objectPropertyRange <https://ofn.gov.cz/dcat-ap-cz-hvd#Frekvence>.
 
-<> tree:member <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSada.souvisejícíGeografickéÚzemí-PrvekZRúian-2026-09-08T13:07:06.320Z-45>.
+<> tree:member <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSada.souvisejícíGeografickéÚzemí-PrvekZRúian-2026-10-12T07:15:19.928Z-45>.
 
-<https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSada.souvisejícíGeografickéÚzemí-PrvekZRúian-2026-09-08T13:07:06.320Z-45> a as:Create;
+<https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSada.souvisejícíGeografickéÚzemí-PrvekZRúian-2026-10-12T07:15:19.928Z-45> a as:Create;
     dct:isVersionOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSada.souvisejícíGeografickéÚzemí-PrvekZRúian>;
-    dct:created "2026-09-08T13:07:06.320Z"^^xsd:dateTime;
-    dct:issued "2026-09-08T13:07:06.320Z"^^xsd:dateTime;
+    dct:created "2026-10-12T07:15:19.928Z"^^xsd:dateTime;
+    dct:issued "2026-10-12T07:15:19.928Z"^^xsd:dateTime;
     ds-ldes:sequence 45;
     dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-hvd#>;
     a dsv:TermProfile;
@@ -1414,12 +1414,12 @@
     a dsv:ObjectPropertyProfile;
     dsv:objectPropertyRange <https://ofn.gov.cz/dcat-ap-cz-hvd#PrvekRÚIAN>.
 
-<> tree:member <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSada.souvisejícíGeografickéÚzemí-2026-09-08T13:07:06.320Z-46>.
+<> tree:member <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSada.souvisejícíGeografickéÚzemí-2026-10-12T07:15:19.928Z-46>.
 
-<https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSada.souvisejícíGeografickéÚzemí-2026-09-08T13:07:06.320Z-46> a as:Create;
+<https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSada.souvisejícíGeografickéÚzemí-2026-10-12T07:15:19.928Z-46> a as:Create;
     dct:isVersionOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSada.souvisejícíGeografickéÚzemí>;
-    dct:created "2026-09-08T13:07:06.320Z"^^xsd:dateTime;
-    dct:issued "2026-09-08T13:07:06.320Z"^^xsd:dateTime;
+    dct:created "2026-10-12T07:15:19.928Z"^^xsd:dateTime;
+    dct:issued "2026-10-12T07:15:19.928Z"^^xsd:dateTime;
     ds-ldes:sequence 46;
     dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-hvd#>;
     a dsv:TermProfile;
@@ -1445,12 +1445,12 @@
     a dsv:ObjectPropertyProfile;
     dsv:objectPropertyRange <https://ofn.gov.cz/dcat-ap-cz-hvd#GeografickéÚzemí>.
 
-<> tree:member <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSada.časovéPokrytí-2026-09-08T13:07:06.320Z-47>.
+<> tree:member <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSada.časovéPokrytí-2026-10-12T07:15:19.928Z-47>.
 
-<https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSada.časovéPokrytí-2026-09-08T13:07:06.320Z-47> a as:Create;
+<https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSada.časovéPokrytí-2026-10-12T07:15:19.928Z-47> a as:Create;
     dct:isVersionOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSada.časovéPokrytí>;
-    dct:created "2026-09-08T13:07:06.320Z"^^xsd:dateTime;
-    dct:issued "2026-09-08T13:07:06.320Z"^^xsd:dateTime;
+    dct:created "2026-10-12T07:15:19.928Z"^^xsd:dateTime;
+    dct:issued "2026-10-12T07:15:19.928Z"^^xsd:dateTime;
     ds-ldes:sequence 47;
     dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-hvd#>;
     a dsv:TermProfile;
@@ -1476,12 +1476,12 @@
     a dsv:ObjectPropertyProfile;
     dsv:objectPropertyRange <https://ofn.gov.cz/dcat-ap-cz-hvd#ČasovýInterval>.
 
-<> tree:member <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSada.kontaktníBod-2026-09-08T13:07:06.320Z-48>.
+<> tree:member <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSada.kontaktníBod-2026-10-12T07:15:19.928Z-48>.
 
-<https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSada.kontaktníBod-2026-09-08T13:07:06.320Z-48> a as:Create;
+<https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSada.kontaktníBod-2026-10-12T07:15:19.928Z-48> a as:Create;
     dct:isVersionOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSada.kontaktníBod>;
-    dct:created "2026-09-08T13:07:06.320Z"^^xsd:dateTime;
-    dct:issued "2026-09-08T13:07:06.320Z"^^xsd:dateTime;
+    dct:created "2026-10-12T07:15:19.928Z"^^xsd:dateTime;
+    dct:issued "2026-10-12T07:15:19.928Z"^^xsd:dateTime;
     ds-ldes:sequence 48;
     dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-hvd#>;
     a dsv:TermProfile;
@@ -1508,12 +1508,12 @@
     a dsv:ObjectPropertyProfile;
     dsv:objectPropertyRange <https://ofn.gov.cz/dcat-ap-cz-hvd#KontaktníBod>.
 
-<> tree:member <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSada.dokumentace-2026-09-08T13:07:06.320Z-49>.
+<> tree:member <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSada.dokumentace-2026-10-12T07:15:19.928Z-49>.
 
-<https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSada.dokumentace-2026-09-08T13:07:06.320Z-49> a as:Create;
+<https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSada.dokumentace-2026-10-12T07:15:19.928Z-49> a as:Create;
     dct:isVersionOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSada.dokumentace>;
-    dct:created "2026-09-08T13:07:06.320Z"^^xsd:dateTime;
-    dct:issued "2026-09-08T13:07:06.320Z"^^xsd:dateTime;
+    dct:created "2026-10-12T07:15:19.928Z"^^xsd:dateTime;
+    dct:issued "2026-10-12T07:15:19.928Z"^^xsd:dateTime;
     ds-ldes:sequence 49;
     dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-hvd#>;
     a dsv:TermProfile;
@@ -1539,12 +1539,12 @@
     a dsv:ObjectPropertyProfile;
     dsv:objectPropertyRange <https://ofn.gov.cz/dcat-ap-cz-hvd#Dokument>.
 
-<> tree:member <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSada.specifikace-2026-09-08T13:07:06.320Z-50>.
+<> tree:member <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSada.specifikace-2026-10-12T07:15:19.928Z-50>.
 
-<https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSada.specifikace-2026-09-08T13:07:06.320Z-50> a as:Create;
+<https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSada.specifikace-2026-10-12T07:15:19.928Z-50> a as:Create;
     dct:isVersionOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSada.specifikace>;
-    dct:created "2026-09-08T13:07:06.320Z"^^xsd:dateTime;
-    dct:issued "2026-09-08T13:07:06.320Z"^^xsd:dateTime;
+    dct:created "2026-10-12T07:15:19.928Z"^^xsd:dateTime;
+    dct:issued "2026-10-12T07:15:19.928Z"^^xsd:dateTime;
     ds-ldes:sequence 50;
     dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-hvd#>;
     a dsv:TermProfile;
@@ -1571,12 +1571,12 @@
     a dsv:ObjectPropertyProfile;
     dsv:objectPropertyRange <https://ofn.gov.cz/dcat-ap-cz-hvd#Standard>.
 
-<> tree:member <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSada.klasifikaceDleEurovoc-2026-09-08T13:07:06.320Z-51>.
+<> tree:member <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSada.klasifikaceDleEurovoc-2026-10-12T07:15:19.928Z-51>.
 
-<https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSada.klasifikaceDleEurovoc-2026-09-08T13:07:06.320Z-51> a as:Create;
+<https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSada.klasifikaceDleEurovoc-2026-10-12T07:15:19.928Z-51> a as:Create;
     dct:isVersionOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSada.klasifikaceDleEurovoc>;
-    dct:created "2026-09-08T13:07:06.320Z"^^xsd:dateTime;
-    dct:issued "2026-09-08T13:07:06.320Z"^^xsd:dateTime;
+    dct:created "2026-10-12T07:15:19.928Z"^^xsd:dateTime;
+    dct:issued "2026-10-12T07:15:19.928Z"^^xsd:dateTime;
     ds-ldes:sequence 51;
     dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-hvd#>;
     a dsv:TermProfile;
@@ -1602,12 +1602,12 @@
     a dsv:ObjectPropertyProfile;
     dsv:objectPropertyRange <https://ofn.gov.cz/dcat-ap-cz-hvd#TémaEuroVoc>.
 
-<> tree:member <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSada.příslušnýPrávníPředpis-2026-09-08T13:07:06.320Z-52>.
+<> tree:member <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSada.příslušnýPrávníPředpis-2026-10-12T07:15:19.928Z-52>.
 
-<https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSada.příslušnýPrávníPředpis-2026-09-08T13:07:06.320Z-52> a as:Create;
+<https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSada.příslušnýPrávníPředpis-2026-10-12T07:15:19.928Z-52> a as:Create;
     dct:isVersionOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSada.příslušnýPrávníPředpis>;
-    dct:created "2026-09-08T13:07:06.320Z"^^xsd:dateTime;
-    dct:issued "2026-09-08T13:07:06.320Z"^^xsd:dateTime;
+    dct:created "2026-10-12T07:15:19.928Z"^^xsd:dateTime;
+    dct:issued "2026-10-12T07:15:19.928Z"^^xsd:dateTime;
     ds-ldes:sequence 52;
     dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-hvd#>;
     a dsv:TermProfile;
@@ -1630,12 +1630,12 @@
     a dsv:ObjectPropertyProfile;
     dsv:objectPropertyRange <https://ofn.gov.cz/dcat-ap-cz-hvd#PrávníPředpis>.
 
-<> tree:member <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSada.distribuce-2026-09-08T13:07:06.320Z-53>.
+<> tree:member <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSada.distribuce-2026-10-12T07:15:19.928Z-53>.
 
-<https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSada.distribuce-2026-09-08T13:07:06.320Z-53> a as:Create;
+<https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSada.distribuce-2026-10-12T07:15:19.928Z-53> a as:Create;
     dct:isVersionOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSada.distribuce>;
-    dct:created "2026-09-08T13:07:06.320Z"^^xsd:dateTime;
-    dct:issued "2026-09-08T13:07:06.320Z"^^xsd:dateTime;
+    dct:created "2026-10-12T07:15:19.928Z"^^xsd:dateTime;
+    dct:issued "2026-10-12T07:15:19.928Z"^^xsd:dateTime;
     ds-ldes:sequence 53;
     dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-hvd#>;
     a dsv:TermProfile;
@@ -1662,12 +1662,12 @@
     a dsv:ObjectPropertyProfile;
     dsv:objectPropertyRange <https://ofn.gov.cz/dcat-ap-cz-hvd#Distribuce>.
 
-<> tree:member <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#Distribuce.přístupovéUrl-2026-09-08T13:07:06.320Z-54>.
+<> tree:member <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#Distribuce.přístupovéUrl-2026-10-12T07:15:19.928Z-54>.
 
-<https://ofn.gov.cz/dcat-ap-cz-otevřená-data#Distribuce.přístupovéUrl-2026-09-08T13:07:06.320Z-54> a as:Create;
+<https://ofn.gov.cz/dcat-ap-cz-otevřená-data#Distribuce.přístupovéUrl-2026-10-12T07:15:19.928Z-54> a as:Create;
     dct:isVersionOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#Distribuce.přístupovéUrl>;
-    dct:created "2026-09-08T13:07:06.320Z"^^xsd:dateTime;
-    dct:issued "2026-09-08T13:07:06.320Z"^^xsd:dateTime;
+    dct:created "2026-10-12T07:15:19.928Z"^^xsd:dateTime;
+    dct:issued "2026-10-12T07:15:19.928Z"^^xsd:dateTime;
     ds-ldes:sequence 54;
     dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-hvd#>;
     a dsv:TermProfile;
@@ -1694,12 +1694,12 @@
     a dsv:ObjectPropertyProfile;
     dsv:objectPropertyRange <https://ofn.gov.cz/dcat-ap-cz-hvd#Zdroj>.
 
-<> tree:member <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#Distribuce.příslušnýPrávníPředpis-2026-09-08T13:07:06.320Z-55>.
+<> tree:member <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#Distribuce.příslušnýPrávníPředpis-2026-10-12T07:15:19.928Z-55>.
 
-<https://ofn.gov.cz/dcat-ap-cz-otevřená-data#Distribuce.příslušnýPrávníPředpis-2026-09-08T13:07:06.320Z-55> a as:Create;
+<https://ofn.gov.cz/dcat-ap-cz-otevřená-data#Distribuce.příslušnýPrávníPředpis-2026-10-12T07:15:19.928Z-55> a as:Create;
     dct:isVersionOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#Distribuce.příslušnýPrávníPředpis>;
-    dct:created "2026-09-08T13:07:06.320Z"^^xsd:dateTime;
-    dct:issued "2026-09-08T13:07:06.320Z"^^xsd:dateTime;
+    dct:created "2026-10-12T07:15:19.928Z"^^xsd:dateTime;
+    dct:issued "2026-10-12T07:15:19.928Z"^^xsd:dateTime;
     ds-ldes:sequence 55;
     dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-hvd#>;
     a dsv:TermProfile;
@@ -1722,12 +1722,12 @@
     a dsv:ObjectPropertyProfile;
     dsv:objectPropertyRange <https://ofn.gov.cz/dcat-ap-cz-hvd#PrávníPředpis>.
 
-<> tree:member <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSlužba.příslušnýPrávníPředpis-2026-09-08T13:07:06.320Z-56>.
+<> tree:member <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSlužba.příslušnýPrávníPředpis-2026-10-12T07:15:19.928Z-56>.
 
-<https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSlužba.příslušnýPrávníPředpis-2026-09-08T13:07:06.320Z-56> a as:Create;
+<https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSlužba.příslušnýPrávníPředpis-2026-10-12T07:15:19.928Z-56> a as:Create;
     dct:isVersionOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSlužba.příslušnýPrávníPředpis>;
-    dct:created "2026-09-08T13:07:06.320Z"^^xsd:dateTime;
-    dct:issued "2026-09-08T13:07:06.320Z"^^xsd:dateTime;
+    dct:created "2026-10-12T07:15:19.928Z"^^xsd:dateTime;
+    dct:issued "2026-10-12T07:15:19.928Z"^^xsd:dateTime;
     ds-ldes:sequence 56;
     dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-hvd#>;
     a dsv:TermProfile;
@@ -1750,12 +1750,12 @@
     a dsv:ObjectPropertyProfile;
     dsv:objectPropertyRange <https://ofn.gov.cz/dcat-ap-cz-hvd#PrávníPředpis>.
 
-<> tree:member <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#Distribuce-SouborKeStažení.odkazNaStaženíSouboru-2026-09-08T13:07:06.320Z-57>.
+<> tree:member <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#Distribuce-SouborKeStažení.odkazNaStaženíSouboru-2026-10-12T07:15:19.928Z-57>.
 
-<https://ofn.gov.cz/dcat-ap-cz-otevřená-data#Distribuce-SouborKeStažení.odkazNaStaženíSouboru-2026-09-08T13:07:06.320Z-57> a as:Create;
+<https://ofn.gov.cz/dcat-ap-cz-otevřená-data#Distribuce-SouborKeStažení.odkazNaStaženíSouboru-2026-10-12T07:15:19.928Z-57> a as:Create;
     dct:isVersionOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#Distribuce-SouborKeStažení.odkazNaStaženíSouboru>;
-    dct:created "2026-09-08T13:07:06.320Z"^^xsd:dateTime;
-    dct:issued "2026-09-08T13:07:06.320Z"^^xsd:dateTime;
+    dct:created "2026-10-12T07:15:19.928Z"^^xsd:dateTime;
+    dct:issued "2026-10-12T07:15:19.928Z"^^xsd:dateTime;
     ds-ldes:sequence 57;
     dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-hvd#>;
     a dsv:TermProfile;
@@ -1782,12 +1782,12 @@
     a dsv:ObjectPropertyProfile;
     dsv:objectPropertyRange <https://ofn.gov.cz/dcat-ap-cz-hvd#Zdroj>.
 
-<> tree:member <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#Distribuce-SouborKeStažení.formátSouboruKeStažení-2026-09-08T13:07:06.320Z-58>.
+<> tree:member <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#Distribuce-SouborKeStažení.formátSouboruKeStažení-2026-10-12T07:15:19.928Z-58>.
 
-<https://ofn.gov.cz/dcat-ap-cz-otevřená-data#Distribuce-SouborKeStažení.formátSouboruKeStažení-2026-09-08T13:07:06.320Z-58> a as:Create;
+<https://ofn.gov.cz/dcat-ap-cz-otevřená-data#Distribuce-SouborKeStažení.formátSouboruKeStažení-2026-10-12T07:15:19.928Z-58> a as:Create;
     dct:isVersionOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#Distribuce-SouborKeStažení.formátSouboruKeStažení>;
-    dct:created "2026-09-08T13:07:06.320Z"^^xsd:dateTime;
-    dct:issued "2026-09-08T13:07:06.320Z"^^xsd:dateTime;
+    dct:created "2026-10-12T07:15:19.928Z"^^xsd:dateTime;
+    dct:issued "2026-10-12T07:15:19.928Z"^^xsd:dateTime;
     ds-ldes:sequence 58;
     dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-hvd#>;
     a dsv:TermProfile;
@@ -1814,12 +1814,12 @@
     a dsv:ObjectPropertyProfile;
     dsv:objectPropertyRange <https://ofn.gov.cz/dcat-ap-cz-hvd#FormátSouboru>.
 
-<> tree:member <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#Distribuce-SouborKeStažení.typMédia-2026-09-08T13:07:06.320Z-59>.
+<> tree:member <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#Distribuce-SouborKeStažení.typMédia-2026-10-12T07:15:19.928Z-59>.
 
-<https://ofn.gov.cz/dcat-ap-cz-otevřená-data#Distribuce-SouborKeStažení.typMédia-2026-09-08T13:07:06.320Z-59> a as:Create;
+<https://ofn.gov.cz/dcat-ap-cz-otevřená-data#Distribuce-SouborKeStažení.typMédia-2026-10-12T07:15:19.928Z-59> a as:Create;
     dct:isVersionOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#Distribuce-SouborKeStažení.typMédia>;
-    dct:created "2026-09-08T13:07:06.320Z"^^xsd:dateTime;
-    dct:issued "2026-09-08T13:07:06.320Z"^^xsd:dateTime;
+    dct:created "2026-10-12T07:15:19.928Z"^^xsd:dateTime;
+    dct:issued "2026-10-12T07:15:19.928Z"^^xsd:dateTime;
     ds-ldes:sequence 59;
     dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-hvd#>;
     a dsv:TermProfile;
@@ -1846,12 +1846,12 @@
     a dsv:ObjectPropertyProfile;
     dsv:objectPropertyRange <https://ofn.gov.cz/dcat-ap-cz-hvd#TypMédia>.
 
-<> tree:member <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#Distribuce-SouborKeStažení.formátBalíčku-2026-09-08T13:07:06.320Z-60>.
+<> tree:member <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#Distribuce-SouborKeStažení.formátBalíčku-2026-10-12T07:15:19.928Z-60>.
 
-<https://ofn.gov.cz/dcat-ap-cz-otevřená-data#Distribuce-SouborKeStažení.formátBalíčku-2026-09-08T13:07:06.320Z-60> a as:Create;
+<https://ofn.gov.cz/dcat-ap-cz-otevřená-data#Distribuce-SouborKeStažení.formátBalíčku-2026-10-12T07:15:19.928Z-60> a as:Create;
     dct:isVersionOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#Distribuce-SouborKeStažení.formátBalíčku>;
-    dct:created "2026-09-08T13:07:06.320Z"^^xsd:dateTime;
-    dct:issued "2026-09-08T13:07:06.320Z"^^xsd:dateTime;
+    dct:created "2026-10-12T07:15:19.928Z"^^xsd:dateTime;
+    dct:issued "2026-10-12T07:15:19.928Z"^^xsd:dateTime;
     ds-ldes:sequence 60;
     dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-hvd#>;
     a dsv:TermProfile;
@@ -1878,12 +1878,12 @@
     a dsv:ObjectPropertyProfile;
     dsv:objectPropertyRange <https://ofn.gov.cz/dcat-ap-cz-hvd#TypMédia>.
 
-<> tree:member <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#Distribuce-SouborKeStažení.formátKomprese-2026-09-08T13:07:06.320Z-61>.
+<> tree:member <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#Distribuce-SouborKeStažení.formátKomprese-2026-10-12T07:15:19.928Z-61>.
 
-<https://ofn.gov.cz/dcat-ap-cz-otevřená-data#Distribuce-SouborKeStažení.formátKomprese-2026-09-08T13:07:06.320Z-61> a as:Create;
+<https://ofn.gov.cz/dcat-ap-cz-otevřená-data#Distribuce-SouborKeStažení.formátKomprese-2026-10-12T07:15:19.928Z-61> a as:Create;
     dct:isVersionOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#Distribuce-SouborKeStažení.formátKomprese>;
-    dct:created "2026-09-08T13:07:06.320Z"^^xsd:dateTime;
-    dct:issued "2026-09-08T13:07:06.320Z"^^xsd:dateTime;
+    dct:created "2026-10-12T07:15:19.928Z"^^xsd:dateTime;
+    dct:issued "2026-10-12T07:15:19.928Z"^^xsd:dateTime;
     ds-ldes:sequence 61;
     dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-hvd#>;
     a dsv:TermProfile;
@@ -1910,12 +1910,12 @@
     a dsv:ObjectPropertyProfile;
     dsv:objectPropertyRange <https://ofn.gov.cz/dcat-ap-cz-hvd#TypMédia>.
 
-<> tree:member <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#Distribuce-SouborKeStažení.strojověČitelnéSchémaSouboruKeStažení-2026-09-08T13:07:06.320Z-62>.
+<> tree:member <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#Distribuce-SouborKeStažení.strojověČitelnéSchémaSouboruKeStažení-2026-10-12T07:15:19.928Z-62>.
 
-<https://ofn.gov.cz/dcat-ap-cz-otevřená-data#Distribuce-SouborKeStažení.strojověČitelnéSchémaSouboruKeStažení-2026-09-08T13:07:06.320Z-62> a as:Create;
+<https://ofn.gov.cz/dcat-ap-cz-otevřená-data#Distribuce-SouborKeStažení.strojověČitelnéSchémaSouboruKeStažení-2026-10-12T07:15:19.928Z-62> a as:Create;
     dct:isVersionOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#Distribuce-SouborKeStažení.strojověČitelnéSchémaSouboruKeStažení>;
-    dct:created "2026-09-08T13:07:06.320Z"^^xsd:dateTime;
-    dct:issued "2026-09-08T13:07:06.320Z"^^xsd:dateTime;
+    dct:created "2026-10-12T07:15:19.928Z"^^xsd:dateTime;
+    dct:issued "2026-10-12T07:15:19.928Z"^^xsd:dateTime;
     ds-ldes:sequence 62;
     dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-hvd#>;
     a dsv:TermProfile;
@@ -1942,12 +1942,12 @@
     a dsv:ObjectPropertyProfile;
     dsv:objectPropertyRange <https://ofn.gov.cz/dcat-ap-cz-hvd#Zdroj>.
 
-<> tree:member <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#Distribuce-DatováSlužba.přístupováSlužba-2026-09-08T13:07:06.320Z-63>.
+<> tree:member <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#Distribuce-DatováSlužba.přístupováSlužba-2026-10-12T07:15:19.928Z-63>.
 
-<https://ofn.gov.cz/dcat-ap-cz-otevřená-data#Distribuce-DatováSlužba.přístupováSlužba-2026-09-08T13:07:06.320Z-63> a as:Create;
+<https://ofn.gov.cz/dcat-ap-cz-otevřená-data#Distribuce-DatováSlužba.přístupováSlužba-2026-10-12T07:15:19.928Z-63> a as:Create;
     dct:isVersionOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#Distribuce-DatováSlužba.přístupováSlužba>;
-    dct:created "2026-09-08T13:07:06.320Z"^^xsd:dateTime;
-    dct:issued "2026-09-08T13:07:06.320Z"^^xsd:dateTime;
+    dct:created "2026-10-12T07:15:19.928Z"^^xsd:dateTime;
+    dct:issued "2026-10-12T07:15:19.928Z"^^xsd:dateTime;
     ds-ldes:sequence 63;
     dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-hvd#>;
     a dsv:TermProfile;
@@ -1974,12 +1974,12 @@
     a dsv:ObjectPropertyProfile;
     dsv:objectPropertyRange <https://ofn.gov.cz/dcat-ap-cz-hvd#DatováSlužba>.
 
-<> tree:member <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSlužba.přístupovýBodSlužby-2026-09-08T13:07:06.320Z-64>.
+<> tree:member <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSlužba.přístupovýBodSlužby-2026-10-12T07:15:19.928Z-64>.
 
-<https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSlužba.přístupovýBodSlužby-2026-09-08T13:07:06.320Z-64> a as:Create;
+<https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSlužba.přístupovýBodSlužby-2026-10-12T07:15:19.928Z-64> a as:Create;
     dct:isVersionOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSlužba.přístupovýBodSlužby>;
-    dct:created "2026-09-08T13:07:06.320Z"^^xsd:dateTime;
-    dct:issued "2026-09-08T13:07:06.320Z"^^xsd:dateTime;
+    dct:created "2026-10-12T07:15:19.928Z"^^xsd:dateTime;
+    dct:issued "2026-10-12T07:15:19.928Z"^^xsd:dateTime;
     ds-ldes:sequence 64;
     dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-hvd#>;
     a dsv:TermProfile;
@@ -2006,12 +2006,12 @@
     a dsv:ObjectPropertyProfile;
     dsv:objectPropertyRange <https://ofn.gov.cz/dcat-ap-cz-hvd#Zdroj>.
 
-<> tree:member <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSlužba.popisPřístupovéhoBoduSlužby-2026-09-08T13:07:06.320Z-65>.
+<> tree:member <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSlužba.popisPřístupovéhoBoduSlužby-2026-10-12T07:15:19.928Z-65>.
 
-<https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSlužba.popisPřístupovéhoBoduSlužby-2026-09-08T13:07:06.320Z-65> a as:Create;
+<https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSlužba.popisPřístupovéhoBoduSlužby-2026-10-12T07:15:19.928Z-65> a as:Create;
     dct:isVersionOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSlužba.popisPřístupovéhoBoduSlužby>;
-    dct:created "2026-09-08T13:07:06.320Z"^^xsd:dateTime;
-    dct:issued "2026-09-08T13:07:06.320Z"^^xsd:dateTime;
+    dct:created "2026-10-12T07:15:19.928Z"^^xsd:dateTime;
+    dct:issued "2026-10-12T07:15:19.928Z"^^xsd:dateTime;
     ds-ldes:sequence 65;
     dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-hvd#>;
     a dsv:TermProfile;
@@ -2038,12 +2038,12 @@
     a dsv:ObjectPropertyProfile;
     dsv:objectPropertyRange <https://ofn.gov.cz/dcat-ap-cz-hvd#Zdroj>.
 
-<> tree:member <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSlužba.specifikace-2026-09-08T13:07:06.320Z-66>.
+<> tree:member <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSlužba.specifikace-2026-10-12T07:15:19.928Z-66>.
 
-<https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSlužba.specifikace-2026-09-08T13:07:06.320Z-66> a as:Create;
+<https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSlužba.specifikace-2026-10-12T07:15:19.928Z-66> a as:Create;
     dct:isVersionOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSlužba.specifikace>;
-    dct:created "2026-09-08T13:07:06.320Z"^^xsd:dateTime;
-    dct:issued "2026-09-08T13:07:06.320Z"^^xsd:dateTime;
+    dct:created "2026-10-12T07:15:19.928Z"^^xsd:dateTime;
+    dct:issued "2026-10-12T07:15:19.928Z"^^xsd:dateTime;
     ds-ldes:sequence 66;
     dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-hvd#>;
     a dsv:TermProfile;
@@ -2070,12 +2070,12 @@
     a dsv:ObjectPropertyProfile;
     dsv:objectPropertyRange <https://ofn.gov.cz/dcat-ap-cz-hvd#Standard>.
 
-<> tree:member <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSlužba.dokumentace-2026-09-08T13:07:06.320Z-67>.
+<> tree:member <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSlužba.dokumentace-2026-10-12T07:15:19.928Z-67>.
 
-<https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSlužba.dokumentace-2026-09-08T13:07:06.320Z-67> a as:Create;
+<https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSlužba.dokumentace-2026-10-12T07:15:19.928Z-67> a as:Create;
     dct:isVersionOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSlužba.dokumentace>;
-    dct:created "2026-09-08T13:07:06.320Z"^^xsd:dateTime;
-    dct:issued "2026-09-08T13:07:06.320Z"^^xsd:dateTime;
+    dct:created "2026-10-12T07:15:19.928Z"^^xsd:dateTime;
+    dct:issued "2026-10-12T07:15:19.928Z"^^xsd:dateTime;
     ds-ldes:sequence 67;
     dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-hvd#>;
     a dsv:TermProfile;
@@ -2102,12 +2102,12 @@
     a dsv:ObjectPropertyProfile;
     dsv:objectPropertyRange <https://ofn.gov.cz/dcat-ap-cz-hvd#Dokument>.
 
-<> tree:member <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#Distribuce.specifikacePodmínekUžití-2026-09-08T13:07:06.320Z-68>.
+<> tree:member <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#Distribuce.specifikacePodmínekUžití-2026-10-12T07:15:19.928Z-68>.
 
-<https://ofn.gov.cz/dcat-ap-cz-otevřená-data#Distribuce.specifikacePodmínekUžití-2026-09-08T13:07:06.320Z-68> a as:Create;
+<https://ofn.gov.cz/dcat-ap-cz-otevřená-data#Distribuce.specifikacePodmínekUžití-2026-10-12T07:15:19.928Z-68> a as:Create;
     dct:isVersionOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#Distribuce.specifikacePodmínekUžití>;
-    dct:created "2026-09-08T13:07:06.320Z"^^xsd:dateTime;
-    dct:issued "2026-09-08T13:07:06.320Z"^^xsd:dateTime;
+    dct:created "2026-10-12T07:15:19.928Z"^^xsd:dateTime;
+    dct:issued "2026-10-12T07:15:19.928Z"^^xsd:dateTime;
     ds-ldes:sequence 68;
     dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-hvd#>;
     a dsv:TermProfile;
@@ -2134,12 +2134,12 @@
     a dsv:ObjectPropertyProfile;
     dsv:objectPropertyRange <https://ofn.gov.cz/dcat-ap-cz-hvd#SpecifikacePodmínekUžití>.
 
-<> tree:member <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#SpecifikacePodmínekUžití.originálníDatabáze-2026-09-08T13:07:06.320Z-69>.
+<> tree:member <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#SpecifikacePodmínekUžití.originálníDatabáze-2026-10-12T07:15:19.928Z-69>.
 
-<https://ofn.gov.cz/dcat-ap-cz-otevřená-data#SpecifikacePodmínekUžití.originálníDatabáze-2026-09-08T13:07:06.320Z-69> a as:Create;
+<https://ofn.gov.cz/dcat-ap-cz-otevřená-data#SpecifikacePodmínekUžití.originálníDatabáze-2026-10-12T07:15:19.928Z-69> a as:Create;
     dct:isVersionOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#SpecifikacePodmínekUžití.originálníDatabáze>;
-    dct:created "2026-09-08T13:07:06.320Z"^^xsd:dateTime;
-    dct:issued "2026-09-08T13:07:06.320Z"^^xsd:dateTime;
+    dct:created "2026-10-12T07:15:19.928Z"^^xsd:dateTime;
+    dct:issued "2026-10-12T07:15:19.928Z"^^xsd:dateTime;
     ds-ldes:sequence 69;
     dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-hvd#>;
     a dsv:TermProfile;
@@ -2165,12 +2165,12 @@
     a dsv:ObjectPropertyProfile;
     dsv:objectPropertyRange <https://ofn.gov.cz/dcat-ap-cz-hvd#Licence>.
 
-<> tree:member <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#SpecifikacePodmínekUžití.autorskéDílo-2026-09-08T13:07:06.320Z-70>.
+<> tree:member <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#SpecifikacePodmínekUžití.autorskéDílo-2026-10-12T07:15:19.928Z-70>.
 
-<https://ofn.gov.cz/dcat-ap-cz-otevřená-data#SpecifikacePodmínekUžití.autorskéDílo-2026-09-08T13:07:06.320Z-70> a as:Create;
+<https://ofn.gov.cz/dcat-ap-cz-otevřená-data#SpecifikacePodmínekUžití.autorskéDílo-2026-10-12T07:15:19.928Z-70> a as:Create;
     dct:isVersionOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#SpecifikacePodmínekUžití.autorskéDílo>;
-    dct:created "2026-09-08T13:07:06.320Z"^^xsd:dateTime;
-    dct:issued "2026-09-08T13:07:06.320Z"^^xsd:dateTime;
+    dct:created "2026-10-12T07:15:19.928Z"^^xsd:dateTime;
+    dct:issued "2026-10-12T07:15:19.928Z"^^xsd:dateTime;
     ds-ldes:sequence 70;
     dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-hvd#>;
     a dsv:TermProfile;
@@ -2196,12 +2196,12 @@
     a dsv:ObjectPropertyProfile;
     dsv:objectPropertyRange <https://ofn.gov.cz/dcat-ap-cz-hvd#Licence>.
 
-<> tree:member <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#SpecifikacePodmínekUžití.zvláštníPrávoPořizovateleDatabáze-2026-09-08T13:07:06.320Z-71>.
+<> tree:member <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#SpecifikacePodmínekUžití.zvláštníPrávoPořizovateleDatabáze-2026-10-12T07:15:19.928Z-71>.
 
-<https://ofn.gov.cz/dcat-ap-cz-otevřená-data#SpecifikacePodmínekUžití.zvláštníPrávoPořizovateleDatabáze-2026-09-08T13:07:06.320Z-71> a as:Create;
+<https://ofn.gov.cz/dcat-ap-cz-otevřená-data#SpecifikacePodmínekUžití.zvláštníPrávoPořizovateleDatabáze-2026-10-12T07:15:19.928Z-71> a as:Create;
     dct:isVersionOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#SpecifikacePodmínekUžití.zvláštníPrávoPořizovateleDatabáze>;
-    dct:created "2026-09-08T13:07:06.320Z"^^xsd:dateTime;
-    dct:issued "2026-09-08T13:07:06.320Z"^^xsd:dateTime;
+    dct:created "2026-10-12T07:15:19.928Z"^^xsd:dateTime;
+    dct:issued "2026-10-12T07:15:19.928Z"^^xsd:dateTime;
     ds-ldes:sequence 71;
     dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-hvd#>;
     a dsv:TermProfile;
@@ -2227,12 +2227,12 @@
     a dsv:ObjectPropertyProfile;
     dsv:objectPropertyRange <https://ofn.gov.cz/dcat-ap-cz-hvd#Licence>.
 
-<> tree:member <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#SpecifikacePodmínekUžití.osobníÚdaje-2026-09-08T13:07:06.320Z-72>.
+<> tree:member <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#SpecifikacePodmínekUžití.osobníÚdaje-2026-10-12T07:15:19.928Z-72>.
 
-<https://ofn.gov.cz/dcat-ap-cz-otevřená-data#SpecifikacePodmínekUžití.osobníÚdaje-2026-09-08T13:07:06.320Z-72> a as:Create;
+<https://ofn.gov.cz/dcat-ap-cz-otevřená-data#SpecifikacePodmínekUžití.osobníÚdaje-2026-10-12T07:15:19.928Z-72> a as:Create;
     dct:isVersionOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#SpecifikacePodmínekUžití.osobníÚdaje>;
-    dct:created "2026-09-08T13:07:06.320Z"^^xsd:dateTime;
-    dct:issued "2026-09-08T13:07:06.320Z"^^xsd:dateTime;
+    dct:created "2026-10-12T07:15:19.928Z"^^xsd:dateTime;
+    dct:issued "2026-10-12T07:15:19.928Z"^^xsd:dateTime;
     ds-ldes:sequence 72;
     dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-hvd#>;
     a dsv:TermProfile;
@@ -2258,12 +2258,12 @@
     a dsv:ObjectPropertyProfile;
     dsv:objectPropertyRange <https://ofn.gov.cz/dcat-ap-cz-hvd#Licence>.
 
-<> tree:member <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#KontaktníBod.email-2026-09-08T13:07:06.320Z-73>.
+<> tree:member <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#KontaktníBod.email-2026-10-12T07:15:19.928Z-73>.
 
-<https://ofn.gov.cz/dcat-ap-cz-otevřená-data#KontaktníBod.email-2026-09-08T13:07:06.320Z-73> a as:Create;
+<https://ofn.gov.cz/dcat-ap-cz-otevřená-data#KontaktníBod.email-2026-10-12T07:15:19.928Z-73> a as:Create;
     dct:isVersionOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#KontaktníBod.email>;
-    dct:created "2026-09-08T13:07:06.320Z"^^xsd:dateTime;
-    dct:issued "2026-09-08T13:07:06.320Z"^^xsd:dateTime;
+    dct:created "2026-10-12T07:15:19.928Z"^^xsd:dateTime;
+    dct:issued "2026-10-12T07:15:19.928Z"^^xsd:dateTime;
     ds-ldes:sequence 73;
     dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-hvd#>;
     a dsv:TermProfile;
@@ -2286,12 +2286,12 @@
     a dsv:ObjectPropertyProfile;
     dsv:objectPropertyRange <https://ofn.gov.cz/dcat-ap-cz-hvd#E-mailAddress>.
 
-<> tree:member <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#SérieDatovýchSad.časovéPokrytí-2026-09-08T13:07:06.320Z-74>.
+<> tree:member <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#SérieDatovýchSad.časovéPokrytí-2026-10-12T07:15:19.928Z-74>.
 
-<https://ofn.gov.cz/dcat-ap-cz-otevřená-data#SérieDatovýchSad.časovéPokrytí-2026-09-08T13:07:06.320Z-74> a as:Create;
+<https://ofn.gov.cz/dcat-ap-cz-otevřená-data#SérieDatovýchSad.časovéPokrytí-2026-10-12T07:15:19.928Z-74> a as:Create;
     dct:isVersionOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#SérieDatovýchSad.časovéPokrytí>;
-    dct:created "2026-09-08T13:07:06.320Z"^^xsd:dateTime;
-    dct:issued "2026-09-08T13:07:06.320Z"^^xsd:dateTime;
+    dct:created "2026-10-12T07:15:19.928Z"^^xsd:dateTime;
+    dct:issued "2026-10-12T07:15:19.928Z"^^xsd:dateTime;
     ds-ldes:sequence 74;
     dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-hvd#>;
     a dsv:TermProfile;
@@ -2318,12 +2318,12 @@
     a dsv:ObjectPropertyProfile;
     dsv:objectPropertyRange <https://ofn.gov.cz/dcat-ap-cz-hvd#ČasovýInterval>.
 
-<> tree:member <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#SérieDatovýchSad.kontaktníBod-2026-09-08T13:07:06.320Z-75>.
+<> tree:member <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#SérieDatovýchSad.kontaktníBod-2026-10-12T07:15:19.928Z-75>.
 
-<https://ofn.gov.cz/dcat-ap-cz-otevřená-data#SérieDatovýchSad.kontaktníBod-2026-09-08T13:07:06.320Z-75> a as:Create;
+<https://ofn.gov.cz/dcat-ap-cz-otevřená-data#SérieDatovýchSad.kontaktníBod-2026-10-12T07:15:19.928Z-75> a as:Create;
     dct:isVersionOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#SérieDatovýchSad.kontaktníBod>;
-    dct:created "2026-09-08T13:07:06.320Z"^^xsd:dateTime;
-    dct:issued "2026-09-08T13:07:06.320Z"^^xsd:dateTime;
+    dct:created "2026-10-12T07:15:19.928Z"^^xsd:dateTime;
+    dct:issued "2026-10-12T07:15:19.928Z"^^xsd:dateTime;
     ds-ldes:sequence 75;
     dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-hvd#>;
     a dsv:TermProfile;
@@ -2350,12 +2350,12 @@
     a dsv:ObjectPropertyProfile;
     dsv:objectPropertyRange <https://ofn.gov.cz/dcat-ap-cz-hvd#KontaktníBod>.
 
-<> tree:member <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#SérieDatovýchSad.téma-2026-09-08T13:07:06.320Z-76>.
+<> tree:member <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#SérieDatovýchSad.téma-2026-10-12T07:15:19.928Z-76>.
 
-<https://ofn.gov.cz/dcat-ap-cz-otevřená-data#SérieDatovýchSad.téma-2026-09-08T13:07:06.320Z-76> a as:Create;
+<https://ofn.gov.cz/dcat-ap-cz-otevřená-data#SérieDatovýchSad.téma-2026-10-12T07:15:19.928Z-76> a as:Create;
     dct:isVersionOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#SérieDatovýchSad.téma>;
-    dct:created "2026-09-08T13:07:06.320Z"^^xsd:dateTime;
-    dct:issued "2026-09-08T13:07:06.320Z"^^xsd:dateTime;
+    dct:created "2026-10-12T07:15:19.928Z"^^xsd:dateTime;
+    dct:issued "2026-10-12T07:15:19.928Z"^^xsd:dateTime;
     ds-ldes:sequence 76;
     dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-hvd#>;
     a dsv:TermProfile;
@@ -2382,12 +2382,12 @@
     a dsv:ObjectPropertyProfile;
     dsv:objectPropertyRange <https://ofn.gov.cz/dcat-ap-cz-hvd#DatovéTéma>.
 
-<> tree:member <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#SérieDatovýchSad.klasifikaceDleEurovoc-2026-09-08T13:07:06.320Z-77>.
+<> tree:member <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#SérieDatovýchSad.klasifikaceDleEurovoc-2026-10-12T07:15:19.928Z-77>.
 
-<https://ofn.gov.cz/dcat-ap-cz-otevřená-data#SérieDatovýchSad.klasifikaceDleEurovoc-2026-09-08T13:07:06.320Z-77> a as:Create;
+<https://ofn.gov.cz/dcat-ap-cz-otevřená-data#SérieDatovýchSad.klasifikaceDleEurovoc-2026-10-12T07:15:19.928Z-77> a as:Create;
     dct:isVersionOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#SérieDatovýchSad.klasifikaceDleEurovoc>;
-    dct:created "2026-09-08T13:07:06.320Z"^^xsd:dateTime;
-    dct:issued "2026-09-08T13:07:06.320Z"^^xsd:dateTime;
+    dct:created "2026-10-12T07:15:19.928Z"^^xsd:dateTime;
+    dct:issued "2026-10-12T07:15:19.928Z"^^xsd:dateTime;
     ds-ldes:sequence 77;
     dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-hvd#>;
     a dsv:TermProfile;
@@ -2414,12 +2414,12 @@
     a dsv:ObjectPropertyProfile;
     dsv:objectPropertyRange <https://ofn.gov.cz/dcat-ap-cz-hvd#TémaEuroVoc>.
 
-<> tree:member <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#SérieDatovýchSad.periodicitaAktualizace-2026-09-08T13:07:06.320Z-78>.
+<> tree:member <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#SérieDatovýchSad.periodicitaAktualizace-2026-10-12T07:15:19.928Z-78>.
 
-<https://ofn.gov.cz/dcat-ap-cz-otevřená-data#SérieDatovýchSad.periodicitaAktualizace-2026-09-08T13:07:06.320Z-78> a as:Create;
+<https://ofn.gov.cz/dcat-ap-cz-otevřená-data#SérieDatovýchSad.periodicitaAktualizace-2026-10-12T07:15:19.928Z-78> a as:Create;
     dct:isVersionOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#SérieDatovýchSad.periodicitaAktualizace>;
-    dct:created "2026-09-08T13:07:06.320Z"^^xsd:dateTime;
-    dct:issued "2026-09-08T13:07:06.320Z"^^xsd:dateTime;
+    dct:created "2026-10-12T07:15:19.928Z"^^xsd:dateTime;
+    dct:issued "2026-10-12T07:15:19.928Z"^^xsd:dateTime;
     ds-ldes:sequence 78;
     dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-hvd#>;
     a dsv:TermProfile;
@@ -2446,12 +2446,12 @@
     a dsv:ObjectPropertyProfile;
     dsv:objectPropertyRange <https://ofn.gov.cz/dcat-ap-cz-hvd#Frekvence>.
 
-<> tree:member <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#SérieDatovýchSad.jeSoučástí-2026-09-08T13:07:06.320Z-79>.
+<> tree:member <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#SérieDatovýchSad.jeSoučástí-2026-10-12T07:15:19.928Z-79>.
 
-<https://ofn.gov.cz/dcat-ap-cz-otevřená-data#SérieDatovýchSad.jeSoučástí-2026-09-08T13:07:06.320Z-79> a as:Create;
+<https://ofn.gov.cz/dcat-ap-cz-otevřená-data#SérieDatovýchSad.jeSoučástí-2026-10-12T07:15:19.928Z-79> a as:Create;
     dct:isVersionOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#SérieDatovýchSad.jeSoučástí>;
-    dct:created "2026-09-08T13:07:06.320Z"^^xsd:dateTime;
-    dct:issued "2026-09-08T13:07:06.320Z"^^xsd:dateTime;
+    dct:created "2026-10-12T07:15:19.928Z"^^xsd:dateTime;
+    dct:issued "2026-10-12T07:15:19.928Z"^^xsd:dateTime;
     ds-ldes:sequence 79;
     dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-hvd#>;
     a dsv:TermProfile;
@@ -2478,12 +2478,12 @@
     a dsv:ObjectPropertyProfile;
     dsv:objectPropertyRange <https://ofn.gov.cz/dcat-ap-cz-hvd#SérieDatovýchSad>.
 
-<> tree:member <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#SérieDatovýchSad.poskytovatel-2026-09-08T13:07:06.320Z-80>.
+<> tree:member <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#SérieDatovýchSad.poskytovatel-2026-10-12T07:15:19.928Z-80>.
 
-<https://ofn.gov.cz/dcat-ap-cz-otevřená-data#SérieDatovýchSad.poskytovatel-2026-09-08T13:07:06.320Z-80> a as:Create;
+<https://ofn.gov.cz/dcat-ap-cz-otevřená-data#SérieDatovýchSad.poskytovatel-2026-10-12T07:15:19.928Z-80> a as:Create;
     dct:isVersionOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#SérieDatovýchSad.poskytovatel>;
-    dct:created "2026-09-08T13:07:06.320Z"^^xsd:dateTime;
-    dct:issued "2026-09-08T13:07:06.320Z"^^xsd:dateTime;
+    dct:created "2026-10-12T07:15:19.928Z"^^xsd:dateTime;
+    dct:issued "2026-10-12T07:15:19.928Z"^^xsd:dateTime;
     ds-ldes:sequence 80;
     dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-hvd#>;
     a dsv:TermProfile;
@@ -2510,12 +2510,12 @@
     a dsv:ObjectPropertyProfile;
     dsv:objectPropertyRange <https://ofn.gov.cz/dcat-ap-cz-hvd#Poskytovatel>.
 
-<> tree:member <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#SérieDatovýchSad.příslušnýPrávníPředpis-2026-09-08T13:07:06.320Z-81>.
+<> tree:member <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#SérieDatovýchSad.příslušnýPrávníPředpis-2026-10-12T07:15:19.928Z-81>.
 
-<https://ofn.gov.cz/dcat-ap-cz-otevřená-data#SérieDatovýchSad.příslušnýPrávníPředpis-2026-09-08T13:07:06.320Z-81> a as:Create;
+<https://ofn.gov.cz/dcat-ap-cz-otevřená-data#SérieDatovýchSad.příslušnýPrávníPředpis-2026-10-12T07:15:19.928Z-81> a as:Create;
     dct:isVersionOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#SérieDatovýchSad.příslušnýPrávníPředpis>;
-    dct:created "2026-09-08T13:07:06.320Z"^^xsd:dateTime;
-    dct:issued "2026-09-08T13:07:06.320Z"^^xsd:dateTime;
+    dct:created "2026-10-12T07:15:19.928Z"^^xsd:dateTime;
+    dct:issued "2026-10-12T07:15:19.928Z"^^xsd:dateTime;
     ds-ldes:sequence 81;
     dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-hvd#>;
     a dsv:TermProfile;
@@ -2538,12 +2538,12 @@
     a dsv:ObjectPropertyProfile;
     dsv:objectPropertyRange <https://ofn.gov.cz/dcat-ap-cz-hvd#PrávníPředpis>.
 
-<> tree:member <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#SérieDatovýchSad.souvisejícíGeografickéÚzemí-2026-09-08T13:07:06.320Z-82>.
+<> tree:member <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#SérieDatovýchSad.souvisejícíGeografickéÚzemí-2026-10-12T07:15:19.928Z-82>.
 
-<https://ofn.gov.cz/dcat-ap-cz-otevřená-data#SérieDatovýchSad.souvisejícíGeografickéÚzemí-2026-09-08T13:07:06.320Z-82> a as:Create;
+<https://ofn.gov.cz/dcat-ap-cz-otevřená-data#SérieDatovýchSad.souvisejícíGeografickéÚzemí-2026-10-12T07:15:19.928Z-82> a as:Create;
     dct:isVersionOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#SérieDatovýchSad.souvisejícíGeografickéÚzemí>;
-    dct:created "2026-09-08T13:07:06.320Z"^^xsd:dateTime;
-    dct:issued "2026-09-08T13:07:06.320Z"^^xsd:dateTime;
+    dct:created "2026-10-12T07:15:19.928Z"^^xsd:dateTime;
+    dct:issued "2026-10-12T07:15:19.928Z"^^xsd:dateTime;
     ds-ldes:sequence 82;
     dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-hvd#>;
     a dsv:TermProfile;
@@ -2570,12 +2570,12 @@
     a dsv:ObjectPropertyProfile;
     dsv:objectPropertyRange <https://ofn.gov.cz/dcat-ap-cz-hvd#GeografickéÚzemí>.
 
-<> tree:member <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#SérieDatovýchSad.souvisejícíGeografickéÚzemí-PrvekZRúian-2026-09-08T13:07:06.320Z-83>.
+<> tree:member <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#SérieDatovýchSad.souvisejícíGeografickéÚzemí-PrvekZRúian-2026-10-12T07:15:19.928Z-83>.
 
-<https://ofn.gov.cz/dcat-ap-cz-otevřená-data#SérieDatovýchSad.souvisejícíGeografickéÚzemí-PrvekZRúian-2026-09-08T13:07:06.320Z-83> a as:Create;
+<https://ofn.gov.cz/dcat-ap-cz-otevřená-data#SérieDatovýchSad.souvisejícíGeografickéÚzemí-PrvekZRúian-2026-10-12T07:15:19.928Z-83> a as:Create;
     dct:isVersionOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#SérieDatovýchSad.souvisejícíGeografickéÚzemí-PrvekZRúian>;
-    dct:created "2026-09-08T13:07:06.320Z"^^xsd:dateTime;
-    dct:issued "2026-09-08T13:07:06.320Z"^^xsd:dateTime;
+    dct:created "2026-10-12T07:15:19.928Z"^^xsd:dateTime;
+    dct:issued "2026-10-12T07:15:19.928Z"^^xsd:dateTime;
     ds-ldes:sequence 83;
     dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-hvd#>;
     a dsv:TermProfile;
@@ -2602,12 +2602,12 @@
     a dsv:ObjectPropertyProfile;
     dsv:objectPropertyRange <https://ofn.gov.cz/dcat-ap-cz-hvd#PrvekRÚIAN>.
 
-<> tree:member <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#SérieDatovýchSad.dokumentace-2026-09-08T13:07:06.320Z-84>.
+<> tree:member <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#SérieDatovýchSad.dokumentace-2026-10-12T07:15:19.928Z-84>.
 
-<https://ofn.gov.cz/dcat-ap-cz-otevřená-data#SérieDatovýchSad.dokumentace-2026-09-08T13:07:06.320Z-84> a as:Create;
+<https://ofn.gov.cz/dcat-ap-cz-otevřená-data#SérieDatovýchSad.dokumentace-2026-10-12T07:15:19.928Z-84> a as:Create;
     dct:isVersionOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#SérieDatovýchSad.dokumentace>;
-    dct:created "2026-09-08T13:07:06.320Z"^^xsd:dateTime;
-    dct:issued "2026-09-08T13:07:06.320Z"^^xsd:dateTime;
+    dct:created "2026-10-12T07:15:19.928Z"^^xsd:dateTime;
+    dct:issued "2026-10-12T07:15:19.928Z"^^xsd:dateTime;
     ds-ldes:sequence 84;
     dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-hvd#>;
     a dsv:TermProfile;
@@ -2634,12 +2634,12 @@
     a dsv:ObjectPropertyProfile;
     dsv:objectPropertyRange <https://ofn.gov.cz/dcat-ap-cz-hvd#Dokument>.
 
-<> tree:member <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSada.vstupníStránka-2026-09-08T13:07:06.320Z-85>.
+<> tree:member <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSada.vstupníStránka-2026-10-12T07:15:19.928Z-85>.
 
-<https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSada.vstupníStránka-2026-09-08T13:07:06.320Z-85> a as:Create;
+<https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSada.vstupníStránka-2026-10-12T07:15:19.928Z-85> a as:Create;
     dct:isVersionOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSada.vstupníStránka>;
-    dct:created "2026-09-08T13:07:06.320Z"^^xsd:dateTime;
-    dct:issued "2026-09-08T13:07:06.320Z"^^xsd:dateTime;
+    dct:created "2026-10-12T07:15:19.928Z"^^xsd:dateTime;
+    dct:issued "2026-10-12T07:15:19.928Z"^^xsd:dateTime;
     ds-ldes:sequence 85;
     dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-hvd#>;
     a dsv:TermProfile;
@@ -2665,12 +2665,12 @@
     a dsv:ObjectPropertyProfile;
     dsv:objectPropertyRange <https://ofn.gov.cz/dcat-ap-cz-hvd#Dokument>.
 
-<> tree:member <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#SérieDatovýchSad.vstupníStránka-2026-09-08T13:07:06.320Z-86>.
+<> tree:member <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#SérieDatovýchSad.vstupníStránka-2026-10-12T07:15:19.928Z-86>.
 
-<https://ofn.gov.cz/dcat-ap-cz-otevřená-data#SérieDatovýchSad.vstupníStránka-2026-09-08T13:07:06.320Z-86> a as:Create;
+<https://ofn.gov.cz/dcat-ap-cz-otevřená-data#SérieDatovýchSad.vstupníStránka-2026-10-12T07:15:19.928Z-86> a as:Create;
     dct:isVersionOf <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#SérieDatovýchSad.vstupníStránka>;
-    dct:created "2026-09-08T13:07:06.320Z"^^xsd:dateTime;
-    dct:issued "2026-09-08T13:07:06.320Z"^^xsd:dateTime;
+    dct:created "2026-10-12T07:15:19.928Z"^^xsd:dateTime;
+    dct:issued "2026-10-12T07:15:19.928Z"^^xsd:dateTime;
     ds-ldes:sequence 86;
     dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-hvd#>;
     a dsv:TermProfile;
@@ -2697,12 +2697,12 @@
     a dsv:ObjectPropertyProfile;
     dsv:objectPropertyRange <https://ofn.gov.cz/dcat-ap-cz-hvd#Dokument>.
 
-<> tree:member <https://ofn.gov.cz/dcat-ap-cz-hvd#KategorieHVD-2026-09-08T13:07:06.320Z-87>.
+<> tree:member <https://ofn.gov.cz/dcat-ap-cz-hvd#KategorieHVD-2026-10-12T07:15:19.928Z-87>.
 
-<https://ofn.gov.cz/dcat-ap-cz-hvd#KategorieHVD-2026-09-08T13:07:06.320Z-87> a as:Create;
+<https://ofn.gov.cz/dcat-ap-cz-hvd#KategorieHVD-2026-10-12T07:15:19.928Z-87> a as:Create;
     dct:isVersionOf <https://ofn.gov.cz/dcat-ap-cz-hvd#KategorieHVD>;
-    dct:created "2026-09-08T13:07:06.320Z"^^xsd:dateTime;
-    dct:issued "2026-09-08T13:07:06.320Z"^^xsd:dateTime;
+    dct:created "2026-10-12T07:15:19.928Z"^^xsd:dateTime;
+    dct:issued "2026-10-12T07:15:19.928Z"^^xsd:dateTime;
     ds-ldes:sequence 87;
     dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-hvd#>;
     a dsv:TermProfile;
@@ -2713,12 +2713,12 @@
     a dsv:ClassProfile;
     dsv:classRole role:main.
 
-<> tree:member <https://ofn.gov.cz/dcat-ap-cz-hvd#DatováSada.kategorieHvd-2026-09-08T13:07:06.320Z-88>.
+<> tree:member <https://ofn.gov.cz/dcat-ap-cz-hvd#DatováSada.kategorieHvd-2026-10-12T07:15:19.928Z-88>.
 
-<https://ofn.gov.cz/dcat-ap-cz-hvd#DatováSada.kategorieHvd-2026-09-08T13:07:06.320Z-88> a as:Create;
+<https://ofn.gov.cz/dcat-ap-cz-hvd#DatováSada.kategorieHvd-2026-10-12T07:15:19.928Z-88> a as:Create;
     dct:isVersionOf <https://ofn.gov.cz/dcat-ap-cz-hvd#DatováSada.kategorieHvd>;
-    dct:created "2026-09-08T13:07:06.320Z"^^xsd:dateTime;
-    dct:issued "2026-09-08T13:07:06.320Z"^^xsd:dateTime;
+    dct:created "2026-10-12T07:15:19.928Z"^^xsd:dateTime;
+    dct:issued "2026-10-12T07:15:19.928Z"^^xsd:dateTime;
     ds-ldes:sequence 88;
     dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-hvd#>;
     a dsv:TermProfile;
@@ -2737,12 +2737,12 @@
     a dsv:ObjectPropertyProfile;
     dsv:objectPropertyRange <https://ofn.gov.cz/dcat-ap-cz-hvd#KategorieHVD>.
 
-<> tree:member <https://ofn.gov.cz/dcat-ap-cz-hvd#SérieDatovýchSad.kategorieHvd-2026-09-08T13:07:06.320Z-89>.
+<> tree:member <https://ofn.gov.cz/dcat-ap-cz-hvd#SérieDatovýchSad.kategorieHvd-2026-10-12T07:15:19.928Z-89>.
 
-<https://ofn.gov.cz/dcat-ap-cz-hvd#SérieDatovýchSad.kategorieHvd-2026-09-08T13:07:06.320Z-89> a as:Create;
+<https://ofn.gov.cz/dcat-ap-cz-hvd#SérieDatovýchSad.kategorieHvd-2026-10-12T07:15:19.928Z-89> a as:Create;
     dct:isVersionOf <https://ofn.gov.cz/dcat-ap-cz-hvd#SérieDatovýchSad.kategorieHvd>;
-    dct:created "2026-09-08T13:07:06.320Z"^^xsd:dateTime;
-    dct:issued "2026-09-08T13:07:06.320Z"^^xsd:dateTime;
+    dct:created "2026-10-12T07:15:19.928Z"^^xsd:dateTime;
+    dct:issued "2026-10-12T07:15:19.928Z"^^xsd:dateTime;
     ds-ldes:sequence 89;
     dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-hvd#>;
     a dsv:TermProfile;
@@ -2761,12 +2761,12 @@
     a dsv:ObjectPropertyProfile;
     dsv:objectPropertyRange <https://ofn.gov.cz/dcat-ap-cz-hvd#KategorieHVD>.
 
-<> tree:member <https://ofn.gov.cz/dcat-ap-cz-hvd#DatováSlužba.kategorieHvd-2026-09-08T13:07:06.320Z-90>.
+<> tree:member <https://ofn.gov.cz/dcat-ap-cz-hvd#DatováSlužba.kategorieHvd-2026-10-12T07:15:19.928Z-90>.
 
-<https://ofn.gov.cz/dcat-ap-cz-hvd#DatováSlužba.kategorieHvd-2026-09-08T13:07:06.320Z-90> a as:Create;
+<https://ofn.gov.cz/dcat-ap-cz-hvd#DatováSlužba.kategorieHvd-2026-10-12T07:15:19.928Z-90> a as:Create;
     dct:isVersionOf <https://ofn.gov.cz/dcat-ap-cz-hvd#DatováSlužba.kategorieHvd>;
-    dct:created "2026-09-08T13:07:06.320Z"^^xsd:dateTime;
-    dct:issued "2026-09-08T13:07:06.320Z"^^xsd:dateTime;
+    dct:created "2026-10-12T07:15:19.928Z"^^xsd:dateTime;
+    dct:issued "2026-10-12T07:15:19.928Z"^^xsd:dateTime;
     ds-ldes:sequence 90;
     dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-hvd#>;
     a dsv:TermProfile;
@@ -2785,12 +2785,12 @@
     a dsv:ObjectPropertyProfile;
     dsv:objectPropertyRange <https://ofn.gov.cz/dcat-ap-cz-hvd#KategorieHVD>.
 
-<> tree:member <https://ofn.gov.cz/dcat-ap-cz-hvd#KontaktníBod.kontaktníStránka-2026-09-08T13:07:06.320Z-91>.
+<> tree:member <https://ofn.gov.cz/dcat-ap-cz-hvd#KontaktníBod.kontaktníStránka-2026-10-12T07:15:19.928Z-91>.
 
-<https://ofn.gov.cz/dcat-ap-cz-hvd#KontaktníBod.kontaktníStránka-2026-09-08T13:07:06.320Z-91> a as:Create;
+<https://ofn.gov.cz/dcat-ap-cz-hvd#KontaktníBod.kontaktníStránka-2026-10-12T07:15:19.928Z-91> a as:Create;
     dct:isVersionOf <https://ofn.gov.cz/dcat-ap-cz-hvd#KontaktníBod.kontaktníStránka>;
-    dct:created "2026-09-08T13:07:06.320Z"^^xsd:dateTime;
-    dct:issued "2026-09-08T13:07:06.320Z"^^xsd:dateTime;
+    dct:created "2026-10-12T07:15:19.928Z"^^xsd:dateTime;
+    dct:issued "2026-10-12T07:15:19.928Z"^^xsd:dateTime;
     ds-ldes:sequence 91;
     dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-hvd#>;
     a dsv:TermProfile;
@@ -2809,12 +2809,12 @@
     a dsv:ObjectPropertyProfile;
     dsv:objectPropertyRange <https://ofn.gov.cz/dcat-ap-cz-hvd#Dokument>.
 
-<> tree:member <https://ofn.gov.cz/dcat-ap-cz-hvd#DatováSlužba.kontaktníBod-2026-09-08T13:07:06.320Z-92>.
+<> tree:member <https://ofn.gov.cz/dcat-ap-cz-hvd#DatováSlužba.kontaktníBod-2026-10-12T07:15:19.928Z-92>.
 
-<https://ofn.gov.cz/dcat-ap-cz-hvd#DatováSlužba.kontaktníBod-2026-09-08T13:07:06.320Z-92> a as:Create;
+<https://ofn.gov.cz/dcat-ap-cz-hvd#DatováSlužba.kontaktníBod-2026-10-12T07:15:19.928Z-92> a as:Create;
     dct:isVersionOf <https://ofn.gov.cz/dcat-ap-cz-hvd#DatováSlužba.kontaktníBod>;
-    dct:created "2026-09-08T13:07:06.320Z"^^xsd:dateTime;
-    dct:issued "2026-09-08T13:07:06.320Z"^^xsd:dateTime;
+    dct:created "2026-10-12T07:15:19.928Z"^^xsd:dateTime;
+    dct:issued "2026-10-12T07:15:19.928Z"^^xsd:dateTime;
     ds-ldes:sequence 92;
     dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-hvd#>;
     a dsv:TermProfile;

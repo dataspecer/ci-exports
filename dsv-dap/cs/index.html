@@ -29,18 +29,18 @@
           },
           "isProfileOf": [
             {
-              "@id": "https://w3id.org/dsv#",
-              "title": {},
-              "hasResource": {
-                "hasArtifact": "https://mff-uk.github.io/data-specification-vocabulary/dsv/"
-              }
-            },
-            {
               "title": {
                 "en": "adms"
               },
               "hasResource": {
                 "hasArtifact": "https://www.w3.org/ns/legacy_adms"
+              }
+            },
+            {
+              "@id": "https://w3id.org/dsv#",
+              "title": {},
+              "hasResource": {
+                "hasArtifact": "https://mff-uk.github.io/data-specification-vocabulary/dsv/"
               }
             }
           ],
@@ -103,7 +103,7 @@
                 "adms:AssetDistribution",
                 "prof:ResourceDescriptor"
               ],
-              "hasArtifact": "../8dlkl.svg",
+              "hasArtifact": "../n4roi.svg",
               "hasRole": "role:guidance",
               "format": "filetype:SVG",
               "conformsTo": "https://www.w3.org/TR/SVG/"
@@ -133,7 +133,7 @@
                 "adms:AssetDistribution",
                 "prof:ResourceDescriptor"
               ],
-              "hasArtifact": "../n4roi.svg",
+              "hasArtifact": "../8dlkl.svg",
               "hasRole": "role:guidance",
               "format": "filetype:SVG",
               "conformsTo": "https://www.w3.org/TR/SVG/"
@@ -329,6 +329,31 @@
         border-top: 1px solid #ddd;
         padding: 3px 10px;
       }
+    
+      /* An IRI has no spaces to break at, so it may wrap anywhere instead of widening the table. */
+      table.def.cv-list .cv-iri {
+        overflow-wrap: anywhere;
+      }
+    
+      /* ReSpec shows the header row of a definition table as an italic body row, so it is marked out as a header. */
+      table.def.cv-table thead th {
+        font-style: normal;
+        font-weight: bold;
+        background: color-mix(in srgb, currentColor 8%, transparent);
+        border-bottom: 2px solid color-mix(in srgb, currentColor 35%, transparent);
+      }
+    
+      table.def.cv-list .cv-center {
+        text-align: center;
+      }
+    
+      a.cv-link + a.cv-link {
+        margin-left: 0.5em;
+      }
+    
+      .cv-icon {
+        vertical-align: -0.2em;
+      }
     </style>  </head>
   <body>
     <p class="copyright"></p>
@@ -377,10 +402,10 @@
     <section>
       <h2>Přehled</h2>
 
-        <a href="../8dlkl.svg">
+        <a href="../n4roi.svg">
           <figure>
-            <img src="../8dlkl.svg" alt="Application profile view" />
-            <figcaption>Application profile view</figcaption>
+            <img src="../n4roi.svg" alt="Vocabulary view" />
+            <figcaption>Vocabulary view</figcaption>
           </figure>
         </a>
         <a href="../626cb.svg">
@@ -395,10 +420,10 @@
             <figcaption>Overview</figcaption>
           </figure>
         </a>
-        <a href="../n4roi.svg">
+        <a href="../8dlkl.svg">
           <figure>
-            <img src="../n4roi.svg" alt="Vocabulary view" />
-            <figcaption>Vocabulary view</figcaption>
+            <img src="../8dlkl.svg" alt="Application profile view" />
+            <figcaption>Application profile view</figcaption>
           </figure>
         </a>
     </section>
