@@ -1294,12 +1294,12 @@
     dsv:specializes <https://w3id.org/dsv-dap#Property>;
     dsv:reusesPropertyValue [
   a dsv:PropertyValueReuse;
-  dsv:reusedProperty rdfs:label;
+  dsv:reusedProperty skos:prefLabel;
   dsv:reusedAsProperty skos:prefLabel;
   dsv:reusedFromResource owl:ObjectProperty
 ], [
   a dsv:PropertyValueReuse;
-  dsv:reusedProperty rdfs:comment;
+  dsv:reusedProperty skos:definition;
   dsv:reusedAsProperty skos:definition;
   dsv:reusedFromResource owl:ObjectProperty
 ];
@@ -1319,12 +1319,12 @@
     dsv:specializes <https://w3id.org/dsv-dap#Property>;
     dsv:reusesPropertyValue [
   a dsv:PropertyValueReuse;
-  dsv:reusedProperty rdfs:label;
+  dsv:reusedProperty skos:prefLabel;
   dsv:reusedAsProperty skos:prefLabel;
   dsv:reusedFromResource owl:DatatypeProperty
 ], [
   a dsv:PropertyValueReuse;
-  dsv:reusedProperty rdfs:comment;
+  dsv:reusedProperty skos:definition;
   dsv:reusedAsProperty skos:definition;
   dsv:reusedFromResource owl:DatatypeProperty
 ];
