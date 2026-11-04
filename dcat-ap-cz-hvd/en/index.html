@@ -33,17 +33,17 @@
           },
           "isProfileOf": [
             {
-              "@id": "https://mff-uk.github.io/specifications/dcat-ap-hvd#",
-              "title": {},
-              "hasResource": {
-                "hasArtifact": "https://mff-uk.github.io/specifications/dcat-ap-hvd/"
-              }
-            },
-            {
               "@id": "https://ofn.gov.cz/dcat-ap-cz-otevřená-data#",
               "title": {},
               "hasResource": {
                 "hasArtifact": "https://ofn.gov.cz/dcat-ap-cz-otevřená-data/2026-09-23/cs/"
+              }
+            },
+            {
+              "@id": "https://mff-uk.github.io/specifications/dcat-ap-hvd#",
+              "title": {},
+              "hasResource": {
+                "hasArtifact": "https://mff-uk.github.io/specifications/dcat-ap-hvd/"
               }
             }
           ],
@@ -86,7 +86,7 @@
                 "adms:AssetDistribution",
                 "prof:ResourceDescriptor"
               ],
-              "hasArtifact": "../datová-sada/structure.ttl",
+              "hasArtifact": "../série-datových-sad/structure.ttl",
               "hasRole": "role:schema",
               "format": "filetype:RDF_TURTLE",
               "conformsTo": "dsv:Structure"
@@ -96,7 +96,7 @@
                 "adms:AssetDistribution",
                 "prof:ResourceDescriptor"
               ],
-              "hasArtifact": "../série-datových-sad/structure.ttl",
+              "hasArtifact": "../datová-sada/structure.ttl",
               "hasRole": "role:schema",
               "format": "filetype:RDF_TURTLE",
               "conformsTo": "dsv:Structure"
@@ -133,28 +133,6 @@
               "format": "filetype:HTML"
             },
             {
-              "@id": "af2cdc60-d801-4acd-b05f-c92dadca9c90#jsonschema",
-              "@type": [
-                "adms:AssetDistribution",
-                "prof:ResourceDescriptor"
-              ],
-              "hasArtifact": "../datová-sada/schéma.json",
-              "hasRole": "role:schema",
-              "format": "filetype:JSON",
-              "conformsTo": "https://json-schema.org/draft/2020-12/schema"
-            },
-            {
-              "@id": "af2cdc60-d801-4acd-b05f-c92dadca9c90#jsonLd",
-              "@type": [
-                "adms:AssetDistribution",
-                "prof:ResourceDescriptor"
-              ],
-              "hasArtifact": "../datová-sada/kontext.jsonld",
-              "hasRole": "role:schema",
-              "format": "filetype:JSON_LD",
-              "conformsTo": "http://www.w3.org/ns/json-ld"
-            },
-            {
               "@id": "4ae7ce68-51aa-4169-a724-586a6a40a125#jsonschema",
               "@type": [
                 "adms:AssetDistribution",
@@ -172,6 +150,28 @@
                 "prof:ResourceDescriptor"
               ],
               "hasArtifact": "../série-datových-sad/kontext.jsonld",
+              "hasRole": "role:schema",
+              "format": "filetype:JSON_LD",
+              "conformsTo": "http://www.w3.org/ns/json-ld"
+            },
+            {
+              "@id": "af2cdc60-d801-4acd-b05f-c92dadca9c90#jsonschema",
+              "@type": [
+                "adms:AssetDistribution",
+                "prof:ResourceDescriptor"
+              ],
+              "hasArtifact": "../datová-sada/schéma.json",
+              "hasRole": "role:schema",
+              "format": "filetype:JSON",
+              "conformsTo": "https://json-schema.org/draft/2020-12/schema"
+            },
+            {
+              "@id": "af2cdc60-d801-4acd-b05f-c92dadca9c90#jsonLd",
+              "@type": [
+                "adms:AssetDistribution",
+                "prof:ResourceDescriptor"
+              ],
+              "hasArtifact": "../datová-sada/kontext.jsonld",
               "hasRole": "role:schema",
               "format": "filetype:JSON_LD",
               "conformsTo": "http://www.w3.org/ns/json-ld"
@@ -502,3793 +502,6 @@
       <section>
       <h2>
         Data structure specification for
-        Dataset
-      </h2>
-      <p>Data structure for Dataset. A conceptual entity that represents the information published.</p>
-
-      <section id="json-schema--datová-sada">
-
-
-
-
-
-
-
-
-
-
-
-
-  <h1>
-
-      JSON structure for
-    Dataset
-  </h1>
-
-    <dl>
-      <dt>IRI</dt>
-      <dd><code>https://ofn.gov.cz/dcat-ap-cz-hvd/2026-09-23/datová-sada/schéma.json</code></dd>
-      <dt>Defined in</dt>
-      <dd><code><a href="../datová-sada/schéma.json">../datová-sada/schéma.json</a></code></dd>
-        <dt>Language version used</dt>
-        <dd><a href="https://json-schema.org/specification-links.html#2020-12-release" target="_blank">2020-12</a> (metaschema IRI: <code>https://json-schema.org/draft/2020-12/schema</code>)</dd>
-    </dl>
-
-    <h2>Root</h2>
-    The root of the JSON schema is
-        <a href="#json-object--datová-sada--datová-sada"></a>
-
-
-    <section id="json-object--datová-sada--datová-sada">
-      <h2>
-        Object <i>Dataset</i>
-      </h2>
-
-      <table class="def">
-          <tr>
-            <th>Description</th>
-            <td>A conceptual entity that represents the information published.</td>
-          </tr>
-
-          <tr>
-            <th>Interpretation</th>
-            <td><a href="#DatováSada">Dataset</a></td>
-          </tr>
-      </table>
-
-          <strong>
-    object
-  </strong>
-    with properties (<code>properties</code>):
-    <ul>
-        <li style="list-style-type: disclosure-closed;">
-          <code>@context</code>:
-          required
-          item of type
-
-                
-  
-  
-  
-  
-  
-  
-  
-        exactly one of the following (<code>oneOf</code>):
-    <ul>
-        <li>      
-    constant value
-    <code>&quot;https://ofn.gov.cz/dcat-ap-cz-hvd/2026-09-23/datová-sada/kontext.jsonld&quot;</code>
-
-  
-  
-  
-  
-  
-  
-  
-
-</li>
-        <li>      
-  
-  
-    array of values <code>{0..*}</code> of type       
-  
-  
-    string
-  (format: <code>iri</code>)
-  
-
-
-  
-  
-  
-  
-  
-
-
-     and must contain: <code>&quot;https://ofn.gov.cz/dcat-ap-cz-hvd/2026-09-23/datová-sada/kontext.jsonld&quot;</code>
-
-  
-  
-  
-  
-  
-  
-
-</li>
-    </ul>
-
-
-
-
-
-
-        </li>
-        <li style="list-style-type: disclosure-closed;">
-          <code>iri</code>:
-          required
-          item of type
-
-                
-  
-  
-    string
-  (format: <code>iri</code>)
-  (by regular expression: <code>^https://.*$</code>)
-
-
-  
-  
-  
-  
-  
-
-
-        </li>
-        <li style="list-style-type: disclosure-closed;">
-          <code>typ</code>:
-          required
-          item of type
-
-                
-  
-  
-  
-  
-  
-  
-  
-        exactly one of the following (<code>oneOf</code>):
-    <ul>
-        <li>      
-    constant value
-    <code>&quot;Datová sada&quot;</code>
-
-  
-  
-  
-  
-  
-  
-  
-
-</li>
-        <li>      
-  
-  
-    array of values <code>{0..*}</code> of type       
-  
-  
-    string
-  
-  
-
-
-  
-  
-  
-  
-  
-
-
-     and must contain: <code>&quot;Datová sada&quot;</code>
-
-  
-  
-  
-  
-  
-  
-
-</li>
-    </ul>
-
-
-
-
-
-
-        </li>
-        <li style="list-style-type: disclosure-closed;">
-          <code>název</code>:
-            (<a href="#DatováSada.název" label="Název datové sady">title</a>)
-          required
-          item of type
-
-                  <strong>
-    object
-  </strong>
-    with properties (<code>properties</code>):
-    <ul>
-        <li style="list-style-type: disclosure-closed;">
-          <code>cs</code>:
-          optional
-          item of type
-
-                
-  
-  
-    string
-  
-  
-
-
-  
-  
-  
-  
-  
-
-
-        </li>
-        <li style="list-style-type: disclosure-closed;">
-          <code>en</code>:
-          optional
-          item of type
-
-                
-  
-  
-    string
-  
-  
-
-
-  
-  
-  
-  
-  
-
-
-        </li>
-    </ul>
-  
-
-
-
-  
-  
-  
-  
-  
-  
-  
-  
-
-
-        </li>
-        <li style="list-style-type: disclosure-closed;">
-          <code>popis</code>:
-            (<a href="#DatováSada.popis" label="A free-text account of the Dataset.">description</a>)
-          required
-          item of type
-
-                  <strong>
-    object
-  </strong>
-    with properties (<code>properties</code>):
-    <ul>
-        <li style="list-style-type: disclosure-closed;">
-          <code>cs</code>:
-          optional
-          item of type
-
-                
-  
-  
-    string
-  
-  
-
-
-  
-  
-  
-  
-  
-
-
-        </li>
-        <li style="list-style-type: disclosure-closed;">
-          <code>en</code>:
-          optional
-          item of type
-
-                
-  
-  
-    string
-  
-  
-
-
-  
-  
-  
-  
-  
-
-
-        </li>
-    </ul>
-  
-
-
-
-  
-  
-  
-  
-  
-  
-  
-  
-
-
-        </li>
-        <li style="list-style-type: disclosure-closed;">
-          <code>poskytovatel</code>:
-            (<a href="#DatováSada.poskytovatel" label="An entity (organisation) responsible for making the Dataset available.">publisher</a>)
-          required
-          item of type
-
-                
-  
-  
-    string
-  (format: <code>iri</code>)
-  
-
-
-  
-  
-  
-  
-  
-
-
-        </li>
-        <li style="list-style-type: disclosure-closed;">
-          <code>je_součástí</code>:
-            (<a href="#DatováSada.jeSoučástí" label="A dataset series of which the dataset is part.">in series</a>)
-          optional
-          item of type
-
-                
-  
-  
-    string
-  (format: <code>iri</code>)
-  (by regular expression: <code>^https://.*$</code>)
-
-
-  
-  
-  
-  
-  
-
-
-        </li>
-        <li style="list-style-type: disclosure-closed;">
-          <code>téma</code>:
-            (<a href="#DatováSada.téma" label="A category of the Dataset.">theme</a>)
-          required
-          item of type
-
-                
-  
-  
-    array of values <code>{1..*}</code> of type       
-  
-  
-    string
-  (format: <code>iri</code>)
-  (by regular expression: <code>^http://publications\.europa\.eu/resource/authority/data-theme/.*$</code>)
-
-
-  
-  
-  
-  
-  
-
-
-          
-
-  
-  
-  
-  
-  
-  
-
-
-        </li>
-        <li style="list-style-type: disclosure-closed;">
-          <code>periodicita_aktualizace</code>:
-            (<a href="#DatováSada.periodicitaAktualizace" label="The frequency at which the Dataset is updated.">frequency</a>)
-          required
-          item of type
-
-                
-  
-  
-    string
-  (format: <code>iri</code>)
-  (by regular expression: <code>^http://publications\.europa\.eu/resource/authority/frequency/.*$</code>)
-
-
-  
-  
-  
-  
-  
-
-
-        </li>
-        <li style="list-style-type: disclosure-closed;">
-          <code>klíčové_slovo</code>:
-            (<a href="#DatováSada.klíčovéSlovo" label="A keyword or tag describing a resource.">keyword</a>)
-          required
-          item of type
-
-                  <strong>
-    object
-  </strong>
-    with properties (<code>properties</code>):
-    <ul>
-        <li style="list-style-type: disclosure-closed;">
-          <code>cs</code>:
-          optional
-          item of type
-
-                
-  
-  
-    array of values <code>{0..*}</code> of type       
-  
-  
-    string
-  
-  
-
-
-  
-  
-  
-  
-  
-
-
-          
-
-  
-  
-  
-  
-  
-  
-
-
-        </li>
-        <li style="list-style-type: disclosure-closed;">
-          <code>en</code>:
-          optional
-          item of type
-
-                
-  
-  
-    array of values <code>{0..*}</code> of type       
-  
-  
-    string
-  
-  
-
-
-  
-  
-  
-  
-  
-
-
-          
-
-  
-  
-  
-  
-  
-  
-
-
-        </li>
-    </ul>
-  
-
-
-
-  
-  
-  
-  
-  
-  
-  
-  
-
-
-        </li>
-        <li style="list-style-type: disclosure-closed;">
-          <code>geografické_území</code>:
-            (<a href="#DatováSada.souvisejícíGeografickéÚzemí" label="The geographical area covered by the dataset.">geographical coverage</a>)
-          optional
-          item of type
-
-                
-  
-  
-    array of values <code>{0..*}</code> of type       
-  
-  
-    string
-  (format: <code>iri</code>)
-  
-
-
-  
-  
-  
-  
-  
-
-
-          
-
-  
-  
-  
-  
-  
-  
-
-
-        </li>
-        <li style="list-style-type: disclosure-closed;">
-          <code>prvek_rúian</code>:
-            (<a href="#DatováSada.souvisejícíGeografickéÚzemí-PrvekZRúian" label="The geographical area covered by the dataset.">geographical coverage</a>)
-          required
-          item of type
-
-                
-  
-  
-    array of values <code>{1..*}</code> of type       
-  
-  
-    string
-  (format: <code>iri</code>)
-  (by regular expression: <code>^https://linked.cuzk.cz/resource/ruian/.*$</code>)
-
-
-  
-  
-  
-  
-  
-
-
-          
-
-  
-  
-  
-  
-  
-  
-
-
-        </li>
-        <li style="list-style-type: disclosure-closed;">
-          <code>časové_pokrytí</code>:
-            (<a href="#DatováSada.časovéPokrytí" label="The temporal period that the dataset covers.">temporal coverage</a>)
-          optional
-          item of type
-
-              <a href="#json-object--datová-sada--časový-interval"></a>
-
-        </li>
-        <li style="list-style-type: disclosure-closed;">
-          <code>kontaktní_bod</code>:
-            (<a href="#DatováSada.kontaktníBod" label="Contact information that can be used for sending comments about the Dataset.">contact point</a>)
-          optional
-          item of type
-
-                
-  
-  
-  
-  
-  
-  
-  
-    
-    at least one of the following (<code>anyOf</code>):
-    <ul>
-        <li>    <a href="#json-object--datová-sada--organizace"></a>
-</li>
-        <li>    <a href="#json-object--datová-sada--jednotlivec"></a>
-</li>
-    </ul>
-
-
-
-
-
-        </li>
-        <li style="list-style-type: disclosure-closed;">
-          <code>dokumentace</code>:
-            (<a href="#DatováSada.dokumentace" label="A page or document about this Dataset.">documentation</a>)
-          optional
-          item of type
-
-                
-  
-  
-    string
-  (format: <code>iri</code>)
-  (by regular expression: <code>^https://.*$</code>)
-
-
-  
-  
-  
-  
-  
-
-
-        </li>
-        <li style="list-style-type: disclosure-closed;">
-          <code>specifikace</code>:
-            (<a href="#DatováSada.specifikace" label="An implementing rule or other specification.">conforms to</a>)
-          optional
-          item of type
-
-                
-  
-  
-    array of values <code>{0..*}</code> of type       
-  
-  
-    string
-  (format: <code>iri</code>)
-  (by regular expression: <code>^https://.*$</code>)
-
-
-  
-  
-  
-  
-  
-
-
-          
-
-  
-  
-  
-  
-  
-  
-
-
-        </li>
-        <li style="list-style-type: disclosure-closed;">
-          <code>koncept_euroVoc</code>:
-            (<a href="#DatováSada.klasifikaceDleEurovoc" label="A category of the Dataset.">theme</a>)
-          optional
-          item of type
-
-                
-  
-  
-    array of values <code>{0..*}</code> of type       
-  
-  
-    string
-  (format: <code>iri</code>)
-  (by regular expression: <code>^http://eurovoc\.europa\.eu/.*$</code>)
-
-
-  
-  
-  
-  
-  
-
-
-          
-
-  
-  
-  
-  
-  
-  
-
-
-        </li>
-        <li style="list-style-type: disclosure-closed;">
-          <code>prostorové_rozlišení_v_metrech</code>:
-            (<a href="#DatováSada.prostorovéRozlišeníVMetrech" label="Minimum spatial separation resolvable in a dataset, measured in meters.">spatial resolution</a>)
-          optional
-          item of type
-
-                
-  
-  
-    string
-  
-  (by regular expression: <code>^[+-]?([0-9]+([.][0-9]*)?|[.][0-9]+)$</code>)
-
-
-  
-  
-  
-  
-  
-
-
-        </li>
-        <li style="list-style-type: disclosure-closed;">
-          <code>časové_rozlišení</code>:
-            (<a href="#DatováSada.časovéRozlišení" label="Minimum time period resolvable in the dataset.">temporal resolution</a>)
-          optional
-          item of type
-
-                
-  
-  
-    string
-  
-  
-
-
-  
-  
-  
-  
-  
-
-
-        </li>
-        <li style="list-style-type: disclosure-closed;">
-          <code>kategorie_hvd</code>:
-            (<a href="#DatováSada.kategorieHvd" label="The HVD category to which this Dataset belongs.">HVD category</a>)
-          required
-          item of type
-
-                
-  
-  
-    array of values <code>{1..*}</code> of type       
-  
-  
-    string
-  (format: <code>iri</code>)
-  (by regular expression: <code>^http://data\.europa\.eu/bna/.*$</code>)
-
-
-  
-  
-  
-  
-  
-
-
-          
-
-  
-  
-  
-  
-  
-  
-
-
-        </li>
-        <li style="list-style-type: disclosure-closed;">
-          <code>právní_předpis</code>:
-            (<a href="#DatováSada.příslušnýPrávníPředpis" label="The legislation that mandates the creation or management of the Dataset.">applicable legislation</a>)
-          required
-          item of type
-
-                
-  
-  
-    array of values <code>{1..*}</code> of type       
-  
-  
-    string
-  (format: <code>iri</code>)
-  (by regular expression: <code>^http</code>)
-
-
-  
-  
-  
-  
-  
-
-
-          
-
-  
-  
-  
-  
-  
-  
-
-
-        </li>
-        <li style="list-style-type: disclosure-closed;">
-          <code>distribuce</code>:
-            (<a href="#DatováSada.distribuce" label="An available Distribution for the Dataset.">dataset distribution</a>)
-          required
-          item of type
-
-                
-  
-  
-    array of values <code>{1..*}</code> of type       
-  
-  
-  
-  
-  
-  
-  
-    
-    at least one of the following (<code>anyOf</code>):
-    <ul>
-        <li>    <a href="#json-object--datová-sada--distribuce---soubor-ke-stažení"></a>
-</li>
-        <li>    <a href="#json-object--datová-sada--distribuce---datová-služba"></a>
-</li>
-    </ul>
-
-
-
-
-
-          
-
-  
-  
-  
-  
-  
-  
-
-
-        </li>
-        <li style="list-style-type: disclosure-closed;">
-          <code>vstupní_stránka</code>:
-            (<a href="#DatováSada.vstupníStránka" label="A web page that provides access to the Dataset, its Distributions and/or additional information.">landing page</a>)
-          optional
-          item of type
-
-                
-  
-  
-    string
-  (format: <code>iri</code>)
-  (by regular expression: <code>^https://.*$</code>)
-
-
-  
-  
-  
-  
-  
-
-
-        </li>
-    </ul>
-  
-
-
-
-  
-  
-  
-  
-  
-  
-  
-  
-
-    </section>
-    <section id="json-object--datová-sada--distribuce---datová-služba">
-      <h2>
-        Object <i>Distribution</i>
-      </h2>
-
-      <table class="def">
-          <tr>
-            <th>Description</th>
-            <td>A specific representation of a dataset. A dataset might be available in multiple serializations that may differ in various ways, including natural language, media-type or format, schematic organization, temporal and spatial resolution, level of detail or profiles (which might specify any or all of the above).</td>
-          </tr>
-
-          <tr>
-            <th>Interpretation</th>
-            <td><a href="#DistribuceDatováSlužba">Distribution</a></td>
-          </tr>
-      </table>
-
-          <strong>
-    object
-  </strong>
-    with properties (<code>properties</code>):
-    <ul>
-        <li style="list-style-type: disclosure-closed;">
-          <code>iri</code>:
-          required
-          item of type
-
-                
-  
-  
-    string
-  (format: <code>iri</code>)
-  
-
-
-  
-  
-  
-  
-  
-
-
-        </li>
-        <li style="list-style-type: disclosure-closed;">
-          <code>typ</code>:
-          required
-          item of type
-
-                
-  
-  
-  
-  
-  
-  
-  
-        exactly one of the following (<code>oneOf</code>):
-    <ul>
-        <li>      
-    constant value
-    <code>&quot;Distribuce&quot;</code>
-
-  
-  
-  
-  
-  
-  
-  
-
-</li>
-        <li>      
-  
-  
-    array of values <code>{0..*}</code> of type       
-  
-  
-    string
-  
-  
-
-
-  
-  
-  
-  
-  
-
-
-     and must contain: <code>&quot;Distribuce&quot;</code>
-
-  
-  
-  
-  
-  
-  
-
-</li>
-    </ul>
-
-
-
-
-
-
-        </li>
-        <li style="list-style-type: disclosure-closed;">
-          <code>podmínky_užití</code>:
-            (<a href="#Distribuce.specifikacePodmínekUžití" label="Specifikace podmínek užití dle https://opendata.gov.cz/cinnost:stanoveni-podminek-uziti.">Terms of use specification</a>)
-          required
-          item of type
-
-              <a href="#json-object--datová-sada--specifikace-podmínek-užití"></a>
-
-        </li>
-        <li style="list-style-type: disclosure-closed;">
-          <code>přístupové_url</code>:
-            (<a href="#Distribuce.přístupovéUrl" label="A URL that gives access to a Distribution of the Dataset.">access URL</a>)
-          required
-          item of type
-
-                
-  
-  
-    string
-  (format: <code>iri</code>)
-  (by regular expression: <code>^https://.*$</code>)
-
-
-  
-  
-  
-  
-  
-
-
-        </li>
-        <li style="list-style-type: disclosure-closed;">
-          <code>právní_předpis</code>:
-            (<a href="#Distribuce.příslušnýPrávníPředpis" label="The legislation that mandates the creation or management of the Distribution.">applicable legislation</a>)
-          required
-          item of type
-
-                
-  
-  
-    array of values <code>{1..*}</code> of type       
-  
-  
-    string
-  (format: <code>iri</code>)
-  (by regular expression: <code>^http</code>)
-
-
-  
-  
-  
-  
-  
-
-
-          
-
-  
-  
-  
-  
-  
-  
-
-
-        </li>
-        <li style="list-style-type: disclosure-closed;">
-          <code>název</code>:
-            (<a href="#Distribuce.název" label="A name given to the distribution.">title</a>)
-          optional
-          item of type
-
-                  <strong>
-    object
-  </strong>
-    with properties (<code>properties</code>):
-    <ul>
-        <li style="list-style-type: disclosure-closed;">
-          <code>cs</code>:
-          optional
-          item of type
-
-                
-  
-  
-    string
-  
-  
-
-
-  
-  
-  
-  
-  
-
-
-        </li>
-        <li style="list-style-type: disclosure-closed;">
-          <code>en</code>:
-          optional
-          item of type
-
-                
-  
-  
-    string
-  
-  
-
-
-  
-  
-  
-  
-  
-
-
-        </li>
-    </ul>
-  
-
-
-
-  
-  
-  
-  
-  
-  
-  
-  
-
-
-        </li>
-        <li style="list-style-type: disclosure-closed;">
-          <code>přístupová_služba</code>:
-            (<a href="#Distribuce-DatováSlužba.přístupováSlužba" label="A data service that gives access to the distribution of the dataset.">access service</a>)
-          required
-          item of type
-
-              <a href="#json-object--datová-sada--datová-služba"></a>
-
-        </li>
-    </ul>
-  
-
-
-
-  
-  
-  
-  
-  
-  
-  
-  
-
-    </section>
-    <section id="json-object--datová-sada--datová-služba">
-      <h2>
-        Object <i>Data Service</i>
-      </h2>
-
-      <table class="def">
-          <tr>
-            <th>Description</th>
-            <td>A collection of operations that provides access to one or more datasets or data processing functions.</td>
-          </tr>
-
-          <tr>
-            <th>Interpretation</th>
-            <td><a href="#DatováSlužba">Data Service</a></td>
-          </tr>
-      </table>
-
-          <strong>
-    object
-  </strong>
-    with properties (<code>properties</code>):
-    <ul>
-        <li style="list-style-type: disclosure-closed;">
-          <code>iri</code>:
-          required
-          item of type
-
-                
-  
-  
-    string
-  (format: <code>iri</code>)
-  
-
-
-  
-  
-  
-  
-  
-
-
-        </li>
-        <li style="list-style-type: disclosure-closed;">
-          <code>typ</code>:
-          required
-          item of type
-
-                
-  
-  
-  
-  
-  
-  
-  
-        exactly one of the following (<code>oneOf</code>):
-    <ul>
-        <li>      
-    constant value
-    <code>&quot;Datová služba&quot;</code>
-
-  
-  
-  
-  
-  
-  
-  
-
-</li>
-        <li>      
-  
-  
-    array of values <code>{0..*}</code> of type       
-  
-  
-    string
-  
-  
-
-
-  
-  
-  
-  
-  
-
-
-     and must contain: <code>&quot;Datová služba&quot;</code>
-
-  
-  
-  
-  
-  
-  
-
-</li>
-    </ul>
-
-
-
-
-
-
-        </li>
-        <li style="list-style-type: disclosure-closed;">
-          <code>kategorie_hvd</code>:
-            (<a href="#DatováSlužba.kategorieHvd" label="The HVD category to which this Data Service belongs.">HVD category</a>)
-          required
-          item of type
-
-                
-  
-  
-    array of values <code>{1..*}</code> of type       
-  
-  
-    string
-  (format: <code>iri</code>)
-  (by regular expression: <code>^http://data\.europa\.eu/bna/.*$</code>)
-
-
-  
-  
-  
-  
-  
-
-
-          
-
-  
-  
-  
-  
-  
-  
-
-
-        </li>
-        <li style="list-style-type: disclosure-closed;">
-          <code>název</code>:
-            (<a href="#DatováSlužba.název" label="A name given to the Data Service.">title</a>)
-          required
-          item of type
-
-                  <strong>
-    object
-  </strong>
-    with properties (<code>properties</code>):
-    <ul>
-        <li style="list-style-type: disclosure-closed;">
-          <code>cs</code>:
-          optional
-          item of type
-
-                
-  
-  
-    string
-  
-  
-
-
-  
-  
-  
-  
-  
-
-
-        </li>
-        <li style="list-style-type: disclosure-closed;">
-          <code>en</code>:
-          optional
-          item of type
-
-                
-  
-  
-    string
-  
-  
-
-
-  
-  
-  
-  
-  
-
-
-        </li>
-    </ul>
-  
-
-
-
-  
-  
-  
-  
-  
-  
-  
-  
-
-
-        </li>
-        <li style="list-style-type: disclosure-closed;">
-          <code>přístupový_bod</code>:
-            (<a href="#DatováSlužba.přístupovýBodSlužby" label="The root location or primary endpoint of the service (an IRI).">endpoint URL</a>)
-          required
-          item of type
-
-                
-  
-  
-    string
-  (format: <code>iri</code>)
-  (by regular expression: <code>^https://.*$</code>)
-
-
-  
-  
-  
-  
-  
-
-
-        </li>
-        <li style="list-style-type: disclosure-closed;">
-          <code>popis_přístupového_bodu</code>:
-            (<a href="#DatováSlužba.popisPřístupovéhoBoduSlužby" label="A description of the services available via the end-points, including their operations, parameters etc.">endpoint description</a>)
-          required
-          item of type
-
-                
-  
-  
-    string
-  (format: <code>iri</code>)
-  (by regular expression: <code>^https://.*$</code>)
-
-
-  
-  
-  
-  
-  
-
-
-        </li>
-        <li style="list-style-type: disclosure-closed;">
-          <code>specifikace</code>:
-            (<a href="#DatováSlužba.specifikace" label="An established (technical) standard to which the Data Service conforms.">conforms to</a>)
-          optional
-          item of type
-
-                
-  
-  
-    array of values <code>{0..*}</code> of type       
-  
-  
-    string
-  (format: <code>iri</code>)
-  (by regular expression: <code>^https://.*$</code>)
-
-
-  
-  
-  
-  
-  
-
-
-          
-
-  
-  
-  
-  
-  
-  
-
-
-        </li>
-        <li style="list-style-type: disclosure-closed;">
-          <code>dokumentace</code>:
-            (<a href="#DatováSlužba.dokumentace" label="A page that provides additional information about the Data Service.">documentation</a>)
-          required
-          item of type
-
-                
-  
-  
-    string
-  (format: <code>iri</code>)
-  (by regular expression: <code>^https://.*$</code>)
-
-
-  
-  
-  
-  
-  
-
-
-        </li>
-        <li style="list-style-type: disclosure-closed;">
-          <code>právní_předpis</code>:
-            (<a href="#DatováSlužba.příslušnýPrávníPředpis" label="The legislation that mandates the creation or management of the Data Service.">applicable legislation</a>)
-          required
-          item of type
-
-                
-  
-  
-    array of values <code>{1..*}</code> of type       
-  
-  
-    string
-  (format: <code>iri</code>)
-  (by regular expression: <code>^http</code>)
-
-
-  
-  
-  
-  
-  
-
-
-          
-
-  
-  
-  
-  
-  
-  
-
-
-        </li>
-        <li style="list-style-type: disclosure-closed;">
-          <code>kontaktní_bod</code>:
-            (<a href="#DatováSlužba.kontaktníBod" label="Contact information that can be used for sending comments about the Data Service.">contact point</a>)
-          required
-          item of type
-
-                
-  
-  
-  
-  
-  
-  
-  
-    
-    at least one of the following (<code>anyOf</code>):
-    <ul>
-        <li>    <a href="#json-object--datová-sada--organizace"></a>
-</li>
-        <li>    <a href="#json-object--datová-sada--jednotlivec"></a>
-</li>
-    </ul>
-
-
-
-
-
-        </li>
-    </ul>
-  
-
-
-
-  
-  
-  
-  
-  
-  
-  
-  
-
-    </section>
-    <section id="json-object--datová-sada--jednotlivec">
-      <h2>
-        Object <i>Individual</i>
-      </h2>
-
-      <table class="def">
-          <tr>
-            <th>Description</th>
-            <td>An object representing a single person or entity</td>
-          </tr>
-
-          <tr>
-            <th>Interpretation</th>
-            <td><a href="#Jednotlivec">Individual</a></td>
-          </tr>
-      </table>
-
-          <strong>
-    object
-  </strong>
-    with properties (<code>properties</code>):
-    <ul>
-        <li style="list-style-type: disclosure-closed;">
-          <code>iri</code>:
-          optional
-          item of type
-
-                
-  
-  
-    string
-  (format: <code>iri</code>)
-  
-
-
-  
-  
-  
-  
-  
-
-
-        </li>
-        <li style="list-style-type: disclosure-closed;">
-          <code>typ</code>:
-          required
-          item of type
-
-                
-  
-  
-  
-  
-  
-  
-  
-        exactly one of the following (<code>oneOf</code>):
-    <ul>
-        <li>      
-    constant value
-    <code>&quot;Jednotlivec&quot;</code>
-
-  
-  
-  
-  
-  
-  
-  
-
-</li>
-        <li>      
-  
-  
-    array of values <code>{0..*}</code> of type       
-  
-  
-    string
-  
-  
-
-
-  
-  
-  
-  
-  
-
-
-     and must contain: <code>&quot;Jednotlivec&quot;</code>
-
-  
-  
-  
-  
-  
-  
-
-</li>
-    </ul>
-
-
-
-
-
-
-        </li>
-        <li style="list-style-type: disclosure-closed;">
-          <code>jméno</code>:
-            (<a href="#KontaktníBod.jméno" label="The formatted text corresponding to the name of the object">formatted name</a>)
-          optional
-          item of type
-
-                  <strong>
-    object
-  </strong>
-    with properties (<code>properties</code>):
-    <ul>
-        <li style="list-style-type: disclosure-closed;">
-          <code>cs</code>:
-          optional
-          item of type
-
-                
-  
-  
-    string
-  
-  
-
-
-  
-  
-  
-  
-  
-
-
-        </li>
-        <li style="list-style-type: disclosure-closed;">
-          <code>en</code>:
-          optional
-          item of type
-
-                
-  
-  
-    string
-  
-  
-
-
-  
-  
-  
-  
-  
-
-
-        </li>
-    </ul>
-  
-
-
-
-  
-  
-  
-  
-  
-  
-  
-  
-
-
-        </li>
-        <li style="list-style-type: disclosure-closed;">
-          <code>e-mail</code>:
-            (<a href="#KontaktníBod.email" label="A email address via which contact can be made.">has email</a>)
-          optional
-          item of type
-
-                
-  
-  
-    string
-  (format: <code>iri</code>)
-  (by regular expression: <code>^mailto:[^@]+@[^@]+</code>)
-
-
-  
-  
-  
-  
-  
-
-
-        </li>
-        <li style="list-style-type: disclosure-closed;">
-          <code>kontaktní_stránka</code>:
-            (<a href="#KontaktníBod.kontaktníStránka" label="A webpage that either allows to make contact (i.e. a webform) or the information contains how to get into contact. ">contact page</a>)
-          optional
-          item of type
-
-                
-  
-  
-    string
-  (format: <code>iri</code>)
-  (by regular expression: <code>^https://.*$</code>)
-
-
-  
-  
-  
-  
-  
-
-
-        </li>
-    </ul>
-  
-
-
-
-  
-  
-  
-  
-  
-  
-  
-  
-
-    </section>
-    <section id="json-object--datová-sada--organizace">
-      <h2>
-        Object <i>Organization</i>
-      </h2>
-
-      <table class="def">
-          <tr>
-            <th>Description</th>
-            <td>An object representing an organization.  An organization is a single entity, and might represent a business or government, a department or division within a business or government, a club, an association, or the like.
-</td>
-          </tr>
-
-          <tr>
-            <th>Interpretation</th>
-            <td><a href="#Organizace">Organization</a></td>
-          </tr>
-      </table>
-
-          <strong>
-    object
-  </strong>
-    with properties (<code>properties</code>):
-    <ul>
-        <li style="list-style-type: disclosure-closed;">
-          <code>iri</code>:
-          optional
-          item of type
-
-                
-  
-  
-    string
-  (format: <code>iri</code>)
-  
-
-
-  
-  
-  
-  
-  
-
-
-        </li>
-        <li style="list-style-type: disclosure-closed;">
-          <code>typ</code>:
-          required
-          item of type
-
-                
-  
-  
-  
-  
-  
-  
-  
-        exactly one of the following (<code>oneOf</code>):
-    <ul>
-        <li>      
-    constant value
-    <code>&quot;Organizace&quot;</code>
-
-  
-  
-  
-  
-  
-  
-  
-
-</li>
-        <li>      
-  
-  
-    array of values <code>{0..*}</code> of type       
-  
-  
-    string
-  
-  
-
-
-  
-  
-  
-  
-  
-
-
-     and must contain: <code>&quot;Organizace&quot;</code>
-
-  
-  
-  
-  
-  
-  
-
-</li>
-    </ul>
-
-
-
-
-
-
-        </li>
-        <li style="list-style-type: disclosure-closed;">
-          <code>jméno</code>:
-            (<a href="#KontaktníBod.jméno" label="The formatted text corresponding to the name of the object">formatted name</a>)
-          optional
-          item of type
-
-                  <strong>
-    object
-  </strong>
-    with properties (<code>properties</code>):
-    <ul>
-        <li style="list-style-type: disclosure-closed;">
-          <code>cs</code>:
-          optional
-          item of type
-
-                
-  
-  
-    string
-  
-  
-
-
-  
-  
-  
-  
-  
-
-
-        </li>
-        <li style="list-style-type: disclosure-closed;">
-          <code>en</code>:
-          optional
-          item of type
-
-                
-  
-  
-    string
-  
-  
-
-
-  
-  
-  
-  
-  
-
-
-        </li>
-    </ul>
-  
-
-
-
-  
-  
-  
-  
-  
-  
-  
-  
-
-
-        </li>
-        <li style="list-style-type: disclosure-closed;">
-          <code>e-mail</code>:
-            (<a href="#KontaktníBod.email" label="A email address via which contact can be made.">has email</a>)
-          optional
-          item of type
-
-                
-  
-  
-    string
-  (format: <code>iri</code>)
-  (by regular expression: <code>^mailto:[^@]+@[^@]+</code>)
-
-
-  
-  
-  
-  
-  
-
-
-        </li>
-        <li style="list-style-type: disclosure-closed;">
-          <code>kontaktní_stránka</code>:
-            (<a href="#KontaktníBod.kontaktníStránka" label="A webpage that either allows to make contact (i.e. a webform) or the information contains how to get into contact. ">contact page</a>)
-          optional
-          item of type
-
-                
-  
-  
-    string
-  (format: <code>iri</code>)
-  (by regular expression: <code>^https://.*$</code>)
-
-
-  
-  
-  
-  
-  
-
-
-        </li>
-    </ul>
-  
-
-
-
-  
-  
-  
-  
-  
-  
-  
-  
-
-    </section>
-    <section id="json-object--datová-sada--specifikace-podmínek-užití">
-      <h2>
-        Object <i>Terms of use specification</i>
-      </h2>
-
-      <table class="def">
-          <tr>
-            <th>Description</th>
-            <td>Specifikace podmínek užití dle https://opendata.gov.cz/cinnost:stanoveni-podminek-uziti.</td>
-          </tr>
-
-          <tr>
-            <th>Interpretation</th>
-            <td><a href="#SpecifikacePodmínekUžití">Terms of use specification</a></td>
-          </tr>
-      </table>
-
-          <strong>
-    object
-  </strong>
-    with properties (<code>properties</code>):
-    <ul>
-        <li style="list-style-type: disclosure-closed;">
-          <code>iri</code>:
-          optional
-          item of type
-
-                
-  
-  
-    string
-  (format: <code>iri</code>)
-  
-
-
-  
-  
-  
-  
-  
-
-
-        </li>
-        <li style="list-style-type: disclosure-closed;">
-          <code>typ</code>:
-          required
-          item of type
-
-                
-  
-  
-  
-  
-  
-  
-  
-        exactly one of the following (<code>oneOf</code>):
-    <ul>
-        <li>      
-    constant value
-    <code>&quot;Specifikace podmínek užití&quot;</code>
-
-  
-  
-  
-  
-  
-  
-  
-
-</li>
-        <li>      
-  
-  
-    array of values <code>{0..*}</code> of type       
-  
-  
-    string
-  
-  
-
-
-  
-  
-  
-  
-  
-
-
-     and must contain: <code>&quot;Specifikace podmínek užití&quot;</code>
-
-  
-  
-  
-  
-  
-  
-
-</li>
-    </ul>
-
-
-
-
-
-
-        </li>
-        <li style="list-style-type: disclosure-closed;">
-          <code>autorské_dílo</code>:
-            (<a href="#SpecifikacePodmínekUžití.autorskéDílo" label="Většina případů poskytovaných dat nebude spadat pod definici autorského díla dle § 2 autorského zákona (121/2000 Sb.), nebude se na ně proto vztahovat autorskoprávní ochrana a nebude proto pro ně potřeba jakékoli licence. „Prostá data“ nejsou chráněna právy duševního vlastnictví. Ve výjimečných případech se však může stát, že databáze bude obsahovat autorskoprávně chráněná díla. Příkladem dat obsahujících autorskoprávně chráněná díla by mohl být seznam příspěvků literární soutěže pořádané radnicí, který by byl uveřejněný včetně plnotextového znění přihlášených soutěžních děl.">Copyrighted work</a>)
-          required
-          item of type
-
-                
-  
-  
-    string
-  (format: <code>iri</code>)
-  
-
-
-  
-  
-  
-  
-  
-
-
-        </li>
-        <li style="list-style-type: disclosure-closed;">
-          <code>autor</code>:
-            (<a href="#SpecifikacePodmínekUžití.jménaAutorůDíla" label="Jména autorů díla pro použití s licencí CC BY 4.0">Names of authors</a>)
-          optional
-          item of type
-
-                  <strong>
-    object
-  </strong>
-    with properties (<code>properties</code>):
-    <ul>
-        <li style="list-style-type: disclosure-closed;">
-          <code>cs</code>:
-          optional
-          item of type
-
-                
-  
-  
-    string
-  
-  
-
-
-  
-  
-  
-  
-  
-
-
-        </li>
-        <li style="list-style-type: disclosure-closed;">
-          <code>en</code>:
-          optional
-          item of type
-
-                
-  
-  
-    string
-  
-  
-
-
-  
-  
-  
-  
-  
-
-
-        </li>
-    </ul>
-  
-
-
-
-  
-  
-  
-  
-  
-  
-  
-  
-
-
-        </li>
-        <li style="list-style-type: disclosure-closed;">
-          <code>databáze_jako_autorské_dílo</code>:
-            (<a href="#SpecifikacePodmínekUžití.originálníDatabáze" label="Tato ochrana je založena § 2 odst. 2 a 5 Autorského zákona a chráněny jsou takové databáze, které jsou „způsobem výběru nebo uspořádáním obsahu autorovým vlastním duševním výtvorem“. Chráněna je tady originální struktura, systém řazení údajů a podobně, tedy kostra, do které se samotné údaje vkládají. Takové databázi se říká „originální databáze“. Příkladem originální databáze může být obchodní rejstřík, který je však zároveň úředním dílem.">Copyrighted database</a>)
-          required
-          item of type
-
-                
-  
-  
-    string
-  (format: <code>iri</code>)
-  
-
-
-  
-  
-  
-  
-  
-
-
-        </li>
-        <li style="list-style-type: disclosure-closed;">
-          <code>autor_databáze</code>:
-            (<a href="#SpecifikacePodmínekUžití.jménaAutorůOriginálníDatabáze" label="Jména autorů originální databáze pro použití s licencí CC BY 4.0">Names of authors of database</a>)
-          optional
-          item of type
-
-                  <strong>
-    object
-  </strong>
-    with properties (<code>properties</code>):
-    <ul>
-        <li style="list-style-type: disclosure-closed;">
-          <code>cs</code>:
-          optional
-          item of type
-
-                
-  
-  
-    string
-  
-  
-
-
-  
-  
-  
-  
-  
-
-
-        </li>
-        <li style="list-style-type: disclosure-closed;">
-          <code>en</code>:
-          optional
-          item of type
-
-                
-  
-  
-    string
-  
-  
-
-
-  
-  
-  
-  
-  
-
-
-        </li>
-    </ul>
-  
-
-
-
-  
-  
-  
-  
-  
-  
-  
-  
-
-
-        </li>
-        <li style="list-style-type: disclosure-closed;">
-          <code>databáze_chráněná_zvláštními_právy</code>:
-            (<a href="#SpecifikacePodmínekUžití.zvláštníPrávoPořizovateleDatabáze" label="Tato ochrana je založena § 88 a následujícími Autorského zákona. Zvláštní databázová práva chrání investice vynaložené při zřízení databáze, ověření uvedených dat, nebo jejich publikaci. Práva vznikají, pokud pořízení, ověření nebo předvedení obsahu databáze představuje kvalitativně nebo kvantitativně podstatný vklad. Držitelem práv je pořizovatel databáze, což je osoba, která na svou odpovědnost pořídí databázi, nebo pro kterou tak z jejího podnětu učiní jiná osoba. Zvláštních databázových práv se dá plně vzdát, na rozdíl od autorských práv. Příkladem databáze chráněné zvláštními právy pořizovatele databáze je databáze právních předpisů.">Sui generis database rights</a>)
-          required
-          item of type
-
-                
-  
-  
-    string
-  (format: <code>iri</code>)
-  
-
-
-  
-  
-  
-  
-  
-
-
-        </li>
-        <li style="list-style-type: disclosure-closed;">
-          <code>osobní_údaje</code>:
-            (<a href="#SpecifikacePodmínekUžití.osobníÚdaje" label="Pokud data obsahují osobní údaje, je třeba o této skutečnosti informovat příjemce dat. Předpřipravené dokumenty mají IRI https://data.gov.cz/podmínky-užití/obsahuje-osobní-údaje/ a https://data.gov.cz/podmínky-užití/neobsahuje-osobní-údaje/.">Personal data</a>)
-          required
-          item of type
-
-                
-  
-  
-    string
-  (format: <code>iri</code>)
-  
-
-
-  
-  
-  
-  
-  
-
-
-        </li>
-    </ul>
-  
-
-
-
-  
-  
-  
-  
-  
-  
-  
-  
-
-    </section>
-    <section id="json-object--datová-sada--distribuce---soubor-ke-stažení">
-      <h2>
-        Object <i>Distribution</i>
-      </h2>
-
-      <table class="def">
-          <tr>
-            <th>Description</th>
-            <td>A specific representation of a dataset. A dataset might be available in multiple serializations that may differ in various ways, including natural language, media-type or format, schematic organization, temporal and spatial resolution, level of detail or profiles (which might specify any or all of the above).</td>
-          </tr>
-
-          <tr>
-            <th>Interpretation</th>
-            <td><a href="#DistribuceSoubor">Distribution</a></td>
-          </tr>
-      </table>
-
-          <strong>
-    object
-  </strong>
-    with properties (<code>properties</code>):
-    <ul>
-        <li style="list-style-type: disclosure-closed;">
-          <code>iri</code>:
-          required
-          item of type
-
-                
-  
-  
-    string
-  (format: <code>iri</code>)
-  
-
-
-  
-  
-  
-  
-  
-
-
-        </li>
-        <li style="list-style-type: disclosure-closed;">
-          <code>typ</code>:
-          required
-          item of type
-
-                
-  
-  
-  
-  
-  
-  
-  
-        exactly one of the following (<code>oneOf</code>):
-    <ul>
-        <li>      
-    constant value
-    <code>&quot;Distribuce&quot;</code>
-
-  
-  
-  
-  
-  
-  
-  
-
-</li>
-        <li>      
-  
-  
-    array of values <code>{0..*}</code> of type       
-  
-  
-    string
-  
-  
-
-
-  
-  
-  
-  
-  
-
-
-     and must contain: <code>&quot;Distribuce&quot;</code>
-
-  
-  
-  
-  
-  
-  
-
-</li>
-    </ul>
-
-
-
-
-
-
-        </li>
-        <li style="list-style-type: disclosure-closed;">
-          <code>podmínky_užití</code>:
-            (<a href="#Distribuce.specifikacePodmínekUžití" label="Specifikace podmínek užití dle https://opendata.gov.cz/cinnost:stanoveni-podminek-uziti.">Terms of use specification</a>)
-          required
-          item of type
-
-              <a href="#json-object--datová-sada--specifikace-podmínek-užití"></a>
-
-        </li>
-        <li style="list-style-type: disclosure-closed;">
-          <code>přístupové_url</code>:
-            (<a href="#Distribuce.přístupovéUrl" label="A URL that gives access to a Distribution of the Dataset.">access URL</a>)
-          required
-          item of type
-
-                
-  
-  
-    string
-  (format: <code>iri</code>)
-  (by regular expression: <code>^https://.*$</code>)
-
-
-  
-  
-  
-  
-  
-
-
-        </li>
-        <li style="list-style-type: disclosure-closed;">
-          <code>právní_předpis</code>:
-            (<a href="#Distribuce.příslušnýPrávníPředpis" label="The legislation that mandates the creation or management of the Distribution.">applicable legislation</a>)
-          required
-          item of type
-
-                
-  
-  
-    array of values <code>{1..*}</code> of type       
-  
-  
-    string
-  (format: <code>iri</code>)
-  (by regular expression: <code>^http</code>)
-
-
-  
-  
-  
-  
-  
-
-
-          
-
-  
-  
-  
-  
-  
-  
-
-
-        </li>
-        <li style="list-style-type: disclosure-closed;">
-          <code>název</code>:
-            (<a href="#Distribuce.název" label="A name given to the distribution.">title</a>)
-          optional
-          item of type
-
-                  <strong>
-    object
-  </strong>
-    with properties (<code>properties</code>):
-    <ul>
-        <li style="list-style-type: disclosure-closed;">
-          <code>cs</code>:
-          optional
-          item of type
-
-                
-  
-  
-    string
-  
-  
-
-
-  
-  
-  
-  
-  
-
-
-        </li>
-        <li style="list-style-type: disclosure-closed;">
-          <code>en</code>:
-          optional
-          item of type
-
-                
-  
-  
-    string
-  
-  
-
-
-  
-  
-  
-  
-  
-
-
-        </li>
-    </ul>
-  
-
-
-
-  
-  
-  
-  
-  
-  
-  
-  
-
-
-        </li>
-        <li style="list-style-type: disclosure-closed;">
-          <code>soubor_ke_stažení</code>:
-            (<a href="#Distribuce-SouborKeStažení.odkazNaStaženíSouboru" label="A URL that is a direct link to a downloadable file in a given format.">download URL</a>)
-          required
-          item of type
-
-                
-  
-  
-    string
-  (format: <code>iri</code>)
-  (by regular expression: <code>^https://.*$</code>)
-
-
-  
-  
-  
-  
-  
-
-
-        </li>
-        <li style="list-style-type: disclosure-closed;">
-          <code>formát</code>:
-            (<a href="#Distribuce-SouborKeStažení.formátSouboruKeStažení" label="The file format of the distribution.">format</a>)
-          required
-          item of type
-
-                
-  
-  
-    string
-  (format: <code>iri</code>)
-  (by regular expression: <code>^http://publications\.europa\.eu/resource/authority/file-type/.*$</code>)
-
-
-  
-  
-  
-  
-  
-
-
-        </li>
-        <li style="list-style-type: disclosure-closed;">
-          <code>typ_média</code>:
-            (<a href="#Distribuce-SouborKeStažení.typMédia" label="The media type of the distribution as defined by IANA">media type</a>)
-          required
-          item of type
-
-                
-  
-  
-    string
-  (format: <code>iri</code>)
-  (by regular expression: <code>^http://www\.iana\.org/assignments/media-types/.*$</code>)
-
-
-  
-  
-  
-  
-  
-
-
-        </li>
-        <li style="list-style-type: disclosure-closed;">
-          <code>schéma</code>:
-            (<a href="#Distribuce-SouborKeStažení.strojověČitelnéSchémaSouboruKeStažení" label="An established standard to which the distribution conforms.">linked schemas</a>)
-          optional
-          item of type
-
-                
-  
-  
-    string
-  (format: <code>iri</code>)
-  (by regular expression: <code>^https://.*$</code>)
-
-
-  
-  
-  
-  
-  
-
-
-        </li>
-        <li style="list-style-type: disclosure-closed;">
-          <code>typ_média_komprese</code>:
-            (<a href="#Distribuce-SouborKeStažení.formátKomprese" label="The format of the file in which the data is contained in a compressed form, e.g. to reduce the size of the downloadable file.">compression format</a>)
-          optional
-          item of type
-
-                
-  
-  
-    string
-  (format: <code>iri</code>)
-  (by regular expression: <code>^http://www\.iana\.org/assignments/media-types/.*$</code>)
-
-
-  
-  
-  
-  
-  
-
-
-        </li>
-        <li style="list-style-type: disclosure-closed;">
-          <code>typ_média_balíčku</code>:
-            (<a href="#Distribuce-SouborKeStažení.formátBalíčku" label="The package format of the distribution in which one or more data files are grouped together, e.g. to enable a set of related files to be downloaded together.">packaging format</a>)
-          optional
-          item of type
-
-                
-  
-  
-    string
-  (format: <code>iri</code>)
-  (by regular expression: <code>^http://www\.iana\.org/assignments/media-types/.*$</code>)
-
-
-  
-  
-  
-  
-  
-
-
-        </li>
-    </ul>
-  
-
-
-
-  
-  
-  
-  
-  
-  
-  
-  
-
-    </section>
-    <section id="json-object--datová-sada--specifikace-podmínek-užití">
-      <h2>
-        Object <i>Terms of use specification</i>
-      </h2>
-
-      <table class="def">
-          <tr>
-            <th>Description</th>
-            <td>Specifikace podmínek užití dle https://opendata.gov.cz/cinnost:stanoveni-podminek-uziti.</td>
-          </tr>
-
-          <tr>
-            <th>Interpretation</th>
-            <td><a href="#SpecifikacePodmínekUžití">Terms of use specification</a></td>
-          </tr>
-      </table>
-
-          <strong>
-    object
-  </strong>
-    with properties (<code>properties</code>):
-    <ul>
-        <li style="list-style-type: disclosure-closed;">
-          <code>iri</code>:
-          optional
-          item of type
-
-                
-  
-  
-    string
-  (format: <code>iri</code>)
-  
-
-
-  
-  
-  
-  
-  
-
-
-        </li>
-        <li style="list-style-type: disclosure-closed;">
-          <code>typ</code>:
-          required
-          item of type
-
-                
-  
-  
-  
-  
-  
-  
-  
-        exactly one of the following (<code>oneOf</code>):
-    <ul>
-        <li>      
-    constant value
-    <code>&quot;Specifikace podmínek užití&quot;</code>
-
-  
-  
-  
-  
-  
-  
-  
-
-</li>
-        <li>      
-  
-  
-    array of values <code>{0..*}</code> of type       
-  
-  
-    string
-  
-  
-
-
-  
-  
-  
-  
-  
-
-
-     and must contain: <code>&quot;Specifikace podmínek užití&quot;</code>
-
-  
-  
-  
-  
-  
-  
-
-</li>
-    </ul>
-
-
-
-
-
-
-        </li>
-        <li style="list-style-type: disclosure-closed;">
-          <code>autorské_dílo</code>:
-            (<a href="#SpecifikacePodmínekUžití.autorskéDílo" label="Většina případů poskytovaných dat nebude spadat pod definici autorského díla dle § 2 autorského zákona (121/2000 Sb.), nebude se na ně proto vztahovat autorskoprávní ochrana a nebude proto pro ně potřeba jakékoli licence. „Prostá data“ nejsou chráněna právy duševního vlastnictví. Ve výjimečných případech se však může stát, že databáze bude obsahovat autorskoprávně chráněná díla. Příkladem dat obsahujících autorskoprávně chráněná díla by mohl být seznam příspěvků literární soutěže pořádané radnicí, který by byl uveřejněný včetně plnotextového znění přihlášených soutěžních děl.">Copyrighted work</a>)
-          required
-          item of type
-
-                
-  
-  
-    string
-  (format: <code>iri</code>)
-  
-
-
-  
-  
-  
-  
-  
-
-
-        </li>
-        <li style="list-style-type: disclosure-closed;">
-          <code>autor</code>:
-            (<a href="#SpecifikacePodmínekUžití.jménaAutorůDíla" label="Jména autorů díla pro použití s licencí CC BY 4.0">Names of authors</a>)
-          optional
-          item of type
-
-                  <strong>
-    object
-  </strong>
-    with properties (<code>properties</code>):
-    <ul>
-        <li style="list-style-type: disclosure-closed;">
-          <code>cs</code>:
-          optional
-          item of type
-
-                
-  
-  
-    string
-  
-  
-
-
-  
-  
-  
-  
-  
-
-
-        </li>
-        <li style="list-style-type: disclosure-closed;">
-          <code>en</code>:
-          optional
-          item of type
-
-                
-  
-  
-    string
-  
-  
-
-
-  
-  
-  
-  
-  
-
-
-        </li>
-    </ul>
-  
-
-
-
-  
-  
-  
-  
-  
-  
-  
-  
-
-
-        </li>
-        <li style="list-style-type: disclosure-closed;">
-          <code>databáze_jako_autorské_dílo</code>:
-            (<a href="#SpecifikacePodmínekUžití.originálníDatabáze" label="Tato ochrana je založena § 2 odst. 2 a 5 Autorského zákona a chráněny jsou takové databáze, které jsou „způsobem výběru nebo uspořádáním obsahu autorovým vlastním duševním výtvorem“. Chráněna je tady originální struktura, systém řazení údajů a podobně, tedy kostra, do které se samotné údaje vkládají. Takové databázi se říká „originální databáze“. Příkladem originální databáze může být obchodní rejstřík, který je však zároveň úředním dílem.">Copyrighted database</a>)
-          required
-          item of type
-
-                
-  
-  
-    string
-  (format: <code>iri</code>)
-  
-
-
-  
-  
-  
-  
-  
-
-
-        </li>
-        <li style="list-style-type: disclosure-closed;">
-          <code>autor_databáze</code>:
-            (<a href="#SpecifikacePodmínekUžití.jménaAutorůOriginálníDatabáze" label="Jména autorů originální databáze pro použití s licencí CC BY 4.0">Names of authors of database</a>)
-          optional
-          item of type
-
-                  <strong>
-    object
-  </strong>
-    with properties (<code>properties</code>):
-    <ul>
-        <li style="list-style-type: disclosure-closed;">
-          <code>cs</code>:
-          optional
-          item of type
-
-                
-  
-  
-    string
-  
-  
-
-
-  
-  
-  
-  
-  
-
-
-        </li>
-        <li style="list-style-type: disclosure-closed;">
-          <code>en</code>:
-          optional
-          item of type
-
-                
-  
-  
-    string
-  
-  
-
-
-  
-  
-  
-  
-  
-
-
-        </li>
-    </ul>
-  
-
-
-
-  
-  
-  
-  
-  
-  
-  
-  
-
-
-        </li>
-        <li style="list-style-type: disclosure-closed;">
-          <code>databáze_chráněná_zvláštními_právy</code>:
-            (<a href="#SpecifikacePodmínekUžití.zvláštníPrávoPořizovateleDatabáze" label="Tato ochrana je založena § 88 a následujícími Autorského zákona. Zvláštní databázová práva chrání investice vynaložené při zřízení databáze, ověření uvedených dat, nebo jejich publikaci. Práva vznikají, pokud pořízení, ověření nebo předvedení obsahu databáze představuje kvalitativně nebo kvantitativně podstatný vklad. Držitelem práv je pořizovatel databáze, což je osoba, která na svou odpovědnost pořídí databázi, nebo pro kterou tak z jejího podnětu učiní jiná osoba. Zvláštních databázových práv se dá plně vzdát, na rozdíl od autorských práv. Příkladem databáze chráněné zvláštními právy pořizovatele databáze je databáze právních předpisů.">Sui generis database rights</a>)
-          required
-          item of type
-
-                
-  
-  
-    string
-  (format: <code>iri</code>)
-  
-
-
-  
-  
-  
-  
-  
-
-
-        </li>
-        <li style="list-style-type: disclosure-closed;">
-          <code>osobní_údaje</code>:
-            (<a href="#SpecifikacePodmínekUžití.osobníÚdaje" label="Pokud data obsahují osobní údaje, je třeba o této skutečnosti informovat příjemce dat. Předpřipravené dokumenty mají IRI https://data.gov.cz/podmínky-užití/obsahuje-osobní-údaje/ a https://data.gov.cz/podmínky-užití/neobsahuje-osobní-údaje/.">Personal data</a>)
-          required
-          item of type
-
-                
-  
-  
-    string
-  (format: <code>iri</code>)
-  
-
-
-  
-  
-  
-  
-  
-
-
-        </li>
-    </ul>
-  
-
-
-
-  
-  
-  
-  
-  
-  
-  
-  
-
-    </section>
-    <section id="json-object--datová-sada--jednotlivec">
-      <h2>
-        Object <i>Individual</i>
-      </h2>
-
-      <table class="def">
-          <tr>
-            <th>Description</th>
-            <td>An object representing a single person or entity</td>
-          </tr>
-
-          <tr>
-            <th>Interpretation</th>
-            <td><a href="#Jednotlivec">Individual</a></td>
-          </tr>
-      </table>
-
-          <strong>
-    object
-  </strong>
-    with properties (<code>properties</code>):
-    <ul>
-        <li style="list-style-type: disclosure-closed;">
-          <code>iri</code>:
-          optional
-          item of type
-
-                
-  
-  
-    string
-  (format: <code>iri</code>)
-  
-
-
-  
-  
-  
-  
-  
-
-
-        </li>
-        <li style="list-style-type: disclosure-closed;">
-          <code>typ</code>:
-          required
-          item of type
-
-                
-  
-  
-  
-  
-  
-  
-  
-        exactly one of the following (<code>oneOf</code>):
-    <ul>
-        <li>      
-    constant value
-    <code>&quot;Jednotlivec&quot;</code>
-
-  
-  
-  
-  
-  
-  
-  
-
-</li>
-        <li>      
-  
-  
-    array of values <code>{0..*}</code> of type       
-  
-  
-    string
-  
-  
-
-
-  
-  
-  
-  
-  
-
-
-     and must contain: <code>&quot;Jednotlivec&quot;</code>
-
-  
-  
-  
-  
-  
-  
-
-</li>
-    </ul>
-
-
-
-
-
-
-        </li>
-        <li style="list-style-type: disclosure-closed;">
-          <code>jméno</code>:
-            (<a href="#KontaktníBod.jméno" label="The formatted text corresponding to the name of the object">formatted name</a>)
-          optional
-          item of type
-
-                  <strong>
-    object
-  </strong>
-    with properties (<code>properties</code>):
-    <ul>
-        <li style="list-style-type: disclosure-closed;">
-          <code>cs</code>:
-          optional
-          item of type
-
-                
-  
-  
-    string
-  
-  
-
-
-  
-  
-  
-  
-  
-
-
-        </li>
-        <li style="list-style-type: disclosure-closed;">
-          <code>en</code>:
-          optional
-          item of type
-
-                
-  
-  
-    string
-  
-  
-
-
-  
-  
-  
-  
-  
-
-
-        </li>
-    </ul>
-  
-
-
-
-  
-  
-  
-  
-  
-  
-  
-  
-
-
-        </li>
-        <li style="list-style-type: disclosure-closed;">
-          <code>e-mail</code>:
-            (<a href="#KontaktníBod.email" label="A email address via which contact can be made.">has email</a>)
-          optional
-          item of type
-
-                
-  
-  
-    string
-  (format: <code>iri</code>)
-  (by regular expression: <code>^mailto:[^@]+@[^@]+</code>)
-
-
-  
-  
-  
-  
-  
-
-
-        </li>
-        <li style="list-style-type: disclosure-closed;">
-          <code>kontaktní_stránka</code>:
-            (<a href="#KontaktníBod.kontaktníStránka" label="A webpage that either allows to make contact (i.e. a webform) or the information contains how to get into contact. ">contact page</a>)
-          optional
-          item of type
-
-                
-  
-  
-    string
-  (format: <code>iri</code>)
-  (by regular expression: <code>^https://.*$</code>)
-
-
-  
-  
-  
-  
-  
-
-
-        </li>
-    </ul>
-  
-
-
-
-  
-  
-  
-  
-  
-  
-  
-  
-
-    </section>
-    <section id="json-object--datová-sada--organizace">
-      <h2>
-        Object <i>Organization</i>
-      </h2>
-
-      <table class="def">
-          <tr>
-            <th>Description</th>
-            <td>An object representing an organization.  An organization is a single entity, and might represent a business or government, a department or division within a business or government, a club, an association, or the like.
-</td>
-          </tr>
-
-          <tr>
-            <th>Interpretation</th>
-            <td><a href="#Organizace">Organization</a></td>
-          </tr>
-      </table>
-
-          <strong>
-    object
-  </strong>
-    with properties (<code>properties</code>):
-    <ul>
-        <li style="list-style-type: disclosure-closed;">
-          <code>iri</code>:
-          optional
-          item of type
-
-                
-  
-  
-    string
-  (format: <code>iri</code>)
-  
-
-
-  
-  
-  
-  
-  
-
-
-        </li>
-        <li style="list-style-type: disclosure-closed;">
-          <code>typ</code>:
-          required
-          item of type
-
-                
-  
-  
-  
-  
-  
-  
-  
-        exactly one of the following (<code>oneOf</code>):
-    <ul>
-        <li>      
-    constant value
-    <code>&quot;Organizace&quot;</code>
-
-  
-  
-  
-  
-  
-  
-  
-
-</li>
-        <li>      
-  
-  
-    array of values <code>{0..*}</code> of type       
-  
-  
-    string
-  
-  
-
-
-  
-  
-  
-  
-  
-
-
-     and must contain: <code>&quot;Organizace&quot;</code>
-
-  
-  
-  
-  
-  
-  
-
-</li>
-    </ul>
-
-
-
-
-
-
-        </li>
-        <li style="list-style-type: disclosure-closed;">
-          <code>jméno</code>:
-            (<a href="#KontaktníBod.jméno" label="The formatted text corresponding to the name of the object">formatted name</a>)
-          optional
-          item of type
-
-                  <strong>
-    object
-  </strong>
-    with properties (<code>properties</code>):
-    <ul>
-        <li style="list-style-type: disclosure-closed;">
-          <code>cs</code>:
-          optional
-          item of type
-
-                
-  
-  
-    string
-  
-  
-
-
-  
-  
-  
-  
-  
-
-
-        </li>
-        <li style="list-style-type: disclosure-closed;">
-          <code>en</code>:
-          optional
-          item of type
-
-                
-  
-  
-    string
-  
-  
-
-
-  
-  
-  
-  
-  
-
-
-        </li>
-    </ul>
-  
-
-
-
-  
-  
-  
-  
-  
-  
-  
-  
-
-
-        </li>
-        <li style="list-style-type: disclosure-closed;">
-          <code>e-mail</code>:
-            (<a href="#KontaktníBod.email" label="A email address via which contact can be made.">has email</a>)
-          optional
-          item of type
-
-                
-  
-  
-    string
-  (format: <code>iri</code>)
-  (by regular expression: <code>^mailto:[^@]+@[^@]+</code>)
-
-
-  
-  
-  
-  
-  
-
-
-        </li>
-        <li style="list-style-type: disclosure-closed;">
-          <code>kontaktní_stránka</code>:
-            (<a href="#KontaktníBod.kontaktníStránka" label="A webpage that either allows to make contact (i.e. a webform) or the information contains how to get into contact. ">contact page</a>)
-          optional
-          item of type
-
-                
-  
-  
-    string
-  (format: <code>iri</code>)
-  (by regular expression: <code>^https://.*$</code>)
-
-
-  
-  
-  
-  
-  
-
-
-        </li>
-    </ul>
-  
-
-
-
-  
-  
-  
-  
-  
-  
-  
-  
-
-    </section>
-    <section id="json-object--datová-sada--časový-interval">
-      <h2>
-        Object <i>Period of Time</i>
-      </h2>
-
-      <table class="def">
-          <tr>
-            <th>Description</th>
-            <td>An interval of time that is named or defined by its start and end.</td>
-          </tr>
-
-          <tr>
-            <th>Interpretation</th>
-            <td><a href="#ČasovýInterval">Period of Time</a></td>
-          </tr>
-      </table>
-
-          <strong>
-    object
-  </strong>
-    with properties (<code>properties</code>):
-    <ul>
-        <li style="list-style-type: disclosure-closed;">
-          <code>iri</code>:
-          optional
-          item of type
-
-                
-  
-  
-    string
-  (format: <code>iri</code>)
-  
-
-
-  
-  
-  
-  
-  
-
-
-        </li>
-        <li style="list-style-type: disclosure-closed;">
-          <code>typ</code>:
-          required
-          item of type
-
-                
-  
-  
-  
-  
-  
-  
-  
-        exactly one of the following (<code>oneOf</code>):
-    <ul>
-        <li>      
-    constant value
-    <code>&quot;Časový interval&quot;</code>
-
-  
-  
-  
-  
-  
-  
-  
-
-</li>
-        <li>      
-  
-  
-    array of values <code>{0..*}</code> of type       
-  
-  
-    string
-  
-  
-
-
-  
-  
-  
-  
-  
-
-
-     and must contain: <code>&quot;Časový interval&quot;</code>
-
-  
-  
-  
-  
-  
-  
-
-</li>
-    </ul>
-
-
-
-
-
-
-        </li>
-        <li style="list-style-type: disclosure-closed;">
-          <code>začátek</code>:
-            (<a href="#ČasovýInterval.datumZačátku" label="The start of the period.">start date</a>)
-          optional
-          item of type
-
-                
-  
-  
-    string
-  (format: <code>date</code>)
-  
-
-
-  
-  
-  
-  
-  
-
-
-        </li>
-        <li style="list-style-type: disclosure-closed;">
-          <code>konec</code>:
-            (<a href="#ČasovýInterval.datumKonce" label="The end of the period.">end date</a>)
-          optional
-          item of type
-
-                
-  
-  
-    string
-  (format: <code>date</code>)
-  
-
-
-  
-  
-  
-  
-  
-
-
-        </li>
-    </ul>
-  
-
-
-
-  
-  
-  
-  
-  
-  
-  
-  
-
-    </section>
-</section>
-      </section>
-      <section>
-      <h2>
-        Data structure specification for
         Dataset Series
       </h2>
       <p>Data structure for Dataset Series. A collection of datasets that are published separately, but share some characteristics that group them.</p>
@@ -4374,6 +587,7 @@
   
   
   
+  
 
 </li>
         <li>      
@@ -4392,10 +606,12 @@
   
   
   
+  
 
 
      and must contain: <code>&quot;https://ofn.gov.cz/dcat-ap-cz-hvd/2026-09-23/série-datových-sad/kontext.jsonld&quot;</code>
 
+  
   
   
   
@@ -4409,6 +625,7 @@
 
 
 
+  
 
 
         </li>
@@ -4425,6 +642,7 @@
   (by regular expression: <code>^https://.*$</code>)
 
 
+  
   
   
   
@@ -4459,6 +677,7 @@
   
   
   
+  
 
 </li>
         <li>      
@@ -4477,10 +696,12 @@
   
   
   
+  
 
 
      and must contain: <code>&quot;Série datových sad&quot;</code>
 
+  
   
   
   
@@ -4494,6 +715,7 @@
 
 
 
+  
 
 
         </li>
@@ -4526,6 +748,7 @@
   
   
   
+  
 
 
         </li>
@@ -4547,6 +770,7 @@
   
   
   
+  
 
 
         </li>
@@ -4555,6 +779,7 @@
 
 
 
+  
   
   
   
@@ -4595,6 +820,7 @@
   
   
   
+  
 
 
         </li>
@@ -4616,6 +842,7 @@
   
   
   
+  
 
 
         </li>
@@ -4624,6 +851,7 @@
 
 
 
+  
   
   
   
@@ -4654,6 +882,14 @@
   
   
   
+      <div class="examples">
+
+        <strong>Examples:</strong>
+      <ul>
+          <li><pre><code>https://rpp-opendata.egon.gov.cz/odrpp/zdroj/orgán-veřejné-moci/66003008</code></pre></li>
+      </ul>
+    </div>
+
 
 
         </li>
@@ -4679,10 +915,12 @@
   
   
   
+  
 
 
           
 
+  
   
   
   
@@ -4706,9 +944,10 @@
   
     string
   (format: <code>iri</code>)
-  (by regular expression: <code>^http://publications\.europa\.eu/resource/authority/data-theme/.*$</code>)
+  (by regular expression: <code>^http://publications\.europa\.eu/resource/authority/data-theme/.*$</code>, for example <code>http://publications.europa.eu/resource/authority/data-theme/TRAN</code>)
 
 
+  
   
   
   
@@ -4718,6 +957,7 @@
 
           
 
+  
   
   
   
@@ -4741,9 +981,10 @@
   
     string
   (format: <code>iri</code>)
-  (by regular expression: <code>^http://data\.europa\.eu/bna/.*$</code>)
+  (by regular expression: <code>^http://data\.europa\.eu/bna/.*$</code>, for example <code>http://data.europa.eu/bna/c_1e787364</code>, <code>http://data.europa.eu/bna/c_25f43866</code>)
 
 
+  
   
   
   
@@ -4753,6 +994,7 @@
 
           
 
+  
   
   
   
@@ -4773,9 +1015,10 @@
   
     string
   (format: <code>iri</code>)
-  (by regular expression: <code>^http://publications\.europa\.eu/resource/authority/frequency/.*$</code>)
+  (by regular expression: <code>^http://publications\.europa\.eu/resource/authority/frequency/.*$</code>, for example <code>http://publications.europa.eu/resource/authority/frequency/MONTHLY</code>)
 
 
+  
   
   
   
@@ -4816,10 +1059,12 @@
   
   
   
+  
 
 
           
 
+  
   
   
   
@@ -4850,10 +1095,12 @@
   
   
   
+  
 
 
           
 
+  
   
   
   
@@ -4868,6 +1115,7 @@
 
 
 
+  
   
   
   
@@ -4901,10 +1149,20 @@
   
   
   
+      <div class="examples">
+
+        <strong>Examples:</strong>
+      <ul>
+          <li><pre><code>http://publications.europa.eu/resource/authority/continent/EUROPE</code></pre></li>
+          <li><pre><code>https://sws.geonames.org/6290257/</code></pre></li>
+      </ul>
+    </div>
+
 
 
           
 
+  
   
   
   
@@ -4928,9 +1186,10 @@
   
     string
   (format: <code>iri</code>)
-  (by regular expression: <code>^https://linked.cuzk.cz/resource/ruian/.*$</code>)
+  (by regular expression: <code>^https://linked.cuzk.cz/resource/ruian/.*$</code>, for example <code>https://linked.cuzk.cz/resource/ruian/stat/1</code>, <code>https://linked.cuzk.cz/resource/ruian/vusc/108</code>, <code>https://linked.cuzk.cz/resource/ruian/obec/502235</code>)
 
 
+  
   
   
   
@@ -4940,6 +1199,7 @@
 
           
 
+  
   
   
   
@@ -4962,6 +1222,7 @@
 
           
 
+  
   
   
   
@@ -4996,6 +1257,7 @@
 
 
 
+  
 
 
         </li>
@@ -5010,9 +1272,10 @@
   
     string
   (format: <code>iri</code>)
-  (by regular expression: <code>^https://.*$</code>)
+  (by regular expression: <code>^https://.*$</code>, for example <code>https://www.mdcr.cz/Dokumenty/Verejna-doprava/Jizdni-rady,-kalendare-pro-jizdni-rady,-metodi-(1)/Jizdni-rady-verejne-dopravy</code>)
 
 
+  
   
   
   
@@ -5035,9 +1298,10 @@
   
     string
   (format: <code>iri</code>)
-  (by regular expression: <code>^http://eurovoc\.europa\.eu/.*$</code>)
+  (by regular expression: <code>^http://eurovoc\.europa\.eu/.*$</code>, for example <code>http://eurovoc.europa.eu/1001</code>)
 
 
+  
   
   
   
@@ -5047,6 +1311,7 @@
 
           
 
+  
   
   
   
@@ -5070,9 +1335,10 @@
   
     string
   (format: <code>iri</code>)
-  (by regular expression: <code>^http</code>)
+  (by regular expression: <code>^http</code>, for example <code>https://www.e-sbirka.cz/eli/cz/sb/1999/106/2025-08-19</code>, <code>https://www.e-sbirka.cz/eli/cz/sb/1999/106/2025-08-19/dokument/norma/cast_1/par_5b</code>, <code>http://data.europa.eu/eli/reg_impl/2023/138/oj</code>, <code>https://www.e-sbirka.cz/eli/cz/sb/1999/106/2025-08-19/dokument/norma/cast_1/par_3a/odst_6</code>, <code>https://www.e-sbirka.cz/eli/cz/sb/1999/106/2025-08-19/dokument/norma/cast_1/par_5a/odst_1</code>)
 
 
+  
   
   
   
@@ -5082,6 +1348,7 @@
 
           
 
+  
   
   
   
@@ -5102,9 +1369,10 @@
   
     string
   (format: <code>iri</code>)
-  (by regular expression: <code>^https://.*$</code>)
+  (by regular expression: <code>^https://.*$</code>, for example <code>https://www.mdcr.cz/Dokumenty/Verejna-doprava/Jizdni-rady,-kalendare-pro-jizdni-rady,-metodi-(1)/Jizdni-rady-verejne-dopravy</code>)
 
 
+  
   
   
   
@@ -5118,6 +1386,7 @@
 
 
 
+  
   
   
   
@@ -5168,6 +1437,7 @@
   
   
   
+  
 
 
         </li>
@@ -5197,6 +1467,7 @@
   
   
   
+  
 
 </li>
         <li>      
@@ -5215,10 +1486,12 @@
   
   
   
+  
 
 
      and must contain: <code>&quot;Jednotlivec&quot;</code>
 
+  
   
   
   
@@ -5232,6 +1505,7 @@
 
 
 
+  
 
 
         </li>
@@ -5264,6 +1538,7 @@
   
   
   
+  
 
 
         </li>
@@ -5285,6 +1560,7 @@
   
   
   
+  
 
 
         </li>
@@ -5293,6 +1569,7 @@
 
 
 
+  
   
   
   
@@ -5315,9 +1592,10 @@
   
     string
   (format: <code>iri</code>)
-  (by regular expression: <code>^mailto:[^@]+@[^@]+</code>)
+  (by regular expression: <code>^mailto:[^@]+@[^@]+</code>, for example <code>mailto:jan.novak@organizace.cz</code>)
 
 
+  
   
   
   
@@ -5337,9 +1615,10 @@
   
     string
   (format: <code>iri</code>)
-  (by regular expression: <code>^https://.*$</code>)
+  (by regular expression: <code>^https://.*$</code>, for example <code>https://www.mdcr.cz/Dokumenty/Verejna-doprava/Jizdni-rady,-kalendare-pro-jizdni-rady,-metodi-(1)/Jizdni-rady-verejne-dopravy</code>)
 
 
+  
   
   
   
@@ -5353,6 +1632,7 @@
 
 
 
+  
   
   
   
@@ -5404,6 +1684,7 @@
   
   
   
+  
 
 
         </li>
@@ -5433,6 +1714,7 @@
   
   
   
+  
 
 </li>
         <li>      
@@ -5451,10 +1733,12 @@
   
   
   
+  
 
 
      and must contain: <code>&quot;Organizace&quot;</code>
 
+  
   
   
   
@@ -5468,6 +1752,7 @@
 
 
 
+  
 
 
         </li>
@@ -5500,6 +1785,7 @@
   
   
   
+  
 
 
         </li>
@@ -5521,6 +1807,7 @@
   
   
   
+  
 
 
         </li>
@@ -5529,6 +1816,7 @@
 
 
 
+  
   
   
   
@@ -5551,9 +1839,10 @@
   
     string
   (format: <code>iri</code>)
-  (by regular expression: <code>^mailto:[^@]+@[^@]+</code>)
+  (by regular expression: <code>^mailto:[^@]+@[^@]+</code>, for example <code>mailto:jan.novak@organizace.cz</code>)
 
 
+  
   
   
   
@@ -5573,9 +1862,10 @@
   
     string
   (format: <code>iri</code>)
-  (by regular expression: <code>^https://.*$</code>)
+  (by regular expression: <code>^https://.*$</code>, for example <code>https://www.mdcr.cz/Dokumenty/Verejna-doprava/Jizdni-rady,-kalendare-pro-jizdni-rady,-metodi-(1)/Jizdni-rady-verejne-dopravy</code>)
 
 
+  
   
   
   
@@ -5589,6 +1879,7 @@
 
 
 
+  
   
   
   
@@ -5639,6 +1930,7 @@
   
   
   
+  
 
 
         </li>
@@ -5668,6 +1960,7 @@
   
   
   
+  
 
 </li>
         <li>      
@@ -5686,10 +1979,12 @@
   
   
   
+  
 
 
      and must contain: <code>&quot;Časový interval&quot;</code>
 
+  
   
   
   
@@ -5703,6 +1998,7 @@
 
 
 
+  
 
 
         </li>
@@ -5720,6 +2016,7 @@
   
 
 
+  
   
   
   
@@ -5747,6 +2044,7 @@
   
   
   
+  
 
 
         </li>
@@ -5755,6 +2053,4091 @@
 
 
 
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+    </section>
+</section>
+      </section>
+      <section>
+      <h2>
+        Data structure specification for
+        Dataset
+      </h2>
+      <p>Data structure for Dataset. A conceptual entity that represents the information published.</p>
+
+      <section id="json-schema--datová-sada">
+
+
+
+
+
+
+
+
+
+
+
+
+  <h1>
+
+      JSON structure for
+    Dataset
+  </h1>
+
+    <dl>
+      <dt>IRI</dt>
+      <dd><code>https://ofn.gov.cz/dcat-ap-cz-hvd/2026-09-23/datová-sada/schéma.json</code></dd>
+      <dt>Defined in</dt>
+      <dd><code><a href="../datová-sada/schéma.json">../datová-sada/schéma.json</a></code></dd>
+        <dt>Language version used</dt>
+        <dd><a href="https://json-schema.org/specification-links.html#2020-12-release" target="_blank">2020-12</a> (metaschema IRI: <code>https://json-schema.org/draft/2020-12/schema</code>)</dd>
+    </dl>
+
+    <h2>Root</h2>
+    The root of the JSON schema is
+        <a href="#json-object--datová-sada--datová-sada"></a>
+
+
+    <section id="json-object--datová-sada--datová-sada">
+      <h2>
+        Object <i>Dataset</i>
+      </h2>
+
+      <table class="def">
+          <tr>
+            <th>Description</th>
+            <td>A conceptual entity that represents the information published.</td>
+          </tr>
+
+          <tr>
+            <th>Interpretation</th>
+            <td><a href="#DatováSada">Dataset</a></td>
+          </tr>
+      </table>
+
+          <strong>
+    object
+  </strong>
+    with properties (<code>properties</code>):
+    <ul>
+        <li style="list-style-type: disclosure-closed;">
+          <code>@context</code>:
+          required
+          item of type
+
+                
+  
+  
+  
+  
+  
+  
+  
+        exactly one of the following (<code>oneOf</code>):
+    <ul>
+        <li>      
+    constant value
+    <code>&quot;https://ofn.gov.cz/dcat-ap-cz-hvd/2026-09-23/datová-sada/kontext.jsonld&quot;</code>
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+</li>
+        <li>      
+  
+  
+    array of values <code>{0..*}</code> of type       
+  
+  
+    string
+  (format: <code>iri</code>)
+  
+
+
+  
+  
+  
+  
+  
+  
+
+
+     and must contain: <code>&quot;https://ofn.gov.cz/dcat-ap-cz-hvd/2026-09-23/datová-sada/kontext.jsonld&quot;</code>
+
+  
+  
+  
+  
+  
+  
+  
+
+</li>
+    </ul>
+
+
+
+
+  
+
+
+        </li>
+        <li style="list-style-type: disclosure-closed;">
+          <code>iri</code>:
+          required
+          item of type
+
+                
+  
+  
+    string
+  (format: <code>iri</code>)
+  (by regular expression: <code>^https://.*$</code>)
+
+
+  
+  
+  
+  
+  
+  
+
+
+        </li>
+        <li style="list-style-type: disclosure-closed;">
+          <code>typ</code>:
+          required
+          item of type
+
+                
+  
+  
+  
+  
+  
+  
+  
+        exactly one of the following (<code>oneOf</code>):
+    <ul>
+        <li>      
+    constant value
+    <code>&quot;Datová sada&quot;</code>
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+</li>
+        <li>      
+  
+  
+    array of values <code>{0..*}</code> of type       
+  
+  
+    string
+  
+  
+
+
+  
+  
+  
+  
+  
+  
+
+
+     and must contain: <code>&quot;Datová sada&quot;</code>
+
+  
+  
+  
+  
+  
+  
+  
+
+</li>
+    </ul>
+
+
+
+
+  
+
+
+        </li>
+        <li style="list-style-type: disclosure-closed;">
+          <code>název</code>:
+            (<a href="#DatováSada.název" label="Název datové sady">title</a>)
+          required
+          item of type
+
+                  <strong>
+    object
+  </strong>
+    with properties (<code>properties</code>):
+    <ul>
+        <li style="list-style-type: disclosure-closed;">
+          <code>cs</code>:
+          optional
+          item of type
+
+                
+  
+  
+    string
+  
+  
+
+
+  
+  
+  
+  
+  
+  
+
+
+        </li>
+        <li style="list-style-type: disclosure-closed;">
+          <code>en</code>:
+          optional
+          item of type
+
+                
+  
+  
+    string
+  
+  
+
+
+  
+  
+  
+  
+  
+  
+
+
+        </li>
+    </ul>
+  
+
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+        </li>
+        <li style="list-style-type: disclosure-closed;">
+          <code>popis</code>:
+            (<a href="#DatováSada.popis" label="A free-text account of the Dataset.">description</a>)
+          required
+          item of type
+
+                  <strong>
+    object
+  </strong>
+    with properties (<code>properties</code>):
+    <ul>
+        <li style="list-style-type: disclosure-closed;">
+          <code>cs</code>:
+          optional
+          item of type
+
+                
+  
+  
+    string
+  
+  
+
+
+  
+  
+  
+  
+  
+  
+
+
+        </li>
+        <li style="list-style-type: disclosure-closed;">
+          <code>en</code>:
+          optional
+          item of type
+
+                
+  
+  
+    string
+  
+  
+
+
+  
+  
+  
+  
+  
+  
+
+
+        </li>
+    </ul>
+  
+
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+        </li>
+        <li style="list-style-type: disclosure-closed;">
+          <code>poskytovatel</code>:
+            (<a href="#DatováSada.poskytovatel" label="An entity (organisation) responsible for making the Dataset available.">publisher</a>)
+          required
+          item of type
+
+                
+  
+  
+    string
+  (format: <code>iri</code>)
+  
+
+
+  
+  
+  
+  
+  
+      <div class="examples">
+
+        <strong>Examples:</strong>
+      <ul>
+          <li><pre><code>https://rpp-opendata.egon.gov.cz/odrpp/zdroj/orgán-veřejné-moci/66003008</code></pre></li>
+      </ul>
+    </div>
+
+
+
+        </li>
+        <li style="list-style-type: disclosure-closed;">
+          <code>je_součástí</code>:
+            (<a href="#DatováSada.jeSoučástí" label="A dataset series of which the dataset is part.">in series</a>)
+          optional
+          item of type
+
+                
+  
+  
+    string
+  (format: <code>iri</code>)
+  (by regular expression: <code>^https://.*$</code>)
+
+
+  
+  
+  
+  
+  
+  
+
+
+        </li>
+        <li style="list-style-type: disclosure-closed;">
+          <code>téma</code>:
+            (<a href="#DatováSada.téma" label="A category of the Dataset.">theme</a>)
+          required
+          item of type
+
+                
+  
+  
+    array of values <code>{1..*}</code> of type       
+  
+  
+    string
+  (format: <code>iri</code>)
+  (by regular expression: <code>^http://publications\.europa\.eu/resource/authority/data-theme/.*$</code>, for example <code>http://publications.europa.eu/resource/authority/data-theme/TRAN</code>)
+
+
+  
+  
+  
+  
+  
+  
+
+
+          
+
+  
+  
+  
+  
+  
+  
+  
+
+
+        </li>
+        <li style="list-style-type: disclosure-closed;">
+          <code>periodicita_aktualizace</code>:
+            (<a href="#DatováSada.periodicitaAktualizace" label="The frequency at which the Dataset is updated.">frequency</a>)
+          required
+          item of type
+
+                
+  
+  
+    string
+  (format: <code>iri</code>)
+  (by regular expression: <code>^http://publications\.europa\.eu/resource/authority/frequency/.*$</code>, for example <code>http://publications.europa.eu/resource/authority/frequency/MONTHLY</code>)
+
+
+  
+  
+  
+  
+  
+  
+
+
+        </li>
+        <li style="list-style-type: disclosure-closed;">
+          <code>klíčové_slovo</code>:
+            (<a href="#DatováSada.klíčovéSlovo" label="A keyword or tag describing a resource.">keyword</a>)
+          required
+          item of type
+
+                  <strong>
+    object
+  </strong>
+    with properties (<code>properties</code>):
+    <ul>
+        <li style="list-style-type: disclosure-closed;">
+          <code>cs</code>:
+          optional
+          item of type
+
+                
+  
+  
+    array of values <code>{0..*}</code> of type       
+  
+  
+    string
+  
+  
+
+
+  
+  
+  
+  
+  
+  
+
+
+          
+
+  
+  
+  
+  
+  
+  
+  
+
+
+        </li>
+        <li style="list-style-type: disclosure-closed;">
+          <code>en</code>:
+          optional
+          item of type
+
+                
+  
+  
+    array of values <code>{0..*}</code> of type       
+  
+  
+    string
+  
+  
+
+
+  
+  
+  
+  
+  
+  
+
+
+          
+
+  
+  
+  
+  
+  
+  
+  
+
+
+        </li>
+    </ul>
+  
+
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+        </li>
+        <li style="list-style-type: disclosure-closed;">
+          <code>geografické_území</code>:
+            (<a href="#DatováSada.souvisejícíGeografickéÚzemí" label="The geographical area covered by the dataset.">geographical coverage</a>)
+          optional
+          item of type
+
+                
+  
+  
+    array of values <code>{0..*}</code> of type       
+  
+  
+    string
+  (format: <code>iri</code>)
+  
+
+
+  
+  
+  
+  
+  
+      <div class="examples">
+
+        <strong>Examples:</strong>
+      <ul>
+          <li><pre><code>http://publications.europa.eu/resource/authority/continent/EUROPE</code></pre></li>
+          <li><pre><code>https://sws.geonames.org/6290257/</code></pre></li>
+      </ul>
+    </div>
+
+
+
+          
+
+  
+  
+  
+  
+  
+  
+  
+
+
+        </li>
+        <li style="list-style-type: disclosure-closed;">
+          <code>prvek_rúian</code>:
+            (<a href="#DatováSada.souvisejícíGeografickéÚzemí-PrvekZRúian" label="The geographical area covered by the dataset.">geographical coverage</a>)
+          required
+          item of type
+
+                
+  
+  
+    array of values <code>{1..*}</code> of type       
+  
+  
+    string
+  (format: <code>iri</code>)
+  (by regular expression: <code>^https://linked.cuzk.cz/resource/ruian/.*$</code>, for example <code>https://linked.cuzk.cz/resource/ruian/stat/1</code>, <code>https://linked.cuzk.cz/resource/ruian/vusc/108</code>, <code>https://linked.cuzk.cz/resource/ruian/obec/502235</code>)
+
+
+  
+  
+  
+  
+  
+  
+
+
+          
+
+  
+  
+  
+  
+  
+  
+  
+
+
+        </li>
+        <li style="list-style-type: disclosure-closed;">
+          <code>časové_pokrytí</code>:
+            (<a href="#DatováSada.časovéPokrytí" label="The temporal period that the dataset covers.">temporal coverage</a>)
+          optional
+          item of type
+
+              <a href="#json-object--datová-sada--časový-interval"></a>
+
+        </li>
+        <li style="list-style-type: disclosure-closed;">
+          <code>kontaktní_bod</code>:
+            (<a href="#DatováSada.kontaktníBod" label="Contact information that can be used for sending comments about the Dataset.">contact point</a>)
+          optional
+          item of type
+
+                
+  
+  
+  
+  
+  
+  
+  
+    
+    at least one of the following (<code>anyOf</code>):
+    <ul>
+        <li>    <a href="#json-object--datová-sada--organizace"></a>
+</li>
+        <li>    <a href="#json-object--datová-sada--jednotlivec"></a>
+</li>
+    </ul>
+
+
+
+  
+
+
+        </li>
+        <li style="list-style-type: disclosure-closed;">
+          <code>dokumentace</code>:
+            (<a href="#DatováSada.dokumentace" label="A page or document about this Dataset.">documentation</a>)
+          optional
+          item of type
+
+                
+  
+  
+    string
+  (format: <code>iri</code>)
+  (by regular expression: <code>^https://.*$</code>, for example <code>https://www.mdcr.cz/Dokumenty/Verejna-doprava/Jizdni-rady,-kalendare-pro-jizdni-rady,-metodi-(1)/Jizdni-rady-verejne-dopravy</code>)
+
+
+  
+  
+  
+  
+  
+  
+
+
+        </li>
+        <li style="list-style-type: disclosure-closed;">
+          <code>specifikace</code>:
+            (<a href="#DatováSada.specifikace" label="An implementing rule or other specification.">conforms to</a>)
+          optional
+          item of type
+
+                
+  
+  
+    array of values <code>{0..*}</code> of type       
+  
+  
+    string
+  (format: <code>iri</code>)
+  (by regular expression: <code>^https://.*$</code>, for example <code>https://ofn.gov.cz/turistické-cíle/2020-07-01/</code>)
+
+
+  
+  
+  
+  
+  
+  
+
+
+          
+
+  
+  
+  
+  
+  
+  
+  
+
+
+        </li>
+        <li style="list-style-type: disclosure-closed;">
+          <code>koncept_euroVoc</code>:
+            (<a href="#DatováSada.klasifikaceDleEurovoc" label="A category of the Dataset.">theme</a>)
+          optional
+          item of type
+
+                
+  
+  
+    array of values <code>{0..*}</code> of type       
+  
+  
+    string
+  (format: <code>iri</code>)
+  (by regular expression: <code>^http://eurovoc\.europa\.eu/.*$</code>, for example <code>http://eurovoc.europa.eu/1001</code>)
+
+
+  
+  
+  
+  
+  
+  
+
+
+          
+
+  
+  
+  
+  
+  
+  
+  
+
+
+        </li>
+        <li style="list-style-type: disclosure-closed;">
+          <code>prostorové_rozlišení_v_metrech</code>:
+            (<a href="#DatováSada.prostorovéRozlišeníVMetrech" label="Minimum spatial separation resolvable in a dataset, measured in meters.">spatial resolution</a>)
+          optional
+          item of type
+
+                
+  
+  
+    string
+  
+  (by regular expression: <code>^[+-]?([0-9]+([.][0-9]*)?|[.][0-9]+)$</code>)
+
+
+  
+  
+  
+  
+  
+  
+
+
+        </li>
+        <li style="list-style-type: disclosure-closed;">
+          <code>časové_rozlišení</code>:
+            (<a href="#DatováSada.časovéRozlišení" label="Minimum time period resolvable in the dataset.">temporal resolution</a>)
+          optional
+          item of type
+
+                
+  
+  
+    string
+  
+  
+
+
+  
+  
+  
+  
+  
+  
+
+
+        </li>
+        <li style="list-style-type: disclosure-closed;">
+          <code>kategorie_hvd</code>:
+            (<a href="#DatováSada.kategorieHvd" label="The HVD category to which this Dataset belongs.">HVD category</a>)
+          required
+          item of type
+
+                
+  
+  
+    array of values <code>{1..*}</code> of type       
+  
+  
+    string
+  (format: <code>iri</code>)
+  (by regular expression: <code>^http://data\.europa\.eu/bna/.*$</code>, for example <code>http://data.europa.eu/bna/c_1e787364</code>, <code>http://data.europa.eu/bna/c_25f43866</code>)
+
+
+  
+  
+  
+  
+  
+  
+
+
+          
+
+  
+  
+  
+  
+  
+  
+  
+
+
+        </li>
+        <li style="list-style-type: disclosure-closed;">
+          <code>právní_předpis</code>:
+            (<a href="#DatováSada.příslušnýPrávníPředpis" label="The legislation that mandates the creation or management of the Dataset.">applicable legislation</a>)
+          required
+          item of type
+
+                
+  
+  
+    array of values <code>{1..*}</code> of type       
+  
+  
+    string
+  (format: <code>iri</code>)
+  (by regular expression: <code>^http</code>, for example <code>https://www.e-sbirka.cz/eli/cz/sb/1999/106/2025-08-19</code>, <code>https://www.e-sbirka.cz/eli/cz/sb/1999/106/2025-08-19/dokument/norma/cast_1/par_5b</code>, <code>http://data.europa.eu/eli/reg_impl/2023/138/oj</code>, <code>https://www.e-sbirka.cz/eli/cz/sb/1999/106/2025-08-19/dokument/norma/cast_1/par_3a/odst_6</code>, <code>https://www.e-sbirka.cz/eli/cz/sb/1999/106/2025-08-19/dokument/norma/cast_1/par_5a/odst_1</code>)
+
+
+  
+  
+  
+  
+  
+  
+
+
+          
+
+  
+  
+  
+  
+  
+  
+  
+
+
+        </li>
+        <li style="list-style-type: disclosure-closed;">
+          <code>distribuce</code>:
+            (<a href="#DatováSada.distribuce" label="An available Distribution for the Dataset.">dataset distribution</a>)
+          required
+          item of type
+
+                
+  
+  
+    array of values <code>{1..*}</code> of type       
+  
+  
+  
+  
+  
+  
+  
+    
+    at least one of the following (<code>anyOf</code>):
+    <ul>
+        <li>    <a href="#json-object--datová-sada--distribuce---soubor-ke-stažení"></a>
+</li>
+        <li>    <a href="#json-object--datová-sada--distribuce---datová-služba"></a>
+</li>
+    </ul>
+
+
+
+  
+
+
+          
+
+  
+  
+  
+  
+  
+  
+  
+
+
+        </li>
+        <li style="list-style-type: disclosure-closed;">
+          <code>vstupní_stránka</code>:
+            (<a href="#DatováSada.vstupníStránka" label="A web page that provides access to the Dataset, its Distributions and/or additional information.">landing page</a>)
+          optional
+          item of type
+
+                
+  
+  
+    string
+  (format: <code>iri</code>)
+  (by regular expression: <code>^https://.*$</code>, for example <code>https://www.mdcr.cz/Dokumenty/Verejna-doprava/Jizdni-rady,-kalendare-pro-jizdni-rady,-metodi-(1)/Jizdni-rady-verejne-dopravy</code>)
+
+
+  
+  
+  
+  
+  
+  
+
+
+        </li>
+    </ul>
+  
+
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+    </section>
+    <section id="json-object--datová-sada--distribuce---datová-služba">
+      <h2>
+        Object <i>Distribution</i>
+      </h2>
+
+      <table class="def">
+          <tr>
+            <th>Description</th>
+            <td>A specific representation of a dataset. A dataset might be available in multiple serializations that may differ in various ways, including natural language, media-type or format, schematic organization, temporal and spatial resolution, level of detail or profiles (which might specify any or all of the above).</td>
+          </tr>
+
+          <tr>
+            <th>Interpretation</th>
+            <td><a href="#DistribuceDatováSlužba">Distribution</a></td>
+          </tr>
+      </table>
+
+          <strong>
+    object
+  </strong>
+    with properties (<code>properties</code>):
+    <ul>
+        <li style="list-style-type: disclosure-closed;">
+          <code>iri</code>:
+          required
+          item of type
+
+                
+  
+  
+    string
+  (format: <code>iri</code>)
+  
+
+
+  
+  
+  
+  
+  
+  
+
+
+        </li>
+        <li style="list-style-type: disclosure-closed;">
+          <code>typ</code>:
+          required
+          item of type
+
+                
+  
+  
+  
+  
+  
+  
+  
+        exactly one of the following (<code>oneOf</code>):
+    <ul>
+        <li>      
+    constant value
+    <code>&quot;Distribuce&quot;</code>
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+</li>
+        <li>      
+  
+  
+    array of values <code>{0..*}</code> of type       
+  
+  
+    string
+  
+  
+
+
+  
+  
+  
+  
+  
+  
+
+
+     and must contain: <code>&quot;Distribuce&quot;</code>
+
+  
+  
+  
+  
+  
+  
+  
+
+</li>
+    </ul>
+
+
+
+
+  
+
+
+        </li>
+        <li style="list-style-type: disclosure-closed;">
+          <code>podmínky_užití</code>:
+            (<a href="#Distribuce.specifikacePodmínekUžití" label="Specifikace podmínek užití dle https://opendata.gov.cz/cinnost:stanoveni-podminek-uziti.">Terms of use specification</a>)
+          required
+          item of type
+
+              <a href="#json-object--datová-sada--specifikace-podmínek-užití"></a>
+
+        </li>
+        <li style="list-style-type: disclosure-closed;">
+          <code>přístupové_url</code>:
+            (<a href="#Distribuce.přístupovéUrl" label="A URL that gives access to a Distribution of the Dataset.">access URL</a>)
+          required
+          item of type
+
+                
+  
+  
+    string
+  (format: <code>iri</code>)
+  (by regular expression: <code>^https://.*$</code>, for example <code>https://www.trebic.cz/zdroj/aktualita/2020/dopadení-lupiče-na-francouzské-ulici</code>)
+
+
+  
+  
+  
+  
+  
+  
+
+
+        </li>
+        <li style="list-style-type: disclosure-closed;">
+          <code>právní_předpis</code>:
+            (<a href="#Distribuce.příslušnýPrávníPředpis" label="The legislation that mandates the creation or management of the Distribution.">applicable legislation</a>)
+          required
+          item of type
+
+                
+  
+  
+    array of values <code>{1..*}</code> of type       
+  
+  
+    string
+  (format: <code>iri</code>)
+  (by regular expression: <code>^http</code>, for example <code>https://www.e-sbirka.cz/eli/cz/sb/1999/106/2025-08-19</code>, <code>https://www.e-sbirka.cz/eli/cz/sb/1999/106/2025-08-19/dokument/norma/cast_1/par_5b</code>, <code>http://data.europa.eu/eli/reg_impl/2023/138/oj</code>, <code>https://www.e-sbirka.cz/eli/cz/sb/1999/106/2025-08-19/dokument/norma/cast_1/par_3a/odst_6</code>, <code>https://www.e-sbirka.cz/eli/cz/sb/1999/106/2025-08-19/dokument/norma/cast_1/par_5a/odst_1</code>)
+
+
+  
+  
+  
+  
+  
+  
+
+
+          
+
+  
+  
+  
+  
+  
+  
+  
+
+
+        </li>
+        <li style="list-style-type: disclosure-closed;">
+          <code>název</code>:
+            (<a href="#Distribuce.název" label="A name given to the distribution.">title</a>)
+          optional
+          item of type
+
+                  <strong>
+    object
+  </strong>
+    with properties (<code>properties</code>):
+    <ul>
+        <li style="list-style-type: disclosure-closed;">
+          <code>cs</code>:
+          optional
+          item of type
+
+                
+  
+  
+    string
+  
+  
+
+
+  
+  
+  
+  
+  
+  
+
+
+        </li>
+        <li style="list-style-type: disclosure-closed;">
+          <code>en</code>:
+          optional
+          item of type
+
+                
+  
+  
+    string
+  
+  
+
+
+  
+  
+  
+  
+  
+  
+
+
+        </li>
+    </ul>
+  
+
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+        </li>
+        <li style="list-style-type: disclosure-closed;">
+          <code>přístupová_služba</code>:
+            (<a href="#Distribuce-DatováSlužba.přístupováSlužba" label="A data service that gives access to the distribution of the dataset.">access service</a>)
+          required
+          item of type
+
+              <a href="#json-object--datová-sada--datová-služba"></a>
+
+        </li>
+    </ul>
+  
+
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+    </section>
+    <section id="json-object--datová-sada--datová-služba">
+      <h2>
+        Object <i>Data Service</i>
+      </h2>
+
+      <table class="def">
+          <tr>
+            <th>Description</th>
+            <td>A collection of operations that provides access to one or more datasets or data processing functions.</td>
+          </tr>
+
+          <tr>
+            <th>Interpretation</th>
+            <td><a href="#DatováSlužba">Data Service</a></td>
+          </tr>
+      </table>
+
+          <strong>
+    object
+  </strong>
+    with properties (<code>properties</code>):
+    <ul>
+        <li style="list-style-type: disclosure-closed;">
+          <code>iri</code>:
+          required
+          item of type
+
+                
+  
+  
+    string
+  (format: <code>iri</code>)
+  
+
+
+  
+  
+  
+  
+  
+  
+
+
+        </li>
+        <li style="list-style-type: disclosure-closed;">
+          <code>typ</code>:
+          required
+          item of type
+
+                
+  
+  
+  
+  
+  
+  
+  
+        exactly one of the following (<code>oneOf</code>):
+    <ul>
+        <li>      
+    constant value
+    <code>&quot;Datová služba&quot;</code>
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+</li>
+        <li>      
+  
+  
+    array of values <code>{0..*}</code> of type       
+  
+  
+    string
+  
+  
+
+
+  
+  
+  
+  
+  
+  
+
+
+     and must contain: <code>&quot;Datová služba&quot;</code>
+
+  
+  
+  
+  
+  
+  
+  
+
+</li>
+    </ul>
+
+
+
+
+  
+
+
+        </li>
+        <li style="list-style-type: disclosure-closed;">
+          <code>kategorie_hvd</code>:
+            (<a href="#DatováSlužba.kategorieHvd" label="The HVD category to which this Data Service belongs.">HVD category</a>)
+          required
+          item of type
+
+                
+  
+  
+    array of values <code>{1..*}</code> of type       
+  
+  
+    string
+  (format: <code>iri</code>)
+  (by regular expression: <code>^http://data\.europa\.eu/bna/.*$</code>, for example <code>http://data.europa.eu/bna/c_1e787364</code>, <code>http://data.europa.eu/bna/c_25f43866</code>)
+
+
+  
+  
+  
+  
+  
+  
+
+
+          
+
+  
+  
+  
+  
+  
+  
+  
+
+
+        </li>
+        <li style="list-style-type: disclosure-closed;">
+          <code>název</code>:
+            (<a href="#DatováSlužba.název" label="A name given to the Data Service.">title</a>)
+          required
+          item of type
+
+                  <strong>
+    object
+  </strong>
+    with properties (<code>properties</code>):
+    <ul>
+        <li style="list-style-type: disclosure-closed;">
+          <code>cs</code>:
+          optional
+          item of type
+
+                
+  
+  
+    string
+  
+  
+
+
+  
+  
+  
+  
+  
+  
+
+
+        </li>
+        <li style="list-style-type: disclosure-closed;">
+          <code>en</code>:
+          optional
+          item of type
+
+                
+  
+  
+    string
+  
+  
+
+
+  
+  
+  
+  
+  
+  
+
+
+        </li>
+    </ul>
+  
+
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+        </li>
+        <li style="list-style-type: disclosure-closed;">
+          <code>přístupový_bod</code>:
+            (<a href="#DatováSlužba.přístupovýBodSlužby" label="The root location or primary endpoint of the service (an IRI).">endpoint URL</a>)
+          required
+          item of type
+
+                
+  
+  
+    string
+  (format: <code>iri</code>)
+  (by regular expression: <code>^https://.*$</code>, for example <code>https://www.trebic.cz/zdroj/aktualita/2020/dopadení-lupiče-na-francouzské-ulici</code>)
+
+
+  
+  
+  
+  
+  
+  
+
+
+        </li>
+        <li style="list-style-type: disclosure-closed;">
+          <code>popis_přístupového_bodu</code>:
+            (<a href="#DatováSlužba.popisPřístupovéhoBoduSlužby" label="A description of the services available via the end-points, including their operations, parameters etc.">endpoint description</a>)
+          required
+          item of type
+
+                
+  
+  
+    string
+  (format: <code>iri</code>)
+  (by regular expression: <code>^https://.*$</code>, for example <code>https://www.trebic.cz/zdroj/aktualita/2020/dopadení-lupiče-na-francouzské-ulici</code>)
+
+
+  
+  
+  
+  
+  
+  
+
+
+        </li>
+        <li style="list-style-type: disclosure-closed;">
+          <code>specifikace</code>:
+            (<a href="#DatováSlužba.specifikace" label="An established (technical) standard to which the Data Service conforms.">conforms to</a>)
+          optional
+          item of type
+
+                
+  
+  
+    array of values <code>{0..*}</code> of type       
+  
+  
+    string
+  (format: <code>iri</code>)
+  (by regular expression: <code>^https://.*$</code>, for example <code>https://ofn.gov.cz/turistické-cíle/2020-07-01/</code>)
+
+
+  
+  
+  
+  
+  
+  
+
+
+          
+
+  
+  
+  
+  
+  
+  
+  
+
+
+        </li>
+        <li style="list-style-type: disclosure-closed;">
+          <code>dokumentace</code>:
+            (<a href="#DatováSlužba.dokumentace" label="A page that provides additional information about the Data Service.">documentation</a>)
+          required
+          item of type
+
+                
+  
+  
+    string
+  (format: <code>iri</code>)
+  (by regular expression: <code>^https://.*$</code>, for example <code>https://www.mdcr.cz/Dokumenty/Verejna-doprava/Jizdni-rady,-kalendare-pro-jizdni-rady,-metodi-(1)/Jizdni-rady-verejne-dopravy</code>)
+
+
+  
+  
+  
+  
+  
+  
+
+
+        </li>
+        <li style="list-style-type: disclosure-closed;">
+          <code>právní_předpis</code>:
+            (<a href="#DatováSlužba.příslušnýPrávníPředpis" label="The legislation that mandates the creation or management of the Data Service.">applicable legislation</a>)
+          required
+          item of type
+
+                
+  
+  
+    array of values <code>{1..*}</code> of type       
+  
+  
+    string
+  (format: <code>iri</code>)
+  (by regular expression: <code>^http</code>, for example <code>https://www.e-sbirka.cz/eli/cz/sb/1999/106/2025-08-19</code>, <code>https://www.e-sbirka.cz/eli/cz/sb/1999/106/2025-08-19/dokument/norma/cast_1/par_5b</code>, <code>http://data.europa.eu/eli/reg_impl/2023/138/oj</code>, <code>https://www.e-sbirka.cz/eli/cz/sb/1999/106/2025-08-19/dokument/norma/cast_1/par_3a/odst_6</code>, <code>https://www.e-sbirka.cz/eli/cz/sb/1999/106/2025-08-19/dokument/norma/cast_1/par_5a/odst_1</code>)
+
+
+  
+  
+  
+  
+  
+  
+
+
+          
+
+  
+  
+  
+  
+  
+  
+  
+
+
+        </li>
+        <li style="list-style-type: disclosure-closed;">
+          <code>kontaktní_bod</code>:
+            (<a href="#DatováSlužba.kontaktníBod" label="Contact information that can be used for sending comments about the Data Service.">contact point</a>)
+          required
+          item of type
+
+                
+  
+  
+  
+  
+  
+  
+  
+    
+    at least one of the following (<code>anyOf</code>):
+    <ul>
+        <li>    <a href="#json-object--datová-sada--organizace"></a>
+</li>
+        <li>    <a href="#json-object--datová-sada--jednotlivec"></a>
+</li>
+    </ul>
+
+
+
+  
+
+
+        </li>
+    </ul>
+  
+
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+    </section>
+    <section id="json-object--datová-sada--jednotlivec">
+      <h2>
+        Object <i>Individual</i>
+      </h2>
+
+      <table class="def">
+          <tr>
+            <th>Description</th>
+            <td>An object representing a single person or entity</td>
+          </tr>
+
+          <tr>
+            <th>Interpretation</th>
+            <td><a href="#Jednotlivec">Individual</a></td>
+          </tr>
+      </table>
+
+          <strong>
+    object
+  </strong>
+    with properties (<code>properties</code>):
+    <ul>
+        <li style="list-style-type: disclosure-closed;">
+          <code>iri</code>:
+          optional
+          item of type
+
+                
+  
+  
+    string
+  (format: <code>iri</code>)
+  
+
+
+  
+  
+  
+  
+  
+  
+
+
+        </li>
+        <li style="list-style-type: disclosure-closed;">
+          <code>typ</code>:
+          required
+          item of type
+
+                
+  
+  
+  
+  
+  
+  
+  
+        exactly one of the following (<code>oneOf</code>):
+    <ul>
+        <li>      
+    constant value
+    <code>&quot;Jednotlivec&quot;</code>
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+</li>
+        <li>      
+  
+  
+    array of values <code>{0..*}</code> of type       
+  
+  
+    string
+  
+  
+
+
+  
+  
+  
+  
+  
+  
+
+
+     and must contain: <code>&quot;Jednotlivec&quot;</code>
+
+  
+  
+  
+  
+  
+  
+  
+
+</li>
+    </ul>
+
+
+
+
+  
+
+
+        </li>
+        <li style="list-style-type: disclosure-closed;">
+          <code>jméno</code>:
+            (<a href="#KontaktníBod.jméno" label="The formatted text corresponding to the name of the object">formatted name</a>)
+          optional
+          item of type
+
+                  <strong>
+    object
+  </strong>
+    with properties (<code>properties</code>):
+    <ul>
+        <li style="list-style-type: disclosure-closed;">
+          <code>cs</code>:
+          optional
+          item of type
+
+                
+  
+  
+    string
+  
+  
+
+
+  
+  
+  
+  
+  
+  
+
+
+        </li>
+        <li style="list-style-type: disclosure-closed;">
+          <code>en</code>:
+          optional
+          item of type
+
+                
+  
+  
+    string
+  
+  
+
+
+  
+  
+  
+  
+  
+  
+
+
+        </li>
+    </ul>
+  
+
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+        </li>
+        <li style="list-style-type: disclosure-closed;">
+          <code>e-mail</code>:
+            (<a href="#KontaktníBod.email" label="A email address via which contact can be made.">has email</a>)
+          optional
+          item of type
+
+                
+  
+  
+    string
+  (format: <code>iri</code>)
+  (by regular expression: <code>^mailto:[^@]+@[^@]+</code>, for example <code>mailto:jan.novak@organizace.cz</code>)
+
+
+  
+  
+  
+  
+  
+  
+
+
+        </li>
+        <li style="list-style-type: disclosure-closed;">
+          <code>kontaktní_stránka</code>:
+            (<a href="#KontaktníBod.kontaktníStránka" label="A webpage that either allows to make contact (i.e. a webform) or the information contains how to get into contact. ">contact page</a>)
+          optional
+          item of type
+
+                
+  
+  
+    string
+  (format: <code>iri</code>)
+  (by regular expression: <code>^https://.*$</code>, for example <code>https://www.mdcr.cz/Dokumenty/Verejna-doprava/Jizdni-rady,-kalendare-pro-jizdni-rady,-metodi-(1)/Jizdni-rady-verejne-dopravy</code>)
+
+
+  
+  
+  
+  
+  
+  
+
+
+        </li>
+    </ul>
+  
+
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+    </section>
+    <section id="json-object--datová-sada--organizace">
+      <h2>
+        Object <i>Organization</i>
+      </h2>
+
+      <table class="def">
+          <tr>
+            <th>Description</th>
+            <td>An object representing an organization.  An organization is a single entity, and might represent a business or government, a department or division within a business or government, a club, an association, or the like.
+</td>
+          </tr>
+
+          <tr>
+            <th>Interpretation</th>
+            <td><a href="#Organizace">Organization</a></td>
+          </tr>
+      </table>
+
+          <strong>
+    object
+  </strong>
+    with properties (<code>properties</code>):
+    <ul>
+        <li style="list-style-type: disclosure-closed;">
+          <code>iri</code>:
+          optional
+          item of type
+
+                
+  
+  
+    string
+  (format: <code>iri</code>)
+  
+
+
+  
+  
+  
+  
+  
+  
+
+
+        </li>
+        <li style="list-style-type: disclosure-closed;">
+          <code>typ</code>:
+          required
+          item of type
+
+                
+  
+  
+  
+  
+  
+  
+  
+        exactly one of the following (<code>oneOf</code>):
+    <ul>
+        <li>      
+    constant value
+    <code>&quot;Organizace&quot;</code>
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+</li>
+        <li>      
+  
+  
+    array of values <code>{0..*}</code> of type       
+  
+  
+    string
+  
+  
+
+
+  
+  
+  
+  
+  
+  
+
+
+     and must contain: <code>&quot;Organizace&quot;</code>
+
+  
+  
+  
+  
+  
+  
+  
+
+</li>
+    </ul>
+
+
+
+
+  
+
+
+        </li>
+        <li style="list-style-type: disclosure-closed;">
+          <code>jméno</code>:
+            (<a href="#KontaktníBod.jméno" label="The formatted text corresponding to the name of the object">formatted name</a>)
+          optional
+          item of type
+
+                  <strong>
+    object
+  </strong>
+    with properties (<code>properties</code>):
+    <ul>
+        <li style="list-style-type: disclosure-closed;">
+          <code>cs</code>:
+          optional
+          item of type
+
+                
+  
+  
+    string
+  
+  
+
+
+  
+  
+  
+  
+  
+  
+
+
+        </li>
+        <li style="list-style-type: disclosure-closed;">
+          <code>en</code>:
+          optional
+          item of type
+
+                
+  
+  
+    string
+  
+  
+
+
+  
+  
+  
+  
+  
+  
+
+
+        </li>
+    </ul>
+  
+
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+        </li>
+        <li style="list-style-type: disclosure-closed;">
+          <code>e-mail</code>:
+            (<a href="#KontaktníBod.email" label="A email address via which contact can be made.">has email</a>)
+          optional
+          item of type
+
+                
+  
+  
+    string
+  (format: <code>iri</code>)
+  (by regular expression: <code>^mailto:[^@]+@[^@]+</code>, for example <code>mailto:jan.novak@organizace.cz</code>)
+
+
+  
+  
+  
+  
+  
+  
+
+
+        </li>
+        <li style="list-style-type: disclosure-closed;">
+          <code>kontaktní_stránka</code>:
+            (<a href="#KontaktníBod.kontaktníStránka" label="A webpage that either allows to make contact (i.e. a webform) or the information contains how to get into contact. ">contact page</a>)
+          optional
+          item of type
+
+                
+  
+  
+    string
+  (format: <code>iri</code>)
+  (by regular expression: <code>^https://.*$</code>, for example <code>https://www.mdcr.cz/Dokumenty/Verejna-doprava/Jizdni-rady,-kalendare-pro-jizdni-rady,-metodi-(1)/Jizdni-rady-verejne-dopravy</code>)
+
+
+  
+  
+  
+  
+  
+  
+
+
+        </li>
+    </ul>
+  
+
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+    </section>
+    <section id="json-object--datová-sada--specifikace-podmínek-užití">
+      <h2>
+        Object <i>Terms of use specification</i>
+      </h2>
+
+      <table class="def">
+          <tr>
+            <th>Description</th>
+            <td>Specifikace podmínek užití dle https://opendata.gov.cz/cinnost:stanoveni-podminek-uziti.</td>
+          </tr>
+
+          <tr>
+            <th>Interpretation</th>
+            <td><a href="#SpecifikacePodmínekUžití">Terms of use specification</a></td>
+          </tr>
+      </table>
+
+          <strong>
+    object
+  </strong>
+    with properties (<code>properties</code>):
+    <ul>
+        <li style="list-style-type: disclosure-closed;">
+          <code>iri</code>:
+          optional
+          item of type
+
+                
+  
+  
+    string
+  (format: <code>iri</code>)
+  
+
+
+  
+  
+  
+  
+  
+  
+
+
+        </li>
+        <li style="list-style-type: disclosure-closed;">
+          <code>typ</code>:
+          required
+          item of type
+
+                
+  
+  
+  
+  
+  
+  
+  
+        exactly one of the following (<code>oneOf</code>):
+    <ul>
+        <li>      
+    constant value
+    <code>&quot;Specifikace podmínek užití&quot;</code>
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+</li>
+        <li>      
+  
+  
+    array of values <code>{0..*}</code> of type       
+  
+  
+    string
+  
+  
+
+
+  
+  
+  
+  
+  
+  
+
+
+     and must contain: <code>&quot;Specifikace podmínek užití&quot;</code>
+
+  
+  
+  
+  
+  
+  
+  
+
+</li>
+    </ul>
+
+
+
+
+  
+
+
+        </li>
+        <li style="list-style-type: disclosure-closed;">
+          <code>autorské_dílo</code>:
+            (<a href="#SpecifikacePodmínekUžití.autorskéDílo" label="Většina případů poskytovaných dat nebude spadat pod definici autorského díla dle § 2 autorského zákona (121/2000 Sb.), nebude se na ně proto vztahovat autorskoprávní ochrana a nebude proto pro ně potřeba jakékoli licence. „Prostá data“ nejsou chráněna právy duševního vlastnictví. Ve výjimečných případech se však může stát, že databáze bude obsahovat autorskoprávně chráněná díla. Příkladem dat obsahujících autorskoprávně chráněná díla by mohl být seznam příspěvků literární soutěže pořádané radnicí, který by byl uveřejněný včetně plnotextového znění přihlášených soutěžních děl.">Copyrighted work</a>)
+          required
+          item of type
+
+                
+  
+  
+    string
+  (format: <code>iri</code>)
+  
+
+
+  
+  
+  
+  
+  
+      <div class="examples">
+
+        <strong>Examples:</strong>
+      <ul>
+          <li><pre><code>https://data.gov.cz/podmínky-užití/neobsahuje-autorská-díla/</code></pre></li>
+          <li><pre><code>https://data.gov.cz/podmínky-užití/není-autorskoprávně-chráněnou-databází/</code></pre></li>
+          <li><pre><code>https://data.gov.cz/podmínky-užití/není-chráněna-zvláštním-právem-pořizovatele-databáze/</code></pre></li>
+          <li><pre><code>https://creativecommons.org/licenses/by/4.0/</code></pre></li>
+          <li><pre><code>https://creativecommons.org/publicdomain/zero/1.0/</code></pre></li>
+          <li><pre><code>https://data.gov.cz/podmínky-užití/neobsahuje-osobní-údaje/</code></pre></li>
+          <li><pre><code>https://data.gov.cz/podmínky-užití/obsahuje-osobní-údaje/</code></pre></li>
+      </ul>
+    </div>
+
+
+
+        </li>
+        <li style="list-style-type: disclosure-closed;">
+          <code>autor</code>:
+            (<a href="#SpecifikacePodmínekUžití.jménaAutorůDíla" label="Jména autorů díla pro použití s licencí CC BY 4.0">Names of authors</a>)
+          optional
+          item of type
+
+                  <strong>
+    object
+  </strong>
+    with properties (<code>properties</code>):
+    <ul>
+        <li style="list-style-type: disclosure-closed;">
+          <code>cs</code>:
+          optional
+          item of type
+
+                
+  
+  
+    string
+  
+  
+
+
+  
+  
+  
+  
+  
+  
+
+
+        </li>
+        <li style="list-style-type: disclosure-closed;">
+          <code>en</code>:
+          optional
+          item of type
+
+                
+  
+  
+    string
+  
+  
+
+
+  
+  
+  
+  
+  
+  
+
+
+        </li>
+    </ul>
+  
+
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+        </li>
+        <li style="list-style-type: disclosure-closed;">
+          <code>databáze_jako_autorské_dílo</code>:
+            (<a href="#SpecifikacePodmínekUžití.originálníDatabáze" label="Tato ochrana je založena § 2 odst. 2 a 5 Autorského zákona a chráněny jsou takové databáze, které jsou „způsobem výběru nebo uspořádáním obsahu autorovým vlastním duševním výtvorem“. Chráněna je tady originální struktura, systém řazení údajů a podobně, tedy kostra, do které se samotné údaje vkládají. Takové databázi se říká „originální databáze“. Příkladem originální databáze může být obchodní rejstřík, který je však zároveň úředním dílem.">Copyrighted database</a>)
+          required
+          item of type
+
+                
+  
+  
+    string
+  (format: <code>iri</code>)
+  
+
+
+  
+  
+  
+  
+  
+      <div class="examples">
+
+        <strong>Examples:</strong>
+      <ul>
+          <li><pre><code>https://data.gov.cz/podmínky-užití/neobsahuje-autorská-díla/</code></pre></li>
+          <li><pre><code>https://data.gov.cz/podmínky-užití/není-autorskoprávně-chráněnou-databází/</code></pre></li>
+          <li><pre><code>https://data.gov.cz/podmínky-užití/není-chráněna-zvláštním-právem-pořizovatele-databáze/</code></pre></li>
+          <li><pre><code>https://creativecommons.org/licenses/by/4.0/</code></pre></li>
+          <li><pre><code>https://creativecommons.org/publicdomain/zero/1.0/</code></pre></li>
+          <li><pre><code>https://data.gov.cz/podmínky-užití/neobsahuje-osobní-údaje/</code></pre></li>
+          <li><pre><code>https://data.gov.cz/podmínky-užití/obsahuje-osobní-údaje/</code></pre></li>
+      </ul>
+    </div>
+
+
+
+        </li>
+        <li style="list-style-type: disclosure-closed;">
+          <code>autor_databáze</code>:
+            (<a href="#SpecifikacePodmínekUžití.jménaAutorůOriginálníDatabáze" label="Jména autorů originální databáze pro použití s licencí CC BY 4.0">Names of authors of database</a>)
+          optional
+          item of type
+
+                  <strong>
+    object
+  </strong>
+    with properties (<code>properties</code>):
+    <ul>
+        <li style="list-style-type: disclosure-closed;">
+          <code>cs</code>:
+          optional
+          item of type
+
+                
+  
+  
+    string
+  
+  
+
+
+  
+  
+  
+  
+  
+  
+
+
+        </li>
+        <li style="list-style-type: disclosure-closed;">
+          <code>en</code>:
+          optional
+          item of type
+
+                
+  
+  
+    string
+  
+  
+
+
+  
+  
+  
+  
+  
+  
+
+
+        </li>
+    </ul>
+  
+
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+        </li>
+        <li style="list-style-type: disclosure-closed;">
+          <code>databáze_chráněná_zvláštními_právy</code>:
+            (<a href="#SpecifikacePodmínekUžití.zvláštníPrávoPořizovateleDatabáze" label="Tato ochrana je založena § 88 a následujícími Autorského zákona. Zvláštní databázová práva chrání investice vynaložené při zřízení databáze, ověření uvedených dat, nebo jejich publikaci. Práva vznikají, pokud pořízení, ověření nebo předvedení obsahu databáze představuje kvalitativně nebo kvantitativně podstatný vklad. Držitelem práv je pořizovatel databáze, což je osoba, která na svou odpovědnost pořídí databázi, nebo pro kterou tak z jejího podnětu učiní jiná osoba. Zvláštních databázových práv se dá plně vzdát, na rozdíl od autorských práv. Příkladem databáze chráněné zvláštními právy pořizovatele databáze je databáze právních předpisů.">Sui generis database rights</a>)
+          required
+          item of type
+
+                
+  
+  
+    string
+  (format: <code>iri</code>)
+  
+
+
+  
+  
+  
+  
+  
+      <div class="examples">
+
+        <strong>Examples:</strong>
+      <ul>
+          <li><pre><code>https://data.gov.cz/podmínky-užití/neobsahuje-autorská-díla/</code></pre></li>
+          <li><pre><code>https://data.gov.cz/podmínky-užití/není-autorskoprávně-chráněnou-databází/</code></pre></li>
+          <li><pre><code>https://data.gov.cz/podmínky-užití/není-chráněna-zvláštním-právem-pořizovatele-databáze/</code></pre></li>
+          <li><pre><code>https://creativecommons.org/licenses/by/4.0/</code></pre></li>
+          <li><pre><code>https://creativecommons.org/publicdomain/zero/1.0/</code></pre></li>
+          <li><pre><code>https://data.gov.cz/podmínky-užití/neobsahuje-osobní-údaje/</code></pre></li>
+          <li><pre><code>https://data.gov.cz/podmínky-užití/obsahuje-osobní-údaje/</code></pre></li>
+      </ul>
+    </div>
+
+
+
+        </li>
+        <li style="list-style-type: disclosure-closed;">
+          <code>osobní_údaje</code>:
+            (<a href="#SpecifikacePodmínekUžití.osobníÚdaje" label="Pokud data obsahují osobní údaje, je třeba o této skutečnosti informovat příjemce dat. Předpřipravené dokumenty mají IRI https://data.gov.cz/podmínky-užití/obsahuje-osobní-údaje/ a https://data.gov.cz/podmínky-užití/neobsahuje-osobní-údaje/.">Personal data</a>)
+          required
+          item of type
+
+                
+  
+  
+    string
+  (format: <code>iri</code>)
+  
+
+
+  
+  
+  
+  
+  
+      <div class="examples">
+
+        <strong>Examples:</strong>
+      <ul>
+          <li><pre><code>https://data.gov.cz/podmínky-užití/neobsahuje-autorská-díla/</code></pre></li>
+          <li><pre><code>https://data.gov.cz/podmínky-užití/není-autorskoprávně-chráněnou-databází/</code></pre></li>
+          <li><pre><code>https://data.gov.cz/podmínky-užití/není-chráněna-zvláštním-právem-pořizovatele-databáze/</code></pre></li>
+          <li><pre><code>https://creativecommons.org/licenses/by/4.0/</code></pre></li>
+          <li><pre><code>https://creativecommons.org/publicdomain/zero/1.0/</code></pre></li>
+          <li><pre><code>https://data.gov.cz/podmínky-užití/neobsahuje-osobní-údaje/</code></pre></li>
+          <li><pre><code>https://data.gov.cz/podmínky-užití/obsahuje-osobní-údaje/</code></pre></li>
+      </ul>
+    </div>
+
+
+
+        </li>
+    </ul>
+  
+
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+    </section>
+    <section id="json-object--datová-sada--distribuce---soubor-ke-stažení">
+      <h2>
+        Object <i>Distribution</i>
+      </h2>
+
+      <table class="def">
+          <tr>
+            <th>Description</th>
+            <td>A specific representation of a dataset. A dataset might be available in multiple serializations that may differ in various ways, including natural language, media-type or format, schematic organization, temporal and spatial resolution, level of detail or profiles (which might specify any or all of the above).</td>
+          </tr>
+
+          <tr>
+            <th>Interpretation</th>
+            <td><a href="#DistribuceSoubor">Distribution</a></td>
+          </tr>
+      </table>
+
+          <strong>
+    object
+  </strong>
+    with properties (<code>properties</code>):
+    <ul>
+        <li style="list-style-type: disclosure-closed;">
+          <code>iri</code>:
+          required
+          item of type
+
+                
+  
+  
+    string
+  (format: <code>iri</code>)
+  
+
+
+  
+  
+  
+  
+  
+  
+
+
+        </li>
+        <li style="list-style-type: disclosure-closed;">
+          <code>typ</code>:
+          required
+          item of type
+
+                
+  
+  
+  
+  
+  
+  
+  
+        exactly one of the following (<code>oneOf</code>):
+    <ul>
+        <li>      
+    constant value
+    <code>&quot;Distribuce&quot;</code>
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+</li>
+        <li>      
+  
+  
+    array of values <code>{0..*}</code> of type       
+  
+  
+    string
+  
+  
+
+
+  
+  
+  
+  
+  
+  
+
+
+     and must contain: <code>&quot;Distribuce&quot;</code>
+
+  
+  
+  
+  
+  
+  
+  
+
+</li>
+    </ul>
+
+
+
+
+  
+
+
+        </li>
+        <li style="list-style-type: disclosure-closed;">
+          <code>podmínky_užití</code>:
+            (<a href="#Distribuce.specifikacePodmínekUžití" label="Specifikace podmínek užití dle https://opendata.gov.cz/cinnost:stanoveni-podminek-uziti.">Terms of use specification</a>)
+          required
+          item of type
+
+              <a href="#json-object--datová-sada--specifikace-podmínek-užití"></a>
+
+        </li>
+        <li style="list-style-type: disclosure-closed;">
+          <code>přístupové_url</code>:
+            (<a href="#Distribuce.přístupovéUrl" label="A URL that gives access to a Distribution of the Dataset.">access URL</a>)
+          required
+          item of type
+
+                
+  
+  
+    string
+  (format: <code>iri</code>)
+  (by regular expression: <code>^https://.*$</code>, for example <code>https://www.trebic.cz/zdroj/aktualita/2020/dopadení-lupiče-na-francouzské-ulici</code>)
+
+
+  
+  
+  
+  
+  
+  
+
+
+        </li>
+        <li style="list-style-type: disclosure-closed;">
+          <code>právní_předpis</code>:
+            (<a href="#Distribuce.příslušnýPrávníPředpis" label="The legislation that mandates the creation or management of the Distribution.">applicable legislation</a>)
+          required
+          item of type
+
+                
+  
+  
+    array of values <code>{1..*}</code> of type       
+  
+  
+    string
+  (format: <code>iri</code>)
+  (by regular expression: <code>^http</code>, for example <code>https://www.e-sbirka.cz/eli/cz/sb/1999/106/2025-08-19</code>, <code>https://www.e-sbirka.cz/eli/cz/sb/1999/106/2025-08-19/dokument/norma/cast_1/par_5b</code>, <code>http://data.europa.eu/eli/reg_impl/2023/138/oj</code>, <code>https://www.e-sbirka.cz/eli/cz/sb/1999/106/2025-08-19/dokument/norma/cast_1/par_3a/odst_6</code>, <code>https://www.e-sbirka.cz/eli/cz/sb/1999/106/2025-08-19/dokument/norma/cast_1/par_5a/odst_1</code>)
+
+
+  
+  
+  
+  
+  
+  
+
+
+          
+
+  
+  
+  
+  
+  
+  
+  
+
+
+        </li>
+        <li style="list-style-type: disclosure-closed;">
+          <code>název</code>:
+            (<a href="#Distribuce.název" label="A name given to the distribution.">title</a>)
+          optional
+          item of type
+
+                  <strong>
+    object
+  </strong>
+    with properties (<code>properties</code>):
+    <ul>
+        <li style="list-style-type: disclosure-closed;">
+          <code>cs</code>:
+          optional
+          item of type
+
+                
+  
+  
+    string
+  
+  
+
+
+  
+  
+  
+  
+  
+  
+
+
+        </li>
+        <li style="list-style-type: disclosure-closed;">
+          <code>en</code>:
+          optional
+          item of type
+
+                
+  
+  
+    string
+  
+  
+
+
+  
+  
+  
+  
+  
+  
+
+
+        </li>
+    </ul>
+  
+
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+        </li>
+        <li style="list-style-type: disclosure-closed;">
+          <code>soubor_ke_stažení</code>:
+            (<a href="#Distribuce-SouborKeStažení.odkazNaStaženíSouboru" label="A URL that is a direct link to a downloadable file in a given format.">download URL</a>)
+          required
+          item of type
+
+                
+  
+  
+    string
+  (format: <code>iri</code>)
+  (by regular expression: <code>^https://.*$</code>, for example <code>https://www.trebic.cz/zdroj/aktualita/2020/dopadení-lupiče-na-francouzské-ulici</code>)
+
+
+  
+  
+  
+  
+  
+  
+
+
+        </li>
+        <li style="list-style-type: disclosure-closed;">
+          <code>formát</code>:
+            (<a href="#Distribuce-SouborKeStažení.formátSouboruKeStažení" label="The file format of the distribution.">format</a>)
+          required
+          item of type
+
+                
+  
+  
+    string
+  (format: <code>iri</code>)
+  (by regular expression: <code>^http://publications\.europa\.eu/resource/authority/file-type/.*$</code>, for example <code>http://publications.europa.eu/resource/authority/file-type/CSV</code>)
+
+
+  
+  
+  
+  
+  
+  
+
+
+        </li>
+        <li style="list-style-type: disclosure-closed;">
+          <code>typ_média</code>:
+            (<a href="#Distribuce-SouborKeStažení.typMédia" label="The media type of the distribution as defined by IANA">media type</a>)
+          required
+          item of type
+
+                
+  
+  
+    string
+  (format: <code>iri</code>)
+  (by regular expression: <code>^http://www\.iana\.org/assignments/media-types/.*$</code>, for example <code>http://www.iana.org/assignments/media-types/image/tiff</code>)
+
+
+  
+  
+  
+  
+  
+  
+
+
+        </li>
+        <li style="list-style-type: disclosure-closed;">
+          <code>schéma</code>:
+            (<a href="#Distribuce-SouborKeStažení.strojověČitelnéSchémaSouboruKeStažení" label="An established standard to which the distribution conforms.">linked schemas</a>)
+          optional
+          item of type
+
+                
+  
+  
+    string
+  (format: <code>iri</code>)
+  (by regular expression: <code>^https://.*$</code>, for example <code>https://www.trebic.cz/zdroj/aktualita/2020/dopadení-lupiče-na-francouzské-ulici</code>)
+
+
+  
+  
+  
+  
+  
+  
+
+
+        </li>
+        <li style="list-style-type: disclosure-closed;">
+          <code>typ_média_komprese</code>:
+            (<a href="#Distribuce-SouborKeStažení.formátKomprese" label="The format of the file in which the data is contained in a compressed form, e.g. to reduce the size of the downloadable file.">compression format</a>)
+          optional
+          item of type
+
+                
+  
+  
+    string
+  (format: <code>iri</code>)
+  (by regular expression: <code>^http://www\.iana\.org/assignments/media-types/.*$</code>, for example <code>http://www.iana.org/assignments/media-types/image/tiff</code>)
+
+
+  
+  
+  
+  
+  
+  
+
+
+        </li>
+        <li style="list-style-type: disclosure-closed;">
+          <code>typ_média_balíčku</code>:
+            (<a href="#Distribuce-SouborKeStažení.formátBalíčku" label="The package format of the distribution in which one or more data files are grouped together, e.g. to enable a set of related files to be downloaded together.">packaging format</a>)
+          optional
+          item of type
+
+                
+  
+  
+    string
+  (format: <code>iri</code>)
+  (by regular expression: <code>^http://www\.iana\.org/assignments/media-types/.*$</code>, for example <code>http://www.iana.org/assignments/media-types/image/tiff</code>)
+
+
+  
+  
+  
+  
+  
+  
+
+
+        </li>
+    </ul>
+  
+
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+    </section>
+    <section id="json-object--datová-sada--specifikace-podmínek-užití">
+      <h2>
+        Object <i>Terms of use specification</i>
+      </h2>
+
+      <table class="def">
+          <tr>
+            <th>Description</th>
+            <td>Specifikace podmínek užití dle https://opendata.gov.cz/cinnost:stanoveni-podminek-uziti.</td>
+          </tr>
+
+          <tr>
+            <th>Interpretation</th>
+            <td><a href="#SpecifikacePodmínekUžití">Terms of use specification</a></td>
+          </tr>
+      </table>
+
+          <strong>
+    object
+  </strong>
+    with properties (<code>properties</code>):
+    <ul>
+        <li style="list-style-type: disclosure-closed;">
+          <code>iri</code>:
+          optional
+          item of type
+
+                
+  
+  
+    string
+  (format: <code>iri</code>)
+  
+
+
+  
+  
+  
+  
+  
+  
+
+
+        </li>
+        <li style="list-style-type: disclosure-closed;">
+          <code>typ</code>:
+          required
+          item of type
+
+                
+  
+  
+  
+  
+  
+  
+  
+        exactly one of the following (<code>oneOf</code>):
+    <ul>
+        <li>      
+    constant value
+    <code>&quot;Specifikace podmínek užití&quot;</code>
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+</li>
+        <li>      
+  
+  
+    array of values <code>{0..*}</code> of type       
+  
+  
+    string
+  
+  
+
+
+  
+  
+  
+  
+  
+  
+
+
+     and must contain: <code>&quot;Specifikace podmínek užití&quot;</code>
+
+  
+  
+  
+  
+  
+  
+  
+
+</li>
+    </ul>
+
+
+
+
+  
+
+
+        </li>
+        <li style="list-style-type: disclosure-closed;">
+          <code>autorské_dílo</code>:
+            (<a href="#SpecifikacePodmínekUžití.autorskéDílo" label="Většina případů poskytovaných dat nebude spadat pod definici autorského díla dle § 2 autorského zákona (121/2000 Sb.), nebude se na ně proto vztahovat autorskoprávní ochrana a nebude proto pro ně potřeba jakékoli licence. „Prostá data“ nejsou chráněna právy duševního vlastnictví. Ve výjimečných případech se však může stát, že databáze bude obsahovat autorskoprávně chráněná díla. Příkladem dat obsahujících autorskoprávně chráněná díla by mohl být seznam příspěvků literární soutěže pořádané radnicí, který by byl uveřejněný včetně plnotextového znění přihlášených soutěžních děl.">Copyrighted work</a>)
+          required
+          item of type
+
+                
+  
+  
+    string
+  (format: <code>iri</code>)
+  
+
+
+  
+  
+  
+  
+  
+      <div class="examples">
+
+        <strong>Examples:</strong>
+      <ul>
+          <li><pre><code>https://data.gov.cz/podmínky-užití/neobsahuje-autorská-díla/</code></pre></li>
+          <li><pre><code>https://data.gov.cz/podmínky-užití/není-autorskoprávně-chráněnou-databází/</code></pre></li>
+          <li><pre><code>https://data.gov.cz/podmínky-užití/není-chráněna-zvláštním-právem-pořizovatele-databáze/</code></pre></li>
+          <li><pre><code>https://creativecommons.org/licenses/by/4.0/</code></pre></li>
+          <li><pre><code>https://creativecommons.org/publicdomain/zero/1.0/</code></pre></li>
+          <li><pre><code>https://data.gov.cz/podmínky-užití/neobsahuje-osobní-údaje/</code></pre></li>
+          <li><pre><code>https://data.gov.cz/podmínky-užití/obsahuje-osobní-údaje/</code></pre></li>
+      </ul>
+    </div>
+
+
+
+        </li>
+        <li style="list-style-type: disclosure-closed;">
+          <code>autor</code>:
+            (<a href="#SpecifikacePodmínekUžití.jménaAutorůDíla" label="Jména autorů díla pro použití s licencí CC BY 4.0">Names of authors</a>)
+          optional
+          item of type
+
+                  <strong>
+    object
+  </strong>
+    with properties (<code>properties</code>):
+    <ul>
+        <li style="list-style-type: disclosure-closed;">
+          <code>cs</code>:
+          optional
+          item of type
+
+                
+  
+  
+    string
+  
+  
+
+
+  
+  
+  
+  
+  
+  
+
+
+        </li>
+        <li style="list-style-type: disclosure-closed;">
+          <code>en</code>:
+          optional
+          item of type
+
+                
+  
+  
+    string
+  
+  
+
+
+  
+  
+  
+  
+  
+  
+
+
+        </li>
+    </ul>
+  
+
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+        </li>
+        <li style="list-style-type: disclosure-closed;">
+          <code>databáze_jako_autorské_dílo</code>:
+            (<a href="#SpecifikacePodmínekUžití.originálníDatabáze" label="Tato ochrana je založena § 2 odst. 2 a 5 Autorského zákona a chráněny jsou takové databáze, které jsou „způsobem výběru nebo uspořádáním obsahu autorovým vlastním duševním výtvorem“. Chráněna je tady originální struktura, systém řazení údajů a podobně, tedy kostra, do které se samotné údaje vkládají. Takové databázi se říká „originální databáze“. Příkladem originální databáze může být obchodní rejstřík, který je však zároveň úředním dílem.">Copyrighted database</a>)
+          required
+          item of type
+
+                
+  
+  
+    string
+  (format: <code>iri</code>)
+  
+
+
+  
+  
+  
+  
+  
+      <div class="examples">
+
+        <strong>Examples:</strong>
+      <ul>
+          <li><pre><code>https://data.gov.cz/podmínky-užití/neobsahuje-autorská-díla/</code></pre></li>
+          <li><pre><code>https://data.gov.cz/podmínky-užití/není-autorskoprávně-chráněnou-databází/</code></pre></li>
+          <li><pre><code>https://data.gov.cz/podmínky-užití/není-chráněna-zvláštním-právem-pořizovatele-databáze/</code></pre></li>
+          <li><pre><code>https://creativecommons.org/licenses/by/4.0/</code></pre></li>
+          <li><pre><code>https://creativecommons.org/publicdomain/zero/1.0/</code></pre></li>
+          <li><pre><code>https://data.gov.cz/podmínky-užití/neobsahuje-osobní-údaje/</code></pre></li>
+          <li><pre><code>https://data.gov.cz/podmínky-užití/obsahuje-osobní-údaje/</code></pre></li>
+      </ul>
+    </div>
+
+
+
+        </li>
+        <li style="list-style-type: disclosure-closed;">
+          <code>autor_databáze</code>:
+            (<a href="#SpecifikacePodmínekUžití.jménaAutorůOriginálníDatabáze" label="Jména autorů originální databáze pro použití s licencí CC BY 4.0">Names of authors of database</a>)
+          optional
+          item of type
+
+                  <strong>
+    object
+  </strong>
+    with properties (<code>properties</code>):
+    <ul>
+        <li style="list-style-type: disclosure-closed;">
+          <code>cs</code>:
+          optional
+          item of type
+
+                
+  
+  
+    string
+  
+  
+
+
+  
+  
+  
+  
+  
+  
+
+
+        </li>
+        <li style="list-style-type: disclosure-closed;">
+          <code>en</code>:
+          optional
+          item of type
+
+                
+  
+  
+    string
+  
+  
+
+
+  
+  
+  
+  
+  
+  
+
+
+        </li>
+    </ul>
+  
+
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+        </li>
+        <li style="list-style-type: disclosure-closed;">
+          <code>databáze_chráněná_zvláštními_právy</code>:
+            (<a href="#SpecifikacePodmínekUžití.zvláštníPrávoPořizovateleDatabáze" label="Tato ochrana je založena § 88 a následujícími Autorského zákona. Zvláštní databázová práva chrání investice vynaložené při zřízení databáze, ověření uvedených dat, nebo jejich publikaci. Práva vznikají, pokud pořízení, ověření nebo předvedení obsahu databáze představuje kvalitativně nebo kvantitativně podstatný vklad. Držitelem práv je pořizovatel databáze, což je osoba, která na svou odpovědnost pořídí databázi, nebo pro kterou tak z jejího podnětu učiní jiná osoba. Zvláštních databázových práv se dá plně vzdát, na rozdíl od autorských práv. Příkladem databáze chráněné zvláštními právy pořizovatele databáze je databáze právních předpisů.">Sui generis database rights</a>)
+          required
+          item of type
+
+                
+  
+  
+    string
+  (format: <code>iri</code>)
+  
+
+
+  
+  
+  
+  
+  
+      <div class="examples">
+
+        <strong>Examples:</strong>
+      <ul>
+          <li><pre><code>https://data.gov.cz/podmínky-užití/neobsahuje-autorská-díla/</code></pre></li>
+          <li><pre><code>https://data.gov.cz/podmínky-užití/není-autorskoprávně-chráněnou-databází/</code></pre></li>
+          <li><pre><code>https://data.gov.cz/podmínky-užití/není-chráněna-zvláštním-právem-pořizovatele-databáze/</code></pre></li>
+          <li><pre><code>https://creativecommons.org/licenses/by/4.0/</code></pre></li>
+          <li><pre><code>https://creativecommons.org/publicdomain/zero/1.0/</code></pre></li>
+          <li><pre><code>https://data.gov.cz/podmínky-užití/neobsahuje-osobní-údaje/</code></pre></li>
+          <li><pre><code>https://data.gov.cz/podmínky-užití/obsahuje-osobní-údaje/</code></pre></li>
+      </ul>
+    </div>
+
+
+
+        </li>
+        <li style="list-style-type: disclosure-closed;">
+          <code>osobní_údaje</code>:
+            (<a href="#SpecifikacePodmínekUžití.osobníÚdaje" label="Pokud data obsahují osobní údaje, je třeba o této skutečnosti informovat příjemce dat. Předpřipravené dokumenty mají IRI https://data.gov.cz/podmínky-užití/obsahuje-osobní-údaje/ a https://data.gov.cz/podmínky-užití/neobsahuje-osobní-údaje/.">Personal data</a>)
+          required
+          item of type
+
+                
+  
+  
+    string
+  (format: <code>iri</code>)
+  
+
+
+  
+  
+  
+  
+  
+      <div class="examples">
+
+        <strong>Examples:</strong>
+      <ul>
+          <li><pre><code>https://data.gov.cz/podmínky-užití/neobsahuje-autorská-díla/</code></pre></li>
+          <li><pre><code>https://data.gov.cz/podmínky-užití/není-autorskoprávně-chráněnou-databází/</code></pre></li>
+          <li><pre><code>https://data.gov.cz/podmínky-užití/není-chráněna-zvláštním-právem-pořizovatele-databáze/</code></pre></li>
+          <li><pre><code>https://creativecommons.org/licenses/by/4.0/</code></pre></li>
+          <li><pre><code>https://creativecommons.org/publicdomain/zero/1.0/</code></pre></li>
+          <li><pre><code>https://data.gov.cz/podmínky-užití/neobsahuje-osobní-údaje/</code></pre></li>
+          <li><pre><code>https://data.gov.cz/podmínky-užití/obsahuje-osobní-údaje/</code></pre></li>
+      </ul>
+    </div>
+
+
+
+        </li>
+    </ul>
+  
+
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+    </section>
+    <section id="json-object--datová-sada--jednotlivec">
+      <h2>
+        Object <i>Individual</i>
+      </h2>
+
+      <table class="def">
+          <tr>
+            <th>Description</th>
+            <td>An object representing a single person or entity</td>
+          </tr>
+
+          <tr>
+            <th>Interpretation</th>
+            <td><a href="#Jednotlivec">Individual</a></td>
+          </tr>
+      </table>
+
+          <strong>
+    object
+  </strong>
+    with properties (<code>properties</code>):
+    <ul>
+        <li style="list-style-type: disclosure-closed;">
+          <code>iri</code>:
+          optional
+          item of type
+
+                
+  
+  
+    string
+  (format: <code>iri</code>)
+  
+
+
+  
+  
+  
+  
+  
+  
+
+
+        </li>
+        <li style="list-style-type: disclosure-closed;">
+          <code>typ</code>:
+          required
+          item of type
+
+                
+  
+  
+  
+  
+  
+  
+  
+        exactly one of the following (<code>oneOf</code>):
+    <ul>
+        <li>      
+    constant value
+    <code>&quot;Jednotlivec&quot;</code>
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+</li>
+        <li>      
+  
+  
+    array of values <code>{0..*}</code> of type       
+  
+  
+    string
+  
+  
+
+
+  
+  
+  
+  
+  
+  
+
+
+     and must contain: <code>&quot;Jednotlivec&quot;</code>
+
+  
+  
+  
+  
+  
+  
+  
+
+</li>
+    </ul>
+
+
+
+
+  
+
+
+        </li>
+        <li style="list-style-type: disclosure-closed;">
+          <code>jméno</code>:
+            (<a href="#KontaktníBod.jméno" label="The formatted text corresponding to the name of the object">formatted name</a>)
+          optional
+          item of type
+
+                  <strong>
+    object
+  </strong>
+    with properties (<code>properties</code>):
+    <ul>
+        <li style="list-style-type: disclosure-closed;">
+          <code>cs</code>:
+          optional
+          item of type
+
+                
+  
+  
+    string
+  
+  
+
+
+  
+  
+  
+  
+  
+  
+
+
+        </li>
+        <li style="list-style-type: disclosure-closed;">
+          <code>en</code>:
+          optional
+          item of type
+
+                
+  
+  
+    string
+  
+  
+
+
+  
+  
+  
+  
+  
+  
+
+
+        </li>
+    </ul>
+  
+
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+        </li>
+        <li style="list-style-type: disclosure-closed;">
+          <code>e-mail</code>:
+            (<a href="#KontaktníBod.email" label="A email address via which contact can be made.">has email</a>)
+          optional
+          item of type
+
+                
+  
+  
+    string
+  (format: <code>iri</code>)
+  (by regular expression: <code>^mailto:[^@]+@[^@]+</code>, for example <code>mailto:jan.novak@organizace.cz</code>)
+
+
+  
+  
+  
+  
+  
+  
+
+
+        </li>
+        <li style="list-style-type: disclosure-closed;">
+          <code>kontaktní_stránka</code>:
+            (<a href="#KontaktníBod.kontaktníStránka" label="A webpage that either allows to make contact (i.e. a webform) or the information contains how to get into contact. ">contact page</a>)
+          optional
+          item of type
+
+                
+  
+  
+    string
+  (format: <code>iri</code>)
+  (by regular expression: <code>^https://.*$</code>, for example <code>https://www.mdcr.cz/Dokumenty/Verejna-doprava/Jizdni-rady,-kalendare-pro-jizdni-rady,-metodi-(1)/Jizdni-rady-verejne-dopravy</code>)
+
+
+  
+  
+  
+  
+  
+  
+
+
+        </li>
+    </ul>
+  
+
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+    </section>
+    <section id="json-object--datová-sada--organizace">
+      <h2>
+        Object <i>Organization</i>
+      </h2>
+
+      <table class="def">
+          <tr>
+            <th>Description</th>
+            <td>An object representing an organization.  An organization is a single entity, and might represent a business or government, a department or division within a business or government, a club, an association, or the like.
+</td>
+          </tr>
+
+          <tr>
+            <th>Interpretation</th>
+            <td><a href="#Organizace">Organization</a></td>
+          </tr>
+      </table>
+
+          <strong>
+    object
+  </strong>
+    with properties (<code>properties</code>):
+    <ul>
+        <li style="list-style-type: disclosure-closed;">
+          <code>iri</code>:
+          optional
+          item of type
+
+                
+  
+  
+    string
+  (format: <code>iri</code>)
+  
+
+
+  
+  
+  
+  
+  
+  
+
+
+        </li>
+        <li style="list-style-type: disclosure-closed;">
+          <code>typ</code>:
+          required
+          item of type
+
+                
+  
+  
+  
+  
+  
+  
+  
+        exactly one of the following (<code>oneOf</code>):
+    <ul>
+        <li>      
+    constant value
+    <code>&quot;Organizace&quot;</code>
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+</li>
+        <li>      
+  
+  
+    array of values <code>{0..*}</code> of type       
+  
+  
+    string
+  
+  
+
+
+  
+  
+  
+  
+  
+  
+
+
+     and must contain: <code>&quot;Organizace&quot;</code>
+
+  
+  
+  
+  
+  
+  
+  
+
+</li>
+    </ul>
+
+
+
+
+  
+
+
+        </li>
+        <li style="list-style-type: disclosure-closed;">
+          <code>jméno</code>:
+            (<a href="#KontaktníBod.jméno" label="The formatted text corresponding to the name of the object">formatted name</a>)
+          optional
+          item of type
+
+                  <strong>
+    object
+  </strong>
+    with properties (<code>properties</code>):
+    <ul>
+        <li style="list-style-type: disclosure-closed;">
+          <code>cs</code>:
+          optional
+          item of type
+
+                
+  
+  
+    string
+  
+  
+
+
+  
+  
+  
+  
+  
+  
+
+
+        </li>
+        <li style="list-style-type: disclosure-closed;">
+          <code>en</code>:
+          optional
+          item of type
+
+                
+  
+  
+    string
+  
+  
+
+
+  
+  
+  
+  
+  
+  
+
+
+        </li>
+    </ul>
+  
+
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+        </li>
+        <li style="list-style-type: disclosure-closed;">
+          <code>e-mail</code>:
+            (<a href="#KontaktníBod.email" label="A email address via which contact can be made.">has email</a>)
+          optional
+          item of type
+
+                
+  
+  
+    string
+  (format: <code>iri</code>)
+  (by regular expression: <code>^mailto:[^@]+@[^@]+</code>, for example <code>mailto:jan.novak@organizace.cz</code>)
+
+
+  
+  
+  
+  
+  
+  
+
+
+        </li>
+        <li style="list-style-type: disclosure-closed;">
+          <code>kontaktní_stránka</code>:
+            (<a href="#KontaktníBod.kontaktníStránka" label="A webpage that either allows to make contact (i.e. a webform) or the information contains how to get into contact. ">contact page</a>)
+          optional
+          item of type
+
+                
+  
+  
+    string
+  (format: <code>iri</code>)
+  (by regular expression: <code>^https://.*$</code>, for example <code>https://www.mdcr.cz/Dokumenty/Verejna-doprava/Jizdni-rady,-kalendare-pro-jizdni-rady,-metodi-(1)/Jizdni-rady-verejne-dopravy</code>)
+
+
+  
+  
+  
+  
+  
+  
+
+
+        </li>
+    </ul>
+  
+
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+    </section>
+    <section id="json-object--datová-sada--časový-interval">
+      <h2>
+        Object <i>Period of Time</i>
+      </h2>
+
+      <table class="def">
+          <tr>
+            <th>Description</th>
+            <td>An interval of time that is named or defined by its start and end.</td>
+          </tr>
+
+          <tr>
+            <th>Interpretation</th>
+            <td><a href="#ČasovýInterval">Period of Time</a></td>
+          </tr>
+      </table>
+
+          <strong>
+    object
+  </strong>
+    with properties (<code>properties</code>):
+    <ul>
+        <li style="list-style-type: disclosure-closed;">
+          <code>iri</code>:
+          optional
+          item of type
+
+                
+  
+  
+    string
+  (format: <code>iri</code>)
+  
+
+
+  
+  
+  
+  
+  
+  
+
+
+        </li>
+        <li style="list-style-type: disclosure-closed;">
+          <code>typ</code>:
+          required
+          item of type
+
+                
+  
+  
+  
+  
+  
+  
+  
+        exactly one of the following (<code>oneOf</code>):
+    <ul>
+        <li>      
+    constant value
+    <code>&quot;Časový interval&quot;</code>
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+</li>
+        <li>      
+  
+  
+    array of values <code>{0..*}</code> of type       
+  
+  
+    string
+  
+  
+
+
+  
+  
+  
+  
+  
+  
+
+
+     and must contain: <code>&quot;Časový interval&quot;</code>
+
+  
+  
+  
+  
+  
+  
+  
+
+</li>
+    </ul>
+
+
+
+
+  
+
+
+        </li>
+        <li style="list-style-type: disclosure-closed;">
+          <code>začátek</code>:
+            (<a href="#ČasovýInterval.datumZačátku" label="The start of the period.">start date</a>)
+          optional
+          item of type
+
+                
+  
+  
+    string
+  (format: <code>date</code>)
+  
+
+
+  
+  
+  
+  
+  
+  
+
+
+        </li>
+        <li style="list-style-type: disclosure-closed;">
+          <code>konec</code>:
+            (<a href="#ČasovýInterval.datumKonce" label="The end of the period.">end date</a>)
+          optional
+          item of type
+
+                
+  
+  
+    string
+  (format: <code>date</code>)
+  
+
+
+  
+  
+  
+  
+  
+  
+
+
+        </li>
+    </ul>
+  
+
+
+
+  
   
   
   
@@ -6243,6 +6626,11 @@
                 <td>Definition</td>
                 <td>A conceptual entity that represents the information published.</td>
               </tr>
+                  <tr>
+                <td>Regular expression</td>
+                <td><code>^https://.*$</code></td>
+              </tr>
+          
           
                 <tr>
                   <td>Hierarchy</td>
@@ -6538,6 +6926,7 @@
               
                   </td>
                   </tr>
+                  
               
               
               
@@ -6642,6 +7031,7 @@
               
                   </td>
                   </tr>
+                  
               
               
               
@@ -6747,6 +7137,7 @@
               
                   </td>
                   </tr>
+                  
               
               
               
@@ -6845,6 +7236,7 @@
               
                   </td>
                   </tr>
+                  
               
               
               
@@ -6959,6 +7351,7 @@
               
                   </td>
                   </tr>
+                  
               
               
               
@@ -7064,6 +7457,7 @@
               
                   </td>
                   </tr>
+                  
               
               
               
@@ -7164,6 +7558,7 @@
               
                   </td>
                   </tr>
+                  
               
               
               
@@ -7278,6 +7673,7 @@
               
                   </td>
                   </tr>
+                  
               
               
               
@@ -7402,6 +7798,7 @@
               
                   </td>
                   </tr>
+                  
               
               
               
@@ -7516,6 +7913,7 @@
               
                   </td>
                   </tr>
+                  
               
               
               
@@ -7630,6 +8028,7 @@
               
                   </td>
                   </tr>
+                  
               
               
               
@@ -7734,6 +8133,7 @@
               
                   </td>
                   </tr>
+                  
               
               
               
@@ -7834,6 +8234,7 @@
               
                   </td>
                   </tr>
+                  
               
               
               
@@ -7925,6 +8326,7 @@
               
                   </td>
                   </tr>
+                  
               
               
               
@@ -8087,6 +8489,7 @@
               
                   </td>
                   </tr>
+                  
               
               
               
@@ -8201,6 +8604,7 @@
               
                   </td>
                   </tr>
+                  
               
               
               
@@ -8315,6 +8719,7 @@
               
                   </td>
                   </tr>
+                  
               
               
               
@@ -8453,6 +8858,7 @@
               
                   </td>
                   </tr>
+                  
               
               
               
@@ -8572,6 +8978,7 @@
               
                   </td>
                   </tr>
+                  
               
               
               
@@ -8733,6 +9140,7 @@
               
                   </td>
                   </tr>
+                  
               
               
               
@@ -8789,6 +9197,7 @@
                 <td>Definition</td>
                 <td>A specific representation of a dataset. A dataset might be available in multiple serializations that may differ in various ways, including natural language, media-type or format, schematic organization, temporal and spatial resolution, level of detail or profiles (which might specify any or all of the above).</td>
               </tr>
+              
           
                 <tr>
                   <td>Hierarchy</td>
@@ -8935,6 +9344,7 @@
               
                   </td>
                   </tr>
+                  
               
               
               
@@ -9078,6 +9488,7 @@
               
                   </td>
                   </tr>
+                  
               
               
               
@@ -9178,6 +9589,7 @@
               
                   </td>
                   </tr>
+                  
               
               
               
@@ -9303,6 +9715,7 @@
               
                   </td>
                   </tr>
+                  
               
               
               
@@ -9391,6 +9804,7 @@
                 <td>Definition</td>
                 <td>A specific representation of a dataset. A dataset might be available in multiple serializations that may differ in various ways, including natural language, media-type or format, schematic organization, temporal and spatial resolution, level of detail or profiles (which might specify any or all of the above).</td>
               </tr>
+              
           
                 <tr>
                   <td>Hierarchy</td>
@@ -9672,6 +10086,7 @@
               
                   </td>
                   </tr>
+                  
               
               
               
@@ -9776,6 +10191,7 @@
               
                   </td>
                   </tr>
+                  
               
               
               
@@ -9888,6 +10304,7 @@
               
                   </td>
                   </tr>
+                  
               
               
               
@@ -9992,6 +10409,7 @@
               
                   </td>
                   </tr>
+                  
               
               
               
@@ -10107,6 +10525,7 @@
               
                   </td>
                   </tr>
+                  
               
               
               
@@ -10219,6 +10638,7 @@
               
                   </td>
                   </tr>
+                  
               
               
               
@@ -10316,6 +10736,7 @@
                 <td>Definition</td>
                 <td>A specific representation of a dataset. A dataset might be available in multiple serializations that may differ in various ways, including natural language, media-type or format, schematic organization, temporal and spatial resolution, level of detail or profiles (which might specify any or all of the above).</td>
               </tr>
+              
           
                 <tr>
                   <td>Hierarchy</td>
@@ -10597,6 +11018,7 @@
               
                   </td>
                   </tr>
+                  
               
               
               
@@ -10723,6 +11145,7 @@
                 <td>Definition</td>
                 <td>A collection of operations that provides access to one or more datasets or data processing functions.</td>
               </tr>
+              
           
                 <tr>
                   <td>Hierarchy</td>
@@ -11023,6 +11446,7 @@
               
                   </td>
                   </tr>
+                  
               
               
               
@@ -11164,6 +11588,7 @@
               
                   </td>
                   </tr>
+                  
               
               
               
@@ -11306,6 +11731,7 @@
               
                   </td>
                   </tr>
+                  
               
               
               
@@ -11431,6 +11857,7 @@
               
                   </td>
                   </tr>
+                  
               
               
               
@@ -11535,6 +11962,7 @@
               
                   </td>
                   </tr>
+                  
               
               
               
@@ -11660,6 +12088,7 @@
               
                   </td>
                   </tr>
+                  
               
               
               
@@ -11774,6 +12203,7 @@
               
                   </td>
                   </tr>
+                  
               
               
               
@@ -11906,6 +12336,7 @@
               
                   </td>
                   </tr>
+                  
               
               
               
@@ -11962,6 +12393,7 @@
                 <td>Definition</td>
                 <td>Specifikace podmínek užití dle https://opendata.gov.cz/cinnost:stanoveni-podminek-uziti. (@cs)</td>
               </tr>
+              
           
                 <tr>
                   <td>Hierarchy</td>
@@ -12069,6 +12501,7 @@
               
                   </td>
                   </tr>
+                  
               
               
               
@@ -12149,6 +12582,7 @@
               
                   </td>
                   </tr>
+                  
               
               
               
@@ -12229,6 +12663,7 @@
               
                   </td>
                   </tr>
+                  
               
               
               
@@ -12309,6 +12744,7 @@
               
                   </td>
                   </tr>
+                  
               
               
               
@@ -12389,6 +12825,7 @@
               
                   </td>
                   </tr>
+                  
               
               
               
@@ -12469,6 +12906,7 @@
               
                   </td>
                   </tr>
+                  
               
               
               
@@ -12533,6 +12971,11 @@
                 <td>Definition</td>
                 <td>A collection of datasets that are published separately, but share some characteristics that group them.</td>
               </tr>
+                  <tr>
+                <td>Regular expression</td>
+                <td><code>^https://.*$</code></td>
+              </tr>
+          
           
                 <tr>
                   <td>Hierarchy</td>
@@ -12910,6 +13353,7 @@
               
                   </td>
                   </tr>
+                  
               
               
               
@@ -13014,6 +13458,7 @@
               
                   </td>
                   </tr>
+                  
               
               
               
@@ -13119,6 +13564,7 @@
               
                   </td>
                   </tr>
+                  
               
               
               
@@ -13217,6 +13663,7 @@
               
                   </td>
                   </tr>
+                  
               
               
               
@@ -13330,6 +13777,7 @@
               
                   </td>
                   </tr>
+                  
               
               
               
@@ -13435,6 +13883,7 @@
               
                   </td>
                   </tr>
+                  
               
               
               
@@ -13539,6 +13988,7 @@
               
                   </td>
                   </tr>
+                  
               
               
               
@@ -13653,6 +14103,7 @@
               
                   </td>
                   </tr>
+                  
               
               
               
@@ -13778,6 +14229,7 @@
               
                   </td>
                   </tr>
+                  
               
               
               
@@ -13850,6 +14302,7 @@
               
                   </td>
                   </tr>
+                  
               
               
               
@@ -13950,6 +14403,7 @@
               
                   </td>
                   </tr>
+                  
               
               
               
@@ -14065,6 +14519,7 @@
               
                   </td>
                   </tr>
+                  
               
               
               
@@ -14180,6 +14635,7 @@
               
                   </td>
                   </tr>
+                  
               
               
               
@@ -14271,6 +14727,7 @@
               
                   </td>
                   </tr>
+                  
               
               
               
@@ -14375,6 +14832,7 @@
               
                   </td>
                   </tr>
+                  
               
               
               
@@ -14489,6 +14947,7 @@
               
                   </td>
                   </tr>
+                  
               
               
               
@@ -14592,6 +15051,15 @@
                 <td>Definition</td>
                 <td>HVD category from the EU High-value dataset categories NAL.</td>
               </tr>
+                  <tr>
+                <td>Regular expression</td>
+                <td><code>^http://data\.europa\.eu/bna/.*$</code></td>
+              </tr>
+              <tr>
+                <td>Examples</td>
+                <td><code>http://data.europa.eu/bna/c_1e787364</code>, <code>http://data.europa.eu/bna/c_25f43866</code></td>
+              </tr>
+          
           
                 <tr>
                   <td>Hierarchy</td>
@@ -14691,6 +15159,11 @@
                 <td>Definition</td>
                 <td>Any entity carrying out actions with respect to the entities Catalogue and the Catalogued Resources.</td>
               </tr>
+                  <tr>
+                <td>Examples</td>
+                <td><code>https://rpp-opendata.egon.gov.cz/odrpp/zdroj/orgán-veřejné-moci/66003008</code></td>
+              </tr>
+          
           
                 <tr>
                   <td>Hierarchy</td>
@@ -14785,6 +15258,7 @@
                 <td>Definition</td>
                 <td>An idea or notion; a unit of thought.</td>
               </tr>
+              
           
                 <tr>
                   <td>Hierarchy</td>
@@ -14864,6 +15338,15 @@
                 <td>Definition</td>
                 <td>An idea or notion; a unit of thought.</td>
               </tr>
+                  <tr>
+                <td>Regular expression</td>
+                <td><code>^http://publications\.europa\.eu/resource/authority/data-theme/.*$</code></td>
+              </tr>
+              <tr>
+                <td>Examples</td>
+                <td><code>http://publications.europa.eu/resource/authority/data-theme/TRAN</code></td>
+              </tr>
+          
           
                 <tr>
                   <td>Hierarchy</td>
@@ -14958,6 +15441,15 @@
                 <td>Definition</td>
                 <td>An idea or notion; a unit of thought.</td>
               </tr>
+                  <tr>
+                <td>Regular expression</td>
+                <td><code>^http://eurovoc\.europa\.eu/.*$</code></td>
+              </tr>
+              <tr>
+                <td>Examples</td>
+                <td><code>http://eurovoc.europa.eu/1001</code></td>
+              </tr>
+          
           
                 <tr>
                   <td>Hierarchy</td>
@@ -15052,6 +15544,15 @@
                 <td>Definition</td>
                 <td>A textual resource intended for human consumption that contains information, e.g. a web page about a Dataset.</td>
               </tr>
+                  <tr>
+                <td>Regular expression</td>
+                <td><code>^https://.*$</code></td>
+              </tr>
+              <tr>
+                <td>Examples</td>
+                <td><code>https://www.mdcr.cz/Dokumenty/Verejna-doprava/Jizdni-rady,-kalendare-pro-jizdni-rady,-metodi-(1)/Jizdni-rady-verejne-dopravy</code></td>
+              </tr>
+          
           
                 <tr>
                   <td>Hierarchy</td>
@@ -15137,6 +15638,15 @@
                 <td>Definition</td>
                 <td>E-mail address identified using mailto: IRI.</td>
               </tr>
+                  <tr>
+                <td>Regular expression</td>
+                <td><code>^mailto:[^@]+@[^@]+</code></td>
+              </tr>
+              <tr>
+                <td>Examples</td>
+                <td><code>mailto:jan.novak@organizace.cz</code></td>
+              </tr>
+          
           
                 <tr>
                   <td>Hierarchy</td>
@@ -15236,6 +15746,15 @@
                 <td>Definition</td>
                 <td>A rate at which something recurs, e.g. the publication of a Dataset.</td>
               </tr>
+                  <tr>
+                <td>Regular expression</td>
+                <td><code>^http://publications\.europa\.eu/resource/authority/frequency/.*$</code></td>
+              </tr>
+              <tr>
+                <td>Examples</td>
+                <td><code>http://publications.europa.eu/resource/authority/frequency/MONTHLY</code></td>
+              </tr>
+          
           
                 <tr>
                   <td>Hierarchy</td>
@@ -15330,6 +15849,7 @@
                 <td>Definition</td>
                 <td>An object representing a single person or entity</td>
               </tr>
+              
           
                 <tr>
                   <td>Hierarchy</td>
@@ -15588,6 +16108,7 @@
                 <td>Definition</td>
                 <td>A description following the vCard specification, e.g. to provide telephone number and e-mail address for a contact point.</td>
               </tr>
+              
           
                 <tr>
                   <td>Hierarchy</td>
@@ -15739,6 +16260,7 @@
               
                   </td>
                   </tr>
+                  
               
               
               
@@ -15811,6 +16333,7 @@
               
                   </td>
                   </tr>
+                  
               
               
               
@@ -15892,6 +16415,7 @@
               
                   </td>
                   </tr>
+                  
               
               
               
@@ -15977,6 +16501,15 @@
                 <td>Definition</td>
                 <td>This class represents the legislation,policy or policies that lie behind the Rules that govern the service.</td>
               </tr>
+                  <tr>
+                <td>Regular expression</td>
+                <td><code>^http</code></td>
+              </tr>
+              <tr>
+                <td>Examples</td>
+                <td><code>https://www.e-sbirka.cz/eli/cz/sb/1999/106/2025-08-19</code>, <code>https://www.e-sbirka.cz/eli/cz/sb/1999/106/2025-08-19/dokument/norma/cast_1/par_5b</code>, <code>http://data.europa.eu/eli/reg_impl/2023/138/oj</code>, <code>https://www.e-sbirka.cz/eli/cz/sb/1999/106/2025-08-19/dokument/norma/cast_1/par_3a/odst_6</code>, <code>https://www.e-sbirka.cz/eli/cz/sb/1999/106/2025-08-19/dokument/norma/cast_1/par_5a/odst_1</code></td>
+              </tr>
+          
           
                 <tr>
                   <td>Hierarchy</td>
@@ -16090,6 +16623,11 @@
                 <td>Definition</td>
                 <td>A legal document giving official permission to do something with a resource.</td>
               </tr>
+                  <tr>
+                <td>Examples</td>
+                <td><code>https://data.gov.cz/podmínky-užití/neobsahuje-autorská-díla/</code>, <code>https://data.gov.cz/podmínky-užití/není-autorskoprávně-chráněnou-databází/</code>, <code>https://data.gov.cz/podmínky-užití/není-chráněna-zvláštním-právem-pořizovatele-databáze/</code>, <code>https://creativecommons.org/licenses/by/4.0/</code>, <code>https://creativecommons.org/publicdomain/zero/1.0/</code>, <code>https://data.gov.cz/podmínky-užití/neobsahuje-osobní-údaje/</code>, <code>https://data.gov.cz/podmínky-užití/obsahuje-osobní-údaje/</code></td>
+              </tr>
+          
           
                 <tr>
                   <td>Hierarchy</td>
@@ -16173,6 +16711,11 @@
                 <td>Definition</td>
                 <td>A spatial region or named place.</td>
               </tr>
+                  <tr>
+                <td>Examples</td>
+                <td><code>http://publications.europa.eu/resource/authority/continent/EUROPE</code>, <code>https://sws.geonames.org/6290257/</code></td>
+              </tr>
+          
           
                 <tr>
                   <td>Hierarchy</td>
@@ -16276,6 +16819,15 @@
                 <td>Definition</td>
                 <td>A spatial region or named place.</td>
               </tr>
+                  <tr>
+                <td>Regular expression</td>
+                <td><code>^https://linked.cuzk.cz/resource/ruian/.*$</code></td>
+              </tr>
+              <tr>
+                <td>Examples</td>
+                <td><code>https://linked.cuzk.cz/resource/ruian/stat/1</code>, <code>https://linked.cuzk.cz/resource/ruian/vusc/108</code>, <code>https://linked.cuzk.cz/resource/ruian/obec/502235</code></td>
+              </tr>
+          
           
                 <tr>
                   <td>Hierarchy</td>
@@ -16379,6 +16931,15 @@
                 <td>Definition</td>
                 <td>A file format or physical medium.</td>
               </tr>
+                  <tr>
+                <td>Regular expression</td>
+                <td><code>^http://www\.iana\.org/assignments/media-types/.*$</code></td>
+              </tr>
+              <tr>
+                <td>Examples</td>
+                <td><code>http://www.iana.org/assignments/media-types/image/tiff</code></td>
+              </tr>
+          
           
                 <tr>
                   <td>Hierarchy</td>
@@ -16483,6 +17044,15 @@
                 <td>Definition</td>
                 <td>A media type or extent.</td>
               </tr>
+                  <tr>
+                <td>Regular expression</td>
+                <td><code>^http://publications\.europa\.eu/resource/authority/file-type/.*$</code></td>
+              </tr>
+              <tr>
+                <td>Examples</td>
+                <td><code>http://publications.europa.eu/resource/authority/file-type/CSV</code></td>
+              </tr>
+          
           
                 <tr>
                   <td>Hierarchy</td>
@@ -16576,6 +17146,7 @@
                 <td>An object representing an organization.  An organization is a single entity, and might represent a business or government, a department or division within a business or government, a club, an association, or the like.
           </td>
               </tr>
+              
           
                 <tr>
                   <td>Hierarchy</td>
@@ -16836,6 +17407,7 @@
                 <td>Definition</td>
                 <td>An interval of time that is named or defined by its start and end.</td>
               </tr>
+              
           
                 <tr>
                   <td>Hierarchy</td>
@@ -16958,6 +17530,7 @@
               
                   </td>
                   </tr>
+                  
               
               
               
@@ -17060,6 +17633,7 @@
               
                   </td>
                   </tr>
+                  
               
               
               
@@ -17148,6 +17722,15 @@
                 <td>Definition</td>
                 <td>Anything described by RDF.</td>
               </tr>
+                  <tr>
+                <td>Regular expression</td>
+                <td><code>^https://.*$</code></td>
+              </tr>
+              <tr>
+                <td>Examples</td>
+                <td><code>https://www.trebic.cz/zdroj/aktualita/2020/dopadení-lupiče-na-francouzské-ulici</code></td>
+              </tr>
+          
           
                 <tr>
                   <td>Hierarchy</td>
@@ -17241,6 +17824,15 @@
                 <td>Definition</td>
                 <td>A standard or other specification to which a resource conforms.</td>
               </tr>
+                  <tr>
+                <td>Regular expression</td>
+                <td><code>^https://.*$</code></td>
+              </tr>
+              <tr>
+                <td>Examples</td>
+                <td><code>https://ofn.gov.cz/turistické-cíle/2020-07-01/</code></td>
+              </tr>
+          
           
                 <tr>
                   <td>Hierarchy</td>
@@ -17335,20 +17927,20 @@
             </tr>
             <tr>
               <td>Description of structure model</td>
-              <td><a href="../datová-sada/structure.ttl">../datová-sada/structure.ttl</a></td>
+              <td><a href="../série-datových-sad/structure.ttl">../série-datových-sad/structure.ttl</a></td>
             </tr>
             <tr>
               <td>Description of structure model</td>
-              <td><a href="../série-datových-sad/structure.ttl">../série-datových-sad/structure.ttl</a></td>
+              <td><a href="../datová-sada/structure.ttl">../datová-sada/structure.ttl</a></td>
             </tr>
             <tr>
               <td>List of changes in LDES format</td>
               <td><a href="../dsv.ldes.ttl">../dsv.ldes.ttl</a></td>
             </tr>
-            <tr><td>JSON schema</td><td><a href="../datová-sada/schéma.json">../datová-sada/schéma.json</a></td></tr>
-            <tr><td>JSON-LD context</td><td><a href="../datová-sada/kontext.jsonld">../datová-sada/kontext.jsonld</a></td></tr>
             <tr><td>JSON schema</td><td><a href="../série-datových-sad/schéma.json">../série-datových-sad/schéma.json</a></td></tr>
             <tr><td>JSON-LD context</td><td><a href="../série-datových-sad/kontext.jsonld">../série-datových-sad/kontext.jsonld</a></td></tr>
+            <tr><td>JSON schema</td><td><a href="../datová-sada/schéma.json">../datová-sada/schéma.json</a></td></tr>
+            <tr><td>JSON-LD context</td><td><a href="../datová-sada/kontext.jsonld">../datová-sada/kontext.jsonld</a></td></tr>
             <tr><td>Documentation</td><td><a href="">#</a></td></tr>
         </tbody>
       </table>
