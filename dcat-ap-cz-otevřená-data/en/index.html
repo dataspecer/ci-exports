@@ -583,6 +583,7 @@
   
   
   
+  
 
 </li>
         <li>      
@@ -601,10 +602,12 @@
   
   
   
+  
 
 
      and must contain: <code>&quot;https://ofn.gov.cz/dcat-ap-cz-otevřená-data/2026-09-23/série-datových-sad/kontext.jsonld&quot;</code>
 
+  
   
   
   
@@ -618,6 +621,7 @@
 
 
 
+  
 
 
         </li>
@@ -634,6 +638,7 @@
   (by regular expression: <code>^https://.*$</code>)
 
 
+  
   
   
   
@@ -668,6 +673,7 @@
   
   
   
+  
 
 </li>
         <li>      
@@ -686,10 +692,12 @@
   
   
   
+  
 
 
      and must contain: <code>&quot;Série datových sad&quot;</code>
 
+  
   
   
   
@@ -703,6 +711,7 @@
 
 
 
+  
 
 
         </li>
@@ -735,6 +744,7 @@
   
   
   
+  
 
 
         </li>
@@ -756,6 +766,7 @@
   
   
   
+  
 
 
         </li>
@@ -764,6 +775,7 @@
 
 
 
+  
   
   
   
@@ -804,6 +816,7 @@
   
   
   
+  
 
 
         </li>
@@ -825,6 +838,7 @@
   
   
   
+  
 
 
         </li>
@@ -833,6 +847,7 @@
 
 
 
+  
   
   
   
@@ -863,6 +878,14 @@
   
   
   
+      <div class="examples">
+
+        <strong>Examples:</strong>
+      <ul>
+          <li><pre><code>https://rpp-opendata.egon.gov.cz/odrpp/zdroj/orgán-veřejné-moci/66003008</code></pre></li>
+      </ul>
+    </div>
+
 
 
         </li>
@@ -888,10 +911,12 @@
   
   
   
+  
 
 
           
 
+  
   
   
   
@@ -915,9 +940,10 @@
   
     string
   (format: <code>iri</code>)
-  (by regular expression: <code>^http://publications\.europa\.eu/resource/authority/data-theme/.*$</code>)
+  (by regular expression: <code>^http://publications\.europa\.eu/resource/authority/data-theme/.*$</code>, for example <code>http://publications.europa.eu/resource/authority/data-theme/TRAN</code>)
 
 
+  
   
   
   
@@ -927,6 +953,7 @@
 
           
 
+  
   
   
   
@@ -947,9 +974,10 @@
   
     string
   (format: <code>iri</code>)
-  (by regular expression: <code>^http://publications\.europa\.eu/resource/authority/frequency/.*$</code>)
+  (by regular expression: <code>^http://publications\.europa\.eu/resource/authority/frequency/.*$</code>, for example <code>http://publications.europa.eu/resource/authority/frequency/MONTHLY</code>)
 
 
+  
   
   
   
@@ -990,10 +1018,12 @@
   
   
   
+  
 
 
           
 
+  
   
   
   
@@ -1024,10 +1054,12 @@
   
   
   
+  
 
 
           
 
+  
   
   
   
@@ -1042,6 +1074,7 @@
 
 
 
+  
   
   
   
@@ -1075,10 +1108,20 @@
   
   
   
+      <div class="examples">
+
+        <strong>Examples:</strong>
+      <ul>
+          <li><pre><code>http://publications.europa.eu/resource/authority/continent/EUROPE</code></pre></li>
+          <li><pre><code>https://sws.geonames.org/6290257/</code></pre></li>
+      </ul>
+    </div>
+
 
 
           
 
+  
   
   
   
@@ -1102,9 +1145,10 @@
   
     string
   (format: <code>iri</code>)
-  (by regular expression: <code>^https://linked.cuzk.cz/resource/ruian/.*$</code>)
+  (by regular expression: <code>^https://linked.cuzk.cz/resource/ruian/.*$</code>, for example <code>https://linked.cuzk.cz/resource/ruian/stat/1</code>, <code>https://linked.cuzk.cz/resource/ruian/vusc/108</code>, <code>https://linked.cuzk.cz/resource/ruian/obec/502235</code>)
 
 
+  
   
   
   
@@ -1114,6 +1158,7 @@
 
           
 
+  
   
   
   
@@ -1136,6 +1181,7 @@
 
           
 
+  
   
   
   
@@ -1170,6 +1216,7 @@
 
 
 
+  
 
 
         </li>
@@ -1184,9 +1231,10 @@
   
     string
   (format: <code>iri</code>)
-  (by regular expression: <code>^https://.*$</code>)
+  (by regular expression: <code>^https://.*$</code>, for example <code>https://www.mdcr.cz/Dokumenty/Verejna-doprava/Jizdni-rady,-kalendare-pro-jizdni-rady,-metodi-(1)/Jizdni-rady-verejne-dopravy</code>)
 
 
+  
   
   
   
@@ -1209,9 +1257,10 @@
   
     string
   (format: <code>iri</code>)
-  (by regular expression: <code>^http://eurovoc\.europa\.eu/.*$</code>)
+  (by regular expression: <code>^http://eurovoc\.europa\.eu/.*$</code>, for example <code>http://eurovoc.europa.eu/1001</code>)
 
 
+  
   
   
   
@@ -1221,6 +1270,7 @@
 
           
 
+  
   
   
   
@@ -1244,9 +1294,10 @@
   
     string
   (format: <code>iri</code>)
-  (by regular expression: <code>^http</code>)
+  (by regular expression: <code>^http</code>, for example <code>https://www.e-sbirka.cz/eli/cz/sb/1999/106/2025-08-19</code>, <code>https://www.e-sbirka.cz/eli/cz/sb/1999/106/2025-08-19/dokument/norma/cast_1/par_3a/odst_6</code>, <code>https://www.e-sbirka.cz/eli/cz/sb/1999/106/2025-08-19/dokument/norma/cast_1/par_5a/odst_1</code>)
 
 
+  
   
   
   
@@ -1256,6 +1307,7 @@
 
           
 
+  
   
   
   
@@ -1276,9 +1328,10 @@
   
     string
   (format: <code>iri</code>)
-  (by regular expression: <code>^https://.*$</code>)
+  (by regular expression: <code>^https://.*$</code>, for example <code>https://www.mdcr.cz/Dokumenty/Verejna-doprava/Jizdni-rady,-kalendare-pro-jizdni-rady,-metodi-(1)/Jizdni-rady-verejne-dopravy</code>)
 
 
+  
   
   
   
@@ -1292,6 +1345,7 @@
 
 
 
+  
   
   
   
@@ -1342,6 +1396,7 @@
   
   
   
+  
 
 
         </li>
@@ -1371,6 +1426,7 @@
   
   
   
+  
 
 </li>
         <li>      
@@ -1389,10 +1445,12 @@
   
   
   
+  
 
 
      and must contain: <code>&quot;Jednotlivec&quot;</code>
 
+  
   
   
   
@@ -1406,6 +1464,7 @@
 
 
 
+  
 
 
         </li>
@@ -1438,6 +1497,7 @@
   
   
   
+  
 
 
         </li>
@@ -1459,6 +1519,7 @@
   
   
   
+  
 
 
         </li>
@@ -1467,6 +1528,7 @@
 
 
 
+  
   
   
   
@@ -1489,9 +1551,10 @@
   
     string
   (format: <code>iri</code>)
-  (by regular expression: <code>^mailto:[^@]+@[^@]+</code>)
+  (by regular expression: <code>^mailto:[^@]+@[^@]+</code>, for example <code>mailto:jan.novak@organizace.cz</code>)
 
 
+  
   
   
   
@@ -1505,6 +1568,7 @@
 
 
 
+  
   
   
   
@@ -1556,6 +1620,7 @@
   
   
   
+  
 
 
         </li>
@@ -1585,6 +1650,7 @@
   
   
   
+  
 
 </li>
         <li>      
@@ -1603,10 +1669,12 @@
   
   
   
+  
 
 
      and must contain: <code>&quot;Organizace&quot;</code>
 
+  
   
   
   
@@ -1620,6 +1688,7 @@
 
 
 
+  
 
 
         </li>
@@ -1652,6 +1721,7 @@
   
   
   
+  
 
 
         </li>
@@ -1673,6 +1743,7 @@
   
   
   
+  
 
 
         </li>
@@ -1681,6 +1752,7 @@
 
 
 
+  
   
   
   
@@ -1703,9 +1775,10 @@
   
     string
   (format: <code>iri</code>)
-  (by regular expression: <code>^mailto:[^@]+@[^@]+</code>)
+  (by regular expression: <code>^mailto:[^@]+@[^@]+</code>, for example <code>mailto:jan.novak@organizace.cz</code>)
 
 
+  
   
   
   
@@ -1719,6 +1792,7 @@
 
 
 
+  
   
   
   
@@ -1769,6 +1843,7 @@
   
   
   
+  
 
 
         </li>
@@ -1798,6 +1873,7 @@
   
   
   
+  
 
 </li>
         <li>      
@@ -1816,10 +1892,12 @@
   
   
   
+  
 
 
      and must contain: <code>&quot;Časový interval&quot;</code>
 
+  
   
   
   
@@ -1833,6 +1911,7 @@
 
 
 
+  
 
 
         </li>
@@ -1850,6 +1929,7 @@
   
 
 
+  
   
   
   
@@ -1877,6 +1957,7 @@
   
   
   
+  
 
 
         </li>
@@ -1885,6 +1966,7 @@
 
 
 
+  
   
   
   
@@ -1985,6 +2067,7 @@
   
   
   
+  
 
 </li>
         <li>      
@@ -2003,10 +2086,12 @@
   
   
   
+  
 
 
      and must contain: <code>&quot;https://ofn.gov.cz/dcat-ap-cz-otevřená-data/2026-09-23/datová-sada/kontext.jsonld&quot;</code>
 
+  
   
   
   
@@ -2020,6 +2105,7 @@
 
 
 
+  
 
 
         </li>
@@ -2036,6 +2122,7 @@
   
 
 
+  
   
   
   
@@ -2070,6 +2157,7 @@
   
   
   
+  
 
 </li>
         <li>      
@@ -2088,10 +2176,12 @@
   
   
   
+  
 
 
      and must contain: <code>&quot;Datová sada&quot;</code>
 
+  
   
   
   
@@ -2105,6 +2195,7 @@
 
 
 
+  
 
 
         </li>
@@ -2137,6 +2228,7 @@
   
   
   
+  
 
 
         </li>
@@ -2158,6 +2250,7 @@
   
   
   
+  
 
 
         </li>
@@ -2166,6 +2259,7 @@
 
 
 
+  
   
   
   
@@ -2206,6 +2300,7 @@
   
   
   
+  
 
 
         </li>
@@ -2227,6 +2322,7 @@
   
   
   
+  
 
 
         </li>
@@ -2235,6 +2331,7 @@
 
 
 
+  
   
   
   
@@ -2265,6 +2362,14 @@
   
   
   
+      <div class="examples">
+
+        <strong>Examples:</strong>
+      <ul>
+          <li><pre><code>https://rpp-opendata.egon.gov.cz/odrpp/zdroj/orgán-veřejné-moci/66003008</code></pre></li>
+      </ul>
+    </div>
+
 
 
         </li>
@@ -2287,6 +2392,7 @@
   
   
   
+  
 
 
         </li>
@@ -2304,9 +2410,10 @@
   
     string
   (format: <code>iri</code>)
-  (by regular expression: <code>^http://publications\.europa\.eu/resource/authority/data-theme/.*$</code>)
+  (by regular expression: <code>^http://publications\.europa\.eu/resource/authority/data-theme/.*$</code>, for example <code>http://publications.europa.eu/resource/authority/data-theme/TRAN</code>)
 
 
+  
   
   
   
@@ -2316,6 +2423,7 @@
 
           
 
+  
   
   
   
@@ -2336,9 +2444,10 @@
   
     string
   (format: <code>iri</code>)
-  (by regular expression: <code>^http://publications\.europa\.eu/resource/authority/frequency/.*$</code>)
+  (by regular expression: <code>^http://publications\.europa\.eu/resource/authority/frequency/.*$</code>, for example <code>http://publications.europa.eu/resource/authority/frequency/MONTHLY</code>)
 
 
+  
   
   
   
@@ -2379,10 +2488,12 @@
   
   
   
+  
 
 
           
 
+  
   
   
   
@@ -2413,10 +2524,12 @@
   
   
   
+  
 
 
           
 
+  
   
   
   
@@ -2431,6 +2544,7 @@
 
 
 
+  
   
   
   
@@ -2464,10 +2578,20 @@
   
   
   
+      <div class="examples">
+
+        <strong>Examples:</strong>
+      <ul>
+          <li><pre><code>http://publications.europa.eu/resource/authority/continent/EUROPE</code></pre></li>
+          <li><pre><code>https://sws.geonames.org/6290257/</code></pre></li>
+      </ul>
+    </div>
+
 
 
           
 
+  
   
   
   
@@ -2491,9 +2615,10 @@
   
     string
   (format: <code>iri</code>)
-  (by regular expression: <code>^https://linked.cuzk.cz/resource/ruian/.*$</code>)
+  (by regular expression: <code>^https://linked.cuzk.cz/resource/ruian/.*$</code>, for example <code>https://linked.cuzk.cz/resource/ruian/stat/1</code>, <code>https://linked.cuzk.cz/resource/ruian/vusc/108</code>, <code>https://linked.cuzk.cz/resource/ruian/obec/502235</code>)
 
 
+  
   
   
   
@@ -2503,6 +2628,7 @@
 
           
 
+  
   
   
   
@@ -2546,6 +2672,7 @@
 
 
 
+  
 
 
         </li>
@@ -2560,9 +2687,10 @@
   
     string
   (format: <code>iri</code>)
-  (by regular expression: <code>^https://.*$</code>)
+  (by regular expression: <code>^https://.*$</code>, for example <code>https://www.mdcr.cz/Dokumenty/Verejna-doprava/Jizdni-rady,-kalendare-pro-jizdni-rady,-metodi-(1)/Jizdni-rady-verejne-dopravy</code>)
 
 
+  
   
   
   
@@ -2585,9 +2713,10 @@
   
     string
   (format: <code>iri</code>)
-  (by regular expression: <code>^https://.*$</code>)
+  (by regular expression: <code>^https://.*$</code>, for example <code>https://ofn.gov.cz/turistické-cíle/2020-07-01/</code>)
 
 
+  
   
   
   
@@ -2597,6 +2726,7 @@
 
           
 
+  
   
   
   
@@ -2620,9 +2750,10 @@
   
     string
   (format: <code>iri</code>)
-  (by regular expression: <code>^http://eurovoc\.europa\.eu/.*$</code>)
+  (by regular expression: <code>^http://eurovoc\.europa\.eu/.*$</code>, for example <code>http://eurovoc.europa.eu/1001</code>)
 
 
+  
   
   
   
@@ -2632,6 +2763,7 @@
 
           
 
+  
   
   
   
@@ -2660,6 +2792,7 @@
   
   
   
+  
 
 
         </li>
@@ -2682,6 +2815,7 @@
   
   
   
+  
 
 
         </li>
@@ -2699,9 +2833,10 @@
   
     string
   (format: <code>iri</code>)
-  (by regular expression: <code>^http</code>)
+  (by regular expression: <code>^http</code>, for example <code>https://www.e-sbirka.cz/eli/cz/sb/1999/106/2025-08-19</code>, <code>https://www.e-sbirka.cz/eli/cz/sb/1999/106/2025-08-19/dokument/norma/cast_1/par_3a/odst_6</code>, <code>https://www.e-sbirka.cz/eli/cz/sb/1999/106/2025-08-19/dokument/norma/cast_1/par_5a/odst_1</code>)
 
 
+  
   
   
   
@@ -2711,6 +2846,7 @@
 
           
 
+  
   
   
   
@@ -2748,10 +2884,12 @@
 
 
 
+  
 
 
           
 
+  
   
   
   
@@ -2772,9 +2910,10 @@
   
     string
   (format: <code>iri</code>)
-  (by regular expression: <code>^https://.*$</code>)
+  (by regular expression: <code>^https://.*$</code>, for example <code>https://www.mdcr.cz/Dokumenty/Verejna-doprava/Jizdni-rady,-kalendare-pro-jizdni-rady,-metodi-(1)/Jizdni-rady-verejne-dopravy</code>)
 
 
+  
   
   
   
@@ -2788,6 +2927,7 @@
 
 
 
+  
   
   
   
@@ -2838,6 +2978,7 @@
   
   
   
+  
 
 
         </li>
@@ -2867,6 +3008,7 @@
   
   
   
+  
 
 </li>
         <li>      
@@ -2885,10 +3027,12 @@
   
   
   
+  
 
 
      and must contain: <code>&quot;Distribuce&quot;</code>
 
+  
   
   
   
@@ -2902,6 +3046,7 @@
 
 
 
+  
 
 
         </li>
@@ -2925,9 +3070,10 @@
   
     string
   (format: <code>iri</code>)
-  (by regular expression: <code>^https://.*$</code>)
+  (by regular expression: <code>^https://.*$</code>, for example <code>https://www.trebic.cz/zdroj/aktualita/2020/dopadení-lupiče-na-francouzské-ulici</code>)
 
 
+  
   
   
   
@@ -2950,9 +3096,10 @@
   
     string
   (format: <code>iri</code>)
-  (by regular expression: <code>^http</code>)
+  (by regular expression: <code>^http</code>, for example <code>https://www.e-sbirka.cz/eli/cz/sb/1999/106/2025-08-19</code>, <code>https://www.e-sbirka.cz/eli/cz/sb/1999/106/2025-08-19/dokument/norma/cast_1/par_3a/odst_6</code>, <code>https://www.e-sbirka.cz/eli/cz/sb/1999/106/2025-08-19/dokument/norma/cast_1/par_5a/odst_1</code>)
 
 
+  
   
   
   
@@ -2962,6 +3109,7 @@
 
           
 
+  
   
   
   
@@ -3000,6 +3148,7 @@
   
   
   
+  
 
 
         </li>
@@ -3021,6 +3170,7 @@
   
   
   
+  
 
 
         </li>
@@ -3029,6 +3179,7 @@
 
 
 
+  
   
   
   
@@ -3054,6 +3205,7 @@
 
 
 
+  
   
   
   
@@ -3104,6 +3256,7 @@
   
   
   
+  
 
 
         </li>
@@ -3133,6 +3286,7 @@
   
   
   
+  
 
 </li>
         <li>      
@@ -3151,10 +3305,12 @@
   
   
   
+  
 
 
      and must contain: <code>&quot;Datová služba&quot;</code>
 
+  
   
   
   
@@ -3168,6 +3324,7 @@
 
 
 
+  
 
 
         </li>
@@ -3200,6 +3357,7 @@
   
   
   
+  
 
 
         </li>
@@ -3221,6 +3379,7 @@
   
   
   
+  
 
 
         </li>
@@ -3229,6 +3388,7 @@
 
 
 
+  
   
   
   
@@ -3251,9 +3411,10 @@
   
     string
   (format: <code>iri</code>)
-  (by regular expression: <code>^https://.*$</code>)
+  (by regular expression: <code>^https://.*$</code>, for example <code>https://www.trebic.cz/zdroj/aktualita/2020/dopadení-lupiče-na-francouzské-ulici</code>)
 
 
+  
   
   
   
@@ -3273,9 +3434,10 @@
   
     string
   (format: <code>iri</code>)
-  (by regular expression: <code>^https://.*$</code>)
+  (by regular expression: <code>^https://.*$</code>, for example <code>https://www.trebic.cz/zdroj/aktualita/2020/dopadení-lupiče-na-francouzské-ulici</code>)
 
 
+  
   
   
   
@@ -3298,9 +3460,10 @@
   
     string
   (format: <code>iri</code>)
-  (by regular expression: <code>^https://.*$</code>)
+  (by regular expression: <code>^https://.*$</code>, for example <code>https://ofn.gov.cz/turistické-cíle/2020-07-01/</code>)
 
 
+  
   
   
   
@@ -3310,6 +3473,7 @@
 
           
 
+  
   
   
   
@@ -3330,9 +3494,10 @@
   
     string
   (format: <code>iri</code>)
-  (by regular expression: <code>^https://.*$</code>)
+  (by regular expression: <code>^https://.*$</code>, for example <code>https://www.mdcr.cz/Dokumenty/Verejna-doprava/Jizdni-rady,-kalendare-pro-jizdni-rady,-metodi-(1)/Jizdni-rady-verejne-dopravy</code>)
 
 
+  
   
   
   
@@ -3355,9 +3520,10 @@
   
     string
   (format: <code>iri</code>)
-  (by regular expression: <code>^http</code>)
+  (by regular expression: <code>^http</code>, for example <code>https://www.e-sbirka.cz/eli/cz/sb/1999/106/2025-08-19</code>, <code>https://www.e-sbirka.cz/eli/cz/sb/1999/106/2025-08-19/dokument/norma/cast_1/par_3a/odst_6</code>, <code>https://www.e-sbirka.cz/eli/cz/sb/1999/106/2025-08-19/dokument/norma/cast_1/par_5a/odst_1</code>)
 
 
+  
   
   
   
@@ -3373,6 +3539,7 @@
   
   
   
+  
 
 
         </li>
@@ -3381,6 +3548,7 @@
 
 
 
+  
   
   
   
@@ -3431,6 +3599,7 @@
   
   
   
+  
 
 
         </li>
@@ -3460,6 +3629,7 @@
   
   
   
+  
 
 </li>
         <li>      
@@ -3478,10 +3648,12 @@
   
   
   
+  
 
 
      and must contain: <code>&quot;Specifikace podmínek užití&quot;</code>
 
+  
   
   
   
@@ -3495,6 +3667,7 @@
 
 
 
+  
 
 
         </li>
@@ -3517,6 +3690,20 @@
   
   
   
+      <div class="examples">
+
+        <strong>Examples:</strong>
+      <ul>
+          <li><pre><code>https://data.gov.cz/podmínky-užití/neobsahuje-autorská-díla/</code></pre></li>
+          <li><pre><code>https://data.gov.cz/podmínky-užití/není-autorskoprávně-chráněnou-databází/</code></pre></li>
+          <li><pre><code>https://data.gov.cz/podmínky-užití/není-chráněna-zvláštním-právem-pořizovatele-databáze/</code></pre></li>
+          <li><pre><code>https://creativecommons.org/licenses/by/4.0/</code></pre></li>
+          <li><pre><code>https://creativecommons.org/publicdomain/zero/1.0/</code></pre></li>
+          <li><pre><code>https://data.gov.cz/podmínky-užití/neobsahuje-osobní-údaje/</code></pre></li>
+          <li><pre><code>https://data.gov.cz/podmínky-užití/obsahuje-osobní-údaje/</code></pre></li>
+      </ul>
+    </div>
+
 
 
         </li>
@@ -3549,6 +3736,7 @@
   
   
   
+  
 
 
         </li>
@@ -3570,6 +3758,7 @@
   
   
   
+  
 
 
         </li>
@@ -3578,6 +3767,7 @@
 
 
 
+  
   
   
   
@@ -3608,6 +3798,20 @@
   
   
   
+      <div class="examples">
+
+        <strong>Examples:</strong>
+      <ul>
+          <li><pre><code>https://data.gov.cz/podmínky-užití/neobsahuje-autorská-díla/</code></pre></li>
+          <li><pre><code>https://data.gov.cz/podmínky-užití/není-autorskoprávně-chráněnou-databází/</code></pre></li>
+          <li><pre><code>https://data.gov.cz/podmínky-užití/není-chráněna-zvláštním-právem-pořizovatele-databáze/</code></pre></li>
+          <li><pre><code>https://creativecommons.org/licenses/by/4.0/</code></pre></li>
+          <li><pre><code>https://creativecommons.org/publicdomain/zero/1.0/</code></pre></li>
+          <li><pre><code>https://data.gov.cz/podmínky-užití/neobsahuje-osobní-údaje/</code></pre></li>
+          <li><pre><code>https://data.gov.cz/podmínky-užití/obsahuje-osobní-údaje/</code></pre></li>
+      </ul>
+    </div>
+
 
 
         </li>
@@ -3640,6 +3844,7 @@
   
   
   
+  
 
 
         </li>
@@ -3661,6 +3866,7 @@
   
   
   
+  
 
 
         </li>
@@ -3669,6 +3875,7 @@
 
 
 
+  
   
   
   
@@ -3699,6 +3906,20 @@
   
   
   
+      <div class="examples">
+
+        <strong>Examples:</strong>
+      <ul>
+          <li><pre><code>https://data.gov.cz/podmínky-užití/neobsahuje-autorská-díla/</code></pre></li>
+          <li><pre><code>https://data.gov.cz/podmínky-užití/není-autorskoprávně-chráněnou-databází/</code></pre></li>
+          <li><pre><code>https://data.gov.cz/podmínky-užití/není-chráněna-zvláštním-právem-pořizovatele-databáze/</code></pre></li>
+          <li><pre><code>https://creativecommons.org/licenses/by/4.0/</code></pre></li>
+          <li><pre><code>https://creativecommons.org/publicdomain/zero/1.0/</code></pre></li>
+          <li><pre><code>https://data.gov.cz/podmínky-užití/neobsahuje-osobní-údaje/</code></pre></li>
+          <li><pre><code>https://data.gov.cz/podmínky-užití/obsahuje-osobní-údaje/</code></pre></li>
+      </ul>
+    </div>
+
 
 
         </li>
@@ -3721,6 +3942,20 @@
   
   
   
+      <div class="examples">
+
+        <strong>Examples:</strong>
+      <ul>
+          <li><pre><code>https://data.gov.cz/podmínky-užití/neobsahuje-autorská-díla/</code></pre></li>
+          <li><pre><code>https://data.gov.cz/podmínky-užití/není-autorskoprávně-chráněnou-databází/</code></pre></li>
+          <li><pre><code>https://data.gov.cz/podmínky-užití/není-chráněna-zvláštním-právem-pořizovatele-databáze/</code></pre></li>
+          <li><pre><code>https://creativecommons.org/licenses/by/4.0/</code></pre></li>
+          <li><pre><code>https://creativecommons.org/publicdomain/zero/1.0/</code></pre></li>
+          <li><pre><code>https://data.gov.cz/podmínky-užití/neobsahuje-osobní-údaje/</code></pre></li>
+          <li><pre><code>https://data.gov.cz/podmínky-užití/obsahuje-osobní-údaje/</code></pre></li>
+      </ul>
+    </div>
+
 
 
         </li>
@@ -3729,6 +3964,7 @@
 
 
 
+  
   
   
   
@@ -3779,6 +4015,7 @@
   
   
   
+  
 
 
         </li>
@@ -3808,6 +4045,7 @@
   
   
   
+  
 
 </li>
         <li>      
@@ -3826,10 +4064,12 @@
   
   
   
+  
 
 
      and must contain: <code>&quot;Distribuce&quot;</code>
 
+  
   
   
   
@@ -3843,6 +4083,7 @@
 
 
 
+  
 
 
         </li>
@@ -3866,9 +4107,10 @@
   
     string
   (format: <code>iri</code>)
-  (by regular expression: <code>^https://.*$</code>)
+  (by regular expression: <code>^https://.*$</code>, for example <code>https://www.trebic.cz/zdroj/aktualita/2020/dopadení-lupiče-na-francouzské-ulici</code>)
 
 
+  
   
   
   
@@ -3891,9 +4133,10 @@
   
     string
   (format: <code>iri</code>)
-  (by regular expression: <code>^http</code>)
+  (by regular expression: <code>^http</code>, for example <code>https://www.e-sbirka.cz/eli/cz/sb/1999/106/2025-08-19</code>, <code>https://www.e-sbirka.cz/eli/cz/sb/1999/106/2025-08-19/dokument/norma/cast_1/par_3a/odst_6</code>, <code>https://www.e-sbirka.cz/eli/cz/sb/1999/106/2025-08-19/dokument/norma/cast_1/par_5a/odst_1</code>)
 
 
+  
   
   
   
@@ -3903,6 +4146,7 @@
 
           
 
+  
   
   
   
@@ -3941,6 +4185,7 @@
   
   
   
+  
 
 
         </li>
@@ -3962,6 +4207,7 @@
   
   
   
+  
 
 
         </li>
@@ -3970,6 +4216,7 @@
 
 
 
+  
   
   
   
@@ -3992,9 +4239,10 @@
   
     string
   (format: <code>iri</code>)
-  (by regular expression: <code>^https://.*$</code>)
+  (by regular expression: <code>^https://.*$</code>, for example <code>https://www.trebic.cz/zdroj/aktualita/2020/dopadení-lupiče-na-francouzské-ulici</code>)
 
 
+  
   
   
   
@@ -4014,9 +4262,10 @@
   
     string
   (format: <code>iri</code>)
-  (by regular expression: <code>^http://publications\.europa\.eu/resource/authority/file-type/.*$</code>)
+  (by regular expression: <code>^http://publications\.europa\.eu/resource/authority/file-type/.*$</code>, for example <code>http://publications.europa.eu/resource/authority/file-type/CSV</code>)
 
 
+  
   
   
   
@@ -4036,9 +4285,10 @@
   
     string
   (format: <code>iri</code>)
-  (by regular expression: <code>^http://www\.iana\.org/assignments/media-types/.*$</code>)
+  (by regular expression: <code>^http://www\.iana\.org/assignments/media-types/.*$</code>, for example <code>http://www.iana.org/assignments/media-types/image/tiff</code>)
 
 
+  
   
   
   
@@ -4058,9 +4308,10 @@
   
     string
   (format: <code>iri</code>)
-  (by regular expression: <code>^https://.*$</code>)
+  (by regular expression: <code>^https://.*$</code>, for example <code>https://www.trebic.cz/zdroj/aktualita/2020/dopadení-lupiče-na-francouzské-ulici</code>)
 
 
+  
   
   
   
@@ -4080,9 +4331,10 @@
   
     string
   (format: <code>iri</code>)
-  (by regular expression: <code>^http://www\.iana\.org/assignments/media-types/.*$</code>)
+  (by regular expression: <code>^http://www\.iana\.org/assignments/media-types/.*$</code>, for example <code>http://www.iana.org/assignments/media-types/image/tiff</code>)
 
 
+  
   
   
   
@@ -4102,9 +4354,10 @@
   
     string
   (format: <code>iri</code>)
-  (by regular expression: <code>^http://www\.iana\.org/assignments/media-types/.*$</code>)
+  (by regular expression: <code>^http://www\.iana\.org/assignments/media-types/.*$</code>, for example <code>http://www.iana.org/assignments/media-types/image/tiff</code>)
 
 
+  
   
   
   
@@ -4118,6 +4371,7 @@
 
 
 
+  
   
   
   
@@ -4168,6 +4422,7 @@
   
   
   
+  
 
 
         </li>
@@ -4197,6 +4452,7 @@
   
   
   
+  
 
 </li>
         <li>      
@@ -4215,10 +4471,12 @@
   
   
   
+  
 
 
      and must contain: <code>&quot;Specifikace podmínek užití&quot;</code>
 
+  
   
   
   
@@ -4232,6 +4490,7 @@
 
 
 
+  
 
 
         </li>
@@ -4254,6 +4513,20 @@
   
   
   
+      <div class="examples">
+
+        <strong>Examples:</strong>
+      <ul>
+          <li><pre><code>https://data.gov.cz/podmínky-užití/neobsahuje-autorská-díla/</code></pre></li>
+          <li><pre><code>https://data.gov.cz/podmínky-užití/není-autorskoprávně-chráněnou-databází/</code></pre></li>
+          <li><pre><code>https://data.gov.cz/podmínky-užití/není-chráněna-zvláštním-právem-pořizovatele-databáze/</code></pre></li>
+          <li><pre><code>https://creativecommons.org/licenses/by/4.0/</code></pre></li>
+          <li><pre><code>https://creativecommons.org/publicdomain/zero/1.0/</code></pre></li>
+          <li><pre><code>https://data.gov.cz/podmínky-užití/neobsahuje-osobní-údaje/</code></pre></li>
+          <li><pre><code>https://data.gov.cz/podmínky-užití/obsahuje-osobní-údaje/</code></pre></li>
+      </ul>
+    </div>
+
 
 
         </li>
@@ -4286,6 +4559,7 @@
   
   
   
+  
 
 
         </li>
@@ -4307,6 +4581,7 @@
   
   
   
+  
 
 
         </li>
@@ -4315,6 +4590,7 @@
 
 
 
+  
   
   
   
@@ -4345,6 +4621,20 @@
   
   
   
+      <div class="examples">
+
+        <strong>Examples:</strong>
+      <ul>
+          <li><pre><code>https://data.gov.cz/podmínky-užití/neobsahuje-autorská-díla/</code></pre></li>
+          <li><pre><code>https://data.gov.cz/podmínky-užití/není-autorskoprávně-chráněnou-databází/</code></pre></li>
+          <li><pre><code>https://data.gov.cz/podmínky-užití/není-chráněna-zvláštním-právem-pořizovatele-databáze/</code></pre></li>
+          <li><pre><code>https://creativecommons.org/licenses/by/4.0/</code></pre></li>
+          <li><pre><code>https://creativecommons.org/publicdomain/zero/1.0/</code></pre></li>
+          <li><pre><code>https://data.gov.cz/podmínky-užití/neobsahuje-osobní-údaje/</code></pre></li>
+          <li><pre><code>https://data.gov.cz/podmínky-užití/obsahuje-osobní-údaje/</code></pre></li>
+      </ul>
+    </div>
+
 
 
         </li>
@@ -4377,6 +4667,7 @@
   
   
   
+  
 
 
         </li>
@@ -4398,6 +4689,7 @@
   
   
   
+  
 
 
         </li>
@@ -4406,6 +4698,7 @@
 
 
 
+  
   
   
   
@@ -4436,6 +4729,20 @@
   
   
   
+      <div class="examples">
+
+        <strong>Examples:</strong>
+      <ul>
+          <li><pre><code>https://data.gov.cz/podmínky-užití/neobsahuje-autorská-díla/</code></pre></li>
+          <li><pre><code>https://data.gov.cz/podmínky-užití/není-autorskoprávně-chráněnou-databází/</code></pre></li>
+          <li><pre><code>https://data.gov.cz/podmínky-užití/není-chráněna-zvláštním-právem-pořizovatele-databáze/</code></pre></li>
+          <li><pre><code>https://creativecommons.org/licenses/by/4.0/</code></pre></li>
+          <li><pre><code>https://creativecommons.org/publicdomain/zero/1.0/</code></pre></li>
+          <li><pre><code>https://data.gov.cz/podmínky-užití/neobsahuje-osobní-údaje/</code></pre></li>
+          <li><pre><code>https://data.gov.cz/podmínky-užití/obsahuje-osobní-údaje/</code></pre></li>
+      </ul>
+    </div>
+
 
 
         </li>
@@ -4458,6 +4765,20 @@
   
   
   
+      <div class="examples">
+
+        <strong>Examples:</strong>
+      <ul>
+          <li><pre><code>https://data.gov.cz/podmínky-užití/neobsahuje-autorská-díla/</code></pre></li>
+          <li><pre><code>https://data.gov.cz/podmínky-užití/není-autorskoprávně-chráněnou-databází/</code></pre></li>
+          <li><pre><code>https://data.gov.cz/podmínky-užití/není-chráněna-zvláštním-právem-pořizovatele-databáze/</code></pre></li>
+          <li><pre><code>https://creativecommons.org/licenses/by/4.0/</code></pre></li>
+          <li><pre><code>https://creativecommons.org/publicdomain/zero/1.0/</code></pre></li>
+          <li><pre><code>https://data.gov.cz/podmínky-užití/neobsahuje-osobní-údaje/</code></pre></li>
+          <li><pre><code>https://data.gov.cz/podmínky-užití/obsahuje-osobní-údaje/</code></pre></li>
+      </ul>
+    </div>
+
 
 
         </li>
@@ -4466,6 +4787,7 @@
 
 
 
+  
   
   
   
@@ -4524,6 +4846,7 @@
   
   
   
+  
 
 </li>
         <li>      
@@ -4542,10 +4865,12 @@
   
   
   
+  
 
 
      and must contain: <code>&quot;Jednotlivec&quot;</code>
 
+  
   
   
   
@@ -4559,6 +4884,7 @@
 
 
 
+  
 
 
         </li>
@@ -4591,6 +4917,7 @@
   
   
   
+  
 
 
         </li>
@@ -4612,6 +4939,7 @@
   
   
   
+  
 
 
         </li>
@@ -4620,6 +4948,7 @@
 
 
 
+  
   
   
   
@@ -4642,9 +4971,10 @@
   
     string
   (format: <code>iri</code>)
-  (by regular expression: <code>^mailto:[^@]+@[^@]+</code>)
+  (by regular expression: <code>^mailto:[^@]+@[^@]+</code>, for example <code>mailto:jan.novak@organizace.cz</code>)
 
 
+  
   
   
   
@@ -4658,6 +4988,7 @@
 
 
 
+  
   
   
   
@@ -4717,6 +5048,7 @@
   
   
   
+  
 
 </li>
         <li>      
@@ -4735,10 +5067,12 @@
   
   
   
+  
 
 
      and must contain: <code>&quot;Organizace&quot;</code>
 
+  
   
   
   
@@ -4752,6 +5086,7 @@
 
 
 
+  
 
 
         </li>
@@ -4784,6 +5119,7 @@
   
   
   
+  
 
 
         </li>
@@ -4805,6 +5141,7 @@
   
   
   
+  
 
 
         </li>
@@ -4813,6 +5150,7 @@
 
 
 
+  
   
   
   
@@ -4835,9 +5173,10 @@
   
     string
   (format: <code>iri</code>)
-  (by regular expression: <code>^mailto:[^@]+@[^@]+</code>)
+  (by regular expression: <code>^mailto:[^@]+@[^@]+</code>, for example <code>mailto:jan.novak@organizace.cz</code>)
 
 
+  
   
   
   
@@ -4851,6 +5190,7 @@
 
 
 
+  
   
   
   
@@ -4909,6 +5249,7 @@
   
   
   
+  
 
 </li>
         <li>      
@@ -4927,10 +5268,12 @@
   
   
   
+  
 
 
      and must contain: <code>&quot;Časový interval&quot;</code>
 
+  
   
   
   
@@ -4944,6 +5287,7 @@
 
 
 
+  
 
 
         </li>
@@ -4961,6 +5305,7 @@
   
 
 
+  
   
   
   
@@ -4988,6 +5333,7 @@
   
   
   
+  
 
 
         </li>
@@ -4996,6 +5342,7 @@
 
 
 
+  
   
   
   
@@ -5571,6 +5918,7 @@
                 <td>Definition</td>
                 <td>A conceptual entity that represents the information published.</td>
               </tr>
+              
           
                 <tr>
                   <td>Hierarchy</td>
@@ -5725,6 +6073,7 @@
               
                   </td>
                   </tr>
+                  
               
               
               
@@ -5820,6 +6169,7 @@
               
                   </td>
                   </tr>
+                  
               
               
               
@@ -5916,6 +6266,7 @@
               
                   </td>
                   </tr>
+                  
               
               
               
@@ -6005,6 +6356,7 @@
               
                   </td>
                   </tr>
+                  
               
               
               
@@ -6110,6 +6462,7 @@
               
                   </td>
                   </tr>
+                  
               
               
               
@@ -6206,6 +6559,7 @@
               
                   </td>
                   </tr>
+                  
               
               
               
@@ -6297,6 +6651,7 @@
               
                   </td>
                   </tr>
+                  
               
               
               
@@ -6402,6 +6757,7 @@
               
                   </td>
                   </tr>
+                  
               
               
               
@@ -6488,6 +6844,7 @@
               
                   </td>
                   </tr>
+                  
               
               
               
@@ -6593,6 +6950,7 @@
               
                   </td>
                   </tr>
+                  
               
               
               
@@ -6698,6 +7056,7 @@
               
                   </td>
                   </tr>
+                  
               
               
               
@@ -6793,6 +7152,7 @@
               
                   </td>
                   </tr>
+                  
               
               
               
@@ -6884,6 +7244,7 @@
               
                   </td>
                   </tr>
+                  
               
               
               
@@ -6966,6 +7327,7 @@
               
                   </td>
                   </tr>
+                  
               
               
               
@@ -7067,6 +7429,7 @@
               
                   </td>
                   </tr>
+                  
               
               
               
@@ -7172,6 +7535,7 @@
               
                   </td>
                   </tr>
+                  
               
               
               
@@ -7277,6 +7641,7 @@
               
                   </td>
                   </tr>
+                  
               
               
               
@@ -7368,6 +7733,7 @@
               
                   </td>
                   </tr>
+                  
               
               
               
@@ -7478,6 +7844,7 @@
               
                   </td>
                   </tr>
+                  
               
               
               
@@ -7562,6 +7929,7 @@
                 <td>Definition</td>
                 <td>A specific representation of a dataset. A dataset might be available in multiple serializations that may differ in various ways, including natural language, media-type or format, schematic organization, temporal and spatial resolution, level of detail or profiles (which might specify any or all of the above).</td>
               </tr>
+              
           
                 <tr>
                   <td>Hierarchy</td>
@@ -7662,6 +8030,7 @@
               
                   </td>
                   </tr>
+                  
               
               
               
@@ -7757,6 +8126,7 @@
               
                   </td>
                   </tr>
+                  
               
               
               
@@ -7848,6 +8218,7 @@
               
                   </td>
                   </tr>
+                  
               
               
               
@@ -7934,6 +8305,7 @@
               
                   </td>
                   </tr>
+                  
               
               
               
@@ -8013,6 +8385,7 @@
                 <td>Definition</td>
                 <td>A specific representation of a dataset. A dataset might be available in multiple serializations that may differ in various ways, including natural language, media-type or format, schematic organization, temporal and spatial resolution, level of detail or profiles (which might specify any or all of the above).</td>
               </tr>
+              
           
                 <tr>
                   <td>Hierarchy</td>
@@ -8193,6 +8566,7 @@
               
                   </td>
                   </tr>
+                  
               
               
               
@@ -8288,6 +8662,7 @@
               
                   </td>
                   </tr>
+                  
               
               
               
@@ -8391,6 +8766,7 @@
               
                   </td>
                   </tr>
+                  
               
               
               
@@ -8486,6 +8862,7 @@
               
                   </td>
                   </tr>
+                  
               
               
               
@@ -8592,6 +8969,7 @@
               
                   </td>
                   </tr>
+                  
               
               
               
@@ -8695,6 +9073,7 @@
               
                   </td>
                   </tr>
+                  
               
               
               
@@ -8783,6 +9162,7 @@
                 <td>Definition</td>
                 <td>A specific representation of a dataset. A dataset might be available in multiple serializations that may differ in various ways, including natural language, media-type or format, schematic organization, temporal and spatial resolution, level of detail or profiles (which might specify any or all of the above).</td>
               </tr>
+              
           
                 <tr>
                   <td>Hierarchy</td>
@@ -8963,6 +9343,7 @@
               
                   </td>
                   </tr>
+                  
               
               
               
@@ -9041,6 +9422,7 @@
                 <td>Definition</td>
                 <td>A collection of operations that provides access to one or more datasets or data processing functions.</td>
               </tr>
+              
           
                 <tr>
                   <td>Hierarchy</td>
@@ -9200,6 +9582,7 @@
               
                   </td>
                   </tr>
+                  
               
               
               
@@ -9290,6 +9673,7 @@
               
                   </td>
                   </tr>
+                  
               
               
               
@@ -9385,6 +9769,7 @@
               
                   </td>
                   </tr>
+                  
               
               
               
@@ -9471,6 +9856,7 @@
               
                   </td>
                   </tr>
+                  
               
               
               
@@ -9566,6 +9952,7 @@
               
                   </td>
                   </tr>
+                  
               
               
               
@@ -9648,6 +10035,7 @@
               
                   </td>
                   </tr>
+                  
               
               
               
@@ -9737,6 +10125,11 @@
                 <td>Definition</td>
                 <td>A collection of datasets that are published separately, but share some characteristics that group them.</td>
               </tr>
+                  <tr>
+                <td>Regular expression</td>
+                <td><code>^https://.*$</code></td>
+              </tr>
+          
           
                 <tr>
                   <td>Hierarchy</td>
@@ -9935,6 +10328,7 @@
               
                   </td>
                   </tr>
+                  
               
               
               
@@ -10030,6 +10424,7 @@
               
                   </td>
                   </tr>
+                  
               
               
               
@@ -10126,6 +10521,7 @@
               
                   </td>
                   </tr>
+                  
               
               
               
@@ -10215,6 +10611,7 @@
               
                   </td>
                   </tr>
+                  
               
               
               
@@ -10319,6 +10716,7 @@
               
                   </td>
                   </tr>
+                  
               
               
               
@@ -10415,6 +10813,7 @@
               
                   </td>
                   </tr>
+                  
               
               
               
@@ -10510,6 +10909,7 @@
               
                   </td>
                   </tr>
+                  
               
               
               
@@ -10615,6 +11015,7 @@
               
                   </td>
                   </tr>
+                  
               
               
               
@@ -10701,6 +11102,7 @@
               
                   </td>
                   </tr>
+                  
               
               
               
@@ -10807,6 +11209,7 @@
               
                   </td>
                   </tr>
+                  
               
               
               
@@ -10913,6 +11316,7 @@
               
                   </td>
                   </tr>
+                  
               
               
               
@@ -10995,6 +11399,7 @@
               
                   </td>
                   </tr>
+                  
               
               
               
@@ -11090,6 +11495,7 @@
               
                   </td>
                   </tr>
+                  
               
               
               
@@ -11195,6 +11601,7 @@
               
                   </td>
                   </tr>
+                  
               
               
               
@@ -11286,6 +11693,7 @@
               
                   </td>
                   </tr>
+                  
               
               
               
@@ -11380,6 +11788,7 @@
                 <td>Definition</td>
                 <td>Specifikace podmínek užití dle https://opendata.gov.cz/cinnost:stanoveni-podminek-uziti. (@cs)</td>
               </tr>
+              
           
                 <tr>
                   <td>Hierarchy</td>
@@ -11478,6 +11887,7 @@
               
                   </td>
                   </tr>
+                  
               
               
               
@@ -11549,6 +11959,7 @@
               
                   </td>
                   </tr>
+                  
               
               
               
@@ -11620,6 +12031,7 @@
               
                   </td>
                   </tr>
+                  
               
               
               
@@ -11691,6 +12103,7 @@
               
                   </td>
                   </tr>
+                  
               
               
               
@@ -11762,6 +12175,7 @@
               
                   </td>
                   </tr>
+                  
               
               
               
@@ -11833,6 +12247,7 @@
               
                   </td>
                   </tr>
+                  
               
               
               
@@ -11893,6 +12308,11 @@
                 <td>Definition</td>
                 <td>Any entity carrying out actions with respect to the entities Catalogue and the Catalogued Resources.</td>
               </tr>
+                  <tr>
+                <td>Examples</td>
+                <td><code>https://rpp-opendata.egon.gov.cz/odrpp/zdroj/orgán-veřejné-moci/66003008</code></td>
+              </tr>
+          
           
                 <tr>
                   <td>Hierarchy</td>
@@ -11978,6 +12398,7 @@
                 <td>Definition</td>
                 <td>An idea or notion; a unit of thought.</td>
               </tr>
+              
           
                 <tr>
                   <td>Hierarchy</td>
@@ -12048,6 +12469,15 @@
                 <td>Definition</td>
                 <td>An idea or notion; a unit of thought.</td>
               </tr>
+                  <tr>
+                <td>Regular expression</td>
+                <td><code>^http://publications\.europa\.eu/resource/authority/data-theme/.*$</code></td>
+              </tr>
+              <tr>
+                <td>Examples</td>
+                <td><code>http://publications.europa.eu/resource/authority/data-theme/TRAN</code></td>
+              </tr>
+          
           
                 <tr>
                   <td>Hierarchy</td>
@@ -12133,6 +12563,15 @@
                 <td>Definition</td>
                 <td>An idea or notion; a unit of thought.</td>
               </tr>
+                  <tr>
+                <td>Regular expression</td>
+                <td><code>^http://eurovoc\.europa\.eu/.*$</code></td>
+              </tr>
+              <tr>
+                <td>Examples</td>
+                <td><code>http://eurovoc.europa.eu/1001</code></td>
+              </tr>
+          
           
                 <tr>
                   <td>Hierarchy</td>
@@ -12218,6 +12657,15 @@
                 <td>Definition</td>
                 <td>A textual resource intended for human consumption that contains information, e.g. a web page about a Dataset.</td>
               </tr>
+                  <tr>
+                <td>Regular expression</td>
+                <td><code>^https://.*$</code></td>
+              </tr>
+              <tr>
+                <td>Examples</td>
+                <td><code>https://www.mdcr.cz/Dokumenty/Verejna-doprava/Jizdni-rady,-kalendare-pro-jizdni-rady,-metodi-(1)/Jizdni-rady-verejne-dopravy</code></td>
+              </tr>
+          
           
                 <tr>
                   <td>Hierarchy</td>
@@ -12293,6 +12741,15 @@
                 <td>Definition</td>
                 <td>E-mail address identified using mailto: IRI.</td>
               </tr>
+                  <tr>
+                <td>Regular expression</td>
+                <td><code>^mailto:[^@]+@[^@]+</code></td>
+              </tr>
+              <tr>
+                <td>Examples</td>
+                <td><code>mailto:jan.novak@organizace.cz</code></td>
+              </tr>
+          
           
                 <tr>
                   <td>Hierarchy</td>
@@ -12383,6 +12840,15 @@
                 <td>Definition</td>
                 <td>A rate at which something recurs, e.g. the publication of a Dataset.</td>
               </tr>
+                  <tr>
+                <td>Regular expression</td>
+                <td><code>^http://publications\.europa\.eu/resource/authority/frequency/.*$</code></td>
+              </tr>
+              <tr>
+                <td>Examples</td>
+                <td><code>http://publications.europa.eu/resource/authority/frequency/MONTHLY</code></td>
+              </tr>
+          
           
                 <tr>
                   <td>Hierarchy</td>
@@ -12468,6 +12934,7 @@
                 <td>Definition</td>
                 <td>An object representing a single person or entity</td>
               </tr>
+              
           
                 <tr>
                   <td>Hierarchy</td>
@@ -12622,6 +13089,7 @@
                 <td>Definition</td>
                 <td>A description following the vCard specification, e.g. to provide telephone number and e-mail address for a contact point.</td>
               </tr>
+              
           
                 <tr>
                   <td>Hierarchy</td>
@@ -12725,6 +13193,7 @@
               
                   </td>
                   </tr>
+                  
               
               
               
@@ -12797,6 +13266,7 @@
               
                   </td>
                   </tr>
+                  
               
               
               
@@ -12853,6 +13323,15 @@
                 <td>Definition</td>
                 <td>This class represents the legislation,policy or policies that lie behind the Rules that govern the service.</td>
               </tr>
+                  <tr>
+                <td>Regular expression</td>
+                <td><code>^http</code></td>
+              </tr>
+              <tr>
+                <td>Examples</td>
+                <td><code>https://www.e-sbirka.cz/eli/cz/sb/1999/106/2025-08-19</code>, <code>https://www.e-sbirka.cz/eli/cz/sb/1999/106/2025-08-19/dokument/norma/cast_1/par_3a/odst_6</code>, <code>https://www.e-sbirka.cz/eli/cz/sb/1999/106/2025-08-19/dokument/norma/cast_1/par_5a/odst_1</code></td>
+              </tr>
+          
           
                 <tr>
                   <td>Hierarchy</td>
@@ -12957,6 +13436,11 @@
                 <td>Definition</td>
                 <td>A legal document giving official permission to do something with a resource.</td>
               </tr>
+                  <tr>
+                <td>Examples</td>
+                <td><code>https://data.gov.cz/podmínky-užití/neobsahuje-autorská-díla/</code>, <code>https://data.gov.cz/podmínky-užití/není-autorskoprávně-chráněnou-databází/</code>, <code>https://data.gov.cz/podmínky-užití/není-chráněna-zvláštním-právem-pořizovatele-databáze/</code>, <code>https://creativecommons.org/licenses/by/4.0/</code>, <code>https://creativecommons.org/publicdomain/zero/1.0/</code>, <code>https://data.gov.cz/podmínky-užití/neobsahuje-osobní-údaje/</code>, <code>https://data.gov.cz/podmínky-užití/obsahuje-osobní-údaje/</code></td>
+              </tr>
+          
           
                 <tr>
                   <td>Hierarchy</td>
@@ -13031,6 +13515,11 @@
                 <td>Definition</td>
                 <td>A spatial region or named place.</td>
               </tr>
+                  <tr>
+                <td>Examples</td>
+                <td><code>http://publications.europa.eu/resource/authority/continent/EUROPE</code>, <code>https://sws.geonames.org/6290257/</code></td>
+              </tr>
+          
           
                 <tr>
                   <td>Hierarchy</td>
@@ -13125,6 +13614,15 @@
                 <td>Definition</td>
                 <td>A spatial region or named place.</td>
               </tr>
+                  <tr>
+                <td>Regular expression</td>
+                <td><code>^https://linked.cuzk.cz/resource/ruian/.*$</code></td>
+              </tr>
+              <tr>
+                <td>Examples</td>
+                <td><code>https://linked.cuzk.cz/resource/ruian/stat/1</code>, <code>https://linked.cuzk.cz/resource/ruian/vusc/108</code>, <code>https://linked.cuzk.cz/resource/ruian/obec/502235</code></td>
+              </tr>
+          
           
                 <tr>
                   <td>Hierarchy</td>
@@ -13219,6 +13717,15 @@
                 <td>Definition</td>
                 <td>A file format or physical medium.</td>
               </tr>
+                  <tr>
+                <td>Regular expression</td>
+                <td><code>^http://www\.iana\.org/assignments/media-types/.*$</code></td>
+              </tr>
+              <tr>
+                <td>Examples</td>
+                <td><code>http://www.iana.org/assignments/media-types/image/tiff</code></td>
+              </tr>
+          
           
                 <tr>
                   <td>Hierarchy</td>
@@ -13314,6 +13821,15 @@
                 <td>Definition</td>
                 <td>A media type or extent.</td>
               </tr>
+                  <tr>
+                <td>Regular expression</td>
+                <td><code>^http://publications\.europa\.eu/resource/authority/file-type/.*$</code></td>
+              </tr>
+              <tr>
+                <td>Examples</td>
+                <td><code>http://publications.europa.eu/resource/authority/file-type/CSV</code></td>
+              </tr>
+          
           
                 <tr>
                   <td>Hierarchy</td>
@@ -13398,6 +13914,7 @@
                 <td>An object representing an organization.  An organization is a single entity, and might represent a business or government, a department or division within a business or government, a club, an association, or the like.
           </td>
               </tr>
+              
           
                 <tr>
                   <td>Hierarchy</td>
@@ -13554,6 +14071,7 @@
                 <td>Definition</td>
                 <td>An interval of time that is named or defined by its start and end.</td>
               </tr>
+              
           
                 <tr>
                   <td>Hierarchy</td>
@@ -13667,6 +14185,7 @@
               
                   </td>
                   </tr>
+                  
               
               
               
@@ -13760,6 +14279,7 @@
               
                   </td>
                   </tr>
+                  
               
               
               
@@ -13839,6 +14359,15 @@
                 <td>Definition</td>
                 <td>Anything described by RDF.</td>
               </tr>
+                  <tr>
+                <td>Regular expression</td>
+                <td><code>^https://.*$</code></td>
+              </tr>
+              <tr>
+                <td>Examples</td>
+                <td><code>https://www.trebic.cz/zdroj/aktualita/2020/dopadení-lupiče-na-francouzské-ulici</code></td>
+              </tr>
+          
           
                 <tr>
                   <td>Hierarchy</td>
@@ -13923,6 +14452,15 @@
                 <td>Definition</td>
                 <td>A standard or other specification to which a resource conforms.</td>
               </tr>
+                  <tr>
+                <td>Regular expression</td>
+                <td><code>^https://.*$</code></td>
+              </tr>
+              <tr>
+                <td>Examples</td>
+                <td><code>https://ofn.gov.cz/turistické-cíle/2020-07-01/</code></td>
+              </tr>
+          
           
                 <tr>
                   <td>Hierarchy</td>

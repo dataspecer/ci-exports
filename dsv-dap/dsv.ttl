@@ -334,12 +334,12 @@
     dsv:specializes :Property;
     dsv:reusesPropertyValue [
   a dsv:PropertyValueReuse;
-  dsv:reusedProperty skos:prefLabel;
+  dsv:reusedProperty rdfs:label;
   dsv:reusedAsProperty skos:prefLabel;
   dsv:reusedFromResource owl:ObjectProperty
 ], [
   a dsv:PropertyValueReuse;
-  dsv:reusedProperty skos:definition;
+  dsv:reusedProperty rdfs:comment;
   dsv:reusedAsProperty skos:definition;
   dsv:reusedFromResource owl:ObjectProperty
 ];
@@ -351,12 +351,12 @@
     dsv:specializes :Property;
     dsv:reusesPropertyValue [
   a dsv:PropertyValueReuse;
-  dsv:reusedProperty skos:prefLabel;
+  dsv:reusedProperty rdfs:label;
   dsv:reusedAsProperty skos:prefLabel;
   dsv:reusedFromResource owl:DatatypeProperty
 ], [
   a dsv:PropertyValueReuse;
-  dsv:reusedProperty skos:definition;
+  dsv:reusedProperty rdfs:comment;
   dsv:reusedAsProperty skos:definition;
   dsv:reusedFromResource owl:DatatypeProperty
 ];
