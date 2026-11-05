@@ -108,51 +108,9 @@
       <ccmm:alternate_title_type>
          <ccmm:iri>https://w3id.org/tib/datacite/vocab/titleType/TranslatedTitle</ccmm:iri>
          <ccmm:label xml:lang="cs">Přeložený název</ccmm:label>
-         <ccmm:label xml:lang="en">Translated Title</ccmm:label>
+         <ccmm:label xml:lang="en">TranslatedTitle</ccmm:label>
       </ccmm:alternate_title_type>
    </ccmm:alternate_title>
-   <ccmm:qualified_attribution>
-      <ccmm:attributed_agent>
-         <ccmm:person>
-            <ccmm:identifier>
-               <ccmm:iri>https://orcid.org/0023-0802-44X6-26X0</ccmm:iri>
-               <ccmm:value>0023-0802-44X6-26X0</ccmm:value>
-               <ccmm:scheme>
-                  <ccmm:iri>https://orcid.org/</ccmm:iri>
-                  <ccmm:label xml:lang="en">Open Research and Contributor ID</ccmm:label>
-                  <ccmm:notation>ORCID</ccmm:notation>
-               </ccmm:scheme>
-            </ccmm:identifier>
-            <ccmm:name>Ivan Janouch</ccmm:name>
-            <ccmm:given_name>Ivan</ccmm:given_name>
-            <ccmm:family_name>Janouch</ccmm:family_name>
-            <ccmm:contact_point>
-               <ccmm:email>256384@muni.cz</ccmm:email>
-               <ccmm:phone>+420876543219</ccmm:phone>
-               <ccmm:address>
-                  <ccmm:full_address>Pražská 3, 60200, Brno</ccmm:full_address>
-               </ccmm:address>
-            </ccmm:contact_point>
-            <ccmm:affiliation>
-               <ccmm:identifier>
-                  <ccmm:iri>https://ror.org/02j46qs45</ccmm:iri>
-                  <ccmm:value>02j46qs45</ccmm:value>
-                  <ccmm:scheme>
-                     <ccmm:iri>https://ror.org/</ccmm:iri>
-                     <ccmm:label xml:lang="en">Research Organization Registry</ccmm:label>
-                     <ccmm:notation>ROR</ccmm:notation>
-                  </ccmm:scheme>
-               </ccmm:identifier>
-               <ccmm:name>Masarykova Univerzita</ccmm:name>
-            </ccmm:affiliation>
-         </ccmm:person>
-      </ccmm:attributed_agent>
-      <ccmm:role>
-         <ccmm:iri>https://vocabs.ccmm.cz/registry/codelist/AgentRole/Publisher</ccmm:iri>
-         <ccmm:label xml:lang="en">Publisher</ccmm:label>
-         <ccmm:label xml:lang="cs">Vydavatel</ccmm:label>
-      </ccmm:role>
-   </ccmm:qualified_attribution>
    <ccmm:qualified_attribution>
       <ccmm:attributed_agent>
          <ccmm:person>
@@ -195,6 +153,34 @@
          <ccmm:label xml:lang="en">Creator</ccmm:label>
       </ccmm:role>
    </ccmm:qualified_attribution>
+   <ccmm:qualified_attribution>
+      <ccmm:attributed_agent>
+         <ccmm:organization>
+            <ccmm:identifier>
+               <ccmm:iri>https://ror.org/02j46qs45</ccmm:iri>
+               <ccmm:value>02j46qs45</ccmm:value>
+               <ccmm:scheme>
+                  <ccmm:iri>https://ror.org/</ccmm:iri>
+                  <ccmm:label xml:lang="en">Research Organization Registry</ccmm:label>
+                  <ccmm:notation>ROR</ccmm:notation>
+               </ccmm:scheme>
+            </ccmm:identifier>
+            <ccmm:name>Masarykova Univerzita</ccmm:name>
+            <ccmm:contact_point>
+               <ccmm:email>256384@muni.cz</ccmm:email>
+               <ccmm:phone>+420876543219</ccmm:phone>
+               <ccmm:address>
+                  <ccmm:full_address>Pražská 3, 60200, Brno</ccmm:full_address>
+               </ccmm:address>
+            </ccmm:contact_point>
+         </ccmm:organization>
+      </ccmm:attributed_agent>
+      <ccmm:role>
+         <ccmm:iri>https://vocabs.ccmm.cz/registry/codelist/AgentRole/Publisher</ccmm:iri>
+         <ccmm:label xml:lang="en">Publisher</ccmm:label>
+         <ccmm:label xml:lang="cs">Vydavatel</ccmm:label>
+      </ccmm:role>
+   </ccmm:qualified_attribution>
    <ccmm:publication_year>2025</ccmm:publication_year>
    <ccmm:time_reference>
       <ccmm:temporal_representation>
@@ -204,7 +190,7 @@
       </ccmm:temporal_representation>
       <ccmm:date_type>
          <ccmm:iri>https://w3id.org/tib/datacite/vocab/dateType/Created</ccmm:iri>
-         <ccmm:label xml:lang="en">Date Created</ccmm:label>
+         <ccmm:label xml:lang="en">Created</ccmm:label>
          <ccmm:label xml:lang="cs">Datum vytvoření</ccmm:label>
       </ccmm:date_type>
    </ccmm:time_reference>
@@ -221,7 +207,7 @@
       </ccmm:temporal_representation>
       <ccmm:date_type>
          <ccmm:iri>https://w3id.org/tib/datacite/vocab/dateType/Collected</ccmm:iri>
-         <ccmm:label xml:lang="en">Date Collected</ccmm:label>
+         <ccmm:label xml:lang="en">Collected</ccmm:label>
          <ccmm:label xml:lang="cs">Datum sběru</ccmm:label>
       </ccmm:date_type>
    </ccmm:time_reference>
@@ -248,6 +234,7 @@
    </ccmm:access_rights>
    <ccmm:subject>
       <ccmm:iri>http://inspire.ec.europa.eu/theme/ef</ccmm:iri>
+      <ccmm:label xml:lang="en">Environmental monitoring facilities</ccmm:label>
       <ccmm:definition xml:lang="en">Location and operation of environmental monitoring facilities
             includes observation and measurement of emissions, of the state of environmental media
             and of other ecosystem parameters (biodiversity, ecological conditions of vegetation,
@@ -260,6 +247,8 @@
    </ccmm:subject>
    <ccmm:subject>
       <ccmm:iri>https://vocabs.ccmm.cz/registry/codelist/SubjectCategory/10000/10500/10509</ccmm:iri>
+      <ccmm:label xml:lang="cs">Meteorologie, vědy o atmosféře</ccmm:label>
+      <ccmm:label xml:lang="en">Meteorology and atmospheric sciences</ccmm:label>
       <ccmm:classification_code>10509</ccmm:classification_code>
       <ccmm:subject_scheme>
          <ccmm:iri>https://vocabs.ccmm.cz/registry/codelist/SubjectCategory/</ccmm:iri>
@@ -272,7 +261,7 @@
       <ccmm:description_text xml:lang="cs">Tato datová sada obsahuje měření kvality ovzduší ve středních Čechách v
             roce 2024.</ccmm:description_text>
       <ccmm:description_type>
-         <ccmm:iri>https://w3id.org/tib/datacite/property/descriptionType/Abstract</ccmm:iri>
+         <ccmm:iri>https://w3id.org/tib/datacite/vocab/descriptionType/Abstract</ccmm:iri>
          <ccmm:label xml:lang="en">Abstract</ccmm:label>
          <ccmm:label xml:lang="cs">Abstrakt</ccmm:label>
       </ccmm:description_type>
@@ -378,7 +367,7 @@
       </ccmm:resource_type>
       <ccmm:resource_relation_type>
          <ccmm:iri>https://w3id.org/tib/datacite/vocab/relationType/IsCollectedBy</ccmm:iri>
-         <ccmm:label xml:lang="en">is collected by</ccmm:label>
+         <ccmm:label xml:lang="en">isCollectedBy</ccmm:label>
          <ccmm:label xml:lang="cs">je sbírán (čím)</ccmm:label>
       </ccmm:resource_relation_type>
    </ccmm:related_resource>
@@ -393,6 +382,7 @@
       </ccmm:resource_type>
       <ccmm:resource_relation_type>
          <ccmm:iri>https://w3id.org/tib/datacite/vocab/relationType/IsReferencedBy</ccmm:iri>
+         <ccmm:label xml:lang="en">IsReferencedBy</ccmm:label>
          <ccmm:label xml:lang="cs">je na něj odkazováno z (čeho)</ccmm:label>
       </ccmm:resource_relation_type>
    </ccmm:related_resource>
@@ -403,7 +393,7 @@
       <ccmm:resource_url>https://data.gov.cz/zdroj/datové-sady/00020699/c724d055011d82189bbfc3766ffd1eb7</ccmm:resource_url>
       <ccmm:resource_relation_type>
          <ccmm:iri>https://w3id.org/tib/datacite/vocab/relationType/HasMetadata</ccmm:iri>
-         <ccmm:label xml:lang="en">has metadata</ccmm:label>
+         <ccmm:label xml:lang="en">hasMetadata</ccmm:label>
          <ccmm:label xml:lang="cs">má metadata</ccmm:label>
       </ccmm:resource_relation_type>
    </ccmm:related_resource>
@@ -417,7 +407,7 @@
       </ccmm:resource_type>
       <ccmm:resource_relation_type>
          <ccmm:iri>https://w3id.org/tib/datacite/vocab/relationType/IsDerivedFrom</ccmm:iri>
-         <ccmm:label xml:lang="en">is derived from</ccmm:label>
+         <ccmm:label xml:lang="en">isDerivedFrom</ccmm:label>
          <ccmm:label xml:lang="cs">je odvozen od (čeho)</ccmm:label>
       </ccmm:resource_relation_type>
    </ccmm:related_resource>

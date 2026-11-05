@@ -35,7 +35,7 @@
                         <rdf:type rdf:resource="http://www.w3.org/ns/prov#Person"/>
                         <ns1:name>Pavel Steklý</ns1:name>
                         <ns2:given-name>Pavel</ns2:given-name>
-                        <ns2:family-name>Staeklý</ns2:family-name>
+                        <ns2:family-name>Steklý</ns2:family-name>
                      </rdf:Description>
                   </ns0:agent>
                   <ns1:hadRole>
@@ -192,6 +192,7 @@
                           xmlns:ns2="https://model.ccmm.cz/vocabulary/ccmm#"
                           rdf:about="https://vocabs.ccmm.cz/registry/codelist/SubjectCategory/30000/30300/30304">
             <rdf:type rdf:resource="https://w3id.org/tib/datacite/class/Subject"/>
+            <ns0:prefLabel xml:lang="cs">Veřejné a environmentální zdraví</ns0:prefLabel>
             <ns1:classificationCode>10509</ns1:classificationCode>
             <ns2:inSubjectScheme>
                <rdf:Description xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#"

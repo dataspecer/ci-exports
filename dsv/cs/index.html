@@ -32,37 +32,49 @@
           },
           "isProfileOf": [
             {
-              "title": {},
-              "hasResource": {
-                "hasArtifact": "https://www.w3.org/TR/dx-prof/rdf/prof.ttl"
-              }
-            },
-            {
-              "title": {},
-              "hasResource": {
-                "hasArtifact": "https://datagov-cz.github.io/cache-slovniku/skos.rdf"
-              }
-            },
-            {
-              "title": {},
-              "hasResource": {
-                "hasArtifact": "https://datagov-cz.github.io/cache-slovniku/rdf.ttl"
-              }
-            },
-            {
-              "title": {},
-              "hasResource": {
-                "hasArtifact": "https://www.w3.org/2002/07/owl#"
-              }
-            },
-            {
-              "title": {},
+              "title": {
+                "en": "rdfs"
+              },
               "hasResource": {
                 "hasArtifact": "https://datagov-cz.github.io/cache-slovniku/rdfs.ttl"
               }
             },
             {
-              "title": {},
+              "title": {
+                "en": "owl"
+              },
+              "hasResource": {
+                "hasArtifact": "https://www.w3.org/2002/07/owl#"
+              }
+            },
+            {
+              "title": {
+                "en": "rdf"
+              },
+              "hasResource": {
+                "hasArtifact": "https://datagov-cz.github.io/cache-slovniku/rdf.ttl"
+              }
+            },
+            {
+              "title": {
+                "en": "prof"
+              },
+              "hasResource": {
+                "hasArtifact": "https://www.w3.org/TR/dx-prof/rdf/prof.ttl"
+              }
+            },
+            {
+              "title": {
+                "en": "skos"
+              },
+              "hasResource": {
+                "hasArtifact": "https://datagov-cz.github.io/cache-slovniku/skos.rdf"
+              }
+            },
+            {
+              "title": {
+                "en": "dcterms"
+              },
               "hasResource": {
                 "hasArtifact": "https://datagov-cz.github.io/cache-slovniku/dublin_core_terms.ttl"
               }
@@ -315,12 +327,10 @@
     <section>
       <h2>Přehled</h2>
 
-        <a href="../c5d2ee2e-32c6-4c12-abb3-b80410162920.svg">
-          <figure>
-            <img src="../c5d2ee2e-32c6-4c12-abb3-b80410162920.svg" alt="Main view" />
-            <figcaption>Main view</figcaption>
-          </figure>
-        </a>
+        <figure>
+          <img src="../c5d2ee2e-32c6-4c12-abb3-b80410162920.svg" alt="Main view" />
+          <figcaption><a href="../c5d2ee2e-32c6-4c12-abb3-b80410162920.svg">Main view</a></figcaption>
+        </figure>
     </section>
 
 
@@ -345,6 +355,7 @@
                   <td>Definice</td>
                   <td>An Application Profile Specification Document contains human-readable version of an Application Profile. (@en)</td>
                 </tr>
+                
                 <tr>
                   <td>Rodičovské třídy</td>
                   <td><a href="http://www.w3.org/ns/dx/prof/ResourceDescriptor">Resource Descriptor (@en)</a></td>
@@ -367,6 +378,7 @@
                   <td>Definice</td>
                   <td>Konceptuální model obsahující profily tříd a vlastností různých slovníků.</td>
                 </tr>
+                
               </table>
             
             </section>            <section id="InvalidTermProfile">
@@ -385,6 +397,7 @@
                   <td>Definice</td>
                   <td>Neplatný profil je profil, který porušuje pravidla pro správné profilování. To může být z dobrého důvodu, jako je dočasná nekonzistence, která se má teprve projevit na profilované entitě.</td>
                 </tr>
+                
                 <tr>
                   <td>Rodičovské třídy</td>
                   <td><a href="#TermProfile">Profil</a></td>
@@ -407,6 +420,7 @@
                   <td>Definice</td>
                   <td>Profil entity. Umožňuje blíže specifikovat některé její vlastnost v kontextu aplikačního profilu.</td>
                 </tr>
+                
                 <tr>
                   <td>Podtřídy z tohoto slovníku</td>
                   <td><a href="#ClassProfile">Profil třídy</a>, <a href="#PropertyProfile">Profil vlastnosti</a>, <a href="#InvalidTermProfile">Nevalidní profil</a></td>
@@ -431,6 +445,7 @@
                   <td>Definice</td>
                   <td>Profile of an object property allows specification editors to specify profile-specific name, definition, usage note, domain, range, and cardinality. (@en)</td>
                 </tr>
+                
                 <tr>
                   <td>Rodičovské třídy</td>
                   <td><a href="#PropertyProfile">Profil vlastnosti</a></td>
@@ -455,6 +470,7 @@
                   <td>Definice</td>
                   <td>Profile of a class. Allows specification editors to specify profile specific names, definitions and usage notes. (@en)</td>
                 </tr>
+                
                 <tr>
                   <td>Rodičovské třídy</td>
                   <td><a href="#TermProfile">Profil</a></td>
@@ -479,6 +495,7 @@
                   <td>Definice</td>
                   <td>Profile of a property allows specification editors to specify profile specific name, definition, usage note, domain, range and cardinality. (@en)</td>
                 </tr>
+                
                 <tr>
                   <td>Rodičovské třídy</td>
                   <td><a href="#TermProfile">Profil</a></td>
@@ -507,6 +524,7 @@
                   <td>Definice</td>
                   <td>Profile of a datatype property allows specification editors to specify profile-specific name, definition, usage note, domain, datatype, and cardinality. (@en)</td>
                 </tr>
+                
                 <tr>
                   <td>Rodičovské třídy</td>
                   <td><a href="#PropertyProfile">Profil vlastnosti</a></td>
@@ -532,6 +550,7 @@
                   <td>Specifies, which values of which properties of which resources are reused for the current Profile.
             E.g. reuse of profile name, reuse of class name, reuse of profile definition, reuse of profile usage note, etc. (@en)</td>
                 </tr>
+                
               </table>
             
                 <p><strong>Vlastnosti</strong></p>
@@ -552,6 +571,7 @@
                   <td>Definice</td>
                   <td>A Vocabulary Specification Document is a human-readable representation of a Vocabulary. (@en)</td>
                 </tr>
+                
                 <tr>
                   <td>Rodičovské třídy</td>
                   <td><a href="http://www.w3.org/ns/dx/prof/ResourceDescriptor">Resource Descriptor (@en)</a></td>
@@ -593,6 +613,7 @@
             
                     
                   </td>
+                  
                   </tr>
               </table>
             
@@ -627,6 +648,7 @@
             
                     
                   </td>
+                  
                   </tr>
               </table>
             
@@ -661,6 +683,7 @@
             
                     
                   </td>
+                  
                   </tr>
               </table>
             
@@ -695,6 +718,7 @@
             
                     
                   </td>
+                  
                   </tr>
               </table>
             
@@ -729,6 +753,7 @@
             
                     
                   </td>
+                  
                   </tr>
               </table>
             
@@ -763,6 +788,7 @@
             
                     
                   </td>
+                  
                   </tr>
               </table>
             
@@ -797,6 +823,7 @@
             
                     
                   </td>
+                  
                   </tr>
               </table>
             
@@ -831,6 +858,7 @@
             
                     
                   </td>
+                  
                   </tr>
               </table>
             
@@ -865,6 +893,7 @@
             
                     
                   </td>
+                  
                   </tr>
               </table>
             
@@ -899,6 +928,7 @@
             
                     
                   </td>
+                  
                   </tr>
               </table>
             
@@ -933,6 +963,7 @@
             
                     
                   </td>
+                  
                   </tr>
               </table>
             
@@ -967,6 +998,7 @@
             
                     
                   </td>
+                  
                   </tr>
               </table>
             
@@ -1001,6 +1033,7 @@
             
                     
                   </td>
+                  
                   </tr>
               </table>
             
@@ -1035,6 +1068,7 @@
             
                     
                   </td>
+                  
                   </tr>
               </table>
             
@@ -1069,6 +1103,7 @@
             
                     
                   </td>
+                  
                   </tr>
               </table>
             

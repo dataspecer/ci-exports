@@ -64,6 +64,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://vocabs.ccmm.cz/registry/codelist/SubjectCategory/30000/30300/30304>
     a <https://w3id.org/tib/datacite/class/Subject> ;
+    skos:prefLabel "Veřejné a environmentální zdraví"@cs ;
     ccmm:inSubjectScheme <https://vocabs.ccmm.cz/registry/codelist/SubjectCategory/> ;
     datacite:classificationCode "10509" ;
 .
@@ -127,7 +128,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
                     prov:agent
                         [
                             a prov:Person ;
-                            vcard:family-name "Staeklý" ;
+                            vcard:family-name "Steklý" ;
                             vcard:given-name "Pavel" ;
                             foaf:name "Pavel Steklý" ;
                         ] ;
