@@ -515,6 +515,8 @@
 
 
 
+
+
   <h1>
 
       JSON structure for
@@ -560,9 +562,9 @@
         <li style="list-style-type: disclosure-closed;">
           <code>@context</code>:
           required
-          item of type
+          item
 
-                
+              of type       
   
   
   
@@ -589,13 +591,16 @@
         <li>      
   
   
-    array of values <code>{0..*}</code> of type       
+    array of values <code>{0..*}</code>     of type       
   
   
     string
   (format: <code>iri</code>)
   
 
+  
+
+
 
   
   
@@ -603,9 +608,13 @@
   
   
   
+
 
 
      and must contain: <code>&quot;https://ofn.gov.cz/dcat-ap-cz-otevřená-data/2026-09-23/série-datových-sad/kontext.jsonld&quot;</code>
+    
+
+
 
   
   
@@ -624,19 +633,23 @@
   
 
 
+
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>iri</code>:
           required
-          item of type
+          item
 
-                
+              of type       
   
   
     string
   (format: <code>iri</code>)
   (by regular expression: <code>^https://.*$</code>)
 
+  
+
+
 
   
   
@@ -644,15 +657,16 @@
   
   
   
+
 
 
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>typ</code>:
           required
-          item of type
+          item
 
-                
+              of type       
   
   
   
@@ -679,13 +693,16 @@
         <li>      
   
   
-    array of values <code>{0..*}</code> of type       
+    array of values <code>{0..*}</code>     of type       
   
   
     string
   
   
 
+  
+
+
 
   
   
@@ -693,9 +710,13 @@
   
   
   
+
 
 
      and must contain: <code>&quot;Série datových sad&quot;</code>
+    
+
+
 
   
   
@@ -714,14 +735,15 @@
   
 
 
+
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>název</code>:
             (<a href="#SérieDatovýchSad.název" label="A name given to the Dataset Series.">title</a>)
           required
-          item of type
+          item
 
-                  <strong>
+              of type         <strong>
     object
   </strong>
     with properties (<code>properties</code>):
@@ -729,15 +751,18 @@
         <li style="list-style-type: disclosure-closed;">
           <code>cs</code>:
           optional
-          item of type
+          item
 
-                
+              of type       
   
   
     string
   
   
 
+  
+
+
 
   
   
@@ -745,21 +770,25 @@
   
   
   
+
 
 
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>en</code>:
           optional
-          item of type
+          item
 
-                
+              of type       
   
   
     string
   
   
 
+  
+
+
 
   
   
@@ -767,6 +796,7 @@
   
   
   
+
 
 
         </li>
@@ -784,6 +814,7 @@
   
   
   
+
 
 
         </li>
@@ -791,9 +822,9 @@
           <code>popis</code>:
             (<a href="#SérieDatovýchSad.popis" label="A free-text account of the Dataset Series.">description</a>)
           required
-          item of type
+          item
 
-                  <strong>
+              of type         <strong>
     object
   </strong>
     with properties (<code>properties</code>):
@@ -801,15 +832,18 @@
         <li style="list-style-type: disclosure-closed;">
           <code>cs</code>:
           optional
-          item of type
+          item
 
-                
+              of type       
   
   
     string
   
   
 
+  
+
+
 
   
   
@@ -817,21 +851,25 @@
   
   
   
+
 
 
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>en</code>:
           optional
-          item of type
+          item
 
-                
+              of type       
   
   
     string
   
   
 
+  
+
+
 
   
   
@@ -839,6 +877,7 @@
   
   
   
+
 
 
         </li>
@@ -858,19 +897,23 @@
   
 
 
+
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>poskytovatel</code>:
             (<a href="#SérieDatovýchSad.poskytovatel" label="An entity (organisation) responsible for ensuring the coherency of the Dataset Series.">publisher</a>)
           required
-          item of type
+          item
 
-                
+              of type       
   
   
     string
   (format: <code>iri</code>)
   
+
+  
+
 
 
   
@@ -882,23 +925,27 @@
 
 
 
+
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>je_součástí</code>:
             (<a href="#SérieDatovýchSad.jeSoučástí" label="A dataset series of which the dataset is part.">in series</a>)
           optional
-          item of type
+          item
 
-                
+              of type       
   
   
-    array of values <code>{0..*}</code> of type       
+    array of values <code>{0..*}</code>     of type       
   
   
     string
   (format: <code>iri</code>)
   (by regular expression: <code>^https://.*$</code>)
 
+  
+
+
 
   
   
@@ -906,9 +953,13 @@
   
   
   
+
 
 
           
+    
+
+
 
   
   
@@ -917,6 +968,7 @@
   
   
   
+
 
 
         </li>
@@ -924,17 +976,20 @@
           <code>téma</code>:
             (<a href="#SérieDatovýchSad.téma" label="A category of the Dataset.">theme</a>)
           required
-          item of type
+          item
 
-                
+              of type       
   
   
-    array of values <code>{1..*}</code> of type       
+    array of values <code>{1..*}</code>     of type       
   
   
     string
   (format: <code>iri</code>)
   (by regular expression: <code>^http://publications\.europa\.eu/resource/authority/data-theme/.*$</code>)
+
+  
+
 
 
   
@@ -946,7 +1001,11 @@
 
 
 
+
           
+    
+
+
 
   
   
@@ -955,6 +1014,7 @@
   
   
   
+
 
 
         </li>
@@ -962,14 +1022,17 @@
           <code>periodicita_aktualizace</code>:
             (<a href="#SérieDatovýchSad.periodicitaAktualizace" label="The frequency at which the Dataset Series is updated.">frequency</a>)
           required
-          item of type
+          item
 
-                
+              of type       
   
   
     string
   (format: <code>iri</code>)
   (by regular expression: <code>^http://publications\.europa\.eu/resource/authority/frequency/.*$</code>)
+
+  
+
 
 
   
@@ -981,14 +1044,15 @@
 
 
 
+
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>klíčové_slovo</code>:
             (<a href="#SérieDatovýchSad.klíčovéSlovo" label="A keyword or tag describing a resource.">keyword</a>)
           required
-          item of type
+          item
 
-                  <strong>
+              of type         <strong>
     object
   </strong>
     with properties (<code>properties</code>):
@@ -996,18 +1060,21 @@
         <li style="list-style-type: disclosure-closed;">
           <code>cs</code>:
           optional
-          item of type
+          item
 
-                
+              of type       
   
   
-    array of values <code>{0..*}</code> of type       
+    array of values <code>{0..*}</code>     of type       
   
   
     string
   
   
 
+  
+
+
 
   
   
@@ -1015,9 +1082,13 @@
   
   
   
+
 
 
           
+    
+
+
 
   
   
@@ -1026,24 +1097,28 @@
   
   
   
+
 
 
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>en</code>:
           optional
-          item of type
+          item
 
-                
+              of type       
   
   
-    array of values <code>{0..*}</code> of type       
+    array of values <code>{0..*}</code>     of type       
   
   
     string
   
   
 
+  
+
+
 
   
   
@@ -1051,9 +1126,13 @@
   
   
   
+
 
 
           
+    
+
+
 
   
   
@@ -1062,6 +1141,7 @@
   
   
   
+
 
 
         </li>
@@ -1081,22 +1161,26 @@
   
 
 
+
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>geografické_území</code>:
             (<a href="#SérieDatovýchSad.souvisejícíGeografickéÚzemí" label="A geographic region that is covered by the Dataset Series.">geographical coverage</a>)
           optional
-          item of type
+          item
 
-                
+              of type       
   
   
-    array of values <code>{0..*}</code> of type       
+    array of values <code>{0..*}</code>     of type       
   
   
     string
   (format: <code>iri</code>)
   
+
+  
+
 
 
   
@@ -1108,7 +1192,11 @@
 
 
 
+
           
+    
+
+
 
   
   
@@ -1117,6 +1205,7 @@
   
   
   
+
 
 
         </li>
@@ -1124,17 +1213,20 @@
           <code>prvek_rúian</code>:
             (<a href="#SérieDatovýchSad.souvisejícíGeografickéÚzemí-PrvekZRúian" label="The geographical area covered by the dataset.">geographical coverage</a>)
           required
-          item of type
+          item
 
-                
+              of type       
   
   
-    array of values <code>{1..*}</code> of type       
+    array of values <code>{1..*}</code>     of type       
   
   
     string
   (format: <code>iri</code>)
   (by regular expression: <code>^https://linked.cuzk.cz/resource/ruian/.*$</code>)
+
+  
+
 
 
   
@@ -1146,7 +1238,11 @@
 
 
 
+
           
+    
+
+
 
   
   
@@ -1155,6 +1251,7 @@
   
   
   
+
 
 
         </li>
@@ -1162,14 +1259,18 @@
           <code>časové_pokrytí</code>:
             (<a href="#SérieDatovýchSad.časovéPokrytí" label="A temporal period that the Dataset Series covers.">temporal coverage</a>)
           optional
-          item of type
+          item
 
-                
+              of type       
   
   
-    array of values <code>{0..*}</code> of type     <a href="#json-object--série-datových-sad--časový-interval"></a>
+    array of values <code>{0..*}</code>     of type     <a href="#json-object--série-datových-sad--časový-interval"></a>
+
 
           
+    
+
+
 
   
   
@@ -1178,6 +1279,7 @@
   
   
   
+
 
 
         </li>
@@ -1185,9 +1287,9 @@
           <code>kontaktní_bod</code>:
             (<a href="#SérieDatovýchSad.kontaktníBod" label="Contact information that can be used for sending comments about the Dataset Series.">contact point</a>)
           optional
-          item of type
+          item
 
-                
+              of type       
   
   
   
@@ -1209,19 +1311,23 @@
   
 
 
+
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>dokumentace</code>:
             (<a href="#SérieDatovýchSad.dokumentace" label="A page or document about this Dataset.">documentation</a>)
           optional
-          item of type
+          item
 
-                
+              of type       
   
   
     string
   (format: <code>iri</code>)
   (by regular expression: <code>^https://.*$</code>)
+
+  
+
 
 
   
@@ -1233,22 +1339,26 @@
 
 
 
+
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>koncept_euroVoc</code>:
             (<a href="#SérieDatovýchSad.klasifikaceDleEurovoc" label="A category of the Dataset.">theme</a>)
           optional
-          item of type
+          item
 
-                
+              of type       
   
   
-    array of values <code>{0..*}</code> of type       
+    array of values <code>{0..*}</code>     of type       
   
   
     string
   (format: <code>iri</code>)
   (by regular expression: <code>^http://eurovoc\.europa\.eu/.*$</code>)
+
+  
+
 
 
   
@@ -1260,7 +1370,11 @@
 
 
 
+
           
+    
+
+
 
   
   
@@ -1269,6 +1383,7 @@
   
   
   
+
 
 
         </li>
@@ -1276,17 +1391,20 @@
           <code>právní_předpis</code>:
             (<a href="#SérieDatovýchSad.příslušnýPrávníPředpis" label="The legislation that mandates the creation or management of the Dataset Series.">applicable legislation</a>)
           required
-          item of type
+          item
 
-                
+              of type       
   
   
-    array of values <code>{1..*}</code> of type       
+    array of values <code>{1..*}</code>     of type       
   
   
     string
   (format: <code>iri</code>)
   (by regular expression: <code>^http</code>)
+
+  
+
 
 
   
@@ -1298,7 +1416,11 @@
 
 
 
+
           
+    
+
+
 
   
   
@@ -1307,6 +1429,7 @@
   
   
   
+
 
 
         </li>
@@ -1314,14 +1437,17 @@
           <code>vstupní_stránka</code>:
             (<a href="#SérieDatovýchSad.vstupníStránka" label="A Web page that can be navigated to in a Web browser to gain access to the catalog, a dataset, its distributions and/or additional information.">landing page</a>)
           optional
-          item of type
+          item
 
-                
+              of type       
   
   
     string
   (format: <code>iri</code>)
   (by regular expression: <code>^https://.*$</code>)
+
+  
+
 
 
   
@@ -1330,6 +1456,7 @@
   
   
       (for example <code>https://www.mdcr.cz/Dokumenty/Verejna-doprava/Jizdni-rady,-kalendare-pro-jizdni-rady,-metodi-(1)/Jizdni-rady-verejne-dopravy</code>)
+
 
 
 
@@ -1375,15 +1502,18 @@
         <li style="list-style-type: disclosure-closed;">
           <code>iri</code>:
           optional
-          item of type
+          item
 
-                
+              of type       
   
   
     string
   (format: <code>iri</code>)
   
 
+  
+
+
 
   
   
@@ -1391,15 +1521,16 @@
   
   
   
+
 
 
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>typ</code>:
           required
-          item of type
+          item
 
-                
+              of type       
   
   
   
@@ -1426,13 +1557,16 @@
         <li>      
   
   
-    array of values <code>{0..*}</code> of type       
+    array of values <code>{0..*}</code>     of type       
   
   
     string
   
   
 
+  
+
+
 
   
   
@@ -1440,9 +1574,13 @@
   
   
   
+
 
 
      and must contain: <code>&quot;Jednotlivec&quot;</code>
+    
+
+
 
   
   
@@ -1461,14 +1599,15 @@
   
 
 
+
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>jméno</code>:
             (<a href="#KontaktníBod.jméno" label="The formatted text corresponding to the name of the object">formatted name</a>)
           optional
-          item of type
+          item
 
-                  <strong>
+              of type         <strong>
     object
   </strong>
     with properties (<code>properties</code>):
@@ -1476,15 +1615,18 @@
         <li style="list-style-type: disclosure-closed;">
           <code>cs</code>:
           optional
-          item of type
+          item
 
-                
+              of type       
   
   
     string
   
   
 
+  
+
+
 
   
   
@@ -1492,21 +1634,25 @@
   
   
   
+
 
 
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>en</code>:
           optional
-          item of type
+          item
 
-                
+              of type       
   
   
     string
   
   
 
+  
+
+
 
   
   
@@ -1514,6 +1660,7 @@
   
   
   
+
 
 
         </li>
@@ -1533,19 +1680,23 @@
   
 
 
+
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>e-mail</code>:
             (<a href="#KontaktníBod.email" label="To specify the electronic mail address for communication with the object">has email</a>)
           optional
-          item of type
+          item
 
-                
+              of type       
   
   
     string
   (format: <code>iri</code>)
   (by regular expression: <code>^mailto:[^@]+@[^@]+</code>)
+
+  
+
 
 
   
@@ -1554,6 +1705,7 @@
   
   
       (for example <code>mailto:jan.novak@organizace.cz</code>)
+
 
 
 
@@ -1600,15 +1752,18 @@
         <li style="list-style-type: disclosure-closed;">
           <code>iri</code>:
           optional
-          item of type
+          item
 
-                
+              of type       
   
   
     string
   (format: <code>iri</code>)
   
 
+  
+
+
 
   
   
@@ -1616,15 +1771,16 @@
   
   
   
+
 
 
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>typ</code>:
           required
-          item of type
+          item
 
-                
+              of type       
   
   
   
@@ -1651,13 +1807,16 @@
         <li>      
   
   
-    array of values <code>{0..*}</code> of type       
+    array of values <code>{0..*}</code>     of type       
   
   
     string
   
   
 
+  
+
+
 
   
   
@@ -1665,9 +1824,13 @@
   
   
   
+
 
 
      and must contain: <code>&quot;Organizace&quot;</code>
+    
+
+
 
   
   
@@ -1686,14 +1849,15 @@
   
 
 
+
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>jméno</code>:
             (<a href="#KontaktníBod.jméno" label="The formatted text corresponding to the name of the object">formatted name</a>)
           optional
-          item of type
+          item
 
-                  <strong>
+              of type         <strong>
     object
   </strong>
     with properties (<code>properties</code>):
@@ -1701,15 +1865,18 @@
         <li style="list-style-type: disclosure-closed;">
           <code>cs</code>:
           optional
-          item of type
+          item
 
-                
+              of type       
   
   
     string
   
   
 
+  
+
+
 
   
   
@@ -1717,21 +1884,25 @@
   
   
   
+
 
 
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>en</code>:
           optional
-          item of type
+          item
 
-                
+              of type       
   
   
     string
   
   
 
+  
+
+
 
   
   
@@ -1739,6 +1910,7 @@
   
   
   
+
 
 
         </li>
@@ -1758,19 +1930,23 @@
   
 
 
+
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>e-mail</code>:
             (<a href="#KontaktníBod.email" label="To specify the electronic mail address for communication with the object">has email</a>)
           optional
-          item of type
+          item
 
-                
+              of type       
   
   
     string
   (format: <code>iri</code>)
   (by regular expression: <code>^mailto:[^@]+@[^@]+</code>)
+
+  
+
 
 
   
@@ -1779,6 +1955,7 @@
   
   
       (for example <code>mailto:jan.novak@organizace.cz</code>)
+
 
 
 
@@ -1824,15 +2001,18 @@
         <li style="list-style-type: disclosure-closed;">
           <code>iri</code>:
           required
-          item of type
+          item
 
-                
+              of type       
   
   
     string
   (format: <code>iri</code>)
   
 
+  
+
+
 
   
   
@@ -1840,15 +2020,16 @@
   
   
   
+
 
 
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>typ</code>:
           required
-          item of type
+          item
 
-                
+              of type       
   
   
   
@@ -1875,13 +2056,16 @@
         <li>      
   
   
-    array of values <code>{0..*}</code> of type       
+    array of values <code>{0..*}</code>     of type       
   
   
     string
   
   
 
+  
+
+
 
   
   
@@ -1889,9 +2073,13 @@
   
   
   
+
 
 
      and must contain: <code>&quot;Časový interval&quot;</code>
+    
+
+
 
   
   
@@ -1910,20 +2098,24 @@
   
 
 
+
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>začátek</code>:
             (<a href="#ČasovýInterval.datumZačátku" label="The start of the period.">start date</a>)
           optional
-          item of type
+          item
 
-                
+              of type       
   
   
     string
   (format: <code>date</code>)
   
 
+  
+
+
 
   
   
@@ -1931,6 +2123,7 @@
   
   
   
+
 
 
         </li>
@@ -1938,15 +2131,18 @@
           <code>konec</code>:
             (<a href="#ČasovýInterval.datumKonce" label="The end of the period.">end date</a>)
           optional
-          item of type
+          item
 
-                
+              of type       
   
   
     string
   (format: <code>date</code>)
   
 
+  
+
+
 
   
   
@@ -1954,6 +2150,7 @@
   
   
   
+
 
 
         </li>
@@ -1983,6 +2180,8 @@
       <p>Data structure for Dataset. A conceptual entity that represents the information published.</p>
 
       <section id="json-schema--datová-sada">
+
+
 
 
 
@@ -2040,9 +2239,9 @@
         <li style="list-style-type: disclosure-closed;">
           <code>@context</code>:
           required
-          item of type
+          item
 
-                
+              of type       
   
   
   
@@ -2069,13 +2268,16 @@
         <li>      
   
   
-    array of values <code>{0..*}</code> of type       
+    array of values <code>{0..*}</code>     of type       
   
   
     string
   (format: <code>iri</code>)
   
 
+  
+
+
 
   
   
@@ -2083,9 +2285,13 @@
   
   
   
+
 
 
      and must contain: <code>&quot;https://ofn.gov.cz/dcat-ap-cz-otevřená-data/2026-09-23/datová-sada/kontext.jsonld&quot;</code>
+    
+
+
 
   
   
@@ -2104,19 +2310,23 @@
   
 
 
+
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>iri</code>:
           required
-          item of type
+          item
 
-                
+              of type       
   
   
     string
   (format: <code>iri</code>)
   
 
+  
+
+
 
   
   
@@ -2124,15 +2334,16 @@
   
   
   
+
 
 
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>typ</code>:
           required
-          item of type
+          item
 
-                
+              of type       
   
   
   
@@ -2159,13 +2370,16 @@
         <li>      
   
   
-    array of values <code>{0..*}</code> of type       
+    array of values <code>{0..*}</code>     of type       
   
   
     string
   
   
 
+  
+
+
 
   
   
@@ -2173,9 +2387,13 @@
   
   
   
+
 
 
      and must contain: <code>&quot;Datová sada&quot;</code>
+    
+
+
 
   
   
@@ -2194,14 +2412,15 @@
   
 
 
+
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>název</code>:
             (<a href="#DatováSada.název" label="Název datové sady">title</a>)
           required
-          item of type
+          item
 
-                  <strong>
+              of type         <strong>
     object
   </strong>
     with properties (<code>properties</code>):
@@ -2209,15 +2428,18 @@
         <li style="list-style-type: disclosure-closed;">
           <code>cs</code>:
           optional
-          item of type
+          item
 
-                
+              of type       
   
   
     string
   
   
 
+  
+
+
 
   
   
@@ -2225,21 +2447,25 @@
   
   
   
+
 
 
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>en</code>:
           optional
-          item of type
+          item
 
-                
+              of type       
   
   
     string
   
   
 
+  
+
+
 
   
   
@@ -2247,6 +2473,7 @@
   
   
   
+
 
 
         </li>
@@ -2264,6 +2491,7 @@
   
   
   
+
 
 
         </li>
@@ -2271,9 +2499,9 @@
           <code>popis</code>:
             (<a href="#DatováSada.popis" label="A free-text account of the Dataset.">description</a>)
           required
-          item of type
+          item
 
-                  <strong>
+              of type         <strong>
     object
   </strong>
     with properties (<code>properties</code>):
@@ -2281,15 +2509,18 @@
         <li style="list-style-type: disclosure-closed;">
           <code>cs</code>:
           optional
-          item of type
+          item
 
-                
+              of type       
   
   
     string
   
   
 
+  
+
+
 
   
   
@@ -2297,21 +2528,25 @@
   
   
   
+
 
 
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>en</code>:
           optional
-          item of type
+          item
 
-                
+              of type       
   
   
     string
   
   
 
+  
+
+
 
   
   
@@ -2319,6 +2554,7 @@
   
   
   
+
 
 
         </li>
@@ -2338,19 +2574,23 @@
   
 
 
+
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>poskytovatel</code>:
             (<a href="#DatováSada.poskytovatel" label="An entity (organisation) responsible for making the Dataset available.">publisher</a>)
           required
-          item of type
+          item
 
-                
+              of type       
   
   
     string
   (format: <code>iri</code>)
   
+
+  
+
 
 
   
@@ -2362,20 +2602,24 @@
 
 
 
+
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>je_součástí</code>:
             (<a href="#DatováSada.jeSoučástí" label="A dataset series of which the dataset is part.">in series</a>)
           optional
-          item of type
+          item
 
-                
+              of type       
   
   
     string
   (format: <code>iri</code>)
   (by regular expression: <code>^https://.*$</code>)
 
+  
+
+
 
   
   
@@ -2383,6 +2627,7 @@
   
   
   
+
 
 
         </li>
@@ -2390,17 +2635,20 @@
           <code>téma</code>:
             (<a href="#DatováSada.téma" label="A category of the Dataset.">theme</a>)
           required
-          item of type
+          item
 
-                
+              of type       
   
   
-    array of values <code>{1..*}</code> of type       
+    array of values <code>{1..*}</code>     of type       
   
   
     string
   (format: <code>iri</code>)
   (by regular expression: <code>^http://publications\.europa\.eu/resource/authority/data-theme/.*$</code>)
+
+  
+
 
 
   
@@ -2412,7 +2660,11 @@
 
 
 
+
           
+    
+
+
 
   
   
@@ -2421,6 +2673,7 @@
   
   
   
+
 
 
         </li>
@@ -2428,14 +2681,17 @@
           <code>periodicita_aktualizace</code>:
             (<a href="#DatováSada.periodicitaAktualizace" label="The frequency at which the Dataset is updated.">frequency</a>)
           required
-          item of type
+          item
 
-                
+              of type       
   
   
     string
   (format: <code>iri</code>)
   (by regular expression: <code>^http://publications\.europa\.eu/resource/authority/frequency/.*$</code>)
+
+  
+
 
 
   
@@ -2447,14 +2703,15 @@
 
 
 
+
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>klíčové_slovo</code>:
             (<a href="#DatováSada.klíčovéSlovo" label="A keyword or tag describing a resource.">keyword</a>)
           required
-          item of type
+          item
 
-                  <strong>
+              of type         <strong>
     object
   </strong>
     with properties (<code>properties</code>):
@@ -2462,18 +2719,21 @@
         <li style="list-style-type: disclosure-closed;">
           <code>cs</code>:
           optional
-          item of type
+          item
 
-                
+              of type       
   
   
-    array of values <code>{0..*}</code> of type       
+    array of values <code>{0..*}</code>     of type       
   
   
     string
   
   
 
+  
+
+
 
   
   
@@ -2481,9 +2741,13 @@
   
   
   
+
 
 
           
+    
+
+
 
   
   
@@ -2492,24 +2756,28 @@
   
   
   
+
 
 
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>en</code>:
           optional
-          item of type
+          item
 
-                
+              of type       
   
   
-    array of values <code>{0..*}</code> of type       
+    array of values <code>{0..*}</code>     of type       
   
   
     string
   
   
 
+  
+
+
 
   
   
@@ -2517,9 +2785,13 @@
   
   
   
+
 
 
           
+    
+
+
 
   
   
@@ -2528,6 +2800,7 @@
   
   
   
+
 
 
         </li>
@@ -2547,22 +2820,26 @@
   
 
 
+
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>geografické_území</code>:
             (<a href="#DatováSada.souvisejícíGeografickéÚzemí" label="The geographical area covered by the dataset.">geographical coverage</a>)
           optional
-          item of type
+          item
 
-                
+              of type       
   
   
-    array of values <code>{0..*}</code> of type       
+    array of values <code>{0..*}</code>     of type       
   
   
     string
   (format: <code>iri</code>)
   
+
+  
+
 
 
   
@@ -2574,7 +2851,11 @@
 
 
 
+
           
+    
+
+
 
   
   
@@ -2583,6 +2864,7 @@
   
   
   
+
 
 
         </li>
@@ -2590,17 +2872,20 @@
           <code>prvek_rúian</code>:
             (<a href="#DatováSada.souvisejícíGeografickéÚzemí-PrvekZRúian" label="The geographical area covered by the dataset.">geographical coverage</a>)
           required
-          item of type
+          item
 
-                
+              of type       
   
   
-    array of values <code>{1..*}</code> of type       
+    array of values <code>{1..*}</code>     of type       
   
   
     string
   (format: <code>iri</code>)
   (by regular expression: <code>^https://linked.cuzk.cz/resource/ruian/.*$</code>)
+
+  
+
 
 
   
@@ -2612,7 +2897,11 @@
 
 
 
+
           
+    
+
+
 
   
   
@@ -2621,6 +2910,7 @@
   
   
   
+
 
 
         </li>
@@ -2628,18 +2918,19 @@
           <code>časové_pokrytí</code>:
             (<a href="#DatováSada.časovéPokrytí" label="The temporal period that the dataset covers.">temporal coverage</a>)
           optional
-          item of type
+          item
 
-              <a href="#json-object--datová-sada--časový-interval"></a>
+              of type     <a href="#json-object--datová-sada--časový-interval"></a>
+
 
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>kontaktní_bod</code>:
             (<a href="#DatováSada.kontaktníBod" label="Contact information that can be used for sending comments about the Dataset.">contact point</a>)
           optional
-          item of type
+          item
 
-                
+              of type       
   
   
   
@@ -2661,19 +2952,23 @@
   
 
 
+
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>dokumentace</code>:
             (<a href="#DatováSada.dokumentace" label="A page or document about this Dataset.">documentation</a>)
           optional
-          item of type
+          item
 
-                
+              of type       
   
   
     string
   (format: <code>iri</code>)
   (by regular expression: <code>^https://.*$</code>)
+
+  
+
 
 
   
@@ -2685,22 +2980,26 @@
 
 
 
+
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>specifikace</code>:
             (<a href="#DatováSada.specifikace" label="An implementing rule or other specification.">conforms to</a>)
           optional
-          item of type
+          item
 
-                
+              of type       
   
   
-    array of values <code>{0..*}</code> of type       
+    array of values <code>{0..*}</code>     of type       
   
   
     string
   (format: <code>iri</code>)
   (by regular expression: <code>^https://.*$</code>)
+
+  
+
 
 
   
@@ -2712,7 +3011,11 @@
 
 
 
+
           
+    
+
+
 
   
   
@@ -2721,6 +3024,7 @@
   
   
   
+
 
 
         </li>
@@ -2728,17 +3032,20 @@
           <code>koncept_euroVoc</code>:
             (<a href="#DatováSada.klasifikaceDleEurovoc" label="A category of the Dataset.">theme</a>)
           optional
-          item of type
+          item
 
-                
+              of type       
   
   
-    array of values <code>{0..*}</code> of type       
+    array of values <code>{0..*}</code>     of type       
   
   
     string
   (format: <code>iri</code>)
   (by regular expression: <code>^http://eurovoc\.europa\.eu/.*$</code>)
+
+  
+
 
 
   
@@ -2750,7 +3057,11 @@
 
 
 
+
           
+    
+
+
 
   
   
@@ -2759,6 +3070,7 @@
   
   
   
+
 
 
         </li>
@@ -2766,15 +3078,18 @@
           <code>prostorové_rozlišení_v_metrech</code>:
             (<a href="#DatováSada.prostorovéRozlišeníVMetrech" label="Minimum spatial separation resolvable in a dataset, measured in meters.">spatial resolution</a>)
           optional
-          item of type
+          item
 
-                
+              of type       
   
   
     string
   
   (by regular expression: <code>^[+-]?([0-9]+([.][0-9]*)?|[.][0-9]+)$</code>)
 
+  
+
+
 
   
   
@@ -2782,6 +3097,7 @@
   
   
   
+
 
 
         </li>
@@ -2789,15 +3105,18 @@
           <code>časové_rozlišení</code>:
             (<a href="#DatováSada.časovéRozlišení" label="Minimum time period resolvable in the dataset.">temporal resolution</a>)
           optional
-          item of type
+          item
 
-                
+              of type       
   
   
     string
   
   
 
+  
+
+
 
   
   
@@ -2805,6 +3124,7 @@
   
   
   
+
 
 
         </li>
@@ -2812,17 +3132,20 @@
           <code>právní_předpis</code>:
             (<a href="#DatováSada.příslušnýPrávníPředpis" label="The legislation that mandates the creation or management of the Dataset.">applicable legislation</a>)
           required
-          item of type
+          item
 
-                
+              of type       
   
   
-    array of values <code>{1..*}</code> of type       
+    array of values <code>{1..*}</code>     of type       
   
   
     string
   (format: <code>iri</code>)
   (by regular expression: <code>^http</code>)
+
+  
+
 
 
   
@@ -2834,7 +3157,11 @@
 
 
 
+
           
+    
+
+
 
   
   
@@ -2843,6 +3170,7 @@
   
   
   
+
 
 
         </li>
@@ -2850,12 +3178,12 @@
           <code>distribuce</code>:
             (<a href="#DatováSada.distribuce" label="An available Distribution for the Dataset.">dataset distribution</a>)
           optional
-          item of type
+          item
 
-                
+              of type       
   
   
-    array of values <code>{0..*}</code> of type       
+    array of values <code>{0..*}</code>     of type       
   
   
   
@@ -2877,7 +3205,11 @@
   
 
 
+
           
+    
+
+
 
   
   
@@ -2886,6 +3218,7 @@
   
   
   
+
 
 
         </li>
@@ -2893,14 +3226,17 @@
           <code>vstupní_stránka</code>:
             (<a href="#DatováSada.vstupníStránka" label="A web page that provides access to the Dataset, its Distributions and/or additional information.">landing page</a>)
           optional
-          item of type
+          item
 
-                
+              of type       
   
   
     string
   (format: <code>iri</code>)
   (by regular expression: <code>^https://.*$</code>)
+
+  
+
 
 
   
@@ -2909,6 +3245,7 @@
   
   
       (for example <code>https://www.mdcr.cz/Dokumenty/Verejna-doprava/Jizdni-rady,-kalendare-pro-jizdni-rady,-metodi-(1)/Jizdni-rady-verejne-dopravy</code>)
+
 
 
 
@@ -2954,15 +3291,18 @@
         <li style="list-style-type: disclosure-closed;">
           <code>iri</code>:
           required
-          item of type
+          item
 
-                
+              of type       
   
   
     string
   (format: <code>iri</code>)
   
 
+  
+
+
 
   
   
@@ -2970,15 +3310,16 @@
   
   
   
+
 
 
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>typ</code>:
           required
-          item of type
+          item
 
-                
+              of type       
   
   
   
@@ -3005,13 +3346,16 @@
         <li>      
   
   
-    array of values <code>{0..*}</code> of type       
+    array of values <code>{0..*}</code>     of type       
   
   
     string
   
   
 
+  
+
+
 
   
   
@@ -3019,9 +3363,13 @@
   
   
   
+
 
 
      and must contain: <code>&quot;Distribuce&quot;</code>
+    
+
+
 
   
   
@@ -3040,28 +3388,33 @@
   
 
 
+
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>podmínky_užití</code>:
             (<a href="#Distribuce.specifikacePodmínekUžití" label="Specifikace podmínek užití dle https://opendata.gov.cz/cinnost:stanoveni-podminek-uziti.">Terms of use specification</a>)
           required
-          item of type
+          item
 
-              <a href="#json-object--datová-sada--specifikace-podmínek-užití"></a>
+              of type     <a href="#json-object--datová-sada--specifikace-podmínek-užití"></a>
+
 
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>přístupové_url</code>:
             (<a href="#Distribuce.přístupovéUrl" label="A URL that gives access to a Distribution of the Dataset.">access URL</a>)
           required
-          item of type
+          item
 
-                
+              of type       
   
   
     string
   (format: <code>iri</code>)
   (by regular expression: <code>^https://.*$</code>)
+
+  
+
 
 
   
@@ -3073,22 +3426,26 @@
 
 
 
+
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>právní_předpis</code>:
             (<a href="#Distribuce.příslušnýPrávníPředpis" label="The legislation that mandates the creation or management of the Distribution.">applicable legislation</a>)
           required
-          item of type
+          item
 
-                
+              of type       
   
   
-    array of values <code>{1..*}</code> of type       
+    array of values <code>{1..*}</code>     of type       
   
   
     string
   (format: <code>iri</code>)
   (by regular expression: <code>^http</code>)
+
+  
+
 
 
   
@@ -3100,7 +3457,11 @@
 
 
 
+
           
+    
+
+
 
   
   
@@ -3109,6 +3470,7 @@
   
   
   
+
 
 
         </li>
@@ -3116,9 +3478,9 @@
           <code>název</code>:
             (<a href="#Distribuce.název" label="A name given to the distribution.">title</a>)
           optional
-          item of type
+          item
 
-                  <strong>
+              of type         <strong>
     object
   </strong>
     with properties (<code>properties</code>):
@@ -3126,15 +3488,18 @@
         <li style="list-style-type: disclosure-closed;">
           <code>cs</code>:
           optional
-          item of type
+          item
 
-                
+              of type       
   
   
     string
   
   
 
+  
+
+
 
   
   
@@ -3142,21 +3507,25 @@
   
   
   
+
 
 
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>en</code>:
           optional
-          item of type
+          item
 
-                
+              of type       
   
   
     string
   
   
 
+  
+
+
 
   
   
@@ -3164,6 +3533,7 @@
   
   
   
+
 
 
         </li>
@@ -3183,14 +3553,16 @@
   
 
 
+
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>přístupová_služba</code>:
             (<a href="#Distribuce-DatováSlužba.přístupováSlužba" label="A data service that gives access to the distribution of the dataset.">access service</a>)
           required
-          item of type
+          item
 
-              <a href="#json-object--datová-sada--datová-služba"></a>
+              of type     <a href="#json-object--datová-sada--datová-služba"></a>
+
 
         </li>
     </ul>
@@ -3234,15 +3606,18 @@
         <li style="list-style-type: disclosure-closed;">
           <code>iri</code>:
           required
-          item of type
+          item
 
-                
+              of type       
   
   
     string
   (format: <code>iri</code>)
   
 
+  
+
+
 
   
   
@@ -3250,15 +3625,16 @@
   
   
   
+
 
 
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>typ</code>:
           required
-          item of type
+          item
 
-                
+              of type       
   
   
   
@@ -3285,13 +3661,16 @@
         <li>      
   
   
-    array of values <code>{0..*}</code> of type       
+    array of values <code>{0..*}</code>     of type       
   
   
     string
   
   
 
+  
+
+
 
   
   
@@ -3299,9 +3678,13 @@
   
   
   
+
 
 
      and must contain: <code>&quot;Datová služba&quot;</code>
+    
+
+
 
   
   
@@ -3320,14 +3703,15 @@
   
 
 
+
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>název</code>:
             (<a href="#DatováSlužba.název" label="A name given to the Data Service.">title</a>)
           required
-          item of type
+          item
 
-                  <strong>
+              of type         <strong>
     object
   </strong>
     with properties (<code>properties</code>):
@@ -3335,15 +3719,18 @@
         <li style="list-style-type: disclosure-closed;">
           <code>cs</code>:
           optional
-          item of type
+          item
 
-                
+              of type       
   
   
     string
   
   
 
+  
+
+
 
   
   
@@ -3351,21 +3738,25 @@
   
   
   
+
 
 
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>en</code>:
           optional
-          item of type
+          item
 
-                
+              of type       
   
   
     string
   
   
 
+  
+
+
 
   
   
@@ -3373,6 +3764,7 @@
   
   
   
+
 
 
         </li>
@@ -3392,19 +3784,23 @@
   
 
 
+
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>přístupový_bod</code>:
             (<a href="#DatováSlužba.přístupovýBodSlužby" label="The root location or primary endpoint of the service (an IRI).">endpoint URL</a>)
           required
-          item of type
+          item
 
-                
+              of type       
   
   
     string
   (format: <code>iri</code>)
   (by regular expression: <code>^https://.*$</code>)
+
+  
+
 
 
   
@@ -3413,6 +3809,7 @@
   
   
       (for example <code>https://www.trebic.cz/zdroj/aktualita/2020/dopadení-lupiče-na-francouzské-ulici</code>)
+
 
 
 
@@ -3421,14 +3818,17 @@
           <code>popis_přístupového_bodu</code>:
             (<a href="#DatováSlužba.popisPřístupovéhoBoduSlužby" label="A description of the services available via the end-points, including their operations, parameters etc.">endpoint description</a>)
           required
-          item of type
+          item
 
-                
+              of type       
   
   
     string
   (format: <code>iri</code>)
   (by regular expression: <code>^https://.*$</code>)
+
+  
+
 
 
   
@@ -3440,22 +3840,26 @@
 
 
 
+
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>specifikace</code>:
             (<a href="#DatováSlužba.specifikace" label="An established (technical) standard to which the Data Service conforms.">conforms to</a>)
           optional
-          item of type
+          item
 
-                
+              of type       
   
   
-    array of values <code>{0..*}</code> of type       
+    array of values <code>{0..*}</code>     of type       
   
   
     string
   (format: <code>iri</code>)
   (by regular expression: <code>^https://.*$</code>)
+
+  
+
 
 
   
@@ -3467,7 +3871,11 @@
 
 
 
+
           
+    
+
+
 
   
   
@@ -3476,6 +3884,7 @@
   
   
   
+
 
 
         </li>
@@ -3483,14 +3892,17 @@
           <code>dokumentace</code>:
             (<a href="#DatováSlužba.dokumentace" label="A page or document about this Data Service">documentation</a>)
           optional
-          item of type
+          item
 
-                
+              of type       
   
   
     string
   (format: <code>iri</code>)
   (by regular expression: <code>^https://.*$</code>)
+
+  
+
 
 
   
@@ -3502,22 +3914,26 @@
 
 
 
+
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>právní_předpis</code>:
             (<a href="#DatováSlužba.příslušnýPrávníPředpis" label="The legislation that mandates the creation or management of the Data Service.">applicable legislation</a>)
           required
-          item of type
+          item
 
-                
+              of type       
   
   
-    array of values <code>{1..*}</code> of type       
+    array of values <code>{1..*}</code>     of type       
   
   
     string
   (format: <code>iri</code>)
   (by regular expression: <code>^http</code>)
+
+  
+
 
 
   
@@ -3529,7 +3945,11 @@
 
 
 
+
           
+    
+
+
 
   
   
@@ -3538,6 +3958,7 @@
   
   
   
+
 
 
         </li>
@@ -3582,15 +4003,18 @@
         <li style="list-style-type: disclosure-closed;">
           <code>iri</code>:
           optional
-          item of type
+          item
 
-                
+              of type       
   
   
     string
   (format: <code>iri</code>)
   
 
+  
+
+
 
   
   
@@ -3598,15 +4022,16 @@
   
   
   
+
 
 
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>typ</code>:
           required
-          item of type
+          item
 
-                
+              of type       
   
   
   
@@ -3633,13 +4058,16 @@
         <li>      
   
   
-    array of values <code>{0..*}</code> of type       
+    array of values <code>{0..*}</code>     of type       
   
   
     string
   
   
 
+  
+
+
 
   
   
@@ -3647,9 +4075,13 @@
   
   
   
+
 
 
      and must contain: <code>&quot;Specifikace podmínek užití&quot;</code>
+    
+
+
 
   
   
@@ -3668,19 +4100,23 @@
   
 
 
+
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>autorské_dílo</code>:
             (<a href="#SpecifikacePodmínekUžití.autorskéDílo" label="Většina případů poskytovaných dat nebude spadat pod definici autorského díla dle § 2 autorského zákona (121/2000 Sb.), nebude se na ně proto vztahovat autorskoprávní ochrana a nebude proto pro ně potřeba jakékoli licence. „Prostá data“ nejsou chráněna právy duševního vlastnictví. Ve výjimečných případech se však může stát, že databáze bude obsahovat autorskoprávně chráněná díla. Příkladem dat obsahujících autorskoprávně chráněná díla by mohl být seznam příspěvků literární soutěže pořádané radnicí, který by byl uveřejněný včetně plnotextového znění přihlášených soutěžních děl.">Copyrighted work</a>)
           required
-          item of type
+          item
 
-                
+              of type       
   
   
     string
   (format: <code>iri</code>)
   
+
+  
+
 
 
   
@@ -3689,6 +4125,7 @@
   
   
       (for example <code>https://data.gov.cz/podmínky-užití/neobsahuje-autorská-díla/</code>, <code>https://data.gov.cz/podmínky-užití/není-autorskoprávně-chráněnou-databází/</code>, <code>https://data.gov.cz/podmínky-užití/není-chráněna-zvláštním-právem-pořizovatele-databáze/</code>, <code>https://creativecommons.org/licenses/by/4.0/</code>, <code>https://creativecommons.org/publicdomain/zero/1.0/</code>, <code>https://data.gov.cz/podmínky-užití/neobsahuje-osobní-údaje/</code>, <code>https://data.gov.cz/podmínky-užití/obsahuje-osobní-údaje/</code>)
+
 
 
 
@@ -3697,9 +4134,9 @@
           <code>autor</code>:
             (<a href="#SpecifikacePodmínekUžití.jménaAutorůDíla" label="Jména autorů díla pro použití s licencí CC BY 4.0">Names of authors</a>)
           optional
-          item of type
+          item
 
-                  <strong>
+              of type         <strong>
     object
   </strong>
     with properties (<code>properties</code>):
@@ -3707,15 +4144,18 @@
         <li style="list-style-type: disclosure-closed;">
           <code>cs</code>:
           optional
-          item of type
+          item
 
-                
+              of type       
   
   
     string
   
   
 
+  
+
+
 
   
   
@@ -3723,21 +4163,25 @@
   
   
   
+
 
 
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>en</code>:
           optional
-          item of type
+          item
 
-                
+              of type       
   
   
     string
   
   
 
+  
+
+
 
   
   
@@ -3745,6 +4189,7 @@
   
   
   
+
 
 
         </li>
@@ -3764,19 +4209,23 @@
   
 
 
+
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>databáze_jako_autorské_dílo</code>:
             (<a href="#SpecifikacePodmínekUžití.originálníDatabáze" label="Tato ochrana je založena § 2 odst. 2 a 5 Autorského zákona a chráněny jsou takové databáze, které jsou „způsobem výběru nebo uspořádáním obsahu autorovým vlastním duševním výtvorem“. Chráněna je tady originální struktura, systém řazení údajů a podobně, tedy kostra, do které se samotné údaje vkládají. Takové databázi se říká „originální databáze“. Příkladem originální databáze může být obchodní rejstřík, který je však zároveň úředním dílem.">Copyrighted database</a>)
           required
-          item of type
+          item
 
-                
+              of type       
   
   
     string
   (format: <code>iri</code>)
   
+
+  
+
 
 
   
@@ -3785,6 +4234,7 @@
   
   
       (for example <code>https://data.gov.cz/podmínky-užití/neobsahuje-autorská-díla/</code>, <code>https://data.gov.cz/podmínky-užití/není-autorskoprávně-chráněnou-databází/</code>, <code>https://data.gov.cz/podmínky-užití/není-chráněna-zvláštním-právem-pořizovatele-databáze/</code>, <code>https://creativecommons.org/licenses/by/4.0/</code>, <code>https://creativecommons.org/publicdomain/zero/1.0/</code>, <code>https://data.gov.cz/podmínky-užití/neobsahuje-osobní-údaje/</code>, <code>https://data.gov.cz/podmínky-užití/obsahuje-osobní-údaje/</code>)
+
 
 
 
@@ -3793,9 +4243,9 @@
           <code>autor_databáze</code>:
             (<a href="#SpecifikacePodmínekUžití.jménaAutorůOriginálníDatabáze" label="Jména autorů originální databáze pro použití s licencí CC BY 4.0">Names of authors of database</a>)
           optional
-          item of type
+          item
 
-                  <strong>
+              of type         <strong>
     object
   </strong>
     with properties (<code>properties</code>):
@@ -3803,15 +4253,18 @@
         <li style="list-style-type: disclosure-closed;">
           <code>cs</code>:
           optional
-          item of type
+          item
 
-                
+              of type       
   
   
     string
   
   
 
+  
+
+
 
   
   
@@ -3819,21 +4272,25 @@
   
   
   
+
 
 
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>en</code>:
           optional
-          item of type
+          item
 
-                
+              of type       
   
   
     string
   
   
 
+  
+
+
 
   
   
@@ -3841,6 +4298,7 @@
   
   
   
+
 
 
         </li>
@@ -3860,19 +4318,23 @@
   
 
 
+
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>databáze_chráněná_zvláštními_právy</code>:
             (<a href="#SpecifikacePodmínekUžití.zvláštníPrávoPořizovateleDatabáze" label="Tato ochrana je založena § 88 a následujícími Autorského zákona. Zvláštní databázová práva chrání investice vynaložené při zřízení databáze, ověření uvedených dat, nebo jejich publikaci. Práva vznikají, pokud pořízení, ověření nebo předvedení obsahu databáze představuje kvalitativně nebo kvantitativně podstatný vklad. Držitelem práv je pořizovatel databáze, což je osoba, která na svou odpovědnost pořídí databázi, nebo pro kterou tak z jejího podnětu učiní jiná osoba. Zvláštních databázových práv se dá plně vzdát, na rozdíl od autorských práv. Příkladem databáze chráněné zvláštními právy pořizovatele databáze je databáze právních předpisů.">Sui generis database rights</a>)
           required
-          item of type
+          item
 
-                
+              of type       
   
   
     string
   (format: <code>iri</code>)
   
+
+  
+
 
 
   
@@ -3881,6 +4343,7 @@
   
   
       (for example <code>https://data.gov.cz/podmínky-užití/neobsahuje-autorská-díla/</code>, <code>https://data.gov.cz/podmínky-užití/není-autorskoprávně-chráněnou-databází/</code>, <code>https://data.gov.cz/podmínky-užití/není-chráněna-zvláštním-právem-pořizovatele-databáze/</code>, <code>https://creativecommons.org/licenses/by/4.0/</code>, <code>https://creativecommons.org/publicdomain/zero/1.0/</code>, <code>https://data.gov.cz/podmínky-užití/neobsahuje-osobní-údaje/</code>, <code>https://data.gov.cz/podmínky-užití/obsahuje-osobní-údaje/</code>)
+
 
 
 
@@ -3889,14 +4352,17 @@
           <code>osobní_údaje</code>:
             (<a href="#SpecifikacePodmínekUžití.osobníÚdaje" label="Pokud data obsahují osobní údaje, je třeba o této skutečnosti informovat příjemce dat. Předpřipravené dokumenty mají IRI https://data.gov.cz/podmínky-užití/obsahuje-osobní-údaje/ a https://data.gov.cz/podmínky-užití/neobsahuje-osobní-údaje/.">Personal data</a>)
           required
-          item of type
+          item
 
-                
+              of type       
   
   
     string
   (format: <code>iri</code>)
   
+
+  
+
 
 
   
@@ -3905,6 +4371,7 @@
   
   
       (for example <code>https://data.gov.cz/podmínky-užití/neobsahuje-autorská-díla/</code>, <code>https://data.gov.cz/podmínky-užití/není-autorskoprávně-chráněnou-databází/</code>, <code>https://data.gov.cz/podmínky-užití/není-chráněna-zvláštním-právem-pořizovatele-databáze/</code>, <code>https://creativecommons.org/licenses/by/4.0/</code>, <code>https://creativecommons.org/publicdomain/zero/1.0/</code>, <code>https://data.gov.cz/podmínky-užití/neobsahuje-osobní-údaje/</code>, <code>https://data.gov.cz/podmínky-užití/obsahuje-osobní-údaje/</code>)
+
 
 
 
@@ -3950,15 +4417,18 @@
         <li style="list-style-type: disclosure-closed;">
           <code>iri</code>:
           required
-          item of type
+          item
 
-                
+              of type       
   
   
     string
   (format: <code>iri</code>)
   
 
+  
+
+
 
   
   
@@ -3966,15 +4436,16 @@
   
   
   
+
 
 
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>typ</code>:
           required
-          item of type
+          item
 
-                
+              of type       
   
   
   
@@ -4001,13 +4472,16 @@
         <li>      
   
   
-    array of values <code>{0..*}</code> of type       
+    array of values <code>{0..*}</code>     of type       
   
   
     string
   
   
 
+  
+
+
 
   
   
@@ -4015,9 +4489,13 @@
   
   
   
+
 
 
      and must contain: <code>&quot;Distribuce&quot;</code>
+    
+
+
 
   
   
@@ -4036,28 +4514,33 @@
   
 
 
+
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>podmínky_užití</code>:
             (<a href="#Distribuce.specifikacePodmínekUžití" label="Specifikace podmínek užití dle https://opendata.gov.cz/cinnost:stanoveni-podminek-uziti.">Terms of use specification</a>)
           required
-          item of type
+          item
 
-              <a href="#json-object--datová-sada--specifikace-podmínek-užití"></a>
+              of type     <a href="#json-object--datová-sada--specifikace-podmínek-užití"></a>
+
 
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>přístupové_url</code>:
             (<a href="#Distribuce.přístupovéUrl" label="A URL that gives access to a Distribution of the Dataset.">access URL</a>)
           required
-          item of type
+          item
 
-                
+              of type       
   
   
     string
   (format: <code>iri</code>)
   (by regular expression: <code>^https://.*$</code>)
+
+  
+
 
 
   
@@ -4069,22 +4552,26 @@
 
 
 
+
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>právní_předpis</code>:
             (<a href="#Distribuce.příslušnýPrávníPředpis" label="The legislation that mandates the creation or management of the Distribution.">applicable legislation</a>)
           required
-          item of type
+          item
 
-                
+              of type       
   
   
-    array of values <code>{1..*}</code> of type       
+    array of values <code>{1..*}</code>     of type       
   
   
     string
   (format: <code>iri</code>)
   (by regular expression: <code>^http</code>)
+
+  
+
 
 
   
@@ -4096,7 +4583,11 @@
 
 
 
+
           
+    
+
+
 
   
   
@@ -4105,6 +4596,7 @@
   
   
   
+
 
 
         </li>
@@ -4112,9 +4604,9 @@
           <code>název</code>:
             (<a href="#Distribuce.název" label="A name given to the distribution.">title</a>)
           optional
-          item of type
+          item
 
-                  <strong>
+              of type         <strong>
     object
   </strong>
     with properties (<code>properties</code>):
@@ -4122,15 +4614,18 @@
         <li style="list-style-type: disclosure-closed;">
           <code>cs</code>:
           optional
-          item of type
+          item
 
-                
+              of type       
   
   
     string
   
   
 
+  
+
+
 
   
   
@@ -4138,21 +4633,25 @@
   
   
   
+
 
 
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>en</code>:
           optional
-          item of type
+          item
 
-                
+              of type       
   
   
     string
   
   
 
+  
+
+
 
   
   
@@ -4160,6 +4659,7 @@
   
   
   
+
 
 
         </li>
@@ -4179,19 +4679,23 @@
   
 
 
+
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>soubor_ke_stažení</code>:
             (<a href="#Distribuce-SouborKeStažení.odkazNaStaženíSouboru" label="A URL that is a direct link to a downloadable file in a given format.">download URL</a>)
           required
-          item of type
+          item
 
-                
+              of type       
   
   
     string
   (format: <code>iri</code>)
   (by regular expression: <code>^https://.*$</code>)
+
+  
+
 
 
   
@@ -4203,19 +4707,23 @@
 
 
 
+
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>formát</code>:
             (<a href="#Distribuce-SouborKeStažení.formátSouboruKeStažení" label="The file format of the distribution.">format</a>)
           required
-          item of type
+          item
 
-                
+              of type       
   
   
     string
   (format: <code>iri</code>)
   (by regular expression: <code>^http://publications\.europa\.eu/resource/authority/file-type/.*$</code>)
+
+  
+
 
 
   
@@ -4227,19 +4735,23 @@
 
 
 
+
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>typ_média</code>:
             (<a href="#Distribuce-SouborKeStažení.typMédia" label="The media type of the distribution as defined by IANA">media type</a>)
           required
-          item of type
+          item
 
-                
+              of type       
   
   
     string
   (format: <code>iri</code>)
   (by regular expression: <code>^http://www\.iana\.org/assignments/media-types/.*$</code>)
+
+  
+
 
 
   
@@ -4251,19 +4763,23 @@
 
 
 
+
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>schéma</code>:
             (<a href="#Distribuce-SouborKeStažení.strojověČitelnéSchémaSouboruKeStažení" label="An established standard to which the distribution conforms.">linked schemas</a>)
           optional
-          item of type
+          item
 
-                
+              of type       
   
   
     string
   (format: <code>iri</code>)
   (by regular expression: <code>^https://.*$</code>)
+
+  
+
 
 
   
@@ -4275,19 +4791,23 @@
 
 
 
+
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>typ_média_komprese</code>:
             (<a href="#Distribuce-SouborKeStažení.formátKomprese" label="The format of the file in which the data is contained in a compressed form, e.g. to reduce the size of the downloadable file.">compression format</a>)
           optional
-          item of type
+          item
 
-                
+              of type       
   
   
     string
   (format: <code>iri</code>)
   (by regular expression: <code>^http://www\.iana\.org/assignments/media-types/.*$</code>)
+
+  
+
 
 
   
@@ -4296,6 +4816,7 @@
   
   
       (for example <code>http://www.iana.org/assignments/media-types/image/tiff</code>)
+
 
 
 
@@ -4304,14 +4825,17 @@
           <code>typ_média_balíčku</code>:
             (<a href="#Distribuce-SouborKeStažení.formátBalíčku" label="The package format of the distribution in which one or more data files are grouped together, e.g. to enable a set of related files to be downloaded together.">packaging format</a>)
           optional
-          item of type
+          item
 
-                
+              of type       
   
   
     string
   (format: <code>iri</code>)
   (by regular expression: <code>^http://www\.iana\.org/assignments/media-types/.*$</code>)
+
+  
+
 
 
   
@@ -4320,6 +4844,7 @@
   
   
       (for example <code>http://www.iana.org/assignments/media-types/image/tiff</code>)
+
 
 
 
@@ -4365,15 +4890,18 @@
         <li style="list-style-type: disclosure-closed;">
           <code>iri</code>:
           optional
-          item of type
+          item
 
-                
+              of type       
   
   
     string
   (format: <code>iri</code>)
   
 
+  
+
+
 
   
   
@@ -4381,15 +4909,16 @@
   
   
   
+
 
 
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>typ</code>:
           required
-          item of type
+          item
 
-                
+              of type       
   
   
   
@@ -4416,13 +4945,16 @@
         <li>      
   
   
-    array of values <code>{0..*}</code> of type       
+    array of values <code>{0..*}</code>     of type       
   
   
     string
   
   
 
+  
+
+
 
   
   
@@ -4430,9 +4962,13 @@
   
   
   
+
 
 
      and must contain: <code>&quot;Specifikace podmínek užití&quot;</code>
+    
+
+
 
   
   
@@ -4451,19 +4987,23 @@
   
 
 
+
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>autorské_dílo</code>:
             (<a href="#SpecifikacePodmínekUžití.autorskéDílo" label="Většina případů poskytovaných dat nebude spadat pod definici autorského díla dle § 2 autorského zákona (121/2000 Sb.), nebude se na ně proto vztahovat autorskoprávní ochrana a nebude proto pro ně potřeba jakékoli licence. „Prostá data“ nejsou chráněna právy duševního vlastnictví. Ve výjimečných případech se však může stát, že databáze bude obsahovat autorskoprávně chráněná díla. Příkladem dat obsahujících autorskoprávně chráněná díla by mohl být seznam příspěvků literární soutěže pořádané radnicí, který by byl uveřejněný včetně plnotextového znění přihlášených soutěžních děl.">Copyrighted work</a>)
           required
-          item of type
+          item
 
-                
+              of type       
   
   
     string
   (format: <code>iri</code>)
   
+
+  
+
 
 
   
@@ -4472,6 +5012,7 @@
   
   
       (for example <code>https://data.gov.cz/podmínky-užití/neobsahuje-autorská-díla/</code>, <code>https://data.gov.cz/podmínky-užití/není-autorskoprávně-chráněnou-databází/</code>, <code>https://data.gov.cz/podmínky-užití/není-chráněna-zvláštním-právem-pořizovatele-databáze/</code>, <code>https://creativecommons.org/licenses/by/4.0/</code>, <code>https://creativecommons.org/publicdomain/zero/1.0/</code>, <code>https://data.gov.cz/podmínky-užití/neobsahuje-osobní-údaje/</code>, <code>https://data.gov.cz/podmínky-užití/obsahuje-osobní-údaje/</code>)
+
 
 
 
@@ -4480,9 +5021,9 @@
           <code>autor</code>:
             (<a href="#SpecifikacePodmínekUžití.jménaAutorůDíla" label="Jména autorů díla pro použití s licencí CC BY 4.0">Names of authors</a>)
           optional
-          item of type
+          item
 
-                  <strong>
+              of type         <strong>
     object
   </strong>
     with properties (<code>properties</code>):
@@ -4490,15 +5031,18 @@
         <li style="list-style-type: disclosure-closed;">
           <code>cs</code>:
           optional
-          item of type
+          item
 
-                
+              of type       
   
   
     string
   
   
 
+  
+
+
 
   
   
@@ -4506,21 +5050,25 @@
   
   
   
+
 
 
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>en</code>:
           optional
-          item of type
+          item
 
-                
+              of type       
   
   
     string
   
   
 
+  
+
+
 
   
   
@@ -4528,6 +5076,7 @@
   
   
   
+
 
 
         </li>
@@ -4547,19 +5096,23 @@
   
 
 
+
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>databáze_jako_autorské_dílo</code>:
             (<a href="#SpecifikacePodmínekUžití.originálníDatabáze" label="Tato ochrana je založena § 2 odst. 2 a 5 Autorského zákona a chráněny jsou takové databáze, které jsou „způsobem výběru nebo uspořádáním obsahu autorovým vlastním duševním výtvorem“. Chráněna je tady originální struktura, systém řazení údajů a podobně, tedy kostra, do které se samotné údaje vkládají. Takové databázi se říká „originální databáze“. Příkladem originální databáze může být obchodní rejstřík, který je však zároveň úředním dílem.">Copyrighted database</a>)
           required
-          item of type
+          item
 
-                
+              of type       
   
   
     string
   (format: <code>iri</code>)
   
+
+  
+
 
 
   
@@ -4568,6 +5121,7 @@
   
   
       (for example <code>https://data.gov.cz/podmínky-užití/neobsahuje-autorská-díla/</code>, <code>https://data.gov.cz/podmínky-užití/není-autorskoprávně-chráněnou-databází/</code>, <code>https://data.gov.cz/podmínky-užití/není-chráněna-zvláštním-právem-pořizovatele-databáze/</code>, <code>https://creativecommons.org/licenses/by/4.0/</code>, <code>https://creativecommons.org/publicdomain/zero/1.0/</code>, <code>https://data.gov.cz/podmínky-užití/neobsahuje-osobní-údaje/</code>, <code>https://data.gov.cz/podmínky-užití/obsahuje-osobní-údaje/</code>)
+
 
 
 
@@ -4576,9 +5130,9 @@
           <code>autor_databáze</code>:
             (<a href="#SpecifikacePodmínekUžití.jménaAutorůOriginálníDatabáze" label="Jména autorů originální databáze pro použití s licencí CC BY 4.0">Names of authors of database</a>)
           optional
-          item of type
+          item
 
-                  <strong>
+              of type         <strong>
     object
   </strong>
     with properties (<code>properties</code>):
@@ -4586,15 +5140,18 @@
         <li style="list-style-type: disclosure-closed;">
           <code>cs</code>:
           optional
-          item of type
+          item
 
-                
+              of type       
   
   
     string
   
   
 
+  
+
+
 
   
   
@@ -4602,21 +5159,25 @@
   
   
   
+
 
 
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>en</code>:
           optional
-          item of type
+          item
 
-                
+              of type       
   
   
     string
   
   
 
+  
+
+
 
   
   
@@ -4624,6 +5185,7 @@
   
   
   
+
 
 
         </li>
@@ -4643,19 +5205,23 @@
   
 
 
+
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>databáze_chráněná_zvláštními_právy</code>:
             (<a href="#SpecifikacePodmínekUžití.zvláštníPrávoPořizovateleDatabáze" label="Tato ochrana je založena § 88 a následujícími Autorského zákona. Zvláštní databázová práva chrání investice vynaložené při zřízení databáze, ověření uvedených dat, nebo jejich publikaci. Práva vznikají, pokud pořízení, ověření nebo předvedení obsahu databáze představuje kvalitativně nebo kvantitativně podstatný vklad. Držitelem práv je pořizovatel databáze, což je osoba, která na svou odpovědnost pořídí databázi, nebo pro kterou tak z jejího podnětu učiní jiná osoba. Zvláštních databázových práv se dá plně vzdát, na rozdíl od autorských práv. Příkladem databáze chráněné zvláštními právy pořizovatele databáze je databáze právních předpisů.">Sui generis database rights</a>)
           required
-          item of type
+          item
 
-                
+              of type       
   
   
     string
   (format: <code>iri</code>)
   
+
+  
+
 
 
   
@@ -4664,6 +5230,7 @@
   
   
       (for example <code>https://data.gov.cz/podmínky-užití/neobsahuje-autorská-díla/</code>, <code>https://data.gov.cz/podmínky-užití/není-autorskoprávně-chráněnou-databází/</code>, <code>https://data.gov.cz/podmínky-užití/není-chráněna-zvláštním-právem-pořizovatele-databáze/</code>, <code>https://creativecommons.org/licenses/by/4.0/</code>, <code>https://creativecommons.org/publicdomain/zero/1.0/</code>, <code>https://data.gov.cz/podmínky-užití/neobsahuje-osobní-údaje/</code>, <code>https://data.gov.cz/podmínky-užití/obsahuje-osobní-údaje/</code>)
+
 
 
 
@@ -4672,14 +5239,17 @@
           <code>osobní_údaje</code>:
             (<a href="#SpecifikacePodmínekUžití.osobníÚdaje" label="Pokud data obsahují osobní údaje, je třeba o této skutečnosti informovat příjemce dat. Předpřipravené dokumenty mají IRI https://data.gov.cz/podmínky-užití/obsahuje-osobní-údaje/ a https://data.gov.cz/podmínky-užití/neobsahuje-osobní-údaje/.">Personal data</a>)
           required
-          item of type
+          item
 
-                
+              of type       
   
   
     string
   (format: <code>iri</code>)
   
+
+  
+
 
 
   
@@ -4688,6 +5258,7 @@
   
   
       (for example <code>https://data.gov.cz/podmínky-užití/neobsahuje-autorská-díla/</code>, <code>https://data.gov.cz/podmínky-užití/není-autorskoprávně-chráněnou-databází/</code>, <code>https://data.gov.cz/podmínky-užití/není-chráněna-zvláštním-právem-pořizovatele-databáze/</code>, <code>https://creativecommons.org/licenses/by/4.0/</code>, <code>https://creativecommons.org/publicdomain/zero/1.0/</code>, <code>https://data.gov.cz/podmínky-užití/neobsahuje-osobní-údaje/</code>, <code>https://data.gov.cz/podmínky-užití/obsahuje-osobní-údaje/</code>)
+
 
 
 
@@ -4733,9 +5304,9 @@
         <li style="list-style-type: disclosure-closed;">
           <code>typ</code>:
           required
-          item of type
+          item
 
-                
+              of type       
   
   
   
@@ -4762,13 +5333,16 @@
         <li>      
   
   
-    array of values <code>{0..*}</code> of type       
+    array of values <code>{0..*}</code>     of type       
   
   
     string
   
   
 
+  
+
+
 
   
   
@@ -4776,9 +5350,13 @@
   
   
   
+
 
 
      and must contain: <code>&quot;Jednotlivec&quot;</code>
+    
+
+
 
   
   
@@ -4797,14 +5375,15 @@
   
 
 
+
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>jméno</code>:
             (<a href="#KontaktníBod.jméno" label="The formatted text corresponding to the name of the object">formatted name</a>)
           optional
-          item of type
+          item
 
-                  <strong>
+              of type         <strong>
     object
   </strong>
     with properties (<code>properties</code>):
@@ -4812,15 +5391,18 @@
         <li style="list-style-type: disclosure-closed;">
           <code>cs</code>:
           optional
-          item of type
+          item
 
-                
+              of type       
   
   
     string
   
   
 
+  
+
+
 
   
   
@@ -4828,21 +5410,25 @@
   
   
   
+
 
 
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>en</code>:
           optional
-          item of type
+          item
 
-                
+              of type       
   
   
     string
   
   
 
+  
+
+
 
   
   
@@ -4850,6 +5436,7 @@
   
   
   
+
 
 
         </li>
@@ -4869,19 +5456,23 @@
   
 
 
+
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>e-mail</code>:
             (<a href="#KontaktníBod.email" label="To specify the electronic mail address for communication with the object">has email</a>)
           optional
-          item of type
+          item
 
-                
+              of type       
   
   
     string
   (format: <code>iri</code>)
   (by regular expression: <code>^mailto:[^@]+@[^@]+</code>)
+
+  
+
 
 
   
@@ -4890,6 +5481,7 @@
   
   
       (for example <code>mailto:jan.novak@organizace.cz</code>)
+
 
 
 
@@ -4936,9 +5528,9 @@
         <li style="list-style-type: disclosure-closed;">
           <code>typ</code>:
           required
-          item of type
+          item
 
-                
+              of type       
   
   
   
@@ -4965,13 +5557,16 @@
         <li>      
   
   
-    array of values <code>{0..*}</code> of type       
+    array of values <code>{0..*}</code>     of type       
   
   
     string
   
   
 
+  
+
+
 
   
   
@@ -4979,9 +5574,13 @@
   
   
   
+
 
 
      and must contain: <code>&quot;Organizace&quot;</code>
+    
+
+
 
   
   
@@ -5000,14 +5599,15 @@
   
 
 
+
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>jméno</code>:
             (<a href="#KontaktníBod.jméno" label="The formatted text corresponding to the name of the object">formatted name</a>)
           optional
-          item of type
+          item
 
-                  <strong>
+              of type         <strong>
     object
   </strong>
     with properties (<code>properties</code>):
@@ -5015,15 +5615,18 @@
         <li style="list-style-type: disclosure-closed;">
           <code>cs</code>:
           optional
-          item of type
+          item
 
-                
+              of type       
   
   
     string
   
   
 
+  
+
+
 
   
   
@@ -5031,21 +5634,25 @@
   
   
   
+
 
 
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>en</code>:
           optional
-          item of type
+          item
 
-                
+              of type       
   
   
     string
   
   
 
+  
+
+
 
   
   
@@ -5053,6 +5660,7 @@
   
   
   
+
 
 
         </li>
@@ -5072,19 +5680,23 @@
   
 
 
+
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>e-mail</code>:
             (<a href="#KontaktníBod.email" label="To specify the electronic mail address for communication with the object">has email</a>)
           optional
-          item of type
+          item
 
-                
+              of type       
   
   
     string
   (format: <code>iri</code>)
   (by regular expression: <code>^mailto:[^@]+@[^@]+</code>)
+
+  
+
 
 
   
@@ -5093,6 +5705,7 @@
   
   
       (for example <code>mailto:jan.novak@organizace.cz</code>)
+
 
 
 
@@ -5138,9 +5751,9 @@
         <li style="list-style-type: disclosure-closed;">
           <code>typ</code>:
           required
-          item of type
+          item
 
-                
+              of type       
   
   
   
@@ -5167,13 +5780,16 @@
         <li>      
   
   
-    array of values <code>{0..*}</code> of type       
+    array of values <code>{0..*}</code>     of type       
   
   
     string
   
   
 
+  
+
+
 
   
   
@@ -5181,9 +5797,13 @@
   
   
   
+
 
 
      and must contain: <code>&quot;Časový interval&quot;</code>
+    
+
+
 
   
   
@@ -5202,20 +5822,24 @@
   
 
 
+
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>začátek</code>:
             (<a href="#ČasovýInterval.datumZačátku" label="The start of the period.">start date</a>)
           optional
-          item of type
+          item
 
-                
+              of type       
   
   
     string
   (format: <code>date</code>)
   
 
+  
+
+
 
   
   
@@ -5223,6 +5847,7 @@
   
   
   
+
 
 
         </li>
@@ -5230,15 +5855,18 @@
           <code>konec</code>:
             (<a href="#ČasovýInterval.datumKonce" label="The end of the period.">end date</a>)
           optional
-          item of type
+          item
 
-                
+              of type       
   
   
     string
   (format: <code>date</code>)
   
 
+  
+
+
 
   
   
@@ -5246,6 +5874,7 @@
   
   
   
+
 
 
         </li>

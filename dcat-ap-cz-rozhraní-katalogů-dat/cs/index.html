@@ -407,6 +407,8 @@
 
 
 
+
+
   <h1>
       JSON struktura pro    Katalog
   </h1>
@@ -450,9 +452,9 @@
         <li style="list-style-type: disclosure-closed;">
           <code>@context</code>:
           povinná
-          položka typu
+          položka
 
-                
+              typu       
   
   
   
@@ -478,13 +480,16 @@
 </li>
         <li>      
   
-      pole hodnot <code>{0..*}</code> typu       
+      pole hodnot <code>{0..*}</code>     typu       
   
   
     řetězec
   (formát: <code>iri</code>)
   
 
+  
+
+
 
   
   
@@ -492,9 +497,13 @@
   
   
   
+
 
 
      a musí obsahovat: <code>&quot;https://ofn.gov.cz/dcat-ap-cz-rozhraní-katalogů-dat/2026-09-23/katalog/kontext.jsonld&quot;</code>
+    
+
+
   
   
   
@@ -513,19 +522,23 @@
   
 
 
+
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>iri</code>:
           povinná
-          položka typu
+          položka
 
-                
+              typu       
   
   
     řetězec
   (formát: <code>iri</code>)
   (dle regulárního výrazu: <code>^https://</code>)
 
+  
+
+
 
   
   
@@ -533,15 +546,16 @@
   
   
   
+
 
 
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>typ</code>:
           povinná
-          položka typu
+          položka
 
-                
+              typu       
   
   
   
@@ -567,13 +581,16 @@
 </li>
         <li>      
   
-      pole hodnot <code>{0..*}</code> typu       
+      pole hodnot <code>{0..*}</code>     typu       
   
   
     řetězec
   
   
 
+  
+
+
 
   
   
@@ -581,9 +598,13 @@
   
   
   
+
 
 
      a musí obsahovat: <code>&quot;Katalog&quot;</code>
+    
+
+
   
   
   
@@ -602,14 +623,15 @@
   
 
 
+
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>název</code>:
             (<a href="#Katalog.název" label="Tato vlastnost obsahuje název datového katalogu.">název</a>)
           povinná
-          položka typu
+          položka
 
-                  <strong>
+              typu         <strong>
     objekt
   </strong>
     s vlastnostmi (<code>properties</code>):
@@ -617,15 +639,18 @@
         <li style="list-style-type: disclosure-closed;">
           <code>cs</code>:
           nepovinná
-          položka typu
+          položka
 
-                
+              typu       
   
   
     řetězec
   
   
 
+  
+
+
 
   
   
@@ -633,21 +658,25 @@
   
   
   
+
 
 
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>en</code>:
           nepovinná
-          položka typu
+          položka
 
-                
+              typu       
   
   
     řetězec
   
   
 
+  
+
+
 
   
   
@@ -655,6 +684,7 @@
   
   
   
+
 
 
         </li>
@@ -672,6 +702,7 @@
   
   
   
+
 
 
         </li>
@@ -679,9 +710,9 @@
           <code>popis</code>:
             (<a href="#Katalog.popis" label="Tato vlastnost obsahuje volný text s popisem datového katalogu.">popis</a>)
           povinná
-          položka typu
+          položka
 
-                  <strong>
+              typu         <strong>
     objekt
   </strong>
     s vlastnostmi (<code>properties</code>):
@@ -689,15 +720,18 @@
         <li style="list-style-type: disclosure-closed;">
           <code>cs</code>:
           nepovinná
-          položka typu
+          položka
 
-                
+              typu       
   
   
     řetězec
   
   
 
+  
+
+
 
   
   
@@ -705,21 +739,25 @@
   
   
   
+
 
 
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>en</code>:
           nepovinná
-          položka typu
+          položka
 
-                
+              typu       
   
   
     řetězec
   
   
 
+  
+
+
 
   
   
@@ -727,6 +765,7 @@
   
   
   
+
 
 
         </li>
@@ -746,29 +785,34 @@
   
 
 
+
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>kontaktní_bod</code>:
             (<a href="#Katalog.kontaktníBod" label="Tato vlastnost obsahuje kontaktní informace, které mohou být využity pro zasílání připomínek ke katalogu.">kontaktní bod</a>)
           povinná
-          položka typu
+          položka
 
-              <a href="#json-object--katalog--organizace"></a>
+              typu     <a href="#json-object--katalog--organizace"></a>
+
 
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>domovská_stránka</code>:
             (<a href="#Katalog.domovskáStránka" label="Tato vlastnost odkazuje na domovskou stránku lokálního katalogu, kam mohou chodit uživatelé.">domovská stránka</a>)
           nepovinná
-          položka typu
+          položka
 
-                
+              typu       
   
   
     řetězec
   (formát: <code>iri</code>)
   (dle regulárního výrazu: <code>^https://</code>)
 
+  
+
+
 
   
   
@@ -776,6 +820,7 @@
   
   
   
+
 
 
         </li>
@@ -783,15 +828,18 @@
           <code>poskytovatel</code>:
             (<a href="#Katalog.poskytovatel" label="Poskytovatel datového katalogu.">poskytovatel</a>)
           povinná
-          položka typu
+          položka
 
-                
+              typu       
   
   
     řetězec
   (formát: <code>iri</code>)
   (dle regulárního výrazu: <code>^https://</code>)
 
+  
+
+
 
   
   
@@ -799,6 +847,7 @@
   
   
   
+
 
 
         </li>
@@ -806,14 +855,17 @@
           <code>přístupový_bod</code>:
             (<a href="#Katalog.přístupovýBodSlužby" label="Kořenové umístění nebo hlavní přístupový bod služby (IRI přístupné přes Web).">přístupový bod služby</a>)
           povinná
-          položka typu
+          položka
 
-                
+              typu       
   
   
     řetězec
   (formát: <code>iri</code>)
   (dle regulárního výrazu: <code>^https://</code>)
+
+  
+
 
 
   
@@ -825,22 +877,26 @@
 
 
 
+
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>datová_sada</code>:
             (<a href="#Katalog.datováSada" label="Kolekce dat, která je katalogizována v katalogu.">datová sada</a>)
           nepovinná
-          položka typu
+          položka
 
-                
+              typu       
   
-      pole hodnot <code>{0..*}</code> typu       
+      pole hodnot <code>{0..*}</code>     typu       
   
   
     řetězec
   (formát: <code>iri</code>)
   (dle regulárního výrazu: <code>^https://</code>)
 
+  
+
+
 
   
   
@@ -848,9 +904,13 @@
   
   
   
+
 
 
           
+    
+
+
   
   
   
@@ -859,6 +919,7 @@
   
   
   
+
 
 
         </li>
@@ -903,15 +964,18 @@
         <li style="list-style-type: disclosure-closed;">
           <code>iri</code>:
           nepovinná
-          položka typu
+          položka
 
-                
+              typu       
   
   
     řetězec
   (formát: <code>iri</code>)
   
 
+  
+
+
 
   
   
@@ -919,15 +983,16 @@
   
   
   
+
 
 
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>typ</code>:
           povinná
-          položka typu
+          položka
 
-                
+              typu       
   
   
   
@@ -953,13 +1018,16 @@
 </li>
         <li>      
   
-      pole hodnot <code>{0..*}</code> typu       
+      pole hodnot <code>{0..*}</code>     typu       
   
   
     řetězec
   
   
 
+  
+
+
 
   
   
@@ -967,9 +1035,13 @@
   
   
   
+
 
 
      a musí obsahovat: <code>&quot;Organizace&quot;</code>
+    
+
+
   
   
   
@@ -988,14 +1060,15 @@
   
 
 
+
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>jméno</code>:
             (<a href="#Organizace.jméno" label="Jméno objektu jako formátovaný text.">jméno</a>)
           povinná
-          položka typu
+          položka
 
-                  <strong>
+              typu         <strong>
     objekt
   </strong>
     s vlastnostmi (<code>properties</code>):
@@ -1003,15 +1076,18 @@
         <li style="list-style-type: disclosure-closed;">
           <code>cs</code>:
           nepovinná
-          položka typu
+          položka
 
-                
+              typu       
   
   
     řetězec
   
   
 
+  
+
+
 
   
   
@@ -1019,21 +1095,25 @@
   
   
   
+
 
 
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>en</code>:
           nepovinná
-          položka typu
+          položka
 
-                
+              typu       
   
   
     řetězec
   
   
 
+  
+
+
 
   
   
@@ -1041,6 +1121,7 @@
   
   
   
+
 
 
         </li>
@@ -1060,20 +1141,24 @@
   
 
 
+
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>e-mail</code>:
             (<a href="#Organizace.email" label="E-mailová adresa pro komunikaci.">email</a>)
           povinná
-          položka typu
+          položka
 
-                
+              typu       
   
   
     řetězec
   (formát: <code>iri</code>)
   
 
+  
+
+
 
   
   
@@ -1081,6 +1166,7 @@
   
   
   
+
 
 
         </li>
