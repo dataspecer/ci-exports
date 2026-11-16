@@ -407,6 +407,8 @@
 
 
 
+
+
   <h1>
 
       JSON structure for
@@ -452,9 +454,9 @@
         <li style="list-style-type: disclosure-closed;">
           <code>@context</code>:
           required
-          item of type
+          item
 
-                
+              of type       
   
   
   
@@ -481,13 +483,16 @@
         <li>      
   
   
-    array of values <code>{0..*}</code> of type       
+    array of values <code>{0..*}</code>     of type       
   
   
     string
   (format: <code>iri</code>)
   
 
+  
+
+
 
   
   
@@ -495,9 +500,13 @@
   
   
   
+
 
 
      and must contain: <code>&quot;https://ofn.gov.cz/dcat-ap-cz-rozhraní-katalogů-dat/2026-09-23/katalog/kontext.jsonld&quot;</code>
+    
+
+
 
   
   
@@ -516,19 +525,23 @@
   
 
 
+
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>iri</code>:
           required
-          item of type
+          item
 
-                
+              of type       
   
   
     string
   (format: <code>iri</code>)
   (by regular expression: <code>^https://</code>)
 
+  
+
+
 
   
   
@@ -536,15 +549,16 @@
   
   
   
+
 
 
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>typ</code>:
           required
-          item of type
+          item
 
-                
+              of type       
   
   
   
@@ -571,13 +585,16 @@
         <li>      
   
   
-    array of values <code>{0..*}</code> of type       
+    array of values <code>{0..*}</code>     of type       
   
   
     string
   
   
 
+  
+
+
 
   
   
@@ -585,9 +602,13 @@
   
   
   
+
 
 
      and must contain: <code>&quot;Katalog&quot;</code>
+    
+
+
 
   
   
@@ -606,14 +627,15 @@
   
 
 
+
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>název</code>:
             (<a href="#Katalog.název" label="A name given to the Catalogue.">title</a>)
           required
-          item of type
+          item
 
-                  <strong>
+              of type         <strong>
     object
   </strong>
     with properties (<code>properties</code>):
@@ -621,15 +643,18 @@
         <li style="list-style-type: disclosure-closed;">
           <code>cs</code>:
           optional
-          item of type
+          item
 
-                
+              of type       
   
   
     string
   
   
 
+  
+
+
 
   
   
@@ -637,21 +662,25 @@
   
   
   
+
 
 
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>en</code>:
           optional
-          item of type
+          item
 
-                
+              of type       
   
   
     string
   
   
 
+  
+
+
 
   
   
@@ -659,6 +688,7 @@
   
   
   
+
 
 
         </li>
@@ -676,6 +706,7 @@
   
   
   
+
 
 
         </li>
@@ -683,9 +714,9 @@
           <code>popis</code>:
             (<a href="#Katalog.popis" label="A free-text account of the Catalogue.">description</a>)
           required
-          item of type
+          item
 
-                  <strong>
+              of type         <strong>
     object
   </strong>
     with properties (<code>properties</code>):
@@ -693,15 +724,18 @@
         <li style="list-style-type: disclosure-closed;">
           <code>cs</code>:
           optional
-          item of type
+          item
 
-                
+              of type       
   
   
     string
   
   
 
+  
+
+
 
   
   
@@ -709,21 +743,25 @@
   
   
   
+
 
 
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>en</code>:
           optional
-          item of type
+          item
 
-                
+              of type       
   
   
     string
   
   
 
+  
+
+
 
   
   
@@ -731,6 +769,7 @@
   
   
   
+
 
 
         </li>
@@ -750,29 +789,34 @@
   
 
 
+
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>kontaktní_bod</code>:
             (<a href="#Katalog.kontaktníBod" label="Relevant contact information for the catalogued resource. Use of vCard is recommended.">contact point</a>)
           required
-          item of type
+          item
 
-              <a href="#json-object--katalog--organizace"></a>
+              of type     <a href="#json-object--katalog--organizace"></a>
+
 
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>domovská_stránka</code>:
             (<a href="#Katalog.domovskáStránka" label="A web page that acts as the main page for the Catalogue.">homepage</a>)
           optional
-          item of type
+          item
 
-                
+              of type       
   
   
     string
   (format: <code>iri</code>)
   (by regular expression: <code>^https://</code>)
 
+  
+
+
 
   
   
@@ -780,6 +824,7 @@
   
   
   
+
 
 
         </li>
@@ -787,15 +832,18 @@
           <code>poskytovatel</code>:
             (<a href="#Katalog.poskytovatel" label="An entity (organisation) responsible for making the Catalogue available.">publisher</a>)
           required
-          item of type
+          item
 
-                
+              of type       
   
   
     string
   (format: <code>iri</code>)
   (by regular expression: <code>^https://</code>)
 
+  
+
+
 
   
   
@@ -803,6 +851,7 @@
   
   
   
+
 
 
         </li>
@@ -810,14 +859,17 @@
           <code>přístupový_bod</code>:
             (<a href="#Katalog.přístupovýBodSlužby" label="The root location or primary endpoint of the service (an IRI).">endpoint URL</a>)
           required
-          item of type
+          item
 
-                
+              of type       
   
   
     string
   (format: <code>iri</code>)
   (by regular expression: <code>^https://</code>)
+
+  
+
 
 
   
@@ -829,23 +881,27 @@
 
 
 
+
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>datová_sada</code>:
             (<a href="#Katalog.datováSada" label="A Dataset that is part of the Catalogue.">dataset</a>)
           optional
-          item of type
+          item
 
-                
+              of type       
   
   
-    array of values <code>{0..*}</code> of type       
+    array of values <code>{0..*}</code>     of type       
   
   
     string
   (format: <code>iri</code>)
   (by regular expression: <code>^https://</code>)
 
+  
+
+
 
   
   
@@ -853,9 +909,13 @@
   
   
   
+
 
 
           
+    
+
+
 
   
   
@@ -864,6 +924,7 @@
   
   
   
+
 
 
         </li>
@@ -909,15 +970,18 @@
         <li style="list-style-type: disclosure-closed;">
           <code>iri</code>:
           optional
-          item of type
+          item
 
-                
+              of type       
   
   
     string
   (format: <code>iri</code>)
   
 
+  
+
+
 
   
   
@@ -925,15 +989,16 @@
   
   
   
+
 
 
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>typ</code>:
           required
-          item of type
+          item
 
-                
+              of type       
   
   
   
@@ -960,13 +1025,16 @@
         <li>      
   
   
-    array of values <code>{0..*}</code> of type       
+    array of values <code>{0..*}</code>     of type       
   
   
     string
   
   
 
+  
+
+
 
   
   
@@ -974,9 +1042,13 @@
   
   
   
+
 
 
      and must contain: <code>&quot;Organizace&quot;</code>
+    
+
+
 
   
   
@@ -995,14 +1067,15 @@
   
 
 
+
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>jméno</code>:
             (<a href="#Organizace.jméno" label="The formatted text corresponding to the name of the object">formatted name</a>)
           required
-          item of type
+          item
 
-                  <strong>
+              of type         <strong>
     object
   </strong>
     with properties (<code>properties</code>):
@@ -1010,15 +1083,18 @@
         <li style="list-style-type: disclosure-closed;">
           <code>cs</code>:
           optional
-          item of type
+          item
 
-                
+              of type       
   
   
     string
   
   
 
+  
+
+
 
   
   
@@ -1026,21 +1102,25 @@
   
   
   
+
 
 
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>en</code>:
           optional
-          item of type
+          item
 
-                
+              of type       
   
   
     string
   
   
 
+  
+
+
 
   
   
@@ -1048,6 +1128,7 @@
   
   
   
+
 
 
         </li>
@@ -1067,20 +1148,24 @@
   
 
 
+
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>e-mail</code>:
             (<a href="#Organizace.email" label="To specify the electronic mail address for communication with the object">has email</a>)
           required
-          item of type
+          item
 
-                
+              of type       
   
   
     string
   (format: <code>iri</code>)
   
 
+  
+
+
 
   
   
@@ -1088,6 +1173,7 @@
   
   
   
+
 
 
         </li>

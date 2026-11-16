@@ -515,6 +515,8 @@
 
 
 
+
+
   <h1>
       JSON struktura pro    Série datových sad
   </h1>
@@ -558,9 +560,9 @@
         <li style="list-style-type: disclosure-closed;">
           <code>@context</code>:
           povinná
-          položka typu
+          položka
 
-                
+              typu       
   
   
   
@@ -586,13 +588,16 @@
 </li>
         <li>      
   
-      pole hodnot <code>{0..*}</code> typu       
+      pole hodnot <code>{0..*}</code>     typu       
   
   
     řetězec
   (formát: <code>iri</code>)
   
 
+  
+
+
 
   
   
@@ -600,9 +605,13 @@
   
   
   
+
 
 
      a musí obsahovat: <code>&quot;https://ofn.gov.cz/dcat-ap-cz-otevřená-data/2026-09-23/série-datových-sad/kontext.jsonld&quot;</code>
+    
+
+
   
   
   
@@ -621,19 +630,23 @@
   
 
 
+
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>iri</code>:
           povinná
-          položka typu
+          položka
 
-                
+              typu       
   
   
     řetězec
   (formát: <code>iri</code>)
   (dle regulárního výrazu: <code>^https://.*$</code>)
 
+  
+
+
 
   
   
@@ -641,15 +654,16 @@
   
   
   
+
 
 
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>typ</code>:
           povinná
-          položka typu
+          položka
 
-                
+              typu       
   
   
   
@@ -675,13 +689,16 @@
 </li>
         <li>      
   
-      pole hodnot <code>{0..*}</code> typu       
+      pole hodnot <code>{0..*}</code>     typu       
   
   
     řetězec
   
   
 
+  
+
+
 
   
   
@@ -689,9 +706,13 @@
   
   
   
+
 
 
      a musí obsahovat: <code>&quot;Série datových sad&quot;</code>
+    
+
+
   
   
   
@@ -710,14 +731,15 @@
   
 
 
+
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>název</code>:
             (<a href="#SérieDatovýchSad.název" label="Název série datových sad">název</a>)
           povinná
-          položka typu
+          položka
 
-                  <strong>
+              typu         <strong>
     objekt
   </strong>
     s vlastnostmi (<code>properties</code>):
@@ -725,15 +747,18 @@
         <li style="list-style-type: disclosure-closed;">
           <code>cs</code>:
           nepovinná
-          položka typu
+          položka
 
-                
+              typu       
   
   
     řetězec
   
   
 
+  
+
+
 
   
   
@@ -741,21 +766,25 @@
   
   
   
+
 
 
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>en</code>:
           nepovinná
-          položka typu
+          položka
 
-                
+              typu       
   
   
     řetězec
   
   
 
+  
+
+
 
   
   
@@ -763,6 +792,7 @@
   
   
   
+
 
 
         </li>
@@ -780,6 +810,7 @@
   
   
   
+
 
 
         </li>
@@ -787,9 +818,9 @@
           <code>popis</code>:
             (<a href="#SérieDatovýchSad.popis" label="Volný text s popisem série datových sad">popis</a>)
           povinná
-          položka typu
+          položka
 
-                  <strong>
+              typu         <strong>
     objekt
   </strong>
     s vlastnostmi (<code>properties</code>):
@@ -797,15 +828,18 @@
         <li style="list-style-type: disclosure-closed;">
           <code>cs</code>:
           nepovinná
-          položka typu
+          položka
 
-                
+              typu       
   
   
     řetězec
   
   
 
+  
+
+
 
   
   
@@ -813,21 +847,25 @@
   
   
   
+
 
 
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>en</code>:
           nepovinná
-          položka typu
+          položka
 
-                
+              typu       
   
   
     řetězec
   
   
 
+  
+
+
 
   
   
@@ -835,6 +873,7 @@
   
   
   
+
 
 
         </li>
@@ -854,19 +893,23 @@
   
 
 
+
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>poskytovatel</code>:
             (<a href="#SérieDatovýchSad.poskytovatel" label="Poskytovatel série datových sad zajišťující její soudržnost.">poskytovatel</a>)
           povinná
-          položka typu
+          položka
 
-                
+              typu       
   
   
     řetězec
   (formát: <code>iri</code>)
   
+
+  
+
 
 
   
@@ -878,22 +921,26 @@
 
 
 
+
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>je_součástí</code>:
             (<a href="#SérieDatovýchSad.jeSoučástí" label="Série datových sad, jíž je tato série datových sad součástí.">je součástí</a>)
           nepovinná
-          položka typu
+          položka
 
-                
+              typu       
   
-      pole hodnot <code>{0..*}</code> typu       
+      pole hodnot <code>{0..*}</code>     typu       
   
   
     řetězec
   (formát: <code>iri</code>)
   (dle regulárního výrazu: <code>^https://.*$</code>)
 
+  
+
+
 
   
   
@@ -901,9 +948,13 @@
   
   
   
+
 
 
           
+    
+
+
   
   
   
@@ -912,6 +963,7 @@
   
   
   
+
 
 
         </li>
@@ -919,16 +971,19 @@
           <code>téma</code>:
             (<a href="#SérieDatovýchSad.téma" label="Hlavní téma zdroje. Zdroj může mít více témat.">téma</a>)
           povinná
-          položka typu
+          položka
 
-                
+              typu       
   
-      pole hodnot <code>{1..*}</code> typu       
+      pole hodnot <code>{1..*}</code>     typu       
   
   
     řetězec
   (formát: <code>iri</code>)
   (dle regulárního výrazu: <code>^http://publications\.europa\.eu/resource/authority/data-theme/.*$</code>)
+
+  
+
 
 
   
@@ -940,7 +995,11 @@
 
 
 
+
           
+    
+
+
   
   
   
@@ -949,6 +1008,7 @@
   
   
   
+
 
 
         </li>
@@ -956,14 +1016,17 @@
           <code>periodicita_aktualizace</code>:
             (<a href="#SérieDatovýchSad.periodicitaAktualizace" label="Frekvence, se kterou je série datových sad aktualizována.">periodicita aktualizace</a>)
           povinná
-          položka typu
+          položka
 
-                
+              typu       
   
   
     řetězec
   (formát: <code>iri</code>)
   (dle regulárního výrazu: <code>^http://publications\.europa\.eu/resource/authority/frequency/.*$</code>)
+
+  
+
 
 
   
@@ -975,14 +1038,15 @@
 
 
 
+
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>klíčové_slovo</code>:
             (<a href="#SérieDatovýchSad.klíčovéSlovo" label="Klíčové slovo nebo značka popisující zdroj.">klíčové slovo</a>)
           povinná
-          položka typu
+          položka
 
-                  <strong>
+              typu         <strong>
     objekt
   </strong>
     s vlastnostmi (<code>properties</code>):
@@ -990,17 +1054,20 @@
         <li style="list-style-type: disclosure-closed;">
           <code>cs</code>:
           nepovinná
-          položka typu
+          položka
 
-                
+              typu       
   
-      pole hodnot <code>{0..*}</code> typu       
+      pole hodnot <code>{0..*}</code>     typu       
   
   
     řetězec
   
   
 
+  
+
+
 
   
   
@@ -1008,9 +1075,13 @@
   
   
   
+
 
 
           
+    
+
+
   
   
   
@@ -1019,23 +1090,27 @@
   
   
   
+
 
 
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>en</code>:
           nepovinná
-          položka typu
+          položka
 
-                
+              typu       
   
-      pole hodnot <code>{0..*}</code> typu       
+      pole hodnot <code>{0..*}</code>     typu       
   
   
     řetězec
   
   
 
+  
+
+
 
   
   
@@ -1043,9 +1118,13 @@
   
   
   
+
 
 
           
+    
+
+
   
   
   
@@ -1054,6 +1133,7 @@
   
   
   
+
 
 
         </li>
@@ -1073,21 +1153,25 @@
   
 
 
+
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>geografické_území</code>:
             (<a href="#SérieDatovýchSad.souvisejícíGeografickéÚzemí" label="Geografické území pokryté sérií datových sad.">související geografické území</a>)
           nepovinná
-          položka typu
+          položka
 
-                
+              typu       
   
-      pole hodnot <code>{0..*}</code> typu       
+      pole hodnot <code>{0..*}</code>     typu       
   
   
     řetězec
   (formát: <code>iri</code>)
   
+
+  
+
 
 
   
@@ -1099,7 +1183,11 @@
 
 
 
+
           
+    
+
+
   
   
   
@@ -1108,6 +1196,7 @@
   
   
   
+
 
 
         </li>
@@ -1115,16 +1204,19 @@
           <code>prvek_rúian</code>:
             (<a href="#SérieDatovýchSad.souvisejícíGeografickéÚzemí-PrvekZRúian" label="Území pokryté datovou sadou, vyjádřené pomocí prvku RÚIAN">související geografické území - prvek z RÚIAN</a>)
           povinná
-          položka typu
+          položka
 
-                
+              typu       
   
-      pole hodnot <code>{1..*}</code> typu       
+      pole hodnot <code>{1..*}</code>     typu       
   
   
     řetězec
   (formát: <code>iri</code>)
   (dle regulárního výrazu: <code>^https://linked.cuzk.cz/resource/ruian/.*$</code>)
+
+  
+
 
 
   
@@ -1136,7 +1228,11 @@
 
 
 
+
           
+    
+
+
   
   
   
@@ -1145,6 +1241,7 @@
   
   
   
+
 
 
         </li>
@@ -1152,13 +1249,17 @@
           <code>časové_pokrytí</code>:
             (<a href="#SérieDatovýchSad.časovéPokrytí" label="Časový úsek pokrytý sérií datových sad">časové pokrytí</a>)
           nepovinná
-          položka typu
+          položka
 
-                
+              typu       
   
-      pole hodnot <code>{0..*}</code> typu     <a href="#json-object--série-datových-sad--časový-interval"></a>
+      pole hodnot <code>{0..*}</code>     typu     <a href="#json-object--série-datových-sad--časový-interval"></a>
+
 
           
+    
+
+
   
   
   
@@ -1167,6 +1268,7 @@
   
   
   
+
 
 
         </li>
@@ -1174,9 +1276,9 @@
           <code>kontaktní_bod</code>:
             (<a href="#SérieDatovýchSad.kontaktníBod" label="Kontaktní informace, které mohou být využity pro zasílání připomínek k sérii datových sad.">kontaktní bod</a>)
           nepovinná
-          položka typu
+          položka
 
-                
+              typu       
   
   
   
@@ -1198,19 +1300,23 @@
   
 
 
+
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>dokumentace</code>:
             (<a href="#SérieDatovýchSad.dokumentace" label="Stránka či dokument o sérii datových sad">dokumentace</a>)
           nepovinná
-          položka typu
+          položka
 
-                
+              typu       
   
   
     řetězec
   (formát: <code>iri</code>)
   (dle regulárního výrazu: <code>^https://.*$</code>)
+
+  
+
 
 
   
@@ -1222,21 +1328,25 @@
 
 
 
+
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>koncept_euroVoc</code>:
             (<a href="#SérieDatovýchSad.klasifikaceDleEurovoc" label="Kategorie či téma série datových sad dle EuroVoc.">klasifikace dle EuroVoc</a>)
           nepovinná
-          položka typu
+          položka
 
-                
+              typu       
   
-      pole hodnot <code>{0..*}</code> typu       
+      pole hodnot <code>{0..*}</code>     typu       
   
   
     řetězec
   (formát: <code>iri</code>)
   (dle regulárního výrazu: <code>^http://eurovoc\.europa\.eu/.*$</code>)
+
+  
+
 
 
   
@@ -1248,7 +1358,11 @@
 
 
 
+
           
+    
+
+
   
   
   
@@ -1257,6 +1371,7 @@
   
   
   
+
 
 
         </li>
@@ -1264,16 +1379,19 @@
           <code>právní_předpis</code>:
             (<a href="#SérieDatovýchSad.příslušnýPrávníPředpis" label="Indikace příslušného právního předpisu předepisujícího vznik série datových sad.">příslušný právní předpis</a>)
           povinná
-          položka typu
+          položka
 
-                
+              typu       
   
-      pole hodnot <code>{1..*}</code> typu       
+      pole hodnot <code>{1..*}</code>     typu       
   
   
     řetězec
   (formát: <code>iri</code>)
   (dle regulárního výrazu: <code>^http</code>)
+
+  
+
 
 
   
@@ -1285,7 +1403,11 @@
 
 
 
+
           
+    
+
+
   
   
   
@@ -1294,6 +1416,7 @@
   
   
   
+
 
 
         </li>
@@ -1301,14 +1424,17 @@
           <code>vstupní_stránka</code>:
             (<a href="#SérieDatovýchSad.vstupníStránka" label="Webová stránka, na kterou lze pro získání přístupu ke sérii datových sad přistoupit webovým prohlížečem.">vstupní stránka</a>)
           nepovinná
-          položka typu
+          položka
 
-                
+              typu       
   
   
     řetězec
   (formát: <code>iri</code>)
   (dle regulárního výrazu: <code>^https://.*$</code>)
+
+  
+
 
 
   
@@ -1317,6 +1443,7 @@
   
   
       (například <code>https://www.mdcr.cz/Dokumenty/Verejna-doprava/Jizdni-rady,-kalendare-pro-jizdni-rady,-metodi-(1)/Jizdni-rady-verejne-dopravy</code>)
+
 
 
 
@@ -1362,15 +1489,18 @@
         <li style="list-style-type: disclosure-closed;">
           <code>iri</code>:
           nepovinná
-          položka typu
+          položka
 
-                
+              typu       
   
   
     řetězec
   (formát: <code>iri</code>)
   
 
+  
+
+
 
   
   
@@ -1378,15 +1508,16 @@
   
   
   
+
 
 
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>typ</code>:
           povinná
-          položka typu
+          položka
 
-                
+              typu       
   
   
   
@@ -1412,13 +1543,16 @@
 </li>
         <li>      
   
-      pole hodnot <code>{0..*}</code> typu       
+      pole hodnot <code>{0..*}</code>     typu       
   
   
     řetězec
   
   
 
+  
+
+
 
   
   
@@ -1426,9 +1560,13 @@
   
   
   
+
 
 
      a musí obsahovat: <code>&quot;Jednotlivec&quot;</code>
+    
+
+
   
   
   
@@ -1447,14 +1585,15 @@
   
 
 
+
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>jméno</code>:
             (<a href="#KontaktníBod.jméno" label="Jméno objektu jako formátovaný text.">jméno</a>)
           nepovinná
-          položka typu
+          položka
 
-                  <strong>
+              typu         <strong>
     objekt
   </strong>
     s vlastnostmi (<code>properties</code>):
@@ -1462,15 +1601,18 @@
         <li style="list-style-type: disclosure-closed;">
           <code>cs</code>:
           nepovinná
-          položka typu
+          položka
 
-                
+              typu       
   
   
     řetězec
   
   
 
+  
+
+
 
   
   
@@ -1478,21 +1620,25 @@
   
   
   
+
 
 
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>en</code>:
           nepovinná
-          položka typu
+          položka
 
-                
+              typu       
   
   
     řetězec
   
   
 
+  
+
+
 
   
   
@@ -1500,6 +1646,7 @@
   
   
   
+
 
 
         </li>
@@ -1519,19 +1666,23 @@
   
 
 
+
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>e-mail</code>:
             (<a href="#KontaktníBod.email" label="E-mailová adresa pro komunikaci.">email</a>)
           nepovinná
-          položka typu
+          položka
 
-                
+              typu       
   
   
     řetězec
   (formát: <code>iri</code>)
   (dle regulárního výrazu: <code>^mailto:[^@]+@[^@]+</code>)
+
+  
+
 
 
   
@@ -1540,6 +1691,7 @@
   
   
       (například <code>mailto:jan.novak@organizace.cz</code>)
+
 
 
 
@@ -1585,15 +1737,18 @@
         <li style="list-style-type: disclosure-closed;">
           <code>iri</code>:
           nepovinná
-          položka typu
+          položka
 
-                
+              typu       
   
   
     řetězec
   (formát: <code>iri</code>)
   
 
+  
+
+
 
   
   
@@ -1601,15 +1756,16 @@
   
   
   
+
 
 
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>typ</code>:
           povinná
-          položka typu
+          položka
 
-                
+              typu       
   
   
   
@@ -1635,13 +1791,16 @@
 </li>
         <li>      
   
-      pole hodnot <code>{0..*}</code> typu       
+      pole hodnot <code>{0..*}</code>     typu       
   
   
     řetězec
   
   
 
+  
+
+
 
   
   
@@ -1649,9 +1808,13 @@
   
   
   
+
 
 
      a musí obsahovat: <code>&quot;Organizace&quot;</code>
+    
+
+
   
   
   
@@ -1670,14 +1833,15 @@
   
 
 
+
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>jméno</code>:
             (<a href="#KontaktníBod.jméno" label="Jméno objektu jako formátovaný text.">jméno</a>)
           nepovinná
-          položka typu
+          položka
 
-                  <strong>
+              typu         <strong>
     objekt
   </strong>
     s vlastnostmi (<code>properties</code>):
@@ -1685,15 +1849,18 @@
         <li style="list-style-type: disclosure-closed;">
           <code>cs</code>:
           nepovinná
-          položka typu
+          položka
 
-                
+              typu       
   
   
     řetězec
   
   
 
+  
+
+
 
   
   
@@ -1701,21 +1868,25 @@
   
   
   
+
 
 
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>en</code>:
           nepovinná
-          položka typu
+          položka
 
-                
+              typu       
   
   
     řetězec
   
   
 
+  
+
+
 
   
   
@@ -1723,6 +1894,7 @@
   
   
   
+
 
 
         </li>
@@ -1742,19 +1914,23 @@
   
 
 
+
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>e-mail</code>:
             (<a href="#KontaktníBod.email" label="E-mailová adresa pro komunikaci.">email</a>)
           nepovinná
-          položka typu
+          položka
 
-                
+              typu       
   
   
     řetězec
   (formát: <code>iri</code>)
   (dle regulárního výrazu: <code>^mailto:[^@]+@[^@]+</code>)
+
+  
+
 
 
   
@@ -1763,6 +1939,7 @@
   
   
       (například <code>mailto:jan.novak@organizace.cz</code>)
+
 
 
 
@@ -1808,15 +1985,18 @@
         <li style="list-style-type: disclosure-closed;">
           <code>iri</code>:
           povinná
-          položka typu
+          položka
 
-                
+              typu       
   
   
     řetězec
   (formát: <code>iri</code>)
   
 
+  
+
+
 
   
   
@@ -1824,15 +2004,16 @@
   
   
   
+
 
 
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>typ</code>:
           povinná
-          položka typu
+          položka
 
-                
+              typu       
   
   
   
@@ -1858,13 +2039,16 @@
 </li>
         <li>      
   
-      pole hodnot <code>{0..*}</code> typu       
+      pole hodnot <code>{0..*}</code>     typu       
   
   
     řetězec
   
   
 
+  
+
+
 
   
   
@@ -1872,9 +2056,13 @@
   
   
   
+
 
 
      a musí obsahovat: <code>&quot;Časový interval&quot;</code>
+    
+
+
   
   
   
@@ -1893,20 +2081,24 @@
   
 
 
+
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>začátek</code>:
             (<a href="#ČasovýInterval.datumZačátku" label="Začátek doby trvání.">datum začátku</a>)
           nepovinná
-          položka typu
+          položka
 
-                
+              typu       
   
   
     řetězec
   (formát: <code>date</code>)
   
 
+  
+
+
 
   
   
@@ -1914,6 +2106,7 @@
   
   
   
+
 
 
         </li>
@@ -1921,15 +2114,18 @@
           <code>konec</code>:
             (<a href="#ČasovýInterval.datumKonce" label="Konec doby trvání.">datum konce</a>)
           nepovinná
-          položka typu
+          položka
 
-                
+              typu       
   
   
     řetězec
   (formát: <code>date</code>)
   
 
+  
+
+
 
   
   
@@ -1937,6 +2133,7 @@
   
   
   
+
 
 
         </li>
@@ -1966,6 +2163,8 @@
       <p>Datová struktura pro Datová sada. Kolekce dat poskytovaná či řízená jedním zdrojem, která je k dispozici pro přístup či stažení v jednom či více formátech.</p>
 
       <section id="json-schema--datová-sada">
+
+
 
 
 
@@ -2021,9 +2220,9 @@
         <li style="list-style-type: disclosure-closed;">
           <code>@context</code>:
           povinná
-          položka typu
+          položka
 
-                
+              typu       
   
   
   
@@ -2049,13 +2248,16 @@
 </li>
         <li>      
   
-      pole hodnot <code>{0..*}</code> typu       
+      pole hodnot <code>{0..*}</code>     typu       
   
   
     řetězec
   (formát: <code>iri</code>)
   
 
+  
+
+
 
   
   
@@ -2063,9 +2265,13 @@
   
   
   
+
 
 
      a musí obsahovat: <code>&quot;https://ofn.gov.cz/dcat-ap-cz-otevřená-data/2026-09-23/datová-sada/kontext.jsonld&quot;</code>
+    
+
+
   
   
   
@@ -2084,19 +2290,23 @@
   
 
 
+
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>iri</code>:
           povinná
-          položka typu
+          položka
 
-                
+              typu       
   
   
     řetězec
   (formát: <code>iri</code>)
   
 
+  
+
+
 
   
   
@@ -2104,15 +2314,16 @@
   
   
   
+
 
 
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>typ</code>:
           povinná
-          položka typu
+          položka
 
-                
+              typu       
   
   
   
@@ -2138,13 +2349,16 @@
 </li>
         <li>      
   
-      pole hodnot <code>{0..*}</code> typu       
+      pole hodnot <code>{0..*}</code>     typu       
   
   
     řetězec
   
   
 
+  
+
+
 
   
   
@@ -2152,9 +2366,13 @@
   
   
   
+
 
 
      a musí obsahovat: <code>&quot;Datová sada&quot;</code>
+    
+
+
   
   
   
@@ -2173,14 +2391,15 @@
   
 
 
+
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>název</code>:
             (<a href="#DatováSada.název" label="Název datové sady">název</a>)
           povinná
-          položka typu
+          položka
 
-                  <strong>
+              typu         <strong>
     objekt
   </strong>
     s vlastnostmi (<code>properties</code>):
@@ -2188,15 +2407,18 @@
         <li style="list-style-type: disclosure-closed;">
           <code>cs</code>:
           nepovinná
-          položka typu
+          položka
 
-                
+              typu       
   
   
     řetězec
   
   
 
+  
+
+
 
   
   
@@ -2204,21 +2426,25 @@
   
   
   
+
 
 
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>en</code>:
           nepovinná
-          položka typu
+          položka
 
-                
+              typu       
   
   
     řetězec
   
   
 
+  
+
+
 
   
   
@@ -2226,6 +2452,7 @@
   
   
   
+
 
 
         </li>
@@ -2243,6 +2470,7 @@
   
   
   
+
 
 
         </li>
@@ -2250,9 +2478,9 @@
           <code>popis</code>:
             (<a href="#DatováSada.popis" label="Volný text s popisem datové sady">popis</a>)
           povinná
-          položka typu
+          položka
 
-                  <strong>
+              typu         <strong>
     objekt
   </strong>
     s vlastnostmi (<code>properties</code>):
@@ -2260,15 +2488,18 @@
         <li style="list-style-type: disclosure-closed;">
           <code>cs</code>:
           nepovinná
-          položka typu
+          položka
 
-                
+              typu       
   
   
     řetězec
   
   
 
+  
+
+
 
   
   
@@ -2276,21 +2507,25 @@
   
   
   
+
 
 
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>en</code>:
           nepovinná
-          položka typu
+          položka
 
-                
+              typu       
   
   
     řetězec
   
   
 
+  
+
+
 
   
   
@@ -2298,6 +2533,7 @@
   
   
   
+
 
 
         </li>
@@ -2317,19 +2553,23 @@
   
 
 
+
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>poskytovatel</code>:
             (<a href="#DatováSada.poskytovatel" label="Poskytovatel datové sady">poskytovatel</a>)
           povinná
-          položka typu
+          položka
 
-                
+              typu       
   
   
     řetězec
   (formát: <code>iri</code>)
   
+
+  
+
 
 
   
@@ -2341,20 +2581,24 @@
 
 
 
+
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>je_součástí</code>:
             (<a href="#DatováSada.jeSoučástí" label="Série datových sad, jíž je datová sada součástí.">je součástí</a>)
           nepovinná
-          položka typu
+          položka
 
-                
+              typu       
   
   
     řetězec
   (formát: <code>iri</code>)
   (dle regulárního výrazu: <code>^https://.*$</code>)
 
+  
+
+
 
   
   
@@ -2362,6 +2606,7 @@
   
   
   
+
 
 
         </li>
@@ -2369,16 +2614,19 @@
           <code>téma</code>:
             (<a href="#DatováSada.téma" label="Téma datové sady. Datová sada může být popsána více tématy.">téma</a>)
           povinná
-          položka typu
+          položka
 
-                
+              typu       
   
-      pole hodnot <code>{1..*}</code> typu       
+      pole hodnot <code>{1..*}</code>     typu       
   
   
     řetězec
   (formát: <code>iri</code>)
   (dle regulárního výrazu: <code>^http://publications\.europa\.eu/resource/authority/data-theme/.*$</code>)
+
+  
+
 
 
   
@@ -2390,7 +2638,11 @@
 
 
 
+
           
+    
+
+
   
   
   
@@ -2399,6 +2651,7 @@
   
   
   
+
 
 
         </li>
@@ -2406,14 +2659,17 @@
           <code>periodicita_aktualizace</code>:
             (<a href="#DatováSada.periodicitaAktualizace" label="Frekvence, se kterou je datová sada aktualizována.">periodicita aktualizace</a>)
           povinná
-          položka typu
+          položka
 
-                
+              typu       
   
   
     řetězec
   (formát: <code>iri</code>)
   (dle regulárního výrazu: <code>^http://publications\.europa\.eu/resource/authority/frequency/.*$</code>)
+
+  
+
 
 
   
@@ -2425,14 +2681,15 @@
 
 
 
+
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>klíčové_slovo</code>:
             (<a href="#DatováSada.klíčovéSlovo" label="Klíčové slovo nebo značka popisující zdroj.">klíčové slovo</a>)
           povinná
-          položka typu
+          položka
 
-                  <strong>
+              typu         <strong>
     objekt
   </strong>
     s vlastnostmi (<code>properties</code>):
@@ -2440,17 +2697,20 @@
         <li style="list-style-type: disclosure-closed;">
           <code>cs</code>:
           nepovinná
-          položka typu
+          položka
 
-                
+              typu       
   
-      pole hodnot <code>{0..*}</code> typu       
+      pole hodnot <code>{0..*}</code>     typu       
   
   
     řetězec
   
   
 
+  
+
+
 
   
   
@@ -2458,9 +2718,13 @@
   
   
   
+
 
 
           
+    
+
+
   
   
   
@@ -2469,23 +2733,27 @@
   
   
   
+
 
 
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>en</code>:
           nepovinná
-          položka typu
+          položka
 
-                
+              typu       
   
-      pole hodnot <code>{0..*}</code> typu       
+      pole hodnot <code>{0..*}</code>     typu       
   
   
     řetězec
   
   
 
+  
+
+
 
   
   
@@ -2493,9 +2761,13 @@
   
   
   
+
 
 
           
+    
+
+
   
   
   
@@ -2504,6 +2776,7 @@
   
   
   
+
 
 
         </li>
@@ -2523,21 +2796,25 @@
   
 
 
+
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>geografické_území</code>:
             (<a href="#DatováSada.souvisejícíGeografickéÚzemí" label="Území pokryté datovou sadou.">související geografické území</a>)
           nepovinná
-          položka typu
+          položka
 
-                
+              typu       
   
-      pole hodnot <code>{0..*}</code> typu       
+      pole hodnot <code>{0..*}</code>     typu       
   
   
     řetězec
   (formát: <code>iri</code>)
   
+
+  
+
 
 
   
@@ -2549,7 +2826,11 @@
 
 
 
+
           
+    
+
+
   
   
   
@@ -2558,6 +2839,7 @@
   
   
   
+
 
 
         </li>
@@ -2565,16 +2847,19 @@
           <code>prvek_rúian</code>:
             (<a href="#DatováSada.souvisejícíGeografickéÚzemí-PrvekZRúian" label="Území pokryté datovou sadou, vyjádřené pomocí prvku RÚIAN">související geografické území - prvek z RÚIAN</a>)
           povinná
-          položka typu
+          položka
 
-                
+              typu       
   
-      pole hodnot <code>{1..*}</code> typu       
+      pole hodnot <code>{1..*}</code>     typu       
   
   
     řetězec
   (formát: <code>iri</code>)
   (dle regulárního výrazu: <code>^https://linked.cuzk.cz/resource/ruian/.*$</code>)
+
+  
+
 
 
   
@@ -2586,7 +2871,11 @@
 
 
 
+
           
+    
+
+
   
   
   
@@ -2595,6 +2884,7 @@
   
   
   
+
 
 
         </li>
@@ -2602,18 +2892,19 @@
           <code>časové_pokrytí</code>:
             (<a href="#DatováSada.časovéPokrytí" label="Časový úsek pokrytý datovou sadou">časové pokrytí</a>)
           nepovinná
-          položka typu
+          položka
 
-              <a href="#json-object--datová-sada--časový-interval"></a>
+              typu     <a href="#json-object--datová-sada--časový-interval"></a>
+
 
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>kontaktní_bod</code>:
             (<a href="#DatováSada.kontaktníBod" label="Kontaktní informace, které mohou být využity pro zasílání připomínek k datové sadě.">kontaktní bod</a>)
           nepovinná
-          položka typu
+          položka
 
-                
+              typu       
   
   
   
@@ -2635,19 +2926,23 @@
   
 
 
+
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>dokumentace</code>:
             (<a href="#DatováSada.dokumentace" label="Stránka či dokument o datové sadě">dokumentace</a>)
           nepovinná
-          položka typu
+          položka
 
-                
+              typu       
   
   
     řetězec
   (formát: <code>iri</code>)
   (dle regulárního výrazu: <code>^https://.*$</code>)
+
+  
+
 
 
   
@@ -2659,21 +2954,25 @@
 
 
 
+
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>specifikace</code>:
             (<a href="#DatováSada.specifikace" label="Specifikace, jíž se datová sada řídí.">specifikace</a>)
           nepovinná
-          položka typu
+          položka
 
-                
+              typu       
   
-      pole hodnot <code>{0..*}</code> typu       
+      pole hodnot <code>{0..*}</code>     typu       
   
   
     řetězec
   (formát: <code>iri</code>)
   (dle regulárního výrazu: <code>^https://.*$</code>)
+
+  
+
 
 
   
@@ -2685,7 +2984,11 @@
 
 
 
+
           
+    
+
+
   
   
   
@@ -2694,6 +2997,7 @@
   
   
   
+
 
 
         </li>
@@ -2701,16 +3005,19 @@
           <code>koncept_euroVoc</code>:
             (<a href="#DatováSada.klasifikaceDleEurovoc" label="Kategorie či téma datové sady dle EuroVoc.">klasifikace dle EuroVoc</a>)
           nepovinná
-          položka typu
+          položka
 
-                
+              typu       
   
-      pole hodnot <code>{0..*}</code> typu       
+      pole hodnot <code>{0..*}</code>     typu       
   
   
     řetězec
   (formát: <code>iri</code>)
   (dle regulárního výrazu: <code>^http://eurovoc\.europa\.eu/.*$</code>)
+
+  
+
 
 
   
@@ -2722,7 +3029,11 @@
 
 
 
+
           
+    
+
+
   
   
   
@@ -2731,6 +3042,7 @@
   
   
   
+
 
 
         </li>
@@ -2738,15 +3050,18 @@
           <code>prostorové_rozlišení_v_metrech</code>:
             (<a href="#DatováSada.prostorovéRozlišeníVMetrech" label="Prostorové rozlišení dat v datové sadě v metrech. Jedná se o nejmenší prostorový rozdíl v datové sadě.">prostorové rozlišení v metrech</a>)
           nepovinná
-          položka typu
+          položka
 
-                
+              typu       
   
   
     řetězec
   
   (dle regulárního výrazu: <code>^[+-]?([0-9]+([.][0-9]*)?|[.][0-9]+)$</code>)
 
+  
+
+
 
   
   
@@ -2754,6 +3069,7 @@
   
   
   
+
 
 
         </li>
@@ -2761,15 +3077,18 @@
           <code>časové_rozlišení</code>:
             (<a href="#DatováSada.časovéRozlišení" label="Časové rozlišení dat v datové sadě. Jedná se o nejmenší časový rozdíl v datové sadě.">časové rozlišení</a>)
           nepovinná
-          položka typu
+          položka
 
-                
+              typu       
   
   
     řetězec
   
   
 
+  
+
+
 
   
   
@@ -2777,6 +3096,7 @@
   
   
   
+
 
 
         </li>
@@ -2784,16 +3104,19 @@
           <code>právní_předpis</code>:
             (<a href="#DatováSada.příslušnýPrávníPředpis" label="Indikace příslušného právního předpisu předepisujícího vznik datové sady.">příslušný právní předpis</a>)
           povinná
-          položka typu
+          položka
 
-                
+              typu       
   
-      pole hodnot <code>{1..*}</code> typu       
+      pole hodnot <code>{1..*}</code>     typu       
   
   
     řetězec
   (formát: <code>iri</code>)
   (dle regulárního výrazu: <code>^http</code>)
+
+  
+
 
 
   
@@ -2805,7 +3128,11 @@
 
 
 
+
           
+    
+
+
   
   
   
@@ -2814,6 +3141,7 @@
   
   
   
+
 
 
         </li>
@@ -2821,11 +3149,11 @@
           <code>distribuce</code>:
             (<a href="#DatováSada.distribuce" label="Dostupná distribuce datové sady.">distribuce</a>)
           nepovinná
-          položka typu
+          položka
 
-                
+              typu       
   
-      pole hodnot <code>{0..*}</code> typu       
+      pole hodnot <code>{0..*}</code>     typu       
   
   
   
@@ -2847,7 +3175,11 @@
   
 
 
+
           
+    
+
+
   
   
   
@@ -2856,6 +3188,7 @@
   
   
   
+
 
 
         </li>
@@ -2863,14 +3196,17 @@
           <code>vstupní_stránka</code>:
             (<a href="#DatováSada.vstupníStránka" label="Webová stránka, na kterou lze pro získání přístupu k datové sadě, jejím distribucím a/nebo dalším informacím přistoupit webovým prohlížečem.">vstupní stránka</a>)
           nepovinná
-          položka typu
+          položka
 
-                
+              typu       
   
   
     řetězec
   (formát: <code>iri</code>)
   (dle regulárního výrazu: <code>^https://.*$</code>)
+
+  
+
 
 
   
@@ -2879,6 +3215,7 @@
   
   
       (například <code>https://www.mdcr.cz/Dokumenty/Verejna-doprava/Jizdni-rady,-kalendare-pro-jizdni-rady,-metodi-(1)/Jizdni-rady-verejne-dopravy</code>)
+
 
 
 
@@ -2924,15 +3261,18 @@
         <li style="list-style-type: disclosure-closed;">
           <code>iri</code>:
           povinná
-          položka typu
+          položka
 
-                
+              typu       
   
   
     řetězec
   (formát: <code>iri</code>)
   
 
+  
+
+
 
   
   
@@ -2940,15 +3280,16 @@
   
   
   
+
 
 
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>typ</code>:
           povinná
-          položka typu
+          položka
 
-                
+              typu       
   
   
   
@@ -2974,13 +3315,16 @@
 </li>
         <li>      
   
-      pole hodnot <code>{0..*}</code> typu       
+      pole hodnot <code>{0..*}</code>     typu       
   
   
     řetězec
   
   
 
+  
+
+
 
   
   
@@ -2988,9 +3332,13 @@
   
   
   
+
 
 
      a musí obsahovat: <code>&quot;Distribuce&quot;</code>
+    
+
+
   
   
   
@@ -3009,28 +3357,33 @@
   
 
 
+
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>podmínky_užití</code>:
             (<a href="#Distribuce.specifikacePodmínekUžití" label="Specifikace podmínek užití dle https://opendata.gov.cz/cinnost:stanoveni-podminek-uziti.">specifikace podmínek užití</a>)
           povinná
-          položka typu
+          položka
 
-              <a href="#json-object--datová-sada--specifikace-podmínek-užití"></a>
+              typu     <a href="#json-object--datová-sada--specifikace-podmínek-užití"></a>
+
 
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>přístupové_url</code>:
             (<a href="#Distribuce.přístupovéUrl" label="URL zdroje, přes které je přístupná distribuce datové sady. Příkladem může být vstupní stránka, RSS kanál či SPARQL endpoint. Použijte ve všech případech kromě URL souboru ke stažení, pro které je lepší použít dcat:downloadURL.">přístupové URL</a>)
           povinná
-          položka typu
+          položka
 
-                
+              typu       
   
   
     řetězec
   (formát: <code>iri</code>)
   (dle regulárního výrazu: <code>^https://.*$</code>)
+
+  
+
 
 
   
@@ -3042,21 +3395,25 @@
 
 
 
+
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>právní_předpis</code>:
             (<a href="#Distribuce.příslušnýPrávníPředpis" label="Indikace příslušného právního předpisu předepisujícího vznik distribuce.">příslušný právní předpis</a>)
           povinná
-          položka typu
+          položka
 
-                
+              typu       
   
-      pole hodnot <code>{1..*}</code> typu       
+      pole hodnot <code>{1..*}</code>     typu       
   
   
     řetězec
   (formát: <code>iri</code>)
   (dle regulárního výrazu: <code>^http</code>)
+
+  
+
 
 
   
@@ -3068,7 +3425,11 @@
 
 
 
+
           
+    
+
+
   
   
   
@@ -3077,6 +3438,7 @@
   
   
   
+
 
 
         </li>
@@ -3084,9 +3446,9 @@
           <code>název</code>:
             (<a href="#Distribuce.název" label="Název distribuce datové sady">název</a>)
           nepovinná
-          položka typu
+          položka
 
-                  <strong>
+              typu         <strong>
     objekt
   </strong>
     s vlastnostmi (<code>properties</code>):
@@ -3094,15 +3456,18 @@
         <li style="list-style-type: disclosure-closed;">
           <code>cs</code>:
           nepovinná
-          položka typu
+          položka
 
-                
+              typu       
   
   
     řetězec
   
   
 
+  
+
+
 
   
   
@@ -3110,21 +3475,25 @@
   
   
   
+
 
 
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>en</code>:
           nepovinná
-          položka typu
+          položka
 
-                
+              typu       
   
   
     řetězec
   
   
 
+  
+
+
 
   
   
@@ -3132,6 +3501,7 @@
   
   
   
+
 
 
         </li>
@@ -3151,14 +3521,16 @@
   
 
 
+
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>přístupová_služba</code>:
             (<a href="#Distribuce-DatováSlužba.přístupováSlužba" label="Umístění či přístupový bod zpřístupňující distribuci datové sady.">přístupová služba</a>)
           povinná
-          položka typu
+          položka
 
-              <a href="#json-object--datová-sada--datová-služba"></a>
+              typu     <a href="#json-object--datová-sada--datová-služba"></a>
+
 
         </li>
     </ul>
@@ -3202,15 +3574,18 @@
         <li style="list-style-type: disclosure-closed;">
           <code>iri</code>:
           povinná
-          položka typu
+          položka
 
-                
+              typu       
   
   
     řetězec
   (formát: <code>iri</code>)
   
 
+  
+
+
 
   
   
@@ -3218,15 +3593,16 @@
   
   
   
+
 
 
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>typ</code>:
           povinná
-          položka typu
+          položka
 
-                
+              typu       
   
   
   
@@ -3252,13 +3628,16 @@
 </li>
         <li>      
   
-      pole hodnot <code>{0..*}</code> typu       
+      pole hodnot <code>{0..*}</code>     typu       
   
   
     řetězec
   
   
 
+  
+
+
 
   
   
@@ -3266,9 +3645,13 @@
   
   
   
+
 
 
      a musí obsahovat: <code>&quot;Datová služba&quot;</code>
+    
+
+
   
   
   
@@ -3287,14 +3670,15 @@
   
 
 
+
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>název</code>:
             (<a href="#DatováSlužba.název" label="Název datové služby.">název</a>)
           povinná
-          položka typu
+          položka
 
-                  <strong>
+              typu         <strong>
     objekt
   </strong>
     s vlastnostmi (<code>properties</code>):
@@ -3302,15 +3686,18 @@
         <li style="list-style-type: disclosure-closed;">
           <code>cs</code>:
           nepovinná
-          položka typu
+          položka
 
-                
+              typu       
   
   
     řetězec
   
   
 
+  
+
+
 
   
   
@@ -3318,21 +3705,25 @@
   
   
   
+
 
 
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>en</code>:
           nepovinná
-          položka typu
+          položka
 
-                
+              typu       
   
   
     řetězec
   
   
 
+  
+
+
 
   
   
@@ -3340,6 +3731,7 @@
   
   
   
+
 
 
         </li>
@@ -3359,19 +3751,23 @@
   
 
 
+
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>přístupový_bod</code>:
             (<a href="#DatováSlužba.přístupovýBodSlužby" label="Kořenové umístění nebo hlavní přístupový bod služby (IRI přístupné přes Web).">přístupový bod služby</a>)
           povinná
-          položka typu
+          položka
 
-                
+              typu       
   
   
     řetězec
   (formát: <code>iri</code>)
   (dle regulárního výrazu: <code>^https://.*$</code>)
+
+  
+
 
 
   
@@ -3380,6 +3776,7 @@
   
   
       (například <code>https://www.trebic.cz/zdroj/aktualita/2020/dopadení-lupiče-na-francouzské-ulici</code>)
+
 
 
 
@@ -3388,14 +3785,17 @@
           <code>popis_přístupového_bodu</code>:
             (<a href="#DatováSlužba.popisPřístupovéhoBoduSlužby" label="Popis přístupového bodu služby včetně operací, parametrů apod.">popis přístupového bodu služby</a>)
           povinná
-          položka typu
+          položka
 
-                
+              typu       
   
   
     řetězec
   (formát: <code>iri</code>)
   (dle regulárního výrazu: <code>^https://.*$</code>)
+
+  
+
 
 
   
@@ -3407,21 +3807,25 @@
 
 
 
+
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>specifikace</code>:
             (<a href="#DatováSlužba.specifikace" label="Specifikaci, jíž se datová služba řídí.">specifikace</a>)
           nepovinná
-          položka typu
+          položka
 
-                
+              typu       
   
-      pole hodnot <code>{0..*}</code> typu       
+      pole hodnot <code>{0..*}</code>     typu       
   
   
     řetězec
   (formát: <code>iri</code>)
   (dle regulárního výrazu: <code>^https://.*$</code>)
+
+  
+
 
 
   
@@ -3433,7 +3837,11 @@
 
 
 
+
           
+    
+
+
   
   
   
@@ -3442,6 +3850,7 @@
   
   
   
+
 
 
         </li>
@@ -3449,14 +3858,17 @@
           <code>dokumentace</code>:
             (<a href="#DatováSlužba.dokumentace" label="Dokumentace dále popisující datovou službu.">dokumentace</a>)
           nepovinná
-          položka typu
+          položka
 
-                
+              typu       
   
   
     řetězec
   (formát: <code>iri</code>)
   (dle regulárního výrazu: <code>^https://.*$</code>)
+
+  
+
 
 
   
@@ -3468,21 +3880,25 @@
 
 
 
+
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>právní_předpis</code>:
             (<a href="#DatováSlužba.příslušnýPrávníPředpis" label="Indikace příslušného právního předpisu předepisujícího vznik datové služby.">příslušný právní předpis</a>)
           povinná
-          položka typu
+          položka
 
-                
+              typu       
   
-      pole hodnot <code>{1..*}</code> typu       
+      pole hodnot <code>{1..*}</code>     typu       
   
   
     řetězec
   (formát: <code>iri</code>)
   (dle regulárního výrazu: <code>^http</code>)
+
+  
+
 
 
   
@@ -3494,7 +3910,11 @@
 
 
 
+
           
+    
+
+
   
   
   
@@ -3503,6 +3923,7 @@
   
   
   
+
 
 
         </li>
@@ -3547,15 +3968,18 @@
         <li style="list-style-type: disclosure-closed;">
           <code>iri</code>:
           nepovinná
-          položka typu
+          položka
 
-                
+              typu       
   
   
     řetězec
   (formát: <code>iri</code>)
   
 
+  
+
+
 
   
   
@@ -3563,15 +3987,16 @@
   
   
   
+
 
 
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>typ</code>:
           povinná
-          položka typu
+          položka
 
-                
+              typu       
   
   
   
@@ -3597,13 +4022,16 @@
 </li>
         <li>      
   
-      pole hodnot <code>{0..*}</code> typu       
+      pole hodnot <code>{0..*}</code>     typu       
   
   
     řetězec
   
   
 
+  
+
+
 
   
   
@@ -3611,9 +4039,13 @@
   
   
   
+
 
 
      a musí obsahovat: <code>&quot;Specifikace podmínek užití&quot;</code>
+    
+
+
   
   
   
@@ -3632,19 +4064,23 @@
   
 
 
+
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>autorské_dílo</code>:
             (<a href="#SpecifikacePodmínekUžití.autorskéDílo" label="Většina případů poskytovaných dat nebude spadat pod definici autorského díla dle § 2 autorského zákona (121/2000 Sb.), nebude se na ně proto vztahovat autorskoprávní ochrana a nebude proto pro ně potřeba jakékoli licence. „Prostá data“ nejsou chráněna právy duševního vlastnictví. Ve výjimečných případech se však může stát, že databáze bude obsahovat autorskoprávně chráněná díla. Příkladem dat obsahujících autorskoprávně chráněná díla by mohl být seznam příspěvků literární soutěže pořádané radnicí, který by byl uveřejněný včetně plnotextového znění přihlášených soutěžních děl.">autorské dílo</a>)
           povinná
-          položka typu
+          položka
 
-                
+              typu       
   
   
     řetězec
   (formát: <code>iri</code>)
   
+
+  
+
 
 
   
@@ -3653,6 +4089,7 @@
   
   
       (například <code>https://data.gov.cz/podmínky-užití/neobsahuje-autorská-díla/</code>, <code>https://data.gov.cz/podmínky-užití/není-autorskoprávně-chráněnou-databází/</code>, <code>https://data.gov.cz/podmínky-užití/není-chráněna-zvláštním-právem-pořizovatele-databáze/</code>, <code>https://creativecommons.org/licenses/by/4.0/</code>, <code>https://creativecommons.org/publicdomain/zero/1.0/</code>, <code>https://data.gov.cz/podmínky-užití/neobsahuje-osobní-údaje/</code>, <code>https://data.gov.cz/podmínky-užití/obsahuje-osobní-údaje/</code>)
+
 
 
 
@@ -3661,9 +4098,9 @@
           <code>autor</code>:
             (<a href="#SpecifikacePodmínekUžití.jménaAutorůDíla" label="Jména autorů díla pro použití s licencí CC BY 4.0">jména autorů díla</a>)
           nepovinná
-          položka typu
+          položka
 
-                  <strong>
+              typu         <strong>
     objekt
   </strong>
     s vlastnostmi (<code>properties</code>):
@@ -3671,15 +4108,18 @@
         <li style="list-style-type: disclosure-closed;">
           <code>cs</code>:
           nepovinná
-          položka typu
+          položka
 
-                
+              typu       
   
   
     řetězec
   
   
 
+  
+
+
 
   
   
@@ -3687,21 +4127,25 @@
   
   
   
+
 
 
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>en</code>:
           nepovinná
-          položka typu
+          položka
 
-                
+              typu       
   
   
     řetězec
   
   
 
+  
+
+
 
   
   
@@ -3709,6 +4153,7 @@
   
   
   
+
 
 
         </li>
@@ -3728,19 +4173,23 @@
   
 
 
+
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>databáze_jako_autorské_dílo</code>:
             (<a href="#SpecifikacePodmínekUžití.originálníDatabáze" label="Tato ochrana je založena § 2 odst. 2 a 5 Autorského zákona a chráněny jsou takové databáze, které jsou „způsobem výběru nebo uspořádáním obsahu autorovým vlastním duševním výtvorem“. Chráněna je tady originální struktura, systém řazení údajů a podobně, tedy kostra, do které se samotné údaje vkládají. Takové databázi se říká „originální databáze“. Příkladem originální databáze může být obchodní rejstřík, který je však zároveň úředním dílem.">originální databáze</a>)
           povinná
-          položka typu
+          položka
 
-                
+              typu       
   
   
     řetězec
   (formát: <code>iri</code>)
   
+
+  
+
 
 
   
@@ -3749,6 +4198,7 @@
   
   
       (například <code>https://data.gov.cz/podmínky-užití/neobsahuje-autorská-díla/</code>, <code>https://data.gov.cz/podmínky-užití/není-autorskoprávně-chráněnou-databází/</code>, <code>https://data.gov.cz/podmínky-užití/není-chráněna-zvláštním-právem-pořizovatele-databáze/</code>, <code>https://creativecommons.org/licenses/by/4.0/</code>, <code>https://creativecommons.org/publicdomain/zero/1.0/</code>, <code>https://data.gov.cz/podmínky-užití/neobsahuje-osobní-údaje/</code>, <code>https://data.gov.cz/podmínky-užití/obsahuje-osobní-údaje/</code>)
+
 
 
 
@@ -3757,9 +4207,9 @@
           <code>autor_databáze</code>:
             (<a href="#SpecifikacePodmínekUžití.jménaAutorůOriginálníDatabáze" label="Jména autorů originální databáze pro použití s licencí CC BY 4.0">jména autorů originální databáze</a>)
           nepovinná
-          položka typu
+          položka
 
-                  <strong>
+              typu         <strong>
     objekt
   </strong>
     s vlastnostmi (<code>properties</code>):
@@ -3767,15 +4217,18 @@
         <li style="list-style-type: disclosure-closed;">
           <code>cs</code>:
           nepovinná
-          položka typu
+          položka
 
-                
+              typu       
   
   
     řetězec
   
   
 
+  
+
+
 
   
   
@@ -3783,21 +4236,25 @@
   
   
   
+
 
 
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>en</code>:
           nepovinná
-          položka typu
+          položka
 
-                
+              typu       
   
   
     řetězec
   
   
 
+  
+
+
 
   
   
@@ -3805,6 +4262,7 @@
   
   
   
+
 
 
         </li>
@@ -3824,19 +4282,23 @@
   
 
 
+
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>databáze_chráněná_zvláštními_právy</code>:
             (<a href="#SpecifikacePodmínekUžití.zvláštníPrávoPořizovateleDatabáze" label="Tato ochrana je založena § 88 a následujícími Autorského zákona. Zvláštní databázová práva chrání investice vynaložené při zřízení databáze, ověření uvedených dat, nebo jejich publikaci. Práva vznikají, pokud pořízení, ověření nebo předvedení obsahu databáze představuje kvalitativně nebo kvantitativně podstatný vklad. Držitelem práv je pořizovatel databáze, což je osoba, která na svou odpovědnost pořídí databázi, nebo pro kterou tak z jejího podnětu učiní jiná osoba. Zvláštních databázových práv se dá plně vzdát, na rozdíl od autorských práv. Příkladem databáze chráněné zvláštními právy pořizovatele databáze je databáze právních předpisů.">zvláštní právo pořizovatele databáze</a>)
           povinná
-          položka typu
+          položka
 
-                
+              typu       
   
   
     řetězec
   (formát: <code>iri</code>)
   
+
+  
+
 
 
   
@@ -3845,6 +4307,7 @@
   
   
       (například <code>https://data.gov.cz/podmínky-užití/neobsahuje-autorská-díla/</code>, <code>https://data.gov.cz/podmínky-užití/není-autorskoprávně-chráněnou-databází/</code>, <code>https://data.gov.cz/podmínky-užití/není-chráněna-zvláštním-právem-pořizovatele-databáze/</code>, <code>https://creativecommons.org/licenses/by/4.0/</code>, <code>https://creativecommons.org/publicdomain/zero/1.0/</code>, <code>https://data.gov.cz/podmínky-užití/neobsahuje-osobní-údaje/</code>, <code>https://data.gov.cz/podmínky-užití/obsahuje-osobní-údaje/</code>)
+
 
 
 
@@ -3853,14 +4316,17 @@
           <code>osobní_údaje</code>:
             (<a href="#SpecifikacePodmínekUžití.osobníÚdaje" label="Pokud data obsahují osobní údaje, je třeba o této skutečnosti informovat příjemce dat. Předpřipravené dokumenty mají IRI https://data.gov.cz/podmínky-užití/obsahuje-osobní-údaje/ a https://data.gov.cz/podmínky-užití/neobsahuje-osobní-údaje/.">osobní údaje</a>)
           povinná
-          položka typu
+          položka
 
-                
+              typu       
   
   
     řetězec
   (formát: <code>iri</code>)
   
+
+  
+
 
 
   
@@ -3869,6 +4335,7 @@
   
   
       (například <code>https://data.gov.cz/podmínky-užití/neobsahuje-autorská-díla/</code>, <code>https://data.gov.cz/podmínky-užití/není-autorskoprávně-chráněnou-databází/</code>, <code>https://data.gov.cz/podmínky-užití/není-chráněna-zvláštním-právem-pořizovatele-databáze/</code>, <code>https://creativecommons.org/licenses/by/4.0/</code>, <code>https://creativecommons.org/publicdomain/zero/1.0/</code>, <code>https://data.gov.cz/podmínky-užití/neobsahuje-osobní-údaje/</code>, <code>https://data.gov.cz/podmínky-užití/obsahuje-osobní-údaje/</code>)
+
 
 
 
@@ -3914,15 +4381,18 @@
         <li style="list-style-type: disclosure-closed;">
           <code>iri</code>:
           povinná
-          položka typu
+          položka
 
-                
+              typu       
   
   
     řetězec
   (formát: <code>iri</code>)
   
 
+  
+
+
 
   
   
@@ -3930,15 +4400,16 @@
   
   
   
+
 
 
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>typ</code>:
           povinná
-          položka typu
+          položka
 
-                
+              typu       
   
   
   
@@ -3964,13 +4435,16 @@
 </li>
         <li>      
   
-      pole hodnot <code>{0..*}</code> typu       
+      pole hodnot <code>{0..*}</code>     typu       
   
   
     řetězec
   
   
 
+  
+
+
 
   
   
@@ -3978,9 +4452,13 @@
   
   
   
+
 
 
      a musí obsahovat: <code>&quot;Distribuce&quot;</code>
+    
+
+
   
   
   
@@ -3999,28 +4477,33 @@
   
 
 
+
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>podmínky_užití</code>:
             (<a href="#Distribuce.specifikacePodmínekUžití" label="Specifikace podmínek užití dle https://opendata.gov.cz/cinnost:stanoveni-podminek-uziti.">specifikace podmínek užití</a>)
           povinná
-          položka typu
+          položka
 
-              <a href="#json-object--datová-sada--specifikace-podmínek-užití"></a>
+              typu     <a href="#json-object--datová-sada--specifikace-podmínek-užití"></a>
+
 
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>přístupové_url</code>:
             (<a href="#Distribuce.přístupovéUrl" label="URL zdroje, přes které je přístupná distribuce datové sady. Příkladem může být vstupní stránka, RSS kanál či SPARQL endpoint. Použijte ve všech případech kromě URL souboru ke stažení, pro které je lepší použít dcat:downloadURL.">přístupové URL</a>)
           povinná
-          položka typu
+          položka
 
-                
+              typu       
   
   
     řetězec
   (formát: <code>iri</code>)
   (dle regulárního výrazu: <code>^https://.*$</code>)
+
+  
+
 
 
   
@@ -4032,21 +4515,25 @@
 
 
 
+
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>právní_předpis</code>:
             (<a href="#Distribuce.příslušnýPrávníPředpis" label="Indikace příslušného právního předpisu předepisujícího vznik distribuce.">příslušný právní předpis</a>)
           povinná
-          položka typu
+          položka
 
-                
+              typu       
   
-      pole hodnot <code>{1..*}</code> typu       
+      pole hodnot <code>{1..*}</code>     typu       
   
   
     řetězec
   (formát: <code>iri</code>)
   (dle regulárního výrazu: <code>^http</code>)
+
+  
+
 
 
   
@@ -4058,7 +4545,11 @@
 
 
 
+
           
+    
+
+
   
   
   
@@ -4067,6 +4558,7 @@
   
   
   
+
 
 
         </li>
@@ -4074,9 +4566,9 @@
           <code>název</code>:
             (<a href="#Distribuce.název" label="Název distribuce datové sady">název</a>)
           nepovinná
-          položka typu
+          položka
 
-                  <strong>
+              typu         <strong>
     objekt
   </strong>
     s vlastnostmi (<code>properties</code>):
@@ -4084,15 +4576,18 @@
         <li style="list-style-type: disclosure-closed;">
           <code>cs</code>:
           nepovinná
-          položka typu
+          položka
 
-                
+              typu       
   
   
     řetězec
   
   
 
+  
+
+
 
   
   
@@ -4100,21 +4595,25 @@
   
   
   
+
 
 
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>en</code>:
           nepovinná
-          položka typu
+          položka
 
-                
+              typu       
   
   
     řetězec
   
   
 
+  
+
+
 
   
   
@@ -4122,6 +4621,7 @@
   
   
   
+
 
 
         </li>
@@ -4141,19 +4641,23 @@
   
 
 
+
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>soubor_ke_stažení</code>:
             (<a href="#Distribuce-SouborKeStažení.odkazNaStaženíSouboru" label="URL, které je přímým odkazem na stažitelný soubor v daném formátu.">odkaz na stažení souboru</a>)
           povinná
-          položka typu
+          položka
 
-                
+              typu       
   
   
     řetězec
   (formát: <code>iri</code>)
   (dle regulárního výrazu: <code>^https://.*$</code>)
+
+  
+
 
 
   
@@ -4165,19 +4669,23 @@
 
 
 
+
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>formát</code>:
             (<a href="#Distribuce-SouborKeStažení.formátSouboruKeStažení" label="Tato vlastnost odkazuje na typ souboru s distribucí.">formát souboru ke stažení</a>)
           povinná
-          položka typu
+          položka
 
-                
+              typu       
   
   
     řetězec
   (formát: <code>iri</code>)
   (dle regulárního výrazu: <code>^http://publications\.europa\.eu/resource/authority/file-type/.*$</code>)
+
+  
+
 
 
   
@@ -4189,19 +4697,23 @@
 
 
 
+
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>typ_média</code>:
             (<a href="#Distribuce-SouborKeStažení.typMédia" label="Typ média distribuce definovaný v IANA.">typ média</a>)
           povinná
-          položka typu
+          položka
 
-                
+              typu       
   
   
     řetězec
   (formát: <code>iri</code>)
   (dle regulárního výrazu: <code>^http://www\.iana\.org/assignments/media-types/.*$</code>)
+
+  
+
 
 
   
@@ -4213,19 +4725,23 @@
 
 
 
+
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>schéma</code>:
             (<a href="#Distribuce-SouborKeStažení.strojověČitelnéSchémaSouboruKeStažení" label="Ustanovené schéma, jímž se popisovaná distribuce řídí.">strojově čitelné schéma souboru ke stažení</a>)
           nepovinná
-          položka typu
+          položka
 
-                
+              typu       
   
   
     řetězec
   (formát: <code>iri</code>)
   (dle regulárního výrazu: <code>^https://.*$</code>)
+
+  
+
 
 
   
@@ -4237,19 +4753,23 @@
 
 
 
+
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>typ_média_komprese</code>:
             (<a href="#Distribuce-SouborKeStažení.formátKomprese" label="Formát komprese souboru, ve kterém jsou data poskytována v komprimované podobě, např. ke snížení velikosti souboru ke stažení.">formát komprese</a>)
           nepovinná
-          položka typu
+          položka
 
-                
+              typu       
   
   
     řetězec
   (formát: <code>iri</code>)
   (dle regulárního výrazu: <code>^http://www\.iana\.org/assignments/media-types/.*$</code>)
+
+  
+
 
 
   
@@ -4258,6 +4778,7 @@
   
   
       (například <code>http://www.iana.org/assignments/media-types/image/tiff</code>)
+
 
 
 
@@ -4266,14 +4787,17 @@
           <code>typ_média_balíčku</code>:
             (<a href="#Distribuce-SouborKeStažení.formátBalíčku" label="Balíčkový formát souboru, ve kterém je jeden či více souborů seskupeno dohromady, např. aby bylo možné stáhnout sadu souvisejících souborů naráz.">formát balíčku</a>)
           nepovinná
-          položka typu
+          položka
 
-                
+              typu       
   
   
     řetězec
   (formát: <code>iri</code>)
   (dle regulárního výrazu: <code>^http://www\.iana\.org/assignments/media-types/.*$</code>)
+
+  
+
 
 
   
@@ -4282,6 +4806,7 @@
   
   
       (například <code>http://www.iana.org/assignments/media-types/image/tiff</code>)
+
 
 
 
@@ -4327,15 +4852,18 @@
         <li style="list-style-type: disclosure-closed;">
           <code>iri</code>:
           nepovinná
-          položka typu
+          položka
 
-                
+              typu       
   
   
     řetězec
   (formát: <code>iri</code>)
   
 
+  
+
+
 
   
   
@@ -4343,15 +4871,16 @@
   
   
   
+
 
 
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>typ</code>:
           povinná
-          položka typu
+          položka
 
-                
+              typu       
   
   
   
@@ -4377,13 +4906,16 @@
 </li>
         <li>      
   
-      pole hodnot <code>{0..*}</code> typu       
+      pole hodnot <code>{0..*}</code>     typu       
   
   
     řetězec
   
   
 
+  
+
+
 
   
   
@@ -4391,9 +4923,13 @@
   
   
   
+
 
 
      a musí obsahovat: <code>&quot;Specifikace podmínek užití&quot;</code>
+    
+
+
   
   
   
@@ -4412,19 +4948,23 @@
   
 
 
+
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>autorské_dílo</code>:
             (<a href="#SpecifikacePodmínekUžití.autorskéDílo" label="Většina případů poskytovaných dat nebude spadat pod definici autorského díla dle § 2 autorského zákona (121/2000 Sb.), nebude se na ně proto vztahovat autorskoprávní ochrana a nebude proto pro ně potřeba jakékoli licence. „Prostá data“ nejsou chráněna právy duševního vlastnictví. Ve výjimečných případech se však může stát, že databáze bude obsahovat autorskoprávně chráněná díla. Příkladem dat obsahujících autorskoprávně chráněná díla by mohl být seznam příspěvků literární soutěže pořádané radnicí, který by byl uveřejněný včetně plnotextového znění přihlášených soutěžních děl.">autorské dílo</a>)
           povinná
-          položka typu
+          položka
 
-                
+              typu       
   
   
     řetězec
   (formát: <code>iri</code>)
   
+
+  
+
 
 
   
@@ -4433,6 +4973,7 @@
   
   
       (například <code>https://data.gov.cz/podmínky-užití/neobsahuje-autorská-díla/</code>, <code>https://data.gov.cz/podmínky-užití/není-autorskoprávně-chráněnou-databází/</code>, <code>https://data.gov.cz/podmínky-užití/není-chráněna-zvláštním-právem-pořizovatele-databáze/</code>, <code>https://creativecommons.org/licenses/by/4.0/</code>, <code>https://creativecommons.org/publicdomain/zero/1.0/</code>, <code>https://data.gov.cz/podmínky-užití/neobsahuje-osobní-údaje/</code>, <code>https://data.gov.cz/podmínky-užití/obsahuje-osobní-údaje/</code>)
+
 
 
 
@@ -4441,9 +4982,9 @@
           <code>autor</code>:
             (<a href="#SpecifikacePodmínekUžití.jménaAutorůDíla" label="Jména autorů díla pro použití s licencí CC BY 4.0">jména autorů díla</a>)
           nepovinná
-          položka typu
+          položka
 
-                  <strong>
+              typu         <strong>
     objekt
   </strong>
     s vlastnostmi (<code>properties</code>):
@@ -4451,15 +4992,18 @@
         <li style="list-style-type: disclosure-closed;">
           <code>cs</code>:
           nepovinná
-          položka typu
+          položka
 
-                
+              typu       
   
   
     řetězec
   
   
 
+  
+
+
 
   
   
@@ -4467,21 +5011,25 @@
   
   
   
+
 
 
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>en</code>:
           nepovinná
-          položka typu
+          položka
 
-                
+              typu       
   
   
     řetězec
   
   
 
+  
+
+
 
   
   
@@ -4489,6 +5037,7 @@
   
   
   
+
 
 
         </li>
@@ -4508,19 +5057,23 @@
   
 
 
+
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>databáze_jako_autorské_dílo</code>:
             (<a href="#SpecifikacePodmínekUžití.originálníDatabáze" label="Tato ochrana je založena § 2 odst. 2 a 5 Autorského zákona a chráněny jsou takové databáze, které jsou „způsobem výběru nebo uspořádáním obsahu autorovým vlastním duševním výtvorem“. Chráněna je tady originální struktura, systém řazení údajů a podobně, tedy kostra, do které se samotné údaje vkládají. Takové databázi se říká „originální databáze“. Příkladem originální databáze může být obchodní rejstřík, který je však zároveň úředním dílem.">originální databáze</a>)
           povinná
-          položka typu
+          položka
 
-                
+              typu       
   
   
     řetězec
   (formát: <code>iri</code>)
   
+
+  
+
 
 
   
@@ -4529,6 +5082,7 @@
   
   
       (například <code>https://data.gov.cz/podmínky-užití/neobsahuje-autorská-díla/</code>, <code>https://data.gov.cz/podmínky-užití/není-autorskoprávně-chráněnou-databází/</code>, <code>https://data.gov.cz/podmínky-užití/není-chráněna-zvláštním-právem-pořizovatele-databáze/</code>, <code>https://creativecommons.org/licenses/by/4.0/</code>, <code>https://creativecommons.org/publicdomain/zero/1.0/</code>, <code>https://data.gov.cz/podmínky-užití/neobsahuje-osobní-údaje/</code>, <code>https://data.gov.cz/podmínky-užití/obsahuje-osobní-údaje/</code>)
+
 
 
 
@@ -4537,9 +5091,9 @@
           <code>autor_databáze</code>:
             (<a href="#SpecifikacePodmínekUžití.jménaAutorůOriginálníDatabáze" label="Jména autorů originální databáze pro použití s licencí CC BY 4.0">jména autorů originální databáze</a>)
           nepovinná
-          položka typu
+          položka
 
-                  <strong>
+              typu         <strong>
     objekt
   </strong>
     s vlastnostmi (<code>properties</code>):
@@ -4547,15 +5101,18 @@
         <li style="list-style-type: disclosure-closed;">
           <code>cs</code>:
           nepovinná
-          položka typu
+          položka
 
-                
+              typu       
   
   
     řetězec
   
   
 
+  
+
+
 
   
   
@@ -4563,21 +5120,25 @@
   
   
   
+
 
 
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>en</code>:
           nepovinná
-          položka typu
+          položka
 
-                
+              typu       
   
   
     řetězec
   
   
 
+  
+
+
 
   
   
@@ -4585,6 +5146,7 @@
   
   
   
+
 
 
         </li>
@@ -4604,19 +5166,23 @@
   
 
 
+
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>databáze_chráněná_zvláštními_právy</code>:
             (<a href="#SpecifikacePodmínekUžití.zvláštníPrávoPořizovateleDatabáze" label="Tato ochrana je založena § 88 a následujícími Autorského zákona. Zvláštní databázová práva chrání investice vynaložené při zřízení databáze, ověření uvedených dat, nebo jejich publikaci. Práva vznikají, pokud pořízení, ověření nebo předvedení obsahu databáze představuje kvalitativně nebo kvantitativně podstatný vklad. Držitelem práv je pořizovatel databáze, což je osoba, která na svou odpovědnost pořídí databázi, nebo pro kterou tak z jejího podnětu učiní jiná osoba. Zvláštních databázových práv se dá plně vzdát, na rozdíl od autorských práv. Příkladem databáze chráněné zvláštními právy pořizovatele databáze je databáze právních předpisů.">zvláštní právo pořizovatele databáze</a>)
           povinná
-          položka typu
+          položka
 
-                
+              typu       
   
   
     řetězec
   (formát: <code>iri</code>)
   
+
+  
+
 
 
   
@@ -4625,6 +5191,7 @@
   
   
       (například <code>https://data.gov.cz/podmínky-užití/neobsahuje-autorská-díla/</code>, <code>https://data.gov.cz/podmínky-užití/není-autorskoprávně-chráněnou-databází/</code>, <code>https://data.gov.cz/podmínky-užití/není-chráněna-zvláštním-právem-pořizovatele-databáze/</code>, <code>https://creativecommons.org/licenses/by/4.0/</code>, <code>https://creativecommons.org/publicdomain/zero/1.0/</code>, <code>https://data.gov.cz/podmínky-užití/neobsahuje-osobní-údaje/</code>, <code>https://data.gov.cz/podmínky-užití/obsahuje-osobní-údaje/</code>)
+
 
 
 
@@ -4633,14 +5200,17 @@
           <code>osobní_údaje</code>:
             (<a href="#SpecifikacePodmínekUžití.osobníÚdaje" label="Pokud data obsahují osobní údaje, je třeba o této skutečnosti informovat příjemce dat. Předpřipravené dokumenty mají IRI https://data.gov.cz/podmínky-užití/obsahuje-osobní-údaje/ a https://data.gov.cz/podmínky-užití/neobsahuje-osobní-údaje/.">osobní údaje</a>)
           povinná
-          položka typu
+          položka
 
-                
+              typu       
   
   
     řetězec
   (formát: <code>iri</code>)
   
+
+  
+
 
 
   
@@ -4649,6 +5219,7 @@
   
   
       (například <code>https://data.gov.cz/podmínky-užití/neobsahuje-autorská-díla/</code>, <code>https://data.gov.cz/podmínky-užití/není-autorskoprávně-chráněnou-databází/</code>, <code>https://data.gov.cz/podmínky-užití/není-chráněna-zvláštním-právem-pořizovatele-databáze/</code>, <code>https://creativecommons.org/licenses/by/4.0/</code>, <code>https://creativecommons.org/publicdomain/zero/1.0/</code>, <code>https://data.gov.cz/podmínky-užití/neobsahuje-osobní-údaje/</code>, <code>https://data.gov.cz/podmínky-užití/obsahuje-osobní-údaje/</code>)
+
 
 
 
@@ -4694,9 +5265,9 @@
         <li style="list-style-type: disclosure-closed;">
           <code>typ</code>:
           povinná
-          položka typu
+          položka
 
-                
+              typu       
   
   
   
@@ -4722,13 +5293,16 @@
 </li>
         <li>      
   
-      pole hodnot <code>{0..*}</code> typu       
+      pole hodnot <code>{0..*}</code>     typu       
   
   
     řetězec
   
   
 
+  
+
+
 
   
   
@@ -4736,9 +5310,13 @@
   
   
   
+
 
 
      a musí obsahovat: <code>&quot;Jednotlivec&quot;</code>
+    
+
+
   
   
   
@@ -4757,14 +5335,15 @@
   
 
 
+
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>jméno</code>:
             (<a href="#KontaktníBod.jméno" label="Jméno objektu jako formátovaný text.">jméno</a>)
           nepovinná
-          položka typu
+          položka
 
-                  <strong>
+              typu         <strong>
     objekt
   </strong>
     s vlastnostmi (<code>properties</code>):
@@ -4772,15 +5351,18 @@
         <li style="list-style-type: disclosure-closed;">
           <code>cs</code>:
           nepovinná
-          položka typu
+          položka
 
-                
+              typu       
   
   
     řetězec
   
   
 
+  
+
+
 
   
   
@@ -4788,21 +5370,25 @@
   
   
   
+
 
 
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>en</code>:
           nepovinná
-          položka typu
+          položka
 
-                
+              typu       
   
   
     řetězec
   
   
 
+  
+
+
 
   
   
@@ -4810,6 +5396,7 @@
   
   
   
+
 
 
         </li>
@@ -4829,19 +5416,23 @@
   
 
 
+
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>e-mail</code>:
             (<a href="#KontaktníBod.email" label="E-mailová adresa pro komunikaci.">email</a>)
           nepovinná
-          položka typu
+          položka
 
-                
+              typu       
   
   
     řetězec
   (formát: <code>iri</code>)
   (dle regulárního výrazu: <code>^mailto:[^@]+@[^@]+</code>)
+
+  
+
 
 
   
@@ -4850,6 +5441,7 @@
   
   
       (například <code>mailto:jan.novak@organizace.cz</code>)
+
 
 
 
@@ -4895,9 +5487,9 @@
         <li style="list-style-type: disclosure-closed;">
           <code>typ</code>:
           povinná
-          položka typu
+          položka
 
-                
+              typu       
   
   
   
@@ -4923,13 +5515,16 @@
 </li>
         <li>      
   
-      pole hodnot <code>{0..*}</code> typu       
+      pole hodnot <code>{0..*}</code>     typu       
   
   
     řetězec
   
   
 
+  
+
+
 
   
   
@@ -4937,9 +5532,13 @@
   
   
   
+
 
 
      a musí obsahovat: <code>&quot;Organizace&quot;</code>
+    
+
+
   
   
   
@@ -4958,14 +5557,15 @@
   
 
 
+
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>jméno</code>:
             (<a href="#KontaktníBod.jméno" label="Jméno objektu jako formátovaný text.">jméno</a>)
           nepovinná
-          položka typu
+          položka
 
-                  <strong>
+              typu         <strong>
     objekt
   </strong>
     s vlastnostmi (<code>properties</code>):
@@ -4973,15 +5573,18 @@
         <li style="list-style-type: disclosure-closed;">
           <code>cs</code>:
           nepovinná
-          položka typu
+          položka
 
-                
+              typu       
   
   
     řetězec
   
   
 
+  
+
+
 
   
   
@@ -4989,21 +5592,25 @@
   
   
   
+
 
 
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>en</code>:
           nepovinná
-          položka typu
+          položka
 
-                
+              typu       
   
   
     řetězec
   
   
 
+  
+
+
 
   
   
@@ -5011,6 +5618,7 @@
   
   
   
+
 
 
         </li>
@@ -5030,19 +5638,23 @@
   
 
 
+
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>e-mail</code>:
             (<a href="#KontaktníBod.email" label="E-mailová adresa pro komunikaci.">email</a>)
           nepovinná
-          položka typu
+          položka
 
-                
+              typu       
   
   
     řetězec
   (formát: <code>iri</code>)
   (dle regulárního výrazu: <code>^mailto:[^@]+@[^@]+</code>)
+
+  
+
 
 
   
@@ -5051,6 +5663,7 @@
   
   
       (například <code>mailto:jan.novak@organizace.cz</code>)
+
 
 
 
@@ -5096,9 +5709,9 @@
         <li style="list-style-type: disclosure-closed;">
           <code>typ</code>:
           povinná
-          položka typu
+          položka
 
-                
+              typu       
   
   
   
@@ -5124,13 +5737,16 @@
 </li>
         <li>      
   
-      pole hodnot <code>{0..*}</code> typu       
+      pole hodnot <code>{0..*}</code>     typu       
   
   
     řetězec
   
   
 
+  
+
+
 
   
   
@@ -5138,9 +5754,13 @@
   
   
   
+
 
 
      a musí obsahovat: <code>&quot;Časový interval&quot;</code>
+    
+
+
   
   
   
@@ -5159,20 +5779,24 @@
   
 
 
+
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>začátek</code>:
             (<a href="#ČasovýInterval.datumZačátku" label="Začátek doby trvání.">datum začátku</a>)
           nepovinná
-          položka typu
+          položka
 
-                
+              typu       
   
   
     řetězec
   (formát: <code>date</code>)
   
 
+  
+
+
 
   
   
@@ -5180,6 +5804,7 @@
   
   
   
+
 
 
         </li>
@@ -5187,15 +5812,18 @@
           <code>konec</code>:
             (<a href="#ČasovýInterval.datumKonce" label="Konec doby trvání.">datum konce</a>)
           nepovinná
-          položka typu
+          položka
 
-                
+              typu       
   
   
     řetězec
   (formát: <code>date</code>)
   
 
+  
+
+
 
   
   
@@ -5203,6 +5831,7 @@
   
   
   
+
 
 
         </li>
