@@ -1,0 +1,354 @@
+@prefix : <http://example.com/profile#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix dsv: <https://w3id.org/dsv#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix vann: <http://purl.org/vocab/vann/>.
+@prefix cardinality: <https://w3id.org/dsv/cardinality#>.
+@prefix requirement: <https://w3id.org/dsv/requirement-level#>.
+@prefix role: <https://w3id.org/dsv/class-role#>.
+@prefix prof: <http://www.w3.org/ns/dx/prof/>.
+@prefix dcat: <http://www.w3.org/ns/dcat#>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+
+
+<http://example.com/profile#> a prof:Profile, dsv:ApplicationProfile.
+:Test dct:isPartOf <http://example.com/profile#>;
+    a dsv:TermProfile;
+    skos:prefLabel "Test"@en;
+    a dsv:ClassProfile;
+    dsv:class <http://example.com/vocabulary#Test>.
+:Value_must_a dct:isPartOf <http://example.com/profile#>;
+    a dsv:TermProfile;
+    skos:prefLabel "Value must_a"@en;
+    a dsv:ClassProfile;
+    dsv:class <http://example.com/vocabulary#Value_must_a>.
+
+<http://example.com/profile#Value_must_a/controlled-vocabulary-assignment/vocabulary/http%3A%2F%2Fexample.com%2Fprofile%2Fcontrolled-vocabulary-catalog%2Fcv-json-schema-test-v2%2Fdataset%2Fcv-json-schema-test-v2-cv-a> a dsv:ControlledVocabularyAssignment;
+    dsv:classProfile :Value_must_a;
+    dsv:controlledVocabulary <http://example.com/profile/controlled-vocabulary-catalog/cv-json-schema-test-v2/dataset/cv-json-schema-test-v2-cv-a>;
+    dsv:usageExpectation <https://w3id.org/dsv/usage-expectation#must>.
+:Value_must_a_class_regex dct:isPartOf <http://example.com/profile#>;
+    a dsv:TermProfile;
+    skos:prefLabel "Value must_a_class_regex"@en;
+    a dsv:ClassProfile;
+    dsv:class <http://example.com/vocabulary#Value_must_a_class_regex>.
+
+<http://example.com/profile#Value_must_a_class_regex/controlled-vocabulary-assignment/vocabulary/http%3A%2F%2Fexample.com%2Fprofile%2Fcontrolled-vocabulary-catalog%2Fcv-json-schema-test-v2%2Fdataset%2Fcv-json-schema-test-v2-cv-a> a dsv:ControlledVocabularyAssignment;
+    dsv:classProfile :Value_must_a_class_regex;
+    dsv:controlledVocabulary <http://example.com/profile/controlled-vocabulary-catalog/cv-json-schema-test-v2/dataset/cv-json-schema-test-v2-cv-a>;
+    dsv:usageExpectation <https://w3id.org/dsv/usage-expectation#must>.
+:Value_must_a_single dct:isPartOf <http://example.com/profile#>;
+    a dsv:TermProfile;
+    skos:prefLabel "Value must_a_single"@en;
+    a dsv:ClassProfile;
+    dsv:class <http://example.com/vocabulary#Value_must_a_single>.
+
+<http://example.com/profile#Value_must_a_single/controlled-vocabulary-assignment/vocabulary/http%3A%2F%2Fexample.com%2Fprofile%2Fcontrolled-vocabulary-catalog%2Fcv-json-schema-test-v2%2Fdataset%2Fcv-json-schema-test-v2-cv-a> a dsv:ControlledVocabularyAssignment;
+    dsv:classProfile :Value_must_a_single;
+    dsv:controlledVocabulary <http://example.com/profile/controlled-vocabulary-catalog/cv-json-schema-test-v2/dataset/cv-json-schema-test-v2-cv-a>;
+    dsv:usageExpectation <https://w3id.org/dsv/usage-expectation#must>.
+:Value_must_a_object dct:isPartOf <http://example.com/profile#>;
+    a dsv:TermProfile;
+    skos:prefLabel "Value must_a_object"@en;
+    a dsv:ClassProfile;
+    dsv:class <http://example.com/vocabulary#Value_must_a_object>.
+
+<http://example.com/profile#Value_must_a_object/controlled-vocabulary-assignment/vocabulary/http%3A%2F%2Fexample.com%2Fprofile%2Fcontrolled-vocabulary-catalog%2Fcv-json-schema-test-v2%2Fdataset%2Fcv-json-schema-test-v2-cv-a> a dsv:ControlledVocabularyAssignment;
+    dsv:classProfile :Value_must_a_object;
+    dsv:controlledVocabulary <http://example.com/profile/controlled-vocabulary-catalog/cv-json-schema-test-v2/dataset/cv-json-schema-test-v2-cv-a>;
+    dsv:usageExpectation <https://w3id.org/dsv/usage-expectation#must>.
+:Value_at_least_one_a dct:isPartOf <http://example.com/profile#>;
+    a dsv:TermProfile;
+    skos:prefLabel "Value at_least_one_a"@en;
+    a dsv:ClassProfile;
+    dsv:class <http://example.com/vocabulary#Value_at_least_one_a>.
+
+<http://example.com/profile#Value_at_least_one_a/controlled-vocabulary-assignment/vocabulary/http%3A%2F%2Fexample.com%2Fprofile%2Fcontrolled-vocabulary-catalog%2Fcv-json-schema-test-v2%2Fdataset%2Fcv-json-schema-test-v2-cv-a> a dsv:ControlledVocabularyAssignment;
+    dsv:classProfile :Value_at_least_one_a;
+    dsv:controlledVocabulary <http://example.com/profile/controlled-vocabulary-catalog/cv-json-schema-test-v2/dataset/cv-json-schema-test-v2-cv-a>;
+    dsv:usageExpectation <https://w3id.org/dsv/usage-expectation#at-least-1>.
+:Value_at_least_one_a_single dct:isPartOf <http://example.com/profile#>;
+    a dsv:TermProfile;
+    skos:prefLabel "Value at_least_one_a_single"@en;
+    a dsv:ClassProfile;
+    dsv:class <http://example.com/vocabulary#Value_at_least_one_a_single>.
+
+<http://example.com/profile#Value_at_least_one_a_single/controlled-vocabulary-assignment/vocabulary/http%3A%2F%2Fexample.com%2Fprofile%2Fcontrolled-vocabulary-catalog%2Fcv-json-schema-test-v2%2Fdataset%2Fcv-json-schema-test-v2-cv-a> a dsv:ControlledVocabularyAssignment;
+    dsv:classProfile :Value_at_least_one_a_single;
+    dsv:controlledVocabulary <http://example.com/profile/controlled-vocabulary-catalog/cv-json-schema-test-v2/dataset/cv-json-schema-test-v2-cv-a>;
+    dsv:usageExpectation <https://w3id.org/dsv/usage-expectation#at-least-1>.
+:Value_at_least_one_a_object dct:isPartOf <http://example.com/profile#>;
+    a dsv:TermProfile;
+    skos:prefLabel "Value at_least_one_a_object"@en;
+    a dsv:ClassProfile;
+    dsv:class <http://example.com/vocabulary#Value_at_least_one_a_object>.
+
+<http://example.com/profile#Value_at_least_one_a_object/controlled-vocabulary-assignment/vocabulary/http%3A%2F%2Fexample.com%2Fprofile%2Fcontrolled-vocabulary-catalog%2Fcv-json-schema-test-v2%2Fdataset%2Fcv-json-schema-test-v2-cv-a> a dsv:ControlledVocabularyAssignment;
+    dsv:classProfile :Value_at_least_one_a_object;
+    dsv:controlledVocabulary <http://example.com/profile/controlled-vocabulary-catalog/cv-json-schema-test-v2/dataset/cv-json-schema-test-v2-cv-a>;
+    dsv:usageExpectation <https://w3id.org/dsv/usage-expectation#at-least-1>.
+:Value_at_least_one_a_and_b dct:isPartOf <http://example.com/profile#>;
+    a dsv:TermProfile;
+    skos:prefLabel "Value at_least_one_a_and_b"@en;
+    a dsv:ClassProfile;
+    dsv:class <http://example.com/vocabulary#Value_at_least_one_a_and_b>.
+
+<http://example.com/profile#Value_at_least_one_a_and_b/controlled-vocabulary-assignment/vocabulary/http%3A%2F%2Fexample.com%2Fprofile%2Fcontrolled-vocabulary-catalog%2Fcv-json-schema-test-v2%2Fdataset%2Fcv-json-schema-test-v2-cv-a> a dsv:ControlledVocabularyAssignment;
+    dsv:classProfile :Value_at_least_one_a_and_b;
+    dsv:controlledVocabulary <http://example.com/profile/controlled-vocabulary-catalog/cv-json-schema-test-v2/dataset/cv-json-schema-test-v2-cv-a>;
+    dsv:usageExpectation <https://w3id.org/dsv/usage-expectation#at-least-1>.
+
+<http://example.com/profile#Value_at_least_one_a_and_b/controlled-vocabulary-assignment/vocabulary/http%3A%2F%2Fexample.com%2Fprofile%2Fcontrolled-vocabulary-catalog%2Fcv-json-schema-test-v2%2Fdataset%2Fcv-json-schema-test-v2-cv-b> a dsv:ControlledVocabularyAssignment;
+    dsv:classProfile :Value_at_least_one_a_and_b;
+    dsv:controlledVocabulary <http://example.com/profile/controlled-vocabulary-catalog/cv-json-schema-test-v2/dataset/cv-json-schema-test-v2-cv-b>;
+    dsv:usageExpectation <https://w3id.org/dsv/usage-expectation#at-least-1>.
+:Value_recommended_a_default dct:isPartOf <http://example.com/profile#>;
+    a dsv:TermProfile;
+    skos:prefLabel "Value recommended_a_default"@en;
+    a dsv:ClassProfile;
+    dsv:class <http://example.com/vocabulary#Value_recommended_a_default>.
+
+<http://example.com/profile#Value_recommended_a_default/controlled-vocabulary-assignment/vocabulary/http%3A%2F%2Fexample.com%2Fprofile%2Fcontrolled-vocabulary-catalog%2Fcv-json-schema-test-v2%2Fdataset%2Fcv-json-schema-test-v2-cv-a> a dsv:ControlledVocabularyAssignment;
+    dsv:classProfile :Value_recommended_a_default;
+    dsv:controlledVocabulary <http://example.com/profile/controlled-vocabulary-catalog/cv-json-schema-test-v2/dataset/cv-json-schema-test-v2-cv-a>;
+    dsv:usageExpectation <https://w3id.org/dsv/usage-expectation#recommended>.
+:Value_recommended_a_require dct:isPartOf <http://example.com/profile#>;
+    a dsv:TermProfile;
+    skos:prefLabel "Value recommended_a_require"@en;
+    a dsv:ClassProfile;
+    dsv:class <http://example.com/vocabulary#Value_recommended_a_require>.
+
+<http://example.com/profile#Value_recommended_a_require/controlled-vocabulary-assignment/vocabulary/http%3A%2F%2Fexample.com%2Fprofile%2Fcontrolled-vocabulary-catalog%2Fcv-json-schema-test-v2%2Fdataset%2Fcv-json-schema-test-v2-cv-a> a dsv:ControlledVocabularyAssignment;
+    dsv:classProfile :Value_recommended_a_require;
+    dsv:controlledVocabulary <http://example.com/profile/controlled-vocabulary-catalog/cv-json-schema-test-v2/dataset/cv-json-schema-test-v2-cv-a>;
+    dsv:usageExpectation <https://w3id.org/dsv/usage-expectation#recommended>.
+:Value_recommended_a_restrict dct:isPartOf <http://example.com/profile#>;
+    a dsv:TermProfile;
+    skos:prefLabel "Value recommended_a_restrict"@en;
+    a dsv:ClassProfile;
+    dsv:class <http://example.com/vocabulary#Value_recommended_a_restrict>.
+
+<http://example.com/profile#Value_recommended_a_restrict/controlled-vocabulary-assignment/vocabulary/http%3A%2F%2Fexample.com%2Fprofile%2Fcontrolled-vocabulary-catalog%2Fcv-json-schema-test-v2%2Fdataset%2Fcv-json-schema-test-v2-cv-a> a dsv:ControlledVocabularyAssignment;
+    dsv:classProfile :Value_recommended_a_restrict;
+    dsv:controlledVocabulary <http://example.com/profile/controlled-vocabulary-catalog/cv-json-schema-test-v2/dataset/cv-json-schema-test-v2-cv-a>;
+    dsv:usageExpectation <https://w3id.org/dsv/usage-expectation#recommended>.
+:Value_recommended_a_both dct:isPartOf <http://example.com/profile#>;
+    a dsv:TermProfile;
+    skos:prefLabel "Value recommended_a_both"@en;
+    a dsv:ClassProfile;
+    dsv:class <http://example.com/vocabulary#Value_recommended_a_both>.
+
+<http://example.com/profile#Value_recommended_a_both/controlled-vocabulary-assignment/vocabulary/http%3A%2F%2Fexample.com%2Fprofile%2Fcontrolled-vocabulary-catalog%2Fcv-json-schema-test-v2%2Fdataset%2Fcv-json-schema-test-v2-cv-a> a dsv:ControlledVocabularyAssignment;
+    dsv:classProfile :Value_recommended_a_both;
+    dsv:controlledVocabulary <http://example.com/profile/controlled-vocabulary-catalog/cv-json-schema-test-v2/dataset/cv-json-schema-test-v2-cv-a>;
+    dsv:usageExpectation <https://w3id.org/dsv/usage-expectation#recommended>.
+:Value_may_a dct:isPartOf <http://example.com/profile#>;
+    a dsv:TermProfile;
+    skos:prefLabel "Value may_a"@en;
+    a dsv:ClassProfile;
+    dsv:class <http://example.com/vocabulary#Value_may_a>.
+
+<http://example.com/profile#Value_may_a/controlled-vocabulary-assignment/vocabulary/http%3A%2F%2Fexample.com%2Fprofile%2Fcontrolled-vocabulary-catalog%2Fcv-json-schema-test-v2%2Fdataset%2Fcv-json-schema-test-v2-cv-a> a dsv:ControlledVocabularyAssignment;
+    dsv:classProfile :Value_may_a;
+    dsv:controlledVocabulary <http://example.com/profile/controlled-vocabulary-catalog/cv-json-schema-test-v2/dataset/cv-json-schema-test-v2-cv-a>;
+    dsv:usageExpectation <https://w3id.org/dsv/usage-expectation#may>.
+:Value_must_without_pattern dct:isPartOf <http://example.com/profile#>;
+    a dsv:TermProfile;
+    skos:prefLabel "Value must_without_pattern"@en;
+    a dsv:ClassProfile;
+    dsv:class <http://example.com/vocabulary#Value_must_without_pattern>.
+
+<http://example.com/profile#Value_must_without_pattern/controlled-vocabulary-assignment/vocabulary/http%3A%2F%2Fexample.com%2Fprofile%2Fcontrolled-vocabulary-catalog%2Fcv-json-schema-test-v2%2Fdataset%2Fcv-json-schema-test-v2-cv-none> a dsv:ControlledVocabularyAssignment;
+    dsv:classProfile :Value_must_without_pattern;
+    dsv:controlledVocabulary <http://example.com/profile/controlled-vocabulary-catalog/cv-json-schema-test-v2/dataset/cv-json-schema-test-v2-cv-none>;
+    dsv:usageExpectation <https://w3id.org/dsv/usage-expectation#must>.
+:Value_at_least_one_a_recommended_b_require dct:isPartOf <http://example.com/profile#>;
+    a dsv:TermProfile;
+    skos:prefLabel "Value at_least_one_a_recommended_b_require"@en;
+    a dsv:ClassProfile;
+    dsv:class <http://example.com/vocabulary#Value_at_least_one_a_recommended_b_require>.
+
+<http://example.com/profile#Value_at_least_one_a_recommended_b_require/controlled-vocabulary-assignment/vocabulary/http%3A%2F%2Fexample.com%2Fprofile%2Fcontrolled-vocabulary-catalog%2Fcv-json-schema-test-v2%2Fdataset%2Fcv-json-schema-test-v2-cv-a> a dsv:ControlledVocabularyAssignment;
+    dsv:classProfile :Value_at_least_one_a_recommended_b_require;
+    dsv:controlledVocabulary <http://example.com/profile/controlled-vocabulary-catalog/cv-json-schema-test-v2/dataset/cv-json-schema-test-v2-cv-a>;
+    dsv:usageExpectation <https://w3id.org/dsv/usage-expectation#at-least-1>.
+
+<http://example.com/profile#Value_at_least_one_a_recommended_b_require/controlled-vocabulary-assignment/vocabulary/http%3A%2F%2Fexample.com%2Fprofile%2Fcontrolled-vocabulary-catalog%2Fcv-json-schema-test-v2%2Fdataset%2Fcv-json-schema-test-v2-cv-b> a dsv:ControlledVocabularyAssignment;
+    dsv:classProfile :Value_at_least_one_a_recommended_b_require;
+    dsv:controlledVocabulary <http://example.com/profile/controlled-vocabulary-catalog/cv-json-schema-test-v2/dataset/cv-json-schema-test-v2-cv-b>;
+    dsv:usageExpectation <https://w3id.org/dsv/usage-expectation#recommended>.
+:must_a dct:isPartOf <http://example.com/profile#>;
+    a dsv:TermProfile;
+    skos:prefLabel "must_a"@en;
+    dsv:cardinality cardinality:0n;
+    dsv:property <http://example.com/vocabulary#must_a>;
+    dsv:domain :Test;
+    a dsv:ObjectPropertyProfile;
+    dsv:objectPropertyRange :Value_must_a.
+:must_a_class_regex dct:isPartOf <http://example.com/profile#>;
+    a dsv:TermProfile;
+    skos:prefLabel "must_a_class_regex"@en;
+    dsv:cardinality cardinality:0n;
+    dsv:property <http://example.com/vocabulary#must_a_class_regex>;
+    dsv:domain :Test;
+    a dsv:ObjectPropertyProfile;
+    dsv:objectPropertyRange :Value_must_a_class_regex.
+:must_a_single dct:isPartOf <http://example.com/profile#>;
+    a dsv:TermProfile;
+    skos:prefLabel "must_a_single"@en;
+    dsv:cardinality cardinality:01;
+    dsv:property <http://example.com/vocabulary#must_a_single>;
+    dsv:domain :Test;
+    a dsv:ObjectPropertyProfile;
+    dsv:objectPropertyRange :Value_must_a_single.
+:must_a_object dct:isPartOf <http://example.com/profile#>;
+    a dsv:TermProfile;
+    skos:prefLabel "must_a_object"@en;
+    dsv:cardinality cardinality:0n;
+    dsv:property <http://example.com/vocabulary#must_a_object>;
+    dsv:domain :Test;
+    a dsv:ObjectPropertyProfile;
+    dsv:objectPropertyRange :Value_must_a_object.
+:at_least_one_a dct:isPartOf <http://example.com/profile#>;
+    a dsv:TermProfile;
+    skos:prefLabel "at_least_one_a"@en;
+    dsv:cardinality cardinality:0n;
+    dsv:property <http://example.com/vocabulary#at_least_one_a>;
+    dsv:domain :Test;
+    a dsv:ObjectPropertyProfile;
+    dsv:objectPropertyRange :Value_at_least_one_a.
+:at_least_one_a_single dct:isPartOf <http://example.com/profile#>;
+    a dsv:TermProfile;
+    skos:prefLabel "at_least_one_a_single"@en;
+    dsv:cardinality cardinality:01;
+    dsv:property <http://example.com/vocabulary#at_least_one_a_single>;
+    dsv:domain :Test;
+    a dsv:ObjectPropertyProfile;
+    dsv:objectPropertyRange :Value_at_least_one_a_single.
+:at_least_one_a_object dct:isPartOf <http://example.com/profile#>;
+    a dsv:TermProfile;
+    skos:prefLabel "at_least_one_a_object"@en;
+    dsv:cardinality cardinality:0n;
+    dsv:property <http://example.com/vocabulary#at_least_one_a_object>;
+    dsv:domain :Test;
+    a dsv:ObjectPropertyProfile;
+    dsv:objectPropertyRange :Value_at_least_one_a_object.
+:at_least_one_a_and_b dct:isPartOf <http://example.com/profile#>;
+    a dsv:TermProfile;
+    skos:prefLabel "at_least_one_a_and_b"@en;
+    dsv:cardinality cardinality:0n;
+    dsv:property <http://example.com/vocabulary#at_least_one_a_and_b>;
+    dsv:domain :Test;
+    a dsv:ObjectPropertyProfile;
+    dsv:objectPropertyRange :Value_at_least_one_a_and_b.
+:recommended_a_default dct:isPartOf <http://example.com/profile#>;
+    a dsv:TermProfile;
+    skos:prefLabel "recommended_a_default"@en;
+    dsv:cardinality cardinality:0n;
+    dsv:property <http://example.com/vocabulary#recommended_a_default>;
+    dsv:domain :Test;
+    a dsv:ObjectPropertyProfile;
+    dsv:objectPropertyRange :Value_recommended_a_default.
+:recommended_a_require dct:isPartOf <http://example.com/profile#>;
+    a dsv:TermProfile;
+    skos:prefLabel "recommended_a_require"@en;
+    dsv:cardinality cardinality:0n;
+    dsv:property <http://example.com/vocabulary#recommended_a_require>;
+    dsv:domain :Test;
+    a dsv:ObjectPropertyProfile;
+    dsv:objectPropertyRange :Value_recommended_a_require.
+:recommended_a_restrict dct:isPartOf <http://example.com/profile#>;
+    a dsv:TermProfile;
+    skos:prefLabel "recommended_a_restrict"@en;
+    dsv:cardinality cardinality:0n;
+    dsv:property <http://example.com/vocabulary#recommended_a_restrict>;
+    dsv:domain :Test;
+    a dsv:ObjectPropertyProfile;
+    dsv:objectPropertyRange :Value_recommended_a_restrict.
+:recommended_a_both dct:isPartOf <http://example.com/profile#>;
+    a dsv:TermProfile;
+    skos:prefLabel "recommended_a_both"@en;
+    dsv:cardinality cardinality:0n;
+    dsv:property <http://example.com/vocabulary#recommended_a_both>;
+    dsv:domain :Test;
+    a dsv:ObjectPropertyProfile;
+    dsv:objectPropertyRange :Value_recommended_a_both.
+:may_a dct:isPartOf <http://example.com/profile#>;
+    a dsv:TermProfile;
+    skos:prefLabel "may_a"@en;
+    dsv:cardinality cardinality:0n;
+    dsv:property <http://example.com/vocabulary#may_a>;
+    dsv:domain :Test;
+    a dsv:ObjectPropertyProfile;
+    dsv:objectPropertyRange :Value_may_a.
+:must_without_pattern dct:isPartOf <http://example.com/profile#>;
+    a dsv:TermProfile;
+    skos:prefLabel "must_without_pattern"@en;
+    dsv:cardinality cardinality:0n;
+    dsv:property <http://example.com/vocabulary#must_without_pattern>;
+    dsv:domain :Test;
+    a dsv:ObjectPropertyProfile;
+    dsv:objectPropertyRange :Value_must_without_pattern.
+:at_least_one_a_recommended_b_require dct:isPartOf <http://example.com/profile#>;
+    a dsv:TermProfile;
+    skos:prefLabel "at_least_one_a_recommended_b_require"@en;
+    dsv:cardinality cardinality:0n;
+    dsv:property <http://example.com/vocabulary#at_least_one_a_recommended_b_require>;
+    dsv:domain :Test;
+    a dsv:ObjectPropertyProfile;
+    dsv:objectPropertyRange :Value_at_least_one_a_recommended_b_require.
+:label dct:isPartOf <http://example.com/profile#>;
+    a dsv:TermProfile;
+    skos:prefLabel "label"@en;
+    dsv:cardinality cardinality:01;
+    dsv:property <http://example.com/vocabulary#label_must_a_object>;
+    dsv:domain :Value_must_a_object;
+    a dsv:DatatypePropertyProfile;
+    dsv:datatypePropertyRange rdfs:Literal;
+    dct:isPartOf <http://example.com/profile#>;
+    a dsv:TermProfile;
+    skos:prefLabel "label"@en;
+    dsv:cardinality cardinality:01;
+    dsv:property <http://example.com/vocabulary#label_at_least_one_a_object>;
+    dsv:domain :Value_at_least_one_a_object;
+    a dsv:DatatypePropertyProfile;
+    dsv:datatypePropertyRange rdfs:Literal.
+
+<http://example.com/profile/controlled-vocabulary-catalog/cv-json-schema-test-v2> a dcat:Catalog;
+    dcat:dataset <http://example.com/profile/controlled-vocabulary-catalog/cv-json-schema-test-v2/dataset/cv-json-schema-test-v2-cv-a>.
+
+<http://example.com/profile/controlled-vocabulary-catalog/cv-json-schema-test-v2/dataset/cv-json-schema-test-v2-cv-a> a dcat:Dataset;
+    dct:title "CV A (letters)"@en;
+    dct:references <http://example.com/schemes/a>;
+    dct:conformsTo <http://www.w3.org/2004/02/skos/core>;
+    sh:pattern "^http://example\\.com/cv-a/[a-z]+$";
+    dcat:distribution [
+  a dcat:Distribution;
+  dcat:accessURL <http://example.com/vocabularies/a>
+].
+
+<http://example.com/profile/controlled-vocabulary-catalog/cv-json-schema-test-v2> dcat:dataset <http://example.com/profile/controlled-vocabulary-catalog/cv-json-schema-test-v2/dataset/cv-json-schema-test-v2-cv-b>.
+
+<http://example.com/profile/controlled-vocabulary-catalog/cv-json-schema-test-v2/dataset/cv-json-schema-test-v2-cv-b> a dcat:Dataset;
+    dct:title "CV B (digits)"@en;
+    dct:references <http://example.com/schemes/b>;
+    dct:conformsTo <http://www.w3.org/2004/02/skos/core>;
+    sh:pattern "^http://example\\.com/cv-b/[0-9]+$";
+    dcat:distribution [
+  a dcat:Distribution;
+  dcat:accessURL <http://example.com/vocabularies/b>
+].
+
+<http://example.com/profile/controlled-vocabulary-catalog/cv-json-schema-test-v2> dcat:dataset <http://example.com/profile/controlled-vocabulary-catalog/cv-json-schema-test-v2/dataset/cv-json-schema-test-v2-cv-none>.
+
+<http://example.com/profile/controlled-vocabulary-catalog/cv-json-schema-test-v2/dataset/cv-json-schema-test-v2-cv-none> a dcat:Dataset;
+    dct:title "CV without a pattern"@en;
+    dct:references <http://example.com/schemes/none>;
+    dct:conformsTo <http://www.w3.org/2004/02/skos/core>;
+    dcat:distribution [
+  a dcat:Distribution;
+  dcat:accessURL <http://example.com/vocabularies/none>
+].

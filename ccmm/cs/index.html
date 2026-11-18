@@ -1885,9 +1885,17 @@
         padding: 3px 10px;
       }
     
-      /* An IRI has no spaces to break at, so it may wrap anywhere instead of widening the table. */
+      /* The IRI column takes the space the other columns leave, up to a limit. An IRI has no spaces to break at, so beyond it the IRI wraps anywhere. */
       table.def.cv-list .cv-iri {
+        min-width: 16em;
+        max-width: 36em;
         overflow-wrap: anywhere;
+      }
+    
+      /* Columns with a short content are as narrow as the content. */
+      table.def.cv-list .cv-narrow {
+        width: 1%;
+        white-space: nowrap;
       }
     
       /* ReSpec shows the header row of a definition table as an italic body row, so it is marked out as a header. */
@@ -16204,6 +16212,10 @@
 
 
 
+
+
+
+
 <section>
 <h3>Přehled XML struktury</h3>
 <p>
@@ -16263,9 +16275,12 @@
           Obsahem elementu je typ <a href="#type-ccmm:resource_type"><code>ccmm:resource_type</code></a>.
       </dd>
 
+    
 
     
 
+
+    
 
     
   </div>
@@ -16284,6 +16299,8 @@
       </dd>
 
 
+    
+
         <dt>Obsah 
  - elementy v tomto pořadí
 </dt>
@@ -16297,6 +16314,8 @@
   </ul>
 
 
+
+    
   </dl>
 </section>
 <section id="element-ccmm:resource_type-ccmm:iri">
@@ -16320,9 +16339,12 @@
           Obsahem elementu je typ <a href="http://www.w3.org/2001/XMLSchemaanyURI"><code>xs:anyURI</code></a>.
       </dd>
 
+    
 
     
 
+
+    
 
     
   </div>
@@ -16361,9 +16383,12 @@
           Obsahem elementu je typ <a href=""><code></code></a>.
       </dd>
 
+    
 
     
 
+
+    
 
     
   </div>
@@ -16641,6 +16666,10 @@
 
 
 
+
+
+
+
 <section>
 <h3>Přehled XML struktury</h3>
 <p>
@@ -16700,9 +16729,12 @@
           Obsahem elementu je typ <a href="#type-ccmm:attributed_agent_role_type"><code>ccmm:attributed_agent_role_type</code></a>.
       </dd>
 
+    
 
     
 
+
+    
 
     
   </div>
@@ -16721,6 +16753,8 @@
       </dd>
 
 
+    
+
         <dt>Obsah 
  - elementy v tomto pořadí
 </dt>
@@ -16734,6 +16768,8 @@
   </ul>
 
 
+
+    
   </dl>
 </section>
 <section id="element-ccmm:attributed_agent_role_type-ccmm:iri">
@@ -16757,9 +16793,12 @@
           Obsahem elementu je typ <a href="http://www.w3.org/2001/XMLSchemaanyURI"><code>xs:anyURI</code></a>.
       </dd>
 
+    
 
     
 
+
+    
 
     
   </div>
@@ -16798,9 +16837,12 @@
           Obsahem elementu je typ <a href=""><code></code></a>.
       </dd>
 
+    
 
     
 
+
+    
 
     
   </div>
@@ -17139,6 +17181,10 @@
 
 
 
+
+
+
+
 <section>
 <h3>Přehled XML struktury</h3>
 <p>
@@ -17198,9 +17244,12 @@
           Obsahem elementu je typ <a href="#type-ccmm:identifier_scheme"><code>ccmm:identifier_scheme</code></a>.
       </dd>
 
+    
 
     
 
+
+    
 
     
   </div>
@@ -17219,6 +17268,8 @@
       </dd>
 
 
+    
+
         <dt>Obsah 
  - elementy v tomto pořadí
 </dt>
@@ -17235,6 +17286,8 @@
   </ul>
 
 
+
+    
   </dl>
 </section>
 <section id="element-ccmm:identifier_scheme-ccmm:iri">
@@ -17258,9 +17311,12 @@
           Obsahem elementu je typ <a href="http://www.w3.org/2001/XMLSchemaanyURI"><code>xs:anyURI</code></a>.
       </dd>
 
+    
 
     
 
+
+    
 
     
   </div>
@@ -17299,9 +17355,12 @@
           Obsahem elementu je typ <a href=""><code></code></a>.
       </dd>
 
+    
 
     
 
+
+    
 
     
   </div>
@@ -17340,9 +17399,12 @@
           Obsahem elementu je typ <a href="http://www.w3.org/2001/XMLSchemastring"><code>xs:string</code></a>.
       </dd>
 
+    
 
     
 
+
+    
 
     
   </div>
@@ -19084,6 +19146,10 @@
 
 
 
+
+
+
+
 <section>
 <h3>Přehled XML struktury</h3>
 <p>
@@ -19185,9 +19251,12 @@
           Obsahem elementu je typ <a href="#type-ccmm:distribution_downloadable_file"><code>ccmm:distribution_downloadable_file</code></a>.
       </dd>
 
+    
 
     
 
+
+    
 
     
   </div>
@@ -19205,6 +19274,8 @@
         (Physical embodiment of the dataset in a particular format. )
       </dd>
 
+
+    
 
         <dt>Obsah 
  - elementy v tomto pořadí
@@ -19255,6 +19326,8 @@
   </ul>
 
 
+
+    
   </dl>
 </section>
 <section id="element-ccmm:distribution_downloadable_file-ccmm:iri">
@@ -19278,9 +19351,12 @@
           Obsahem elementu je typ <a href="http://www.w3.org/2001/XMLSchemaanyURI"><code>xs:anyURI</code></a>.
       </dd>
 
+    
 
     
 
+
+    
 
     
   </div>
@@ -19330,9 +19406,12 @@
           Obsahem elementu je typ <a href="http://www.w3.org/2001/XMLSchemastring"><code>xs:string</code></a>.
       </dd>
 
+    
 
     
 
+
+    
 
     
   </div>
@@ -19382,9 +19461,12 @@
           Obsahem elementu je typ <a href="http://www.w3.org/2001/XMLSchemaanyURI"><code>xs:anyURI</code></a>.
       </dd>
 
+    
 
     
 
+
+    
 
     
   </div>
@@ -19423,6 +19505,7 @@
           Obsahem elementu je typ <a href="#type-ccmm:file"><code>ccmm:file</code></a>.
       </dd>
 
+    
 
         <dt>Význam</dt>
       <dd>
@@ -19431,6 +19514,8 @@
       </dd>
 
 
+
+    
 
     
   </div>
@@ -19480,6 +19565,7 @@
           Obsahem elementu je typ <a href="#type-ccmm:application_profile"><code>ccmm:application_profile</code></a>.
       </dd>
 
+    
 
         <dt>Význam</dt>
       <dd>
@@ -19488,6 +19574,8 @@
       </dd>
 
 
+
+    
 
     
   </div>
@@ -19526,6 +19614,7 @@
           Obsahem elementu je typ <a href="#type-ccmm:format"><code>ccmm:format</code></a>.
       </dd>
 
+    
 
         <dt>Význam</dt>
       <dd>
@@ -19534,6 +19623,8 @@
       </dd>
 
 
+
+    
 
     
   </div>
@@ -19572,6 +19663,7 @@
           Obsahem elementu je typ <a href="#type-ccmm:media_type"><code>ccmm:media_type</code></a>.
       </dd>
 
+    
 
         <dt>Význam</dt>
       <dd>
@@ -19580,6 +19672,8 @@
       </dd>
 
 
+
+    
 
     
   </div>
@@ -19618,6 +19712,7 @@
           Obsahem elementu je typ <a href="#type-ccmm:media_type"><code>ccmm:media_type</code></a>.
       </dd>
 
+    
 
         <dt>Význam</dt>
       <dd>
@@ -19626,6 +19721,8 @@
       </dd>
 
 
+
+    
 
     
   </div>
@@ -19664,6 +19761,7 @@
           Obsahem elementu je typ <a href="#type-ccmm:media_type"><code>ccmm:media_type</code></a>.
       </dd>
 
+    
 
         <dt>Význam</dt>
       <dd>
@@ -19672,6 +19770,8 @@
       </dd>
 
 
+
+    
 
     
   </div>
@@ -19710,9 +19810,12 @@
           Obsahem elementu je typ <a href="http://www.w3.org/2001/XMLSchemainteger"><code>xs:integer</code></a>.
       </dd>
 
+    
 
     
 
+
+    
 
     
   </div>
@@ -19751,6 +19854,7 @@
           Obsahem elementu je typ <a href="#type-ccmm:checksum"><code>ccmm:checksum</code></a>.
       </dd>
 
+    
 
         <dt>Význam</dt>
       <dd>
@@ -19759,6 +19863,8 @@
       </dd>
 
 
+
+    
 
     
   </div>
@@ -19808,6 +19914,7 @@
           Obsahem elementu je typ <a href="#type-ccmm:access_rights"><code>ccmm:access_rights</code></a>.
       </dd>
 
+    
 
         <dt>Význam</dt>
       <dd>
@@ -19816,6 +19923,8 @@
       </dd>
 
 
+
+    
 
     
   </div>
@@ -19865,6 +19974,7 @@
           Obsahem elementu je typ <a href="#type-ccmm:licence_document"><code>ccmm:licence_document</code></a>.
       </dd>
 
+    
 
         <dt>Význam</dt>
       <dd>
@@ -19873,6 +19983,8 @@
       </dd>
 
 
+
+    
 
     
   </div>
@@ -19922,9 +20034,12 @@
           Obsahem elementu je typ <a href=""><code></code></a>.
       </dd>
 
+    
 
     
 
+
+    
 
     
   </div>
@@ -25822,6 +25937,10 @@
 
 
 
+
+
+
+
 <section>
 <h3>Přehled XML struktury</h3>
 <p>
@@ -25911,9 +26030,12 @@
           Obsahem elementu je typ <a href="#type-ccmm:related_resource"><code>ccmm:related_resource</code></a>.
       </dd>
 
+    
 
     
 
+
+    
 
     
   </div>
@@ -25931,6 +26053,8 @@
         (Resource represents any resource, physical or digital, that is related to the described dataset.)
       </dd>
 
+
+    
 
         <dt>Obsah 
  - elementy v tomto pořadí
@@ -25966,6 +26090,8 @@
   </ul>
 
 
+
+    
   </dl>
 </section>
 <section id="element-ccmm:related_resource-ccmm:iri">
@@ -25989,9 +26115,12 @@
           Obsahem elementu je typ <a href="http://www.w3.org/2001/XMLSchemaanyURI"><code>xs:anyURI</code></a>.
       </dd>
 
+    
 
     
 
+
+    
 
     
   </div>
@@ -26041,6 +26170,7 @@
           Obsahem elementu je typ <a href="#type-ccmm:identifier"><code>ccmm:identifier</code></a>.
       </dd>
 
+    
 
         <dt>Význam</dt>
       <dd>
@@ -26049,6 +26179,8 @@
       </dd>
 
 
+
+    
 
     
   </div>
@@ -26098,9 +26230,12 @@
           Obsahem elementu je typ <a href="http://www.w3.org/2001/XMLSchemastring"><code>xs:string</code></a>.
       </dd>
 
+    
 
     
 
+
+    
 
     
   </div>
@@ -26150,6 +26285,7 @@
           Obsahem elementu je typ <a href="#type-ccmm:alternate_title"><code>ccmm:alternate_title</code></a>.
       </dd>
 
+    
 
         <dt>Význam</dt>
       <dd>
@@ -26158,6 +26294,8 @@
       </dd>
 
 
+
+    
 
     
   </div>
@@ -26196,9 +26334,12 @@
           Obsahem elementu je typ <a href="http://www.w3.org/2001/XMLSchemaanyURI"><code>xs:anyURI</code></a>.
       </dd>
 
+    
 
     
 
+
+    
 
     
   </div>
@@ -26248,6 +26389,7 @@
           Obsahem elementu je typ <a href="#type-ccmm:resource_attribution"><code>ccmm:resource_attribution</code></a>.
       </dd>
 
+    
 
         <dt>Význam</dt>
       <dd>
@@ -26256,6 +26398,8 @@
       </dd>
 
 
+
+    
 
     
   </div>
@@ -26305,6 +26449,7 @@
           Obsahem elementu je typ <a href="#type-ccmm:time_reference"><code>ccmm:time_reference</code></a>.
       </dd>
 
+    
 
         <dt>Význam</dt>
       <dd>
@@ -26313,6 +26458,8 @@
       </dd>
 
 
+
+    
 
     
   </div>
@@ -26362,6 +26509,7 @@
           Obsahem elementu je typ <a href="#type-ccmm:resource_type"><code>ccmm:resource_type</code></a>.
       </dd>
 
+    
 
         <dt>Význam</dt>
       <dd>
@@ -26370,6 +26518,8 @@
       </dd>
 
 
+
+    
 
     
   </div>
@@ -26408,6 +26558,7 @@
           Obsahem elementu je typ <a href="#type-ccmm:resource_relation_type"><code>ccmm:resource_relation_type</code></a>.
       </dd>
 
+    
 
         <dt>Význam</dt>
       <dd>
@@ -26416,6 +26567,8 @@
       </dd>
 
 
+
+    
 
     
   </div>
@@ -33474,6 +33627,10 @@
 
 
 
+
+
+
+
 <section>
 <h3>Přehled XML struktury</h3>
 <p>
@@ -33563,9 +33720,12 @@
           Obsahem elementu je typ <a href="#type-ccmm:distribution_data_service"><code>ccmm:distribution_data_service</code></a>.
       </dd>
 
+    
 
     
 
+
+    
 
     
   </div>
@@ -33583,6 +33743,8 @@
         (Physical embodiment of the dataset distribution as a particular data service. )
       </dd>
 
+
+    
 
         <dt>Obsah 
  - elementy v tomto pořadí
@@ -33615,6 +33777,8 @@
   </ul>
 
 
+
+    
   </dl>
 </section>
 <section id="element-ccmm:distribution_data_service-ccmm:iri">
@@ -33638,9 +33802,12 @@
           Obsahem elementu je typ <a href="http://www.w3.org/2001/XMLSchemaanyURI"><code>xs:anyURI</code></a>.
       </dd>
 
+    
 
     
 
+
+    
 
     
   </div>
@@ -33690,9 +33857,12 @@
           Obsahem elementu je typ <a href="http://www.w3.org/2001/XMLSchemastring"><code>xs:string</code></a>.
       </dd>
 
+    
 
     
 
+
+    
 
     
   </div>
@@ -33731,6 +33901,7 @@
           Obsahem elementu je typ <a href="#type-ccmm:data_service"><code>ccmm:data_service</code></a>.
       </dd>
 
+    
 
         <dt>Význam</dt>
       <dd>
@@ -33739,6 +33910,8 @@
       </dd>
 
 
+
+    
 
     
   </div>
@@ -33788,6 +33961,7 @@
           Obsahem elementu je typ <a href="#type-ccmm:application_profile"><code>ccmm:application_profile</code></a>.
       </dd>
 
+    
 
         <dt>Význam</dt>
       <dd>
@@ -33796,6 +33970,8 @@
       </dd>
 
 
+
+    
 
     
   </div>
@@ -33845,6 +34021,7 @@
           Obsahem elementu je typ <a href="#type-ccmm:documentation"><code>ccmm:documentation</code></a>.
       </dd>
 
+    
 
         <dt>Význam</dt>
       <dd>
@@ -33853,6 +34030,8 @@
       </dd>
 
 
+
+    
 
     
   </div>
@@ -33902,6 +34081,7 @@
           Obsahem elementu je typ <a href="#type-ccmm:access_rights"><code>ccmm:access_rights</code></a>.
       </dd>
 
+    
 
         <dt>Význam</dt>
       <dd>
@@ -33910,6 +34090,8 @@
       </dd>
 
 
+
+    
 
     
   </div>
@@ -33959,6 +34141,7 @@
           Obsahem elementu je typ <a href="#type-ccmm:licence_document"><code>ccmm:licence_document</code></a>.
       </dd>
 
+    
 
         <dt>Význam</dt>
       <dd>
@@ -33967,6 +34150,8 @@
       </dd>
 
 
+
+    
 
     
   </div>
@@ -34016,9 +34201,12 @@
           Obsahem elementu je typ <a href=""><code></code></a>.
       </dd>
 
+    
 
     
 
+
+    
 
     
   </div>
@@ -34296,6 +34484,10 @@
 
 
 
+
+
+
+
 <section>
 <h3>Přehled XML struktury</h3>
 <p>
@@ -34355,9 +34547,12 @@
           Obsahem elementu je typ <a href="#type-ccmm:access_rights"><code>ccmm:access_rights</code></a>.
       </dd>
 
+    
 
     
 
+
+    
 
     
   </div>
@@ -34376,6 +34571,8 @@
       </dd>
 
 
+    
+
         <dt>Obsah 
  - elementy v tomto pořadí
 </dt>
@@ -34389,6 +34586,8 @@
   </ul>
 
 
+
+    
   </dl>
 </section>
 <section id="element-ccmm:access_rights-ccmm:iri">
@@ -34412,9 +34611,12 @@
           Obsahem elementu je typ <a href="http://www.w3.org/2001/XMLSchemaanyURI"><code>xs:anyURI</code></a>.
       </dd>
 
+    
 
     
 
+
+    
 
     
   </div>
@@ -34453,9 +34655,12 @@
           Obsahem elementu je typ <a href=""><code></code></a>.
       </dd>
 
+    
 
     
 
+
+    
 
     
   </div>
@@ -34825,6 +35030,10 @@
 
 
 
+
+
+
+
 <section>
 <h3>Přehled XML struktury</h3>
 <p>
@@ -34884,9 +35093,12 @@
           Obsahem elementu je typ <a href="#type-ccmm:checksum"><code>ccmm:checksum</code></a>.
       </dd>
 
+    
 
     
 
+
+    
 
     
   </div>
@@ -34905,6 +35117,8 @@
       </dd>
 
 
+    
+
         <dt>Obsah 
  - elementy v tomto pořadí
 </dt>
@@ -34921,6 +35135,8 @@
   </ul>
 
 
+
+    
   </dl>
 </section>
 <section id="element-ccmm:checksum-ccmm:iri">
@@ -34944,9 +35160,12 @@
           Obsahem elementu je typ <a href="http://www.w3.org/2001/XMLSchemaanyURI"><code>xs:anyURI</code></a>.
       </dd>
 
+    
 
     
 
+
+    
 
     
   </div>
@@ -34985,9 +35204,12 @@
           Obsahem elementu je typ <a href="http://www.w3.org/2001/XMLSchemahexBinary"><code>xs:hexBinary</code></a>.
       </dd>
 
+    
 
     
 
+
+    
 
     
   </div>
@@ -35026,6 +35248,7 @@
           Obsahem elementu je typ <a href="#type-ccmm:checksum_algorithm"><code>ccmm:checksum_algorithm</code></a>.
       </dd>
 
+    
 
         <dt>Význam</dt>
       <dd>
@@ -35034,6 +35257,8 @@
       </dd>
 
 
+
+    
 
     
   </div>
@@ -41450,6 +41675,10 @@
 
 
 
+
+
+
+
 <section>
 <h3>Přehled XML struktury</h3>
 <p>
@@ -41533,9 +41762,12 @@
           Obsahem elementu je typ <a href="#type-ccmm:location"><code>ccmm:location</code></a>.
       </dd>
 
+    
 
     
 
+
+    
 
     
   </div>
@@ -41553,6 +41785,8 @@
         (Spatial region or named place where the data was gathered or about which the data is focused.)
       </dd>
 
+
+    
 
         <dt>Obsah 
  - elementy v tomto pořadí
@@ -41579,6 +41813,8 @@
   </ul>
 
 
+
+    
   </dl>
 </section>
 <section id="element-ccmm:location-ccmm:iri">
@@ -41602,9 +41838,12 @@
           Obsahem elementu je typ <a href="http://www.w3.org/2001/XMLSchemaanyURI"><code>xs:anyURI</code></a>.
       </dd>
 
+    
 
     
 
+
+    
 
     
   </div>
@@ -41639,6 +41878,7 @@
       <dt>Typ elementu</dt>
         <div style="margin-left: 40px;">
 
+    
 
     
 
@@ -41659,6 +41899,8 @@
   </ul>
 
 
+
+    
   </div>
 
     
@@ -41685,9 +41927,12 @@
           Obsahem elementu je typ <a href="http://www.w3.org/2001/XMLSchemaanyURI"><code>xs:anyURI</code></a>.
       </dd>
 
+    
 
     
 
+
+    
 
     
   </div>
@@ -41716,9 +41961,12 @@
           Obsahem elementu je typ <a href=""><code>gml:BoundingShapeType</code></a>.
       </dd>
 
+    
 
     
 
+
+    
 
     
   </div>
@@ -41743,9 +41991,12 @@
       <dt>Typ elementu</dt>
         <div style="margin-left: 40px;">
 
+    
 
     
 
+
+    
 
     
   </div>
@@ -41784,9 +42035,12 @@
           Obsahem elementu je typ <a href=""><code></code></a>.
       </dd>
 
+    
 
     
 
+
+    
 
     
   </div>
@@ -41825,6 +42079,7 @@
           Obsahem elementu je typ <a href="#type-ccmm:geometry"><code>ccmm:geometry</code></a>.
       </dd>
 
+    
 
         <dt>Význam</dt>
       <dd>
@@ -41833,6 +42088,8 @@
       </dd>
 
 
+
+    
 
     
   </div>
@@ -41871,6 +42128,7 @@
           Obsahem elementu je typ <a href="#type-ccmm:related_resource"><code>ccmm:related_resource</code></a>.
       </dd>
 
+    
 
         <dt>Význam</dt>
       <dd>
@@ -41879,6 +42137,8 @@
       </dd>
 
 
+
+    
 
     
   </div>
@@ -41917,6 +42177,7 @@
           Obsahem elementu je typ <a href="#type-ccmm:relation_type"><code>ccmm:relation_type</code></a>.
       </dd>
 
+    
 
         <dt>Význam</dt>
       <dd>
@@ -41925,6 +42186,8 @@
       </dd>
 
 
+
+    
 
     
   </div>
@@ -43348,6 +43611,10 @@
 
 
 
+
+
+
+
 <section>
 <h3>Přehled XML struktury</h3>
 <p>
@@ -43419,9 +43686,12 @@
           Obsahem elementu je typ <a href="#type-ccmm:organization"><code>ccmm:organization</code></a>.
       </dd>
 
+    
 
     
 
+
+    
 
     
   </div>
@@ -43439,6 +43709,8 @@
         (Represents a collection of people organized together into a community or other social, commercial or political structure. The group has some common purpose or reason for existence which goes beyond the set of people belonging to it and can act as an Agent. Organizations are often decomposable into hierarchical structures.)
       </dd>
 
+
+    
 
         <dt>Obsah 
  - elementy v tomto pořadí
@@ -43462,6 +43734,8 @@
   </ul>
 
 
+
+    
   </dl>
 </section>
 <section id="element-ccmm:organization-ccmm:iri">
@@ -43485,9 +43759,12 @@
           Obsahem elementu je typ <a href="http://www.w3.org/2001/XMLSchemaanyURI"><code>xs:anyURI</code></a>.
       </dd>
 
+    
 
     
 
+
+    
 
     
   </div>
@@ -43537,6 +43814,7 @@
           Obsahem elementu je typ <a href="#type-ccmm:identifier"><code>ccmm:identifier</code></a>.
       </dd>
 
+    
 
         <dt>Význam</dt>
       <dd>
@@ -43545,6 +43823,8 @@
       </dd>
 
 
+
+    
 
     
   </div>
@@ -43594,9 +43874,12 @@
           Obsahem elementu je typ <a href="http://www.w3.org/2001/XMLSchemastring"><code>xs:string</code></a>.
       </dd>
 
+    
 
     
 
+
+    
 
     
   </div>
@@ -43635,9 +43918,12 @@
           Obsahem elementu je typ <a href=""><code></code></a>.
       </dd>
 
+    
 
     
 
+
+    
 
     
   </div>
@@ -43687,6 +43973,7 @@
           Obsahem elementu je typ <a href="#type-ccmm:contact_details"><code>ccmm:contact_details</code></a>.
       </dd>
 
+    
 
         <dt>Význam</dt>
       <dd>
@@ -43695,6 +43982,8 @@
       </dd>
 
 
+
+    
 
     
   </div>
@@ -43769,6 +44058,10 @@
 
 
 
+
+
+
+
 <section>
 <h3>Přehled XML struktury</h3>
 <p>
@@ -43811,9 +44104,12 @@
           Obsahem elementu je typ <a href="#type-ccmm:common_provenance_model_json_representation"><code>ccmm:common_provenance_model_json_representation</code></a>.
       </dd>
 
+    
 
     
 
+
+    
 
     
   </div>
@@ -43832,6 +44128,8 @@
       </dd>
 
 
+    
+
         <dt>Obsah 
  - elementy v tomto pořadí
 </dt>
@@ -43842,6 +44140,8 @@
   </ul>
 
 
+
+    
   </dl>
 </section>
 <section id="element-ccmm:common_provenance_model_json_representation-ccmm:iri">
@@ -43865,9 +44165,12 @@
           Obsahem elementu je typ <a href="http://www.w3.org/2001/XMLSchemaanyURI"><code>xs:anyURI</code></a>.
       </dd>
 
+    
 
     
 
+
+    
 
     
   </div>
@@ -46573,6 +46876,10 @@
 
 
 
+
+
+
+
 <section>
 <h3>Přehled XML struktury</h3>
 <p>
@@ -46644,9 +46951,12 @@
           Obsahem elementu je typ <a href="#type-ccmm:person"><code>ccmm:person</code></a>.
       </dd>
 
+    
 
     
 
+
+    
 
     
   </div>
@@ -46664,6 +46974,8 @@
         (Physical person. )
       </dd>
 
+
+    
 
         <dt>Obsah 
  - elementy v tomto pořadí
@@ -46693,6 +47005,8 @@
   </ul>
 
 
+
+    
   </dl>
 </section>
 <section id="element-ccmm:person-ccmm:iri">
@@ -46716,9 +47030,12 @@
           Obsahem elementu je typ <a href="http://www.w3.org/2001/XMLSchemaanyURI"><code>xs:anyURI</code></a>.
       </dd>
 
+    
 
     
 
+
+    
 
     
   </div>
@@ -46768,6 +47085,7 @@
           Obsahem elementu je typ <a href="#type-ccmm:identifier"><code>ccmm:identifier</code></a>.
       </dd>
 
+    
 
         <dt>Význam</dt>
       <dd>
@@ -46776,6 +47094,8 @@
       </dd>
 
 
+
+    
 
     
   </div>
@@ -46825,9 +47145,12 @@
           Obsahem elementu je typ <a href="http://www.w3.org/2001/XMLSchemastring"><code>xs:string</code></a>.
       </dd>
 
+    
 
     
 
+
+    
 
     
   </div>
@@ -46866,9 +47189,12 @@
           Obsahem elementu je typ <a href="http://www.w3.org/2001/XMLSchemastring"><code>xs:string</code></a>.
       </dd>
 
+    
 
     
 
+
+    
 
     
   </div>
@@ -46907,9 +47233,12 @@
           Obsahem elementu je typ <a href="http://www.w3.org/2001/XMLSchemastring"><code>xs:string</code></a>.
       </dd>
 
+    
 
     
 
+
+    
 
     
   </div>
@@ -46959,6 +47288,7 @@
           Obsahem elementu je typ <a href="#type-ccmm:contact_details"><code>ccmm:contact_details</code></a>.
       </dd>
 
+    
 
         <dt>Význam</dt>
       <dd>
@@ -46967,6 +47297,8 @@
       </dd>
 
 
+
+    
 
     
   </div>
@@ -47005,6 +47337,7 @@
           Obsahem elementu je typ <a href="#type-ccmm:organization"><code>ccmm:organization</code></a>.
       </dd>
 
+    
 
         <dt>Význam</dt>
       <dd>
@@ -47013,6 +47346,8 @@
       </dd>
 
 
+
+    
 
     
   </div>
@@ -47307,6 +47642,10 @@
 
 
 
+
+
+
+
 <section>
 <h3>Přehled XML struktury</h3>
 <p>
@@ -47366,9 +47705,12 @@
           Obsahem elementu je typ <a href="#type-ccmm:documentation"><code>ccmm:documentation</code></a>.
       </dd>
 
+    
 
     
 
+
+    
 
     
   </div>
@@ -47387,6 +47729,8 @@
       </dd>
 
 
+    
+
         <dt>Obsah 
  - elementy v tomto pořadí
 </dt>
@@ -47400,6 +47744,8 @@
   </ul>
 
 
+
+    
   </dl>
 </section>
 <section id="element-ccmm:documentation-ccmm:iri">
@@ -47423,9 +47769,12 @@
           Obsahem elementu je typ <a href="http://www.w3.org/2001/XMLSchemaanyURI"><code>xs:anyURI</code></a>.
       </dd>
 
+    
 
     
 
+
+    
 
     
   </div>
@@ -47464,9 +47813,12 @@
           Obsahem elementu je typ <a href=""><code></code></a>.
       </dd>
 
+    
 
     
 
+
+    
 
     
   </div>
@@ -48201,6 +48553,10 @@
 
 
 
+
+
+
+
 <section>
 <h3>Přehled XML struktury</h3>
 <p>
@@ -48260,9 +48616,12 @@
           Obsahem elementu je typ <a href="#type-ccmm:address"><code>ccmm:address</code></a>.
       </dd>
 
+    
 
     
 
+
+    
 
     
   </div>
@@ -48280,6 +48639,8 @@
         (A spatial object that in a human-readable way identifies a fixed location. )
       </dd>
 
+
+    
 
         <dt>Obsah 
  - elementy v tomto pořadí
@@ -48324,6 +48685,8 @@
   </ul>
 
 
+
+    
   </dl>
 </section>
 <section id="element-ccmm:address-ccmm:iri">
@@ -48347,9 +48710,12 @@
           Obsahem elementu je typ <a href="http://www.w3.org/2001/XMLSchemaanyURI"><code>xs:anyURI</code></a>.
       </dd>
 
+    
 
     
 
+
+    
 
     
   </div>
@@ -48388,9 +48754,12 @@
           Obsahem elementu je typ <a href=""><code></code></a>.
       </dd>
 
+    
 
     
 
+
+    
 
     
   </div>
@@ -48429,9 +48798,12 @@
           Obsahem elementu je typ <a href="http://www.w3.org/2001/XMLSchemastring"><code>xs:string</code></a>.
       </dd>
 
+    
 
     
 
+
+    
 
     
   </div>
@@ -48470,9 +48842,12 @@
           Obsahem elementu je typ <a href="http://www.w3.org/2001/XMLSchemastring"><code>xs:string</code></a>.
       </dd>
 
+    
 
     
 
+
+    
 
     
   </div>
@@ -48511,9 +48886,12 @@
           Obsahem elementu je typ <a href="http://www.w3.org/2001/XMLSchemastring"><code>xs:string</code></a>.
       </dd>
 
+    
 
     
 
+
+    
 
     
   </div>
@@ -48552,9 +48930,12 @@
           Obsahem elementu je typ <a href="http://www.w3.org/2001/XMLSchemastring"><code>xs:string</code></a>.
       </dd>
 
+    
 
     
 
+
+    
 
     
   </div>
@@ -48593,9 +48974,12 @@
           Obsahem elementu je typ <a href="http://www.w3.org/2001/XMLSchemastring"><code>xs:string</code></a>.
       </dd>
 
+    
 
     
 
+
+    
 
     
   </div>
@@ -48634,9 +49018,12 @@
           Obsahem elementu je typ <a href="http://www.w3.org/2001/XMLSchemastring"><code>xs:string</code></a>.
       </dd>
 
+    
 
     
 
+
+    
 
     
   </div>
@@ -48675,9 +49062,12 @@
           Obsahem elementu je typ <a href="http://www.w3.org/2001/XMLSchemastring"><code>xs:string</code></a>.
       </dd>
 
+    
 
     
 
+
+    
 
     
   </div>
@@ -48716,9 +49106,12 @@
           Obsahem elementu je typ <a href="http://www.w3.org/2001/XMLSchemastring"><code>xs:string</code></a>.
       </dd>
 
+    
 
     
 
+
+    
 
     
   </div>
@@ -48757,9 +49150,12 @@
           Obsahem elementu je typ <a href="http://www.w3.org/2001/XMLSchemastring"><code>xs:string</code></a>.
       </dd>
 
+    
 
     
 
+
+    
 
     
   </div>
@@ -48798,9 +49194,12 @@
           Obsahem elementu je typ <a href="http://www.w3.org/2001/XMLSchemastring"><code>xs:string</code></a>.
       </dd>
 
+    
 
     
 
+
+    
 
     
   </div>
@@ -49078,6 +49477,10 @@
 
 
 
+
+
+
+
 <section>
 <h3>Přehled XML struktury</h3>
 <p>
@@ -49137,9 +49540,12 @@
           Obsahem elementu je typ <a href="#type-ccmm:description_type"><code>ccmm:description_type</code></a>.
       </dd>
 
+    
 
     
 
+
+    
 
     
   </div>
@@ -49158,6 +49564,8 @@
       </dd>
 
 
+    
+
         <dt>Obsah 
  - elementy v tomto pořadí
 </dt>
@@ -49171,6 +49579,8 @@
   </ul>
 
 
+
+    
   </dl>
 </section>
 <section id="element-ccmm:description_type-ccmm:iri">
@@ -49194,9 +49604,12 @@
           Obsahem elementu je typ <a href="http://www.w3.org/2001/XMLSchemaanyURI"><code>xs:anyURI</code></a>.
       </dd>
 
+    
 
     
 
+
+    
 
     
   </div>
@@ -49235,9 +49648,12 @@
           Obsahem elementu je typ <a href=""><code></code></a>.
       </dd>
 
+    
 
     
 
+
+    
 
     
   </div>
@@ -49515,6 +49931,10 @@
 
 
 
+
+
+
+
 <section>
 <h3>Přehled XML struktury</h3>
 <p>
@@ -49574,9 +49994,12 @@
           Obsahem elementu je typ <a href="#type-ccmm:alternate_title_type"><code>ccmm:alternate_title_type</code></a>.
       </dd>
 
+    
 
     
 
+
+    
 
     
   </div>
@@ -49595,6 +50018,8 @@
       </dd>
 
 
+    
+
         <dt>Obsah 
  - elementy v tomto pořadí
 </dt>
@@ -49608,6 +50033,8 @@
   </ul>
 
 
+
+    
   </dl>
 </section>
 <section id="element-ccmm:alternate_title_type-ccmm:iri">
@@ -49631,9 +50058,12 @@
           Obsahem elementu je typ <a href="http://www.w3.org/2001/XMLSchemaanyURI"><code>xs:anyURI</code></a>.
       </dd>
 
+    
 
     
 
+
+    
 
     
   </div>
@@ -49672,9 +50102,12 @@
           Obsahem elementu je typ <a href=""><code></code></a>.
       </dd>
 
+    
 
     
 
+
+    
 
     
   </div>
@@ -49952,6 +50385,10 @@
 
 
 
+
+
+
+
 <section>
 <h3>Přehled XML struktury</h3>
 <p>
@@ -50011,9 +50448,12 @@
           Obsahem elementu je typ <a href="#type-ccmm:relation_type"><code>ccmm:relation_type</code></a>.
       </dd>
 
+    
 
     
 
+
+    
 
     
   </div>
@@ -50032,6 +50472,8 @@
       </dd>
 
 
+    
+
         <dt>Obsah 
  - elementy v tomto pořadí
 </dt>
@@ -50045,6 +50487,8 @@
   </ul>
 
 
+
+    
   </dl>
 </section>
 <section id="element-ccmm:relation_type-ccmm:iri">
@@ -50068,9 +50512,12 @@
           Obsahem elementu je typ <a href="http://www.w3.org/2001/XMLSchemaanyURI"><code>xs:anyURI</code></a>.
       </dd>
 
+    
 
     
 
+
+    
 
     
   </div>
@@ -50109,9 +50556,12 @@
           Obsahem elementu je typ <a href=""><code></code></a>.
       </dd>
 
+    
 
     
 
+
+    
 
     
   </div>
@@ -50406,6 +50856,10 @@
 
 
 
+
+
+
+
 <section>
 <h3>Přehled XML struktury</h3>
 <p>
@@ -50465,9 +50919,12 @@
           Obsahem elementu je typ <a href="#type-ccmm:licence_document"><code>ccmm:licence_document</code></a>.
       </dd>
 
+    
 
     
 
+
+    
 
     
   </div>
@@ -50486,6 +50943,8 @@
       </dd>
 
 
+    
+
         <dt>Obsah 
  - elementy v tomto pořadí
 </dt>
@@ -50499,6 +50958,8 @@
   </ul>
 
 
+
+    
   </dl>
 </section>
 <section id="element-ccmm:licence_document-ccmm:iri">
@@ -50522,9 +50983,12 @@
           Obsahem elementu je typ <a href="http://www.w3.org/2001/XMLSchemaanyURI"><code>xs:anyURI</code></a>.
       </dd>
 
+    
 
     
 
+
+    
 
     
   </div>
@@ -50563,9 +51027,12 @@
           Obsahem elementu je typ <a href=""><code></code></a>.
       </dd>
 
+    
 
     
 
+
+    
 
     
   </div>
@@ -50843,6 +51310,10 @@
 
 
 
+
+
+
+
 <section>
 <h3>Přehled XML struktury</h3>
 <p>
@@ -50902,9 +51373,12 @@
           Obsahem elementu je typ <a href="#type-ccmm:date_type"><code>ccmm:date_type</code></a>.
       </dd>
 
+    
 
     
 
+
+    
 
     
   </div>
@@ -50923,6 +51397,8 @@
       </dd>
 
 
+    
+
         <dt>Obsah 
  - elementy v tomto pořadí
 </dt>
@@ -50936,6 +51412,8 @@
   </ul>
 
 
+
+    
   </dl>
 </section>
 <section id="element-ccmm:date_type-ccmm:iri">
@@ -50959,9 +51437,12 @@
           Obsahem elementu je typ <a href="http://www.w3.org/2001/XMLSchemaanyURI"><code>xs:anyURI</code></a>.
       </dd>
 
+    
 
     
 
+
+    
 
     
   </div>
@@ -51000,9 +51481,12 @@
           Obsahem elementu je typ <a href=""><code></code></a>.
       </dd>
 
+    
 
     
 
+
+    
 
     
   </div>
@@ -51077,6 +51561,10 @@
 
 
 
+
+
+
+
 <section>
 <h3>Přehled XML struktury</h3>
 <p>
@@ -51119,9 +51607,12 @@
           Obsahem elementu je typ <a href="#type-ccmm:ro-crate_json_representation"><code>ccmm:ro-crate_json_representation</code></a>.
       </dd>
 
+    
 
     
 
+
+    
 
     
   </div>
@@ -51140,6 +51631,8 @@
       </dd>
 
 
+    
+
         <dt>Obsah 
  - elementy v tomto pořadí
 </dt>
@@ -51150,6 +51643,8 @@
   </ul>
 
 
+
+    
   </dl>
 </section>
 <section id="element-ccmm:ro-crate_json_representation-ccmm:iri">
@@ -51173,9 +51668,12 @@
           Obsahem elementu je typ <a href="http://www.w3.org/2001/XMLSchemaanyURI"><code>xs:anyURI</code></a>.
       </dd>
 
+    
 
     
 
+
+    
 
     
   </div>
@@ -51469,6 +51967,10 @@
 
 
 
+
+
+
+
 <section>
 <h3>Přehled XML struktury</h3>
 <p>
@@ -51511,9 +52013,12 @@
           Obsahem elementu je typ <a href="#type-ccmm:time_instant"><code>ccmm:time_instant</code></a>.
       </dd>
 
+    
 
     
 
+
+    
 
     
   </div>
@@ -51531,6 +52036,8 @@
         (A temporal entity with zero extent or duration.)
       </dd>
 
+
+    
 
         <dt>Obsah 
  - elementy v tomto pořadí
@@ -51556,6 +52063,8 @@
   </ul>
 
 
+
+    
   </dl>
 </section>
 <section id="element-ccmm:time_instant-ccmm:iri">
@@ -51579,9 +52088,12 @@
           Obsahem elementu je typ <a href="http://www.w3.org/2001/XMLSchemaanyURI"><code>xs:anyURI</code></a>.
       </dd>
 
+    
 
     
 
+
+    
 
     
   </div>
@@ -51610,9 +52122,12 @@
           Obsahem elementu je typ <a href="http://www.w3.org/2001/XMLSchemadateTime"><code>xs:dateTime</code></a>.
       </dd>
 
+    
 
     
 
+
+    
 
     
   </div>
@@ -51641,9 +52156,12 @@
           Obsahem elementu je typ <a href="http://www.w3.org/2001/XMLSchemadate"><code>xs:date</code></a>.
       </dd>
 
+    
 
     
 
+
+    
 
     
   </div>
@@ -55533,6 +56051,10 @@
 
 
 
+
+
+
+
 <section>
 <h3>Přehled XML struktury</h3>
 <p>
@@ -55598,9 +56120,12 @@
           Obsahem elementu je typ <a href="#type-ccmm:agent"><code>ccmm:agent</code></a>.
       </dd>
 
+    
 
     
 
+
+    
 
     
   </div>
@@ -55612,6 +56137,8 @@
 <section id="type-ccmm:agent">
   <h4>Kořenový komplexní typ <code>agent</code></h4>
   <dl>
+    
+
     
 
         <dt>Obsah  - výběr jednoho elementu z množiny
@@ -55627,6 +56154,8 @@
   </ul>
 
 
+
+    
   </dl>
 </section>
 <section id="element-ccmm:agent-ccmm:organization">
@@ -55650,6 +56179,7 @@
           Obsahem elementu je typ <a href="#type-ccmm:organization"><code>ccmm:organization</code></a>.
       </dd>
 
+    
 
         <dt>Význam</dt>
       <dd>
@@ -55658,6 +56188,8 @@
       </dd>
 
 
+
+    
 
     
   </div>
@@ -55686,6 +56218,7 @@
           Obsahem elementu je typ <a href="#type-ccmm:person"><code>ccmm:person</code></a>.
       </dd>
 
+    
 
         <dt>Význam</dt>
       <dd>
@@ -55694,6 +56227,8 @@
       </dd>
 
 
+
+    
 
     
   </div>
@@ -55971,6 +56506,10 @@
 
 
 
+
+
+
+
 <section>
 <h3>Přehled XML struktury</h3>
 <p>
@@ -56030,9 +56569,12 @@
           Obsahem elementu je typ <a href="#type-ccmm:format"><code>ccmm:format</code></a>.
       </dd>
 
+    
 
     
 
+
+    
 
     
   </div>
@@ -56051,6 +56593,8 @@
       </dd>
 
 
+    
+
         <dt>Obsah 
  - elementy v tomto pořadí
 </dt>
@@ -56064,6 +56608,8 @@
   </ul>
 
 
+
+    
   </dl>
 </section>
 <section id="element-ccmm:format-ccmm:iri">
@@ -56087,9 +56633,12 @@
           Obsahem elementu je typ <a href="http://www.w3.org/2001/XMLSchemaanyURI"><code>xs:anyURI</code></a>.
       </dd>
 
+    
 
     
 
+
+    
 
     
   </div>
@@ -56128,9 +56677,12 @@
           Obsahem elementu je typ <a href=""><code></code></a>.
       </dd>
 
+    
 
     
 
+
+    
 
     
   </div>
@@ -56611,6 +57163,10 @@
 
 
 
+
+
+
+
 <section>
 <h3>Přehled XML struktury</h3>
 <p>
@@ -56670,9 +57226,12 @@
           Obsahem elementu je typ <a href="#type-ccmm:time_interval"><code>ccmm:time_interval</code></a>.
       </dd>
 
+    
 
     
 
+
+    
 
     
   </div>
@@ -56691,6 +57250,8 @@
       </dd>
 
 
+    
+
         <dt>Obsah 
  - elementy v tomto pořadí
 </dt>
@@ -56707,6 +57268,8 @@
   </ul>
 
 
+
+    
   </dl>
 </section>
 <section id="element-ccmm:time_interval-ccmm:iri">
@@ -56730,9 +57293,12 @@
           Obsahem elementu je typ <a href="http://www.w3.org/2001/XMLSchemaanyURI"><code>xs:anyURI</code></a>.
       </dd>
 
+    
 
     
 
+
+    
 
     
   </div>
@@ -56771,6 +57337,7 @@
           Obsahem elementu je typ <a href="#type-ccmm:time_instant"><code>ccmm:time_instant</code></a>.
       </dd>
 
+    
 
         <dt>Význam</dt>
       <dd>
@@ -56779,6 +57346,8 @@
       </dd>
 
 
+
+    
 
     
   </div>
@@ -56817,6 +57386,7 @@
           Obsahem elementu je typ <a href="#type-ccmm:time_instant"><code>ccmm:time_instant</code></a>.
       </dd>
 
+    
 
         <dt>Význam</dt>
       <dd>
@@ -56825,6 +57395,8 @@
       </dd>
 
 
+
+    
 
     
   </div>
@@ -57207,6 +57779,10 @@
 
 
 
+
+
+
+
 <section>
 <h3>Přehled XML struktury</h3>
 <p>
@@ -57266,9 +57842,12 @@
           Obsahem elementu je typ <a href="#type-ccmm:provenance_activity"><code>ccmm:provenance_activity</code></a>.
       </dd>
 
+    
 
     
 
+
+    
 
     
   </div>
@@ -57287,6 +57866,8 @@
       </dd>
 
 
+    
+
         <dt>Obsah 
  - elementy v tomto pořadí
 </dt>
@@ -57300,6 +57881,8 @@
   </ul>
 
 
+
+    
   </dl>
 </section>
 <section id="element-ccmm:provenance_activity-ccmm:iri">
@@ -57323,9 +57906,12 @@
           Obsahem elementu je typ <a href="http://www.w3.org/2001/XMLSchemaanyURI"><code>xs:anyURI</code></a>.
       </dd>
 
+    
 
     
 
+
+    
 
     
   </div>
@@ -57364,9 +57950,12 @@
           Obsahem elementu je typ <a href=""><code></code></a>.
       </dd>
 
+    
 
     
 
+
+    
 
     
   </div>
@@ -98286,6 +98875,10 @@
 
 
 
+
+
+
+
 <section>
 <h3>Přehled XML struktury</h3>
 <p>
@@ -98441,9 +99034,12 @@
           Obsahem elementu je typ <a href="#type-ccmm:dataset"><code>ccmm:dataset</code></a>.
       </dd>
 
+    
 
     
 
+
+    
 
     
   </div>
@@ -98461,6 +99057,8 @@
         (Konceptuální entita představující publikovaná data.)
       </dd>
 
+
+    
 
         <dt>Obsah 
  - elementy v tomto pořadí
@@ -98535,6 +99133,8 @@
   </ul>
 
 
+
+    
   </dl>
 </section>
 <section id="element-ccmm:dataset-ccmm:iri">
@@ -98558,9 +99158,12 @@
           Obsahem elementu je typ <a href="http://www.w3.org/2001/XMLSchemaanyURI"><code>xs:anyURI</code></a>.
       </dd>
 
+    
 
     
 
+
+    
 
     
   </div>
@@ -98599,6 +99202,7 @@
           Obsahem elementu je typ <a href="#type-ccmm:metadata_record"><code>ccmm:metadata_record</code></a>.
       </dd>
 
+    
 
         <dt>Význam</dt>
       <dd>
@@ -98607,6 +99211,8 @@
       </dd>
 
 
+
+    
 
     
   </div>
@@ -98645,6 +99251,7 @@
           Obsahem elementu je typ <a href="#type-ccmm:identifier"><code>ccmm:identifier</code></a>.
       </dd>
 
+    
 
         <dt>Význam</dt>
       <dd>
@@ -98653,6 +99260,8 @@
       </dd>
 
 
+
+    
 
     
   </div>
@@ -98691,9 +99300,12 @@
           Obsahem elementu je typ <a href="http://www.w3.org/2001/XMLSchemastring"><code>xs:string</code></a>.
       </dd>
 
+    
 
     
 
+
+    
 
     
   </div>
@@ -98732,9 +99344,12 @@
           Obsahem elementu je typ <a href="http://www.w3.org/2001/XMLSchemastring"><code>xs:string</code></a>.
       </dd>
 
+    
 
     
 
+
+    
 
     
   </div>
@@ -98784,6 +99399,7 @@
           Obsahem elementu je typ <a href="#type-ccmm:alternate_title"><code>ccmm:alternate_title</code></a>.
       </dd>
 
+    
 
         <dt>Význam</dt>
       <dd>
@@ -98792,6 +99408,8 @@
       </dd>
 
 
+
+    
 
     
   </div>
@@ -98841,6 +99459,7 @@
           Obsahem elementu je typ <a href="#type-ccmm:resource_attribution"><code>ccmm:resource_attribution</code></a>.
       </dd>
 
+    
 
         <dt>Význam</dt>
       <dd>
@@ -98849,6 +99468,8 @@
       </dd>
 
 
+
+    
 
     
   </div>
@@ -98887,9 +99508,12 @@
           Obsahem elementu je typ <a href="http://www.w3.org/2001/XMLSchemagYear"><code>xs:gYear</code></a>.
       </dd>
 
+    
 
     
 
+
+    
 
     
   </div>
@@ -98928,6 +99552,7 @@
           Obsahem elementu je typ <a href="#type-ccmm:time_reference"><code>ccmm:time_reference</code></a>.
       </dd>
 
+    
 
         <dt>Význam</dt>
       <dd>
@@ -98936,6 +99561,8 @@
       </dd>
 
 
+
+    
 
     
   </div>
@@ -98985,6 +99612,7 @@
           Obsahem elementu je typ <a href="#type-ccmm:resource_type"><code>ccmm:resource_type</code></a>.
       </dd>
 
+    
 
         <dt>Význam</dt>
       <dd>
@@ -98993,6 +99621,8 @@
       </dd>
 
 
+
+    
 
     
   </div>
@@ -99031,6 +99661,7 @@
           Obsahem elementu je typ <a href="#type-ccmm:language_system"><code>ccmm:language_system</code></a>.
       </dd>
 
+    
 
         <dt>Význam</dt>
       <dd>
@@ -99039,6 +99670,8 @@
       </dd>
 
 
+
+    
 
     
   </div>
@@ -99077,6 +99710,7 @@
           Obsahem elementu je typ <a href="#type-ccmm:language_system"><code>ccmm:language_system</code></a>.
       </dd>
 
+    
 
         <dt>Význam</dt>
       <dd>
@@ -99085,6 +99719,8 @@
       </dd>
 
 
+
+    
 
     
   </div>
@@ -99123,6 +99759,7 @@
           Obsahem elementu je typ <a href="#type-ccmm:access_rights"><code>ccmm:access_rights</code></a>.
       </dd>
 
+    
 
         <dt>Význam</dt>
       <dd>
@@ -99131,6 +99768,8 @@
       </dd>
 
 
+
+    
 
     
   </div>
@@ -99169,6 +99808,7 @@
           Obsahem elementu je typ <a href="#type-ccmm:subject"><code>ccmm:subject</code></a>.
       </dd>
 
+    
 
         <dt>Význam</dt>
       <dd>
@@ -99177,6 +99817,8 @@
       </dd>
 
 
+
+    
 
     
   </div>
@@ -99215,9 +99857,12 @@
           Obsahem elementu je typ <a href=""><code></code></a>.
       </dd>
 
+    
 
     
 
+
+    
 
     
   </div>
@@ -99256,6 +99901,7 @@
           Obsahem elementu je typ <a href="#type-ccmm:description"><code>ccmm:description</code></a>.
       </dd>
 
+    
 
         <dt>Význam</dt>
       <dd>
@@ -99264,6 +99910,8 @@
       </dd>
 
 
+
+    
 
     
   </div>
@@ -99313,6 +99961,7 @@
           Obsahem elementu je typ <a href="#type-ccmm:location"><code>ccmm:location</code></a>.
       </dd>
 
+    
 
         <dt>Význam</dt>
       <dd>
@@ -99321,6 +99970,8 @@
       </dd>
 
 
+
+    
 
     
   </div>
@@ -99359,6 +100010,7 @@
           Obsahem elementu je typ <a href="#type-ccmm:funding_reference"><code>ccmm:funding_reference</code></a>.
       </dd>
 
+    
 
         <dt>Význam</dt>
       <dd>
@@ -99367,6 +100019,8 @@
       </dd>
 
 
+
+    
 
     
   </div>
@@ -99405,6 +100059,7 @@
           Obsahem elementu je typ <a href="#type-ccmm:related_resource"><code>ccmm:related_resource</code></a>.
       </dd>
 
+    
 
         <dt>Význam</dt>
       <dd>
@@ -99413,6 +100068,8 @@
       </dd>
 
 
+
+    
 
     
   </div>
@@ -99451,9 +100108,12 @@
           Obsahem elementu je typ <a href="#type-ccmm:distribution"><code>ccmm:distribution</code></a>.
       </dd>
 
+    
 
     
 
+
+    
 
     
   </div>
@@ -99492,6 +100152,7 @@
           Obsahem elementu je typ <a href="#type-ccmm:validation_result"><code>ccmm:validation_result</code></a>.
       </dd>
 
+    
 
         <dt>Význam</dt>
       <dd>
@@ -99500,6 +100161,8 @@
       </dd>
 
 
+
+    
 
     
   </div>
@@ -99538,6 +100201,7 @@
           Obsahem elementu je typ <a href="#type-ccmm:provenance_activity"><code>ccmm:provenance_activity</code></a>.
       </dd>
 
+    
 
         <dt>Význam</dt>
       <dd>
@@ -99546,6 +100210,8 @@
       </dd>
 
 
+
+    
 
     
   </div>
@@ -99840,6 +100506,10 @@
 
 
 
+
+
+
+
 <section>
 <h3>Přehled XML struktury</h3>
 <p>
@@ -99899,9 +100569,12 @@
           Obsahem elementu je typ <a href="#type-ccmm:checksum_algorithm"><code>ccmm:checksum_algorithm</code></a>.
       </dd>
 
+    
 
     
 
+
+    
 
     
   </div>
@@ -99920,6 +100593,8 @@
       </dd>
 
 
+    
+
         <dt>Obsah 
  - elementy v tomto pořadí
 </dt>
@@ -99933,6 +100608,8 @@
   </ul>
 
 
+
+    
   </dl>
 </section>
 <section id="element-ccmm:checksum_algorithm-ccmm:iri">
@@ -99956,9 +100633,12 @@
           Obsahem elementu je typ <a href="http://www.w3.org/2001/XMLSchemaanyURI"><code>xs:anyURI</code></a>.
       </dd>
 
+    
 
     
 
+
+    
 
     
   </div>
@@ -99997,9 +100677,12 @@
           Obsahem elementu je typ <a href=""><code></code></a>.
       </dd>
 
+    
 
     
 
+
+    
 
     
   </div>
@@ -100277,6 +100960,10 @@
 
 
 
+
+
+
+
 <section>
 <h3>Přehled XML struktury</h3>
 <p>
@@ -100336,9 +101023,12 @@
           Obsahem elementu je typ <a href="#type-ccmm:language_system"><code>ccmm:language_system</code></a>.
       </dd>
 
+    
 
     
 
+
+    
 
     
   </div>
@@ -100357,6 +101047,8 @@
       </dd>
 
 
+    
+
         <dt>Obsah 
  - elementy v tomto pořadí
 </dt>
@@ -100370,6 +101062,8 @@
   </ul>
 
 
+
+    
   </dl>
 </section>
 <section id="element-ccmm:language_system-ccmm:iri">
@@ -100393,9 +101087,12 @@
           Obsahem elementu je typ <a href="http://www.w3.org/2001/XMLSchemaanyURI"><code>xs:anyURI</code></a>.
       </dd>
 
+    
 
     
 
+
+    
 
     
   </div>
@@ -100434,9 +101131,12 @@
           Obsahem elementu je typ <a href=""><code></code></a>.
       </dd>
 
+    
 
     
 
+
+    
 
     
   </div>
@@ -101368,6 +102068,10 @@
 
 
 
+
+
+
+
 <section>
 <h3>Přehled XML struktury</h3>
 <p>
@@ -101427,9 +102131,12 @@
           Obsahem elementu je typ <a href="#type-ccmm:contact_details"><code>ccmm:contact_details</code></a>.
       </dd>
 
+    
 
     
 
+
+    
 
     
   </div>
@@ -101447,6 +102154,8 @@
         (Contact details such as telephone, e-mail address etc.)
       </dd>
 
+
+    
 
         <dt>Obsah 
  - elementy v tomto pořadí
@@ -101470,6 +102179,8 @@
   </ul>
 
 
+
+    
   </dl>
 </section>
 <section id="element-ccmm:contact_details-ccmm:iri">
@@ -101493,9 +102204,12 @@
           Obsahem elementu je typ <a href="http://www.w3.org/2001/XMLSchemaanyURI"><code>xs:anyURI</code></a>.
       </dd>
 
+    
 
     
 
+
+    
 
     
   </div>
@@ -101534,9 +102248,12 @@
           Obsahem elementu je typ <a href="http://www.w3.org/2001/XMLSchemastring"><code>xs:string</code></a>.
       </dd>
 
+    
 
     
 
+
+    
 
     
   </div>
@@ -101575,9 +102292,12 @@
           Obsahem elementu je typ <a href="http://www.w3.org/2001/XMLSchemastring"><code>xs:string</code></a>.
       </dd>
 
+    
 
     
 
+
+    
 
     
   </div>
@@ -101616,9 +102336,12 @@
           Obsahem elementu je typ <a href="http://www.w3.org/2001/XMLSchemastring"><code>xs:string</code></a>.
       </dd>
 
+    
 
     
 
+
+    
 
     
   </div>
@@ -101657,6 +102380,7 @@
           Obsahem elementu je typ <a href="#type-ccmm:address"><code>ccmm:address</code></a>.
       </dd>
 
+    
 
         <dt>Význam</dt>
       <dd>
@@ -101665,6 +102389,8 @@
       </dd>
 
 
+
+    
 
     
   </div>
@@ -102555,6 +103281,10 @@
 
 
 
+
+
+
+
 <section>
 <h3>Přehled XML struktury</h3>
 <p>
@@ -102626,9 +103356,12 @@
           Obsahem elementu je typ <a href="#type-ccmm:time_reference"><code>ccmm:time_reference</code></a>.
       </dd>
 
+    
 
     
 
+
+    
 
     
   </div>
@@ -102646,6 +103379,8 @@
         (An object representing time reference relevant to some event related to the resource has happened.)
       </dd>
 
+
+    
 
         <dt>Obsah 
  - elementy v tomto pořadí
@@ -102666,6 +103401,8 @@
   </ul>
 
 
+
+    
   </dl>
 </section>
 <section id="element-ccmm:time_reference-ccmm:iri">
@@ -102689,9 +103426,12 @@
           Obsahem elementu je typ <a href="http://www.w3.org/2001/XMLSchemaanyURI"><code>xs:anyURI</code></a>.
       </dd>
 
+    
 
     
 
+
+    
 
     
   </div>
@@ -102730,9 +103470,12 @@
           Obsahem elementu je typ <a href="#type-ccmm:time_representation"><code>ccmm:time_representation</code></a>.
       </dd>
 
+    
 
     
 
+
+    
 
     
   </div>
@@ -102771,6 +103514,7 @@
           Obsahem elementu je typ <a href="#type-ccmm:date_type"><code>ccmm:date_type</code></a>.
       </dd>
 
+    
 
         <dt>Význam</dt>
       <dd>
@@ -102779,6 +103523,8 @@
       </dd>
 
 
+
+    
 
     
   </div>
@@ -102817,9 +103563,12 @@
           Obsahem elementu je typ <a href=""><code></code></a>.
       </dd>
 
+    
 
     
 
+
+    
 
     
   </div>
@@ -111881,6 +112630,10 @@
 
 
 
+
+
+
+
 <section>
 <h3>Přehled XML struktury</h3>
 <p>
@@ -111964,9 +112717,12 @@
           Obsahem elementu je typ <a href="#type-ccmm:metadata_record"><code>ccmm:metadata_record</code></a>.
       </dd>
 
+    
 
     
 
+
+    
 
     
   </div>
@@ -111984,6 +112740,8 @@
         (Záznam v datovém katalogu popisující jednu datovou sadu či datovou službu.)
       </dd>
 
+
+    
 
         <dt>Obsah 
  - elementy v tomto pořadí
@@ -112016,6 +112774,8 @@
   </ul>
 
 
+
+    
   </dl>
 </section>
 <section id="element-ccmm:metadata_record-ccmm:iri">
@@ -112039,9 +112799,12 @@
           Obsahem elementu je typ <a href="http://www.w3.org/2001/XMLSchemaanyURI"><code>xs:anyURI</code></a>.
       </dd>
 
+    
 
     
 
+
+    
 
     
   </div>
@@ -112080,9 +112843,12 @@
           Obsahem elementu je typ <a href=""><code></code></a>.
       </dd>
 
+    
 
     
 
+
+    
 
     
   </div>
@@ -112121,6 +112887,7 @@
           Obsahem elementu je typ <a href="#type-ccmm:language_system"><code>ccmm:language_system</code></a>.
       </dd>
 
+    
 
         <dt>Význam</dt>
       <dd>
@@ -112129,6 +112896,8 @@
       </dd>
 
 
+
+    
 
     
   </div>
@@ -112167,6 +112936,7 @@
           Obsahem elementu je typ <a href="#type-ccmm:resource_attribution"><code>ccmm:resource_attribution</code></a>.
       </dd>
 
+    
 
         <dt>Význam</dt>
       <dd>
@@ -112175,6 +112945,8 @@
       </dd>
 
 
+
+    
 
     
   </div>
@@ -112213,9 +112985,12 @@
           Obsahem elementu je typ <a href="http://www.w3.org/2001/XMLSchemadate"><code>xs:date</code></a>.
       </dd>
 
+    
 
     
 
+
+    
 
     
   </div>
@@ -112254,9 +113029,12 @@
           Obsahem elementu je typ <a href="http://www.w3.org/2001/XMLSchemadate"><code>xs:date</code></a>.
       </dd>
 
+    
 
     
 
+
+    
 
     
   </div>
@@ -112295,6 +113073,7 @@
           Obsahem elementu je typ <a href="#type-ccmm:application_profile"><code>ccmm:application_profile</code></a>.
       </dd>
 
+    
 
         <dt>Význam</dt>
       <dd>
@@ -112303,6 +113082,8 @@
       </dd>
 
 
+
+    
 
     
   </div>
@@ -112341,6 +113122,7 @@
           Obsahem elementu je typ <a href="#type-ccmm:repository"><code>ccmm:repository</code></a>.
       </dd>
 
+    
 
         <dt>Význam</dt>
       <dd>
@@ -112349,6 +113131,8 @@
       </dd>
 
 
+
+    
 
     
   </div>
@@ -112782,6 +113566,10 @@
 
 
 
+
+
+
+
 <section>
 <h3>Přehled XML struktury</h3>
 <p>
@@ -112841,9 +113629,12 @@
           Obsahem elementu je typ <a href="#type-ccmm:identifier"><code>ccmm:identifier</code></a>.
       </dd>
 
+    
 
     
 
+
+    
 
     
   </div>
@@ -112861,6 +113652,8 @@
         (Unique and resolvable identifier containing the notation and identifier scheme in the form of URI.)
       </dd>
 
+
+    
 
         <dt>Obsah 
  - elementy v tomto pořadí
@@ -112881,6 +113674,8 @@
   </ul>
 
 
+
+    
   </dl>
 </section>
 <section id="element-ccmm:identifier-ccmm:iri">
@@ -112904,9 +113699,12 @@
           Obsahem elementu je typ <a href="http://www.w3.org/2001/XMLSchemaanyURI"><code>xs:anyURI</code></a>.
       </dd>
 
+    
 
     
 
+
+    
 
     
   </div>
@@ -112945,9 +113743,12 @@
           Obsahem elementu je typ <a href="http://www.w3.org/2001/XMLSchemastring"><code>xs:string</code></a>.
       </dd>
 
+    
 
     
 
+
+    
 
     
   </div>
@@ -112986,6 +113787,7 @@
           Obsahem elementu je typ <a href="#type-ccmm:identifier_scheme"><code>ccmm:identifier_scheme</code></a>.
       </dd>
 
+    
 
         <dt>Význam</dt>
       <dd>
@@ -112994,6 +113796,8 @@
       </dd>
 
 
+
+    
 
     
   </div>
@@ -113032,9 +113836,12 @@
           Obsahem elementu je typ <a href="http://www.w3.org/2001/XMLSchemaboolean"><code>xs:boolean</code></a>.
       </dd>
 
+    
 
     
 
+
+    
 
     
   </div>
@@ -113329,6 +114136,10 @@
 
 
 
+
+
+
+
 <section>
 <h3>Přehled XML struktury</h3>
 <p>
@@ -113388,9 +114199,12 @@
           Obsahem elementu je typ <a href="#type-ccmm:validation_result"><code>ccmm:validation_result</code></a>.
       </dd>
 
+    
 
     
 
+
+    
 
     
   </div>
@@ -113409,6 +114223,8 @@
       </dd>
 
 
+    
+
         <dt>Obsah 
  - elementy v tomto pořadí
 </dt>
@@ -113422,6 +114238,8 @@
   </ul>
 
 
+
+    
   </dl>
 </section>
 <section id="element-ccmm:validation_result-ccmm:iri">
@@ -113445,9 +114263,12 @@
           Obsahem elementu je typ <a href="http://www.w3.org/2001/XMLSchemaanyURI"><code>xs:anyURI</code></a>.
       </dd>
 
+    
 
     
 
+
+    
 
     
   </div>
@@ -113486,9 +114307,12 @@
           Obsahem elementu je typ <a href=""><code></code></a>.
       </dd>
 
+    
 
     
 
+
+    
 
     
   </div>
@@ -113767,6 +114591,10 @@
 
 
 
+
+
+
+
 <section>
 <h3>Přehled XML struktury</h3>
 <p>
@@ -113826,9 +114654,12 @@
           Obsahem elementu je typ <a href="#type-ccmm:media_type"><code>ccmm:media_type</code></a>.
       </dd>
 
+    
 
     
 
+
+    
 
     
   </div>
@@ -113847,6 +114678,8 @@
       </dd>
 
 
+    
+
         <dt>Obsah 
  - elementy v tomto pořadí
 </dt>
@@ -113860,6 +114693,8 @@
   </ul>
 
 
+
+    
   </dl>
 </section>
 <section id="element-ccmm:media_type-ccmm:iri">
@@ -113883,9 +114718,12 @@
           Obsahem elementu je typ <a href="http://www.w3.org/2001/XMLSchemaanyURI"><code>xs:anyURI</code></a>.
       </dd>
 
+    
 
     
 
+
+    
 
     
   </div>
@@ -113924,9 +114762,12 @@
           Obsahem elementu je typ <a href=""><code></code></a>.
       </dd>
 
+    
 
     
 
+
+    
 
     
   </div>
@@ -114204,6 +115045,10 @@
 
 
 
+
+
+
+
 <section>
 <h3>Přehled XML struktury</h3>
 <p>
@@ -114263,9 +115108,12 @@
           Obsahem elementu je typ <a href="#type-ccmm:resource_relation_type"><code>ccmm:resource_relation_type</code></a>.
       </dd>
 
+    
 
     
 
+
+    
 
     
   </div>
@@ -114284,6 +115132,8 @@
       </dd>
 
 
+    
+
         <dt>Obsah 
  - elementy v tomto pořadí
 </dt>
@@ -114297,6 +115147,8 @@
   </ul>
 
 
+
+    
   </dl>
 </section>
 <section id="element-ccmm:resource_relation_type-ccmm:iri">
@@ -114320,9 +115172,12 @@
           Obsahem elementu je typ <a href="http://www.w3.org/2001/XMLSchemaanyURI"><code>xs:anyURI</code></a>.
       </dd>
 
+    
 
     
 
+
+    
 
     
   </div>
@@ -114361,9 +115216,12 @@
           Obsahem elementu je typ <a href=""><code></code></a>.
       </dd>
 
+    
 
     
 
+
+    
 
     
   </div>
@@ -114658,6 +115516,10 @@
 
 
 
+
+
+
+
 <section>
 <h3>Přehled XML struktury</h3>
 <p>
@@ -114717,9 +115579,12 @@
           Obsahem elementu je typ <a href="#type-ccmm:subject_scheme"><code>ccmm:subject_scheme</code></a>.
       </dd>
 
+    
 
     
 
+
+    
 
     
   </div>
@@ -114738,6 +115603,8 @@
       </dd>
 
 
+    
+
         <dt>Obsah 
  - elementy v tomto pořadí
 </dt>
@@ -114751,6 +115618,8 @@
   </ul>
 
 
+
+    
   </dl>
 </section>
 <section id="element-ccmm:subject_scheme-ccmm:iri">
@@ -114774,9 +115643,12 @@
           Obsahem elementu je typ <a href="http://www.w3.org/2001/XMLSchemaanyURI"><code>xs:anyURI</code></a>.
       </dd>
 
+    
 
     
 
+
+    
 
     
   </div>
@@ -114815,9 +115687,12 @@
           Obsahem elementu je typ <a href=""><code></code></a>.
       </dd>
 
+    
 
     
 
+
+    
 
     
   </div>
@@ -123378,6 +124253,10 @@
 
 
 
+
+
+
+
 <section>
 <h3>Přehled XML struktury</h3>
 <p>
@@ -123443,9 +124322,12 @@
           Obsahem elementu je typ <a href="#type-ccmm:distribution"><code>ccmm:distribution</code></a>.
       </dd>
 
+    
 
     
 
+
+    
 
     
   </div>
@@ -123457,6 +124339,8 @@
 <section id="type-ccmm:distribution">
   <h4>Kořenový komplexní typ <code>distribution</code></h4>
   <dl>
+    
+
     
 
         <dt>Obsah  - výběr jednoho elementu z množiny
@@ -123472,6 +124356,8 @@
   </ul>
 
 
+
+    
   </dl>
 </section>
 <section id="element-ccmm:distribution-ccmm:distribution_data_service">
@@ -123495,6 +124381,7 @@
           Obsahem elementu je typ <a href="#type-ccmm:distribution_data_service"><code>ccmm:distribution_data_service</code></a>.
       </dd>
 
+    
 
         <dt>Význam</dt>
       <dd>
@@ -123503,6 +124390,8 @@
       </dd>
 
 
+
+    
 
     
   </div>
@@ -123531,6 +124420,7 @@
           Obsahem elementu je typ <a href="#type-ccmm:distribution_downloadable_file"><code>ccmm:distribution_downloadable_file</code></a>.
       </dd>
 
+    
 
         <dt>Význam</dt>
       <dd>
@@ -123539,6 +124429,8 @@
       </dd>
 
 
+
+    
 
     
   </div>
@@ -123833,6 +124725,10 @@
 
 
 
+
+
+
+
 <section>
 <h3>Přehled XML struktury</h3>
 <p>
@@ -123892,9 +124788,12 @@
           Obsahem elementu je typ <a href="#type-ccmm:application_profile"><code>ccmm:application_profile</code></a>.
       </dd>
 
+    
 
     
 
+
+    
 
     
   </div>
@@ -123913,6 +124812,8 @@
       </dd>
 
 
+    
+
         <dt>Obsah 
  - elementy v tomto pořadí
 </dt>
@@ -123926,6 +124827,8 @@
   </ul>
 
 
+
+    
   </dl>
 </section>
 <section id="element-ccmm:application_profile-ccmm:iri">
@@ -123949,9 +124852,12 @@
           Obsahem elementu je typ <a href="http://www.w3.org/2001/XMLSchemaanyURI"><code>xs:anyURI</code></a>.
       </dd>
 
+    
 
     
 
+
+    
 
     
   </div>
@@ -123990,9 +124896,12 @@
           Obsahem elementu je typ <a href=""><code></code></a>.
       </dd>
 
+    
 
     
 
+
+    
 
     
   </div>
@@ -124287,6 +125196,10 @@
 
 
 
+
+
+
+
 <section>
 <h3>Přehled XML struktury</h3>
 <p>
@@ -124346,9 +125259,12 @@
           Obsahem elementu je typ <a href="#type-ccmm:file"><code>ccmm:file</code></a>.
       </dd>
 
+    
 
     
 
+
+    
 
     
   </div>
@@ -124367,6 +125283,8 @@
       </dd>
 
 
+    
+
         <dt>Obsah 
  - elementy v tomto pořadí
 </dt>
@@ -124380,6 +125298,8 @@
   </ul>
 
 
+
+    
   </dl>
 </section>
 <section id="element-ccmm:file-ccmm:iri">
@@ -124403,9 +125323,12 @@
           Obsahem elementu je typ <a href="http://www.w3.org/2001/XMLSchemaanyURI"><code>xs:anyURI</code></a>.
       </dd>
 
+    
 
     
 
+
+    
 
     
   </div>
@@ -124444,9 +125367,12 @@
           Obsahem elementu je typ <a href=""><code></code></a>.
       </dd>
 
+    
 
     
 
+
+    
 
     
   </div>
@@ -128583,6 +129509,10 @@
 
 
 
+
+
+
+
 <section>
 <h3>Přehled XML struktury</h3>
 <p>
@@ -128642,9 +129572,12 @@
           Obsahem elementu je typ <a href="#type-ccmm:funding_reference"><code>ccmm:funding_reference</code></a>.
       </dd>
 
+    
 
     
 
+
+    
 
     
   </div>
@@ -128662,6 +129595,8 @@
         (Information about financial support (funding) for the resource being registered.)
       </dd>
 
+
+    
 
         <dt>Obsah 
  - elementy v tomto pořadí
@@ -128685,6 +129620,8 @@
   </ul>
 
 
+
+    
   </dl>
 </section>
 <section id="element-ccmm:funding_reference-ccmm:iri">
@@ -128708,9 +129645,12 @@
           Obsahem elementu je typ <a href="http://www.w3.org/2001/XMLSchemaanyURI"><code>xs:anyURI</code></a>.
       </dd>
 
+    
 
     
 
+
+    
 
     
   </div>
@@ -128749,9 +129689,12 @@
           Obsahem elementu je typ <a href="http://www.w3.org/2001/XMLSchemastring"><code>xs:string</code></a>.
       </dd>
 
+    
 
     
 
+
+    
 
     
   </div>
@@ -128790,9 +129733,12 @@
           Obsahem elementu je typ <a href="http://www.w3.org/2001/XMLSchemastring"><code>xs:string</code></a>.
       </dd>
 
+    
 
     
 
+
+    
 
     
   </div>
@@ -128831,9 +129777,12 @@
           Obsahem elementu je typ <a href="http://www.w3.org/2001/XMLSchemaanyURI"><code>xs:anyURI</code></a>.
       </dd>
 
+    
 
     
 
+
+    
 
     
   </div>
@@ -128872,9 +129821,12 @@
           Obsahem elementu je typ <a href="#type-ccmm:agent"><code>ccmm:agent</code></a>.
       </dd>
 
+    
 
     
 
+
+    
 
     
   </div>
@@ -129281,6 +130233,10 @@
 
 
 
+
+
+
+
 <section>
 <h3>Přehled XML struktury</h3>
 <p>
@@ -129346,9 +130302,12 @@
           Obsahem elementu je typ <a href="#type-ccmm:description"><code>ccmm:description</code></a>.
       </dd>
 
+    
 
     
 
+
+    
 
     
   </div>
@@ -129367,6 +130326,8 @@
       </dd>
 
 
+    
+
         <dt>Obsah 
  - elementy v tomto pořadí
 </dt>
@@ -129383,6 +130344,8 @@
   </ul>
 
 
+
+    
   </dl>
 </section>
 <section id="element-ccmm:description-ccmm:iri">
@@ -129406,9 +130369,12 @@
           Obsahem elementu je typ <a href="http://www.w3.org/2001/XMLSchemaanyURI"><code>xs:anyURI</code></a>.
       </dd>
 
+    
 
     
 
+
+    
 
     
   </div>
@@ -129447,9 +130413,12 @@
           Obsahem elementu je typ <a href=""><code></code></a>.
       </dd>
 
+    
 
     
 
+
+    
 
     
   </div>
@@ -129488,6 +130457,7 @@
           Obsahem elementu je typ <a href="#type-ccmm:description_type"><code>ccmm:description_type</code></a>.
       </dd>
 
+    
 
         <dt>Význam</dt>
       <dd>
@@ -129496,6 +130466,8 @@
       </dd>
 
 
+
+    
 
     
   </div>
@@ -133663,6 +134635,10 @@
 
 
 
+
+
+
+
 <section>
 <h3>Přehled XML struktury</h3>
 <p>
@@ -133734,9 +134710,12 @@
           Obsahem elementu je typ <a href="#type-ccmm:resource_attribution"><code>ccmm:resource_attribution</code></a>.
       </dd>
 
+    
 
     
 
+
+    
 
     
   </div>
@@ -133755,6 +134734,8 @@
       </dd>
 
 
+    
+
         <dt>Obsah 
  - elementy v tomto pořadí
 </dt>
@@ -133771,6 +134752,8 @@
   </ul>
 
 
+
+    
   </dl>
 </section>
 <section id="element-ccmm:resource_attribution-ccmm:iri">
@@ -133794,9 +134777,12 @@
           Obsahem elementu je typ <a href="http://www.w3.org/2001/XMLSchemaanyURI"><code>xs:anyURI</code></a>.
       </dd>
 
+    
 
     
 
+
+    
 
     
   </div>
@@ -133831,6 +134817,7 @@
       <dt>Typ elementu</dt>
         <div style="margin-left: 40px;">
 
+    
 
         <dt>Význam</dt>
       <dd>
@@ -133853,6 +134840,8 @@
   </ul>
 
 
+
+    
   </div>
 
     
@@ -133879,6 +134868,7 @@
           Obsahem elementu je typ <a href="#type-ccmm:organization"><code>ccmm:organization</code></a>.
       </dd>
 
+    
 
         <dt>Význam</dt>
       <dd>
@@ -133887,6 +134877,8 @@
       </dd>
 
 
+
+    
 
     
   </div>
@@ -133915,6 +134907,7 @@
           Obsahem elementu je typ <a href="#type-ccmm:person"><code>ccmm:person</code></a>.
       </dd>
 
+    
 
         <dt>Význam</dt>
       <dd>
@@ -133923,6 +134916,8 @@
       </dd>
 
 
+
+    
 
     
   </div>
@@ -133961,6 +134956,7 @@
           Obsahem elementu je typ <a href="#type-ccmm:attributed_agent_role_type"><code>ccmm:attributed_agent_role_type</code></a>.
       </dd>
 
+    
 
         <dt>Význam</dt>
       <dd>
@@ -133969,6 +134965,8 @@
       </dd>
 
 
+
+    
 
     
   </div>
@@ -134500,6 +135498,10 @@
 
 
 
+
+
+
+
 <section>
 <h3>Přehled XML struktury</h3>
 <p>
@@ -134565,9 +135567,12 @@
           Obsahem elementu je typ <a href="#type-ccmm:time_representation"><code>ccmm:time_representation</code></a>.
       </dd>
 
+    
 
     
 
+
+    
 
     
   </div>
@@ -134579,6 +135584,8 @@
 <section id="type-ccmm:time_representation">
   <h4>Kořenový komplexní typ <code>time_representation</code></h4>
   <dl>
+    
+
     
 
         <dt>Obsah  - výběr jednoho elementu z množiny
@@ -134594,6 +135601,8 @@
   </ul>
 
 
+
+    
   </dl>
 </section>
 <section id="element-ccmm:time_representation-ccmm:time_interval">
@@ -134617,6 +135626,7 @@
           Obsahem elementu je typ <a href="#type-ccmm:time_interval"><code>ccmm:time_interval</code></a>.
       </dd>
 
+    
 
         <dt>Význam</dt>
       <dd>
@@ -134625,6 +135635,8 @@
       </dd>
 
 
+
+    
 
     
   </div>
@@ -134653,6 +135665,7 @@
           Obsahem elementu je typ <a href="#type-ccmm:time_instant"><code>ccmm:time_instant</code></a>.
       </dd>
 
+    
 
         <dt>Význam</dt>
       <dd>
@@ -134661,6 +135674,8 @@
       </dd>
 
 
+
+    
 
     
   </div>
@@ -135084,6 +136099,10 @@
 
 
 
+
+
+
+
 <section>
 <h3>Přehled XML struktury</h3>
 <p>
@@ -135149,9 +136168,12 @@
           Obsahem elementu je typ <a href="#type-ccmm:alternate_title"><code>ccmm:alternate_title</code></a>.
       </dd>
 
+    
 
     
 
+
+    
 
     
   </div>
@@ -135170,6 +136192,8 @@
       </dd>
 
 
+    
+
         <dt>Obsah 
  - elementy v tomto pořadí
 </dt>
@@ -135186,6 +136210,8 @@
   </ul>
 
 
+
+    
   </dl>
 </section>
 <section id="element-ccmm:alternate_title-ccmm:iri">
@@ -135209,9 +136235,12 @@
           Obsahem elementu je typ <a href="http://www.w3.org/2001/XMLSchemaanyURI"><code>xs:anyURI</code></a>.
       </dd>
 
+    
 
     
 
+
+    
 
     
   </div>
@@ -135250,9 +136279,12 @@
           Obsahem elementu je typ <a href=""><code></code></a>.
       </dd>
 
+    
 
     
 
+
+    
 
     
   </div>
@@ -135291,6 +136323,7 @@
           Obsahem elementu je typ <a href="#type-ccmm:alternate_title_type"><code>ccmm:alternate_title_type</code></a>.
       </dd>
 
+    
 
         <dt>Význam</dt>
       <dd>
@@ -135299,6 +136332,8 @@
       </dd>
 
 
+
+    
 
     
   </div>
@@ -141505,6 +142540,10 @@
 
 
 
+
+
+
+
 <section>
 <h3>Přehled XML struktury</h3>
 <p>
@@ -141576,9 +142615,12 @@
           Obsahem elementu je typ <a href="#type-ccmm:data_service"><code>ccmm:data_service</code></a>.
       </dd>
 
+    
 
     
 
+
+    
 
     
   </div>
@@ -141596,6 +142638,8 @@
         (Umístění či přístupový bod poskytující operace související s hledáním, přistupem k, či výkonem funkcí na datech či souvisejících zdrojích.)
       </dd>
 
+
+    
 
         <dt>Obsah 
  - elementy v tomto pořadí
@@ -141616,6 +142660,8 @@
   </ul>
 
 
+
+    
   </dl>
 </section>
 <section id="element-ccmm:data_service-ccmm:iri">
@@ -141639,9 +142685,12 @@
           Obsahem elementu je typ <a href="http://www.w3.org/2001/XMLSchemaanyURI"><code>xs:anyURI</code></a>.
       </dd>
 
+    
 
     
 
+
+    
 
     
   </div>
@@ -141680,9 +142729,12 @@
           Obsahem elementu je typ <a href=""><code></code></a>.
       </dd>
 
+    
 
     
 
+
+    
 
     
   </div>
@@ -141721,6 +142773,7 @@
           Obsahem elementu je typ <a href="#type-ccmm:related_resource"><code>ccmm:related_resource</code></a>.
       </dd>
 
+    
 
         <dt>Význam</dt>
       <dd>
@@ -141729,6 +142782,8 @@
       </dd>
 
 
+
+    
 
     
   </div>
@@ -141767,6 +142822,7 @@
           Obsahem elementu je typ <a href="#type-ccmm:licence_document"><code>ccmm:licence_document</code></a>.
       </dd>
 
+    
 
         <dt>Význam</dt>
       <dd>
@@ -141775,6 +142831,8 @@
       </dd>
 
 
+
+    
 
     
   </div>
@@ -142323,6 +143381,10 @@
 
 
 
+
+
+
+
 <section>
 <h3>Přehled XML struktury</h3>
 <p>
@@ -142388,9 +143450,12 @@
           Obsahem elementu je typ <a href="#type-ccmm:subject"><code>ccmm:subject</code></a>.
       </dd>
 
+    
 
     
 
+
+    
 
     
   </div>
@@ -142408,6 +143473,8 @@
         (Subject, classification code, or key phrase describing the resource.)
       </dd>
 
+
+    
 
         <dt>Obsah 
  - elementy v tomto pořadí
@@ -142431,6 +143498,8 @@
   </ul>
 
 
+
+    
   </dl>
 </section>
 <section id="element-ccmm:subject-ccmm:iri">
@@ -142454,9 +143523,12 @@
           Obsahem elementu je typ <a href="http://www.w3.org/2001/XMLSchemaanyURI"><code>xs:anyURI</code></a>.
       </dd>
 
+    
 
     
 
+
+    
 
     
   </div>
@@ -142495,9 +143567,12 @@
           Obsahem elementu je typ <a href=""><code></code></a>.
       </dd>
 
+    
 
     
 
+
+    
 
     
   </div>
@@ -142536,9 +143611,12 @@
           Obsahem elementu je typ <a href=""><code></code></a>.
       </dd>
 
+    
 
     
 
+
+    
 
     
   </div>
@@ -142577,9 +143655,12 @@
           Obsahem elementu je typ <a href="http://www.w3.org/2001/XMLSchemastring"><code>xs:string</code></a>.
       </dd>
 
+    
 
     
 
+
+    
 
     
   </div>
@@ -142618,6 +143699,7 @@
           Obsahem elementu je typ <a href="#type-ccmm:subject_scheme"><code>ccmm:subject_scheme</code></a>.
       </dd>
 
+    
 
         <dt>Význam</dt>
       <dd>
@@ -142626,6 +143708,8 @@
       </dd>
 
 
+
+    
 
     
   </div>
@@ -147142,6 +148226,10 @@
 
 
 
+
+
+
+
 <section>
 <h3>Přehled XML struktury</h3>
 <p>
@@ -147207,9 +148295,12 @@
           Obsahem elementu je typ <a href="#type-ccmm:repository"><code>ccmm:repository</code></a>.
       </dd>
 
+    
 
     
 
+
+    
 
     
   </div>
@@ -147227,6 +148318,8 @@
         (Řízená kolekce metadat o datových sadách a datových službách)
       </dd>
 
+
+    
 
         <dt>Obsah 
  - elementy v tomto pořadí
@@ -147253,6 +148346,8 @@
   </ul>
 
 
+
+    
   </dl>
 </section>
 <section id="element-ccmm:repository-ccmm:iri">
@@ -147276,9 +148371,12 @@
           Obsahem elementu je typ <a href="http://www.w3.org/2001/XMLSchemaanyURI"><code>xs:anyURI</code></a>.
       </dd>
 
+    
 
     
 
+
+    
 
     
   </div>
@@ -147317,9 +148415,12 @@
           Obsahem elementu je typ <a href=""><code></code></a>.
       </dd>
 
+    
 
     
 
+
+    
 
     
   </div>
@@ -147358,9 +148459,12 @@
           Obsahem elementu je typ <a href=""><code></code></a>.
       </dd>
 
+    
 
     
 
+
+    
 
     
   </div>
@@ -147399,6 +148503,7 @@
           Obsahem elementu je typ <a href="#type-ccmm:resource_attribution"><code>ccmm:resource_attribution</code></a>.
       </dd>
 
+    
 
         <dt>Význam</dt>
       <dd>
@@ -147407,6 +148512,8 @@
       </dd>
 
 
+
+    
 
     
   </div>
@@ -147445,9 +148552,12 @@
           Obsahem elementu je typ <a href="http://www.w3.org/2001/XMLSchemaanyURI"><code>xs:anyURI</code></a>.
       </dd>
 
+    
 
     
 
+
+    
 
     
   </div>
@@ -147486,9 +148596,12 @@
           Obsahem elementu je typ <a href="http://www.w3.org/2001/XMLSchemaanyURI"><code>xs:anyURI</code></a>.
       </dd>
 
+    
 
     
 
+
+    
 
     
   </div>
@@ -147837,6 +148950,10 @@
 
 
 
+
+
+
+
 <section>
 <h3>Přehled XML struktury</h3>
 <p>
@@ -147902,9 +149019,12 @@
           Obsahem elementu je typ <a href="#type-ccmm:geometry"><code>ccmm:geometry</code></a>.
       </dd>
 
+    
 
     
 
+
+    
 
     
   </div>
@@ -147922,6 +149042,8 @@
         (The Geometry class provides the means to identify a location as a point, line, polygon, etc. expressed using coordinates in some coordinate reference system.)
       </dd>
 
+
+    
 
         <dt>Obsah 
  - elementy v tomto pořadí
@@ -147942,6 +149064,8 @@
   </ul>
 
 
+
+    
   </dl>
 </section>
 <section id="element-ccmm:geometry-ccmm:iri">
@@ -147965,9 +149089,12 @@
           Obsahem elementu je typ <a href="http://www.w3.org/2001/XMLSchemaanyURI"><code>xs:anyURI</code></a>.
       </dd>
 
+    
 
     
 
+
+    
 
     
   </div>
@@ -148006,9 +149133,12 @@
           Obsahem elementu je typ <a href=""><code></code></a>.
       </dd>
 
+    
 
     
 
+
+    
 
     
   </div>
@@ -148047,9 +149177,12 @@
           Obsahem elementu je typ <a href=""><code>gml:GeometryPropertyType</code></a>.
       </dd>
 
+    
 
     
 
+
+    
 
     
   </div>
@@ -148084,9 +149217,12 @@
       <dt>Typ elementu</dt>
         <div style="margin-left: 40px;">
 
+    
 
     
 
+
+    
 
     
   </div>
