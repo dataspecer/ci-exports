@@ -1,0 +1,8 @@
+Status: VALID
+Document: _xml/dataset-mini.xml
+Schema: dataset/schema.xsd
+Schema language: XSD 1.1
+Validator: xmlschema.XMLSchema11
+Schema build errors: 0
+Document validation errors: 0
+Schema warnings: 0
