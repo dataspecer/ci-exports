@@ -1,5 +1,3 @@
-
-
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -407,9 +405,10 @@
 
 
 
-  <h1>
 
-      JSON structure for
+
+  <h1>
+    JSON structure for
     Catalogue
   </h1>
 
@@ -444,7 +443,7 @@
           </tr>
       </table>
 
-          <strong>
+            <strong>
     object
   </strong>
     with properties (<code>properties</code>):
@@ -452,60 +451,34 @@
         <li style="list-style-type: disclosure-closed;">
           <code>@context</code>:
           required
-          item of type
+          item
 
-                
-  
-  
-  
-  
-  
-  
-  
-        exactly one of the following (<code>oneOf</code>):
+                of type               exactly one of the following (<code>oneOf</code>):
     <ul>
-        <li>      
-    constant value
+        <li>          constant value
     <code>&quot;https://ofn.gov.cz/dcat-ap-cz-rozhraní-katalogů-dat/2026-09-23/katalog/kontext.jsonld&quot;</code>
 
-  
-  
-  
-  
-  
-  
-  
-  
+    
 
 </li>
-        <li>      
-  
-  
-    array of values <code>{0..*}</code> of type       
-  
-  
-    string
-  (format: <code>iri</code>)
+        <li>        
+    array of values <code>{0..*}</code>     of type           string
+    (format: <code>iri</code>)
+
   
 
 
-  
-  
-  
-  
-  
-  
+
+    
 
 
-     and must contain: <code>&quot;https://ofn.gov.cz/dcat-ap-cz-rozhraní-katalogů-dat/2026-09-23/katalog/kontext.jsonld&quot;</code>
 
-  
-  
-  
-  
-  
-  
-  
+      and must contain: <code>&quot;https://ofn.gov.cz/dcat-ap-cz-rozhraní-katalogů-dat/2026-09-23/katalog/kontext.jsonld&quot;</code>
+    
+
+
+
+    
 
 </li>
     </ul>
@@ -513,89 +486,59 @@
 
 
 
-  
+    
+
 
 
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>iri</code>:
           required
-          item of type
+          item
 
-                
-  
-  
-    string
-  (format: <code>iri</code>)
-  (by regular expression: <code>^https://</code>)
-
+                of type           string
+    (format: <code>iri</code>)
+    (by regular expression: <code>^https://</code>)
 
   
-  
-  
-  
-  
-  
+
+
+
+    
+
 
 
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>typ</code>:
           required
-          item of type
+          item
 
-                
-  
-  
-  
-  
-  
-  
-  
-        exactly one of the following (<code>oneOf</code>):
+                of type               exactly one of the following (<code>oneOf</code>):
     <ul>
-        <li>      
-    constant value
+        <li>          constant value
     <code>&quot;Katalog&quot;</code>
 
-  
-  
-  
-  
-  
-  
-  
-  
+    
 
 </li>
-        <li>      
-  
-  
-    array of values <code>{0..*}</code> of type       
-  
-  
-    string
-  
+        <li>        
+    array of values <code>{0..*}</code>     of type           string
+
   
 
 
-  
-  
-  
-  
-  
-  
+
+    
 
 
-     and must contain: <code>&quot;Katalog&quot;</code>
 
-  
-  
-  
-  
-  
-  
-  
+      and must contain: <code>&quot;Katalog&quot;</code>
+    
+
+
+
+    
 
 </li>
     </ul>
@@ -603,7 +546,8 @@
 
 
 
-  
+    
+
 
 
         </li>
@@ -611,9 +555,9 @@
           <code>název</code>:
             (<a href="#Katalog.název" label="A name given to the Catalogue.">title</a>)
           required
-          item of type
+          item
 
-                  <strong>
+                of type           <strong>
     object
   </strong>
     with properties (<code>properties</code>):
@@ -621,44 +565,32 @@
         <li style="list-style-type: disclosure-closed;">
           <code>cs</code>:
           optional
-          item of type
+          item
 
-                
-  
-  
-    string
-  
+                of type           string
+
   
 
 
-  
-  
-  
-  
-  
-  
+
+    
+
 
 
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>en</code>:
           optional
-          item of type
+          item
 
-                
-  
-  
-    string
-  
+                of type           string
+
   
 
 
-  
-  
-  
-  
-  
-  
+
+    
+
 
 
         </li>
@@ -667,15 +599,7 @@
 
 
 
-  
-  
-  
-  
-  
-  
-  
-  
-  
+
 
 
         </li>
@@ -683,9 +607,9 @@
           <code>popis</code>:
             (<a href="#Katalog.popis" label="A free-text account of the Catalogue.">description</a>)
           required
-          item of type
+          item
 
-                  <strong>
+                of type           <strong>
     object
   </strong>
     with properties (<code>properties</code>):
@@ -693,44 +617,32 @@
         <li style="list-style-type: disclosure-closed;">
           <code>cs</code>:
           optional
-          item of type
+          item
 
-                
-  
-  
-    string
-  
+                of type           string
+
   
 
 
-  
-  
-  
-  
-  
-  
+
+    
+
 
 
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>en</code>:
           optional
-          item of type
+          item
 
-                
-  
-  
-    string
-  
+                of type           string
+
   
 
 
-  
-  
-  
-  
-  
-  
+
+    
+
 
 
         </li>
@@ -739,15 +651,7 @@
 
 
 
-  
-  
-  
-  
-  
-  
-  
-  
-  
+
 
 
         </li>
@@ -755,31 +659,28 @@
           <code>kontaktní_bod</code>:
             (<a href="#Katalog.kontaktníBod" label="Relevant contact information for the catalogued resource. Use of vCard is recommended.">contact point</a>)
           required
-          item of type
+          item
 
-              <a href="#json-object--katalog--organizace"></a>
+                of type     <a href="#json-object--katalog--organizace"></a>
+
 
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>domovská_stránka</code>:
             (<a href="#Katalog.domovskáStránka" label="A web page that acts as the main page for the Catalogue.">homepage</a>)
           optional
-          item of type
+          item
 
-                
-  
-  
-    string
-  (format: <code>iri</code>)
-  (by regular expression: <code>^https://</code>)
-
+                of type           string
+    (format: <code>iri</code>)
+    (by regular expression: <code>^https://</code>)
 
   
-  
-  
-  
-  
-  
+
+
+
+    
+
 
 
         </li>
@@ -787,22 +688,18 @@
           <code>poskytovatel</code>:
             (<a href="#Katalog.poskytovatel" label="An entity (organisation) responsible for making the Catalogue available.">publisher</a>)
           required
-          item of type
+          item
 
-                
-  
-  
-    string
-  (format: <code>iri</code>)
-  (by regular expression: <code>^https://</code>)
-
+                of type           string
+    (format: <code>iri</code>)
+    (by regular expression: <code>^https://</code>)
 
   
-  
-  
-  
-  
-  
+
+
+
+    
+
 
 
         </li>
@@ -810,22 +707,18 @@
           <code>přístupový_bod</code>:
             (<a href="#Katalog.přístupovýBodSlužby" label="The root location or primary endpoint of the service (an IRI).">endpoint URL</a>)
           required
-          item of type
+          item
 
-                
-  
-  
-    string
-  (format: <code>iri</code>)
-  (by regular expression: <code>^https://</code>)
-
+                of type           string
+    (format: <code>iri</code>)
+    (by regular expression: <code>^https://</code>)
 
   
-  
-  
-  
-  
-      (for example <code>https://data.gov.cz/sparql</code>)
+
+
+
+        (for example <code>https://data.gov.cz/sparql</code>)
+
 
 
 
@@ -834,36 +727,27 @@
           <code>datová_sada</code>:
             (<a href="#Katalog.datováSada" label="A Dataset that is part of the Catalogue.">dataset</a>)
           optional
-          item of type
+          item
 
-                
-  
-  
-    array of values <code>{0..*}</code> of type       
-  
-  
-    string
-  (format: <code>iri</code>)
-  (by regular expression: <code>^https://</code>)
+                of type         
+    array of values <code>{0..*}</code>     of type           string
+    (format: <code>iri</code>)
+    (by regular expression: <code>^https://</code>)
 
-
-  
-  
-  
-  
-  
   
 
 
-          
 
-  
-  
-  
-  
-  
-  
-  
+    
+
+
+
+    
+
+
+
+    
+
 
 
         </li>
@@ -872,15 +756,6 @@
 
 
 
-  
-  
-  
-  
-  
-  
-  
-  
-  
 
     </section>
     <section id="json-object--katalog--organizace">
@@ -901,7 +776,7 @@
           </tr>
       </table>
 
-          <strong>
+            <strong>
     object
   </strong>
     with properties (<code>properties</code>):
@@ -909,82 +784,50 @@
         <li style="list-style-type: disclosure-closed;">
           <code>iri</code>:
           optional
-          item of type
+          item
 
-                
-  
-  
-    string
-  (format: <code>iri</code>)
+                of type           string
+    (format: <code>iri</code>)
+
   
 
 
-  
-  
-  
-  
-  
-  
+
+    
+
 
 
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>typ</code>:
           required
-          item of type
+          item
 
-                
-  
-  
-  
-  
-  
-  
-  
-        exactly one of the following (<code>oneOf</code>):
+                of type               exactly one of the following (<code>oneOf</code>):
     <ul>
-        <li>      
-    constant value
+        <li>          constant value
     <code>&quot;Organizace&quot;</code>
 
-  
-  
-  
-  
-  
-  
-  
-  
+    
 
 </li>
-        <li>      
-  
-  
-    array of values <code>{0..*}</code> of type       
-  
-  
-    string
-  
+        <li>        
+    array of values <code>{0..*}</code>     of type           string
+
   
 
 
-  
-  
-  
-  
-  
-  
+
+    
 
 
-     and must contain: <code>&quot;Organizace&quot;</code>
 
-  
-  
-  
-  
-  
-  
-  
+      and must contain: <code>&quot;Organizace&quot;</code>
+    
+
+
+
+    
 
 </li>
     </ul>
@@ -992,7 +835,8 @@
 
 
 
-  
+    
+
 
 
         </li>
@@ -1000,9 +844,9 @@
           <code>jméno</code>:
             (<a href="#Organizace.jméno" label="The formatted text corresponding to the name of the object">formatted name</a>)
           required
-          item of type
+          item
 
-                  <strong>
+                of type           <strong>
     object
   </strong>
     with properties (<code>properties</code>):
@@ -1010,44 +854,32 @@
         <li style="list-style-type: disclosure-closed;">
           <code>cs</code>:
           optional
-          item of type
+          item
 
-                
-  
-  
-    string
-  
+                of type           string
+
   
 
 
-  
-  
-  
-  
-  
-  
+
+    
+
 
 
         </li>
         <li style="list-style-type: disclosure-closed;">
           <code>en</code>:
           optional
-          item of type
+          item
 
-                
-  
-  
-    string
-  
+                of type           string
+
   
 
 
-  
-  
-  
-  
-  
-  
+
+    
+
 
 
         </li>
@@ -1056,15 +888,7 @@
 
 
 
-  
-  
-  
-  
-  
-  
-  
-  
-  
+
 
 
         </li>
@@ -1072,22 +896,17 @@
           <code>e-mail</code>:
             (<a href="#Organizace.email" label="To specify the electronic mail address for communication with the object">has email</a>)
           required
-          item of type
+          item
 
-                
-  
-  
-    string
-  (format: <code>iri</code>)
+                of type           string
+    (format: <code>iri</code>)
+
   
 
 
-  
-  
-  
-  
-  
-  
+
+    
+
 
 
         </li>
@@ -1096,15 +915,6 @@
 
 
 
-  
-  
-  
-  
-  
-  
-  
-  
-  
 
     </section>
 </section>
@@ -1295,7 +1105,6 @@
               <tr>
                 <td>Profiled class IRI(s)</td>
                 <td>
-                    
                     <a href="http://www.w3.org/ns/dcat#Catalog">dcat:Catalog</a>
                 </td>
               </tr>
@@ -1323,42 +1132,36 @@
                     <ul style="list-style-type: disclosure-closed; padding-left: 0; margin: 0;">
                           <li>
                                     profiles
-                
-                class profile
+                  class profile
                 <a href="https://ofn.gov.cz/dcat-ap-cz/2026-09-23/cs/#Katalog">Catalogue</a> (<a href="https://ofn.gov.cz/dcat-ap-cz#Katalog">dcat-ap-cz:Katalog</a>)
                   <ul style="list-style-type: disclosure-closed;">
                       <li>
                                   profiles
-                
-                class profile
+                  class profile
                 <a href="https://semiceu.github.io/DCAT-AP/releases/3.0.1/#Catalogue">Catalogue</a> (<a href="https://mff-uk.github.io/specifications/dcat-ap#Catalogue">dcat-ap:Catalogue</a>)
                   <br />Definition: <i>A catalogue or repository that hosts the Datasets or Data Services being described.</i>
                   <ul style="list-style-type: disclosure-closed;">
                       <li>
                                   profiles
-                
-                class profile
+                  class profile
                 <a href="https://www.w3.org/TR/vocab-dcat-3/#Class:Catalog">Catalog</a> (<a href="https://mff-uk.github.io/specifications/dcat-dap#Catalog">dcat-dap:Catalog</a>)
                   <br />Definition: <i>A curated collection of metadata about resources.</i>
                   <ul style="list-style-type: disclosure-closed;">
                       <li>
                                   profiles
-                class
-                
+                  class
                 <a href="http://www.w3.org/ns/dcat#Catalog">Catalog</a> (<a href="http://www.w3.org/ns/dcat#Catalog">dcat:Catalog</a>)
                   <br />Definition: <i>A curated collection of metadata about resources (e.g., datasets and data services in the context of a data catalog).</i>
                   <ul style="list-style-type: disclosure-closed;">
                       <li>
                                   specializes
-                class
-                
+                  class
                 <a href="http://www.w3.org/ns/dcat#Dataset">Dataset</a> (<a href="http://www.w3.org/ns/dcat#Dataset">dcat:Dataset</a>)
                   <br />Definition: <i>A collection of data, published or curated by a single source, and available for access or download in one or more representations.</i>
                   <ul style="list-style-type: disclosure-closed;">
                       <li>
                                   specializes
-                class
-                
+                  class
                 <a href="http://www.w3.org/ns/dcat#Resource">Catalogued resource</a> (<a href="http://www.w3.org/ns/dcat#Resource">dcat:Resource</a>)
                   <br />Definition: <i>Resource published or curated by a single agent.</i>
                   <ul style="list-style-type: disclosure-closed;">
@@ -1373,21 +1176,18 @@
                       </li>
                       <li>
                                   specializes
-                
-                class profile
+                  class profile
                 <a href="https://www.w3.org/TR/vocab-dcat-3/#Class:Dataset">Dataset</a> (<a href="https://mff-uk.github.io/specifications/dcat-dap#Dataset">dcat-dap:Dataset</a>)
                   <ul style="list-style-type: disclosure-closed;">
                       <li>
                                   profiles
-                class
-                
+                  class
                 <a href="http://www.w3.org/ns/dcat#Dataset">Dataset</a> (<a href="http://www.w3.org/ns/dcat#Dataset">dcat:Dataset</a>)
                   <br />Definition: <i>A collection of data, published or curated by a single source, and available for access or download in one or more representations.</i>
                   <ul style="list-style-type: disclosure-closed;">
                       <li>
                                   specializes
-                class
-                
+                  class
                 <a href="http://www.w3.org/ns/dcat#Resource">Catalogued resource</a> (<a href="http://www.w3.org/ns/dcat#Resource">dcat:Resource</a>)
                   <br />Definition: <i>Resource published or curated by a single agent.</i>
                   <ul style="list-style-type: disclosure-closed;">
@@ -1399,14 +1199,12 @@
                       </li>
                       <li>
                                   specializes
-                
-                class profile
+                  class profile
                 <a href="https://www.w3.org/TR/vocab-dcat-3/#Class:Resource">Cataloged Resource</a> (<a href="https://mff-uk.github.io/specifications/dcat-dap#CatalogedResource">dcat-dap:CatalogedResource</a>)
                   <ul style="list-style-type: disclosure-closed;">
                       <li>
                                   profiles
-                class
-                
+                  class
                 <a href="http://www.w3.org/ns/dcat#Resource">Catalogued resource</a> (<a href="http://www.w3.org/ns/dcat#Resource">dcat:Resource</a>)
                   <br />Definition: <i>Resource published or curated by a single agent.</i>
                   <ul style="list-style-type: disclosure-closed;">
@@ -1450,7 +1248,6 @@
                   <tr>
                     <td>Profiled relationship IRI(s)</td>
                     <td>
-                        
                         <a href="http://purl.org/dc/terms/title">dcterms:title</a>
                     </td>
                   </tr>
@@ -1479,8 +1276,7 @@
                     <td>
                       <a href="https://ofn.gov.cz/základní-datové-typy/2020-07-01/#text">Text</a>
               
-                          [1..1]
-              
+                      [1..1]
                   </td>
                   </tr>
                   
@@ -1493,28 +1289,24 @@
                         <ul style="list-style-type: disclosure-closed; padding-left: 0; margin: 0;">
                               <li>
                                         profiles
-                    
-                    property profile
+                      property profile
                     <a href="https://ofn.gov.cz/dcat-ap-cz/2026-09-23/cs/#Katalog.název">title</a> (<a href="https://ofn.gov.cz/dcat-ap-cz#Katalog.název">dcat-ap-cz:Katalog.název</a>)
                       <br />Definition: <i>A name given to the Catalogue.</i>
                       <ul style="list-style-type: disclosure-closed;">
                           <li>
                                       profiles
-                    
-                    property profile
+                      property profile
                     <a href="https://semiceu.github.io/DCAT-AP/releases/3.0.1/#Catalogue.title">title</a> (<a href="https://mff-uk.github.io/specifications/dcat-ap#Catalogue.title">dcat-ap:Catalogue.title</a>)
                       <br />Definition: <i>A name given to the Catalogue.</i>
                       <ul style="list-style-type: disclosure-closed;">
                           <li>
                                       profiles
-                    
-                    property profile
+                      property profile
                     <a href="https://www.w3.org/TR/vocab-dcat-3/#Property:resource_title">title</a> (<a href="https://mff-uk.github.io/specifications/dcat-dap#CatalogedResource.title">dcat-dap:CatalogedResource.title</a>)
                       <ul style="list-style-type: disclosure-closed;">
                           <li>
                                       profiles
-                    property
-                    
+                      property
                     <a href="http://purl.org/dc/terms/title">Title</a> (<a href="http://purl.org/dc/terms/title">dcterms:title</a>)
                       <br />Definition: <i>A name given to the resource.</i>
                       <ul style="list-style-type: disclosure-closed;">
@@ -1546,7 +1338,6 @@
                   <tr>
                     <td>Profiled relationship IRI(s)</td>
                     <td>
-                        
                         <a href="http://purl.org/dc/terms/description">dcterms:description</a>
                     </td>
                   </tr>
@@ -1575,8 +1366,7 @@
                     <td>
                       <a href="https://ofn.gov.cz/základní-datové-typy/2020-07-01/#text">Text</a>
               
-                          [1..1]
-              
+                      [1..1]
                   </td>
                   </tr>
                   
@@ -1589,29 +1379,25 @@
                         <ul style="list-style-type: disclosure-closed; padding-left: 0; margin: 0;">
                               <li>
                                         profiles
-                    
-                    property profile
+                      property profile
                     <a href="https://ofn.gov.cz/dcat-ap-cz/2026-09-23/cs/#Katalog.popis">description</a> (<a href="https://ofn.gov.cz/dcat-ap-cz#Katalog.popis">dcat-ap-cz:Katalog.popis</a>)
                       <br />Definition: <i>A free-text account of the Catalogue.</i>
                       <ul style="list-style-type: disclosure-closed;">
                           <li>
                                       profiles
-                    
-                    property profile
+                      property profile
                     <a href="https://semiceu.github.io/DCAT-AP/releases/3.0.1/#Catalogue.description">description</a> (<a href="https://mff-uk.github.io/specifications/dcat-ap#Catalogue.description">dcat-ap:Catalogue.description</a>)
                       <br />Definition: <i>A free-text account of the Catalogue.</i>
                       <ul style="list-style-type: disclosure-closed;">
                           <li>
                                       profiles
-                    
-                    property profile
+                      property profile
                     <a href="https://www.w3.org/TR/vocab-dcat-3/#Property:resource_description">description</a> (<a href="https://mff-uk.github.io/specifications/dcat-dap#CatalogedResource.description">dcat-dap:CatalogedResource.description</a>)
                       <br />Definition: <i>A free-text account of the resource.</i>
                       <ul style="list-style-type: disclosure-closed;">
                           <li>
                                       profiles
-                    property
-                    
+                      property
                     <a href="http://purl.org/dc/terms/description">Description</a> (<a href="http://purl.org/dc/terms/description">dcterms:description</a>)
                       <br />Definition: <i>An account of the resource.</i>
                       <ul style="list-style-type: disclosure-closed;">
@@ -1643,7 +1429,6 @@
                   <tr>
                     <td>Profiled relationship IRI(s)</td>
                     <td>
-                        
                         <a href="http://www.w3.org/ns/dcat#contactPoint">dcat:contactPoint</a>
                     </td>
                   </tr>
@@ -1672,8 +1457,7 @@
                     <td>
                       <a href="#Organizace">Organization</a>
               
-                          [1..1]
-              
+                      [1..1]
                   </td>
                   </tr>
                   
@@ -1686,15 +1470,13 @@
                         <ul style="list-style-type: disclosure-closed; padding-left: 0; margin: 0;">
                               <li>
                                         profiles
-                    
-                    property profile
+                      property profile
                     <a href="https://ofn.gov.cz/dcat-ap-cz/2026-09-23/cs/#Katalog.kontaktníBod">contact point</a> (<a href="https://ofn.gov.cz/dcat-ap-cz#Katalog.kontaktníBod">dcat-ap-cz:Katalog.kontaktníBod</a>)
                       <br />Definition: <i>Relevant contact information for the catalogued resource. Use of vCard is recommended.</i>
                       <ul style="list-style-type: disclosure-closed;">
                           <li>
                                       profiles
-                    property
-                    
+                      property
                     <a href="http://www.w3.org/ns/dcat#contactPoint">contact point</a> (<a href="http://www.w3.org/ns/dcat#contactPoint">dcat:contactPoint</a>)
                       <br />Definition: <i>Relevant contact information for the catalogued resource. Use of vCard is recommended.</i>
                       <ul style="list-style-type: disclosure-closed;">
@@ -1716,7 +1498,6 @@
                   <tr>
                     <td>Profiled relationship IRI(s)</td>
                     <td>
-                        
                         <a href="http://purl.org/dc/terms/publisher">dcterms:publisher</a>
                     </td>
                   </tr>
@@ -1745,8 +1526,7 @@
                     <td>
                       <a href="#Poskytovatel">Agent</a>
               
-                          [1..1]
-              
+                      [1..1]
                   </td>
                   </tr>
                   
@@ -1759,28 +1539,24 @@
                         <ul style="list-style-type: disclosure-closed; padding-left: 0; margin: 0;">
                               <li>
                                         profiles
-                    
-                    property profile
+                      property profile
                     <a href="https://ofn.gov.cz/dcat-ap-cz/2026-09-23/cs/#Katalog.poskytovatel">publisher</a> (<a href="https://ofn.gov.cz/dcat-ap-cz#Katalog.poskytovatel">dcat-ap-cz:Katalog.poskytovatel</a>)
                       <br />Definition: <i>An entity (organisation) responsible for making the Catalogue available.</i>
                       <ul style="list-style-type: disclosure-closed;">
                           <li>
                                       profiles
-                    
-                    property profile
+                      property profile
                     <a href="https://semiceu.github.io/DCAT-AP/releases/3.0.1/#Catalogue.publisher">publisher</a> (<a href="https://mff-uk.github.io/specifications/dcat-ap#Catalogue.publisher">dcat-ap:Catalogue.publisher</a>)
                       <br />Definition: <i>An entity (organisation) responsible for making the Catalogue available.</i>
                       <ul style="list-style-type: disclosure-closed;">
                           <li>
                                       profiles
-                    
-                    property profile
+                      property profile
                     <a href="https://www.w3.org/TR/vocab-dcat-3/#Property:resource_publisher">publisher</a> (<a href="https://mff-uk.github.io/specifications/dcat-dap#CatalogedResource.publisher">dcat-dap:CatalogedResource.publisher</a>)
                       <ul style="list-style-type: disclosure-closed;">
                           <li>
                                       profiles
-                    property
-                    
+                      property
                     <a href="http://purl.org/dc/terms/publisher">Publisher</a> (<a href="http://purl.org/dc/terms/publisher">dcterms:publisher</a>)
                       <br />Definition: <i>An entity responsible for making the resource available.</i>
                       <ul style="list-style-type: disclosure-closed;">
@@ -1808,7 +1584,6 @@
                   <tr>
                     <td>Profiled relationship IRI(s)</td>
                     <td>
-                        
                         <a href="http://xmlns.com/foaf/0.1/homepage">foaf:homepage</a>
                     </td>
                   </tr>
@@ -1837,8 +1612,7 @@
                     <td>
                       <a href="#Dokument">Document</a>
               
-                          [0..1]
-              
+                      [0..1]
                   </td>
                   </tr>
                   
@@ -1851,43 +1625,37 @@
                         <ul style="list-style-type: disclosure-closed; padding-left: 0; margin: 0;">
                               <li>
                                         profiles
-                    
-                    property profile
+                      property profile
                     <a href="https://ofn.gov.cz/dcat-ap-cz/2026-09-23/cs/#Katalog.domovskáStránka">homepage</a> (<a href="https://ofn.gov.cz/dcat-ap-cz#Katalog.domovskáStránka">dcat-ap-cz:Katalog.domovskáStránka</a>)
                       <br />Definition: <i>A web page that acts as the main page for the Catalogue.</i>
                       <ul style="list-style-type: disclosure-closed;">
                           <li>
                                       profiles
-                    
-                    property profile
+                      property profile
                     <a href="https://semiceu.github.io/DCAT-AP/releases/3.0.1/#Catalogue.homepage">homepage</a> (<a href="https://mff-uk.github.io/specifications/dcat-ap#Catalogue.homepage">dcat-ap:Catalogue.homepage</a>)
                       <br />Definition: <i>A web page that acts as the main page for the Catalogue.</i>
                       <ul style="list-style-type: disclosure-closed;">
                           <li>
                                       profiles
-                    
-                    property profile
+                      property profile
                     <a href="https://www.w3.org/TR/vocab-dcat-3/#Property:catalog_homepage">homepage</a> (<a href="https://mff-uk.github.io/specifications/dcat-dap#Catalog.homepage">dcat-dap:Catalog.homepage</a>)
                       <br />Definition: <i>A homepage of the catalog (a public Web document usually available in HTML).</i>
                       <ul style="list-style-type: disclosure-closed;">
                           <li>
                                       profiles
-                    property
-                    
+                      property
                     <a href="http://xmlns.com/foaf/0.1/homepage">homepage</a> (<a href="http://xmlns.com/foaf/0.1/homepage">foaf:homepage</a>)
                       <br />Definition: <i>This axiom needed so that Protege loads DCAT 3 without errors.</i>
                       <ul style="list-style-type: disclosure-closed;">
                           <li>
                                       specializes
-                    property
-                    
+                      property
                     <a href="http://xmlns.com/foaf/0.1/isPrimaryTopicOf">is primary topic of</a> (<a href="http://xmlns.com/foaf/0.1/isPrimaryTopicOf">foaf:isPrimaryTopicOf</a>)
                       <br />Definition: <i>A document that this thing is the primary topic of.</i>
                       <ul style="list-style-type: disclosure-closed;">
                           <li>
                                       specializes
-                    property
-                    
+                      property
                     <a href="http://xmlns.com/foaf/0.1/page">page</a> (<a href="http://xmlns.com/foaf/0.1/page">foaf:page</a>)
                       <br />Definition: <i>A page or document about this thing.</i>
                       <ul style="list-style-type: disclosure-closed;">
@@ -1899,8 +1667,7 @@
                           </li>
                           <li>
                                       specializes
-                    property
-                    
+                      property
                     <a href="http://xmlns.com/foaf/0.1/page">page</a> (<a href="http://xmlns.com/foaf/0.1/page">foaf:page</a>)
                       <br />Definition: <i>A page or document about this thing.</i>
                       <ul style="list-style-type: disclosure-closed;">
@@ -1935,7 +1702,6 @@
                   <tr>
                     <td>Profiled relationship IRI(s)</td>
                     <td>
-                        
                         <a href="http://www.w3.org/ns/dcat#dataset">dcat:dataset</a>
                     </td>
                   </tr>
@@ -1964,8 +1730,7 @@
                     <td>
                       <a href="#DatováSada">Dataset</a>
               
-                          [0..*]
-              
+                      [0..*]
                   </td>
                   </tr>
                   
@@ -1978,48 +1743,41 @@
                         <ul style="list-style-type: disclosure-closed; padding-left: 0; margin: 0;">
                               <li>
                                         profiles
-                    
-                    property profile
+                      property profile
                     <a href="https://ofn.gov.cz/dcat-ap-cz/2026-09-23/cs/#Katalog.datováSada">dataset</a> (<a href="https://ofn.gov.cz/dcat-ap-cz#Katalog.datováSada">dcat-ap-cz:Katalog.datováSada</a>)
                       <ul style="list-style-type: disclosure-closed;">
                           <li>
                                       profiles
-                    
-                    property profile
+                      property profile
                     <a href="https://semiceu.github.io/DCAT-AP/releases/3.0.1/#Catalogue.dataset">dataset</a> (<a href="https://mff-uk.github.io/specifications/dcat-ap#Catalogue.dataset">dcat-ap:Catalogue.dataset</a>)
                       <br />Definition: <i>A Dataset that is part of the Catalogue.</i>
                       <ul style="list-style-type: disclosure-closed;">
                           <li>
                                       profiles
-                    
-                    property profile
+                      property profile
                     <a href="https://www.w3.org/TR/vocab-dcat-3/#Property:catalog_dataset">dataset</a> (<a href="https://mff-uk.github.io/specifications/dcat-dap#Catalog.dataset">dcat-dap:Catalog.dataset</a>)
                       <ul style="list-style-type: disclosure-closed;">
                           <li>
                                       profiles
-                    property
-                    
+                      property
                     <a href="http://www.w3.org/ns/dcat#dataset">dataset</a> (<a href="http://www.w3.org/ns/dcat#dataset">dcat:dataset</a>)
                       <br />Definition: <i>A dataset that is listed in the catalog.</i>
                       <ul style="list-style-type: disclosure-closed;">
                           <li>
                                       specializes
-                    property
-                    
+                      property
                     <a href="http://www.w3.org/ns/dcat#resource">resource</a> (<a href="http://www.w3.org/ns/dcat#resource">dcat:resource</a>)
                       <br />Definition: <i>A resource that is listed in the catalog.</i>
                       <ul style="list-style-type: disclosure-closed;">
                           <li>
                                       specializes
-                    property
-                    
+                      property
                     <a href="http://purl.org/dc/terms/hasPart">Has Part</a> (<a href="http://purl.org/dc/terms/hasPart">dcterms:hasPart</a>)
                       <br />Definition: <i>A related resource that is included either physically or logically in the described resource.</i>
                       <ul style="list-style-type: disclosure-closed;">
                           <li>
                                       specializes
-                    property
-                    
+                      property
                     <a href="http://purl.org/dc/terms/relation">Relation</a> (<a href="http://purl.org/dc/terms/relation">dcterms:relation</a>)
                       <br />Definition: <i>A related resource.</i>
                       <ul style="list-style-type: disclosure-closed;">
@@ -2060,7 +1818,6 @@
                   <tr>
                     <td>Profiled relationship IRI(s)</td>
                     <td>
-                        
                         <a href="http://www.w3.org/ns/dcat#endpointURL">dcat:endpointURL</a>
                     </td>
                   </tr>
@@ -2089,8 +1846,7 @@
                     <td>
                       <a href="#Zdroj">Resource</a>
               
-                          [1..1]
-              
+                      [1..1]
                   </td>
                   </tr>
                   
@@ -2103,27 +1859,23 @@
                         <ul style="list-style-type: disclosure-closed; padding-left: 0; margin: 0;">
                               <li>
                                         profiles
-                    
-                    property profile
+                      property profile
                     <a href="https://ofn.gov.cz/dcat-ap-cz/2026-09-23/cs/#DatováSlužba.přístupovýBodSlužby">endpoint URL</a> (<a href="https://ofn.gov.cz/dcat-ap-cz#DatováSlužba.přístupovýBodSlužby">dcat-ap-cz:DatováSlužba.přístupovýBodSlužby</a>)
                       <ul style="list-style-type: disclosure-closed;">
                           <li>
                                       profiles
-                    
-                    property profile
+                      property profile
                     <a href="https://semiceu.github.io/DCAT-AP/releases/3.0.1/#DataService.endpointURL">endpoint URL</a> (<a href="https://mff-uk.github.io/specifications/dcat-ap#DataService.endpointUrl">dcat-ap:DataService.endpointUrl</a>)
                       <br />Definition: <i>The root location or primary endpoint of the service (an IRI).</i>
                       <ul style="list-style-type: disclosure-closed;">
                           <li>
                                       profiles
-                    
-                    property profile
+                      property profile
                     <a href="https://www.w3.org/TR/vocab-dcat-3/#Property:data_service_endpoint_url">endpoint URL</a> (<a href="https://mff-uk.github.io/specifications/dcat-dap#DataService.endpointUrl">dcat-dap:DataService.endpointUrl</a>)
                       <ul style="list-style-type: disclosure-closed;">
                           <li>
                                       profiles
-                    property
-                    
+                      property
                     <a href="http://www.w3.org/ns/dcat#endpointURL">service end-point</a> (<a href="http://www.w3.org/ns/dcat#endpointURL">dcat:endpointURL</a>)
                       <br />Definition: <i>The root location or primary endpoint of the service (a web-resolvable IRI).</i>
                       <ul style="list-style-type: disclosure-closed;">
@@ -2162,7 +1914,6 @@
               <tr>
                 <td>Profiled class IRI(s)</td>
                 <td>
-                    
                     <a href="http://xmlns.com/foaf/0.1/Agent">foaf:Agent</a>
                 </td>
               </tr>
@@ -2190,28 +1941,24 @@
                     <ul style="list-style-type: disclosure-closed; padding-left: 0; margin: 0;">
                           <li>
                                     profiles
-                
-                class profile
+                  class profile
                 <a href="https://ofn.gov.cz/dcat-ap-cz/2026-09-23/cs/#Poskytovatel">Agent</a> (<a href="https://ofn.gov.cz/dcat-ap-cz#Poskytovatel">dcat-ap-cz:Poskytovatel</a>)
                   <br />Definition: <i>Any entity carrying out actions with respect to the entities Catalogue and the Catalogued Resources.</i>
                   <ul style="list-style-type: disclosure-closed;">
                       <li>
                                   profiles
-                
-                class profile
+                  class profile
                 <a href="https://semiceu.github.io/DCAT-AP/releases/3.0.1/#Agent">Agent</a> (<a href="https://mff-uk.github.io/specifications/dcat-ap#Agent">dcat-ap:Agent</a>)
                   <br />Definition: <i>Any entity carrying out actions with respect to the entities Catalogue and the Catalogued Resources.</i>
                   <ul style="list-style-type: disclosure-closed;">
                       <li>
                                   profiles
-                
-                class profile
+                  class profile
                 <a href="https://mff-uk.github.io/specifications/dcat-dap/#Agent">Agent</a> (<a href="https://mff-uk.github.io/specifications/dcat-dap#Agent">dcat-dap:Agent</a>)
                   <ul style="list-style-type: disclosure-closed;">
                       <li>
                                   profiles
-                class
-                
+                  class
                 <a href="http://xmlns.com/foaf/0.1/Agent">Agent</a> (<a href="http://xmlns.com/foaf/0.1/Agent">foaf:Agent</a>)
                   <br />Definition: <i>An agent (eg. person, group, software or physical artifact).</i>
                   <ul style="list-style-type: disclosure-closed;">
@@ -2251,7 +1998,6 @@
               <tr>
                 <td>Profiled class IRI(s)</td>
                 <td>
-                    
                     <a href="http://www.w3.org/ns/dcat#Dataset">dcat:Dataset</a>
                 </td>
               </tr>
@@ -2279,34 +2025,29 @@
                     <ul style="list-style-type: disclosure-closed; padding-left: 0; margin: 0;">
                           <li>
                                     profiles
-                
-                class profile
+                  class profile
                 <a href="https://ofn.gov.cz/dcat-ap-cz/2026-09-23/cs/#DatováSada">Dataset</a> (<a href="https://ofn.gov.cz/dcat-ap-cz#DatováSada">dcat-ap-cz:DatováSada</a>)
                   <ul style="list-style-type: disclosure-closed;">
                       <li>
                                   profiles
-                
-                class profile
+                  class profile
                 <a href="https://semiceu.github.io/DCAT-AP/releases/3.0.1/#Dataset">Dataset</a> (<a href="https://mff-uk.github.io/specifications/dcat-ap#Dataset">dcat-ap:Dataset</a>)
                   <br />Definition: <i>A conceptual entity that represents the information published.</i>
                   <ul style="list-style-type: disclosure-closed;">
                       <li>
                                   profiles
-                
-                class profile
+                  class profile
                 <a href="https://www.w3.org/TR/vocab-dcat-3/#Class:Dataset">Dataset</a> (<a href="https://mff-uk.github.io/specifications/dcat-dap#Dataset">dcat-dap:Dataset</a>)
                   <ul style="list-style-type: disclosure-closed;">
                       <li>
                                   profiles
-                class
-                
+                  class
                 <a href="http://www.w3.org/ns/dcat#Dataset">Dataset</a> (<a href="http://www.w3.org/ns/dcat#Dataset">dcat:Dataset</a>)
                   <br />Definition: <i>A collection of data, published or curated by a single source, and available for access or download in one or more representations.</i>
                   <ul style="list-style-type: disclosure-closed;">
                       <li>
                                   specializes
-                class
-                
+                  class
                 <a href="http://www.w3.org/ns/dcat#Resource">Catalogued resource</a> (<a href="http://www.w3.org/ns/dcat#Resource">dcat:Resource</a>)
                   <br />Definition: <i>Resource published or curated by a single agent.</i>
                   <ul style="list-style-type: disclosure-closed;">
@@ -2318,14 +2059,12 @@
                       </li>
                       <li>
                                   specializes
-                
-                class profile
+                  class profile
                 <a href="https://www.w3.org/TR/vocab-dcat-3/#Class:Resource">Cataloged Resource</a> (<a href="https://mff-uk.github.io/specifications/dcat-dap#CatalogedResource">dcat-dap:CatalogedResource</a>)
                   <ul style="list-style-type: disclosure-closed;">
                       <li>
                                   profiles
-                class
-                
+                  class
                 <a href="http://www.w3.org/ns/dcat#Resource">Catalogued resource</a> (<a href="http://www.w3.org/ns/dcat#Resource">dcat:Resource</a>)
                   <br />Definition: <i>Resource published or curated by a single agent.</i>
                   <ul style="list-style-type: disclosure-closed;">
@@ -2340,20 +2079,17 @@
                       </li>
                       <li>
                                   specializes
-                
-                class profile
+                  class profile
                 <a href="https://semiceu.github.io/DCAT-AP/releases/3.0.1/#CataloguedResource">Catalogued Resource</a> (<a href="https://mff-uk.github.io/specifications/dcat-ap#CataloguedResource">dcat-ap:CataloguedResource</a>)
                   <ul style="list-style-type: disclosure-closed;">
                       <li>
                                   profiles
-                
-                class profile
+                  class profile
                 <a href="https://www.w3.org/TR/vocab-dcat-3/#Class:Resource">Cataloged Resource</a> (<a href="https://mff-uk.github.io/specifications/dcat-dap#CatalogedResource">dcat-dap:CatalogedResource</a>)
                   <ul style="list-style-type: disclosure-closed;">
                       <li>
                                   profiles
-                class
-                
+                  class
                 <a href="http://www.w3.org/ns/dcat#Resource">Catalogued resource</a> (<a href="http://www.w3.org/ns/dcat#Resource">dcat:Resource</a>)
                   <br />Definition: <i>Resource published or curated by a single agent.</i>
                   <ul style="list-style-type: disclosure-closed;">
@@ -2396,7 +2132,6 @@
               <tr>
                 <td>Profiled class IRI(s)</td>
                 <td>
-                    
                     <a href="http://www.w3.org/ns/dcat#DatasetSeries">dcat:DatasetSeries</a>
                 </td>
               </tr>
@@ -2420,41 +2155,35 @@
                     <ul style="list-style-type: disclosure-closed; padding-left: 0; margin: 0;">
                           <li>
                                     profiles
-                
-                class profile
+                  class profile
                 <a href="https://ofn.gov.cz/dcat-ap-cz/2026-09-23/cs/#SérieDatovýchSad">Dataset Series</a> (<a href="https://ofn.gov.cz/dcat-ap-cz#SérieDatovýchSad">dcat-ap-cz:SérieDatovýchSad</a>)
                   <br />Definition: <i>A collection of datasets that are published separately, but share some characteristics that group them.</i>
                   <ul style="list-style-type: disclosure-closed;">
                       <li>
                                   profiles
-                
-                class profile
+                  class profile
                 <a href="https://semiceu.github.io/DCAT-AP/releases/3.0.1/#DatasetSeries">Dataset Series</a> (<a href="https://mff-uk.github.io/specifications/dcat-ap#DatasetSeries">dcat-ap:DatasetSeries</a>)
                   <ul style="list-style-type: disclosure-closed;">
                       <li>
                                   profiles
-                
-                class profile
+                  class profile
                 <a href="https://www.w3.org/TR/vocab-dcat-3/#Class:Dataset_Series">Dataset Series</a> (<a href="https://mff-uk.github.io/specifications/dcat-dap#DatasetSeries">dcat-dap:DatasetSeries</a>)
                   <ul style="list-style-type: disclosure-closed;">
                       <li>
                                   profiles
-                class
-                
+                  class
                 <a href="http://www.w3.org/ns/dcat#DatasetSeries">Dataset series</a> (<a href="http://www.w3.org/ns/dcat#DatasetSeries">dcat:DatasetSeries</a>)
                   <br />Definition: <i>A collection of datasets that are published separately, but share some characteristics that group them.</i>
                   <ul style="list-style-type: disclosure-closed;">
                       <li>
                                   specializes
-                class
-                
+                  class
                 <a href="http://www.w3.org/ns/dcat#Dataset">Dataset</a> (<a href="http://www.w3.org/ns/dcat#Dataset">dcat:Dataset</a>)
                   <br />Definition: <i>A collection of data, published or curated by a single source, and available for access or download in one or more representations.</i>
                   <ul style="list-style-type: disclosure-closed;">
                       <li>
                                   specializes
-                class
-                
+                  class
                 <a href="http://www.w3.org/ns/dcat#Resource">Catalogued resource</a> (<a href="http://www.w3.org/ns/dcat#Resource">dcat:Resource</a>)
                   <br />Definition: <i>Resource published or curated by a single agent.</i>
                   <ul style="list-style-type: disclosure-closed;">
@@ -2469,21 +2198,18 @@
                       </li>
                       <li>
                                   specializes
-                
-                class profile
+                  class profile
                 <a href="https://www.w3.org/TR/vocab-dcat-3/#Class:Dataset">Dataset</a> (<a href="https://mff-uk.github.io/specifications/dcat-dap#Dataset">dcat-dap:Dataset</a>)
                   <ul style="list-style-type: disclosure-closed;">
                       <li>
                                   profiles
-                class
-                
+                  class
                 <a href="http://www.w3.org/ns/dcat#Dataset">Dataset</a> (<a href="http://www.w3.org/ns/dcat#Dataset">dcat:Dataset</a>)
                   <br />Definition: <i>A collection of data, published or curated by a single source, and available for access or download in one or more representations.</i>
                   <ul style="list-style-type: disclosure-closed;">
                       <li>
                                   specializes
-                class
-                
+                  class
                 <a href="http://www.w3.org/ns/dcat#Resource">Catalogued resource</a> (<a href="http://www.w3.org/ns/dcat#Resource">dcat:Resource</a>)
                   <br />Definition: <i>Resource published or curated by a single agent.</i>
                   <ul style="list-style-type: disclosure-closed;">
@@ -2495,14 +2221,12 @@
                       </li>
                       <li>
                                   specializes
-                
-                class profile
+                  class profile
                 <a href="https://www.w3.org/TR/vocab-dcat-3/#Class:Resource">Cataloged Resource</a> (<a href="https://mff-uk.github.io/specifications/dcat-dap#CatalogedResource">dcat-dap:CatalogedResource</a>)
                   <ul style="list-style-type: disclosure-closed;">
                       <li>
                                   profiles
-                class
-                
+                  class
                 <a href="http://www.w3.org/ns/dcat#Resource">Catalogued resource</a> (<a href="http://www.w3.org/ns/dcat#Resource">dcat:Resource</a>)
                   <br />Definition: <i>Resource published or curated by a single agent.</i>
                   <ul style="list-style-type: disclosure-closed;">
@@ -2520,20 +2244,17 @@
                       </li>
                       <li>
                                   specializes
-                
-                class profile
+                  class profile
                 <a href="https://semiceu.github.io/DCAT-AP/releases/3.0.1/#CataloguedResource">Catalogued Resource</a> (<a href="https://mff-uk.github.io/specifications/dcat-ap#CataloguedResource">dcat-ap:CataloguedResource</a>)
                   <ul style="list-style-type: disclosure-closed;">
                       <li>
                                   profiles
-                
-                class profile
+                  class profile
                 <a href="https://www.w3.org/TR/vocab-dcat-3/#Class:Resource">Cataloged Resource</a> (<a href="https://mff-uk.github.io/specifications/dcat-dap#CatalogedResource">dcat-dap:CatalogedResource</a>)
                   <ul style="list-style-type: disclosure-closed;">
                       <li>
                                   profiles
-                class
-                
+                  class
                 <a href="http://www.w3.org/ns/dcat#Resource">Catalogued resource</a> (<a href="http://www.w3.org/ns/dcat#Resource">dcat:Resource</a>)
                   <br />Definition: <i>Resource published or curated by a single agent.</i>
                   <ul style="list-style-type: disclosure-closed;">
@@ -2554,40 +2275,34 @@
                           </li>
                         <li>
                                   specializes
-                
-                class profile
+                  class profile
                 <a href="#DatováSada">Dataset</a> (<a href="https://ofn.gov.cz/dcat-ap-cz-rozhraní-katalogů-dat#DatováSada">https://ofn.gov.cz/dcat-ap-cz-rozhraní-katalogů-dat#DatováSada</a>)
                   <ul style="list-style-type: disclosure-closed;">
                       <li>
                                   profiles
-                
-                class profile
+                  class profile
                 <a href="https://ofn.gov.cz/dcat-ap-cz/2026-09-23/cs/#DatováSada">Dataset</a> (<a href="https://ofn.gov.cz/dcat-ap-cz#DatováSada">dcat-ap-cz:DatováSada</a>)
                   <ul style="list-style-type: disclosure-closed;">
                       <li>
                                   profiles
-                
-                class profile
+                  class profile
                 <a href="https://semiceu.github.io/DCAT-AP/releases/3.0.1/#Dataset">Dataset</a> (<a href="https://mff-uk.github.io/specifications/dcat-ap#Dataset">dcat-ap:Dataset</a>)
                   <br />Definition: <i>A conceptual entity that represents the information published.</i>
                   <ul style="list-style-type: disclosure-closed;">
                       <li>
                                   profiles
-                
-                class profile
+                  class profile
                 <a href="https://www.w3.org/TR/vocab-dcat-3/#Class:Dataset">Dataset</a> (<a href="https://mff-uk.github.io/specifications/dcat-dap#Dataset">dcat-dap:Dataset</a>)
                   <ul style="list-style-type: disclosure-closed;">
                       <li>
                                   profiles
-                class
-                
+                  class
                 <a href="http://www.w3.org/ns/dcat#Dataset">Dataset</a> (<a href="http://www.w3.org/ns/dcat#Dataset">dcat:Dataset</a>)
                   <br />Definition: <i>A collection of data, published or curated by a single source, and available for access or download in one or more representations.</i>
                   <ul style="list-style-type: disclosure-closed;">
                       <li>
                                   specializes
-                class
-                
+                  class
                 <a href="http://www.w3.org/ns/dcat#Resource">Catalogued resource</a> (<a href="http://www.w3.org/ns/dcat#Resource">dcat:Resource</a>)
                   <br />Definition: <i>Resource published or curated by a single agent.</i>
                   <ul style="list-style-type: disclosure-closed;">
@@ -2599,14 +2314,12 @@
                       </li>
                       <li>
                                   specializes
-                
-                class profile
+                  class profile
                 <a href="https://www.w3.org/TR/vocab-dcat-3/#Class:Resource">Cataloged Resource</a> (<a href="https://mff-uk.github.io/specifications/dcat-dap#CatalogedResource">dcat-dap:CatalogedResource</a>)
                   <ul style="list-style-type: disclosure-closed;">
                       <li>
                                   profiles
-                class
-                
+                  class
                 <a href="http://www.w3.org/ns/dcat#Resource">Catalogued resource</a> (<a href="http://www.w3.org/ns/dcat#Resource">dcat:Resource</a>)
                   <br />Definition: <i>Resource published or curated by a single agent.</i>
                   <ul style="list-style-type: disclosure-closed;">
@@ -2621,20 +2334,17 @@
                       </li>
                       <li>
                                   specializes
-                
-                class profile
+                  class profile
                 <a href="https://semiceu.github.io/DCAT-AP/releases/3.0.1/#CataloguedResource">Catalogued Resource</a> (<a href="https://mff-uk.github.io/specifications/dcat-ap#CataloguedResource">dcat-ap:CataloguedResource</a>)
                   <ul style="list-style-type: disclosure-closed;">
                       <li>
                                   profiles
-                
-                class profile
+                  class profile
                 <a href="https://www.w3.org/TR/vocab-dcat-3/#Class:Resource">Cataloged Resource</a> (<a href="https://mff-uk.github.io/specifications/dcat-dap#CatalogedResource">dcat-dap:CatalogedResource</a>)
                   <ul style="list-style-type: disclosure-closed;">
                       <li>
                                   profiles
-                class
-                
+                  class
                 <a href="http://www.w3.org/ns/dcat#Resource">Catalogued resource</a> (<a href="http://www.w3.org/ns/dcat#Resource">dcat:Resource</a>)
                   <br />Definition: <i>Resource published or curated by a single agent.</i>
                   <ul style="list-style-type: disclosure-closed;">
@@ -2676,7 +2386,6 @@
               <tr>
                 <td>Profiled class IRI(s)</td>
                 <td>
-                    
                     <a href="http://xmlns.com/foaf/0.1/Document">foaf:Document</a>
                 </td>
               </tr>
@@ -2704,22 +2413,19 @@
                     <ul style="list-style-type: disclosure-closed; padding-left: 0; margin: 0;">
                           <li>
                                     profiles
-                
-                class profile
+                  class profile
                 <a href="https://ofn.gov.cz/dcat-ap-cz/2026-09-23/cs/#Dokument">Document</a> (<a href="https://ofn.gov.cz/dcat-ap-cz#Dokument">dcat-ap-cz:Dokument</a>)
                   <br />Definition: <i>A textual resource intended for human consumption that contains information, e.g. a web page about a Dataset.</i>
                   <ul style="list-style-type: disclosure-closed;">
                       <li>
                                   profiles
-                
-                class profile
+                  class profile
                 <a href="https://semiceu.github.io/DCAT-AP/releases/3.0.1/#Document">Document</a> (<a href="https://mff-uk.github.io/specifications/dcat-ap#Document">dcat-ap:Document</a>)
                   <br />Definition: <i>A textual resource intended for human consumption that contains information, e.g. a web page about a Dataset.</i>
                   <ul style="list-style-type: disclosure-closed;">
                       <li>
                                   profiles
-                class
-                
+                  class
                 <a href="http://xmlns.com/foaf/0.1/Document">Document</a> (<a href="http://xmlns.com/foaf/0.1/Document">foaf:Document</a>)
                   <br />Definition: <i>A document.</i>
                   <ul style="list-style-type: disclosure-closed;">
@@ -2752,7 +2458,6 @@
               <tr>
                 <td>Profiled class IRI(s)</td>
                 <td>
-                    
                     <a href="http://www.w3.org/2000/01/rdf-schema#Resource">rdfs:Resource</a>
                 </td>
               </tr>
@@ -2776,35 +2481,30 @@
                     <ul style="list-style-type: disclosure-closed; padding-left: 0; margin: 0;">
                           <li>
                                     profiles
-                
-                class profile
+                  class profile
                 <a href="https://ofn.gov.cz/dcat-ap-cz/2026-09-23/cs/#E-mailAddress">E-mail address</a> (<a href="https://ofn.gov.cz/dcat-ap-cz#E-mailAddress">dcat-ap-cz:E-mailAddress</a>)
                   <br />Definition: <i>E-mail address identified using mailto: IRI.</i>
                   <ul style="list-style-type: disclosure-closed;">
                       <li>
                                   profiles
-                
-                class profile
+                  class profile
                 <a href="https://ofn.gov.cz/dcat-ap-cz/2026-09-23/cs/#Zdroj">Resource</a> (<a href="https://ofn.gov.cz/dcat-ap-cz#Zdroj">dcat-ap-cz:Zdroj</a>)
                   <br />Definition: <i>Anything described by RDF.</i>
                   <ul style="list-style-type: disclosure-closed;">
                       <li>
                                   profiles
-                
-                class profile
+                  class profile
                 <a href="https://semiceu.github.io/DCAT-AP/releases/3.0.1/#Resource">Resource</a> (<a href="https://mff-uk.github.io/specifications/dcat-ap#rdfs-Resource">dcat-ap:rdfs-Resource</a>)
                   <br />Definition: <i>Anything described by RDF.</i>
                   <ul style="list-style-type: disclosure-closed;">
                       <li>
                                   profiles
-                
-                class profile
+                  class profile
                 <a href="https://mff-uk.github.io/specifications/dcat-dap/#rdfs-Resource">Resource</a> (<a href="https://mff-uk.github.io/specifications/dcat-dap#rdfs-Resource">dcat-dap:rdfs-Resource</a>)
                   <ul style="list-style-type: disclosure-closed;">
                       <li>
                                   profiles
-                class
-                
+                  class
                 <a href="http://www.w3.org/2000/01/rdf-schema#Resource">Resource</a> (<a href="http://www.w3.org/2000/01/rdf-schema#Resource">rdfs:Resource</a>)
                   <br />Definition: <i>The class resource, everything.</i>
                   <ul style="list-style-type: disclosure-closed;">
@@ -2843,7 +2543,6 @@
               <tr>
                 <td>Profiled class IRI(s)</td>
                 <td>
-                    
                     <a href="http://www.w3.org/2006/vcard/ns#Organization">vcard:Organization</a>
                 </td>
               </tr>
@@ -2868,24 +2567,21 @@
                     <ul style="list-style-type: disclosure-closed; padding-left: 0; margin: 0;">
                           <li>
                                     profiles
-                
-                class profile
+                  class profile
                 <a href="https://ofn.gov.cz/dcat-ap-cz/2026-09-23/cs/#Organizace">Organization</a> (<a href="https://ofn.gov.cz/dcat-ap-cz#Organizace">dcat-ap-cz:Organizace</a>)
                   <br />Definition: <i>An object representing an organization.  An organization is a single entity, and might represent a business or government, a department or division within a business or government, a club, an association, or the like.
           </i>
                   <ul style="list-style-type: disclosure-closed;">
                       <li>
                                   profiles
-                class
-                
+                  class
                 <a href="http://www.w3.org/2006/vcard/ns#Organization">Organization</a> (<a href="http://www.w3.org/2006/vcard/ns#Organization">vcard:Organization</a>)
                   <br />Definition: <i>An object representing an organization.  An organization is a single entity, and might represent a business or government, a department or division within a business or government, a club, an association, or the like.
           </i>
                   <ul style="list-style-type: disclosure-closed;">
                       <li>
                                   specializes
-                class
-                
+                  class
                 <a href="http://www.w3.org/2006/vcard/ns#Kind">Kind</a> (<a href="http://www.w3.org/2006/vcard/ns#Kind">vcard:Kind</a>)
                   <br />Definition: <i>The parent class for all objects</i>
                   <ul style="list-style-type: disclosure-closed;">
@@ -2897,28 +2593,24 @@
                       </li>
                       <li>
                                   specializes
-                
-                class profile
+                  class profile
                 <a href="https://ofn.gov.cz/dcat-ap-cz/2026-09-23/cs/#KontaktníBod">Kind</a> (<a href="https://ofn.gov.cz/dcat-ap-cz#KontaktníBod">dcat-ap-cz:KontaktníBod</a>)
                   <br />Definition: <i>A description following the vCard specification, e.g. to provide telephone number and e-mail address for a contact point.</i>
                   <ul style="list-style-type: disclosure-closed;">
                       <li>
                                   profiles
-                
-                class profile
+                  class profile
                 <a href="https://semiceu.github.io/DCAT-AP/releases/3.0.1/#Kind">Kind</a> (<a href="https://mff-uk.github.io/specifications/dcat-ap#Kind">dcat-ap:Kind</a>)
                   <br />Definition: <i>A description following the vCard specification, e.g. to provide telephone number and e-mail address for a contact point.</i>
                   <ul style="list-style-type: disclosure-closed;">
                       <li>
                                   profiles
-                
-                class profile
+                  class profile
                 <a href="https://mff-uk.github.io/specifications/dcat-dap/#Kind">Kind</a> (<a href="https://mff-uk.github.io/specifications/dcat-dap#Kind">dcat-dap:Kind</a>)
                   <ul style="list-style-type: disclosure-closed;">
                       <li>
                                   profiles
-                class
-                
+                  class
                 <a href="http://www.w3.org/2006/vcard/ns#Kind">Kind</a> (<a href="http://www.w3.org/2006/vcard/ns#Kind">vcard:Kind</a>)
                   <br />Definition: <i>The parent class for all objects</i>
                   <ul style="list-style-type: disclosure-closed;">
@@ -2958,7 +2650,6 @@
                   <tr>
                     <td>Profiled relationship IRI(s)</td>
                     <td>
-                        
                         <a href="http://www.w3.org/2006/vcard/ns#fn">vcard:fn</a>
                     </td>
                   </tr>
@@ -2987,8 +2678,7 @@
                     <td>
                       <a href="https://ofn.gov.cz/základní-datové-typy/2020-07-01/#text">Text</a>
               
-                          [1..1]
-              
+                      [1..1]
                   </td>
                   </tr>
                   
@@ -3001,15 +2691,13 @@
                         <ul style="list-style-type: disclosure-closed; padding-left: 0; margin: 0;">
                               <li>
                                         profiles
-                    
-                    property profile
+                      property profile
                     <a href="https://ofn.gov.cz/dcat-ap-cz/2026-09-23/cs/#KontaktníBod.jméno">formatted name</a> (<a href="https://ofn.gov.cz/dcat-ap-cz#KontaktníBod.jméno">dcat-ap-cz:KontaktníBod.jméno</a>)
                       <br />Definition: <i>The formatted text corresponding to the name of the object</i>
                       <ul style="list-style-type: disclosure-closed;">
                           <li>
                                       profiles
-                    property
-                    
+                      property
                     <a href="http://www.w3.org/2006/vcard/ns#fn">formatted name</a> (<a href="http://www.w3.org/2006/vcard/ns#fn">vcard:fn</a>)
                       <br />Definition: <i>The formatted text corresponding to the name of the object</i>
                       <ul style="list-style-type: disclosure-closed;">
@@ -3031,7 +2719,6 @@
                   <tr>
                     <td>Profiled relationship IRI(s)</td>
                     <td>
-                        
                         <a href="http://www.w3.org/2006/vcard/ns#hasEmail">vcard:hasEmail</a>
                     </td>
                   </tr>
@@ -3060,8 +2747,7 @@
                     <td>
                       <a href="#E-mailAddress">E-mail address</a>
               
-                          [1..1]
-              
+                      [1..1]
                   </td>
                   </tr>
                   
@@ -3074,15 +2760,13 @@
                         <ul style="list-style-type: disclosure-closed; padding-left: 0; margin: 0;">
                               <li>
                                         profiles
-                    
-                    property profile
+                      property profile
                     <a href="https://ofn.gov.cz/dcat-ap-cz/2026-09-23/cs/#KontaktníBod.email">has email</a> (<a href="https://ofn.gov.cz/dcat-ap-cz#KontaktníBod.email">dcat-ap-cz:KontaktníBod.email</a>)
                       <br />Definition: <i>To specify the electronic mail address for communication with the object</i>
                       <ul style="list-style-type: disclosure-closed;">
                           <li>
                                       profiles
-                    property
-                    
+                      property
                     <a href="http://www.w3.org/2006/vcard/ns#hasEmail">has email</a> (<a href="http://www.w3.org/2006/vcard/ns#hasEmail">vcard:hasEmail</a>)
                       <br />Definition: <i>To specify the electronic mail address for communication with the object</i>
                       <ul style="list-style-type: disclosure-closed;">
@@ -3105,7 +2789,6 @@
               <tr>
                 <td>Profiled class IRI(s)</td>
                 <td>
-                    
                     <a href="http://www.w3.org/2000/01/rdf-schema#Resource">rdfs:Resource</a>
                 </td>
               </tr>
@@ -3137,28 +2820,24 @@
                     <ul style="list-style-type: disclosure-closed; padding-left: 0; margin: 0;">
                           <li>
                                     profiles
-                
-                class profile
+                  class profile
                 <a href="https://ofn.gov.cz/dcat-ap-cz/2026-09-23/cs/#Zdroj">Resource</a> (<a href="https://ofn.gov.cz/dcat-ap-cz#Zdroj">dcat-ap-cz:Zdroj</a>)
                   <br />Definition: <i>Anything described by RDF.</i>
                   <ul style="list-style-type: disclosure-closed;">
                       <li>
                                   profiles
-                
-                class profile
+                  class profile
                 <a href="https://semiceu.github.io/DCAT-AP/releases/3.0.1/#Resource">Resource</a> (<a href="https://mff-uk.github.io/specifications/dcat-ap#rdfs-Resource">dcat-ap:rdfs-Resource</a>)
                   <br />Definition: <i>Anything described by RDF.</i>
                   <ul style="list-style-type: disclosure-closed;">
                       <li>
                                   profiles
-                
-                class profile
+                  class profile
                 <a href="https://mff-uk.github.io/specifications/dcat-dap/#rdfs-Resource">Resource</a> (<a href="https://mff-uk.github.io/specifications/dcat-dap#rdfs-Resource">dcat-dap:rdfs-Resource</a>)
                   <ul style="list-style-type: disclosure-closed;">
                       <li>
                                   profiles
-                class
-                
+                  class
                 <a href="http://www.w3.org/2000/01/rdf-schema#Resource">Resource</a> (<a href="http://www.w3.org/2000/01/rdf-schema#Resource">rdfs:Resource</a>)
                   <br />Definition: <i>The class resource, everything.</i>
                   <ul style="list-style-type: disclosure-closed;">

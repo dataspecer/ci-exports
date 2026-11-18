@@ -1,0 +1,338 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<http://example.com/profile#> rdfs:member <http://example.com/profile#vocabulary:TestShape>, <http://example.com/profile#vocabulary:Value_must_aShape>, <http://example.com/profile#vocabulary:Value_must_aShape/cv-7682405e>, <http://example.com/profile#vocabulary:Value_must_a_class_regexShape>, <http://example.com/profile#vocabulary:Value_must_a_class_regexShape/cv-7682405e>, <http://example.com/profile#vocabulary:Value_must_a_singleShape>, <http://example.com/profile#vocabulary:Value_must_a_singleShape/cv-7682405e>, <http://example.com/profile#vocabulary:Value_must_a_objectShape>, <http://example.com/profile#vocabulary:Value_must_a_objectShape/cv-7682405e>, <http://example.com/profile#vocabulary:Value_at_least_one_aShape>, <http://example.com/profile#vocabulary:Value_at_least_one_aShape/cv-7682405e>, <http://example.com/profile#vocabulary:Value_at_least_one_a_singleShape>, <http://example.com/profile#vocabulary:Value_at_least_one_a_singleShape/cv-7682405e>, <http://example.com/profile#vocabulary:Value_at_least_one_a_objectShape>, <http://example.com/profile#vocabulary:Value_at_least_one_a_objectShape/cv-7682405e>, <http://example.com/profile#vocabulary:Value_at_least_one_a_and_bShape>, <http://example.com/profile#vocabulary:Value_at_least_one_a_and_bShape/cv-7682405e>, <http://example.com/profile#vocabulary:Value_at_least_one_a_and_bShape/cv-7682405f>, <http://example.com/profile#vocabulary:Value_recommended_a_defaultShape>, <http://example.com/profile#vocabulary:Value_recommended_a_defaultShape/cv-7682405e>, <http://example.com/profile#vocabulary:Value_recommended_a_requireShape>, <http://example.com/profile#vocabulary:Value_recommended_a_requireShape/cv-7682405e>, <http://example.com/profile#vocabulary:Value_recommended_a_restrictShape>, <http://example.com/profile#vocabulary:Value_recommended_a_restrictShape/cv-7682405e>, <http://example.com/profile#vocabulary:Value_recommended_a_bothShape>, <http://example.com/profile#vocabulary:Value_recommended_a_bothShape/cv-7682405e>, <http://example.com/profile#vocabulary:Value_may_aShape>, <http://example.com/profile#vocabulary:Value_may_aShape/cv-7682405e>, <http://example.com/profile#vocabulary:Value_must_without_patternShape>, <http://example.com/profile#vocabulary:Value_at_least_one_a_recommended_b_requireShape>, <http://example.com/profile#vocabulary:Value_at_least_one_a_recommended_b_requireShape/cv-7682405e>, <http://example.com/profile#vocabulary:Value_at_least_one_a_recommended_b_requireShape/cv-7682405f>.
+
+<http://example.com/profile#vocabulary:TestShape> a sh:NodeShape;
+    rdfs:seeAlso <http://example.com/profile#Test>;
+    sh:closed false;
+    sh:targetClass <http://example.com/vocabulary#Test>.
+
+<http://example.com/profile#vocabulary:TestShape/-2f2a5d22> a sh:PropertyShape;
+    sh:name "must_a"@en;
+    sh:nodeKind sh:BlankNodeOrIRI;
+    sh:path <http://example.com/vocabulary#must_a>;
+    sh:class <http://example.com/vocabulary#Value_must_a>.
+
+<http://example.com/profile#vocabulary:TestShape> sh:property <http://example.com/profile#vocabulary:TestShape/-2f2a5d22>.
+
+<http://example.com/profile#vocabulary:TestShape/47787dbe> a sh:PropertyShape;
+    sh:name "must_a_class_regex"@en;
+    sh:nodeKind sh:BlankNodeOrIRI;
+    sh:path <http://example.com/vocabulary#must_a_class_regex>;
+    sh:class <http://example.com/vocabulary#Value_must_a_class_regex>.
+
+<http://example.com/profile#vocabulary:TestShape> sh:property <http://example.com/profile#vocabulary:TestShape/47787dbe>.
+
+<http://example.com/profile#vocabulary:TestShape/-4aaf776c> a sh:PropertyShape;
+    sh:name "must_a_single"@en;
+    sh:nodeKind sh:BlankNodeOrIRI;
+    sh:path <http://example.com/vocabulary#must_a_single>;
+    sh:maxCount 1;
+    sh:class <http://example.com/vocabulary#Value_must_a_single>.
+
+<http://example.com/profile#vocabulary:TestShape> sh:property <http://example.com/profile#vocabulary:TestShape/-4aaf776c>.
+
+<http://example.com/profile#vocabulary:TestShape/5d96fac2> a sh:PropertyShape;
+    sh:name "must_a_object"@en;
+    sh:nodeKind sh:BlankNodeOrIRI;
+    sh:path <http://example.com/vocabulary#must_a_object>;
+    sh:class <http://example.com/vocabulary#Value_must_a_object>.
+
+<http://example.com/profile#vocabulary:TestShape> sh:property <http://example.com/profile#vocabulary:TestShape/5d96fac2>.
+
+<http://example.com/profile#vocabulary:TestShape/-67a52902> a sh:PropertyShape;
+    sh:name "at_least_one_a"@en;
+    sh:nodeKind sh:BlankNodeOrIRI;
+    sh:path <http://example.com/vocabulary#at_least_one_a>;
+    sh:class <http://example.com/vocabulary#Value_at_least_one_a>.
+
+<http://example.com/profile#vocabulary:TestShape> sh:property <http://example.com/profile#vocabulary:TestShape/-67a52902>.
+
+<http://example.com/profile#vocabulary:TestShape/f05f1e> a sh:PropertyShape;
+    sh:name "at_least_one_a_single"@en;
+    sh:nodeKind sh:BlankNodeOrIRI;
+    sh:path <http://example.com/vocabulary#at_least_one_a_single>;
+    sh:maxCount 1;
+    sh:class <http://example.com/vocabulary#Value_at_least_one_a_single>.
+
+<http://example.com/profile#vocabulary:TestShape> sh:property <http://example.com/profile#vocabulary:TestShape/f05f1e>.
+
+<http://example.com/profile#vocabulary:TestShape/55e7aa4c> a sh:PropertyShape;
+    sh:name "at_least_one_a_object"@en;
+    sh:nodeKind sh:BlankNodeOrIRI;
+    sh:path <http://example.com/vocabulary#at_least_one_a_object>;
+    sh:class <http://example.com/vocabulary#Value_at_least_one_a_object>.
+
+<http://example.com/profile#vocabulary:TestShape> sh:property <http://example.com/profile#vocabulary:TestShape/55e7aa4c>.
+
+<http://example.com/profile#vocabulary:TestShape/-1e923062> a sh:PropertyShape;
+    sh:name "at_least_one_a_and_b"@en;
+    sh:nodeKind sh:BlankNodeOrIRI;
+    sh:path <http://example.com/vocabulary#at_least_one_a_and_b>;
+    sh:class <http://example.com/vocabulary#Value_at_least_one_a_and_b>.
+
+<http://example.com/profile#vocabulary:TestShape> sh:property <http://example.com/profile#vocabulary:TestShape/-1e923062>.
+
+<http://example.com/profile#vocabulary:TestShape/-1a4d55e6> a sh:PropertyShape;
+    sh:name "recommended_a_default"@en;
+    sh:nodeKind sh:BlankNodeOrIRI;
+    sh:path <http://example.com/vocabulary#recommended_a_default>;
+    sh:class <http://example.com/vocabulary#Value_recommended_a_default>.
+
+<http://example.com/profile#vocabulary:TestShape> sh:property <http://example.com/profile#vocabulary:TestShape/-1a4d55e6>.
+
+<http://example.com/profile#vocabulary:TestShape/-7ca1f49e> a sh:PropertyShape;
+    sh:name "recommended_a_require"@en;
+    sh:nodeKind sh:BlankNodeOrIRI;
+    sh:path <http://example.com/vocabulary#recommended_a_require>;
+    sh:class <http://example.com/vocabulary#Value_recommended_a_require>.
+
+<http://example.com/profile#vocabulary:TestShape> sh:property <http://example.com/profile#vocabulary:TestShape/-7ca1f49e>.
+
+<http://example.com/profile#vocabulary:TestShape/778eeafe> a sh:PropertyShape;
+    sh:name "recommended_a_restrict"@en;
+    sh:nodeKind sh:BlankNodeOrIRI;
+    sh:path <http://example.com/vocabulary#recommended_a_restrict>;
+    sh:class <http://example.com/vocabulary#Value_recommended_a_restrict>.
+
+<http://example.com/profile#vocabulary:TestShape> sh:property <http://example.com/profile#vocabulary:TestShape/778eeafe>.
+
+<http://example.com/profile#vocabulary:TestShape/-7a662822> a sh:PropertyShape;
+    sh:name "recommended_a_both"@en;
+    sh:nodeKind sh:BlankNodeOrIRI;
+    sh:path <http://example.com/vocabulary#recommended_a_both>;
+    sh:class <http://example.com/vocabulary#Value_recommended_a_both>.
+
+<http://example.com/profile#vocabulary:TestShape> sh:property <http://example.com/profile#vocabulary:TestShape/-7a662822>.
+
+<http://example.com/profile#vocabulary:TestShape/808a92a> a sh:PropertyShape;
+    sh:name "may_a"@en;
+    sh:nodeKind sh:BlankNodeOrIRI;
+    sh:path <http://example.com/vocabulary#may_a>;
+    sh:class <http://example.com/vocabulary#Value_may_a>.
+
+<http://example.com/profile#vocabulary:TestShape> sh:property <http://example.com/profile#vocabulary:TestShape/808a92a>.
+
+<http://example.com/profile#vocabulary:TestShape/-2183e222> a sh:PropertyShape;
+    sh:name "must_without_pattern"@en;
+    sh:nodeKind sh:BlankNodeOrIRI;
+    sh:path <http://example.com/vocabulary#must_without_pattern>;
+    sh:class <http://example.com/vocabulary#Value_must_without_pattern>.
+
+<http://example.com/profile#vocabulary:TestShape> sh:property <http://example.com/profile#vocabulary:TestShape/-2183e222>.
+
+<http://example.com/profile#vocabulary:TestShape/-21761522> a sh:PropertyShape;
+    sh:name "at_least_one_a_recommended_b_require"@en;
+    sh:nodeKind sh:BlankNodeOrIRI;
+    sh:path <http://example.com/vocabulary#at_least_one_a_recommended_b_require>;
+    sh:class <http://example.com/vocabulary#Value_at_least_one_a_recommended_b_require>.
+
+<http://example.com/profile#vocabulary:TestShape> sh:property <http://example.com/profile#vocabulary:TestShape/-21761522>.
+
+<http://example.com/profile#vocabulary:Value_must_aShape> a sh:NodeShape;
+    rdfs:seeAlso <http://example.com/profile#Value_must_a>;
+    sh:closed false;
+    sh:targetClass <http://example.com/vocabulary#Value_must_a>.
+
+<http://example.com/profile#vocabulary:Value_must_aShape/cv-7682405e> a sh:NodeShape;
+    rdfs:seeAlso <http://example.com/profile#Value_must_a>;
+    sh:closed false;
+    sh:targetClass <http://example.com/vocabulary#Value_must_a>;
+    sh:pattern "^http://example\\.com/cv-a/[a-z]+$";
+    sh:severity sh:Violation.
+
+<http://example.com/profile#vocabulary:Value_must_a_class_regexShape> a sh:NodeShape;
+    rdfs:seeAlso <http://example.com/profile#Value_must_a_class_regex>;
+    sh:closed false;
+    sh:targetClass <http://example.com/vocabulary#Value_must_a_class_regex>.
+
+<http://example.com/profile#vocabulary:Value_must_a_class_regexShape/cv-7682405e> a sh:NodeShape;
+    rdfs:seeAlso <http://example.com/profile#Value_must_a_class_regex>;
+    sh:closed false;
+    sh:targetClass <http://example.com/vocabulary#Value_must_a_class_regex>;
+    sh:pattern "^http://example\\.com/cv-a/[a-z]+$";
+    sh:severity sh:Violation.
+
+<http://example.com/profile#vocabulary:Value_must_a_singleShape> a sh:NodeShape;
+    rdfs:seeAlso <http://example.com/profile#Value_must_a_single>;
+    sh:closed false;
+    sh:targetClass <http://example.com/vocabulary#Value_must_a_single>.
+
+<http://example.com/profile#vocabulary:Value_must_a_singleShape/cv-7682405e> a sh:NodeShape;
+    rdfs:seeAlso <http://example.com/profile#Value_must_a_single>;
+    sh:closed false;
+    sh:targetClass <http://example.com/vocabulary#Value_must_a_single>;
+    sh:pattern "^http://example\\.com/cv-a/[a-z]+$";
+    sh:severity sh:Violation.
+
+<http://example.com/profile#vocabulary:Value_must_a_objectShape> a sh:NodeShape;
+    rdfs:seeAlso <http://example.com/profile#Value_must_a_object>;
+    sh:closed false;
+    sh:targetClass <http://example.com/vocabulary#Value_must_a_object>.
+
+<http://example.com/profile#vocabulary:Value_must_a_objectShape/4304c945> a sh:PropertyShape;
+    sh:name "label"@en;
+    sh:nodeKind sh:Literal;
+    sh:path <http://example.com/vocabulary#label_must_a_object>;
+    sh:maxCount 1.
+
+<http://example.com/profile#vocabulary:Value_must_a_objectShape> sh:property <http://example.com/profile#vocabulary:Value_must_a_objectShape/4304c945>.
+
+<http://example.com/profile#vocabulary:Value_must_a_objectShape/-5b10f080> a sh:PropertyShape;
+    sh:name "label"@en;
+    sh:nodeKind sh:Literal;
+    sh:path <http://example.com/vocabulary#label_at_least_one_a_object>;
+    sh:maxCount 1.
+
+<http://example.com/profile#vocabulary:Value_must_a_objectShape> sh:property <http://example.com/profile#vocabulary:Value_must_a_objectShape/-5b10f080>.
+
+<http://example.com/profile#vocabulary:Value_must_a_objectShape/cv-7682405e> a sh:NodeShape;
+    rdfs:seeAlso <http://example.com/profile#Value_must_a_object>;
+    sh:closed false;
+    sh:targetClass <http://example.com/vocabulary#Value_must_a_object>;
+    sh:pattern "^http://example\\.com/cv-a/[a-z]+$";
+    sh:severity sh:Violation.
+
+<http://example.com/profile#vocabulary:Value_at_least_one_aShape> a sh:NodeShape;
+    rdfs:seeAlso <http://example.com/profile#Value_at_least_one_a>;
+    sh:closed false;
+    sh:targetClass <http://example.com/vocabulary#Value_at_least_one_a>.
+
+<http://example.com/profile#vocabulary:Value_at_least_one_aShape/cv-7682405e> a sh:NodeShape;
+    rdfs:seeAlso <http://example.com/profile#Value_at_least_one_a>;
+    sh:closed false;
+    sh:targetClass <http://example.com/vocabulary#Value_at_least_one_a>;
+    sh:pattern "^http://example\\.com/cv-a/[a-z]+$";
+    sh:severity sh:Warning.
+
+<http://example.com/profile#vocabulary:Value_at_least_one_a_singleShape> a sh:NodeShape;
+    rdfs:seeAlso <http://example.com/profile#Value_at_least_one_a_single>;
+    sh:closed false;
+    sh:targetClass <http://example.com/vocabulary#Value_at_least_one_a_single>.
+
+<http://example.com/profile#vocabulary:Value_at_least_one_a_singleShape/cv-7682405e> a sh:NodeShape;
+    rdfs:seeAlso <http://example.com/profile#Value_at_least_one_a_single>;
+    sh:closed false;
+    sh:targetClass <http://example.com/vocabulary#Value_at_least_one_a_single>;
+    sh:pattern "^http://example\\.com/cv-a/[a-z]+$";
+    sh:severity sh:Warning.
+
+<http://example.com/profile#vocabulary:Value_at_least_one_a_objectShape> a sh:NodeShape;
+    rdfs:seeAlso <http://example.com/profile#Value_at_least_one_a_object>;
+    sh:closed false;
+    sh:targetClass <http://example.com/vocabulary#Value_at_least_one_a_object>.
+
+<http://example.com/profile#vocabulary:Value_at_least_one_a_objectShape/cv-7682405e> a sh:NodeShape;
+    rdfs:seeAlso <http://example.com/profile#Value_at_least_one_a_object>;
+    sh:closed false;
+    sh:targetClass <http://example.com/vocabulary#Value_at_least_one_a_object>;
+    sh:pattern "^http://example\\.com/cv-a/[a-z]+$";
+    sh:severity sh:Warning.
+
+<http://example.com/profile#vocabulary:Value_at_least_one_a_and_bShape> a sh:NodeShape;
+    rdfs:seeAlso <http://example.com/profile#Value_at_least_one_a_and_b>;
+    sh:closed false;
+    sh:targetClass <http://example.com/vocabulary#Value_at_least_one_a_and_b>.
+
+<http://example.com/profile#vocabulary:Value_at_least_one_a_and_bShape/cv-7682405e> a sh:NodeShape;
+    rdfs:seeAlso <http://example.com/profile#Value_at_least_one_a_and_b>;
+    sh:closed false;
+    sh:targetClass <http://example.com/vocabulary#Value_at_least_one_a_and_b>;
+    sh:pattern "^http://example\\.com/cv-a/[a-z]+$";
+    sh:severity sh:Warning.
+
+<http://example.com/profile#vocabulary:Value_at_least_one_a_and_bShape/cv-7682405f> a sh:NodeShape;
+    rdfs:seeAlso <http://example.com/profile#Value_at_least_one_a_and_b>;
+    sh:closed false;
+    sh:targetClass <http://example.com/vocabulary#Value_at_least_one_a_and_b>;
+    sh:pattern "^http://example\\.com/cv-b/[0-9]+$";
+    sh:severity sh:Warning.
+
+<http://example.com/profile#vocabulary:Value_recommended_a_defaultShape> a sh:NodeShape;
+    rdfs:seeAlso <http://example.com/profile#Value_recommended_a_default>;
+    sh:closed false;
+    sh:targetClass <http://example.com/vocabulary#Value_recommended_a_default>.
+
+<http://example.com/profile#vocabulary:Value_recommended_a_defaultShape/cv-7682405e> a sh:NodeShape;
+    rdfs:seeAlso <http://example.com/profile#Value_recommended_a_default>;
+    sh:closed false;
+    sh:targetClass <http://example.com/vocabulary#Value_recommended_a_default>;
+    sh:pattern "^http://example\\.com/cv-a/[a-z]+$";
+    sh:severity sh:Warning.
+
+<http://example.com/profile#vocabulary:Value_recommended_a_requireShape> a sh:NodeShape;
+    rdfs:seeAlso <http://example.com/profile#Value_recommended_a_require>;
+    sh:closed false;
+    sh:targetClass <http://example.com/vocabulary#Value_recommended_a_require>.
+
+<http://example.com/profile#vocabulary:Value_recommended_a_requireShape/cv-7682405e> a sh:NodeShape;
+    rdfs:seeAlso <http://example.com/profile#Value_recommended_a_require>;
+    sh:closed false;
+    sh:targetClass <http://example.com/vocabulary#Value_recommended_a_require>;
+    sh:pattern "^http://example\\.com/cv-a/[a-z]+$";
+    sh:severity sh:Warning.
+
+<http://example.com/profile#vocabulary:Value_recommended_a_restrictShape> a sh:NodeShape;
+    rdfs:seeAlso <http://example.com/profile#Value_recommended_a_restrict>;
+    sh:closed false;
+    sh:targetClass <http://example.com/vocabulary#Value_recommended_a_restrict>.
+
+<http://example.com/profile#vocabulary:Value_recommended_a_restrictShape/cv-7682405e> a sh:NodeShape;
+    rdfs:seeAlso <http://example.com/profile#Value_recommended_a_restrict>;
+    sh:closed false;
+    sh:targetClass <http://example.com/vocabulary#Value_recommended_a_restrict>;
+    sh:pattern "^http://example\\.com/cv-a/[a-z]+$";
+    sh:severity sh:Warning.
+
+<http://example.com/profile#vocabulary:Value_recommended_a_bothShape> a sh:NodeShape;
+    rdfs:seeAlso <http://example.com/profile#Value_recommended_a_both>;
+    sh:closed false;
+    sh:targetClass <http://example.com/vocabulary#Value_recommended_a_both>.
+
+<http://example.com/profile#vocabulary:Value_recommended_a_bothShape/cv-7682405e> a sh:NodeShape;
+    rdfs:seeAlso <http://example.com/profile#Value_recommended_a_both>;
+    sh:closed false;
+    sh:targetClass <http://example.com/vocabulary#Value_recommended_a_both>;
+    sh:pattern "^http://example\\.com/cv-a/[a-z]+$";
+    sh:severity sh:Warning.
+
+<http://example.com/profile#vocabulary:Value_may_aShape> a sh:NodeShape;
+    rdfs:seeAlso <http://example.com/profile#Value_may_a>;
+    sh:closed false;
+    sh:targetClass <http://example.com/vocabulary#Value_may_a>.
+
+<http://example.com/profile#vocabulary:Value_may_aShape/cv-7682405e> a sh:NodeShape;
+    rdfs:seeAlso <http://example.com/profile#Value_may_a>;
+    sh:closed false;
+    sh:targetClass <http://example.com/vocabulary#Value_may_a>;
+    sh:pattern "^http://example\\.com/cv-a/[a-z]+$";
+    sh:severity sh:Warning.
+
+<http://example.com/profile#vocabulary:Value_must_without_patternShape> a sh:NodeShape;
+    rdfs:seeAlso <http://example.com/profile#Value_must_without_pattern>;
+    sh:closed false;
+    sh:targetClass <http://example.com/vocabulary#Value_must_without_pattern>.
+
+<http://example.com/profile#vocabulary:Value_at_least_one_a_recommended_b_requireShape> a sh:NodeShape;
+    rdfs:seeAlso <http://example.com/profile#Value_at_least_one_a_recommended_b_require>;
+    sh:closed false;
+    sh:targetClass <http://example.com/vocabulary#Value_at_least_one_a_recommended_b_require>.
+
+<http://example.com/profile#vocabulary:Value_at_least_one_a_recommended_b_requireShape/cv-7682405e> a sh:NodeShape;
+    rdfs:seeAlso <http://example.com/profile#Value_at_least_one_a_recommended_b_require>;
+    sh:closed false;
+    sh:targetClass <http://example.com/vocabulary#Value_at_least_one_a_recommended_b_require>;
+    sh:pattern "^http://example\\.com/cv-a/[a-z]+$";
+    sh:severity sh:Warning.
+
+<http://example.com/profile#vocabulary:Value_at_least_one_a_recommended_b_requireShape/cv-7682405f> a sh:NodeShape;
+    rdfs:seeAlso <http://example.com/profile#Value_at_least_one_a_recommended_b_require>;
+    sh:closed false;
+    sh:targetClass <http://example.com/vocabulary#Value_at_least_one_a_recommended_b_require>;
+    sh:pattern "^http://example\\.com/cv-b/[0-9]+$";
+    sh:severity sh:Warning.
+

@@ -1,0 +1,3326 @@
+<!DOCTYPE html>
+<html lang="cs">
+  <head>
+    <meta charset="utf-8" />
+    <title>CV JSON Schema test</title>
+    <meta name="color-scheme" content="light dark">
+    <script type="application/ld+json">
+      {
+      "@id": "http://example.com/profile/",
+      "@type": [
+        "dsv:ApplicationProfileSpecificationDocument",
+        "adms:AssetDistribution",
+        "prof:ResourceDescriptor"
+      ],
+      "hasArtifact": "",
+      "hasRole": "role:specification",
+      "format": "filetype:HTML",
+      "inSpecificationOf": [
+        {
+          "@id": "http://example.com/profile#",
+          "@type": [
+            "dsv:ApplicationProfile",
+            "prof:Profile"
+          ],
+          "title": {
+            "en": "CV JSON Schema test"
+          },
+          "isProfileOf": [
+            {
+              "@id": "http://example.com/vocabulary#",
+              "title": {},
+              "hasResource": {}
+            }
+          ],
+          "hasResource": [
+            {
+              "@type": [
+                "adms:AssetDistribution",
+                "prof:ResourceDescriptor"
+              ],
+              "hasArtifact": "../dsv.ttl",
+              "hasRole": "role:constraints",
+              "format": "filetype:RDF_TURTLE",
+              "conformsTo": [
+                "prof:Profile",
+                "dsv:ApplicationProfile"
+              ]
+            },
+            {
+              "@type": [
+                "adms:AssetDistribution",
+                "prof:ResourceDescriptor"
+              ],
+              "hasArtifact": "../shacl.ttl",
+              "hasRole": "role:constraints",
+              "format": "filetype:RDF_TURTLE",
+              "conformsTo": "https://www.w3.org/TR/shacl/"
+            },
+            {
+              "@type": [
+                "adms:AssetDistribution",
+                "prof:ResourceDescriptor"
+              ],
+              "hasArtifact": "../dsv.ldes.ttl",
+              "hasRole": "role:specification",
+              "format": "filetype:RDF_TURTLE",
+              "conformsTo": "https://w3id.org/ldes/specification"
+            },
+            {
+              "@type": [
+                "adms:AssetDistribution",
+                "prof:ResourceDescriptor"
+              ],
+              "hasArtifact": "../cv-json-schema-test/structure.ttl",
+              "hasRole": "role:schema",
+              "format": "filetype:RDF_TURTLE",
+              "conformsTo": "dsv:Structure"
+            },
+            {
+              "@type": [
+                "adms:AssetDistribution",
+                "prof:ResourceDescriptor"
+              ],
+              "hasArtifact": "../generator-configuration.ttl",
+              "hasRole": "role:schema",
+              "format": "filetype:RDF_TURTLE",
+              "conformsTo": "dsv:StructureConfiguration"
+            },
+            {
+              "@type": [
+                "adms:AssetDistribution",
+                "prof:ResourceDescriptor"
+              ],
+              "hasArtifact": "../controlled_vocabulary_catalog.ttl",
+              "hasRole": "role:vocabulary",
+              "format": "filetype:RDF_TURTLE",
+              "conformsTo": "https://www.w3.org/TR/vocab-dcat-3/"
+            },
+            {
+              "@id": "http://example.com/profile/",
+              "@type": [
+                "dsv:ApplicationProfileSpecificationDocument",
+                "adms:AssetDistribution",
+                "prof:ResourceDescriptor"
+              ],
+              "hasArtifact": "",
+              "hasRole": "role:specification",
+              "format": "filetype:HTML"
+            },
+            {
+              "@id": "cv-json-schema-test-v2-structure#jsonschema",
+              "@type": [
+                "adms:AssetDistribution",
+                "prof:ResourceDescriptor"
+              ],
+              "hasArtifact": "../../schema.json",
+              "hasRole": "role:schema",
+              "format": "filetype:JSON",
+              "conformsTo": "https://json-schema.org/draft/2020-12/schema"
+            },
+            {
+              "@id": "cv-json-schema-test-v2-structure#jsonLd",
+              "@type": [
+                "adms:AssetDistribution",
+                "prof:ResourceDescriptor"
+              ],
+              "hasArtifact": "../../context.jsonld",
+              "hasRole": "role:schema",
+              "format": "filetype:JSON_LD",
+              "conformsTo": "http://www.w3.org/ns/json-ld"
+            }
+          ]
+        }
+      ],
+      "@context": {
+        "@version": 1.1,
+        "prof": "http://www.w3.org/ns/dx/prof/",
+        "role": "prof:role/",
+        "dsv": "https://w3id.org/dsv#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "adms": "http://www.w3.org/ns/adms#",
+        "filetype": "http://publications.europa.eu/resource/authority/file-type/",
+        "title": {
+          "@id": "http://purl.org/dc/terms/title",
+          "@container": "@language"
+        },
+        "description": {
+          "@id": "http://purl.org/dc/terms/description",
+          "@container": "@language"
+        },
+        "conformsTo": {
+          "@id": "http://purl.org/dc/terms/conformsTo",
+          "@type": "@id",
+          "@container": "@set"
+        },
+        "format": {
+          "@id": "http://purl.org/dc/terms/format",
+          "@type": "@id"
+        },
+        "hasRole": {
+          "@id": "prof:hasRole",
+          "@type": "@id"
+        },
+        "hasArtifact": {
+          "@id": "prof:hasArtifact",
+          "@type": "@id"
+        },
+        "inSpecificationOf": {
+          "@reverse": "prof:hasResource",
+          "@type": "@id",
+          "@context": {
+            "title": {
+              "@id": "http://purl.org/dc/terms/title",
+              "@container": "@language"
+            },
+            "description": {
+              "@id": "http://purl.org/dc/terms/description",
+              "@container": "@language"
+            },
+            "hasToken": {
+              "@id": "prof:hasToken",
+              "@type": "xsd:token"
+            },
+            "isProfileOf": {
+              "@id": "prof:isProfileOf",
+              "@container": "@set",
+              "@context": {
+                "title": {
+                  "@id": "http://purl.org/dc/terms/title",
+                  "@container": "@language"
+                },
+                "hasResource": {
+                  "@id": "prof:hasResource",
+                  "@container": "@set",
+                  "@context": {
+                    "hasArtifact": {
+                      "@id": "prof:hasArtifact",
+                      "@type": "@id"
+                    }
+                  }
+                }
+              }
+            },
+            "hasResource": {
+              "@id": "prof:hasResource",
+              "@container": "@set",
+              "@context": {
+                "conformsTo": {
+                  "@id": "http://purl.org/dc/terms/conformsTo",
+                  "@type": "@id",
+                  "@container": "@set"
+                },
+                "format": {
+                  "@id": "http://purl.org/dc/terms/format",
+                  "@type": "@id"
+                },
+                "hasRole": {
+                  "@id": "prof:hasRole",
+                  "@type": "@id"
+                },
+                "hasArtifact": {
+                  "@id": "prof:hasArtifact",
+                  "@type": "@id"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    </script>
+    <script
+      src="https://www.w3.org/Tools/respec/respec-w3c"
+      class="remove"
+      defer
+    ></script>
+    <script class="remove">
+    // All config options at https://respec.org/docs/
+    var respecConfig = {
+      specStatus: "base",
+      editors: [{ name: "Dataspecer", url: "https://dataspecer.com" }],
+      //github: "some-org/mySpec",
+      shortName: "todo",
+      historyURI: null,
+      thisVersion: "/cs/index.html",
+      latestVersion: "/cs/index.html",
+      //publishDate: "2025-09-29",
+      //github: "https://github.com/org/repo",
+      //xref: "web-platform",
+      //group: "my-working-group",
+      //otherLinks: [{
+      //    key: "Repository",
+      //    data: [{
+      //        value: "GitHub",
+      //        href: "https://github.com/org/repo"
+      //    }],
+      //}],
+      localBiblio: {
+            "DCAT-AP": {
+                title: "DCAT Application Profile for data portals in Europe",
+                href: "https://semiceu.github.io/DCAT-AP/releases/3.0.1/",
+                date: "2024"
+            },
+            "GeoDCAT-AP": {
+                title: "GeoDCAT Application Profile for data portals in Europe",
+                href: "https://semiceu.github.io/GeoDCAT-AP/releases/3.0.0/",
+                date: "2024"
+            },
+            "DCAT-AP-HVD": {
+                title: "DCAT-AP HVD Application Profile",
+                href: "https://semiceu.github.io/DCAT-AP/releases/3.0.0-hvd/",
+                date: "2024"
+            }
+        },};</script>
+    
+    <style>
+      .figure img, .sidefigure img, figure img, .figure object, .sidefigure object, figure object, img, .img {
+        max-width: 100%;
+        margin: auto;
+        height: auto;
+      }
+    
+      table.simple {
+        margin: auto;
+        border-spacing: 0;
+        border-collapse: collapse;
+      }
+    
+      table.simple th {
+        padding: 3px 10px;
+        text-align: left;
+      }
+    
+      table.simple td {
+        border-top: 1px solid #ddd;
+        padding: 3px 10px;
+      }
+    
+      /* An IRI has no spaces to break at, so it may wrap anywhere instead of widening the table. */
+      table.def.cv-list .cv-iri {
+        overflow-wrap: anywhere;
+      }
+    
+      /* ReSpec shows the header row of a definition table as an italic body row, so it is marked out as a header. */
+      table.def.cv-table thead th {
+        font-style: normal;
+        font-weight: bold;
+        background: color-mix(in srgb, currentColor 8%, transparent);
+        border-bottom: 2px solid color-mix(in srgb, currentColor 35%, transparent);
+      }
+    
+      table.def.cv-list .cv-center {
+        text-align: center;
+      }
+    
+      a.cv-link + a.cv-link {
+        margin-left: 0.5em;
+      }
+    
+      .cv-icon {
+        vertical-align: -0.2em;
+      }
+    </style>  </head>
+  <body>
+    <p class="copyright"></p>
+    <section id="abstract">
+      <p>
+      Tento soubor dokumentuje
+      <strong>CV JSON Schema test</strong> (@en).</p>
+    </section>
+
+    <section>
+      <h2>Přehled</h2>
+
+    </section>
+
+
+
+      <section>
+          <h2>Profily tříd</h2>
+
+          <section id="Test">
+            <h4>Test (@en)</h4>
+          
+            <table class="def">
+              <tr>
+                <td>IRI profilovaných tříd</td>
+                <td>
+                    <a href="http://example.com/vocabulary#Test">http://example.com/vocabulary#Test</a>
+                </td>
+              </tr>
+              <tr>
+                <td>IRI</td>
+                <td><a href="http://example.com/profile#Test">http://example.com/profile#Test</a></td>
+              </tr>
+              <tr>
+                <td>Název</td>
+                <td>Test (@en)</td>
+              </tr>
+              
+          
+                <tr>
+                  <td>Hierarchie</td>
+                  <td>
+                    <ul style="list-style-type: disclosure-closed; padding-left: 0; margin: 0;">
+                          <li>
+                                    profiluje
+                  třídu
+                <a href="#Test">Test (@en)</a> (<a href="http://example.com/vocabulary#Test">http://example.com/vocabulary#Test</a>)
+                  <ul style="list-style-type: disclosure-closed;">
+                  </ul>
+          
+                          </li>
+                    </ul>
+                  </td>
+                </tr>
+          
+            </table>
+          
+              <p><strong>Vlastnosti</strong></p>
+              <p>Pro tento profil třídy jsou definovány následující vlastnosti: <a href="#at_least_one_a">at_least_one_a (@en)</a>, <a href="#at_least_one_a_and_b">at_least_one_a_and_b (@en)</a>, <a href="#at_least_one_a_object">at_least_one_a_object (@en)</a>, <a href="#at_least_one_a_recommended_b_require">at_least_one_a_recommended_b_require (@en)</a>, <a href="#at_least_one_a_single">at_least_one_a_single (@en)</a>, <a href="#may_a">may_a (@en)</a>, <a href="#must_a">must_a (@en)</a>, <a href="#must_a_class_regex">must_a_class_regex (@en)</a>, <a href="#must_a_object">must_a_object (@en)</a>, <a href="#must_a_single">must_a_single (@en)</a>, <a href="#must_without_pattern">must_without_pattern (@en)</a>, <a href="#recommended_a_both">recommended_a_both (@en)</a>, <a href="#recommended_a_default">recommended_a_default (@en)</a>, <a href="#recommended_a_require">recommended_a_require (@en)</a>, <a href="#recommended_a_restrict">recommended_a_restrict (@en)</a>.</p>
+          
+          
+              <section id="at_least_one_a">
+                <h4>at_least_one_a (@en)</h4>
+              
+                <table class="def">
+                  <tr>
+                    <td>IRI profilovaných vztahů</td>
+                    <td>
+                        <a href="http://example.com/vocabulary#at_least_one_a">http://example.com/vocabulary#at_least_one_a</a>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>IRI</td>
+                    <td><a href="http://example.com/profile#at_least_one_a">http://example.com/profile#at_least_one_a</a></td>
+                  </tr>
+                  <tr>
+                    <td>Název</td>
+                    <td>at_least_one_a (@en)</td>
+                  </tr>
+                  <tr>
+                    <td>Definiční obor</td>
+                    <td>
+                      <a href="#Test">Test (@en)</a>
+              
+                      
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Obor hodnot</td>
+                    <td>
+                      <a href="#Value_at_least_one_a">Value at_least_one_a (@en)</a>
+              
+                      [0..*]
+                  </td>
+                  </tr>
+                  
+              
+              
+              
+                    <tr>
+                      <td>Hierarchie</td>
+                      <td>
+                        <ul style="list-style-type: disclosure-closed; padding-left: 0; margin: 0;">
+                              <li>
+                                        profiluje
+                      vlastnost
+                    <a href="#at_least_one_a">at_least_one_a (@en)</a> (<a href="http://example.com/vocabulary#at_least_one_a">http://example.com/vocabulary#at_least_one_a</a>)
+                      <ul style="list-style-type: disclosure-closed;">
+                      </ul>
+              
+                              </li>
+                        </ul>
+                      </td>
+                    </tr>
+              
+                  <tr>
+                    <td>Řízené slovníky</td>
+                    <td>  <a href="#cv-CV-A-letters">CV A (letters)</a> (AT LEAST ONE)
+              
+              </td>
+                  </tr>
+                  <tr>
+                    <td>Použití řízených slovníků</td>
+                    <td>  <p>
+                  Vlastnost MUSÍ mít ALESPOŇ JEDNU hodnotu z <a href="#cv-CV-A-letters">CV A (letters)</a>.<br />
+                  Toto očekávání jen minimálně omezuje prostor hodnot. Validační systémy BY MĚLY vytvářet varování.
+                </p>
+              </td>
+                  </tr>
+                </table>
+              </section>    <section id="at_least_one_a_and_b">
+                <h4>at_least_one_a_and_b (@en)</h4>
+              
+                <table class="def">
+                  <tr>
+                    <td>IRI profilovaných vztahů</td>
+                    <td>
+                        <a href="http://example.com/vocabulary#at_least_one_a_and_b">http://example.com/vocabulary#at_least_one_a_and_b</a>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>IRI</td>
+                    <td><a href="http://example.com/profile#at_least_one_a_and_b">http://example.com/profile#at_least_one_a_and_b</a></td>
+                  </tr>
+                  <tr>
+                    <td>Název</td>
+                    <td>at_least_one_a_and_b (@en)</td>
+                  </tr>
+                  <tr>
+                    <td>Definiční obor</td>
+                    <td>
+                      <a href="#Test">Test (@en)</a>
+              
+                      
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Obor hodnot</td>
+                    <td>
+                      <a href="#Value_at_least_one_a_and_b">Value at_least_one_a_and_b (@en)</a>
+              
+                      [0..*]
+                  </td>
+                  </tr>
+                  
+              
+              
+              
+                    <tr>
+                      <td>Hierarchie</td>
+                      <td>
+                        <ul style="list-style-type: disclosure-closed; padding-left: 0; margin: 0;">
+                              <li>
+                                        profiluje
+                      vlastnost
+                    <a href="#at_least_one_a_and_b">at_least_one_a_and_b (@en)</a> (<a href="http://example.com/vocabulary#at_least_one_a_and_b">http://example.com/vocabulary#at_least_one_a_and_b</a>)
+                      <ul style="list-style-type: disclosure-closed;">
+                      </ul>
+              
+                              </li>
+                        </ul>
+                      </td>
+                    </tr>
+              
+                  <tr>
+                    <td>Řízené slovníky</td>
+                    <td>  <ul>
+                    <li><a href="#cv-CV-A-letters">CV A (letters)</a> (AT LEAST ONE)
+              </li>
+                    <li><a href="#cv-CV-B-digits">CV B (digits)</a> (AT LEAST ONE)
+              </li>
+                </ul>
+              </td>
+                  </tr>
+                  <tr>
+                    <td>Použití řízených slovníků</td>
+                    <td>  <p>
+                  Vlastnost MUSÍ mít ALESPOŇ JEDNU hodnotu z <a href="#cv-CV-A-letters">CV A (letters)</a>.<br />
+                  Toto očekávání jen minimálně omezuje prostor hodnot. Validační systémy BY MĚLY vytvářet varování.
+                </p>
+                <p>
+                  Vlastnost MUSÍ mít ALESPOŇ JEDNU hodnotu z <a href="#cv-CV-B-digits">CV B (digits)</a>.<br />
+                  Toto očekávání jen minimálně omezuje prostor hodnot. Validační systémy BY MĚLY vytvářet varování.
+                </p>
+              </td>
+                  </tr>
+                </table>
+              </section>    <section id="at_least_one_a_object">
+                <h4>at_least_one_a_object (@en)</h4>
+              
+                <table class="def">
+                  <tr>
+                    <td>IRI profilovaných vztahů</td>
+                    <td>
+                        <a href="http://example.com/vocabulary#at_least_one_a_object">http://example.com/vocabulary#at_least_one_a_object</a>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>IRI</td>
+                    <td><a href="http://example.com/profile#at_least_one_a_object">http://example.com/profile#at_least_one_a_object</a></td>
+                  </tr>
+                  <tr>
+                    <td>Název</td>
+                    <td>at_least_one_a_object (@en)</td>
+                  </tr>
+                  <tr>
+                    <td>Definiční obor</td>
+                    <td>
+                      <a href="#Test">Test (@en)</a>
+              
+                      
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Obor hodnot</td>
+                    <td>
+                      <a href="#Value_at_least_one_a_object">Value at_least_one_a_object (@en)</a>
+              
+                      [0..*]
+                  </td>
+                  </tr>
+                  
+              
+              
+              
+                    <tr>
+                      <td>Hierarchie</td>
+                      <td>
+                        <ul style="list-style-type: disclosure-closed; padding-left: 0; margin: 0;">
+                              <li>
+                                        profiluje
+                      vlastnost
+                    <a href="#at_least_one_a_object">at_least_one_a_object (@en)</a> (<a href="http://example.com/vocabulary#at_least_one_a_object">http://example.com/vocabulary#at_least_one_a_object</a>)
+                      <ul style="list-style-type: disclosure-closed;">
+                      </ul>
+              
+                              </li>
+                        </ul>
+                      </td>
+                    </tr>
+              
+                  <tr>
+                    <td>Řízené slovníky</td>
+                    <td>  <a href="#cv-CV-A-letters">CV A (letters)</a> (AT LEAST ONE)
+              
+              </td>
+                  </tr>
+                  <tr>
+                    <td>Použití řízených slovníků</td>
+                    <td>  <p>
+                  Vlastnost MUSÍ mít ALESPOŇ JEDNU hodnotu z <a href="#cv-CV-A-letters">CV A (letters)</a>.<br />
+                  Toto očekávání jen minimálně omezuje prostor hodnot. Validační systémy BY MĚLY vytvářet varování.
+                </p>
+              </td>
+                  </tr>
+                </table>
+              </section>    <section id="at_least_one_a_recommended_b_require">
+                <h4>at_least_one_a_recommended_b_require (@en)</h4>
+              
+                <table class="def">
+                  <tr>
+                    <td>IRI profilovaných vztahů</td>
+                    <td>
+                        <a href="http://example.com/vocabulary#at_least_one_a_recommended_b_require">http://example.com/vocabulary#at_least_one_a_recommended_b_require</a>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>IRI</td>
+                    <td><a href="http://example.com/profile#at_least_one_a_recommended_b_require">http://example.com/profile#at_least_one_a_recommended_b_require</a></td>
+                  </tr>
+                  <tr>
+                    <td>Název</td>
+                    <td>at_least_one_a_recommended_b_require (@en)</td>
+                  </tr>
+                  <tr>
+                    <td>Definiční obor</td>
+                    <td>
+                      <a href="#Test">Test (@en)</a>
+              
+                      
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Obor hodnot</td>
+                    <td>
+                      <a href="#Value_at_least_one_a_recommended_b_require">Value at_least_one_a_recommended_b_require (@en)</a>
+              
+                      [0..*]
+                  </td>
+                  </tr>
+                  
+              
+              
+              
+                    <tr>
+                      <td>Hierarchie</td>
+                      <td>
+                        <ul style="list-style-type: disclosure-closed; padding-left: 0; margin: 0;">
+                              <li>
+                                        profiluje
+                      vlastnost
+                    <a href="#at_least_one_a_recommended_b_require">at_least_one_a_recommended_b_require (@en)</a> (<a href="http://example.com/vocabulary#at_least_one_a_recommended_b_require">http://example.com/vocabulary#at_least_one_a_recommended_b_require</a>)
+                      <ul style="list-style-type: disclosure-closed;">
+                      </ul>
+              
+                              </li>
+                        </ul>
+                      </td>
+                    </tr>
+              
+                  <tr>
+                    <td>Řízené slovníky</td>
+                    <td>  <ul>
+                    <li><a href="#cv-CV-A-letters">CV A (letters)</a> (AT LEAST ONE)
+              </li>
+                    <li><a href="#cv-CV-B-digits">CV B (digits)</a> (RECOMMENDED)
+              </li>
+                </ul>
+              </td>
+                  </tr>
+                  <tr>
+                    <td>Použití řízených slovníků</td>
+                    <td>  <p>
+                  Vlastnost MUSÍ mít ALESPOŇ JEDNU hodnotu z <a href="#cv-CV-A-letters">CV A (letters)</a>.<br />
+                  Toto očekávání jen minimálně omezuje prostor hodnot. Validační systémy BY MĚLY vytvářet varování.
+                </p>
+                <p>
+                  Pro vlastnost se DOPORUČUJE používat jako obor hodnot položky z <a href="#cv-CV-B-digits">CV B (digits)</a>.<br />
+                  Prostor hodnot je uzavřen vzhledem k řízenému slovníku, ale jiné hodnoty jsou tolerovány. Doporučení vyjadřuje silnou preferenci. Aby byl tento silnější směr ke sjednocení hodnot viditelný ve výměnách dat, validační systémy BY MĚLY vytvářet varování.
+                </p>
+              </td>
+                  </tr>
+                </table>
+              </section>    <section id="at_least_one_a_single">
+                <h4>at_least_one_a_single (@en)</h4>
+              
+                <table class="def">
+                  <tr>
+                    <td>IRI profilovaných vztahů</td>
+                    <td>
+                        <a href="http://example.com/vocabulary#at_least_one_a_single">http://example.com/vocabulary#at_least_one_a_single</a>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>IRI</td>
+                    <td><a href="http://example.com/profile#at_least_one_a_single">http://example.com/profile#at_least_one_a_single</a></td>
+                  </tr>
+                  <tr>
+                    <td>Název</td>
+                    <td>at_least_one_a_single (@en)</td>
+                  </tr>
+                  <tr>
+                    <td>Definiční obor</td>
+                    <td>
+                      <a href="#Test">Test (@en)</a>
+              
+                      
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Obor hodnot</td>
+                    <td>
+                      <a href="#Value_at_least_one_a_single">Value at_least_one_a_single (@en)</a>
+              
+                      [0..1]
+                  </td>
+                  </tr>
+                  
+              
+              
+              
+                    <tr>
+                      <td>Hierarchie</td>
+                      <td>
+                        <ul style="list-style-type: disclosure-closed; padding-left: 0; margin: 0;">
+                              <li>
+                                        profiluje
+                      vlastnost
+                    <a href="#at_least_one_a_single">at_least_one_a_single (@en)</a> (<a href="http://example.com/vocabulary#at_least_one_a_single">http://example.com/vocabulary#at_least_one_a_single</a>)
+                      <ul style="list-style-type: disclosure-closed;">
+                      </ul>
+              
+                              </li>
+                        </ul>
+                      </td>
+                    </tr>
+              
+                  <tr>
+                    <td>Řízené slovníky</td>
+                    <td>  <a href="#cv-CV-A-letters">CV A (letters)</a> (AT LEAST ONE)
+              
+              </td>
+                  </tr>
+                  <tr>
+                    <td>Použití řízených slovníků</td>
+                    <td>  <p>
+                  Vlastnost MUSÍ mít ALESPOŇ JEDNU hodnotu z <a href="#cv-CV-A-letters">CV A (letters)</a>.<br />
+                  Toto očekávání jen minimálně omezuje prostor hodnot. Validační systémy BY MĚLY vytvářet varování.
+                </p>
+              </td>
+                  </tr>
+                </table>
+              </section>    <section id="may_a">
+                <h4>may_a (@en)</h4>
+              
+                <table class="def">
+                  <tr>
+                    <td>IRI profilovaných vztahů</td>
+                    <td>
+                        <a href="http://example.com/vocabulary#may_a">http://example.com/vocabulary#may_a</a>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>IRI</td>
+                    <td><a href="http://example.com/profile#may_a">http://example.com/profile#may_a</a></td>
+                  </tr>
+                  <tr>
+                    <td>Název</td>
+                    <td>may_a (@en)</td>
+                  </tr>
+                  <tr>
+                    <td>Definiční obor</td>
+                    <td>
+                      <a href="#Test">Test (@en)</a>
+              
+                      
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Obor hodnot</td>
+                    <td>
+                      <a href="#Value_may_a">Value may_a (@en)</a>
+              
+                      [0..*]
+                  </td>
+                  </tr>
+                  
+              
+              
+              
+                    <tr>
+                      <td>Hierarchie</td>
+                      <td>
+                        <ul style="list-style-type: disclosure-closed; padding-left: 0; margin: 0;">
+                              <li>
+                                        profiluje
+                      vlastnost
+                    <a href="#may_a">may_a (@en)</a> (<a href="http://example.com/vocabulary#may_a">http://example.com/vocabulary#may_a</a>)
+                      <ul style="list-style-type: disclosure-closed;">
+                      </ul>
+              
+                              </li>
+                        </ul>
+                      </td>
+                    </tr>
+              
+                  <tr>
+                    <td>Řízené slovníky</td>
+                    <td>  <a href="#cv-CV-A-letters">CV A (letters)</a> (MAY)
+              
+              </td>
+                  </tr>
+                  <tr>
+                    <td>Použití řízených slovníků</td>
+                    <td>  <p>
+                  Vlastnost MŮŽE používat jako obor hodnot položky z <a href="#cv-CV-A-letters">CV A (letters)</a>.<br />
+                  Prostor hodnot je uzavřen vzhledem k řízenému slovníku, ale jiné hodnoty jsou přijímány. Toto očekávání je spíše nápověda k použití. Protože zde není vyjádřena ani povinnost, ani silné doporučení, je použití jiných číselníků ve všech případech platné. Validační systémy proto MOHOU vytvářet varování, ale uživatelé je mohou ignorovat. Také žádná validace není v tomto případě přijatelná.
+                </p>
+              </td>
+                  </tr>
+                </table>
+              </section>    <section id="must_a">
+                <h4>must_a (@en)</h4>
+              
+                <table class="def">
+                  <tr>
+                    <td>IRI profilovaných vztahů</td>
+                    <td>
+                        <a href="http://example.com/vocabulary#must_a">http://example.com/vocabulary#must_a</a>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>IRI</td>
+                    <td><a href="http://example.com/profile#must_a">http://example.com/profile#must_a</a></td>
+                  </tr>
+                  <tr>
+                    <td>Název</td>
+                    <td>must_a (@en)</td>
+                  </tr>
+                  <tr>
+                    <td>Definiční obor</td>
+                    <td>
+                      <a href="#Test">Test (@en)</a>
+              
+                      
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Obor hodnot</td>
+                    <td>
+                      <a href="#Value_must_a">Value must_a (@en)</a>
+              
+                      [0..*]
+                  </td>
+                  </tr>
+                  
+              
+              
+              
+                    <tr>
+                      <td>Hierarchie</td>
+                      <td>
+                        <ul style="list-style-type: disclosure-closed; padding-left: 0; margin: 0;">
+                              <li>
+                                        profiluje
+                      vlastnost
+                    <a href="#must_a">must_a (@en)</a> (<a href="http://example.com/vocabulary#must_a">http://example.com/vocabulary#must_a</a>)
+                      <ul style="list-style-type: disclosure-closed;">
+                      </ul>
+              
+                              </li>
+                        </ul>
+                      </td>
+                    </tr>
+              
+                  <tr>
+                    <td>Řízené slovníky</td>
+                    <td>  <a href="#cv-CV-A-letters">CV A (letters)</a> (MUST)
+              
+              </td>
+                  </tr>
+                  <tr>
+                    <td>Použití řízených slovníků</td>
+                    <td>  <p>
+                  Vlastnost MUSÍ používat jako obor hodnot položky z <a href="#cv-CV-A-letters">CV A (letters)</a>.<br />
+                  Toto očekávání znamená, že prostor hodnot je uzavřen vzhledem k řízenému slovníku. Validační systémy BY MĚLY vytvářet chyby. Všechny profily v ekosystému MUSÍ předcházet konfliktům vytvářením podvlastností.
+                </p>
+              </td>
+                  </tr>
+                </table>
+              </section>    <section id="must_a_class_regex">
+                <h4>must_a_class_regex (@en)</h4>
+              
+                <table class="def">
+                  <tr>
+                    <td>IRI profilovaných vztahů</td>
+                    <td>
+                        <a href="http://example.com/vocabulary#must_a_class_regex">http://example.com/vocabulary#must_a_class_regex</a>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>IRI</td>
+                    <td><a href="http://example.com/profile#must_a_class_regex">http://example.com/profile#must_a_class_regex</a></td>
+                  </tr>
+                  <tr>
+                    <td>Název</td>
+                    <td>must_a_class_regex (@en)</td>
+                  </tr>
+                  <tr>
+                    <td>Definiční obor</td>
+                    <td>
+                      <a href="#Test">Test (@en)</a>
+              
+                      
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Obor hodnot</td>
+                    <td>
+                      <a href="#Value_must_a_class_regex">Value must_a_class_regex (@en)</a>
+              
+                      [0..*]
+                  </td>
+                  </tr>
+                  
+              
+              
+              
+                    <tr>
+                      <td>Hierarchie</td>
+                      <td>
+                        <ul style="list-style-type: disclosure-closed; padding-left: 0; margin: 0;">
+                              <li>
+                                        profiluje
+                      vlastnost
+                    <a href="#must_a_class_regex">must_a_class_regex (@en)</a> (<a href="http://example.com/vocabulary#must_a_class_regex">http://example.com/vocabulary#must_a_class_regex</a>)
+                      <ul style="list-style-type: disclosure-closed;">
+                      </ul>
+              
+                              </li>
+                        </ul>
+                      </td>
+                    </tr>
+              
+                  <tr>
+                    <td>Řízené slovníky</td>
+                    <td>  <a href="#cv-CV-A-letters">CV A (letters)</a> (MUST)
+              
+              </td>
+                  </tr>
+                  <tr>
+                    <td>Použití řízených slovníků</td>
+                    <td>  <p>
+                  Vlastnost MUSÍ používat jako obor hodnot položky z <a href="#cv-CV-A-letters">CV A (letters)</a>.<br />
+                  Toto očekávání znamená, že prostor hodnot je uzavřen vzhledem k řízenému slovníku. Validační systémy BY MĚLY vytvářet chyby. Všechny profily v ekosystému MUSÍ předcházet konfliktům vytvářením podvlastností.
+                </p>
+              </td>
+                  </tr>
+                </table>
+              </section>    <section id="must_a_object">
+                <h4>must_a_object (@en)</h4>
+              
+                <table class="def">
+                  <tr>
+                    <td>IRI profilovaných vztahů</td>
+                    <td>
+                        <a href="http://example.com/vocabulary#must_a_object">http://example.com/vocabulary#must_a_object</a>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>IRI</td>
+                    <td><a href="http://example.com/profile#must_a_object">http://example.com/profile#must_a_object</a></td>
+                  </tr>
+                  <tr>
+                    <td>Název</td>
+                    <td>must_a_object (@en)</td>
+                  </tr>
+                  <tr>
+                    <td>Definiční obor</td>
+                    <td>
+                      <a href="#Test">Test (@en)</a>
+              
+                      
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Obor hodnot</td>
+                    <td>
+                      <a href="#Value_must_a_object">Value must_a_object (@en)</a>
+              
+                      [0..*]
+                  </td>
+                  </tr>
+                  
+              
+              
+              
+                    <tr>
+                      <td>Hierarchie</td>
+                      <td>
+                        <ul style="list-style-type: disclosure-closed; padding-left: 0; margin: 0;">
+                              <li>
+                                        profiluje
+                      vlastnost
+                    <a href="#must_a_object">must_a_object (@en)</a> (<a href="http://example.com/vocabulary#must_a_object">http://example.com/vocabulary#must_a_object</a>)
+                      <ul style="list-style-type: disclosure-closed;">
+                      </ul>
+              
+                              </li>
+                        </ul>
+                      </td>
+                    </tr>
+              
+                  <tr>
+                    <td>Řízené slovníky</td>
+                    <td>  <a href="#cv-CV-A-letters">CV A (letters)</a> (MUST)
+              
+              </td>
+                  </tr>
+                  <tr>
+                    <td>Použití řízených slovníků</td>
+                    <td>  <p>
+                  Vlastnost MUSÍ používat jako obor hodnot položky z <a href="#cv-CV-A-letters">CV A (letters)</a>.<br />
+                  Toto očekávání znamená, že prostor hodnot je uzavřen vzhledem k řízenému slovníku. Validační systémy BY MĚLY vytvářet chyby. Všechny profily v ekosystému MUSÍ předcházet konfliktům vytvářením podvlastností.
+                </p>
+              </td>
+                  </tr>
+                </table>
+              </section>    <section id="must_a_single">
+                <h4>must_a_single (@en)</h4>
+              
+                <table class="def">
+                  <tr>
+                    <td>IRI profilovaných vztahů</td>
+                    <td>
+                        <a href="http://example.com/vocabulary#must_a_single">http://example.com/vocabulary#must_a_single</a>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>IRI</td>
+                    <td><a href="http://example.com/profile#must_a_single">http://example.com/profile#must_a_single</a></td>
+                  </tr>
+                  <tr>
+                    <td>Název</td>
+                    <td>must_a_single (@en)</td>
+                  </tr>
+                  <tr>
+                    <td>Definiční obor</td>
+                    <td>
+                      <a href="#Test">Test (@en)</a>
+              
+                      
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Obor hodnot</td>
+                    <td>
+                      <a href="#Value_must_a_single">Value must_a_single (@en)</a>
+              
+                      [0..1]
+                  </td>
+                  </tr>
+                  
+              
+              
+              
+                    <tr>
+                      <td>Hierarchie</td>
+                      <td>
+                        <ul style="list-style-type: disclosure-closed; padding-left: 0; margin: 0;">
+                              <li>
+                                        profiluje
+                      vlastnost
+                    <a href="#must_a_single">must_a_single (@en)</a> (<a href="http://example.com/vocabulary#must_a_single">http://example.com/vocabulary#must_a_single</a>)
+                      <ul style="list-style-type: disclosure-closed;">
+                      </ul>
+              
+                              </li>
+                        </ul>
+                      </td>
+                    </tr>
+              
+                  <tr>
+                    <td>Řízené slovníky</td>
+                    <td>  <a href="#cv-CV-A-letters">CV A (letters)</a> (MUST)
+              
+              </td>
+                  </tr>
+                  <tr>
+                    <td>Použití řízených slovníků</td>
+                    <td>  <p>
+                  Vlastnost MUSÍ používat jako obor hodnot položky z <a href="#cv-CV-A-letters">CV A (letters)</a>.<br />
+                  Toto očekávání znamená, že prostor hodnot je uzavřen vzhledem k řízenému slovníku. Validační systémy BY MĚLY vytvářet chyby. Všechny profily v ekosystému MUSÍ předcházet konfliktům vytvářením podvlastností.
+                </p>
+              </td>
+                  </tr>
+                </table>
+              </section>    <section id="must_without_pattern">
+                <h4>must_without_pattern (@en)</h4>
+              
+                <table class="def">
+                  <tr>
+                    <td>IRI profilovaných vztahů</td>
+                    <td>
+                        <a href="http://example.com/vocabulary#must_without_pattern">http://example.com/vocabulary#must_without_pattern</a>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>IRI</td>
+                    <td><a href="http://example.com/profile#must_without_pattern">http://example.com/profile#must_without_pattern</a></td>
+                  </tr>
+                  <tr>
+                    <td>Název</td>
+                    <td>must_without_pattern (@en)</td>
+                  </tr>
+                  <tr>
+                    <td>Definiční obor</td>
+                    <td>
+                      <a href="#Test">Test (@en)</a>
+              
+                      
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Obor hodnot</td>
+                    <td>
+                      <a href="#Value_must_without_pattern">Value must_without_pattern (@en)</a>
+              
+                      [0..*]
+                  </td>
+                  </tr>
+                  
+              
+              
+              
+                    <tr>
+                      <td>Hierarchie</td>
+                      <td>
+                        <ul style="list-style-type: disclosure-closed; padding-left: 0; margin: 0;">
+                              <li>
+                                        profiluje
+                      vlastnost
+                    <a href="#must_without_pattern">must_without_pattern (@en)</a> (<a href="http://example.com/vocabulary#must_without_pattern">http://example.com/vocabulary#must_without_pattern</a>)
+                      <ul style="list-style-type: disclosure-closed;">
+                      </ul>
+              
+                              </li>
+                        </ul>
+                      </td>
+                    </tr>
+              
+                  <tr>
+                    <td>Řízené slovníky</td>
+                    <td>  <a href="#cv-CV-without-a-pattern">CV without a pattern</a> (MUST)
+              
+              </td>
+                  </tr>
+                  <tr>
+                    <td>Použití řízených slovníků</td>
+                    <td>  <p>
+                  Vlastnost MUSÍ používat jako obor hodnot položky z <a href="#cv-CV-without-a-pattern">CV without a pattern</a>.<br />
+                  Toto očekávání znamená, že prostor hodnot je uzavřen vzhledem k řízenému slovníku. Validační systémy BY MĚLY vytvářet chyby. Všechny profily v ekosystému MUSÍ předcházet konfliktům vytvářením podvlastností.
+                </p>
+              </td>
+                  </tr>
+                </table>
+              </section>    <section id="recommended_a_both">
+                <h4>recommended_a_both (@en)</h4>
+              
+                <table class="def">
+                  <tr>
+                    <td>IRI profilovaných vztahů</td>
+                    <td>
+                        <a href="http://example.com/vocabulary#recommended_a_both">http://example.com/vocabulary#recommended_a_both</a>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>IRI</td>
+                    <td><a href="http://example.com/profile#recommended_a_both">http://example.com/profile#recommended_a_both</a></td>
+                  </tr>
+                  <tr>
+                    <td>Název</td>
+                    <td>recommended_a_both (@en)</td>
+                  </tr>
+                  <tr>
+                    <td>Definiční obor</td>
+                    <td>
+                      <a href="#Test">Test (@en)</a>
+              
+                      
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Obor hodnot</td>
+                    <td>
+                      <a href="#Value_recommended_a_both">Value recommended_a_both (@en)</a>
+              
+                      [0..*]
+                  </td>
+                  </tr>
+                  
+              
+              
+              
+                    <tr>
+                      <td>Hierarchie</td>
+                      <td>
+                        <ul style="list-style-type: disclosure-closed; padding-left: 0; margin: 0;">
+                              <li>
+                                        profiluje
+                      vlastnost
+                    <a href="#recommended_a_both">recommended_a_both (@en)</a> (<a href="http://example.com/vocabulary#recommended_a_both">http://example.com/vocabulary#recommended_a_both</a>)
+                      <ul style="list-style-type: disclosure-closed;">
+                      </ul>
+              
+                              </li>
+                        </ul>
+                      </td>
+                    </tr>
+              
+                  <tr>
+                    <td>Řízené slovníky</td>
+                    <td>  <a href="#cv-CV-A-letters">CV A (letters)</a> (RECOMMENDED)
+              
+              </td>
+                  </tr>
+                  <tr>
+                    <td>Použití řízených slovníků</td>
+                    <td>  <p>
+                  Pro vlastnost se DOPORUČUJE používat jako obor hodnot položky z <a href="#cv-CV-A-letters">CV A (letters)</a>.<br />
+                  Prostor hodnot je uzavřen vzhledem k řízenému slovníku, ale jiné hodnoty jsou tolerovány. Doporučení vyjadřuje silnou preferenci. Aby byl tento silnější směr ke sjednocení hodnot viditelný ve výměnách dat, validační systémy BY MĚLY vytvářet varování.
+                </p>
+              </td>
+                  </tr>
+                </table>
+              </section>    <section id="recommended_a_default">
+                <h4>recommended_a_default (@en)</h4>
+              
+                <table class="def">
+                  <tr>
+                    <td>IRI profilovaných vztahů</td>
+                    <td>
+                        <a href="http://example.com/vocabulary#recommended_a_default">http://example.com/vocabulary#recommended_a_default</a>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>IRI</td>
+                    <td><a href="http://example.com/profile#recommended_a_default">http://example.com/profile#recommended_a_default</a></td>
+                  </tr>
+                  <tr>
+                    <td>Název</td>
+                    <td>recommended_a_default (@en)</td>
+                  </tr>
+                  <tr>
+                    <td>Definiční obor</td>
+                    <td>
+                      <a href="#Test">Test (@en)</a>
+              
+                      
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Obor hodnot</td>
+                    <td>
+                      <a href="#Value_recommended_a_default">Value recommended_a_default (@en)</a>
+              
+                      [0..*]
+                  </td>
+                  </tr>
+                  
+              
+              
+              
+                    <tr>
+                      <td>Hierarchie</td>
+                      <td>
+                        <ul style="list-style-type: disclosure-closed; padding-left: 0; margin: 0;">
+                              <li>
+                                        profiluje
+                      vlastnost
+                    <a href="#recommended_a_default">recommended_a_default (@en)</a> (<a href="http://example.com/vocabulary#recommended_a_default">http://example.com/vocabulary#recommended_a_default</a>)
+                      <ul style="list-style-type: disclosure-closed;">
+                      </ul>
+              
+                              </li>
+                        </ul>
+                      </td>
+                    </tr>
+              
+                  <tr>
+                    <td>Řízené slovníky</td>
+                    <td>  <a href="#cv-CV-A-letters">CV A (letters)</a> (RECOMMENDED)
+              
+              </td>
+                  </tr>
+                  <tr>
+                    <td>Použití řízených slovníků</td>
+                    <td>  <p>
+                  Pro vlastnost se DOPORUČUJE používat jako obor hodnot položky z <a href="#cv-CV-A-letters">CV A (letters)</a>.<br />
+                  Prostor hodnot je uzavřen vzhledem k řízenému slovníku, ale jiné hodnoty jsou tolerovány. Doporučení vyjadřuje silnou preferenci. Aby byl tento silnější směr ke sjednocení hodnot viditelný ve výměnách dat, validační systémy BY MĚLY vytvářet varování.
+                </p>
+              </td>
+                  </tr>
+                </table>
+              </section>    <section id="recommended_a_require">
+                <h4>recommended_a_require (@en)</h4>
+              
+                <table class="def">
+                  <tr>
+                    <td>IRI profilovaných vztahů</td>
+                    <td>
+                        <a href="http://example.com/vocabulary#recommended_a_require">http://example.com/vocabulary#recommended_a_require</a>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>IRI</td>
+                    <td><a href="http://example.com/profile#recommended_a_require">http://example.com/profile#recommended_a_require</a></td>
+                  </tr>
+                  <tr>
+                    <td>Název</td>
+                    <td>recommended_a_require (@en)</td>
+                  </tr>
+                  <tr>
+                    <td>Definiční obor</td>
+                    <td>
+                      <a href="#Test">Test (@en)</a>
+              
+                      
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Obor hodnot</td>
+                    <td>
+                      <a href="#Value_recommended_a_require">Value recommended_a_require (@en)</a>
+              
+                      [0..*]
+                  </td>
+                  </tr>
+                  
+              
+              
+              
+                    <tr>
+                      <td>Hierarchie</td>
+                      <td>
+                        <ul style="list-style-type: disclosure-closed; padding-left: 0; margin: 0;">
+                              <li>
+                                        profiluje
+                      vlastnost
+                    <a href="#recommended_a_require">recommended_a_require (@en)</a> (<a href="http://example.com/vocabulary#recommended_a_require">http://example.com/vocabulary#recommended_a_require</a>)
+                      <ul style="list-style-type: disclosure-closed;">
+                      </ul>
+              
+                              </li>
+                        </ul>
+                      </td>
+                    </tr>
+              
+                  <tr>
+                    <td>Řízené slovníky</td>
+                    <td>  <a href="#cv-CV-A-letters">CV A (letters)</a> (RECOMMENDED)
+              
+              </td>
+                  </tr>
+                  <tr>
+                    <td>Použití řízených slovníků</td>
+                    <td>  <p>
+                  Pro vlastnost se DOPORUČUJE používat jako obor hodnot položky z <a href="#cv-CV-A-letters">CV A (letters)</a>.<br />
+                  Prostor hodnot je uzavřen vzhledem k řízenému slovníku, ale jiné hodnoty jsou tolerovány. Doporučení vyjadřuje silnou preferenci. Aby byl tento silnější směr ke sjednocení hodnot viditelný ve výměnách dat, validační systémy BY MĚLY vytvářet varování.
+                </p>
+              </td>
+                  </tr>
+                </table>
+              </section>    <section id="recommended_a_restrict">
+                <h4>recommended_a_restrict (@en)</h4>
+              
+                <table class="def">
+                  <tr>
+                    <td>IRI profilovaných vztahů</td>
+                    <td>
+                        <a href="http://example.com/vocabulary#recommended_a_restrict">http://example.com/vocabulary#recommended_a_restrict</a>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>IRI</td>
+                    <td><a href="http://example.com/profile#recommended_a_restrict">http://example.com/profile#recommended_a_restrict</a></td>
+                  </tr>
+                  <tr>
+                    <td>Název</td>
+                    <td>recommended_a_restrict (@en)</td>
+                  </tr>
+                  <tr>
+                    <td>Definiční obor</td>
+                    <td>
+                      <a href="#Test">Test (@en)</a>
+              
+                      
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Obor hodnot</td>
+                    <td>
+                      <a href="#Value_recommended_a_restrict">Value recommended_a_restrict (@en)</a>
+              
+                      [0..*]
+                  </td>
+                  </tr>
+                  
+              
+              
+              
+                    <tr>
+                      <td>Hierarchie</td>
+                      <td>
+                        <ul style="list-style-type: disclosure-closed; padding-left: 0; margin: 0;">
+                              <li>
+                                        profiluje
+                      vlastnost
+                    <a href="#recommended_a_restrict">recommended_a_restrict (@en)</a> (<a href="http://example.com/vocabulary#recommended_a_restrict">http://example.com/vocabulary#recommended_a_restrict</a>)
+                      <ul style="list-style-type: disclosure-closed;">
+                      </ul>
+              
+                              </li>
+                        </ul>
+                      </td>
+                    </tr>
+              
+                  <tr>
+                    <td>Řízené slovníky</td>
+                    <td>  <a href="#cv-CV-A-letters">CV A (letters)</a> (RECOMMENDED)
+              
+              </td>
+                  </tr>
+                  <tr>
+                    <td>Použití řízených slovníků</td>
+                    <td>  <p>
+                  Pro vlastnost se DOPORUČUJE používat jako obor hodnot položky z <a href="#cv-CV-A-letters">CV A (letters)</a>.<br />
+                  Prostor hodnot je uzavřen vzhledem k řízenému slovníku, ale jiné hodnoty jsou tolerovány. Doporučení vyjadřuje silnou preferenci. Aby byl tento silnější směr ke sjednocení hodnot viditelný ve výměnách dat, validační systémy BY MĚLY vytvářet varování.
+                </p>
+              </td>
+                  </tr>
+                </table>
+              </section>
+          </section>          <section id="Value_at_least_one_a">
+            <h4>Value at_least_one_a (@en)</h4>
+          
+            <table class="def">
+              <tr>
+                <td>IRI profilovaných tříd</td>
+                <td>
+                    <a href="http://example.com/vocabulary#Value_at_least_one_a">http://example.com/vocabulary#Value_at_least_one_a</a>
+                </td>
+              </tr>
+              <tr>
+                <td>IRI</td>
+                <td><a href="http://example.com/profile#Value_at_least_one_a">http://example.com/profile#Value_at_least_one_a</a></td>
+              </tr>
+              <tr>
+                <td>Název</td>
+                <td>Value at_least_one_a (@en)</td>
+              </tr>
+              
+          
+                <tr>
+                  <td>Hierarchie</td>
+                  <td>
+                    <ul style="list-style-type: disclosure-closed; padding-left: 0; margin: 0;">
+                          <li>
+                                    profiluje
+                  třídu
+                <a href="#Value_at_least_one_a">Value_at_least_one_a (@en)</a> (<a href="http://example.com/vocabulary#Value_at_least_one_a">http://example.com/vocabulary#Value_at_least_one_a</a>)
+                  <ul style="list-style-type: disclosure-closed;">
+                  </ul>
+          
+                          </li>
+                    </ul>
+                  </td>
+                </tr>
+          
+              <tr>
+                <td>Řízené slovníky</td>
+                <td>  <a href="#cv-CV-A-letters">CV A (letters)</a> (AT LEAST ONE)
+          
+          </td>
+              </tr>
+              <tr>
+                <td>Použití řízených slovníků</td>
+                <td>  <p>
+              Tento profil třídy MUSÍ být v datech reprezentován ALESPOŇ JEDNOU položkou řízeného slovníku <a href="#cv-CV-A-letters">CV A (letters)</a>.
+            </p>
+          </td>
+              </tr>
+            </table>
+          
+          
+              <p><strong>Zpětné asociace</strong></p>
+              <ul>
+                  <li>z domény <a href="#Test"></a> → <a href="#at_least_one_a"></a></li>
+              </ul>
+          
+          
+          </section>          <section id="Value_at_least_one_a_and_b">
+            <h4>Value at_least_one_a_and_b (@en)</h4>
+          
+            <table class="def">
+              <tr>
+                <td>IRI profilovaných tříd</td>
+                <td>
+                    <a href="http://example.com/vocabulary#Value_at_least_one_a_and_b">http://example.com/vocabulary#Value_at_least_one_a_and_b</a>
+                </td>
+              </tr>
+              <tr>
+                <td>IRI</td>
+                <td><a href="http://example.com/profile#Value_at_least_one_a_and_b">http://example.com/profile#Value_at_least_one_a_and_b</a></td>
+              </tr>
+              <tr>
+                <td>Název</td>
+                <td>Value at_least_one_a_and_b (@en)</td>
+              </tr>
+              
+          
+                <tr>
+                  <td>Hierarchie</td>
+                  <td>
+                    <ul style="list-style-type: disclosure-closed; padding-left: 0; margin: 0;">
+                          <li>
+                                    profiluje
+                  třídu
+                <a href="#Value_at_least_one_a_and_b">Value_at_least_one_a_and_b (@en)</a> (<a href="http://example.com/vocabulary#Value_at_least_one_a_and_b">http://example.com/vocabulary#Value_at_least_one_a_and_b</a>)
+                  <ul style="list-style-type: disclosure-closed;">
+                  </ul>
+          
+                          </li>
+                    </ul>
+                  </td>
+                </tr>
+          
+              <tr>
+                <td>Řízené slovníky</td>
+                <td>  <ul>
+                <li><a href="#cv-CV-A-letters">CV A (letters)</a> (AT LEAST ONE)
+          </li>
+                <li><a href="#cv-CV-B-digits">CV B (digits)</a> (AT LEAST ONE)
+          </li>
+            </ul>
+          </td>
+              </tr>
+              <tr>
+                <td>Použití řízených slovníků</td>
+                <td>  <p>
+              Tento profil třídy MUSÍ být v datech reprezentován ALESPOŇ JEDNOU položkou řízeného slovníku <a href="#cv-CV-A-letters">CV A (letters)</a>.
+            </p>
+            <p>
+              Tento profil třídy MUSÍ být v datech reprezentován ALESPOŇ JEDNOU položkou řízeného slovníku <a href="#cv-CV-B-digits">CV B (digits)</a>.
+            </p>
+          </td>
+              </tr>
+            </table>
+          
+          
+              <p><strong>Zpětné asociace</strong></p>
+              <ul>
+                  <li>z domény <a href="#Test"></a> → <a href="#at_least_one_a_and_b"></a></li>
+              </ul>
+          
+          
+          </section>          <section id="Value_at_least_one_a_object">
+            <h4>Value at_least_one_a_object (@en)</h4>
+          
+            <table class="def">
+              <tr>
+                <td>IRI profilovaných tříd</td>
+                <td>
+                    <a href="http://example.com/vocabulary#Value_at_least_one_a_object">http://example.com/vocabulary#Value_at_least_one_a_object</a>
+                </td>
+              </tr>
+              <tr>
+                <td>IRI</td>
+                <td><a href="http://example.com/profile#Value_at_least_one_a_object">http://example.com/profile#Value_at_least_one_a_object</a></td>
+              </tr>
+              <tr>
+                <td>Název</td>
+                <td>Value at_least_one_a_object (@en)</td>
+              </tr>
+              
+          
+                <tr>
+                  <td>Hierarchie</td>
+                  <td>
+                    <ul style="list-style-type: disclosure-closed; padding-left: 0; margin: 0;">
+                          <li>
+                                    profiluje
+                  třídu
+                <a href="#Value_at_least_one_a_object">Value_at_least_one_a_object (@en)</a> (<a href="http://example.com/vocabulary#Value_at_least_one_a_object">http://example.com/vocabulary#Value_at_least_one_a_object</a>)
+                  <ul style="list-style-type: disclosure-closed;">
+                  </ul>
+          
+                          </li>
+                    </ul>
+                  </td>
+                </tr>
+          
+              <tr>
+                <td>Řízené slovníky</td>
+                <td>  <a href="#cv-CV-A-letters">CV A (letters)</a> (AT LEAST ONE)
+          
+          </td>
+              </tr>
+              <tr>
+                <td>Použití řízených slovníků</td>
+                <td>  <p>
+              Tento profil třídy MUSÍ být v datech reprezentován ALESPOŇ JEDNOU položkou řízeného slovníku <a href="#cv-CV-A-letters">CV A (letters)</a>.
+            </p>
+          </td>
+              </tr>
+            </table>
+          
+              <p><strong>Vlastnosti</strong></p>
+              <p>Pro tento profil třídy jsou definovány následující vlastnosti: <a href="#label">label (@en)</a>.</p>
+          
+              <p><strong>Zpětné asociace</strong></p>
+              <ul>
+                  <li>z domény <a href="#Test"></a> → <a href="#at_least_one_a_object"></a></li>
+              </ul>
+          
+              <section id="label">
+                <h4>label (@en)</h4>
+              
+                <table class="def">
+                  <tr>
+                    <td>IRI profilovaných vztahů</td>
+                    <td>
+                        <a href="http://example.com/vocabulary#label_at_least_one_a_object">http://example.com/vocabulary#label_at_least_one_a_object</a>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>IRI</td>
+                    <td><a href="http://example.com/profile#label">http://example.com/profile#label</a></td>
+                  </tr>
+                  <tr>
+                    <td>Název</td>
+                    <td>label (@en)</td>
+                  </tr>
+                  <tr>
+                    <td>Definiční obor</td>
+                    <td>
+                      <a href="#Value_at_least_one_a_object">Value at_least_one_a_object (@en)</a>
+              
+                      
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Obor hodnot</td>
+                    <td>
+                      <a href="http://www.w3.org/2000/01/rdf-schema#Literal">rdfs:Literal</a>
+              
+                      [0..1]
+                  </td>
+                  </tr>
+                  
+              
+              
+              
+                    <tr>
+                      <td>Hierarchie</td>
+                      <td>
+                        <ul style="list-style-type: disclosure-closed; padding-left: 0; margin: 0;">
+                              <li>
+                                        profiluje
+                      vlastnost
+                    <a href="#label_at_least_one_a_object">label_at_least_one_a_object (@en)</a> (<a href="http://example.com/vocabulary#label_at_least_one_a_object">http://example.com/vocabulary#label_at_least_one_a_object</a>)
+                      <ul style="list-style-type: disclosure-closed;">
+                      </ul>
+              
+                              </li>
+                        </ul>
+                      </td>
+                    </tr>
+              
+                </table>
+              </section>
+          </section>          <section id="Value_at_least_one_a_recommended_b_require">
+            <h4>Value at_least_one_a_recommended_b_require (@en)</h4>
+          
+            <table class="def">
+              <tr>
+                <td>IRI profilovaných tříd</td>
+                <td>
+                    <a href="http://example.com/vocabulary#Value_at_least_one_a_recommended_b_require">http://example.com/vocabulary#Value_at_least_one_a_recommended_b_require</a>
+                </td>
+              </tr>
+              <tr>
+                <td>IRI</td>
+                <td><a href="http://example.com/profile#Value_at_least_one_a_recommended_b_require">http://example.com/profile#Value_at_least_one_a_recommended_b_require</a></td>
+              </tr>
+              <tr>
+                <td>Název</td>
+                <td>Value at_least_one_a_recommended_b_require (@en)</td>
+              </tr>
+              
+          
+                <tr>
+                  <td>Hierarchie</td>
+                  <td>
+                    <ul style="list-style-type: disclosure-closed; padding-left: 0; margin: 0;">
+                          <li>
+                                    profiluje
+                  třídu
+                <a href="#Value_at_least_one_a_recommended_b_require">Value_at_least_one_a_recommended_b_require (@en)</a> (<a href="http://example.com/vocabulary#Value_at_least_one_a_recommended_b_require">http://example.com/vocabulary#Value_at_least_one_a_recommended_b_require</a>)
+                  <ul style="list-style-type: disclosure-closed;">
+                  </ul>
+          
+                          </li>
+                    </ul>
+                  </td>
+                </tr>
+          
+              <tr>
+                <td>Řízené slovníky</td>
+                <td>  <ul>
+                <li><a href="#cv-CV-A-letters">CV A (letters)</a> (AT LEAST ONE)
+          </li>
+                <li><a href="#cv-CV-B-digits">CV B (digits)</a> (RECOMMENDED)
+          </li>
+            </ul>
+          </td>
+              </tr>
+              <tr>
+                <td>Použití řízených slovníků</td>
+                <td>  <p>
+              Tento profil třídy MUSÍ být v datech reprezentován ALESPOŇ JEDNOU položkou řízeného slovníku <a href="#cv-CV-A-letters">CV A (letters)</a>.
+            </p>
+            <p>
+              DOPORUČUJE se, aby byl tento profil třídy v datech reprezentován položkami řízeného slovníku <a href="#cv-CV-B-digits">CV B (digits)</a>.
+            </p>
+          </td>
+              </tr>
+            </table>
+          
+          
+              <p><strong>Zpětné asociace</strong></p>
+              <ul>
+                  <li>z domény <a href="#Test"></a> → <a href="#at_least_one_a_recommended_b_require"></a></li>
+              </ul>
+          
+          
+          </section>          <section id="Value_at_least_one_a_single">
+            <h4>Value at_least_one_a_single (@en)</h4>
+          
+            <table class="def">
+              <tr>
+                <td>IRI profilovaných tříd</td>
+                <td>
+                    <a href="http://example.com/vocabulary#Value_at_least_one_a_single">http://example.com/vocabulary#Value_at_least_one_a_single</a>
+                </td>
+              </tr>
+              <tr>
+                <td>IRI</td>
+                <td><a href="http://example.com/profile#Value_at_least_one_a_single">http://example.com/profile#Value_at_least_one_a_single</a></td>
+              </tr>
+              <tr>
+                <td>Název</td>
+                <td>Value at_least_one_a_single (@en)</td>
+              </tr>
+              
+          
+                <tr>
+                  <td>Hierarchie</td>
+                  <td>
+                    <ul style="list-style-type: disclosure-closed; padding-left: 0; margin: 0;">
+                          <li>
+                                    profiluje
+                  třídu
+                <a href="#Value_at_least_one_a_single">Value_at_least_one_a_single (@en)</a> (<a href="http://example.com/vocabulary#Value_at_least_one_a_single">http://example.com/vocabulary#Value_at_least_one_a_single</a>)
+                  <ul style="list-style-type: disclosure-closed;">
+                  </ul>
+          
+                          </li>
+                    </ul>
+                  </td>
+                </tr>
+          
+              <tr>
+                <td>Řízené slovníky</td>
+                <td>  <a href="#cv-CV-A-letters">CV A (letters)</a> (AT LEAST ONE)
+          
+          </td>
+              </tr>
+              <tr>
+                <td>Použití řízených slovníků</td>
+                <td>  <p>
+              Tento profil třídy MUSÍ být v datech reprezentován ALESPOŇ JEDNOU položkou řízeného slovníku <a href="#cv-CV-A-letters">CV A (letters)</a>.
+            </p>
+          </td>
+              </tr>
+            </table>
+          
+          
+              <p><strong>Zpětné asociace</strong></p>
+              <ul>
+                  <li>z domény <a href="#Test"></a> → <a href="#at_least_one_a_single"></a></li>
+              </ul>
+          
+          
+          </section>          <section id="Value_may_a">
+            <h4>Value may_a (@en)</h4>
+          
+            <table class="def">
+              <tr>
+                <td>IRI profilovaných tříd</td>
+                <td>
+                    <a href="http://example.com/vocabulary#Value_may_a">http://example.com/vocabulary#Value_may_a</a>
+                </td>
+              </tr>
+              <tr>
+                <td>IRI</td>
+                <td><a href="http://example.com/profile#Value_may_a">http://example.com/profile#Value_may_a</a></td>
+              </tr>
+              <tr>
+                <td>Název</td>
+                <td>Value may_a (@en)</td>
+              </tr>
+              
+          
+                <tr>
+                  <td>Hierarchie</td>
+                  <td>
+                    <ul style="list-style-type: disclosure-closed; padding-left: 0; margin: 0;">
+                          <li>
+                                    profiluje
+                  třídu
+                <a href="#Value_may_a">Value_may_a (@en)</a> (<a href="http://example.com/vocabulary#Value_may_a">http://example.com/vocabulary#Value_may_a</a>)
+                  <ul style="list-style-type: disclosure-closed;">
+                  </ul>
+          
+                          </li>
+                    </ul>
+                  </td>
+                </tr>
+          
+              <tr>
+                <td>Řízené slovníky</td>
+                <td>  <a href="#cv-CV-A-letters">CV A (letters)</a> (MAY)
+          
+          </td>
+              </tr>
+              <tr>
+                <td>Použití řízených slovníků</td>
+                <td>  <p>
+              Tento profil třídy MŮŽE být v datech reprezentován položkami řízeného slovníku <a href="#cv-CV-A-letters">CV A (letters)</a>.
+            </p>
+          </td>
+              </tr>
+            </table>
+          
+          
+              <p><strong>Zpětné asociace</strong></p>
+              <ul>
+                  <li>z domény <a href="#Test"></a> → <a href="#may_a"></a></li>
+              </ul>
+          
+          
+          </section>          <section id="Value_must_a">
+            <h4>Value must_a (@en)</h4>
+          
+            <table class="def">
+              <tr>
+                <td>IRI profilovaných tříd</td>
+                <td>
+                    <a href="http://example.com/vocabulary#Value_must_a">http://example.com/vocabulary#Value_must_a</a>
+                </td>
+              </tr>
+              <tr>
+                <td>IRI</td>
+                <td><a href="http://example.com/profile#Value_must_a">http://example.com/profile#Value_must_a</a></td>
+              </tr>
+              <tr>
+                <td>Název</td>
+                <td>Value must_a (@en)</td>
+              </tr>
+              
+          
+                <tr>
+                  <td>Hierarchie</td>
+                  <td>
+                    <ul style="list-style-type: disclosure-closed; padding-left: 0; margin: 0;">
+                          <li>
+                                    profiluje
+                  třídu
+                <a href="#Value_must_a">Value_must_a (@en)</a> (<a href="http://example.com/vocabulary#Value_must_a">http://example.com/vocabulary#Value_must_a</a>)
+                  <ul style="list-style-type: disclosure-closed;">
+                  </ul>
+          
+                          </li>
+                    </ul>
+                  </td>
+                </tr>
+          
+              <tr>
+                <td>Řízené slovníky</td>
+                <td>  <a href="#cv-CV-A-letters">CV A (letters)</a> (MUST)
+          
+          </td>
+              </tr>
+              <tr>
+                <td>Použití řízených slovníků</td>
+                <td>  <p>
+              Tento profil třídy MUSÍ být v datech reprezentován položkami řízeného slovníku <a href="#cv-CV-A-letters">CV A (letters)</a>.
+            </p>
+          </td>
+              </tr>
+            </table>
+          
+          
+              <p><strong>Zpětné asociace</strong></p>
+              <ul>
+                  <li>z domény <a href="#Test"></a> → <a href="#must_a"></a></li>
+              </ul>
+          
+          
+          </section>          <section id="Value_must_a_class_regex">
+            <h4>Value must_a_class_regex (@en)</h4>
+          
+            <table class="def">
+              <tr>
+                <td>IRI profilovaných tříd</td>
+                <td>
+                    <a href="http://example.com/vocabulary#Value_must_a_class_regex">http://example.com/vocabulary#Value_must_a_class_regex</a>
+                </td>
+              </tr>
+              <tr>
+                <td>IRI</td>
+                <td><a href="http://example.com/profile#Value_must_a_class_regex">http://example.com/profile#Value_must_a_class_regex</a></td>
+              </tr>
+              <tr>
+                <td>Název</td>
+                <td>Value must_a_class_regex (@en)</td>
+              </tr>
+                  <tr>
+                <td>Regulární výraz</td>
+                <td><code>^http://example\.com/cv-a/r.*$</code></td>
+              </tr>
+          
+          
+                <tr>
+                  <td>Hierarchie</td>
+                  <td>
+                    <ul style="list-style-type: disclosure-closed; padding-left: 0; margin: 0;">
+                          <li>
+                                    profiluje
+                  třídu
+                <a href="#Value_must_a_class_regex">Value_must_a_class_regex (@en)</a> (<a href="http://example.com/vocabulary#Value_must_a_class_regex">http://example.com/vocabulary#Value_must_a_class_regex</a>)
+                  <ul style="list-style-type: disclosure-closed;">
+                  </ul>
+          
+                          </li>
+                    </ul>
+                  </td>
+                </tr>
+          
+              <tr>
+                <td>Řízené slovníky</td>
+                <td>  <a href="#cv-CV-A-letters">CV A (letters)</a> (MUST)
+          
+          </td>
+              </tr>
+              <tr>
+                <td>Použití řízených slovníků</td>
+                <td>  <p>
+              Tento profil třídy MUSÍ být v datech reprezentován položkami řízeného slovníku <a href="#cv-CV-A-letters">CV A (letters)</a>.
+            </p>
+          </td>
+              </tr>
+            </table>
+          
+          
+              <p><strong>Zpětné asociace</strong></p>
+              <ul>
+                  <li>z domény <a href="#Test"></a> → <a href="#must_a_class_regex"></a></li>
+              </ul>
+          
+          
+          </section>          <section id="Value_must_a_object">
+            <h4>Value must_a_object (@en)</h4>
+          
+            <table class="def">
+              <tr>
+                <td>IRI profilovaných tříd</td>
+                <td>
+                    <a href="http://example.com/vocabulary#Value_must_a_object">http://example.com/vocabulary#Value_must_a_object</a>
+                </td>
+              </tr>
+              <tr>
+                <td>IRI</td>
+                <td><a href="http://example.com/profile#Value_must_a_object">http://example.com/profile#Value_must_a_object</a></td>
+              </tr>
+              <tr>
+                <td>Název</td>
+                <td>Value must_a_object (@en)</td>
+              </tr>
+              
+          
+                <tr>
+                  <td>Hierarchie</td>
+                  <td>
+                    <ul style="list-style-type: disclosure-closed; padding-left: 0; margin: 0;">
+                          <li>
+                                    profiluje
+                  třídu
+                <a href="#Value_must_a_object">Value_must_a_object (@en)</a> (<a href="http://example.com/vocabulary#Value_must_a_object">http://example.com/vocabulary#Value_must_a_object</a>)
+                  <ul style="list-style-type: disclosure-closed;">
+                  </ul>
+          
+                          </li>
+                    </ul>
+                  </td>
+                </tr>
+          
+              <tr>
+                <td>Řízené slovníky</td>
+                <td>  <a href="#cv-CV-A-letters">CV A (letters)</a> (MUST)
+          
+          </td>
+              </tr>
+              <tr>
+                <td>Použití řízených slovníků</td>
+                <td>  <p>
+              Tento profil třídy MUSÍ být v datech reprezentován položkami řízeného slovníku <a href="#cv-CV-A-letters">CV A (letters)</a>.
+            </p>
+          </td>
+              </tr>
+            </table>
+          
+              <p><strong>Vlastnosti</strong></p>
+              <p>Pro tento profil třídy jsou definovány následující vlastnosti: <a href="#label">label (@en)</a>.</p>
+          
+              <p><strong>Zpětné asociace</strong></p>
+              <ul>
+                  <li>z domény <a href="#Test"></a> → <a href="#must_a_object"></a></li>
+              </ul>
+          
+              <section id="label">
+                <h4>label (@en)</h4>
+              
+                <table class="def">
+                  <tr>
+                    <td>IRI profilovaných vztahů</td>
+                    <td>
+                        <a href="http://example.com/vocabulary#label_must_a_object">http://example.com/vocabulary#label_must_a_object</a>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>IRI</td>
+                    <td><a href="http://example.com/profile#label">http://example.com/profile#label</a></td>
+                  </tr>
+                  <tr>
+                    <td>Název</td>
+                    <td>label (@en)</td>
+                  </tr>
+                  <tr>
+                    <td>Definiční obor</td>
+                    <td>
+                      <a href="#Value_must_a_object">Value must_a_object (@en)</a>
+              
+                      
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Obor hodnot</td>
+                    <td>
+                      <a href="http://www.w3.org/2000/01/rdf-schema#Literal">rdfs:Literal</a>
+              
+                      [0..1]
+                  </td>
+                  </tr>
+                  
+              
+              
+              
+                    <tr>
+                      <td>Hierarchie</td>
+                      <td>
+                        <ul style="list-style-type: disclosure-closed; padding-left: 0; margin: 0;">
+                              <li>
+                                        profiluje
+                      vlastnost
+                    <a href="#label_must_a_object">label_must_a_object (@en)</a> (<a href="http://example.com/vocabulary#label_must_a_object">http://example.com/vocabulary#label_must_a_object</a>)
+                      <ul style="list-style-type: disclosure-closed;">
+                      </ul>
+              
+                              </li>
+                        </ul>
+                      </td>
+                    </tr>
+              
+                </table>
+              </section>
+          </section>          <section id="Value_must_a_single">
+            <h4>Value must_a_single (@en)</h4>
+          
+            <table class="def">
+              <tr>
+                <td>IRI profilovaných tříd</td>
+                <td>
+                    <a href="http://example.com/vocabulary#Value_must_a_single">http://example.com/vocabulary#Value_must_a_single</a>
+                </td>
+              </tr>
+              <tr>
+                <td>IRI</td>
+                <td><a href="http://example.com/profile#Value_must_a_single">http://example.com/profile#Value_must_a_single</a></td>
+              </tr>
+              <tr>
+                <td>Název</td>
+                <td>Value must_a_single (@en)</td>
+              </tr>
+              
+          
+                <tr>
+                  <td>Hierarchie</td>
+                  <td>
+                    <ul style="list-style-type: disclosure-closed; padding-left: 0; margin: 0;">
+                          <li>
+                                    profiluje
+                  třídu
+                <a href="#Value_must_a_single">Value_must_a_single (@en)</a> (<a href="http://example.com/vocabulary#Value_must_a_single">http://example.com/vocabulary#Value_must_a_single</a>)
+                  <ul style="list-style-type: disclosure-closed;">
+                  </ul>
+          
+                          </li>
+                    </ul>
+                  </td>
+                </tr>
+          
+              <tr>
+                <td>Řízené slovníky</td>
+                <td>  <a href="#cv-CV-A-letters">CV A (letters)</a> (MUST)
+          
+          </td>
+              </tr>
+              <tr>
+                <td>Použití řízených slovníků</td>
+                <td>  <p>
+              Tento profil třídy MUSÍ být v datech reprezentován položkami řízeného slovníku <a href="#cv-CV-A-letters">CV A (letters)</a>.
+            </p>
+          </td>
+              </tr>
+            </table>
+          
+          
+              <p><strong>Zpětné asociace</strong></p>
+              <ul>
+                  <li>z domény <a href="#Test"></a> → <a href="#must_a_single"></a></li>
+              </ul>
+          
+          
+          </section>          <section id="Value_must_without_pattern">
+            <h4>Value must_without_pattern (@en)</h4>
+          
+            <table class="def">
+              <tr>
+                <td>IRI profilovaných tříd</td>
+                <td>
+                    <a href="http://example.com/vocabulary#Value_must_without_pattern">http://example.com/vocabulary#Value_must_without_pattern</a>
+                </td>
+              </tr>
+              <tr>
+                <td>IRI</td>
+                <td><a href="http://example.com/profile#Value_must_without_pattern">http://example.com/profile#Value_must_without_pattern</a></td>
+              </tr>
+              <tr>
+                <td>Název</td>
+                <td>Value must_without_pattern (@en)</td>
+              </tr>
+              
+          
+                <tr>
+                  <td>Hierarchie</td>
+                  <td>
+                    <ul style="list-style-type: disclosure-closed; padding-left: 0; margin: 0;">
+                          <li>
+                                    profiluje
+                  třídu
+                <a href="#Value_must_without_pattern">Value_must_without_pattern (@en)</a> (<a href="http://example.com/vocabulary#Value_must_without_pattern">http://example.com/vocabulary#Value_must_without_pattern</a>)
+                  <ul style="list-style-type: disclosure-closed;">
+                  </ul>
+          
+                          </li>
+                    </ul>
+                  </td>
+                </tr>
+          
+              <tr>
+                <td>Řízené slovníky</td>
+                <td>  <a href="#cv-CV-without-a-pattern">CV without a pattern</a> (MUST)
+          
+          </td>
+              </tr>
+              <tr>
+                <td>Použití řízených slovníků</td>
+                <td>  <p>
+              Tento profil třídy MUSÍ být v datech reprezentován položkami řízeného slovníku <a href="#cv-CV-without-a-pattern">CV without a pattern</a>.
+            </p>
+          </td>
+              </tr>
+            </table>
+          
+          
+              <p><strong>Zpětné asociace</strong></p>
+              <ul>
+                  <li>z domény <a href="#Test"></a> → <a href="#must_without_pattern"></a></li>
+              </ul>
+          
+          
+          </section>          <section id="Value_recommended_a_both">
+            <h4>Value recommended_a_both (@en)</h4>
+          
+            <table class="def">
+              <tr>
+                <td>IRI profilovaných tříd</td>
+                <td>
+                    <a href="http://example.com/vocabulary#Value_recommended_a_both">http://example.com/vocabulary#Value_recommended_a_both</a>
+                </td>
+              </tr>
+              <tr>
+                <td>IRI</td>
+                <td><a href="http://example.com/profile#Value_recommended_a_both">http://example.com/profile#Value_recommended_a_both</a></td>
+              </tr>
+              <tr>
+                <td>Název</td>
+                <td>Value recommended_a_both (@en)</td>
+              </tr>
+              
+          
+                <tr>
+                  <td>Hierarchie</td>
+                  <td>
+                    <ul style="list-style-type: disclosure-closed; padding-left: 0; margin: 0;">
+                          <li>
+                                    profiluje
+                  třídu
+                <a href="#Value_recommended_a_both">Value_recommended_a_both (@en)</a> (<a href="http://example.com/vocabulary#Value_recommended_a_both">http://example.com/vocabulary#Value_recommended_a_both</a>)
+                  <ul style="list-style-type: disclosure-closed;">
+                  </ul>
+          
+                          </li>
+                    </ul>
+                  </td>
+                </tr>
+          
+              <tr>
+                <td>Řízené slovníky</td>
+                <td>  <a href="#cv-CV-A-letters">CV A (letters)</a> (RECOMMENDED)
+          
+          </td>
+              </tr>
+              <tr>
+                <td>Použití řízených slovníků</td>
+                <td>  <p>
+              DOPORUČUJE se, aby byl tento profil třídy v datech reprezentován položkami řízeného slovníku <a href="#cv-CV-A-letters">CV A (letters)</a>.
+            </p>
+          </td>
+              </tr>
+            </table>
+          
+          
+              <p><strong>Zpětné asociace</strong></p>
+              <ul>
+                  <li>z domény <a href="#Test"></a> → <a href="#recommended_a_both"></a></li>
+              </ul>
+          
+          
+          </section>          <section id="Value_recommended_a_default">
+            <h4>Value recommended_a_default (@en)</h4>
+          
+            <table class="def">
+              <tr>
+                <td>IRI profilovaných tříd</td>
+                <td>
+                    <a href="http://example.com/vocabulary#Value_recommended_a_default">http://example.com/vocabulary#Value_recommended_a_default</a>
+                </td>
+              </tr>
+              <tr>
+                <td>IRI</td>
+                <td><a href="http://example.com/profile#Value_recommended_a_default">http://example.com/profile#Value_recommended_a_default</a></td>
+              </tr>
+              <tr>
+                <td>Název</td>
+                <td>Value recommended_a_default (@en)</td>
+              </tr>
+              
+          
+                <tr>
+                  <td>Hierarchie</td>
+                  <td>
+                    <ul style="list-style-type: disclosure-closed; padding-left: 0; margin: 0;">
+                          <li>
+                                    profiluje
+                  třídu
+                <a href="#Value_recommended_a_default">Value_recommended_a_default (@en)</a> (<a href="http://example.com/vocabulary#Value_recommended_a_default">http://example.com/vocabulary#Value_recommended_a_default</a>)
+                  <ul style="list-style-type: disclosure-closed;">
+                  </ul>
+          
+                          </li>
+                    </ul>
+                  </td>
+                </tr>
+          
+              <tr>
+                <td>Řízené slovníky</td>
+                <td>  <a href="#cv-CV-A-letters">CV A (letters)</a> (RECOMMENDED)
+          
+          </td>
+              </tr>
+              <tr>
+                <td>Použití řízených slovníků</td>
+                <td>  <p>
+              DOPORUČUJE se, aby byl tento profil třídy v datech reprezentován položkami řízeného slovníku <a href="#cv-CV-A-letters">CV A (letters)</a>.
+            </p>
+          </td>
+              </tr>
+            </table>
+          
+          
+              <p><strong>Zpětné asociace</strong></p>
+              <ul>
+                  <li>z domény <a href="#Test"></a> → <a href="#recommended_a_default"></a></li>
+              </ul>
+          
+          
+          </section>          <section id="Value_recommended_a_require">
+            <h4>Value recommended_a_require (@en)</h4>
+          
+            <table class="def">
+              <tr>
+                <td>IRI profilovaných tříd</td>
+                <td>
+                    <a href="http://example.com/vocabulary#Value_recommended_a_require">http://example.com/vocabulary#Value_recommended_a_require</a>
+                </td>
+              </tr>
+              <tr>
+                <td>IRI</td>
+                <td><a href="http://example.com/profile#Value_recommended_a_require">http://example.com/profile#Value_recommended_a_require</a></td>
+              </tr>
+              <tr>
+                <td>Název</td>
+                <td>Value recommended_a_require (@en)</td>
+              </tr>
+              
+          
+                <tr>
+                  <td>Hierarchie</td>
+                  <td>
+                    <ul style="list-style-type: disclosure-closed; padding-left: 0; margin: 0;">
+                          <li>
+                                    profiluje
+                  třídu
+                <a href="#Value_recommended_a_require">Value_recommended_a_require (@en)</a> (<a href="http://example.com/vocabulary#Value_recommended_a_require">http://example.com/vocabulary#Value_recommended_a_require</a>)
+                  <ul style="list-style-type: disclosure-closed;">
+                  </ul>
+          
+                          </li>
+                    </ul>
+                  </td>
+                </tr>
+          
+              <tr>
+                <td>Řízené slovníky</td>
+                <td>  <a href="#cv-CV-A-letters">CV A (letters)</a> (RECOMMENDED)
+          
+          </td>
+              </tr>
+              <tr>
+                <td>Použití řízených slovníků</td>
+                <td>  <p>
+              DOPORUČUJE se, aby byl tento profil třídy v datech reprezentován položkami řízeného slovníku <a href="#cv-CV-A-letters">CV A (letters)</a>.
+            </p>
+          </td>
+              </tr>
+            </table>
+          
+          
+              <p><strong>Zpětné asociace</strong></p>
+              <ul>
+                  <li>z domény <a href="#Test"></a> → <a href="#recommended_a_require"></a></li>
+              </ul>
+          
+          
+          </section>          <section id="Value_recommended_a_restrict">
+            <h4>Value recommended_a_restrict (@en)</h4>
+          
+            <table class="def">
+              <tr>
+                <td>IRI profilovaných tříd</td>
+                <td>
+                    <a href="http://example.com/vocabulary#Value_recommended_a_restrict">http://example.com/vocabulary#Value_recommended_a_restrict</a>
+                </td>
+              </tr>
+              <tr>
+                <td>IRI</td>
+                <td><a href="http://example.com/profile#Value_recommended_a_restrict">http://example.com/profile#Value_recommended_a_restrict</a></td>
+              </tr>
+              <tr>
+                <td>Název</td>
+                <td>Value recommended_a_restrict (@en)</td>
+              </tr>
+              
+          
+                <tr>
+                  <td>Hierarchie</td>
+                  <td>
+                    <ul style="list-style-type: disclosure-closed; padding-left: 0; margin: 0;">
+                          <li>
+                                    profiluje
+                  třídu
+                <a href="#Value_recommended_a_restrict">Value_recommended_a_restrict (@en)</a> (<a href="http://example.com/vocabulary#Value_recommended_a_restrict">http://example.com/vocabulary#Value_recommended_a_restrict</a>)
+                  <ul style="list-style-type: disclosure-closed;">
+                  </ul>
+          
+                          </li>
+                    </ul>
+                  </td>
+                </tr>
+          
+              <tr>
+                <td>Řízené slovníky</td>
+                <td>  <a href="#cv-CV-A-letters">CV A (letters)</a> (RECOMMENDED)
+          
+          </td>
+              </tr>
+              <tr>
+                <td>Použití řízených slovníků</td>
+                <td>  <p>
+              DOPORUČUJE se, aby byl tento profil třídy v datech reprezentován položkami řízeného slovníku <a href="#cv-CV-A-letters">CV A (letters)</a>.
+            </p>
+          </td>
+              </tr>
+            </table>
+          
+          
+              <p><strong>Zpětné asociace</strong></p>
+              <ul>
+                  <li>z domény <a href="#Test"></a> → <a href="#recommended_a_restrict"></a></li>
+              </ul>
+          
+          
+          </section>      </section>
+
+
+
+      <section id="struktura-CV-JSON-Schema-test">
+      <h2>
+        Specifikace struktury pro
+        CV JSON Schema test
+      </h2>
+      <p>Combinations of controlled vocabulary assignments.</p>
+
+          <section id="json-schema--cv-json-schema-test">
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+            <h1>
+              JSON struktura pro
+              CV JSON Schema test
+            </h1>
+          
+              <dl>
+                <dt>IRI</dt>
+                <dd><code>/schema.json</code></dd>
+                <dt>Definováno v</dt>
+                <dd><code><a href="../schema.json">../schema.json</a></code></dd>
+                  <dt>Verze použitého jazyka</dt>
+                  <dd><a href="https://json-schema.org/specification-links.html#2020-12-release" target="_blank">2020-12</a> (metaschema IRI: <code>https://json-schema.org/draft/2020-12/schema</code>)</dd>
+              </dl>
+          
+              <h2>Kořen</h2>
+              Kořenem JSON schématu je
+                  <a href="#json-object--cv-json-schema-test--test"></a>
+          
+          
+              <section id="json-object--cv-json-schema-test--test">
+                <h2>
+                  Objekt <i>Test</i>
+                </h2>
+          
+                <table class="def">
+          
+                    <tr>
+                      <th>Interpretace</th>
+                      <td><a href="#Test">Test</a></td>
+                    </tr>
+                </table>
+          
+                      <strong>
+              objekt
+            </strong>
+              s vlastnostmi (<code>properties</code>):
+              <ul>
+                  <li style="list-style-type: disclosure-closed;">
+                    <code>must_a</code>:
+                      (<a href="#must_a" label="">must_a</a>)
+                    nepovinná
+                    položka
+          
+                          typu             pole hodnot <code>{0..*}</code>     z řízeného slovníku   <a href="#cv-CV-A-letters">CV A (letters)</a>
+            (typ řetězec, formát: <code>iri</code>, dle regulárního výrazu: <code>^http://example\.com/cv-a/[a-z]+$</code>)
+          
+          
+              
+          
+          
+            
+              
+          
+          
+          
+                  </li>
+                  <li style="list-style-type: disclosure-closed;">
+                    <code>must_a_class_regex</code>:
+                      (<a href="#must_a_class_regex" label="">must_a_class_regex</a>)
+                    nepovinná
+                    položka
+          
+                          typu             pole hodnot <code>{0..*}</code>     typu           řetězec
+              (formát: <code>iri</code>)
+          
+            
+          
+              všechno z následujících (<code>allOf</code>):
+              <ul>
+                  <li>          řetězec
+              (dle regulárního výrazu: <code>^http://example\.com/cv-a/r.*$</code>)
+          
+            
+          
+          
+          
+              
+          
+          </li>
+                  <li>řízený slovník   <a href="#cv-CV-A-letters">CV A (letters)</a>
+            (typ řetězec, dle regulárního výrazu: <code>^http://example\.com/cv-a/[a-z]+$</code>)
+          </li>
+              </ul>
+          
+          
+              
+          
+          
+          
+              
+          
+          
+            
+              
+          
+          
+          
+                  </li>
+                  <li style="list-style-type: disclosure-closed;">
+                    <code>must_a_single</code>:
+                      (<a href="#must_a_single" label="">must_a_single</a>)
+                    nepovinná
+                    položka
+          
+                          z řízeného slovníku   <a href="#cv-CV-A-letters">CV A (letters)</a>
+            (typ řetězec, formát: <code>iri</code>, dle regulárního výrazu: <code>^http://example\.com/cv-a/[a-z]+$</code>)
+          
+          
+                  </li>
+                  <li style="list-style-type: disclosure-closed;">
+                    <code>must_a_object</code>:
+                      (<a href="#must_a_object" label="">must_a_object</a>)
+                    nepovinná
+                    položka
+          
+                          typu             pole hodnot <code>{0..*}</code>     typu     <a href="#json-object--cv-json-schema-test--value-must_a_object"></a>
+          
+          
+              
+          
+          
+            
+              
+          
+          
+          
+                  </li>
+                  <li style="list-style-type: disclosure-closed;">
+                    <code>at_least_one_a</code>:
+                      (<a href="#at_least_one_a" label="">at_least_one_a</a>)
+                    nepovinná
+                    položka
+          
+                          typu             pole hodnot <code>{0..*}</code>     typu           řetězec
+              (formát: <code>iri</code>)
+          
+            
+          
+          
+          
+              
+          
+          
+          
+                  a musí obsahovat alespoň jednu položku     z řízeného slovníku   <a href="#cv-CV-A-letters">CV A (letters)</a>
+            (typ řetězec, dle regulárního výrazu: <code>^http://example\.com/cv-a/[a-z]+$</code>)
+          
+          
+              
+          
+          
+            
+              
+          
+          
+          
+                  </li>
+                  <li style="list-style-type: disclosure-closed;">
+                    <code>at_least_one_a_single</code>:
+                      (<a href="#at_least_one_a_single" label="">at_least_one_a_single</a>)
+                    nepovinná
+                    položka
+          
+                          typu           
+          
+              všechno z následujících (<code>allOf</code>):
+              <ul>
+                  <li>          řetězec
+              (formát: <code>iri</code>)
+          
+            
+          
+          
+          
+              
+          
+          </li>
+                  <li>řízený slovník   <a href="#cv-CV-A-letters">CV A (letters)</a>
+            (typ řetězec, dle regulárního výrazu: <code>^http://example\.com/cv-a/[a-z]+$</code>)
+          </li>
+              </ul>
+          
+          
+              
+          
+          
+          
+                  </li>
+                  <li style="list-style-type: disclosure-closed;">
+                    <code>at_least_one_a_object</code>:
+                      (<a href="#at_least_one_a_object" label="">at_least_one_a_object</a>)
+                    nepovinná
+                    položka
+          
+                          typu             pole hodnot <code>{0..*}</code>     typu     <a href="#json-object--cv-json-schema-test--value-at_least_one_a_object"></a>
+          
+          
+                  a musí obsahovat alespoň jednu položku     typu           <strong>
+              objekt
+            </strong>
+              s vlastnostmi (<code>properties</code>):
+              <ul>
+                  <li style="list-style-type: disclosure-closed;">
+                    <code>id</code>:
+                    povinná
+                    položka
+          
+                          z řízeného slovníku   <a href="#cv-CV-A-letters">CV A (letters)</a>
+            (typ řetězec, dle regulárního výrazu: <code>^http://example\.com/cv-a/[a-z]+$</code>)
+          
+          
+                  </li>
+              </ul>
+            
+          
+          
+          
+          
+          
+          
+              
+          
+          
+            
+              
+          
+          
+          
+                  </li>
+                  <li style="list-style-type: disclosure-closed;">
+                    <code>at_least_one_a_and_b</code>:
+                      (<a href="#at_least_one_a_and_b" label="">at_least_one_a_and_b</a>)
+                    nepovinná
+                    položka
+          
+                          typu             pole hodnot <code>{0..*}</code>     typu           řetězec
+              (formát: <code>iri</code>)
+          
+            
+          
+          
+          
+              
+          
+          
+          
+                  a musí obsahovat:
+                  <ul>
+                      <li>alespoň jednu položku     z řízeného slovníku   <a href="#cv-CV-A-letters">CV A (letters)</a>
+            (typ řetězec, dle regulárního výrazu: <code>^http://example\.com/cv-a/[a-z]+$</code>)
+          
+          </li>
+                      <li>alespoň jednu položku     z řízeného slovníku   <a href="#cv-CV-B-digits">CV B (digits)</a>
+            (typ řetězec, dle regulárního výrazu: <code>^http://example\.com/cv-b/[0-9]+$</code>)
+          
+          </li>
+                  </ul>
+              
+          
+          
+            
+              
+          
+          
+          
+                  </li>
+                  <li style="list-style-type: disclosure-closed;">
+                    <code>recommended_a_default</code>:
+                      (<a href="#recommended_a_default" label="">recommended_a_default</a>)
+                    nepovinná
+                    položka
+          
+                          typu             pole hodnot <code>{0..*}</code>     typu           řetězec
+              (formát: <code>iri</code>)
+          
+            
+          
+          
+          
+              
+          
+          
+          
+              
+          
+          
+            
+              
+          
+          
+          
+                  </li>
+                  <li style="list-style-type: disclosure-closed;">
+                    <code>recommended_a_require</code>:
+                      (<a href="#recommended_a_require" label="">recommended_a_require</a>)
+                    nepovinná
+                    položka
+          
+                          typu             pole hodnot <code>{0..*}</code>     typu           řetězec
+              (formát: <code>iri</code>)
+          
+            
+          
+          
+          
+              
+          
+          
+          
+                  a musí obsahovat alespoň jednu položku     z řízeného slovníku   <a href="#cv-CV-A-letters">CV A (letters)</a>
+            (typ řetězec, dle regulárního výrazu: <code>^http://example\.com/cv-a/[a-z]+$</code>)
+          
+          
+              
+          
+          
+            
+              
+          
+          
+          
+                  </li>
+                  <li style="list-style-type: disclosure-closed;">
+                    <code>recommended_a_restrict</code>:
+                      (<a href="#recommended_a_restrict" label="">recommended_a_restrict</a>)
+                    nepovinná
+                    položka
+          
+                          typu             pole hodnot <code>{0..*}</code>     z řízeného slovníku   <a href="#cv-CV-A-letters">CV A (letters)</a>
+            (typ řetězec, formát: <code>iri</code>, dle regulárního výrazu: <code>^http://example\.com/cv-a/[a-z]+$</code>)
+          
+          
+              
+          
+          
+            
+              
+          
+          
+          
+                  </li>
+                  <li style="list-style-type: disclosure-closed;">
+                    <code>recommended_a_both</code>:
+                      (<a href="#recommended_a_both" label="">recommended_a_both</a>)
+                    nepovinná
+                    položka
+          
+                          typu             pole hodnot <code>{0..*}</code>     z řízeného slovníku   <a href="#cv-CV-A-letters">CV A (letters)</a>
+            (typ řetězec, formát: <code>iri</code>, dle regulárního výrazu: <code>^http://example\.com/cv-a/[a-z]+$</code>)
+          
+          
+                  a musí obsahovat alespoň jednu položku     z řízeného slovníku   <a href="#cv-CV-A-letters">CV A (letters)</a>
+            (typ řetězec, dle regulárního výrazu: <code>^http://example\.com/cv-a/[a-z]+$</code>)
+          
+          
+              
+          
+          
+            
+              
+          
+          
+          
+                  </li>
+                  <li style="list-style-type: disclosure-closed;">
+                    <code>may_a</code>:
+                      (<a href="#may_a" label="">may_a</a>)
+                    nepovinná
+                    položka
+          
+                          typu             pole hodnot <code>{0..*}</code>     typu           řetězec
+              (formát: <code>iri</code>)
+          
+            
+          
+          
+          
+              
+          
+          
+          
+              
+          
+          
+            
+              
+          
+          
+          
+                  </li>
+                  <li style="list-style-type: disclosure-closed;">
+                    <code>must_without_pattern</code>:
+                      (<a href="#must_without_pattern" label="">must_without_pattern</a>)
+                    nepovinná
+                    položka
+          
+                          typu             pole hodnot <code>{0..*}</code>     typu           řetězec
+              (formát: <code>iri</code>)
+          
+            
+          
+          
+          
+              
+          
+          
+          
+              
+          
+          
+            
+              
+          
+          
+          
+                  </li>
+                  <li style="list-style-type: disclosure-closed;">
+                    <code>at_least_one_a_recommended_b_require</code>:
+                      (<a href="#at_least_one_a_recommended_b_require" label="">at_least_one_a_recommended_b_require</a>)
+                    nepovinná
+                    položka
+          
+                          typu             pole hodnot <code>{0..*}</code>     typu           řetězec
+              (formát: <code>iri</code>)
+          
+            
+          
+          
+          
+              
+          
+          
+          
+                  a musí obsahovat:
+                  <ul>
+                      <li>alespoň jednu položku     z řízeného slovníku   <a href="#cv-CV-A-letters">CV A (letters)</a>
+            (typ řetězec, dle regulárního výrazu: <code>^http://example\.com/cv-a/[a-z]+$</code>)
+          
+          </li>
+                      <li>alespoň jednu položku     z řízeného slovníku   <a href="#cv-CV-B-digits">CV B (digits)</a>
+            (typ řetězec, dle regulárního výrazu: <code>^http://example\.com/cv-b/[0-9]+$</code>)
+          
+          </li>
+                  </ul>
+              
+          
+          
+            
+              
+          
+          
+          
+                  </li>
+              </ul>
+            
+          
+          
+          
+          
+              </section>
+              <section id="json-object--cv-json-schema-test--value-at_least_one_a_object">
+                <h2>
+                  Objekt <i>Value at_least_one_a_object</i>
+                </h2>
+          
+                <table class="def">
+          
+                    <tr>
+                      <th>Interpretace</th>
+                      <td><a href="#Value_at_least_one_a_object">Value at_least_one_a_object</a></td>
+                    </tr>
+                </table>
+          
+                      <strong>
+              objekt
+            </strong>
+              s vlastnostmi (<code>properties</code>):
+              <ul>
+                  <li style="list-style-type: disclosure-closed;">
+                    <code>id</code>:
+                    povinná
+                    položka
+          
+                          typu           řetězec
+              (formát: <code>iri</code>)
+          
+            
+          
+          
+          
+              
+          
+          
+          
+                  </li>
+                  <li style="list-style-type: disclosure-closed;">
+                    <code>label</code>:
+                      (<a href="#label" label="">label</a>)
+                    nepovinná
+                    položka
+          
+                          typu           řetězec
+          
+            
+          
+          
+          
+              
+          
+          
+          
+                  </li>
+              </ul>
+            
+          
+          
+          
+          
+              </section>
+              <section id="json-object--cv-json-schema-test--value-must_a_object">
+                <h2>
+                  Objekt <i>Value must_a_object</i>
+                </h2>
+          
+                <table class="def">
+          
+                    <tr>
+                      <th>Interpretace</th>
+                      <td><a href="#Value_must_a_object">Value must_a_object</a></td>
+                    </tr>
+                </table>
+          
+                      <strong>
+              objekt
+            </strong>
+              s vlastnostmi (<code>properties</code>):
+              <ul>
+                  <li style="list-style-type: disclosure-closed;">
+                    <code>id</code>:
+                    povinná
+                    položka
+          
+                          z řízeného slovníku   <a href="#cv-CV-A-letters">CV A (letters)</a>
+            (typ řetězec, formát: <code>iri</code>, dle regulárního výrazu: <code>^http://example\.com/cv-a/[a-z]+$</code>)
+          
+          
+                  </li>
+                  <li style="list-style-type: disclosure-closed;">
+                    <code>label</code>:
+                      (<a href="#label" label="">label</a>)
+                    nepovinná
+                    položka
+          
+                          typu           řetězec
+          
+            
+          
+          
+          
+              
+          
+          
+          
+                  </li>
+              </ul>
+            
+          
+          
+          
+          
+              </section>
+          </section>
+      </section>
+
+    <section>
+      <h2>Použité prefixy</h2>
+      <table id="table-namespaces" class="simple">
+        <thead><tr><th>Prefix</th><th>Namespace IRI</th></tr></thead>
+        <tbody>
+            <tr><td><code>rdfs</code></td><td><a href="http://www.w3.org/2000/01/rdf-schema#"><code>http://www.w3.org/2000/01/rdf-schema#</code></a></td></tr>
+        </tbody>
+      </table>
+    </section>
+      <section>
+        <h2>Řízené slovníky</h2>
+
+        <section>
+          <h3>Seznam řízených slovníků</h3>
+          <p>
+            Seznam obsahuje všechny řízené slovníky, které tato specifikace používá, s odkazy na dokumenaci a ke stažení.
+          </p>
+          <table class="def cv-table cv-list">
+            <thead>
+              <tr>
+                <th>Název</th>
+                <th class="cv-center">SKOS</th>
+                <th>IRI schématu konceptů</th>
+                <th>Odkazy</th>
+              </tr>
+            </thead>
+            <tbody>
+                <tr id="cv-CV-A-letters">
+                  <td>CV A (letters)</td>
+                  <td class="cv-center">ano</td>
+                  <td class="cv-iri">http://example.com/schemes/a</td>
+                  <td>
+                    <a class="cv-link" href="http://example.com/vocabularies/a" title="Přístupová adresa" aria-label="Přístupová adresa"><svg class="cv-icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg></a>          
+                  </td>
+                </tr>
+                <tr id="cv-CV-B-digits">
+                  <td>CV B (digits)</td>
+                  <td class="cv-center">ano</td>
+                  <td class="cv-iri">http://example.com/schemes/b</td>
+                  <td>
+                    <a class="cv-link" href="http://example.com/vocabularies/b" title="Přístupová adresa" aria-label="Přístupová adresa"><svg class="cv-icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg></a>          
+                  </td>
+                </tr>
+                <tr id="cv-CV-without-a-pattern">
+                  <td>CV without a pattern</td>
+                  <td class="cv-center">ano</td>
+                  <td class="cv-iri">http://example.com/schemes/none</td>
+                  <td>
+                    <a class="cv-link" href="http://example.com/vocabularies/none" title="Přístupová adresa" aria-label="Přístupová adresa"><svg class="cv-icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg></a>          
+                  </td>
+                </tr>
+            </tbody>
+          </table>        </section>
+
+          <section>
+            <h3>Použití řízených slovníků</h3>
+            <p>
+              Tabulky níže uvádějí použití řízených slovníků pro vlastnosti, seskupené podle očekávané kvalifikace.
+            </p>
+
+              <section>
+                <h4>Vlastnosti s řízenými slovníky, které MUSÍ být použity</h4>
+                <table class="def cv-table">
+                  <thead>
+                    <tr>
+                      <th>Vlastnost</th>
+                      <th>Definiční obor vlastnosti</th>
+                      <th>Použito pro profil třídy</th>
+                      <th>Řízený slovník</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                      <tr>
+                        <td><a href="#must_a">must_a (@en)</a></td>
+                        <td><a href="#Test">Test (@en)</a></td>
+                        <td><a href="#Value_must_a">Value must_a (@en)</a></td>
+                        <td>
+                            <div><a href="#cv-CV-A-letters">CV A (letters)</a></div>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td><a href="#must_a_class_regex">must_a_class_regex (@en)</a></td>
+                        <td><a href="#Test">Test (@en)</a></td>
+                        <td><a href="#Value_must_a_class_regex">Value must_a_class_regex (@en)</a></td>
+                        <td>
+                            <div><a href="#cv-CV-A-letters">CV A (letters)</a></div>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td><a href="#must_a_object">must_a_object (@en)</a></td>
+                        <td><a href="#Test">Test (@en)</a></td>
+                        <td><a href="#Value_must_a_object">Value must_a_object (@en)</a></td>
+                        <td>
+                            <div><a href="#cv-CV-A-letters">CV A (letters)</a></div>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td><a href="#must_a_single">must_a_single (@en)</a></td>
+                        <td><a href="#Test">Test (@en)</a></td>
+                        <td><a href="#Value_must_a_single">Value must_a_single (@en)</a></td>
+                        <td>
+                            <div><a href="#cv-CV-A-letters">CV A (letters)</a></div>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td><a href="#must_without_pattern">must_without_pattern (@en)</a></td>
+                        <td><a href="#Test">Test (@en)</a></td>
+                        <td><a href="#Value_must_without_pattern">Value must_without_pattern (@en)</a></td>
+                        <td>
+                            <div><a href="#cv-CV-without-a-pattern">CV without a pattern</a></div>
+                        </td>
+                      </tr>
+                  </tbody>
+                </table>              </section>
+
+              <section>
+                <h4>Vlastnosti s řízenými slovníky, ze kterých MUSÍ být použit alespoň jeden</h4>
+                <table class="def cv-table">
+                  <thead>
+                    <tr>
+                      <th>Vlastnost</th>
+                      <th>Definiční obor vlastnosti</th>
+                      <th>Použito pro profil třídy</th>
+                      <th>Řízený slovník</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                      <tr>
+                        <td><a href="#at_least_one_a">at_least_one_a (@en)</a></td>
+                        <td><a href="#Test">Test (@en)</a></td>
+                        <td><a href="#Value_at_least_one_a">Value at_least_one_a (@en)</a></td>
+                        <td>
+                            <div><a href="#cv-CV-A-letters">CV A (letters)</a></div>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td><a href="#at_least_one_a_and_b">at_least_one_a_and_b (@en)</a></td>
+                        <td><a href="#Test">Test (@en)</a></td>
+                        <td><a href="#Value_at_least_one_a_and_b">Value at_least_one_a_and_b (@en)</a></td>
+                        <td>
+                            <div><a href="#cv-CV-A-letters">CV A (letters)</a></div>
+                            <div><a href="#cv-CV-B-digits">CV B (digits)</a></div>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td><a href="#at_least_one_a_object">at_least_one_a_object (@en)</a></td>
+                        <td><a href="#Test">Test (@en)</a></td>
+                        <td><a href="#Value_at_least_one_a_object">Value at_least_one_a_object (@en)</a></td>
+                        <td>
+                            <div><a href="#cv-CV-A-letters">CV A (letters)</a></div>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td><a href="#at_least_one_a_recommended_b_require">at_least_one_a_recommended_b_require (@en)</a></td>
+                        <td><a href="#Test">Test (@en)</a></td>
+                        <td><a href="#Value_at_least_one_a_recommended_b_require">Value at_least_one_a_recommended_b_require (@en)</a></td>
+                        <td>
+                            <div><a href="#cv-CV-A-letters">CV A (letters)</a></div>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td><a href="#at_least_one_a_single">at_least_one_a_single (@en)</a></td>
+                        <td><a href="#Test">Test (@en)</a></td>
+                        <td><a href="#Value_at_least_one_a_single">Value at_least_one_a_single (@en)</a></td>
+                        <td>
+                            <div><a href="#cv-CV-A-letters">CV A (letters)</a></div>
+                        </td>
+                      </tr>
+                  </tbody>
+                </table>              </section>
+
+              <section>
+                <h4>Vlastnosti s DOPORUČENÝMI řízenými slovníky</h4>
+                <table class="def cv-table">
+                  <thead>
+                    <tr>
+                      <th>Vlastnost</th>
+                      <th>Definiční obor vlastnosti</th>
+                      <th>Použito pro profil třídy</th>
+                      <th>Řízený slovník</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                      <tr>
+                        <td><a href="#at_least_one_a_recommended_b_require">at_least_one_a_recommended_b_require (@en)</a></td>
+                        <td><a href="#Test">Test (@en)</a></td>
+                        <td><a href="#Value_at_least_one_a_recommended_b_require">Value at_least_one_a_recommended_b_require (@en)</a></td>
+                        <td>
+                            <div><a href="#cv-CV-B-digits">CV B (digits)</a></div>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td><a href="#recommended_a_both">recommended_a_both (@en)</a></td>
+                        <td><a href="#Test">Test (@en)</a></td>
+                        <td><a href="#Value_recommended_a_both">Value recommended_a_both (@en)</a></td>
+                        <td>
+                            <div><a href="#cv-CV-A-letters">CV A (letters)</a></div>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td><a href="#recommended_a_default">recommended_a_default (@en)</a></td>
+                        <td><a href="#Test">Test (@en)</a></td>
+                        <td><a href="#Value_recommended_a_default">Value recommended_a_default (@en)</a></td>
+                        <td>
+                            <div><a href="#cv-CV-A-letters">CV A (letters)</a></div>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td><a href="#recommended_a_require">recommended_a_require (@en)</a></td>
+                        <td><a href="#Test">Test (@en)</a></td>
+                        <td><a href="#Value_recommended_a_require">Value recommended_a_require (@en)</a></td>
+                        <td>
+                            <div><a href="#cv-CV-A-letters">CV A (letters)</a></div>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td><a href="#recommended_a_restrict">recommended_a_restrict (@en)</a></td>
+                        <td><a href="#Test">Test (@en)</a></td>
+                        <td><a href="#Value_recommended_a_restrict">Value recommended_a_restrict (@en)</a></td>
+                        <td>
+                            <div><a href="#cv-CV-A-letters">CV A (letters)</a></div>
+                        </td>
+                      </tr>
+                  </tbody>
+                </table>              </section>
+
+              <section>
+                <h4>Vlastnosti s řízenými slovníky, které MOHOU být použity</h4>
+                <table class="def cv-table">
+                  <thead>
+                    <tr>
+                      <th>Vlastnost</th>
+                      <th>Definiční obor vlastnosti</th>
+                      <th>Použito pro profil třídy</th>
+                      <th>Řízený slovník</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                      <tr>
+                        <td><a href="#may_a">may_a (@en)</a></td>
+                        <td><a href="#Test">Test (@en)</a></td>
+                        <td><a href="#Value_may_a">Value may_a (@en)</a></td>
+                        <td>
+                            <div><a href="#cv-CV-A-letters">CV A (letters)</a></div>
+                        </td>
+                      </tr>
+                  </tbody>
+                </table>              </section>
+          </section>
+      </section>
+
+    <section id="přílohy">
+      <h2>Přílohy</h2>
+        <p>Součástí této specifikace jsou následující přílohy.</p>
+        <table class="def">
+        <thead>
+          <tr>
+            <th>Příloha</th>
+            <th>Odkaz</th>
+          </tr>
+        </thead>
+        <tbody>
+            <tr>
+              <td>Aplikační profil</td>
+              <td><a href="../dsv.ttl">../dsv.ttl</a></td>
+            </tr>
+            <tr>
+              <td>SHACL validační pravidla</td>
+              <td><a href="../shacl.ttl">../shacl.ttl</a></td>
+            </tr>
+            <tr>
+              <td>Katalog řízených slovníků</td>
+              <td><a href="../controlled_vocabulary_catalog.ttl">../controlled_vocabulary_catalog.ttl</a></td>
+            </tr>
+            <tr>
+              <td>Popis strukturálního modelu</td>
+              <td><a href="../cv-json-schema-test/structure.ttl">../cv-json-schema-test/structure.ttl</a></td>
+            </tr>
+            <tr>
+              <td>Serializace změn v LDES formátu</td>
+              <td><a href="../dsv.ldes.ttl">../dsv.ldes.ttl</a></td>
+            </tr>
+            <tr><td>JSON schéma</td><td><a href="../schema.json">../schema.json</a></td></tr>
+            <tr><td>JSON-LD kontext</td><td><a href="../context.jsonld">../context.jsonld</a></td></tr>
+            <tr><td>Dokumentace</td><td><a href="">#</a></td></tr>
+        </tbody>
+      </table>
+    </section>  </body>
+</html>
