@@ -298,9 +298,17 @@
         padding: 3px 10px;
       }
     
-      /* An IRI has no spaces to break at, so it may wrap anywhere instead of widening the table. */
+      /* The IRI column takes the space the other columns leave, up to a limit. An IRI has no spaces to break at, so beyond it the IRI wraps anywhere. */
       table.def.cv-list .cv-iri {
+        min-width: 16em;
+        max-width: 36em;
         overflow-wrap: anywhere;
+      }
+    
+      /* Columns with a short content are as narrow as the content. */
+      table.def.cv-list .cv-narrow {
+        width: 1%;
+        white-space: nowrap;
       }
     
       /* ReSpec shows the header row of a definition table as an italic body row, so it is marked out as a header. */
@@ -3416,16 +3424,16 @@
             <thead>
               <tr>
                 <th>Název</th>
-                <th class="cv-center">SKOS</th>
+                <th class="cv-center cv-narrow">SKOS</th>
                 <th>IRI schématu konceptů</th>
-                <th>Odkazy</th>
+                <th class="cv-narrow">Odkazy</th>
               </tr>
             </thead>
             <tbody>
                 <tr id="cv-CV-A-letters">
                   <td>CV A (letters)</td>
                   <td class="cv-center">ano</td>
-                  <td class="cv-iri">http://example.com/schemes/a</td>
+                  <td class="cv-iri"><a href="http://example.com/schemes/a"><code>http://example.com/schemes/a</code></a></td>
                   <td>
                     <a class="cv-link" href="http://example.com/vocabularies/a" title="Přístupová adresa" aria-label="Přístupová adresa"><svg class="cv-icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg></a>          
                   </td>
@@ -3433,7 +3441,7 @@
                 <tr id="cv-CV-B-digits">
                   <td>CV B (digits)</td>
                   <td class="cv-center">ano</td>
-                  <td class="cv-iri">http://example.com/schemes/b</td>
+                  <td class="cv-iri"><a href="http://example.com/schemes/b"><code>http://example.com/schemes/b</code></a></td>
                   <td>
                     <a class="cv-link" href="http://example.com/vocabularies/b" title="Přístupová adresa" aria-label="Přístupová adresa"><svg class="cv-icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg></a>          
                   </td>
@@ -3441,7 +3449,7 @@
                 <tr id="cv-CV-without-a-pattern">
                   <td>CV without a pattern</td>
                   <td class="cv-center">ano</td>
-                  <td class="cv-iri">http://example.com/schemes/none</td>
+                  <td class="cv-iri"><a href="http://example.com/schemes/none"><code>http://example.com/schemes/none</code></a></td>
                   <td>
                     <a class="cv-link" href="http://example.com/vocabularies/none" title="Přístupová adresa" aria-label="Přístupová adresa"><svg class="cv-icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg></a>          
                   </td>
