@@ -1,0 +1,594 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix dsv: <https://w3id.org/dsv#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix cardinality: <https://w3id.org/dsv/cardinality#>.
+@prefix requirement: <https://w3id.org/dsv/requirement-level#>.
+@prefix role: <https://w3id.org/dsv/class-role#>.
+@prefix ldes: <https://w3id.org/ldes#>.
+@prefix tree: <https://w3id.org/tree#>.
+@prefix as: <https://www.w3.org/ns/activitystreams#>.
+@prefix ds-ldes: <https://schemas.dataspecer.com/ldes#>.
+
+
+<> a ldes:EventStream, tree:Collection;
+    ldes:timestampPath dct:issued;
+    ldes:versionTimestampPath dct:created;
+    ldes:sequencePath ds-ldes:sequence;
+    ldes:transactionPath ds-ldes:transaction;
+    ldes:versionOfPath dct:isVersionOf;
+    ldes:versionCreateObject as:Create;
+    ldes:versionUpdateObject as:Update;
+    ldes:versionDeleteObject as:Delete;
+    tree:view <>;
+    ds-ldes:publishedModel <http://example.com/profile#>.
+
+<http://example.com/profile#> a dsv:ApplicationProfile.
+
+<> tree:member <http://example.com/profile#Test-2026-11-11T11:44:59.863Z-0>.
+
+<http://example.com/profile#Test-2026-11-11T11:44:59.863Z-0> a as:Create;
+    dct:isVersionOf <http://example.com/profile#Test>;
+    dct:created "2026-11-11T11:44:59.863Z"^^xsd:dateTime;
+    dct:issued "2026-11-11T11:44:59.863Z"^^xsd:dateTime;
+    ds-ldes:sequence 0;
+    dct:isPartOf <http://example.com/profile#>;
+    a dsv:TermProfile;
+    skos:prefLabel "Test"@en;
+    a dsv:ClassProfile;
+    dsv:class <http://example.com/vocabulary#Test>.
+
+<> tree:member <http://example.com/profile#Value_must_a-2026-11-11T11:44:59.863Z-1>.
+
+<http://example.com/profile#Value_must_a-2026-11-11T11:44:59.863Z-1> a as:Create;
+    dct:isVersionOf <http://example.com/profile#Value_must_a>;
+    dct:created "2026-11-11T11:44:59.863Z"^^xsd:dateTime;
+    dct:issued "2026-11-11T11:44:59.863Z"^^xsd:dateTime;
+    ds-ldes:sequence 1;
+    dct:isPartOf <http://example.com/profile#>;
+    a dsv:TermProfile;
+    skos:prefLabel "Value must_a"@en;
+    a dsv:ClassProfile;
+    dsv:class <http://example.com/vocabulary#Value_must_a>.
+
+<http://example.com/profile#Value_must_a/controlled-vocabulary-assignment/vocabulary/cv-json-schema-test-v2-cv-a> a dsv:ControlledVocabularyAssignment;
+    dsv:classProfile <http://example.com/profile#Value_must_a-2026-11-11T11:44:59.863Z-1>;
+    dsv:controlledVocabulary <cv-json-schema-test-v2-cv-a>;
+    dsv:usageExpectation <https://w3id.org/dsv/usage-expectation#must>.
+
+<> tree:member <http://example.com/profile#must_a-2026-11-11T11:44:59.863Z-2>.
+
+<http://example.com/profile#must_a-2026-11-11T11:44:59.863Z-2> a as:Create;
+    dct:isVersionOf <http://example.com/profile#must_a>;
+    dct:created "2026-11-11T11:44:59.863Z"^^xsd:dateTime;
+    dct:issued "2026-11-11T11:44:59.863Z"^^xsd:dateTime;
+    ds-ldes:sequence 2;
+    dct:isPartOf <http://example.com/profile#>;
+    a dsv:TermProfile;
+    skos:prefLabel "must_a"@en;
+    dsv:cardinality cardinality:0n;
+    dsv:property <http://example.com/vocabulary#must_a>;
+    dsv:domain <http://example.com/profile#Test>;
+    a dsv:ObjectPropertyProfile;
+    dsv:objectPropertyRange <http://example.com/profile#Value_must_a>.
+
+<> tree:member <http://example.com/profile#Value_must_a_class_regex-2026-11-11T11:44:59.863Z-3>.
+
+<http://example.com/profile#Value_must_a_class_regex-2026-11-11T11:44:59.863Z-3> a as:Create;
+    dct:isVersionOf <http://example.com/profile#Value_must_a_class_regex>;
+    dct:created "2026-11-11T11:44:59.863Z"^^xsd:dateTime;
+    dct:issued "2026-11-11T11:44:59.863Z"^^xsd:dateTime;
+    ds-ldes:sequence 3;
+    dct:isPartOf <http://example.com/profile#>;
+    a dsv:TermProfile;
+    skos:prefLabel "Value must_a_class_regex"@en;
+    a dsv:ClassProfile;
+    dsv:class <http://example.com/vocabulary#Value_must_a_class_regex>.
+
+<http://example.com/profile#Value_must_a_class_regex/controlled-vocabulary-assignment/vocabulary/cv-json-schema-test-v2-cv-a> a dsv:ControlledVocabularyAssignment;
+    dsv:classProfile <http://example.com/profile#Value_must_a_class_regex-2026-11-11T11:44:59.863Z-3>;
+    dsv:controlledVocabulary <cv-json-schema-test-v2-cv-a>;
+    dsv:usageExpectation <https://w3id.org/dsv/usage-expectation#must>.
+
+<> tree:member <http://example.com/profile#must_a_class_regex-2026-11-11T11:44:59.863Z-4>.
+
+<http://example.com/profile#must_a_class_regex-2026-11-11T11:44:59.863Z-4> a as:Create;
+    dct:isVersionOf <http://example.com/profile#must_a_class_regex>;
+    dct:created "2026-11-11T11:44:59.863Z"^^xsd:dateTime;
+    dct:issued "2026-11-11T11:44:59.863Z"^^xsd:dateTime;
+    ds-ldes:sequence 4;
+    dct:isPartOf <http://example.com/profile#>;
+    a dsv:TermProfile;
+    skos:prefLabel "must_a_class_regex"@en;
+    dsv:cardinality cardinality:0n;
+    dsv:property <http://example.com/vocabulary#must_a_class_regex>;
+    dsv:domain <http://example.com/profile#Test>;
+    a dsv:ObjectPropertyProfile;
+    dsv:objectPropertyRange <http://example.com/profile#Value_must_a_class_regex>.
+
+<> tree:member <http://example.com/profile#Value_must_a_single-2026-11-11T11:44:59.863Z-5>.
+
+<http://example.com/profile#Value_must_a_single-2026-11-11T11:44:59.863Z-5> a as:Create;
+    dct:isVersionOf <http://example.com/profile#Value_must_a_single>;
+    dct:created "2026-11-11T11:44:59.863Z"^^xsd:dateTime;
+    dct:issued "2026-11-11T11:44:59.863Z"^^xsd:dateTime;
+    ds-ldes:sequence 5;
+    dct:isPartOf <http://example.com/profile#>;
+    a dsv:TermProfile;
+    skos:prefLabel "Value must_a_single"@en;
+    a dsv:ClassProfile;
+    dsv:class <http://example.com/vocabulary#Value_must_a_single>.
+
+<http://example.com/profile#Value_must_a_single/controlled-vocabulary-assignment/vocabulary/cv-json-schema-test-v2-cv-a> a dsv:ControlledVocabularyAssignment;
+    dsv:classProfile <http://example.com/profile#Value_must_a_single-2026-11-11T11:44:59.863Z-5>;
+    dsv:controlledVocabulary <cv-json-schema-test-v2-cv-a>;
+    dsv:usageExpectation <https://w3id.org/dsv/usage-expectation#must>.
+
+<> tree:member <http://example.com/profile#must_a_single-2026-11-11T11:44:59.863Z-6>.
+
+<http://example.com/profile#must_a_single-2026-11-11T11:44:59.863Z-6> a as:Create;
+    dct:isVersionOf <http://example.com/profile#must_a_single>;
+    dct:created "2026-11-11T11:44:59.863Z"^^xsd:dateTime;
+    dct:issued "2026-11-11T11:44:59.863Z"^^xsd:dateTime;
+    ds-ldes:sequence 6;
+    dct:isPartOf <http://example.com/profile#>;
+    a dsv:TermProfile;
+    skos:prefLabel "must_a_single"@en;
+    dsv:cardinality cardinality:01;
+    dsv:property <http://example.com/vocabulary#must_a_single>;
+    dsv:domain <http://example.com/profile#Test>;
+    a dsv:ObjectPropertyProfile;
+    dsv:objectPropertyRange <http://example.com/profile#Value_must_a_single>.
+
+<> tree:member <http://example.com/profile#Value_must_a_object-2026-11-11T11:44:59.863Z-7>.
+
+<http://example.com/profile#Value_must_a_object-2026-11-11T11:44:59.863Z-7> a as:Create;
+    dct:isVersionOf <http://example.com/profile#Value_must_a_object>;
+    dct:created "2026-11-11T11:44:59.863Z"^^xsd:dateTime;
+    dct:issued "2026-11-11T11:44:59.863Z"^^xsd:dateTime;
+    ds-ldes:sequence 7;
+    dct:isPartOf <http://example.com/profile#>;
+    a dsv:TermProfile;
+    skos:prefLabel "Value must_a_object"@en;
+    a dsv:ClassProfile;
+    dsv:class <http://example.com/vocabulary#Value_must_a_object>.
+
+<http://example.com/profile#Value_must_a_object/controlled-vocabulary-assignment/vocabulary/cv-json-schema-test-v2-cv-a> a dsv:ControlledVocabularyAssignment;
+    dsv:classProfile <http://example.com/profile#Value_must_a_object-2026-11-11T11:44:59.863Z-7>;
+    dsv:controlledVocabulary <cv-json-schema-test-v2-cv-a>;
+    dsv:usageExpectation <https://w3id.org/dsv/usage-expectation#must>.
+
+<> tree:member <http://example.com/profile#must_a_object-2026-11-11T11:44:59.863Z-8>.
+
+<http://example.com/profile#must_a_object-2026-11-11T11:44:59.863Z-8> a as:Create;
+    dct:isVersionOf <http://example.com/profile#must_a_object>;
+    dct:created "2026-11-11T11:44:59.863Z"^^xsd:dateTime;
+    dct:issued "2026-11-11T11:44:59.863Z"^^xsd:dateTime;
+    ds-ldes:sequence 8;
+    dct:isPartOf <http://example.com/profile#>;
+    a dsv:TermProfile;
+    skos:prefLabel "must_a_object"@en;
+    dsv:cardinality cardinality:0n;
+    dsv:property <http://example.com/vocabulary#must_a_object>;
+    dsv:domain <http://example.com/profile#Test>;
+    a dsv:ObjectPropertyProfile;
+    dsv:objectPropertyRange <http://example.com/profile#Value_must_a_object>.
+
+<> tree:member <http://example.com/profile#label-2026-11-11T11:44:59.863Z-9>.
+
+<http://example.com/profile#label-2026-11-11T11:44:59.863Z-9> a as:Create;
+    dct:isVersionOf <http://example.com/profile#label>;
+    dct:created "2026-11-11T11:44:59.863Z"^^xsd:dateTime;
+    dct:issued "2026-11-11T11:44:59.863Z"^^xsd:dateTime;
+    ds-ldes:sequence 9;
+    dct:isPartOf <http://example.com/profile#>;
+    a dsv:TermProfile;
+    skos:prefLabel "label"@en;
+    dsv:cardinality cardinality:01;
+    dsv:property <http://example.com/vocabulary#label_at_least_one_a_object>;
+    dsv:domain <http://example.com/profile#Value_at_least_one_a_object>;
+    a dsv:DatatypePropertyProfile;
+    dsv:datatypePropertyRange rdfs:Literal.
+
+<> tree:member <http://example.com/profile#Value_at_least_one_a-2026-11-11T11:44:59.863Z-10>.
+
+<http://example.com/profile#Value_at_least_one_a-2026-11-11T11:44:59.863Z-10> a as:Create;
+    dct:isVersionOf <http://example.com/profile#Value_at_least_one_a>;
+    dct:created "2026-11-11T11:44:59.863Z"^^xsd:dateTime;
+    dct:issued "2026-11-11T11:44:59.863Z"^^xsd:dateTime;
+    ds-ldes:sequence 10;
+    dct:isPartOf <http://example.com/profile#>;
+    a dsv:TermProfile;
+    skos:prefLabel "Value at_least_one_a"@en;
+    a dsv:ClassProfile;
+    dsv:class <http://example.com/vocabulary#Value_at_least_one_a>.
+
+<http://example.com/profile#Value_at_least_one_a/controlled-vocabulary-assignment/vocabulary/cv-json-schema-test-v2-cv-a> a dsv:ControlledVocabularyAssignment;
+    dsv:classProfile <http://example.com/profile#Value_at_least_one_a-2026-11-11T11:44:59.863Z-10>;
+    dsv:controlledVocabulary <cv-json-schema-test-v2-cv-a>;
+    dsv:usageExpectation <https://w3id.org/dsv/usage-expectation#at-least-1>.
+
+<> tree:member <http://example.com/profile#at_least_one_a-2026-11-11T11:44:59.863Z-11>.
+
+<http://example.com/profile#at_least_one_a-2026-11-11T11:44:59.863Z-11> a as:Create;
+    dct:isVersionOf <http://example.com/profile#at_least_one_a>;
+    dct:created "2026-11-11T11:44:59.863Z"^^xsd:dateTime;
+    dct:issued "2026-11-11T11:44:59.863Z"^^xsd:dateTime;
+    ds-ldes:sequence 11;
+    dct:isPartOf <http://example.com/profile#>;
+    a dsv:TermProfile;
+    skos:prefLabel "at_least_one_a"@en;
+    dsv:cardinality cardinality:0n;
+    dsv:property <http://example.com/vocabulary#at_least_one_a>;
+    dsv:domain <http://example.com/profile#Test>;
+    a dsv:ObjectPropertyProfile;
+    dsv:objectPropertyRange <http://example.com/profile#Value_at_least_one_a>.
+
+<> tree:member <http://example.com/profile#Value_at_least_one_a_single-2026-11-11T11:44:59.863Z-12>.
+
+<http://example.com/profile#Value_at_least_one_a_single-2026-11-11T11:44:59.863Z-12> a as:Create;
+    dct:isVersionOf <http://example.com/profile#Value_at_least_one_a_single>;
+    dct:created "2026-11-11T11:44:59.863Z"^^xsd:dateTime;
+    dct:issued "2026-11-11T11:44:59.863Z"^^xsd:dateTime;
+    ds-ldes:sequence 12;
+    dct:isPartOf <http://example.com/profile#>;
+    a dsv:TermProfile;
+    skos:prefLabel "Value at_least_one_a_single"@en;
+    a dsv:ClassProfile;
+    dsv:class <http://example.com/vocabulary#Value_at_least_one_a_single>.
+
+<http://example.com/profile#Value_at_least_one_a_single/controlled-vocabulary-assignment/vocabulary/cv-json-schema-test-v2-cv-a> a dsv:ControlledVocabularyAssignment;
+    dsv:classProfile <http://example.com/profile#Value_at_least_one_a_single-2026-11-11T11:44:59.863Z-12>;
+    dsv:controlledVocabulary <cv-json-schema-test-v2-cv-a>;
+    dsv:usageExpectation <https://w3id.org/dsv/usage-expectation#at-least-1>.
+
+<> tree:member <http://example.com/profile#at_least_one_a_single-2026-11-11T11:44:59.863Z-13>.
+
+<http://example.com/profile#at_least_one_a_single-2026-11-11T11:44:59.863Z-13> a as:Create;
+    dct:isVersionOf <http://example.com/profile#at_least_one_a_single>;
+    dct:created "2026-11-11T11:44:59.863Z"^^xsd:dateTime;
+    dct:issued "2026-11-11T11:44:59.863Z"^^xsd:dateTime;
+    ds-ldes:sequence 13;
+    dct:isPartOf <http://example.com/profile#>;
+    a dsv:TermProfile;
+    skos:prefLabel "at_least_one_a_single"@en;
+    dsv:cardinality cardinality:01;
+    dsv:property <http://example.com/vocabulary#at_least_one_a_single>;
+    dsv:domain <http://example.com/profile#Test>;
+    a dsv:ObjectPropertyProfile;
+    dsv:objectPropertyRange <http://example.com/profile#Value_at_least_one_a_single>.
+
+<> tree:member <http://example.com/profile#Value_at_least_one_a_object-2026-11-11T11:44:59.863Z-14>.
+
+<http://example.com/profile#Value_at_least_one_a_object-2026-11-11T11:44:59.863Z-14> a as:Create;
+    dct:isVersionOf <http://example.com/profile#Value_at_least_one_a_object>;
+    dct:created "2026-11-11T11:44:59.863Z"^^xsd:dateTime;
+    dct:issued "2026-11-11T11:44:59.863Z"^^xsd:dateTime;
+    ds-ldes:sequence 14;
+    dct:isPartOf <http://example.com/profile#>;
+    a dsv:TermProfile;
+    skos:prefLabel "Value at_least_one_a_object"@en;
+    a dsv:ClassProfile;
+    dsv:class <http://example.com/vocabulary#Value_at_least_one_a_object>.
+
+<http://example.com/profile#Value_at_least_one_a_object/controlled-vocabulary-assignment/vocabulary/cv-json-schema-test-v2-cv-a> a dsv:ControlledVocabularyAssignment;
+    dsv:classProfile <http://example.com/profile#Value_at_least_one_a_object-2026-11-11T11:44:59.863Z-14>;
+    dsv:controlledVocabulary <cv-json-schema-test-v2-cv-a>;
+    dsv:usageExpectation <https://w3id.org/dsv/usage-expectation#at-least-1>.
+
+<> tree:member <http://example.com/profile#at_least_one_a_object-2026-11-11T11:44:59.863Z-15>.
+
+<http://example.com/profile#at_least_one_a_object-2026-11-11T11:44:59.863Z-15> a as:Create;
+    dct:isVersionOf <http://example.com/profile#at_least_one_a_object>;
+    dct:created "2026-11-11T11:44:59.863Z"^^xsd:dateTime;
+    dct:issued "2026-11-11T11:44:59.863Z"^^xsd:dateTime;
+    ds-ldes:sequence 15;
+    dct:isPartOf <http://example.com/profile#>;
+    a dsv:TermProfile;
+    skos:prefLabel "at_least_one_a_object"@en;
+    dsv:cardinality cardinality:0n;
+    dsv:property <http://example.com/vocabulary#at_least_one_a_object>;
+    dsv:domain <http://example.com/profile#Test>;
+    a dsv:ObjectPropertyProfile;
+    dsv:objectPropertyRange <http://example.com/profile#Value_at_least_one_a_object>.
+
+<> tree:member <http://example.com/profile#label-2026-11-11T11:44:59.863Z-16>.
+
+<http://example.com/profile#label-2026-11-11T11:44:59.863Z-16> a as:Create;
+    dct:isVersionOf <http://example.com/profile#label>;
+    dct:created "2026-11-11T11:44:59.863Z"^^xsd:dateTime;
+    dct:issued "2026-11-11T11:44:59.863Z"^^xsd:dateTime;
+    ds-ldes:sequence 16;
+    dct:isPartOf <http://example.com/profile#>;
+    a dsv:TermProfile;
+    skos:prefLabel "label"@en;
+    dsv:cardinality cardinality:01;
+    dsv:property <http://example.com/vocabulary#label_at_least_one_a_object>;
+    dsv:domain <http://example.com/profile#Value_at_least_one_a_object>;
+    a dsv:DatatypePropertyProfile;
+    dsv:datatypePropertyRange rdfs:Literal.
+
+<> tree:member <http://example.com/profile#Value_at_least_one_a_and_b-2026-11-11T11:44:59.863Z-17>.
+
+<http://example.com/profile#Value_at_least_one_a_and_b-2026-11-11T11:44:59.863Z-17> a as:Create;
+    dct:isVersionOf <http://example.com/profile#Value_at_least_one_a_and_b>;
+    dct:created "2026-11-11T11:44:59.863Z"^^xsd:dateTime;
+    dct:issued "2026-11-11T11:44:59.863Z"^^xsd:dateTime;
+    ds-ldes:sequence 17;
+    dct:isPartOf <http://example.com/profile#>;
+    a dsv:TermProfile;
+    skos:prefLabel "Value at_least_one_a_and_b"@en;
+    a dsv:ClassProfile;
+    dsv:class <http://example.com/vocabulary#Value_at_least_one_a_and_b>.
+
+<http://example.com/profile#Value_at_least_one_a_and_b/controlled-vocabulary-assignment/vocabulary/cv-json-schema-test-v2-cv-a> a dsv:ControlledVocabularyAssignment;
+    dsv:classProfile <http://example.com/profile#Value_at_least_one_a_and_b-2026-11-11T11:44:59.863Z-17>;
+    dsv:controlledVocabulary <cv-json-schema-test-v2-cv-a>;
+    dsv:usageExpectation <https://w3id.org/dsv/usage-expectation#at-least-1>.
+
+<http://example.com/profile#Value_at_least_one_a_and_b/controlled-vocabulary-assignment/vocabulary/cv-json-schema-test-v2-cv-b> a dsv:ControlledVocabularyAssignment;
+    dsv:classProfile <http://example.com/profile#Value_at_least_one_a_and_b-2026-11-11T11:44:59.863Z-17>;
+    dsv:controlledVocabulary <cv-json-schema-test-v2-cv-b>;
+    dsv:usageExpectation <https://w3id.org/dsv/usage-expectation#at-least-1>.
+
+<> tree:member <http://example.com/profile#at_least_one_a_and_b-2026-11-11T11:44:59.863Z-18>.
+
+<http://example.com/profile#at_least_one_a_and_b-2026-11-11T11:44:59.863Z-18> a as:Create;
+    dct:isVersionOf <http://example.com/profile#at_least_one_a_and_b>;
+    dct:created "2026-11-11T11:44:59.863Z"^^xsd:dateTime;
+    dct:issued "2026-11-11T11:44:59.863Z"^^xsd:dateTime;
+    ds-ldes:sequence 18;
+    dct:isPartOf <http://example.com/profile#>;
+    a dsv:TermProfile;
+    skos:prefLabel "at_least_one_a_and_b"@en;
+    dsv:cardinality cardinality:0n;
+    dsv:property <http://example.com/vocabulary#at_least_one_a_and_b>;
+    dsv:domain <http://example.com/profile#Test>;
+    a dsv:ObjectPropertyProfile;
+    dsv:objectPropertyRange <http://example.com/profile#Value_at_least_one_a_and_b>.
+
+<> tree:member <http://example.com/profile#Value_recommended_a_default-2026-11-11T11:44:59.863Z-19>.
+
+<http://example.com/profile#Value_recommended_a_default-2026-11-11T11:44:59.863Z-19> a as:Create;
+    dct:isVersionOf <http://example.com/profile#Value_recommended_a_default>;
+    dct:created "2026-11-11T11:44:59.863Z"^^xsd:dateTime;
+    dct:issued "2026-11-11T11:44:59.863Z"^^xsd:dateTime;
+    ds-ldes:sequence 19;
+    dct:isPartOf <http://example.com/profile#>;
+    a dsv:TermProfile;
+    skos:prefLabel "Value recommended_a_default"@en;
+    a dsv:ClassProfile;
+    dsv:class <http://example.com/vocabulary#Value_recommended_a_default>.
+
+<http://example.com/profile#Value_recommended_a_default/controlled-vocabulary-assignment/vocabulary/cv-json-schema-test-v2-cv-a> a dsv:ControlledVocabularyAssignment;
+    dsv:classProfile <http://example.com/profile#Value_recommended_a_default-2026-11-11T11:44:59.863Z-19>;
+    dsv:controlledVocabulary <cv-json-schema-test-v2-cv-a>;
+    dsv:usageExpectation <https://w3id.org/dsv/usage-expectation#recommended>.
+
+<> tree:member <http://example.com/profile#recommended_a_default-2026-11-11T11:44:59.863Z-20>.
+
+<http://example.com/profile#recommended_a_default-2026-11-11T11:44:59.863Z-20> a as:Create;
+    dct:isVersionOf <http://example.com/profile#recommended_a_default>;
+    dct:created "2026-11-11T11:44:59.863Z"^^xsd:dateTime;
+    dct:issued "2026-11-11T11:44:59.863Z"^^xsd:dateTime;
+    ds-ldes:sequence 20;
+    dct:isPartOf <http://example.com/profile#>;
+    a dsv:TermProfile;
+    skos:prefLabel "recommended_a_default"@en;
+    dsv:cardinality cardinality:0n;
+    dsv:property <http://example.com/vocabulary#recommended_a_default>;
+    dsv:domain <http://example.com/profile#Test>;
+    a dsv:ObjectPropertyProfile;
+    dsv:objectPropertyRange <http://example.com/profile#Value_recommended_a_default>.
+
+<> tree:member <http://example.com/profile#Value_recommended_a_require-2026-11-11T11:44:59.863Z-21>.
+
+<http://example.com/profile#Value_recommended_a_require-2026-11-11T11:44:59.863Z-21> a as:Create;
+    dct:isVersionOf <http://example.com/profile#Value_recommended_a_require>;
+    dct:created "2026-11-11T11:44:59.863Z"^^xsd:dateTime;
+    dct:issued "2026-11-11T11:44:59.863Z"^^xsd:dateTime;
+    ds-ldes:sequence 21;
+    dct:isPartOf <http://example.com/profile#>;
+    a dsv:TermProfile;
+    skos:prefLabel "Value recommended_a_require"@en;
+    a dsv:ClassProfile;
+    dsv:class <http://example.com/vocabulary#Value_recommended_a_require>.
+
+<http://example.com/profile#Value_recommended_a_require/controlled-vocabulary-assignment/vocabulary/cv-json-schema-test-v2-cv-a> a dsv:ControlledVocabularyAssignment;
+    dsv:classProfile <http://example.com/profile#Value_recommended_a_require-2026-11-11T11:44:59.863Z-21>;
+    dsv:controlledVocabulary <cv-json-schema-test-v2-cv-a>;
+    dsv:usageExpectation <https://w3id.org/dsv/usage-expectation#recommended>.
+
+<> tree:member <http://example.com/profile#recommended_a_require-2026-11-11T11:44:59.863Z-22>.
+
+<http://example.com/profile#recommended_a_require-2026-11-11T11:44:59.863Z-22> a as:Create;
+    dct:isVersionOf <http://example.com/profile#recommended_a_require>;
+    dct:created "2026-11-11T11:44:59.863Z"^^xsd:dateTime;
+    dct:issued "2026-11-11T11:44:59.863Z"^^xsd:dateTime;
+    ds-ldes:sequence 22;
+    dct:isPartOf <http://example.com/profile#>;
+    a dsv:TermProfile;
+    skos:prefLabel "recommended_a_require"@en;
+    dsv:cardinality cardinality:0n;
+    dsv:property <http://example.com/vocabulary#recommended_a_require>;
+    dsv:domain <http://example.com/profile#Test>;
+    a dsv:ObjectPropertyProfile;
+    dsv:objectPropertyRange <http://example.com/profile#Value_recommended_a_require>.
+
+<> tree:member <http://example.com/profile#Value_recommended_a_restrict-2026-11-11T11:44:59.863Z-23>.
+
+<http://example.com/profile#Value_recommended_a_restrict-2026-11-11T11:44:59.863Z-23> a as:Create;
+    dct:isVersionOf <http://example.com/profile#Value_recommended_a_restrict>;
+    dct:created "2026-11-11T11:44:59.863Z"^^xsd:dateTime;
+    dct:issued "2026-11-11T11:44:59.863Z"^^xsd:dateTime;
+    ds-ldes:sequence 23;
+    dct:isPartOf <http://example.com/profile#>;
+    a dsv:TermProfile;
+    skos:prefLabel "Value recommended_a_restrict"@en;
+    a dsv:ClassProfile;
+    dsv:class <http://example.com/vocabulary#Value_recommended_a_restrict>.
+
+<http://example.com/profile#Value_recommended_a_restrict/controlled-vocabulary-assignment/vocabulary/cv-json-schema-test-v2-cv-a> a dsv:ControlledVocabularyAssignment;
+    dsv:classProfile <http://example.com/profile#Value_recommended_a_restrict-2026-11-11T11:44:59.863Z-23>;
+    dsv:controlledVocabulary <cv-json-schema-test-v2-cv-a>;
+    dsv:usageExpectation <https://w3id.org/dsv/usage-expectation#recommended>.
+
+<> tree:member <http://example.com/profile#recommended_a_restrict-2026-11-11T11:44:59.863Z-24>.
+
+<http://example.com/profile#recommended_a_restrict-2026-11-11T11:44:59.863Z-24> a as:Create;
+    dct:isVersionOf <http://example.com/profile#recommended_a_restrict>;
+    dct:created "2026-11-11T11:44:59.863Z"^^xsd:dateTime;
+    dct:issued "2026-11-11T11:44:59.863Z"^^xsd:dateTime;
+    ds-ldes:sequence 24;
+    dct:isPartOf <http://example.com/profile#>;
+    a dsv:TermProfile;
+    skos:prefLabel "recommended_a_restrict"@en;
+    dsv:cardinality cardinality:0n;
+    dsv:property <http://example.com/vocabulary#recommended_a_restrict>;
+    dsv:domain <http://example.com/profile#Test>;
+    a dsv:ObjectPropertyProfile;
+    dsv:objectPropertyRange <http://example.com/profile#Value_recommended_a_restrict>.
+
+<> tree:member <http://example.com/profile#Value_recommended_a_both-2026-11-11T11:44:59.863Z-25>.
+
+<http://example.com/profile#Value_recommended_a_both-2026-11-11T11:44:59.863Z-25> a as:Create;
+    dct:isVersionOf <http://example.com/profile#Value_recommended_a_both>;
+    dct:created "2026-11-11T11:44:59.863Z"^^xsd:dateTime;
+    dct:issued "2026-11-11T11:44:59.863Z"^^xsd:dateTime;
+    ds-ldes:sequence 25;
+    dct:isPartOf <http://example.com/profile#>;
+    a dsv:TermProfile;
+    skos:prefLabel "Value recommended_a_both"@en;
+    a dsv:ClassProfile;
+    dsv:class <http://example.com/vocabulary#Value_recommended_a_both>.
+
+<http://example.com/profile#Value_recommended_a_both/controlled-vocabulary-assignment/vocabulary/cv-json-schema-test-v2-cv-a> a dsv:ControlledVocabularyAssignment;
+    dsv:classProfile <http://example.com/profile#Value_recommended_a_both-2026-11-11T11:44:59.863Z-25>;
+    dsv:controlledVocabulary <cv-json-schema-test-v2-cv-a>;
+    dsv:usageExpectation <https://w3id.org/dsv/usage-expectation#recommended>.
+
+<> tree:member <http://example.com/profile#recommended_a_both-2026-11-11T11:44:59.863Z-26>.
+
+<http://example.com/profile#recommended_a_both-2026-11-11T11:44:59.863Z-26> a as:Create;
+    dct:isVersionOf <http://example.com/profile#recommended_a_both>;
+    dct:created "2026-11-11T11:44:59.863Z"^^xsd:dateTime;
+    dct:issued "2026-11-11T11:44:59.863Z"^^xsd:dateTime;
+    ds-ldes:sequence 26;
+    dct:isPartOf <http://example.com/profile#>;
+    a dsv:TermProfile;
+    skos:prefLabel "recommended_a_both"@en;
+    dsv:cardinality cardinality:0n;
+    dsv:property <http://example.com/vocabulary#recommended_a_both>;
+    dsv:domain <http://example.com/profile#Test>;
+    a dsv:ObjectPropertyProfile;
+    dsv:objectPropertyRange <http://example.com/profile#Value_recommended_a_both>.
+
+<> tree:member <http://example.com/profile#Value_may_a-2026-11-11T11:44:59.863Z-27>.
+
+<http://example.com/profile#Value_may_a-2026-11-11T11:44:59.863Z-27> a as:Create;
+    dct:isVersionOf <http://example.com/profile#Value_may_a>;
+    dct:created "2026-11-11T11:44:59.863Z"^^xsd:dateTime;
+    dct:issued "2026-11-11T11:44:59.863Z"^^xsd:dateTime;
+    ds-ldes:sequence 27;
+    dct:isPartOf <http://example.com/profile#>;
+    a dsv:TermProfile;
+    skos:prefLabel "Value may_a"@en;
+    a dsv:ClassProfile;
+    dsv:class <http://example.com/vocabulary#Value_may_a>.
+
+<http://example.com/profile#Value_may_a/controlled-vocabulary-assignment/vocabulary/cv-json-schema-test-v2-cv-a> a dsv:ControlledVocabularyAssignment;
+    dsv:classProfile <http://example.com/profile#Value_may_a-2026-11-11T11:44:59.863Z-27>;
+    dsv:controlledVocabulary <cv-json-schema-test-v2-cv-a>;
+    dsv:usageExpectation <https://w3id.org/dsv/usage-expectation#may>.
+
+<> tree:member <http://example.com/profile#may_a-2026-11-11T11:44:59.863Z-28>.
+
+<http://example.com/profile#may_a-2026-11-11T11:44:59.863Z-28> a as:Create;
+    dct:isVersionOf <http://example.com/profile#may_a>;
+    dct:created "2026-11-11T11:44:59.863Z"^^xsd:dateTime;
+    dct:issued "2026-11-11T11:44:59.863Z"^^xsd:dateTime;
+    ds-ldes:sequence 28;
+    dct:isPartOf <http://example.com/profile#>;
+    a dsv:TermProfile;
+    skos:prefLabel "may_a"@en;
+    dsv:cardinality cardinality:0n;
+    dsv:property <http://example.com/vocabulary#may_a>;
+    dsv:domain <http://example.com/profile#Test>;
+    a dsv:ObjectPropertyProfile;
+    dsv:objectPropertyRange <http://example.com/profile#Value_may_a>.
+
+<> tree:member <http://example.com/profile#Value_must_without_pattern-2026-11-11T11:44:59.863Z-29>.
+
+<http://example.com/profile#Value_must_without_pattern-2026-11-11T11:44:59.863Z-29> a as:Create;
+    dct:isVersionOf <http://example.com/profile#Value_must_without_pattern>;
+    dct:created "2026-11-11T11:44:59.863Z"^^xsd:dateTime;
+    dct:issued "2026-11-11T11:44:59.863Z"^^xsd:dateTime;
+    ds-ldes:sequence 29;
+    dct:isPartOf <http://example.com/profile#>;
+    a dsv:TermProfile;
+    skos:prefLabel "Value must_without_pattern"@en;
+    a dsv:ClassProfile;
+    dsv:class <http://example.com/vocabulary#Value_must_without_pattern>.
+
+<http://example.com/profile#Value_must_without_pattern/controlled-vocabulary-assignment/vocabulary/cv-json-schema-test-v2-cv-none> a dsv:ControlledVocabularyAssignment;
+    dsv:classProfile <http://example.com/profile#Value_must_without_pattern-2026-11-11T11:44:59.863Z-29>;
+    dsv:controlledVocabulary <cv-json-schema-test-v2-cv-none>;
+    dsv:usageExpectation <https://w3id.org/dsv/usage-expectation#must>.
+
+<> tree:member <http://example.com/profile#must_without_pattern-2026-11-11T11:44:59.863Z-30>.
+
+<http://example.com/profile#must_without_pattern-2026-11-11T11:44:59.863Z-30> a as:Create;
+    dct:isVersionOf <http://example.com/profile#must_without_pattern>;
+    dct:created "2026-11-11T11:44:59.863Z"^^xsd:dateTime;
+    dct:issued "2026-11-11T11:44:59.863Z"^^xsd:dateTime;
+    ds-ldes:sequence 30;
+    dct:isPartOf <http://example.com/profile#>;
+    a dsv:TermProfile;
+    skos:prefLabel "must_without_pattern"@en;
+    dsv:cardinality cardinality:0n;
+    dsv:property <http://example.com/vocabulary#must_without_pattern>;
+    dsv:domain <http://example.com/profile#Test>;
+    a dsv:ObjectPropertyProfile;
+    dsv:objectPropertyRange <http://example.com/profile#Value_must_without_pattern>.
+
+<> tree:member <http://example.com/profile#Value_at_least_one_a_recommended_b_require-2026-11-11T11:44:59.863Z-31>.
+
+<http://example.com/profile#Value_at_least_one_a_recommended_b_require-2026-11-11T11:44:59.863Z-31> a as:Create;
+    dct:isVersionOf <http://example.com/profile#Value_at_least_one_a_recommended_b_require>;
+    dct:created "2026-11-11T11:44:59.863Z"^^xsd:dateTime;
+    dct:issued "2026-11-11T11:44:59.863Z"^^xsd:dateTime;
+    ds-ldes:sequence 31;
+    dct:isPartOf <http://example.com/profile#>;
+    a dsv:TermProfile;
+    skos:prefLabel "Value at_least_one_a_recommended_b_require"@en;
+    a dsv:ClassProfile;
+    dsv:class <http://example.com/vocabulary#Value_at_least_one_a_recommended_b_require>.
+
+<http://example.com/profile#Value_at_least_one_a_recommended_b_require/controlled-vocabulary-assignment/vocabulary/cv-json-schema-test-v2-cv-a> a dsv:ControlledVocabularyAssignment;
+    dsv:classProfile <http://example.com/profile#Value_at_least_one_a_recommended_b_require-2026-11-11T11:44:59.863Z-31>;
+    dsv:controlledVocabulary <cv-json-schema-test-v2-cv-a>;
+    dsv:usageExpectation <https://w3id.org/dsv/usage-expectation#at-least-1>.
+
+<http://example.com/profile#Value_at_least_one_a_recommended_b_require/controlled-vocabulary-assignment/vocabulary/cv-json-schema-test-v2-cv-b> a dsv:ControlledVocabularyAssignment;
+    dsv:classProfile <http://example.com/profile#Value_at_least_one_a_recommended_b_require-2026-11-11T11:44:59.863Z-31>;
+    dsv:controlledVocabulary <cv-json-schema-test-v2-cv-b>;
+    dsv:usageExpectation <https://w3id.org/dsv/usage-expectation#recommended>.
+
+<> tree:member <http://example.com/profile#at_least_one_a_recommended_b_require-2026-11-11T11:44:59.863Z-32>.
+
+<http://example.com/profile#at_least_one_a_recommended_b_require-2026-11-11T11:44:59.863Z-32> a as:Create;
+    dct:isVersionOf <http://example.com/profile#at_least_one_a_recommended_b_require>;
+    dct:created "2026-11-11T11:44:59.863Z"^^xsd:dateTime;
+    dct:issued "2026-11-11T11:44:59.863Z"^^xsd:dateTime;
+    ds-ldes:sequence 32;
+    dct:isPartOf <http://example.com/profile#>;
+    a dsv:TermProfile;
+    skos:prefLabel "at_least_one_a_recommended_b_require"@en;
+    dsv:cardinality cardinality:0n;
+    dsv:property <http://example.com/vocabulary#at_least_one_a_recommended_b_require>;
+    dsv:domain <http://example.com/profile#Test>;
+    a dsv:ObjectPropertyProfile;
+    dsv:objectPropertyRange <http://example.com/profile#Value_at_least_one_a_recommended_b_require>.

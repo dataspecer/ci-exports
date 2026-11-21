@@ -1,0 +1,2733 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>CV JSON Schema test</title>
+    <meta name="color-scheme" content="light dark">
+    <script type="application/ld+json">
+      {
+      "@id": "http://example.com/profile/",
+      "@type": [
+        "dsv:ApplicationProfileSpecificationDocument",
+        "adms:AssetDistribution",
+        "prof:ResourceDescriptor"
+      ],
+      "hasArtifact": "",
+      "hasRole": "role:specification",
+      "format": "filetype:HTML",
+      "inSpecificationOf": [
+        {
+          "@id": "http://example.com/profile#",
+          "@type": [
+            "dsv:ApplicationProfile",
+            "prof:Profile"
+          ],
+          "title": {
+            "en": "CV JSON Schema test"
+          },
+          "isProfileOf": [
+            {
+              "@id": "http://example.com/vocabulary#",
+              "title": {},
+              "hasResource": {}
+            }
+          ],
+          "hasResource": [
+            {
+              "@type": [
+                "adms:AssetDistribution",
+                "prof:ResourceDescriptor"
+              ],
+              "hasArtifact": "../dsv.ttl",
+              "hasRole": "role:constraints",
+              "format": "filetype:RDF_TURTLE",
+              "conformsTo": [
+                "prof:Profile",
+                "dsv:ApplicationProfile"
+              ]
+            },
+            {
+              "@type": [
+                "adms:AssetDistribution",
+                "prof:ResourceDescriptor"
+              ],
+              "hasArtifact": "../shacl.ttl",
+              "hasRole": "role:constraints",
+              "format": "filetype:RDF_TURTLE",
+              "conformsTo": "https://www.w3.org/TR/shacl/"
+            },
+            {
+              "@type": [
+                "adms:AssetDistribution",
+                "prof:ResourceDescriptor"
+              ],
+              "hasArtifact": "../dsv.ldes.ttl",
+              "hasRole": "role:specification",
+              "format": "filetype:RDF_TURTLE",
+              "conformsTo": "https://w3id.org/ldes/specification"
+            },
+            {
+              "@type": [
+                "adms:AssetDistribution",
+                "prof:ResourceDescriptor"
+              ],
+              "hasArtifact": "../cv-json-schema-test/structure.ttl",
+              "hasRole": "role:schema",
+              "format": "filetype:RDF_TURTLE",
+              "conformsTo": "dsv:Structure"
+            },
+            {
+              "@type": [
+                "adms:AssetDistribution",
+                "prof:ResourceDescriptor"
+              ],
+              "hasArtifact": "../generator-configuration.ttl",
+              "hasRole": "role:schema",
+              "format": "filetype:RDF_TURTLE",
+              "conformsTo": "dsv:StructureConfiguration"
+            },
+            {
+              "@type": [
+                "adms:AssetDistribution",
+                "prof:ResourceDescriptor"
+              ],
+              "hasArtifact": "../controlled_vocabulary_catalog.ttl",
+              "hasRole": "role:vocabulary",
+              "format": "filetype:RDF_TURTLE",
+              "conformsTo": "https://www.w3.org/TR/vocab-dcat-3/"
+            },
+            {
+              "@id": "http://example.com/profile/",
+              "@type": [
+                "dsv:ApplicationProfileSpecificationDocument",
+                "adms:AssetDistribution",
+                "prof:ResourceDescriptor"
+              ],
+              "hasArtifact": "",
+              "hasRole": "role:specification",
+              "format": "filetype:HTML"
+            },
+            {
+              "@id": "cv-json-schema-test-v2-structure#jsonschema",
+              "@type": [
+                "adms:AssetDistribution",
+                "prof:ResourceDescriptor"
+              ],
+              "hasArtifact": "../../schema.json",
+              "hasRole": "role:schema",
+              "format": "filetype:JSON",
+              "conformsTo": "https://json-schema.org/draft/2020-12/schema"
+            },
+            {
+              "@id": "cv-json-schema-test-v2-structure#jsonLd",
+              "@type": [
+                "adms:AssetDistribution",
+                "prof:ResourceDescriptor"
+              ],
+              "hasArtifact": "../../context.jsonld",
+              "hasRole": "role:schema",
+              "format": "filetype:JSON_LD",
+              "conformsTo": "http://www.w3.org/ns/json-ld"
+            }
+          ]
+        }
+      ],
+      "@context": {
+        "@version": 1.1,
+        "prof": "http://www.w3.org/ns/dx/prof/",
+        "role": "prof:role/",
+        "dsv": "https://w3id.org/dsv#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "adms": "http://www.w3.org/ns/adms#",
+        "filetype": "http://publications.europa.eu/resource/authority/file-type/",
+        "title": {
+          "@id": "http://purl.org/dc/terms/title",
+          "@container": "@language"
+        },
+        "description": {
+          "@id": "http://purl.org/dc/terms/description",
+          "@container": "@language"
+        },
+        "conformsTo": {
+          "@id": "http://purl.org/dc/terms/conformsTo",
+          "@type": "@id",
+          "@container": "@set"
+        },
+        "format": {
+          "@id": "http://purl.org/dc/terms/format",
+          "@type": "@id"
+        },
+        "hasRole": {
+          "@id": "prof:hasRole",
+          "@type": "@id"
+        },
+        "hasArtifact": {
+          "@id": "prof:hasArtifact",
+          "@type": "@id"
+        },
+        "inSpecificationOf": {
+          "@reverse": "prof:hasResource",
+          "@type": "@id",
+          "@context": {
+            "title": {
+              "@id": "http://purl.org/dc/terms/title",
+              "@container": "@language"
+            },
+            "description": {
+              "@id": "http://purl.org/dc/terms/description",
+              "@container": "@language"
+            },
+            "hasToken": {
+              "@id": "prof:hasToken",
+              "@type": "xsd:token"
+            },
+            "isProfileOf": {
+              "@id": "prof:isProfileOf",
+              "@container": "@set",
+              "@context": {
+                "title": {
+                  "@id": "http://purl.org/dc/terms/title",
+                  "@container": "@language"
+                },
+                "hasResource": {
+                  "@id": "prof:hasResource",
+                  "@container": "@set",
+                  "@context": {
+                    "hasArtifact": {
+                      "@id": "prof:hasArtifact",
+                      "@type": "@id"
+                    }
+                  }
+                }
+              }
+            },
+            "hasResource": {
+              "@id": "prof:hasResource",
+              "@container": "@set",
+              "@context": {
+                "conformsTo": {
+                  "@id": "http://purl.org/dc/terms/conformsTo",
+                  "@type": "@id",
+                  "@container": "@set"
+                },
+                "format": {
+                  "@id": "http://purl.org/dc/terms/format",
+                  "@type": "@id"
+                },
+                "hasRole": {
+                  "@id": "prof:hasRole",
+                  "@type": "@id"
+                },
+                "hasArtifact": {
+                  "@id": "prof:hasArtifact",
+                  "@type": "@id"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    </script>
+    <script
+      src="https://www.w3.org/Tools/respec/respec-w3c"
+      class="remove"
+      defer
+    ></script>
+    <script class="remove">
+    // All config options at https://respec.org/docs/
+    var respecConfig = {
+      specStatus: "base",
+      editors: [{ name: "Dataspecer", url: "https://dataspecer.com" }],
+      //github: "some-org/mySpec",
+      shortName: "todo",
+      historyURI: null,
+      thisVersion: "/en/index.html",
+      latestVersion: "/en/index.html",
+      //publishDate: "2025-09-29",
+      //github: "https://github.com/org/repo",
+      //xref: "web-platform",
+      //group: "my-working-group",
+      //otherLinks: [{
+      //    key: "Repository",
+      //    data: [{
+      //        value: "GitHub",
+      //        href: "https://github.com/org/repo"
+      //    }],
+      //}],
+      localBiblio: {
+            "DCAT-AP": {
+                title: "DCAT Application Profile for data portals in Europe",
+                href: "https://semiceu.github.io/DCAT-AP/releases/3.0.1/",
+                date: "2024"
+            },
+            "GeoDCAT-AP": {
+                title: "GeoDCAT Application Profile for data portals in Europe",
+                href: "https://semiceu.github.io/GeoDCAT-AP/releases/3.0.0/",
+                date: "2024"
+            },
+            "DCAT-AP-HVD": {
+                title: "DCAT-AP HVD Application Profile",
+                href: "https://semiceu.github.io/DCAT-AP/releases/3.0.0-hvd/",
+                date: "2024"
+            }
+        },};</script>
+    
+    <style>
+      .figure img, .sidefigure img, figure img, .figure object, .sidefigure object, figure object, img, .img {
+        max-width: 100%;
+        margin: auto;
+        height: auto;
+      }
+    
+      table.simple {
+        margin: auto;
+        border-spacing: 0;
+        border-collapse: collapse;
+      }
+    
+      table.simple th {
+        padding: 3px 10px;
+        text-align: left;
+      }
+    
+      table.simple td {
+        border-top: 1px solid #ddd;
+        padding: 3px 10px;
+      }
+    
+      /* The IRI column takes the space the other columns leave, up to a limit. An IRI has no spaces to break at, so beyond it the IRI wraps anywhere. */
+      table.def.cv-list .cv-iri {
+        min-width: 16em;
+        max-width: 36em;
+        overflow-wrap: anywhere;
+      }
+    
+      /* Columns with a short content are as narrow as the content. */
+      table.def.cv-list .cv-narrow {
+        width: 1%;
+        white-space: nowrap;
+      }
+    
+      /* ReSpec shows the header row of a definition table as an italic body row, so it is marked out as a header. */
+      table.def.cv-table thead th {
+        font-style: normal;
+        font-weight: bold;
+        background: color-mix(in srgb, currentColor 8%, transparent);
+        border-bottom: 2px solid color-mix(in srgb, currentColor 35%, transparent);
+      }
+    
+      table.def.cv-list .cv-center {
+        text-align: center;
+      }
+    
+      a.cv-link + a.cv-link {
+        margin-left: 0.5em;
+      }
+    
+      .cv-icon {
+        vertical-align: -0.2em;
+      }
+    </style>  </head>
+  <body>
+    <p class="copyright"></p>
+    <section id="abstract">
+      <p>
+        This file documents <strong>CV JSON Schema test</strong>.
+      </p>
+    </section>
+
+    <section>
+      <h2>Overview</h2>
+    </section>
+
+      <section>
+          <h2>Class profiles</h2>
+
+          <section id="Test">
+            <h4>Test</h4>
+          
+            <table class="def">
+              <tr>
+                <td>Profiled class IRI(s)</td>
+                <td>
+                    <a href="http://example.com/vocabulary#Test">http://example.com/vocabulary#Test</a>
+                </td>
+              </tr>
+              <tr>
+                <td>IRI</td>
+                <td><a href="http://example.com/profile#Test">http://example.com/profile#Test</a></td>
+              </tr>
+              <tr>
+                <td>Label</td>
+                <td>Test</td>
+              </tr>
+                    <tr>
+                  <td>Hierarchy</td>
+                  <td>
+                    <ul style="list-style-type: disclosure-closed; padding-left: 0; margin: 0;">
+                          <li>
+                            profiles class <a href="#Test">Test</a> (<a href="http://example.com/vocabulary#Test">http://example.com/vocabulary#Test</a>)
+                  <ul style="list-style-type: disclosure-closed;">
+                  </ul>
+          
+                          </li>
+                    </ul>
+                  </td>
+                </tr>
+          
+            </table>
+          
+              <p><strong>Properties</strong></p>
+              <p>For this class profile the following properties are defined: <a href="#at_least_one_a">at_least_one_a</a>, <a href="#at_least_one_a_and_b">at_least_one_a_and_b</a>, <a href="#at_least_one_a_object">at_least_one_a_object</a>, <a href="#at_least_one_a_recommended_b_require">at_least_one_a_recommended_b_require</a>, <a href="#at_least_one_a_single">at_least_one_a_single</a>, <a href="#may_a">may_a</a>, <a href="#must_a">must_a</a>, <a href="#must_a_class_regex">must_a_class_regex</a>, <a href="#must_a_object">must_a_object</a>, <a href="#must_a_single">must_a_single</a>, <a href="#must_without_pattern">must_without_pattern</a>, <a href="#recommended_a_both">recommended_a_both</a>, <a href="#recommended_a_default">recommended_a_default</a>, <a href="#recommended_a_require">recommended_a_require</a>, <a href="#recommended_a_restrict">recommended_a_restrict</a>.</p>
+              <section id="at_least_one_a">
+                <h4>at_least_one_a</h4>
+              
+                <table class="def">
+                  <tr>
+                    <td>Profiled relationship IRI(s)</td>
+                    <td>
+                        <a href="http://example.com/vocabulary#at_least_one_a">http://example.com/vocabulary#at_least_one_a</a>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>IRI</td>
+                    <td><a href="http://example.com/profile#at_least_one_a">http://example.com/profile#at_least_one_a</a></td>
+                  </tr>
+                  <tr>
+                    <td>Label</td>
+                    <td>at_least_one_a</td>
+                  </tr>
+                  <tr>
+                    <td>Domain</td>
+                    <td>
+                      <a href="#Test">Test</a> 
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Range</td>
+                    <td>
+                      <a href="#Value_at_least_one_a">Value at_least_one_a</a> [0..*]
+                  </td>
+                  </tr>
+                        <tr>
+                      <td>Hierarchy</td>
+                      <td>
+                        <ul style="list-style-type: disclosure-closed; padding-left: 0; margin: 0;">
+                              <li>
+                                profiles property <a href="#at_least_one_a">at_least_one_a</a> (<a href="http://example.com/vocabulary#at_least_one_a">http://example.com/vocabulary#at_least_one_a</a>)
+                      <ul style="list-style-type: disclosure-closed;">
+                      </ul>
+              
+                              </li>
+                        </ul>
+                      </td>
+                    </tr>
+              
+                  <tr>
+                    <td>Controlled vocabularies</td>
+                    <td>  <a href="#cv-CV-A-letters">CV A (letters)</a> (AT LEAST ONE)
+              
+              </td>
+                  </tr>
+                  <tr>
+                    <td>Controlled vocabulary usage</td>
+                    <td>  <p>
+                  The property MUST have AT LEAST ONE value from <a href="#cv-CV-A-letters">CV A (letters)</a>.<br />
+                  This expectation makes the value space minimally constrained. Validation systems SHOULD produce warnings.
+                </p>
+              </td>
+                  </tr>
+                </table>
+              </section>
+              <section id="at_least_one_a_and_b">
+                <h4>at_least_one_a_and_b</h4>
+              
+                <table class="def">
+                  <tr>
+                    <td>Profiled relationship IRI(s)</td>
+                    <td>
+                        <a href="http://example.com/vocabulary#at_least_one_a_and_b">http://example.com/vocabulary#at_least_one_a_and_b</a>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>IRI</td>
+                    <td><a href="http://example.com/profile#at_least_one_a_and_b">http://example.com/profile#at_least_one_a_and_b</a></td>
+                  </tr>
+                  <tr>
+                    <td>Label</td>
+                    <td>at_least_one_a_and_b</td>
+                  </tr>
+                  <tr>
+                    <td>Domain</td>
+                    <td>
+                      <a href="#Test">Test</a> 
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Range</td>
+                    <td>
+                      <a href="#Value_at_least_one_a_and_b">Value at_least_one_a_and_b</a> [0..*]
+                  </td>
+                  </tr>
+                        <tr>
+                      <td>Hierarchy</td>
+                      <td>
+                        <ul style="list-style-type: disclosure-closed; padding-left: 0; margin: 0;">
+                              <li>
+                                profiles property <a href="#at_least_one_a_and_b">at_least_one_a_and_b</a> (<a href="http://example.com/vocabulary#at_least_one_a_and_b">http://example.com/vocabulary#at_least_one_a_and_b</a>)
+                      <ul style="list-style-type: disclosure-closed;">
+                      </ul>
+              
+                              </li>
+                        </ul>
+                      </td>
+                    </tr>
+              
+                  <tr>
+                    <td>Controlled vocabularies</td>
+                    <td>  <ul>
+                    <li><a href="#cv-CV-A-letters">CV A (letters)</a> (AT LEAST ONE)
+              </li>
+                    <li><a href="#cv-CV-B-digits">CV B (digits)</a> (AT LEAST ONE)
+              </li>
+                </ul>
+              </td>
+                  </tr>
+                  <tr>
+                    <td>Controlled vocabulary usage</td>
+                    <td>  <p>
+                  The property MUST have AT LEAST ONE value from <a href="#cv-CV-A-letters">CV A (letters)</a>.<br />
+                  This expectation makes the value space minimally constrained. Validation systems SHOULD produce warnings.
+                </p>
+                <p>
+                  The property MUST have AT LEAST ONE value from <a href="#cv-CV-B-digits">CV B (digits)</a>.<br />
+                  This expectation makes the value space minimally constrained. Validation systems SHOULD produce warnings.
+                </p>
+              </td>
+                  </tr>
+                </table>
+              </section>
+              <section id="at_least_one_a_object">
+                <h4>at_least_one_a_object</h4>
+              
+                <table class="def">
+                  <tr>
+                    <td>Profiled relationship IRI(s)</td>
+                    <td>
+                        <a href="http://example.com/vocabulary#at_least_one_a_object">http://example.com/vocabulary#at_least_one_a_object</a>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>IRI</td>
+                    <td><a href="http://example.com/profile#at_least_one_a_object">http://example.com/profile#at_least_one_a_object</a></td>
+                  </tr>
+                  <tr>
+                    <td>Label</td>
+                    <td>at_least_one_a_object</td>
+                  </tr>
+                  <tr>
+                    <td>Domain</td>
+                    <td>
+                      <a href="#Test">Test</a> 
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Range</td>
+                    <td>
+                      <a href="#Value_at_least_one_a_object">Value at_least_one_a_object</a> [0..*]
+                  </td>
+                  </tr>
+                        <tr>
+                      <td>Hierarchy</td>
+                      <td>
+                        <ul style="list-style-type: disclosure-closed; padding-left: 0; margin: 0;">
+                              <li>
+                                profiles property <a href="#at_least_one_a_object">at_least_one_a_object</a> (<a href="http://example.com/vocabulary#at_least_one_a_object">http://example.com/vocabulary#at_least_one_a_object</a>)
+                      <ul style="list-style-type: disclosure-closed;">
+                      </ul>
+              
+                              </li>
+                        </ul>
+                      </td>
+                    </tr>
+              
+                  <tr>
+                    <td>Controlled vocabularies</td>
+                    <td>  <a href="#cv-CV-A-letters">CV A (letters)</a> (AT LEAST ONE)
+              
+              </td>
+                  </tr>
+                  <tr>
+                    <td>Controlled vocabulary usage</td>
+                    <td>  <p>
+                  The property MUST have AT LEAST ONE value from <a href="#cv-CV-A-letters">CV A (letters)</a>.<br />
+                  This expectation makes the value space minimally constrained. Validation systems SHOULD produce warnings.
+                </p>
+              </td>
+                  </tr>
+                </table>
+              </section>
+              <section id="at_least_one_a_recommended_b_require">
+                <h4>at_least_one_a_recommended_b_require</h4>
+              
+                <table class="def">
+                  <tr>
+                    <td>Profiled relationship IRI(s)</td>
+                    <td>
+                        <a href="http://example.com/vocabulary#at_least_one_a_recommended_b_require">http://example.com/vocabulary#at_least_one_a_recommended_b_require</a>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>IRI</td>
+                    <td><a href="http://example.com/profile#at_least_one_a_recommended_b_require">http://example.com/profile#at_least_one_a_recommended_b_require</a></td>
+                  </tr>
+                  <tr>
+                    <td>Label</td>
+                    <td>at_least_one_a_recommended_b_require</td>
+                  </tr>
+                  <tr>
+                    <td>Domain</td>
+                    <td>
+                      <a href="#Test">Test</a> 
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Range</td>
+                    <td>
+                      <a href="#Value_at_least_one_a_recommended_b_require">Value at_least_one_a_recommended_b_require</a> [0..*]
+                  </td>
+                  </tr>
+                        <tr>
+                      <td>Hierarchy</td>
+                      <td>
+                        <ul style="list-style-type: disclosure-closed; padding-left: 0; margin: 0;">
+                              <li>
+                                profiles property <a href="#at_least_one_a_recommended_b_require">at_least_one_a_recommended_b_require</a> (<a href="http://example.com/vocabulary#at_least_one_a_recommended_b_require">http://example.com/vocabulary#at_least_one_a_recommended_b_require</a>)
+                      <ul style="list-style-type: disclosure-closed;">
+                      </ul>
+              
+                              </li>
+                        </ul>
+                      </td>
+                    </tr>
+              
+                  <tr>
+                    <td>Controlled vocabularies</td>
+                    <td>  <ul>
+                    <li><a href="#cv-CV-A-letters">CV A (letters)</a> (AT LEAST ONE)
+              </li>
+                    <li><a href="#cv-CV-B-digits">CV B (digits)</a> (RECOMMENDED)
+              </li>
+                </ul>
+              </td>
+                  </tr>
+                  <tr>
+                    <td>Controlled vocabulary usage</td>
+                    <td>  <p>
+                  The property MUST have AT LEAST ONE value from <a href="#cv-CV-A-letters">CV A (letters)</a>.<br />
+                  This expectation makes the value space minimally constrained. Validation systems SHOULD produce warnings.
+                </p>
+                <p>
+                  The property IS RECOMMENDED to use as range values codes from <a href="#cv-CV-B-digits">CV B (digits)</a>.<br />
+                  The value space is closed under the controlled vocabulary, but other values are tolerated. Recommending means expressing a strong preference. To make this stronger direction towards harmonisation visible in the data exchanges, validation systems SHOULD produce warnings.
+                </p>
+              </td>
+                  </tr>
+                </table>
+              </section>
+              <section id="at_least_one_a_single">
+                <h4>at_least_one_a_single</h4>
+              
+                <table class="def">
+                  <tr>
+                    <td>Profiled relationship IRI(s)</td>
+                    <td>
+                        <a href="http://example.com/vocabulary#at_least_one_a_single">http://example.com/vocabulary#at_least_one_a_single</a>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>IRI</td>
+                    <td><a href="http://example.com/profile#at_least_one_a_single">http://example.com/profile#at_least_one_a_single</a></td>
+                  </tr>
+                  <tr>
+                    <td>Label</td>
+                    <td>at_least_one_a_single</td>
+                  </tr>
+                  <tr>
+                    <td>Domain</td>
+                    <td>
+                      <a href="#Test">Test</a> 
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Range</td>
+                    <td>
+                      <a href="#Value_at_least_one_a_single">Value at_least_one_a_single</a> [0..1]
+                  </td>
+                  </tr>
+                        <tr>
+                      <td>Hierarchy</td>
+                      <td>
+                        <ul style="list-style-type: disclosure-closed; padding-left: 0; margin: 0;">
+                              <li>
+                                profiles property <a href="#at_least_one_a_single">at_least_one_a_single</a> (<a href="http://example.com/vocabulary#at_least_one_a_single">http://example.com/vocabulary#at_least_one_a_single</a>)
+                      <ul style="list-style-type: disclosure-closed;">
+                      </ul>
+              
+                              </li>
+                        </ul>
+                      </td>
+                    </tr>
+              
+                  <tr>
+                    <td>Controlled vocabularies</td>
+                    <td>  <a href="#cv-CV-A-letters">CV A (letters)</a> (AT LEAST ONE)
+              
+              </td>
+                  </tr>
+                  <tr>
+                    <td>Controlled vocabulary usage</td>
+                    <td>  <p>
+                  The property MUST have AT LEAST ONE value from <a href="#cv-CV-A-letters">CV A (letters)</a>.<br />
+                  This expectation makes the value space minimally constrained. Validation systems SHOULD produce warnings.
+                </p>
+              </td>
+                  </tr>
+                </table>
+              </section>
+              <section id="may_a">
+                <h4>may_a</h4>
+              
+                <table class="def">
+                  <tr>
+                    <td>Profiled relationship IRI(s)</td>
+                    <td>
+                        <a href="http://example.com/vocabulary#may_a">http://example.com/vocabulary#may_a</a>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>IRI</td>
+                    <td><a href="http://example.com/profile#may_a">http://example.com/profile#may_a</a></td>
+                  </tr>
+                  <tr>
+                    <td>Label</td>
+                    <td>may_a</td>
+                  </tr>
+                  <tr>
+                    <td>Domain</td>
+                    <td>
+                      <a href="#Test">Test</a> 
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Range</td>
+                    <td>
+                      <a href="#Value_may_a">Value may_a</a> [0..*]
+                  </td>
+                  </tr>
+                        <tr>
+                      <td>Hierarchy</td>
+                      <td>
+                        <ul style="list-style-type: disclosure-closed; padding-left: 0; margin: 0;">
+                              <li>
+                                profiles property <a href="#may_a">may_a</a> (<a href="http://example.com/vocabulary#may_a">http://example.com/vocabulary#may_a</a>)
+                      <ul style="list-style-type: disclosure-closed;">
+                      </ul>
+              
+                              </li>
+                        </ul>
+                      </td>
+                    </tr>
+              
+                  <tr>
+                    <td>Controlled vocabularies</td>
+                    <td>  <a href="#cv-CV-A-letters">CV A (letters)</a> (MAY)
+              
+              </td>
+                  </tr>
+                  <tr>
+                    <td>Controlled vocabulary usage</td>
+                    <td>  <p>
+                  The property MAY use as range values codes from <a href="#cv-CV-A-letters">CV A (letters)</a>.<br />
+                  The value space is closed under the controlled vocabulary, but other values are accepted. This expectation is more a hint to be used. As there is no obligation nor strong suggestion expressed here, the use of other codelists is valid in all cases. Therefore validation systems MAY produce warnings but users are free to ignore them. No validation in this case is also acceptable.
+                </p>
+              </td>
+                  </tr>
+                </table>
+              </section>
+              <section id="must_a">
+                <h4>must_a</h4>
+              
+                <table class="def">
+                  <tr>
+                    <td>Profiled relationship IRI(s)</td>
+                    <td>
+                        <a href="http://example.com/vocabulary#must_a">http://example.com/vocabulary#must_a</a>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>IRI</td>
+                    <td><a href="http://example.com/profile#must_a">http://example.com/profile#must_a</a></td>
+                  </tr>
+                  <tr>
+                    <td>Label</td>
+                    <td>must_a</td>
+                  </tr>
+                  <tr>
+                    <td>Domain</td>
+                    <td>
+                      <a href="#Test">Test</a> 
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Range</td>
+                    <td>
+                      <a href="#Value_must_a">Value must_a</a> [0..*]
+                  </td>
+                  </tr>
+                        <tr>
+                      <td>Hierarchy</td>
+                      <td>
+                        <ul style="list-style-type: disclosure-closed; padding-left: 0; margin: 0;">
+                              <li>
+                                profiles property <a href="#must_a">must_a</a> (<a href="http://example.com/vocabulary#must_a">http://example.com/vocabulary#must_a</a>)
+                      <ul style="list-style-type: disclosure-closed;">
+                      </ul>
+              
+                              </li>
+                        </ul>
+                      </td>
+                    </tr>
+              
+                  <tr>
+                    <td>Controlled vocabularies</td>
+                    <td>  <a href="#cv-CV-A-letters">CV A (letters)</a> (MUST)
+              
+              </td>
+                  </tr>
+                  <tr>
+                    <td>Controlled vocabulary usage</td>
+                    <td>  <p>
+                  The property MUST use as range values codes from <a href="#cv-CV-A-letters">CV A (letters)</a>.<br />
+                  This expectation results in that the value space is closed under the controlled vocabulary. Validation systems SHOULD produce errors. All profiles in the ecosystem MUST avoid conflicts by creating subproperties.
+                </p>
+              </td>
+                  </tr>
+                </table>
+              </section>
+              <section id="must_a_class_regex">
+                <h4>must_a_class_regex</h4>
+              
+                <table class="def">
+                  <tr>
+                    <td>Profiled relationship IRI(s)</td>
+                    <td>
+                        <a href="http://example.com/vocabulary#must_a_class_regex">http://example.com/vocabulary#must_a_class_regex</a>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>IRI</td>
+                    <td><a href="http://example.com/profile#must_a_class_regex">http://example.com/profile#must_a_class_regex</a></td>
+                  </tr>
+                  <tr>
+                    <td>Label</td>
+                    <td>must_a_class_regex</td>
+                  </tr>
+                  <tr>
+                    <td>Domain</td>
+                    <td>
+                      <a href="#Test">Test</a> 
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Range</td>
+                    <td>
+                      <a href="#Value_must_a_class_regex">Value must_a_class_regex</a> [0..*]
+                  </td>
+                  </tr>
+                        <tr>
+                      <td>Hierarchy</td>
+                      <td>
+                        <ul style="list-style-type: disclosure-closed; padding-left: 0; margin: 0;">
+                              <li>
+                                profiles property <a href="#must_a_class_regex">must_a_class_regex</a> (<a href="http://example.com/vocabulary#must_a_class_regex">http://example.com/vocabulary#must_a_class_regex</a>)
+                      <ul style="list-style-type: disclosure-closed;">
+                      </ul>
+              
+                              </li>
+                        </ul>
+                      </td>
+                    </tr>
+              
+                  <tr>
+                    <td>Controlled vocabularies</td>
+                    <td>  <a href="#cv-CV-A-letters">CV A (letters)</a> (MUST)
+              
+              </td>
+                  </tr>
+                  <tr>
+                    <td>Controlled vocabulary usage</td>
+                    <td>  <p>
+                  The property MUST use as range values codes from <a href="#cv-CV-A-letters">CV A (letters)</a>.<br />
+                  This expectation results in that the value space is closed under the controlled vocabulary. Validation systems SHOULD produce errors. All profiles in the ecosystem MUST avoid conflicts by creating subproperties.
+                </p>
+              </td>
+                  </tr>
+                </table>
+              </section>
+              <section id="must_a_object">
+                <h4>must_a_object</h4>
+              
+                <table class="def">
+                  <tr>
+                    <td>Profiled relationship IRI(s)</td>
+                    <td>
+                        <a href="http://example.com/vocabulary#must_a_object">http://example.com/vocabulary#must_a_object</a>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>IRI</td>
+                    <td><a href="http://example.com/profile#must_a_object">http://example.com/profile#must_a_object</a></td>
+                  </tr>
+                  <tr>
+                    <td>Label</td>
+                    <td>must_a_object</td>
+                  </tr>
+                  <tr>
+                    <td>Domain</td>
+                    <td>
+                      <a href="#Test">Test</a> 
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Range</td>
+                    <td>
+                      <a href="#Value_must_a_object">Value must_a_object</a> [0..*]
+                  </td>
+                  </tr>
+                        <tr>
+                      <td>Hierarchy</td>
+                      <td>
+                        <ul style="list-style-type: disclosure-closed; padding-left: 0; margin: 0;">
+                              <li>
+                                profiles property <a href="#must_a_object">must_a_object</a> (<a href="http://example.com/vocabulary#must_a_object">http://example.com/vocabulary#must_a_object</a>)
+                      <ul style="list-style-type: disclosure-closed;">
+                      </ul>
+              
+                              </li>
+                        </ul>
+                      </td>
+                    </tr>
+              
+                  <tr>
+                    <td>Controlled vocabularies</td>
+                    <td>  <a href="#cv-CV-A-letters">CV A (letters)</a> (MUST)
+              
+              </td>
+                  </tr>
+                  <tr>
+                    <td>Controlled vocabulary usage</td>
+                    <td>  <p>
+                  The property MUST use as range values codes from <a href="#cv-CV-A-letters">CV A (letters)</a>.<br />
+                  This expectation results in that the value space is closed under the controlled vocabulary. Validation systems SHOULD produce errors. All profiles in the ecosystem MUST avoid conflicts by creating subproperties.
+                </p>
+              </td>
+                  </tr>
+                </table>
+              </section>
+              <section id="must_a_single">
+                <h4>must_a_single</h4>
+              
+                <table class="def">
+                  <tr>
+                    <td>Profiled relationship IRI(s)</td>
+                    <td>
+                        <a href="http://example.com/vocabulary#must_a_single">http://example.com/vocabulary#must_a_single</a>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>IRI</td>
+                    <td><a href="http://example.com/profile#must_a_single">http://example.com/profile#must_a_single</a></td>
+                  </tr>
+                  <tr>
+                    <td>Label</td>
+                    <td>must_a_single</td>
+                  </tr>
+                  <tr>
+                    <td>Domain</td>
+                    <td>
+                      <a href="#Test">Test</a> 
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Range</td>
+                    <td>
+                      <a href="#Value_must_a_single">Value must_a_single</a> [0..1]
+                  </td>
+                  </tr>
+                        <tr>
+                      <td>Hierarchy</td>
+                      <td>
+                        <ul style="list-style-type: disclosure-closed; padding-left: 0; margin: 0;">
+                              <li>
+                                profiles property <a href="#must_a_single">must_a_single</a> (<a href="http://example.com/vocabulary#must_a_single">http://example.com/vocabulary#must_a_single</a>)
+                      <ul style="list-style-type: disclosure-closed;">
+                      </ul>
+              
+                              </li>
+                        </ul>
+                      </td>
+                    </tr>
+              
+                  <tr>
+                    <td>Controlled vocabularies</td>
+                    <td>  <a href="#cv-CV-A-letters">CV A (letters)</a> (MUST)
+              
+              </td>
+                  </tr>
+                  <tr>
+                    <td>Controlled vocabulary usage</td>
+                    <td>  <p>
+                  The property MUST use as range values codes from <a href="#cv-CV-A-letters">CV A (letters)</a>.<br />
+                  This expectation results in that the value space is closed under the controlled vocabulary. Validation systems SHOULD produce errors. All profiles in the ecosystem MUST avoid conflicts by creating subproperties.
+                </p>
+              </td>
+                  </tr>
+                </table>
+              </section>
+              <section id="must_without_pattern">
+                <h4>must_without_pattern</h4>
+              
+                <table class="def">
+                  <tr>
+                    <td>Profiled relationship IRI(s)</td>
+                    <td>
+                        <a href="http://example.com/vocabulary#must_without_pattern">http://example.com/vocabulary#must_without_pattern</a>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>IRI</td>
+                    <td><a href="http://example.com/profile#must_without_pattern">http://example.com/profile#must_without_pattern</a></td>
+                  </tr>
+                  <tr>
+                    <td>Label</td>
+                    <td>must_without_pattern</td>
+                  </tr>
+                  <tr>
+                    <td>Domain</td>
+                    <td>
+                      <a href="#Test">Test</a> 
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Range</td>
+                    <td>
+                      <a href="#Value_must_without_pattern">Value must_without_pattern</a> [0..*]
+                  </td>
+                  </tr>
+                        <tr>
+                      <td>Hierarchy</td>
+                      <td>
+                        <ul style="list-style-type: disclosure-closed; padding-left: 0; margin: 0;">
+                              <li>
+                                profiles property <a href="#must_without_pattern">must_without_pattern</a> (<a href="http://example.com/vocabulary#must_without_pattern">http://example.com/vocabulary#must_without_pattern</a>)
+                      <ul style="list-style-type: disclosure-closed;">
+                      </ul>
+              
+                              </li>
+                        </ul>
+                      </td>
+                    </tr>
+              
+                  <tr>
+                    <td>Controlled vocabularies</td>
+                    <td>  <a href="#cv-CV-without-a-pattern">CV without a pattern</a> (MUST)
+              
+              </td>
+                  </tr>
+                  <tr>
+                    <td>Controlled vocabulary usage</td>
+                    <td>  <p>
+                  The property MUST use as range values codes from <a href="#cv-CV-without-a-pattern">CV without a pattern</a>.<br />
+                  This expectation results in that the value space is closed under the controlled vocabulary. Validation systems SHOULD produce errors. All profiles in the ecosystem MUST avoid conflicts by creating subproperties.
+                </p>
+              </td>
+                  </tr>
+                </table>
+              </section>
+              <section id="recommended_a_both">
+                <h4>recommended_a_both</h4>
+              
+                <table class="def">
+                  <tr>
+                    <td>Profiled relationship IRI(s)</td>
+                    <td>
+                        <a href="http://example.com/vocabulary#recommended_a_both">http://example.com/vocabulary#recommended_a_both</a>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>IRI</td>
+                    <td><a href="http://example.com/profile#recommended_a_both">http://example.com/profile#recommended_a_both</a></td>
+                  </tr>
+                  <tr>
+                    <td>Label</td>
+                    <td>recommended_a_both</td>
+                  </tr>
+                  <tr>
+                    <td>Domain</td>
+                    <td>
+                      <a href="#Test">Test</a> 
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Range</td>
+                    <td>
+                      <a href="#Value_recommended_a_both">Value recommended_a_both</a> [0..*]
+                  </td>
+                  </tr>
+                        <tr>
+                      <td>Hierarchy</td>
+                      <td>
+                        <ul style="list-style-type: disclosure-closed; padding-left: 0; margin: 0;">
+                              <li>
+                                profiles property <a href="#recommended_a_both">recommended_a_both</a> (<a href="http://example.com/vocabulary#recommended_a_both">http://example.com/vocabulary#recommended_a_both</a>)
+                      <ul style="list-style-type: disclosure-closed;">
+                      </ul>
+              
+                              </li>
+                        </ul>
+                      </td>
+                    </tr>
+              
+                  <tr>
+                    <td>Controlled vocabularies</td>
+                    <td>  <a href="#cv-CV-A-letters">CV A (letters)</a> (RECOMMENDED)
+              
+              </td>
+                  </tr>
+                  <tr>
+                    <td>Controlled vocabulary usage</td>
+                    <td>  <p>
+                  The property IS RECOMMENDED to use as range values codes from <a href="#cv-CV-A-letters">CV A (letters)</a>.<br />
+                  The value space is closed under the controlled vocabulary, but other values are tolerated. Recommending means expressing a strong preference. To make this stronger direction towards harmonisation visible in the data exchanges, validation systems SHOULD produce warnings.
+                </p>
+              </td>
+                  </tr>
+                </table>
+              </section>
+              <section id="recommended_a_default">
+                <h4>recommended_a_default</h4>
+              
+                <table class="def">
+                  <tr>
+                    <td>Profiled relationship IRI(s)</td>
+                    <td>
+                        <a href="http://example.com/vocabulary#recommended_a_default">http://example.com/vocabulary#recommended_a_default</a>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>IRI</td>
+                    <td><a href="http://example.com/profile#recommended_a_default">http://example.com/profile#recommended_a_default</a></td>
+                  </tr>
+                  <tr>
+                    <td>Label</td>
+                    <td>recommended_a_default</td>
+                  </tr>
+                  <tr>
+                    <td>Domain</td>
+                    <td>
+                      <a href="#Test">Test</a> 
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Range</td>
+                    <td>
+                      <a href="#Value_recommended_a_default">Value recommended_a_default</a> [0..*]
+                  </td>
+                  </tr>
+                        <tr>
+                      <td>Hierarchy</td>
+                      <td>
+                        <ul style="list-style-type: disclosure-closed; padding-left: 0; margin: 0;">
+                              <li>
+                                profiles property <a href="#recommended_a_default">recommended_a_default</a> (<a href="http://example.com/vocabulary#recommended_a_default">http://example.com/vocabulary#recommended_a_default</a>)
+                      <ul style="list-style-type: disclosure-closed;">
+                      </ul>
+              
+                              </li>
+                        </ul>
+                      </td>
+                    </tr>
+              
+                  <tr>
+                    <td>Controlled vocabularies</td>
+                    <td>  <a href="#cv-CV-A-letters">CV A (letters)</a> (RECOMMENDED)
+              
+              </td>
+                  </tr>
+                  <tr>
+                    <td>Controlled vocabulary usage</td>
+                    <td>  <p>
+                  The property IS RECOMMENDED to use as range values codes from <a href="#cv-CV-A-letters">CV A (letters)</a>.<br />
+                  The value space is closed under the controlled vocabulary, but other values are tolerated. Recommending means expressing a strong preference. To make this stronger direction towards harmonisation visible in the data exchanges, validation systems SHOULD produce warnings.
+                </p>
+              </td>
+                  </tr>
+                </table>
+              </section>
+              <section id="recommended_a_require">
+                <h4>recommended_a_require</h4>
+              
+                <table class="def">
+                  <tr>
+                    <td>Profiled relationship IRI(s)</td>
+                    <td>
+                        <a href="http://example.com/vocabulary#recommended_a_require">http://example.com/vocabulary#recommended_a_require</a>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>IRI</td>
+                    <td><a href="http://example.com/profile#recommended_a_require">http://example.com/profile#recommended_a_require</a></td>
+                  </tr>
+                  <tr>
+                    <td>Label</td>
+                    <td>recommended_a_require</td>
+                  </tr>
+                  <tr>
+                    <td>Domain</td>
+                    <td>
+                      <a href="#Test">Test</a> 
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Range</td>
+                    <td>
+                      <a href="#Value_recommended_a_require">Value recommended_a_require</a> [0..*]
+                  </td>
+                  </tr>
+                        <tr>
+                      <td>Hierarchy</td>
+                      <td>
+                        <ul style="list-style-type: disclosure-closed; padding-left: 0; margin: 0;">
+                              <li>
+                                profiles property <a href="#recommended_a_require">recommended_a_require</a> (<a href="http://example.com/vocabulary#recommended_a_require">http://example.com/vocabulary#recommended_a_require</a>)
+                      <ul style="list-style-type: disclosure-closed;">
+                      </ul>
+              
+                              </li>
+                        </ul>
+                      </td>
+                    </tr>
+              
+                  <tr>
+                    <td>Controlled vocabularies</td>
+                    <td>  <a href="#cv-CV-A-letters">CV A (letters)</a> (RECOMMENDED)
+              
+              </td>
+                  </tr>
+                  <tr>
+                    <td>Controlled vocabulary usage</td>
+                    <td>  <p>
+                  The property IS RECOMMENDED to use as range values codes from <a href="#cv-CV-A-letters">CV A (letters)</a>.<br />
+                  The value space is closed under the controlled vocabulary, but other values are tolerated. Recommending means expressing a strong preference. To make this stronger direction towards harmonisation visible in the data exchanges, validation systems SHOULD produce warnings.
+                </p>
+              </td>
+                  </tr>
+                </table>
+              </section>
+              <section id="recommended_a_restrict">
+                <h4>recommended_a_restrict</h4>
+              
+                <table class="def">
+                  <tr>
+                    <td>Profiled relationship IRI(s)</td>
+                    <td>
+                        <a href="http://example.com/vocabulary#recommended_a_restrict">http://example.com/vocabulary#recommended_a_restrict</a>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>IRI</td>
+                    <td><a href="http://example.com/profile#recommended_a_restrict">http://example.com/profile#recommended_a_restrict</a></td>
+                  </tr>
+                  <tr>
+                    <td>Label</td>
+                    <td>recommended_a_restrict</td>
+                  </tr>
+                  <tr>
+                    <td>Domain</td>
+                    <td>
+                      <a href="#Test">Test</a> 
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Range</td>
+                    <td>
+                      <a href="#Value_recommended_a_restrict">Value recommended_a_restrict</a> [0..*]
+                  </td>
+                  </tr>
+                        <tr>
+                      <td>Hierarchy</td>
+                      <td>
+                        <ul style="list-style-type: disclosure-closed; padding-left: 0; margin: 0;">
+                              <li>
+                                profiles property <a href="#recommended_a_restrict">recommended_a_restrict</a> (<a href="http://example.com/vocabulary#recommended_a_restrict">http://example.com/vocabulary#recommended_a_restrict</a>)
+                      <ul style="list-style-type: disclosure-closed;">
+                      </ul>
+              
+                              </li>
+                        </ul>
+                      </td>
+                    </tr>
+              
+                  <tr>
+                    <td>Controlled vocabularies</td>
+                    <td>  <a href="#cv-CV-A-letters">CV A (letters)</a> (RECOMMENDED)
+              
+              </td>
+                  </tr>
+                  <tr>
+                    <td>Controlled vocabulary usage</td>
+                    <td>  <p>
+                  The property IS RECOMMENDED to use as range values codes from <a href="#cv-CV-A-letters">CV A (letters)</a>.<br />
+                  The value space is closed under the controlled vocabulary, but other values are tolerated. Recommending means expressing a strong preference. To make this stronger direction towards harmonisation visible in the data exchanges, validation systems SHOULD produce warnings.
+                </p>
+              </td>
+                  </tr>
+                </table>
+              </section>
+          </section>
+          <section id="Value_at_least_one_a">
+            <h4>Value at_least_one_a</h4>
+          
+            <table class="def">
+              <tr>
+                <td>Profiled class IRI(s)</td>
+                <td>
+                    <a href="http://example.com/vocabulary#Value_at_least_one_a">http://example.com/vocabulary#Value_at_least_one_a</a>
+                </td>
+              </tr>
+              <tr>
+                <td>IRI</td>
+                <td><a href="http://example.com/profile#Value_at_least_one_a">http://example.com/profile#Value_at_least_one_a</a></td>
+              </tr>
+              <tr>
+                <td>Label</td>
+                <td>Value at_least_one_a</td>
+              </tr>
+                    <tr>
+                  <td>Hierarchy</td>
+                  <td>
+                    <ul style="list-style-type: disclosure-closed; padding-left: 0; margin: 0;">
+                          <li>
+                            profiles class <a href="#Value_at_least_one_a">Value_at_least_one_a</a> (<a href="http://example.com/vocabulary#Value_at_least_one_a">http://example.com/vocabulary#Value_at_least_one_a</a>)
+                  <ul style="list-style-type: disclosure-closed;">
+                  </ul>
+          
+                          </li>
+                    </ul>
+                  </td>
+                </tr>
+          
+              <tr>
+                <td>Controlled vocabularies</td>
+                <td>  <a href="#cv-CV-A-letters">CV A (letters)</a> (AT LEAST ONE)
+          
+          </td>
+              </tr>
+              <tr>
+                <td>Controlled vocabulary usage</td>
+                <td>  <p>
+              This class profile MUST be represented in data by AT LEAST ONE instance of <a href="#cv-CV-A-letters">CV A (letters)</a> controlled vocabulary.
+            </p>
+          </td>
+              </tr>
+            </table>
+          
+              <p><strong>Backwards associations</strong></p>
+              <ul>
+                  <li>from domain <a href="#Test"></a> → <a href="#at_least_one_a"></a></li>
+              </ul>
+          </section>
+          <section id="Value_at_least_one_a_and_b">
+            <h4>Value at_least_one_a_and_b</h4>
+          
+            <table class="def">
+              <tr>
+                <td>Profiled class IRI(s)</td>
+                <td>
+                    <a href="http://example.com/vocabulary#Value_at_least_one_a_and_b">http://example.com/vocabulary#Value_at_least_one_a_and_b</a>
+                </td>
+              </tr>
+              <tr>
+                <td>IRI</td>
+                <td><a href="http://example.com/profile#Value_at_least_one_a_and_b">http://example.com/profile#Value_at_least_one_a_and_b</a></td>
+              </tr>
+              <tr>
+                <td>Label</td>
+                <td>Value at_least_one_a_and_b</td>
+              </tr>
+                    <tr>
+                  <td>Hierarchy</td>
+                  <td>
+                    <ul style="list-style-type: disclosure-closed; padding-left: 0; margin: 0;">
+                          <li>
+                            profiles class <a href="#Value_at_least_one_a_and_b">Value_at_least_one_a_and_b</a> (<a href="http://example.com/vocabulary#Value_at_least_one_a_and_b">http://example.com/vocabulary#Value_at_least_one_a_and_b</a>)
+                  <ul style="list-style-type: disclosure-closed;">
+                  </ul>
+          
+                          </li>
+                    </ul>
+                  </td>
+                </tr>
+          
+              <tr>
+                <td>Controlled vocabularies</td>
+                <td>  <ul>
+                <li><a href="#cv-CV-A-letters">CV A (letters)</a> (AT LEAST ONE)
+          </li>
+                <li><a href="#cv-CV-B-digits">CV B (digits)</a> (AT LEAST ONE)
+          </li>
+            </ul>
+          </td>
+              </tr>
+              <tr>
+                <td>Controlled vocabulary usage</td>
+                <td>  <p>
+              This class profile MUST be represented in data by AT LEAST ONE instance of <a href="#cv-CV-A-letters">CV A (letters)</a> controlled vocabulary.
+            </p>
+            <p>
+              This class profile MUST be represented in data by AT LEAST ONE instance of <a href="#cv-CV-B-digits">CV B (digits)</a> controlled vocabulary.
+            </p>
+          </td>
+              </tr>
+            </table>
+          
+              <p><strong>Backwards associations</strong></p>
+              <ul>
+                  <li>from domain <a href="#Test"></a> → <a href="#at_least_one_a_and_b"></a></li>
+              </ul>
+          </section>
+          <section id="Value_at_least_one_a_object">
+            <h4>Value at_least_one_a_object</h4>
+          
+            <table class="def">
+              <tr>
+                <td>Profiled class IRI(s)</td>
+                <td>
+                    <a href="http://example.com/vocabulary#Value_at_least_one_a_object">http://example.com/vocabulary#Value_at_least_one_a_object</a>
+                </td>
+              </tr>
+              <tr>
+                <td>IRI</td>
+                <td><a href="http://example.com/profile#Value_at_least_one_a_object">http://example.com/profile#Value_at_least_one_a_object</a></td>
+              </tr>
+              <tr>
+                <td>Label</td>
+                <td>Value at_least_one_a_object</td>
+              </tr>
+                    <tr>
+                  <td>Hierarchy</td>
+                  <td>
+                    <ul style="list-style-type: disclosure-closed; padding-left: 0; margin: 0;">
+                          <li>
+                            profiles class <a href="#Value_at_least_one_a_object">Value_at_least_one_a_object</a> (<a href="http://example.com/vocabulary#Value_at_least_one_a_object">http://example.com/vocabulary#Value_at_least_one_a_object</a>)
+                  <ul style="list-style-type: disclosure-closed;">
+                  </ul>
+          
+                          </li>
+                    </ul>
+                  </td>
+                </tr>
+          
+              <tr>
+                <td>Controlled vocabularies</td>
+                <td>  <a href="#cv-CV-A-letters">CV A (letters)</a> (AT LEAST ONE)
+          
+          </td>
+              </tr>
+              <tr>
+                <td>Controlled vocabulary usage</td>
+                <td>  <p>
+              This class profile MUST be represented in data by AT LEAST ONE instance of <a href="#cv-CV-A-letters">CV A (letters)</a> controlled vocabulary.
+            </p>
+          </td>
+              </tr>
+            </table>
+          
+              <p><strong>Properties</strong></p>
+              <p>For this class profile the following properties are defined: <a href="#label">label</a>.</p>
+              <p><strong>Backwards associations</strong></p>
+              <ul>
+                  <li>from domain <a href="#Test"></a> → <a href="#at_least_one_a_object"></a></li>
+              </ul>
+              <section id="label">
+                <h4>label</h4>
+              
+                <table class="def">
+                  <tr>
+                    <td>Profiled relationship IRI(s)</td>
+                    <td>
+                        <a href="http://example.com/vocabulary#label_at_least_one_a_object">http://example.com/vocabulary#label_at_least_one_a_object</a>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>IRI</td>
+                    <td><a href="http://example.com/profile#label">http://example.com/profile#label</a></td>
+                  </tr>
+                  <tr>
+                    <td>Label</td>
+                    <td>label</td>
+                  </tr>
+                  <tr>
+                    <td>Domain</td>
+                    <td>
+                      <a href="#Value_at_least_one_a_object">Value at_least_one_a_object</a> 
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Range</td>
+                    <td>
+                      <a href="http://www.w3.org/2000/01/rdf-schema#Literal">rdfs:Literal</a> [0..1]
+                  </td>
+                  </tr>
+                        <tr>
+                      <td>Hierarchy</td>
+                      <td>
+                        <ul style="list-style-type: disclosure-closed; padding-left: 0; margin: 0;">
+                              <li>
+                                profiles property <a href="#label_at_least_one_a_object">label_at_least_one_a_object</a> (<a href="http://example.com/vocabulary#label_at_least_one_a_object">http://example.com/vocabulary#label_at_least_one_a_object</a>)
+                      <ul style="list-style-type: disclosure-closed;">
+                      </ul>
+              
+                              </li>
+                        </ul>
+                      </td>
+                    </tr>
+              
+                </table>
+              </section>
+          </section>
+          <section id="Value_at_least_one_a_recommended_b_require">
+            <h4>Value at_least_one_a_recommended_b_require</h4>
+          
+            <table class="def">
+              <tr>
+                <td>Profiled class IRI(s)</td>
+                <td>
+                    <a href="http://example.com/vocabulary#Value_at_least_one_a_recommended_b_require">http://example.com/vocabulary#Value_at_least_one_a_recommended_b_require</a>
+                </td>
+              </tr>
+              <tr>
+                <td>IRI</td>
+                <td><a href="http://example.com/profile#Value_at_least_one_a_recommended_b_require">http://example.com/profile#Value_at_least_one_a_recommended_b_require</a></td>
+              </tr>
+              <tr>
+                <td>Label</td>
+                <td>Value at_least_one_a_recommended_b_require</td>
+              </tr>
+                    <tr>
+                  <td>Hierarchy</td>
+                  <td>
+                    <ul style="list-style-type: disclosure-closed; padding-left: 0; margin: 0;">
+                          <li>
+                            profiles class <a href="#Value_at_least_one_a_recommended_b_require">Value_at_least_one_a_recommended_b_require</a> (<a href="http://example.com/vocabulary#Value_at_least_one_a_recommended_b_require">http://example.com/vocabulary#Value_at_least_one_a_recommended_b_require</a>)
+                  <ul style="list-style-type: disclosure-closed;">
+                  </ul>
+          
+                          </li>
+                    </ul>
+                  </td>
+                </tr>
+          
+              <tr>
+                <td>Controlled vocabularies</td>
+                <td>  <ul>
+                <li><a href="#cv-CV-A-letters">CV A (letters)</a> (AT LEAST ONE)
+          </li>
+                <li><a href="#cv-CV-B-digits">CV B (digits)</a> (RECOMMENDED)
+          </li>
+            </ul>
+          </td>
+              </tr>
+              <tr>
+                <td>Controlled vocabulary usage</td>
+                <td>  <p>
+              This class profile MUST be represented in data by AT LEAST ONE instance of <a href="#cv-CV-A-letters">CV A (letters)</a> controlled vocabulary.
+            </p>
+            <p>
+              It is RECOMMENDED that this class profile is represented in data by instances of <a href="#cv-CV-B-digits">CV B (digits)</a> controlled vocabulary.
+            </p>
+          </td>
+              </tr>
+            </table>
+          
+              <p><strong>Backwards associations</strong></p>
+              <ul>
+                  <li>from domain <a href="#Test"></a> → <a href="#at_least_one_a_recommended_b_require"></a></li>
+              </ul>
+          </section>
+          <section id="Value_at_least_one_a_single">
+            <h4>Value at_least_one_a_single</h4>
+          
+            <table class="def">
+              <tr>
+                <td>Profiled class IRI(s)</td>
+                <td>
+                    <a href="http://example.com/vocabulary#Value_at_least_one_a_single">http://example.com/vocabulary#Value_at_least_one_a_single</a>
+                </td>
+              </tr>
+              <tr>
+                <td>IRI</td>
+                <td><a href="http://example.com/profile#Value_at_least_one_a_single">http://example.com/profile#Value_at_least_one_a_single</a></td>
+              </tr>
+              <tr>
+                <td>Label</td>
+                <td>Value at_least_one_a_single</td>
+              </tr>
+                    <tr>
+                  <td>Hierarchy</td>
+                  <td>
+                    <ul style="list-style-type: disclosure-closed; padding-left: 0; margin: 0;">
+                          <li>
+                            profiles class <a href="#Value_at_least_one_a_single">Value_at_least_one_a_single</a> (<a href="http://example.com/vocabulary#Value_at_least_one_a_single">http://example.com/vocabulary#Value_at_least_one_a_single</a>)
+                  <ul style="list-style-type: disclosure-closed;">
+                  </ul>
+          
+                          </li>
+                    </ul>
+                  </td>
+                </tr>
+          
+              <tr>
+                <td>Controlled vocabularies</td>
+                <td>  <a href="#cv-CV-A-letters">CV A (letters)</a> (AT LEAST ONE)
+          
+          </td>
+              </tr>
+              <tr>
+                <td>Controlled vocabulary usage</td>
+                <td>  <p>
+              This class profile MUST be represented in data by AT LEAST ONE instance of <a href="#cv-CV-A-letters">CV A (letters)</a> controlled vocabulary.
+            </p>
+          </td>
+              </tr>
+            </table>
+          
+              <p><strong>Backwards associations</strong></p>
+              <ul>
+                  <li>from domain <a href="#Test"></a> → <a href="#at_least_one_a_single"></a></li>
+              </ul>
+          </section>
+          <section id="Value_may_a">
+            <h4>Value may_a</h4>
+          
+            <table class="def">
+              <tr>
+                <td>Profiled class IRI(s)</td>
+                <td>
+                    <a href="http://example.com/vocabulary#Value_may_a">http://example.com/vocabulary#Value_may_a</a>
+                </td>
+              </tr>
+              <tr>
+                <td>IRI</td>
+                <td><a href="http://example.com/profile#Value_may_a">http://example.com/profile#Value_may_a</a></td>
+              </tr>
+              <tr>
+                <td>Label</td>
+                <td>Value may_a</td>
+              </tr>
+                    <tr>
+                  <td>Hierarchy</td>
+                  <td>
+                    <ul style="list-style-type: disclosure-closed; padding-left: 0; margin: 0;">
+                          <li>
+                            profiles class <a href="#Value_may_a">Value_may_a</a> (<a href="http://example.com/vocabulary#Value_may_a">http://example.com/vocabulary#Value_may_a</a>)
+                  <ul style="list-style-type: disclosure-closed;">
+                  </ul>
+          
+                          </li>
+                    </ul>
+                  </td>
+                </tr>
+          
+              <tr>
+                <td>Controlled vocabularies</td>
+                <td>  <a href="#cv-CV-A-letters">CV A (letters)</a> (MAY)
+          
+          </td>
+              </tr>
+              <tr>
+                <td>Controlled vocabulary usage</td>
+                <td>  <p>
+              This class profile MAY be represented in data by instances of <a href="#cv-CV-A-letters">CV A (letters)</a> controlled vocabulary.
+            </p>
+          </td>
+              </tr>
+            </table>
+          
+              <p><strong>Backwards associations</strong></p>
+              <ul>
+                  <li>from domain <a href="#Test"></a> → <a href="#may_a"></a></li>
+              </ul>
+          </section>
+          <section id="Value_must_a">
+            <h4>Value must_a</h4>
+          
+            <table class="def">
+              <tr>
+                <td>Profiled class IRI(s)</td>
+                <td>
+                    <a href="http://example.com/vocabulary#Value_must_a">http://example.com/vocabulary#Value_must_a</a>
+                </td>
+              </tr>
+              <tr>
+                <td>IRI</td>
+                <td><a href="http://example.com/profile#Value_must_a">http://example.com/profile#Value_must_a</a></td>
+              </tr>
+              <tr>
+                <td>Label</td>
+                <td>Value must_a</td>
+              </tr>
+                    <tr>
+                  <td>Hierarchy</td>
+                  <td>
+                    <ul style="list-style-type: disclosure-closed; padding-left: 0; margin: 0;">
+                          <li>
+                            profiles class <a href="#Value_must_a">Value_must_a</a> (<a href="http://example.com/vocabulary#Value_must_a">http://example.com/vocabulary#Value_must_a</a>)
+                  <ul style="list-style-type: disclosure-closed;">
+                  </ul>
+          
+                          </li>
+                    </ul>
+                  </td>
+                </tr>
+          
+              <tr>
+                <td>Controlled vocabularies</td>
+                <td>  <a href="#cv-CV-A-letters">CV A (letters)</a> (MUST)
+          
+          </td>
+              </tr>
+              <tr>
+                <td>Controlled vocabulary usage</td>
+                <td>  <p>
+              This class profile MUST be represented in data by instances of <a href="#cv-CV-A-letters">CV A (letters)</a> controlled vocabulary.
+            </p>
+          </td>
+              </tr>
+            </table>
+          
+              <p><strong>Backwards associations</strong></p>
+              <ul>
+                  <li>from domain <a href="#Test"></a> → <a href="#must_a"></a></li>
+              </ul>
+          </section>
+          <section id="Value_must_a_class_regex">
+            <h4>Value must_a_class_regex</h4>
+          
+            <table class="def">
+              <tr>
+                <td>Profiled class IRI(s)</td>
+                <td>
+                    <a href="http://example.com/vocabulary#Value_must_a_class_regex">http://example.com/vocabulary#Value_must_a_class_regex</a>
+                </td>
+              </tr>
+              <tr>
+                <td>IRI</td>
+                <td><a href="http://example.com/profile#Value_must_a_class_regex">http://example.com/profile#Value_must_a_class_regex</a></td>
+              </tr>
+              <tr>
+                <td>Label</td>
+                <td>Value must_a_class_regex</td>
+              </tr>
+                  <tr>
+                <td>Regular expression</td>
+                <td><code>^http://example\.com/cv-a/r.*$</code></td>
+              </tr>
+                <tr>
+                  <td>Hierarchy</td>
+                  <td>
+                    <ul style="list-style-type: disclosure-closed; padding-left: 0; margin: 0;">
+                          <li>
+                            profiles class <a href="#Value_must_a_class_regex">Value_must_a_class_regex</a> (<a href="http://example.com/vocabulary#Value_must_a_class_regex">http://example.com/vocabulary#Value_must_a_class_regex</a>)
+                  <ul style="list-style-type: disclosure-closed;">
+                  </ul>
+          
+                          </li>
+                    </ul>
+                  </td>
+                </tr>
+          
+              <tr>
+                <td>Controlled vocabularies</td>
+                <td>  <a href="#cv-CV-A-letters">CV A (letters)</a> (MUST)
+          
+          </td>
+              </tr>
+              <tr>
+                <td>Controlled vocabulary usage</td>
+                <td>  <p>
+              This class profile MUST be represented in data by instances of <a href="#cv-CV-A-letters">CV A (letters)</a> controlled vocabulary.
+            </p>
+          </td>
+              </tr>
+            </table>
+          
+              <p><strong>Backwards associations</strong></p>
+              <ul>
+                  <li>from domain <a href="#Test"></a> → <a href="#must_a_class_regex"></a></li>
+              </ul>
+          </section>
+          <section id="Value_must_a_object">
+            <h4>Value must_a_object</h4>
+          
+            <table class="def">
+              <tr>
+                <td>Profiled class IRI(s)</td>
+                <td>
+                    <a href="http://example.com/vocabulary#Value_must_a_object">http://example.com/vocabulary#Value_must_a_object</a>
+                </td>
+              </tr>
+              <tr>
+                <td>IRI</td>
+                <td><a href="http://example.com/profile#Value_must_a_object">http://example.com/profile#Value_must_a_object</a></td>
+              </tr>
+              <tr>
+                <td>Label</td>
+                <td>Value must_a_object</td>
+              </tr>
+                    <tr>
+                  <td>Hierarchy</td>
+                  <td>
+                    <ul style="list-style-type: disclosure-closed; padding-left: 0; margin: 0;">
+                          <li>
+                            profiles class <a href="#Value_must_a_object">Value_must_a_object</a> (<a href="http://example.com/vocabulary#Value_must_a_object">http://example.com/vocabulary#Value_must_a_object</a>)
+                  <ul style="list-style-type: disclosure-closed;">
+                  </ul>
+          
+                          </li>
+                    </ul>
+                  </td>
+                </tr>
+          
+              <tr>
+                <td>Controlled vocabularies</td>
+                <td>  <a href="#cv-CV-A-letters">CV A (letters)</a> (MUST)
+          
+          </td>
+              </tr>
+              <tr>
+                <td>Controlled vocabulary usage</td>
+                <td>  <p>
+              This class profile MUST be represented in data by instances of <a href="#cv-CV-A-letters">CV A (letters)</a> controlled vocabulary.
+            </p>
+          </td>
+              </tr>
+            </table>
+          
+              <p><strong>Properties</strong></p>
+              <p>For this class profile the following properties are defined: <a href="#label">label</a>.</p>
+              <p><strong>Backwards associations</strong></p>
+              <ul>
+                  <li>from domain <a href="#Test"></a> → <a href="#must_a_object"></a></li>
+              </ul>
+              <section id="label">
+                <h4>label</h4>
+              
+                <table class="def">
+                  <tr>
+                    <td>Profiled relationship IRI(s)</td>
+                    <td>
+                        <a href="http://example.com/vocabulary#label_must_a_object">http://example.com/vocabulary#label_must_a_object</a>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>IRI</td>
+                    <td><a href="http://example.com/profile#label">http://example.com/profile#label</a></td>
+                  </tr>
+                  <tr>
+                    <td>Label</td>
+                    <td>label</td>
+                  </tr>
+                  <tr>
+                    <td>Domain</td>
+                    <td>
+                      <a href="#Value_must_a_object">Value must_a_object</a> 
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Range</td>
+                    <td>
+                      <a href="http://www.w3.org/2000/01/rdf-schema#Literal">rdfs:Literal</a> [0..1]
+                  </td>
+                  </tr>
+                        <tr>
+                      <td>Hierarchy</td>
+                      <td>
+                        <ul style="list-style-type: disclosure-closed; padding-left: 0; margin: 0;">
+                              <li>
+                                profiles property <a href="#label_must_a_object">label_must_a_object</a> (<a href="http://example.com/vocabulary#label_must_a_object">http://example.com/vocabulary#label_must_a_object</a>)
+                      <ul style="list-style-type: disclosure-closed;">
+                      </ul>
+              
+                              </li>
+                        </ul>
+                      </td>
+                    </tr>
+              
+                </table>
+              </section>
+          </section>
+          <section id="Value_must_a_single">
+            <h4>Value must_a_single</h4>
+          
+            <table class="def">
+              <tr>
+                <td>Profiled class IRI(s)</td>
+                <td>
+                    <a href="http://example.com/vocabulary#Value_must_a_single">http://example.com/vocabulary#Value_must_a_single</a>
+                </td>
+              </tr>
+              <tr>
+                <td>IRI</td>
+                <td><a href="http://example.com/profile#Value_must_a_single">http://example.com/profile#Value_must_a_single</a></td>
+              </tr>
+              <tr>
+                <td>Label</td>
+                <td>Value must_a_single</td>
+              </tr>
+                    <tr>
+                  <td>Hierarchy</td>
+                  <td>
+                    <ul style="list-style-type: disclosure-closed; padding-left: 0; margin: 0;">
+                          <li>
+                            profiles class <a href="#Value_must_a_single">Value_must_a_single</a> (<a href="http://example.com/vocabulary#Value_must_a_single">http://example.com/vocabulary#Value_must_a_single</a>)
+                  <ul style="list-style-type: disclosure-closed;">
+                  </ul>
+          
+                          </li>
+                    </ul>
+                  </td>
+                </tr>
+          
+              <tr>
+                <td>Controlled vocabularies</td>
+                <td>  <a href="#cv-CV-A-letters">CV A (letters)</a> (MUST)
+          
+          </td>
+              </tr>
+              <tr>
+                <td>Controlled vocabulary usage</td>
+                <td>  <p>
+              This class profile MUST be represented in data by instances of <a href="#cv-CV-A-letters">CV A (letters)</a> controlled vocabulary.
+            </p>
+          </td>
+              </tr>
+            </table>
+          
+              <p><strong>Backwards associations</strong></p>
+              <ul>
+                  <li>from domain <a href="#Test"></a> → <a href="#must_a_single"></a></li>
+              </ul>
+          </section>
+          <section id="Value_must_without_pattern">
+            <h4>Value must_without_pattern</h4>
+          
+            <table class="def">
+              <tr>
+                <td>Profiled class IRI(s)</td>
+                <td>
+                    <a href="http://example.com/vocabulary#Value_must_without_pattern">http://example.com/vocabulary#Value_must_without_pattern</a>
+                </td>
+              </tr>
+              <tr>
+                <td>IRI</td>
+                <td><a href="http://example.com/profile#Value_must_without_pattern">http://example.com/profile#Value_must_without_pattern</a></td>
+              </tr>
+              <tr>
+                <td>Label</td>
+                <td>Value must_without_pattern</td>
+              </tr>
+                    <tr>
+                  <td>Hierarchy</td>
+                  <td>
+                    <ul style="list-style-type: disclosure-closed; padding-left: 0; margin: 0;">
+                          <li>
+                            profiles class <a href="#Value_must_without_pattern">Value_must_without_pattern</a> (<a href="http://example.com/vocabulary#Value_must_without_pattern">http://example.com/vocabulary#Value_must_without_pattern</a>)
+                  <ul style="list-style-type: disclosure-closed;">
+                  </ul>
+          
+                          </li>
+                    </ul>
+                  </td>
+                </tr>
+          
+              <tr>
+                <td>Controlled vocabularies</td>
+                <td>  <a href="#cv-CV-without-a-pattern">CV without a pattern</a> (MUST)
+          
+          </td>
+              </tr>
+              <tr>
+                <td>Controlled vocabulary usage</td>
+                <td>  <p>
+              This class profile MUST be represented in data by instances of <a href="#cv-CV-without-a-pattern">CV without a pattern</a> controlled vocabulary.
+            </p>
+          </td>
+              </tr>
+            </table>
+          
+              <p><strong>Backwards associations</strong></p>
+              <ul>
+                  <li>from domain <a href="#Test"></a> → <a href="#must_without_pattern"></a></li>
+              </ul>
+          </section>
+          <section id="Value_recommended_a_both">
+            <h4>Value recommended_a_both</h4>
+          
+            <table class="def">
+              <tr>
+                <td>Profiled class IRI(s)</td>
+                <td>
+                    <a href="http://example.com/vocabulary#Value_recommended_a_both">http://example.com/vocabulary#Value_recommended_a_both</a>
+                </td>
+              </tr>
+              <tr>
+                <td>IRI</td>
+                <td><a href="http://example.com/profile#Value_recommended_a_both">http://example.com/profile#Value_recommended_a_both</a></td>
+              </tr>
+              <tr>
+                <td>Label</td>
+                <td>Value recommended_a_both</td>
+              </tr>
+                    <tr>
+                  <td>Hierarchy</td>
+                  <td>
+                    <ul style="list-style-type: disclosure-closed; padding-left: 0; margin: 0;">
+                          <li>
+                            profiles class <a href="#Value_recommended_a_both">Value_recommended_a_both</a> (<a href="http://example.com/vocabulary#Value_recommended_a_both">http://example.com/vocabulary#Value_recommended_a_both</a>)
+                  <ul style="list-style-type: disclosure-closed;">
+                  </ul>
+          
+                          </li>
+                    </ul>
+                  </td>
+                </tr>
+          
+              <tr>
+                <td>Controlled vocabularies</td>
+                <td>  <a href="#cv-CV-A-letters">CV A (letters)</a> (RECOMMENDED)
+          
+          </td>
+              </tr>
+              <tr>
+                <td>Controlled vocabulary usage</td>
+                <td>  <p>
+              It is RECOMMENDED that this class profile is represented in data by instances of <a href="#cv-CV-A-letters">CV A (letters)</a> controlled vocabulary.
+            </p>
+          </td>
+              </tr>
+            </table>
+          
+              <p><strong>Backwards associations</strong></p>
+              <ul>
+                  <li>from domain <a href="#Test"></a> → <a href="#recommended_a_both"></a></li>
+              </ul>
+          </section>
+          <section id="Value_recommended_a_default">
+            <h4>Value recommended_a_default</h4>
+          
+            <table class="def">
+              <tr>
+                <td>Profiled class IRI(s)</td>
+                <td>
+                    <a href="http://example.com/vocabulary#Value_recommended_a_default">http://example.com/vocabulary#Value_recommended_a_default</a>
+                </td>
+              </tr>
+              <tr>
+                <td>IRI</td>
+                <td><a href="http://example.com/profile#Value_recommended_a_default">http://example.com/profile#Value_recommended_a_default</a></td>
+              </tr>
+              <tr>
+                <td>Label</td>
+                <td>Value recommended_a_default</td>
+              </tr>
+                    <tr>
+                  <td>Hierarchy</td>
+                  <td>
+                    <ul style="list-style-type: disclosure-closed; padding-left: 0; margin: 0;">
+                          <li>
+                            profiles class <a href="#Value_recommended_a_default">Value_recommended_a_default</a> (<a href="http://example.com/vocabulary#Value_recommended_a_default">http://example.com/vocabulary#Value_recommended_a_default</a>)
+                  <ul style="list-style-type: disclosure-closed;">
+                  </ul>
+          
+                          </li>
+                    </ul>
+                  </td>
+                </tr>
+          
+              <tr>
+                <td>Controlled vocabularies</td>
+                <td>  <a href="#cv-CV-A-letters">CV A (letters)</a> (RECOMMENDED)
+          
+          </td>
+              </tr>
+              <tr>
+                <td>Controlled vocabulary usage</td>
+                <td>  <p>
+              It is RECOMMENDED that this class profile is represented in data by instances of <a href="#cv-CV-A-letters">CV A (letters)</a> controlled vocabulary.
+            </p>
+          </td>
+              </tr>
+            </table>
+          
+              <p><strong>Backwards associations</strong></p>
+              <ul>
+                  <li>from domain <a href="#Test"></a> → <a href="#recommended_a_default"></a></li>
+              </ul>
+          </section>
+          <section id="Value_recommended_a_require">
+            <h4>Value recommended_a_require</h4>
+          
+            <table class="def">
+              <tr>
+                <td>Profiled class IRI(s)</td>
+                <td>
+                    <a href="http://example.com/vocabulary#Value_recommended_a_require">http://example.com/vocabulary#Value_recommended_a_require</a>
+                </td>
+              </tr>
+              <tr>
+                <td>IRI</td>
+                <td><a href="http://example.com/profile#Value_recommended_a_require">http://example.com/profile#Value_recommended_a_require</a></td>
+              </tr>
+              <tr>
+                <td>Label</td>
+                <td>Value recommended_a_require</td>
+              </tr>
+                    <tr>
+                  <td>Hierarchy</td>
+                  <td>
+                    <ul style="list-style-type: disclosure-closed; padding-left: 0; margin: 0;">
+                          <li>
+                            profiles class <a href="#Value_recommended_a_require">Value_recommended_a_require</a> (<a href="http://example.com/vocabulary#Value_recommended_a_require">http://example.com/vocabulary#Value_recommended_a_require</a>)
+                  <ul style="list-style-type: disclosure-closed;">
+                  </ul>
+          
+                          </li>
+                    </ul>
+                  </td>
+                </tr>
+          
+              <tr>
+                <td>Controlled vocabularies</td>
+                <td>  <a href="#cv-CV-A-letters">CV A (letters)</a> (RECOMMENDED)
+          
+          </td>
+              </tr>
+              <tr>
+                <td>Controlled vocabulary usage</td>
+                <td>  <p>
+              It is RECOMMENDED that this class profile is represented in data by instances of <a href="#cv-CV-A-letters">CV A (letters)</a> controlled vocabulary.
+            </p>
+          </td>
+              </tr>
+            </table>
+          
+              <p><strong>Backwards associations</strong></p>
+              <ul>
+                  <li>from domain <a href="#Test"></a> → <a href="#recommended_a_require"></a></li>
+              </ul>
+          </section>
+          <section id="Value_recommended_a_restrict">
+            <h4>Value recommended_a_restrict</h4>
+          
+            <table class="def">
+              <tr>
+                <td>Profiled class IRI(s)</td>
+                <td>
+                    <a href="http://example.com/vocabulary#Value_recommended_a_restrict">http://example.com/vocabulary#Value_recommended_a_restrict</a>
+                </td>
+              </tr>
+              <tr>
+                <td>IRI</td>
+                <td><a href="http://example.com/profile#Value_recommended_a_restrict">http://example.com/profile#Value_recommended_a_restrict</a></td>
+              </tr>
+              <tr>
+                <td>Label</td>
+                <td>Value recommended_a_restrict</td>
+              </tr>
+                    <tr>
+                  <td>Hierarchy</td>
+                  <td>
+                    <ul style="list-style-type: disclosure-closed; padding-left: 0; margin: 0;">
+                          <li>
+                            profiles class <a href="#Value_recommended_a_restrict">Value_recommended_a_restrict</a> (<a href="http://example.com/vocabulary#Value_recommended_a_restrict">http://example.com/vocabulary#Value_recommended_a_restrict</a>)
+                  <ul style="list-style-type: disclosure-closed;">
+                  </ul>
+          
+                          </li>
+                    </ul>
+                  </td>
+                </tr>
+          
+              <tr>
+                <td>Controlled vocabularies</td>
+                <td>  <a href="#cv-CV-A-letters">CV A (letters)</a> (RECOMMENDED)
+          
+          </td>
+              </tr>
+              <tr>
+                <td>Controlled vocabulary usage</td>
+                <td>  <p>
+              It is RECOMMENDED that this class profile is represented in data by instances of <a href="#cv-CV-A-letters">CV A (letters)</a> controlled vocabulary.
+            </p>
+          </td>
+              </tr>
+            </table>
+          
+              <p><strong>Backwards associations</strong></p>
+              <ul>
+                  <li>from domain <a href="#Test"></a> → <a href="#recommended_a_restrict"></a></li>
+              </ul>
+          </section>
+      </section>
+
+      <section id="structure-CV-JSON-Schema-test">
+      <h2>
+        Data structure specification for CV JSON Schema test
+      </h2>
+      <p>Combinations of controlled vocabulary assignments.</p>
+
+          <section id="json-schema--cv-json-schema-test">
+            <h1>
+              JSON structure for CV JSON Schema test
+            </h1>
+          
+              <dl>
+                <dt>IRI</dt>
+                <dd><code>/schema.json</code></dd>
+                <dt>Defined in</dt>
+                <dd><code><a href="../schema.json">../schema.json</a></code></dd>
+                  <dt>Language version used</dt>
+                  <dd><a href="https://json-schema.org/specification-links.html#2020-12-release" target="_blank">2020-12</a> (metaschema IRI: <code>https://json-schema.org/draft/2020-12/schema</code>)</dd>
+              </dl>
+          
+              <h2>Root</h2>
+              The root of the JSON schema is
+              <a href="#json-object--cv-json-schema-test--test"></a>
+          
+              <section id="json-object--cv-json-schema-test--test">
+                <h2>
+                  Object <i>Test</i>
+                </h2>
+          
+                <table class="def">
+          
+                    <tr>
+                      <th>Interpretation</th>
+                      <td><a href="#Test">Test</a></td>
+                    </tr>
+                </table>
+          
+                  <strong>object</strong>
+              with properties (<code>properties</code>):
+              <ul>
+                  <li style="list-style-type: disclosure-closed;">
+                    <code>must_a</code>:
+                      (<a href="#must_a" label="">must_a</a>)
+                    optional item of type array of values <code>{0..*}</code> of controlled vocabulary <a href="#cv-CV-A-letters">CV A (letters)</a> (type string, format: <code>iri</code>, by regular expression: <code>^http://example\.com/cv-a/[a-z]+$</code>)
+          
+                  </li>
+                  <li style="list-style-type: disclosure-closed;">
+                    <code>must_a_class_regex</code>:
+                      (<a href="#must_a_class_regex" label="">must_a_class_regex</a>)
+                    optional item of type array of values <code>{0..*}</code> of type   string
+              (format: <code>iri</code>)
+          
+              all of the following (<code>allOf</code>):
+              <ul>
+                  <li>  string
+              (by regular expression: <code>^http://example\.com/cv-a/r.*$</code>)
+          </li>
+                  <li>controlled vocabulary <a href="#cv-CV-A-letters">CV A (letters)</a> (type string, by regular expression: <code>^http://example\.com/cv-a/[a-z]+$</code>)</li>
+              </ul>
+          
+          
+                  </li>
+                  <li style="list-style-type: disclosure-closed;">
+                    <code>must_a_single</code>:
+                      (<a href="#must_a_single" label="">must_a_single</a>)
+                    optional item of controlled vocabulary <a href="#cv-CV-A-letters">CV A (letters)</a> (type string, format: <code>iri</code>, by regular expression: <code>^http://example\.com/cv-a/[a-z]+$</code>)
+                  </li>
+                  <li style="list-style-type: disclosure-closed;">
+                    <code>must_a_object</code>:
+                      (<a href="#must_a_object" label="">must_a_object</a>)
+                    optional item of type array of values <code>{0..*}</code> of type <a href="#json-object--cv-json-schema-test--value-must_a_object"></a>
+          
+                  </li>
+                  <li style="list-style-type: disclosure-closed;">
+                    <code>at_least_one_a</code>:
+                      (<a href="#at_least_one_a" label="">at_least_one_a</a>)
+                    optional item of type array of values <code>{0..*}</code> of type   string
+              (format: <code>iri</code>)
+          
+                  and must contain at least one item of controlled vocabulary <a href="#cv-CV-A-letters">CV A (letters)</a> (type string, by regular expression: <code>^http://example\.com/cv-a/[a-z]+$</code>)
+          
+                  </li>
+                  <li style="list-style-type: disclosure-closed;">
+                    <code>at_least_one_a_single</code>:
+                      (<a href="#at_least_one_a_single" label="">at_least_one_a_single</a>)
+                    optional item of type 
+              all of the following (<code>allOf</code>):
+              <ul>
+                  <li>  string
+              (format: <code>iri</code>)
+          </li>
+                  <li>controlled vocabulary <a href="#cv-CV-A-letters">CV A (letters)</a> (type string, by regular expression: <code>^http://example\.com/cv-a/[a-z]+$</code>)</li>
+              </ul>
+          
+                  </li>
+                  <li style="list-style-type: disclosure-closed;">
+                    <code>at_least_one_a_object</code>:
+                      (<a href="#at_least_one_a_object" label="">at_least_one_a_object</a>)
+                    optional item of type array of values <code>{0..*}</code> of type <a href="#json-object--cv-json-schema-test--value-at_least_one_a_object"></a>
+                  and must contain at least one item of type   <strong>object</strong>
+              with properties (<code>properties</code>):
+              <ul>
+                  <li style="list-style-type: disclosure-closed;">
+                    <code>id</code>:
+                    required item of controlled vocabulary <a href="#cv-CV-A-letters">CV A (letters)</a> (type string, by regular expression: <code>^http://example\.com/cv-a/[a-z]+$</code>)
+                  </li>
+              </ul>
+          
+          
+                  </li>
+                  <li style="list-style-type: disclosure-closed;">
+                    <code>at_least_one_a_and_b</code>:
+                      (<a href="#at_least_one_a_and_b" label="">at_least_one_a_and_b</a>)
+                    optional item of type array of values <code>{0..*}</code> of type   string
+              (format: <code>iri</code>)
+          
+                  and must contain:
+                  <ul>
+                      <li>at least one item of controlled vocabulary <a href="#cv-CV-A-letters">CV A (letters)</a> (type string, by regular expression: <code>^http://example\.com/cv-a/[a-z]+$</code>)</li>
+                      <li>at least one item of controlled vocabulary <a href="#cv-CV-B-digits">CV B (digits)</a> (type string, by regular expression: <code>^http://example\.com/cv-b/[0-9]+$</code>)</li>
+                  </ul>
+          
+                  </li>
+                  <li style="list-style-type: disclosure-closed;">
+                    <code>recommended_a_default</code>:
+                      (<a href="#recommended_a_default" label="">recommended_a_default</a>)
+                    optional item of type array of values <code>{0..*}</code> of type   string
+              (format: <code>iri</code>)
+          
+          
+                  </li>
+                  <li style="list-style-type: disclosure-closed;">
+                    <code>recommended_a_require</code>:
+                      (<a href="#recommended_a_require" label="">recommended_a_require</a>)
+                    optional item of type array of values <code>{0..*}</code> of type   string
+              (format: <code>iri</code>)
+          
+                  and must contain at least one item of controlled vocabulary <a href="#cv-CV-A-letters">CV A (letters)</a> (type string, by regular expression: <code>^http://example\.com/cv-a/[a-z]+$</code>)
+          
+                  </li>
+                  <li style="list-style-type: disclosure-closed;">
+                    <code>recommended_a_restrict</code>:
+                      (<a href="#recommended_a_restrict" label="">recommended_a_restrict</a>)
+                    optional item of type array of values <code>{0..*}</code> of controlled vocabulary <a href="#cv-CV-A-letters">CV A (letters)</a> (type string, format: <code>iri</code>, by regular expression: <code>^http://example\.com/cv-a/[a-z]+$</code>)
+          
+                  </li>
+                  <li style="list-style-type: disclosure-closed;">
+                    <code>recommended_a_both</code>:
+                      (<a href="#recommended_a_both" label="">recommended_a_both</a>)
+                    optional item of type array of values <code>{0..*}</code> of controlled vocabulary <a href="#cv-CV-A-letters">CV A (letters)</a> (type string, format: <code>iri</code>, by regular expression: <code>^http://example\.com/cv-a/[a-z]+$</code>)
+                  and must contain at least one item of controlled vocabulary <a href="#cv-CV-A-letters">CV A (letters)</a> (type string, by regular expression: <code>^http://example\.com/cv-a/[a-z]+$</code>)
+          
+                  </li>
+                  <li style="list-style-type: disclosure-closed;">
+                    <code>may_a</code>:
+                      (<a href="#may_a" label="">may_a</a>)
+                    optional item of type array of values <code>{0..*}</code> of type   string
+              (format: <code>iri</code>)
+          
+          
+                  </li>
+                  <li style="list-style-type: disclosure-closed;">
+                    <code>must_without_pattern</code>:
+                      (<a href="#must_without_pattern" label="">must_without_pattern</a>)
+                    optional item of type array of values <code>{0..*}</code> of type   string
+              (format: <code>iri</code>)
+          
+          
+                  </li>
+                  <li style="list-style-type: disclosure-closed;">
+                    <code>at_least_one_a_recommended_b_require</code>:
+                      (<a href="#at_least_one_a_recommended_b_require" label="">at_least_one_a_recommended_b_require</a>)
+                    optional item of type array of values <code>{0..*}</code> of type   string
+              (format: <code>iri</code>)
+          
+                  and must contain:
+                  <ul>
+                      <li>at least one item of controlled vocabulary <a href="#cv-CV-A-letters">CV A (letters)</a> (type string, by regular expression: <code>^http://example\.com/cv-a/[a-z]+$</code>)</li>
+                      <li>at least one item of controlled vocabulary <a href="#cv-CV-B-digits">CV B (digits)</a> (type string, by regular expression: <code>^http://example\.com/cv-b/[0-9]+$</code>)</li>
+                  </ul>
+          
+                  </li>
+              </ul>
+          
+              </section>
+              <section id="json-object--cv-json-schema-test--value-at_least_one_a_object">
+                <h2>
+                  Object <i>Value at_least_one_a_object</i>
+                </h2>
+          
+                <table class="def">
+          
+                    <tr>
+                      <th>Interpretation</th>
+                      <td><a href="#Value_at_least_one_a_object">Value at_least_one_a_object</a></td>
+                    </tr>
+                </table>
+          
+                  <strong>object</strong>
+              with properties (<code>properties</code>):
+              <ul>
+                  <li style="list-style-type: disclosure-closed;">
+                    <code>id</code>:
+                    required item of type   string
+              (format: <code>iri</code>)
+          
+                  </li>
+                  <li style="list-style-type: disclosure-closed;">
+                    <code>label</code>:
+                      (<a href="#label" label="">label</a>)
+                    optional item of type   string
+          
+                  </li>
+              </ul>
+          
+              </section>
+              <section id="json-object--cv-json-schema-test--value-must_a_object">
+                <h2>
+                  Object <i>Value must_a_object</i>
+                </h2>
+          
+                <table class="def">
+          
+                    <tr>
+                      <th>Interpretation</th>
+                      <td><a href="#Value_must_a_object">Value must_a_object</a></td>
+                    </tr>
+                </table>
+          
+                  <strong>object</strong>
+              with properties (<code>properties</code>):
+              <ul>
+                  <li style="list-style-type: disclosure-closed;">
+                    <code>id</code>:
+                    required item of controlled vocabulary <a href="#cv-CV-A-letters">CV A (letters)</a> (type string, format: <code>iri</code>, by regular expression: <code>^http://example\.com/cv-a/[a-z]+$</code>)
+                  </li>
+                  <li style="list-style-type: disclosure-closed;">
+                    <code>label</code>:
+                      (<a href="#label" label="">label</a>)
+                    optional item of type   string
+          
+                  </li>
+              </ul>
+          
+              </section>
+          </section>
+      </section>
+
+    <section>
+      <h2>Used prefixes</h2>
+      <table id="table-namespaces" class="simple">
+        <thead><tr><th>Prefix</th><th>Namespace IRI</th></tr></thead>
+        <tbody>
+            <tr><td><code>rdfs</code></td><td><a href="http://www.w3.org/2000/01/rdf-schema#"><code>http://www.w3.org/2000/01/rdf-schema#</code></a></td></tr>
+        </tbody>
+      </table>
+    </section>
+      <section>
+        <h2>Controlled vocabularies</h2>
+
+        <section>
+          <h3>List of controlled vocabularies</h3>
+          <p>
+            The list contains all controlled vocabularies used by this specification, with links to its access URL and documentation.
+          </p>
+          <table class="def cv-table cv-list">
+            <thead>
+              <tr>
+                <th>Name</th>
+                <th class="cv-center cv-narrow">SKOS</th>
+                <th>Concept Scheme IRI</th>
+                <th class="cv-narrow">Links</th>
+              </tr>
+            </thead>
+            <tbody>
+                <tr id="cv-CV-A-letters">
+                  <td>CV A (letters)</td>
+                  <td class="cv-center">yes</td>
+                  <td class="cv-iri"><a href="http://example.com/schemes/a"><code>http://example.com/schemes/a</code></a></td>
+                  <td>
+                    <a class="cv-link" href="http://example.com/vocabularies/a" title="Access URL" aria-label="Access URL"><svg class="cv-icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg></a>          
+                  </td>
+                </tr>
+                <tr id="cv-CV-B-digits">
+                  <td>CV B (digits)</td>
+                  <td class="cv-center">yes</td>
+                  <td class="cv-iri"><a href="http://example.com/schemes/b"><code>http://example.com/schemes/b</code></a></td>
+                  <td>
+                    <a class="cv-link" href="http://example.com/vocabularies/b" title="Access URL" aria-label="Access URL"><svg class="cv-icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg></a>          
+                  </td>
+                </tr>
+                <tr id="cv-CV-without-a-pattern">
+                  <td>CV without a pattern</td>
+                  <td class="cv-center">yes</td>
+                  <td class="cv-iri"><a href="http://example.com/schemes/none"><code>http://example.com/schemes/none</code></a></td>
+                  <td>
+                    <a class="cv-link" href="http://example.com/vocabularies/none" title="Access URL" aria-label="Access URL"><svg class="cv-icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg></a>          
+                  </td>
+                </tr>
+            </tbody>
+          </table>        </section>
+
+          <section>
+            <h3>Controlled vocabularies usage</h3>
+            <p>
+              The tables below show the usage of the controlled vocabularies with properties grouped by the expected qualification.
+            </p>
+
+              <section>
+                <h4>Properties with controlled vocabularies that MUST be used</h4>
+                <table class="def cv-table">
+                  <thead>
+                    <tr>
+                      <th>Property</th>
+                      <th>Property domain</th>
+                      <th>Used for class profile</th>
+                      <th>Controlled vocabulary</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                      <tr>
+                        <td><a href="#must_a">must_a</a></td>
+                        <td><a href="#Test">Test</a></td>
+                        <td><a href="#Value_must_a">Value must_a</a></td>
+                        <td>
+                            <div><a href="#cv-CV-A-letters">CV A (letters)</a></div>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td><a href="#must_a_class_regex">must_a_class_regex</a></td>
+                        <td><a href="#Test">Test</a></td>
+                        <td><a href="#Value_must_a_class_regex">Value must_a_class_regex</a></td>
+                        <td>
+                            <div><a href="#cv-CV-A-letters">CV A (letters)</a></div>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td><a href="#must_a_object">must_a_object</a></td>
+                        <td><a href="#Test">Test</a></td>
+                        <td><a href="#Value_must_a_object">Value must_a_object</a></td>
+                        <td>
+                            <div><a href="#cv-CV-A-letters">CV A (letters)</a></div>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td><a href="#must_a_single">must_a_single</a></td>
+                        <td><a href="#Test">Test</a></td>
+                        <td><a href="#Value_must_a_single">Value must_a_single</a></td>
+                        <td>
+                            <div><a href="#cv-CV-A-letters">CV A (letters)</a></div>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td><a href="#must_without_pattern">must_without_pattern</a></td>
+                        <td><a href="#Test">Test</a></td>
+                        <td><a href="#Value_must_without_pattern">Value must_without_pattern</a></td>
+                        <td>
+                            <div><a href="#cv-CV-without-a-pattern">CV without a pattern</a></div>
+                        </td>
+                      </tr>
+                  </tbody>
+                </table>              </section>
+
+              <section>
+                <h4>Properties with controlled vocabularies where AT LEAST ONE must be used</h4>
+                <table class="def cv-table">
+                  <thead>
+                    <tr>
+                      <th>Property</th>
+                      <th>Property domain</th>
+                      <th>Used for class profile</th>
+                      <th>Controlled vocabulary</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                      <tr>
+                        <td><a href="#at_least_one_a">at_least_one_a</a></td>
+                        <td><a href="#Test">Test</a></td>
+                        <td><a href="#Value_at_least_one_a">Value at_least_one_a</a></td>
+                        <td>
+                            <div><a href="#cv-CV-A-letters">CV A (letters)</a></div>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td><a href="#at_least_one_a_and_b">at_least_one_a_and_b</a></td>
+                        <td><a href="#Test">Test</a></td>
+                        <td><a href="#Value_at_least_one_a_and_b">Value at_least_one_a_and_b</a></td>
+                        <td>
+                            <div><a href="#cv-CV-A-letters">CV A (letters)</a></div>
+                            <div><a href="#cv-CV-B-digits">CV B (digits)</a></div>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td><a href="#at_least_one_a_object">at_least_one_a_object</a></td>
+                        <td><a href="#Test">Test</a></td>
+                        <td><a href="#Value_at_least_one_a_object">Value at_least_one_a_object</a></td>
+                        <td>
+                            <div><a href="#cv-CV-A-letters">CV A (letters)</a></div>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td><a href="#at_least_one_a_recommended_b_require">at_least_one_a_recommended_b_require</a></td>
+                        <td><a href="#Test">Test</a></td>
+                        <td><a href="#Value_at_least_one_a_recommended_b_require">Value at_least_one_a_recommended_b_require</a></td>
+                        <td>
+                            <div><a href="#cv-CV-A-letters">CV A (letters)</a></div>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td><a href="#at_least_one_a_single">at_least_one_a_single</a></td>
+                        <td><a href="#Test">Test</a></td>
+                        <td><a href="#Value_at_least_one_a_single">Value at_least_one_a_single</a></td>
+                        <td>
+                            <div><a href="#cv-CV-A-letters">CV A (letters)</a></div>
+                        </td>
+                      </tr>
+                  </tbody>
+                </table>              </section>
+
+              <section>
+                <h4>Properties with RECOMMENDED controlled vocabularies</h4>
+                <table class="def cv-table">
+                  <thead>
+                    <tr>
+                      <th>Property</th>
+                      <th>Property domain</th>
+                      <th>Used for class profile</th>
+                      <th>Controlled vocabulary</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                      <tr>
+                        <td><a href="#at_least_one_a_recommended_b_require">at_least_one_a_recommended_b_require</a></td>
+                        <td><a href="#Test">Test</a></td>
+                        <td><a href="#Value_at_least_one_a_recommended_b_require">Value at_least_one_a_recommended_b_require</a></td>
+                        <td>
+                            <div><a href="#cv-CV-B-digits">CV B (digits)</a></div>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td><a href="#recommended_a_both">recommended_a_both</a></td>
+                        <td><a href="#Test">Test</a></td>
+                        <td><a href="#Value_recommended_a_both">Value recommended_a_both</a></td>
+                        <td>
+                            <div><a href="#cv-CV-A-letters">CV A (letters)</a></div>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td><a href="#recommended_a_default">recommended_a_default</a></td>
+                        <td><a href="#Test">Test</a></td>
+                        <td><a href="#Value_recommended_a_default">Value recommended_a_default</a></td>
+                        <td>
+                            <div><a href="#cv-CV-A-letters">CV A (letters)</a></div>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td><a href="#recommended_a_require">recommended_a_require</a></td>
+                        <td><a href="#Test">Test</a></td>
+                        <td><a href="#Value_recommended_a_require">Value recommended_a_require</a></td>
+                        <td>
+                            <div><a href="#cv-CV-A-letters">CV A (letters)</a></div>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td><a href="#recommended_a_restrict">recommended_a_restrict</a></td>
+                        <td><a href="#Test">Test</a></td>
+                        <td><a href="#Value_recommended_a_restrict">Value recommended_a_restrict</a></td>
+                        <td>
+                            <div><a href="#cv-CV-A-letters">CV A (letters)</a></div>
+                        </td>
+                      </tr>
+                  </tbody>
+                </table>              </section>
+
+              <section>
+                <h4>Properties with controlled vocabularies that MAY be used</h4>
+                <table class="def cv-table">
+                  <thead>
+                    <tr>
+                      <th>Property</th>
+                      <th>Property domain</th>
+                      <th>Used for class profile</th>
+                      <th>Controlled vocabulary</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                      <tr>
+                        <td><a href="#may_a">may_a</a></td>
+                        <td><a href="#Test">Test</a></td>
+                        <td><a href="#Value_may_a">Value may_a</a></td>
+                        <td>
+                            <div><a href="#cv-CV-A-letters">CV A (letters)</a></div>
+                        </td>
+                      </tr>
+                  </tbody>
+                </table>              </section>
+          </section>
+      </section>
+
+    <section id="attachments">
+      <h2>Attachments</h2>
+    
+        <p>This specification includes the following attachments.</p>
+      <table class="def">
+        <thead>
+          <tr>
+            <th>Attachment</th>
+            <th>Link</th>
+          </tr>
+        </thead>
+        <tbody>
+            <tr>
+              <td>Application profile</td>
+              <td><a href="../dsv.ttl">../dsv.ttl</a></td>
+            </tr>
+            <tr>
+              <td>SHACL validation rules</td>
+              <td><a href="../shacl.ttl">../shacl.ttl</a></td>
+            </tr>
+            <tr>
+              <td>Controlled vocabulary catalog</td>
+              <td><a href="../controlled_vocabulary_catalog.ttl">../controlled_vocabulary_catalog.ttl</a></td>
+            </tr>
+            <tr>
+              <td>Description of structure model</td>
+              <td><a href="../cv-json-schema-test/structure.ttl">../cv-json-schema-test/structure.ttl</a></td>
+            </tr>
+            <tr>
+              <td>List of changes in LDES format</td>
+              <td><a href="../dsv.ldes.ttl">../dsv.ldes.ttl</a></td>
+            </tr>
+            <tr><td>JSON schema</td><td><a href="../schema.json">../schema.json</a></td></tr>
+            <tr><td>JSON-LD context</td><td><a href="../context.jsonld">../context.jsonld</a></td></tr>
+            <tr><td>Documentation</td><td><a href="">#</a></td></tr>
+        </tbody>
+      </table>
+    </section>  </body>
+</html>
