@@ -1,0 +1,91 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "id": "@id",
+    "type": "@type",
+    "must_a": {
+      "@id": "http://example.com/vocabulary#must_a",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "must_a_class_regex": {
+      "@id": "http://example.com/vocabulary#must_a_class_regex",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "must_a_single": {
+      "@id": "http://example.com/vocabulary#must_a_single",
+      "@type": "@id"
+    },
+    "must_a_object": {
+      "@id": "http://example.com/vocabulary#must_a_object",
+      "@container": "@set",
+      "@context": {
+        "label": {
+          "@id": "http://example.com/vocabulary#label_must_a_object",
+          "@type": "xsd:string"
+        }
+      }
+    },
+    "at_least_one_a": {
+      "@id": "http://example.com/vocabulary#at_least_one_a",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "at_least_one_a_single": {
+      "@id": "http://example.com/vocabulary#at_least_one_a_single",
+      "@type": "@id"
+    },
+    "at_least_one_a_object": {
+      "@id": "http://example.com/vocabulary#at_least_one_a_object",
+      "@container": "@set",
+      "@context": {
+        "label": {
+          "@id": "http://example.com/vocabulary#label_at_least_one_a_object",
+          "@type": "xsd:string"
+        }
+      }
+    },
+    "at_least_one_a_and_b": {
+      "@id": "http://example.com/vocabulary#at_least_one_a_and_b",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "recommended_a_default": {
+      "@id": "http://example.com/vocabulary#recommended_a_default",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "recommended_a_require": {
+      "@id": "http://example.com/vocabulary#recommended_a_require",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "recommended_a_restrict": {
+      "@id": "http://example.com/vocabulary#recommended_a_restrict",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "recommended_a_both": {
+      "@id": "http://example.com/vocabulary#recommended_a_both",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "may_a": {
+      "@id": "http://example.com/vocabulary#may_a",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "must_without_pattern": {
+      "@id": "http://example.com/vocabulary#must_without_pattern",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "at_least_one_a_recommended_b_require": {
+      "@id": "http://example.com/vocabulary#at_least_one_a_recommended_b_require",
+      "@type": "@id",
+      "@container": "@set"
+    }
+  }
+}
