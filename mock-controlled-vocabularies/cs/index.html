@@ -3174,6 +3174,912 @@
 
     </section>
 </section>
+
+
+
+
+
+
+<section>
+<h3>Přehled XML struktury</h3>
+<p>
+  Tato sekce popisuje XSD zachycující strukturu pro <i>CV JSON Schema test</i>, jež je definováno v souboru <a href="../schema.xsd"><code>../schema.xsd</code></a>.
+</p>
+
+
+<section>
+<h4>Importy</h4>
+<p>
+  Seznam schémat, jež jsou tímto schématem importovány a použity.
+</p>
+  <i>Nic není importováno.</i>
+</section>
+
+<section>
+  <h4>Kořenové entity XSD schématu</h4>
+  <ul>
+      <li>element <a href="#element-test"><code>test</code></a></li>
+
+      <li> komplexní typ <a href="#type-test"><code>test</code></a></li>
+  </ul>
+</section>
+
+
+<section id="element-test">
+  <h4>Kořenový element <code>&lt;test&gt;</code></h4>
+  <dl>
+    
+
+    
+      <dt>Typ elementu</dt>
+        <div style="margin-left: 40px;">
+      <dt>Obsah</dt>
+      <dd>
+          Obsahem elementu je typ <a href="#type-test"><code>test</code></a>.
+      </dd>
+
+
+    
+
+
+    
+  </div>
+
+      </dl>
+</section>
+
+
+<section id="type-test">
+  <h4>Kořenový komplexní typ <code>test</code></h4>
+  <dl>
+        <dt>Význam</dt>
+      <dd>
+        <a href="#Test">Test</a>
+        
+      </dd>
+
+
+        <dt>Obsah 
+ - elementy v tomto pořadí
+</dt>
+      <ul style="margin-top: 0;">
+      <li>
+          element <a href="#element-test-must_a"><code>&lt;must_a&gt;</code></a> [0..*]
+      </li>
+      <li>
+          element <a href="#element-test-must_a_class_regex"><code>&lt;must_a_class_regex&gt;</code></a> [0..*]
+      </li>
+      <li>
+          element <a href="#element-test-must_a_single"><code>&lt;must_a_single&gt;</code></a> [0..1]
+      </li>
+      <li>
+          element <a href="#element-test-must_a_object"><code>&lt;must_a_object&gt;</code></a> [0..*]
+      </li>
+      <li>
+          element <a href="#element-test-at_least_one_a"><code>&lt;at_least_one_a&gt;</code></a> [0..*]
+      </li>
+      <li>
+          element <a href="#element-test-at_least_one_a_single"><code>&lt;at_least_one_a_single&gt;</code></a> [0..1]
+      </li>
+      <li>
+          element <a href="#element-test-at_least_one_a_object"><code>&lt;at_least_one_a_object&gt;</code></a> [0..*]
+      </li>
+      <li>
+          element <a href="#element-test-at_least_one_a_and_b"><code>&lt;at_least_one_a_and_b&gt;</code></a> [0..*]
+      </li>
+      <li>
+          element <a href="#element-test-recommended_a_default"><code>&lt;recommended_a_default&gt;</code></a> [0..*]
+      </li>
+      <li>
+          element <a href="#element-test-recommended_a_require"><code>&lt;recommended_a_require&gt;</code></a> [0..*]
+      </li>
+      <li>
+          element <a href="#element-test-recommended_a_restrict"><code>&lt;recommended_a_restrict&gt;</code></a> [0..*]
+      </li>
+      <li>
+          element <a href="#element-test-recommended_a_both"><code>&lt;recommended_a_both&gt;</code></a> [0..*]
+      </li>
+      <li>
+          element <a href="#element-test-may_a"><code>&lt;may_a&gt;</code></a> [0..*]
+      </li>
+      <li>
+          element <a href="#element-test-must_without_pattern"><code>&lt;must_without_pattern&gt;</code></a> [0..*]
+      </li>
+      <li>
+          element <a href="#element-test-at_least_one_a_recommended_b_require"><code>&lt;at_least_one_a_recommended_b_require&gt;</code></a> [0..*]
+      </li>
+  </ul>
+
+
+  </dl>
+</section>
+<section id="element-test-must_a">
+  <h4>Element <code>&lt;must_a&gt;</code></h4>
+
+  <dl>
+    <dt>Význam</dt>
+    <dd>
+        <i>
+          
+          vlastnost
+          
+          
+        </i>
+
+          <a href="#must_a"><strong>must_a</strong></a>
+          (Combinations of controlled vocabulary assignments.)
+
+    </dd>
+
+      <dt>Efektivní kardinalita elementu vůči nadřazeném elementu</dt>
+      <dd>0..*</dd>
+      <dt>Nadřazený element</dt>
+      <dd><a href="#type-test"></a></dd>
+
+    
+      <dt>Typ elementu</dt>
+        <div style="margin-left: 40px;">
+      <dt>Obsah</dt>
+      <dd>
+          Obsahem elementu je typ <a href="http://www.w3.org/2001/XMLSchemaanyURI"><code>xs:anyURI</code></a>.
+      </dd>
+
+
+    
+
+
+    
+  </div>
+
+    
+  </dl>
+</section>
+<section id="element-test-must_a_class_regex">
+  <h4>Element <code>&lt;must_a_class_regex&gt;</code></h4>
+
+  <dl>
+    <dt>Význam</dt>
+    <dd>
+        <i>
+          
+          vlastnost
+          
+          
+        </i>
+
+          <a href="#must_a_class_regex"><strong>must_a_class_regex</strong></a>
+          (Combinations of controlled vocabulary assignments.)
+
+    </dd>
+
+      <dt>Efektivní kardinalita elementu vůči nadřazeném elementu</dt>
+      <dd>0..*</dd>
+      <dt>Nadřazený element</dt>
+      <dd><a href="#type-test"></a></dd>
+
+    
+      <dt>Typ elementu</dt>
+        <div style="margin-left: 40px;">
+      <dt>Obsah</dt>
+      <dd>
+          Obsahem elementu je typ <a href="http://www.w3.org/2001/XMLSchemaanyURI"><code>xs:anyURI</code></a>.
+      </dd>
+
+
+    
+
+
+    
+  </div>
+
+    
+  </dl>
+</section>
+<section id="element-test-must_a_single">
+  <h4>Element <code>&lt;must_a_single&gt;</code></h4>
+
+  <dl>
+    <dt>Význam</dt>
+    <dd>
+        <i>
+          
+          vlastnost
+          
+          
+        </i>
+
+          <a href="#must_a_single"><strong>must_a_single</strong></a>
+          (Combinations of controlled vocabulary assignments.)
+
+    </dd>
+
+      <dt>Efektivní kardinalita elementu vůči nadřazeném elementu</dt>
+      <dd>0..1</dd>
+      <dt>Nadřazený element</dt>
+      <dd><a href="#type-test"></a></dd>
+
+    
+      <dt>Typ elementu</dt>
+        <div style="margin-left: 40px;">
+      <dt>Obsah</dt>
+      <dd>
+          Obsahem elementu je typ <a href="http://www.w3.org/2001/XMLSchemaanyURI"><code>xs:anyURI</code></a>.
+      </dd>
+
+
+    
+
+
+    
+  </div>
+
+    
+  </dl>
+</section>
+<section id="element-test-must_a_object">
+  <h4>Element <code>&lt;must_a_object&gt;</code></h4>
+
+  <dl>
+    <dt>Význam</dt>
+    <dd>
+        <i>
+          
+          vlastnost
+          
+          
+        </i>
+
+          <a href="#must_a_object"><strong>must_a_object</strong></a>
+          (Combinations of controlled vocabulary assignments.)
+
+    </dd>
+
+      <dt>Efektivní kardinalita elementu vůči nadřazeném elementu</dt>
+      <dd>0..*</dd>
+      <dt>Nadřazený element</dt>
+      <dd><a href="#type-test"></a></dd>
+
+    
+      <dt>Typ elementu</dt>
+        <div style="margin-left: 40px;">
+
+
+        <dt>Význam</dt>
+      <dd>
+        <a href="#Value_must_a_object">Value must_a_object</a>
+        
+      </dd>
+
+
+
+        <dt>Obsah 
+ - elementy v tomto pořadí
+</dt>
+      <ul style="margin-top: 0;">
+      <li>
+          element <a href="#element-test-must_a_object-iri"><code>&lt;iri&gt;</code></a> [1..1]
+      </li>
+      <li>
+          element <a href="#element-test-must_a_object-label"><code>&lt;label&gt;</code></a> [0..1]
+      </li>
+  </ul>
+
+
+  </div>
+
+    
+  </dl>
+</section>
+<section id="element-test-must_a_object-iri">
+  <h4>Element <code>&lt;must_a_object&gt;</code> / <code>&lt;iri&gt;</code></h4>
+
+  <dl>
+    <dt>Význam</dt>
+    <dd>
+    </dd>
+
+      <dt>Efektivní kardinalita elementu vůči nadřazeném elementu</dt>
+      <dd>1..1</dd>
+      <dt>Nadřazený element</dt>
+      <dd><a href="#element-test-must_a_object"></a></dd>
+
+    
+      <dt>Typ elementu</dt>
+        <div style="margin-left: 40px;">
+      <dt>Obsah</dt>
+      <dd>
+          Obsahem elementu je typ <a href="http://www.w3.org/2001/XMLSchemaanyURI"><code>xs:anyURI</code></a>.
+      </dd>
+
+
+    
+
+
+    
+  </div>
+
+    
+  </dl>
+</section>
+<section id="element-test-must_a_object-label">
+  <h4>Element <code>&lt;must_a_object&gt;</code> / <code>&lt;label&gt;</code></h4>
+
+  <dl>
+    <dt>Význam</dt>
+    <dd>
+        <i>
+          
+          vlastnost
+          
+          
+        </i>
+
+          <a href="#label"><strong>label</strong></a>
+          (Combinations of controlled vocabulary assignments.)
+
+    </dd>
+
+      <dt>Efektivní kardinalita elementu vůči nadřazeném elementu</dt>
+      <dd>0..1</dd>
+      <dt>Nadřazený element</dt>
+      <dd><a href="#element-test-must_a_object"></a></dd>
+
+    
+      <dt>Typ elementu</dt>
+        <div style="margin-left: 40px;">
+      <dt>Obsah</dt>
+      <dd>
+          Obsahem elementu je typ <a href="http://www.w3.org/2001/XMLSchemastring"><code>xs:string</code></a>.
+      </dd>
+
+
+    
+
+
+    
+  </div>
+
+    
+  </dl>
+</section>
+<section id="element-test-at_least_one_a">
+  <h4>Element <code>&lt;at_least_one_a&gt;</code></h4>
+
+  <dl>
+    <dt>Význam</dt>
+    <dd>
+        <i>
+          
+          vlastnost
+          
+          
+        </i>
+
+          <a href="#at_least_one_a"><strong>at_least_one_a</strong></a>
+          (Combinations of controlled vocabulary assignments.)
+
+    </dd>
+
+      <dt>Efektivní kardinalita elementu vůči nadřazeném elementu</dt>
+      <dd>0..*</dd>
+      <dt>Nadřazený element</dt>
+      <dd><a href="#type-test"></a></dd>
+
+    
+      <dt>Typ elementu</dt>
+        <div style="margin-left: 40px;">
+      <dt>Obsah</dt>
+      <dd>
+          Obsahem elementu je typ <a href="http://www.w3.org/2001/XMLSchemaanyURI"><code>xs:anyURI</code></a>.
+      </dd>
+
+
+    
+
+
+    
+  </div>
+
+    
+  </dl>
+</section>
+<section id="element-test-at_least_one_a_single">
+  <h4>Element <code>&lt;at_least_one_a_single&gt;</code></h4>
+
+  <dl>
+    <dt>Význam</dt>
+    <dd>
+        <i>
+          
+          vlastnost
+          
+          
+        </i>
+
+          <a href="#at_least_one_a_single"><strong>at_least_one_a_single</strong></a>
+          (Combinations of controlled vocabulary assignments.)
+
+    </dd>
+
+      <dt>Efektivní kardinalita elementu vůči nadřazeném elementu</dt>
+      <dd>0..1</dd>
+      <dt>Nadřazený element</dt>
+      <dd><a href="#type-test"></a></dd>
+
+    
+      <dt>Typ elementu</dt>
+        <div style="margin-left: 40px;">
+      <dt>Obsah</dt>
+      <dd>
+          Obsahem elementu je typ <a href="http://www.w3.org/2001/XMLSchemaanyURI"><code>xs:anyURI</code></a>.
+      </dd>
+
+
+    
+
+
+    
+  </div>
+
+    
+  </dl>
+</section>
+<section id="element-test-at_least_one_a_object">
+  <h4>Element <code>&lt;at_least_one_a_object&gt;</code></h4>
+
+  <dl>
+    <dt>Význam</dt>
+    <dd>
+        <i>
+          
+          vlastnost
+          
+          
+        </i>
+
+          <a href="#at_least_one_a_object"><strong>at_least_one_a_object</strong></a>
+          (Combinations of controlled vocabulary assignments.)
+
+    </dd>
+
+      <dt>Efektivní kardinalita elementu vůči nadřazeném elementu</dt>
+      <dd>0..*</dd>
+      <dt>Nadřazený element</dt>
+      <dd><a href="#type-test"></a></dd>
+
+    
+      <dt>Typ elementu</dt>
+        <div style="margin-left: 40px;">
+
+
+        <dt>Význam</dt>
+      <dd>
+        <a href="#Value_at_least_one_a_object">Value at_least_one_a_object</a>
+        
+      </dd>
+
+
+
+        <dt>Obsah 
+ - elementy v tomto pořadí
+</dt>
+      <ul style="margin-top: 0;">
+      <li>
+          element <a href="#element-test-at_least_one_a_object-iri"><code>&lt;iri&gt;</code></a> [1..1]
+      </li>
+      <li>
+          element <a href="#element-test-at_least_one_a_object-label"><code>&lt;label&gt;</code></a> [0..1]
+      </li>
+  </ul>
+
+
+  </div>
+
+    
+  </dl>
+</section>
+<section id="element-test-at_least_one_a_object-iri">
+  <h4>Element <code>&lt;at_least_one_a_object&gt;</code> / <code>&lt;iri&gt;</code></h4>
+
+  <dl>
+    <dt>Význam</dt>
+    <dd>
+    </dd>
+
+      <dt>Efektivní kardinalita elementu vůči nadřazeném elementu</dt>
+      <dd>1..1</dd>
+      <dt>Nadřazený element</dt>
+      <dd><a href="#element-test-at_least_one_a_object"></a></dd>
+
+    
+      <dt>Typ elementu</dt>
+        <div style="margin-left: 40px;">
+      <dt>Obsah</dt>
+      <dd>
+          Obsahem elementu je typ <a href="http://www.w3.org/2001/XMLSchemaanyURI"><code>xs:anyURI</code></a>.
+      </dd>
+
+
+    
+
+
+    
+  </div>
+
+    
+  </dl>
+</section>
+<section id="element-test-at_least_one_a_object-label">
+  <h4>Element <code>&lt;at_least_one_a_object&gt;</code> / <code>&lt;label&gt;</code></h4>
+
+  <dl>
+    <dt>Význam</dt>
+    <dd>
+        <i>
+          
+          vlastnost
+          
+          
+        </i>
+
+          <a href="#label"><strong>label</strong></a>
+          (Combinations of controlled vocabulary assignments.)
+
+    </dd>
+
+      <dt>Efektivní kardinalita elementu vůči nadřazeném elementu</dt>
+      <dd>0..1</dd>
+      <dt>Nadřazený element</dt>
+      <dd><a href="#element-test-at_least_one_a_object"></a></dd>
+
+    
+      <dt>Typ elementu</dt>
+        <div style="margin-left: 40px;">
+      <dt>Obsah</dt>
+      <dd>
+          Obsahem elementu je typ <a href="http://www.w3.org/2001/XMLSchemastring"><code>xs:string</code></a>.
+      </dd>
+
+
+    
+
+
+    
+  </div>
+
+    
+  </dl>
+</section>
+<section id="element-test-at_least_one_a_and_b">
+  <h4>Element <code>&lt;at_least_one_a_and_b&gt;</code></h4>
+
+  <dl>
+    <dt>Význam</dt>
+    <dd>
+        <i>
+          
+          vlastnost
+          
+          
+        </i>
+
+          <a href="#at_least_one_a_and_b"><strong>at_least_one_a_and_b</strong></a>
+          (Combinations of controlled vocabulary assignments.)
+
+    </dd>
+
+      <dt>Efektivní kardinalita elementu vůči nadřazeném elementu</dt>
+      <dd>0..*</dd>
+      <dt>Nadřazený element</dt>
+      <dd><a href="#type-test"></a></dd>
+
+    
+      <dt>Typ elementu</dt>
+        <div style="margin-left: 40px;">
+      <dt>Obsah</dt>
+      <dd>
+          Obsahem elementu je typ <a href="http://www.w3.org/2001/XMLSchemaanyURI"><code>xs:anyURI</code></a>.
+      </dd>
+
+
+    
+
+
+    
+  </div>
+
+    
+  </dl>
+</section>
+<section id="element-test-recommended_a_default">
+  <h4>Element <code>&lt;recommended_a_default&gt;</code></h4>
+
+  <dl>
+    <dt>Význam</dt>
+    <dd>
+        <i>
+          
+          vlastnost
+          
+          
+        </i>
+
+          <a href="#recommended_a_default"><strong>recommended_a_default</strong></a>
+          (Combinations of controlled vocabulary assignments.)
+
+    </dd>
+
+      <dt>Efektivní kardinalita elementu vůči nadřazeném elementu</dt>
+      <dd>0..*</dd>
+      <dt>Nadřazený element</dt>
+      <dd><a href="#type-test"></a></dd>
+
+    
+      <dt>Typ elementu</dt>
+        <div style="margin-left: 40px;">
+      <dt>Obsah</dt>
+      <dd>
+          Obsahem elementu je typ <a href="http://www.w3.org/2001/XMLSchemaanyURI"><code>xs:anyURI</code></a>.
+      </dd>
+
+
+    
+
+
+    
+  </div>
+
+    
+  </dl>
+</section>
+<section id="element-test-recommended_a_require">
+  <h4>Element <code>&lt;recommended_a_require&gt;</code></h4>
+
+  <dl>
+    <dt>Význam</dt>
+    <dd>
+        <i>
+          
+          vlastnost
+          
+          
+        </i>
+
+          <a href="#recommended_a_require"><strong>recommended_a_require</strong></a>
+          (Combinations of controlled vocabulary assignments.)
+
+    </dd>
+
+      <dt>Efektivní kardinalita elementu vůči nadřazeném elementu</dt>
+      <dd>0..*</dd>
+      <dt>Nadřazený element</dt>
+      <dd><a href="#type-test"></a></dd>
+
+    
+      <dt>Typ elementu</dt>
+        <div style="margin-left: 40px;">
+      <dt>Obsah</dt>
+      <dd>
+          Obsahem elementu je typ <a href="http://www.w3.org/2001/XMLSchemaanyURI"><code>xs:anyURI</code></a>.
+      </dd>
+
+
+    
+
+
+    
+  </div>
+
+    
+  </dl>
+</section>
+<section id="element-test-recommended_a_restrict">
+  <h4>Element <code>&lt;recommended_a_restrict&gt;</code></h4>
+
+  <dl>
+    <dt>Význam</dt>
+    <dd>
+        <i>
+          
+          vlastnost
+          
+          
+        </i>
+
+          <a href="#recommended_a_restrict"><strong>recommended_a_restrict</strong></a>
+          (Combinations of controlled vocabulary assignments.)
+
+    </dd>
+
+      <dt>Efektivní kardinalita elementu vůči nadřazeném elementu</dt>
+      <dd>0..*</dd>
+      <dt>Nadřazený element</dt>
+      <dd><a href="#type-test"></a></dd>
+
+    
+      <dt>Typ elementu</dt>
+        <div style="margin-left: 40px;">
+      <dt>Obsah</dt>
+      <dd>
+          Obsahem elementu je typ <a href="http://www.w3.org/2001/XMLSchemaanyURI"><code>xs:anyURI</code></a>.
+      </dd>
+
+
+    
+
+
+    
+  </div>
+
+    
+  </dl>
+</section>
+<section id="element-test-recommended_a_both">
+  <h4>Element <code>&lt;recommended_a_both&gt;</code></h4>
+
+  <dl>
+    <dt>Význam</dt>
+    <dd>
+        <i>
+          
+          vlastnost
+          
+          
+        </i>
+
+          <a href="#recommended_a_both"><strong>recommended_a_both</strong></a>
+          (Combinations of controlled vocabulary assignments.)
+
+    </dd>
+
+      <dt>Efektivní kardinalita elementu vůči nadřazeném elementu</dt>
+      <dd>0..*</dd>
+      <dt>Nadřazený element</dt>
+      <dd><a href="#type-test"></a></dd>
+
+    
+      <dt>Typ elementu</dt>
+        <div style="margin-left: 40px;">
+      <dt>Obsah</dt>
+      <dd>
+          Obsahem elementu je typ <a href="http://www.w3.org/2001/XMLSchemaanyURI"><code>xs:anyURI</code></a>.
+      </dd>
+
+
+    
+
+
+    
+  </div>
+
+    
+  </dl>
+</section>
+<section id="element-test-may_a">
+  <h4>Element <code>&lt;may_a&gt;</code></h4>
+
+  <dl>
+    <dt>Význam</dt>
+    <dd>
+        <i>
+          
+          vlastnost
+          
+          
+        </i>
+
+          <a href="#may_a"><strong>may_a</strong></a>
+          (Combinations of controlled vocabulary assignments.)
+
+    </dd>
+
+      <dt>Efektivní kardinalita elementu vůči nadřazeném elementu</dt>
+      <dd>0..*</dd>
+      <dt>Nadřazený element</dt>
+      <dd><a href="#type-test"></a></dd>
+
+    
+      <dt>Typ elementu</dt>
+        <div style="margin-left: 40px;">
+      <dt>Obsah</dt>
+      <dd>
+          Obsahem elementu je typ <a href="http://www.w3.org/2001/XMLSchemaanyURI"><code>xs:anyURI</code></a>.
+      </dd>
+
+
+    
+
+
+    
+  </div>
+
+    
+  </dl>
+</section>
+<section id="element-test-must_without_pattern">
+  <h4>Element <code>&lt;must_without_pattern&gt;</code></h4>
+
+  <dl>
+    <dt>Význam</dt>
+    <dd>
+        <i>
+          
+          vlastnost
+          
+          
+        </i>
+
+          <a href="#must_without_pattern"><strong>must_without_pattern</strong></a>
+          (Combinations of controlled vocabulary assignments.)
+
+    </dd>
+
+      <dt>Efektivní kardinalita elementu vůči nadřazeném elementu</dt>
+      <dd>0..*</dd>
+      <dt>Nadřazený element</dt>
+      <dd><a href="#type-test"></a></dd>
+
+    
+      <dt>Typ elementu</dt>
+        <div style="margin-left: 40px;">
+      <dt>Obsah</dt>
+      <dd>
+          Obsahem elementu je typ <a href="http://www.w3.org/2001/XMLSchemaanyURI"><code>xs:anyURI</code></a>.
+      </dd>
+
+
+    
+
+
+    
+  </div>
+
+    
+  </dl>
+</section>
+<section id="element-test-at_least_one_a_recommended_b_require">
+  <h4>Element <code>&lt;at_least_one_a_recommended_b_require&gt;</code></h4>
+
+  <dl>
+    <dt>Význam</dt>
+    <dd>
+        <i>
+          
+          vlastnost
+          
+          
+        </i>
+
+          <a href="#at_least_one_a_recommended_b_require"><strong>at_least_one_a_recommended_b_require</strong></a>
+          (Combinations of controlled vocabulary assignments.)
+
+    </dd>
+
+      <dt>Efektivní kardinalita elementu vůči nadřazeném elementu</dt>
+      <dd>0..*</dd>
+      <dt>Nadřazený element</dt>
+      <dd><a href="#type-test"></a></dd>
+
+    
+      <dt>Typ elementu</dt>
+        <div style="margin-left: 40px;">
+      <dt>Obsah</dt>
+      <dd>
+          Obsahem elementu je typ <a href="http://www.w3.org/2001/XMLSchemaanyURI"><code>xs:anyURI</code></a>.
+      </dd>
+
+
+    
+
+
+    
+  </div>
+
+    
+  </dl>
+</section>
+
+</section>
       </section>
 
     <section>
@@ -3460,6 +4366,9 @@
             </tr>
             <tr><td>JSON schéma</td><td><a href="../schema.json">../schema.json</a></td></tr>
             <tr><td>JSON-LD kontext</td><td><a href="../context.jsonld">../context.jsonld</a></td></tr>
+            <tr><td>XML schéma</td><td><a href="../schema.xsd">../schema.xsd</a></td></tr>
+            <tr><td>XSLT lifting</td><td><a href="../lifting.xslt">../lifting.xslt</a></td></tr>
+            <tr><td>XSLT lowering</td><td><a href="../lowering.xslt">../lowering.xslt</a></td></tr>
             <tr><td>Dokumentace</td><td><a href="">#</a></td></tr>
         </tbody>
       </table>
