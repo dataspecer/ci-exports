@@ -7,4 +7,4 @@
     dsvgc:has-configurations :data-specification.
 :data-specification a <https://dataspecer.com/work-in-progress/generator-configuration/configuration-entry/>;
     dsvgc:has-configuration-type ce:data-specification;
-    kv:useGenerators "{\"json\":true,\"jsonExample\":false,\"xml\":false,\"csv\":false,\"sparql\":false,\"shacl\":false,\"shex\":false,\"openapi\":false,\"plantUML\":false}".
+    kv:useGenerators "{\"json\":true,\"jsonExample\":false,\"xml\":true,\"csv\":false,\"sparql\":false,\"shacl\":false,\"shex\":false,\"openapi\":false,\"plantUML\":false}".

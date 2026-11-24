@@ -313,7 +313,7 @@
     dsv:property rdfs:isDefinedBy;
     dsv:domain <https://w3id.org/dsv-dap#Term>;
     a dsv:ObjectPropertyProfile;
-    dsv:objectPropertyRange <https://w3id.org/dsv-dap#Vocabulary>.
+    dsv:range <https://w3id.org/dsv-dap#Vocabulary>.
 
 <> tree:member <https://w3id.org/dsv-dap#PropertyProfile.profiledProperty-2026-04-02T07:23:42.148Z-12>.
 
@@ -339,7 +339,7 @@
     dsv:property dsv:property;
     dsv:domain <https://w3id.org/dsv-dap#PropertyProfile>;
     a dsv:ObjectPropertyProfile;
-    dsv:objectPropertyRange <https://w3id.org/dsv-dap#Property>.
+    dsv:range <https://w3id.org/dsv-dap#Property>.
 
 <> tree:member <https://w3id.org/dsv-dap#Datatype-2026-04-02T07:23:42.148Z-13>.
 
@@ -385,7 +385,7 @@
     dsv:property dsv:datatype;
     dsv:domain <https://w3id.org/dsv-dap#DatatypePropertyProfile>;
     a dsv:ObjectPropertyProfile;
-    dsv:objectPropertyRange <https://w3id.org/dsv-dap#Datatype>.
+    dsv:range <https://w3id.org/dsv-dap#Datatype>.
 
 <> tree:member <https://w3id.org/dsv-dap#ObjectPropertyProfile.range-2026-04-02T07:23:42.148Z-15>.
 
@@ -411,7 +411,7 @@
     dsv:property dsv:range;
     dsv:domain <https://w3id.org/dsv-dap#ObjectPropertyProfile>;
     a dsv:ObjectPropertyProfile;
-    dsv:objectPropertyRange <https://w3id.org/dsv-dap#ClassProfile>.
+    dsv:range <https://w3id.org/dsv-dap#ClassProfile>.
 
 <> tree:member <https://w3id.org/dsv-dap#PropertyProfile.domain-2026-04-02T07:23:42.148Z-16>.
 
@@ -437,7 +437,7 @@
     dsv:property dsv:domain;
     dsv:domain <https://w3id.org/dsv-dap#PropertyProfile>;
     a dsv:ObjectPropertyProfile;
-    dsv:objectPropertyRange <https://w3id.org/dsv-dap#ClassProfile>.
+    dsv:range <https://w3id.org/dsv-dap#ClassProfile>.
 
 <> tree:member <https://w3id.org/dsv-dap#PropertyValueReuse.reusedFromResource-2026-04-02T07:23:42.148Z-17>.
 
@@ -463,7 +463,7 @@
     dsv:property dsv:reusedFromResource;
     dsv:domain <https://w3id.org/dsv-dap#PropertyValueReuse>;
     a dsv:ObjectPropertyProfile;
-    dsv:objectPropertyRange <https://w3id.org/dsv-dap#Term>.
+    dsv:range <https://w3id.org/dsv-dap#Term>.
 
 <> tree:member <https://w3id.org/dsv-dap#PropertyValueReuse.reusedProperty-2026-04-02T07:23:42.148Z-18>.
 
@@ -489,7 +489,7 @@
     dsv:property dsv:reusedProperty;
     dsv:domain <https://w3id.org/dsv-dap#PropertyValueReuse>;
     a dsv:ObjectPropertyProfile;
-    dsv:objectPropertyRange <https://w3id.org/dsv-dap#Property>.
+    dsv:range <https://w3id.org/dsv-dap#Property>.
 
 <> tree:member <https://w3id.org/dsv-dap#TermProfile.reusesPropertyValue-2026-04-02T07:23:42.148Z-19>.
 
@@ -515,7 +515,7 @@
     dsv:property dsv:reusesPropertyValue;
     dsv:domain <https://w3id.org/dsv-dap#TermProfile>;
     a dsv:ObjectPropertyProfile;
-    dsv:objectPropertyRange <https://w3id.org/dsv-dap#PropertyValueReuse>.
+    dsv:range <https://w3id.org/dsv-dap#PropertyValueReuse>.
 
 <> tree:member <https://w3id.org/dsv-dap#TermProfile.isPartOf-2026-04-02T07:23:42.148Z-20>.
 
@@ -537,7 +537,7 @@
     dsv:property dct:isPartOf;
     dsv:domain <https://w3id.org/dsv-dap#TermProfile>;
     a dsv:ObjectPropertyProfile;
-    dsv:objectPropertyRange <https://w3id.org/dsv-dap#ApplicationProfile>.
+    dsv:range <https://w3id.org/dsv-dap#ApplicationProfile>.
 
 <> tree:member <https://w3id.org/dsv-dap#TermProfile.specializes-2026-04-02T07:23:42.148Z-21>.
 
@@ -563,7 +563,7 @@
     dsv:property dsv:specializes;
     dsv:domain <https://w3id.org/dsv-dap#TermProfile>;
     a dsv:ObjectPropertyProfile;
-    dsv:objectPropertyRange <https://w3id.org/dsv-dap#TermProfile>.
+    dsv:range <https://w3id.org/dsv-dap#TermProfile>.
 
 <> tree:member <https://w3id.org/dsv-dap#ClassProfile.profiledClass-2026-04-02T07:23:42.148Z-22>.
 
@@ -589,7 +589,7 @@
     dsv:property dsv:class;
     dsv:domain <https://w3id.org/dsv-dap#ClassProfile>;
     a dsv:ObjectPropertyProfile;
-    dsv:objectPropertyRange <https://w3id.org/dsv-dap#Class>.
+    dsv:range <https://w3id.org/dsv-dap#Class>.
 
 <> tree:member <https://w3id.org/dsv-dap#TermProfile.profileOf-2026-04-02T07:23:42.148Z-23>.
 
@@ -615,7 +615,7 @@
     dsv:property dsv:profileOf;
     dsv:domain <https://w3id.org/dsv-dap#TermProfile>;
     a dsv:ObjectPropertyProfile;
-    dsv:objectPropertyRange <https://w3id.org/dsv-dap#TermProfile>.
+    dsv:range <https://w3id.org/dsv-dap#TermProfile>.
 
 <> tree:member <https://w3id.org/dsv-dap#PropertyProfile.cardinality-2026-04-02T07:23:42.148Z-24>.
 
@@ -641,7 +641,7 @@
     dsv:property dsv:cardinality;
     dsv:domain <https://w3id.org/dsv-dap#PropertyProfile>;
     a dsv:ObjectPropertyProfile;
-    dsv:objectPropertyRange <https://w3id.org/dsv-dap#Cardinality>.
+    dsv:range <https://w3id.org/dsv-dap#Cardinality>.
 
 <> tree:member <https://w3id.org/dsv-dap#ClassProfile.classRole-2026-04-02T07:23:42.148Z-25>.
 
@@ -667,7 +667,7 @@
     dsv:property dsv:classRole;
     dsv:domain <https://w3id.org/dsv-dap#ClassProfile>;
     a dsv:ObjectPropertyProfile;
-    dsv:objectPropertyRange <https://w3id.org/dsv-dap#ClassRole>.
+    dsv:range <https://w3id.org/dsv-dap#ClassRole>.
 
 <> tree:member <https://w3id.org/dsv-dap#PropertyProfile.requirementLevel-2026-04-02T07:23:42.148Z-26>.
 
@@ -693,7 +693,7 @@
     dsv:property dsv:requirementLevel;
     dsv:domain <https://w3id.org/dsv-dap#PropertyProfile>;
     a dsv:ObjectPropertyProfile;
-    dsv:objectPropertyRange <https://w3id.org/dsv-dap#RequirementLevel>.
+    dsv:range <https://w3id.org/dsv-dap#RequirementLevel>.
 
 <> tree:member <https://w3id.org/dsv-dap#ApplicationProfile.hasSpecification-2026-04-02T07:23:42.148Z-27>.
 
@@ -716,7 +716,7 @@
     dsv:property <http://www.w3.org/ns/dx/prof/hasResource>;
     dsv:domain <https://w3id.org/dsv-dap#ApplicationProfile>;
     a dsv:ObjectPropertyProfile;
-    dsv:objectPropertyRange <https://w3id.org/dsv-dap#ApplicationProfileSpecificationDocument>.
+    dsv:range <https://w3id.org/dsv-dap#ApplicationProfileSpecificationDocument>.
 
 <> tree:member <https://w3id.org/dsv-dap#TermProfile.externalDocumentation-2026-04-02T07:23:42.148Z-28>.
 
@@ -742,7 +742,7 @@
     dsv:property dsv:externalDocumentation;
     dsv:domain <https://w3id.org/dsv-dap#TermProfile>;
     a dsv:ObjectPropertyProfile;
-    dsv:objectPropertyRange <https://w3id.org/dsv-dap#Term>.
+    dsv:range <https://w3id.org/dsv-dap#Term>.
 
 <> tree:member <https://w3id.org/dsv-dap#TermProfile.preferredLabel-2026-04-02T07:23:42.148Z-29>.
 
@@ -764,7 +764,7 @@
     dsv:property skos:prefLabel;
     dsv:domain <https://w3id.org/dsv-dap#TermProfile>;
     a dsv:DatatypePropertyProfile;
-    dsv:datatypePropertyRange rdf:langString.
+    dsv:datatype rdf:langString.
 
 <> tree:member <https://w3id.org/dsv-dap#TermProfile.definition-2026-04-02T07:23:42.148Z-30>.
 
@@ -786,7 +786,7 @@
     dsv:property skos:definition;
     dsv:domain <https://w3id.org/dsv-dap#TermProfile>;
     a dsv:DatatypePropertyProfile;
-    dsv:datatypePropertyRange rdf:langString.
+    dsv:datatype rdf:langString.
 
 <> tree:member <https://w3id.org/dsv-dap#TermProfile.usageNote-2026-04-02T07:23:42.148Z-31>.
 
@@ -803,7 +803,7 @@
     dsv:property skos:scopeNote;
     dsv:domain <https://w3id.org/dsv-dap#TermProfile>;
     a dsv:DatatypePropertyProfile;
-    dsv:datatypePropertyRange rdf:langString.
+    dsv:datatype rdf:langString.
 
 <> tree:member <https://w3id.org/dsv-dap#Vocabulary-2026-04-02T07:23:42.148Z-32>.
 
@@ -917,7 +917,7 @@
     dsv:property <http://www.w3.org/ns/dx/prof/hasResource>;
     dsv:domain <https://w3id.org/dsv-dap#Vocabulary>;
     a dsv:ObjectPropertyProfile;
-    dsv:objectPropertyRange <https://w3id.org/dsv-dap#VocabularySpecificationDocument>.
+    dsv:range <https://w3id.org/dsv-dap#VocabularySpecificationDocument>.
 
 <> tree:member <https://w3id.org/dsv-dap#DataSpecificationDocument-2026-04-02T07:23:42.148Z-37>.
 
@@ -949,7 +949,7 @@
     dsv:property dct:title;
     dsv:domain <https://w3id.org/dsv-dap#DataSpecificationDocument>;
     a dsv:DatatypePropertyProfile;
-    dsv:datatypePropertyRange rdf:langString.
+    dsv:datatype rdf:langString.
 
 <> tree:member <https://w3id.org/dsv-dap#DataSpecificationDocument.description-2026-04-02T07:23:42.148Z-39>.
 
@@ -966,7 +966,7 @@
     dsv:property dct:description;
     dsv:domain <https://w3id.org/dsv-dap#DataSpecificationDocument>;
     a dsv:DatatypePropertyProfile;
-    dsv:datatypePropertyRange rdf:langString.
+    dsv:datatype rdf:langString.
 
 <> tree:member <https://w3id.org/dsv-dap#SemanticDataSpecification-2026-04-02T07:23:42.148Z-40>.
 
@@ -1012,7 +1012,7 @@
     dsv:property <http://www.w3.org/ns/dx/prof/hasResource>;
     dsv:domain <https://w3id.org/dsv-dap#SemanticDataSpecification>;
     a dsv:ObjectPropertyProfile;
-    dsv:objectPropertyRange <https://w3id.org/dsv-dap#ResourceDescriptor>.
+    dsv:range <https://w3id.org/dsv-dap#ResourceDescriptor>.
 
 <> tree:member <https://w3id.org/dsv-dap#SemanticDataSpecification.title-2026-04-02T07:23:42.148Z-42>.
 
@@ -1029,7 +1029,7 @@
     dsv:property dct:title;
     dsv:domain <https://w3id.org/dsv-dap#SemanticDataSpecification>;
     a dsv:DatatypePropertyProfile;
-    dsv:datatypePropertyRange rdf:langString.
+    dsv:datatype rdf:langString.
 
 <> tree:member <https://w3id.org/dsv-dap#SemanticDataSpecification.description-2026-04-02T07:23:42.148Z-43>.
 
@@ -1046,7 +1046,7 @@
     dsv:property dct:description;
     dsv:domain <https://w3id.org/dsv-dap#SemanticDataSpecification>;
     a dsv:DatatypePropertyProfile;
-    dsv:datatypePropertyRange rdf:langString.
+    dsv:datatype rdf:langString.
 
 <> tree:member <https://w3id.org/dsv-dap#ApplicationProfile.isProfileOf-2026-04-02T07:23:42.148Z-44>.
 
@@ -1072,7 +1072,7 @@
     dsv:property <http://www.w3.org/ns/dx/prof/isProfileOf>;
     dsv:domain <https://w3id.org/dsv-dap#SemanticDataSpecification>;
     a dsv:ObjectPropertyProfile;
-    dsv:objectPropertyRange <https://w3id.org/dsv-dap#SemanticDataSpecification>.
+    dsv:range <https://w3id.org/dsv-dap#SemanticDataSpecification>.
 
 <> tree:member <https://w3id.org/dsv-dap#ResourceDescriptor.hasArtifact-2026-04-02T07:23:42.148Z-45>.
 
@@ -1098,7 +1098,7 @@
     dsv:property <http://www.w3.org/ns/dx/prof/hasArtifact>;
     dsv:domain <https://w3id.org/dsv-dap#ResourceDescriptor>;
     a dsv:ObjectPropertyProfile;
-    dsv:objectPropertyRange <https://w3id.org/dsv-dap#Term>.
+    dsv:range <https://w3id.org/dsv-dap#Term>.
 
 <> tree:member <https://w3id.org/dsv-dap#SemanticDataSpecification.hasToken-2026-04-02T07:23:42.148Z-46>.
 
@@ -1125,7 +1125,7 @@
     dsv:property <http://www.w3.org/ns/dx/prof/hasToken>;
     dsv:domain <https://w3id.org/dsv-dap#SemanticDataSpecification>;
     a dsv:DatatypePropertyProfile;
-    dsv:datatypePropertyRange xsd:token.
+    dsv:datatype xsd:token.
 
 <> tree:member <https://w3id.org/dsv-dap#ResourceRole-2026-04-02T07:23:42.148Z-47>.
 
@@ -1175,7 +1175,7 @@
     dsv:property <http://www.w3.org/ns/dx/prof/hasRole>;
     dsv:domain <https://w3id.org/dsv-dap#ResourceDescriptor>;
     a dsv:ObjectPropertyProfile;
-    dsv:objectPropertyRange <https://w3id.org/dsv-dap#ResourceRole>.
+    dsv:range <https://w3id.org/dsv-dap#ResourceRole>.
 
 <> tree:member <https://w3id.org/dsv-dap#ClassRole-2026-04-02T07:23:42.148Z-49>.
 
@@ -1258,7 +1258,7 @@
     dsv:property dct:format;
     dsv:domain <https://w3id.org/dsv-dap#ResourceDescriptor>;
     a dsv:ObjectPropertyProfile;
-    dsv:objectPropertyRange <https://w3id.org/dsv-dap#Format>.
+    dsv:range <https://w3id.org/dsv-dap#Format>.
 
 <> tree:member <https://w3id.org/dsv-dap#ResourceDescriptor.conformsTo-2026-04-02T07:23:42.148Z-54>.
 
@@ -1280,7 +1280,7 @@
     dsv:property dct:conformsTo;
     dsv:domain <https://w3id.org/dsv-dap#ResourceDescriptor>;
     a dsv:ObjectPropertyProfile;
-    dsv:objectPropertyRange <https://w3id.org/dsv-dap#ApplicationProfile>.
+    dsv:range <https://w3id.org/dsv-dap#ApplicationProfile>.
 
 <> tree:member <https://w3id.org/dsv-dap#ObjectProperty-2026-04-02T07:23:42.148Z-55>.
 
@@ -1356,7 +1356,7 @@
     dsv:property rdfs:label;
     dsv:domain <https://w3id.org/dsv-dap#Term>;
     a dsv:DatatypePropertyProfile;
-    dsv:datatypePropertyRange rdf:langString.
+    dsv:datatype rdf:langString.
 
 <> tree:member <https://w3id.org/dsv-dap#Term.definition-2026-04-02T07:23:42.148Z-58>.
 
@@ -1373,7 +1373,7 @@
     dsv:property rdfs:comment;
     dsv:domain <https://w3id.org/dsv-dap#Term>;
     a dsv:DatatypePropertyProfile;
-    dsv:datatypePropertyRange rdf:langString.
+    dsv:datatype rdf:langString.
 
 <> tree:member <https://w3id.org/dsv-dap#Class.subclassof-2026-04-02T07:23:42.148Z-59>.
 
@@ -1399,7 +1399,7 @@
     dsv:property rdfs:subClassOf;
     dsv:domain <https://w3id.org/dsv-dap#Class>;
     a dsv:ObjectPropertyProfile;
-    dsv:objectPropertyRange <https://w3id.org/dsv-dap#Class>.
+    dsv:range <https://w3id.org/dsv-dap#Class>.
 
 <> tree:member <https://w3id.org/dsv-dap#Property.subpropertyof-2026-04-02T07:23:42.148Z-60>.
 
@@ -1425,7 +1425,7 @@
     dsv:property rdfs:subPropertyOf;
     dsv:domain <https://w3id.org/dsv-dap#Property>;
     a dsv:ObjectPropertyProfile;
-    dsv:objectPropertyRange <https://w3id.org/dsv-dap#Property>.
+    dsv:range <https://w3id.org/dsv-dap#Property>.
 
 <> tree:member <https://w3id.org/dsv-dap#Property.domain-2026-04-02T07:23:42.148Z-61>.
 
@@ -1451,7 +1451,7 @@
     dsv:property rdfs:domain;
     dsv:domain <https://w3id.org/dsv-dap#Property>;
     a dsv:ObjectPropertyProfile;
-    dsv:objectPropertyRange <https://w3id.org/dsv-dap#Class>.
+    dsv:range <https://w3id.org/dsv-dap#Class>.
 
 <> tree:member <https://w3id.org/dsv-dap#Objectproperty.range-2026-04-02T07:23:42.148Z-62>.
 
@@ -1477,7 +1477,7 @@
     dsv:property rdfs:range;
     dsv:domain <https://w3id.org/dsv-dap#ObjectProperty>;
     a dsv:ObjectPropertyProfile;
-    dsv:objectPropertyRange <https://w3id.org/dsv-dap#Class>.
+    dsv:range <https://w3id.org/dsv-dap#Class>.
 
 <> tree:member <https://w3id.org/dsv-dap#Datatypeproperty.range-2026-04-02T07:23:42.148Z-63>.
 
@@ -1503,7 +1503,7 @@
     dsv:property rdfs:range;
     dsv:domain <https://w3id.org/dsv-dap#DatatypeProperty>;
     a dsv:ObjectPropertyProfile;
-    dsv:objectPropertyRange <https://w3id.org/dsv-dap#Datatype>.
+    dsv:range <https://w3id.org/dsv-dap#Datatype>.
 
 <> tree:member <https://w3id.org/dsv-dap#PropertyValueReuse.reusedAsProperty-2026-04-02T07:23:42.148Z-64>.
 
@@ -1530,4 +1530,4 @@
     dsv:property dsv:reusedAsProperty;
     dsv:domain <https://w3id.org/dsv-dap#PropertyValueReuse>;
     a dsv:ObjectPropertyProfile;
-    dsv:objectPropertyRange <https://w3id.org/dsv-dap#Property>.
+    dsv:range <https://w3id.org/dsv-dap#Property>.

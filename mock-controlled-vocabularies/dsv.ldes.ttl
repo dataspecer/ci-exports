@@ -73,7 +73,7 @@
     dsv:property <http://example.com/vocabulary#must_a>;
     dsv:domain <http://example.com/profile#Test>;
     a dsv:ObjectPropertyProfile;
-    dsv:objectPropertyRange <http://example.com/profile#Value_must_a>.
+    dsv:range <http://example.com/profile#Value_must_a>.
 
 <> tree:member <http://example.com/profile#Value_must_a_class_regex-2026-11-11T11:44:59.863Z-3>.
 
@@ -107,7 +107,7 @@
     dsv:property <http://example.com/vocabulary#must_a_class_regex>;
     dsv:domain <http://example.com/profile#Test>;
     a dsv:ObjectPropertyProfile;
-    dsv:objectPropertyRange <http://example.com/profile#Value_must_a_class_regex>.
+    dsv:range <http://example.com/profile#Value_must_a_class_regex>.
 
 <> tree:member <http://example.com/profile#Value_must_a_single-2026-11-11T11:44:59.863Z-5>.
 
@@ -141,7 +141,7 @@
     dsv:property <http://example.com/vocabulary#must_a_single>;
     dsv:domain <http://example.com/profile#Test>;
     a dsv:ObjectPropertyProfile;
-    dsv:objectPropertyRange <http://example.com/profile#Value_must_a_single>.
+    dsv:range <http://example.com/profile#Value_must_a_single>.
 
 <> tree:member <http://example.com/profile#Value_must_a_object-2026-11-11T11:44:59.863Z-7>.
 
@@ -175,7 +175,7 @@
     dsv:property <http://example.com/vocabulary#must_a_object>;
     dsv:domain <http://example.com/profile#Test>;
     a dsv:ObjectPropertyProfile;
-    dsv:objectPropertyRange <http://example.com/profile#Value_must_a_object>.
+    dsv:range <http://example.com/profile#Value_must_a_object>.
 
 <> tree:member <http://example.com/profile#label-2026-11-11T11:44:59.863Z-9>.
 
@@ -191,7 +191,7 @@
     dsv:property <http://example.com/vocabulary#label_at_least_one_a_object>;
     dsv:domain <http://example.com/profile#Value_at_least_one_a_object>;
     a dsv:DatatypePropertyProfile;
-    dsv:datatypePropertyRange rdfs:Literal.
+    dsv:datatype rdfs:Literal.
 
 <> tree:member <http://example.com/profile#Value_at_least_one_a-2026-11-11T11:44:59.863Z-10>.
 
@@ -225,7 +225,7 @@
     dsv:property <http://example.com/vocabulary#at_least_one_a>;
     dsv:domain <http://example.com/profile#Test>;
     a dsv:ObjectPropertyProfile;
-    dsv:objectPropertyRange <http://example.com/profile#Value_at_least_one_a>.
+    dsv:range <http://example.com/profile#Value_at_least_one_a>.
 
 <> tree:member <http://example.com/profile#Value_at_least_one_a_single-2026-11-11T11:44:59.863Z-12>.
 
@@ -259,7 +259,7 @@
     dsv:property <http://example.com/vocabulary#at_least_one_a_single>;
     dsv:domain <http://example.com/profile#Test>;
     a dsv:ObjectPropertyProfile;
-    dsv:objectPropertyRange <http://example.com/profile#Value_at_least_one_a_single>.
+    dsv:range <http://example.com/profile#Value_at_least_one_a_single>.
 
 <> tree:member <http://example.com/profile#Value_at_least_one_a_object-2026-11-11T11:44:59.863Z-14>.
 
@@ -293,7 +293,7 @@
     dsv:property <http://example.com/vocabulary#at_least_one_a_object>;
     dsv:domain <http://example.com/profile#Test>;
     a dsv:ObjectPropertyProfile;
-    dsv:objectPropertyRange <http://example.com/profile#Value_at_least_one_a_object>.
+    dsv:range <http://example.com/profile#Value_at_least_one_a_object>.
 
 <> tree:member <http://example.com/profile#label-2026-11-11T11:44:59.863Z-16>.
 
@@ -309,7 +309,7 @@
     dsv:property <http://example.com/vocabulary#label_at_least_one_a_object>;
     dsv:domain <http://example.com/profile#Value_at_least_one_a_object>;
     a dsv:DatatypePropertyProfile;
-    dsv:datatypePropertyRange rdfs:Literal.
+    dsv:datatype rdfs:Literal.
 
 <> tree:member <http://example.com/profile#Value_at_least_one_a_and_b-2026-11-11T11:44:59.863Z-17>.
 
@@ -348,7 +348,7 @@
     dsv:property <http://example.com/vocabulary#at_least_one_a_and_b>;
     dsv:domain <http://example.com/profile#Test>;
     a dsv:ObjectPropertyProfile;
-    dsv:objectPropertyRange <http://example.com/profile#Value_at_least_one_a_and_b>.
+    dsv:range <http://example.com/profile#Value_at_least_one_a_and_b>.
 
 <> tree:member <http://example.com/profile#Value_recommended_a_default-2026-11-11T11:44:59.863Z-19>.
 
@@ -382,7 +382,7 @@
     dsv:property <http://example.com/vocabulary#recommended_a_default>;
     dsv:domain <http://example.com/profile#Test>;
     a dsv:ObjectPropertyProfile;
-    dsv:objectPropertyRange <http://example.com/profile#Value_recommended_a_default>.
+    dsv:range <http://example.com/profile#Value_recommended_a_default>.
 
 <> tree:member <http://example.com/profile#Value_recommended_a_require-2026-11-11T11:44:59.863Z-21>.
 
@@ -416,7 +416,7 @@
     dsv:property <http://example.com/vocabulary#recommended_a_require>;
     dsv:domain <http://example.com/profile#Test>;
     a dsv:ObjectPropertyProfile;
-    dsv:objectPropertyRange <http://example.com/profile#Value_recommended_a_require>.
+    dsv:range <http://example.com/profile#Value_recommended_a_require>.
 
 <> tree:member <http://example.com/profile#Value_recommended_a_restrict-2026-11-11T11:44:59.863Z-23>.
 
@@ -450,7 +450,7 @@
     dsv:property <http://example.com/vocabulary#recommended_a_restrict>;
     dsv:domain <http://example.com/profile#Test>;
     a dsv:ObjectPropertyProfile;
-    dsv:objectPropertyRange <http://example.com/profile#Value_recommended_a_restrict>.
+    dsv:range <http://example.com/profile#Value_recommended_a_restrict>.
 
 <> tree:member <http://example.com/profile#Value_recommended_a_both-2026-11-11T11:44:59.863Z-25>.
 
@@ -484,7 +484,7 @@
     dsv:property <http://example.com/vocabulary#recommended_a_both>;
     dsv:domain <http://example.com/profile#Test>;
     a dsv:ObjectPropertyProfile;
-    dsv:objectPropertyRange <http://example.com/profile#Value_recommended_a_both>.
+    dsv:range <http://example.com/profile#Value_recommended_a_both>.
 
 <> tree:member <http://example.com/profile#Value_may_a-2026-11-11T11:44:59.863Z-27>.
 
@@ -518,7 +518,7 @@
     dsv:property <http://example.com/vocabulary#may_a>;
     dsv:domain <http://example.com/profile#Test>;
     a dsv:ObjectPropertyProfile;
-    dsv:objectPropertyRange <http://example.com/profile#Value_may_a>.
+    dsv:range <http://example.com/profile#Value_may_a>.
 
 <> tree:member <http://example.com/profile#Value_must_without_pattern-2026-11-11T11:44:59.863Z-29>.
 
@@ -552,7 +552,7 @@
     dsv:property <http://example.com/vocabulary#must_without_pattern>;
     dsv:domain <http://example.com/profile#Test>;
     a dsv:ObjectPropertyProfile;
-    dsv:objectPropertyRange <http://example.com/profile#Value_must_without_pattern>.
+    dsv:range <http://example.com/profile#Value_must_without_pattern>.
 
 <> tree:member <http://example.com/profile#Value_at_least_one_a_recommended_b_require-2026-11-11T11:44:59.863Z-31>.
 
@@ -591,4 +591,4 @@
     dsv:property <http://example.com/vocabulary#at_least_one_a_recommended_b_require>;
     dsv:domain <http://example.com/profile#Test>;
     a dsv:ObjectPropertyProfile;
-    dsv:objectPropertyRange <http://example.com/profile#Value_at_least_one_a_recommended_b_require>.
+    dsv:range <http://example.com/profile#Value_at_least_one_a_recommended_b_require>.
