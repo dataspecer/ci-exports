@@ -207,7 +207,7 @@
     dsv:domain :Katalog;
     dsv:requirementLevel requirement:mandatory;
     a dsv:ObjectPropertyProfile;
-    dsv:objectPropertyRange :Poskytovatel.
+    dsv:range :Poskytovatel.
 
 <https://ofn.gov.cz/dcat-ap-cz-rozhraní-katalogů-dat#Katalog.kontaktníBod> dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-rozhraní-katalogů-dat#>;
     a dsv:TermProfile;
@@ -232,7 +232,7 @@
     dsv:domain :Katalog;
     dsv:requirementLevel requirement:mandatory;
     a dsv:ObjectPropertyProfile;
-    dsv:objectPropertyRange :Organizace.
+    dsv:range :Organizace.
 
 <https://ofn.gov.cz/dcat-ap-cz-rozhraní-katalogů-dat#Katalog.datováSada> dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-rozhraní-katalogů-dat#>;
     a dsv:TermProfile;
@@ -257,7 +257,7 @@
     dsv:domain :Katalog;
     dsv:requirementLevel requirement:recommended;
     a dsv:ObjectPropertyProfile;
-    dsv:objectPropertyRange <https://ofn.gov.cz/dcat-ap-cz-rozhraní-katalogů-dat#DatováSada>.
+    dsv:range <https://ofn.gov.cz/dcat-ap-cz-rozhraní-katalogů-dat#DatováSada>.
 
 <https://ofn.gov.cz/dcat-ap-cz-rozhraní-katalogů-dat#Katalog.domovskáStránka> dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-rozhraní-katalogů-dat#>;
     a dsv:TermProfile;
@@ -282,7 +282,7 @@
     dsv:domain :Katalog;
     dsv:requirementLevel requirement:recommended;
     a dsv:ObjectPropertyProfile;
-    dsv:objectPropertyRange :Dokument.
+    dsv:range :Dokument.
 :Organizace.email dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-rozhraní-katalogů-dat#>;
     a dsv:TermProfile;
     dsv:profileOf <https://ofn.gov.cz/dcat-ap-cz#KontaktníBod.email>;
@@ -306,7 +306,7 @@
     dsv:domain :Organizace;
     dsv:requirementLevel requirement:mandatory;
     a dsv:ObjectPropertyProfile;
-    dsv:objectPropertyRange :E-mailAddress.
+    dsv:range :E-mailAddress.
 
 <https://ofn.gov.cz/dcat-ap-cz-rozhraní-katalogů-dat#Katalog.přístupovýBodSlužby> dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-rozhraní-katalogů-dat#>;
     a dsv:TermProfile;
@@ -327,7 +327,7 @@
     dsv:domain :Katalog;
     dsv:requirementLevel requirement:mandatory;
     a dsv:ObjectPropertyProfile;
-    dsv:objectPropertyRange :Zdroj.
+    dsv:range :Zdroj.
 
 <https://ofn.gov.cz/dcat-ap-cz-rozhraní-katalogů-dat#Katalog.název> dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-rozhraní-katalogů-dat#>;
     a dsv:TermProfile;
@@ -352,7 +352,7 @@
     dsv:domain :Katalog;
     dsv:requirementLevel requirement:mandatory;
     a dsv:DatatypePropertyProfile;
-    dsv:datatypePropertyRange <https://ofn.gov.cz/zdroj/základní-datové-typy/2020-07-01/text>.
+    dsv:datatype <https://ofn.gov.cz/zdroj/základní-datové-typy/2020-07-01/text>.
 :Katalog.popis dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-rozhraní-katalogů-dat#>;
     a dsv:TermProfile;
     dsv:profileOf <https://ofn.gov.cz/dcat-ap-cz#Katalog.popis>;
@@ -376,7 +376,7 @@
     dsv:domain :Katalog;
     dsv:requirementLevel requirement:mandatory;
     a dsv:DatatypePropertyProfile;
-    dsv:datatypePropertyRange <https://ofn.gov.cz/zdroj/základní-datové-typy/2020-07-01/text>.
+    dsv:datatype <https://ofn.gov.cz/zdroj/základní-datové-typy/2020-07-01/text>.
 
 <https://ofn.gov.cz/dcat-ap-cz-rozhraní-katalogů-dat#Organizace.jméno> dct:isPartOf <https://ofn.gov.cz/dcat-ap-cz-rozhraní-katalogů-dat#>;
     a dsv:TermProfile;
@@ -401,4 +401,4 @@
     dsv:domain :Organizace;
     dsv:requirementLevel requirement:mandatory;
     a dsv:DatatypePropertyProfile;
-    dsv:datatypePropertyRange <https://ofn.gov.cz/zdroj/základní-datové-typy/2020-07-01/text>.
+    dsv:datatype <https://ofn.gov.cz/zdroj/základní-datové-typy/2020-07-01/text>.
