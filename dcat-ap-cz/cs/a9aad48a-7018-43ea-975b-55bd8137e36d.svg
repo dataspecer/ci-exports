@@ -1,0 +1,725 @@
+<svg class="dataspecer-diagram" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="2137.08" height="1701" viewBox="-110.5 -540.5 2137.08 1701" font-family="ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif" font-size="16" font-weight="400" text-anchor="start" fill="#000000">
+  <style>
+    .dataspecer-diagram .shape { stroke-width: 1; }
+    .dataspecer-diagram path.relationship { stroke-width: 2; stroke-linejoin: round; }
+    .dataspecer-diagram path.dashed { stroke-dasharray: 5 5; }
+    .dataspecer-diagram path.hit-area { stroke-width: 12; pointer-events: stroke; }
+    .dataspecer-diagram a { cursor: pointer; }
+  </style>
+
+  <!-- Background -->
+  <rect x="-110.5" y="-540.5" width="2137.08" height="1701" fill="#ffffff"/>
+
+  <!-- Arrows -->
+  <g class="relationship">
+    <path class="relationship" d="M1033.48 0 L1033.48 -102" fill="none" stroke="#1effbc"/>
+    <path class="relationship" d="M1024.995 -93.515 L1033.48 -102 L1041.965 -93.515" fill="none" stroke="#1effbc"/>
+  </g>
+
+  <g class="relationship">
+    <path class="relationship" d="M229.56 88 L229.56 350" fill="none" stroke="#1effbc"/>
+    <path class="relationship" d="M238.045 341.515 L229.56 350 L221.075 341.515" fill="none" stroke="#1effbc"/>
+  </g>
+
+  <g class="relationship">
+    <path class="relationship" d="M592.64 44 L700 44" fill="none" stroke="#1effbc"/>
+    <path class="relationship" d="M691.515 35.515 L700 44 L691.515 52.485" fill="none" stroke="#1effbc"/>
+  </g>
+
+  <g class="relationship">
+    <path class="relationship" d="M1366.96 21 L1510 21" fill="none" stroke="#1effbc"/>
+    <path class="relationship" d="M1501.515 12.515 L1510 21 L1501.515 29.485" fill="none" stroke="#1effbc"/>
+  </g>
+
+  <g class="relationship">
+    <path class="relationship" d="M1366.96 101 L1510 101" fill="none" stroke="#1effbc"/>
+    <path class="relationship" d="M1501.515 92.515 L1510 101 L1501.515 109.485" fill="none" stroke="#1effbc"/>
+  </g>
+
+  <g class="relationship">
+    <path class="relationship" d="M1366.96 221 L1720 221" fill="none" stroke="#1effbc"/>
+    <path class="relationship" d="M1711.515 212.515 L1720 221 L1711.515 229.485" fill="none" stroke="#1effbc"/>
+  </g>
+
+  <g class="relationship">
+    <path class="relationship" d="M1070 298 L1070 360 L1410 360" fill="none" stroke="#1effbc"/>
+    <path class="relationship" d="M1401.515 351.515 L1410 360 L1401.515 368.485" fill="none" stroke="#1effbc"/>
+  </g>
+
+  <g class="relationship">
+    <path class="relationship" d="M721.8 298 L721.8 380" fill="none" stroke="#1effbc"/>
+    <path class="relationship" d="M730.285 371.515 L721.8 380 L713.315 371.515" fill="none" stroke="#1effbc"/>
+  </g>
+
+  <g class="relationship">
+    <path class="relationship" d="M700 230 L220 230 L220 350" fill="none" stroke="#1effbc"/>
+    <path class="relationship" d="M228.485 341.515 L220 350 L211.515 341.515" fill="none" stroke="#1effbc"/>
+  </g>
+
+  <g class="relationship">
+    <path class="relationship" d="M1000 298 L1000 480 L1250 480" fill="none" stroke="#1effbc"/>
+    <path class="relationship" d="M1241.515 471.515 L1250 480 L1241.515 488.485" fill="none" stroke="#1effbc"/>
+  </g>
+
+  <g class="relationship">
+    <path class="relationship" d="M850 298 L850 350 L850 530" fill="none" stroke="#1effbc"/>
+    <path class="relationship" d="M858.485 521.515 L850 530 L841.515 521.515" fill="none" stroke="#1effbc"/>
+  </g>
+
+  <g class="relationship">
+    <path class="relationship" d="M930 298 L930 330 L930 780" fill="none" stroke="#1effbc"/>
+    <path class="relationship" d="M938.485 771.515 L930 780 L921.515 771.515" fill="none" stroke="#1effbc"/>
+  </g>
+
+  <g class="relationship">
+    <path class="relationship" d="M762 780 L762 612" fill="none" stroke="#1effbc"/>
+    <path class="relationship" d="M753.515 620.485 L762 612 L770.485 620.485" fill="none" stroke="#1effbc"/>
+  </g>
+
+  <g class="relationship">
+    <path class="relationship" d="M485.812 690 L666.843 612" fill="none" stroke="#1effbc"/>
+    <path class="relationship" d="M655.692 607.565 L666.843 612 L662.408 623.15" fill="none" stroke="#1effbc"/>
+  </g>
+
+  <g class="relationship">
+    <path class="relationship" d="M1469.44 1051 L1650 1051" fill="none" stroke="#1effbc"/>
+    <path class="relationship" d="M1641.515 1042.515 L1650 1051 L1641.515 1059.485" fill="none" stroke="#1effbc"/>
+  </g>
+
+  <g class="relationship">
+    <path class="relationship" d="M1252 1010 L1252 892" fill="none" stroke="#1effbc"/>
+    <path class="relationship" d="M1243.515 900.485 L1252 892 L1260.485 900.485" fill="none" stroke="#1effbc"/>
+  </g>
+
+  <g class="relationship">
+    <path class="relationship" d="M1252 1010 L1252 892" fill="none" stroke="#1effbc"/>
+    <path class="relationship" d="M1243.515 900.485 L1252 892 L1260.485 900.485" fill="none" stroke="#1effbc"/>
+  </g>
+
+  <g class="relationship">
+    <path class="relationship" d="M1252 1010 L1252 892" fill="none" stroke="#1effbc"/>
+    <path class="relationship" d="M1243.515 900.485 L1252 892 L1260.485 900.485" fill="none" stroke="#1effbc"/>
+  </g>
+
+  <g class="relationship">
+    <path class="relationship" d="M540 1070 L210 1070 L210 892" fill="none" stroke="#1effbc"/>
+    <path class="relationship" d="M201.515 900.485 L210 892 L218.485 900.485" fill="none" stroke="#1effbc"/>
+  </g>
+
+  <g class="relationship">
+    <path class="relationship" d="M980 780 L980 600 L1250 600" fill="none" stroke="#1effbc"/>
+    <path class="relationship" d="M1241.515 591.515 L1250 600 L1241.515 608.485" fill="none" stroke="#1effbc"/>
+  </g>
+
+  <g class="generalization">
+    <path class="relationship" d="M727.12 1010 L727.12 910" fill="none" stroke="#1effbc"/>
+    <path class="relationship" d="M718.635 918.485 L727.12 910 L735.605 918.485 Z" fill="#ffffff" stroke="#1effbc"/>
+  </g>
+
+  <g class="generalization">
+    <path class="relationship" d="M953.32 1010 L953.32 910" fill="none" stroke="#1effbc"/>
+    <path class="relationship" d="M944.835 918.485 L953.32 910 L961.805 918.485 Z" fill="#ffffff" stroke="#1effbc"/>
+  </g>
+
+  <g class="generalization">
+    <path class="relationship" d="M727.12 1010 L727.12 910" fill="none" stroke="#1effbc"/>
+    <path class="relationship" d="M718.635 918.485 L727.12 910 L735.605 918.485 Z" fill="#ffffff" stroke="#1effbc"/>
+  </g>
+
+  <g class="generalization">
+    <path class="relationship" d="M953.32 1010 L953.32 910" fill="none" stroke="#1effbc"/>
+    <path class="relationship" d="M944.835 918.485 L953.32 910 L961.805 918.485 Z" fill="#ffffff" stroke="#1effbc"/>
+  </g>
+
+  <g class="generalization">
+    <path class="relationship" d="M953.32 1010 L953.32 910" fill="none" stroke="#1effbc"/>
+    <path class="relationship" d="M944.835 918.485 L953.32 910 L961.805 918.485 Z" fill="#ffffff" stroke="#1effbc"/>
+  </g>
+
+  <g class="generalization">
+    <path class="relationship" d="M22 312 L22 350" fill="none" stroke="#1effbc"/>
+    <path class="relationship" d="M30.485 341.515 L22 350 L13.515 341.515 Z" fill="#ffffff" stroke="#1effbc"/>
+  </g>
+
+  <g class="generalization">
+    <path class="relationship" d="M22 510 L22 480" fill="none" stroke="#1effbc"/>
+    <path class="relationship" d="M13.515 488.485 L22 480 L30.485 488.485 Z" fill="#ffffff" stroke="#1effbc"/>
+  </g>
+
+  <g class="relationship">
+    <path class="relationship" d="M330 690 L330 280 L700 280" fill="none" stroke="#1effbc"/>
+    <path class="relationship" d="M691.515 271.515 L700 280 L691.515 288.485" fill="none" stroke="#1effbc"/>
+  </g>
+
+  <g class="relationship">
+    <path class="relationship" d="M180 892 L180 730 L180 480" fill="none" stroke="#1effbc"/>
+    <path class="relationship" d="M171.515 488.485 L180 480 L188.485 488.485" fill="none" stroke="#1effbc"/>
+  </g>
+
+  <g class="relationship">
+    <path class="relationship" d="M650 -350 L480 -350 L480 -310 L650 -310" fill="none" stroke="#1effbc"/>
+    <path class="relationship" d="M641.515 -318.485 L650 -310 L641.515 -301.515" fill="none" stroke="#1effbc"/>
+  </g>
+
+  <!-- Classes and diagrams -->
+  <rect class="shape" x="700" y="0" width="666.96" height="298" rx="0" fill="#ffffff" stroke="#000000"/>
+  <g class="class">
+    <rect class="shape" x="700.5" y="0.5" width="665.96" height="55.5" rx="0" fill="#1effbc"/>
+    <text fill="#000000" xml:space="preserve"><tspan x="704" y="21.6">Datová sada</tspan></text>
+
+    <text fill="#4b5563" xml:space="preserve"><tspan x="704" y="45.6">profiluje Datová sada</tspan></text>
+  </g>
+  <text fill="#6b7280" xml:space="preserve"><tspan x="704" y="73.6">dcat-ap-cz:DatováSada</tspan></text>
+  <g class="attribute">
+    <text fill="#000000" xml:space="preserve"><tspan x="704" y="97.6">- název : Text profiluje title@en [1..1]</tspan></text>
+  </g>
+  <g class="attribute">
+    <text fill="#000000" xml:space="preserve"><tspan x="704" y="121.6">- popis : Text profiluje description@en [1..1]</tspan></text>
+  </g>
+  <g class="attribute">
+    <text fill="#000000" xml:space="preserve"><tspan x="704" y="145.6">- poskytovatel : Poskytovatel profiluje publisher@en [0..1]</tspan></text>
+  </g>
+  <g class="attribute">
+    <text fill="#000000" xml:space="preserve"><tspan x="704" y="169.6">- klíčové slovo : rdf:langString profiluje klíčové slovo [0..*]</tspan></text>
+  </g>
+  <g class="attribute">
+    <text fill="#000000" xml:space="preserve"><tspan x="704" y="193.6">- dokumentace : Dokument profiluje documentation@en [0..*]</tspan></text>
+  </g>
+  <g class="attribute">
+    <text fill="#000000" xml:space="preserve"><tspan x="704" y="217.6">- specifikace : Standard profiluje conforms to@en [0..*]</tspan></text>
+  </g>
+  <g class="attribute">
+    <text fill="#000000" xml:space="preserve"><tspan x="704" y="241.6">- prostorové rozlišení v metrech : xsd:decimal profiluje prostorové rozlišení (metry) [0..1]</tspan></text>
+  </g>
+  <g class="attribute">
+    <text fill="#000000" xml:space="preserve"><tspan x="704" y="265.6">- časové rozlišení : xsd:duration profiluje časové rozlišení [0..1]</tspan></text>
+  </g>
+  <g class="attribute">
+    <text fill="#000000" xml:space="preserve"><tspan x="704" y="289.6">- vstupní stránka : Dokument profiluje vstupní stránka [0..*]</tspan></text>
+  </g>
+
+  <rect class="shape" x="130" y="-90" width="462.64" height="178" rx="0" fill="#ffffff" stroke="#000000"/>
+  <g class="class">
+    <rect class="shape" x="130.5" y="-89.5" width="461.64" height="55.5" rx="0" fill="#1effbc"/>
+    <text fill="#000000" xml:space="preserve"><tspan x="134" y="-68.4">Katalog</tspan></text>
+
+    <text fill="#4b5563" xml:space="preserve"><tspan x="134" y="-44.4">profiluje Katalog</tspan></text>
+  </g>
+  <text fill="#6b7280" xml:space="preserve"><tspan x="134" y="-16.4">dcat-ap-cz:Katalog</tspan></text>
+  <g class="attribute">
+    <text fill="#000000" xml:space="preserve"><tspan x="134" y="7.6">- název : Text profiluje title@en [1..1]</tspan></text>
+  </g>
+  <g class="attribute">
+    <text fill="#000000" xml:space="preserve"><tspan x="134" y="31.6">- popis : Text profiluje description@en [1..1]</tspan></text>
+  </g>
+  <g class="attribute">
+    <text fill="#000000" xml:space="preserve"><tspan x="134" y="55.6">- poskytovatel : Poskytovatel profiluje publisher@en [1..1]</tspan></text>
+  </g>
+  <g class="attribute">
+    <text fill="#000000" xml:space="preserve"><tspan x="134" y="79.6">- domovská stránka : Dokument profiluje homepage@en [0..1]</tspan></text>
+  </g>
+
+  <rect class="shape" x="-80" y="690" width="662.8" height="202" rx="0" fill="#ffffff" stroke="#000000"/>
+  <g class="class">
+    <rect class="shape" x="-79.5" y="690.5" width="661.8" height="55.5" rx="0" fill="#1effbc"/>
+    <text fill="#000000" xml:space="preserve"><tspan x="-76" y="711.6">Datová služba</tspan></text>
+
+    <text fill="#4b5563" xml:space="preserve"><tspan x="-76" y="735.6">profiluje Data Service@en</tspan></text>
+  </g>
+  <text fill="#6b7280" xml:space="preserve"><tspan x="-76" y="763.6">dcat-ap-cz:DatováSlužba</tspan></text>
+  <g class="attribute">
+    <text fill="#000000" xml:space="preserve"><tspan x="-76" y="787.6">- název : Text profiluje title@en [1..1]</tspan></text>
+  </g>
+  <g class="attribute">
+    <text fill="#000000" xml:space="preserve"><tspan x="-76" y="811.6">- přístupový bod služby : Zdroj profiluje přístupový bod služby [1..*]</tspan></text>
+  </g>
+  <g class="attribute">
+    <text fill="#000000" xml:space="preserve"><tspan x="-76" y="835.6">- popis přístupového bodu služby : Zdroj profiluje popis přístupového bodu služby [0..*]</tspan></text>
+  </g>
+  <g class="attribute">
+    <text fill="#000000" xml:space="preserve"><tspan x="-76" y="859.6">- specifikace : Standard profiluje conforms to@en [0..*]</tspan></text>
+  </g>
+  <g class="attribute">
+    <text fill="#000000" xml:space="preserve"><tspan x="-76" y="883.6">- dokumentace : Dokument profiluje documentation@en [0..*]</tspan></text>
+  </g>
+
+  <rect class="shape" x="650" y="-520" width="799.28" height="418" rx="0" fill="#ffffff" stroke="#000000"/>
+  <g class="class">
+    <rect class="shape" x="650.5" y="-519.5" width="798.28" height="55.5" rx="0" fill="#1effbc"/>
+    <text fill="#000000" xml:space="preserve"><tspan x="654" y="-498.4">Série datových sad</tspan></text>
+
+    <text fill="#4b5563" xml:space="preserve"><tspan x="654" y="-474.4">profiluje Dataset Series@en</tspan></text>
+  </g>
+  <text fill="#6b7280" xml:space="preserve"><tspan x="654" y="-446.4">dcat-ap-cz:SérieDatovýchSad</tspan></text>
+  <g class="attribute">
+    <text fill="#000000" xml:space="preserve"><tspan x="654" y="-422.4">- název : Text profiluje title@en [1..1]</tspan></text>
+  </g>
+  <g class="attribute">
+    <text fill="#000000" xml:space="preserve"><tspan x="654" y="-398.4">- popis : Text profiluje description@en [1..1]</tspan></text>
+  </g>
+  <g class="attribute">
+    <text fill="#000000" xml:space="preserve"><tspan x="654" y="-374.4">- poskytovatel : Poskytovatel profiluje publisher@en [0..1]</tspan></text>
+  </g>
+  <g class="attribute">
+    <text fill="#000000" xml:space="preserve"><tspan x="654" y="-350.4">- kontaktní bod : Kontaktní bod profiluje kontaktní bod [0..*]</tspan></text>
+  </g>
+  <g class="attribute">
+    <text fill="#000000" xml:space="preserve"><tspan x="654" y="-326.4">- periodicita aktualizace : Frekvence profiluje frequency@en [0..1]</tspan></text>
+  </g>
+  <g class="attribute">
+    <text fill="#000000" xml:space="preserve"><tspan x="654" y="-302.4">- časové pokrytí : Časový interval profiluje temporal coverage@en [0..*]</tspan></text>
+  </g>
+  <g class="attribute">
+    <text fill="#000000" xml:space="preserve"><tspan x="654" y="-278.4">- související geografické území - prvek z RÚIAN : Prvek z RÚIAN profiluje geographical coverage@en [0..*]</tspan></text>
+  </g>
+  <g class="attribute">
+    <text fill="#000000" xml:space="preserve"><tspan x="654" y="-254.4">- související geografické území : Geografické území profiluje geographical coverage@en [0..*]</tspan></text>
+  </g>
+  <g class="attribute">
+    <text fill="#000000" xml:space="preserve"><tspan x="654" y="-230.4">- příslušný právní předpis : Právní předpis profiluje applicable legislation@en [0..*]</tspan></text>
+  </g>
+  <g class="attribute">
+    <text fill="#000000" xml:space="preserve"><tspan x="654" y="-206.4">- dokumentace : Dokument profiluje documentation@en [0..*]</tspan></text>
+  </g>
+  <g class="attribute">
+    <text fill="#000000" xml:space="preserve"><tspan x="654" y="-182.4">- klíčové slovo : rdf:langString profiluje klíčové slovo [0..*]</tspan></text>
+  </g>
+  <g class="attribute">
+    <text fill="#000000" xml:space="preserve"><tspan x="654" y="-158.4">- téma : Datové téma profiluje téma [0..*]</tspan></text>
+  </g>
+  <g class="attribute">
+    <text fill="#000000" xml:space="preserve"><tspan x="654" y="-134.4">- klasifikace dle EuroVoc : Téma EuroVoc profiluje téma [0..*]</tspan></text>
+  </g>
+  <g class="attribute">
+    <text fill="#000000" xml:space="preserve"><tspan x="654" y="-110.4">- vstupní stránka : Dokument profiluje vstupní stránka [0..*]</tspan></text>
+  </g>
+
+  <rect class="shape" x="650" y="780" width="446.64" height="130" rx="0" fill="#ffffff" stroke="#000000"/>
+  <g class="class">
+    <rect class="shape" x="650.5" y="780.5" width="445.64" height="55.5" rx="0" fill="#1effbc"/>
+    <text fill="#000000" xml:space="preserve"><tspan x="654" y="801.6">Distribuce</tspan></text>
+
+    <text fill="#4b5563" xml:space="preserve"><tspan x="654" y="825.6">profiluje Distribuce</tspan></text>
+  </g>
+  <text fill="#6b7280" xml:space="preserve"><tspan x="654" y="853.6">dcat-ap-cz:Distribuce</tspan></text>
+  <g class="attribute">
+    <text fill="#000000" xml:space="preserve"><tspan x="654" y="877.6">- název : Text profiluje title@en [0..1]</tspan></text>
+  </g>
+  <g class="attribute">
+    <text fill="#000000" xml:space="preserve"><tspan x="654" y="901.6">- přístupové URL : Zdroj profiluje přístupová adresa [1..*]</tspan></text>
+  </g>
+
+  <rect class="shape" x="-90" y="350" width="419.12" height="130" rx="0" fill="#ffffff" stroke="#000000"/>
+  <g class="class">
+    <rect class="shape" x="-89.5" y="350.5" width="418.12" height="55.5" rx="0" fill="#1effbc"/>
+    <text fill="#000000" xml:space="preserve"><tspan x="-86" y="371.6">Kontaktní bod</tspan></text>
+
+    <text fill="#4b5563" xml:space="preserve"><tspan x="-86" y="395.6">profiluje Kind@en</tspan></text>
+  </g>
+  <text fill="#6b7280" xml:space="preserve"><tspan x="-86" y="423.6">dcat-ap-cz:KontaktníBod</tspan></text>
+  <g class="attribute">
+    <text fill="#000000" xml:space="preserve"><tspan x="-86" y="447.6">- jméno : Text profiluje formatted name@en [0..1]</tspan></text>
+  </g>
+  <g class="attribute">
+    <text fill="#000000" xml:space="preserve"><tspan x="-86" y="471.6">- email : E-mailová adresa profiluje has email@en [0..1]</tspan></text>
+  </g>
+
+  <rect class="shape" x="320" y="380" width="423.6" height="130" rx="0" fill="#ffffff" stroke="#000000"/>
+  <g class="class">
+    <rect class="shape" x="320.5" y="380.5" width="422.6" height="55.5" rx="0" fill="#1effbc"/>
+    <text fill="#000000" xml:space="preserve"><tspan x="324" y="401.6">Časový interval</tspan></text>
+
+    <text fill="#4b5563" xml:space="preserve"><tspan x="324" y="425.6">profiluje Period of Time@en</tspan></text>
+  </g>
+  <text fill="#6b7280" xml:space="preserve"><tspan x="324" y="453.6">dcat-ap-cz:ČasovýInterval</tspan></text>
+  <g class="attribute">
+    <text fill="#000000" xml:space="preserve"><tspan x="324" y="477.6">- datum začátku : xsd:date profiluje datum začátku [0..1]</tspan></text>
+  </g>
+  <g class="attribute">
+    <text fill="#000000" xml:space="preserve"><tspan x="324" y="501.6">- datum konce : xsd:date profiluje datum konce [0..1]</tspan></text>
+  </g>
+
+  <rect class="shape" x="540" y="1010" width="264.24" height="82" rx="0" fill="#ffffff" stroke="#000000"/>
+  <g class="class">
+    <rect class="shape" x="540.5" y="1010.5" width="263.24" height="55.5" rx="0" fill="#1effbc"/>
+    <text fill="#000000" xml:space="preserve"><tspan x="544" y="1031.6">Distribuce - Datová služba</tspan></text>
+
+    <text fill="#4b5563" xml:space="preserve"><tspan x="544" y="1055.6">profiluje Distribuce</tspan></text>
+  </g>
+  <text fill="#6b7280" xml:space="preserve"><tspan x="544" y="1083.6">dcat-ap-cz:DistribuceDatováSlužba</tspan></text>
+
+
+  <rect class="shape" x="810" y="1010" width="659.44" height="130" rx="0" fill="#ffffff" stroke="#000000"/>
+  <g class="class">
+    <rect class="shape" x="810.5" y="1010.5" width="658.44" height="55.5" rx="0" fill="#1effbc"/>
+    <text fill="#000000" xml:space="preserve"><tspan x="814" y="1031.6">Distribuce - Soubor ke stažení</tspan></text>
+
+    <text fill="#4b5563" xml:space="preserve"><tspan x="814" y="1055.6">profiluje Distribuce</tspan></text>
+  </g>
+  <text fill="#6b7280" xml:space="preserve"><tspan x="814" y="1083.6">dcat-ap-cz:DistribuceSoubor</tspan></text>
+  <g class="attribute">
+    <text fill="#000000" xml:space="preserve"><tspan x="814" y="1107.6">- odkaz na stažení souboru : Zdroj profiluje URL souboru ke stažení [0..*]</tspan></text>
+  </g>
+  <g class="attribute">
+    <text fill="#000000" xml:space="preserve"><tspan x="814" y="1131.6">- strojově čitelné schéma souboru ke stažení : Zdroj profiluje linked schemas@en [0..*]</tspan></text>
+  </g>
+
+  <rect class="shape" x="1650" y="1010" width="263.76" height="82" rx="0" fill="#ffffff" stroke="#000000"/>
+  <g class="class">
+    <rect class="shape" x="1650.5" y="1010.5" width="262.76" height="55.5" rx="0" fill="#1effbc"/>
+    <text fill="#000000" xml:space="preserve"><tspan x="1654" y="1031.6">Formát souboru</tspan></text>
+
+    <text fill="#4b5563" xml:space="preserve"><tspan x="1654" y="1055.6">profiluje Media Type or Extent@en</tspan></text>
+  </g>
+  <text fill="#6b7280" xml:space="preserve"><tspan x="1654" y="1083.6">dcat-ap-cz:FormátSouboru</tspan></text>
+
+
+  <rect class="shape" x="1140" y="810" width="224" height="82" rx="0" fill="#ffffff" stroke="#000000"/>
+  <g class="class">
+    <rect class="shape" x="1140.5" y="810.5" width="223" height="55.5" rx="0" fill="#1effbc"/>
+    <text fill="#000000" xml:space="preserve"><tspan x="1144" y="831.6">Typ média</tspan></text>
+
+    <text fill="#4b5563" xml:space="preserve"><tspan x="1144" y="855.6">profiluje Media Type@en</tspan></text>
+  </g>
+  <text fill="#6b7280" xml:space="preserve"><tspan x="1144" y="883.6">dcat-ap-cz:TypMédia</tspan></text>
+
+
+  <rect class="shape" x="1410" y="280" width="226.48" height="82" rx="0" fill="#ffffff" stroke="#000000"/>
+  <g class="class">
+    <rect class="shape" x="1410.5" y="280.5" width="225.48" height="55.5" rx="0" fill="#1effbc"/>
+    <text fill="#000000" xml:space="preserve"><tspan x="1414" y="301.6">Geografické území</tspan></text>
+
+    <text fill="#4b5563" xml:space="preserve"><tspan x="1414" y="325.6">profiluje Location@en</tspan></text>
+  </g>
+  <text fill="#6b7280" xml:space="preserve"><tspan x="1414" y="353.6">dcat-ap-cz:GeografickéÚzemí</tspan></text>
+
+
+  <rect class="shape" x="1510" y="60" width="224" height="82" rx="0" fill="#ffffff" stroke="#000000"/>
+  <g class="class">
+    <rect class="shape" x="1510.5" y="60.5" width="223" height="55.5" rx="0" fill="#1effbc"/>
+    <text fill="#000000" xml:space="preserve"><tspan x="1514" y="81.6">Frekvence</tspan></text>
+
+    <text fill="#4b5563" xml:space="preserve"><tspan x="1514" y="105.6">profiluje Frequency@en</tspan></text>
+  </g>
+  <text fill="#6b7280" xml:space="preserve"><tspan x="1514" y="133.6">dcat-ap-cz:Frekvence</tspan></text>
+
+
+  <rect class="shape" x="1510" y="-40" width="224" height="82" rx="0" fill="#ffffff" stroke="#000000"/>
+  <g class="class">
+    <rect class="shape" x="1510.5" y="-39.5" width="223" height="55.5" rx="0" fill="#1effbc"/>
+    <text fill="#000000" xml:space="preserve"><tspan x="1514" y="-18.4">Datové téma</tspan></text>
+
+    <text fill="#4b5563" xml:space="preserve"><tspan x="1514" y="5.6">profiluje Koncept</tspan></text>
+  </g>
+  <text fill="#6b7280" xml:space="preserve"><tspan x="1514" y="33.6">dcat-ap-cz:DatovéTéma</tspan></text>
+
+
+  <rect class="shape" x="1250" y="400" width="224" height="82" rx="0" fill="#ffffff" stroke="#000000"/>
+  <g class="class">
+    <rect class="shape" x="1250.5" y="400.5" width="223" height="55.5" rx="0" fill="#1effbc"/>
+    <text fill="#000000" xml:space="preserve"><tspan x="1254" y="421.6">Téma EuroVoc</tspan></text>
+
+    <text fill="#4b5563" xml:space="preserve"><tspan x="1254" y="445.6">profiluje Koncept</tspan></text>
+  </g>
+  <text fill="#6b7280" xml:space="preserve"><tspan x="1254" y="473.6">dcat-ap-cz:TémaEuroVoc</tspan></text>
+
+
+  <rect class="shape" x="650" y="530" width="224" height="82" rx="0" fill="#ffffff" stroke="#000000"/>
+  <g class="class">
+    <rect class="shape" x="650.5" y="530.5" width="223" height="55.5" rx="0" fill="#1effbc"/>
+    <text fill="#000000" xml:space="preserve"><tspan x="654" y="551.6">Právní předpis</tspan></text>
+
+    <text fill="#4b5563" xml:space="preserve"><tspan x="654" y="575.6">profiluje Legal Resource@en</tspan></text>
+  </g>
+  <text fill="#6b7280" xml:space="preserve"><tspan x="654" y="603.6">dcat-ap-cz:PrávníPředpis</tspan></text>
+
+
+  <rect class="shape" x="1720" y="180" width="224" height="82" rx="0" fill="#ffffff" stroke="#000000"/>
+  <g class="class">
+    <rect class="shape" x="1720.5" y="180.5" width="223" height="55.5" rx="0" fill="#1effbc"/>
+    <text fill="#000000" xml:space="preserve"><tspan x="1724" y="201.6">Prvek z RÚIAN</tspan></text>
+
+    <text fill="#4b5563" xml:space="preserve"><tspan x="1724" y="225.6">profiluje Location@en</tspan></text>
+  </g>
+  <text fill="#6b7280" xml:space="preserve"><tspan x="1724" y="253.6">dcat-ap-cz:PrvekRÚIAN</tspan></text>
+
+
+  <rect class="shape" x="1250" y="530" width="756.08" height="226" rx="0" fill="#ffffff" stroke="#000000"/>
+  <g class="class">
+    <rect class="shape" x="1250.5" y="530.5" width="755.08" height="55.5" rx="0" fill="#1effbc"/>
+    <text fill="#000000" xml:space="preserve"><tspan x="1254" y="551.6">Specifikace podmínek užití</tspan></text>
+
+    <text fill="#4b5563" xml:space="preserve"><tspan x="1254" y="575.6">profiluje Specifikace podmínek užití</tspan></text>
+  </g>
+  <text fill="#6b7280" xml:space="preserve"><tspan x="1254" y="603.6">dcat-ap-cz:SpecifikacePodmínekUžití</tspan></text>
+  <g class="attribute">
+    <text fill="#000000" xml:space="preserve"><tspan x="1254" y="627.6">- autorské dílo : Licence profiluje Autorské dílo [0..1]</tspan></text>
+  </g>
+  <g class="attribute">
+    <text fill="#000000" xml:space="preserve"><tspan x="1254" y="651.6">- jména autorů díla : rdf:langString profiluje Jména autorů díla [0..1]</tspan></text>
+  </g>
+  <g class="attribute">
+    <text fill="#000000" xml:space="preserve"><tspan x="1254" y="675.6">- originální databáze : Licence profiluje Originální databáze [0..1]</tspan></text>
+  </g>
+  <g class="attribute">
+    <text fill="#000000" xml:space="preserve"><tspan x="1254" y="699.6">- jména autorů originální databáze : rdf:langString profiluje Jména autorů originální databáze [0..1]</tspan></text>
+  </g>
+  <g class="attribute">
+    <text fill="#000000" xml:space="preserve"><tspan x="1254" y="723.6">- zvláštní právo pořizovatele databáze : Licence profiluje Zvláštní právo pořizovatele databáze [0..1]</tspan></text>
+  </g>
+  <g class="attribute">
+    <text fill="#000000" xml:space="preserve"><tspan x="1254" y="747.6">- osobní údaje : Licence profiluje Osobní údaje [0..1]</tspan></text>
+  </g>
+
+  <rect class="shape" x="-90" y="510" width="224" height="82" rx="0" fill="#ffffff" stroke="#000000"/>
+  <g class="class">
+    <rect class="shape" x="-89.5" y="510.5" width="223" height="55.5" rx="0" fill="#1effbc"/>
+    <text fill="#000000" xml:space="preserve"><tspan x="-86" y="531.6">Organizace</tspan></text>
+
+    <text fill="#4b5563" xml:space="preserve"><tspan x="-86" y="555.6">profiluje Organization@en</tspan></text>
+  </g>
+  <text fill="#6b7280" xml:space="preserve"><tspan x="-86" y="583.6">dcat-ap-cz:Organizace</tspan></text>
+
+
+  <rect class="shape" x="-90" y="230" width="224" height="82" rx="0" fill="#ffffff" stroke="#000000"/>
+  <g class="class">
+    <rect class="shape" x="-89.5" y="230.5" width="223" height="55.5" rx="0" fill="#1effbc"/>
+    <text fill="#000000" xml:space="preserve"><tspan x="-86" y="251.6">Jednotlivec</tspan></text>
+
+    <text fill="#4b5563" xml:space="preserve"><tspan x="-86" y="275.6">profiluje Individual@en</tspan></text>
+  </g>
+  <text fill="#6b7280" xml:space="preserve"><tspan x="-86" y="303.6">dcat-ap-cz:Jednotlivec</tspan></text>
+
+
+  <!-- Arrow labels -->
+  <g class="relationship">
+    <rect class="shape" x="976.08" y="-76" width="114.8" height="50" rx="15" fill="#ffffff"/>
+    <rect class="shape" x="976.08" y="-76" width="114.8" height="50" rx="15" fill="#1effbc" fill-opacity="0.1"/>
+    <text fill="#000000" text-anchor="middle" xml:space="preserve"><tspan x="1033.48" y="-58.2">je součástí</tspan></text>
+
+    <text fill="#000000" text-anchor="middle" xml:space="preserve"><tspan x="1033.48" y="-34.2">(in series@en)</tspan></text>
+    <rect class="shape" x="983.4" y="-94" width="42.08" height="20" rx="0" fill="#ffffff"/>
+    <rect class="shape" x="983.4" y="-94" width="42.08" height="20" rx="0" fill="#1effbc" fill-opacity="0.1"/>
+    <text fill="#000000" text-anchor="middle" xml:space="preserve"><tspan x="1004.44" y="-79.2">[0..1]</tspan></text>
+  </g>
+
+  <g class="relationship">
+    <rect class="shape" x="173.2" y="206" width="112.72" height="26" rx="15" fill="#ffffff"/>
+    <rect class="shape" x="173.2" y="206" width="112.72" height="26" rx="15" fill="#1effbc" fill-opacity="0.1"/>
+    <text fill="#000000" text-anchor="middle" xml:space="preserve"><tspan x="229.56" y="223.8">kontaktní bod</tspan></text>
+    <rect class="shape" x="179.48" y="322" width="42.08" height="20" rx="0" fill="#ffffff"/>
+    <rect class="shape" x="179.48" y="322" width="42.08" height="20" rx="0" fill="#1effbc" fill-opacity="0.1"/>
+    <text fill="#000000" text-anchor="middle" xml:space="preserve"><tspan x="200.52" y="336.8">[0..1]</tspan></text>
+  </g>
+
+  <g class="relationship">
+    <rect class="shape" x="597.32" y="31" width="98" height="26" rx="15" fill="#ffffff"/>
+    <rect class="shape" x="597.32" y="31" width="98" height="26" rx="15" fill="#1effbc" fill-opacity="0.1"/>
+    <text fill="#000000" text-anchor="middle" xml:space="preserve"><tspan x="646.32" y="48.8">datová sada</tspan></text>
+    <rect class="shape" x="649.92" y="16" width="42.08" height="20" rx="0" fill="#ffffff"/>
+    <rect class="shape" x="649.92" y="16" width="42.08" height="20" rx="0" fill="#1effbc" fill-opacity="0.1"/>
+    <text fill="#000000" text-anchor="middle" xml:space="preserve"><tspan x="670.96" y="30.8">[0..*]</tspan></text>
+  </g>
+
+  <g class="relationship">
+    <rect class="shape" x="1415.24" y="8" width="46.48" height="26" rx="15" fill="#ffffff"/>
+    <rect class="shape" x="1415.24" y="8" width="46.48" height="26" rx="15" fill="#1effbc" fill-opacity="0.1"/>
+    <text fill="#000000" text-anchor="middle" xml:space="preserve"><tspan x="1438.48" y="25.8">téma</tspan></text>
+    <rect class="shape" x="1459.92" y="-7" width="42.08" height="20" rx="0" fill="#ffffff"/>
+    <rect class="shape" x="1459.92" y="-7" width="42.08" height="20" rx="0" fill="#1effbc" fill-opacity="0.1"/>
+    <text fill="#000000" text-anchor="middle" xml:space="preserve"><tspan x="1480.96" y="7.8">[0..*]</tspan></text>
+  </g>
+
+  <g class="relationship">
+    <rect class="shape" x="1351.64" y="76" width="173.68" height="50" rx="15" fill="#ffffff"/>
+    <rect class="shape" x="1351.64" y="76" width="173.68" height="50" rx="15" fill="#1effbc" fill-opacity="0.1"/>
+    <text fill="#000000" text-anchor="middle" xml:space="preserve"><tspan x="1438.48" y="93.8">periodicita aktualizace</tspan></text>
+
+    <text fill="#000000" text-anchor="middle" xml:space="preserve"><tspan x="1438.48" y="117.8">(frequency@en)</tspan></text>
+    <rect class="shape" x="1459.92" y="73" width="42.08" height="20" rx="0" fill="#ffffff"/>
+    <rect class="shape" x="1459.92" y="73" width="42.08" height="20" rx="0" fill="#1effbc" fill-opacity="0.1"/>
+    <text fill="#000000" text-anchor="middle" xml:space="preserve"><tspan x="1480.96" y="87.8">[0..1]</tspan></text>
+  </g>
+
+  <g class="relationship">
+    <rect class="shape" x="1363.6" y="196" width="359.76" height="50" rx="15" fill="#ffffff"/>
+    <rect class="shape" x="1363.6" y="196" width="359.76" height="50" rx="15" fill="#1effbc" fill-opacity="0.1"/>
+    <text fill="#000000" text-anchor="middle" xml:space="preserve"><tspan x="1543.48" y="213.8">související geografické území - prvek z RÚIAN</tspan></text>
+
+    <text fill="#000000" text-anchor="middle" xml:space="preserve"><tspan x="1543.48" y="237.8">(geographical coverage@en)</tspan></text>
+    <rect class="shape" x="1669.92" y="193" width="42.08" height="20" rx="0" fill="#ffffff"/>
+    <rect class="shape" x="1669.92" y="193" width="42.08" height="20" rx="0" fill="#1effbc" fill-opacity="0.1"/>
+    <text fill="#000000" text-anchor="middle" xml:space="preserve"><tspan x="1690.96" y="207.8">[0..*]</tspan></text>
+  </g>
+
+  <g class="relationship">
+    <rect class="shape" x="1118.92" y="335" width="242.16" height="50" rx="15" fill="#ffffff"/>
+    <rect class="shape" x="1118.92" y="335" width="242.16" height="50" rx="15" fill="#1effbc" fill-opacity="0.1"/>
+    <text fill="#000000" text-anchor="middle" xml:space="preserve"><tspan x="1240" y="352.8">související geografické území</tspan></text>
+
+    <text fill="#000000" text-anchor="middle" xml:space="preserve"><tspan x="1240" y="376.8">(geographical coverage@en)</tspan></text>
+    <rect class="shape" x="1359.92" y="332" width="42.08" height="20" rx="0" fill="#ffffff"/>
+    <rect class="shape" x="1359.92" y="332" width="42.08" height="20" rx="0" fill="#1effbc" fill-opacity="0.1"/>
+    <text fill="#000000" text-anchor="middle" xml:space="preserve"><tspan x="1380.96" y="346.8">[0..*]</tspan></text>
+  </g>
+
+  <g class="relationship">
+    <rect class="shape" x="627.52" y="314" width="188.56" height="50" rx="15" fill="#ffffff"/>
+    <rect class="shape" x="627.52" y="314" width="188.56" height="50" rx="15" fill="#1effbc" fill-opacity="0.1"/>
+    <text fill="#000000" text-anchor="middle" xml:space="preserve"><tspan x="721.8" y="331.8">časové pokrytí</tspan></text>
+
+    <text fill="#000000" text-anchor="middle" xml:space="preserve"><tspan x="721.8" y="355.8">(temporal coverage@en)</tspan></text>
+    <rect class="shape" x="671.72" y="352" width="42.08" height="20" rx="0" fill="#ffffff"/>
+    <rect class="shape" x="671.72" y="352" width="42.08" height="20" rx="0" fill="#1effbc" fill-opacity="0.1"/>
+    <text fill="#000000" text-anchor="middle" xml:space="preserve"><tspan x="692.76" y="366.8">[0..*]</tspan></text>
+  </g>
+
+  <g class="relationship">
+    <rect class="shape" x="163.64" y="277" width="112.72" height="26" rx="15" fill="#ffffff"/>
+    <rect class="shape" x="163.64" y="277" width="112.72" height="26" rx="15" fill="#1effbc" fill-opacity="0.1"/>
+    <text fill="#000000" text-anchor="middle" xml:space="preserve"><tspan x="220" y="294.8">kontaktní bod</tspan></text>
+    <rect class="shape" x="169.92" y="322" width="42.08" height="20" rx="0" fill="#ffffff"/>
+    <rect class="shape" x="169.92" y="322" width="42.08" height="20" rx="0" fill="#1effbc" fill-opacity="0.1"/>
+    <text fill="#000000" text-anchor="middle" xml:space="preserve"><tspan x="190.96" y="336.8">[0..*]</tspan></text>
+  </g>
+
+  <g class="relationship">
+    <rect class="shape" x="1034.56" y="455" width="180.88" height="50" rx="15" fill="#ffffff"/>
+    <rect class="shape" x="1034.56" y="455" width="180.88" height="50" rx="15" fill="#1effbc" fill-opacity="0.1"/>
+    <text fill="#000000" text-anchor="middle" xml:space="preserve"><tspan x="1125" y="472.8">klasifikace dle EuroVoc</tspan></text>
+
+    <text fill="#000000" text-anchor="middle" xml:space="preserve"><tspan x="1125" y="496.8">(téma)</tspan></text>
+    <rect class="shape" x="1199.92" y="452" width="42.08" height="20" rx="0" fill="#ffffff"/>
+    <rect class="shape" x="1199.92" y="452" width="42.08" height="20" rx="0" fill="#1effbc" fill-opacity="0.1"/>
+    <text fill="#000000" text-anchor="middle" xml:space="preserve"><tspan x="1220.96" y="466.8">[0..*]</tspan></text>
+  </g>
+
+  <g class="relationship">
+    <rect class="shape" x="746.52" y="415" width="206.96" height="50" rx="15" fill="#ffffff"/>
+    <rect class="shape" x="746.52" y="415" width="206.96" height="50" rx="15" fill="#1effbc" fill-opacity="0.1"/>
+    <text fill="#000000" text-anchor="middle" xml:space="preserve"><tspan x="850" y="432.8">příslušný právní předpis</tspan></text>
+
+    <text fill="#000000" text-anchor="middle" xml:space="preserve"><tspan x="850" y="456.8">(applicable legislation@en)</tspan></text>
+    <rect class="shape" x="799.92" y="502" width="42.08" height="20" rx="0" fill="#ffffff"/>
+    <rect class="shape" x="799.92" y="502" width="42.08" height="20" rx="0" fill="#1effbc" fill-opacity="0.1"/>
+    <text fill="#000000" text-anchor="middle" xml:space="preserve"><tspan x="820.96" y="516.8">[0..*]</tspan></text>
+  </g>
+
+  <g class="relationship">
+    <rect class="shape" x="889.48" y="542" width="81.04" height="26" rx="15" fill="#ffffff"/>
+    <rect class="shape" x="889.48" y="542" width="81.04" height="26" rx="15" fill="#1effbc" fill-opacity="0.1"/>
+    <text fill="#000000" text-anchor="middle" xml:space="preserve"><tspan x="930" y="559.8">distribuce</tspan></text>
+    <rect class="shape" x="879.92" y="752" width="42.08" height="20" rx="0" fill="#ffffff"/>
+    <rect class="shape" x="879.92" y="752" width="42.08" height="20" rx="0" fill="#1effbc" fill-opacity="0.1"/>
+    <text fill="#000000" text-anchor="middle" xml:space="preserve"><tspan x="900.96" y="766.8">[0..*]</tspan></text>
+  </g>
+
+  <g class="relationship">
+    <rect class="shape" x="658.52" y="671" width="206.96" height="50" rx="15" fill="#ffffff"/>
+    <rect class="shape" x="658.52" y="671" width="206.96" height="50" rx="15" fill="#1effbc" fill-opacity="0.1"/>
+    <text fill="#000000" text-anchor="middle" xml:space="preserve"><tspan x="762" y="688.8">příslušný právní předpis</tspan></text>
+
+    <text fill="#000000" text-anchor="middle" xml:space="preserve"><tspan x="762" y="712.8">(applicable legislation@en)</tspan></text>
+    <rect class="shape" x="711.92" y="620" width="42.08" height="20" rx="0" fill="#ffffff"/>
+    <rect class="shape" x="711.92" y="620" width="42.08" height="20" rx="0" fill="#1effbc" fill-opacity="0.1"/>
+    <text fill="#000000" text-anchor="middle" xml:space="preserve"><tspan x="732.96" y="634.8">[0..*]</tspan></text>
+  </g>
+
+  <g class="relationship">
+    <rect class="shape" x="472.847" y="626" width="206.96" height="50" rx="15" fill="#ffffff"/>
+    <rect class="shape" x="472.847" y="626" width="206.96" height="50" rx="15" fill="#1effbc" fill-opacity="0.1"/>
+    <text fill="#000000" text-anchor="middle" xml:space="preserve"><tspan x="576.327" y="643.8">příslušný právní předpis</tspan></text>
+
+    <text fill="#000000" text-anchor="middle" xml:space="preserve"><tspan x="576.327" y="667.8">(applicable legislation@en)</tspan></text>
+    <rect class="shape" x="627.17" y="637.805" width="42.08" height="20" rx="0" fill="#ffffff"/>
+    <rect class="shape" x="627.17" y="637.805" width="42.08" height="20" rx="0" fill="#1effbc" fill-opacity="0.1"/>
+    <text fill="#000000" text-anchor="middle" xml:space="preserve"><tspan x="648.21" y="652.605">[0..*]</tspan></text>
+  </g>
+
+  <g class="relationship">
+    <rect class="shape" x="1458.08" y="1026" width="203.28" height="50" rx="15" fill="#ffffff"/>
+    <rect class="shape" x="1458.08" y="1026" width="203.28" height="50" rx="15" fill="#1effbc" fill-opacity="0.1"/>
+    <text fill="#000000" text-anchor="middle" xml:space="preserve"><tspan x="1559.72" y="1043.8">formát souboru ke stažení</tspan></text>
+
+    <text fill="#000000" text-anchor="middle" xml:space="preserve"><tspan x="1559.72" y="1067.8">(format@en)</tspan></text>
+    <rect class="shape" x="1599.92" y="1023" width="42.08" height="20" rx="0" fill="#ffffff"/>
+    <rect class="shape" x="1599.92" y="1023" width="42.08" height="20" rx="0" fill="#1effbc" fill-opacity="0.1"/>
+    <text fill="#000000" text-anchor="middle" xml:space="preserve"><tspan x="1620.96" y="1037.8">[0..1]</tspan></text>
+  </g>
+
+  <g class="relationship">
+    <rect class="shape" x="1211.48" y="938" width="81.04" height="26" rx="15" fill="#ffffff"/>
+    <rect class="shape" x="1211.48" y="938" width="81.04" height="26" rx="15" fill="#1effbc" fill-opacity="0.1"/>
+    <text fill="#000000" text-anchor="middle" xml:space="preserve"><tspan x="1252" y="955.8">typ média</tspan></text>
+    <rect class="shape" x="1201.92" y="900" width="42.08" height="20" rx="0" fill="#ffffff"/>
+    <rect class="shape" x="1201.92" y="900" width="42.08" height="20" rx="0" fill="#1effbc" fill-opacity="0.1"/>
+    <text fill="#000000" text-anchor="middle" xml:space="preserve"><tspan x="1222.96" y="914.8">[0..1]</tspan></text>
+  </g>
+
+  <g class="relationship">
+    <rect class="shape" x="1192.44" y="938" width="119.12" height="26" rx="15" fill="#ffffff"/>
+    <rect class="shape" x="1192.44" y="938" width="119.12" height="26" rx="15" fill="#1effbc" fill-opacity="0.1"/>
+    <text fill="#000000" text-anchor="middle" xml:space="preserve"><tspan x="1252" y="955.8">formát balíčku</tspan></text>
+    <rect class="shape" x="1201.92" y="900" width="42.08" height="20" rx="0" fill="#ffffff"/>
+    <rect class="shape" x="1201.92" y="900" width="42.08" height="20" rx="0" fill="#1effbc" fill-opacity="0.1"/>
+    <text fill="#000000" text-anchor="middle" xml:space="preserve"><tspan x="1222.96" y="914.8">[0..1]</tspan></text>
+  </g>
+
+  <g class="relationship">
+    <rect class="shape" x="1185.32" y="938" width="133.36" height="26" rx="15" fill="#ffffff"/>
+    <rect class="shape" x="1185.32" y="938" width="133.36" height="26" rx="15" fill="#1effbc" fill-opacity="0.1"/>
+    <text fill="#000000" text-anchor="middle" xml:space="preserve"><tspan x="1252" y="955.8">formát komprese</tspan></text>
+    <rect class="shape" x="1201.92" y="900" width="42.08" height="20" rx="0" fill="#ffffff"/>
+    <rect class="shape" x="1201.92" y="900" width="42.08" height="20" rx="0" fill="#1effbc" fill-opacity="0.1"/>
+    <text fill="#000000" text-anchor="middle" xml:space="preserve"><tspan x="1222.96" y="914.8">[0..1]</tspan></text>
+  </g>
+
+  <g class="relationship">
+    <rect class="shape" x="99.16" y="956" width="221.68" height="50" rx="15" fill="#ffffff"/>
+    <rect class="shape" x="99.16" y="956" width="221.68" height="50" rx="15" fill="#1effbc" fill-opacity="0.1"/>
+    <text fill="#000000" text-anchor="middle" xml:space="preserve"><tspan x="210" y="973.8">přístupová služba</tspan></text>
+
+    <text fill="#000000" text-anchor="middle" xml:space="preserve"><tspan x="210" y="997.8">(služba pro přístup k datům)</tspan></text>
+    <rect class="shape" x="159.92" y="900" width="42.08" height="20" rx="0" fill="#ffffff"/>
+    <rect class="shape" x="159.92" y="900" width="42.08" height="20" rx="0" fill="#1effbc" fill-opacity="0.1"/>
+    <text fill="#000000" text-anchor="middle" xml:space="preserve"><tspan x="180.96" y="914.8">[0..*]</tspan></text>
+  </g>
+
+  <g class="relationship">
+    <rect class="shape" x="1007.52" y="587" width="214.96" height="26" rx="15" fill="#ffffff"/>
+    <rect class="shape" x="1007.52" y="587" width="214.96" height="26" rx="15" fill="#1effbc" fill-opacity="0.1"/>
+    <text fill="#000000" text-anchor="middle" xml:space="preserve"><tspan x="1115" y="604.8">Specifikace podmínek užití</tspan></text>
+    <rect class="shape" x="1199.92" y="572" width="42.08" height="20" rx="0" fill="#ffffff"/>
+    <rect class="shape" x="1199.92" y="572" width="42.08" height="20" rx="0" fill="#1effbc" fill-opacity="0.1"/>
+    <text fill="#000000" text-anchor="middle" xml:space="preserve"><tspan x="1220.96" y="586.8">[0..*]</tspan></text>
+  </g>
+
+  <g class="relationship">
+    <rect class="shape" x="422.4" y="267" width="185.2" height="26" rx="15" fill="#ffffff"/>
+    <rect class="shape" x="422.4" y="267" width="185.2" height="26" rx="15" fill="#1effbc" fill-opacity="0.1"/>
+    <text fill="#000000" text-anchor="middle" xml:space="preserve"><tspan x="515" y="284.8">poskytuje datovou sadu</tspan></text>
+    <rect class="shape" x="649.92" y="252" width="42.08" height="20" rx="0" fill="#ffffff"/>
+    <rect class="shape" x="649.92" y="252" width="42.08" height="20" rx="0" fill="#1effbc" fill-opacity="0.1"/>
+    <text fill="#000000" text-anchor="middle" xml:space="preserve"><tspan x="670.96" y="266.8">[0..*]</tspan></text>
+  </g>
+
+  <g class="relationship">
+    <rect class="shape" x="123.64" y="592" width="112.72" height="26" rx="15" fill="#ffffff"/>
+    <rect class="shape" x="123.64" y="592" width="112.72" height="26" rx="15" fill="#1effbc" fill-opacity="0.1"/>
+    <text fill="#000000" text-anchor="middle" xml:space="preserve"><tspan x="180" y="609.8">kontaktní bod</tspan></text>
+    <rect class="shape" x="129.92" y="488" width="42.08" height="20" rx="0" fill="#ffffff"/>
+    <rect class="shape" x="129.92" y="488" width="42.08" height="20" rx="0" fill="#1effbc" fill-opacity="0.1"/>
+    <text fill="#000000" text-anchor="middle" xml:space="preserve"><tspan x="150.96" y="502.8">[0..*]</tspan></text>
+  </g>
+
+  <g class="relationship">
+    <rect class="shape" x="422.6" y="-355" width="114.8" height="50" rx="15" fill="#ffffff"/>
+    <rect class="shape" x="422.6" y="-355" width="114.8" height="50" rx="15" fill="#1effbc" fill-opacity="0.1"/>
+    <text fill="#000000" text-anchor="middle" xml:space="preserve"><tspan x="480" y="-337.2">je součástí</tspan></text>
+
+    <text fill="#000000" text-anchor="middle" xml:space="preserve"><tspan x="480" y="-313.2">(in series@en)</tspan></text>
+    <rect class="shape" x="599.92" y="-338" width="42.08" height="20" rx="0" fill="#ffffff"/>
+    <rect class="shape" x="599.92" y="-338" width="42.08" height="20" rx="0" fill="#1effbc" fill-opacity="0.1"/>
+    <text fill="#000000" text-anchor="middle" xml:space="preserve"><tspan x="620.96" y="-323.2">[0..*]</tspan></text>
+  </g>
+</svg>
