@@ -116,7 +116,7 @@
     dsv:domain <https://ofn.gov.cz/dcat-ap-cz-rozhraní-katalogů-dat#Katalog>;
     dsv:requirementLevel requirement:mandatory;
     a dsv:DatatypePropertyProfile;
-    dsv:datatypePropertyRange <https://ofn.gov.cz/zdroj/základní-datové-typy/2020-07-01/text>.
+    dsv:datatype <https://ofn.gov.cz/zdroj/základní-datové-typy/2020-07-01/text>.
 
 <> tree:member <https://ofn.gov.cz/dcat-ap-cz-rozhraní-katalogů-dat#Katalog.popis-2026-10-12T07:12:06.391Z-3>.
 
@@ -148,7 +148,7 @@
     dsv:domain <https://ofn.gov.cz/dcat-ap-cz-rozhraní-katalogů-dat#Katalog>;
     dsv:requirementLevel requirement:mandatory;
     a dsv:DatatypePropertyProfile;
-    dsv:datatypePropertyRange <https://ofn.gov.cz/zdroj/základní-datové-typy/2020-07-01/text>.
+    dsv:datatype <https://ofn.gov.cz/zdroj/základní-datové-typy/2020-07-01/text>.
 
 <> tree:member <https://ofn.gov.cz/dcat-ap-cz-rozhraní-katalogů-dat#Poskytovatel-2026-10-12T07:12:06.391Z-4>.
 
@@ -209,7 +209,7 @@
     dsv:domain <https://ofn.gov.cz/dcat-ap-cz-rozhraní-katalogů-dat#Katalog>;
     dsv:requirementLevel requirement:mandatory;
     a dsv:ObjectPropertyProfile;
-    dsv:objectPropertyRange <https://ofn.gov.cz/dcat-ap-cz-rozhraní-katalogů-dat#Poskytovatel>.
+    dsv:range <https://ofn.gov.cz/dcat-ap-cz-rozhraní-katalogů-dat#Poskytovatel>.
 
 <> tree:member <https://ofn.gov.cz/dcat-ap-cz-rozhraní-katalogů-dat#Organizace.jméno-2026-10-12T07:12:06.391Z-6>.
 
@@ -241,7 +241,7 @@
     dsv:domain <https://ofn.gov.cz/dcat-ap-cz-rozhraní-katalogů-dat#Organizace>;
     dsv:requirementLevel requirement:mandatory;
     a dsv:DatatypePropertyProfile;
-    dsv:datatypePropertyRange <https://ofn.gov.cz/zdroj/základní-datové-typy/2020-07-01/text>.
+    dsv:datatype <https://ofn.gov.cz/zdroj/základní-datové-typy/2020-07-01/text>.
 
 <> tree:member <https://ofn.gov.cz/dcat-ap-cz-rozhraní-katalogů-dat#Katalog.kontaktníBod-2026-10-12T07:12:06.391Z-7>.
 
@@ -273,7 +273,7 @@
     dsv:domain <https://ofn.gov.cz/dcat-ap-cz-rozhraní-katalogů-dat#Katalog>;
     dsv:requirementLevel requirement:mandatory;
     a dsv:ObjectPropertyProfile;
-    dsv:objectPropertyRange <https://ofn.gov.cz/dcat-ap-cz-rozhraní-katalogů-dat#Organizace>.
+    dsv:range <https://ofn.gov.cz/dcat-ap-cz-rozhraní-katalogů-dat#Organizace>.
 
 <> tree:member <https://ofn.gov.cz/dcat-ap-cz-rozhraní-katalogů-dat#Katalog.datováSada-2026-10-12T07:12:06.391Z-8>.
 
@@ -305,7 +305,7 @@
     dsv:domain <https://ofn.gov.cz/dcat-ap-cz-rozhraní-katalogů-dat#Katalog>;
     dsv:requirementLevel requirement:recommended;
     a dsv:ObjectPropertyProfile;
-    dsv:objectPropertyRange <https://ofn.gov.cz/dcat-ap-cz-rozhraní-katalogů-dat#DatováSada>.
+    dsv:range <https://ofn.gov.cz/dcat-ap-cz-rozhraní-katalogů-dat#DatováSada>.
 
 <> tree:member <https://ofn.gov.cz/dcat-ap-cz-rozhraní-katalogů-dat#Dokument-2026-10-12T07:12:06.391Z-9>.
 
@@ -366,7 +366,7 @@
     dsv:domain <https://ofn.gov.cz/dcat-ap-cz-rozhraní-katalogů-dat#Katalog>;
     dsv:requirementLevel requirement:recommended;
     a dsv:ObjectPropertyProfile;
-    dsv:objectPropertyRange <https://ofn.gov.cz/dcat-ap-cz-rozhraní-katalogů-dat#Dokument>.
+    dsv:range <https://ofn.gov.cz/dcat-ap-cz-rozhraní-katalogů-dat#Dokument>.
 
 <> tree:member <https://ofn.gov.cz/dcat-ap-cz-rozhraní-katalogů-dat#E-mailAddress-2026-10-12T07:12:06.391Z-11>.
 
@@ -427,7 +427,7 @@
     dsv:domain <https://ofn.gov.cz/dcat-ap-cz-rozhraní-katalogů-dat#Organizace>;
     dsv:requirementLevel requirement:mandatory;
     a dsv:ObjectPropertyProfile;
-    dsv:objectPropertyRange <https://ofn.gov.cz/dcat-ap-cz-rozhraní-katalogů-dat#E-mailAddress>.
+    dsv:range <https://ofn.gov.cz/dcat-ap-cz-rozhraní-katalogů-dat#E-mailAddress>.
 
 <> tree:member <https://ofn.gov.cz/dcat-ap-cz-rozhraní-katalogů-dat#Organizace-2026-10-12T07:12:06.391Z-13>.
 
@@ -543,4 +543,4 @@
     dsv:domain <https://ofn.gov.cz/dcat-ap-cz-rozhraní-katalogů-dat#Katalog>;
     dsv:requirementLevel requirement:mandatory;
     a dsv:ObjectPropertyProfile;
-    dsv:objectPropertyRange <https://ofn.gov.cz/dcat-ap-cz-rozhraní-katalogů-dat#Zdroj>.
+    dsv:range <https://ofn.gov.cz/dcat-ap-cz-rozhraní-katalogů-dat#Zdroj>.

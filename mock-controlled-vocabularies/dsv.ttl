@@ -187,7 +187,7 @@
     dsv:property <http://example.com/vocabulary#must_a>;
     dsv:domain :Test;
     a dsv:ObjectPropertyProfile;
-    dsv:objectPropertyRange :Value_must_a.
+    dsv:range :Value_must_a.
 :must_a_class_regex dct:isPartOf <http://example.com/profile#>;
     a dsv:TermProfile;
     skos:prefLabel "must_a_class_regex"@en;
@@ -195,7 +195,7 @@
     dsv:property <http://example.com/vocabulary#must_a_class_regex>;
     dsv:domain :Test;
     a dsv:ObjectPropertyProfile;
-    dsv:objectPropertyRange :Value_must_a_class_regex.
+    dsv:range :Value_must_a_class_regex.
 :must_a_single dct:isPartOf <http://example.com/profile#>;
     a dsv:TermProfile;
     skos:prefLabel "must_a_single"@en;
@@ -203,7 +203,7 @@
     dsv:property <http://example.com/vocabulary#must_a_single>;
     dsv:domain :Test;
     a dsv:ObjectPropertyProfile;
-    dsv:objectPropertyRange :Value_must_a_single.
+    dsv:range :Value_must_a_single.
 :must_a_object dct:isPartOf <http://example.com/profile#>;
     a dsv:TermProfile;
     skos:prefLabel "must_a_object"@en;
@@ -211,7 +211,7 @@
     dsv:property <http://example.com/vocabulary#must_a_object>;
     dsv:domain :Test;
     a dsv:ObjectPropertyProfile;
-    dsv:objectPropertyRange :Value_must_a_object.
+    dsv:range :Value_must_a_object.
 :at_least_one_a dct:isPartOf <http://example.com/profile#>;
     a dsv:TermProfile;
     skos:prefLabel "at_least_one_a"@en;
@@ -219,7 +219,7 @@
     dsv:property <http://example.com/vocabulary#at_least_one_a>;
     dsv:domain :Test;
     a dsv:ObjectPropertyProfile;
-    dsv:objectPropertyRange :Value_at_least_one_a.
+    dsv:range :Value_at_least_one_a.
 :at_least_one_a_single dct:isPartOf <http://example.com/profile#>;
     a dsv:TermProfile;
     skos:prefLabel "at_least_one_a_single"@en;
@@ -227,7 +227,7 @@
     dsv:property <http://example.com/vocabulary#at_least_one_a_single>;
     dsv:domain :Test;
     a dsv:ObjectPropertyProfile;
-    dsv:objectPropertyRange :Value_at_least_one_a_single.
+    dsv:range :Value_at_least_one_a_single.
 :at_least_one_a_object dct:isPartOf <http://example.com/profile#>;
     a dsv:TermProfile;
     skos:prefLabel "at_least_one_a_object"@en;
@@ -235,7 +235,7 @@
     dsv:property <http://example.com/vocabulary#at_least_one_a_object>;
     dsv:domain :Test;
     a dsv:ObjectPropertyProfile;
-    dsv:objectPropertyRange :Value_at_least_one_a_object.
+    dsv:range :Value_at_least_one_a_object.
 :at_least_one_a_and_b dct:isPartOf <http://example.com/profile#>;
     a dsv:TermProfile;
     skos:prefLabel "at_least_one_a_and_b"@en;
@@ -243,7 +243,7 @@
     dsv:property <http://example.com/vocabulary#at_least_one_a_and_b>;
     dsv:domain :Test;
     a dsv:ObjectPropertyProfile;
-    dsv:objectPropertyRange :Value_at_least_one_a_and_b.
+    dsv:range :Value_at_least_one_a_and_b.
 :recommended_a_default dct:isPartOf <http://example.com/profile#>;
     a dsv:TermProfile;
     skos:prefLabel "recommended_a_default"@en;
@@ -251,7 +251,7 @@
     dsv:property <http://example.com/vocabulary#recommended_a_default>;
     dsv:domain :Test;
     a dsv:ObjectPropertyProfile;
-    dsv:objectPropertyRange :Value_recommended_a_default.
+    dsv:range :Value_recommended_a_default.
 :recommended_a_require dct:isPartOf <http://example.com/profile#>;
     a dsv:TermProfile;
     skos:prefLabel "recommended_a_require"@en;
@@ -259,7 +259,7 @@
     dsv:property <http://example.com/vocabulary#recommended_a_require>;
     dsv:domain :Test;
     a dsv:ObjectPropertyProfile;
-    dsv:objectPropertyRange :Value_recommended_a_require.
+    dsv:range :Value_recommended_a_require.
 :recommended_a_restrict dct:isPartOf <http://example.com/profile#>;
     a dsv:TermProfile;
     skos:prefLabel "recommended_a_restrict"@en;
@@ -267,7 +267,7 @@
     dsv:property <http://example.com/vocabulary#recommended_a_restrict>;
     dsv:domain :Test;
     a dsv:ObjectPropertyProfile;
-    dsv:objectPropertyRange :Value_recommended_a_restrict.
+    dsv:range :Value_recommended_a_restrict.
 :recommended_a_both dct:isPartOf <http://example.com/profile#>;
     a dsv:TermProfile;
     skos:prefLabel "recommended_a_both"@en;
@@ -275,7 +275,7 @@
     dsv:property <http://example.com/vocabulary#recommended_a_both>;
     dsv:domain :Test;
     a dsv:ObjectPropertyProfile;
-    dsv:objectPropertyRange :Value_recommended_a_both.
+    dsv:range :Value_recommended_a_both.
 :may_a dct:isPartOf <http://example.com/profile#>;
     a dsv:TermProfile;
     skos:prefLabel "may_a"@en;
@@ -283,7 +283,7 @@
     dsv:property <http://example.com/vocabulary#may_a>;
     dsv:domain :Test;
     a dsv:ObjectPropertyProfile;
-    dsv:objectPropertyRange :Value_may_a.
+    dsv:range :Value_may_a.
 :must_without_pattern dct:isPartOf <http://example.com/profile#>;
     a dsv:TermProfile;
     skos:prefLabel "must_without_pattern"@en;
@@ -291,7 +291,7 @@
     dsv:property <http://example.com/vocabulary#must_without_pattern>;
     dsv:domain :Test;
     a dsv:ObjectPropertyProfile;
-    dsv:objectPropertyRange :Value_must_without_pattern.
+    dsv:range :Value_must_without_pattern.
 :at_least_one_a_recommended_b_require dct:isPartOf <http://example.com/profile#>;
     a dsv:TermProfile;
     skos:prefLabel "at_least_one_a_recommended_b_require"@en;
@@ -299,7 +299,7 @@
     dsv:property <http://example.com/vocabulary#at_least_one_a_recommended_b_require>;
     dsv:domain :Test;
     a dsv:ObjectPropertyProfile;
-    dsv:objectPropertyRange :Value_at_least_one_a_recommended_b_require.
+    dsv:range :Value_at_least_one_a_recommended_b_require.
 :label dct:isPartOf <http://example.com/profile#>;
     a dsv:TermProfile;
     skos:prefLabel "label"@en;
@@ -307,7 +307,7 @@
     dsv:property <http://example.com/vocabulary#label_must_a_object>;
     dsv:domain :Value_must_a_object;
     a dsv:DatatypePropertyProfile;
-    dsv:datatypePropertyRange rdfs:Literal;
+    dsv:datatype rdfs:Literal;
     dct:isPartOf <http://example.com/profile#>;
     a dsv:TermProfile;
     skos:prefLabel "label"@en;
@@ -315,7 +315,7 @@
     dsv:property <http://example.com/vocabulary#label_at_least_one_a_object>;
     dsv:domain :Value_at_least_one_a_object;
     a dsv:DatatypePropertyProfile;
-    dsv:datatypePropertyRange rdfs:Literal.
+    dsv:datatype rdfs:Literal.
 
 <http://example.com/profile/controlled-vocabulary-catalog/cv-json-schema-test-v2> a dcat:Catalog;
     dcat:dataset <http://example.com/profile/controlled-vocabulary-catalog/cv-json-schema-test-v2/dataset/cv-json-schema-test-v2-cv-a>.
