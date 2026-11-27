@@ -1,0 +1,116 @@
+<svg class="dataspecer-diagram" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1246.36" height="453" viewBox="189.5 139.5 1246.36 453" font-family="ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif" font-size="16" font-weight="400" text-anchor="start" fill="#000000">
+  <style>
+    .dataspecer-diagram .shape { stroke-width: 1; }
+    .dataspecer-diagram path.relationship { stroke-width: 2; stroke-linejoin: round; }
+    .dataspecer-diagram path.dashed { stroke-dasharray: 5 5; }
+    .dataspecer-diagram path.hit-area { stroke-width: 12; pointer-events: stroke; }
+    .dataspecer-diagram a { cursor: pointer; }
+  </style>
+
+  <!-- Background -->
+  <rect x="189.5" y="139.5" width="1246.36" height="453" fill="#ffffff"/>
+
+  <!-- Arrows -->
+  <g class="relationship">
+    <path class="relationship" d="M656.48 375 L910 375" fill="none" stroke="#DCB941"/>
+    <path class="relationship" d="M901.515 366.515 L910 375 L901.515 383.485" fill="none" stroke="#DCB941"/>
+  </g>
+
+  <g class="relationship">
+    <path class="relationship" d="M656.48 237 L910 237" fill="none" stroke="#DCB941"/>
+    <path class="relationship" d="M901.515 228.515 L910 237 L901.515 245.485" fill="none" stroke="#DCB941"/>
+  </g>
+
+  <g class="generalization">
+    <path class="relationship" d="M1149.48 490 L1149.48 422" fill="none" stroke="#DCB941"/>
+    <path class="relationship" d="M1140.995 430.485 L1149.48 422 L1157.965 430.485 Z" fill="#ffffff" stroke="#DCB941"/>
+  </g>
+
+  <!-- Classes and diagrams -->
+  <rect class="shape" x="210" y="160" width="446.48" height="250" rx="0" fill="#ffffff" stroke="#000000"/>
+  <g class="class">
+    <rect class="shape" x="210.5" y="160.5" width="445.48" height="55.5" rx="0" fill="#DCB941"/>
+    <text fill="#000000" xml:space="preserve"><tspan x="214" y="181.6">Catalogue</tspan></text>
+
+    <text fill="#4b5563" xml:space="preserve"><tspan x="214" y="205.6">profile of Catalogue</tspan></text>
+  </g>
+  <text fill="#6b7280" xml:space="preserve"><tspan x="214" y="233.6">https://ofn.gov.cz/dcat-ap-cz-rozhraní-katalogů-dat#Katalog</tspan></text>
+
+  <text fill="#000000" xml:space="preserve"><tspan x="214" y="257.6">&lt;&lt;mandatory&gt;&gt;</tspan></text>
+  <g class="attribute">
+    <text fill="#000000" xml:space="preserve"><tspan x="214" y="281.6">- title : Text profile of title [1..1]</tspan></text>
+  </g>
+  <g class="attribute">
+    <text fill="#000000" xml:space="preserve"><tspan x="214" y="305.6">- description : Text profile of description [1..1]</tspan></text>
+  </g>
+  <g class="attribute">
+    <text fill="#000000" xml:space="preserve"><tspan x="214" y="329.6">- publisher : Agent profile of publisher [1..1]</tspan></text>
+  </g>
+  <g class="attribute">
+    <text fill="#000000" xml:space="preserve"><tspan x="214" y="353.6">- endpoint URL : Resource profile of endpoint URL [1..1]</tspan></text>
+  </g>
+  <text fill="#000000" xml:space="preserve"><tspan x="214" y="377.6">&lt;&lt;recommended&gt;&gt;</tspan></text>
+  <g class="attribute">
+    <text fill="#000000" xml:space="preserve"><tspan x="214" y="401.6">- homepage : Document profile of homepage [0..1]</tspan></text>
+  </g>
+
+  <rect class="shape" x="910" y="340" width="478.96" height="82" rx="0" fill="#ffffff" stroke="#000000"/>
+  <g class="class">
+    <rect class="shape" x="910.5" y="340.5" width="477.96" height="55.5" rx="0" fill="#DCB941"/>
+    <text fill="#000000" xml:space="preserve"><tspan x="914" y="361.6">Dataset</tspan></text>
+
+    <text fill="#4b5563" xml:space="preserve"><tspan x="914" y="385.6">profile of Dataset</tspan></text>
+  </g>
+  <text fill="#6b7280" xml:space="preserve"><tspan x="914" y="413.6">https://ofn.gov.cz/dcat-ap-cz-rozhraní-katalogů-dat#DatováSada</tspan></text>
+
+
+  <rect class="shape" x="910" y="160" width="473.2" height="154" rx="0" fill="#ffffff" stroke="#000000"/>
+  <g class="class">
+    <rect class="shape" x="910.5" y="160.5" width="472.2" height="55.5" rx="0" fill="#DCB941"/>
+    <text fill="#000000" xml:space="preserve"><tspan x="914" y="181.6">Organization</tspan></text>
+
+    <text fill="#4b5563" xml:space="preserve"><tspan x="914" y="205.6">profile of Organization</tspan></text>
+  </g>
+  <text fill="#6b7280" xml:space="preserve"><tspan x="914" y="233.6">https://ofn.gov.cz/dcat-ap-cz-rozhraní-katalogů-dat#Organizace</tspan></text>
+
+  <text fill="#000000" xml:space="preserve"><tspan x="914" y="257.6">&lt;&lt;mandatory&gt;&gt;</tspan></text>
+  <g class="attribute">
+    <text fill="#000000" xml:space="preserve"><tspan x="914" y="281.6">- formatted name : Text profile of formatted name [1..1]</tspan></text>
+  </g>
+  <g class="attribute">
+    <text fill="#000000" xml:space="preserve"><tspan x="914" y="305.6">- has email : E-mail address profile of has email [1..1]</tspan></text>
+  </g>
+
+  <rect class="shape" x="890" y="490" width="525.36" height="82" rx="0" fill="#ffffff" stroke="#000000"/>
+  <g class="class">
+    <rect class="shape" x="890.5" y="490.5" width="524.36" height="55.5" rx="0" fill="#DCB941"/>
+    <text fill="#000000" xml:space="preserve"><tspan x="894" y="511.6">Dataset Series</tspan></text>
+
+    <text fill="#4b5563" xml:space="preserve"><tspan x="894" y="535.6">profile of Dataset Series</tspan></text>
+  </g>
+  <text fill="#6b7280" xml:space="preserve"><tspan x="894" y="563.6">https://ofn.gov.cz/dcat-ap-cz-rozhraní-katalogů-dat#SérieDatovýchSad</tspan></text>
+
+
+  <!-- Arrow labels -->
+  <g class="relationship">
+    <rect class="shape" x="707.6" y="350" width="151.28" height="50" rx="15" fill="#ffffff"/>
+    <rect class="shape" x="707.6" y="350" width="151.28" height="50" rx="15" fill="#DCB941" fill-opacity="0.1"/>
+    <text fill="#000000" text-anchor="middle" xml:space="preserve"><tspan x="783.24" y="367.8">dataset</tspan></text>
+
+    <text fill="#6b7280" text-anchor="middle" xml:space="preserve"><tspan x="783.24" y="391.8">&lt;&lt;recommended&gt;&gt;</tspan></text>
+    <rect class="shape" x="859.92" y="347" width="42.08" height="20" rx="0" fill="#ffffff"/>
+    <rect class="shape" x="859.92" y="347" width="42.08" height="20" rx="0" fill="#DCB941" fill-opacity="0.1"/>
+    <text fill="#000000" text-anchor="middle" xml:space="preserve"><tspan x="880.96" y="361.8">[0..*]</tspan></text>
+  </g>
+
+  <g class="relationship">
+    <rect class="shape" x="720.72" y="212" width="125.04" height="50" rx="15" fill="#ffffff"/>
+    <rect class="shape" x="720.72" y="212" width="125.04" height="50" rx="15" fill="#DCB941" fill-opacity="0.1"/>
+    <text fill="#000000" text-anchor="middle" xml:space="preserve"><tspan x="783.24" y="229.8">contact point</tspan></text>
+
+    <text fill="#6b7280" text-anchor="middle" xml:space="preserve"><tspan x="783.24" y="253.8">&lt;&lt;mandatory&gt;&gt;</tspan></text>
+    <rect class="shape" x="859.92" y="209" width="42.08" height="20" rx="0" fill="#ffffff"/>
+    <rect class="shape" x="859.92" y="209" width="42.08" height="20" rx="0" fill="#DCB941" fill-opacity="0.1"/>
+    <text fill="#000000" text-anchor="middle" xml:space="preserve"><tspan x="880.96" y="223.8">[1..1]</tspan></text>
+  </g>
+</svg>
