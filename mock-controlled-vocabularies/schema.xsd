@@ -1,5 +1,40 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:vc="http://www.w3.org/2007/XMLSchema-versioning" vc:minVersion="1.1" elementFormDefault="unqualified" xmlns:sawsdl="http://www.w3.org/ns/sawsdl">
+  <xs:simpleType name="must_a-iri">
+    <xs:restriction base="xs:anyURI">
+      <xs:pattern value="http://example\.com/cv-a/[a-z]+"/>
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="must_a_class_regex-iri-1">
+    <xs:restriction base="xs:anyURI">
+      <xs:pattern value="http://example\.com/cv-a/r.*"/>
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="must_a_class_regex-iri">
+    <xs:restriction base="must_a_class_regex-iri-1">
+      <xs:pattern value="http://example\.com/cv-a/[a-z]+"/>
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="must_a_single-iri">
+    <xs:restriction base="xs:anyURI">
+      <xs:pattern value="http://example\.com/cv-a/[a-z]+"/>
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="must_a_object-iri">
+    <xs:restriction base="xs:anyURI">
+      <xs:pattern value="http://example\.com/cv-a/[a-z]+"/>
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="recommended_a_restrict-iri">
+    <xs:restriction base="xs:anyURI">
+      <xs:pattern value="http://example\.com/cv-a/[a-z]+"/>
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="recommended_a_both-iri">
+    <xs:restriction base="xs:anyURI">
+      <xs:pattern value="http://example\.com/cv-a/[a-z]+"/>
+    </xs:restriction>
+  </xs:simpleType>
   <xs:complexType name="test" sawsdl:modelReference="http://example.com/vocabulary#Test">
     <xs:annotation>
       <xs:documentation xml:lang="en">
@@ -7,21 +42,21 @@
       </xs:documentation>
     </xs:annotation>
     <xs:sequence>
-      <xs:element minOccurs="0" maxOccurs="unbounded" name="must_a" type="xs:anyURI" sawsdl:modelReference="http://example.com/vocabulary#must_a">
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="must_a" type="must_a-iri" sawsdl:modelReference="http://example.com/vocabulary#must_a">
         <xs:annotation>
           <xs:documentation xml:lang="en">
             must_a
           </xs:documentation>
         </xs:annotation>
       </xs:element>
-      <xs:element minOccurs="0" maxOccurs="unbounded" name="must_a_class_regex" type="xs:anyURI" sawsdl:modelReference="http://example.com/vocabulary#must_a_class_regex">
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="must_a_class_regex" type="must_a_class_regex-iri" sawsdl:modelReference="http://example.com/vocabulary#must_a_class_regex">
         <xs:annotation>
           <xs:documentation xml:lang="en">
             must_a_class_regex
           </xs:documentation>
         </xs:annotation>
       </xs:element>
-      <xs:element minOccurs="0" name="must_a_single" type="xs:anyURI" sawsdl:modelReference="http://example.com/vocabulary#must_a_single">
+      <xs:element minOccurs="0" name="must_a_single" type="must_a_single-iri" sawsdl:modelReference="http://example.com/vocabulary#must_a_single">
         <xs:annotation>
           <xs:documentation xml:lang="en">
             must_a_single
@@ -41,7 +76,7 @@
             </xs:documentation>
           </xs:annotation>
           <xs:sequence>
-            <xs:element name="iri" type="xs:anyURI"/>
+            <xs:element name="iri" type="must_a_object-iri"/>
             <xs:element minOccurs="0" name="label" type="xs:string" sawsdl:modelReference="http://example.com/vocabulary#label_must_a_object">
               <xs:annotation>
                 <xs:documentation xml:lang="en">
@@ -113,14 +148,14 @@
           </xs:documentation>
         </xs:annotation>
       </xs:element>
-      <xs:element minOccurs="0" maxOccurs="unbounded" name="recommended_a_restrict" type="xs:anyURI" sawsdl:modelReference="http://example.com/vocabulary#recommended_a_restrict">
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="recommended_a_restrict" type="recommended_a_restrict-iri" sawsdl:modelReference="http://example.com/vocabulary#recommended_a_restrict">
         <xs:annotation>
           <xs:documentation xml:lang="en">
             recommended_a_restrict
           </xs:documentation>
         </xs:annotation>
       </xs:element>
-      <xs:element minOccurs="0" maxOccurs="unbounded" name="recommended_a_both" type="xs:anyURI" sawsdl:modelReference="http://example.com/vocabulary#recommended_a_both">
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="recommended_a_both" type="recommended_a_both-iri" sawsdl:modelReference="http://example.com/vocabulary#recommended_a_both">
         <xs:annotation>
           <xs:documentation xml:lang="en">
             recommended_a_both
@@ -150,6 +185,15 @@
       </xs:element>
       <xs:any minOccurs="0" maxOccurs="unbounded" processContents="lax" namespace="##other"/>
     </xs:sequence>
+    <xs:assert test="not(*:at_least_one_a) or *:at_least_one_a[matches(., '^(http://example\.com/cv-a/[a-z]+)$')]"/>
+    <xs:assert test="not(*:at_least_one_a_single) or *:at_least_one_a_single[matches(., '^(http://example\.com/cv-a/[a-z]+)$')]"/>
+    <xs:assert test="not(*:at_least_one_a_object) or *:at_least_one_a_object/*:iri[matches(., '^(http://example\.com/cv-a/[a-z]+)$')]"/>
+    <xs:assert test="not(*:at_least_one_a_and_b) or *:at_least_one_a_and_b[matches(., '^(http://example\.com/cv-a/[a-z]+)$')]"/>
+    <xs:assert test="not(*:at_least_one_a_and_b) or *:at_least_one_a_and_b[matches(., '^(http://example\.com/cv-b/[0-9]+)$')]"/>
+    <xs:assert test="not(*:recommended_a_require) or *:recommended_a_require[matches(., '^(http://example\.com/cv-a/[a-z]+)$')]"/>
+    <xs:assert test="not(*:recommended_a_both) or *:recommended_a_both[matches(., '^(http://example\.com/cv-a/[a-z]+)$')]"/>
+    <xs:assert test="not(*:at_least_one_a_recommended_b_require) or *:at_least_one_a_recommended_b_require[matches(., '^(http://example\.com/cv-a/[a-z]+)$')]"/>
+    <xs:assert test="not(*:at_least_one_a_recommended_b_require) or *:at_least_one_a_recommended_b_require[matches(., '^(http://example\.com/cv-b/[0-9]+)$')]"/>
   </xs:complexType>
   <xs:element name="test" type="test"/>
 </xs:schema>

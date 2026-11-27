@@ -301,9 +301,17 @@
         padding: 3px 10px;
       }
     
-      /* An IRI has no spaces to break at, so it may wrap anywhere instead of widening the table. */
+      /* The IRI column takes the space the other columns leave, up to a limit. An IRI has no spaces to break at, so beyond it the IRI wraps anywhere. */
       table.def.cv-list .cv-iri {
+        min-width: 16em;
+        max-width: 36em;
         overflow-wrap: anywhere;
+      }
+    
+      /* Columns with a short content are as narrow as the content. */
+      table.def.cv-list .cv-narrow {
+        width: 1%;
+        white-space: nowrap;
       }
     
       /* ReSpec shows the header row of a definition table as an italic body row, so it is marked out as a header. */
@@ -2033,6 +2041,13 @@
           <h4>Root Entities of the XSD Schema</h4>
           <ul>
             <li>element <a href="#element-test"><code>test</code></a></li>
+            <li> simple type <a href="#type-must_a-iri"><code>must_a-iri</code></a></li>
+            <li> simple type <a href="#type-must_a_class_regex-iri-1"><code>must_a_class_regex-iri-1</code></a></li>
+            <li> simple type <a href="#type-must_a_class_regex-iri"><code>must_a_class_regex-iri</code></a></li>
+            <li> simple type <a href="#type-must_a_single-iri"><code>must_a_single-iri</code></a></li>
+            <li> simple type <a href="#type-must_a_object-iri"><code>must_a_object-iri</code></a></li>
+            <li> simple type <a href="#type-recommended_a_restrict-iri"><code>recommended_a_restrict-iri</code></a></li>
+            <li> simple type <a href="#type-recommended_a_both-iri"><code>recommended_a_both-iri</code></a></li>
             <li> complex type <a href="#type-test"><code>test</code></a></li>
           </ul>
         </section>
@@ -2044,6 +2059,55 @@
               <dt>Content</dt>
               <dd> The content of the element is of type <a href="#type-test"><code>test</code></a>. </dd>
             </div>
+          </dl>
+        </section>
+        <section id="type-must_a-iri">
+          <h4>Root simple type <code>must_a-iri</code></h4>
+          <dl>
+            <dt>Content</dt>
+            <dd> The content of the element is a simple type <code>xs:anyURI</code> restricted to values of controlled vocabulary <a href="#cv-CV-A-letters">CV A (letters)</a> (by the regular expression <code>http://example\.com/cv-a/[a-z]+</code>). </dd>
+          </dl>
+        </section>
+        <section id="type-must_a_class_regex-iri-1">
+          <h4>Root simple type <code>must_a_class_regex-iri-1</code></h4>
+          <dl>
+            <dt>Content</dt>
+            <dd> The content of the element is a simple type <code>xs:anyURI</code> with restriction by the regular expression <code>http://example\.com/cv-a/r.*</code>. </dd>
+          </dl>
+        </section>
+        <section id="type-must_a_class_regex-iri">
+          <h4>Root simple type <code>must_a_class_regex-iri</code></h4>
+          <dl>
+            <dt>Content</dt>
+            <dd> The content of the element is a simple type <code>must_a_class_regex-iri-1</code> restricted to values of controlled vocabulary <a href="#cv-CV-A-letters">CV A (letters)</a> (by the regular expression <code>http://example\.com/cv-a/[a-z]+</code>). </dd>
+          </dl>
+        </section>
+        <section id="type-must_a_single-iri">
+          <h4>Root simple type <code>must_a_single-iri</code></h4>
+          <dl>
+            <dt>Content</dt>
+            <dd> The content of the element is a simple type <code>xs:anyURI</code> restricted to values of controlled vocabulary <a href="#cv-CV-A-letters">CV A (letters)</a> (by the regular expression <code>http://example\.com/cv-a/[a-z]+</code>). </dd>
+          </dl>
+        </section>
+        <section id="type-must_a_object-iri">
+          <h4>Root simple type <code>must_a_object-iri</code></h4>
+          <dl>
+            <dt>Content</dt>
+            <dd> The content of the element is a simple type <code>xs:anyURI</code> restricted to values of controlled vocabulary <a href="#cv-CV-A-letters">CV A (letters)</a> (by the regular expression <code>http://example\.com/cv-a/[a-z]+</code>). </dd>
+          </dl>
+        </section>
+        <section id="type-recommended_a_restrict-iri">
+          <h4>Root simple type <code>recommended_a_restrict-iri</code></h4>
+          <dl>
+            <dt>Content</dt>
+            <dd> The content of the element is a simple type <code>xs:anyURI</code> restricted to values of controlled vocabulary <a href="#cv-CV-A-letters">CV A (letters)</a> (by the regular expression <code>http://example\.com/cv-a/[a-z]+</code>). </dd>
+          </dl>
+        </section>
+        <section id="type-recommended_a_both-iri">
+          <h4>Root simple type <code>recommended_a_both-iri</code></h4>
+          <dl>
+            <dt>Content</dt>
+            <dd> The content of the element is a simple type <code>xs:anyURI</code> restricted to values of controlled vocabulary <a href="#cv-CV-A-letters">CV A (letters)</a> (by the regular expression <code>http://example\.com/cv-a/[a-z]+</code>). </dd>
           </dl>
         </section>
         <section id="type-test">
@@ -2071,6 +2135,16 @@
               <li> element <a href="#element-test-must_without_pattern"><code>&lt;must_without_pattern&gt;</code></a> [0..*] </li>
               <li> element <a href="#element-test-at_least_one_a_recommended_b_require"><code>&lt;at_least_one_a_recommended_b_require&gt;</code></a> [0..*] </li>
             </ul>
+            <dt>Conditions</dt>
+            <dd> At least one value of element <code>&lt;at_least_one_a&gt;</code> must be of controlled vocabulary <a href="#cv-CV-A-letters">CV A (letters)</a> (XPath: <code>not(*:at_least_one_a) or *:at_least_one_a[matches(., &#x27;^(http://example\.com/cv-a/[a-z]+)$&#x27;)]</code>) </dd>
+            <dd> At least one value of element <code>&lt;at_least_one_a_single&gt;</code> must be of controlled vocabulary <a href="#cv-CV-A-letters">CV A (letters)</a> (XPath: <code>not(*:at_least_one_a_single) or *:at_least_one_a_single[matches(., &#x27;^(http://example\.com/cv-a/[a-z]+)$&#x27;)]</code>) </dd>
+            <dd> At least one value of element <code>&lt;at_least_one_a_object&gt;</code> must be of controlled vocabulary <a href="#cv-CV-A-letters">CV A (letters)</a> (XPath: <code>not(*:at_least_one_a_object) or *:at_least_one_a_object/*:iri[matches(., &#x27;^(http://example\.com/cv-a/[a-z]+)$&#x27;)]</code>) </dd>
+            <dd> At least one value of element <code>&lt;at_least_one_a_and_b&gt;</code> must be of controlled vocabulary <a href="#cv-CV-A-letters">CV A (letters)</a> (XPath: <code>not(*:at_least_one_a_and_b) or *:at_least_one_a_and_b[matches(., &#x27;^(http://example\.com/cv-a/[a-z]+)$&#x27;)]</code>) </dd>
+            <dd> At least one value of element <code>&lt;at_least_one_a_and_b&gt;</code> must be of controlled vocabulary <a href="#cv-CV-B-digits">CV B (digits)</a> (XPath: <code>not(*:at_least_one_a_and_b) or *:at_least_one_a_and_b[matches(., &#x27;^(http://example\.com/cv-b/[0-9]+)$&#x27;)]</code>) </dd>
+            <dd> At least one value of element <code>&lt;recommended_a_require&gt;</code> must be of controlled vocabulary <a href="#cv-CV-A-letters">CV A (letters)</a> (XPath: <code>not(*:recommended_a_require) or *:recommended_a_require[matches(., &#x27;^(http://example\.com/cv-a/[a-z]+)$&#x27;)]</code>) </dd>
+            <dd> At least one value of element <code>&lt;recommended_a_both&gt;</code> must be of controlled vocabulary <a href="#cv-CV-A-letters">CV A (letters)</a> (XPath: <code>not(*:recommended_a_both) or *:recommended_a_both[matches(., &#x27;^(http://example\.com/cv-a/[a-z]+)$&#x27;)]</code>) </dd>
+            <dd> At least one value of element <code>&lt;at_least_one_a_recommended_b_require&gt;</code> must be of controlled vocabulary <a href="#cv-CV-A-letters">CV A (letters)</a> (XPath: <code>not(*:at_least_one_a_recommended_b_require) or *:at_least_one_a_recommended_b_require[matches(., &#x27;^(http://example\.com/cv-a/[a-z]+)$&#x27;)]</code>) </dd>
+            <dd> At least one value of element <code>&lt;at_least_one_a_recommended_b_require&gt;</code> must be of controlled vocabulary <a href="#cv-CV-B-digits">CV B (digits)</a> (XPath: <code>not(*:at_least_one_a_recommended_b_require) or *:at_least_one_a_recommended_b_require[matches(., &#x27;^(http://example\.com/cv-b/[0-9]+)$&#x27;)]</code>) </dd>
           </dl>
         </section>
         <section id="element-test-must_a">
@@ -2088,7 +2162,7 @@
             <dt>Element type</dt>
             <div style="margin-left: 40px;">
               <dt>Content</dt>
-              <dd> The content of the element is of type <a href="http://www.w3.org/2001/XMLSchemaanyURI"><code>xs:anyURI</code></a>. </dd>
+              <dd> The content of the element is of type <a href="#type-must_a-iri"><code>must_a-iri</code></a>. </dd>
             </div>
           </dl>
         </section>
@@ -2107,7 +2181,7 @@
             <dt>Element type</dt>
             <div style="margin-left: 40px;">
               <dt>Content</dt>
-              <dd> The content of the element is of type <a href="http://www.w3.org/2001/XMLSchemaanyURI"><code>xs:anyURI</code></a>. </dd>
+              <dd> The content of the element is of type <a href="#type-must_a_class_regex-iri"><code>must_a_class_regex-iri</code></a>. </dd>
             </div>
           </dl>
         </section>
@@ -2126,7 +2200,7 @@
             <dt>Element type</dt>
             <div style="margin-left: 40px;">
               <dt>Content</dt>
-              <dd> The content of the element is of type <a href="http://www.w3.org/2001/XMLSchemaanyURI"><code>xs:anyURI</code></a>. </dd>
+              <dd> The content of the element is of type <a href="#type-must_a_single-iri"><code>must_a_single-iri</code></a>. </dd>
             </div>
           </dl>
         </section>
@@ -2169,7 +2243,7 @@
             <dt>Element type</dt>
             <div style="margin-left: 40px;">
               <dt>Content</dt>
-              <dd> The content of the element is of type <a href="http://www.w3.org/2001/XMLSchemaanyURI"><code>xs:anyURI</code></a>. </dd>
+              <dd> The content of the element is of type <a href="#type-must_a_object-iri"><code>must_a_object-iri</code></a>. </dd>
             </div>
           </dl>
         </section>
@@ -2364,7 +2438,7 @@
             <dt>Element type</dt>
             <div style="margin-left: 40px;">
               <dt>Content</dt>
-              <dd> The content of the element is of type <a href="http://www.w3.org/2001/XMLSchemaanyURI"><code>xs:anyURI</code></a>. </dd>
+              <dd> The content of the element is of type <a href="#type-recommended_a_restrict-iri"><code>recommended_a_restrict-iri</code></a>. </dd>
             </div>
           </dl>
         </section>
@@ -2383,7 +2457,7 @@
             <dt>Element type</dt>
             <div style="margin-left: 40px;">
               <dt>Content</dt>
-              <dd> The content of the element is of type <a href="http://www.w3.org/2001/XMLSchemaanyURI"><code>xs:anyURI</code></a>. </dd>
+              <dd> The content of the element is of type <a href="#type-recommended_a_both-iri"><code>recommended_a_both-iri</code></a>. </dd>
             </div>
           </dl>
         </section>
@@ -2472,16 +2546,16 @@
           <thead>
             <tr>
               <th>Name</th>
-              <th class="cv-center">SKOS</th>
+              <th class="cv-center cv-narrow">SKOS</th>
               <th>Concept Scheme IRI</th>
-              <th>Links</th>
+              <th class="cv-narrow">Links</th>
             </tr>
           </thead>
           <tbody>
             <tr id="cv-CV-A-letters">
               <td>CV A (letters)</td>
               <td class="cv-center">yes</td>
-              <td class="cv-iri">http://example.com/schemes/a</td>
+              <td class="cv-iri"><a href="http://example.com/schemes/a"><code>http://example.com/schemes/a</code></a></td>
               <td>
                 <a class="cv-link" href="http://example.com/vocabularies/a" title="Access URL" aria-label="Access URL"><svg class="cv-icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
                     <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" />
@@ -2492,7 +2566,7 @@
             <tr id="cv-CV-B-digits">
               <td>CV B (digits)</td>
               <td class="cv-center">yes</td>
-              <td class="cv-iri">http://example.com/schemes/b</td>
+              <td class="cv-iri"><a href="http://example.com/schemes/b"><code>http://example.com/schemes/b</code></a></td>
               <td>
                 <a class="cv-link" href="http://example.com/vocabularies/b" title="Access URL" aria-label="Access URL"><svg class="cv-icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
                     <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" />
@@ -2503,7 +2577,7 @@
             <tr id="cv-CV-without-a-pattern">
               <td>CV without a pattern</td>
               <td class="cv-center">yes</td>
-              <td class="cv-iri">http://example.com/schemes/none</td>
+              <td class="cv-iri"><a href="http://example.com/schemes/none"><code>http://example.com/schemes/none</code></a></td>
               <td>
                 <a class="cv-link" href="http://example.com/vocabularies/none" title="Access URL" aria-label="Access URL"><svg class="cv-icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
                     <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" />
