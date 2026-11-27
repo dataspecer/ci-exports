@@ -1337,7 +1337,7 @@
             },
             "resource_url": {
               "@id": "https://model.ccmm.cz/vocabulary/ccmm#resourceUrl",
-              "@type": "xsd:anyURI"
+              "@type": "@id"
             },
             "qualified_attribution": {
               "@id": "http://www.w3.org/ns/prov#qualifiedAttribution",
@@ -1778,7 +1778,7 @@
         },
         "funding_program": {
           "@id": "https://model.ccmm.cz/vocabulary/ccmm#fundingProgram",
-          "@type": "xsd:anyURI"
+          "@type": "@id"
         },
         "funder": {
           "@id": "https://w3id.org/tib/datacite/property/funderIdentifier",
@@ -2128,7 +2128,7 @@
         },
         "resource_url": {
           "@id": "https://model.ccmm.cz/vocabulary/ccmm#resourceUrl",
-          "@type": "xsd:anyURI"
+          "@type": "@id"
         },
         "qualified_attribution": {
           "@id": "http://www.w3.org/ns/prov#qualifiedAttribution",
@@ -2629,7 +2629,7 @@
                 },
                 "resource_url": {
                   "@id": "https://model.ccmm.cz/vocabulary/ccmm#resourceUrl",
-                  "@type": "xsd:anyURI"
+                  "@type": "@id"
                 },
                 "qualified_attribution": {
                   "@id": "http://www.w3.org/ns/prov#qualifiedAttribution",

@@ -816,7 +816,7 @@
     dsv:domain <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSada>;
     dsv:requirementLevel requirement:mandatory;
     a dsv:DatatypePropertyProfile;
-    dsv:datatypePropertyRange <https://ofn.gov.cz/zdroj/základní-datové-typy/2020-07-01/text>.
+    dsv:datatype <https://ofn.gov.cz/zdroj/základní-datové-typy/2020-07-01/text>.
 
 <> tree:member <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSada.popis-2026-10-12T07:21:15.065Z-27>.
 
@@ -848,7 +848,7 @@
     dsv:domain <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSada>;
     dsv:requirementLevel requirement:mandatory;
     a dsv:DatatypePropertyProfile;
-    dsv:datatypePropertyRange <https://ofn.gov.cz/zdroj/základní-datové-typy/2020-07-01/text>.
+    dsv:datatype <https://ofn.gov.cz/zdroj/základní-datové-typy/2020-07-01/text>.
 
 <> tree:member <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSada.klíčovéSlovo-2026-10-12T07:21:15.065Z-28>.
 
@@ -880,7 +880,7 @@
     dsv:domain <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSada>;
     dsv:requirementLevel requirement:mandatory;
     a dsv:DatatypePropertyProfile;
-    dsv:datatypePropertyRange rdf:langString.
+    dsv:datatype rdf:langString.
 
 <> tree:member <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSada.prostorovéRozlišeníVMetrech-2026-10-12T07:21:15.065Z-29>.
 
@@ -912,7 +912,7 @@
     dsv:domain <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSada>;
     dsv:requirementLevel requirement:optional;
     a dsv:DatatypePropertyProfile;
-    dsv:datatypePropertyRange xsd:decimal.
+    dsv:datatype xsd:decimal.
 
 <> tree:member <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSada.časovéRozlišení-2026-10-12T07:21:15.065Z-30>.
 
@@ -944,7 +944,7 @@
     dsv:domain <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSada>;
     dsv:requirementLevel requirement:optional;
     a dsv:DatatypePropertyProfile;
-    dsv:datatypePropertyRange xsd:duration.
+    dsv:datatype xsd:duration.
 
 <> tree:member <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#Distribuce.název-2026-10-12T07:21:15.065Z-31>.
 
@@ -976,7 +976,7 @@
     dsv:domain <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#Distribuce>;
     dsv:requirementLevel requirement:optional;
     a dsv:DatatypePropertyProfile;
-    dsv:datatypePropertyRange <https://ofn.gov.cz/zdroj/základní-datové-typy/2020-07-01/text>.
+    dsv:datatype <https://ofn.gov.cz/zdroj/základní-datové-typy/2020-07-01/text>.
 
 <> tree:member <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSlužba.název-2026-10-12T07:21:15.065Z-32>.
 
@@ -1008,7 +1008,7 @@
     dsv:domain <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSlužba>;
     dsv:requirementLevel requirement:mandatory;
     a dsv:DatatypePropertyProfile;
-    dsv:datatypePropertyRange <https://ofn.gov.cz/zdroj/základní-datové-typy/2020-07-01/text>.
+    dsv:datatype <https://ofn.gov.cz/zdroj/základní-datové-typy/2020-07-01/text>.
 
 <> tree:member <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#SpecifikacePodmínekUžití.jménaAutorůOriginálníDatabáze-2026-10-12T07:21:15.065Z-33>.
 
@@ -1040,7 +1040,7 @@
     dsv:domain <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#SpecifikacePodmínekUžití>;
     dsv:requirementLevel requirement:optional;
     a dsv:DatatypePropertyProfile;
-    dsv:datatypePropertyRange <https://ofn.gov.cz/zdroj/základní-datové-typy/2020-07-01/text>.
+    dsv:datatype <https://ofn.gov.cz/zdroj/základní-datové-typy/2020-07-01/text>.
 
 <> tree:member <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#SpecifikacePodmínekUžití.jménaAutorůDíla-2026-10-12T07:21:15.065Z-34>.
 
@@ -1072,7 +1072,7 @@
     dsv:domain <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#SpecifikacePodmínekUžití>;
     dsv:requirementLevel requirement:optional;
     a dsv:DatatypePropertyProfile;
-    dsv:datatypePropertyRange <https://ofn.gov.cz/zdroj/základní-datové-typy/2020-07-01/text>.
+    dsv:datatype <https://ofn.gov.cz/zdroj/základní-datové-typy/2020-07-01/text>.
 
 <> tree:member <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#ČasovýInterval.datumZačátku-2026-10-12T07:21:15.065Z-35>.
 
@@ -1104,7 +1104,7 @@
     dsv:domain <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#ČasovýInterval>;
     dsv:requirementLevel requirement:recommended;
     a dsv:DatatypePropertyProfile;
-    dsv:datatypePropertyRange xsd:date.
+    dsv:datatype xsd:date.
 
 <> tree:member <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#ČasovýInterval.datumKonce-2026-10-12T07:21:15.065Z-36>.
 
@@ -1136,7 +1136,7 @@
     dsv:domain <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#ČasovýInterval>;
     dsv:requirementLevel requirement:recommended;
     a dsv:DatatypePropertyProfile;
-    dsv:datatypePropertyRange xsd:date.
+    dsv:datatype xsd:date.
 
 <> tree:member <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#KontaktníBod.jméno-2026-10-12T07:21:15.065Z-37>.
 
@@ -1168,7 +1168,7 @@
     dsv:domain <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#KontaktníBod>;
     dsv:requirementLevel requirement:mandatory;
     a dsv:DatatypePropertyProfile;
-    dsv:datatypePropertyRange <https://ofn.gov.cz/zdroj/základní-datové-typy/2020-07-01/text>.
+    dsv:datatype <https://ofn.gov.cz/zdroj/základní-datové-typy/2020-07-01/text>.
 
 <> tree:member <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSada.jeSoučástí-2026-10-12T07:21:15.065Z-38>.
 
@@ -1200,7 +1200,7 @@
     dsv:domain <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSada>;
     dsv:requirementLevel requirement:optional;
     a dsv:ObjectPropertyProfile;
-    dsv:objectPropertyRange <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#SérieDatovýchSad>.
+    dsv:range <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#SérieDatovýchSad>.
 
 <> tree:member <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSada.poskytovatel-2026-10-12T07:21:15.065Z-39>.
 
@@ -1232,7 +1232,7 @@
     dsv:domain <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSada>;
     dsv:requirementLevel requirement:mandatory;
     a dsv:ObjectPropertyProfile;
-    dsv:objectPropertyRange <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#Poskytovatel>.
+    dsv:range <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#Poskytovatel>.
 
 <> tree:member <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSada.téma-2026-10-12T07:21:15.065Z-40>.
 
@@ -1264,7 +1264,7 @@
     dsv:domain <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSada>;
     dsv:requirementLevel requirement:mandatory;
     a dsv:ObjectPropertyProfile;
-    dsv:objectPropertyRange <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatovéTéma>.
+    dsv:range <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatovéTéma>.
 
 <> tree:member <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSada.periodicitaAktualizace-2026-10-12T07:21:15.065Z-41>.
 
@@ -1296,7 +1296,7 @@
     dsv:domain <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSada>;
     dsv:requirementLevel requirement:mandatory;
     a dsv:ObjectPropertyProfile;
-    dsv:objectPropertyRange <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#Frekvence>.
+    dsv:range <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#Frekvence>.
 
 <> tree:member <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSada.souvisejícíGeografickéÚzemí-PrvekZRúian-2026-10-12T07:21:15.065Z-42>.
 
@@ -1328,7 +1328,7 @@
     dsv:domain <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSada>;
     dsv:requirementLevel requirement:mandatory;
     a dsv:ObjectPropertyProfile;
-    dsv:objectPropertyRange <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#PrvekRÚIAN>.
+    dsv:range <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#PrvekRÚIAN>.
 
 <> tree:member <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSada.souvisejícíGeografickéÚzemí-2026-10-12T07:21:15.065Z-43>.
 
@@ -1360,7 +1360,7 @@
     dsv:domain <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSada>;
     dsv:requirementLevel requirement:recommended;
     a dsv:ObjectPropertyProfile;
-    dsv:objectPropertyRange <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#GeografickéÚzemí>.
+    dsv:range <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#GeografickéÚzemí>.
 
 <> tree:member <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSada.časovéPokrytí-2026-10-12T07:21:15.065Z-44>.
 
@@ -1392,7 +1392,7 @@
     dsv:domain <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSada>;
     dsv:requirementLevel requirement:recommended;
     a dsv:ObjectPropertyProfile;
-    dsv:objectPropertyRange <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#ČasovýInterval>.
+    dsv:range <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#ČasovýInterval>.
 
 <> tree:member <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSada.kontaktníBod-2026-10-12T07:21:15.065Z-45>.
 
@@ -1424,7 +1424,7 @@
     dsv:domain <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSada>;
     dsv:requirementLevel requirement:recommended;
     a dsv:ObjectPropertyProfile;
-    dsv:objectPropertyRange <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#KontaktníBod>.
+    dsv:range <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#KontaktníBod>.
 
 <> tree:member <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSada.dokumentace-2026-10-12T07:21:15.065Z-46>.
 
@@ -1456,7 +1456,7 @@
     dsv:domain <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSada>;
     dsv:requirementLevel requirement:recommended;
     a dsv:ObjectPropertyProfile;
-    dsv:objectPropertyRange <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#Dokument>.
+    dsv:range <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#Dokument>.
 
 <> tree:member <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSada.specifikace-2026-10-12T07:21:15.065Z-47>.
 
@@ -1488,7 +1488,7 @@
     dsv:domain <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSada>;
     dsv:requirementLevel requirement:recommended;
     a dsv:ObjectPropertyProfile;
-    dsv:objectPropertyRange <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#Standard>.
+    dsv:range <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#Standard>.
 
 <> tree:member <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSada.klasifikaceDleEurovoc-2026-10-12T07:21:15.065Z-48>.
 
@@ -1520,7 +1520,7 @@
     dsv:domain <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSada>;
     dsv:requirementLevel requirement:recommended;
     a dsv:ObjectPropertyProfile;
-    dsv:objectPropertyRange <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#TémaEuroVoc>.
+    dsv:range <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#TémaEuroVoc>.
 
 <> tree:member <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSada.příslušnýPrávníPředpis-2026-10-12T07:21:15.065Z-49>.
 
@@ -1548,7 +1548,7 @@
     dsv:domain <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSada>;
     dsv:requirementLevel requirement:mandatory;
     a dsv:ObjectPropertyProfile;
-    dsv:objectPropertyRange <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#PrávníPředpis>.
+    dsv:range <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#PrávníPředpis>.
 
 <> tree:member <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSada.distribuce-2026-10-12T07:21:15.065Z-50>.
 
@@ -1579,7 +1579,7 @@
     dsv:cardinality cardinality:0n;
     dsv:domain <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSada>;
     a dsv:ObjectPropertyProfile;
-    dsv:objectPropertyRange <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#Distribuce>.
+    dsv:range <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#Distribuce>.
 
 <> tree:member <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#Distribuce.přístupovéUrl-2026-10-12T07:21:15.065Z-51>.
 
@@ -1611,7 +1611,7 @@
     dsv:domain <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#Distribuce>;
     dsv:requirementLevel requirement:mandatory;
     a dsv:ObjectPropertyProfile;
-    dsv:objectPropertyRange <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#Zdroj>.
+    dsv:range <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#Zdroj>.
 
 <> tree:member <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#Distribuce.příslušnýPrávníPředpis-2026-10-12T07:21:15.065Z-52>.
 
@@ -1639,7 +1639,7 @@
     dsv:domain <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#Distribuce>;
     dsv:requirementLevel requirement:mandatory;
     a dsv:ObjectPropertyProfile;
-    dsv:objectPropertyRange <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#PrávníPředpis>.
+    dsv:range <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#PrávníPředpis>.
 
 <> tree:member <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSlužba.příslušnýPrávníPředpis-2026-10-12T07:21:15.065Z-53>.
 
@@ -1667,7 +1667,7 @@
     dsv:domain <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSlužba>;
     dsv:requirementLevel requirement:mandatory;
     a dsv:ObjectPropertyProfile;
-    dsv:objectPropertyRange <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#PrávníPředpis>.
+    dsv:range <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#PrávníPředpis>.
 
 <> tree:member <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#Distribuce-SouborKeStažení.odkazNaStaženíSouboru-2026-10-12T07:21:15.065Z-54>.
 
@@ -1699,7 +1699,7 @@
     dsv:domain <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DistribuceSoubor>;
     dsv:requirementLevel requirement:mandatory;
     a dsv:ObjectPropertyProfile;
-    dsv:objectPropertyRange <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#Zdroj>.
+    dsv:range <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#Zdroj>.
 
 <> tree:member <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#Distribuce-SouborKeStažení.formátSouboruKeStažení-2026-10-12T07:21:15.065Z-55>.
 
@@ -1731,7 +1731,7 @@
     dsv:domain <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DistribuceSoubor>;
     dsv:requirementLevel requirement:mandatory;
     a dsv:ObjectPropertyProfile;
-    dsv:objectPropertyRange <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#FormátSouboru>.
+    dsv:range <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#FormátSouboru>.
 
 <> tree:member <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#Distribuce-SouborKeStažení.typMédia-2026-10-12T07:21:15.065Z-56>.
 
@@ -1763,7 +1763,7 @@
     dsv:domain <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DistribuceSoubor>;
     dsv:requirementLevel requirement:mandatory;
     a dsv:ObjectPropertyProfile;
-    dsv:objectPropertyRange <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#TypMédia>.
+    dsv:range <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#TypMédia>.
 
 <> tree:member <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#Distribuce-SouborKeStažení.formátBalíčku-2026-10-12T07:21:15.065Z-57>.
 
@@ -1795,7 +1795,7 @@
     dsv:domain <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DistribuceSoubor>;
     dsv:requirementLevel requirement:optional;
     a dsv:ObjectPropertyProfile;
-    dsv:objectPropertyRange <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#TypMédia>.
+    dsv:range <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#TypMédia>.
 
 <> tree:member <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#Distribuce-SouborKeStažení.formátKomprese-2026-10-12T07:21:15.065Z-58>.
 
@@ -1827,7 +1827,7 @@
     dsv:domain <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DistribuceSoubor>;
     dsv:requirementLevel requirement:optional;
     a dsv:ObjectPropertyProfile;
-    dsv:objectPropertyRange <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#TypMédia>.
+    dsv:range <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#TypMédia>.
 
 <> tree:member <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#Distribuce-SouborKeStažení.strojověČitelnéSchémaSouboruKeStažení-2026-10-12T07:21:15.065Z-59>.
 
@@ -1859,7 +1859,7 @@
     dsv:domain <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DistribuceSoubor>;
     dsv:requirementLevel requirement:recommended;
     a dsv:ObjectPropertyProfile;
-    dsv:objectPropertyRange <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#Zdroj>.
+    dsv:range <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#Zdroj>.
 
 <> tree:member <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#Distribuce-DatováSlužba.přístupováSlužba-2026-10-12T07:21:15.065Z-60>.
 
@@ -1891,7 +1891,7 @@
     dsv:domain <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DistribuceDatováSlužba>;
     dsv:requirementLevel requirement:mandatory;
     a dsv:ObjectPropertyProfile;
-    dsv:objectPropertyRange <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSlužba>.
+    dsv:range <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSlužba>.
 
 <> tree:member <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSlužba.přístupovýBodSlužby-2026-10-12T07:21:15.065Z-61>.
 
@@ -1923,7 +1923,7 @@
     dsv:domain <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSlužba>;
     dsv:requirementLevel requirement:mandatory;
     a dsv:ObjectPropertyProfile;
-    dsv:objectPropertyRange <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#Zdroj>.
+    dsv:range <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#Zdroj>.
 
 <> tree:member <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSlužba.popisPřístupovéhoBoduSlužby-2026-10-12T07:21:15.065Z-62>.
 
@@ -1955,7 +1955,7 @@
     dsv:domain <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSlužba>;
     dsv:requirementLevel requirement:mandatory;
     a dsv:ObjectPropertyProfile;
-    dsv:objectPropertyRange <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#Zdroj>.
+    dsv:range <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#Zdroj>.
 
 <> tree:member <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSlužba.specifikace-2026-10-12T07:21:15.065Z-63>.
 
@@ -1987,7 +1987,7 @@
     dsv:domain <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSlužba>;
     dsv:requirementLevel requirement:recommended;
     a dsv:ObjectPropertyProfile;
-    dsv:objectPropertyRange <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#Standard>.
+    dsv:range <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#Standard>.
 
 <> tree:member <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSlužba.dokumentace-2026-10-12T07:21:15.065Z-64>.
 
@@ -2019,7 +2019,7 @@
     dsv:domain <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSlužba>;
     dsv:requirementLevel requirement:recommended;
     a dsv:ObjectPropertyProfile;
-    dsv:objectPropertyRange <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#Dokument>.
+    dsv:range <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#Dokument>.
 
 <> tree:member <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#Distribuce.specifikacePodmínekUžití-2026-10-12T07:21:15.065Z-65>.
 
@@ -2047,7 +2047,7 @@
     dsv:domain <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#Distribuce>;
     dsv:requirementLevel requirement:mandatory;
     a dsv:ObjectPropertyProfile;
-    dsv:objectPropertyRange <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#SpecifikacePodmínekUžití>.
+    dsv:range <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#SpecifikacePodmínekUžití>.
 
 <> tree:member <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#SpecifikacePodmínekUžití.originálníDatabáze-2026-10-12T07:21:15.065Z-66>.
 
@@ -2079,7 +2079,7 @@
     dsv:domain <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#SpecifikacePodmínekUžití>;
     dsv:requirementLevel requirement:mandatory;
     a dsv:ObjectPropertyProfile;
-    dsv:objectPropertyRange <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#Licence>.
+    dsv:range <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#Licence>.
 
 <> tree:member <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#SpecifikacePodmínekUžití.autorskéDílo-2026-10-12T07:21:15.065Z-67>.
 
@@ -2111,7 +2111,7 @@
     dsv:domain <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#SpecifikacePodmínekUžití>;
     dsv:requirementLevel requirement:mandatory;
     a dsv:ObjectPropertyProfile;
-    dsv:objectPropertyRange <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#Licence>.
+    dsv:range <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#Licence>.
 
 <> tree:member <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#SpecifikacePodmínekUžití.zvláštníPrávoPořizovateleDatabáze-2026-10-12T07:21:15.065Z-68>.
 
@@ -2143,7 +2143,7 @@
     dsv:domain <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#SpecifikacePodmínekUžití>;
     dsv:requirementLevel requirement:mandatory;
     a dsv:ObjectPropertyProfile;
-    dsv:objectPropertyRange <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#Licence>.
+    dsv:range <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#Licence>.
 
 <> tree:member <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#SpecifikacePodmínekUžití.osobníÚdaje-2026-10-12T07:21:15.065Z-69>.
 
@@ -2175,7 +2175,7 @@
     dsv:domain <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#SpecifikacePodmínekUžití>;
     dsv:requirementLevel requirement:mandatory;
     a dsv:ObjectPropertyProfile;
-    dsv:objectPropertyRange <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#Licence>.
+    dsv:range <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#Licence>.
 
 <> tree:member <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#KontaktníBod.email-2026-10-12T07:21:15.065Z-70>.
 
@@ -2207,7 +2207,7 @@
     dsv:domain <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#KontaktníBod>;
     dsv:requirementLevel requirement:mandatory;
     a dsv:ObjectPropertyProfile;
-    dsv:objectPropertyRange <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#E-mailAddress>.
+    dsv:range <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#E-mailAddress>.
 
 <> tree:member <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#SérieDatovýchSad.časovéPokrytí-2026-10-12T07:21:15.065Z-71>.
 
@@ -2239,7 +2239,7 @@
     dsv:domain <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#SérieDatovýchSad>;
     dsv:requirementLevel requirement:recommended;
     a dsv:ObjectPropertyProfile;
-    dsv:objectPropertyRange <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#ČasovýInterval>.
+    dsv:range <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#ČasovýInterval>.
 
 <> tree:member <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#SérieDatovýchSad.název-2026-10-12T07:21:15.065Z-72>.
 
@@ -2271,7 +2271,7 @@
     dsv:domain <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#SérieDatovýchSad>;
     dsv:requirementLevel requirement:mandatory;
     a dsv:DatatypePropertyProfile;
-    dsv:datatypePropertyRange <https://ofn.gov.cz/zdroj/základní-datové-typy/2020-07-01/text>.
+    dsv:datatype <https://ofn.gov.cz/zdroj/základní-datové-typy/2020-07-01/text>.
 
 <> tree:member <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#SérieDatovýchSad.popis-2026-10-12T07:21:15.065Z-73>.
 
@@ -2303,7 +2303,7 @@
     dsv:domain <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#SérieDatovýchSad>;
     dsv:requirementLevel requirement:mandatory;
     a dsv:DatatypePropertyProfile;
-    dsv:datatypePropertyRange <https://ofn.gov.cz/zdroj/základní-datové-typy/2020-07-01/text>.
+    dsv:datatype <https://ofn.gov.cz/zdroj/základní-datové-typy/2020-07-01/text>.
 
 <> tree:member <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#SérieDatovýchSad.kontaktníBod-2026-10-12T07:21:15.065Z-74>.
 
@@ -2335,7 +2335,7 @@
     dsv:domain <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#SérieDatovýchSad>;
     dsv:requirementLevel requirement:recommended;
     a dsv:ObjectPropertyProfile;
-    dsv:objectPropertyRange <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#KontaktníBod>.
+    dsv:range <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#KontaktníBod>.
 
 <> tree:member <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#SérieDatovýchSad.klíčovéSlovo-2026-10-12T07:21:15.065Z-75>.
 
@@ -2367,7 +2367,7 @@
     dsv:domain <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#SérieDatovýchSad>;
     dsv:requirementLevel requirement:mandatory;
     a dsv:DatatypePropertyProfile;
-    dsv:datatypePropertyRange rdf:langString.
+    dsv:datatype rdf:langString.
 
 <> tree:member <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#SérieDatovýchSad.téma-2026-10-12T07:21:15.065Z-76>.
 
@@ -2399,7 +2399,7 @@
     dsv:domain <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#SérieDatovýchSad>;
     dsv:requirementLevel requirement:mandatory;
     a dsv:ObjectPropertyProfile;
-    dsv:objectPropertyRange <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatovéTéma>.
+    dsv:range <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatovéTéma>.
 
 <> tree:member <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#SérieDatovýchSad.klasifikaceDleEurovoc-2026-10-12T07:21:15.065Z-77>.
 
@@ -2431,7 +2431,7 @@
     dsv:domain <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#SérieDatovýchSad>;
     dsv:requirementLevel requirement:recommended;
     a dsv:ObjectPropertyProfile;
-    dsv:objectPropertyRange <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#TémaEuroVoc>.
+    dsv:range <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#TémaEuroVoc>.
 
 <> tree:member <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#SérieDatovýchSad.periodicitaAktualizace-2026-10-12T07:21:15.065Z-78>.
 
@@ -2463,7 +2463,7 @@
     dsv:domain <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#SérieDatovýchSad>;
     dsv:requirementLevel requirement:mandatory;
     a dsv:ObjectPropertyProfile;
-    dsv:objectPropertyRange <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#Frekvence>.
+    dsv:range <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#Frekvence>.
 
 <> tree:member <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#SérieDatovýchSad.jeSoučástí-2026-10-12T07:21:15.065Z-79>.
 
@@ -2495,7 +2495,7 @@
     dsv:domain <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#SérieDatovýchSad>;
     dsv:requirementLevel requirement:optional;
     a dsv:ObjectPropertyProfile;
-    dsv:objectPropertyRange <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#SérieDatovýchSad>.
+    dsv:range <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#SérieDatovýchSad>.
 
 <> tree:member <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#SérieDatovýchSad.poskytovatel-2026-10-12T07:21:15.065Z-80>.
 
@@ -2527,7 +2527,7 @@
     dsv:domain <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#SérieDatovýchSad>;
     dsv:requirementLevel requirement:mandatory;
     a dsv:ObjectPropertyProfile;
-    dsv:objectPropertyRange <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#Poskytovatel>.
+    dsv:range <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#Poskytovatel>.
 
 <> tree:member <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#SérieDatovýchSad.příslušnýPrávníPředpis-2026-10-12T07:21:15.065Z-81>.
 
@@ -2555,7 +2555,7 @@
     dsv:domain <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#SérieDatovýchSad>;
     dsv:requirementLevel requirement:mandatory;
     a dsv:ObjectPropertyProfile;
-    dsv:objectPropertyRange <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#PrávníPředpis>.
+    dsv:range <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#PrávníPředpis>.
 
 <> tree:member <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#SérieDatovýchSad.souvisejícíGeografickéÚzemí-2026-10-12T07:21:15.065Z-82>.
 
@@ -2587,7 +2587,7 @@
     dsv:domain <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#SérieDatovýchSad>;
     dsv:requirementLevel requirement:recommended;
     a dsv:ObjectPropertyProfile;
-    dsv:objectPropertyRange <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#GeografickéÚzemí>.
+    dsv:range <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#GeografickéÚzemí>.
 
 <> tree:member <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#SérieDatovýchSad.souvisejícíGeografickéÚzemí-PrvekZRúian-2026-10-12T07:21:15.065Z-83>.
 
@@ -2619,7 +2619,7 @@
     dsv:domain <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#SérieDatovýchSad>;
     dsv:requirementLevel requirement:mandatory;
     a dsv:ObjectPropertyProfile;
-    dsv:objectPropertyRange <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#PrvekRÚIAN>.
+    dsv:range <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#PrvekRÚIAN>.
 
 <> tree:member <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#SérieDatovýchSad.dokumentace-2026-10-12T07:21:15.065Z-84>.
 
@@ -2651,7 +2651,7 @@
     dsv:domain <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#SérieDatovýchSad>;
     dsv:requirementLevel requirement:recommended;
     a dsv:ObjectPropertyProfile;
-    dsv:objectPropertyRange <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#Dokument>.
+    dsv:range <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#Dokument>.
 
 <> tree:member <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSada.vstupníStránka-2026-10-12T07:21:15.065Z-85>.
 
@@ -2679,7 +2679,7 @@
     dsv:domain <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#DatováSada>;
     dsv:requirementLevel requirement:optional;
     a dsv:ObjectPropertyProfile;
-    dsv:objectPropertyRange <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#Dokument>.
+    dsv:range <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#Dokument>.
 
 <> tree:member <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#SérieDatovýchSad.vstupníStránka-2026-10-12T07:21:15.065Z-86>.
 
@@ -2707,4 +2707,4 @@
     dsv:domain <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#SérieDatovýchSad>;
     dsv:requirementLevel requirement:optional;
     a dsv:ObjectPropertyProfile;
-    dsv:objectPropertyRange <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#Dokument>.
+    dsv:range <https://ofn.gov.cz/dcat-ap-cz-otevřená-data#Dokument>.

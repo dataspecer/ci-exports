@@ -1,0 +1,225 @@
+<svg class="dataspecer-diagram" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1115" height="743" viewBox="819.5 -220.5 1115 743" font-family="ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif" font-size="16" font-weight="400" text-anchor="start" fill="#000000">
+  <style>
+    .dataspecer-diagram .shape { stroke-width: 1; }
+    .dataspecer-diagram path.relationship { stroke-width: 2; stroke-linejoin: round; }
+    .dataspecer-diagram path.dashed { stroke-dasharray: 5 5; }
+    .dataspecer-diagram path.hit-area { stroke-width: 12; pointer-events: stroke; }
+    .dataspecer-diagram a { cursor: pointer; }
+  </style>
+
+  <!-- Background -->
+  <rect x="819.5" y="-220.5" width="1115" height="743" fill="#ffffff"/>
+
+  <!-- Arrows -->
+  <g class="generalization">
+    <path class="relationship" d="M1690 101 L1673.12 101" fill="none" stroke="#ffb770"/>
+    <path class="relationship" d="M1681.605 109.485 L1673.12 101 L1681.605 92.515 Z" fill="#ffffff" stroke="#ffb770"/>
+  </g>
+
+  <g class="generalization">
+    <path class="relationship" d="M1412 250 L1412 190" fill="none" stroke="#ffb770"/>
+    <path class="relationship" d="M1403.515 198.485 L1412 190 L1420.485 198.485 Z" fill="#ffffff" stroke="#ffb770"/>
+  </g>
+
+  <g class="relationship">
+    <path class="relationship" d="M1290 101 L1064 101" fill="none" stroke="#ffb770"/>
+    <path class="relationship" d="M1072.485 109.485 L1064 101 L1072.485 92.515" fill="none" stroke="#ffb770"/>
+  </g>
+
+  <g class="relationship">
+    <path class="relationship" d="M1032 60 L1032 -70" fill="none" stroke="#ffb770"/>
+    <path class="relationship" d="M1023.515 -61.515 L1032 -70 L1040.485 -61.515" fill="none" stroke="#ffb770"/>
+  </g>
+
+  <g class="generalization">
+    <path class="relationship" d="M1690 279 L1524 279" fill="none" stroke="#ffb770"/>
+    <path class="relationship" d="M1532.485 287.485 L1524 279 L1532.485 270.515 Z" fill="#ffffff" stroke="#ffb770"/>
+  </g>
+
+  <g class="generalization">
+    <path class="relationship" d="M1064 279 L1300 279" fill="none" stroke="#ffb770"/>
+    <path class="relationship" d="M1291.515 270.515 L1300 279 L1291.515 287.485 Z" fill="#ffffff" stroke="#ffb770"/>
+  </g>
+
+  <g class="relationship">
+    <path class="relationship" d="M1810 60 L1810 -20 L1740 -20 L1740 60" fill="none" stroke="#ffb770"/>
+    <path class="relationship" d="M1748.485 51.515 L1740 60 L1731.515 51.515" fill="none" stroke="#ffb770"/>
+  </g>
+
+  <g class="relationship">
+    <path class="relationship" d="M1440 332 L1440 410 L1370 410 L1370 332" fill="none" stroke="#ffb770"/>
+    <path class="relationship" d="M1361.515 340.485 L1370 332 L1378.485 340.485" fill="none" stroke="#ffb770"/>
+  </g>
+
+  <g class="relationship">
+    <path class="relationship" d="M1496.158 250 L1717.842 142" fill="none" stroke="#ffb770"/>
+    <path class="relationship" d="M1706.498 138.088 L1717.842 142 L1713.93 153.344" fill="none" stroke="#ffb770"/>
+  </g>
+
+  <g class="relationship">
+    <path class="relationship" d="M1802 250 L1802 142" fill="none" stroke="#ffb770"/>
+    <path class="relationship" d="M1793.515 150.485 L1802 142 L1810.485 150.485" fill="none" stroke="#ffb770"/>
+  </g>
+
+  <g class="relationship">
+    <path class="relationship" d="M952 308 L952 420" fill="none" stroke="#ffb770"/>
+    <path class="relationship" d="M960.485 411.515 L952 420 L943.515 411.515" fill="none" stroke="#ffb770"/>
+  </g>
+
+  <!-- Classes and diagrams -->
+  <rect class="shape" x="1690" y="60" width="224" height="82" rx="0" fill="#ffffff" stroke="#000000"/>
+  <g class="class">
+    <rect class="shape" x="1690.5" y="60.5" width="223" height="55.5" rx="0" fill="#ffb770"/>
+    <text fill="#000000" xml:space="preserve"><tspan x="1694" y="81.6">Class</tspan></text>
+
+    <text fill="#4b5563" xml:space="preserve"><tspan x="1694" y="105.6">profile of Class</tspan></text>
+  </g>
+  <text fill="#6b7280" xml:space="preserve"><tspan x="1694" y="133.6">dsv-dap:Class</tspan></text>
+
+
+  <rect class="shape" x="1290" y="60" width="383.12" height="130" rx="0" fill="#ffffff" stroke="#000000"/>
+  <g class="class">
+    <rect class="shape" x="1290.5" y="60.5" width="382.12" height="55.5" rx="0" fill="#ffb770"/>
+    <text fill="#000000" xml:space="preserve"><tspan x="1294" y="81.6">Term</tspan></text>
+
+    <text fill="#4b5563" xml:space="preserve"><tspan x="1294" y="105.6">profile of Resource</tspan></text>
+  </g>
+  <text fill="#6b7280" xml:space="preserve"><tspan x="1294" y="133.6">dsv-dap:Term</tspan></text>
+  <g class="attribute">
+    <text fill="#000000" xml:space="preserve"><tspan x="1294" y="157.6">- label : rdf:langString profile of label [1..*]</tspan></text>
+  </g>
+  <g class="attribute">
+    <text fill="#000000" xml:space="preserve"><tspan x="1294" y="181.6">- definition : rdf:langString profile of comment [0..*]</tspan></text>
+  </g>
+
+  <rect class="shape" x="1300" y="250" width="224" height="82" rx="0" fill="#ffffff" stroke="#000000"/>
+  <g class="class">
+    <rect class="shape" x="1300.5" y="250.5" width="223" height="55.5" rx="0" fill="#ffb770"/>
+    <text fill="#000000" xml:space="preserve"><tspan x="1304" y="271.6">Property</tspan></text>
+
+    <text fill="#4b5563" xml:space="preserve"><tspan x="1304" y="295.6">profile of Property</tspan></text>
+  </g>
+  <text fill="#6b7280" xml:space="preserve"><tspan x="1304" y="323.6">dsv-dap:Property</tspan></text>
+
+
+  <rect class="shape" x="840" y="60" width="224" height="82" rx="0" fill="#ffffff" stroke="#000000"/>
+  <g class="class">
+    <rect class="shape" x="840.5" y="60.5" width="223" height="55.5" rx="0" fill="#ffb770"/>
+    <text fill="#000000" xml:space="preserve"><tspan x="844" y="81.6">Vocabulary</tspan></text>
+
+    <text fill="#4b5563" xml:space="preserve"><tspan x="844" y="105.6">profile of Profile</tspan></text>
+  </g>
+  <text fill="#6b7280" xml:space="preserve"><tspan x="844" y="133.6">dsv-dap:Vocabulary</tspan></text>
+
+
+  <rect class="shape" x="1000" y="-200" width="319.92" height="130" rx="0" fill="#ffffff" stroke="#000000"/>
+  <g class="class">
+    <rect class="shape" x="1000.5" y="-199.5" width="318.92" height="103.5" rx="0" fill="#ffb770"/>
+    <text fill="#000000" xml:space="preserve"><tspan x="1004" y="-178.4">Vocabulary Specification Document</tspan></text>
+
+    <text fill="#4b5563" xml:space="preserve"><tspan x="1004" y="-154.4">profile of Resource Descriptor</tspan></text>
+
+    <text fill="#4b5563" xml:space="preserve"><tspan x="1004" y="-130.4"> Vocabulary Specification Document</tspan></text>
+
+    <text fill="#4b5563" xml:space="preserve"><tspan x="1004" y="-106.4"> Asset Distribution</tspan></text>
+  </g>
+  <text fill="#6b7280" xml:space="preserve"><tspan x="1004" y="-78.4">dsv-dap:VocabularySpecificationDocument</tspan></text>
+
+
+  <rect class="shape" x="1690" y="250" width="224" height="58" rx="0" fill="#ffffff" stroke="#000000"/>
+  <g class="class">
+    <rect class="shape" x="1690.5" y="250.5" width="223" height="31.5" rx="0" fill="#ffb770"/>
+    <text fill="#000000" xml:space="preserve"><tspan x="1694" y="271.6">ObjectProperty</tspan></text>
+  </g>
+  <text fill="#6b7280" xml:space="preserve"><tspan x="1694" y="299.6">dsv-dap:ObjectProperty</tspan></text>
+
+
+  <rect class="shape" x="840" y="250" width="224" height="58" rx="0" fill="#ffffff" stroke="#000000"/>
+  <g class="class">
+    <rect class="shape" x="840.5" y="250.5" width="223" height="31.5" rx="0" fill="#ffb770"/>
+    <text fill="#000000" xml:space="preserve"><tspan x="844" y="271.6">DatatypeProperty</tspan></text>
+  </g>
+  <text fill="#6b7280" xml:space="preserve"><tspan x="844" y="299.6">dsv-dap:DatatypeProperty</tspan></text>
+
+
+  <rect class="shape" x="840" y="420" width="224" height="82" rx="0" fill="#ffffff" stroke="#000000"/>
+  <g class="class">
+    <rect class="shape" x="840.5" y="420.5" width="223" height="55.5" rx="0" fill="#ffb770"/>
+    <text fill="#000000" xml:space="preserve"><tspan x="844" y="441.6">Datatype</tspan></text>
+
+    <text fill="#4b5563" xml:space="preserve"><tspan x="844" y="465.6">profile of Datatype</tspan></text>
+  </g>
+  <text fill="#6b7280" xml:space="preserve"><tspan x="844" y="493.6">dsv-dap:Datatype</tspan></text>
+
+
+  <!-- Arrow labels -->
+  <g class="relationship">
+    <rect class="shape" x="1123.04" y="76" width="107.92" height="50" rx="15" fill="#ffffff"/>
+    <rect class="shape" x="1123.04" y="76" width="107.92" height="50" rx="15" fill="#ffb770" fill-opacity="0.1"/>
+    <text fill="#000000" text-anchor="middle" xml:space="preserve"><tspan x="1177" y="93.8">is defined by</tspan></text>
+
+    <text fill="#000000" text-anchor="middle" xml:space="preserve"><tspan x="1177" y="117.8">(isDefinedBy)</tspan></text>
+    <rect class="shape" x="1072" y="73" width="42.08" height="20" rx="0" fill="#ffffff"/>
+    <rect class="shape" x="1072" y="73" width="42.08" height="20" rx="0" fill="#ffb770" fill-opacity="0.1"/>
+    <text fill="#000000" text-anchor="middle" xml:space="preserve"><tspan x="1093.04" y="87.8">[1..1]</tspan></text>
+  </g>
+
+  <g class="relationship">
+    <rect class="shape" x="966.12" y="-30" width="131.76" height="50" rx="15" fill="#ffffff"/>
+    <rect class="shape" x="966.12" y="-30" width="131.76" height="50" rx="15" fill="#ffb770" fill-opacity="0.1"/>
+    <text fill="#000000" text-anchor="middle" xml:space="preserve"><tspan x="1032" y="-12.2">has specification</tspan></text>
+
+    <text fill="#000000" text-anchor="middle" xml:space="preserve"><tspan x="1032" y="11.8">(has resource)</tspan></text>
+    <rect class="shape" x="981.92" y="32" width="42.08" height="20" rx="0" fill="#ffffff"/>
+    <rect class="shape" x="981.92" y="32" width="42.08" height="20" rx="0" fill="#ffb770" fill-opacity="0.1"/>
+    <text fill="#000000" text-anchor="middle" xml:space="preserve"><tspan x="1002.96" y="46.8">[1..1]</tspan></text>
+    <rect class="shape" x="981.92" y="-62" width="42.08" height="20" rx="0" fill="#ffffff"/>
+    <rect class="shape" x="981.92" y="-62" width="42.08" height="20" rx="0" fill="#ffb770" fill-opacity="0.1"/>
+    <text fill="#000000" text-anchor="middle" xml:space="preserve"><tspan x="1002.96" y="-47.2">[1..*]</tspan></text>
+  </g>
+
+  <g class="relationship">
+    <rect class="shape" x="1728.16" y="-33" width="93.68" height="26" rx="15" fill="#ffffff"/>
+    <rect class="shape" x="1728.16" y="-33" width="93.68" height="26" rx="15" fill="#ffb770" fill-opacity="0.1"/>
+    <text fill="#000000" text-anchor="middle" xml:space="preserve"><tspan x="1775" y="-15.2">subClassOf</tspan></text>
+    <rect class="shape" x="1689.92" y="32" width="42.08" height="20" rx="0" fill="#ffffff"/>
+    <rect class="shape" x="1689.92" y="32" width="42.08" height="20" rx="0" fill="#ffb770" fill-opacity="0.1"/>
+    <text fill="#000000" text-anchor="middle" xml:space="preserve"><tspan x="1710.96" y="46.8">[0..*]</tspan></text>
+  </g>
+
+  <g class="relationship">
+    <rect class="shape" x="1347.92" y="397" width="114.16" height="26" rx="15" fill="#ffffff"/>
+    <rect class="shape" x="1347.92" y="397" width="114.16" height="26" rx="15" fill="#ffb770" fill-opacity="0.1"/>
+    <text fill="#000000" text-anchor="middle" xml:space="preserve"><tspan x="1405" y="414.8">subPropertyOf</tspan></text>
+    <rect class="shape" x="1319.92" y="340" width="42.08" height="20" rx="0" fill="#ffffff"/>
+    <rect class="shape" x="1319.92" y="340" width="42.08" height="20" rx="0" fill="#ffb770" fill-opacity="0.1"/>
+    <text fill="#000000" text-anchor="middle" xml:space="preserve"><tspan x="1340.96" y="354.8">[0..*]</tspan></text>
+  </g>
+
+  <g class="relationship">
+    <rect class="shape" x="1575.28" y="183" width="63.44" height="26" rx="15" fill="#ffffff"/>
+    <rect class="shape" x="1575.28" y="183" width="63.44" height="26" rx="15" fill="#ffb770" fill-opacity="0.1"/>
+    <text fill="#000000" text-anchor="middle" xml:space="preserve"><tspan x="1607" y="200.8">domain</tspan></text>
+    <rect class="shape" x="1680.146" y="169.264" width="42.08" height="20" rx="0" fill="#ffffff"/>
+    <rect class="shape" x="1680.146" y="169.264" width="42.08" height="20" rx="0" fill="#ffb770" fill-opacity="0.1"/>
+    <text fill="#000000" text-anchor="middle" xml:space="preserve"><tspan x="1701.186" y="184.064">[0..1]</tspan></text>
+  </g>
+
+  <g class="relationship">
+    <rect class="shape" x="1776.52" y="183" width="50.96" height="26" rx="15" fill="#ffffff"/>
+    <rect class="shape" x="1776.52" y="183" width="50.96" height="26" rx="15" fill="#ffb770" fill-opacity="0.1"/>
+    <text fill="#000000" text-anchor="middle" xml:space="preserve"><tspan x="1802" y="200.8">range</tspan></text>
+    <rect class="shape" x="1751.92" y="150" width="42.08" height="20" rx="0" fill="#ffffff"/>
+    <rect class="shape" x="1751.92" y="150" width="42.08" height="20" rx="0" fill="#ffb770" fill-opacity="0.1"/>
+    <text fill="#000000" text-anchor="middle" xml:space="preserve"><tspan x="1772.96" y="164.8">[0..1]</tspan></text>
+  </g>
+
+  <g class="relationship">
+    <rect class="shape" x="926.52" y="351" width="50.96" height="26" rx="15" fill="#ffffff"/>
+    <rect class="shape" x="926.52" y="351" width="50.96" height="26" rx="15" fill="#ffb770" fill-opacity="0.1"/>
+    <text fill="#000000" text-anchor="middle" xml:space="preserve"><tspan x="952" y="368.8">range</tspan></text>
+    <rect class="shape" x="901.92" y="392" width="42.08" height="20" rx="0" fill="#ffffff"/>
+    <rect class="shape" x="901.92" y="392" width="42.08" height="20" rx="0" fill="#ffb770" fill-opacity="0.1"/>
+    <text fill="#000000" text-anchor="middle" xml:space="preserve"><tspan x="922.96" y="406.8">[0..1]</tspan></text>
+  </g>
+</svg>

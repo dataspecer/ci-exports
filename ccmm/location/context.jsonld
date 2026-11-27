@@ -105,7 +105,7 @@
         },
         "resource_url": {
           "@id": "https://model.ccmm.cz/vocabulary/ccmm#resourceUrl",
-          "@type": "xsd:anyURI"
+          "@type": "@id"
         },
         "qualified_attribution": {
           "@id": "http://www.w3.org/ns/prov#qualifiedAttribution",

@@ -14,7 +14,7 @@
     },
     "funding_program": {
       "@id": "https://model.ccmm.cz/vocabulary/ccmm#fundingProgram",
-      "@type": "xsd:anyURI"
+      "@type": "@id"
     },
     "funder": {
       "@id": "https://w3id.org/tib/datacite/property/funderIdentifier",
